@@ -1,0 +1,886 @@
+62022CJ0714
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62022CJ0714
+
+ JUDGMENT OF THE COURT (Ninth Chamber)
+
+21 March 2024 ( *1 )
+
+(Reference for a preliminary ruling – Consumer protection – Consumer credit agreements – Directive 2008/48/EC– Article 3(g), Article 10(2)(g) and Article 23 – Total cost of the credit to the consumer – No indication of the relevant costs – Penalty – Directive 93/13/EEC – Unfair terms in consumer contracts – Article 3(1), Article 4(2), Article 6(1) and Article 7(1) – Point 1(o) of the annex to Directive 93/13/EEC – Services ancillary to a credit agreement – Terms giving priority to the examination of the credit application of a consumer purchasing those services and to the making available of the sum borrowed as well as providing that consumer with the option of deferring or rescheduling the monthly loan instalments, in return for payment of additional costs)
+
+In Case C‑714/22,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Sofiyski rayonen sad (District Court, Sofia, Bulgaria), made by decision of 21 November 2022, received at the Court on 22 November 2022, in the proceedings
+
+S.R.G.
+
+v
+
+Profi Credit Bulgaria EOOD,
+
+THE COURT (Ninth Chamber),
+
+composed of O. Spineanu‑Matei (Rapporteur), President of the Chamber, S. Rodin and L.S. Rossi, Judges,
+
+Advocate General: J. Richard de la Tour,
+
+Registrar: R. Stefanova-Kamisheva, Administrator,
+
+having regard to the written procedure and further to the hearing on 15 November 2023,
+
+after considering the observations submitted on behalf of:
+
+–
+
+	
+
+Profi Credit Bulgaria EOOD, by H. Hinov and M.V. Voynova, advokati, and by K. Vodinova-Milcheva,
+
+–
+
+	
+
+the European Commission, by N. Nikolova, I. Rubene and N. Ruiz García, acting as Agents,
+
+having decided, after hearing the Advocate General, to proceed to judgment without an Opinion,
+
+gives the following
+
+Judgment
+
+1
+
+	
+
+This request for a preliminary ruling concerns the interpretation of Article 3(1), Article 4(1) and (2), Article 6(1) and Article 7(1) of Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts (OJ 1993 L 95, p. 29), of point 1(o) of the annex to Directive 93/13, and of Article 3(g), Article 10(2)(g) and Article 23 of Directive 2008/48/EC of the European Parliament and of the Council of 23 April 2008 on credit agreements for consumers and repealing Council Directive 87/102/EEC (OJ 2008 L 133, p. 66).
+
+2
+
+	
+
+The request has been made in proceedings between S.R.G., domiciled in Bulgaria, and Profi Credit Bulgaria EOOD, a credit institution governed by Bulgarian law, concerning the invalidity of a credit agreement and the consequences thereof for the repayment of sums due by way of interest and charges paid under that agreement.
+
+Legal context
+
+European Union law
+
+Directive 93/13
+
+3
+
+	
+
+Under Article 3 of Directive 93/13:
+
+‘1.   A contractual term which has not been individually negotiated shall be regarded as unfair if, contrary to the requirement of good faith, it causes a significant imbalance in the parties’ rights and obligations arising under the contract, to the detriment of the consumer.
+
+2.   A term shall always be regarded as not individually negotiated where it has been drafted in advance and the consumer has therefore not been able to influence the substance of the term, particularly in the context of a pre-formulated standard contract.
+
+The fact that certain aspects of a term or one specific term have been individually negotiated shall not exclude the application of this Article to the rest of a contract if an overall assessment of the contract indicates that it is nevertheless a pre-formulated standard contract.
+
+Where any seller or supplier claims that a standard term has been individually negotiated, the burden of proof in this respect shall be incumbent on him.
+
+3.   The Annex shall contain an indicative and non-exhaustive list of the terms which may be regarded as unfair.’
+
+4
+
+	
+
+Article 4 of that directive provides:
+
+‘1.   Without prejudice to Article 7, the unfairness of a contractual term shall be assessed, taking into account the nature of the goods or services for which the contract was concluded and by referring, at the time of conclusion of the contract, to all the circumstances attending the conclusion of the contract and to all the other terms of the contract or of another contract on which it is dependent.
+
+2.   Assessment of the unfair nature of the terms shall relate neither to the definition of the main subject matter of the contract nor to the adequacy of the price and remuneration, on the one hand, as against the services or goods supplies in exchange, on the other, in so far as these terms are in plain intelligible language.’
+
+5
+
+	
+
+Article 6(1) of that directive provides:
+
+‘Member States shall lay down that unfair terms used in a contract concluded with a consumer by a seller or supplier shall, as provided for under their national law, not be binding on the consumer and that the contract shall continue to bind the parties upon those terms if it is capable of continuing in existence without the unfair terms.’
+
+6
+
+	
+
+Article 7(1) of that directive provides:
+
+‘Member States shall ensure that, in the interests of consumers and of competitors, adequate and effective means exist to prevent the continued use of unfair terms in contracts concluded with consumers by sellers or suppliers.’
+
+7
+
+	
+
+The annex to Directive 93/13 is entitled ‘Terms referred to in Article 3(3)’. Point 1(o) of that annex is worded as follows:
+
+‘1.   Terms which have the object or effect of:
+
+…
+
+(o)
+
+	
+
+obliging the consumer to fulfil all his obligations where the seller or supplier does not perform his;’
+
+Directive 2008/48
+
+8
+
+	
+
+Recitals 19, 20, 43 and 47 of Directive 2008/48 state:
+
+‘(19)
+
+	
+
+In order to enable consumers to make their decisions in full knowledge of the facts, they should receive adequate information, which the consumer may take away and consider, prior to the conclusion of the credit agreement, on the conditions and cost of the credit and on their obligations. To ensure the fullest possible transparency and comparability of offers, such information should, in particular, include the annual percentage rate of charge [(APRC)] applicable to the credit, determined in the same way throughout the Community. …
+
+(20)
+
+	
+
+The total cost of the credit to the consumer should comprise all the costs, including interest, commissions, taxes, fees for credit intermediaries and any other fees which the consumer has to pay in connection with the credit agreement, except for notarial costs. …
+
+…
+
+(43)
+
+	
+
+In order to promote the establishment and functioning of the internal market and to ensure a high degree of protection for consumers throughout the Community, it is necessary to ensure the comparability of information relating to [APRC] throughout the Community. … This Directive should therefore clearly and comprehensively define the total cost of a credit to the consumer.
+
+…
+
+(47)
+
+	
+
+Member States should lay down rules on penalties applicable to infringements of the national provisions adopted pursuant to this Directive and ensure that they are implemented. While the choice of penalties remains within the discretion of the Member States, the penalties provided for should be effective, proportionate and dissuasive.’
+
+9
+
+	
+
+Article 3 of that directive, entitled ‘Definitions’, provides:
+
+‘For the purposes of this Directive, the following definitions shall apply:
+
+…
+
+(g)
+
+	
+
+“total cost of the credit to the consumer” means all the costs, including interest, commissions, taxes and any other kind of fees which the consumer is required to pay in connection with the credit agreement and which are known to the creditor, except for notarial costs; costs in respect of ancillary services relating to the credit agreement, in particular insurance premiums, are also included if, in addition, the conclusion of a service contract is compulsory in order to obtain the credit or to obtain it on the terms and conditions marketed;
+
+…
+
+(i)
+
+	
+
+[“APRC”] means the total cost of the credit to the consumer, expressed as an annual percentage of the total amount of credit, where applicable including the costs referred to in Article 19(2);
+
+…’
+
+10
+
+	
+
+Article 10 of that directive, entitled ‘Information to be included in credit agreements’, provides, in paragraph 2 thereof:
+
+‘The credit agreement shall specify in a clear and concise manner:
+
+…
+
+(g)
+
+	
+
+the [APRC] and the total amount payable by the consumer, calculated at the time the credit agreement is concluded; all the assumptions used in order to calculate that rate shall be mentioned;
+
+…’
+
+11
+
+	
+
+Article 19 of that directive, entitled ‘Calculation of the [APRC]’, provides, in paragraph 2 thereof:
+
+‘For the purpose of calculating the [APRC], the total cost of the credit to the consumer shall be determined, with the exception of any charges payable by the consumer for non-compliance with any of his commitments laid down in the credit agreement and charges other than the purchase price which, for purchases of goods or services, he is obliged to pay whether the transaction is effected in cash or on credit.
+
+The costs of maintaining an account recording both payment transactions and drawdowns, the costs of using a means of payment for both payment transactions and drawdowns, and other costs relating to payment transactions shall be included in the total cost of credit to the consumer unless the opening of the account is optional and the costs of the account have been clearly and separately shown in the credit agreement or in any other agreement concluded with the consumer.’
+
+12
+
+	
+
+Article 22 of Directive 2008/48, entitled ‘Harmonisation and imperative nature of this Directive’, is worded as follows:
+
+‘…
+
+3.   Member States shall further ensure that the provisions they adopt in implementation of this Directive cannot be circumvented as a result of the way in which agreements are formulated, in particular by integrating drawdowns or credit agreements falling within the scope of this Directive into credit agreements the character or purpose of which would make it possible to avoid its application.
+
+4.   Member States shall take the necessary measures to ensure that consumers do not lose the protection granted by this Directive by virtue of the choice of the law of a third country as the law applicable to the credit agreement, if the credit agreement has a close link with the territory of one or more Member States.’
+
+13
+
+	
+
+Article 23 of that directive, entitled ‘Penalties’, provides:
+
+‘Member States shall lay down the rules on penalties applicable to infringements of the national provisions adopted pursuant to this Directive and shall take all measures necessary to ensure that they are implemented. The penalties provided for must be effective, proportionate and dissuasive.’
+
+Bulgarian law
+
+The Law on Obligations and Contracts
+
+14
+
+	
+
+The Zakon za zadalzheniyata i dogovorite (Law on Obligations and Contracts, DV No 275 of 22 November 1950) provides, in Article 26(1) thereof:
+
+‘Contracts which contravene or circumvent the law and contracts which offend against moral standards, including contracts concerning anticipated inheritances, shall be null and void.’
+
+The ZPK
+
+15
+
+	
+
+The Zakon za potrebitelskia kredit (Law on Consumer Credit, DV No 18 of 5 March 2010; ‘the ZPK’) provides, in Article 10a thereof:
+
+‘(1) The creditor may charge the consumer fees and commissions for services ancillary to the consumer credit agreement.
+
+(2) The creditor may not claim payment of fees or commissions for activities related to the drawdown or management of the credit.
+
+(3) The creditor may charge fees and/or commissions for the same activity only once.
+
+(4) The nature and amount of fees and/or commissions and the activity for which they are charged must be clearly and precisely specified in the consumer credit agreement.’
+
+16
+
+	
+
+Under Article 11 of the ZPK:
+
+‘(1) The consumer credit agreement shall be drafted in intelligible language and shall contain:
+
+…
+
+10.
+
+	
+
+the [APRC] and the total amount payable by the consumer, calculated at the time the credit agreement is concluded; the assumptions used in order to calculate this rate, as defined in Annex 1, shall be mentioned;
+
+…’
+
+17
+
+	
+
+Article 19 of the ZPK is worded as follows:
+
+‘(1)   The [APRC] of the loan shall represent the current and future total cost of the credit to the consumer (interest; other direct or indirect costs; commissions or fees of any kind, …), expressed as an annual percentage of the total amount of the loan granted.
+
+(2)   The [APRC] of the loan shall be calculated using a formula …
+
+(3)   The calculation of the [APRC] of the loan shall not include charges:
+
+1.
+
+	
+
+that the consumer is to bear in the event of non-compliance with his or her commitments laid down in the consumer credit agreement;
+
+2.
+
+	
+
+other than the purchase price of the goods or services which, for purchases of goods or services, the consumer is obliged to pay whether the transaction is effected in cash or on credit;
+
+3.
+
+	
+
+to maintain an account in connection with the consumer credit agreement, the costs … being clearly and separately shown in the credit agreement or in any other agreement concluded with the consumer.
+
+(4)   … The [APRC] may not be more than five times the statutory rate of default interest in [Bulgarian leva (BGN)] or in a foreign currency determined by decision of the Council of Ministers of the Republic of Bulgaria.
+
+(5)   … Contractual terms that go beyond those specified in paragraph 4 shall be deemed to be void.
+
+(6)   … In the case of payments under contracts containing terms declared void under paragraph 5, amounts paid in excess of the threshold under paragraph 4 shall be offset against subsequent payments towards the loan.’
+
+18
+
+	
+
+Article 21 of the ZPK provides:
+
+‘(1)   Any term in a consumer credit agreement which has the object or effect of circumventing the requirements of this Law shall be void.
+
+(2)   Any term in a consumer credit agreement with a fixed interest rate which provides for compensation for the creditor greater than that provided for in Article 32(4) shall be void.’
+
+19
+
+	
+
+Article 22 of the ZPK provides:
+
+‘… In the event of non-compliance with the requirements set out in Article 10(1), Article 11(1)(7) to (12) and (20), Article 11(2) or Article 12(1)(7) to (9), the consumer credit agreement shall be null and void.’
+
+20
+
+	
+
+Article 23 of the ZPK provides:
+
+‘If a consumer credit agreement has been declared null and void, the consumer shall repay only the net amount of the loan and shall not owe any interest or other fees for the credit.’
+
+21
+
+	
+
+Under Paragraph 1(1) of the Supplementary Provisions to the ZPK:
+
+‘For the purposes of this Law:
+
+“total cost of the credit to the consumer” means all the costs of the credit, including interest, commissions, taxes, remuneration for credit intermediaries and all other kind of fees directly connected with the consumer credit agreement which are known to the creditor and which the consumer is required to pay, including costs in respect of ancillary services relating to the credit agreement, in particular insurance premiums, where the conclusion of a service contract is compulsory in order to obtain the credit, or where the credit is granted as a result of applying commercial terms and conditions. The total cost of the credit to the consumer does not include notarial costs.’
+
+The GPK
+
+22
+
+	
+
+The Grazhdanski protsesualen kodeks (Code of Civil Procedure, DV No 59 of 20 July 2007; ‘the GPK’) provides, in Article 7(3) thereof:
+
+‘… The court shall examine of its own motion whether unfair terms are used in a contract concluded with a consumer. It shall give the parties the opportunity to make observations on those matters.’
+
+23
+
+	
+
+Under Article 78 of the GPK:
+
+‘(1)   The charges paid by the applicant, the costs and the lawyers’ fees, if the applicant had a lawyer, shall be borne by the defendant in proportion to the part of the claim which has been upheld.
+
+(2)   Where the defendant has not, by his or her conduct, given cause for the initiation of the proceedings and acknowledges the merits of the claim, the costs shall be borne by the applicant.
+
+(3)   The defendant is also entitled to claim costs which he or she has incurred in proportion to the part of the claim that has been rejected.
+
+(4)   The defendant is entitled to costs also in the event of the case being terminated.
+
+…’
+
+The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+24
+
+	
+
+On 10 October 2019, the parties to the main proceedings concluded a consumer credit agreement for BGN 5000 (approximately EUR 2500) with a term of 36 months, subject to an annual interest rate of 41% and an APRC of 49.02%. The total amount to be repaid under that agreement was BGN 8 765.02 (approximately EUR 4400).
+
+25
+
+	
+
+That agreement provided that the customer had the option of purchasing one or more ancillary services, the rules of use of which were set out in the general terms and conditions of that agreement. Thus, under point 15 of those terms and conditions, the customer could choose not to purchase any ancillary services or to purchase one or more such services. Point 15.1 of those terms and conditions described the ‘Fast’ service as giving priority to the examination of the credit application of the customer purchasing that service and to the making available of the funds, which was to take place within 24 hours of receipt by the creditor of the signed credit agreement. In point 15.2 of those terms and conditions, the ‘Flexi’ service was described as allowing, under certain conditions, an amendment to the initial repayment plan. That service provided the option of deferring the monthly instalments in the event of, inter alia, incapacity for work, termination of the employment contract, unpaid leave, loss of or damage to property as a result of disaster or the death of the person contributing to the household income. According to point 15.2.2.1 of those terms and conditions, in order to make use of that ‘Flexi’ service, an addendum to the contract had to be signed.
+
+26
+
+	
+
+S.R.G. chose to purchase the ancillary services ‘Fast’ and ‘Flexi’ at the price of BGN 1250 (approximately EUR 625) and BGN 2500 (approximately EUR 1250), respectively. Since those prices were included in the repayment plan as components of the credit agreement at issue, they increased the total amount to be repaid under that agreement to BGN 12 515.02 (approximately EUR 6257).
+
+27
+
+	
+
+According to the referring court, in the case in the main proceedings, it is common ground that those ancillary services were freely sought when the credit agreement at issue was concluded, without it being claimed that S.R.G. was misled as regards the nature of that agreement or that Profi Credit Bulgaria would not have agreed to grant that loan if those services had not been purchased.
+
+28
+
+	
+
+S.R.G. brought an action for a negative declaration before the referring court seeking a finding that she does not owe Profi Credit Bulgaria a total amount of BGN 7 515.02 (approximately EUR 3775), of which BGN 3 765.02 (approximately EUR 1900) corresponds to the aggregate amount of interest under the agreement, including the annual interest rate and the APRC for the entire term of the credit agreement at issue, and BGN 3750 (approximately EUR 1875) to the total amount payable in respect of the ancillary services ‘Fast’ and ‘Flexi’.
+
+29
+
+	
+
+According to S.R.G., the contractual terms establishing the obligation to pay that interest and those services are void, on the ground that they offend against moral standards. First, the applicant in the main proceedings submits that those services, in exchange for which an amount exceeding half of the amount loaned is claimed, in fact form part of the activity of credit management. According to Article 10a(2) of the ZPK, creditors may not claim payment of fees and commissions for that activity. Second, the applicant claims that the price of those services should have been included in the APRC because it represents a cost included in the credit agreement and in the repayment plan at issue. In the applicant’s submission, the creditor deliberately failed to include that price in the APRC in order to circumvent Article 19(4) of the ZPK, according to which the APRC may not be more than five times the statutory rate of default interest in BGN or in a foreign currency.
+
+30
+
+	
+
+By contrast, Profi Credit Bulgaria claims that S.R.G. chose to purchase the ancillary services ‘Fast’ and ‘Flexi’ in knowledge of the information provided to her before the credit agreement at issue was concluded and that S.R.G. availed herself of those services. As regards the interest rates and the calculation of the APRC, the defendant in the main proceedings submits that that credit agreement stipulated that that calculation was made on the basis of the initial amounts of interest and other costs and that it was applied until the expiry of the term of that agreement.
+
+31
+
+	
+
+In that context, the referring court has doubts, in the first place, regarding the interpretation of Directive 2008/48, in particular regarding the determination of the APRC, the consequences of an inaccurate indication of that rate in a credit agreement and the proportionality of the penalty provided for by the Bulgarian legislation if that rate is incorrectly indicated.
+
+32
+
+	
+
+In that regard, that court states that, in accordance with Article 22 of the ZPK, read in conjunction with Article 11(1)(10) and Article 23 thereof, a consumer credit agreement that does not specify the APRC is null and void, the consumer being liable only for the net amount of the loan, without any interest or fees. The referring court is therefore uncertain whether, in the present case, the agreed remuneration for the ancillary services ‘Fast’ and ‘Flexi’ is a cost that should have been included in the formula for calculating the APRC, in accordance with Article 3(g) of Directive 2008/48, and whether the inaccurate indication of that rate in the credit agreement at issue could be equated with a failure to indicate that rate. The referring court also raises the question of whether national legislation that renders null and void an agreement indicating an incorrect APRC and thereby deprives the creditor of his or her right to the interest and charges provided for in that agreement is proportionate, within the meaning of that directive.
+
+33
+
+	
+
+In the second place, pointing to its obligation to review whether terms in consumer contracts are unfair, the referring court is uncertain as regards the interpretation of Directive 93/13, in particular whether terms of a credit agreement relating to ancillary services such as those at issue in the dispute before it come within the main subject matter of that credit agreement and, as the case may be, whether they are unfair.
+
+34
+
+	
+
+In the third and last place, still in the light of Directive 93/13, as interpreted by the Court of Justice in the judgment of 16 July 2020, Caixabank and Banco Bilbao Vizcaya Argentaria (C‑224/19 and C‑259/19, EU:C:2020:578), the referring court raises the question of the award of costs, in particular whether a potential obligation on the part of S.R.G. to pay part of the costs if her claim were upheld in part would infringe Article 6(1) and Article 7(1) of that directive.
+
+35
+
+	
+
+In those circumstances the Sofiyski rayonen sad (District Court, Sofia, Bulgaria) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+‘(1)
+
+	
+
+Is Article 3(g) of [Directive 2008/48] to be interpreted as meaning that costs in respect of ancillary services agreed in connection with a consumer credit agreement, such as fees for the possibility of deferring and reducing instalments, constitute part of the [APRC] for the credit?
+
+(2)
+
+	
+
+Is Article 10(2)(g) of [Directive 2008/48] to be interpreted as meaning that an incorrect indication of the [APRC] in a credit agreement between a trader and a consumer borrower must be regarded as a failure to indicate the [APRC] in the credit agreement and the national court must apply the consequences provided for in national law for failure to indicate the [APRC] in a consumer agreement?
+
+(3)
+
+	
+
+Is Article [22(4)] of [Directive 2008/48] to be interpreted as meaning that a penalty provided for in national law, in the form of the nullity of the consumer credit agreement, whereby only the principal amount granted is to be repaid, is proportionate where the [APRC] is not accurately indicated in the consumer credit agreement?
+
+(4)
+
+	
+
+Is Article 4(1) and (2) of [Directive 93/13] to be interpreted as meaning that a fee for a package of ancillary services provided for in a supplementary agreement to a consumer credit agreement, which has been concluded separately and in addition to the main agreement, must be regarded as part of the main subject matter of the agreement and cannot therefore be the subject matter of the assessment of unfairness?
+
+(5)
+
+	
+
+Is Article 3(1) of [Directive 93/13] read in conjunction with point 1(o) of the annex to that directive to be interpreted as meaning that a term in an agreement on ancillary services relating to consumer credit is unfair if it grants the consumer the abstract possibility of deferring and rescheduling payments, in respect of which that consumer owes fees even if he or she does not make use of it?
+
+(6)
+
+	
+
+Are Articles 6(1) and 7(1) of Directive 93/13 and the principle of effectiveness to be interpreted as meaning that they preclude a legal provision whereby the consumer may be made to bear part of the costs of the proceedings in the following cases: [first,] where a claim for a declaration that sums are not owed by reason of the established unfairness of a term is upheld in part […]; [second,] where it is practically impossible or excessively difficult for the consumer, in the exercise of his or her rights, to specify the amount of the claim; [third,] in all cases where an unfair term is present, including in cases where the presence of the unfair term does not directly affect, either in whole or in part, the amount of the creditor’s claim, or where the term has no direct connection with the subject matter of the proceedings?’
+
+Consideration of the questions referred
+
+The first question
+
+36
+
+	
+
+As a preliminary point, it should be noted that, although, in the wording of the first question, the referring court confines itself to referring to the service ancillary to the consumer credit agreement that enables the repayment of the monthly instalments to be deferred or the amount thereof to be reduced, the fact remains that it is apparent from the request for a preliminary ruling that the issues raised by that question concern the two ancillary services at issue in the main proceedings, referred to in paragraph 25 above.
+
+37
+
+	
+
+Therefore, in order to provide that court with a useful and complete answer, it is appropriate to consider that that question concerns those two ancillary services and that, by it, the referring court asks, in essence, whether Article 3(g) of Directive 2008/48 must be interpreted as meaning that the costs relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof come within the concept of ‘total cost of the credit to the consumer’, within the meaning of that provision, and, consequently, that of ‘APRC’, within the meaning of Article 3(i) of that directive.
+
+38
+
+	
+
+According to Article 3(g) of Directive 2008/48, the concept of ‘total cost of the credit to the consumer’ includes all the costs, including interest, commissions, taxes and any other kind of fees which the consumer is required to pay in connection with the credit agreement and which are known to the creditor, except for notarial costs. In accordance with that provision, those costs also include costs in respect of ancillary services relating to the credit agreement, provided that the conclusion of a service contract is compulsory in order to obtain the credit or to obtain it on the terms and conditions marketed.
+
+39
+
+	
+
+Pursuant to Article 3(i) of Directive 2008/48, the APRC means the total cost of the credit to the consumer, expressed as an annual percentage of the total amount of credit, where applicable including the costs referred to in Article 19(2) of that directive.
+
+40
+
+	
+
+In order to guarantee extensive consumer protection, the EU legislature has broadly defined the ‘total cost of the credit to the consumer’ (judgment of 16 July 2020, Soho Group, C‑686/19, EU:C:2020:582, paragraph 31 and the case-law cited) as covering all the costs which the consumer is required to pay in connection with the credit agreement and which are known to the creditor (judgment of 21 April 2016, Radlinger and Radlingerová, C‑377/14, EU:C:2016:283, paragraph 84).
+
+41
+
+	
+
+Furthermore, in order to guarantee that protection, Article 22(3) of Directive 2008/48 requires the Member States to ensure that the provisions they adopt in implementation of that directive cannot be circumvented as a result of the way in which agreements are formulated (judgment of 11 September 2019, Lexitor, C‑383/18, EU:C:2019:702, paragraph 30).
+
+42
+
+	
+
+It follows from the foregoing that, in order to answer the first question, it is necessary to examine, first, whether the purchase of the ancillary services concerned is a condition in order to obtain the credit or is made compulsory in order to obtain it on the terms and conditions marketed, and second, whether the services are in fact ancillary to the credit agreement at issue in the main proceedings and not a contrivance to conceal the actual cost of that credit, as S.R.G. in essence claims.
+
+43
+
+	
+
+In that regard, it must be stated at the outset that it is for the referring court alone to carry out such an examination, taking into account all the information available to it. In that examination, that court cannot base its decision solely on the fact that the ancillary services at issue in the main proceedings were freely sought at the time that credit agreement was concluded or that, as Profi Credit Bulgaria argued at the hearing, the amounts payable under that agreement and the costs relating to those services were indicated separately in the initial repayment plan.
+
+44
+
+	
+
+That court must also have regard to all the provisions and general terms and conditions of the credit agreement at issue in the main proceedings as well as to the legal context and factual circumstances attending that agreement in order to establish whether its conclusion was conditional on the purchase of the ancillary services concerned or made compulsory by those provisions and general terms and conditions or by the terms and conditions marketed and whether a contractual arrangement such as that at issue in the main proceedings was not in fact intended to externalise in part the remuneration for the sum borrowed by means of provisions relating to those ancillary services, so that that remuneration is not contained in its entirety in that agreement and, consequently, does not come within the concept of ‘total cost of the credit to the consumer’ or that of ‘APRC’, within the meaning of Directive 2008/48.
+
+45
+
+	
+
+In particular, in accordance with the case-law recalled in paragraph 41 above, it is for the referring court to ascertain whether the failure to include the price of those ancillary services in the APRC was in fact intended to circumvent the prohibition laid down in Article 19(4) of the ZPK, which provides that that rate may not be more than five times the statutory rate of default interest in BGN or in a foreign currency determined by decision of the Council of Ministers of the Republic of Bulgaria.
+
+46
+
+	
+
+In the light of those considerations, the answer to the first question is that Article 3(g) of Directive 2008/48 must be interpreted as meaning that the costs relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof come within the concept of ‘total cost of the credit to the consumer’, within the meaning of that provision, and, consequently, that of ‘APRC’, within the meaning of Article 3(i) of that directive, where the purchase of those services proves to be compulsory in order to obtain the credit concerned or where those services are a contrivance to conceal the actual cost of that credit.
+
+The second and third questions
+
+47
+
+	
+
+As a preliminary point, it must be noted that, even though the referring court points, in its third question, to Article 22(4) of Directive 2008/48, it is apparent from the request for a preliminary ruling, as clarified by that court, that its doubts relate to Article 23 of that directive.
+
+48
+
+	
+
+Furthermore, since the Court of Justice has jurisdiction to provide that court with all the elements of interpretation which may be useful for the judgment in the main proceedings, by extracting from the body of material provided by that court, and in particular from the statement of reasons for the order for reference, the elements of EU law which require interpretation in the light of the subject matter of the dispute (see, to that effect, judgment of 22 April 2021, Profi Credit Slovakia, C‑485/19, EU:C:2021:313, paragraph 50 and the case-law cited), it is appropriate to answer the third question having regard to Article 23 of that directive.
+
+49
+
+	
+
+Consequently, it is appropriate to consider that, by its second and third questions, which it is appropriate to examine together, the referring court asks, in essence, whether Article 10(2)(g) and Article 23 of Directive 2008/48 must be interpreted as precluding a consumer credit agreement from being deemed to be free of interest and charges where that agreement does not specify an APRC that includes all of the costs provided for in Article 3(g) of that directive, with the result that its annulment entails only the repayment, by the consumer concerned, of the principal amount loaned.
+
+50
+
+	
+
+In order to answer these questions, it must be borne in mind, first, that Article 10(2) of Directive 2008/48 provides for full harmonisation as regards the information which must imperatively be included in a credit agreement (see, to that effect, judgment of 9 November 2016, Home Credit Slovakia, C‑42/15, EU:C:2016:842, paragraph 56). To that end, Article 10(2)(g) of that directive provides that the credit agreement is to specify, in a clear and concise manner, the APRC and the total amount payable by the consumer, calculated at the time the credit agreement is concluded.
+
+51
+
+	
+
+It is apparent from the Court’s case-law that the inclusion of the APRC in a credit agreement is vitally important, in particular in so far as it enables the consumer to assess the extent of his or her liability (see, to that effect, judgment of 9 November 2016, Home Credit Slovakia, C‑42/15, EU:C:2016:842, paragraphs 67 and 70).
+
+52
+
+	
+
+Second, it is apparent from Article 23 of Directive 2008/48, read in the light of recital 47 thereof, that, while the choice of rules on penalties applicable to infringements of the national provisions adopted pursuant to that directive remains within the discretion of the Member States, the penalties thus provided must be effective, proportionate and dissuasive. This means that the severity of those penalties must be commensurate with the seriousness of the infringements for which they are imposed, in particular by ensuring a genuinely deterrent effect, while respecting the general principle of proportionality (see, to that effect, judgment of 9 November 2016, Home Credit Slovakia, C‑42/15, EU:C:2016:842, paragraphs 61 to 63 and the case-law cited).
+
+53
+
+	
+
+Having regard to the vital importance for the consumer that the APRC be included in such a contract, the Court held that a national court may apply of its own motion national legislation which provides that the failure to include the APRC means that the credit granted is deemed to be free of interest and charges (see, to that effect, order of 16 November 2010, Pohotovosť, C‑76/10, EU:C:2010:685, paragraph 77).
+
+54
+
+	
+
+The Court also held that, in a situation in which a consumer credit agreement referred to an estimated APRC, with its exact amount to be specified after the loan was granted, such a penalty of forfeiture by the creditor of entitlement to interest and charges must be considered to be proportionate, within the meaning of Article 23 of Directive 2008/48 (see, to that effect, judgment of 9 November 2016, Home Credit Slovakia, C‑42/15, EU:C:2016:842, paragraphs 18 and 69 to 71).
+
+55
+
+	
+
+In the present case, having regard to the fact that including the APRC in a consumer credit agreement is vital in order to enable consumers to be aware of their rights and obligations and having regard to the requirement to include in the calculation of that rate all of the costs referred to in Article 3(g) of Directive 2008/48, the Court finds that an indication of an APRC that does not accurately reflect all of those costs deprives consumers of the possibility of assessing the extent of their liability in the same way as a failure to include that rate. Consequently, where an APRC is specified that does not include all those costs, a penalty of forfeiture by the creditor of entitlement to interest and charges reflects the seriousness of such an infringement and is dissuasive and proportionate.
+
+56
+
+	
+
+In the light of the foregoing considerations, the answer to the second and third questions is that Article 10(2)(g) and Article 23 of Directive 2008/48 must be interpreted as not precluding a consumer credit agreement from being deemed to be free of interest and charges where that agreement does not specify an APRC that includes all of the costs provided for in Article 3(g) of that directive, with the result that its annulment entails only the repayment, by the consumer concerned, of the principal amount loaned.
+
+The fourth question
+
+57
+
+	
+
+By its fourth question, the referring court asks, in essence, whether Article 4(2) of Directive 93/13 must be interpreted as meaning that the terms relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof come within the main subject matter of that agreement, within the meaning of that provision, and are therefore exempt from an assessment as to whether they are unfair.
+
+58
+
+	
+
+As a preliminary point, it should be noted that, although, according to the wording of that question, the ancillary services at issue in the main proceedings were provided for in an agreement ancillary to the credit agreement concerned, this is not clear from the request for a preliminary ruling. Nevertheless, since the terms relating to those services are intrinsically linked to that agreement, they cannot exist independently, in the absence of that agreement, and the costs relating to those services are included in the loan repayment plan. Those terms must therefore be analysed in the context of that agreement and in relation to its subject matter, irrespective of whether they are contained in the agreement itself or in an agreement ancillary thereto.
+
+59
+
+	
+
+In that regard, it should be borne in mind that Article 4(2) of Directive 93/13 lays down an exception to the mechanism for reviewing the substance of unfair terms as provided for in the system of consumer protection put in place by that directive, and that that provision must therefore be interpreted strictly (judgment of 20 September 2017, Andriciuc and Others, C‑186/16, EU:C:2017:703, paragraph 34 and the case-law cited).
+
+60
+
+	
+
+As far as concerns the category of contractual terms falling within the concept of ‘main subject matter of the contract’, within the meaning of that provision, the Court held that those terms must be understood as being those that lay down the essential obligations of the contract and, as such, characterise it. By contrast, terms ancillary to those that define the very essence of the contractual relationship cannot fall within that concept (judgment of 20 September 2017, Andriciuc and Others, C‑186/16, EU:C:2017:703, paragraphs 35 and 36 and the case-law cited).
+
+61
+
+	
+
+The essential obligations of a credit agreement are that the lender undertakes, in particular, to make available to the borrower a certain sum of money and the latter undertakes, in particular, to repay that sum, usually with interest, on the scheduled payment dates (see, to that effect, judgment of 16 March 2023, Caixabank (Loan arrangement fees), C‑565/21, EU:C:2023:212, paragraph 18 and the case-law cited).
+
+62
+
+	
+
+In the light of the obligation strictly to interpret Article 4(2) of Directive 93/13, the Court held that the obligation to pay for services related to the review, grant or processing of loans or other similar services inherent in the lender’s activity with a view to granting the loan cannot be regarded as forming part of the main obligations arising from a credit agreement as identified by the case-law cited in the preceding paragraph of the present judgment (judgment of 16 March 2023, Caixabank (Loan arrangement fees), C‑565/21, EU:C:2023:212, paragraphs 22 and 23).
+
+63
+
+	
+
+It should also be recalled that the terms referred to in that provision escape any assessment as to whether they are unfair only if the national court having jurisdiction should form the view, following a case-by-case examination, that they were drafted by the seller or supplier in plain intelligible language (judgment of 5 June 2019, GT, C‑38/17, EU:C:2019:461, paragraph 31 and the case-law cited).
+
+64
+
+	
+
+In the present case, as regards the classification of the terms concerning the costs relating to the ancillary services at issue in the main proceedings, it is apparent from the order for reference that those services relate to the examination of the credit application of the consumer purchasing those services and the making available of the sum borrowed being prioritised as well as to that consumer being provided with the option of deferring the repayment of the monthly instalments or reducing the amount thereof.
+
+65
+
+	
+
+In the light of the case-law recalled in paragraphs 61 and 62 above, it does not therefore appear that those services go to the very essence of the contractual relationship concerned, namely, first, the making available by the lender of a sum of money, and second, the repayment of that sum, usually with interest, on the scheduled payment dates, which it is nevertheless for the referring court to ascertain.
+
+66
+
+	
+
+Furthermore, if, following the examination which the referring court must carry out in the context of the first question, that court reaches the conclusion that the costs relating to the ancillary services at issue in the main proceedings should have been included in the ‘total cost of the credit to the consumer’, within the meaning of Article 3(g) of Directive 2008/48, and, accordingly, in the APRC, within the meaning of Article 3(i) of that directive, that does not mean that the terms relating to those costs are automatically covered by the exception laid down in Article 4(2) of Directive 93/13.
+
+67
+
+	
+
+As the Court held in paragraph 47 of the judgment of 26 February 2015, Matei (C‑143/13, EU:C:2015:127), the exact scope of the concept of ‘main subject matter’, within the meaning of Article 4(2) of Directive 93/13, cannot be determined by the concept of ‘total cost of the credit to the consumer’, within the meaning of Article 3(g) of Directive 2008/48. Thus, the fact that different types of costs are included in the total cost of consumer credit is not decisive for the purpose of establishing that those costs come within the essential obligations of the credit agreement concerned (see, to that effect, judgment of 3 September 2020, Profi Credit Polska and Others, C‑84/19, C‑222/19 and C‑252/19, EU:C:2020:631, paragraph 69).
+
+68
+
+	
+
+In the light of the foregoing considerations, the answer to the fourth question is that Article 4(2) of Directive 93/13 must be interpreted as meaning that the terms relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof do not come, in principle, within the main subject matter of that agreement, within the meaning of that provision, and are therefore not exempt from an assessment as to whether they are unfair.
+
+The fifth question
+
+69
+
+	
+
+By its fifth question, the referring court asks, in essence, whether Article 3(1) of Directive 93/13, read in conjunction with point 1(o) of the annex to that directive, must be interpreted as meaning that a term in a consumer credit agreement that allows the consumer concerned to defer or reschedule the monthly instalments in return for payment of additional costs, even though it is not certain that that consumer will make use of that option, is unfair.
+
+70
+
+	
+
+The annex to Directive 93/13, to which Article 3(3) of that directive refers, contains an indicative and non-exhaustive list of the terms which may be regarded as unfair, including, in point 1(o) of that annex, those which have the object or effect of obliging the consumer to fulfil all his or her obligations even though the seller or supplier does not perform his or hers.
+
+71
+
+	
+
+It is apparent from the wording of point 1(o) that it does not cover a term in a credit agreement that allows the consumer concerned to defer or reschedule the monthly instalments of the loan in return for payment of additional costs, in so far as such a term provides for an obligation that the seller or supplier is, in principle, required to perform, in exchange for costs corresponding to greater flexibility granted to the consumer in the performance of that agreement.
+
+72
+
+	
+
+Nevertheless, this does not mean that such a term cannot be regarded as being unfair, within the meaning of Article 3(1) of Directive 93/13, where it has not been individually negotiated and where, contrary to the requirement of good faith, it causes a significant imbalance in the parties’ rights and obligations arising under the contract, to the detriment of the consumer.
+
+73
+
+	
+
+As regards the question whether or not a specific contractual term is unfair, Article 4(1) of Directive 93/13 provides that the unfairness of a contractual term must be assessed taking into account the nature of the goods or services for which the contract was concluded and by referring, at the time of conclusion of the contract, to all the circumstances attending the conclusion of the contract and to all the other terms of that contract or of another contract on which it is dependent.
+
+74
+
+	
+
+In any case, it must be recalled that, in the assessment of whether a contractual term is unfair, it is for the referring court to rule on the classification of that term in accordance with the particular circumstances of the case, and for the Court of Justice to elicit from the provisions of Directive 93/13 the criteria that the national court may or must apply when examining contractual terms (judgment of 10 September 2020, A (Subletting a social housing dwelling), C‑738/19, EU:C:2020:687, paragraph 31 and the case-law cited).
+
+75
+
+	
+
+It follows that, in the present case, it is for the referring court to determine whether the term allowing the consumer concerned to defer or reschedule the monthly instalments of the loan in return for payment of additional costs, irrespective of whether that consumer actually makes use of those services, must be regarded as unfair in the light of all the circumstances attending the conclusion of the credit agreement.
+
+76
+
+	
+
+To that end, both the transparent nature of that term, as required under Article 5 of Directive 93/13 (see, to that effect, judgment of 10 June 2021, BNP Paribas Personal Finance, C‑609/19, EU:C:2021:469, paragraph 62 and the case-law cited), and the discretion the creditor has in respect of a request for an amendment to the loan repayment plan constitute criteria to be taken into consideration in the assessment of whether that term is unfair, and in particular of any contractual imbalance created by it.
+
+77
+
+	
+
+In the latter regard, it is also for the referring court to weigh up the amount of the additional costs incurred in purchasing the service concerned against the amount of the loan granted, also taking into account all the fees associated with the credit agreement at issue in the main proceedings. The Court has previously held that, where the quantitative economic evaluation shows that there is a significant imbalance, that finding may be made without it being necessary to examine other factors. In the case of a credit agreement, such a finding may notably be made if the services provided in exchange for the non-interest costs were not reasonably covered in the context of the conclusion or management of that agreement, or if the amounts charged to the consumer in respect of the costs of granting and managing the loan are clearly disproportionate in relation to the amount of the loan (judgment of 23 November 2023, Provident Polska, C‑321/22, EU:C:2023:911, paragraph 47 and the case-law cited).
+
+78
+
+	
+
+In the light of the foregoing considerations, the answer to the fifth question is that Article 3(1) of Directive 93/13 must be interpreted as meaning that a term in a consumer credit agreement that allows the consumer concerned to defer or reschedule the monthly instalments in return for payment of additional costs, even though it is not certain that that consumer will make use of that option, may be unfair, where, in particular, those costs are clearly disproportionate in relation to the amount of the loan granted.
+
+The sixth question
+
+79
+
+	
+
+By its sixth question, the referring court asks, in essence, whether Article 6(1) and Article 7(1) of Directive 93/13, read in the light of the principle of effectiveness, must be interpreted as precluding national legislation which makes it possible to require a consumer to bear part of the costs of the proceedings where, following a finding that a contractual term is void for being unfair, that consumer’s claim for reimbursement of sums which he or she overpaid under that term is upheld only in part.
+
+80
+
+	
+
+In particular, the referring court raises the question whether the Court’s interpretation in paragraph 99 of the judgment of 16 July 2020, Caixabank and Banco Bilbao Vizcaya Argentaria (C‑224/19 and C‑259/19, EU:C:2020:578), applies only where it is impossible in practice or excessively difficult to determine the extent of a consumer’s right to reimbursement of sums which that consumer has paid under a term held to be unfair or whether that interpretation also applies in all situations in which that consumer’s claim for reimbursement of those sums is upheld only in part.
+
+81
+
+	
+
+According to that court, if it does not uphold S.R.G.’s claim in its entirety, holding that the terms relating to the ancillary services at issue in the main proceedings come within the main subject matter of the contract, within the meaning of Article 4(2) of Directive 93/13, or that the costs relating to those services should not be included in the APRC pursuant to Directive 2008/48, or that the claim relating to the forfeiture by the creditor of its entitlement to interest and charges must be upheld only in part, it would also have to rule on the award of the costs, under Article 78 of the GPK.
+
+82
+
+	
+
+It must be recalled that the award of the costs of judicial proceedings before the national courts falls within the procedural autonomy of the Member States, subject to compliance with the principles of equivalence and effectiveness (judgment of 22 September 2022, Servicios prescriptor y medios de pagos EFC SAU, C‑215/21, EU:C:2022:723, paragraph 34 and the case-law cited).
+
+83
+
+	
+
+Although the principle of effectiveness does not preclude, in general, the consumer from incurring certain legal costs when he or she brings proceedings for a declaration that a contractual term is unfair (judgment of 7 April 2022, Caixabank, C‑385/20, EU:C:2022:278, paragraph 51), it should also be observed that Directive 93/13 confers on consumers the right to apply to a court to have a contractual term declared unfair and disapplied, a right the effectiveness of which must be preserved. Therefore, the rules on the award of costs in such proceedings must not deter consumers from exercising that right (see, to that effect, judgment of 22 September 2022, Servicios prescriptor y medios de pagos EFC SAU, C‑215/21, EU:C:2022:723, paragraph 37 and the case-law cited).
+
+84
+
+	
+
+In paragraph 99 of the judgment of 16 July 2020, Caixabank and Banco Bilbao Vizcaya Argentaria (C‑224/19 and C‑259/19, EU:C:2020:578), the Court held that Articles 6(1) and 7(1) of Directive 93/13 and the principle of effectiveness must be interpreted as precluding a system whereby the consumer may be made to bear part of the costs of proceedings depending on the level of the sums paid though not due which are refunded to him or her following a finding that a contractual term is void for being unfair, given that such a system creates a substantial obstacle that is likely to discourage consumers from exercising the right to an effective judicial review of the potential unfairness of contractual terms as conferred by Directive 93/13.
+
+85
+
+	
+
+The procedural rules on the taxation of costs at issue in the case which gave rise to that judgment made it possible, as is apparent from paragraph 94 of that judgment, not to order the seller or supplier to pay all the costs of the proceedings where an action brought by a consumer for a declaration as to the invalidity of an unfair contractual term was upheld in its entirety, but the action for a refund of sums paid pursuant to that term was upheld only in part.
+
+86
+
+	
+
+It is apparent from the case-law arising from that judgment that, in a situation in which claims for the annulment of a contractual term on the ground that it is unfair are upheld in their entirety, the mere fact that the repayment of the sums paid pursuant to that term is only partial, owing to the existence of a contradictory practice such as to prevent the consumer from correctly quantifying his or her claim for repayment of those sums, does not make it possible to make that consumer bear part of the costs of the proceedings, depending on the level of the sums paid though not due which are refunded to him or her.
+
+87
+
+	
+
+Consequently, it cannot be ruled out that a consumer may have to bear part of the costs which he or she has incurred in bringing an action seeking a declaration that a contractual term is unfair where, following the declaration that that term is void, that consumer’s claim for repayment of the sums paid though not due under that term is upheld in part, in particular where that consumer exercises his or her rights to reimbursement in bad faith. Nevertheless, if, after the action seeking a declaration of invalidity has been upheld, the claim for reimbursement is upheld only in part, on the ground that it is impossible in practice or excessively difficult for that consumer to determine the extent of his or her right to reimbursement of those sums, procedural rules under which that consumer must bear part of the costs relating to such proceedings are likely to deter that consumer from exercising the rights conferred on him or her by Directive 93/13.
+
+88
+
+	
+
+In the light of those considerations, the answer to the sixth question is that Article 6(1) and Article 7(1) of Directive 93/13, read in the light of the principle of effectiveness, must be interpreted as precluding national legislation which makes it possible to require a consumer to bear part of the costs of the proceedings where, following a finding that a contractual term is void for being unfair, that consumer’s claim for reimbursement of sums which he or she overpaid under that term is upheld only in part on the ground that it is impossible in practice or excessively difficult to determine the extent of that consumer’s right to reimbursement of those sums.
+
+Costs
+
+89
+
+	
+
+Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the referring court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+ 	
+
+On those grounds, the Court (Ninth Chamber) hereby rules:
+
+ 	
+
+1.
+
+	
+
+Article 3(g) of Directive 2008/48/EC of the European Parliament and of the Council of 23 April 2008 on credit agreements for consumers and repealing Council Directive 87/102/EEC
+
+must be interpreted as meaning that the costs relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof come within the concept of ‘total cost of the credit to the consumer’, within the meaning of that provision, and, consequently, that of ‘annual percentage rate of charge’, within the meaning of Article 3(i) of that directive, where the purchase of those services proves to be compulsory in order to obtain the credit concerned or where those services are a contrivance to conceal the actual cost of that credit.
+
+ 	
+
+2.
+
+	
+
+Article 10(2)(g) and Article 23 of Directive 2008/48
+
+must be interpreted as not precluding a consumer credit agreement from being deemed to be free of interest and charges where that agreement does not specify an annual percentage rate of charge that includes all of the costs provided for in Article 3(g) of that directive, with the result that its annulment entails only the repayment, by the consumer concerned, of the principal amount loaned.
+
+ 	
+
+3.
+
+	
+
+Article 4(2) of Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts
+
+must be interpreted as meaning that the terms relating to services ancillary to a consumer credit agreement that give priority to the examination of the credit application of the consumer purchasing those services and to the making available of the sum borrowed as well as provide that consumer with the option of deferring the repayment of the monthly instalments or reducing the amount thereof do not come, in principle, within the main subject matter of that agreement, within the meaning of that provision, and are therefore not exempt from an assessment as to whether they are unfair.
+
+ 	
+
+4.
+
+	
+
+Article 3(1) of Directive 93/13
+
+must be interpreted as meaning that a term in a consumer credit agreement that allows the consumer concerned to defer or reschedule the monthly instalments in return for payment of additional costs, even though it is not certain that that consumer will make use of that option, may be unfair, where, in particular, those costs are clearly disproportionate in relation to the amount of the loan granted.
+
+ 	
+
+5.
+
+	
+
+Article 6(1) and Article 7(1) of Directive 93/13, read in the light of the principle of effectiveness,
+
+must be interpreted as precluding national legislation which makes it possible to require a consumer to bear part of the costs of the proceedings where, following a finding that a contractual term is void for being unfair, that consumer’s claim for reimbursement of sums which he or she overpaid under that term is upheld only in part on the ground that it is impossible in practice or excessively difficult to determine the extent of that consumer’s right to reimbursement of those sums.
+
+ 	
+
+[Signatures]
+
+( *1 ) Language of the case: Bulgarian.

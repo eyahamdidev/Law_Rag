@@ -1,0 +1,227 @@
+http://www.procomptable.com/ 1
+NC 03 
+Norme comptable 
+relative aux Revenus 
+   
+Objectifs 
+01. Les produits d'une entreprise regroupent à la fois le s revenus et les gains. Les revenus sont les 
+produits provenant des activités qui s'inscrivent  dans le cadre de l'exploitation centrale ou 
+permanente. Ils sont, généralement, pris en compte lorsqu'une augmentation d'avantages 
+économiques futurs, liée à une augmentation d'actif ou une diminution de passif, s'est produite et 
+qu'elle peut être mesurée de façon raisonnable. 
+02. L'objectif de la présente norme est de définir la faç on selon laquelle ces revenus sont mesurés, le 
+moment de leur constatation dans les états financie rs de l'entreprise et de déterminer la nature des 
+informations à fournir à leur sujet. 
+Champ d’application 
+03. La présente norme doit être appliquée pour la comptabilisation des produits générés par le 
+cours des activités s'inscrivant dans le cadre de l'exploitation centrale ou permanente de 
+l'entreprise au titre de la vente de marchandises, de la prestation de services et de l'utilisation, 
+par des tiers, des ressources de l'entreprise moyennant intérêts, redevances ou dividendes.
+ 
+04. La présente norme ne traite pas des revenus provenant : 
+a) des participations comptabilisées à la valeur de consolidation ; 
+b) des contrats de location ; 
+c) des subventions ; 
+d) des contrats d'assurance des compagnies d'assurance ; 
+e) des contrats de prestation de services directement rattachés aux contrats de construction ; 
+f) des modifications de la juste valeur des actifs et passifs financiers ou de leur cession. 
+Définitions 
+05. Dans la présente norme les termes ci-dessous ont la signification suivante : 
+Les intérêts  sont les rémunérations en contrepart ie de l'utilisation de sommes prêtées par 
+l'entreprise ou dues à celle-ci. 
+Les redevances sont les sommes reçues en contrepartie de l'utilisation d'actifs à long terme de 
+l'entreprise tels que les brevets, les marques de fabrique et les logiciels. 
+Les dividendes sont les bénéfices distribués aux actionnaires à concurrence de leur 
+participation dans le capital. 
+La juste valeur  est le prix auquel un bien pourrait être échangé, ou une dette acquittée, entre 
+un acheteur et un vendeur normalement informés et consentants, dans une transaction 
+équilibrée. 
+Les liquidités et équivalents de liquidités  constituent les fonds dis ponibles, les dépôts à vue, 
+ainsi que les placements à court terme, très li quides, facilement convertibles en un montant 
+connu de liquidités et dont la valeur ne risque pas de changer de façon significative. 
+Mesure des revenus 
+06. Les revenus doivent être mesurés à la juste valeur des contreparties reçues ou à recevoir 
+au titre de la vente de marchandises et de produits fabriqués, de la prestation de services et de 
+l'utilisation des ressources par des tiers. Cette juste valeur est généralement déterminée par 
+entente entre l'entreprise et l'acheteur ou l'utilisateur du bien. Les revenus sont nets de 
+remises et réductions commerciales consenties par l'entreprise et les rendus acceptés par elle. 
+Les sommes encaissées pour le compte de tier s, par exemple les taxes collectées pour le 
+compte de l'Etat ainsi que les sommes obtenues par un transitaire de son client pour payer les 
+droits de douane, ne font pas partie des revenus.
+ 
+http://www.procomptable.com/ 2
+07. Lorsque la contrepartie reçue ou à recevoir es t représentée par des liquidités ou équivalents de 
+liquidités et que l'entrée de ces liquidités ou équivalent s de liquidités est différée, la juste valeur peut 
+être inférieure au montant nominal des liquidités ou équivalents de liquidités reçus ou à recevoir. Dans 
+ce cas, la juste valeur de la contrepartie est déterminée en actualisant l'ensemble des recettes futures 
+au moyen d'un taux d'intérêt permett ant d'actualiser leur montant nom inal au prix de vente comptant 
+des biens ou services concernés. 
+Lorsqu'elle est significative, la différence entre la ju ste valeur et le montant nominal de la contrepartie 
+est comptabilisée en produits financiers conformém ent aux autres dispositions des paragraphes 19 et 
+20 de la présente norme. 
+08. Lorsque des biens ou des services sont échangés contre des biens ou services de nature et de 
+valeur similaires, l'échange n'est pas considér é comme une opération générant des revenus. Lorsque 
+des biens sont vendus ou des services sont r endus en échange de biens ou services dissemblables, 
+l'échange est considéré comme une opération générant des  revenus. Ces revenus sont évalués à la 
+juste valeur des biens ou services reçus, ajustée du montant des liquidités ou équivalents de liquidités 
+transférées. Lorsque la juste valeur des biens ou services reçus ne peut pas être évaluée de façon 
+fiable, le revenu est évalué à la juste valeur des  biens ou services cédés, ajustée du montant des 
+liquidités ou équivalents de liquidités transférées.1   
+Constatation des revenus 
+Vente de marchandises et produits fabriqués 
+09. Les revenus provenant de la vente de marchandi ses et produits fabriqués doivent être 
+comptabilisés lorsque l'ensemble des conditions suivantes est satisfait : 
+a. l'entreprise a transféré à l'acheteur les principaux risques et avantages inhérents à la propriété ; 
+b. le montant des revenus peut être mesuré de façon fiable ; 
+c. il est probable que des avantages futurs associés à l'opération bénéficieront à l'entreprise ; et 
+d. les coûts encourus ou à encourir concernant l'opération peuvent être mesurés de façon fiable. 
+10. Pour déterminer le moment où une entreprise trans fère les principaux risques et les avantages 
+inhérents à la propriété, il faut examiner les conditi ons dans lesquelles s'effectue l'opération. Dans la 
+majorité des cas, le transfert des risques et le s avantages inhérents à la propriété coïncide avec le 
+transfert du droit de propriété ou avec l'entrée en possession par l'acheteur. Tel est le cas dans la 
+plupart des ventes au détail. Dans d'autres cas, le transfert des risques et des avantages inhérents à 
+la propriété a lieu à une date différente de celle du transfert du droit de propriété ou de l'entrée en 
+possession. 
+11. Pour déterminer si les risques et les avan tages importants inhérents à la propriété ont été 
+transférés à l'acheteur, l'entreprise doit s'assurer : 
+a. que tous les actes importants découlant de la vente ont été exécutés ; et 
+b. qu'elle n'exerce plus sur les biens cédés un droit de gestion ou un contrôle effectif 
+comparable à celui qui découle généralement du droit de propriété.
+ 
+12. Lorsque l'entreprise conserve des  risques importants inhérents à la propriété, il ne convient 
+habituellement pas de considérer l'opération comme une vente, par exemple lorsque : 
+a. des biens sont livrés sous réserve de leur installation et que l'installation représente une part 
+importante du contrat de vente ; 
+b. le paiement relatif aux biens vendus est lié à la revente desdits biens par   l'acheteur ; 
+c. les quantités de marchandises vendues et suscept ibles d'être retournées sont importantes et 
+imprévisibles. 
+Toutefois, l'opération constitue une vente et les revenus sont constatés dans la mesure où l'entreprise 
+ne conserve qu'une part insignifiante des risques inhérent s à la propriété. Tel est par exemple le cas 
+d'une entreprise qui conserve le droit de proprié té des biens dans l'unique but de protéger la 
+recouvrabilité de la somme due. 
+13. Les revenus ne sont constatés que s'il est probable que les avantages économiques associés à 
+l'opération bénéficieront à l'entrepris e. Dans certains cas, cette pr obabilité peut être nulle tant que la 
+contrepartie n'est pas encaissée ou tant qu'une incert itude n'est pas levée. A titre d'exemple, il peut 
+être incertain qu'une instance gouver nementale d'un pays étranger accor de l'autorisation de rapatrier 
+                                                 
+1 Les principes comptables développés par le § 8 ne sont pas en harmonie avec le principe retenu par 
+le § 42 du cadre conceptuel de la comptabilité financière. 
+http://www.procomptable.com/ 3
+la contrepartie d'une vente dans un pays étranger. Lor sque la permission est accordée, l'incertitude 
+est levée et les revenus sont constatés. 
+Prestation de services 
+14. Lorsque le résultat peut être estimé de faç on fiable, les revenus découlant de la prestation 
+de services doivent être comptabilisés au fur et à mesure que les services sont rendus par 
+référence au degré d'avancement des opérations à la date d'arrêté des états financiers. 
+Le résultat découlant d'une prestation de servi ces peut être estimé de façon fiable lorsque 
+l'ensemble des conditions suivantes sont remplies : 
+a. le montant des revenus de la prestation de services peut être mesuré d'une façon fiable ; 
+b. il est probable que des avantages économiques futurs associés à l'opération bénéficieront à 
+l'entreprise ; 
+c. le degré d'avancement de l'exécution de la prestation de services peut être évalué de façon 
+fiable ;
+ 
+d. les charges encourues pour la prestation de services et les charges à encourir pour achever 
+l'ensemble des services prévus peuvent être mesurées de façon fiable. 
+15. Le degré d'avancement de l'exécution de la pr estation doit être déterminé par une méthode 
+rationnelle et constante permettant de mesurer de fa çon fiable les services exécutés. Ces méthodes 
+peuvent inclure : 
+a. des examens des travaux exécutés ; 
+b. les services rendus à la date considérée en pourcentage des services à exécuter, et 
+c. la proportion des coûts encourus à la date c onsidérée par rapport au total des coûts estimés de 
+l'opération. 
+A moins que la prestation de service ait été conclue en régie, les facturations intermédiaires, les 
+paiements partiels ou les acomptes reçus des c lients ne constituent pas généralement une méthode 
+fiable pour mesurer le degré d'avancement de l'exécution de la prestation. 
+16. Pour des raisons d'ordre pratique, lorsque la pr estation de services consiste en l'exécution d'un 
+nombre indéterminé d'actes échelonnés sur une péri ode donnée, les revenus sont comptabilisés de 
+façon linéaire sur cette période, sauf si le s faits démontrent qu'une autre méthode permettrait de 
+mieux refléter le déroulement de l'exécution de la prestation. Lorsqu'un acte spécifique particulier est 
+beaucoup plus important que les autres, la comptab ilisation des revenus est différée jusqu'à ce que 
+cet acte ait été exécuté. 
+17. Lorsque le résultat d'une opération faisant intervenir une prestation de services ne peut 
+pas être estimé de façon fiable, les revenus correspondants à cette opération ne doivent être 
+constatés qu'à concurrence des charges comptabilisées et jugées récupérables.
+ 
+18. Lorsque le résultat d'une opération ne peut pas êt re estimé de façon fiable et qu'il n'est pas 
+probable que les charges encourues seront récupérées, les revenus ne sont pas comptabilisés et les 
+coûts encourus sont inscrits en charge. 
+Si ces incertitudes ont été levées par des év énements futurs, et que le résultat découlant de 
+l'opération de prestation de services peut être estimé  de façon fiable, les revenus sont comptabilisés 
+conformément au paragraphe 14 ci-dessus. 
+Intérêts, redevances et dividendes 
+19. Les revenus résultant de l'utilisation des ressources de l'entreprise par des tiers 
+moyennant intérêts, redevances ou dividendes doivent être comptabilisés lorsque les 
+conditions suivantes sont remplies : 
+a. la contrepartie obtenue de l'utilisation des ressources de l'entreprise par des tiers peut être 
+mesurée d'une façon fiable ; et 
+b. le recouvrement de la contrepartie obtenue est raisonnablement sûr. 
+20. Les revenus résultant de l'utilisation des ressources de l'entreprise par des tiers 
+moyennant intérêts, redevances ou dividendes doivent être comptabilisés selon les règles ci-
+après : 
+a. pour les intérêts, en fonction du temps écoulé en tenant compte du rendement effectif de 
+l'actif ; 
+b. pour les redevances, à mesure qu'elles sont acquises en vertu des conditions contractuelles ; et 
+http://www.procomptable.com/ 4
+c. pour les dividendes, lorsque le droit de l' actionnaire au dividende est établi, pour la somme 
+revenant à l'entreprise au titre de sa participation. 
+21. L'entreprise est généralement capable de mesure r de façon fiable les revenus découlant de 
+l'utilisation de ses ressources par d'autres lorsque : 
+a. pour les intérêts, un accord établi entre l'entr eprise et le bénéficiaire a déterminé les règles de 
+calcul de ces intérêts. Généralement, les tabl eaux d'amortissement permettent à l'entreprise de 
+connaître d'avance le montant de ces intérêts. Lorsque le contrat prévoit que le montant des intérêts 
+est indexé sur un indicateur quelconque, la connai ssance de cet indicateur permet à l'entreprise 
+d'effectuer des estimations fiables de ses revenus. 
+b. pour les redevances, le contrat établi entre le bénéficiaire et l'entreprise détermine généralement le 
+montant des produits à recevoir et lui permet ainsi d'effectuer des estimations fiables ; et 
+c. pour les dividendes, la décision, de l'Assemblée Générale statuant sur la répartition des résultats de 
+la société dans laquelle la participation est dét enue, permet à l'entreprise d'estimer d'une façon fiable 
+le montant des dividendes à recevoir. 
+22. Le rendement effectif d'un actif est le taux d'intér êt permettant d'actualiser le flux des recettes 
+futures attendues sur la durée de vie de l'actif en obtenant ainsi un montant égal à la valeur comptable 
+initiale de l'actif. Les revenus sous forme d'int érêts comprennent le montant de l'amortissement de 
+toute prime ou autre écart entre la valeur comptable initiale d'un titre et son montant à l'échéance. 
+23. Lorsque le prix d'acquisition d'un placement producti f d'intérêts comprend des intérêts courus et 
+non encore payés, seule la fraction des intérêts courus après la date d'acquisition est constatée parmi 
+les revenus. La fraction des intérêts courus ant érieurement à la date d'acquisition vient en déduction 
+de la valeur comptable du placement au moment de son acquisition. 
+24. Lorsque le prix d'acquisition des titres de participation comprend la valeur des dividendes afférents 
+à l'exercice antérieur à celui de l'acquisition, ces dividendes sont déduits du prix d'acquisition des 
+titres déjà comptabilisés. En effet, au moment de l'achat des titres, le vendeur vend les droits attachés 
+au titre et notamment le droit de percevoir les di videndes dont la valeur est incluse dans le coût du 
+titre. 
+Incidence des incertitudes 
+25. Si une incertitude relative au recouvrement des contreparties au titre de vente de 
+marchandises et produits fabriqués, de prestat ion de services, ou d'utilisation des ressources 
+de l'entreprise par des tiers prend naissance après la constatation des revenus, on constitue 
+une provision distincte pour en tenir compte, le montant initialement comptabilisé au titre des 
+revenus n'est pas ajusté.
+ 
+26. Lorsque des intérêts comptabilisés en produits  n'ont pas été encaissés à leur échéance, le 
+recouvrement des intérêts futurs n'est plus censé êt re raisonnablement certain. De ce fait, les intérêts 
+déjà constatés mais non encaissés doivent faire l'objet d'une provision pour couvrir les risques de non 
+recouvrement. Les intérêts futurs ne devraient pl us être constatés en produits, mais plutôt dans un 
+compte passif à mesure qu'ils sont courus. 
+Informations à fournir 
+27. Les états financiers doivent faire apparaître : 
+a. le montant de chaque catégorie importante de revenus constatés au cours de l'exercice y 
+compris les revenus provenant de :
+ 
+- la vente de marchandises et de produits ; 
+- la prestation de services ; 
+- les intérêts ; 
+- les redevances ; 
+- les dividendes ; 
+- l'échange de marchandises ou de services. 
+b. les règles de prise en compte et de mesure des revenus, les méthodes adoptées pour 
+déterminer le degré d'avancement des opérations faisant intervenir des prestations de services 
+et les méthodes utilisées pour éclater le montant nom inal de vente en prix de vente et produits 
+financiers conformément au paragraphe 7 de la présente norme. 
+http://www.procomptable.com/ 5
+28. Les états financiers doivent également mentionner les gains et les pertes éventuels provenant des 
+éléments tels que les coûts de garantie, les ré clamations, les pénalités ou pertes éventuelles 
+conformément à la norme comptable "éventualités et événements postérieurs à la clôture". 
+Date d’application 
+29. La présente Norme Comptable est applicable  aux états financiers relatifs aux exercices 
+comptables ouverts à partir du 1er Janvier 1997. 
+ 

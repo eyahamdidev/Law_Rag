@@ -1,0 +1,20 @@
+{
+ "id": "S019",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "API portal - premium simulator and business plan tool - Portal",
+ "url": "https://www.tunisieindustrie.nat.tn/fr/download/CFGA/Manuel_procedures_2016.pdf",
+ "parent": "https://www.tunisieindustrie.nat.tn/en/home.asp",
+ "flag": "S",
+ "final_url": "https://www.tunisieindustrie.nat.tn/fr/download/CFGA/Manuel_procedures_2016.pdf",
+ "content_type": "application/pdf",
+ "sha256": "3b0942dab07fb5788c1bd4681c4197a3231195c4eb71c7ffc8b5dd3804a9419a",
+ "bytes": 20426869,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S019_Manuel_procedures_2016.pdf",
+ "pages": 199,
+ "text_chars": 0,
+ "needs_ocr": true,
+ "lang": "unknown",
+ "last_modified": "Thu, 08 Dec 2022 14:24:00 GMT"
+}

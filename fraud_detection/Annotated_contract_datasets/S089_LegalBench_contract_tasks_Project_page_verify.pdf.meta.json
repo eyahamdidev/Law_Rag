@@ -1,0 +1,22 @@
+{
+ "id": "S089",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "LegalBench (contract tasks) - Project page (verify)",
+ "url": "https://hazyresearch.github.io/legalbench/",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://hazyresearch.stanford.edu/legalbench/",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "d4bf4b6372d38fb3bd6f47de5d3841da0f7852c5fdb61abb139540372046a7bb",
+ "bytes": 92865,
+ "path": "contracts\\Annotated_contract_datasets\\S089_LegalBench_contract_tasks_Project_page_verify.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 8074,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Home | LegalBench",
+ "note": "",
+ "last_modified": "Mon, 30 Mar 2026 05:24:15 GMT"
+}

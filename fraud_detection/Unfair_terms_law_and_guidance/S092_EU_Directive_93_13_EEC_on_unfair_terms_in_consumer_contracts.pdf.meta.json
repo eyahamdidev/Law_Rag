@@ -1,0 +1,22 @@
+{
+ "id": "S092",
+ "dataset": "contracts",
+ "section": "Unfair terms law and guidance",
+ "name": "EU Directive 93/13/EEC on unfair terms in consumer contracts - Official text (PDF)",
+ "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31993L0013",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:31993L0013",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "97ed3633d296c8d9f7a627ed1389a232f62da5d7989a81a09208d1143fbe33f1",
+ "bytes": 661,
+ "path": "contracts\\Unfair_terms_law_and_guidance\\S092_EU_Directive_93_13_EEC_on_unfair_terms_in_consumer_contracts.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 0,
+ "needs_ocr": false,
+ "lang": "unknown",
+ "title": "",
+ "note": "",
+ "last_modified": ""
+}

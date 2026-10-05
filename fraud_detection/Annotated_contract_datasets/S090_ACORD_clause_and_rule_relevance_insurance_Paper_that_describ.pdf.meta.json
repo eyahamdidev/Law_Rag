@@ -1,0 +1,20 @@
+{
+ "id": "S090",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "ACORD - clause and rule relevance (insurance) - Paper that describes it",
+ "url": "https://arxiv.org/pdf/2603.07390",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://arxiv.org/pdf/2603.07390",
+ "content_type": "",
+ "sha256": "e19f3401840137058cdae550fb3061822407f7f643f07e2027348da802e2f959",
+ "bytes": 258443,
+ "status": "ok",
+ "path": "contracts\\Annotated_contract_datasets\\S090_ACORD_clause_and_rule_relevance_insurance_Paper_that_describ.pdf",
+ "pages": 8,
+ "text_chars": 42436,
+ "needs_ocr": false,
+ "lang": "en",
+ "last_modified": ""
+}

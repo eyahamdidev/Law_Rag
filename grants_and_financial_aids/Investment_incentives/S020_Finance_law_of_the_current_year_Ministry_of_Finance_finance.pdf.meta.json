@@ -1,0 +1,22 @@
+{
+ "id": "S020",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Finance law of the current year - Ministry of Finance - finance laws",
+ "url": "https://www.finances.gov.tn/fr/loi_finance",
+ "parent": "",
+ "flag": "E / S",
+ "final_url": "https://www.finances.gov.tn/fr/loi_finance",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "49d91f314ed5f899aff178ce10bc1a02d01a0bd14c565467fa22bb203ae7e42d",
+ "bytes": 175156,
+ "path": "grants\\Investment_incentives\\S020_Finance_law_of_the_current_year_Ministry_of_Finance_finance.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 1087,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Loi de finances de la Tunisie | Le ministère des finances",
+ "note": "",
+ "last_modified": ""
+}

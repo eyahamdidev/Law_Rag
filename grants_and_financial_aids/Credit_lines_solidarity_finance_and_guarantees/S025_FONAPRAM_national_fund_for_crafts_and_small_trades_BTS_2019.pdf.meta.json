@@ -1,0 +1,20 @@
+{
+ "id": "S025",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "FONAPRAM - national fund for crafts and small trades - BTS 2019 statements (mentions decree 2019-57)",
+ "url": "https://www.cmf.tn/sites/default/files/pdfs/emetteurs/informations/rapports-societes/bts_efd311219.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.cmf.tn/sites/default/files/pdfs/emetteurs/informations/rapports-societes/bts_efd311219.pdf",
+ "content_type": "application/pdf",
+ "sha256": "e00fa90db92a4885ceadf99fec0a389310dc1102e12f872ab818da0a9d8c800d",
+ "bytes": 356002,
+ "status": "ok",
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S025_FONAPRAM_national_fund_for_crafts_and_small_trades_BTS_2019.pdf",
+ "pages": 32,
+ "text_chars": 75292,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Mon, 19 Apr 2021 12:49:21 GMT"
+}

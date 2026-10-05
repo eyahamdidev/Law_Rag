@@ -1,0 +1,900 @@
+CUAD: An Expert-Annotated NLP Dataset for
+Legal Contract Review
+Dan Hendrycks∗
+UC Berkeley
+Collin Burns∗
+UC Berkeley
+Anya Chen
+The Nueva School
+Spencer Ball
+The Nueva School
+Abstract
+Many specialized domains remain untouched by deep learning, as large labeled
+datasets require expensive expert annotators. We address this bottleneck within the
+legal domain by introducing the Contract Understanding Atticus Dataset (CUAD),
+a new dataset for legal contract review. CUAD was created with dozens of legal
+experts from The Atticus Project and consists of over 13,000 annotations. The
+task is to highlight salient portions of a contract that are important for a human
+to review. We ﬁnd that Transformer models have nascent performance, but that
+this performance is strongly inﬂuenced by model design and training dataset size.
+Despite these promising results, there is still substantial room for improvement. As
+one of the only large, specialized NLP benchmarks annotated by experts, CUAD
+can serve as a challenging research benchmark for the broader NLP community.
+1 Introduction
+While large pretrained Transformers (Devlin et al., 2019; Brown et al., 2020) have recently surpassed
+humans on tasks such as SQuAD 2.0 (Rajpurkar et al., 2018) and SuperGLUE (Wang et al., 2019),
+many real-world document analysis tasks still do not make use of machine learning whatsoever.
+Whether these large models can transfer to highly specialized domains remains an open question. To
+resolve this question, large specialized datasets are necessary. However, machine learning models
+require thousands of annotations, which are costly. For specialized domains, datasets are even more
+expensive. Not only are thousands of annotations necessary, but annotators must be trained experts
+who are often short on time and command high prices. As a result, the community does not have a
+sense of when models can transfer to various specialized domains.
+A highly valuable specialized task without a public large-scale dataset is contract review, which costs
+humans substantial time, money, and attention. Many law ﬁrms spend approximately 50% of their
+time reviewing contracts (CEB, 2017). Due to the specialized training necessary to understand and
+interpret contracts, the billing rates for lawyers at large law ﬁrms are typically around $500-$900 per
+hour in the US. As a result, many transactions cost companies hundreds of thousands of dollars just
+so that lawyers can verify that there are no problematic obligations or requirements included in the
+contracts. Contract review can be a source of drudgery and, in comparison to other legal tasks, is
+widely considered to be especially boring.
+Contract review costs also affect consumers. Since contract review costs are so prohibitive, contract
+review is not often performed outside corporate transactions. Small companies and individuals
+consequently often sign contracts without even reading them, which can result in predatory behavior
+that harms consumers. Automating contract review by openly releasing high-quality data and ﬁne-
+tuned models can increase access to legal support for small businesses and individuals, so that legal
+support is not exclusively available to wealthy companies.
+∗Equal contribution.
+35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+arXiv:2103.06268v2  [cs.CL]  8 Nov 2021
+Governing Law: “This Agreement shall be governed by the 
+laws of the State of California without giving effect to con-
+flict or choice of law principles.” (Page 2) 
+⚠  Covenant Not to Sue: “In addition, Company shall not 
+now or in the future contest the validity of Investor's owner-
+ship of its Intellectual Property.” (Page 30)
+🚩  Perpetual / Irrevocable License: “Company grants to 
+Investor a worldwide, royalty-free, exclusive, irrevocable 
+license (with the right to grant sublicenses).” (Page 151)
+Model
+Output
+Figure 1: Contracts often contain a small number of important clauses that warrant review or analysis
+by lawyers. It is especially important to identify clauses that contain salient obligations or red ﬂag
+clauses. It can be tedious and expensive for legal professionals to manually sift through long contracts
+to ﬁnd these few key clauses, especially given that contracts can be dozens or even more than 100
+pages long. The Contract Understanding Atticus Dataset (CUAD) consists of over 500 contracts,
+each carefully labeled by legal experts to identify 41 different types of important clauses, for a total
+of more than 13,000 annotations. With CUAD, models can learn to automatically extract and identify
+key clauses from contracts.
+To reduce the disparate societal costs of contract review, and to study how well NLP models generalize
+to specialized domains, we introduce a new large-scale dataset for contract review. As part of
+The Atticus Project, a non-proﬁt organization of legal experts, we introduce CUAD, the Contract
+Understanding Atticus Dataset (pronounced “kwad”). This dataset was created with a year-long effort
+pushed forward by dozens of law student annotators, lawyers, and machine learning researchers. The
+dataset includes more than 500 contracts and more than 13,000 expert annotations that span 41 label
+categories. For each of 41 different labels, models must learn to highlight the portions of a contract
+most salient to that label. This makes the task a matter of ﬁnding needles in a haystack.
+CUAD is especially valuable because it was made possible with the collective effort of many
+annotators. Prior to labeling, law student annotators of CUAD attended training sessions to learn
+how to label each of the 41 categories, which included video instructions by and live workshops with
+experienced lawyers, detailed instructions, and quizzes. Before annotating contracts for our dataset,
+each law student annotator went through contract review training that lasted 70-100 hours. Annotators
+also adhered to over 100 pages of rules and annotation standards that we created for CUAD. Each
+annotation was veriﬁed by three additional annotators to ensure that the labels are consistent and
+correct. As a result of this effort, a conservative estimate of the pecuniary value of CUAD of is over
+$2 million (each of the 9283 pages were reviewed at least 4 times, each page requiring 5-10 minutes,
+assuming a rate of $500 per hour). This cost underscores the unique value of the CUAD dataset.
+We experiment with several state-of-the-art Transformer (Vaswani et al., 2017) models on CUAD.
+We ﬁnd that performance metrics such as Precision @ 80% Recall are improving quickly as models
+improve, such that a BERT model from 2018 attains 8.2% while a DeBERTa model from 2021 attains
+44.0%. We also ﬁnd that the amount of labeled training annotations greatly inﬂuences performance
+as well, highlighting the value of CUAD for legal contract review.
+CUAD makes it possible to assess progress on legal contract review, while also providing an indicator
+for how well language models can learn highly specialized domains. CUAD is one of the only
+large, specialized NLP benchmarks annotated by experts. We hope these efforts will not only enable
+research on contract review, but will also facilitate more investigation of specialized domains by the
+NLP community more broadly. The CUAD dataset can be found at atticusprojectai.org/cuad and
+code can be found at github.com/TheAtticusProject/cuad/.
+2 Related Work
+2.1 Legal NLP
+Researchers in NLP have investigated a number of tasks within legal NLP. These include legal
+judgement prediction, legal entity recognition, document classiﬁcation, legal question answering,
+and legal summarization (Zhong et al., 2020). Xiao et al. (2015) introduce a large dataset for legal
+judgement prediction and Duan et al. (2019) introduce a dataset for judicial reading comprehension.
+However, both are in Chinese, limiting the applicability of these datasets to English speakers.
+Holzenberger et al. (2020) introduce a dataset for tax law entailment and question answering and
+2
+Chalkidis et al. (2019) introduce a large dataset of text classiﬁcation for EU legislation. Kano et al.
+(2018) evaluate models on multiple tasks for statute law and case law, including information retrieval
+and entailment/question answering.
+While legal NLP covers a wide range of tasks, there is little prior work on contract review, despite the
+fact that it is one of the most time-consuming and tedious tasks for lawyers. Chalkidis et al. (2017)
+introduce a dataset for extracting basic information from contracts and perform follow-up work with
+RNNs (Chalkidis et al., 2018). However, they focus on named entity recognition for a limited number
+of entities, a much simpler task than our own. The most related work to ours is that of Leivaditi et al.
+(2020), which also introduces a benchmark for contract review. However, it focuses exclusively on
+one type of contract (leases), it focuses on a smaller number of label categories, and it contains over
+an order of magnitude fewer annotations than CUAD.
+2.2 NLP Models for Specialized Domains
+Transformers have recently made large strides on natural language tasks that everyday humans can
+do. This raises the question of how well these models can do on specialized tasks, tasks for which
+humans require many hours of training. To the best of our knowledge, CUAD is one of only the
+large-scale NLP datasets that is explicitly curated for machine learning models by domain experts.
+This is also out of necessity, as there is no freely available source of contract review annotations that
+can be scraped, unlike for many other specialized domains.
+There is some prior work applying machine learning to specialized domains. For example, machine
+translation has been a long-standing challenge that similarly requires domain expertise. However,
+unlike contract review, supervised data for machine translation is generally scraped from freely
+available data (Bojar et al., 2014). More recently, Hendrycks et al. (2021b) propose a challenging
+question answering benchmark that has multiple-choice questions from dozens of specialized areas
+including law, but the ability to answer multiple-choice legal questions does not help lawyers with
+their job. Similarly, there has been recent interest in applying language models to specialized domains
+such as math (Hendrycks et al., 2021c) and coding (Hendrycks et al., 2021a). Outside of NLP, in
+computer vision, machine learning has been applied to medical tasks such as cancer diagnosis that
+require specialized domain knowledge (Gadgil et al., 2021). These specialized tasks are not solved
+by current systems, which suggests the research forefront is in specialized domains.
+3 CUAD: A Contract Review Dataset
+Contract Review. Contract review is the process of thoroughly reading a contract to understand
+the rights and obligations of an individual or company signing it and assess the associated impact.
+Contract review is an application that is plausibly amenable to automation. It is widely viewed as one
+of the most repetitive and most tedious jobs that junior law ﬁrm associates must perform. It is also
+expensive and an inefﬁcient use of a legal professional’s skills.
+There are different levels of work in contract review. The lowest level of work in reviewing a contract
+is to ﬁnd “needles in a haystack.” At this level, a lawyer’s job is to manually review hundreds of
+pages of contracts to ﬁnd the relevant clauses or obligations stipulated in a contract. They must
+identify whether relevant clauses exist, what they say if they do exist, and keep track of where they
+are described. They must determine whether the contract is a 3-year contract or a 1-year contract.
+They must determine the end date of a contract. They must determine whether a clause is, say, an
+anti-assignment clause or a most favored nation clause. We refer to this type of work as “contract
+analysis.”
+The highest level of work is to assess risk associated with the contract clauses and advise on solutions.
+At this level, a lawyer’s business client relies on them to explain not only what each clause means,
+but also the implications such a clause has on its business and a transaction. This risk assessment
+work is highly contextual and depends on the industry, the business model, the risk tolerance and the
+priorities of a company. This is highly skilled work that is done by experienced in-house lawyers
+and law ﬁrm partners who are familiar with the clients’ business. We refer to this type of work as
+“counseling.”
+To improve the lives of legal practitioners and individuals seeking legal assistance, our work aims to
+use machine learning models to automate the “contract review” work and the low level part of the
+“contract analysis” work.
+3
+Category Description
+Effective Date On what date is the contract is effective?
+Renewal Term What is the renewal term after the initial term expires?
+Anti-Assignment Is consent or notice required if the contract is assigned to a third party?
+Governing Law Which state/country’s law governs the interpretation of the contract?
+Perpetual License Does the contract contain a license grant that is irrevocable or perpetual?
+Non-Disparagement Is there a requirement on a party not to disparage the counterparty?
+Table 1: A list of 5 of the 41 label categories that we cover in our dataset, along with short
+descriptions. Legal professionals deemed these labels to be most important when reviewing a
+contract. The Supplementary Materials contains the full list of categories.
+Labels. In designing our dataset for contract review, we consider clauses that would warrant lawyer
+review or analysis. We chose a list of 41 label categories that lawyers pay particular attention to when
+reviewing a contract. The labels are broadly divided into the following three categories:
+• General information. This includes terms such as party names, document names, dates,
+governing laws, license grants, and renewal terms.
+• “Restrictive covenants.” These are considered some of the most troublesome clauses because
+they restrict the buyer’s or the company’s ability to operate the business.
+• “Revenue risks.” These include terms that may require a party to a contract to incur additional
+cost or take remedial measures.
+We provide descriptions of sample label categories in Table 1 and include a full list in the Supplemen-
+tary Materials.
+Task Deﬁnition. For each label category, we identify every clause in every contract that is most
+relevant to that label category. We then have models extract the relevant clauses from a contract by
+outputting the start and end tokens that identify the span of text that relates to that label category.
+Intuitively, models learn to highlight the portions of text that lawyers should attend to. We show
+example annotations in Figure 1.
+1 25 50 75 100 125 150
+Number of Pages in Contract
+0
+50
+100
+150
+200Number of Contracts
+CUAD Contract Page Lengths
+Figure 2: A histogram of the number of pages in
+CUAD contracts. Our dataset covers a diverse set
+of contracts. In addition to covering 25 different
+types of contracts, the contracts in our dataset also
+vary substantially in length, ranging from a few
+pages to well over one hundred pages.
+Dataset Statistics. CUAD contains 510 con-
+tracts and 13101 labeled clauses. In addition to
+belonging to 25 different types, contracts also
+have a widely varying lengths, ranging from a
+few pages to over one hundred pages. We show
+the distribution of contracts lengths in Figure 2.
+Most parts of a contract should not be high-
+lighted. Labeled clauses make up about 10%
+of each contract on average. Since there are
+41 label categories, this means that on average,
+only about 0.25% each contract is highlighted
+for each label.
+Supplementary Annotations. For each label
+category and each contract, we also include ad-
+ditional contract annotations that can be deter-
+mined from the extracted clauses. For example,
+for the “Uncapped Liability” label category, we
+include the yes/no answer to the question “Is a
+party’s liability uncapped upon the breach of its
+obligation in the contract?” for each contract,
+which can be answered from the extracted clauses (if any) for this label. To maintain consistency
+and simplicity, we do not focus on these supplementary annotations in this paper. We instead focus
+on evaluating the more challenging and time-consuming portion of this task, which is extracting the
+relevant clauses. However, we also release these additional annotations, which can further help apply
+models to contract review in practice.
+Contract Sources. Our dataset includes detailed annotations for 25 different types of contracts.
+We include a full list of contract types, along with the number of contracts of each type, in the
+Supplementary Materials.
+4
+We collected these contracts from the Electronic Data Gathering, Analysis, and Retrieval (“EDGAR”)
+system, which is maintained by the U.S. Securities and Exchange Commission (SEC). Publicly
+traded and other reporting companies are required by the SEC rules to ﬁle certain types of contracts
+with the SEC through EDGAR. Access to EDGAR documents is free and open to the public. The
+EDGAR contracts are more complicated and heavily negotiated than the general population of all
+legal contracts. However, this also means that EDGAR contracts have the advantage of containing a
+large sample of clauses that are difﬁcult to ﬁnd in the general population of contracts. For example,
+one company may have only one or two contracts that contain exclusivity clauses, while EDGAR
+contracts may have hundreds of them.
+Labeling Process. We had contracts labeled by law students and quality-checked by experienced
+lawyers. These law students ﬁrst went through 70-100 hours of training for labeling that was designed
+by experienced lawyers, so as to ensure that labels are of high quality. In the process, we also wrote
+extensive documentation on precisely how to identify each label category in a contract, which goes
+into detail. This documentation takes up more than one hundred pages and ensures that labels are
+consistent.
+4 Experiments
+4.1 Setup
+Task Structure. We formulate our primary task as predicting which substrings of a contract relate
+to each label category. Speciﬁcally, for each contract and label category, we have annotations for
+all of the substrings (if any) of that contract that should be highlighted. We then have a model learn
+the start and end token positions of the substring of each segment that should be highlighted, if any.
+This structure is similar to extractive question answering tasks such as SQuAD 2.0 (Rajpurkar et al.,
+2018) that allow for questions to have no answer. We consequently use the same model structure and
+training procedures as prior work on such tasks.
+20 40 60 80 100
+Recall (%)
+10
+20
+30
+40
+50
+60
+70Precision (%)
+CUAD Precision Recall Curve
+DeBERTa-xlarge
+RoBERTa-large
+RoBERTa-base
+80% Recall
+Figure 3: Precision-Recall curves for different
+models. We use the Area Under the Precision-
+Recall curve (AUPR) and Precision at 80% and
+90% Recall as our primary metrics. There is a
+sharp dropoff in precision after around 80% recall,
+but this is improving with larger and more recent
+models such as DeBERTa-xlarge.
+We ﬁnetune several pretrained language mod-
+els using the HuggingFace Transformers library
+(Wolf et al., 2020) on CUAD. Because we struc-
+ture the prediction task similarly to an extractive
+question answering tasks, we use the Questio-
+nAnswering models in the Transformers library,
+which are suited for this task. Each “question”
+identiﬁes the label category under consideration,
+along with a short (one or two sentence) descrip-
+tion of that label category, and asks which parts
+of the context relate to that label category. To
+account for the long document lengths, we use
+a sliding window over each contract.
+Metrics. Since most clauses are unlabeled, we
+have a large imbalance between relevant and ir-
+relevant clauses. Therefore, we focus on mea-
+sures that make use of precision and recall, as
+they are responsive to class imbalance.
+Precision is the fraction of examples selected
+as important that are actually important, while
+recall is the fraction of examples that are actually important that were selected as important. In our
+case, importance refers to a portion of a contract being relevant to a given label, which a human
+should review.
+Precision and recall are deﬁned in terms of true positives, false positives, and false negatives. A
+true positive is a ground truth segment of text that has a matching prediction. A false positive is a
+prediction that does not match with any ground truth segment. Finally, a false negative is when there
+is a ground truth segment of text that does not have a matching prediction.
+5
+Model AUPR Precision@
+80% Recall
+Precision@
+90% Recall
+BERT-base 32.4 8.2 0.0
+BERT-large 32.3 7.6 0.0
+ALBERT-base 35.3 11.1 0.0
+ALBERT-large 34.9 20.9 0.0
+ALBERT-xlarge 37.8 20.5 0.0
+ALBERT-xxlarge 38.4 31.0 0.0
+RoBERTa-base 42.6 31.1 0.0
+RoBERTa-base + Contracts Pretraining 45.2 34.1 0.0
+RoBERTa-large 48.2 38.1 0.0
+DeBERTa-xlarge 47.8 44.0 17.8
+Table 2: Results of NLP models on CUAD. We report the Area Under the Precision Recall curve
+(AUPR), Precision at 80% Recall, and Precision at 90% Recall. DeBERTa-xlarge has the best
+performance (44.0% Precision @ 80% Recall), which is substantially better than BERT-base (8.2%
+Precision @ 80% Recall), which highlights the utility in creating better models.
+Each prediction comes with a conﬁdence probability. With the conﬁdences, we can smoothly vary
+the minimum conﬁdence threshold we use for determining what to count as prediction (while always
+ignoring the empty prediction). We can then compute the best precision that can be achieved at the
+recall level attained at each conﬁdence threshold. This yields a precision-recall curve, as shown in
+Figure 3. The area under this curve is then the Area Under the Precision Recall curve ( AUPR), which
+summarizes model performance across different conﬁdence thresholds.
+We can also analyze model performance at a speciﬁc conﬁdence threshold, giving rise to “Precision
+@ X% Recall” measures. As shown in Figure 3, if we threshold the conﬁdence such that the model
+has 80% recall, then we can analyze the model precision at that threshold. Notice that as the recall
+increases, the precision decreases. Consequently Precision @ 90% Recall is less than Precision @
+80% Recall. Note having a precision of about 30% at this recall level means that a lawyer would
+need to read through about 2 irrelevant clauses for every 1 relevant clause selected as important by
+the model.
+We determine whether a highlighted text span matches the ground truth with the Jaccard similarity
+coefﬁcient. With the Jaccard similarity coefﬁcient, we compute the overlap between the highlighted
+text and the ground truth. The Jaccard similarity coefﬁcient is deﬁned as J(A, B) = |A∩B|
+|A∪B|, where
+A is the set of words in an annotation, and B is the set of words in an extracted prediction. To get
+the set of words in a string, we ﬁrst remove punctuation and make the string lower case, then we
+separate the string by spaces. Note that 0≤ J(A, B)≤ 1, with J(A, B) = 0 when there is no
+intersection between A and B, and J(A, A) = 1 for any non-empty set A. We use the threshold
+0.5≤ J(A, B) for determining matches. We found that 0.5 provides a qualitatively reasonable
+threshold, as it requires sufﬁciently high overlap for a span to be counted as a valid match.
+Models. We evaluate the performance of BERT (Devlin et al., 2019), RoBERTa (Liu et al., 2019),
+ALBERT (Lan et al., 2020), and DeBERTa (He et al., 2020). BERT is a bidirectional Transformer
+that set state-of-the-art performance on many NLP tasks. RoBERTa improves upon BERT. RoBERTa
+uses the same architecture as BERT, but it was pretrained on an order of magnitude more data (160
+GB rather than BERT’s 16 GB pretraining corpus). ALBERT is similar to RoBERTa, but it uses
+parameter sharing to reduce its parameter count. DeBERTa improves upon RoBERTa by using a
+disentangled attention mechanism and by using a larger model size.
+Training. More than 99% of the features generated from applying a sliding window to each contract
+do not contain any of the 41 relevant labels. If one trains normally on this data, models typically learn
+to always output the empty span, since this is usually the correct answer. To mitigate this imbalance,
+we downweight features that do not contain any relevant labels so that features are approximately
+balanced between having highlighted clauses and not having any highlighted clauses. For categories
+that have multiple annotations in the same document, we add a separate example for each annotation.
+We chose a random split of the contracts into train and test sets. We have 80% of the contracts
+make up the train set and 20% make up the test set. In preliminary experiments we set aside a small
+validation set, with which we performed hyperparameter grid search. The learning rate was chosen
+from the set{3× 10−5, 1× 10−4, 3× 10−4} and the number of epochs chosen from the set{1, 4}.
+6
+In preliminary experiments we found that training for longer or using a learning rate outside this
+range degraded performance. We select the model with the highest AUPR found using grid search
+and report the performance of that model. For all experiments, we use the Adam optimizer (Kingma
+and Ba, 2015). Models are trained using 8 A100 GPUs.
+4.2 Results
+0 20 40 60 80 100
+AUPR
+Covenant Not To Sue
+IP Ownership Assignment
+Rofr/Rofo/Rofn
+Most Favored Nation
+Post-Termination Services
+Change Of Control
+Warranty Duration
+Competitive Restriction Exception
+Affiliate License-Licensor
+Unlimited/All-You-Can-Eat-License
+Non-Compete
+Joint IP Ownership
+Minimum Commitment
+Non-Disparagement
+Affiliate License-Licensee
+Liquidated Damages
+Volume Restriction
+Third Party Beneficiary
+Uncapped Liability
+Non-Transferable License
+No-Solicit Of Customers
+Notice Period To Terminate Renewal
+Termination For Convenience
+Effective Date
+Revenue/Profit Sharing
+Audit Rights
+Renewal Term
+Exclusivity
+Irrevocable Or Perpetual License
+Source Code Escrow
+Insurance
+License Grant
+Cap On Liability
+No-Solicit Of Employees
+Anti-Assignment
+Expiration Date
+Agreement Date
+Parties
+Document Name
+Governing Law
+CUAD Performance by Category
+Figure 4: Comparison of AUPR for DeBERTa-
+xlarge across different label categories. While per-
+formance is high for some labels, it is has much
+room for improvement for other labels.
+We show the results of ﬁne-tuning each model
+in Table 2 and we show show precision-recall
+curves for three of these models in Figure 3.
+We ﬁnd that DeBERTa-xlarge performs best,
+but that overall performance is nascent and has
+large room for improvment. DeBERTa attains
+an AUPR of 47.8%, a Precision at 80% Re-
+call of 44.0%, and a Precision at 90% Recall
+of 17.8%. This shows that CUAD is a difﬁcult
+benchmark. Nevertheless, these low numbers
+obscure how this performance may already be
+useful. In particular, recall is more important
+than precision since CUAD is about ﬁnding nee-
+dles in haystacks. Moreover, 80% recall may
+already be reasonable for some lawyers. The
+performance of DeBERTa may therefore already
+be enough to save a lawyer substantial time com-
+pared to reading an entire contract.
+Contracts Pretraining. Since main driver of
+performance for language models is their large
+pretraining corpora, we determine whether
+domain-speciﬁc pretraining data can help with
+CUAD (Gururangan et al., 2020). We pre-
+train a RoBERTa-base model using the standard
+masked language modeling objective on approx-
+imately 8GB of unlabeled contracts collected
+from the EDGAR database of public contracts.
+As shown in Table 2, pretraining on several gi-
+gabytes of contracts increases AUPR by only
+about 3%. This shows that the high-quality an-
+notated data in CUAD is currently far more valu-
+able than orders of magnitude more unlabeled
+domain-speciﬁc data. Additionally, since the
+masked language modeling objective does not
+effectively leverage the large contract pretrain-
+ing corpus, future algorithmic improvements in
+pretraining may be important for higher perfor-
+mance on CUAD.
+Performance by Category. In practice, mod-
+els should be not only have strong overall perfor-
+mance, but also have strong performance in each
+individual label category. To compare perfor-
+mance across different categories, we compute
+the AUPR for DeBERTa-xlarge separately across all41 categories, and show the results in Figure 8.
+We ﬁnd that even though performance is high for some labels, it varies substantially by category, with
+some close to the ceiling of 100% AUPR and others much lower at only around 20% AUPR. This
+underscores that there is still substantial room for improvement.
+Performance as a Function of Model Size. We now assess the effect of model size on performance.
+We measure the AUPR of various ALBERT models, ranging from ALBERT-base-v2 at11 million
+parameters to ALBERT-xxlarge-v2 at 223 million parameters. Even though ALBERT-xxlarge-v2 has
+7
+BERT
+(2018)
+ALBERT
+(2019)
+RoBERTa
+(2019)
+DeBERTa
+(2021)
+0
+10
+20
+30
+40
+50Precision @ 80% Recall
+CUAD Performance with Different Models
+Figure 5: Performance on CUAD using chrono-
+logically aranged models. Each bar is an average
+of the performance of all models in each model
+class.
+103 104
+Number of Training Annotations
+0
+10
+20
+30
+40
+50AUPR
+CUAD Performance vs. Dataset Size
+Figure 6: AUPR as a function of the number
+of training annotations for RoBERTa-base. This
+highlights the value of our dataset’s size.
+more than 20 times more parameters than its smallest version, it only performs around 3% percent
+better. We ﬁnd similar results with BERT as well; Table 2 shows only slight changes in the AUPR
+from BERT-base (32.4%) to BERT-large (32.3%).
+On the other hand, model size seems to make an important difference in other cases. For example,
+RoBERTa-base (42.6%) has noticeably lower performance than RoBERTa-large (48.2%). There are
+also large differences in performance across different models, with DeBERTa performing far better
+than BERT. This suggests that while model size does not consistently help, model design can still be
+a path towards improving performance.
+Performance as a Function of Training Data. We now assess how performance changes as a
+function of dataset size. We restrict our attention to RoBERTa-base and compute the AUPR as we
+vary the amount of training data. In particular, we test performance after training on 3%, 10%, 30%,
+and 100% of the training contracts. To account for the smaller number of gradient updates that comes
+from having less data, we increase the number of training epochs in grid search to make the number
+of gradient updates approximately equal. For example, when we train on 30% of the contracts, we
+consider grid search with the number of epochs in{3, 12} instead of{1, 4}.
+We show the results in Figure 6. We notice a substantial increase in performance as the amount
+of training data increases. For example, increasing the amount of data by an order of magnitude
+increases performance from 27.6% to 42.6%, a 15% absolute difference.
+In fact, these gains in performance from just a single order of magnitude more data are comparable to
+the entire variation in performance across models. In particular, the best model (DeBERTa-xlarge)
+has an AUPR that is 15.4% higher (in absolute terms) than that of the worst model in terms of AUPR.
+This indicates that data is a large bottleneck for contract review in this regime, highlighting the value
+of CUAD.
+5 Conclusion
+We introduced a high-quality dataset of annotated contracts to facilitate research on contract review
+and to better understand how well NLP models can perform in highly specialized domains. CUAD
+includes over 13,000 annotations by legal experts across 41 labels. We evaluated ten pretrained
+language models on CUAD and found that performance is promising and has large room for im-
+provement. We found that data is a major bottleneck, as decreasing the amount of data by an order
+of magnitude cuts performance dramatically, highlighting the value of CUAD’s large number of
+annotations. We also showed that performance is markedly inﬂuenced by model design, suggesting
+that algorithmic improvements from the NLP community will help solve this challenge. Overall,
+CUAD can accelerate research towards resolving a major real-world problem, while also serving as a
+benchmark for assessing NLP models on specialized domains more broadly.
+8
+Acknowledgements
+A full list of contributors to the CUAD dataset is available at https://www.atticusprojectai.org/cuad.
+DH is supported by the NSF GRFP Fellowship. DH and CB are supported by Open Philanthropy
+Project AI Fellowships.
+References
+Ondrej Bojar, C. Buck, C. Federmann, B. Haddow, Philipp Koehn, Johannes Leveling, Christof Monz,
+Pavel Pecina, Matt Post, Herve Saint-Amand, Radu Soricut, Lucia Specia, and A. Tamchyna.
+Findings of the 2014 workshop on statistical machine translation. In WMT at ACL, 2014.
+T. Brown, B. Mann, Nick Ryder, Melanie Subbiah, J. Kaplan, Prafulla Dhariwal, Arvind Neelakantan,
+Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-V oss, G. Krüger,
+T. Henighan, R. Child, Aditya Ramesh, D. Ziegler, Jeffrey Wu, Clemens Winter, Christopher
+Hesse, Mark Chen, E. Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, J. Clark, Christopher
+Berner, Sam McCandlish, A. Radford, Ilya Sutskever, and Dario Amodei. Language models are
+few-shot learners. ArXiv, abs/2005.14165, 2020.
+CEB. Advance your contract management process, 2017. URL https://web.archive.org/
+web/20170920135124/https://www.cebglobal.com/compliance-legal/
+smb-legal/contract-management-midsized.html .
+Ilias Chalkidis, Ion Androutsopoulos, and A. Michos. Extracting contract elements. Proceedings of
+the 16th edition of the International Conference on Articial Intelligence and Law , 2017.
+Ilias Chalkidis, Ion Androutsopoulos, and A. Michos. Obligation and prohibition extraction using
+hierarchical rnns. ArXiv, abs/1805.03871, 2018.
+Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, and Ion Androutsopoulos. Large-scale
+multi-label text classiﬁcation on eu legislation. In ACL, 2019.
+J. Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep
+bidirectional transformers for language understanding. In NAACL-HLT, 2019.
+X. Duan, Baoxin Wang, Ziyue Wang, Wentao Ma, Yiming Cui, D. Wu, S. Wang, T. Liu, Tianxiang
+Huo, Z. Hu, Heng Wang, and Z. Liu. Cjrc: A reliable human-annotated benchmark dataset for
+chinese judicial reading comprehension. ArXiv, abs/1912.09156, 2019.
+Soham Gadgil, Mark Endo, Emily P. Wen, A. Ng, and P. Rajpurkar. Chexseg: Combining expert
+annotations with dnn-generated saliency maps for x-ray segmentation. ArXiv, 2021.
+Suchin Gururangan, Ana Marasovi ´c, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey,
+and Noah A. Smith. Don’t stop pretraining: Adapt language models to domains and tasks. ArXiv,
+abs/2004.10964, 2020.
+Pengcheng He, Xiaodong Liu, Jianfeng Gao, and Weizhu Chen. Deberta: Decoding-enhanced bert
+with disentangled attention. ArXiv, abs/2006.03654, 2020.
+Dan Hendrycks, Steven Basart, Saurav Kadavath, Mantas Mazeika, Akul Arora, Ethan Guo, Collin
+Burns, Samir Puranik, Horace He, Dawn Song, and Jacob Steinhardt. Measuring coding challenge
+competence with apps. arXiv preprint arXiv:2105.09938, 2021a.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy Zou, Mantas Mazeika, D. Song, and J. Steinhardt.
+Measuring massive multitask language understanding. In ICLR, 2021b.
+Dan Hendrycks, Collin Burns, Saurav Kadavath, Akul Arora, Steven Basart, Eric Tang, Dawn Song,
+and Jacob Steinhardt. Measuring mathematical problem solving with the math dataset. arXiv
+preprint arXiv:2103.03874, 2021c.
+N. Holzenberger, Andrew Blair-Stanek, and Benjamin Van Durme. A dataset for statutory reasoning
+in tax law entailment and question answering. In NLLP@KDD, 2020.
+Yoshinobu Kano, Miyoung Kim, M. Yoshioka, Yao Lu, J. Rabelo, Naoki Kiyota, R. Goebel, and
+K. Satoh. Coliee-2018: Evaluation of the competition on legal information extraction and entail-
+ment. In JSAI-isAI Workshops, 2018.
+Diederik P. Kingma and Jimmy Ba. Adam: A method for stochastic optimization. CoRR,
+abs/1412.6980, 2015.
+9
+Zhenzhong Lan, Mingda Chen, Sebastian Goodman, Kevin Gimpel, Piyush Sharma, and Radu Soricut.
+Albert: A lite bert for self-supervised learning of language representations. ArXiv, abs/1909.11942,
+2020.
+Spyretta Leivaditi, J. Rossi, and E. Kanoulas. A benchmark for lease contract review. ArXiv,
+abs/2010.10386, 2020.
+Y . Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, M. Lewis,
+Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach.
+ArXiv, abs/1907.11692, 2019.
+Pranav Rajpurkar, Robin Jia, and Percy Liang. Know what you don’t know: Unanswerable questions
+for squad. ArXiv, abs/1806.03822, 2018.
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez,
+L. Kaiser, and Illia Polosukhin. Attention is all you need. ArXiv, abs/1706.03762, 2017.
+Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer
+Levy, and Samuel R. Bowman. Superglue: A stickier benchmark for general-purpose language
+understanding systems. In NeurIPS, 2019.
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue, Anthony Moi,
+Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe Davison, Sam Shleifer, Patrick
+von Platen, Clara Ma, Yacine Jernite, Julien Plu, Canwen Xu, Teven Le Scao, Sylvain Gugger,
+Mariama Drame, Quentin Lhoest, and Alexander M. Rush. Transformers: State-of-the-art natural
+language processing. In Proceedings of the 2020 Conference on Empirical Methods in Natural
+Language Processing: System Demonstrations . Association for Computational Linguistics, 2020.
+Tong Xiao, Tian Xia, Yi Yang, Chang Huang, and Xiaogang Wang. Learning from massive noisy
+labeled data for image classiﬁcation. CVPR, 2015.
+Haoxi Zhong, Chaojun Xiao, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, and Maosong Sun. How
+does nlp beneﬁt legal system: A summary of legal artiﬁcial intelligence. ArXiv, abs/2004.12158,
+2020.
+A Appendix
+Contract Labels
+Page 10
+                                                         Form of Transfer and Servicing Agreement
+TRANSFER AND SERVICING AGREEMENT, dated as of January 29, 2020 (this “Agreement”), among
+VERIZON OWNER TRUST 2020-A, a Delaware statutory trust, as issuer (the “Issuer”), VERIZON ABS LLC,
+a Delaware limited liability company, as depositor (the “Depositor”), and Cellco Partnership d/b/a Verizon
+Wireless, a Delaware general partnership (“Cellco”), as servicer (in such capacity, the “Servicer”)
+(f) No Obligation to Investigate. None of the Issuer, the Owner Trustee, the Indenture Trustee (including in its
+capacity as Successor Servicer hereunder), the Sponsor, the Marketing Agent, the Depositor, the Parent Support
+Provider, the Administrator or the Servicer will be obligated to investigate whether a breach or other event has
+occurred that would require the acquisition of any Receivable under this Section 3.3 or whether any Receivables
+are otherwise required to be acquired under this Section 3.3.
+(g) Acquisition is Sole Remedy. The sole remedy of the Issuer, the Indenture Trustee, the Owner Trustee,
+and the Secured Parties for any extension, modification, amendment, cancellation or waiver of a Receivable
+or any terms thereof under Section 3.2(b) or a breach of the covenants made by theServicer in Section 3.2(c)
+or (d) is the Servicer’s acquisition of the Receivables, as described under this Section 3.3.
+Section 3.4 Sale of Written-Off Receivables. The Servicer may sell to any third party a Receivable that has
+been written off.
+This Agreement is for the benefit of and will be binding on the parties and their permitted successors and assigns.
+The Owner Trustee and the Indenture Trustee, for the benefit of the Secured Parties, will be third-party
+beneficiaries of this Agreement and may enforce this Agreement against the Depositor and the Servicer.
+No other Person will have any right or obligation under this Agreement.Page 44 Page 1 ...
+...
+Agreement Date
+Cap on Liability
+Third Party Beneficiary
+Figure 7: Our dataset consists of over 500 contracts, each carefully labeled by legal experts to identify
+important clauses, which models can then learn to extract from contracts. Our dataset covers a diverse
+set of contracts, including 25 different contract types. It can be tedious and expensive for legal
+professionals to manually ﬁnd important clauses, especially from long contracts such as this one with
+over 100 pages long.
+A.1 Special Cases
+The one small exception during metric computation is for the Parties label, which (unlike for the other
+labels) often has several very small extracted segments of text in a given contract. We relax what
+10
+0 20 40 60 80 100
+Precision @ 80% Recall
+Covenant Not To Sue
+IP Ownership Assignment
+Rofr/Rofo/Rofn
+Most Favored Nation
+Post-Termination Services
+Change Of Control
+Warranty Duration
+Competitive Restriction Exception
+Affiliate License-Licensor
+Unlimited/All-You-Can-Eat-License
+Non-Compete
+Joint IP Ownership
+Minimum Commitment
+Non-Disparagement
+Affiliate License-Licensee
+Liquidated Damages
+Volume Restriction
+Third Party Beneficiary
+Uncapped Liability
+Non-Transferable License
+No-Solicit Of Customers
+Notice Period To Terminate Renewal
+Termination For Convenience
+Effective Date
+Revenue/Profit Sharing
+Audit Rights
+Renewal Term
+Exclusivity
+Irrevocable Or Perpetual License
+Source Code Escrow
+Insurance
+License Grant
+Cap On Liability
+No-Solicit Of Employees
+Anti-Assignment
+Expiration Date
+Agreement Date
+Parties
+Document Name
+Governing Law
+CUAD Performance by Category
+Figure 8: Comparison of Precision @ 80% Recall for DeBERTa-xlarge across different label cate-
+gories. While performance is high for some labels, it is has much room for improvement for other
+labels.
+counts as a match for the Parties label by also counting as a match any case when the ground truth
+segment is a substring of a predicted extraction of text. This is reasonable in practice because our
+predicted extractions are bounded by to be at most about a paragraph in length. Another exception is
+that the Price Restrictions provision did not have examples in the test set due to randomization in our
+train-test split, so performance for that class was ignored in this paper.
+A.2 Dataset Details
+Labeling Process Details. The steps of our dataset creation process is as follows.
+11
+Contract Type Number of Contracts
+Afﬁliate Agreement 10
+Agency Agreement 13
+Collaboration Agreement 26
+Co-Branding Agreement 22
+Consulting Agreement 11
+Development Agreement 29
+Distributor Agreement 32
+Endorsement Agreement 24
+Franchise Agreement 15
+Hosting Agreement 20
+IP Agreement 17
+Joint Venture Agreement 23
+License Agreement 33
+Maintenance Agreement 34
+Manufacturing Agreement 17
+Marketing Agreement 17
+Non-Compete Agreement 3
+Outsourcing Agreement 18
+Promotion Agreement 12
+Reseller Agreement 12
+Service Agreement 28
+Sponsorship Agreement 31
+Supply Agreement 18
+Strategic Alliance Agreement 32
+Transportation Agreement 13
+Total 510
+Table 3: A breakdown of contract types and their count.
+1. Law Student training . Law students attended training sessions on each of the categories
+that included a summary, video instructions by experienced attorneys, multiple quizzes and
+workshops. Students were then required to label sample contracts in eBrevia, an online
+contract review tool. The initial training took approximately 70-100 hours.
+2. Law Student Label. Law students conducted manual contract review and labeling in eBrevia.
+3. Key Word Search. Law students conducted keyword search in eBrevia to capture additional
+categories that have been missed during the “Student Label” step.
+4. Category-by-Category Report Review . Law students exported the labeled clauses into
+reports, review each clause category-by-category and highlight clauses that they believe are
+mislabeled.
+5. Attorney Review. Experienced attorneys reviewed the category-by-category report with
+students comments, provided comments and addressed student questions. When applicable,
+attorneys discussed such results with the students and reached consensus. Students made
+changes in eBrevia accordingly.
+6. eBrevia Extras Review. Attorneys and students used eBrevia to generate a list of “extras,”
+which are clauses that eBrevia AI tool identiﬁed as responsive to a category but not labeled
+by human annotators. Attorneys and students reviewed all of the “extras” and added the
+correct ones. The process is repeated until all or substantially all of the “extras” are incorrect
+labels.
+7. Final Report. The ﬁnal report was exported into a CSV ﬁle. V olunteers manually added the
+“Yes/No” answer column to categories that do not contain an answer.
+Redacted Information. Some clauses in the ﬁles are redacted because the party submitting these
+contracts redacted them to protect conﬁdentiality. Such redaction may show up as *** or ___ or blank
+space. The dataset and the answers reﬂect such redactions. For example, the answer for “January __
+2020” would be “1/[]/2020”).
+12
+Some sentences in the ﬁles include conﬁdential legends that are not part of the contracts. An
+example of such conﬁdential legend is as follows: THIS EXHIBIT HAS BEEN REDACTED AND
+IS THE SUBJECT OF A CONFIDENTIAL TREATMENT REQUEST. REDACTED MATERIAL IS
+MARKED WITH [* * *] AND HAS BEEN FILED SEPARATELY WITH THE SECURITIES AND
+EXCHANGE COMMISSION. Some sentences in the ﬁles contain irrelevant information such as
+footers or page numbers. Some sentences may not be relevant to the corresponding category. Some
+sentences may correspond to a different category. Because many legal clauses are very long and
+contain various sub-parts, sometimes only a sub-part of a sentence is responsive to a category.
+Contract Types. We provide a list of each of the 25 contract types, along with the number of
+contracts in CUAD of each type, in Table 3.
+Label Category Details. We provide descriptions of every label category in Tables 4 and 5.
+A.3 Conversion to SQuAD 2.0 Format
+In the question answering literature, some datasets have answers that are spans of given input text,
+similar to us. A particularly notable dataset that shares this format is SQuAD 2.0 (Rajpurkar et al.,
+2018), a reading comprehension dataset with questions that have spans of the passage as answers.
+To facilitate the use of prior work on datasets such as SQuAD 2.0, we format our dataset in the same
+format. In particular, we ﬁrst segment a contract into different paragraphs typically range from one
+to ﬁve sentences. Then for each label category and each such paragraph, we format the question as
+follows:
+“Highlight the parts (if any) of this clause related to "<Label Category>". Details: <Label Category
+Description>”
+where the label category descriptions are the same as in Tables 4 and 5.
+The answer is then the span of text of the given passage that should be highlighted, or the empty
+string if nothing should be highlighted as relevant to that label category, along with the character
+position where that span begins.
+13
+Category Description
+Document Name The name of the contract
+Parties The two or more parties who signed the contract
+Agreement Date The date of the contract
+Effective Date On what date is the contract is effective?
+Expiration Date On what date will the contract’s initial term expire?
+Renewal Term What is the renewal term after the initial term expires? This includes
+automatic extensions and unilateral extensions with prior notice.
+Notice to Terminate Re-
+newal
+What is the notice period required to terminate renewal?
+Governing Law Which state/country’s law governs the interpretation of the contract?
+Most Favored Nation Is there a clause that if a third party gets better terms on the licensing
+or sale of technology/goods/services described in the contract, the
+buyer of such technology/goods/services under the contract shall
+be entitled to those better terms?
+Non-Compete Is there a restriction on the ability of a party to compete with
+the counterparty or operate in a certain geography or business or
+technology sector?
+Exclusivity Is there an exclusive dealing commitment with the counterparty?
+This includes a commitment to procure all “requirements” from one
+party of certain technology, goods, or services or a prohibition on
+licensing or selling technology, goods or services to third parties,
+or a prohibition on collaborating or working with other parties),
+whether during the contract or after the contract ends (or both).
+No-Solicit of Customers Is a party restricted from contracting or soliciting customers or
+partners of the counterparty, whether during the contract or after
+the contract ends (or both)?
+Competitive Restriction
+Exception
+This category includes the exceptions or carveouts to Non-Compete,
+Exclusivity and No-Solicit of Customers above.
+No-Solicit of Employees Is there a restriction on a party’s soliciting or hiring employees
+and/or contractors from the counterparty, whether during the con-
+tract or after the contract ends (or both)?
+Non-Disparagement Is there a requirement on a party not to disparage the counterparty?
+Termination for Conve-
+nience
+Can a party terminate this contract without cause (solely by giving
+a notice and allowing a waiting period to expire)?
+ROFR/ROFO/ROFN Is there a clause granting one party a right of ﬁrst refusal, right of
+ﬁrst offer or right of ﬁrst negotiation to purchase, license, market, or
+distribute equity interest, technology, assets, products or services?
+Change of Control Does one party have the right to terminate or is consent or notice
+required of the counterparty if such party undergoes a change of
+control, such as a merger, stock sale, transfer of all or substantially
+all of its assets or business, or assignment by operation of law?
+Anti-Assignment Is consent or notice required of a party if the contract is assigned to
+a third party?
+Revenue/Proﬁt Sharing Is one party required to share revenue or proﬁt with the counterparty
+for any technology, goods, or services?
+Price Restriction Is there a restriction on the ability of a party to raise or reduce prices
+of technology, goods, or services provided?
+Minimum Commitment Is there a minimum order size or minimum amount or units per-
+time period that one party must buy from the counterparty under
+the contract?
+V olume Restriction Is there a fee increase or consent requirement, etc. if one party’s
+use of the product/services exceeds certain threshold?
+IP Ownership Assign-
+ment
+Does intellectual property created by one party become the property
+of the counterparty, either per the terms of the contract or upon the
+occurrence of certain events?
+Joint IP Ownership Is there any clause providing for joint or shared ownership of intel-
+lectual property between the parties to the contract?
+Table 4: Label categories and their descriptions (part 1/2).
+14
+Category Description
+License Grant Does the contract contain a license granted by one party to its
+counterparty?
+Non-Transferable
+License
+Does the contract limit the ability of a party to transfer the license
+being granted to a third party?
+Afﬁliate IP License-
+Licensor
+Does the contract contain a license grant by afﬁliates of the licensor
+or that includes intellectual property of afﬁliates of the licensor?
+Afﬁliate IP License-
+Licensee
+Does the contract contain a license grant to a licensee (incl. subli-
+censor) and the afﬁliates of such licensee/sublicensor?
+Unlimited/All-You-Can-
+Eat License
+Is there a clause granting one party an “enterprise,” “all you can eat”
+or unlimited usage license?
+Irrevocable or Perpetual
+License
+Does the contract contain a license grant that is irrevocable or
+perpetual?
+Source Code Escrow Is one party required to deposit its source code into escrow with
+a third party, which can be released to the counterparty upon the
+occurrence of certain events (bankruptcy, insolvency, etc.)?
+Post-Termination
+Services
+Is a party subject to obligations after the termination or expiration
+of a contract, including any post-termination transition, payment,
+transfer of IP, wind-down, last-buy, or similar commitments?
+Audit Rights Does a party have the right to audit the books, records, or phys-
+ical locations of the counterparty to ensure compliance with the
+contract?
+Uncapped Liability Is a party’s liability uncapped upon the breach of its obligation
+in the contract? This also includes uncap liability for a particular
+type of breach such as IP infringement or breach of conﬁdentiality
+obligation.
+Cap on Liability Does the contract include a cap on liability upon the breach of a
+party’s obligation? This includes time limitation for the counter-
+party to bring claims or maximum amount for recovery.
+Liquidated Damages Does the contract contain a clause that would award either party
+liquidated damages for breach or a fee upon the termination of a
+contract (termination fee)?
+Warranty Duration What is the duration of any warranty against defects or errors in
+technology, products, or services provided under the contract?
+Insurance Is there a requirement for insurance that must be maintained by one
+party for the beneﬁt of the counterparty?
+Covenant Not to Sue Is a party restricted from contesting the validity of the counterparty’s
+ownership of intellectual property or otherwise bringing a claim
+against the counterparty for matters unrelated to the contract?
+Third Party Beneﬁciary Is there a non-contracting party who is a beneﬁciary to some or all
+of the clauses in the contract and therefore can enforce its rights
+against a contracting party?
+Table 5: Label categories and their descriptions (part 2/2).
+15

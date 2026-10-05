@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/2024_Reglementation_des_Changes.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/2024_Reglementation_des_Changes.pdf",
+ "content_type": "application/pdf",
+ "sha256": "8e7718cb67562b39cec5cf42992139485d0a4539e4df11893b68d5da29c3ac90",
+ "bytes": 7565995,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_2024_Reglementation_des_Changes.pdf",
+ "pages": 339,
+ "text_chars": 795119,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 01 Oct 2024 16:34:39 GMT"
+}

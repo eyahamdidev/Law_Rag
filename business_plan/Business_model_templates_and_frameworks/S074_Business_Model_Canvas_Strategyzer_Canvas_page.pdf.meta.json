@@ -1,0 +1,22 @@
+{
+ "id": "S074",
+ "dataset": "business_plan",
+ "section": "Business model templates and frameworks",
+ "name": "Business Model Canvas (Strategyzer) - Canvas page",
+ "url": "https://www.strategyzer.com/library/the-business-model-canvas",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://www.strategyzer.com/library/the-business-model-canvas",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "6e5d7c6198a2e84c4a87658d33dd02ea85443545234c5546a26adcce4ff11310",
+ "bytes": 1130971,
+ "path": "business_plan\\Business_model_templates_and_frameworks\\S074_Business_Model_Canvas_Strategyzer_Canvas_page.pdf",
+ "status": "ok",
+ "pages": 7,
+ "text_chars": 3516,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Business Model Canvas – Download the Official Template",
+ "note": "",
+ "last_modified": "Mon, 05 Oct 2026 10:20:01 GMT"
+}

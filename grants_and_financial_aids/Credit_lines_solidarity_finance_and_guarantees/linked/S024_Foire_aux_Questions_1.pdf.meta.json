@@ -1,0 +1,20 @@
+{
+ "id": "S024",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "FONAPRAM - national fund for crafts and small trades - UBCI FONAPRAM page",
+ "url": "https://www.ubci.tn/wp-content/blogs.dir/2024/12/Foire-aux-Questions-1.pdf",
+ "parent": "https://www.ubci.tn/professionnels/financement/financer-mon-investissement/credit-fonapra/",
+ "flag": "S",
+ "final_url": "https://www.ubci.tn/wp-content/blogs.dir/2024/12/Foire-aux-Questions-1.pdf",
+ "content_type": "application/pdf",
+ "sha256": "a1953f5f08997af080e82ccd70e6fa47d6cbb84b1c0016fb61a7777853e3bbc2",
+ "bytes": 241073,
+ "status": "ok",
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\linked\\S024_Foire_aux_Questions_1.pdf",
+ "pages": 9,
+ "text_chars": 20081,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 03 Dec 2024 11:46:15 GMT"
+}

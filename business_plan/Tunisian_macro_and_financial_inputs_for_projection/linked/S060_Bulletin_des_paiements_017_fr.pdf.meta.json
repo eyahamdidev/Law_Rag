@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/Bulletin_des_paiements_017_fr.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/Bulletin_des_paiements_017_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "05e390b1081eb59dd75f73f9c2f5d5c5f1732a9921e538a090ceeeddcb9370b2",
+ "bytes": 2105942,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_Bulletin_des_paiements_017_fr.pdf",
+ "pages": 1,
+ "text_chars": 2604,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Fri, 14 Aug 2026 10:02:37 GMT"
+}

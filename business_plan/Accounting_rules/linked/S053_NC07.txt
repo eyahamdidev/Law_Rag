@@ -1,0 +1,168 @@
+http://www.procomptable.com/ 
+ 
+NC 07 
+Norme comptable relative aux Placements 
+ 
+Objectif 
+01. L'objectif de la présente norme est de prescrire le traitement comptable des placements ainsi que 
+les informations y afférentes à fournir dans les notes aux états financiers. 
+Champ d'application 
+02. La présente norme traite de la prise en compte, de l'évaluation et de la présentation, par une 
+entreprise, de ses placements dans les états financiers. 
+03. Le traitement, dans le cadre de l'établissement des comptes consolidés, des titres de participation 
+détenus dans les filiales, entreprises associées et co-entreprises est exclu du champ d'application de 
+la présente norme. 
+Définitions 
+04. Dans la présente norme, les termes ci-après sont utilisés avec les significations suivantes : 
+Un placement est un actif détenu par une entreprise dans l'objectif d'en tirer des bénéfices 
+sous forme d'intérêts, de dividendes ou de revenus assimilés, des gains en capital ou d'autres 
+gains tels que ceux obtenus au moyen de relations commerciales. 
+Un placement à court terme est un placement que l'entreprise n'a pas l'intention de conserver 
+pendant plus d'un an et qui, de par sa nature, peut être liquidé à brève échéance. Toutefois, le 
+fait de détenir un tel placement pendant une période supérieure à un an ne remet pas en cause, 
+si l'intention n'a pas changé, son classement parmi les placements à court terme. 
+Un placement à long terme est un placement détenu dans l'intention de le conserver 
+durablement notamment pour exercer sur la société émettrice un contrôle exclusif, ou une 
+influence notable ou un contrôle conjoint, ou pour obtenir des revenus et des gains en capital 
+sur une longue échéance ou pour protéger, ou promouvoir des relations commerciales. Un 
+placement à long terme est également un placement qui n'a pas pu être classé parmi les 
+placements à court terme. 
+Un titre est coté lorsqu'il est inscrit à la cote permanente de la Bourse des Valeurs Mobilières 
+de Tunis ou un autre marché financier étranger. 
+La juste valeur d'un placement est le prix auquel celui-ci pourrait être échangé entre un 
+acheteur et un vendeur normalement informés et consentants, dans une transaction équilibrée. 
+La valeur de marché d'un placement est sa valeur probable de négociation sur un marché actif 
+et liquide, soit le montant de liquidités qui peut être obtenu de sa vente. 
+La valeur d'usage d'un placement est le prix qu'une personne prudente et avisée, informée de 
+la situation de l'entreprise, accepterait de payer si elle avait à l'acquérir. 
+Des titres sont réputés de même nature lorsqu'ils sont émis par un même émetteur et 
+confèrent les mêmes droits. 
+Coût d'entrée des placements 
+05. Lors de leur acquisition, les placements sont comptabilisés à leur coût. Les frais 
+d'acquisition, tels que les commissions d'intermédiaires, les honoraires, les droits et les frais 
+de banque sont exclus. Toutefois, les honoraires d'étude et de conseil engagés à l'occasion de 
+l'acquisition de placements à long terme peuvent être inclus dans le coût. 
+06. Le coût des placements acquis par l'émission de titres correspond à la juste valeur des titres émis 
+et non à leur valeur nominale. Si les titres sont acquis en échange d'un autre actif, le coût correspond 
+http://www.procomptable.com/ 
+ 
+à la juste valeur de l'actif cédé ou de l'actif obtenu si la valeur de ce dernier est plus aisée à 
+déterminer. 
+07. Le montant des droits de souscription acquis en même temps que les titres correspondants 
+souscrits en vertu de ces droits est inclus dans le coût d'entrée du placement. Lorsque l'entreprise 
+souscrit aux actions nouvelles, en utilisant les droits attachés à des actions anciennes détenues, les 
+actions nouvelles sont comptabilisées à leur prix d'émission. 
+08. Les droits d'attribution d'actions gratuites, acquis en vue d'obtenir les actions correspondantes 
+sont inclus dans le coût de ces dernières. 
+09. Des circonstances particulières peuvent conduire à dissocier la part des revenus liés à un 
+placement de son coût. Il en est ainsi lorsque le prix d'acquisition inclut : 
+a. une part d'intérêt courus : l'intérêt couru à la date de l'acquisition et à percevoir à une date 
+ultérieure doit être calculé pour être déduit du prix d'acquisition et constaté en produits à 
+recevoir, 
+b. une part de dividendes dont la décision de distribution est antérieure à la date d'acquisition et 
+qui sont liés à des résultats réalisés au cours de la période antérieure à celle de l'acquisition : le 
+prix d'acquisition est réduit à hauteur de cette part s'il est clairement démontré que les 
+dividendes représentent une distribution sur des bénéfices définitivement réalisés à la date de 
+l'acquisition. 
+10. En cas d'acquisition de titres à un coût inférieur à leur valeur de remboursement, le placement est 
+constaté à son coût d'acquisition. La décote sur acquisition est répartie sur la période comprise entre 
+la date de l'acquisition et la date de l'échéance sur la base du taux réel de rendement du placement. 
+Elle est annuellement constatée en produits comme s'il s'agissait d'intérêts. La partie courue et non 
+amortie est ajoutée à l'ancienne valeur comptable du placement pour obtenir sa nouvelle valeur 
+comptable. La partie amortie est soustraite de la valeur comptable comme s'il s'agissait d'un 
+encaissement sur le principal. 
+11. En cas d'acquisition de titres non entièrement libérés, le titre est comptabilisé pour sa valeur totale 
+(soit le prix d'acquisition ou de souscription), y compris le reliquat restant à libérer. Toutefois, ces titres 
+figurent au bilan pour la partie nette (montant souscrit moins montant restant à libérer), la partie non 
+libérée est mentionnée dans les notes aux états financiers. 
+Evaluation des placements à l'inventaire 
+Placements à long terme 
+12. A la date de clôture, il est procédé à l'évaluation des placements à long terme à leur valeur 
+d'usage. Les moins-values par rapport au coût font l'objet de provision. Les plus-values par 
+rapport au coût ne sont pas constatées. 
+13. Pour déterminer la valeur d'usage, il convient de tenir compte de plusieurs facteurs tels que la 
+valeur de marché, l'actif net, les résultats et les perspectives de rentabilité de l'entreprise émettrice 
+ainsi que la conjoncture économique et l'utilité procurée à l'entreprise. De manière générale, il est 
+nécessaire de rassembler le maximum d'informations en vue d'aboutir à une estimation correcte des 
+placements à long terme. 
+14. La valeur des placements à long terme est déterminée séparément pour chaque catégorie de 
+titres de même nature. Une moins-value dégagée sur une catégorie ne peut pas être compensée par 
+une plus-value dégagée sur une autre catégorie. 
+Placements à court terme 
+15. A la date de clôture, les placements à court terme font l'objet d'une évaluation à la valeur de 
+marché pour les titres cotés et à la juste valeur pour les autres placements à court terme. Les 
+titres cotés qui sont très liquides sont comptabilisés à leur valeur de marché et les plus-values 
+et moins-values dégagées portées en résultat. Pour les titres cotés qui ne sont pas très 
+liquides et les autres placements à court terme, les moins-values par rapport au coût font 
+l'objet de provision et les plus-values ne sont pas constatées. 
+http://www.procomptable.com/ 
+ 
+16. La valeur de marché correspond au cours en bourse moyen pondéré des transactions qui ont eu 
+lieu au cours du mois qui précède la clôture de l'exercice. Le cas échéant, il doit également être tenu 
+compte de l'effet sur la valeur de marché de l'offre additionnelle qui serait occasionnée par la mise en 
+vente des titres à évaluer. 
+17. La juste valeur des placements à court terme qui ne sont pas cotés est déterminée par référence à 
+des critères objectifs tels que le prix stipulé dans des transactions récentes sur les titres considérés, et 
+la valeur mathématique des titres. 
+La valeur des placements à court terme est déterminée séparément pour chaque catégorie de titres 
+de même nature. 
+Cessions des placements et des droits attachés aux actions 
+18. En cas de cession d'un placement, la différence entre la valeur comptable et le produit de la 
+vente, net des charges, est portée en résultat. 
+19. La cession de droit de souscription attaché à des actions est considérée comme aboutissant à une 
+réduction du coût d'entrée de ces actions pour la valeur théorique de ces droits. 
+20. La cession de droits d'attribution aboutit à une réduction du coût d'entrée des actions anciennes 
+ayant donné droit à la distribution gratuite d'actions et de droits d'attribution. Cette réduction peut être 
+calculée par rapport au prix moyen des actions multiplié par le rapport existant à la date de la 
+distribution entre un droit d'attribution et une action nouvelle. 1 
+La différence entre le prix de cession de ces droits d'attribution et le coût moyen de ces droits 
+constitue une plus ou moins-value de cession. 
+21. Dans le cas où la cession porte sur une fraction des placements relevant de la même catégorie, le 
+coût d'entrée de la partie cédée, est calculé sur la base d'une valeur comptable moyenne ou à défaut, 
+en supposant que le premier sorti a été le premier entré (méthode FIFO). 
+Revenus des placements 
+22. Les revenus des placements englobent généralement, les dividendes, parts de résultat et les 
+intérêts. Ils sont constatés en produits dès qu'ils sont acquis même s'ils ne sont pas encore encaissés. 
+23. Les dividendes des titres peuvent être comptabilisés en produits dès le moment où le droit au 
+dividende est établi. 
+24. Les intérêts de certaines valeurs mobilières, telles que les obligations et les bons, courus à la date 
+de clôture de l'exercice constituent des produits à recevoir à enregistrer en produits. 
+Transferts des placements 
+25. Le transfert des placements à long terme en placements à court terme s'effectue :  
+- au plus faible du coût d'acquisition et de la valeur comptable, si le transfert est effectué parmi 
+les placements à court terme évalués au plus faible du coût et de la juste valeur.  
+- à la valeur de marché, si le transfert est effectué parmi les placements à court terme évalués à 
+la valeur de marché, la différence par rapport à la valeur comptable est portée en résultat.  
+26. Le transfert des placements à court terme en placements à long terme s'effectue individuellement 
+au plus faible de la valeur comptable et de la juste valeur, ou à la valeur du marché s'ils étaient 
+antérieurement comptabilisés à cette valeur. 
+Informations à fournir 
+27. Lorsque les placements détenus par l'entreprise sont significatifs, les informations 
+suivantes doivent être portées dans les notes aux états financiers :  
+                                            
+1 La formule exacte est : Coût d'origine d'un Droit d'Attribution (DA) =               DA            . 
+       P r i x  e x - d r o i t  +  1  D A  
+http://www.procomptable.com/ 
+ 
+- les règles de classification et méthodes d'évaluation des placements,  
+- un état des placements à long terme indiquant par catégorie ou nature de placement : 
+• le coût d'acquisition, 
+• le pourcentage de détention, s'il y a lieu, 
+• la provision constituée, le cas échéant. 
+- un état détaillé des titres de participation détenus sur les sociétés filiales indiquant : 
+• le pourcentage de détention, 
+• le coût d'acquisition, 
+• la provision constituée, le cas échéant. 
+- un état des placements à court terme indiquant par catégories de placements de même 
+nature : 
+• le coût d'acquisition, 
+• la valeur de marché pour les placements évalués à la valeur de marché, 
+• la juste valeur pour les autres placements à court terme. 
+- les montants significatifs inclus dans le résultat sur les placements au titre : 
+• des dividendes, intérêts et revenus similaires des placements à court terme et long 
+terme, 
+• des profits et pertes de cession des placements. 
+Date d'application 
+28. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er Janvier 1997. 
+ 

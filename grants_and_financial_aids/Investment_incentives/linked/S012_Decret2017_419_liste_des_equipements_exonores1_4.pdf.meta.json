@@ -1,0 +1,20 @@
+{
+ "id": "S012",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Decree 2017-389 - financial incentives (premiums) - Legal references incl. decree 2024-182",
+ "url": "https://www.apia.com.tn/medias/files/References-Juridiques/Decret2017_419-liste-des-equipements-exonores1-4.pdf",
+ "parent": "https://www.apia.com.tn/references-juridiques.html",
+ "flag": "S",
+ "final_url": "https://www.apia.com.tn/medias/files/References-Juridiques/Decret2017_419-liste-des-equipements-exonores1-4.pdf",
+ "content_type": "application/pdf",
+ "sha256": "3aea284b542e8d882a678b10aabc18ca6fab5495cd923d3d79069e31297b2042",
+ "bytes": 663793,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S012_Decret2017_419_liste_des_equipements_exonores1_4.pdf",
+ "pages": 4,
+ "text_chars": 16219,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Fri, 24 May 2024 13:39:28 GMT"
+}

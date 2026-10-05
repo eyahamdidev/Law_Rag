@@ -1,0 +1,188 @@
+http://www.procomptable.com/ 1
+NC 02 
+Norme comptable  
+relative aux Capitaux propres 
+   
+Objectifs  
+01. Les capitaux propres peuvent comporter certai nes rubriques particulières pouvant présenter des 
+difficultés de traitement, de classement, ainsi que d'informations à leur sujet. 
+Ces difficultés concernent essentiellement certaines réserves (cas des réserves pour réinvestissement 
+exonéré, des réserves de réévaluat ion et des réserves pour fonds  social), ainsi que certaines 
+opérations particulières portant sur les rachats par une société de ses propres actions. 
+02. L'objectif de la présente norme est de définir le s éléments des capitaux propres, d'étudier le 
+traitement de certaines opérations particulières ainsi que les informations à fournir sur ces éléments. 
+Champ d'application 
+03. La présente norme concerne : 
+a. les opérations portant sur les apports (capital, fonds de dotation versés par l'Etat, les primes 
+liées au capital) ; 
+b. les bénéfices autres que ceux pour lesquels une décision de distribution est intervenue ; 
+c. les pertes des exercices précédents et de l'exercice en cours ; et 
+d. les informations à fournir sur les capitaux propres. 
+04. La présente norme ne porte pas : 
+a. sur les subventions d'investissement ; 
+b. sur les particularités de certains instrument s financiers pouvant être considérés comme des 
+capitaux propres. 
+Définitions 
+05. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+Les capitaux propres  sont l'intérêt résiduel dans les actifs de l'entreprise après déduction de 
+tous ses passifs. Ils comportent les diverses cat égories de capital, les compléments d'apport, 
+les réserves et équivalents, les résultats reportés et les résultats positifs ou négatifs. 
+Les diverses catégories de capital visent les postes du capital pour les sociétés et ceux des 
+fonds de dotation pour les entreprises publiques, dont la propriété revient à l'Etat. 
+Le fonds de dotation désigne l'apport en capital de l'Etat au profit des entreprises. 
+Les fonds accordés à des entreprises ou des établissements publics, par l'Etat ou les 
+établissements publics, et dont le caractère de subvention d'investissement n'est pas 
+suffisamment explicité, sont considérés comme des apports en capital. 
+Les compléments d'apport sont constitués notamment des primes d'émission, de fusion et de 
+toute autre prime liée au capital. 
+Les réserves désignent les montants des bénéfices affectés en tant que tels. Les réserves sont 
+de deux sortes : 
+a. les réserves légales, statutaires et contract uelles, affectées suite à une disposition légale, 
+statutaire, contractuelle (réserve légale pour certaines formes juridiques de société, réserve 
+pour réinvestissement exonéré, toute réserve prescrite par les statuts ou par un contrat 
+d'émission, ou par une disposition légale particulière) ; et
+ 
+b. les réserves facultatives affectées suite à des décisions prises par les propriétaires de 
+l'entreprise (cas des réserves pour dépréciation éventuelle des stocks, des réserves pour 
+éventualités, des réserves pour renouvellement des équipements des réserves pour 
+expansion, des réserves pour fonds social...).
+ 
+http://www.procomptable.com/ 2
+Le terme "équivalent" désigne certaines réserves spécifiques, non constituées à la suite des 
+affectations des bénéfices, telles que les réserv es de réévaluation ou les provisions ayant le 
+caractère de réserve et qui ne répondent pas aux critères définis à la norme. 
+Opérations portant sur les capitaux propres 
+06. Les opérations portant sur les capitaux propres sont des opérations ayant trait : 
+a. à toute variation du compte de capital, des comptes de compléments d'apport (prime d'émission, de 
+fusion, d'apport). Parmi ces opérations sont, nota mment, citées les opérations d'augmentation, de 
+réduction, de remboursement du capital, de fusion, de conversion des obligations en actions... ; 
+b. aux écarts relatifs à la constatation des effets de la variation des prix ; 
+c. aux dividendes, y compris ceux distribués en actions  et ceux relatifs aux actions de l'entreprise 
+rachetées par elle-même ; 
+d. aux affectations des résultats négatifs aux postes de résultats reportés ; 
+e. au rachat par la société de ses propres actions en vue, soit de les revendre, soit de les annuler ; et 
+f. à tout gain réalisé ou toute perte subie à la suite des opérations de rachat et de revente ou de 
+rachat et d'annulation. 
+07. Les opérations portant sur les capitaux propres  sont inscrites dans des postes séparés de la 
+rubrique "capitaux propres". 
+Traitement des acquisitions ou rachats d'actions 
+08. L'acquisition par une société de ses propres acti ons donne, généralement, lieu à un écart entre le 
+prix de rachat et la valeur nominale de ces actions. 
+L'achat par une société de ses propres actions puis l eur revente ou leur annulat ion, sont considérés 
+comme étant les deux étapes d'une seule et même opération, dont la revente ou l'annulation est 
+l'aboutissement. Par conséquent, tant que les actions acquises sont détenues par la société, leur coût 
+d'acquisition doit figurer en déduction du total de l'av oir des actionnaires, par une inscription dans une 
+rubrique distincte. 
+L'inscription de ces actions à l'actif de la société, même durant la période de leur détention provisoire, 
+ne doit pas être retenue étant donné que juridiquement une société ne peut pas être propriétaire d'une 
+partie d'elle même. 
+09. Le coût d'acquisition, par une société de ses propres  actions, doit être inscrit "sous une rubrique 
+distincte" en déduction de l'avoir des actionnaires jusqu'à la revente ou l'annulation desdites actions. 
+Traitement des pertes subies à la suite du rachat de ses propres actions 
+10. Lorsqu'une société rachète ses propres actions puis annule ces actions ou celles qu'elles a 
+acquises précédemment, et que le coût d'acquisition est supérieur ou égal à la valeur nominale de ces 
+actions, ce coût est comptabilisé : 
+a. par déduction du compte capital, d'un montant égal à la valeur nominale de ces actions ; 
+b. par déduction de ce qui reste, du complément  d'apport (poste spécifique à cette catégorie de 
+complément), constitué par les excédents prov enant de la revente ou de l'annulation d'actions de 
+même catégorie dont le prix de vente ou la valeur  d'annulation (nominale) ét aient supérieurs au coût 
+d'acquisition ; 
+c. par déduction de ce qui reste de la partie du co mplément d'apport (prime de fusion, d'émission, de 
+conversion d'obligations en actions) constituée lors  de l'émission d'actions de même catégorie et 
+jusqu'à concurrence d'un montant proportionnel au nombre d'actions rachetées ou annulées ; et 
+d. par déduction du reliquat, des bénéfices non répartis (réserves distribuables). Dans le cas où le 
+reliquat absorbe les bénéfices non répartis, l'excédent est à constater parmi les pertes exceptionnelles 
+de l'exercice ou parmi les charges à répartir sur plus ieurs exercices, si les particularités de l'opération 
+le permettent. 
+Traitement des gains réalisés à la suite du rachat de ses propres actions 
+11. Lorsqu'une société rachète ses propres actions puis annule ces actions ou celles qu'elle a 
+acquises précédemment, et que le coût d'acquisition es t inférieur à la valeur nominale de ces actions, 
+ce coût est comptabilisé : 
+a. par déduction du compte capital, d'un montant égal à la valeur nominale de ces actions. 
+b. le reliquat est ajouté aux compléments d'apport sous une rubrique distincte. 
+ 
+http://www.procomptable.com/ 3
+Traitement des gains ou pertes à la suite de la revente d'actions 
+12. Les gains réalisés ou les pertes subies à la suite de la revente par une société de ses 
+propres actions ne doivent pas être imputés aux résultats de l'exercice. 
+13. Lorsqu'une société revend ses actions et que le produit de la revente dépasse le coût 
+d'acquisition, l'excédent doit être crédité au comp lément d'apport. Par contre, si le produit de 
+la vente est inférieur au coût d'acquisition, la perte doit être comptabilisée : 
+a. par déduction du complément d'apport, constitué par les excédents provenant de la revente 
+ou de l'annulation d'actions de même catégor ie (s'il existe un reliquat après la déduction 
+prévue au paragraphe 10) ; et 
+b. par déduction du reliquat des bénéfices non répartis (réserves distribuables). Dans le cas où 
+le reliquat absorbe les bénéfices non répartis, l'excédent est à constater parmi les pertes 
+exceptionnelles de l'exercice, ou parmi les charges à répartir sur plusieurs exercices, si les 
+particularités de l'opération le permettent. 1 
+Traitement des dividendes rattachés aux actions rachetées 
+14. Les dividendes distribués par une société et rev enant à ses propres actions rachetées, ne doivent 
+pas être inclus parmi les revenus de l'exercice. 
+15. Lorsqu'une société acquiert ses propres actions et qu'elle ne les annule pas, tout dividende 
+auquel donneraient droit lesdites actions, doit êt re constaté dans un compte de résultats 
+reportés parmi les capitaux propres. 
+Traitement des réserves pour fonds social 
+16. La réserve pour fonds social, allouée à la su ite d'une affectation de résultat décidée par les 
+propriétaires d'une entreprise, es t, généralement, destinée à financer des opérations remboursables 
+telles que l'octroi des prêts au personnel... 
+17. Les opérations remboursables financées par la  réserve pour fonds social doivent être 
+inscrites à l'actif de la société et le montant ut ilisé de cette réserve doit être porté au niveau 
+des notes aux états financiers. Les rémunérations rattachées à ces opérations doivent venir en 
+augmentation de la réserve pour fonds social. 
+18. Les opérations non remboursables financées par la réserve pour fonds social doivent venir 
+en déduction de cette réserve et la nature de chaque catégorie d'opérations doit être portée au 
+niveau des notes aux états financiers. 
+Informations à fournir 
+19. Les états financiers doivent faire apparaître : 
+a. pour chaque catégorie d'actions : 
+- le nombre d'actions ou le montant du capital autorisé, émis et en circulation, 
+- le capital non encore libéré et la période légale restante pour sa libération, 
+- la valeur nominale des actions, 
+- les droits, priorités ou restrictions aff ectant la distribution des dividendes et le 
+remboursement du capital, 
+- l'arriéré dû sur les dividendes cumulatifs, 
+- le taux du dividende des actions privilégiées, 
+- le prix de rachat des actions rachetables, 
+- l'existence de clauses de convertibilité, 
+- les actions rachetées, ou détenues par des filiales ou des entreprises associées, 
+- les actions réservées pour des émissions futures dans le cadre d'options ou de contrats de 
+vente à terme, en mentionnant les dates et les montants. 
+                                                 
+1 L'hypothèse de l'absence de réserves suffisantes pour résorber les pertes sur actions propres est 
+très peu vraisemblable. En effet, seules les sociétés cotées en bourse sont autorisées à des 
+conditions strictes de procéder à l'achat de leurs actions propres en vue de réguler les cours. Parmi 
+les conditions exigées, la société doit disposer de réserves au moins égales au montant total des 
+actions propres dont l'achat est autorisé, calculé sur la base du cours de bourse à la date 
+d'autorisation par l'assemblée. 
+http://www.procomptable.com/ 4
+b. le nombre d'actions de chaque catégorie ainsi que les certificats d'actions et de vote qui ont 
+été émis depuis la date du dernier bilan, en précisant la valeur qui leur a été donnée, le mode 
+de libération (en espèces, en nature, en compensation de dettes) et les actions émises à la 
+suite de l'exercice d'options ou de droits d'achat ;
+ 
+c. le nombre d'actions de chaque catégorie rachetées par l'entreprise depuis la date du dernier 
+bilan, le prix payé et, si celui-ci n'a pas été réglé en espèces, la nature et la valeur de la 
+contrepartie, l'objectif du rachat (en vue d'une  régulation du cours boursier ou en vue d'une 
+réduction du capital non motivée par des pertes) ;
+ 
+d. le nombre d'actions de chaque catégorie, qui ont été revendues depuis la date du dernier 
+bilan, en indiquant la valeur qui leur a été donnée, les actions revendues par suite de l'exercice 
+d'option ou de droits d'achat, le mode de règlement (espèces, compensation ou conversion, 
+annulation d'obligations) ; 
+e. l'effet du rachat et de la revente de ses propres actions sur le cours boursier ; 
+f. le pourcentage des actions détenues par la société par rapport au total des actions en 
+circulation ;
+ 
+g. les opérations de réduction et d'amortissement du capital ; et 
+h. les sommes versées par l'Etat en qualité de propriétaire (fonds de dotation). 
+20. Les états financiers doivent faire apparaître également : 
+a. la nature de chaque réserve y compris les primes d'émission et l'écart de réévaluation, ainsi 
+que les restrictions affectant leur distribution ; 
+b. les mouvements de l'exercice et les restrictions affectant leur distribution ; 
+c. la ventilation de la réserve pour fonds soci al pour distinguer les utilisations remboursables 
+de celles non remboursables. 
+Date d'application 
+21. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+ouverts à partir du 1er Janvier 1997.  
+  
+ 

@@ -1,0 +1,20 @@
+{
+ "id": "S032",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BCT - credit and bank conditions - Bank conditions",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/termes.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=66",
+ "flag": "E / S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/termes.pdf",
+ "content_type": "application/pdf",
+ "sha256": "266004b59954bb5c57e05ebb839497ae520436aa2f1a92bc76173094c6b73b77",
+ "bytes": 221086,
+ "status": "ok",
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\linked\\S032_termes.pdf",
+ "pages": 2,
+ "text_chars": 2180,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Fri, 23 Dec 2016 09:33:48 GMT"
+}

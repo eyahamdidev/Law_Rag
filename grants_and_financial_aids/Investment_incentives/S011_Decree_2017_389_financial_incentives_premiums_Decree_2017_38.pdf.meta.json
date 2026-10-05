@@ -1,0 +1,20 @@
+{
+ "id": "S011",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Decree 2017-389 - financial incentives (premiums) - Decree 2017-389 (PDF, Ministry of Finance)",
+ "url": "https://www.finances.gov.tn/sites/default/files/reglementaire_fr/decret_2017_389francais.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.finances.gov.tn/sites/default/files/reglementaire_fr/decret_2017_389francais.pdf",
+ "content_type": "application/pdf",
+ "sha256": "95d0b729538fa8bbcc2307543cbb14b1be860fa5d4e950928bf7cf7faaf682c9",
+ "bytes": 1086600,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\S011_Decree_2017_389_financial_incentives_premiums_Decree_2017_38.pdf",
+ "pages": 28,
+ "text_chars": 79338,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 07 May 2024 15:05:18 GMT"
+}

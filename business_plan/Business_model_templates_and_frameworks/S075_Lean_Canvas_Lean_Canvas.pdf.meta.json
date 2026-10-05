@@ -1,0 +1,22 @@
+{
+ "id": "S075",
+ "dataset": "business_plan",
+ "section": "Business model templates and frameworks",
+ "name": "Lean Canvas - Lean Canvas",
+ "url": "https://leanstack.com/lean-canvas",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://leanspark.ai/leancanvas",
+ "content_type": "text/html",
+ "sha256": "7c8619ebbcc571d7e97686061ff63975de67fbe6c478355ebb8532fe2dd2798d",
+ "bytes": 506434,
+ "path": "business_plan\\Business_model_templates_and_frameworks\\S075_Lean_Canvas_Lean_Canvas.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 3672,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Build Your Lean Canvas in 5 Minutes | LEANSpark",
+ "note": "",
+ "last_modified": ""
+}

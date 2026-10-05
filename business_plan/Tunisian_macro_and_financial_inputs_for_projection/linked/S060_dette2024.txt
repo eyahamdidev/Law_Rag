@@ -1,0 +1,2728 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+2 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BANQUE CENTRALE DE TUNISIE 
+ 
+PÔLE STATISTIQUES ET ETUDES 
+DIRECTION GENERALE DES STATISTIQUES 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+AVANT-PROPOS : 
+Le rapport statistique de la dette extérieure 1 est une publication annuelle de la 
+Banque Centrale de Tunisie qui illustre les évolutions de la situation de l’endettement 
+extérieur à long terme du pays lors de l'année sous-revue avec des analyses sur les principaux 
+faits saillants.  
+Ce rapport présente en particulier les statistiques du portefeuille de la dette extérieure 
+de la Tunisie en termes de  mobilisations d'emprunts extérieurs, de remboursements et 
+d’encours et ce, pour les principaux secteurs institutionnels de l'économie nationale.  
+Par ailleurs, ce document met en lumière la structure de la dette extérieure à long terme du 
+pays, notamment, selon la nature des créanciers et des emprunteurs, les devises, les maturités 
+ainsi que les secteurs d'activité etc. Également, ce rapport analyse l’évolution des principaux 
+indicateurs de la dette extérieure, afin de mieux comprendre leurs interactions avec les autres 
+agrégats macroéconomiques et d’évaluer la dynamique globale de l’ende ttement extérieur 
+du pays. 
+Sur un autre plan, les statistiques de la dette extérieure  à long terme  sont établies 
+conformément aux recommandations préconisées dans le Manuel des Statistiques de la Dette 
+Extérieure : Guide pour les compilateurs et les utilisateurs (Guide EDS 2013), le Manuel de la 
+Balance des Paiements et de la Position Extérieure Globale, sixième édition (BPM6) et le 
+Manuel des Statistiques Monétaires et Financières et le Guide de Compilation (MFSMCG 
+2016). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Ce rapport est produit à partir des statistiques compilées sur la dette extérieure à long terme du secteur des administrations 
+publiques réalisées en 2024 (via le Système Informatique pour l'Administration de la Dette Extérieure) et des données obtenues 
+à partir de l’enquête sur l’endettement extérieur et arrêtées à fin juin 202 5. La mise à jour de la majorité des statistiques 
+contenues dans ce rapport est publiée constamment sur le site web de la Banque centrale de Tunisie via le lien www.bct.gov.tn. 
+ 
+ 
+ 
+4 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Sommaire 
+CHIFFRES CLES DE LA DETTE EXTERIEURE A LT EN 2024 8 
+APERÇU GENERAL 9 
+1. CONTEXTE INTERNATIONAL 9 
+2. CONTEXTE NATIONAL 15 
+I. MOBILISATION DES RESSOURCES EXTERIEURES A LT 20 
+1. REPARTITION PAR SECTEURS EMPRUNTEURS 20 
+2. REPARTITION PAR SECTEUR D’ACTIVITE DES ENTREPRISES 21 
+3. REPARTITION PAR SECTEURS CREANCIERS 21 
+4. REPARTITION PAR DEVISES 23 
+II. SERVICE DE LA DETTE EXTERIEURE A LT 23 
+1. REPARTITION PAR SECTEURS EMPRUNTEURS 23 
+2. REPARTITION PAR SECTEURS CREANCIERS 24 
+3. REPARTITION PAR DEVISES 27 
+III. TRANSFERTS NETS 28 
+IV. ENCOURS DE LA DETTE EXTERIEURE A LT 29 
+1. REPARTITION PAR SECTEURS EMPRUNTEURS 29 
+2. REPARTITION PAR SECTEURS CREANCIERS 30 
+3. REPARTITION PAR DEVISES 32 
+V. POSITION DE LA DETTE EXTERIEURE BRUTE 32 
+VI. ANALYSE DE LA DETTE EXTERIEURE A LT : SELON AUTRES INDICATEURS 34 
+1. VARIATION DE L’ENCOURS : EFFET-CHANGE ET EFFET-VOLUME 34 
+2. VENTILATION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR TRANCHE DE TAUX D’INTERET 34 
+3. VENTILATION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR TRANCHE DE DUREE D'AMORTISSEMENT 35 
+4. EVOLUTION DU TAUX D’ENDETTEMENT 36 
+ANNEXES 37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Liste des annexes 
+ANNEXE A |TABLEAUX 38 
+ANNEXE B | GLOSSAIRE 64 
+ 
+Liste des tableaux 
+TABLEAU -A1-  TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME: PAR SECTEURS EMPRUNTEURS ET SECTEURS 
+CREANCIERS 38 
+TABLEAU -A2-  TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  REPARTITION DES AUTRES AGENTS 
+ECONOMIQUES  PAR SECTEURS CREANCIERS 39 
+TABLEAU -A3-  TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  PAR SECTEURS CREANCIERS 40 
+TABLEAU -A4-  TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  PAR SECTEURS EMPRUNTEURS ET 
+SECTEURS CREANCIERS EN 2024 41 
+TABLEAU -A5-  TOTAL DES TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  PAR DEVISES 42 
+TABLEAU -A6-   SERVICE DE LA DETTE  EXTERIEURE A LONG TERME : PAR SECTEURS EMPRUNTEURS ET SECTEURS 
+CREANCIERS EN 2024 43 
+TABLEAU -A7-  SERVICE DE LA DETTE EXTERIEURE A LONG TERME: PAR SECTEURS EMPRUNTEURS 44 
+TABLEAU -A8-  SERVICE DE LA DETTE EXTERIEURE A LONG TERME:  PAR DEVISES 45 
+TABLEAU -A9-  TRANSFERTS NETS :  PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS EN 2024 46 
+TABLEAU -A10-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME: PAR SECTEURS EMPRUNTEURS 47 
+TABLEAU -A11-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  PAR SECTEURS CREANCIERS 48 
+TABLEAU -A12-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  PAR SECTEURS EMPRUNTEURS ET SECTEURS 
+CREANCIERS EN 2024 49 
+TABLEAU -A13-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME: PAR CATEGORIE D’AGENTS  BENEFICIAIRES50 
+TABLEAU -A14-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  PAR DEVISES 51 
+TABLEAU -A15-  VARIATION DE L’ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:   EFFET-CHANGE ET EFFET-
+VOLUME 52 
+TABLEAU -A16-  ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  PAR TRANCHE DE TAUX D’INTERET ET 
+PAR DUREE D’AMMORTISSEMENT  -SITUATION GLOBALE- 53 
+TABLEAU -A17-  ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  PAR TRANCHE DE TAUX D’INTERET ET 
+PAR DUREE D’AMMORTISSEMENT  - CREANCIERS MULTILATERAUX - 54 
+TABLEAU -A18-  ENCOURS DE LA DETTE EXTERIEURE A LONG TERME AU 31/12/2024:  PAR TRANCHE DE TAUX 
+D’INTERET ET PAR DUREE D’AMMORTISSEMENT    - CREANCIERS BILATERAUX OFFICIELS - 55 
+TABLEAU -A19-  ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  PAR TRANCHE DE TAUX D’INTERET ET 
+PAR DUREE D’AMMORTISSEMENT    - AUTRES CREANCIERS - 56 
+TABLEAU -A21-  POSITION DE LA DETTE EXTERIEURE BRUTE 58 
+TABLEAU -A22- POSITION EXTERIEURE GLOBALE DE LA TUNISIE 2023-2024   60 
+TABLEAU -A23-  COURS DE CHANGE DES PRINCIPALES DEVISES D’ENDETTEMENT CONTRE 1 DINAR TUNISIEN 62 
+TABLEAU -A24-  EVOLUTION DE LA NOTATION DE LA TUNISIE 63 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Liste des figures 
+FIGURE 1- CROISSANCE DU PIB (V.A EN %) 10 
+FIGURE 2- EVOLUTION DE L’INFLATION (GLISSEMENT ANNUEL) 11 
+FIGURE 3- LES TAUX D’INTERET MOYENS DES OBLIGATIONS SOUVERAINES 12 
+FIGURE 4- TAUX D'INTERET DE REFERENCE DES MARCHES INTERBANCAIRES 13 
+FIGURE 5- TAUX DE CHANGE DES PRINCIPALES MONNAIES INTERNATIONALES VIS-A-VIS DU DOLLAR AMERICAIN 13 
+FIGURE 6- NOTIONNEL NEGOCIE DES IRD EN EUROPE, ROYAUME-UNI, ETATS-UNIS PAR DEVISE 14 
+FIGURE 7- TAUX DE CROISSANCE DU PIB EN TUNISIE (2015=100) 15 
+FIGURE 8- EVOLUTION DE L'INFLATION EN TUNISIE (2015=100) 16 
+FIGURE 9- COURBE DES TAUX DE LA PLACE 17 
+FIGURE 10- EVOLUTION DU TAUX DE CHANGE DU DINAR (MOYENNE ANNUELLE) 18 
+FIGURE 11- EVOLUTION DU SOLDE BUDGETAIRE ET DU SOLDE COURANT 19 
+FIGURE 12- EVOLUTION DES AVOIRS NETS EN DEVISES 19 
+FIGURE 13- TIRAGES SUR EMPRUNTS EXTERIEURS A LT PAR SECTEURS EMPRUNTEURS 20 
+FIGURE 14- EVOLUTION DES TIRAGES PAR SECTEURS D’ACTIVITE DES ENTREPRISES 2020-2024 21 
+FIGURE 15- TIRAGES SUR EMPRUNTS EXTERIEURS A LT PAR TYPE DE CREANCIER 22 
+FIGURE 16- TIRAGES SUR EMPRUNTS EXTERIEURS A LT PAR DEVISES 23 
+FIGURE 17- SERVICE DE LA DETTE EXTERIEURE PAR SECTEURS EMPRUNTEURS 24 
+FIGURE 18- SERVICE DE LA DETTE EXTERIEURE PAR TYPE DE CREANCIER 25 
+FIGURE 19- SERVICE DE LA DETTE PAR PRINCIPAUX BAILLEURS DE FONDS MULTILATERAUX 26 
+FIGURE 20- SERVICE DE LA DETTE EXTERIEURE PAR PRINCIPAUX BAILLEURS DE FONDS BILATERAUX 27 
+FIGURE 21- SERVICE DE LA DETTE PAR DEVISES 27 
+FIGURE 22- TRANSFERTS NETS PAR SECTEURS EMPRUNTEURS 28 
+FIGURE 23- EVOLUTION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR SECTEURS EMPRUNTEURS 29 
+FIGURE 24- REPARTITION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR SECTEURS CREANCIERS 30 
+FIGURE 25- REPARTITION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR DEVISES 32 
+FIGURE 26- POSITION DE LA DETTE EXTERIEURE BRUTE : 2021-2024 33 
+FIGURE 27- VARIATION DE L’ENCOURS : EVOLUTION DE L’EFFET-CHANGE ET DE L’EFFET-VOLUME 34 
+FIGURE 28- REPARTITION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR TRANCHE DE TAUX EN 2024 35 
+FIGURE 29- REPARTITION DE L’ENCOURS DE LA DETTE EXTERIEURE A LT PAR DUREE D’AMORTISSEMENT EN 2024 36 
+FIGURE 30- EVOLUTION DU TAUX D’ENDETTEMENT 36 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Liste des abréviations, acronymes et sigles 
+A.D Axe droite 
+A.G Axe gauche 
+AFREXIMBANK Banque Africaine d'Import-Export 
+BAD Banque Africaine de Développement 
+BC Banque centrale 
+BCE Banque Centrale Européenne 
+BCT Banque Centrale de Tunisie 
+BEI Banque Européenne d’Investissement 
+BERD Banque Européenne pour la Reconstruction et le Développement 
+CMF Conseil du Marché Financier 
+DTS  Droits de Tirages Spéciaux 
+ESTER Euro Short-Term Rate 
+EUR Euro 
+FADES Fonds Arabe pour le Développement Economique et Social 
+FED Réserve Fédérale des États-Unis 
+FMI Fonds Monétaire International 
+G.A Glissement Annuel 
+GBP Livre sterling 
+INS Institut National de la Statistique 
+IPC Indice des Prix à la Consommation 
+JBIC Banque Japonaise de Coopération Internationale 
+KWD Dinar koweïtien 
+LT Long Terme 
+MDT Millions de Dinars Tunisiens 
+MF Ministère des Finances 
+OCDE Organisation de Coopération et de Développement Economiques  
+Pbs  Point de base 
+PDEB Position de la Dette Extérieure Brute 
+PIB  Produit Intérieur Brut 
+SOFR Secured Overnight Financing Rate 
+USD Dollar américain 
+V.A Variation Annuelle 
+YEN Yen japonais 
+ 
+ 
+ 
+ 
+ 
+8 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Chiffres clés de la dette extérieure à LT en 2024  
+ 
+ 
+                                               
+ n      de l  de e e t   e  e
+   de l    n   e
+          
+ e    e de l  de e
+e t   e  e    
+          
+   n  e t  net 
+          
+     e      em   nt 
+e t   e       
+         
+     d ende ement
+e t   e      
+   d      
+     
+      e    e de l 
+de e e t   e  e    
+  e e e       nte 
+     
+
+ 
+ 
+ 
+9 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+APERÇU GENERAL 
+1. Contexte international  
+ ’   n m e m nd  le a montré une certaine résilience en 2024 malgré un ralentissement 
+modéré, par rapport à 2023 et ce, dans une conjoncture marquée par des chocs successifs et 
+un resserrement monétaire prolongé. Ainsi, le taux de croissance mondiale s’est établi à 3,3% 
+en 2024 (contre 3,5% en 2023 et 3,8% en 2022).   
+Pour les pays avancés,  le taux de croissance économique, s’est légèrement renforcé, 
+passant de 1,7% en 2023 à 1,8% en 2024. En particulier, l'activité des pays de la zone euro, a 
+connu une reprise modérée (+0,9% en 2024, contre +0,4% une année auparavant) qui cache, 
+toutefois, des évolutions divergentes selon les pays. En effet, l' Espagne a continué de réaliser 
+une bonne performance économique affichant une croissance de 3,5% en 2024 (contre 2,5% 
+en 2023). En revanche, la France , a connu un ralentissement de  son taux de croissan ce 
+revenant de 1,6% en 2023 à 1, 1% en 2024. D'un autre côté,  l'Italie a enregistré un taux de 
+croissance stable de 0,7%, contre une récession pour l’ Allemagne et ce, pour la deuxième 
+année consécutive ( -0,5% en 2024 contre -0,9% en 2023). Au Royaume-Uni, l’activité 
+économique a connu un rebond notable, enregistrant une progression de son PIB réel de 1,1% 
+en 2024, contre 0,4% en 2023. Ce redressement s’explique principalement par la reprise de la 
+consommation des ménages et l’amélioration des conditions sur le marché du travail. Pour le 
+Japon, la croissance s’est quasiment interrompue, ne progressant que de 0,1% en 2024, après 
+1,2% en 2023, en raison du recul de la demande intérieure et des exportations. Quant aux 
+États-Unis, le rythme d’expansion est demeuré solide mais a légèrement fléchi, passant de 
+2,9% en 2023 à 2,8% en 2024, sous l’effet du resserrement monétaire et de la modération de 
+la consommation. 
+S’agissant des économies émergentes et en développement , elles ont enregistré une 
+croissance de 4,3%, en 2024 contre 4,7% en 2023. Ce tassement reflète notamment les effets 
+persistants du resserrement monétaire mondial, des tensions géopolitiques et d’un commerce 
+international moins vigoureux. Particulièrement la Russie, a enregistré une croissance de 4,3% 
+en 2024 (contre 4,1% en 2023) en dépit d'un environnement géopolitique instable, soutenue 
+principalement par les exportations d’énergie. En    e de l’  t , la croissance s’est établie à 
+4,1%, portée par essentiellement par la Chine dont le rythme de son activité s’est situé à 5% 
+ 
+ 
+ 
+10 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+(contre 5,4% en 2023), témoignant d’une relative stabilité malgré les difficultés du secteur  de 
+l'immobilier et le ralentissement des exportations. À l’inverse, l’ Asie du Sud est demeurée la 
+région la plus dynamique avec une croissance du PIB de 5,9%, grâce notamment à la vigueur 
+de l’économie indienne (+6,5%), soutenue par la forte demande intérieure, la consolidation 
+des investissements publics et la poursuite des réformes structurelles. 
+    Figure 1- Croissance du PIB (V.A en %) 
+ 
+Source : FMI (WEO) 
+L’ nfl   n m nd  le  a poursuivi en 2024 sa tendance baissière, amorcée en 2023 , 
+marquant ainsi un ralentissement significatif (5,8% contre 6,7% en 2023). En particulier, 
+l'inflation dans les   y     n    a considérablement décéléré, revenant à 2,6% en 2024, contre 
+4,6% en 2023. Ce recul témoigne de l'efficacité des mesures de resserrement des politiques 
+monétaires mises en place. Aux  t t   n  , la baisse a été relativement prononcée avec un taux 
+d’inflation ramené à 3,0% en 2024, (contre 4,1% en 2023). La z ne e    a également connu 
+une nette désinflation, en reculant de 3 points de pourcentage pour revenir à 2,4% en 2024  
+soit un taux proche de l’objectif de la BCE. Ce ralentissement des prix a été, en effet, observé 
+dans la plupart des grandes économies de la zone, notamment en  llem  ne, (2,5%, contre 
+6,0% à) en    n e  (2,3% contre 5,7%) à et en  t l e, (1,1% contre 5,9%). Quant aux   y  en 
+d  el   ement, le taux d’inflation a légèrement fléchi, passant de 8,2% en 2023 à 7,9% en 
+2024, tout en demeurant largement au-dessus de la moyenne mondiale. 
+ 
+3.5 3.3
+1.7 1.8
+4.7
+4.3
+0.4 0.9
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Monde Pays avancés Economie en développement Zone euro
+ 
+ 
+ 
+11 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+     Figure 2- Evolution de l’inflation (Glissement annuel) 
+ 
+Source : FMI (WEO) 
+Face à la détente des taux d’inflation en 2024, les principales Banques centrales ont 
+engagé un réajustement de leurs politiques monétaires . En      e, la Banque centrale 
+européenne a opté pour un assouplissement de sa politique monétaire en réduisant 
+progressivement ses taux directeurs, qui sont revenus de 4,25% en juin 2024 à 3,15% en 
+décembre de la même année. Aux  t t   n  , la réserve fédérale a également entamé une 
+série de baisses de son taux le ramenant de [4,75 % - 5,00%] en septembre 2024 à  
+[4,25 % -4,50%] en fin d’année. Par ailleurs, la banque d’ n lete  e a légèrement assoupli sa 
+politique monétaire en abaissant son taux directeur de 5% en août à 4,75% en novembre 2024.  
+À l’opposé, la banque du J   n (BOJ) a initié un processus de normalisation de sa politique 
+monétaire en mettant fin à la période des taux d'intérêt négatifs, en vigueur depuis 2016, et ce 
+en réponse à la  hausse de l'inflation, à l'augmentation des salaires, ainsi qu'à la dépréciation 
+du yen japonais. En effet, la BOJ a relevé son taux directeur de -0,1% à 0,1% en mars 2024, et 
+à 0,25% en juillet soit le niveau le plus élevé observé depuis 2008. 
+S'agissant de  m   h   b     e  , en particulier dans le     n m e  d  el    e   ils 
+ont été marqués, en 2024, par un dynamisme important en offrant des rendements notables. 
+Aux  t t   n  , l'indice "S&P500" a affiché une performance exceptionnelle, avec une 
+croissance de 23,3 3%. En      e, l'indice "EURO STOXX 50", qui a enregistré une hausse de 
+8,34%, cache des résultats contrastés. En particulier, le "DAX" allemand s'est distingué comme 
+un leader de la zone euro, avec une augmentation de 19,42%, alors que, le "CAC 40" français a 
+6.7
+5.8
+4.6
+2.6
+8.2 7.9
+5.4
+2.4
+0
+2
+4
+6
+8
+10
+12
+2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Monde Pays avancés Economie en développement Zone euro
+ 
+ 
+ 
+12 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+clôturé l'année sur un repli de 2,1 5%. Les marchés de l'    e, ont, à leur tour, connu une 
+dynamique positive tirée principalement par l'indice japonais " Nikkei 225 ", l'un des plus 
+performants de la région, avec une croissance de plus de 19,22%. L'indice "Hang Seng" de Hong 
+Kong a également rebondi de manière remarquable, affichant une hausse de 17,67%. 
+Quant aux m   h    bl   t   e   ils ont affiché d'importantes variations au niveau des 
+rendements. Aux  t t   n  , les rendements des obligations à 10 ans ont connu une hausse 
+significative, passant de 3,88% au début de l’année à 4,57% en fin de 2024. Dans la Z ne     , 
+le rendement du Bon du Trésor  llem nd à 10 ans a montré une forte volatilité en 2024 
+atteignant 2,69% en mai, après avoir débuté l'année à 2,02 %, pour ensuite reculer à 2,41% en 
+novembre puis à 2,02 % en décembre. En    n e, le rendement des obligations souveraines à 
+10 ans a baissé de 20 pbs par rapport à 2023, pour s'établir à une moyenne de 2,8% en 2024. 
+Au   y  me  n   les bons du Trésor à 10 ans ont enregistré un rendement moyen de 3,9% 
+pour l'année. Enfin, au J   n, les rendements des obligations à 10 ans ont progressé en 
+moyenne de 30 pbs, pour atteindre 0,9% sur toute l’année 2024. 
+Figure 3- Les taux d’intérêt moyens des obligations souveraines 
+ 
+Source : OCDE 
+Sur le  m   h    nte b n    e   l’année 2024 a été marquée par une transition 
+significative avec la substitution du "LIBOR", en septembre 2024, par le "SOFR", comme étant 
+le nouvel indice de référence reposant sur des données de transactions réelles et sécurisées. 
+Ce dernier, a atteint une moyenne annuelle de 5,15% (contre 5,0% en 2023), et a clôturé 
+2.4
+2.3
+4.0
+4.2
+0.5
+0.9
+4.1
+3.9
+-1
+0
+1
+2
+3
+4
+5
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+En %
+Allemagne États-Unis Japon Royaume-Uni
+ 
+ 
+ 
+13 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+l'année à 4,53%. Quant au taux interbancaire de la zone euro, "l’ESTER" a également poursuivi 
+sa tendance haussière avec une moyenne de 3,64% sur l'année (contre 3,21% en 2023) et de 
+3,06% en décembre 2024. 
+Figure 4- Taux d'intérêt de référence des marchés interbancaires 
+ 
+Source : BCE, FED 
+Sur le m   h  de  h n e  nte n   n l, et en termes de moyennes annuelles, le dollar 
+américain s'est déprécié de 2,5%, face à la livre sterling, tout en poursuivant son ascension face 
+au yen japonais enregistrant une appréciation de 7,8%. En revanche, face à la monnaie 
+européenne, il est demeuré globalement stable sur l’ensemble de l’année. 
+4.64%
+4.53%
+3.16%
+3.06%
+0%
+1%
+2%
+3%
+4%
+5%
+6% %
+SOFR ESTER
+Figure 5- Taux de change des principales monnaies internationales vis -à-vis du dollar américain 
+ 
+ NOTE : Les données sont exprimées en unités de devise étrangère par dollar. 
+Source : FMI (IFS) 
+140.51
+151.44
+0.80
+0.78
+0.92
+0.92
+0.50
+0.55
+0.60
+0.65
+0.70
+0.75
+0.80
+0.85
+0.90
+0.95
+1.00
+80
+90
+100
+110
+120
+130
+140
+150
+160
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Yen (A.G) GBP (A.D) Euro  (A.D)
+ 
+ 
+ 
+14 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+ n  d   :  e     d  t  d            l      e t  e   nt e le     q e   
+L’endettement extérieur a exposé les économies émergentes à une certaine vulnérabilité à l’égard des conditions 
+d’accès aux marchés internationaux et a augmenté le risque de confrontation aux chocs liés aux fluctuations du 
+taux de change et du taux d’intérêt. Les différents agents économiques font, couramment, recours à un ensemble 
+de produits financiers, notamment les produits dérivés afin de se couvrir contre ces risques.     
+La couverture contre le risque de change implique le recours aux   nt  t  de  h n e   te me  qui sont des 
+engagements fermes d’acheter ou de vendre des devises par la fixation d’un taux de change applicable à une 
+transaction future ce qui offre une couverture contre les fluctuations défavorables des monnaies. Il convient 
+également de citer le   w    de  h n e par lesquels deux parties échangent immédiatement à un taux spot des 
+flux financiers libellés dans deux devises différentes et conviennent de réaliser l’opération inverse à une date 
+future convenue à un taux à terme fixé dans le contrat sur des maturités inférieures à un an. Les  w    de de   e  
+«           en y  w    » sont des contrats plus larges pour une maturité à plus long terme, qui consistent en 
+l’échange de principal et d’intérêts fixes ou variables dans deux devises différentes entre deux parties, pour une 
+période contractuelle déterminée. Afin de neutraliser l’effet change lié aux fluctuations du marché des devises, 
+le      n  constituent des instruments conférant à leur détenteur le droit, mais non l’obligation, d’acheter ou 
+de vendre une devise à un prix convenu.  
+Outre le risque de change, un éventuel risque de hausse des taux d’intérêt nécessite le recours à des      d  de 
+t      t   , dits aussi     «     w  d   te    eement  », qui sont des contrats à terme de gré à gré sur la 
+variation du taux d’intérêt, par lequel deux parties conviennent au moment de signature du contrat d’un taux 
+d’intérêt devant s’appliquer à un montant notionnel pour une période future spécifiée, sans qu’ il y’ait échange 
+du capital notionnel. A la date de règlement, seul le différentiel entre le taux fixé et le taux du marché pour la 
+période concernée est réglé. A l’inverse,  n  w   de t    d’ nt  êt «   nte e t   te  w        » est un contrat 
+dérivé par lequel deux parties conviennent d’échanger des flux périodiques d’intérêts calculés sur un montant 
+notionnel. L’un de ces flux est basé sur un taux fixe, et l’autre sur un taux variable et ce pendant une durée 
+déterminée.  
+En 2024, l’activité des dérivés de taux d’intérêt  «  nte e t   te   e      e  »    «     »  des marchés de l’union 
+européenne, le Royaume-Uni et les États-Unis a accumulé en 2024 un notionnel négocié de 614 600 milliards de 
+dollars, en hausse de 19,2% comparé à 2023. Cela montre une très forte intensité dans l’usage des swaps et 
+autres instruments de taux en 2024,  
+     e    Notionnel négocié des IRD en Europe, Royaume-Uni, Etats-Unis par devise 
+ 
+Source: International Swaps and Derivatives Association ISDA  
+32% 31%
+43% 41%
+11% 13%
+14% 15%
+515.6 
+614.6 
+460
+480
+500
+520
+540
+560
+580
+600
+620
+640
+0%
+20%
+40%
+60%
+80%
+100%
+120%
+2023 2024
+Us$ trillions
+USD EUR GBP Autres Notionnel négocié (A.D)
+ 
+ 
+ 
+15 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+2. Contexte national 
+A l’échelle nationale, l’  t   t     n m q e a affiché un redressement de la croissance 
+atteignant en 2024 un taux de 1,5% (aux prix de l’année précédente), contre une légère hausse 
+de 0,4%, enregistrée en 2023. Cette amélioration a été portée , principalement, par la forte 
+reprise de l’activité agricole qui a connu un rebondissement à 8,8% en 2024 (contre -16,2% en 
+2023), grâce, notamment, à l’amélioration des conditions climatiques. De son côté, l'activité 
+du secteur des services a augmenté de 2% en 2024 après une croissance de 3% enregistrée en 
+2023. En revanche, l’activité industrielle a poursuivi sa tendance baissière affichant -2,8% en 
+2024 (contre -1,1% en 2023). Cette évolution est attribuable à la contreperformance aussi bien 
+des secteurs des industries manufacturières, notamment exportateurs suite au ralentissement 
+économique dans  certains pays partenaires , qu’aux difficultés  persistantes de l’activité des 
+industries extractives. 
+Figure 7- Taux de croissance du PIB en Tunisie (2015=100) 
+ 
+Source : INS 
+La croissance économique a été soutenue par la  demande intérieure  dont la 
+contribution a atteint 4,6 points de pourcentage. En effet, la consommation finale nationale a 
+enregistré un accroissement de 1,2% en 2024 (contre 0,7% en 2023), grâce à la progression de 
+la consommation privée  de 1, 1% (contre 0,9% en 2023) et au redressement de  la 
+consommation publique (1,4% en 2024 contre -0,2% une année auparavant). De son côté, la 
+formation brute de capital fixe a affiché une hausse de 0,7% en 2024 (contre 1,9% en 2023) 
+-0.30
+2.50
+-25
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20 En %
+PIB en glissement annuel PIB en variation trimestrielle
+ 
+ 
+ 
+16 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+portée à la fois par les investissements publics et privés notamment l’expansion des flux d’IDE 
+(+12,9%). Toutefois, la contribution  de la demande extérieure  a été négative en 2024 
+contrairement à 2023 (-3,1 points de pourcentage contre +1,3 point en 2023), expliquée par la 
+baisse de 1,6% aux prix constants des  exportations de biens et services  et la hausse des 
+importations de 3,8%. 
+Dans un contexte marqué par le rétablissement de la conjoncture économique 
+nationale, l’ nd  e de         l    n  mm t  n  a connu un ralentissement de son rythme de 
+progression pour se situer à  7% en 2024 (contre 9,3% une année auparavant).  Cette 
+décélération a été favorisée par l'atténuation de l’évolution des prix des produits alimentaires 
+(9,5% contre 14,7% en 2023) , ainsi que par  la baisse du rythme de l’évolution des prix des 
+produits manufacturés (7% en 2024 contre 9% une année auparavant) et des produits à prix 
+administrés (4% en 2024 contre 5,9% en 2023).   
+Figure 8- Evolution de l'inflation en Tunisie (2015=100) 
+ 
+Source : INS 
+Le processus désinflationniste graduel relevé en 2024 trouve  son origine dans 
+l’atténuation des tensions inflationnistes suite à des facteurs externes notamment le repli des 
+prix internationaux des principaux produits  de base  ainsi qu’à la transmission des effets du 
+resserrement de la politique monétaire menée depuis 2022.  
+Dans ce contexte, la Banque Centrale de Tunisie a maintenu son taux directeur inchangé 
+au niveau de 8% pour la deuxième année consécutive.  
+104 109 117 125 132 140 151 165 177
+103 108 116 124 130 139
+155
+177
+194
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+2016 2017 2018 2019 2020 2021 2022 2023 2024
+Indice
+IPC IPC produits alimentaires
+ 
+ 
+ 
+17 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Concernant les titres, notamment, ceux émis par l’ t t  l’examen de la courbe des taux 
+laisse apparaitre des évolutions disparates selon les maturités. Dans le détail, pour les 
+maturités inférieures à 3 ans, l’évolution des rendements entre 2024 et 2023 est quasiment 
+stable. Ceci traduit principalement le maintien de la même stance de la politique monétaire 
+pendant ces deux dernières années . Cependant, les rendements à long terme observés en 
+2024 pour les maturités supérieures à 3 ans se sont inscrits en léger recul par rapport à l’année 
+2023. Cette détente reflète des perspectives stables de l’orientation de la politique monétaire 
+compte tenu des anticipations d'inflation solidement ancrées. 
+Figure 9- Courbe des taux de la place 
+ 
+Source : CMF 
+Sur le marché de change , le cours du dinar tunisien a connu, à fin décembre 2024 et 
+comparativement à la fin de l’année 2023, une dépréciation de 3,9% (en G.A) vis-à-vis du dollar 
+américain, tandis qu’il s’est apprécié face à l’euro de 2,1% (en G.A) et de 6% (en G.A) face au 
+yen japonais. En termes de moyennes annuelles, le taux de change du dinar a enregistré au 
+cours de l’année 2024 une dépréciation de 0,2% face à l’euro et au dollar américain, alors qu’il 
+s’est apprécié face au yen japonais de 6,8% par rapport à l’année 2023.  
+ 
+ 
+9.16
+9.83
+9.82
+7.0
+7.5
+8.0
+8.5
+9.0
+9.5
+10.0
+10.5
+1 an
+2 ans
+3 ans
+4 ans
+5 ans
+6 ans
+7 ans
+8 ans
+9 ans
+10 ans
+11 ans
+12 ans
+13 ans
+14 ans
+15 ans
+2022 2023 2024
+%
+ 
+ 
+ 
+18 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Figure 10- Evolution du taux de change du dinar (Moyenne annuelle) 
+ 
+ 
+         NOTE : Les données sont exprimées en unités de devise étrangère par dinar. 
+Source : BCT 
+Concernant les finances publiques de la Tunisie, le déficit primaire hors confiscation et 
+dons s’est établi à 3.764 MDT au titre de l’année 2024 contre 5.496 MDT  une année 
+auparavant. Quant au déficit budgétaire hors privatisations et dons, il a enregistré un repli de 
+11,9% pour se situer à 10.653 MDT, soit 6,4% du PIB en 2024 contre 7,8% du PIB en 2023.  
+Au niveau du secteur extérieur de la Tunisie , le déficit courant  s’est contracté pour 
+revenir à 2.576 MDT au titre de l’année 2024, soit 1,5% du PIB (contre -3.484 MDT, soit -2,3% 
+du PIB en 2023 ). Cette amélioration est attribuable à un affermissent de l’e   dent de l  
+balance des services  qui s’est situé à  22.720 MDT en 2024 ( contre +21.220 MDT en 2023) , 
+conjugué à la hausse notable de l’e   dent de l  b l n e de   e en      m   e et  e  nd   e 
+(+5.125 MDT contre +3. 396 MDT une année auparavant).  En revanche, la balance 
+commerciale (FOB -FOB) s’est soldée par un déficit de  
+30.421 MDT au titre de l’année de 2024, soit un creusement de 8,3% par rapport à une année 
+auparavant (contre -28.100 MDT en 2023).    
+Pour le compte financier, il s’est nettement redressé en 2024 pour dégager un besoin 
+de financement de 251 MDT, contre un besoin de 1.293 MDT en 2023. Ce résultat trouve son 
+origine dans la hausse notable du solde créditeur des investissements de portefeuille qui a 
+atteint 4.005 MDT en 2024 (contre +2.226 MDT en 2023), soutenue par une nette atténuation 
+du solde débiteur des «  autres investissements  », revenant à 3. 315 MDT fin 2024 ( contre                
+-4.662 MDT en 2023). 
+3.36 3.37
+3.11 3.11
+22.07
+20.58
+0
+5
+10
+15
+20
+25
+30
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+Euro  (A.D) Dollar (A.D) Yen (A.G)
+ 
+ 
+ 
+19 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Figure 11- Evolution du solde budgétaire et du solde courant 
+ 
+Source : BCT & MF 
+Les avoirs nets en devises  ont clôturé l’année 2024 à un niveau de 27.332 MDT, soit 
+l’équivalent de 121 jours d’importation (contre 26.408 MDT, soit 120 jours d’importation à la 
+fin de l’année 2023), grâce principalement à la consolidation des flux générés par les secteurs 
+pourvoyeurs de devises.    
+Figure 12- Evolution des avoirs nets en devises 
+ 
+Source : BCT 
+ 
+6.0
+ 5.9
+8.8
+2.2
+1.5
+9.7
+7.8
+ 7.9
+ 7.8
+6.4
+0
+2
+4
+6
+8
+10
+12
+2020 2021 2022 2023 2024
+En %
+Déficit courant % PIB Déficit budgétaire % PIB
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+0
+5000
+10000
+15000
+20000
+25000
+30000
+Jours 
+d'importation
+MDT
+Avoirs nets en devises (A.G) Avoirs nets en devises en jours d'importation (A.D)
+ 
+ 
+ 
+20 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+[Attirez l’attention 
+du lecteur avec 
+une citation du 
+document ou 
+utilisez cet espace 
+pour mettre en 
+valeur un point 
+clé. Pour placer 
+cette zone de 
+texte n’importe où 
+sur la page, faites-
+la simplement 
+glisser.] 
+I. Mobilisation des ressources extérieures à LT 
+Les tirages sur les emprunts extérieurs à long terme  ont atteint 6.517 MDT en 2024, 
+en baisse de 9,4% par rapport à 2023 (Cf. Annexe A-1-). L'Administration publique demeure le 
+principal bénéficiaire de ces concours profitant de près de 80% du total, soit la même part que 
+l'année précédente. Le reliquat, a été levé par les autres agents économiques2.  
+1. Répartition par secteurs emprunteurs 
+La répartition des tirages sur emprunts extérieurs fait apparaitre en particulier que 
+l’enveloppe mobilisée par l’ dm n  t  t  n   bl q e s'est inscrite en repli de 9,6% pour revenir 
+à 5.193 MDT en 202 4. Pour les autres secteurs institutionnels , ils ont mobilisé au total un 
+montant de l'ordre de 1.324 MDT en 2024 en contraction de 8,3% par rapport à 2023.  
+ 
+Figure 13- Tirages sur emprunts extérieurs à LT par secteurs emprunteurs 
+ 
+Source : BCT & MF 
+ 
+Dans le détail, l'essentiel a bénéficié aux sociétés non financières (1.149 MDT soit 86,8% 
+du total) suivi par les institutions de dépôts à l’exception de la banque centrale (130 MDT) et les 
+autres sociétés financières (46 MDT) (Cf. Annexe A-2-). 
+ 
+2 Cette classification comporte les institutions de dépôts, à l’exception de la BC, les autres sociétés financières et les sociétés 
+non financières. 
+80%
+20%
+80%
+20%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+Administrations publiques Autres agents économiques
+ 
+ 
+ 
+21 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+2. Répartition par secteur d’activité des entreprises 
+La répartition des tirages par  e te   d’  t   t   laisse apparaitre que près d e la moitié 
+des mobilisations extérieures  en 2024 ont servi au financement de l’activité énergétique avec 
+une enveloppe de 661 MDT. Pour les fonds extérieurs destinés au secteur financier , ils se sont 
+situés à 175 MDT. 
+Figure 14- Evolution des tirages par secteurs d’activité des entreprises 2020-2024 
+ 
+Source : BCT 
+ 
+Par n t  e d’em   nt, les tirages financiers ont baissé de 19,1% pour revenir à 866 MDT, 
+représentant près de 75% du total des emprunts extérieurs (contre 1.070  MDT, soit le même 
+ratio de 75% du total en 2023). Quant aux tirages commerciaux, ils ont en revanche augmenté 
+pour se situer à 458 MDT en 2024 (contre 375 MDT en 2023). 
+3. Répartition par secteurs créanciers 
+La structure des tirages extérieurs à LT par secteur s créanciers en 2024 , demeure  
+toujours dominée dans sa quasi -totalité, par les emprunts contractés auprès  des créanciers 
+officiels, soit une part de 96% du total , qu’il s'agisse de la coopération  bilatérale ou 
+multilatérale. 
+ Dans le détail, les emprunts extérieurs contractés auprès des créanciers multilatéraux 
+ont totalisé un montant de 5.050 MDT soit 77,5% de l’ensemble des tirages extérieurs  à LT ; 
+ ’AFREXIMBANK a octroyé à  l’Administration publique, un montant de 500 MUSD 3               
+ 
+3 Décaissé au 31 décembre 2024. 
+74 175
+383
+66180
+574 10
+334
+478
+2273
+892
+1790
+1445
+ 1324
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+2020 2021 2022 2023 2024
+MDT
+Secteur financier Secteur de l’énergie Secteur de transport
+Secteur de télécommunication Secteur agricole Autres secteurs
+ 
+ 
+ 
+22 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+(1.589 MDT) dans le cadre du programme de financement des importations stratégiques . 
+Parallèlement, la Banque Mondiale  a accordé à l’ensemble des agents économiques 
+emprunteurs des concours financiers de l’ordre de 1.277 MDT. Quant à la BAD et la BEI, elles 
+ont alloué des enveloppes respectives de 599 MDT et 684 MDT. De son côté, la BERD a fourni 
+une somme de 467 MDT destinée au financement de certains projets des entreprises publiques 
+tunisiennes opérant, essentiellement, dans le secteur de l’énergie.  
+ Pour les emprunts extérieurs de sources bilatérales officielles, ils ont porté sur un e 
+enveloppe totale de 1.207 MDT en 202 4, soit 18,5% du total des tirages. Les fonds mobilisés 
+auprès de ces créanciers  ont accaparé 82,3% d u total d’origine  bilatérale ayant concerné 
+principalement les concours financiers accordés par le Japon pour un montant de 343 MDT, qui 
+ont servi à soutenir le financement des projets publi cs. Parallèlement, l’Italie a attribué une 
+enveloppe de l'ordre de  174 MDT dont 168 MDT (50 MEUR) mobilisés  par l’Administration 
+publique dans le cadre du financement extérieur destiné à l’appui au budget de l’ État. Quant 
+aux ressources allouées par l’Allemagne et la France, elles se sont limité es à 129 MDT et  
+131 MDT, respectivement (Cf. Annexe A-4-).  
+Par ailleurs, il convient de mentionner que la Tunisie s'est abstenue depuis 2019, de 
+recourir aux marchés financiers internationaux pour lever des fonds, en raison notamment des 
+contraintes d’accès à ces marchés. 
+Figure 15- Tirages sur emprunts extérieurs à LT par type de créancier 
+ 
+Source : BCT 
+40%
+57%
+0%3% 19%
+77%
+0%4% Anneau interne: Année 2023
+Anneau externe: Année 2024
+Créanciers bilatéraux officiels Créanciers multilatéraux
+Détenteurs de titres de créances Autres
+ 
+ 
+ 
+23 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+4. Répartition par devises 
+La répartition des tirages sur emprunts extérieurs à LT par devises fait apparaitre une 
+quasi-parité pour les montants contractés en dollar américain  et en euro avec des parts 
+respectives de 42,9 % et 42,7 % (contre 42,5 % et 40,7% en 2023). Quant à la part de la monnaie 
+japonaise, elle s'est repliée à 6,4% en 2024 (contre 8,7% en 2023) (Cf. Annexe A-5-). 
+Figure 16- Tirages sur emprunts extérieurs à LT par devises  
+ 
+Source : BCT 
+ 
+II. Service de la dette extérieure à LT 
+1. Répartition par secteurs emprunteurs 
+Le service de la dette extérieure à long terme  a connu une hausse considérable  
+(+22,2%) pour culminer à 14.371 MDT en 2024 dont une enveloppe de 11.402 MDT ou (79,3%) 
+a été honorée par l’Administration publique. Pour les règlements des entreprises appartenant 
+à la catégorie des autres secteurs, un montant de 2.487 MDT a été réglé à ce titre en 2024, soit 
+17,3% du total . Quant aux  institutions de dépôts à l’exception de la banque centrale , les 
+paiements au titre du service de la dette extérieure se  sont situés à 454 MDT. Pour le service 
+de la dette extérieure à la charge de la Banque centrale, il s’est limité à seulement 28 MDT  
+(Cf. Annexe A-6-). 
+ 
+ 
+ 
+41%
+42%
+9%
+6% 2%
+43%
+43%
+6%
+6% 2%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+EUR USD JPY KWD Autres devises
+ 
+ 
+ 
+24 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Figure 17- Service de la dette extérieure par secteurs emprunteurs 
+ 
+Source : BCT 
+ 
+La répartition du service de la dette extérieure à LT entre principal et intérêts met en 
+évidence une trajectoire haussière. Ainsi, le principal de la dette extérieure à LT a poursuivi 
+son accroissement en 2024 (+27,3%), pour s’élever à 11.829 MDT, représentant 82% du total. 
+Cette évolution,  s’explique essentiellement par les remboursements du principal des 
+obligations émises par l’État sur le marché financier international, qui ont  représenté 27,2% 
+du total du service de la dette extérieure à long terme. Ces remboursements ont porté sur le 
+principal de deux emprunts obligataires majeurs , à savoir l’Eurobond émis en 2017 pour un 
+montant de 850 millions d’euros et le « Samurai », garanti par la JBIC, émis en 2014 pour une 
+valeur de 50 milliards de yens japonais. Du côté des intérêts, ils ont affiché une hausse modeste 
+(+3%) pour se situer à 2.542 MDT ; ceux afférents à l’Administration publique ont accaparé 
+81,5% du total, soit un montant de 2.072 MDT (Cf. Annexe A-7-). 
+D’une année à l’autre, le ratio du service de la dette extérieure à LT, calculé par rapport 
+aux recettes courantes de la balance des paiements, a enregistré une hausse de 2,8 points de 
+pourcentage, par rapport à 2023 pour se situer à 19%, reflétant ainsi l'amplification du niveau 
+du service de la dette extérieure honoré en 2024. 
+2. Répartition par secteurs créanciers 
+La ventilation du service de la dette extérieure à LT par type de créancier a montré une 
+prédominance des remboursements en faveur des créanciers multilatéraux malgré le recul 
+enregistré d'une année à l'autre (48,3% ou 6.945 MDT contre 51,7% ou 6.087 MDT en 2023).  
+73%
+0%
+4%
+23%
+79%
+0%
+3%
+17%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+Administrations publiques Banque centrale
+Institutions de dépôts, à l’exception de la BC Autres secteurs
+ 
+ 
+ 
+25 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+               Figure 18- Service de la dette extérieure par type de créancier 
+ 
+Source : BCT 
+ 
+Dans le détail, le Fonds Monétaire International s’est représenté comme le premier 
+bénéficiaire parmi les bailleurs de fonds multilatéraux, avec une part de 30,9% du total en 2024 
+soit 2.146 MDT réglés au titre des remboursements des tranches relatives aux deux accords de 
+financement4. De leur part, les règlements en faveur de la BAD se sont inscrits en hausse de 
+10,4% en 202 4, par rapport à 202 3, atteignant 9 97 MDT dont une part prédominante, soit 
+(84%), revient à l'Administration publique et le reliquat a été honoré par les entreprises  
+tunisiennes. Pour le service de la dette extérieure à l’égard de la Banque Mondiale, il s’est 
+accru de 10,2% pour s’élever à 957 MDT en 2024, représentant 13,8% du total du service de la 
+dette remboursé en faveur des bailleurs de fonds multilatéraux , et ayant, essentiellement, 
+concerné l’Administration publique (88,8%). Quant au service de la dette réglé en faveur de la 
+BEI, il a atteint 9 31 MDT en 202 4, honoré pour l'essentiel ( 76,7%) par les opérateurs 
+économiques tunisiens autres que l’Administration publique ; il est à signaler que 43,9% des 
+remboursements des entreprises au titre du service de la dette dans le cadre de la coopération 
+multilatérale ont été effectués en faveur de la BEI. 
+Pour les règlements au profit d e l’AFREXIMBANK, ils se sont situés à 610 MDT en  2024 
+attribués pour leur totalité à l’État. Ceux au profit du FADES, ils se sont établis à 4 80 MDT en 
+2024, répartis entre l’Administration publique (65,4%) et les « autres agents économiques » 
+(34,6%) (Cf. Annexe A-6-). 
+ 
+4 Il s’agit de l’instrument de financement rapide (IFR) et le mécanisme élargi de crédit (MEDC). 
+18%
+52%
+25%
+6%
+16%
+48%
+31%
+4% Anneau interne: Année 2023
+Anneau externe: Année 2024
+Créanciers bilatéraux officiels Créanciers multilatéraux
+Détenteurs de titres de créances Autres
+ 
+ 
+ 
+26 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+    Figure 19- Service de la dette par principaux bailleurs de fonds multilatéraux  
+ 
+Source : BCT 
+ 
+Pour les  créanciers bilatéraux , les remboursements au titre du service de la dette 
+extérieure à LT ont enregistré une progression de 4,8% pour se situer à 2.902 MDT en 2024 
+(contre 2.768 MDT en 2023). En effet, l'Arabie Saoudite demeure le principal créancier bilatéral 
+de la Tunisie, occupant la première position avec 812 MDT  dont 66,3% honorés par 
+l'Administration publique. Les remboursements au profit de  la France et l'Allemagne ont 
+atteint 538 MDT et 461 MDT, respectivement, représentant des parts de 18,5% et 15,9% du 
+total du service de la dette extérieure au profit des pays créanciers. Par ailleurs, l es 
+remboursements envers le Royaume-Uni, ont porté sur un montant de 322 MDT, 
+intégralement honoré par les entreprises. Quant aux règlements effectués en faveur du Japon, 
+ils se sont élevés à 180 MDT avec une part de 56,1% revenant à l’Administration publique. En 
+outre, les paiements effectués au profit  des créanciers bilatéraux officiels ont représenté 
+15,9% du total service honoré au cours de l’année 2024  contre 4,3%, ou 484 MDT pour les       
+« autres créanciers » d’origine privée.  
+De son côté, les remboursements au titre du service de la dette extérieure dû au 
+marché financier international s’est élevé à 4.524 MDT, soit 31,5% du total en 2024 (contre 
+2.908 MDT ou 24,7 en 2023). 
+Il faut par ailleurs signaler qu’une enveloppe de 24 MDT a fait l’objet d’une conversion 
+de dette5 ayant servi à financer des projets de développement et d’investissement. 
+ 
+5 La conversion d’une partie du service de la dette extérieure concerne certains prêts contractés auprès de l’ Allemagne, l’Italie 
+et la Belgique. 
+270
+539
+284
+101
+211
+26 32
+39
+108
+273
+176
+79
+148
+0
+200
+400
+600
+800
+1000
+Allemagne Arabie Saoudite France Japon Autres pays
+MDT
+Autres secteurs Institutions de dépôts, à l'exception de la BC
+Banque Centrale Administrations publiques
+ 
+ 
+ 
+27 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Figure 20- Service de la dette extérieure par principaux bailleurs de fonds bilatéraux  
+ 
+Source : BCT  
+3. Répartition par devises 
+La ventilation par devises du service de la dette extérieure à LT en 2024,  laisse 
+apparaître une quasi-stagnation de la part des paiements effectués en e    passant d'une 
+année à l'autre de 51 ,4% à 51,8% confirmant ainsi la prédominance de cette devise dans le  
+panier des règlements effectués. De même, le yen j   n    a affiché une progression de sa 
+part à 9,1% (contre 6,4% en 2023). En revanche, la part du d ll    m      n a reculé à 17,6% 
+contre 20% en 2023. (Cf. Annexe A-8-).  
+Figure 21- Service de la dette par devises 
+ 
+Source : BCT  
+ 
+610 838
+217
+849
+314
+2146
+318
+28
+53
+141
+24
+30
+53
+107
+574
+84
+135
+425
+0
+500
+1000
+1500
+2000
+2500
+Afreximbank BAD BEI Banque
+Mondiale
+FADES FMI Autres
+organismes
+MDT
+Autres secteurs Institutions de dépôts, à l'exception de la BC
+Banque Centrale Administrations publiques
+51%
+20%
+6%
+4%
+18%
+52%
+18%
+9%
+3%
+18%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+EUR USD YEN KWD AUTRES
+ 
+ 
+ 
+28 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+III. Transferts nets 
+ e  t  n  e t  net  ont dégagé en 2024 un solde négatif, qui s’est davantage élargi, pour 
+s’élever à -7.855 MDT (contre -4.573 MDT en 2023). Ce résultat s’explique, essentiellement, par 
+le repli des tirages sur les emprunts extérieurs de 9,4% conjugué à l'intensification des 
+remboursements du service de la dette extérieure à LT de 22,2%. 
+ ’  dm n  t    n   bl q e a contribué négativement au tarissement des ressources de 
+financement extérieur en enregistrant un solde négatif de 6.209 MDT en net creusement par 
+rapport à 2023 (-2.811 MDT). En effet, cette évolution est attribuée à l’effet conjugué de la 
+hausse des flux sortants (+2.845 MDT) et la baisse des flux entrants (-553 MDT).  
+De même, les transferts nets dégagés par les «   t e   e te    » ont affiché un solde 
+négatif qui s’est légèrement creusé pour se situer à 1.292 MDT en 2024 (contre -1.249 MDT en 
+2023) en raison de l’effet de la baisse des flux  relatifs à la mobilisation d'emprunts extérieurs 
+de 234 MDT conjointement avec la baisse du service de la dette extérieure de 191 MDT. 
+    Figure 22- Transferts nets par secteurs emprunteurs 
+ 
+Source : BCT 
+    ty e de          n, les transferts nets des institutions multilatérales ont enregistré 
+un solde négatif de 1.895 MDT qui s'explique, essentiellement, par les règlements du service de 
+la dette au profit du FMI (-2.146 MDT) et la BAD (-398 MDT). Quant aux flux nets dégagés par 
+la coopération bilatérale officielle, ils se sont situés à  1.078 MDT positif ou négatif. Pour le 
+marché financier international, il a dégagé un solde négatif en amplification portant sur un 
+-1 249 -1 292
+-494 -325-19
+-28
+-2 811
+-6 209
+259
+-2 524
+-68
+-4 573
+-7 855
+-10 000
+-8 000
+-6 000
+-4 000
+-2 000
+0
+2 000
+ 2020  2021  2022  2023  2024
+MDT
+Administrations publiques Banque centrale
+Institutions de dépôts, à l’exception de la BC Autres secteurs
+Total
+ 
+ 
+ 
+29 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+montant 4.524  MDT représentant 5 7,6% du total du solde des transferts net s  
+(Cf. Annexe A-9-). 
+IV. Encours de la dette extérieure à LT 
+  e  t  k de l  de e e t   e  e   l n  te me  s’est établi à 75.966 MDT au terme de 
+l’année 2024, en diminution de 7,1% ou 5.763 MDT par rapport à son niveau de fin 2023  
+(Cf. Annexe A-10-).  
+1. Répartition par secteurs emprunteurs 
+            e te    em   nte   , l’encours de la dette extérieure à long terme a 
+révélé, au terme de 2024, une prédominance des engagements de l’  dm n  t    n   bl q e6 
+qui ont représenté 82,3% du total des passifs extérieurs à LT sous forme de prêts. Ce stock a 
+enregistré une baisse de 6,5% ou 4.337  MDT, par rapport à fin 2023 , pour s’établir à  
+62.537 MDT. Cette évolution résulte d’un effet volume négatif de -5.459 MDT expliqué par 
+l'accroissement des remboursements du principal conjugué au repli des mobilisations  
+d’emprunts extérieurs. Quant à l'encours de la dette extérieure de l    nq e  ent  le, il est 
+revenu à 46 MDT au terme de 2024 (contre 75 MDT en 2023). Par ailleurs, le stock de la dette 
+extérieure de   n  t   n  de d  ôt    l’e  e   n de l  b nq e  ent  le et celui de    t e  
+ e te    s'est inscrit, également, en repli de 316 MDT et de 1.082 MDT pour revenir à 1.088 
+MDT et 12.294 MDT, respectivement (Cf. Annexe A-10- ).  
+Figure 23- Evolution de l’encours de la dette extérieure à LT par secteurs emprunteurs 
+ 
+Source : BCT 
+ 
+6 Les données de l’encours de l’Administration publique sont provisoires. 
+13 376 12 294 
+1 404 1 088 
+75 46
+66 874 62 537 
+0
+20 000
+40 000
+60 000
+80 000
+100 000
+2023 2024
+MDT
+Administrations publiques
+Banque centrale
+Institutions de dépôt, à l'exception de la Banque Centrale
+Autres secteurs
+ 
+ 
+ 
+30 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+La ventilation du stock de la dette extérieure à LT par catégorie de bénéficiaires a été 
+marquée par un repli de celui de  ent e    e    bl q e  (- 8,1%) pour se situer à 11.476 MDT, 
+soit 85,7% de l’encours total de ce secteur. Quant à l’encours de  ent e    e       e , il a accusé 
+une baisse plus prononcée ( -16,6%) pour être ramené à 1.907 MDT soit 14,3% du stock total 
+des entreprises tunisiennes (Cf. Annexe A-13).   
+2. Répartition par secteurs créanciers 
+La structure de la dette extérieure à LT, ventilée par type de créancier, a été marquée, 
+au terme de 2024, par un fléchissement de l’encours dû à l’égard des différentes catégories de 
+créanciers. 
+ Figure 24- Répartition de l’encours de la dette extérieure à LT par secteurs créanciers 
+ 
+Source : BCT 
+ 
+Dans le détail, l’encours de la dette extérieure à LT, contracté dans le cadre de la 
+coopération multilatérale a enregistré une diminution de -584 MDT ou -1,2% pour se situer à 
+49.279 MDT, à fin 2024. Cependant, sa part dans l’encours total est passée d’une année à 
+l’autre de 61% à 64,9% ( Cf. Annexe A -11-). Toutefois, cette hausse cache des évolutions 
+disparates selon l'organisme prêteur. S’agissant de l’encours de la dette extérieure à LT à 
+l’égard de la Banque Mondiale, il s’est accru de  573 MDT pour s’établir à  
+14.140 MDT  au terme de 2024 accaparant près de 19%, de l’encours total (contre  environ 
+16,6% en 2023) et consolidant ainsi sa position en tête des principaux organismes pourvoyeurs 
+de fonds pour la Tunisie.  De sa part, la BAD a préservé sa position en tant que deuxième 
+23%
+65%
+10% 2% 22%
+61%
+15%
+2%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+Créanciers bilatéraux officiels Créanciers multilatéraux
+Détenteurs de titres de créance Autres
+ 
+ 
+ 
+31 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+organisme prêteur avec une part de 10,6% du total du stock de la dette extérieure  soit         
+8.090 MDT (contre 8.398 MDT en 2023).  
+Vis à vis du FMI, le stock de la dette extérieure a chuté à 5.339 MDT (contre 7.198 MDT 
+au terme de 2023). En outre, le stock des créances vis-à-vis de la BEI s’est replié de 217 MDT, 
+pour revenir à 5.106 MDT en 2024, contre 5.323 MDT en 202 3. Parallèlement, la position de 
+l’AFREXIMBANK s’est davantage renforcée parmi les principaux prêteurs de la Tunisie, en 
+2024, suite à l’octroi à l'État d’une nouvelle enveloppe de 500 MUSD. Sa part dans le stock de 
+la dette extérieure à LT s’est nettement consolidé e passant de 4,4% à 6,6%, pour atteindre 
+5.011 MDT à la fin de 2024. Concernant le stock à l’égard de l’Union européenne, il s'est établi 
+à 4.655 MDT à fin décembre 2024 soit une diminution de 2,2% ou 104 MDT par rapport à la fin 
+de 2023, affichant une part dans l’encours total de 6,1%, (Cf. Annexe A-12-). 
+D’un autre côté, l’encours de la dette extérieure à l’égard des pays partenaires s'est 
+élevé à 18.740 MDT au terme de l’année 2024 (contre 19.915 MDT en 2023), enregistrant une 
+baisse de 1.175 MDT, ou de 5,9% par rapport à 2023. Dans le détail, les engagements à l’égard 
+de la France, qui demeure le premier pays créancier de la Tunisie, ont fléchi de 291 MDT pour 
+s'établir à 3.618 MDT, réduisant ainsi sa part dans l'encours total à 4,8%. Dans le même sillage, 
+le stock vis-à-vis de l’Allemagne, deuxième pays partenaire pourvoyeur de fonds de la Tunisie, 
+a baissé de 215 MDT, atteignant 3. 398 MDT et représentant 4, 5% de l'encours total.   
+Par ailleurs, l'Arabie saoudite reste parmi les prêteurs les plus importants malgré la diminution 
+considérable de son encours, qui est revenu de 3.131 MDT en 2023 à 2.597 MDT en 2024. En 
+revanche, l'encours de la dette envers le Japon a progressé de 119 MDT, en 2024, pour 
+atteindre 2.526 MDT (soit 3,3% de l'encours total), contre 2.407 MDT en 2023. 
+Par origine, la répartition de l’encours de la dette extérieure à LT  dans le cadre de la 
+coopération bilatérale au terme de 2024, a relativement maintenu les mêmes parts que celles 
+des années antérieures relevant ainsi la primauté des engagements dus à l’égard des créanciers 
+bilatéraux officiels, soit 91,8% du total encours dû dans le cadre de la coopération bilatérale. 
+Quant aux créanciers bilatéraux privés, ils n’ont accaparé que 8,2% de ce stock.  
+En ce q ui concerne le stock vis-à-vis du marché financier international, il a 
+considérablement diminué (-4.004 MDT) pour revenir à 7.947 MDT au terme de 2024. Sa part 
+dans l'encours total a ainsi chuté  revenant d’une  année à l’autre de  14,6% à 10, 5%. C ette 
+régression trouve  son origine dans le remboursement du principal de deux emprunts 
+ 
+ 
+ 
+32 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+obligataires en 2024 et l’absence de sorties sur ces marchés depuis juillet 2019  
+(Cf. Annexe A-12-).  
+3. Répartition par devises 
+La structure de l’encours de la dette extérieure à LT par devises, montre la dominance 
+de l’euro, avec une part de 56,5%, suivi du dollar américain (24,4%), du yen japonais (5,9%) et 
+du dinar koweïtien (4,5%) (Cf. Annexe A-14-). 
+Figure 25- Répartition de l’encours de la dette extérieure à LT par devises 
+ 
+Source : BCT 
+ 
+V. Position de la Dette Extérieure Brute7 
+La position de la dette extérieure brute de la Tunisie  s’est située à 133.866 MDT au 
+terme de 2024, soit un repli des passifs bruts de 1,2%, contre 135.466 MDT à fin 2023.  
+La ventilation de la PDEB  par maturité laisse apparaître une dominance des  
+engagements à long terme qui ont accaparé 60,7% du stock des passifs bruts à la fin de 2024 
+pour se situer à 8 1.237 MDT ( contre 8 7.559 MDT ou 64,6% en 202 3). Le reliquat des 
+engagements, soit 39,3% du total concerne les passifs bruts, à court terme. 
+Ventilée par secteur institutionnel, la structure de la PDEB fait ressortir au terme de 
+2024 un repli des engagements de l’ dm n  t  t  n   bl q e (-6,7%) étant, exclusivement, 
+constitués par des engagements de maturité longue, soit 6 3.012 MDT (contre 67.502 MDT 
+fin 2023). La part de ce secteur demeure prédominante avoisinant la moitié du total du stock 
+des passifs.  
+ 
+7 Compte tenu des intérêts courus et non encore échus. 
+58%
+21%
+7%
+4%
+10%
+56%
+24%
+6%
+5%
+9%
+Anneau interne: Année 2023
+Anneau externe: Année 2024
+EUR USD JPY KWD Autres devises
+ 
+ 
+ 
+33 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Quant à l’encours de la Banque centrale, il s'est situé à 6. 000 MDT au terme 2024 
+contre 6.689 MDT à fin 2023), suite notamment au repli du stock relatif aux « numéraires et 
+dépôts » de -27,2%. Sa part dans le total des passifs de la PDEB a stagné d’une année à l’autre 
+à 4,5%. De même, le stock des engagements extérieurs des institutions de dépôt, à 
+l'exception de la banque centrale a progressé de 5,5% pour atteindre 17.334 MDT au terme 
+de 2024 en raison, de l’accroissement des engagements à court terme, sous forme de 
+«numéraire et dépôts »  de 1.207 MDT pour s'élever à 15.685 MDT, alors que les 
+engagements de long terme relatifs à ce secteur, constitués exclusivement de « prêts », se 
+sont inscrits en baisse de 315 MDT pour se limiter à 1.093 MDT. 
+Concernant le stock du passif des « autres secteurs », il s'est situé à 47.521 MDT à la 
+fin de 2024, en accroissement de 6, 0% par rapport à la même période de  2023 accaparant, 
+ainsi, 35,5% du total. Cette évolution est attribuable, notamment, à l’affermissement des 
+engagements à court terme sous forme de « crédit commerciaux et avances ». 
+D’un autre côté, la répartition de la PDEB par instruments a surtout porté la marque 
+de la prépondérance des « prêts » à long terme, soit 49,5% du total, malgré le léger repli 
+enregistré d'une fin d'année à l’autre ( -2,6%) pour revenir à 6 6.215 MDT impacté 
+principalement par un effet volume négatif.  
+Quant aux engagements sous forme de « titres de créances », ils ont enregistré une 
+forte contraction ( -32 ,8%) pour être ramenés à 8.522 MDT. Cependant, les « crédits 
+commerciaux et avances » ont connu une hausse de 11,9% pour atteindre 35.147 MDT à fin 
+2024, soit 26,3% du total. Quant aux « numéraire et dépôts », ils se sont accrus de 2,7% par 
+rapport à leur niveau à fin 2023, pour s’établir à 20.493 MDT, soit 15,3% du total. 
+Figure 26- Position de la dette extérieure brute : 2021-2024                                                                                                                                                          
+ 
+Source: BCT & MF 
+ 
+122 886.7 131 112.0 135 465.9 133 866.3 
+0
+50 000
+100 000
+150 000
+2021 2022 2023 2024
+MDT
+Droits de tirage spéciaux (allocations) Numéraire et dépôts
+Titres de créance Prêts
+Crédits commerciaux et avances Autres passifs sous forme de dette
+Position Dette Exterieure Brute
+ 
+ 
+ 
+34 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+VI. Analyse de la dette extérieure à LT : selon autres 
+indicateurs 
+1.  Variation de l’encours : Effet-change et effet-volume 
+D’une année à l’autre, l’encours de la dette extérieure à LT, a affiché au terme de l’année 
+2024, une variation négative de 5.763 MDT. Ce  résultat s’explique à raison de 94,7%  ou  
+5.459 MDT par un effet-volume, compte tenu  de l'ampleur des sorties nette s des capitaux 
+d’emprunts extérieurs à LT en lien, surtout, avec l’importance des remboursements honorés 
+durant cette année. Quant à l’effet-change, il n'a eu qu'un impact limité (-304 MDT), suite aux 
+effets conjugués de l’appréciation du dinar, face à l’euro et le Yen japonais  et sa dépréciation 
+face au dollar américain en 2024 (Cf. Annexe A-15-). 
+Figure 27- Variation de l’encours : Evolution de l’effet-change et de l’effet-volume 
+ 
+Source : BCT 
+ 
+2. Ventilation de l’encours de la dette extérieure à LT par tranche de 
+taux d’intérêt 
+La répartition de l’encours par tranche de taux d’intérêt en 202 4 fait apparaître une 
+prédominance de l’encours de la dette extérieure  à LT à taux fixe  soit 7 7,4% du total ou  
+58.807 MDT. Dans le détail, une part de 64,4% de ces engagements extérieurs à LT a été 
+contractée avec un taux compris entre [0% -5%]. Cette plage de taux englobe , principalement, 
+les prêts contractés auprès de  l’Arabie Saoudite ainsi que certains organismes multilatéraux, 
+notamment l’union européenne et la Banque Mondiale. Pour l’encours des prêts souscrits à 
+des taux compris entre ]5%-7%], il a accaparé une part de 1 2,3% portant sur un montant de 
+1 236
+-304-2 219
+-5 459
+2 882
+-96
+2 925
+-983
+-5 763
+-6 000
+-5 000
+-4 000
+-3 000
+-2 000
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+5 000
+6 000
+2020 2021 2022 2023 2024
+MDT
+     Effet change      Effet volume      Variations de l'encours
+ 
+ 
+ 
+35 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+9.313 MDT. Concernant l’encours relatif aux prêts à taux supérieur à 7%, il n’a représenté  que 
+0,7% au terme de l’année 2024, soit seulement 555 MDT. 
+A taux variable, l’encours de la dette extérieure à LT a atteint à la fin de 2024 un total 
+de 17.159 MDT, soit une part de 22,6%. La majeure partie de ces crédits a été contractée auprès 
+du Fonds Monétaire International (Cf. Annexe A-16-).  
+Figure 28- Répartition de l’encours de la dette extérieure à LT par tranche de taux en 2024 
+ 
+                                                                                                                    Source : BCT 
+3. Ventilation de l’encours de la dette  extérieure à LT par tranche de 
+durée d'amortissement8 
+L’encours de la dette extérieure à LT pour les prêts ayant une  durée d’amortissement 
+appartenant l’intervalle [1 - 5 ans] s'est situé à 9.641 MDT au terme de 2024 pour représenter 
+12,7% du total. Quant au stock des prêts appartenant à la plage comprise entre 5 et 10 ans, il 
+s’est situé à 1 4.315 MDT soit une part de 18,8%. Cette tranche englobe , principalement, les 
+engagements dus à l’égard du marché financier international et quelques pays dans le cadre de 
+la coopération bilatérale à l’instar de l’Algérie . En ce qui concerne l’encours ayant une durée 
+de remboursement comprise entre ]10 - 15 ans], il a accaparé 27,7% du stock dû au terme de 
+2024 totalisant un  montant de  21.023 MDT. Cet intervalle a  concerné, essentiellement, 
+l’encours à l’égard de certains organismes multilatéraux en l’occurrence l’union européenne. 
+Pour l'encours des prêts contractés avec un échéancier de remboursement supérieur à 15 ans, 
+il a atteint 30.987 MDT au terme de 2024 soit 40,8% du total . Principalement, les prêts 
+appartenant à cet intervalle sont octroyés par la BAD et la Banque Mondiale . De même, les 
+ 
+8 Pour certains prêts à caractère spécifique, notamment les emprunts obligataires et les prêts à différé d'amortissement, la 
+durée d’amortissement s'entend comme la durée de vie totale de l'instrument, incluant toute période de grâce. 
+ 
+64%
+12%
+1%
+23%
+[0%,5%] ]5%,7%] Plus de 7% Taux variables
+ 
+ 
+ 
+36 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+prêts japonais se caractérisent toujours par des échéances de remboursement 
+particulièrement longues (Cf. Annexe A-16-). 
+Figure 29- Répartition de l’encours de la dette extérieure à LT par durée d’amortissement en 2024 
+ 
+                                                                                                                                               Source : BCT 
+4. Evolution du taux d’endettement  
+Le taux d’endettement, en pourcentage du PIB, a poursuivi en 2024 sa tendance 
+baissière amorcée à partir de 2020, pour revenir à 47,5% (contre 54,6% en 2023). En particulier, 
+l’endettement extérieur de l’État s’est inscrit, en baisse pour être ramené à 39,1% (contre 44,7% 
+en 2023). De même, le ratio d’endettement extérieur à LT des autres agents économiques est 
+revenu d'une fin d’année à l'autre de 9,9% à 8,4%. 
+Figure 30- Evolution du taux d’endettement 
+ 
+Source : BCT 
+ 
+13%
+19%
+28%
+15%
+25%
+]1,5] ]5,10] ]10,15] ]15,20] Plus de 20 ans
+66.8%
+60.7% 59.3%
+54.6%
+47.5%51.3% 47.8% 47.8% 44.7%
+39.1%
+15.5% 12.7% 11.4% 9.9% 8.4%
+2020 2021 2022 2023 2024
+Taux d'endettement total
+Taux d'endettement des Administrations publiques
+Taux d'endettement des autres agents économiques
+ 
+ 
+ 
+37 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ANNEXES 
+  
+ 
+ 
+ 
+ 
+38 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Annexe A |Tableaux 
+TABLEAU -A1-  
+TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME: 
+PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS 
+ 
+ 
+Désignation Administrations publiques Banque centrale Autres agents économiques9 Total des tirages 
+ Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total 
+2020 6.137,2 29,9 6.167,1 104,5 0,0 104,5 2.001,8 271,0 2.272,8 8.243,5 300,9 8.544,4 
+2021 7.066,7 111,1 7.177,8 15,3 0,0 15,3 809,7 81,8 891,5 7.891,7 192,9 8.084,6 
+2022 6.611,8 424,0 7.035,8 0,0 0,0 0,0 1.789,9 0,0 1.789,9 8.401,7 424,0 8.825,7 
+2023 5.579,2 166,4 5.745,6 0,0 0,0 0,0 1.421,5 23,2 1.444,7 7.000,7 189,6 7.190,3 
+2024 4.995,3 197,2 5.192,5 0,0 0,0 0,0 1.261,9 62,3 1.324,2 6.257,2 259,5 6.516,7 
+ 
+ 
+ 
+9 Voir tableau -A2- pour la répartition par secteur institutionnel.  
+En MDT 
+ 
+ 
+ 
+ 
+39 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A2-  
+TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  
+REPARTITION DES AUTRES AGENTS ECONOMIQUES  PAR SECTEURS CREANCIERS 
+ 
+ 
+Désignation Autres agents économiques 
+ 
+ n t t t  n  de d  ôt     l’e  e t  n de 
+la BC Autres sociétés financières Sociétés non financières Total 
+Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total Créanciers 
+officiels 
+Autres 
+créanciers Total 
+2020 195.5 205,0 400,5 228,5 56,4 284,9 1.577,8 9,6 1.587,4 2.001,8 271,0 2.272,8 
+2021 77.0 0,0 77,0 105,1 81,8 186,9 627,6 0,0 627,6 809,7 81,8 891,5 
+2022 15.4 0,0 15,4 32,6 0,0 32,6 1.741,9 0,0 1.741,9 1.789,9 0,0 1.789,9 
+2023 15.5 0,0 15,5 35,1 23,2 58,3 1.370,9 0,0 1.370,9 1.421,5 23,2 1.444,7 
+2024 67,4 62,3 129,7 45,5 0,0 45,5 1.149,0 0,0 1.149,0 1.261,9 62,3 1.324,2 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+40 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A3-  
+TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  
+PAR SECTEURS CREANCIERS 
+ 
+ 
+Désignation Créanciers officiels Autres créanciers 
+ 
+Créanciers 
+bilatéraux 
+officiels 
+Créanciers 
+multilatéraux Total Détenteurs de 
+titres de créance Autres Total 
+2020 1.976,3 6.256,9 8.233,2 0,0 300,9 300,9 
+2021 2.623,3 5.268,4 7.891,7 0,0 192,9 192,9 
+2022 2.540,3 5.861,4 8.401,7 0,0 424,0 424,0 
+2023 2.878,0 4.122,7 7.000,7 0,0 189,6 189,6 
+2024 1.206,9 5.050,3 6.257,2 0,0 259,5 259,5 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+41 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A4- 
+ TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME:  
+PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS EN 2024  
+Désignation Administrations publiques Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     
+Autres secteurs 
+Total Autres 
+sociétés 
+financières 
+Sociétés non 
+financières 
+Créanciers bilatéraux officiels 928,1 0,0 0,0 0,0 278,8 1.206,9 
+Allemagne 129,1 0,0 0,0 0,0 72,5 201,6 
+France 130,7 0,0 0,0 0,0 121,3 252,0 
+Italie 173,9 0,0 0,0 0,0 0,0 173,9 
+Japon 343,3 0,0 0,0 0,0 71,0 414,3 
+Autres pays  151,1 0,0 0,0 0,0 14,0 165,1 
+Créanciers multilatéraux 4.067,2 0,0 67,4 45,5 870,2 5.050,3 
+AFREXIMBANK 1.588,6 0,0 0,0 0,0 0,0 1.588,6 
+BAD 454,5 0,0 67.4 0,0 76,7 598,6 
+BEI 459,5 0,0 0,0 40,4 183,8 683,7 
+BERD 0,0 0,0 0,0 5,1 461,4 466,5 
+Banque Mondiale 1.157,1 0,0 0,0 0,0 119,9 1.277,0 
+FADES 287,7 0,0 0,0 0,0 4,3 292,0 
+Autres organismes 119,8 0,0 0,0 0,0 24,1 143,9 
+Autres créanciers 197,2 0,0 62,3 0,0 0,0 259,5 
+Dont, détenteurs de titres de 
+créance 0,0 0,0 0,0 0,0 0,0 0,0 
+TOTAL 5.192,5 0,0 129,7 45,5 1.149,0 6.516,7 
+En MDT 
+ 
+ 
+ 
+ 
+42 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A5-  
+TOTAL DES TIRAGES SUR EMPRUNTS EXTERIEURS A LONG TERME: 
+ PAR DEVISES 
+ 
+ 
+Devise EUR DTS USD YEN KWD AUTRES 
+2020 49,7 29,4 13,2 1,5 2,6 3,6 
+2021 49,3 30,2 13,9 2,8 3,4 0,4 
+2022 45,3 1,4 46,4 2 4,1 0,8 
+2023 40,7 0,9 42,5 8,7 5,6 1,6 
+2024 42,7 0,9 42,9 6,4 6,1 1,0 
+ 
+ 
+ 
+ 
+ 
+ 
+En % 
+ 
+ 
+ 
+ 
+43 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A6-   
+SERVICE DE LA DETTE  EXTERIEURE A LONG TERME : 
+PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS EN 2024 
+ 
+Désignation Administrations publiques Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     Autres secteurs Total 
+ 
+Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total 
+Créanciers bilatéraux 
+officiels 1.182,9 221,2 1.404,1 0,0 0,0 0,0 92,8 3,4 96,2 691,9 92,9 784,8 1.967,6 317,5 2.285,1 
+Allemagne 226,9 43,2 270,1 0,0 0,0 0,0 24,6 1,2 25,8 98,0 10,3 108,3 349,5 54,7 404,2 
+Arabie Saoudite 450,8 88,2 539,0 0,0 0,0 0,0 0,0 0,0 0,0 252,5 20,9 273,4 703,3 109,1 812,4 
+France 244,9 38,6 283,5 0,0 0,0 0,0 30,5 1,1 31,6 146,4 29,5 175,9 421,8 69,2 491,0 
+Japon 84,5 16,4 100,9 0,0 0,0 0,0 0,0 0,0 0,0 70,7 8,4 79,1 155,2 24,8 180,0 
+Autres 175,8 34,8 210,6 0,0 0,0 0,0 37,7 1,1 38,8 124,3 23,8 148,1 337,8 59,7 397,5 
+Créanciers multilatéraux 4.078,4 1.213,4 5.291,8 24,9 3,4 28,3 281,2 19,4 300,6 1.020,9 303,7 1.324,6 5.405,4 1.539,9 6.945,3 
+AFREXIMBANK 328,6 281,1 609,7 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 328,6 281,1 609,7 
+BAD 679,0 158,8 837,8 0,0 0,0 0,0 43,8 8,7 52,5 82,5 24,2 106,7 805,3 191,7 997,0 
+BEI 171,8 45,2 217,0 0,0 0,0 0,0 136,3 4,2 140,5 478,6 95,1 573,7 786,7 144,5 931,2 
+Banque Mondiale 483,9 365,0 848,9 0,0 0,0 0,0 21,0 2,9 23,9 42,6 41,1 83,7 547,5 409,0 956,5 
+FADES 238,3 75,6 313,9 0,0 0,0 0,0 27,9 2,5 30,4 105,8 29,6 135,4 372,0 107,7 479,7 
+FMI 1.926,9 219,4 2.146,3 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 1.926,9 219,4 2.146,3 
+Autres organismes 249,9 68,3 318,2 24,9 3,4 28,3 52,2 1,1 53,3 311,4 113,7 425,1 638,4 186,5 824,9 
+Autres créanciers 4.068,9 637,0 4.705,9 0,0 0,0 0,0 50,7 6,7 57,4 336,8 40,7 377,5 4.456,4 684,4 5.140,8 
+Dont, détenteurs de titres 
+de créance 3.904,5 619,6 4.524,1 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 3.904,5 619,6 4.524,1 
+TOTAL 9.330,2 2.071,6 11.401,8 24,9 3,4 28,3 424,7 29,5 454,2 2.049,6 437,3 2.486,9 11.829,4 2.541,8 14.371,2 
+  
+En MDT 
+ 
+ 
+ 
+ 
+44 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A7-  
+SERVICE DE LA DETTE EXTERIEURE A LONG TERME: 
+PAR SECTEURS EMPRUNTEURS 
+ 
+ 
+ 
+ 
+ 
+ 
+Désignation  Administrations publiques Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     Autres secteurs Total 
+ Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total Principal Intérêts Total 
+2020 4.283,9 1.494,6 5.778,5 1,6 0,2 1,8 622,8 61,1 683,9 1.511,2 310,0 1.821,2 6.419,5 1.865,9 8.285,4 
+2021 6.131,2 1.489,1 7.620,3 12,7 1,5 14,2 851,3 54,2 905,5 1.754,8 313,6 2.068,4 8.750,0 1.858,4 10.608,4 
+2022 4.246,3 1.616,2 5.862,5 27,7 2,4 30,1 482,9 37,7 520,6 2.160,9 319,5 2.480,4 6.917,8 1.975,8 8.893,6 
+2023 6.520,4 2.035,8 8.556,2 17,8 1,2 19,0 478,2 31,4 509,6 2.279,1 399,1 2.678,2 9.295,5 2.467,5 11.763,0 
+2024 9.330,2 2.071,6 11.401,8 24,9 3,4 28,3 424,7 29,5 454,2 2.049,6 437,3 2.486,9 11.829,4 2.541,8 14.371,2 
+En MDT 
+ 
+ 
+ 
+ 
+45 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A8-  
+SERVICE DE LA DETTE EXTERIEURE A LONG TERME: 
+ PAR DEVISES 
+ 
+ 
+Devise EUR USD YEN KWD AUTRES 
+2020 60,1 23,0 4,3 2,6 10,0 
+2021 40,8 48,3 3,2 2,1 5,6 
+2022 42,6 31,6 9,8 4,9 11,1 
+2023 51,4 20,0 6,4 3,9 18,3 
+2024 51,8 17,6 9,1 3,3 18,2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+En % 
+ 
+ 
+ 
+ 
+46 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A9-  
+TRANSFERTS NETS :  
+PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS EN 2024 
+ 
+ 
+Désignation  Administrations publiques Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     Autres secteurs Total 
+Créanciers bilatéraux officiels -476,0 0,0 -96,2 -506,0 -1078,2 
+Arabie Saoudite -480,4 0,0 0,0 -273,4 -753,8 
+Allemagne -141,0 0,0 -25,8 -35.8 -202,6 
+France -152,8 0,0 -31,6 -54,6 -239,0 
+Japon 242,4 0,0 0,0 -8,1 234,3 
+Autres 55,8 0,0 -38,8 -134,1 -117,1 
+Créanciers multilatéraux -1.224,6 -28,3 -233,2 -408,9 -1.895,0 
+AFREXIMBANK 978,9 0,0 0,0 0,0 978,9 
+BAD -383,3 0,0 14,9 -30,0 -398,4 
+BEI 242,5 0,0 -140,5 -349,5 -247,5 
+Banque Mondiale 308,2 0,0 -23,9 36,2 320,5 
+FADES -26,2 0,0 -30,4 -131,1 -187,7 
+FMI -2.146,3 0,0 0,0 0,0 -2.146,3 
+Autres organismes -198,4 -28,3 -53,3 65,5 -214,5 
+Autres créanciers -4.508,7 0,0 4,9 -377,5 -4.881,3 
+Dont, détenteurs de titres de créance -4.524,1 0,0 0,0 0,0 -4.524,1 
+TOTAL -6.209,3 -28,3 -324,5 -1.292,4 -7.854,5 
+En MDT 
+ 
+ 
+ 
+ 
+47 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A10-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME: 
+PAR SECTEURS EMPRUNTEURS 
+ 
+ 
+Désignation Administrations 
+publiques10 Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     
+Autres secteurs 
+Total Autres 
+sociétés 
+financières 
+Sociétés non 
+financières Total 
+2020 61.290,8 102,4 3.137,6 939,4 14.412,8 15.352,2 79.883,0 
+2021 62.939,5 112,5 2.360,1 835,0 13.539,9 14.374,9 79.787,0 
+2022 66.669,0 92,7 1.848,0 596,2 13.506,1 14.102,3 82.712,0 
+2023 66.874,2  74,8 1.404,1 431,5 12.944,4 13.375,9 81.729,0 
+2024 62.537,1 46,3 1.088,3 270,8 12.023,5 12.294,3 75.966,0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 Y compris l’allocation de DTS accordée par le FMI en 2021 pour le compte de l’État tunisien dans le cadre de l’allocation générale des DTS. 
+En MDT 
+ 
+ 
+ 
+ 
+48 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A11-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  
+PAR SECTEURS CREANCIERS 
+ 
+ 
+Désignation Créanciers officiels Autres créanciers 
+ 
+Créanciers 
+bilatéraux 
+officiels 
+Créanciers 
+multilatéraux Total 
+Détenteurs de 
+titres de 
+créances 
+Autres Total 
+2020 14.796,8 43.806,5 58.603,3 19.246,6 2.033,1 21.279,7 
+2021 15.850,6 46.240,0 62.090,6 15.865,6 1.830,8 17.696,4 
+2022 17.037,3 49.471,0 66.508,3 14.439,5 1.764,2 16.203,7 
+2023 18.234,9 49.863,2 68.098,1 11.951,3 1.679,6 13.630,9 
+2024 17.198,7 49.279,3 66.478,0 7.947,0 1.541.0 9.488,0 
+ 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+49 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A12-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  
+PAR SECTEURS EMPRUNTEURS ET SECTEURS CREANCIERS EN 2024 
+Désignation Administrations 
+publiques Banque centrale Institutions de dépôts, à 
+l’e  e t  n de l     
+Autres secteurs 
+Total Autres 
+sociétés 
+financières 
+Sociétés non 
+financières 
+Créanciers bilatéraux officiels 12.978,0 0,0 136,7 64,4 4.019,6 17.198,7 
+Allemagne 2.650,4 0,0 68,4 0,0 510,0 3.228,8 
+Arabie Saoudite 2.169,9 0,0 0,0 0,0 427,1 2.597 ;0 
+France 2.394,0 0,0 68,3 26,6 1.068,8 3.557,7 
+Japon 1.485,0 0,0 0,0 0,0 1.040,7 2.525,7 
+Autres 4.278,7 0,0 0,0 37,8 973,0 5.289,5 
+Créanciers multilatéraux 40.721,2 46,3 797,3 145,3 7.569,2 49.279,3 
+AFREXIMBANK 5.010,9 0,0 0,0 0,0 0,0 5.010,9 
+BAD 7.150,1 0,0 282,2 0,0 657,5 8.089,8 
+BEI 2.115,7 0,0 373,6 90,3 2.526,3 5.105,9 
+Banque Mondiale 13.392,9 0,0 51,7 33,8 661,7 14.140,1 
+FMI 5.339,3 0,0 0,0 0,0 0,0 5.339,3 
+UE 4.655,3 0,0 0,0 0,0 0,0 4.655.3 
+Autres organismes 3.057,0 46,3 89,8 21,2 3.723,7 6.938,0 
+Autres créanciers 8.837,9 0,0 154,3 61,1 434,7 9.488,0 
+Dont, détenteurs de titres de 
+créance 7.947,0 0,0 0,0 0,0 0,0 7.947,0 
+TOTAL 62.537,1 46,3 1.088,3 270,8 12.023,5 75.966,0 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+50 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A13-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME: 
+        GO     ’ G                    
+ 
+ 
+ 
+Désignation Administrations publiques Banque centrale 
+Entreprises 
+Total Entreprises 
+publiques 
+Entreprises 
+privées Total 
+2020 61.290,8 102,4 14.024,8 4.465,0 18.489,8 79.883,0 
+2021 62.939,5 112,5 12.991,4 3.743,6 16.735,0 79.787,0 
+2022 66.669,0 92,7 13.022,8 2.927,5 15.950,3 82.712,0 
+2023 66.874,2   74,8 12.492,8 2.287,2 14.780,0 81.729,0 
+2024 62.537,1  46,3 11.475,4  1.907,2   13.382,6   75.966,0  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+51 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A14-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME:  
+PAR DEVISES 
+ 
+ 
+Devise EUR USD YEN KWD AUTRES 
+2020 57,7 19,1 9,1 3,3 10,8 
+2021 58,2 16,1 8,8 3,7 13,2 
+2022 57,9 18,8 7,2 3,9 12,2 
+2023 58,2 20,6 6,8 4,0 10,4 
+2024 56,5 24,4 5,9 4,5 8,7 
+ 
+ 
+ 
+ 
+ 
+ 
+En % 
+ 
+ 
+ 
+ 
+52 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A15-  
+V      O      ’   O    DE LA DETTE EXTERIEURE A LONG TERME:   
+EFFET-CHANGE ET EFFET-VOLUME 
+ 
+ 
+Désignation 2020 2021 2022 2023 2024 
+Variations de l'encours 2.882,2 -96,1 2.925,1 -983,0 -5.763,0 
+Dollar E.U. -980,4 -2.477,7 2.684,0 1.296,4 1.748,7 
+Euro 2.095,6 133,4 1.497,0 -319,1 -4.438,0 
+Yen japonais -52,9 -262,8 -1.053,6 -403,7 -1.087,9 
+Dinar koweïtien -51,8 317,8 206,6 36,8 150,4 
+Autres devises 1.871,7 2.193,1 -409,0 -1.593,3 -2.136,2 
+Effet change 1.267,0 702,1 1.340,1 1.236,1 -303,8 
+Dollar E.U. -712,6 878,1 1.015,6 -42,7 725,7 
+Euro 2.134,0 -561,8 389,5 1.650,8 -965,6 
+Yen japonais 49,0 -280,0 -440,4 -394,6 -275,6 
+Dinar koweïtien -135,9 222,1 173,5 -20,4 123,5 
+Autres devises -67,5 443,7 201,9 43,0 88,1 
+Effet volume 1.615,2 -798,2 1.585,0 -2.219,1 -5.459,2 
+Dollar E.U. -267,9 -3.355,8 1.668,4 1.339,1 1.023,0 
+Euro -38,3 695,3 1.107,5 -1.969,9 -3.472,5 
+Yen japonais -101,9 17,3 -613,2 -9,2 -812,3 
+Dinar koweïtien 84,1 95,7 33,1 57,2 26,9 
+Autres devises 1.939,2 1.749,4 -610,9 -1.636,3 -2.224,3 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+53 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A16-  
+ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  
+                     ’           PAR        ’   O            
+-SITUATION GLOBALE- 
+ 
+Désignation [0%, 5%] ]5%, 7%] Plus de 7% Taux variable Total 
+[1, 5 ans] 3.000,0 3.561,8 75,2 3.004,0 9.641,0 
+] 5, 10 ans] 5.898,5 5.538,0 0,0 2.878,9 14.315,4 
+] 10, 15 ans] 13.712,6 90,8 0,0 7.219,6 21.023,0 
+] 15, 20 ans] 9.374,5 122,1 0,0 2.158,7 11.655,2 
+Plus de 20 ans 16.953,9 0,0 479,4 1.898,0 19.331,3 
+Total 48.939,6 9.312,7 554,5 17.159,2 75.966,0 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+54 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A17-  
+ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  
+                     ’                      ’   O         T                                                                                                                                            
+-CREANCIERS MULTILATERAUX-  
+ 
+ 
+Désignation [0%, 5%] ]5%, 7%] Plus de 7% Taux 
+variable Total 
+[1, 5 ans] 811,9 3.561,8 51,2 2.829,6 7.254,4 
+] 5, 10 ans] 1.077,5 14,7 0,0 2.753,8 3.846,0 
+] 10, 15 ans] 9.016,1 90,8 0,0 6.382,2 15.489,1 
+] 15, 20 ans] 6.261,8 113,2 0,0 2.078,9 8.453,9 
+Plus de 20 ans 12.463,7 0,0 0,0 1.772,2 14.235,9 
+Total 29.630,9 3.780,5 51,2 15.816,7 49.279,3 
+ 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+55 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A18-  
+ENCOURS DE LA DETTE EXTERIEURE A LONG TERME AU 31/12/2024:  
+                     ’                      ’   O                                                                                                                                       
+-CREANCIERS BILATERAUX OFFICIELS- 
+ 
+Désignation [0%, 5%] ]5%, 7%] Plus de 7% Taux 
+variable Total 
+[1, 5 ans] 2.087,3 0,0 0,0 110,5 2.197,8 
+] 5, 10 ans] 4.015,5 0,0 0,0 75,0 4.090,4 
+] 10, 15 ans] 4.689,5 0,0 0,0 563,3 5.252,9 
+] 15, 20 ans] 3.111,3 0,0 0,0 79,8 3.191,1 
+Plus de 20 ans 2.388,2 0,0 0,0 78,4 2.466,6 
+Total 16.291,8 0,0 0,0 907,0 17.198,8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+56 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A19-  
+ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  
+                     ’                      ’   O                                                                                                                                       
+-AUTRES CREANCIERS*- 
+(TABLEAU 𝟏 𝟐⁄ ) 
+ 
+ 
+Désignation [0%, 5%] ]5%, 7%] Plus de 7% Taux 
+variable Total 
+[1, 5 ans] 100,9 0,0 24,0 63,9 188,8 
+] 5, 10 ans] 805,6 5.523,3 0,0 50,1 6.379,0 
+] 10, 15 ans] 7,0 0,0 0,0 274,0 281,1 
+] 15, 20 ans] 1,4 8,9 0,0 0,0 10,3 
+Plus de 20 ans 2.102,0 0,0 479,4 47,5 2.628,8 
+Total 3.016,9 5.532,2 503,3 435,5 9.487,9 
+                  (*) Dont détenteurs de titres de créance. 
+ 
+ 
+ 
+ 
+ 
+En MDT 
+ 
+ 
+ 
+ 
+57 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+ TABLEAU -A19-  
+ENCOURS DE LA DETTE EXTERIEURE A LT AU 31/12/2024:  
+                     ’                      ’   O           
+-DETENTEURS DE TITRES DE CREANCE- 
+(TABLEAU 𝟐 𝟐⁄ ) 
+ 
+Désignation [0%, 5%] ]5%, 7%] Plus de 7% Taux variable Total 
+[1, 5 ans] 0,0 0,0 0,0 0,0 0,0 
+] 5, 10 ans] 0,0 5.523,3 0,0 0,0 5.523,3 
+] 10, 15 ans] 0,0 0,0 0,0 0,0 0,0 
+] 15, 20 ans] 0,0 0,0 0,0 0,0 0,0 
+Plus de 20 ans 1.944,3 0,0 479,4 0,0 2.423,7 
+Total 1.944,3 5.523,3 479,4 0,0 7.947,0 
+ 
+  
+En MDT 
+ 
+  
+ 
+ 
+58 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A20-  
+POSITION DE LA DETTE EXTERIEURE BRUTE (TABLEAU 𝟏 𝟐⁄ )11 
+ 
+Descripteur 2021 2022 2023 2024 
+Administrations publiques 63.495,4 67.277,0 67.501,9 63.011,8 
+Court terme 0,0 0,0 0,0 0,0 
+Numéraire et dépôts 0,0 0,0 0,0 0,0 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts 0,0 0,0 0,0 0,0 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+Long terme 63.495,4 67.277,0 67.501,9 63.011,8 
+Droits de tirage spéciaux (allocations) 2.103,0 2.139,8 2.151,8 2.176,7 
+Numéraire et dépôts 0,0 0,0 0,0 0,0 
+Titres de créance 15.857,4 14.509,5 12.280,9 8.131,8 
+Prêts  45.535,0 50.627,7 53.069,2 52.703,3 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+Banque centrale 6.000,7 6.456,0 6.689,3 5.999,9 
+Court terme 961,2 1.348,5 1.482,9 1.239,9 
+Numéraire et dépôts 955,0 1.337,9 1.470,6 1.229,7 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts 0,0 0,0 0,0 0,0 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 6,2 10,6 12,3 10,2 
+Long terme 5.039,5 5.107,5 5.206,4 4.760,0 
+Droits de tirage spéciaux (allocations) 1.098,5 1.119,4 1.119,8 1.135,5 
+Numéraire et dépôts 3.828,5 3.895,4 4.011,8 3.578,2 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts  112,5 92,7 74,8 46,3 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11 Compte tenu des intérêts courus et non encore échus. 
+En MDT 
+ 
+  
+ 
+ 
+59 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A20-  
+POSITION DE LA DETTE EXTERIEURE BRUTE (TABLEAU 𝟐 𝟐⁄ ) 
+ 
+Descripteur 2021 2022 2023 2024 
+Institutions de dépôts, à l'exception de la banque 
+centrale 15.744,1 15.464,4 16.426,7 17.334,0 
+Court terme 13.361,5 13.600,0 15.018,3 16.240,6 
+Numéraire et dépôts12 12.987,6 13.156,5 14.478,3 15.685,1 
+Titres de créance 302,3 345,8 394,9 390,0 
+Prêts 0,0 0,0 0,0 0,0 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette13 71,6 97,7 145,1 165,5 
+Long terme 2.382,6 1.864,4 1.408,4 1.093,4 
+Numéraire et dépôts 0,0 0,0 0,0 0,0 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts  2.382,6 1.864,4 1.408,4 1.093,4 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+Autres secteurs 37.646,5 41.914,6 44.848,0 47.520,6 
+Court terme 23.191,6 27.735,1 31.405,6 35.148,6 
+Numéraire et dépôts 0,0 0,0 0,0 0,0 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts 0,0 0,0 0,0 0,0 
+Crédits commerciaux et avances 23.191,6 27.735,1 31.405,6 35.148,6 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+Long terme 14.454,9 14.179,5 13.442,4 12.372,0 
+Numéraire et dépôts 0,0 0,0 0,0 0,0 
+Titres de créance 0,0 0,0 0,0 0,0 
+Prêts  14.454,9 14.179,5 13.442,4 12.372,0 
+Crédits commerciaux et avances 0,0 0,0 0,0 0,0 
+Autres passifs sous forme de dette 0,0 0,0 0,0 0,0 
+Investissements directs : crédits interentreprises 0,0 0,0 0,0 0,0 
+Passifs sous forme de dette des entreprises 
+d’ n e t   ement d  e t en e   le   n e t   e    
+directs 
+0,0 0,0 0,0 0,0 
+Passifs sous forme de dette des investisseurs 
+d  e t  en e   le  ent e    e  d’ n e t   ement 
+direct 
+0,0 0,0 0,0 0,0 
+Passifs sous forme de dette entre entreprises 
+ œ    0,0 0,0 0,0 0,0 
+Position Dette Extérieure Brute 122.886,7 131.112,0 135.465,9 133.866,3 
+ 
+ 
+12 Regroupe les données de court terme et de long terme de la rubrique "Numéraire et dépôts".  
+13 Regroupe les données de court terme et de long terme de la rubrique "Autres passifs sous forme de dette". 
+En MDT 
+ 
+  
+ 
+ 
+60 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A21- 
+POSITION EXTERIEURE GLOBALE DE LA TUNISIE 2023-2024  (TABLEAU 𝟏 𝟐⁄ )14 
+ 
+Descripteur 2023 2024 
+Rubriques Actifs Passifs Soldes Actifs Passifs Soldes 
+Investissements directs  2.254,2 130.412,2 -128.158,0 2.314,8 130.054,8 -127.740,0 
+Actions et parts de fonds de placement  2.254,2 130.412,2 -128.158,0 2.314,8 130.054,8 -127.740,0 
+Investissements de portefeuille   666,9 17.861,7 -17.194,8 718,5 13.709,4 -12.990,9 
+Actions et parts de fonds de placement  666,9 5.185,9 -4.519,0 718,5 5.187,6 -4.469,1 
+Banque centrale 259,3 0,0 259,3 269,7 0,0 269,7 
+Institutions de dépôts autres que la banque 
+centrale 407,6 2.438,9 -2.031,3 448,8 2.492,5 -2.043,7 
+Autres secteurs 0,0 2.747,0 -2.747,0 0,0 2.695,1 -2.695,1 
+    Autres sociétés financières 0,0 290,6 -290,6 0,0 289,6 -289,6 
+    Sociétés non financières, ménages et ISBLSM 0,0 2.456,4 -2.456,4 0,0 2.405,5 -2.405,5 
+Titres de créances 0,0 12.675,8 -12.675,8 0,0 8.521,8 -8.521,8 
+Institutions de dépôts autres que la banque 
+centrale 0,0 394,9 -394,9 0,0 390,0 -390,0 
+Administrations publiques 0,0 12.280,9 -12.280,9 0,0 8.131,8 -8.131,8 
+Autres investissements 3.745,9 122.790,1 -119.044,2 3.309,1 125.344,5 -122.035,4 
+ Numéraire et dépôts  1.748,5 19.960,7 -18.212,2 1.536,7 20.493,0 -18.956,3 
+Banque centrale 0,0 5.482,4 -5.482,4 0,0 4.807,9 -4.807,9 
+    À court terme 0,0 1.470,6 -1.470,6 0,0 1.229,7 -1.229,7 
+    À long terme 0,0 4.011,8 -4.011,8 0,0 3.578,2 -3.578,2 
+ Institutions de dépôts autres que la banque 
+centrale 1.748,5 14.478,3 -12.729,8 1.536,7 15.685,1 -14.148,4 
+    À court terme 1.748,5 14.478,3 -12.729,8 1.536,7 15.685,1 -14.148,4 
+Prêts à long terme (1) 0,0 67.994,8 -67.994,8 0,0 66.215,0 -66.215,0 
+Banque centrale 0,0 74,8 -74,8 0,0 46,3 -46,3 
+Institutions de dépôts autres que la banque 
+centrale 0,0 1.408,4 -1.408,4 0,0 1.093,4 -1.093,4 
+Administrations publiques 0,0 53.069,2 -53.069,2 0,0 52.703,3 -52.703,3 
+Autres secteurs 0,0 13.442,4 -13.442,4 0,0 12.372,0 -12.372,0 
+Crédits commerciaux et avances à court terme 1.963,1 31.405,6 -29.442,5 1.733,9 35.148,6 -33.414,7 
+ Autres secteurs 1.963,1 31.405,6 -29.442,5 1.733,9 35.148,6 -33.414,7 
+Autres comptes à recevoir/à payer – autres à 
+court terme 34,3 157,4 -123,1 38,5 175,7 -137,2 
+Banque centrale 3,5 12,3 -8,8 3,2 10,2 -7,0 
+Institutions de dépôts autres que la banque 
+centrale 30,8 145,1 -114,3 35,3 165,5 -130,2 
+Droits de tirage spéciaux (allocations) 0,0 3.271,6 -3.271,6 0,0 3.312,2 -3.312,2 
+ 
+ 
+14 Compte tenu des intérêts courus et non encore échus. 
+En MDT 
+ 
+  
+ 
+ 
+61 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A21-  
+POSITION EXTERIEURE GLOBALE DE LA TUNISIE 2023-2024 (TABLEAU 𝟐 𝟐⁄ ) 
+ 
+Descripteur 2023 2024 
+Rubriques Actifs Passifs Soldes Actifs Passifs Soldes 
+Avoirs de réserve 27.920,0 0,0 27.920,0 29.231,9 0,0 29.231,9 
+ Or monétaire15 843,5 0,0 843,5 1.110,7 0,0 1.110,7 
+ Droits de tirage spéciaux 37,7 0,0 37,7 130,1 0,0 130,1 
+ Position de réserve au FMI 498,9 0,0 498,9 504,3 0,0 504,3 
+Autres avoirs de réserve 26.539,9 0,0 26.539,9 27.486,8 0,0 27.486,8 
+Numéraire et dépôts 15.025,3 0,0 15.025,3 12.745,8 0,0 12.745,8 
+          Créances sur les autorités monétaires 3.195,6 0,0 3.195,6 4.214,4 0,0 4.214,4 
+          Créances sur d’autres entités 11.829,7 0,0 11.829,7 8.531,4 0,0 8.531,4 
+Titres 11.498,5 0,0 11.498,5 14.723,2 0,0 14.723,2 
+          Titres de créance 11.498,5 0,0 11.498,5 14.723,2 0,0 14.723,2 
+Autres créances 16,1 0,0 16,1 17,8 0,0 17,8 
+Total des actifs/passifs 34.587,0 271.064,0 -236.477,0 35.574,3 269.108,7 -233.534,4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+15 L’encaisse or a été réévaluée suivant le cours de l’or de fin de période de London fixing market.   
+En MDT 
+ 
+  
+ 
+ 
+62 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A22-  
+COURS DE CHANGE DES PRINCIPALES DEVISES  ’            CONTRE 1 DINAR 
+TUNISIEN 
+Désignation 31/12/2023 31/12/2024 
+USD 3,0707 3,1957 
+EURO 3,3996 3,3252 
+YEN (1000) 21,7285 20,4668 
+KWD 9,9934 10,3720 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+63 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+TABLEAU -A23-  
+EVOLUTION DE LA NOTATION DE LA TUNISIE  
+  
+Année Agence de notation 
+R&I Fitch Moody's 
+2025 
+B– 
+Perspectives stables 
+22-août-25 
+ 
+B- 
+Perspectives stables 
+12-sept-2025 
+ 
+Caa1 
+Perspectives stables 
+28-fév-2025 
+2024 
+B- CCC+ Caa2 
+Perspectives négatives 16-sept-24 Perspectives stables 
+05-sept-24  22-mars-24 
+   
+2023 
+B- 
+Perspectives négatives 
+29-août-23 
+CCC- 
+Caa2 
+Sous revue à la baisse 
+27-janv-22 
+ 
+08-déc-23 
+CCC- 
+ 
+ 09-juin-23  
+2022 
+B CCC+ Caa1 
+Perspectives négatives 01-déc-22 Sous revue à la baisse 
+10-août-22 CCC 30-sept-22 
+ 18-mars-22  
+2021 
+B+ B- Caa1                                   
+Perspectives négatives Perspectives négatives Perspectives négatives  
+16-nov-21  14-oct-21 
+BB- 08-juil-21 B3 
+Sous revue à la baisse  Perspectives négatives 
+06-août-21  23-févr-21 
+2020 
+BB- 
+Perspectives stables 
+22-juil-20 
+B B2 
+Perspectives négatives Perspectives négatives 
+23-nov-20 06-oct-20 
+B B2 
+Perspectives stables Sous revue à la baisse 
+12-mai-20 17-avr-20 
+B+ B2 
+Perspectives négatives Perspectives stables 
+  28-févr-20 14-févr-20 
+ 
+ 
+ 
+  
+ 
+ 
+64 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Annexe B | Glossaire 
+A 
+❖ Administrations publiques : 
+Le secteur des  administrations publiques recouvre les unités d’administration publique qui 
+existent à chaque niveau d’administration de l’économie nationale, toutes les institutions sans 
+but lucratif non marchandes qui sont contrôlées et principalement financées par l’État ainsi que 
+les unités d’administration publique qui sont situées à l’étranger telles que les ambassades, les 
+consulats, etc. 
+ 
+❖ Autres secteurs :  
+Les autres secteurs se composent des autres sociétés financières (c’est -à-dire des sociétés 
+financières autres que les institutions de dépôts) et des sociétés non financières. 
+ 
+❖ Autres sociétés financières : 
+Elles comprennent  principalement : les fonds commun s de placement, les autres 
+intermédiaires financiers à l'exclusion des sociétés d'assurance et des fonds de pension, les 
+auxiliaires financiers et prêteurs non institutionnels, les sociétés d'assurance et les fonds de 
+pension. 
+ 
+C 
+❖ Conversion de créances : 
+Échange d’une créance contre un passif autre qu’un instrument de dette, comme un titre de 
+participation, ou contre des fonds de contrepartie, aux fins du financement d’un projet. 
+ 
+❖ Créancier : 
+Entité détenant une créance financière sur une autre entité. 
+ 
+❖ Créanciers bilatéraux officiels : 
+Sont les créanciers officiels des divers pays partenaires , il s’agit généralement des 
+gouvernements et des institutions appartenant au secteur public. 
+ 
+❖ Créance financière : 
+Une créance financière donne à un créancier le droit de recevoir un ou plusieurs paiements 
+d’un débiteur dans les conditions spécifiées par le contrat qui les lie ; ou définit certains droits 
+ou obligations entre les deux parties, lesquels, du fait de leur  nature, doivent être considérés 
+comme étant d’ordre financier. Une créance financière a un passif de contrepartie. 
+❖ Créanciers multilatéraux : 
+Il s’agit des institutions financières multilatérales comme le FMI et la Banque mondiale, ainsi 
+que d’autres banques de développement multilatérales. 
+ 
+❖ Créanciers officiels : 
+  
+ 
+ 
+65 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+Il s’agit des créanciers qui font partie du secteur public, organisations multilatérales comprises. 
+ 
+❖ Créanciers privés : 
+Créanciers qui ne sont ni des gouvernements ni des organismes du secteur public . Il s’agit des 
+détenteurs privés d’obligations, des banques et autres institutions financières privées, des 
+fabricants, exportateurs et autres fournisseurs de biens qui détiennent une créance financière. 
+ 
+❖ Crédit : 
+Montant assorti d’une obligation de remboursement . Par crédits, on entend les prêts, crédits 
+commerciaux, obligations, bons, etc, et autres accords donnant lieu à une obligation spécifique 
+de remboursement dans un délai fixé et, en général mais pas toujours, à des paiements 
+d’intérêts. 
+ 
+❖ Crédits commerciaux et avances :  
+Recouvrent les créances ou passifs découlant de l’octroi direct de crédits par les fournisseurs 
+pour des transactions sur biens et services, et les avances versées par les acheteurs sur des 
+achats de biens ou services ou sur des travaux en cours. Les crédits fournis par des institutions 
+de dépôts ou autres intermédiaires financiers sont exclus de la catégorie des crédits 
+commerciaux et avances et classés parmi les prêts. 
+ 
+❖ Court terme : 
+Le court terme correspond à une échéance à l’origine inférieure à un an. 
+ 
+D 
+❖ Dette extérieure brute : 
+La dette extérieure brute se compose des seuls passifs financiers vis‑à‑vis des non‑résidents en 
+instruments de dette (titres du marché monétaire, obligations, emprunts), ce qui exclut 
+notamment les actions et les instruments financiers dérivés . C’est une dette brute au sens où 
+les actifs financiers des résidents ne sont pas soustraits des éléments de passif . En revanche, 
+ces actifs sont soustraits pour calculer la dette extérieure nette, qui se compose des positions 
+nettes en instruments de dette. 
+E 
+❖ Engagement : 
+C’est l’obligation ferme de prêter, garantir ou assurer des ressources pour un montant 
+déterminé suivant des modalités financières précises. 
+❖ ESTER : 
+L’Euro Short-Term Rate, implanté par la BCE en octobre 2019, représente le coût des emprunts 
+interbancaires en euros sans garantie contractés au jour le jour par les banques domiciliées 
+dans la zone euro. 
+ 
+  
+ 
+ 
+66 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+I 
+❖  n t t t  n  de d  ôt     l’e  e t  n de l  b nq e  ent  le : 
+Toutes les unités résidentes qui ont pour principale fonction d’assurer l’intermédiation 
+financière et ont des passifs sous forme de dépôts à vue, transférables et utilisés pour effectuer 
+des paiements, ou encore sous forme de dépôts qui ne sont pas toujours immédiatement 
+transférables, comme les certificats de dépôt, mais qui sont de proches substituts des dépôts. 
+ 
+❖ Instrument de dette : 
+Découle généralement d’un accord contractuel par lequel une unité institutionnelle (le 
+débiteur) a envers une autre unité institutionnelle (le créancier) un passif inconditionnel 
+donnant lieu au remboursement du principal, avec ou sans intérêts, ou au paiement d’intérêts 
+sans remboursement du principal. 
+ 
+❖ Intérêts : 
+En contrepartie de l’utilisation du principal, des intérêts peuvent être prélevés sur le montant 
+du principal, ce qui donne lieu à une charge d’intérêts pour le débiteur . Lorsque cette charge 
+est acquittée périodiquement, comme c’est le plus souvent le cas, les versements à ce titre 
+constituent ce qui est appelé paiements d’intérêts . Les intérêts peuvent être calculés sur la 
+base d’un taux fixe ou d’un taux variable. 
+ 
+❖ Investissements directs : 
+Comprend les instruments d’emprunt et de prêt de fonds, y compris les titres de créance et les 
+crédits fournisseurs (par exemple les crédits commerciaux et avances), entre les investisseurs 
+directs et leurs filiales, succursales et entreprises affiliées . L’investissement direct est une 
+catégorie d’investissement international dans lequel un résident d’une économie détient le 
+contrôle ou un degré d’influence important sur la gestion d’une entreprise résidente d’une 
+autre économie . Le contrôle ou l’influence peuvent être exercés directement au moyen de 
+droits de vote découlant de la détention d’une part du capital de l’entreprise (détention d’au 
+moins 10 % des droits de vote de l’entreprise), ou indirectement par la détention de droits de  
+vote dans une autre entreprise qui jouit de droits de vote dans l’entreprise. 
+L 
+❖ Long terme : 
+Le long terme correspond à une échéance à l’origine supérieure à un an. 
+ 
+ 
+P 
+❖ Position de la dette extérieure brute 
+Le montant, à une date donnée, de l’encours des passifs courants effectifs, et non  
+conditionnels, qui comportent l’obligation pour le débiteur d’effectuer un ou plusieurs  
+paiements pour rembourser le principal et/ou verser des intérêts à un ou plusieurs moments  
+futurs, et qui sont dus à des non-résidents par des résidents d’une économie. 
+  
+ 
+ 
+67 
+ 
+Rapport Statistique de la Dette Extérieure 2024 
+ 
+❖ Position extérieure globale 
+La PEG est un état statistique qui fait apparaître la valeur et la composition à une date donnée 
+les actifs financiers des résidents d’une économie qui sont des créances sur les non -résidents 
+et de l’or physique détenu comme avoir de réserve  et les passifs des résidents d’une économie 
+envers les non-résidents. 
+ 
+❖ Prêts :  
+Sont des instruments créés par apport direct de fonds entre un créancier (prêteur) et un 
+débiteur (emprunteur), selon un accord en vertu duquel le prêteur reçoit un document ou 
+instrument non négociable. 
+ 
+❖ Principal : 
+L’apport d’une valeur économique par le créancier, ou la création d’une dette par d’autres 
+moyens, donne lieu, pour le débiteur, à un passif au titre du principal dont la valeur peut varier 
+dans le temps jusqu’à l’extinction dudit passif. 
+ 
+S 
+❖ Service de la dette : 
+Remboursement du principal et paiement des intérêts , Par service effectif de la dette, on 
+entend l’ensemble des paiements effectivement effectués en règlement d’une dette (principal, 
+intérêts et pénalités de retard y compris) . Le service de la dette prévu à l’échéancier est 
+l’ensemble des paiements (principal et intérêts) que le débiteur est tenu de faire pendant toute 
+la durée de vie de sa dette. 
+ 
+❖ SOFR : 
+Le Secured Overnight Financing Rate, introduit en avril 2018 par la FED, est une mesure du coût 
+d'emprunt de liquidités au jour le jour, garanties par des titres du Trésor. 
+ 
+ 
+❖ Sociétés non financières : 
+Les sociétés non financières sont des entités résidentes dont la principale activité est de 
+produire des biens marchands ou des services non financiers. 
+ 
+ 
+T 
+❖ Titres de créance :  
+Sont des instruments négociables par lesquels est matérialisée une dette et recouvrent les 
+bons, obligations, garanties ou non, et autres titres d’emprunt, les certificats de dépôt 
+négociables, les billets de trésorerie, les titres adossés à des actifs, les instruments du marché 
+monétaire et les instruments de même type normalement négociés sur le marché financier. 
+ 

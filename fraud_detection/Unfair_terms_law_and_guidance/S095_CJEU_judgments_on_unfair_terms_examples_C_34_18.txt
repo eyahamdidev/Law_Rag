@@ -1,0 +1,726 @@
+62018CJ0034
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62018CJ0034
+
+JUDGMENT OF THE COURT (Third Chamber)
+
+19 September 2019 ( *1 )
+
+(Reference for a preliminary ruling — Consumer protection — Directive 93/13/CEE — Unfair terms in consumer contracts — Article 3(1) and (3) — Annex to Directive 93/13/EEC — Point 1(m) and (q) — Loan agreement secured by a mortgage — Notarial instrument — Affixation of the enforcement clause by a notary — Reversal of the burden of proof — Article 5(1) — Plain and intelligible drafting)
+
+In Case C‑34/18,
+
+REQUEST for a preliminary ruling under Article 267 TFEU from the Fővárosi Ítélőtábla (Regional Court of Appeal, Budapest, Hungary), made by decision of 9 January 2018, received at the Court on 18 January 2018, in the proceedings
+
+Ottília Lovasné Tóth
+
+v
+
+ERSTE Bank Hungary Zrt.,
+
+THE COURT (Third Chamber),
+
+composed of A. Prechal (Rapporteur), President of the Chamber, F. Biltgen, J. Malenovský, C.G. Fernlund and L.S. Rossi, Judges,
+
+Advocate General: G. Hogan,
+
+Registrar: R. Șereș, Administrator,
+
+having regard to the written procedure and further to the hearing on 23 January 2019,
+
+after considering the observations submitted on behalf of
+
+–
+
+	
+
+Ms Lovasné Tóth, by G. Némethi, ügyvéd,
+
+–
+
+	
+
+ERSTE Bank Hungary Zrt., by T. Kende and P. Sonnevend, ügyvédek,
+
+–
+
+	
+
+the Hungarian Government, by M.Z. Fehér, acting as Agent,
+
+–
+
+	
+
+the European Commission, by N. Ruiz García and A. Tokár, acting as Agents,
+
+after hearing the Opinion of the Advocate General at the sitting on 21 March 2019,
+
+gives the following
+
+Judgment
+
+1
+
+	
+
+This request for a preliminary ruling concerns the interpretation of Articles 3 and 5 of Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts (OJ 1993 L 95, p. 29) and point 1(m) and (q) of the Annex to that directive.
+
+2
+
+	
+
+The reference has been made in proceedings between Ms Ottília Lovasné Tóth (‘the borrower’) and ERSTE Bank Hungary Zrt. (‘the bank’) concerning an application for a declaration that a clause in a loan agreement denominated in a foreign currency is allegedly unfair.
+
+Legal framework
+
+EU law
+
+3
+
+	
+
+The fifth recital of Directive 93/13 states:
+
+‘Whereas, generally speaking, consumers do not know the rules of law which, in Member States other than their own, govern contracts for the sale of goods or services; whereas this lack of awareness may deter them from direct transactions for the purchase of goods or services in another Member State.’
+
+4
+
+	
+
+Under Article 3(1) of that directive:
+
+‘A contractual term which has not been individually negotiated shall be regarded as unfair if, contrary to the requirement of good faith, it causes a significant imbalance in the parties’ rights and obligations arising under the contract, to the detriment of the consumer.’
+
+5
+
+	
+
+Article 3(3) of that directive refers to the Annex thereto which contains ‘an indicative and non-exhaustive list of the terms which may be regarded as unfair’.
+
+6
+
+	
+
+The first sentence of Article 5 of that directive states:
+
+‘In the case of contracts where all or certain terms offered to the consumer are in writing, these terms must always be drafted in plain, intelligible language.’
+
+7
+
+	
+
+Under Article 8 of Directive 93/13:
+
+‘Member States may adopt or retain the most stringent provisions compatible with the Treaty in the area covered by this Directive, to ensure a maximum degree of protection for the consumer.’
+
+8
+
+	
+
+Point 1 of the Annex to that directive states as follows:
+
+‘Terms which have the object or effect of:
+
+…
+
+(m)
+
+	
+
+giving the seller or supplier the right to determine whether the goods or services supplied are in conformity with the contract, or giving him the exclusive right to interpret any term of the contract;
+
+…
+
+(q)
+
+	
+
+excluding or hindering the consumer’s right to take legal action or exercise any other legal remedy, particularly by requiring the consumer to take disputes exclusively to arbitration not covered by legal provisions, unduly restricting the evidence available to him or imposing on him a burden of proof which, according to the applicable law, should lie with another party to the contract.’
+
+Hungarian law
+
+The Civil Code
+
+9
+
+	
+
+The Polgári Törvénykönyvről szóló 1959. évi IV. törvény (Law No IV of 1959 establishing the Civil Code), in the version applicable to the main proceedings (‘the Civil Code’), provides in Paragraph 205/A:
+
+‘1.   Any contractual term which one party established in advance, unilaterally and without the other party’s participation, for the purposes of concluding multiple contracts, and which the parties did not negotiate individually must be viewed as a standard contractual term.
+
+…
+
+3.   The classification of a provision as a standard contractual term is not influenced by the scope or the form of the term, or by the manner by which it is formed, or by the fact that it is included in the contract itself or in a separate document.’
+
+10
+
+	
+
+Paragraph 209 of the Civil Code provides:
+
+‘1.   Any standard contract term or any term of a consumer contract which has not been individually negotiated shall be regarded as unfair if, in breach of the obligation to act in good faith and fairly, it unilaterally and unjustifiably establishes the contractual rights and obligations of the parties to the detriment of the party other than the one imposing the contractual term in question.
+
+2.   In order to determine whether a contractual term is unfair, regard shall be had to all the circumstances attending the conclusion of the contract, the nature of the service for which the contract was concluded, and the relationship between the term in question and the other terms of the contract or other contracts.
+
+3.   Consumer contract terms which are unfair, or which are to be considered unfair failing any proof to the contrary, may be specified by special regulation.’
+
+11
+
+	
+
+Paragraph 209/A of the Civil Code states:
+
+‘1.   The party adversely affected may contest unfair terms which appear in the contract as standard contract terms.
+
+2.   In consumer contracts, unfair terms which are included as standard contract terms, or which the party concluding the contract with the consumer has pre-formulated unilaterally and without individual negotiation, shall be invalid. Invalidity may be invoked only in favour of the consumer.’
+
+12
+
+	
+
+Paragraph 242 of the Civil Code provides:
+
+‘1.   Acknowledgement of the debt shall not alter the legal status of the debt; however, the onus shall be on the party acknowledging the debt to prove that his debt no longer exists, that the debt cannot be enforced through the courts or that the contract is invalid.
+
+2.   Acknowledgement of the debt shall be made in a written declaration addressed to the other party.’
+
+13
+
+	
+
+Paragraph 523 of the Civil Code provides:
+
+‘1.   Under a loan agreement, the financial institution or other lender gives a commitment to make available to the debtor a specified sum of money and the debtor is required to repay the amount borrowed in accordance with the provisions of the contract.
+
+2.   Except as otherwise provided by law, when the lender is a financial institution the debtor shall be obliged to pay interest (bank loan).’
+
+14
+
+	
+
+Under Paragraph 688 of the Civil Code, the code is intended, inter alia, to transpose Directive 93/13 into Hungarian law.
+
+The Government Decree
+
+15
+
+	
+
+The fogyasztóval kötött szerződésben tisztességtelennek minősülő feltételekről szóló 18/1999. (II. 5.) Kormányrendelet (Government Decree 18/1999 (II. 5.) on unfair clauses in consumer contracts), in the version applicable to the main proceedings (‘the Government Decree’) provides in Paragraph 1(1) in particular that a contractual term is to be regarded as unfair if it:
+
+‘…
+
+(b)
+
+	
+
+gives the party contracting with the consumer the exclusive right to determine whether the contract has been performed in accordance with the contract terms;
+
+…
+
+(i)
+
+	
+
+excludes or limits the means available for the consumer to assert his legal or contractual rights, unless those means are replaced by a dispute resolution procedure established by law;
+
+(j)
+
+	
+
+reverses the burden of proof to the detriment of the consumer.’
+
+16
+
+	
+
+Under Article 3(2) of that decree:
+
+‘The present decree, in conjunction with the relevant provisions of the Civil Code, shall transpose Directive [93/13] into Hungarian law.’
+
+The Code of Civil Procedure
+
+17
+
+	
+
+The polgári perrendtartásról szóló 1952. évi III. törvény (Law No III of 1952 establishing the Code of Civil Procedure), in the version applicable to the main proceedings (‘the Code of Civil Procedure’), provides in Paragraph 164(1):
+
+‘The burden of proving the facts required to resolve the dispute lies principally with the party in whose interest it is for the court to find them proved.’
+
+Hungarian Law No LIII of 1994
+
+18
+
+	
+
+The bírósági végrehajtásról szóló 1994. évi LIII törvény (Hungarian Law No LIII of 1994 on judicial enforcement), in the version applicable on the date the contract at issue in the main proceedings was signed, provides in Paragraph 10:
+
+‘A court enforcement order will be made on presentation of an enforceable instrument. The following are enforceable instruments:
+
+…
+
+(b)
+
+	
+
+documents bearing an enforcement clause issued by a court’.
+
+19
+
+	
+
+Since 1 June 2010, that provision is worded as follows:
+
+‘A court enforcement order will be made on presentation of an enforceable instrument. The following are enforceable instruments:
+
+…
+
+(b)
+
+	
+
+documents bearing an enforcement clause issued by a court or a notary.’
+
+The dispute in the main proceedings and the questions referred for a preliminary ruling
+
+20
+
+	
+
+On 27 October 2008, the borrower and the bank concluded a loan agreement (‘the loan agreement’) denominated in Swiss francs (CHF). Under that contract, the bank undertook to provide the borrower with the sum of CHF 132848 (around EUR 118140) for the purposes of refinancing a loan. On the same day, the borrower had drawn up by a notary an authentic instrument entitled ‘unilateral declaration of acknowledgement of debt’, which contained the provisions of the loan agreement.
+
+21
+
+	
+
+Paragraph I.4 of the loan agreement, the contents of which also appear in that notarised instrument, is worded as follows:
+
+‘For the purposes of settling any dispute concerning the settlement of accounts or satisfying a claim by the Bank, in order to determine the amount of the loan or of any other debt outstanding at a given moment under this document, to determine the effective disbursement date and the date when a payment obligation falls due, or to determine any other fact or information required for the purposes of direct judicial enforcement, the Parties declare themselves bound to accept a probative document recorded in a notarial act and drawn up in accordance with the Debtor’s accounts at the Bank and with the Bank’s records and books of account as irrefutable and reliable proof.
+
+Accordingly, in the event of default in payment of the principal or of interest and costs, or in the event of payment not reflecting the terms of the agreement, in addition to this document, the probative document recorded in a notarial instrument and drawn up in accordance with the Debtor’s accounts at the Bank and with the Bank’s records and books of account shall serve as proof of the loan and of the interest and costs outstanding at a given moment which provide the grounds for enforcement, and of the facts mentioned above, and, by signing this agreement, the Parties agree to be bound to accept the said probative document.
+
+If enforcement proceedings are commenced by the Bank, the Parties or the Debtor shall ask the notary who certified this document, or any other competent notary, to issue a notarial act drawn up in accordance with the Debtor’s accounts at the Bank and with the Bank’s records and books of account, having first examined the records, stating the amount of the loan and of the outstanding interest and costs or any other related debt arising from the abovementioned loan and the abovementioned facts and information, and they shall authorise banking confidentiality to be lifted in respect of the information in question.’
+
+22
+
+	
+
+It is apparent from the order for reference that the loan agreement authorises the bank to terminate the agreement with immediate effect in the event of a serious breach of the contractual obligations on the part of the borrower, such as the failure to fulfil a payment obligation. For all obligations under the loan agreement falling due after termination, the bank has the right to immediate reimbursement of the outstanding amount.
+
+23
+
+	
+
+On 5 January 2016, the borrower brought an action before the competent Hungarian court of first instance. She claimed that the term in paragraph I.4 of the loan agreement and the corresponding provision of the authentic instrument drawn up at the time the loan agreement was concluded were unfair on the ground that, under that term, she undertook to accept that the bank can unilaterally determine a breach on her part as well as the amount of her debt, and proceed directly to enforcement on the basis of that authentic instrument, which has probative force, because it contains an enforcement clause. According to the borrower, that clause reversed the burden of proof to the detriment of the consumer, given that it falls to the consumer to take legal action in order to challenge the enforcement in the event of a disagreement.
+
+24
+
+	
+
+The bank contends that the action should be dismissed. According to the bank, the term at issue in the main proceedings does not make it possible to determine unilaterally whether the borrower satisfied her obligations. It does not reverse the burden of proof, nor does it deprive the borrower of the possibility of pursuing a claim. Even with a notarised instrument attesting the amount of the debt, Hungarian law still allows for contrary evidence to be adduced. In addition, even in simplified enforcement proceedings, it still falls to the bank to prove the amount of the debt. That term does not allow the bank to determine the amount of the debt unilaterally or to impose its own interpretation of the provisions of loan agreement.
+
+25
+
+	
+
+The competent Hungarian court of first instance dismissed the borrower’s action on the ground that the term at issue in the main proceedings is not unfair, as it merely stipulates the procedure to be followed in order to substantiate the debt. With regard to enforcement, that court considered that, when this is ordered, there is no means of verifying whether the borrower is in default. However, she could declare to the bailiff that she has satisfied her obligations and, if necessary, initiate proceedings to stay or limit enforcement. In those proceedings, the borrower could dispute the debt.
+
+26
+
+	
+
+The borrower lodged an appeal before the referring court. She argued that the term at issue in the main proceedings may create an imbalance to the detriment of the consumer for the purposes of Directive 93/13 by making it easier for the bank to pursue its claims and by making it more difficult for the consumer to defend herself.
+
+27
+
+	
+
+The referring court observes that, under Paragraph 242 of the Civil Code, it falls to the party acknowledging the debt to prove that the debt no longer exists, that the debt cannot be enforced through the courts or that the contract is invalid, and it considers that that paragraph does not apply to the term in paragraph I.4 of the loan agreement. According to the referring court, Paragraph 242, which reverses the burden of proof for acknowledged debts, applies only if the amount of the debt is clear and defined. That is not the case here.
+
+28
+
+	
+
+The referring court considers further that paragraph I.4 of the loan agreement has the same effect as Paragraph 242 of the Civil Code with regard to the reversal of the burden of proof in so far as, in the event of a disagreement, it falls to the borrower to prove that the bank does not have a case and to bring the matter before a court in order to challenge the legitimacy of the enforcement or the validity of the loan agreement. In an action to limit or stay enforcement, the requirements relating to time limits and evidence are stricter than in ordinary civil proceedings. Therefore, by requiring that the debt, even where it is not necessarily acknowledged by the debtor, be attested through an authentic instrument with probative force on the basis of the banks books, that term leads to an imbalance to the detriment of the consumer.
+
+29
+
+	
+
+The referring court raises doubts whether that term comes under point 1(m) and (q) of the Annex to Directive 93/13 and as to the manner in which it should assess whether such a term is unfair. In that regard, it observes that that annex was transposed into Hungarian law and that the terms covered by Paragraph 1(1) of the Government Decree are deemed unfair without any further examination being necessary.
+
+30
+
+	
+
+That court states that under Article 8 of Directive 93/13 Member States may adopt the most stringent provisions compatible with the Treaty in the area covered by this directive to ensure a maximum degree of protection for the consumer. It is therefore possible for the national legislature to declare as unfair, without any further examination, terms covered by Article 3(3) of Directive 93/13, read in conjunction with point 1 of the Annex to that directive.
+
+31
+
+	
+
+With regard to whether a term such as the one at issue in the main proceedings comes under point 1(q) of the Annex to Directive 93/13, the referring court observes that, although the Hungarian-language version of that provision covers terms ‘which have the object or effect …’, other linguistic versions of that provision, in particular the versions in German, Polish, Czech and Slovenian, refer to terms ‘which have the objective or effect …’. On the basis of the latter linguistic versions, it may be considered that the financial establishment concerned, by inserting that term in the contract concerned, had the intention of reversing the burden of proof.
+
+32
+
+	
+
+In that regard, that court asks whether it is appropriate to interpret Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, as meaning that it covers a term which has the objective of reversing the burden of proof in order to be able to initiate the simplified enforcement procedure in the event of a serious breach on the part of the consumer, even if that simplified enforcement procedure may also be based on national law, irrespective of that term.
+
+33
+
+	
+
+According to the referring court, even though the term at issue in the main proceedings reflects a notarial enforcement procedure already provided for in Hungarian law, that term might be unfair in so far as, by allowing the bank to determine the outstanding amount, it has the effect of precluding any fair and equitable negotiations with the borrower and of forcing the borrower to initiate court proceedings. Finally, the potential consequences of that clause in the event of a dispute are not entirely understandable to an average consumer at the time the contract is concluded.
+
+34
+
+	
+
+The referring court states that a similar situation to the one at issue in the main proceedings gave rise to the judgment of 1 October 2015, ERSTE Bank Hungary (C‑32/14, EU:C:2015:637). However, that judgment was the subject of divergent applications by the Hungarian courts concerning terms such as the one at issue in the main proceedings.
+
+35
+
+	
+
+The referring court stresses that, according to the Kúria (Supreme Court, Hungary), when an enforcement clause is affixed to an authentic instrument, the debtor may challenge the debt under Paragraph 369 of the Code of Civil Procedure only in an application for a stay or limitation of enforcement. However, this solution is derived from the procedural rules governing notarial instruments with probative force and enforcement clauses. Terms similar to the one at issue in the main proceedings do not therefore affect the consumer’s legal position and are in no way detrimental to the consumer in that respect. The fact that the burden of proof lies with the consumer by virtue of Paragraph 164(1) of the Code of Civil Procedure is inherent in the nature of proceedings to stay or limit enforcement, so that the notarial instrument does not make the burden of proof more onerous for the consumer.
+
+36
+
+	
+
+However, courts other than the Kúria (Supreme Court) have held that such a term is capable of reversing the burden of proof to the detriment of the consumer.
+
+37
+
+	
+
+Furthermore, the referring court states that the term at issue in the main proceedings could be regarded as being a term within the meaning point 1(m) of the Annex to Directive 93/13 which has the object or effect of giving the seller or supplier the right to determine whether the goods or services supplied are in conformity with the provisions of the contract, or of giving it the exclusive right to interpret any term of the contract.
+
+38
+
+	
+
+In those circumstances, the Fővárosi Ítélőtábla (Regional Court of Appeal, Budapest, Hungary) decided to stay the proceedings and to refer the following questions to the Court of Justice for a preliminary ruling:
+
+‘(1)
+
+	
+
+Must point 1(q) of the Annex to Directive [93/13], as an EU law having the status of a rule of public policy, be interpreted as a general prohibition, making any further examination unnecessary, which prevents a lender from imposing on a debtor classed as a consumer a contract term in the form of a standard term or a term that has not been individually negotiated, when the objective or effect of that term is to reverse the burden of proof?
+
+(2)
+
+	
+
+If, pursuant to point 1(q) of the Annex to Directive [93/13], the objective or effect of the contractual term has to be assessed, can the following types of contractual term be regarded as preventing consumers from exercising their rights:
+
+–
+
+	
+
+a term that gives a debtor with the status of a consumer good reason to believe that he must perform the contract in its entirety, including all its terms, in the manner and to the extent required by the lender, even when the debtor is convinced that the performance demanded by the lender is not due, whether in full or in part;
+
+–
+
+	
+
+a term that has the effect of excluding or limiting the consumer’s access to a dispute resolution mechanism based on an equitable negotiation, given that it is sufficient for the lender to invoke this contract term in order for the dispute to be deemed to have been resolved?
+
+(3)
+
+	
+
+If a decision is required as to whether the contract terms listed in the Annex to the Directive [93/13] are unfair in the light of the criteria established in Article 3(1) of the directive, is the requirement in Article 5 of the directive for terms to be drafted in plain, intelligible language satisfied in the case of a contractual term which affects decisions by the consumer about performance of the contract, resolution of disputes with the lender through judicial or non-judicial channels, or the exercise of rights, when (although the wording is clear grammatically) the legal effects of the term can be determined only by interpreting national laws on which the courts had not formulated a consistent position at the time the contract was concluded, and on which no consistent position has emerged in subsequent years?
+
+(4)
+
+	
+
+Must point 1(m) of the Annex to Directive [93/13] be interpreted as meaning that a contract term that has not been individually negotiated can also be unfair where it authorises the party contracting with the consumer to determine unilaterally whether the consumer’s performance of the contract satisfies the terms of the contract, and when the consumer acknowledges himself to be bound by the term even before the contracting parties have performed any obligations?’
+
+Consideration of the questions referred for a preliminary ruling
+
+Admissibility of the questions referred
+
+39
+
+	
+
+The bank submits that the questions referred are inadmissible, essentially on the ground that they are hypothetical. With regard to the first two questions, the bank argues that the referring court starts from the incorrect premiss that the term at issue in the main proceedings reverses the burden of proof to the detriment of the consumer. In addition, that clause is not capable of hindering the consumer’s right to take legal action or exercise any other legal remedy. Therefore, point 1(q) of the Annex to Directive 93/13 is not applicable to the case in the main proceedings. As regards the third question, the bank argues that the case-law on terms such as the one at issue in the main proceedings was consistent at the time the loan agreement was concluded, since the Kúria (Supreme Court) had held on a number of occasions that such terms did not change the rights or the obligations of the consumer compared with applicable rules of national law. Finally, with regard to the fourth question, the bank argues that point 1(m) of the Annex to Directive 93/13 does not apply to the term at issue in the main proceedings, since it does not give the seller or supplier the right to determine whether the consumer’s performance of the contract satisfies the provisions of the loan agreement.
+
+40
+
+	
+
+It must be borne in mind at the outset that, according to the Court’s settled case-law, questions on the interpretation of EU law referred by a national court in the factual and legislative context which that court is responsible for defining, the accuracy of which is not a matter for the Court to determine, enjoy a presumption of relevance. The Court may refuse to rule on a question referred by a national court only where it is quite obvious that the interpretation of EU law that is sought bears no relation to the actual facts of the main action or its purpose, where the problem is hypothetical, or where the Court does not have before it the factual or legal material necessary to give a useful answer to the questions submitted to it (judgment of 20 September 2018, OTP Bank and OTP Faktoring, C‑51/17, EU:C:2018:750, paragraph 37 and the case-law cited).
+
+41
+
+	
+
+In that regard, as the Advocate General stated in point 37 of his Opinion, it is not obvious from the request for a preliminary ruling that the scenarios envisaged by the referring court do not correspond to the situation at issue in the main proceedings.
+
+42
+
+	
+
+In addition, it must be stated that, in proceedings under Article 267 TFEU, which are based on a clear separation of functions between the national courts and tribunals and the Court of Justice, any assessment of the facts and of national law is a matter for the national court or tribunal (see, to that effect, judgment of 27 February 2019, Associação Peço a Palavra and Others, C‑563/17, EU:C:2019:144, paragraph 36 and the case-law cited). Consequently, in the present case, it falls to the referring court to assess the meaning and scope of the term at issue in the main proceedings.
+
+43
+
+	
+
+It follows that the questions referred are admissible.
+
+The first question
+
+44
+
+	
+
+By its first question, the referring court asks in essence whether Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning that it qualifies as unfair, in a general manner and without any further examination, a contractual term which has not been individually negotiated and which has the object or effect of reversing the burden of proof to the detriment of the consumer.
+
+45
+
+	
+
+It is clear from Article 3(3) of Directive 93/13 that the Annex to that directive contains an indicative and non-exhaustive list of the terms which may be regarded as unfair. It is true that, as the Court has already held, the Annex to directive 93/13 is an essential element on which the competent court may base its assessment as to the unfair nature of that term (see, to that effect, order of 3 April 2014, Sebestyén, C‑342/13, EU:C:2014:1857, paragraph 32 and the case-law cited). However, a term appearing in the list in that Annex need not necessarily be considered unfair and, conversely, a term that does not appear in the list may nonetheless be regarded as unfair (see judgment of 7 May 2002, Commission v Sweden, C‑478/99, EU:C:2002:281, paragraph 20).
+
+46
+
+	
+
+It follows that it is for the national court, when dealing with a term of a contract, to verify, under Article 3(1) and (3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, whether that term, contrary to the requirement for good faith, causes a significant imbalance in the parties’ rights and obligations arising under the contract to the detriment of the consumer.
+
+47
+
+	
+
+However, under Article 8 of Directive 93/13, Member States may adopt more stringent provisions compatible with the Treaty in the area covered by the Directive, to ensure a maximum degree of protection for the consumer. Thus, Member States are free in principle to extend the protection provided by Article 3(1) and (3) of that directive, read in conjunction with point 1 of the Annex to that directive, by declaring unfair in a general manner standard clauses which are listed in that point, without the requirement for further examination in accordance with criteria set out in Article 3(1) of Directive 93/13.
+
+48
+
+	
+
+It is apparent from the papers before the Court, although that is a matter for the referring court to ascertain, that, under Hungarian law, the terms covered by point 1(q) of Directive 93/13 are actually considered to be unfair without there being any requirement for a further examination. If that is the case, it still falls to the referring court to determine whether the term at issue in the main proceedings comes under Paragraph 1(1)(j) of the Government Decree.
+
+49
+
+	
+
+In the light of the foregoing, the answer to the first question is that Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning that it does not qualify as unfair, in a general manner and without any further examination, a contractual term which has not been individually negotiated and which has the effect or object of reversing the burden of proof to the detriment of the consumer.
+
+The second question
+
+50
+
+	
+
+By its second question, the referring court seeks to establish whether, in essence, Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning that it covers a term which has the object or effect, first, of giving the consumer good reason to believe that he is required to fulfil all his contractual obligations, even though he considers that certain payments are not due and, secondly, to hinder the consumer’s right to take legal action or exercise any other legal remedy where the outstanding amount owed by the consumer under the contract is determined by a notarised instrument with probative force making it possible for the lender to put an end to the litigation.
+
+51
+
+	
+
+It is apparent from the wording of point 1(q) of the Annex to Directive 93/13 that that point covers terms which have the object or the effect of excluding or hindering the consumer’s right to take legal action or exercise any other legal remedy.
+
+52
+
+	
+
+The Court has already held, in relation to terms which may fall within point 1(q) of the Annex to Directive 93/13, read in conjunction with Article 3(1) of that directive, that the national court must assess whether and, if appropriate, to what extent, the term in question derogates from the rules applicable in the absence of agreement between the parties, so as to make it more difficult for the consumer, given the procedural means at his disposal, to take legal action and exercise rights of the defence (see, to that effect, judgment of 14 March 2013, Aziz, C‑415/11, EU:C:2013:164, paragraph 75).
+
+53
+
+	
+
+It follows that a term which is not liable to place a consumer in a legal situation which is less favourable than what is provided for under current national law does not come under point 1(q) of the Annex to Directive 93/13, read in conjunction with Article 3(1) of that directive. Point 1(q) of that annex therefore covers terms which have legal consequences that may be established objectively. That consideration is not altered by the fact that the insertion of such a term in a contract may give the consumer the impression that legal remedies are restricted and that, as a result, the consumer is required to satisfy all obligations contained in the contract, since the term concerned does not prejudice his legal position in view of the applicable national legislation.
+
+54
+
+	
+
+In the present case, according to the referring court, the term at issue in the main proceedings reflects, in particular, the possibility for the lender, as provided for under Hungarian law, and in the event of a serious breach of the contractual obligations on the part of the consumer, to initiate enforcement of payment of the outstanding amount owed by the consumer on the basis of a notarised instrument containing an enforcement clause. That court also states that the debtor may initiate proceedings to exclude or limit enforcement.
+
+55
+
+	
+
+As regards those simplified enforcement proceedings, it was stated in paragraph 60 of the judgment of 1 October 2015, ERSTE Bank Hungary (C‑32/14, EU:C:2015:637) that the consumer may both bring an action under Paragraph 209/A(1) of the Civil Code challenging the validity of the contract and initiate proceedings under Paragraph 369 of the Code of Civil Procedure to stay or limit the enforcement. In the latter procedure the consumer may, under Paragraph 370 of the Code of Civil Procedure, request that enforcement of the contract be suspended.
+
+56
+
+	
+
+In those circumstances, it appears, although that is a matter for the referring court to ascertain, that the term at issue in the main proceedings does not alter the consumer’s legal position in so far as it neither removes nor hinders the consumer’s right to take legal action or exercise any other legal remedy, within the meaning of point 1(q) of the Annex to Directive 93/13.
+
+57
+
+	
+
+On the other hand, a term which makes it possible for the lender to put an end unilaterally to any litigation, after the outstanding amount has been determined, on the basis of the bank’s books, by a notarised instrument which may contain an enforcement clause inserted by the notary, may come under point 1(q) of the Annex to Directive 93/13. In so far as such a term gives the seller or supplier the right definitively to take a decision on any disputes relating to contractual obligations, it removes or hinders the consumer’s right to take legal action or exercise any other legal remedy within the meaning of that provision.
+
+58
+
+	
+
+However, as was pointed out in paragraph 54 above, it appears that the term at issue in the main proceedings is not such as to remove or hinder the consumer’s right to take legal action or exercise any other legal remedy in view of the procedural rules provided for under the applicable Hungarian law, although that is a matter for the referring court to verify.
+
+59
+
+	
+
+In that respect, it should be noted that the Court has already held that Article 6(1) and Article 7(1) of Directive 93/13 must be interpreted as not precluding national legislation which allows a notary who drew up, in due form, an authentic instrument concerning a contract concluded between a seller or supplier and a consumer, to affix the enforcement clause to that instrument or to refuse to cancel it when no review of the unfairness of the contractual terms has been performed at any stage, provided, however, that the procedural rules governing actions laid down by national law guarantee effective legal protection for the consumer in the circumstances of the case, that being a matter for the national court to verify (see, to that effect, judgment of 1 October 2015, ERSTE Bank Hungary, C‑32/14, EU:C:2015:637, paragraphs 64 and 65).
+
+60
+
+	
+
+In the light of the foregoing, the answer to the second question is that Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning, first, that it does not cover a term which has the object or effect of giving the consumer good reason to believe that he is required to fulfil all his contractual obligations, even though he considers that certain payments are not due, provided that that term does not alter the consumer’s legal position in view of the applicable national legislation and, secondly, that it covers a term which has the object or the effect of hindering the consumer’s right to take legal action or exercise any other legal remedy where the outstanding amount is determined by a notarised instrument with probative force making it possible for the lender to put an end to the litigation unilaterally and definitively.
+
+The third question
+
+61
+
+	
+
+By its third question, the referring court seeks to establish whether, in essence, Article 5 of Directive 93/13 must be interpreted as meaning that that provision requires the seller or supplier to provide additional information relating to a term which is drafted clearly, but the legal effects of which may be determined only by interpreting provisions of national law in respect of which there is no consistent case-law.
+
+62
+
+	
+
+It should be noted, first of all, that, according to the Court’s case-law, the requirement for transparency of contractual terms, laid down inter alia by Article 5 of Directive 93/13, requires not only that the relevant term should be grammatically intelligible to the consumer, but also that it should make it possible for the consumer to evaluate, on the basis of clear, intelligible criteria, the economic consequences for him which derive from it (see, to that effect, judgments of 30 April 2014, Kásler and Káslerné Rábai, C‑26/13, EU:C:2014:282, paragraph 75, and of 9 July 2015, Bucura, C‑348/14, not published, EU:C:2015:447, paragraph 55).
+
+63
+
+	
+
+That case-law requires, in essence, that the mechanisms for calculating the debt and the amount to be repaid by the consumer should be transparent and intelligible and that, where appropriate, the seller or supplier should provide additional information to that end (see, to that effect, judgment of 20 September 2017, Andriciuc and Others, C‑186/16, EU:C:2017:703, paragraph 51).
+
+64
+
+	
+
+Again in relation to the requirement for transparency with regard to the economic consequences for the consumer arising from a contract, the Court has held that, in a situation in which certain aspects of the method of amendment of the fees connected with the service to be provided were laid down in mandatory statutory or regulatory provisions within the meaning of Article 1(2) of Directive 93/13 or in which those provisions set out, for the consumer, the right to terminate the contract, it was essential that that consumer be informed by the seller or supplier of those provisions (see, to that effect, judgment of 26 April 2012, Invitel, C‑472/10, EU:C:2012:242, paragraph 29).
+
+65
+
+	
+
+In addition, the Court has held, in a different context relating to a term requiring the application of the law of the seller’s State of establishment, that the seller is required to inform the consumer of the existence of mandatory provisions, such as Article 6(2) of Regulation (EC) No 593/2008 of the European Parliament and of the Council of 17 June 2008 on the law applicable to contractual obligations (Rome I) (OJ 2008 L 177, p. 6), which provides that the choice of applicable law must not have the result of depriving the consumer of the protection afforded to him by provisions that cannot be derogated from by agreement by virtue of the law which would have been applicable in the absence of choice (see, to that effect, judgment of 28 July 2016, Verein für Konsumenteninformation, C‑191/15, EU:C:2016:612, paragraph 69).
+
+66
+
+	
+
+However, it does not follow from the case-law cited in paragraphs 64 and 65 above that the seller or supplier is also required to inform the consumer, before a contract is concluded, of the general procedural provisions of domestic law of its own State of residence, such as those relating to the allocation of the burden of proof, or the relevant case-law.
+
+67
+
+	
+
+In the main proceedings, in particular, there is no question of a term designating the applicable law in favour of the law of the Member State in which the seller or supplier is established, while the consumer resides in another Member State. In such a situation, it is apparent from Directive 93/13, as confirmed in its fifth recital, that the EU legislature assumes that the consumer does not know the rules of law which, in Member States other than his own, govern contracts relating to the sale of goods or the supply of services.
+
+68
+
+	
+
+Unlike the cases which gave rise to the judgments cited in paragraphs 64 and 65 above, the case in the main proceedings does not concern the obligation on the part of the seller or supplier to inform the consumer of the existence of mandatory provisions of international private law. Nor does it concern the obligation of the seller or supplier to inform the consumer of mandatory provisions under which the amount to be repaid by the consumer may vary and which therefore have a direct effect on the economic consequences for the consumer arising from the contract. Instead, the issue in the main proceedings is the consumer information concerning the existence of general procedural provisions relating to the allocation of the burden of proof and their interpretation in case-law on the date the contract was concluded.
+
+69
+
+	
+
+In such circumstances, imposing an obligation on the seller or supplier to inform the consumer of the existence of general procedural provisions and of the relevant case-law would go beyond what could reasonably be expected of the seller or supplier in the context of the requirement for transparency.
+
+70
+
+	
+
+In the light of the foregoing, the answer to the third question is that Article 5 of Directive 93/13 must be interpreted as meaning that it does not require the seller or supplier to provide additional information relating to a term which is drafted clearly, but the legal effects of which may be determined only by interpreting provisions of national law in respect of which there is no consistent case-law.
+
+The fourth question
+
+71
+
+	
+
+By its fourth question, the referring court asks, in essence, whether Article 3(3) of Directive 93/13, read in conjunction with point 1(m) of the Annex to that directive, must be interpreted as meaning that it covers a contractual term which authorises the seller or supplier to assess unilaterally whether the consumer’s obligations were performed in accordance with the contract.
+
+72
+
+	
+
+Point 1(m) of the Annex to Directive 93/13 refers to terms which have the object or effect of giving the seller or supplier the right to determine whether the goods or services supplied are in conformity with the contract, or of giving him the exclusive right to interpret any term in the contract.
+
+73
+
+	
+
+Given that, as a rule, it is the seller or supplier who sells the goods or supplies the services, that provision must be regarded as covering terms which allow the seller or supplier, in the event of a complaint or disagreement on the part of the consumer relating to the service provided or the goods delivered, to determine unilaterally whether its own performance complies with the contract.
+
+74
+
+	
+
+It is common ground that point 1(m) of the Annex to Directive 93/13 does not refer to the consumer’s obligations under the contract, but only to the obligations of the seller or supplier. Thus, that provision does not cover terms which authorise the seller or supplier to assess unilaterally whether the consumer’s consideration, consisting of paying off a debt and meeting relevant charges, has been executed in accordance with the contract.
+
+75
+
+	
+
+In the light of the foregoing, the answer to the fourth question is that Article 3(3) of Directive 93/13, read in conjunction with point 1(m) of the Annex to that directive, must be interpreted as meaning that it does not cover a contractual term which authorises the seller or supplier to assess unilaterally whether the consumer’s obligations were performed in accordance with the contract.
+
+Costs
+
+76
+
+	
+
+Since these proceedings are, for the parties to the main proceedings, a step in the action pending before the national court, the decision on costs is a matter for that court. Costs incurred in submitting observations to the Court, other than the costs of those parties, are not recoverable.
+
+ 	
+
+On those grounds, the Court (Third Chamber) hereby rules:
+
+ 	
+
+1.
+
+	
+
+Article 3(3) of Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning that it does not qualify as unfair, in a general manner and without any further examination, a contractual term which has not been individually negotiated and which has the effect or object of reversing the burden of proof to the detriment of the consumer.
+
+ 	
+
+2.
+
+	
+
+Article 3(3) of Directive 93/13, read in conjunction with point 1(q) of the Annex to that directive, must be interpreted as meaning, first, that it does not cover a term which has the object or effect of giving the consumer good reason to believe that he is required to fulfil all his contractual obligations, even though he considers that certain payments are not due, provided that that term does not alter the consumer’s legal position in view of the applicable national legislation and, secondly, that it covers a term which has the object or the effect of hindering the consumer’s right to take legal action or exercise any other legal remedy where the outstanding amount is determined by a notarised instrument with probative force making it possible for the lender to put an end to the litigation unilaterally and definitively.
+
+ 	
+
+3.
+
+	
+
+Article 5 of Directive 93/13 must be interpreted as meaning that it does not require the seller or supplier to provide additional information relating to a term which is drafted clearly, but the legal effects of which may be determined only by interpreting provisions of national law in respect of which there is no consistent case-law.
+
+ 	
+
+4.
+
+	
+
+Article 3(3) of Directive 93/13, read in conjunction with point 1(m) of the Annex to that directive, must be interpreted as meaning that it does not cover a contractual term which authorises the seller or supplier to assess unilaterally whether the consumer’s obligations were performed in accordance with the contract.
+
+ 	
+
+[Signatures]
+
+( *1 ) Language of the case: Hungarian.

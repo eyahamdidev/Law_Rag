@@ -1,0 +1,20 @@
+{
+ "id": "S020",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Finance law of the current year - Ministry of Finance - finance laws",
+ "url": "https://www.finances.gov.tn/sites/default/files/2026-01/115725.pdf",
+ "parent": "https://www.finances.gov.tn/fr/loi_finance",
+ "flag": "E / S",
+ "final_url": "https://www.finances.gov.tn/sites/default/files/2026-01/115725.pdf",
+ "content_type": "application/pdf",
+ "sha256": "84f96735cc24a3fd90920e83c7fe4de2d0b22c128ada5b48df8a16135f053fc4",
+ "bytes": 5805452,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S020_115725.pdf",
+ "pages": 101,
+ "text_chars": 82941,
+ "needs_ocr": false,
+ "lang": "ar",
+ "last_modified": "Mon, 19 Jan 2026 11:14:23 GMT"
+}

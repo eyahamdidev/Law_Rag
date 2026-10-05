@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/insholdGlobal.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/insholdGlobal.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "4a9390c42d02917c7cc64323db0e10b3ed49078b413a6abc94008d5b744ee944",
+ "bytes": 51200,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_insholdGlobal.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:22:46 GMT"
+}

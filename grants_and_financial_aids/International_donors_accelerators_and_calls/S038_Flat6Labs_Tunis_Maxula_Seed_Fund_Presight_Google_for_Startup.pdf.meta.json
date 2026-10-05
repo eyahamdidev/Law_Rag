@@ -1,0 +1,22 @@
+{
+ "id": "S038",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "Flat6Labs Tunis, Maxula Seed Fund, Presight, Google for Startups MENA - Aggregator listing",
+ "url": "https://incubatorlist.com/top-vcs-in-tunisia",
+ "parent": "",
+ "flag": "S / M",
+ "final_url": "https://incubatorlist.com/top-vcs-in-tunisia",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "ce0eefc8d5c1840cbb4505b7fb7aa4e76682930cd5daf24098ccef916787dcfe",
+ "bytes": 602441,
+ "path": "grants\\International_donors_accelerators_and_calls\\S038_Flat6Labs_Tunis_Maxula_Seed_Fund_Presight_Google_for_Startup.pdf",
+ "status": "ok",
+ "pages": 3,
+ "text_chars": 2713,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Top VCs & Startup Programs in Tunisia (2026) — Open Deadlines & Funding | IncubatorList",
+ "note": "",
+ "last_modified": ""
+}

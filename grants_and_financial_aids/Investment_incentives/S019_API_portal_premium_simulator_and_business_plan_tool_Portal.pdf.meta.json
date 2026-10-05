@@ -1,0 +1,22 @@
+{
+ "id": "S019",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "API portal - premium simulator and business plan tool - Portal",
+ "url": "https://www.tunisieindustrie.nat.tn/en/home.asp",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.tunisieindustrie.nat.tn/en/home.asp",
+ "content_type": "text/html",
+ "sha256": "b37ebdb846d17b63a91e94d48c5060b7d44f056912028d528815fd3d58db64a2",
+ "bytes": 2138804,
+ "path": "grants\\Investment_incentives\\S019_API_portal_premium_simulator_and_business_plan_tool_Portal.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 1647,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Tunisian Industry Portal",
+ "note": "",
+ "last_modified": ""
+}

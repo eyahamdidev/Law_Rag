@@ -1,0 +1,351 @@
+http://www.procomptable.com/ 
+NC 14 
+Norme comptable relative aux éventualités et                                        
+événements postérieurs à la date de clôture 
+ 
+Objectif 
+01. Les états financiers doivent renseigner les utilisateurs, non seulement sur les transactions 
+passées ayant entraîné des flux de liquidité, mais également sur la probabilité de réaliser des flux 
+futurs de trésorerie générés par des engagements et autres événements connus à la clôture de 
+l'exercice. 
+02. Les états financiers sont ainsi issus d'une comptabilité d'engagements et reflètent à la date de leur 
+arrêté tous les effets des transactions économiques et des opérations réalisées par une entreprise au 
+cours de l'exercice approprié. 
+03. Il existe toutefois, certaines situations ou événements dont l'effet final dépend de circonstances 
+devant arriver après la date de clôture de l'exercice en question, ou, qui bien qu'ils ne se soient pas 
+produits au cours de l'exercice concerné, doivent être analysés d'une manière particulière afin 
+d'apprécier la nécessité ou non, de traduire leurs effets au niveau des états financiers du même 
+exercice. 
+04. Par ailleurs, les états financiers doivent renseigner, sur les ressources économiques, que 
+l'entreprise contrôle, ainsi que sur les obligations et les effets des transactions, événements et 
+circonstances susceptibles de modifier ses ressources et ses obligations. 
+On distingue dans ce cadre, deux situations :  
+a. les éventualités de survenance d'événements après la date de clôture de l'exercice de nature 
+à affecter la fiabilité et la pertinence des états financiers arrêtés à cette date ; et 
+b. les événements qui surviennent après la date de clôture de l'exercice et qui rendent 
+nécessaire le redressement de certains éléments actifs et passifs des états financiers, ou la 
+fourniture d'une information complémentaire. 
+05. L'objectif de la présente norme est de cerner la nature des différentes situations d'éventualités et 
+d'événements survenant après la date de clôture d'un exercice et de définir le traitement à leur 
+réserver, compte tenu de la particularité de chacune d'entre elles. 
+Champ d’application 
+06. La présente norme s'applique : 
+a. aux obligations, que des événements survenus ou en cours rendent prévisibles à la 
+date de clôture d'un exercice ; et 
+b. aux événements, qui sans qu'ils ne soient survenus au cours d'un exercice, risquent 
+d'affecter la fiabilité et la pertinence des états financiers, s'ils venaient à se produire 
+après sa date de clôture. 
+07. La présente norme ne porte pas sur des questions afférentes à des éventualités spécifiques telles 
+que : 
+a. les engagements résultant des opérations de crédit-bail, et 
+b. l'impôt sur les bénéfices. 
+Définitions 
+08. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+Une éventualité est une condition ou une situation dont l'incidence finale, gain ou perte, ne 
+sera établie que lorsqu'un ou plusieurs événements futurs et incertains se seront réalisés ou 
+qu'il sera certain qu'ils ne se réaliseront pas. 
+La condition ou la situation peuvent résulter d'un droit ou d'une obligation contractuels. 
+http://www.procomptable.com/ 
+Une Provision est une constatation comptable d'une diminution de valeur d'un élément d'actif 
+(provision pour dépréciation) ou d'une augmentation du passif (provision pour risques et 
+charges), précise quant à sa nature, mais incertaine quant à sa réalisation et que des 
+événements survenus ou en cours rendent prévisible à la date de clôture de l'exercice. 
+Les événements survenant après la date de clôture de l'exercice sont ceux, favorables ou 
+défavorables, qui se produisent entre la date de clôture de l'exercice et la date de publication 
+des états financiers. On peut distinguer deux types d'événements : 
+a. ceux qui apportent une plus ample confirmation des circonstances qui existaient à la 
+date de clôture, et 
+b. ceux qui indiquent des circonstances nouvelles, apparues après la date de clôture. 
+La date de publication des états financiers est celle à laquelle l'organe compétent dans 
+l'entreprise approuve lesdits états. 
+Eventualités 
+ Identification de l’éventualité 
+09. Le terme "éventualité" utilisé dans la présente norme est limité aux circonstances ou situations 
+existant à la date de clôture, dont l'incidence financière sera déterminée par des événements futurs, 
+qui peuvent ou non survenir. De nombreuses situations ou conditions de ce type sont traduites dans 
+les états financiers par des provisions conformément à la convention comptable de la périodicité. 
+D'autres situations nécessitent la production d'informations complémentaires au niveau des états 
+financiers. 
+10. L'existence d'une éventualité reste liée à l'incertitude caractérisant la survenance de l'événement 
+futur et qui est de nature à affecter la situation financière de l'entreprise. 
+Ne peut ainsi être considérée comme éventualité, toute situation existant à la date de clôture d'un 
+exercice et dont les conséquences futures peuvent être appréciées avec certitude. C'est l'exemple des 
+amortissements des biens immobilisés, dont la durée d'amortissement peut généralement être 
+appréciée avec un degré de certitude satisfaisant. 
+En effet, les constatations annuelles des amortissements correspondent à des dépréciations 
+certaines. 
+11. Constitue, par contre, une éventualité, le risque d'un non recouvrement d'une créance sur un 
+client, déclaré en difficultés financières, ou encore le risque d'indemnisation d'une partie adverse dans 
+un procès en cours. Ces deux cas nécessitent, à la clôture de l'exercice, une estimation des risques 
+correspondants pour apprécier l'incidence financière de la survenance éventuelle d'une perte future. 
+12. La circonstance ou la situation existant à la date de clôture, peuvent également résulter d'un droit 
+ou d'une obligation contractuels dont les effets sur la valeur ou la composition de l'actif ou du passif 
+d'une entreprise sont subordonnés à la réalisation de conditions ou d'opérations ultérieures. 
+L'éventualité liée, dans ce cas, à l'engagement pris par l'entreprise sera appréciée suivant la nature 
+même de l'engagement en question. On distingue à ce titre, trois catégories d'engagements : 
+a. les engagements de garantie donnés ou reçus, 
+b. les engagements réciproques exceptionnels ; et  
+c. les créances et les dettes assorties de garantie.  
+A titre d'illustration, l'annexe jointe à la présente norme, fournit un exemple de présentation des 
+engagements au niveau des notes aux états financiers. 
+13. A l'occasion de la clôture de son exercice, l'entreprise procède à un recensement et à une 
+évaluation de ses éléments actifs et passifs. A cette date, l'entreprise doit apprécier toute éventualité 
+d'existence de risque ou de charge, de nature à affecter un ou plusieurs de ses éléments actifs ou 
+passifs. L'entreprise doit ajuster en conséquence, ses informations financières par la constatation 
+d'une dépréciation éventuelle. 
+ Constatation des éventualités 
+14. Les éventualités quelles qu'elles soient, sont classées en deux catégories suivant leur incidence 
+sur la situation financière de l'entreprise : 
+http://www.procomptable.com/ 
+a. les éventualités à incidence future négative, entraînant des pertes éventuelles ; et 
+b. les éventualités à incidence future positive, entraînant des gains éventuels. 
+Le traitement comptable à réserver aux éventualités diffère suivant chacune de ces deux catégories. 
+Traitement des éventualités à incidence future négative 
+15. Une estimation de la perte découlant d'un engagement à incidence négative doit être 
+réalisée et constatée en charge, si les deux conditions suivantes sont réunies : 
+a. La disponibilité d'une information antérieurement à la publication des états financiers, 
+indiquant qu'il est probable qu'un actif soit déprécié ou qu'un passif soit encouru, à la 
+date de clôture de l'exercice, après prise en compte de tout remboursement potentiel par 
+un tiers. Il est implicitement reconnu, dans cette condition, qu'il doit être probable qu'un 
+ou que plusieurs événements futurs surviennent pour confirmer le fait de la perte ou de 
+la charge, et 
+b. Le montant de la perte ou de la charge peut être raisonnablement estimé, et ce, après 
+déduction de tout remboursement ultérieur y afférent. 
+16. La perte estimée, qui peut résulter d'un engagement à incidence négative, doit être provisionnée 
+dans les états financiers. 
+17. Parmi les éventualités à incidence future négative, sont cités les exemples suivants : 
+a. une créance sur un client en difficulté, 
+b. un procès engagé à l'encontre de l'entreprise,  
+c. une caution donnée, 
+d. un marché déjà conclu mais se révélant à perte,  
+e. une construction sur terrain d'autrui, et 
+f. un crédit-bail d'un bien ayant perdu son utilité. 
+18. Lorsque la perte n'est que peu probable, ou que le montant de la perte ne peut être 
+raisonnablement estimé, l'entreprise doit mentionner l'information dans les notes aux états 
+financiers. 
+Cette mention porte sur : 
+a. la nature de l'éventualité, 
+b. les incertitudes qui affectent l'issue,  
+c. l'estimation de leur incidence financière, ou l'indication que cette estimation ne peut 
+être faite. 
+19. Si la possibilité de perte, en question, est très incertaine, l'éventualité n'est pas à porter aux 
+états financiers. 
+20. L'existence et le montant des garanties et des obligations, nées de l'escompte de lettres de 
+change et d'obligations similaires assumées par une entreprise, sont mentionnés en notes dans les 
+états financiers, même s'il est peu probable qu'il en résulte une perte pour l'entreprise. 
+21. L'appréciation de l'incidence financière d'une éventualité tient compte de la totalité de la perte 
+prévisible. Toutefois, lorsque la perte attendue doit être supportée en totalité ou en partie par une 
+tierce personne, en vertu d'un droit contractuel ou commun, l'incidence financière de l'éventualité sera 
+calculée nette de la partie de la perte devant être supportée par la tierce personne. Il en est ainsi, par 
+exemple du cas d'un risque couvert par une assurance. 
+22. Ne sont pas considérées comme provisions pour éventualités, les sommes provisionnées, au titre 
+de risques généraux ou non spécifiés, et qui ne se rapportent pas à des conditions existant à la date 
+de clôture. Tel est le cas des : 
+a. provisions pour hausse future des prix, 
+b. provisions pour fluctuation du portefeuille titres, et  
+c. provisions de propre assureur. 
+http://www.procomptable.com/ 
+Traitement des éventualités à incidence future positive 
+23. Parmi les éventualités à incidence future positive, sont cités les exemples ci-après : 
+a. une commande d'un client devant générer des bénéfices,  
+b. une construction par autrui sur un terrain de l'entreprise, et  
+c. une caution reçue d'un client. 
+24. Les principes retenus font que les gains ne peuvent être constatés dans les comptes d'un 
+exercice que lorsqu'ils sont réalisés à la date de la clôture de cet exercice. 
+Il s'en suit que les éventualités à incidence positive ne figurent pas au bilan. Elles peuvent 
+toutefois, faire l'objet d'une mention dans les notes aux états financiers, si cette information 
+s'avère significative et favorise, ainsi, la divulgation d'une meilleure image de la situation de 
+l'entreprise. 
+25. L'entreprise qui a conclu un marché avant la date de clôture de son exercice et qui estime pouvoir 
+réaliser des gains significatifs sur ce marché au cours de l'exercice suivant, peut porter l'information 
+au niveau des notes aux états financiers. 
+ Evaluation des provisions pour éventualités 
+26. Les estimations relatives à la survenance et à l'incidence financière des éventualités sont 
+déterminées par le jugement des dirigeants de l'entreprise sur la base de tout rapport pouvant 
+étayer leur décision. Ce jugement reste fondé sur l'examen des informations disponibles et 
+exploitables à la date de publication des états financiers. 
+27. Il est en effet évident, que des situations existant à la date de clôture d'un exercice, peuvent être 
+appréciées, compte tenu des informations disponibles à cette même date, ainsi que des informations 
+qui se révéleraient après la date de clôture, mais bien entendu, avant la date de publication des états 
+financiers. 
+C'est l'exemple d'une appréciation d'une perte sur créances jugées douteuses à la date de clôture de 
+l'exercice et pour laquelle l'appréciation du degré de la perte n'a pu être faite, qu'après la date de 
+clôture. 
+28. Les éventualités peuvent être identifiées individuellement, et les circonstances particulières à 
+chaque situation, peuvent être considérées séparément pour déterminer le montant de la provision. Il 
+en est ainsi par exemple : 
+a. des risques pour des procès engagés contre l'entreprise,  
+b. des infractions commises par l'entreprise et sujettes à pénalisation ; et 
+c. des engagements donnés par l'entreprise pour garantir un tiers en cas de défaillance de son 
+débiteur. 
+29. Il arrive que les incertitudes, qui ont créé une éventualité pour une opération particulière, soient 
+communes à un nombre important d'opérations similaires. Le montant de la provision sera, alors, 
+déterminé par rapport à la totalité des opérations similaires. Il en est ainsi par exemple, des garanties 
+après vente. 
+Evénements survenant après la date de clôture de l’exercice 
+30. Des événements se produisant entre la date de clôture de l'exercice et la date de publication des 
+états financiers, peuvent rendre nécessaires des modifications de certains postes de l'actif ou du 
+passif ou entraîner une information complémentaire. 
+ Identification de l’événement 
+31. Les faits ou informations retenus sont, seulement, ceux qui constituent des événements 
+postérieurs dont l'incidence sur la situation financière, ou sur le résultat de l'exercice clos, ou 
+de l'exercice en cours, est jugée significative. 
+32. Les événements postérieurs sont significatifs dans la mesure où leur omission serait de nature à 
+affecter la fiabilité et la pertinence des états financiers et d'influencer le jugement et les décisions des 
+utilisateurs de ces états. Il y a lieu de distinguer deux types d'événements :  
+a. les événements liés à des conditions existant à la date de clôture ; et  
+http://www.procomptable.com/ 
+b. les événements non liés à des conditions existant à la date de clôture. 
+Traitement des événements liés à des conditions existant à la date de clôture de l’exercice 
+33. Il s'agit d'événements qui constituent un élément complémentaire d'appréciation de la valeur des 
+éléments de l'actif ou du passif de l'entreprise tels qu'ils existaient à la date de clôture de l'exercice. Il 
+en est ainsi, par exemple, des événements suivants :  
+a. faits ou informations sur l'existence ou le montant d'un risque,  
+b. détermination définitive du prix d'achat d'une immobilisation réceptionnée avant la clôture,  
+c. expertises, évaluations ou cessions amenant à dégager une valeur inférieure à celle 
+constatée en comptabilité,  
+d. éléments d'évaluation de titres, tels que perspective de réalisation ou de rentabilité récente, 
+modification de conjoncture,  
+e. prix de vente de produits en stocks à la clôture (chute de prix conduisant à une valeur de 
+réalisation inférieure à la valeur comptable),  
+f. information conduisant à modifier la dépréciation des encours, 
+g. révélation de la situation compromise d'un client rendant la créance douteuse, 
+h. retours de marchandises livrées avant la clôture,  
+i. indemnités obtenues au terme de négociations ou dossiers en cours à la clôture,  
+j. ristournes sur achats obtenues,  
+k. jugement intervenu, 
+l. perte sur créance qui serait confirmée par la faillite du client postérieurement à la date de 
+clôture, 
+m. fluctuations de change, 
+n. remise en cause des critères ayant permis la prise en compte à l'actif de dépenses de 
+recherche et de développement, 
+o. produit en stock interdit de vente suite à une décision des autorités compétentes, 
+p. dans les contrats de construction, hausse importante du coût des matières premières 
+entraînant une perte potentielle, et 
+r. notification de redressement faisant suite à un contrôle fiscal. 
+Dans ces cas, l'entreprise doit procéder à une modification des comptes concernés au niveau de ses 
+états financiers. 
+34. L'entreprise doit ajuster ses états financiers lorsque des événements survenus entre la date de 
+clôture de l'exercice et la date de publication des états financiers, fournissent une information 
+complémentaire ou rectificative, à l'égard de la situation qui existait à la date de clôture de l'exercice. 
+Traitement des événements non liés à des conditions existant à la date de clôture de l’exercice 
+35. Lorsqu'un événement, qui n'a pas de lien direct avec une situation existant à la date de clôture de 
+l'exercice, survient entre la date de clôture et la date de publication des comptes, il n'est pas procédé 
+à la modification des comptes. L'entreprise doit, toutefois, porter une mention au niveau des notes aux 
+états financiers. 
+Parmi les événements, considérés comme non liés à des conditions existant à la date de clôture de 
+l'exercice, on peut citer les événements suivants : 
+a. sinistre intervenu après la date de clôture, 
+b. événements exceptionnels ou accidentels sortant du cadre de l'exploitation normale, 
+c. décisions de gestion importantes,  
+d. émission de titres, prises de participation, souscriptions, 
+e. fusion, scission, apport partiel d'actif, 
+http://www.procomptable.com/ 
+f. ouverture ou fermeture de branches d'activité,  
+g. fluctuation de cours et de conjoncture sur les marchés de l'entreprise, 
+h. pertes futures sur participations,  
+i. fluctuation de change, 
+j. litiges ou procès dont la cause est postérieure à l'exercice,  
+k. contrôle fiscal après la clôture de l'exercice, 
+l. évolution significative des cours de bourse, des taux de change ou dévaluation de la monnaie, 
+et 
+m. décision d'expropriation. 
+36. L'entreprise doit, sans aucun ajustement de l'actif et du passif, mentionner, à travers les 
+notes aux états financiers, les événements, survenus entre la date de clôture de l'exercice et la 
+date de publication des états financiers, qui, sans être liés à la situation qui prévalait à la date 
+de clôture de l'exercice : 
+a. entraîneront des modifications importantes de l'actif ou du passif au cours du nouvel 
+exercice, et 
+b. ou qui auront, ou risquent d'avoir, des répercussions importantes sur les activités 
+futures de l'entreprise. 
+37. L'entreprise doit toutefois, ajuster les éléments actifs et passifs, lorsque des événements, 
+survenant après la date de clôture, indiquent que la continuité de tout ou partie de 
+l'exploitation se trouve mise en question. 
+38. Les renseignements fournis à l'égard des événements postérieurs à la date de clôture de 
+l'exercice, qui nécessitent d'être portés aux notes aux états financiers, doivent comprendre : 
+a. une description de la nature de l'événement, et 
+b. une estimation de son incidence financière, lorsqu'il est possible de le faire, ou une 
+déclaration indiquant qu'il est impossible de faire une telle estimation. 
+Date d’application 
+39. La présente Norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er Janvier 1997. 
+Annexe  
+La présente annexe n'est donnée qu'à titre d'illustration. L'objectif de l'annexe est de donner, à titre 
+indicatif, les rubriques que peut contenir l'information sur les engagements au niveau des notes aux 
+états financiers. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 
+I. Engagements financiers 
+Type d'engagements Valeur totale Tiers Dirigeants Entreprises 
+liées Associés Provisions 
+1- Engagements donnés 
+a) garanties personnelles 
+• cautionnement 
+• aval 
+• autres garanties 
+b- garanties réelles 
+• hypothèques 
+• nantissement 
+c) effets escomptés et non échus 
+d) créances à l'exportation mobilisées 
+c) abandon de créances 
+f)... 
+Total 
+      
+2- Engagements reçus 
+a) garanties personnelles 
+• cautionnement 
+• aval 
+• autres garanties 
+b- garanties réelles 
+• hypothèques 
+• nantissement 
+c) effets escomptés et non échus 
+d) créances à l'exportation mobilisées 
+c) abandon de créances 
+f)... 
+Total 
+      
+3) Engagements réciproques 
+• Emprunt obtenu non encore 
+encaissé 
+• Crédit consenti non encore versé 
+• Opération de portage 
+• Crédit documentaire 
+• Commande d'immobilisation 
+• Commande de longue durée 
+• Contrats avec le personnel 
+prévoyant des engagements 
+supérieurs à ceux prévus par la 
+convention collective 
+• Etc 
+Total 
+      
+ 
+II. Dettes garanties par des sûretés 
+Postes concernés Montant garanti Valeur comptable des biens donnés en 
+garantie 
+Provisions 
+• Emprunt obligataire 
+• Emprunt d'investissement 
+• Emprunt courant de gestion 
+• Autres 
+   
+ 
+III. Commentaires 
+Commentaires sur les engagements ne pouvant être chiffrés : 
+ • Engagements d'exclusivité 
+ • ...... 
+ • Engagements de non concurrence 
+ • ...... 
+ 

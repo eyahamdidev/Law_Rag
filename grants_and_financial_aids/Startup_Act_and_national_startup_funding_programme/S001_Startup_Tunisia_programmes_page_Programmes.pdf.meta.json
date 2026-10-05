@@ -1,0 +1,22 @@
+{
+ "id": "S001",
+ "dataset": "grants",
+ "section": "Startup Act and national startup funding programmes",
+ "name": "Startup Tunisia - programmes page - Programmes",
+ "url": "https://startup.gov.tn/en/programs",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://startup.gov.tn/en/programs",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "52eebeb3930ab75d5bb6da2d17dea338544a0500540512e06f1e3439f9cce8cf",
+ "bytes": 355942,
+ "path": "grants\\Startup_Act_and_national_startup_funding_programme\\S001_Startup_Tunisia_programmes_page_Programmes.pdf",
+ "status": "ok",
+ "pages": 6,
+ "text_chars": 1727,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Programs | Startup Tunisia",
+ "note": "",
+ "last_modified": "Thu, 27 Aug 2026 09:16:46 GMT"
+}

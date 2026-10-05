@@ -1,0 +1,855 @@
+Deterministic Fuzzy Triage for Legal Compliance Classification and Evidence
+Retrieval
+Rian Atri
+Serval Systems
+hello@rian.fyi
+Abstract
+Legal teams now use ML to triage large volumes of contrac-
+tual evidence, but most models are opaque, non-deterministic,
+and hard to align with frameworks such as HIPAA or
+NERC–CIP. We study a simple, reproducible alternative
+based on deterministic dual encoders and transparent fuzzy
+triage bands. Concretely, we train a RoBERTa-base dual en-
+coder with a 512-dimensional projection and cosine similar-
+ity on the ACORD benchmark for graded clause retrieval,
+and then fine-tune it on a CUAD-derived binary compli-
+ance dataset. Across five random seeds (40–44) on a single
+NVIDIA A100 GPU, our model achieves ACORD-style re-
+trieval performance of approximately NDCG@5≈0.38–
+0.42, NDCG@10≈0.45–0.50, and 4-star Precision@5≈
+0.37on the test split. On CUAD-derived binary labels, we
+obtain AUC≈0.98–0.99and F 1 ≈0.22–0.30depending
+on the positive-class weight, substantially outperforming ma-
+jority and random baselines on a highly imbalanced setting
+(positive rate≈0.6%).
+On top of the scalar compliance scores, we introduce a
+simple fuzzy triage mapping that partitions the score axis
+into three regions: auto-noncompliant, auto-compliant, and
+human-review. We tune the lower and upper thresholds on
+validation data to maximize auto-decision coverage subject to
+a hard constraint on the empirical error rate (at most2%) over
+auto-decided examples. This yields deterministic, seed-stable
+models whose behavior can be summarized by a small num-
+ber of scalar parameters and reported consistently across runs.
+We argue that this combination of deterministic encoders, cal-
+ibrated fuzzy bands, and explicit error constraints offers a
+practical middle ground between hand-crafted rules and fully
+opaque large language models: it supports explainable evi-
+dence triage, enables reproducible audit trails, and provides
+a concrete interface for mapping scores and triage regions
+onto legal concepts such as access control, risk-based review,
+and residual-risk handling under regulatory frameworks like
+HIPAA.
+Introduction
+Motivation
+Evidence-Triaged Compliance, not One Shot (OSL)
+LLMs:Audit, risk, and compliance (GRC) teams are in-
+creasingly responsible for justifying decisions that span hun-
+dreds to thousands of pages of contracts, policies, and email
+Copyright © 2026, Association for the Advancement of Artificial
+Intelligence (www.aaai.org). All rights reserved.
+threads. In many regulated settings (e.g., financial services,
+insurance, healthcare), audit findings must be traceable back
+to specific clauses and controls, and reviewers are expected
+to explain not onlywhatdecision was made but alsowhy.
+Today this work is often carried out through manual search
+over PDFs, shared drives, and ticketing systems, which does
+not scale with the number of frameworks, controls, and ven-
+dors involved.
+Recent “AI copilot” interfaces promise to short-circuit
+this process by letting users “ask a chatbot” to summarize
+obligations or answer compliance questions over contracts.
+However, both practitioners and regulators have raised con-
+cerns about hallucinations, inconsistent confidence, and the
+lack of robust uncertainty estimates in such systems. In
+practice, teams rarely treat these copilots as authoritative
+decision-makers. Instead, they are used as rough drafting
+tools, with humans still responsible for reconstructing evi-
+dence trails and verifying clause-level compliance.
+In this work, we focus on a setting that is closer to how
+compliance teams actually operate: a system that surfaces
+concrete clause-rule alignments; exposes calibrated scores
+and triage regions instead of a single yes/no answer; and
+is explicitly designed to integrate into evidence workflows
+rather than replace human review.
+In practice, the evidence needed to support these decisions
+is scattered across email threads, ticketing systems, contract
+PDFs, and ad-hoc spreadsheets and folders, and calls for ex-
+plainable, accountable AI emphasize documenting how such
+evidence underpins decisions (Doshi-Velez and Kim 2017;
+Rudin 2019; Jobin et al. 2019).
+Problem
+Mapping Long-Tail Contract Clauses to Compliance
+Rules:We study the problem of mapping contract clauses
+to structured compliance rules. Formally, given a textual rule
+q(e.g., a control requirement) and a candidate clausecfrom
+a contract or policy, the system must (i) estimate how rele-
+vantcis toqon a graded scale, and (ii) decide whetherc
+provides sufficient evidence to treatqas compliant or non-
+compliant.
+This problem exhibits several challenging properties:
+•Long-tail clause patterns.The same control can be sat-
+isfied by widely varying clause templates across counter-
+parties, jurisdictions, and contract types.
+arXiv:2603.07390v1  [cs.LG]  8 Mar 2026
+•Extreme label imbalanceFor many rules, only a small
+fraction of clauses are actually relevant. Even among rel-
+evant clauses, only some provide strong, unambiguous
+evidence of compliance.
+•High-stakes decisionsMistakes can lead to fines, penal-
+ties, and costly remediation efforts in regulated indus-
+tries (Jobin et al. 2019; Brundage et al. 2020; Raji et al.
+2020), so practitioners are unwilling to delegate every-
+thing to a black-box model.
+These properties motivate models that are bothgraded(to
+capture varying degrees of relevance) andtriage-aware(to
+separate auto-decisions from cases that must be escalated to
+humans).
+Limitations of Existing Approaches
+Prior work on contract understanding and legal NLP has
+made significant progress on clause tagging and question
+answering over contracts, for example by framing tasks as
+span extraction, sequence labeling, or binary classification
+on datasets such as CUAD. However, these approaches typ-
+ically learn a single binary decision boundary and are eval-
+uated only on aggregate metrics such as F1 and AUC on a
+balanced or stratified test set.
+Likewise, many retrieval-augmented generation (RAG)
+systems (Lewis et al. 2020b) focus on optimizing retrieval
+metrics for open-domain question answering, but they often
+treat relevance as binary and rarely expose graded relevance
+scores or abstention mechanisms at the user interface.
+In high-stakes compliance settings, two gaps are particu-
+larly salient:
+1.Lack of graded supervision.Most clause-level datasets
+do not distinguish between “somewhat relevant” and
+“highly on-point” evidence, even though practitioners
+care deeply about this distinction.
+2.Lack of explicit triage.Standard binary classifiers and
+RAG systems do not provide a principled way to say “I
+am unsure; this should be reviewed by a human,” forcing
+users to either over-trust or ignore model outputs.
+Our goal is to address these gaps by combining graded rel-
+evance supervision from an insurance benchmark (ACORD)
+with a fuzzy triage head that explicitly partitions predic-
+tions intoauto-compliant,auto-noncompliant, andreview
+regions, while remaining compatible with existing clause
+classification workflows.
+ContributionsSummarizing, our contributions are: (1)
+a simple, reproducible dual-encoder baseline for legal
+clause–rule retrieval with graded ACORD supervision; (2) a
+positivity-weighted classifier and fuzzy triage head that ex-
+pose explicit coverage–error trade-offs on a CUAD-style bi-
+nary compliance task; and (3) a discussion of how determin-
+istic, triage-aware models better support explainability, fair-
+ness analysis, and regulatory alignment than one-shot LLM
+copilots, grounded in controls such as HIPAA §164.312 and
+NERC–CIP.
+Why not just use an LLM copilot over RAG?One might
+ask why a relatively small dual encoder is needed when
+large language models (LLMs) combined with retrieval-
+augmented generation (Lewis et al. 2020b) can already an-
+swer compliance questions over contracts. In our setting,
+however, legal defensibility requires more than aggregate
+accuracy: regulators and opposing experts must be able to
+rerun the pipeline offline, obtain identical scores and triage
+bands, and inspect the small set of scalar parameters that
+govern behaviour. Proprietary LLM copilots, even when
+wrapped around a retriever, are typically non-deterministic
+(due to sampling), updated over time without version pin-
+ning, and opaque in both training data and parameterization.
+By contrast, our RoBERTa-base dual encoder plus fuzzy
+head exposes a single similarity score, calibrated probabili-
+ties, and two explicit thresholds(τ low, τhigh), all trained with
+fixed seeds on public data. This makes the system much eas-
+ier to audit, document, and freeze for regulatory review than
+a black-box LLM stack.
+Background and Related Work
+Contract Understanding Benchmarks
+Contract Understanding Atticus Dataset(CUAD)
+(Hendrycks et al. 2021) and related corpora provide
+annotated contract clauses for tasks such as identifying non-
+standard terms, assignment clauses, or change-of-control
+provisions. These datasets are typically modeled using
+general-purpose pretrained transformers such as BERT
+and RoBERTa (Devlin et al. 2019; Liu et al. 2019), with
+contract-specific fine-tuning on clause-level labels. Models
+are evaluated via precision, recall, and F1 on held-out
+contracts. .
+The ACORD clause-rule relevance benchmark (Xu et al.
+2025), in contrast, is organized aroundgradedrelevance
+judgments between policy clauses and standard insurance
+rules. For each rule, multiple clauses are annotated with
+scores on a discrete scale (e.g.,0to4or1to5), where higher
+scores indicate stronger support or alignment. Ranking mod-
+els are evaluated with metrics such as NDCG@k and graded
+precision@k, and they are a natural fit for dense retrieval
+setups built on top of pretrained encoders (Karpukhin et al.
+2020)
+Neural Dual Encoders and Graded Relevance
+Dual-encoder architectures have become a standard choice
+for scalable semantic retrieval, particularly when large
+numbers of candidate passages must be scored for each
+query (Karpukhin et al. 2020). In this setup, a shared or
+partially shared encoder maps queries and candidates into
+a vector space, and similarity (often cosine similarity or
+dot product) is used as the scoring function. Compared
+to cross-encoders or sequence-to-sequence models such as
+BART (Lewis et al. 2020a), dual encoders trade off some lo-
+cal interaction modeling for efficient indexing and approxi-
+mate nearest-neighbor search.
+For graded relevance tasks, listwise objectives that ap-
+proximate NDCG can be used to more directly optimize
+ranking quality, rather than relying solely on pointwise or
+pairwise losses. This has been explored in information re-
+trieval and recommendation systems, but has seen less use
+in contract-level compliance settings.
+Our model follows this dual-encoder paradigm, using a
+RoBERTa-base backbone (Liu et al. 2019) with a learned
+projection layer to 512-dimensional embeddings and a co-
+sine similarity score. We treat ACORD scores as graded la-
+bels and optimize a listwise loss over per-query groups.
+Uncertainty, Triage, and Human-in-the-Loop
+Systems
+There is a growing literature on selective classification, ab-
+stention, and human-in-the-loop decision-making, particu-
+larly in medical imaging, content moderation, and other
+high-stakes domains (Geifman and El-Yaniv 2017; An-
+gelopoulos and Bates 2021). The core idea is to let the model
+abstain on examples where its uncertainty is high or where
+the cost of an error is large, thereby trading off coverage
+against risk.
+Methods in this area include confidence-based threshold-
+ing, conformal prediction, and more structured triage poli-
+cies that explicitly allocate cases to automated or human re-
+view channels. However, most prior work either assumes a
+single scalar uncertainty score or focuses on calibration of
+probabilities, rather than designing triage heads tailored to
+graded relevance settings.
+We position our fuzzy triage head as a simple, practical
+mechanism that can be layered on top of a calibrated classi-
+fier: it maps scalar scores into three regions via two thresh-
+olds(τ low, τhigh)and provides interpretable coverage/error
+trade-offs that auditors can adjust.
+Datasets and Tasks
+Our study uses two public legal benchmarks that approx-
+imate real enterprise compliance workflows. ACORD pro-
+vides graded relevance labels for insurance clauses and
+questions, which we exploit to train a dual–encoder retriever
+and to compute NDCG@5/@10 and 4–star precision@5.
+CUAD provides clause–level annotations of contract risks,
+which we reframe as a binary compliance labeler under
+extreme class imbalance (≈0.6%positives). Despite this
+skew, our best configuration achieves AUC≈0.985and
+F1 ≈0.30at very high recall (≈0.98), with nontrivial
+graded retrieval quality (NDCG@5≈0.38) on ACORD.
+These results are far above majority and random baselines,
+and they demonstrate that even relatively small, reproducible
+models can deliver meaningful signal for legal compliance
+triage.
+ACORD Graded Relevance Data
+We use the ACORD benchmark as our primary source of
+graded clause-rule relevance labels. Each example consists
+of a ruleq(typically a short textual description of a con-
+trol or coverage requirement), a clausecfrom an insurance
+policy, and a discrete relevance scorer∈ {0,1,2,3,4}(or
+an analogous 1–5 scale, depending on the release). Higher
+scores indicate thatcmore directly and unambiguously sat-
+isfies the requirement expressed byq.
+In our experiments, we:
+• treat all available ACORD training triples when learning
+the ranking model;
+• evaluate ranking quality on the official validation and test
+splits using NDCG@5, NDCG@10, and graded preci-
+sion@5 for 4-star and 5-star relevance.
+CUAD-Style Binary Clause Labels
+For binary compliance classification, we adopt a CUAD-
+style dataset of (rule, clause) pairs labeled with a binary
+variabley∈ {0,1}indicating whether the clause provides
+sufficient evidence of compliance for the rule. As is typical
+for clause-level datasets, positives are rare, reflecting the fact
+that most candidate clauses are irrelevant or only weakly re-
+lated.
+We fine-tune a classification head on top of the ACORD-
+trained representations and evaluate on this dataset using
+AUC, precision, recall, F1, and calibration metrics. This mir-
+rors how a practitioner might reuse a generic clause-rule
+ranking model as the backbone for a specific control library.
+Problem Formulation
+We consider two main tasks:
+RankingGiven a ruleqand a set of candidate clauses
+{ci}n
+i=1, the model outputs scoress(q, c i)such that higher
+scores correspond to higher graded relevance. Training
+uses ACORD scoresr i as supervision, and evaluation uses
+NDCG@k and graded precision@k.
+Classification and TriageGiven a (rule, clause) pair
+(q, c), the classifier predicts a probabilityp(y= 1|q, c)
+of compliance. The fuzzy triage head then maps this scalar
+into a decision region:
+r(q, c) =
+
+
+
+auto-noncompliant, p < τlow
+human-review, τ low ≤p≤τ high
+auto-compliant, p > τ high.
+We evaluate both the usual classification metrics and triage-
+specific metrics such as auto-decision coverage and error re-
+stricted to the auto-decided subset.
+Model
+Our goal is to learn a single neural model that can (i) rank
+contract clauses by relevance to a legal query or control ob-
+jective, and (ii) support calibrated, fuzzy-gated triage deci-
+sions (auto-approve, auto-reject, or defer to human review).
+We decompose the system into three parts: a dual-encoder
+backbone, a listwise ranking objective on ACORD, and a
+positivity-weighted, fuzzy-gated classifier on CUAD.
+Problem Setting
+We assume access to a corpus of contractual clausesCand a
+set of queriesQ, where each queryq∈ Qexpresses a legal
+requirement, control objective, or contract review question.
+For ACORD, each queryqis annotated with graded rele-
+vance scoresy q,c ∈ {0,1,2,3,4,5}for a subset of clauses
+c∈ C, capturing how well the clause satisfies the require-
+ment. For CUAD, we have binary labelsy∈ {0,1}indicat-
+ing whether a clause instantiates a particular risk or clause
+type.
+At inference time, given(q, c), the model outputs:
+- a scalar similarity scores(q, c)for ranking clauses; and
+- a calibrated compliance probabilityp θ(y= 1|q, c)and
+triage decision (auto-compliant, auto-noncompliant, or re-
+view) derived from a fuzzy-gating head.
+Dual-Encoder Backbone
+We adopt a RoBERTa-base dual encoder as the shared back-
+bone for both ranking and classification. Letf q andf c de-
+note the query and clause encoders. Both are instantiated
+from the same underlying RoBERTa-base checkpoint with
+separate projection heads.
+For a tokenized queryqand clausec, we compute:
+hq = RoBERTa(q)[CLS],(1)
+hc = RoBERTa(c)[CLS],(2)
+where we take the[CLS]representation as a pooled em-
+bedding. Each encoder then applies a linear projection into
+a sharedd-dimensional space:
+zq =W qhq +b q,(3)
+zc =W chc +b c,(4)
+withd= 512in all experiments. We normalize these em-
+beddings and use cosine similarity as our base scoring func-
+tion:
+s(q, c) = cos(zq,z c) = z⊤
+q zc
+∥zq∥2 ∥zc∥2
+.(5)
+This dual-encoder design is production-friendly: queries
+and clauses can be embedded independently, which enables
+approximate nearest neighbor search and offline indexing in
+a GRC “Evidence OS.” This emphasis on constrained data
+movement and clear data residency aligns with recent work
+on sovereign clouds for regulated workloads (Brundage et al.
+2020; Raji et al. 2020).
+Listwise Ranking on ACORD
+On the ACORD dataset, we train the dual encoder with a
+listwise ranking objective that respects graded relevance.
+For each queryq, we form a group of clauses{c 1, . . . , cK}
+and corresponding graded labels{y 1, . . . , yK}, withy k ∈
+{0, . . . ,5}. We first map these integer grades to non-
+negative gainsg k (e.g.,g k = 2yk −1), then normalize to
+form a target distribution:
+pk = gk
+PK
+j=1 gj
+.(6)
+The model produces unnormalized scoress k =s(q, ck)
+and we form a predicted distribution via a softmax:
+ˆpk = exp(sk/τ)PK
+j=1 exp(sj/τ)
+,(7)
+with temperatureτfixed to 1.0 in our experiments. The
+listwise loss for a query group is then:
+Lrank(q) =−
+KX
+k=1
+pk log ˆpk.(8)
+This objective encourages the model to rank highly
+graded clauses above less relevant ones, reflecting how legal
+reviewers consume evidence in practice (e.g., “top-5 clauses
+that plausibly satisfy this control”). In evaluation, we re-
+port NDCG@5, NDCG@10, and 4⋆precision@5 (fraction
+of top-5 clauses with grade≥4) following ACORD.
+CUAD Classification with Positivity Weighting
+On CUAD, we fine-tune the same dual encoder as a binary
+classifier. Given(q, c), we treat the cosine similaritys(q, c)
+as a scalar logit and feed it to a logistic layer:
+pθ(y= 1|q, c) =σ(α s(q, c) +β),(9)
+whereαandβare learned scalar parameters, andσis
+the logistic sigmoid. Training uses weighted binary cross-
+entropy to address extreme class imbalance:
+LBCE =−w 1ylogp θ −w 0(1−y) log(1−p θ),(10)
+wherew 1 andw 0 are weights for positive and negative
+labels. We experiment with two settings:
+•pos weight = 0:unweighted baseline.
+•pos weight = 200:strong up-weighting of positive ex-
+amples, chosen to roughly match the inverse of the posi-
+tive base rate (≈0.6%) to avoid degenerate “always neg-
+ative” solutions while reflecting legal risk asymmetry.
+The same architecture is therefore used as (i) a retrieval-
+optimized ranker on ACORD and (ii) a highly recall-
+oriented detector of risky clauses on CUAD.
+Fuzzy-Gated Triage Head
+Legal practitioners rarely want a single crisp threshold; in-
+stead they prefer three regimes: “obviously compliant”, “ob-
+viously non-compliant”, and “needs review”. We model this
+behavior using a one-dimensional fuzzy-gating head on top
+of the scalar similarity score.
+Lets=s(q, c)denote the similarity score for a pair. The
+fuzzy headf ϕ mapssto a compliance confidence and triage
+decision:
+u=f ϕ(s) = softmax
+ 
+W2 tanh(W1s+b 1) +b2
+
+,(11)
+whereu∈R 3 represents the model’s scores for three la-
+tent states: auto-noncompliant, review, and auto-compliant.
+From this vector we derive:
+• a calibrated compliance probabilityp ϕ(y= 1|s)(used
+for AUROC, F1, and ECE); and
+• a triage decision by comparingsto learned thresholds
+(τlow, τhigh):
+decision(s) =
+
+
+
+auto-noncompliant, s < τlow,
+review, τ low ≤s≤τ high,
+auto-compliant, s > τ high.
+(12)
+We tune(τ low, τhigh)on the validation split to maximize
+coverage (fraction of clauses that receive an automatic de-
+cision) under a constraint on auto-only error (here≤2%).
+This yields “fuzzy gates” that deliberately reserve marginal
+cases for humans while still auto-handling96-98%of exam-
+ples.
+Training and Implementation Details
+All models are initialized fromroberta-baseand fine-
+tuned on a single NVIDIA A100 GPU. We set the maxi-
+mum sequence length to 512 tokens for both queries and
+clauses and use a projection dimension of512. Training
+uses AdamW with learning rate2×10 −5 and weight decay
+0.01. For ACORD ranking we use dynamic batches (up to
+96 pairs), and for CUAD classification we use mini-batches
+of size 8.
+For reproducibility, we fix all random seeds to 42, log hy-
+perparameters and metrics, and release configuration files
+capturing the ACORD ranking stage, CUAD classification
+stage (for both pos weight settings), and the fuzzy threshold
+tuning procedure.
+Experiments
+Experimental Setup and Reproducibility
+ModelAll experiments use a RoBERTa-base encoder with
+a 512-dimensional projection and max sequence length512.
+For retrieval, we train a dual-encoder on ACORD with co-
+sine similarity and a listwise loss for three epochs. For
+CUAD, we initialize from the best ACORD ranking check-
+point and fine-tune a small classifier head for three epochs
+under two positive-class loss weights,w=0andw=200, to
+explore the precision-recall trade-off.
+Determinism and reproducibilityAll experiments are
+run on a single NVIDIA A100 GPU in a fixed Google Cloud
+environment with pinned library versions and identical pre-
+processing pipelines. We repeat training over five random
+seeds (40-44) and report metrics averaged across seeds. Be-
+cause the encoder, classification head, and fuzzy thresholds
+are all learned under fixed initialization and normalization
+rules, the entire pipeline is deterministic given a set of in-
+puts: the same contracts, controls, and configuration files
+will always yield the same scores, triage decisions, and re-
+trieval rankings. This form of determinism is not only good
+scientific practice, but also directly supports legal defensi-
+bility: regulators, peer reviewers, and opposing experts can
+re-run the pipeline end-to-end and obtain identical outputs,
+rather than relying on stochastic sampling or mutable exter-
+nal services.
+Method N@5 N@10 P4@5 Q
+Dual enc. (w=0) 0.422 0.496 0.371 57
+Dual enc. (w=200) 0.378 0.452 0.371 57
+Table 1: ACORD retrieval: NDCG@5 (N@5), NDCG@10
+(N@10), and 4-star precision@5 (P4@5) overQqueries.
+“Dual enc.” denotes the dual encoder with fuzzy head.
+Method Prec Rec F1
+Majority (all neg.) 0.000 0.000 0.000
+Random 0.006 0.504 0.013
+Dual enc. (w=0) 0.256 0.200 0.224
+Dual enc. (w=200) 0.174 0.975 0.295
+Method AUC Acc
+Majority (all neg.) 0.500 0.994
+Random 0.496 0.496
+Dual enc. (w=0) 0.980 0.991
+Dual enc. (w=200) 0.985 0.970
+Table 2: CUAD binary classification performance: precision
+(Prec), recall (Rec), F1, area under ROC (AUC), and accu-
+racy (Acc). “Dual enc.” denotes the dual encoder with fuzzy
+head.
+Training detailsWe use AdamW with learning rate2×
+10−5, weight decay0.01, and max gradient norm1.0. For
+ACORD ranking, we use a dynamic batch size (up to 96
+pairs) per step; CUAD classification uses mini-batches of8
+pairs. Fuzzy thresholds(τ low, τhigh)are tuned on the CUAD
+validation set via a20×20grid search that maximizes auto-
+coverage subject to an auto-only error constraint of2%. We
+fix all random seeds to a known set{40,41,42,43,44}and
+report metrics averaged across these runs.
+ComputeAll results are obtained on a single NVIDIA
+A100 (80GB) GPU via Google Cloud. Training ACORD
+ranking for three epochs takes approximately∼3hours;
+each CUAD fine-tuning run adds∼1hour, and fuzzy thresh-
+old tuning and evaluation are negligible in comparison. We
+provide configuration files and hyperparameters to enable
+end-to-end reproduction of the reported metrics.
+Results on ACORD Ranking
+On ACORD (Table 1), the RoBERTa-based dual encoder
+achieves NDCG@5 of0.422(NDCG@100.496) when
+paired with thew=0CUAD head, and NDCG@5 of0.378
+(NDCG@100.452) forw=200. Both variants obtain identi-
+cal P4@5 (0.371), indicating that changing the CUAD loss
+weighting primarily affects the binary decision surface, not
+the underlying ranking quality.
+Results on CUAD Classification and Fuzzy Triage
+As shown in Table 2, both fuzzy dual-encoder variants
+substantially outperform majority and random baselines on
+CUAD. Increasing the positive-class weight fromw=0to
+w=200trades precision (0.256→0.174) for very high re-
+call (0.200→0.975), yielding the highest F1 (0.295) at
+slightly lower overall accuracy.
+Fuzzy Triage
+Triage behaviorWe evaluate the fuzzy head as a triage
+mechanism that routes high-confidence examples to automa-
+tion and low-confidence examples to human review. For
+w=0, the fuzzy head automatically decides≈98.6%of
+CUAD test clauses, with an auto-only error rate of1.15%
+(vs. a non-fuzzy baseline error of0.90%when all exam-
+ples are auto-decided). Forw=200, the head auto-decides
+≈96.6%of test clauses with an auto-only error of3.18%
+(baseline3.02%). In other words, the current fuzzy head
+achieves high automation coverage while keeping auto-
+region error tightly bounded on the subset of examples it
+commits on. From the perspective of global misclassification
+rate, this configuration does not yet improve over a single
+global threshold: the encoder-only baseline is already very
+accurate, so discarding the hardest 2–4% of clauses for hu-
+man review yields only modest changes in overall error. We
+therefore treat these numbers as a baseline for future triage
+policies, and focus on the qualitative design gain of concen-
+trating uncertainty into a small, explicit review band.
+Ethical Considerations and Limitations
+Automating parts of compliance workflows raises ethical
+and practical concerns that go beyond model accuracy. First,
+misclassifications can have material consequences for or-
+ganizations and individuals, especially when they concern
+regulatory obligations, consumer protections, or claims han-
+dling. Second, legal language is often ambiguous, and rea-
+sonable experts can disagree on whether a clause satisfies
+a given rule; datasets capture only one view of this ground
+truth.
+Our design is explicitlyassistive, not fully autonomous:
+the fuzzy triage mechanism is intended to make it easier
+to route uncertain or ambiguous cases to human reviewers.
+Nonetheless, there is a risk that users may over-trust high-
+confidence predictions or misinterpret the model’s outputs as
+legal advice. We therefore emphasize that our system should
+be deployed, if at all, as a decision-support tool under the su-
+pervision of qualified professionals.
+Finally, the datasets we use (ACORD, CUAD-style la-
+bels) are limited in domain and geography. They may reflect
+particular drafting conventions, regulatory environments,
+and annotator priors. Models trained on these corpora may
+not generalize to other industries, jurisdictions, or contract
+types without additional adaptation and validation.
+Discussion
+Why not a one-shot LLM copilot?
+In practice, such systems are hard to certify: stochastic de-
+coding, mutable APIs, and opaque training data make it dif-
+ficult to guarantee that the same inputs will yield the same
+decisions months or years later. Our results suggest that a
+comparatively small, deterministic dual encoder can already
+deliver useful retrieval and screening behaviour, while offer-
+ing a much smaller and more inspectable parameter surface.
+The fuzzy triage layer then exposes this behaviour as sta-
+ble bands on a one-dimensional score axis, which is easier
+to reason about and to map onto concrete controls than the
+latent activations of a large, proprietary LLM.
+What is the purpose of a simple dual encoder?
+Our results show that a relatively simple RoBERTa-based
+dual encoder, trained under realistic compute constraints,
+already delivers useful performance for legal GRC work-
+loads. On ACORD, the listwise-trained encoder reaches test
+NDCG@5 of≈0.42and NDCG@10 of≈0.50, compared
+to≈0.34/0.40for our initial baseline. These scores are
+below state of the art but comfortably above majority and
+random baselines, and were obtained with a single A100,
+three training epochs, and no hyperparameter sweep, which
+matters for practitioners who cannot afford large bespoke
+models or extensive architecture search.
+On the derived CUAD-style binary task, the same en-
+coder, reused as a backbone for a small classification head,
+attains AUCs in the0.96–0.99range and recall up to0.98at
+the expense of precision. Given the extreme class imbalance
+(only≈0.6%positives), this high-recall regime is often
+preferable for compliance screening, where missing a truly
+non-compliant clause is more costly than over-flagging. In
+effect, the model learns a useful ranking of risky clauses
+even when hard classification F1 remains modest.
+Triage behavior and fuzzy thresholds
+From an application perspective, the main accomplishment
+of the fuzzy layer is to concentrate uncertainty into a small
+review band while keeping accuracy extremely high on the
+bulk of auto-decisions. For both the unweighted and heavily
+positive-weighted runs, grid search over(τ low, τhigh)on the
+validation set yields high automatic coverage with very low
+error among auto-decided examples:
+• For the unweighted model, tuned fuzzy thresholds cover
+≈97%of validation and98.6%of test examples auto-
+matically, with auto-region error of0.17%and1.2%, re-
+spectively.
+• For the positive-weighted model (pos weight = 200), the
+triage boundary covers≈97.4%of validation and96.6%
+of test examples automatically, with0%and≈3%auto-
+region error, respectively.
+Viewed through the lens of a single scalar “error reduction”
+metric, these regimes do not yet beat a plain encoder-only
+baseline that treats every example as “auto”: the baseline
+already has misclassification rates on the order of 1–3%,
+so carving out the hardest 2–4% of clauses for human re-
+view yields only small changes in global error. However,
+this framing obscures the operational gain: the fuzzy head
+turns a black-box score into three stable bands that can be
+wired into concrete workflows (evidence queues, review as-
+signments, or risk escalations), while preserving the strong
+overall discrimination of the underlying encoder.
+Retrieval vs. classification, and the role of
+pos weight
+The interaction between ranking quality and downstream
+classification is also instructive. The dual encoder is trained
+listwise on graded ACORD labels but evaluated as a binary
+classifier on a derived CUAD-style dataset where we col-
+lapse ACORD scores into{0,1}. This induces label noise:
+borderline clauses that are rated as “somewhat relevant” in
+ACORD may be treated as strictly positive or strictly neg-
+ative in our binary mapping, and the mapping itself is only
+one of many reasonable choices.
+Under this noisy, highly imbalanced regime, the
+pos weight hyperparameter becomes a dial that trades preci-
+sion for recall. With pos weight= 0, the model is more con-
+servative, yielding higher precision but lower recall. With
+pos weight= 200, the model aggressively recalls nearly
+all positives (recall≈0.98) while accepting a drop in pre-
+cision and overall accuracy. We view this as desirable for
+“screener” use-cases where the model’s main job is to pull
+potentially problematic clauses into view, not to make final
+legal determinations.
+Importantly, our fuzzy triage metrics are computedon top
+ofthese different operating points. For pos weight= 200,
+the fuzzy layer is essentially carving out a small subset of
+the most ambiguous clauses while still auto-approving or
+auto-rejecting the vast majority of safe examples. This sug-
+gests that future work should jointly tune pos weight, global
+thresholds, and fuzzy boundaries with an explicit triage ob-
+jective (e.g., minimizing human workload subject to a hard
+constraint on auto-region error).
+Limitations
+Our study is intentionally scoped as a compute-bounded, re-
+producible baseline, which leaves several extensions for fu-
+ture work:
+•Dataset construction and label noise.Our binary la-
+bels are derived from graded ACORD annotations via a
+simple mapping, which may introduce some noise near
+the decision boundary. A richer benchmark could make
+fuller use of the graded labels or collect task-specific bi-
+nary annotations, but we find this construction sufficient
+to study triage behaviour at scale.
+•Model and hyperparameters.We restrict ourselves to
+a single RoBERTa-base dual encoder with fixed con-
+text length, projection size, and training schedule on one
+NVIDIA A100. This choice favors determinism and ease
+of replication over exhaustive hyperparameter search or
+larger backbones, so the reported numbers should be
+viewed as conservative.
+•Fuzzy head design.The fuzzy triage layer is deliber-
+ately simple: a lightweight calibration module plus a grid
+search over(τ low, τhigh). More expressive triage policies
+(e.g., conditioning on rule type or control criticality, or
+directly optimizing a triage utility) are left as promising
+extensions.
+Overall, these design choices prioritize transparency and
+reproducibility over aggressively tuning for every last point
+of performance, and we position our results as an inspectable
+baseline for compliance-focused deployments.
+Explainability and regulatory alignment
+The fuzzy–triage structure makes the system’s behaviour
+more interpretable to audit and risk teams, aligning with
+calls for explainable, well-governed AI in regulated do-
+mains (Doshi-Velez and Kim 2017; Rudin 2019; Jobin et al.
+2019). Concretely, the explicit auto/non-auto bands can be
+mapped to the kinds of residual-risk handling expected
+under frameworks such as HIPAA §164.312 and NERC–
+CIP (Trebbi et al. 2022; Coates 2015).
+To make this more concrete, consider HIPAA
+§164.312(a)(1), which requires covered entities to “im-
+plement technical policies and procedures for electronic
+information systems that maintain electronic protected
+health information to allow access only to those persons or
+software programs that have been granted access rights.”
+Suppose a control library contains the rule:
+Ruleq HIPAA:Access control policies must ensure that only
+authorized workforce members can access electronic PHI,
+using unique user IDs and role-based permissions.
+and we observe two synthetic clauses from a security policy:
+Clausec 1:“All workforce members must authenticate us-
+ing a unique user ID and password. Role-based access con-
+trol (RBAC) is enforced at the application and database lay-
+ers to ensure that users can only access data required for
+their job functions.”
+Clausec 2:“Systems should be configured to prevent inap-
+propriate access to sensitive information where feasible.”
+In our setup,c 1 would typically receive a high graded rele-
+vance score (e.g.,r≈4on an ACORD-style 0–4 scale) and
+a high compliance probabilityp θ(y= 1|q HIPAA, c1). If this
+probability exceedsτ high, the fuzzy head routes(q HIPAA, c1)
+to the auto-compliant band, and residual risk is documented
+as low for this control. By contrast,c 2 might be assigned a
+lower relevance grade (e.g.,r≈1or2) and an intermedi-
+ate compliance probability that falls betweenτ low andτ high,
+placing it in the review band: the clause is weakly related to
+access control but too vague to justify full compliance with-
+out human judgment.
+A similar pattern applies in infrastructure settings gov-
+erned by NERC–CIP, where controls such as CIP–004 (Per-
+sonnel and Training) or CIP–007 (Systems Security Man-
+agement) require explicit documentation of how policies and
+procedures satisfy each requirement. The three-way triage
+decision (auto-compliant, auto-noncompliant, review) there-
+fore provides a direct handle on residual risk: auto bands cor-
+respond to well-supported or clearly missing controls, while
+the review band collects ambiguous clauses that must be es-
+calated. Because the boundaries of this band are tunable,
+organizations can calibrate the trade-off between automa-
+tion and human review in ways that respect fairness and
+professional responsibility, and they can audit which pop-
+ulations, business units, or control families are dispropor-
+tionately routed to review (Brundage et al. 2020; Raji et al.
+2020).
+Conclusion and Future Work
+In this paper, we introduced a deterministic, RoBERTa-
+based dual encoder trained on graded ACORD clause–rule
+relevance and adapted to a CUAD-style binary compliance
+task, with a lightweight fuzzy triage head on top. Rather
+than treating the model as a monolithic yes/no oracle, we
+expose a single scalar similarity score, calibrated probabili-
+ties, and a three-way triage decision (auto-compliant,auto-
+noncompliant,review) that better matches how audit and
+GRC teams actually operate.
+Empirically, the model achieves non-trivial retrieval qual-
+ity on ACORD (test NDCG@5≈0.38–0.42, NDCG@10
+≈0.45–0.50, P4@5≈0.37) and strong discrimination
+on CUAD-derived labels (AUC≈0.98–0.99), despite ex-
+treme class imbalance (positive rate≈0.6%). By adjusting
+the positive-class weight, we can trade precision for recall,
+reaching F1 ≈0.30at recall≈0.98in a “screener” regime.
+The fuzzy head successfully concentrates uncertainty into a
+small review band while preserving high accuracy over the
+bulk of auto-decisions; in our current configuration it does
+not yet reduce global error relative to a single hard thresh-
+old, which we view as a limitation and a target for future
+triage policies. All results are produced on a single A100
+GPU with fixed seeds (40–44) and configuration files, mak-
+ing the pipeline reproducible and suitable for legal scrutiny.
+Looking ahead, several directions appear promising:
+•Stronger encoders and joint training.Larger or
+domain-adapted legal encoders, combined with multi-
+task training over ACORD, CUAD, and other GRC
+datasets, could improve both graded retrieval and down-
+stream classification while preserving the same determin-
+istic interface.
+•Learned triage policies and guarantees.Beyond fixed
+fuzzy bands tuned by grid search, we plan to explore
+learned triage policies (e.g., conformal or cost-aware)
+that explicitly optimize human workload under con-
+straints on auto-region error and false negatives for criti-
+cal controls.
+•Per-tenant calibration, fairness, and bias audits.Ex-
+plicit thresholds and a review band make it natural to
+study per-tenant or per-control calibration and to au-
+dit which populations or control families are dispro-
+portionately routed to review, supporting fairness anal-
+ysis and bias mitigation in line with regulatory expecta-
+tions (Brundage et al. 2020; Raji et al. 2020).
+•Deployment studies and human–AI interaction.We
+view this work as a building block for end-to-end “Ev-
+idence OS” deployments: future work will study how
+fuzzy triage affects reviewer workload, error patterns,
+and explainability in real audit tools that track evidence
+In the end, our results support a pragmatic thesis: simple,
+deterministic dual encoders with transparent fuzzy triage al-
+ready provide useful, reproducible signal for legal compli-
+ance and evidence retrieval, while offering a far more au-
+ditable surface for explainability, fairness analysis, and pro-
+fessional responsibility than non-deterministic LLMs.
+References
+Angelopoulos, A. N.; and Bates, S. 2021. A Gentle Intro-
+duction to Conformal Prediction and Distribution-Free Un-
+certainty Quantification.arXiv preprint arXiv:2107.07511.
+Brundage, M.; Avin, S.; Wang, J.; Belfield, H.; Krueger, G.;
+Hadfield, G.; et al. 2020. Toward Trustworthy AI Develop-
+ment: Mechanisms for Supporting Verifiable Claims.arXiv
+preprint arXiv:2004.07213.
+Coates IV , J. C. 2015. Cost-Benefit Analysis of Financial
+Regulation: Case Studies and Implications.Yale Law Jour-
+nal, 124(4): 882–1011.
+Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019.
+BERT: Pre-training of Deep Bidirectional Transformers for
+Language Understanding. InProceedings of NAACL-HLT.
+Doshi-Velez, F.; and Kim, B. 2017. Towards a Rigorous
+Science of Interpretable Machine Learning.arXiv preprint
+arXiv:1702.08608.
+Geifman, Y .; and El-Yaniv, R. 2017. Selective Classification
+for Deep Neural Networks. InAdvances in Neural Informa-
+tion Processing Systems (NeurIPS).
+Hendrycks, D.; Burns, C.; Chen, A.; and Ball, S. 2021.
+CUAD: An Expert-Annotated NLP Dataset for Legal Con-
+tract Review.arXiv preprint arXiv:2103.06268.
+Jobin, A.; Ienca, M.; and Vayena, E. 2019. The Global Land-
+scape of AI Ethics Guidelines.Nature Machine Intelligence,
+1(9): 389–399.
+Karpukhin, V .; Oguz, B.; Min, S.; Lewis, P.; Wu, L.; Edunov,
+S.; Chen, D.; and Yih, W.-t. 2020. Dense Passage Retrieval
+for Open-Domain Question Answering. InProceedings of
+EMNLP.
+Lewis, M.; Liu, Y .; Goyal, N.; Ghazvininejad, M.; Mo-
+hamed, A.; Levy, O.; Stoyanov, V .; and Zettlemoyer,
+L. 2020a. BART: Denoising Sequence-to-Sequence Pre-
+training for Natural Language Generation, Translation, and
+Comprehension. InProceedings of ACL.
+Lewis, P.; Perez, E.; Piktus, A.; Petroni, F.; Karpukhin,
+V .; Goyal, N.; K”uttler, H.; Lewis, M.; Yih, W.-t.;
+Rockt”aschel, T.; Riedel, S.; and Kiela, D. 2020b. Retrieval-
+Augmented Generation for Knowledge-Intensive NLP
+Tasks. InAdvances in Neural Information Processing Sys-
+tems (NeurIPS).
+Liu, Y .; et al. 2019. RoBERTa: A Robustly Optimized BERT
+Pretraining Approach.arXiv preprint arXiv:1907.11692.
+Raji, I. D.; Smart, A.; White, R. N.; Mitchell, M.; Gebru,
+T.; Hutchinson, B.; Smith-Loud, J.; Theron, D.; and Barnes,
+P. 2020. Closing the AI Accountability Gap: Defining an
+End-to-End Framework for Internal Algorithmic Auditing.
+InProceedings of the Conference on Fairness, Accountabil-
+ity, and Transparency (F AccT).
+Rudin, C. 2019. Stop Explaining Black Box Machine Learn-
+ing Models for High Stakes Decisions and Use Interpretable
+Models Instead.Nature Machine Intelligence, 1(5): 206–
+215.
+Trebbi, F.; et al. 2022. The Cost of Regulatory Compliance
+in the United States.NBER Working Paper30691.
+Xu, Z.; Si, S.; Viguier, T.; Hu, H.; Dhar, S.; Henaff, M.;
+et al. 2025. ACORD: An Expert-Annotated Dataset for Le-
+gal Contract Clause Retrieval.arXiv preprint.

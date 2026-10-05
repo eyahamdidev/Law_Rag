@@ -1,0 +1,20 @@
+{
+ "id": "S062",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "INS - National Institute of Statistics - Yearbook 2018-2022",
+ "url": "https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/annuaire_2022.pdf",
+ "parent": "https://www.ins.tn/publication/annuaire-statistique-de-la-tunisie-2018-2022",
+ "flag": "E",
+ "final_url": "https://www.ins.tn/sites/default/files-ftp3/files/publication/pdf/annuaire_2022.pdf",
+ "content_type": "application/pdf",
+ "sha256": "396abf395a1cde97a38b37a6398e51f364399280391011e7f3921c59d94855be",
+ "bytes": 16207125,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S062_annuaire_2022.pdf",
+ "pages": 330,
+ "text_chars": 524232,
+ "needs_ocr": false,
+ "lang": "ar+fr",
+ "last_modified": "Tue, 20 May 2025 10:53:39 GMT"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S079",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "CUAD - Contract Understanding Atticus Dataset - Atticus Project",
+ "url": "https://www.atticusprojectai.org/cuad",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.atticusprojectai.org/cuad/",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "961a609c6b9d41e0f81503e85d95cb5dc9dc02635a35bec0cd75fa86f9f907ee",
+ "bytes": 283751,
+ "path": "contracts\\Annotated_contract_datasets\\S079_CUAD_Contract_Understanding_Atticus_Dataset_Atticus_Project.pdf",
+ "status": "ok",
+ "pages": 4,
+ "text_chars": 1498,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "CUAD Dataset | The Atticus Project",
+ "note": "",
+ "last_modified": ""
+}

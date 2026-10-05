@@ -1,0 +1,22 @@
+{
+ "id": "S042",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "Ecosystem guides (Africarrieres, Startup Map Hub) - Startup Map Hub",
+ "url": "https://startupmaphub.com/funding/e-commerce/tunisia",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://startupmaphub.com/funding/e-commerce/tunisia",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "7538dca3ae03f22d4a11c258fb9ef5bfd014a8eb06d4751056824d44842e86aa",
+ "bytes": 1128073,
+ "path": "grants\\International_donors_accelerators_and_calls\\S042_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Startup_Map_H.pdf",
+ "status": "ok",
+ "pages": 6,
+ "text_chars": 1591,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "E-commerce Funding & Grants in Tunisia (2026)",
+ "note": "",
+ "last_modified": ""
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S056",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - interest rates - TUNIBOR (xls download on the page)",
+ "url": "https://www.bct.gov.tn/bct/siteprod/Tunibor_archive.jsp",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/Tunibor_archive.jsp",
+ "content_type": "text/html; charset=iso-8859-1",
+ "sha256": "1684c7db2b7674f240e3a3a9a3e68b3638c205b41d0c9a90e238ee647dbe5ff1",
+ "bytes": 32205,
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\S056_BCT_interest_rates_TUNIBOR_xls_download_on_the_page.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 3424,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Statistique - Cours",
+ "note": "",
+ "last_modified": ""
+}

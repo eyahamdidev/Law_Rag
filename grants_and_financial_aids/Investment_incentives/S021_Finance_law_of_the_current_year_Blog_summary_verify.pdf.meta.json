@@ -1,0 +1,22 @@
+{
+ "id": "S021",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Finance law of the current year - Blog summary (verify)",
+ "url": "https://finco.tn/blog/financement-tpe-2026-tunisie",
+ "parent": "",
+ "flag": "E / S",
+ "final_url": "https://finco.tn/blog/financement-tpe-2026-tunisie",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "c62885c8f201e64767166ad05fb4e9c0d5b27cd8496a8586df2512c36b27ec7a",
+ "bytes": 1337025,
+ "path": "grants\\Investment_incentives\\S021_Finance_law_of_the_current_year_Blog_summary_verify.pdf",
+ "status": "ok",
+ "pages": 7,
+ "text_chars": 4516,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Financement sans intérêts pour TPE et entrepreneurs Tunisie 2026",
+ "note": "",
+ "last_modified": ""
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S085",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "UNFAIR-ToS (CLAUDETTE) - unfair clauses in terms of service - Paper",
+ "url": "https://doi.org/10.1007/s10506-019-09243-2",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://link.springer.com/article/10.1007/s10506-019-09243-2",
+ "content_type": "",
+ "sha256": "f5ec1e912cf940a170bff7eb4ad5ea651998d75cc060ba57cc72fdbfc8406d73",
+ "bytes": 54096,
+ "path": "contracts\\Annotated_contract_datasets\\S085_UNFAIR_ToS_CLAUDETTE_unfair_clauses_in_terms_of_service_Pape.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 11453,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service | Artificial Intelligence and Law | Springer Nature Link",
+ "note": "playwright failed (Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://link.springer.com/article/10.1007/s10506-019-09243-2\", waiting until \"networkidle\"\n); used text renderer",
+ "last_modified": ""
+}

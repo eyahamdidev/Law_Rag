@@ -1,0 +1,20 @@
+{
+ "id": "S110",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Personal data protection law 2004-63 - Law (INS copy)",
+ "url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://www.ins.tn/sites/default/files/2020-04/Loi%2063-2004%20Fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "398b4b3499ff0449f86cf4a86eac84421121e1701689c5d395557111eeca5d77",
+ "bytes": 70303,
+ "status": "ok",
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S110_Personal_data_protection_law_2004_63_Law_INS_copy.pdf",
+ "pages": 19,
+ "text_chars": 57229,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Thu, 31 Aug 2023 14:56:07 GMT"
+}

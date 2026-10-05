@@ -1,0 +1,22 @@
+{
+ "id": "S039",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "Flat6Labs Tunis, Maxula Seed Fund, Presight, Google for Startups MENA - Flat6Labs",
+ "url": "https://www.flat6labs.com",
+ "parent": "",
+ "flag": "S / M",
+ "final_url": "https://www.flat6labs.com/",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "3ca7a74fe510be21d082302f7637e4816b151ae44415ef072b91a37833b2128c",
+ "bytes": 19593,
+ "path": "grants\\International_donors_accelerators_and_calls\\S039_Flat6Labs_Tunis_Maxula_Seed_Fund_Presight_Google_for_Startup.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 51,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Un instant, s'il vous plaît…",
+ "note": "",
+ "last_modified": ""
+}

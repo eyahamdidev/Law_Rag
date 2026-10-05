@@ -1,0 +1,22 @@
+{
+ "id": "S088",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "ContractNLI - Description in a survey",
+ "url": "https://arxiv.org/html/2507.21108v1",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://arxiv.org/html/2507.21108v1",
+ "content_type": "",
+ "sha256": "5abf165e18184a312436d0e7f6b96457ce02f704e602122aaedb7b289bf0756e",
+ "bytes": 3369737,
+ "path": "contracts\\Annotated_contract_datasets\\S088_ContractNLI_Description_in_a_survey.pdf",
+ "status": "ok",
+ "pages": 99,
+ "text_chars": 196235,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "A Survey of Classification Tasks and Approaches for Legal Contracts",
+ "note": "",
+ "last_modified": ""
+}

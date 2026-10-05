@@ -1,0 +1,20 @@
+{
+ "id": "S105",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Consumer protection law 92-117, competition law 2015-36, e-commerce law 2000-83 - Law 92-117 (FAOLEX)",
+ "url": "https://faolex.fao.org/docs/pdf/Tun190410.pdf",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://faolex.fao.org/docs/pdf/Tun190410.pdf",
+ "content_type": "application/pdf",
+ "sha256": "b57cc9041648cbcf20323fc6e32c29feea692153a20fd96af419786cc40f3cae",
+ "bytes": 199935,
+ "status": "ok",
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S105_Consumer_protection_law_92_117_competition_law_2015_36_e_com.pdf",
+ "pages": 12,
+ "text_chars": 28749,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 22 Oct 2019 09:56:29 GMT"
+}

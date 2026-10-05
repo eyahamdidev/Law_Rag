@@ -1,0 +1,22 @@
+{
+ "id": "S094",
+ "dataset": "contracts",
+ "section": "Unfair terms law and guidance",
+ "name": "European Commission guidance on Directive 93/13 (2019) - EUR-Lex",
+ "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52019XC0927(01)",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52019XC0927(01)",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "4071e1f1dc28665692a13958bb39f76879330d6c8136aa6cedcbb52a848d7915",
+ "bytes": 1221985,
+ "path": "contracts\\Unfair_terms_law_and_guidance\\S094_European_Commission_guidance_on_Directive_93_13_2019_EUR_Lex.pdf",
+ "status": "ok",
+ "pages": 142,
+ "text_chars": 353392,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "EUR-Lex - 52019XC0927(01) - EN - EUR-Lex",
+ "note": "",
+ "last_modified": ""
+}

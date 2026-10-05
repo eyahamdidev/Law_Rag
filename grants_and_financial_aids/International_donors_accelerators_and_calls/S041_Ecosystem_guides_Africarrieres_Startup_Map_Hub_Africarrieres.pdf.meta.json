@@ -1,0 +1,22 @@
+{
+ "id": "S041",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "Ecosystem guides (Africarrieres, Startup Map Hub) - Africarrieres guide",
+ "url": "https://africarrieres.com/tunisia/en/guide/decouvrir/entrepreneurship",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://africarrieres.com/tunisia/en/guide/decouvrir/entrepreneurship",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "f2cd19efb051fcfedb8f2243ee99de43cda555c7e54dc54de1bff25bb821bced",
+ "bytes": 1163158,
+ "path": "grants\\International_donors_accelerators_and_calls\\S041_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Africarrieres.pdf",
+ "status": "ok",
+ "pages": 8,
+ "text_chars": 7105,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Entrepreneurship & Startups in Tunisia - Guide 2026 - Africarrieres",
+ "note": "",
+ "last_modified": ""
+}

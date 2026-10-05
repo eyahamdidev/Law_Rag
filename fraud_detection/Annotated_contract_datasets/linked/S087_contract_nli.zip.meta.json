@@ -1,0 +1,16 @@
+{
+ "id": "S087",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "ContractNLI - Project page (verify)",
+ "url": "https://stanfordnlp.github.io/contract-nli/resources/contract-nli.zip",
+ "parent": "https://stanfordnlp.github.io/contract-nli/",
+ "flag": "M",
+ "final_url": "https://stanfordnlp.github.io/contract-nli/resources/contract-nli.zip",
+ "content_type": "application/x-zip-compressed",
+ "sha256": "e03fc77bbf8b53e2976a250e81d8a294bc3d5e5fb014521e477dee9340d6287b",
+ "bytes": 65362913,
+ "status": "ok",
+ "path": "contracts\\Annotated_contract_datasets\\linked\\S087_contract_nli.zip",
+ "last_modified": "Fri, 11 Feb 2022 23:16:51 GMT"
+}

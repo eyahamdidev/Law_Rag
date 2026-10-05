@@ -1,0 +1,20 @@
+{
+ "id": "S054",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - interest rates - TMM history",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/202405_NOTE_METHODOLOGIQUE_MONETAIRE_FR.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+ "flag": "S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/202405_NOTE_METHODOLOGIQUE_MONETAIRE_FR.pdf",
+ "content_type": "application/pdf",
+ "sha256": "bbe20ad3d5a3cdc288c2b9404f7c48fb6309f8bb073803c309f411e4dd6327e1",
+ "bytes": 569741,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S054_202405_NOTE_METHODOLOGIQUE_MONETAIRE_FR.pdf",
+ "pages": 12,
+ "text_chars": 27375,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 14 May 2024 13:10:40 GMT"
+}

@@ -1,0 +1,16 @@
+{
+ "id": "S072",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Archive",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/insholdJapan13.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/insholdJapan13.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "6e3376481aa604c3a3ecffb2901eefdc4d3ba77d3c1e7f4ac2d05016388239c0",
+ "bytes": 46592,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S072_insholdJapan13.xls",
+ "last_modified": "Sun, 12 Jan 2014 16:18:28 GMT"
+}

@@ -1,0 +1,197 @@
+http://www.procomptable.com/ 
+ 
+NC 06 
+Norme comptable relative aux Immobilisations incorporelles 
+ 
+Objectif 
+01. Une entreprise peut acquérir des éléments incorporels ou peut elle-même les développer. Ces 
+éléments peuvent constituer des éléments d'actifs, dans la mesure où ils ont un potentiel de générer 
+des avantages économiques futurs au bénéfice de l'entreprise. 
+02. De manière générale, la comptabilisation des actifs incorporels pose les mêmes problèmes que 
+ceux relatifs aux immobilisations corporelles, tels que la détermination de leur coût d'entrée, de leur 
+durée d'amortissement et le mode de comptabilisation des dépréciations permanentes et 
+substantielles de leur valeur. 
+Toutefois, les caractéristiques des actifs incorporels rendent les solutions à ces problèmes peu 
+évidentes, car ils manquent de qualités physiques, leurs valeurs sont difficiles à estimer et leurs 
+durées de vie utiles peuvent être indéterminées. 
+03. L'objectif de la présente norme est de prescrire les règles d'évaluation et le mode de 
+comptabilisation et d'amortissement des actifs incorporels ainsi que les informations à fournir à leur 
+sujet. 
+Champ d'application 
+04. La présente norme traite de la comptabilisation des actifs incorporels dont notamment : 
+a. le fonds commercial incluant notamment l'achalandage et la clientèle ainsi que les 
+autres éléments incorporels qui ne font pas l'objet d'une évaluation et d'une 
+comptabilisation distincte ; 
+b. le droit au bail, les marques, brevets, licences, dessins, modèles, enseignes, 
+concessions et franchises qui font l'objet d'une évaluation et d'une comptabilisation 
+distincte ; et 
+c. les logiciels dissociés du matériel informatique. 
+05. Les dispositions de cette norme ne s'appliquent pas : 
+a. à la comptabilisation des dépenses de recherche et développement ; 
+b. aux contrats de location exclusion faite des contrats de licences, des brevets et des droits de 
+propriété littéraire ; 
+c. aux instruments financiers ; 
+d. aux écarts d'acquisition résultant de regroupement d'entreprises ;  
+e. aux charges reportées ; 
+f. aux coûts d'exploitation et de développement liés aux activités extractives ; et 
+g. aux concessions. 
+Définitions 
+06. Les éléments incorporels se définissent comme étant des actifs non monétaires 
+identifiables, sans substance physique et qui répondent aux critères suivants : 
+a. ils sont obtenus ou contrôlés par une entreprise pour être utilisés à la production ou à 
+la fourniture de biens ou services, pour être donnés en location à des tiers, ou pour être 
+utilisés pour les besoins propres de l'entreprise ; 
+http://www.procomptable.com/ 
+ 
+b. ils ont été acquis, créés ou mis en valeur en vue d'être utilisés pendant plus d'une 
+période comptable ; et 
+c. ils ne sont pas destinés à être vendus dans le cours normal des affaires. 
+Prise en compte des actifs incorporels 
+Règles générales 
+07. Un élément incorporel est porté à l'actif lorsque : 
+a. Il est probable que des avantages économiques futurs résultant de cet élément 
+profiteront à l'entreprise. Pour ce faire, l'entreprise doit démontrer : 
+- la contribution de cet actif à l'augmentation des avantages économiques futurs, ainsi 
+que l'intention de l'entreprise de l'utiliser dans ce but†; et 
+- sa capacité de disposer de ressources adéquates permettant d'obtenir les avantages 
+futurs découlant de cet actif. 
+b. Le coût de cet actif peut être mesuré de façon fiable. 
+Fonds commercial 
+08. Le fonds commercial acquis est constaté comme actif incorporel. Il comprend les éléments 
+usuels composant le fonds commercial (clientèle, achalandage), ainsi que les autres actifs 
+incorporels qui n'ont pas fait l'objet d'une évaluation et d'une comptabilisation séparées au 
+bilan. 
+09. Un actif incorporel qui ne fait pas usuellement partie du fonds commercial, peut être identifié et 
+distingué séparément du fonds commercial lorsqu'il bénéficie d'une protection juridique en vertu d'un 
+droit légal, ou en l'absence d'une telle protection, lorsque les flux de revenus générés par cet actif 
+peuvent être identifiés séparément de l'ensemble des revenus auxquels il contribue. 
+10. Les coûts inhérents à la continuation des affaires de l'entreprise peuvent contribuer à la création et 
+au maintien de son fonds commercial. Ces coûts ne sont pas spécifiquement rattachés au fonds 
+commercial et doivent être comptabilisés en charges. 
+Droit au bail 
+11. Le droit au bail acquis est constaté comme actif incorporel dans la mesure où il a fait l'objet 
+d'une évaluation séparée dans l'acte de cession. 
+Le droit au bail bénéficie d'une protection juridique et correspond au droit transféré à 
+l'acquéreur pour le renouvellement du bail. 
+12. Le fait qu'une entreprise occupe, à titre de locataire, des locaux à usage commercial, peut lui 
+conférer un droit au bail en vertu tant des conventions que de la législation sur la propriété 
+commerciale. Le droit au bail ainsi créé ne peut pas être constaté comme actif dans la mesure où il n'y 
+a pas création d'un actif identifiable et le coût ne peut être mesuré de manière suffisamment fiable. 
+Brevets, marques et droits similaires 
+13. Les brevets, marques et droits similaires acquis sont constatés comme actif incorporel 
+dans la mesure où ils ont fait l'objet d'une évaluation distincte. 
+Les brevets, marques et droits similaires font généralement l'objet d'un dépôt légal leur 
+conférant une protection juridique. 
+14. Une entreprise peut engager des coûts aboutissant à la création d'un brevet, d'une marque ou 
+d'un droit similaire. En général, ces coûts sont au fur et à mesure portés en investissements de 
+recherche et de développement. Lorsque le brevet, la marque ou le droit similaire, fait l'objet d'un 
+dépôt auprès de l'organisme compétent, les montants inscrits préalablement en investissement de 
+recherche et de développement sont transférés et les coûts ultérieurs liés au dépôt imputés dans le 
+compte d'actif incorporel approprié. 
+http://www.procomptable.com/ 
+ 
+Logiciels 
+15. Les logiciels informatiques dissociés du matériel acquis ou créés soit pour l'usage interne de 
+l'entreprise (par les services de l'entreprise dans le cadre de l'exercice de leurs activités), soit comme 
+moyen d'exploitation pour répondre aux besoins de la clientèle (logiciels mis en location, logiciels 
+exploités par l'entreprise dans le cadre de prestations fournies aux clients) peuvent être constatés en 
+actif incorporel dans les conditions prévues par le paragraphe 16 ci-après. 
+16. Le coût des logiciels à usage interne acquis est constaté comme actif incorporel. Le coût 
+de développement des logiciels à usage interne créés ou développés en interne ou sous-
+traités, peut être constaté comme actif incorporel dans la mesure où les conditions prévues au 
+paragraphe 7 sont vérifiées. 
+Coût d'entrée des actifs incorporels 
+Règles générales 
+17. Un actif incorporel acquis ou créé est comptabilisé à son coût mesuré selon les mêmes 
+règles que celles régissant la comptabilisation des immobilisations corporelles. 
+18. Les actifs incorporels acquis et faisant partie d'un groupe d'immobilisations ou d'une entreprise 
+entière sont également comptabilisés à leur coût à la date d'acquisition. Le coût de ces 
+immobilisations est mesuré différemment selon qu'il s'agisse d'actifs incorporels spécifiquement 
+identifiables et séparables ou non. Le coût d'actifs incorporels identifiables et séparables est une part 
+assignée du coût total du groupe d'immobilisations ou de l'entreprise entière, basée sur la juste valeur 
+de ces actifs pris individuellement. Le coût d'actifs incorporels non identifiables et séparables est 
+mesuré par la différence entre le coût du groupe d'immobilisations ou de l'entreprise entière et la 
+somme des coûts des actifs corporels et des actifs incorporels identifiables pris individuellement 
+diminués des passifs assumés. 
+Logiciels 
+19. Le logiciel créé par l'entreprise est enregistré au coût de production. Le coût de production 
+inclut généralement les coûts engagés dans le cadre de la conception détaillée de l'application, 
+de la programmation, des tests et de documentation. Les autres coûts notamment relatifs aux 
+phases d'étude préalable et de conception générale doivent être passés en charges. 
+Amortissement des actifs incorporels 
+Règles générales 
+20. La valeur d'un actif incorporel est amortie sur sa durée d'utilisation. Il doit être tenu compte 
+des facteurs pertinents pour aboutir à une estimation raisonnable de la durée d'utilisation. 
+21. Les facteurs qui doivent être pris en considération pour estimer la durée d'utilisation des actifs 
+incorporels incluent : 
+a. les clauses légales, réglementaires et contractuelles qui peuvent limiter une durée fixe 
+d'utilisation ;  
+b. les clauses de renouvellement ou d'extension qui peuvent altérer la spécification de la durée 
+d'utilisation ;  
+c. les effets de l'obsolescence, de la demande, de la concurrence et autres facteurs 
+économiques pouvant affecter la durée d'utilisation ; 
+22. La durée d'utilisation et la méthode d'amortissement doivent être revus périodiquement et 
+réajustées selon le cas lorsque la durée d'utilisation est significativement différente de la durée 
+antérieurement retenue, ou que le rythme de consommation des avantages économiques générés par 
+ces actifs est modifié de façon significative. 
+Considérations particulières 
+23. Le fonds commercial et le droit au bail sont amortis sur une période ne dépassant pas 20 ans ou 
+sur une période plus longue s'il est clairement établi que cette durée est plus appropriée. 
+http://www.procomptable.com/ 
+ 
+24. Les brevets, marques et droits déposés sont amortis sur la duré du privilège dont ils bénéficient, 
+ou sur leur durée effective d'utilisation si elle est inférieure. 
+25. Les concessions, licences et droits similaires doivent être amortis sur la durée du privilège que 
+leur confèrent les conventions contractuelles, ou sur leur durée probable d'exploitation si elle est 
+inférieure. 
+26. A compter de sa date d'acquisition ou d'achèvement, le coût du logiciel doit être réparti sur sa 
+durée de vie utile estimée, selon un plan d'amortissement. Il convient de déterminer avec une 
+probabilité raisonnable la date à laquelle le logiciel cessera de répondre aux besoins de l'entreprise ou 
+à ceux de la clientèle compte tenu de l'évolution prévisible des connaissances techniques en matière 
+de conception et de production de logiciels. Normalement, cette durée ne peut pas être supérieure à 5 
+ans. 
+Réduction de valeur 
+27. Le solde non amorti d'une immobilisation incorporelle doit être examiné périodiquement de 
+façon à s'assurer que la valeur récupérable n'est pas inférieure à la valeur comptable nette. 
+Lorsqu'une telle baisse intervient, la valeur comptable nette doit être ramenée à la valeur 
+récupérable. 
+28. La valeur récupérable est le montant que l'entreprise compte tirer de l'usage futur de l'actif 
+incorporel, y compris sa valeur résiduelle de cession. Elle peut correspondre à la valeur actualisée des 
+cash-flows futurs attendus. 
+Cette valeur doit être déterminée sur une base individuelle. Toutefois, dans certains cas, il peut être 
+difficile ou non approprié d'évaluer séparément les différentes composantes d'un même groupe 
+d'actifs. Dans ce cas, la valeur récupérable doit être évaluée pour le groupe d'actifs pris dans son 
+ensemble. 
+29. La réduction de la valeur comptable nette d'une immobilisation incorporelle, destinée à la ramener 
+à sa valeur récupérable, est constatée en charges en réduisant la valeur brute de l'immobilisation 1, ou 
+par la constitution de provisions s'il est jugé que la réduction de valeur n'est pas irréversible. 
+Sorties d'actif 
+30. Une immobilisation incorporelle doit être éliminée du bilan dès lors qu'elle est cédée ou 
+que l'on n'attend plus d'avantages économiques futurs de son utilisation ou de sa cession 
+ultérieure. 
+Informations à fournir 
+31. Les informations suivantes doivent apparaître dans les états financiers : 
+a. le coût, la valeur cumulée des amortissements, et la valeur nette des actifs incorporels 
+et par catégories homogènes lorsque l'information est significative ; 
+b. les méthodes d'amortissement utilisées, et la durée d'utilisation estimée. 
+c. un rapprochement de la valeur comptable au début et en fin de période, montrant : 
+• les acquisitions 
+• les cessions 
+• les amortissements 
+• les réductions de la valeur comptable conformément au paragraphe 27. 
+32. Lorsqu'un actif incorporel est en cours de développement, de mise en valeur ou 
+d'amélioration, sa valeur comptable nette est indiquée ainsi que les méthodes d'évaluation et 
+de comptabilisation qui ont servi à sa détermination. 
+                                            
+1 Cette solution technique consistant à imputer la réduction de valeur sur la valeur brute est en contradiction avec les 
+dispositions développées dans les règles de fonctionnement relatives au compte «21 Immobilisations incorporelles». Mais, elle 
+semble plus appropriée. 
+http://www.procomptable.com/ 
+ 
+33. Le changement de la durée d'utilisation et/ou de la méthode d'amortissement est traité comme 
+changement d'estimation comptable conformément à la Norme "Modifications Comptables". 
+Date d'application 
+34. La présente norme comptable est applicable, prospectivement, aux états financiers relatifs 
+aux exercices ouverts à partir du 1er Janvier 1997. 
+ 
+ 

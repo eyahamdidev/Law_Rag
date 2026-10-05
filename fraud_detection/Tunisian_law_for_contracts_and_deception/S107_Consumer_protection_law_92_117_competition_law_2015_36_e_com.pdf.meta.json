@@ -1,0 +1,20 @@
+{
+ "id": "S107",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Consumer protection law 92-117, competition law 2015-36, e-commerce law 2000-83 - Law 2000-83 (CMF PDF)",
+ "url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_2000-83_090800_fr.pdf",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_2000-83_090800_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "dddb59fdaeb6fdb9a794950df9b070d2f1db7abebdd0498c36aa4ab66d776a98",
+ "bytes": 64520,
+ "status": "ok",
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S107_Consumer_protection_law_92_117_competition_law_2015_36_e_com.pdf",
+ "pages": 14,
+ "text_chars": 43459,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Mon, 19 Apr 2021 10:45:58 GMT"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/Conjoncture_152_fr.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/Conjoncture_152_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "f50151bd595b650780df7222c859c1f0cd22139e86e95c20c5f60f07a129fa64",
+ "bytes": 912922,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_Conjoncture_152_fr.pdf",
+ "pages": 28,
+ "text_chars": 66819,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Wed, 05 Aug 2026 14:11:32 GMT"
+}

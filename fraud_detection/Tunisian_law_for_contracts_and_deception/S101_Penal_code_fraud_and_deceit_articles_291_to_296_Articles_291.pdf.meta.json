@@ -1,0 +1,22 @@
+{
+ "id": "S101",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Penal code - fraud and deceit (articles 291 to 296) - Articles 291-296 (Jurisite)",
+ "url": "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1255.htm",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.jurisitetunisie.com/tunisie/codes/cp/cp1255.htm",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "93f8da8694d5469dc3412575051bf29480d735dd27425dfaa74117bfe53ed3b9",
+ "bytes": 526905,
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S101_Penal_code_fraud_and_deceit_articles_291_to_296_Articles_291.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 7041,
+ "needs_ocr": false,
+ "lang": "ar+fr",
+ "title": "Escroquerie et autres tromperies - Code PÃĐnal - Tunisie",
+ "note": "",
+ "last_modified": ""
+}

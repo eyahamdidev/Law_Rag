@@ -1,0 +1,1363 @@
+http://www.procomptable.com/ 
+NC 16 
+Norme comptable relative à la présentation des états financier des OPCVM 
+ 
+Objectif 
+01. La Norme Comptable NC 01 - «Norme comptable Générale» définit les règles relatives à la 
+présentation des états financiers des entreprises en général sans distinction de la nature de leurs 
+activités. 
+02. La plupart de ces règles sont également applicables aux Organismes de Placement Collectif en 
+Valeurs Mobilières (OPCVM) notamment les dispositions communes, certaines composantes des 
+états financiers et la structure des notes aux états financiers. 
+Toutefois, dans la mesure où les activités des OPCVM diffèrent de façon significative de celles des 
+autres entreprises commerciales et industrielles, des règles particulières doivent être définies de façon 
+à fournir aux utilisateurs des états financiers des informations financières qui leur permettent d'évaluer 
+correctement la situation financière et les performances des OPCVM ainsi que leur évolution. 
+03. L'objectif de la présente norme est de définir les règles propres applicables aux états financiers 
+des OPCVM. 
+Champ d'application 
+04. La présente norme est applicable aux états financiers annuels et aux situations 
+intermédiaires destinés à être publiés par les organismes de placement collectif en valeurs 
+mobilières (OPCVM), notamment les sociétés d'investissement à capital variable (SICAV) et les 
+fonds communs de placement (FCP) tels que définis par la législation en vigueur. 
+Définitions 
+05. Dans la présente norme, les termes ci-après sont utilisés avec les significations suivantes : 
+i. Actif net : est un terme utilisé spécifiquement pour les OPCVM pour désigner les capitaux propres 
+tels que définis par le cadre conceptuel de la comptabilité. 
+ii. Valeur liquidative : correspond, pour une date donnée, à l'actif net divisé par le nombre d'actions 
+ou de parts en circulation à cette date. 
+iii. Titre admis à la cote : un titre est admis à la cote lorsqu'il est inscrit sur l'un des marchés de la 
+cote de la bourse. 
+iv. Résultat distribuable : correspond, conformément à la législation en vigueur, au montant des 
+intérêts, primes, dividendes, arrérages, jetons de présence et tous autres produits relatifs aux titres 
+constituant le portefeuille de l'OPCVM majorés du produit des sommes momentanément non utilisées 
+et diminués du montant des frais de gestion. 
+v. Sommes distribuables : correspondent, conformément à la législation en    vigueur, au résultat 
+distribuable de l'exercice augmenté du report à nouveau et majoré ou diminué du solde du compte de 
+régularisation des revenus de l'exercice clos. 
+Principes comptables des OPCVM 
+06. Le cadre conceptuel de la comptabilité financière constitue la structure de référence 
+théorique pour l'élaboration des états financiers des OPCVM. 
+Considérant la spécificité de leur activité, la valeur de réalisation, telle que prévue par le cadre 
+conceptuel de la comptabilité financière, constitue le procédé de base pour la mesure des 
+éléments des états financiers des OPCVM. 
+ 
+ 
+http://www.procomptable.com/ 
+Règles générales et composantes des états financiers 
+07. Les états financiers des OPCVM se composent du bilan, de l'état de résultat, de l'état de 
+variation de l'actif net et des notes aux états financiers, et doivent être présentés selon l'ordre 
+suivant : 
+- le bilan, 
+- l'état de résultat, 
+- l'état de variation de l'actif net, 
+- les notes aux états financiers. 
+08. Les chiffres présentés dans les états financiers doivent être exprimés en Dinars ou en Milliers de 
+Dinars. 
+Le bilan 
+09. Le bilan doit faire apparaître distinctement les rubriques suivantes ainsi que le montant 
+total de chacune de ces rubriques : l'actif, le passif et l'actif net. Les éléments d'actif sont 
+présentés selon leur nature et en considérant leur importance relative par rapport à l'activité 
+des OPCVM. 
+10. Le bilan doit renseigner au minimum sur les postes suivants : 
+ ACTIF 
+AC 1 - Portefeuille titres 
+a - Actions, valeurs assimilées et droits rattachés. 
+b - Obligations et valeurs assimilées. 
+c - Autres valeurs. 
+AC 2 - Placements monétaires et disponibilités  
+a - Placements monétaires. 
+b - Disponibilités. 
+AC 3 - Créances d'exploitation 
+a - Dividendes et intérêts à recevoir. 
+b - Titres de créance échus. 
+c - Autres créances d'exploitation. 
+AC 4 - Autres actifs  
+a - Débiteurs divers. 
+b - Charges constatées d'avance. 
+c - Immobilisations nettes. 
+PASSIF
+ 
+PA 1- Opérateurs créditeurs. 
+PA 2 - Autres créditeurs divers. 
+ACTIF NET 
+CP 1 - Capital. 
+CP 2 - Sommes distribuables. 
+http://www.procomptable.com/ 
+a - Sommes distribuables des exercices antérieurs. 
+b - Sommes distribuables de l'exercice. 
+11. Les postes du bilan (définis par deux lettres en majuscule suivies d'un chiffre) doivent 
+obligatoirement être présentés dans le bilan, à moins qu'ils présentent un solde nul pour l'exercice en 
+cours et l'exercice précédent. Les sous-postes du bilan (définis par une lettre en minuscule), qui ont 
+un caractère significatif, sont présentés dans le bilan ou dans les notes aux états financiers. Un 
+modèle de bilan est présenté en annexe 1 de la norme. 
+12. Les éléments du portefeuille titres et des placements monétaires sont présentés pour leur 
+valeur de réalisation y compris les différences d'estimation et les intérêts courus et non échus. 
+13. Le contenu des postes du bilan est défini ci-après : 
+POSTES D'ACTIF 
+Poste AC 1 : 
+Portefeuille titres 
+Ce poste comprend : 
+- sous (a) Actions, valeurs assimilées et droits rattachés : 
+ * les actions et autres titres à revenu va riable assimilés (notamment les certificats 
+d'investissement et les actions à dividende prioritaire) ainsi que les droits de souscription et les droits 
+d'attribution, admis à la cote et détenus par l'OPCVM dans le cadre de son activité. 
+ * les actions et autres titres à revenu va riable assimilés (notamment les certificats 
+d'investissement et les actions à dividende prioritaire) ainsi que les droits de souscription et les droits 
+d'attribution, non admis à la cote et détenus par l'OPCVM dans le cadre de son activité. 
+- sous (b) Obligations et valeurs assimilées : 
+ * les obligations de sociétés. 
+ * les titres de créance émis par le Trésor et  négociables sur le marché financier, notamment 
+les Bons de Trésor Assimilables et autres emprunts d'Etat émis sur le marché financier. 
+- sous (c) Autres valeurs : les autres valeurs du portefeuille titres, notamment les titres participatifs. 
+Poste AC 2 :
+ Placements monétaires et disponibilités 
+Ce poste comprend : 
+- sous (a) Placements monétaires : les placements monétaires sous forme de titres à revenu fixe 
+notamment les billets de trésorerie, certificats de dépôt, et les bons du Trésor émis sur le marché 
+monétaire. 
+- sous (b) Disponibilités : les disponibilités et les avoirs de l'OPCVM auprès des banques. 
+Poste AC 3 :
+ Créances d'exploitation 
+Ce poste comprend : 
+- sous (a) Dividendes et intérêts à recevoir : les dividendes à recevoir après le détachement de leurs 
+coupons, ainsi que les intérêts échus et non encore encaissés. 
+- sous (b) Titres de créance échus : le montant des titres de créance échus et non encore 
+remboursés. 
+- sous (c) Autres créances d'exploitation : les autres créances d'exploitation, notamment les sommes 
+avancées au titre des souscriptions à titre réductible, dans l'attente de la répartition. 
+Poste AC 4 :
+ Autres actifs 
+Ce poste comprend : 
+- sous (a) Débiteurs divers : les débiteurs divers comprenant les créances détenues sur des tiers. 
+http://www.procomptable.com/ 
+- sous (b) Charges constatées d'avance : les régularisations des charges constatées d'avance. 
+- sous (c) Immobilisations nettes : les immobilisations corporelles telles que définies par la norme 
+comptable relative aux immobilisations corporelles (NC 05), après déduction des amortissements. 
+POSTES DU PASSIF 
+Poste PA 1 : Opérateurs créditeurs 
+Ce poste comprend les sommes dues par l'OPCVM aux différents intervenants dans sa gestion, 
+notamment les rémunérations du gestionnaire et du dépositaire. 
+Poste PA 2 : Créditeurs divers 
+Ce poste comprend : 
+- les sommes dues aux différents organismes sociaux au titre des cotisations de sécurité sociale, 
+- les retenues d'impôt pour le compte de l'Etat sur des sommes dues à des tiers, 
+- les rémunérations dues au personnel,  
+- les charges à payer. 
+POSTES D'ACTIF NET 
+Poste CP1 :
+ Capital 
+Ce poste correspond à la part capital dans la valeur liquidative des actions en circulation à un instant 
+donné. Il inclut la valeur initiale des actions en début d'exercice, la part des résultats antérieurs 
+capitalisée dans la valeur liquidative et les sommes non distribuables de l'exercice. 
+Les sommes non distribuables de l'exercice correspondent au résultat non distribuable de l'exercice, 
+augmenté ou diminué de la régularisation de ce résultat constatée à l'occasion des opérations de 
+souscription et de rachat. 
+Le résultat non distribuable de l'exercice inclut : 
+• la variation des plus (ou moins) values potentielles sur titres soit le solde des différences d'estimation 
+constatées durant l'exercice sur les actions et valeurs assimilées, les obligations et valeurs assimilées, 
+les autres valeurs du portefeuille titres et les placements monétaires, 
+• les plus (ou moins) values réalisées sur cession de titres au cours de l'exercice, 
+• les droits d'entrée et les droits de sortie acquis à l'occasion des opérations de souscription et de 
+rachat. 
+• et les frais de négociation de titres. 
+Poste CP 2 :
+ Sommes distribuables 
+Ce poste comprend : 
+- sous (a) Sommes distribuables des exercices antérieurs : les sommes distribuables des exercices 
+antérieurs qui correspondent aux résultats distribuables des exercices antérieurs et aux reports à 
+nouveau augmentés ou diminués des régularisations correspondantes constatées à l'occasion des 
+opérations de souscription et de rachat, 
+- sous (b) Sommes distribuables de  l'exercice : les sommes distribuables de l'exercice qui 
+correspondent au résultat distribuable de l'exercice augmenté ou diminué de la régularisation de ce 
+résultat constatée à l'occasion des opérations de souscription et de rachat. 
+L'état de résultat 
+14. L'état de résultat doit faire apparaître les produits et les charges contribuant à la 
+détermination des valeurs et résultats suivants : 
+ - les revenus des placements, 
+http://www.procomptable.com/ 
+ - les charges de gestion des placements, 
+ - le revenu net des placements, 
+ - le résultat d'exploitation, 
+ - les sommes distribuables de l'exercice, 
+ - le résultat net de l'exercice. 
+15. Le revenu net des placements correspond à la différence entre les revenus des placements et les 
+charges de gestion des placements, constituées par les rémunérations du gestionnaire et du 
+dépositaire. 
+16. Le résultat d'exploitation correspond au revenu net des placements augmenté des autres produits 
+et diminué des autres charges. 
+17. Les sommes distribuables de l'exercice correspondent au résultat d'exploitation, augmenté de la 
+régularisation de ce résultat constatée à l'occasion des opérations de souscription et de rachat. 
+18. Le résultat net de l'exercice correspond au résultat d'exploitation augmenté ou diminué de la 
+variation des plus ou moins-values potentielles et des plus ou moins-values réalisées sur cession de 
+titres et diminué des frais de négociation. 
+19. L'état de résultat doit renseigner au minimum sur les postes suivants : 
+POSTES DE PRODUITS 
+PR 1 - Revenus du portefeuille titres 
+a- Dividendes. 
+b- Revenus des obligations et valeurs assimilées. 
+c - Revenus des autres valeurs. 
+PR 2 - Revenus des placements monétaires. 
+PR 3 - Autres produits. 
+PR 4 - Régularisation du résultat d'exploitation. 
+POSTES DE CHARGES 
+CH 1 - Charges de gestion des placements. 
+CH 2 - Autres charges. 
+AUTRES POSTES 
+ - Variation des plus (ou moins) values potentielles. 
+ - Plus (ou moins) values réalisées sur cession de titres. 
+ - Frais de négociation des titres. 
+Les postes de l'état de résultat (définis par deux lettres en majuscule suivies d'un chiffre) doivent 
+obligatoirement être présentés dans l'état de résultat, à moins qu'ils présentent un solde nul pour 
+l'exercice en cours et l'exercice précédent. Les sous-postes de l'état de résultat définis par une lettre 
+en minuscule), qui ont un caractère significatif, sont présentés dans l'état de résultat ou dans les notes 
+aux états financiers. 
+La variation au cours de l'exercice des plus (ou moins) values potentielles et les plus    (ou moins) 
+values de cession réalisées au cours de l'exercice et les frais de négociation de titres, bien que 
+portées en capitaux propres en tant que sommes non distribuables de l'exercice, apparaissent 
+également dans l'état de résultat en vue de permettre une mesure fiable des performances 
+financières. 
+Un modèle de l'état de résultat est présenté en annexe 2 de la norme. 
+http://www.procomptable.com/ 
+20. Le contenu des postes de l'état de résultat est défini ci-après : 
+POSTES DE PRODUITS 
+Poste PR 1 :
+ Revenus du portefeuille titres 
+Ce poste comprend : 
+- sous (a) Dividendes : les dividendes et revenus assimilés sur les actions et valeurs assimilées, 
+classées en AC 1 (a), 
+- sous (b) Revenus des obligations et valeurs assimilées : les intérêts et revenus similaires sur les 
+actifs classés en AC 1 (b), notamment les obligations, les titres de créance émis par le Trésor et 
+négociables sur le marché financier, notamment les Bons de Trésor Assimilables et autres emprunts 
+d'Etat émis sur le marché financier. 
+- sous (c) Revenus des autres valeurs : les revenus provenant des actifs classés en      AC 1 (c) 
+notamment, les titres participatifs. 
+Poste PR 2 :
+ Revenus des placements monétaires 
+Ce poste comprend les revenus provenant des actifs classés en AC 2 (a), ou AC 2 (b) notamment : 
+- les intérêts sur billets de trésorerie, 
+- les intérêts sur certificats de dépôt, 
+- les intérêts sur bons du trésor émis sur le marché monétaire, 
+- les intérêts sur les avoirs bancaires, 
+Poste PR 3 :
+ Autres produits 
+Ce poste comprend les produits revenant à l'OPCVM et ne provenant pas de son activité de 
+placement. 
+POSTES DE CHARGES 
+Poste CH 1 :
+ Charges de gestion des placements 
+Ce poste comprend les charges directement liées à l'activité de placement, notamment la 
+rémunération revenant au gestionnaire de l'OPCVM, ainsi que la rémunération revenant au 
+dépositaire des titres et avoirs de l'OPCVM. 
+Poste CH 2 : Autres charges 
+Ce poste comprend : 
+- les rémunérations et honoraires des services extérieurs liés à l'exploitation, autres que ceux portés 
+au poste CH 1, notamment la rémunération du commissaire aux comptes et les redevances dues au 
+CMF ; 
+- les charges d'administration, notamment : 
+ • les frais de personnel, dont les salaires et trai tements, les charges sociales et les impôts et 
+taxes liés. 
+ • Ies charges d'administration générale, not amment les fournitures de bureau et la 
+rémunération des services extérieurs à caractère administratif. 
+ • Ies dotations aux amortissements et les moin s-values réalisées sur cessions relatives aux 
+immobilisations inscrites au poste AC 4. 
+- les autres charges qui ne figurent pas dans les autres postes. 
+Poste PR 4 :
+ Régularisation du résultat d'exploitation 
+Ce poste comprend la régularisation du résultat d'exploitation constatée à l'occasion des opérations 
+de souscription et de rachat. Ce poste peut présenter un solde négatif. 
+http://www.procomptable.com/ 
+L'état de variation de l'actif net 
+21. L'état de variation de l'actif net fait apparaître la variation de l'actif net au cours de 
+l'exercice, résultant : 
+- des opérations d'exploitation, 
+- des distributions de dividendes, 
+- des transactions sur le capital. 
+22. L'état de variation de l'actif net doit renseigner au minimum sur les postes suivants : 
+AN 1 :
+ Variation de l'actif net résultant des opérations d'exploitation 
+a - Résultat d'exploitation.  
+b - Variation des plus (ou moins) values potentielles. 
+c - Plus (ou moins) values réalisées sur cession de titres. 
+d - Frais de négociation de titres. 
+AN 2 :
+ Distributions de dividendes 
+AN 3 : Transactions sur le capital 
+a- Souscriptions. 
+- capital, 
+- régularisation des sommes non distribuables de l'exercice, 
+- régularisation des sommes distribuables,  
+- droits d'entrée. 
+b - Rachats 
+- capital, 
+- régularisation des sommes non distribuables de l'exercice, 
+- régularisation des sommes distribuables, 
+- droits de sortie. 
+AN 4 :
+ Actif net 
+a - en début d'exercice ; 
+b - en fin d'exercice. 
+AN 5 :
+ Nombre d'actions (ou de parts) 
+a - en début d'exercice ; 
+b - en fin d'exercice. 
+AN 6 :
+ Taux de rendement annuel 
+23. Les postes de l'état de variation de l'actif net (définis par deux lettres en majuscule suivies d'un 
+chiffre) et les sous-postes (définis par une lettre en minuscule) doivent obligatoirement être présentés 
+dans l'état de variation de l'actif net, à moins qu'ils présentent un solde nul pour l'exercice en cours et 
+l'exercice précédent. 
+Un modèle de l'état de variation de l'actif net est présenté en annexe 3 de la norme. 
+24. Le contenu des principaux postes de l'état de variation de l'actif net est défini ci-après : 
+http://www.procomptable.com/ 
+Poste AN 1 : Variation de l'actif net résultant des opérations d'exploitation 
+Ce poste comprend : 
+- sous (a) Résultat d'exploitation : le résultat d'exploitation qui correspond au revenu net des 
+placements augmenté des autres produits et diminué des autres charges. 
+- sous (b) Variation des plus (ou moins) values potentielles sur titres : les plus ou moins-values sur 
+titres qui correspondent au solde de la variation au cours de l'exercice des plus ou moins-values 
+potentielles. 
+- sous (c) Plus (ou moins) values réalisées sur cession de titres : les plus (ou moins) values sur titres 
+correspondent au résultat réalisé sur les opérations de cession de titres effectuées au cours de 
+l'exercice. 
+- sous (d) Frais de négociation de titres : les frais occasionnés par les opérations d'achat et de vente 
+de titres. 
+Poste AN 2 :
+ Distribution des dividendes 
+Ce poste comprend les distributions de dividendes effectuées au cours de l'exercice. 
+Poste AN 3 :
+ Transactions sur le capital 
+Ce poste comprend : 
+sous (a) Souscriptions : les souscriptions effectuées au cours de l'exercice et qui doivent être 
+ventilées entre :  
+- capital, 
+- régularisation des sommes non distribuables de l'exercice, 
+- régularisation des sommes distribuables, 
+- droits d'entrée. 
+sous (b) Rachats : les rachats effectués au cours de l'exercice et qui doivent être ventilés entre : 
+- capital, 
+- régularisation des sommes non distribuables de l'exercice, 
+- régularisation des sommes distribuables, 
+- droits de sortie. 
+AN 6 :
+ Taux de rendement annuel 
+Le taux de rendement annuel correspond au rapport entre la variation de la valeur liquidative en début 
+et fin d'exercice et la valeur liquidative en début de l'exercice, en tenant compte, le cas échéant, des 
+coupons de dividendes distribués. 
+Les notes aux états financiers 
+25. Les notes aux états financiers des OPCVM comportent : 
+1 - une note confirmant le respect des normes comptables tunisiennes ; 
+2 - une note sur les bases de mesure et les principes comptables pertinents appliqués ; 
+3 - les notes sur les éléments pertinents du bilan et de l'état de résultat ; 
+4 - les autres informations portant sur : 
+- les éventualités, les engagements et autres divulgations financières, et 
+- des divulgations à caractère non financier. 
+http://www.procomptable.com/ 
+26. Les notes aux états financiers des OPCVM doivent comporter les informations dont la norme 
+comptable NC 01 - Norme Comptable Générale et les autres normes comptables tunisiennes 
+(lorsqu'elles sont applicables), requièrent la divulgation. 
+27. Les principes comptables ci-après doivent être nécessairement divulgués parce qu'ils s'appliquent 
+généralement à des activités importantes dans les OPCVM et sont en conséquence pertinents pour 
+les utilisateurs des états financiers : 
+- les méthodes d'évaluation des postes de portefeuille titres et de placements monétaires, 
+- les méthodes suivies pour la comptabilisation des revenus des placements. 
+28. Les notes sur les éléments pertinents du bilan et de l'état de résultat doivent comporter les 
+informations suivantes lorsqu'elles sont significatives : 
+- La subdivision des postes du bilan et de l'état de résultat (définis par deux lettres en majuscule 
+suivies d'un chiffre) en sous postes (définis par une lettre en minuscule) lorsque cette subdivision 
+n'apparaît pas sur le bilan et l'état de résultat. 
+- Le détail du portefeuille titres selon un regroupement homogène et pertinent, mettant en relief 
+l'émetteur du titre, la nature, la liquidité et la garantie liée au titre. 
+29. Les autres informations doivent comporter, notamment : 
+- les engagements hors bilan, notamment les titres à livrer, les titres à recevoir et les participations 
+non libérées, 
+- des données par action (ou part) et des ratios pertinents comparatifs pour les trois à cinq derniers 
+exercices d'activité. 
+- la méthode et base de calcul de la rémunération du gestionnaire et celle du dépositaire. 
+Une illustration de notes aux états financiers est présentée en annexe 4 de la norme. 
+Etats financiers intermédiaires 
+30. Les OPCVM sont appelés, conformément aux dispositions légales, de présenter des états 
+financiers intermédiaires, arrêtés selon une périodicité trimestrielle. Ces états financiers doivent être 
+établis conformément à la norme comptable relative aux états financiers intermédiaires et à la 
+présente norme. 
+31. Les états financiers intermédiaires des OPCVM doivent être établis selon les mêmes 
+principes comptables utilisés pour l'établissement des états financiers annuels. 
+Des modèles de bilan, d'état de résultat et d'état de variation de l'actif net inclus dans les états 
+financiers trimestriels sont présentés en annexes 5 à 7 de la norme.  
+Une illustration de notes aux états financiers trimestriels est présentée en annexe 8. 
+Date d'application 
+32. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er Janvier 1999. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 
+ANNEXE 1- modèle de bilan 
+Bilan 
+Exercice clos le 31 décembre N 
+(Unité : en 1000 DT) 
+ACTIF Note   Année N    Année N-
+1 
+ 
+AC 1 - Portefeuille titres 
+a - Actions, valeurs assimilées et droits rattachés 
+b - Obligations et valeurs assimilées 
+c - Autres valeurs 
+ 
+AC 2 - Placements monétaires et disponibilités 
+a - Placements monétaires 
+b - Disponibilités 
+ 
+AC 3 - Créances d'exploitation 
+ 
+AC 4 - Autres actifs 
+       
+        
+TOTAL ACTIF        
+        
+PASSIF        
+        
+PA 1 - Opérateurs créditeurs 
+PA 2 - Autres créditeurs divers 
+       
+        
+TOTAL PASSIF        
+        
+ACTIF NET        
+        
+CP 1 - Capital 
+ 
+CP 2 - Sommes distribuables 
+a - Sommes distribuables des exercices antérieurs 
+b- Sommes distribuables de l'exercice 
+       
+        
+ACTIF NET        
+        
+TOTAL PASSIF ET ACTIF NET        
+ 
+ 
+ANNEXE 2- modèle de l’état de résultat 
+Etat de résultat 
+Exercice clos le 31 décembre N 
+ (Unité : en 1000 DT) 
+ Note   Année N    Année N-
+1 
+PR 1 - Revenus du portefeuille titres 
+a- Dividendes 
+b - Revenus des obligations et valeurs assimilées 
+c - Revenus des autres valeurs 
+ 
+PR 2 - Revenus des placements monétaires 
+    
+ TOTAL DES REVENUS DES PLACEMENTS 
+ 
+CH 1 - Charges de gestion des placements 
+       
+        
+REVENU NET DES PLACEMENTS        
+        
+PR 3 - Autres produits 
+CH 2 - Autres charges 
+       
+        
+RÉSULTAT D'EXPLOITATION        
+        
+http://www.procomptable.com/ 
+PR 4 - Régularisation du résultat d'exploitation        
+        
+SOMMES DISTRIBUABLES DE L'EXERCICE        
+        
+        
+PR 4 - Régularisation du résultat d'exploitation (annulation) 
+ 
+Variation des plus (ou moins) values potentielles sur titres 
+Plus (ou moins) values réalisées sur cession des titres 
+Frais de négociation 
+       
+        
+RÉSULTAT NET DE L'EXERCICE        
+  
+  
+  
+ 
+  
+ANNEXE 3- modèle de l’état de variation de l’actif net 
+Etat de variation de l’actif net 
+Exercice de 12 mois clos le 31 décembre N 
+ (Unité : en 1000 DT) 
+ Note   Année N    Année N-
+1 
+AN 1 - VARIATION DE L'ACTIF NET RÉSULTANT DES 
+OPÉRATIONS D'EXPLOITATION 
+       
+ 
+a - Résultat d'exploitation 
+b - Variation des plus (ou moins) values potentielles sur titres 
+c - Plus (ou moins) values réalisées sur cession de titres 
+d - Frais de négociation de titres 
+       
+ 
+AN 2 - DISTRIBUTIONS DE DIVIDENDES
+ 
+ 
+AN 3 - TRANSACTIONS SUR LE CAPITAL 
+ 
+a- Souscriptions 
+Capital 
+Régularisation des sommes non distribuables de l'exercice 
+Régularisation des sommes distribuables 
+Droits d'entrée 
+ 
+b- Rachats 
+Capital 
+Régularisation des sommes non distribuables de l'exercice 
+Régularisation des sommes distribuables 
+Droits de sortie 
+       
+        
+VARIATION DE L'ACTIF NET        
+        
+AN 4 - ACTIF NET 
+a - en début d'exercice 
+b - en fin d'exercice 
+ 
+AN 5 - NOMBRE D'ACTIONS (ou de parts)
+ 
+a - en début d'exercice 
+b - en fin d'exercice 
+       
+        
+VALEUR LIQUIDATIVE        
+        
+AN 6 - TAUX DE RENDEMENT ANNUEL        
+ 
+ 
+  
+http://www.procomptable.com/ 
+ANNEXE 4- Illustration de notes aux états financiers 
+Notes aux états financiers 
+Exercice clos le 31 décembre N 
+ (Unité : en 1000 DT) 
+ 
+1. Référentiel d'élaboration des états financiers 
+Les états financiers arrêtés au 31/12/N sont établis conformément aux principes comptables 
+généralement admis en Tunisie. 
+2. Principes comptables appliqués 
+Les états financiers sont élaborés sur la base de l'évaluation des éléments du portefeuille titres à leur 
+valeur de réalisation. Les principes comptables les plus significatifs se résument comme suit : 
+2.1. Prise en compte des placements et des revenus y afférents 
+Les placements en portefeuille titres et les placements monétaires sont comptabilisés au moment du 
+transfert de propriété pour leur prix d'achat. Les frais encourus à l'occasion de l'achat sont imputés en 
+capital. 
+Les dividendes relatifs aux actions et valeurs assimilées sont pris en compte en résultat à la date de 
+détachement du coupon pour les titres admis à la cote et au moment où le droit au dividende est établi 
+pour les titres non admis à la cote. 
+Les intérêts sur les placements en obligations et sur les placements monétaires sont pris en compte en 
+résultat à mesure qu'ils sont courus. 
+2.2. Evaluation des placements en actions et valeurs assimilées 
+Les placements en actions et valeurs assimilées sont évalués, en date d'arrêté, à leur valeur de marché 
+pour les titres admis à la cote et à la juste valeur pour les titres non admis à la cote. La différence par 
+rapport au prix d'achat ou par rapport à la clôture précédente constitue, selon le cas, une plus ou moins-
+value potentielle portée directement en capitaux propres, en tant que somme non distribuable. Elle 
+apparaît également comme composante du résultat net de l'exercice. 
+La valeur de marché, applicable pour l’évaluation des titres admis à la cote, correspond au cours en 
+bourse à la date du   31 Décembre ou à la date antérieure la plus récente. 
+Pour les titres admis à la cote n’ayant pas fait l’objet d’offre ou de demande pendant les 10 dernières 
+séances de bourse précédant la date de clôture, une décote de 12% est appliquée sur le cours boursier 
+le plus récent. L’identification et la valeur des titres ainsi évalués sont présentées dans la note sur le 
+portefeuille titres. 
+La juste valeur, applicable pour l’évaluation des titres non admis à la cote, correspond à la valeur 
+mathématique des titres de la société émettrice. 
+2.3. Evaluation des autres placements 
+Les placements en obligations et valeurs similaires admis à la cote sont évalués, en date d’arrêté, à leur 
+valeur de marché soit le cours moyen pondéré à la date du 31 Décembre ou à la date antérieure la plus 
+récente. La différence par rapport au prix d’achat ou par rapport à la clôture précédente constitue, selon 
+le cas, une plus ou moins-value potentielle portée directement, en capitaux propres, en tant que somme 
+non distribuable. Elle apparaît également comme composante du résultat net de l’exercice. 
+Les placements en obligations et valeurs similaires non admis à la cote demeurent évalués à leur prix 
+d’acquisition. 
+Les placements monétaires sont évalués à leur prix d’acquisition. 
+2.4. Cession des placements 
+La cession des placements donne lieu à l’annulation des placements à hauteur de leur valeur comptable. 
+La différence entre la valeur de cession et le prix d’achat du titre cédé constitue, selon le cas, une plus ou 
+moins-value réalisée portée directement en capitaux propres, en tant que somme non distribuable. Elle 
+apparaît également comme composante du résultat net de l’exercice. 
+Le prix d’achat des placements est déterminé par la méthode du coût moyen pondéré. 
+ 
+http://www.procomptable.com/ 
+3. Notes sur les éléments du bilan et de l’état de résultat 
+Note sur le Portefeuille titres 
+Le solde de ce poste s'élève au 31/12/N à 25.800 KDT contre 22.000 KDT au 31/12/N-1 et se 
+détaille ainsi : 
+Désignation du titre 
+Nre 
+de 
+titres 
+Coût 
+d’acquisition 
+Valeur 
+au 31-
+12-N 
+% actif 
+net 
+% du capital de 
+l’émetteur 
+      
+Actions, valeurs assimilées et 
+droits rattachés 
+     
+ 
+Actions, valeurs assimilées et 
+droits rattachés admis à la cote  
+  
+  
+9.000 
+ 
+12.000 
+ 
+41,6% 
+ 
+Actions 
+actions société (a) 
+actions société (b) 
+actions société (c) 
+Droits
+ 
+droits d’attribution société (c) 
+droits préférentiels de souscription 
+(d) 
+droits préférentiels de souscription 
+(e) 
+ 
+     
+Actions, valeurs assimilées et 
+droits rattachés non admis à la 
+cote 
+  
+ 960 1.000 3,5%  
+Actions 
+actions société (f) 
+actions société (g) 
+Droits 
+droits d’attribution société (h) 
+droits préférentiels de souscription (i) 
+Autres valeurs 
+Certificats d’investissement société 
+(j) 
+ 
+     
+Titres des OPCVM  
+   
+ 1.400 1.500 5,2%  
+Actions des SICAV 
+actions SICAV (1) 
+actions SICAV (2) 
+Parts des fonds communs 
+Parts du fonds commun (1) 
+Parts du fonds commun (2) 
+ 
+     
+Obligations de sociétés et valeurs 
+assimilées 
+   
+ 9.200 9.300 32,2%  
+Obligations de sociétés 
+Obligations admises à la cote 
+obligations société (k) 
+obligations société (I) 
+obligations société (m) 
+Obligations non admises à la cote
+ 
+obligations société (n) 
+obligations société (o) 
+ 
+     
+Titres de créance émis par le 
+Trésor négociables sur le marché 
+financier  
+ 
+   1.950 2.000 6,9%  
+BTNB (1 ) 
+BTNB (2) 
+emprunt d’Etat (1) 
+emprunt d'Etat (2) 
+ 
+     
+TOTAL  22.510 25.800 89,4%  
+ 
+http://www.procomptable.com/ 
+Les entrées en portefeuille titres au cours de l’exercice N se détaillent ainsi : 
+Acquisitions 
+- Actions 
+ - Droits 
+ - Obligations 
+Coût d’acquisition 
+Détachement de droits
+ 
+(démembrement du portefeuille titres) 
+ - Droits d’attribution 
+ - Droits préférentiels de souscription 
+Valeur théorique 
+  
+Les sorties du portefeuille titres au cours de l’exercice N se détaillent ainsi : 
+ Coût 
+d'acquisition 
+Prix de cession Plus ou moins 
+values réalisées 
+Actions 
+Droits 
+Obligations 
+   
+  
+Les actions admises à la cote ayant fait l’objet d’une évaluation sur la base du cours boursier le plus 
+récent déduction faite d’une décote de 12% se détaillent ainsi : 
+Désignation des actions 
+Cours boursier 
+le plus récent  
+(en DT) 
+Valeur base 
+d'évaluation(en 
+DT) 
+- Actions société (a) 30 26,40 
+- Actions société (b) 48 42,24 
+                           
+Note sur les revenus du portefeuille titres 
+Les revenus du portefeuille titres totalisent 2.200 KDT au 31/12/N contre 1950 KDT au              
+31/12/N-1 et se détaillent ainsi : 
+ 31/12/N        31/12/N-1 
+Dividendes   
+des actions et valeurs assimilées 
+admises à la cote 
+700 580
+des actions et valeurs assimilées non 
+admises à la cote 
+150 50
+des titres OPCVM 50 50
+Revenus des obligations et valeurs 
+assimilées 
+revenus des obligations 
+-  intérêts 1.030 958
+- primes de remboursement 20 12
+revenus des titres de créance émis par le 
+trésor et négociables sur le marché 
+financier 
+- intérêts 250 300
+TOTAL 2.200 1.950
+  
+Note sur les placements monétaires 
+Le solde de ce poste s’élève au 31/12/N à 2.500 KDT se détaillant comme suit : 
+http://www.procomptable.com/ 
+Désignation du titre Nbre Coût d'acqui. Valeur actuelle % actif net 
+Placements monétaires 
+ 
+    
+Emetteur (1)  1.400 1.400 4,9% 
+Billets de trésorerie  
+Certificats de dépôt 
+  
+Emetteur (2)  1.100      1.100 3,8% 
+Billets de trésorerie 
+Certificats de dépôt 
+  
+TOTAL  2.500 2.500 8,7% 
+ 
+Note sur les revenus des placements monétaires 
+Le solde de ce poste s’élève au 31/12/N à 100 KDT contre 75 KDT au 31/12/N-1 et présente le 
+montant des intérêts courus au titre de l’exercice (N) sur les bons de trésor, les billets de trésorerie et 
+les certificats de dépôt et se détaille ainsi : 
+ 31/12/N 31/12/N-1 
+intérêts des bons de trésor 25 14
+intérêts des billets de trésorerie 40 36
+intérêts des certificats de dépôt 35 25
+TOTAL 100 75
+        
+Note sur le capital 
+Les mouvements sur le capital au cours de l’exercice se détaillent ainsi : 
+Capital au 31/12/N-1 
+Montant 
+Nombre de titres 
+Nombre d’actionnaires 
+ 
+Souscriptions réalisées
+ 
+Montant 
+Nombre de titres émis 
+Nombre d’actionnaires nouveaux 
+ 
+Rachats effectués
+ 
+Montant 
+Nombre de titres rachetés 
+Nombre d’actionnaires sortants 
+ 
+Capital au 31-12-N
+ 
+Montant 
+Nombre de titres 
+Nombre d’actionnaires 
+ 
+Note sur les sommes distribuables 
+http://www.procomptable.com/ 
+Les sommes distribuables correspondent aux résultats distribuables de l’exercice et des exercices 
+antérieurs augmentés ou diminués des régularisations correspondantes effectuées à l’occasion des 
+opérations de souscription ou de rachat d’actions.  
+Le solde de ce poste au 31/12/N se détaille ainsi : 
+ Résultats 
+distribuables 
+Régularisations Sommes 
+distribuables 
+exercice (N-1) et antérieurs 2.922 378 3.300
+exercice (N) 1.970 90 2.060
+Total 4.892 468 5.360
+                                                              
+4. Autres informations 
+4-1 Engagements hors bilan 
+Les engagements hors bilan de la société (X) au 31/12/N se détaillent ainsi : 
+ 31/12/N 31/12/N-1 
+- Titres à livrer 13 5
+- Titres à recevoir 3 -
+- Participation à libérer 21 14
+                  
+4-2 Données par action et ratios pertinents 
+Nées par action N N-1 N-2 N-3 
+Revenus des placements 
+Charges de gestion des placements 
+Revenu net des placements (1) 
+Autres produits 
+Autres charges 
+Résultat d’exploitation 
+Régularisation du résultat 
+d’exploitation 
+Sommes distribuables de l’exercice 
+Variation des plus (ou moins) values 
+potentielles 
+Plus (ou moins) values réalisées sur 
+cession de titres 
+Frais de négociation 
+Plus (ou moins) values sur titres et 
+frais de négociation (2) 
+Résultat net de l’exercice (1) + (2) 
+Droits d’entrée et droits de sortie 
+Résultat non distribuable de 
+l’exercice 
+Régularisation du résultat non 
+distribuable 
+Sommes non distribuables de 
+l’exercice 
+Distribution de dividendes 
+Valeur liquidative 
+Ratios de gestion des placements 
+charges / actif net moyen 
+autres charges / actif net moyen 
+résultat distribuable de l’exercice / actif 
+net moyen 
+    
+ 
+http://www.procomptable.com/ 
+4-3 Rémunération du gestionnaire et du dépositaire 
+La gestion de la société (X) est confiée à l’établissement gestionnaire (Y). Celui-ci est chargé des 
+choix des placements et de la gestion administrative et financière de la société. En contrepartie de ses 
+prestations, le gestionnaire perçoit une rémunération de 0,5% l’an calculée sur la base de l’actif net 
+quotidien. 
+La banque (Z) assure les fonctions de dépositaire pour la société (X). Elle est chargée à ce titre :  
+- de conserver les titres et les fonds de la société (X) ; 
+- d’encaisser le montant des souscriptions des actionnaires entrant et le règlement du montant des 
+rachats aux actionnaires sortants. 
+En contrepartie de ses services, la banque (Z) perçoit une rémunération égale à 0,25% l’an calculée 
+sur la base de l’actif net quotidien. 
+ 
+ANNEXE 5- modèle de bilan (état financiers trimestriels)
+ 
+Bilan 
+Arrêté au 30-06-N 
+ (Unité : en 1000 DT) 
+ Note 30-06-N   30-06-N-1    31-12-N-1  
+ACTIF         
+ 
+AC 1 - Portefeuille titres 
+ 
+a - Actions, valeurs assimilées et droits rattachés 
+b - Obligations et valeurs assimilées 
+c - Autres valeurs 
+ 
+AC 2 - Placements monétaires et disponibilités 
+ 
+a - Placements monétaires 
+b - Disponibilités 
+ 
+AC 3 - Créances d’exploitation 
+ 
+AC 4 - Autres actifs 
+        
+         
+TOTAL ACTIF         
+         
+PASSIF         
+         
+PA 1- Opérateurs créditeurs 
+ 
+PA 2 - Autres créditeurs divers 
+        
+         
+TOTAL PASSIF         
+         
+ACTIF NET         
+         
+CP 1 - Capital 
+ 
+CP 2 - Sommes distribuables 
+ 
+a - Sommes distribuables des exercices antérieurs 
+b - Sommes distribuables de l’exercice 
+        
+         
+ACTIF NET         
+         
+TOTAL PASSIF ET ACTIF NET         
+ 
+ 
+  
+ 
+http://www.procomptable.com/ 
+ANNEXE 6- modèle de l’état de résultat (états financiers trimestriels) 
+Etat de résultat 
+(Unité : en 1000 DT) 
+ Note 
+Période 
+du 01-
+04 ou 
+30-06-N 
+ 
+Période 
+du 01-
+01 ou 
+30-06-N 
+ 
+Période 
+du 01-
+04 ou 
+30-06- 
+N-1 
+ 
+Période 
+du 01-
+04 ou 
+30-06-
+N-1 
+ Année 
+ N-1 
+           
+PR 1 - Revenus du portefeuille 
+titres 
+a - Dividendes 
+b - Revenus des obligations et 
+valeurs assimilées 
+c - Revenus des autres valeurs 
+ 
+PR 2 - Revenus des 
+placements monétaires 
+ 
+Total DES REVENUS DES 
+PLACEMENTS 
+ 
+CH 1 - Charges de gestion des 
+placements 
+          
+           
+REVENU NET DES 
+PLACEMENTS 
+          
+           
+PR 3 - Autres produits 
+CH 2 - Autres charges 
+          
+           
+RÉSULTAT D'EXPLOITATION           
+           
+PR 4 - Régularisation du 
+résultat d'exploitation 
+          
+           
+SOMMES DISTRIBUABLES DE 
+LA PÉRIODE 
+          
+           
+PR 4 - Régularisation du 
+résultat d'exploitation 
+(annulation) 
+ 
+Variation des plus (ou moins) 
+values potentielle sur titres 
+Plus (ou moins) values réalisées 
+sur cession des titres 
+Frais de négociation 
+          
+           
+RÉSULTAT NET DE LA 
+PÉRIODE 
+          
+  
+ 
+ 
+  
+  
+ 
+http://www.procomptable.com/ 
+ANNEXE 7- modèle de l’état de variation de l’actif net 
+ (états financiers trimestriels) 
+Etat de variation de l’actif net 
+(Unité : en 1000 DT) 
+ 
+Période 
+du 01-
+04 ou 
+30-06-N 
+ 
+Période 
+du 01-
+01 ou 
+30-06-N 
+ 
+Période 
+du 01-
+04 ou 
+30-06- 
+N-1 
+ 
+Période 
+du 01-
+04 ou 
+30-06-
+N-1 
+ Année 
+ N-1 
+          
+AN 1 - VARIATION DE L’ACTIF NET 
+RESULTANT DES OPERATIONS 
+D’EXPLOITATION 
+         
+          
+a - Résultat d’exploitation  
+b - Variation des plus (ou moins) 
+values potentielles sur titres 
+c - Plus (ou moins) values réalisées 
+sur cession de titres 
+d - Frais de négociation de titres 
+ 
+AN 2 - DISTRIBUTIONS DE 
+DIVIDENDES 
+ 
+AN 3 - TRANSACTIONS SUR LE 
+CAPITAL 
+ 
+a- Souscriptions 
+ - Capital 
+ - Régularisation des sommes non 
+distribuables 
+ - Régularisation des sommes 
+distribuables 
+ - Droits d’entrée 
+ 
+b - Rachats 
+ - Capital 
+ - Régularisation des sommes non 
+distribuables 
+ - Régularisation des sommes 
+distribuables 
+ - Droits de sortie 
+         
+          
+VARIATION DE L'ACTIF NET          
+          
+AN 4 - ACTIF NET 
+ 
+a- en début de période  
+b - en fin de période 
+ 
+AN 5 - NOMBRE D’ACTIONS (ou de 
+Parts) 
+ 
+a - en début de période  
+b - en fin de période 
+         
+          
+VALEUR LIQUIDATIVE          
+          
+AN 6 - TAUX DE RENDEMENT          
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 
+ANNEXE 8 - illustration de notes aux états financiers intermédiaires trimestriels 
+(états financiers trimestriels) 
+NOTES AUX ETATS FINANCIERS TRIMESTRIELS 
+au 30/06/N 
+(unité : en 1000 TND) 
+1. Référentiel d’élaboration des états financiers trimestriels 
+Les états financiers trimestriels arrêtés au 30/06/N sont établis conformément aux principes 
+comptables généralement admis en Tunisie. 
+2. Principes comptables appliqués 
+Les états inclus dans les états financiers trimestriels sont élaborés sur la base de l’évaluation des 
+éléments du portefeuille titres à leur valeur de réalisation. Les principes comptables les plus 
+significatifs se résument comme suit : 
+2.1. Prise en compte des placements et des revenus y afférents 
+Les placements en portefeuille titres et les placements monétaires sont comptabilisés au moment du 
+transfert de propriété pour leur prix d’achat. Les frais encourus à l’occasion de l’achat sont imputées 
+en capital. 
+Les dividendes relatifs aux actions et valeurs assimilées sont pris en compte en résultat à la date de 
+détachement du coupon pour les titres admis à la cote et au moment où le droit au dividende est établi 
+pour les titres non admis à la cote. 
+Les intérêts sur les placements en obligations et sur les placements monétaires sont pris en compte 
+en résultat à mesure qu’ils sont courus. 
+2.2. Evaluation des placements en actions et valeurs assimilées 
+Les placements en actions et valeurs assimilées sont évalués, en date d’arrêté, à leur valeur de 
+marché pour les titres admis à la cote et à la juste valeur pour les titres non admis à la cote. La 
+différence par rapport au prix d’achat ou par rapport à la clôture précédente constitue, selon le cas, 
+une plus ou moins-value potentielle portée directement en capitaux propres, en tant que somme non 
+distribuable. Elle apparaît également comme composante du résultat net de l’exercice. 
+La valeur de marché, applicable pour l’évaluation des titres admis à la cote, correspond au cours en 
+bourse à la date du 30/06/N ou à la date antérieure la plus récente. 
+Pour les titres admis à la cote n’ayant pas fait l’objet d’offre ou de demande pendant les 10 dernières 
+séances de bourse précédant la date du 30/06/N, une décote de 12% est appliquée sur le cours 
+boursier le plus récent. L’identification et la valeur des titres ainsi évalués sont présentées dans la 
+note sur le portefeuille titres. 
+La juste valeur, applicable pour l’évaluation des titres non admis à la cote, correspond à la valeur 
+mathématique des titres de la société émettrice. 
+2.3. Evaluation des autres placements 
+Les placements en obligations et valeurs similaires admis à la cote sont évalués, en date d’arrêté, à 
+leur valeur de marché à la date du 30/06/N ou à la date antérieure la plus récente. La différence par 
+rapport au prix d’achat ou par rapport à la clôture précédente constitue, selon le cas, une plus ou 
+moins-value potentielle portée directement, en capitaux propres, en tant que somme non distribuable. 
+Elle apparaît également comme composante du résultat net de la période. 
+Les placements en obligations et valeurs similaires non admis à la cote demeurent évalués à leur prix 
+d’acquisition. 
+Les placements monétaires sont évalués à leur prix d’acquisition. 
+ 
+http://www.procomptable.com/ 
+2.4. Cession des placements 
+La cession des placements donne lieu à l’annulation des placements à hauteur de leur valeur 
+comptable. La différence entre la valeur de cession et le prix d’achat du titre cédé constitue, selon le 
+cas, une plus ou moins-value réalisée portée directement, en capitaux propres, en tant que somme 
+non distribuable. Elle apparaît également comme composante du résultat net de la période. 
+Le prix d’achat des placements est déterminé par la méthode du coût moyen pondéré. 
+3. Notes sur les éléments du bilan et de l’état de résultat 
+Note sur le portefeuille titres 
+Le solde de ce poste s'élève au 30/06/N à 25.800 KDT et se détaille ainsi : 
+Désignation du titre 
+Nre 
+de 
+titres 
+Coût 
+d’acquisition 
+Valeur 
+au 30-
+06-N 
+% actif 
+net 
+% du 
+capital de 
+l’émetteur 
+      
+Actions, valeurs 
+assimilées et droits 
+rattachés 
+     
+ 
+Actions, valeurs 
+assimilées et droits 
+rattachés admis à la cote  
+  
+  
+9.000 
+ 
+12.000 
+ 
+41,6% 
+ 
+Actions 
+actions société (a) 
+actions société (b) 
+actions société (c) 
+Droits
+ 
+droits d’attribution société (c) 
+droits préférentiels de 
+souscription (d) 
+droits préférentiels de 
+souscription (e) 
+ 
+     
+Actions, valeurs 
+assimilées et droits 
+rattachés non admis à la 
+cote 
+  
+ 960 1.000 3,5%  
+Actions 
+actions société (f) 
+actions société (g) 
+Droits
+ 
+droits d’attribution société (h) 
+droits préférentiels de 
+souscription (i) 
+Autres valeurs
+ 
+Certificats d’investissement 
+société (j) 
+ 
+     
+Titres des OPCVM  
+   
+ 1.400 1.500 5,2%  
+Actions des SICAV 
+actions SICAV (1) 
+actions SICAV (2) 
+Parts des fonds communs 
+Parts du fonds commun (1) 
+Parts du fonds commun (2) 
+ 
+     
+Obligations de sociétés et 
+valeurs assimilées 
+   
+ 9.200 9.300 32,2%  
+http://www.procomptable.com/ 
+Obligations de sociétés 
+Obligations admises à la 
+cote 
+obligations société (k) 
+obligations société (I) 
+obligations société (m) 
+Obligations non admises à la 
+cote 
+obligations société (n) 
+obligations société (o) 
+ 
+     
+Titres de créance émis par 
+le Trésor négociables sur 
+le marché financier  
+ 
+   1.950 2.000 6,9%  
+BTNB (1 ) 
+BTNB (2) 
+emprunt d’Etat (1) 
+emprunt d'Etat (2) 
+ 
+     
+TOTAL  22.510 25.800 89,4%  
+ 
+Les actions admises à la cote ayant fait l’objet d’une évaluation sur la base du cours boursier le plus 
+récent déduction faite d’une décote de 12% se détaillent ainsi : 
+Désignation des actions 
+Cours boursier 
+le plus récent  
+(en DT) 
+Valeur base 
+d'évaluation(en 
+DT) 
+- Actions société (a) 30 26,40 
+- Actions société (b) 48 42,24 
+  
+Note sur les revenus du portefeuille titres 
+Les revenus du portefeuille titres totalisent  2 200 KDT pour la période du 01/04 au 30/06/N contre 
+1950 KDT au 30/06/N-1 et se détaillent ainsi : 
+ Trimestre 2 
+N 
+Trimestre 2 
+N-1 
+Dividendes   
+des actions et valeurs assimilées 
+admises à la cote 
+700 580
+des actions et valeurs assimilées non 
+admises à la cote 
+150 50
+des titres OPCVM 50 50
+Revenus des obligations et valeurs 
+assimilées 
+revenus des obligations 
+-  intérêts 1.030 958
+- primes de remboursement 20 12
+revenus des titres de créance émis par 
+le trésor et négociables sur le marché 
+financier 
+- intérêts 250 300
+TOTAL 2.200 1.950
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 
+Note sur les placements monétaires 
+Le solde de ce poste s’élève au J/M/N à 2 500 KDT se détaillant comme suit : 
+Désignation du titre Nbre Coût d'acqui. Valeur actuelle % actif net 
+Placements monétaires 
+ 
+    
+Emetteur (1)  1.400 1.400 4,9% 
+Billets de trésorerie  
+Certificats de dépôt 
+  
+Emetteur (2)  1.100      1.100 3,8% 
+Billets de trésorerie 
+Certificats de dépôt 
+  
+TOTAL  2.500 2.500 8,7% 
+ 
+Note sur les revenus des placements monétaires  
+Le solde de ce poste s’élève pour la période du 01/04 au 30/06/N à 100 KDT contre 75 KDT pour la 
+période du 01/04 au 30/06/N-1 et présente le montant des intérêts courus au titre de la période (N) sur 
+les bons de trésor, les billets de trésorerie et les certificats de dépôt et se détaille ainsi : 
+ Trimestre 2 
+N 
+Trimestre 2 
+N-1 
+intérêts des bons de trésor 25 14
+intérêts des billets de trésorerie 40 36
+intérêts des certificats de dépôt 35 25
+TOTAL 100 75
+Note sur le capital  
+Les mouvements sur le capital au cours de la période se détaillent ainsi : 
+Capital au 31/12/N-1 
+Montant 
+Nombre de titres 
+Nombre d’actionnaires 
+ 
+Souscriptions réalisées
+ 
+Montant 
+Nombre de titres émis 
+Nombre d’actionnaires nouveaux 
+ 
+Rachats effectués
+ 
+Montant 
+Nombre de titres rachetés 
+Nombre d’actionnaires sortants 
+ 
+Capital au 30-06-N
+ 
+Montant 
+Nombre de titres 
+Nombre d’actionnaires 
+ 
+ 
+http://www.procomptable.com/ 
+4. Engagements hors bilan  
+Les engagements hors bilan de la société (X) au J/M/N se détaillent ainsi : 
+ 30-06-N 30-06-N-1 31/12/N-1
+- Titres à livrer 13 15 5
+- Titres à recevoir 3 2 -
+- Participation à libérer 21 10 14
+ 

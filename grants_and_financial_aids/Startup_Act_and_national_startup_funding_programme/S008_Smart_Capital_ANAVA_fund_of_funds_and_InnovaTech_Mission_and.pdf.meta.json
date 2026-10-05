@@ -1,0 +1,22 @@
+{
+ "id": "S008",
+ "dataset": "grants",
+ "section": "Startup Act and national startup funding programmes",
+ "name": "Smart Capital - ANAVA fund of funds and InnovaTech - Mission and programmes",
+ "url": "https://smartcapital.tn/?page_id=955&lang=en",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://smartcapital.tn/?page_id=955&lang=en",
+ "content_type": "text/html",
+ "sha256": "14a79fb58def7a7915a8bfca1d94ed7970457ec016ba6a928ff37357d3eb8f14",
+ "bytes": 23777,
+ "path": "grants\\Startup_Act_and_national_startup_funding_programme\\S008_Smart_Capital_ANAVA_fund_of_funds_and_InnovaTech_Mission_and.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 51,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Un instant, s'il vous plaît…",
+ "note": "",
+ "last_modified": ""
+}

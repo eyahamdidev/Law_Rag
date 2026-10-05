@@ -1,0 +1,22 @@
+{
+ "id": "S035",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "GIZ Tunisia - programmes and diaspora startup call - GIZ Tunisia",
+ "url": "https://www.giz.de/en/regions/africa/tunisia",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.giz.de/en/regions/africa/tunisia",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "8d6f50e79b8cc067480ecf926a34977a4f37d99eefde61f2e4de75e21d008be2",
+ "bytes": 307429,
+ "path": "grants\\International_donors_accelerators_and_calls\\S035_GIZ_Tunisia_programmes_and_diaspora_startup_call_GIZ_Tunisia.pdf",
+ "status": "ok",
+ "pages": 7,
+ "text_chars": 5752,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Tunisia | GIZ",
+ "note": "",
+ "last_modified": "Mon, 05 Oct 2026 14:31:53 GMT"
+}

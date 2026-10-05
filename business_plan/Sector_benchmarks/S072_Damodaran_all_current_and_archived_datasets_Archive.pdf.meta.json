@@ -1,0 +1,22 @@
+{
+ "id": "S072",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Archive",
+ "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "8bf58439f59d58014f552a85a98350c60ce06059ec6c20f9b52e9a12ac1746b1",
+ "bytes": 720874,
+ "path": "business_plan\\Sector_benchmarks\\S072_Damodaran_all_current_and_archived_datasets_Archive.pdf",
+ "status": "ok",
+ "pages": 8,
+ "text_chars": 16704,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Useful Data Sets",
+ "note": "",
+ "last_modified": ""
+}

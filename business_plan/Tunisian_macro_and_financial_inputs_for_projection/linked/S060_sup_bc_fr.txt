@@ -1,0 +1,3678 @@
+   
+ 
+0   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Banque Centrale de Tunisie 
+ 
+Rapport Annuel sur la 
+Supervision Bancaire 
+Exercice 2024 
+Octobre 2025 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+1   
+   
+TABLE DES MATIERES 
+Mot du Gouverneur 4 
+Principaux faits saillants de l’année 2024 6 
+Lexique 7 
+Chiffres clés de 2024 9 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 14 
+Section I- Renforcement du cadre réglementaire et prudentiel de la supervision bancaire 14 
+Section II- Poursuite de la convergence du cadre prudentiel et normatif vers les standards 
+internationaux 17 
+Section III- Surveillance des pratiques bancaires et de l’Innovation Financière 19 
+Section IV- Verdissement du système financier 20 
+Chapitre 2 : Activité de la supervision bancaire 22 
+Section I- Agréments, autorisations et sanctions 22 
+Section II- Activité de la surveillance sur Pièces et sur Place 23 
+Section III- Développement des capacités de la supervision bancaire 25 
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 28 
+Section I- Risques liés à l’évolution de la conjoncture économique 28 
+Section II- Evolution du financement de l’économie 29 
+Section III- Analyse des risques bancaires 30 
+Section IV- Risques liés à l’activité du marché financier et à l’épargne collective 35 
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 38 
+Section I- Structure du Secteur Bancaire et Financier selon la nature de l’activité 38 
+Section II- Structure du secteur bancaire selon la nature de l’actionnariat 38 
+Section III- Analyse de la concentration du secteur bancaire 41 
+Section IV- Bancarisation 42 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 45 
+Section I- Analyse de la structure bilancielle des banques résidentes 45 
+Section II- Activité et situation financière des banques résidentes 46 
+Section III- Activité et situation financière des banques islamiques 57 
+Section IV- Activité et situation financière des établissements de leasing 59 
+Section V- Activité et situation financière des banques non-résidentes 63 
+Section VI- Activité et exploitation des organismes de factoring 67 
+Section VII- Activité et situation financière des établissements de paiement 68 
+Annexes 72 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+2   
+   
+ 
+Liste des annexes 
+ 
+Annexe 1: Organigramme du pôle de la stabilité financière .............................................. 72 
+Annexe 2: Bilan, état des engagements hors bilan et état de résultat des banques 
+résidentes ..............................................................................................................................75 
+Annexe 3: Bilan et état de résultat des établissements de leasing ...................................... 78 
+Annexe 4: Bilan, état des engagements hors bilan et état de résultat des banques non-
+résidentes ............................................................................................................................. 80 
+Annexe 5: Bilan et état de résultat des établissements de Factoring ................................. 83 
+Annexe 6: Évolution des taux effectifs moyens par catégorie de concours 2005-2024 .... 85 
+Annexe 7: Évolution des TEGs par catégorie de concours et par BEF courant 2024 ........ 87 
+Annexe 8: Répartition par région, par gouvernorat et par banque du réseau d’agences au 
+31/12/2024 ........................................................................................................................... 88 
+Annexe 9: Répartition par région, par gouvernorat et par établissement de leasing du 
+réseau d’agences au 31/12/2024 ......................................................................................... 90 
+Annexe 10: Liste des tableaux .............................................................................................. 92 
+Annexe 11: Liste des graphiques .......................................................................................... 94 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+3   
+   
+Liste des abréviations 
+ACM Autorité de Contrôle de la Microfinance 
+APE Appel Public à l’Epargne 
+BA/FT Blanchiment d’Argent et Financement du Terrorisme 
+BCT Banque Centrale de Tunisie 
+BEF Banques et Etablissements Financiers  
+BTA Bons du Trésor Assimilables 
+BNPL Buy Now, Pay Later 
+CGA Comité Général des Assurances 
+CMF Conseil du Marché Financier 
+CR Concentration Ratio 
+CSM Comité de Surveillance Macro-prudentielle et de Gestion des Crises Financières 
+CTAF Commission Tunisienne des Analyses Financières 
+DAB Distributeur Automatique de Billets 
+DGSB Direction Générale de la Supervision Bancaire 
+ECL Expected Credit Losses ou Pertes de Crédit Attendues 
+EP Etablissements de Paiement 
+FMA Fonds Monétaire Arabe 
+GAB Guichet Automatique Bancaire 
+GAFI Groupe d'Action Financière 
+IFRS Normes internationales d'informations financières 
+IHH Indice Herfindhal-Hirshman 
+ECL Expected Credit Loss 
+LCR Liquidity Coverage Ratio 
+EP Etablissements de Paiement 
+LTD Loans To Deposits 
+MDT Millions de Dinars Tunisiens 
+mDT Mille Dinars Tunisiens 
+MUSD Millions de dollars américains  
+NPL’s Non Performing Loans 
+OCI Other Comprehensive Income ou Autres éléments du résultat global 
+OPCVM Organismes de Placement Collectif en Valeurs Mobilières 
+PIB Produit Intérieur Brut 
+PME Petites et Moyennes Entreprises 
+PNB Produit Net Bancaire 
+pp Points de Pourcentage 
+PSF Pôle de la Stabilité Financière 
+ROA Return On Assets 
+ROE Return On Equity 
+SCRA Standard Credit Risk Approach 
+SFI Société Financière Internationale 
+ 
+   
+ 
+4   
+   
+ 
+ 
+ 
+ 
+e système bancaire tunisien a 
+évolué en 2024 dans un contexte 
+national et international particulièrement 
+marqué par une conjoncture économique 
+complexe et instable, une montée des 
+tendances protectionnistes et des tensions 
+géopolitiques persistantes.  
+Dans cet environnement complexe, la 
+Banque Centrale de Tunisie a poursuivi 
+avec constance ses efforts visant à 
+préserver la stabilité financière et à 
+consolider la solidité du système bancaire 
+au service de l’économie nationale et de 
+l’intérêt général. 
+A cet effet, la BCT a maintenu, pour la 
+cinquième année consécutive, sa 
+démarche prudente et proactive 
+d’encadrement des politiques de 
+distribution des dividendes et de 
+durcissement des règles des provisions 
+collectives destinées à couvrir les risques 
+latents. Cette démarche a permis de 
+consolider davantage la position des fonds 
+propres et de la liquidité du secteur 
+bancaire avec un LCR m oyen de 223,3%, 
+un ratio de solvabilité global de 14,4 % et 
+un ratio Tier 1 de 11,7 % procurant ainsi au 
+secteur un coussin de sécurité de plus de 4 
+points de pourcentage pour absorber 
+d’éventuels chocs liés au contexte 
+économique.   
+Néanmoins, la Banque Centrale de 
+Tunisie demeure préoccupée par la 
+persistance et l’acuité de certaines sources 
+de vulnérabilités pesant sur la stabilité du 
+secteur bancaire ; en l’occurrence une 
+croissance économique atone, un 
+ralentissement sans précédent de l’activité 
+de crédit lié particulièrement à la faiblesse 
+de l’investissement privé, une exposition 
+accrue du s ecteur bancaire sur les 
+entreprises publiques qui connaissent des 
+difficultés et une montée préoccupante 
+des risques de crédit.  
+En effet, la part des créances classées s’est 
+aggravée de 200 points de base au cours 
+L 
+Fethi Zouhaier Nouri 
+Gouverneur de la BCT 
+Mot du Gouverneur 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+5   
+   
+des deux dernières années pour atteindre 
+14,5% à fin 2024 reflétant les difficultés 
+rencontrées par les entreprises privées et 
+notamment les PME. 
+Consciente de ces défis, la Banque 
+Centrale de Tunisie demeure pleinement 
+mobilisée pour poursuivre les mesures 
+prudentielles préventives afin d’ assurer 
+les conditions de la stabilité financière et 
+de parachever l’alignement du cadre de 
+régulation prudentielle avec les standards 
+internationaux. A cet effet, la BCT a 
+officiellement lancé, en avril 2025, une 
+consultation élargie auprès du secteur 
+bancaire et de toutes les parties prenantes 
+sur un large programme de réformes 
+prudentielles et normatives couvrant les 
+normes d’adéquation des fonds propres, 
+les règles de classification et de couverture 
+de risque et un guide IFRS 9.  
+La BCT a déjà défini un calendrier et une 
+feuille de route pour les prochaines étapes 
+de ce projet et projette l’adoption des 
+normes d’adéquation des fonds propres 
+selon l’approche de Bâle III sur base 
+consolidée à fin 2026. 
+Parallèlement, la BCT, consciente des 
+défis liés à la numérisation accrue des 
+métiers bancaires et à l’intensification des 
+menaces cybernétiques, œuvre à renforcer 
+son cadre réglementaire afin de mieux 
+encadrer les risques liés au recours aux 
+tiers et à consolider la résilience 
+opérationnelle du secteur.  
+Également, la BCT veille toujours à 
+renforcer les dispositifs de conformité et 
+de gestion du risque de blanchiment 
+d’argent et de financement du terrorisme 
+conformément aux recommandations du 
+GAFI. A ce titre, la BCT a formalisé un 
+nouveau processus interne de surveillance 
+des risques de BA/FT/FP au niveau du 
+secteur bancaire rep osant sur une 
+approche basée sur les risques.  
+Sur un autre plan, la BCT a dressé un 
+premier bilan de l’entrée en activité de six 
+établissements de paiement, qui a révélé 
+que les résultats sont en-deçà des attentes 
+et des objectifs assignés lors de la création, 
+en particulier en matière de 
+développement des services de paiement.  
+Sur la base du diagnostic établi et des 
+contraintes identifiées, la BCT a engagé la 
+révision de la circulaire n°2018-16 dans un 
+objectif de dynamisation du marché des 
+paiements et de promotion de l’inclusion 
+financière.  
+De même, la BCT a poursuivi en 2024 son 
+projet stratégique pour le verdissement du 
+secteur financier et l’intégration de la 
+dimension risque climatique dans la 
+régulation et la gouvernance du système 
+bancaire avec notamment l’élaboration 
+d’une feuille de route en concertation avec 
+l’ensemble des parties prenantes.  
+   
+ 
+6   
+   
+Principaux faits saillants de l’année 
+2024 
+ 
+19 janvier Publication par la BCT de la circulaire aux banques et aux établissements 
+financiers n°2024-01 portant modification de la méthodologie de calcul 
+des provisions collectives.  
+29 janvier Publication par la BCT de la circulaire aux banques et aux établissements 
+financiers n°2024-02 portant sur les conditions de commercialisation et 
+de tarification des produits et services financiers. 
+29 janvier Publication par la BCT de la circulaire aux banques n°2024 -03 portant 
+révision de certaines commissions bancaires. 
+08 février Publication par la BCT de la circulaire aux banques et aux établissements 
+financiers n°2024-04 relative à la distribution des dividendes au titre de 
+l’exercice 2023. 
+22 et 23 mai Participation de Monsieur Le Gouverneur à la 47ème réunion annuelle du 
+Conseil des Gouverneurs du Fonds Monétaire Arabe (FMA). 
+27 mai Publication par la BCT de la circulaire n°2024-08 relative à la lettre de 
+garantie requise par l’article 189 de la loi n°2016 -48 du 11 juillet 2016 
+relative aux banques et aux établissements financiers. 
+30 et 31 mai Participation de la BCT à la 27 ème édition de la Conférence des 
+Gouverneurs des Banques Centrales Francophones à Bruxelles sous le 
+thème « Les banques centrales francophones face à de nouveaux défis : 
+quelles réponses ? » 
+12 juin Signature d’un  partenariat entre la BCT et la SFI portant sur un 
+programme d’accompagnement au profit des cadres du Pôle de la 
+stabilité financière et du secteur bancai re tunisien en matière de 
+financement de l’action climatique. 
+12 juillet Octroi de l’agrément définitif à l’établissement de paiement "First Pay". 
+10 et 11 
+septembre 
+Participation de la BCT à la Conférence Bancaire Arabe 2024 organisée 
+par l’Union des Banques Arabe  et, portant sur « Les Exigences du 
+Développement Durable et le Rôle des Banques ». 
+29 septembre Signature d’un mémorandum d'entente entre la BCT et la Banque 
+Centrale Egyptienne v isant le renforcement de  la coopération dans le 
+domaine bancaire. 
+07 novembre Tenue de la 10ème réunion du Comité de Surveillance Macro-prudentielle. 
+20 novembre  Participation de la BCT à la 11ème réunion du Collège des superviseurs du 
+groupe Attijariwafa Bank organisée par Bank Al-Maghrib.  
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+7   
+   
+Lexique 
+1- Principales structures  
+ 
+Commission 
+d’agréments 
+Autorité collégiale indépendante instituée par la loi bancaire n°2016-48 
+relative aux BEF investie du pouvoir d'octroi et de retrait d’agrément. Elle se 
+compose du Gouverneur de la BCT ou son suppléant (Président) et de quatre 
+membres indépendants ayant une expertise dans le domaine financier, 
+bancaire ou économique et ce, en respectant le principe de la parité. 
+La commission d’agréments se réunit au siège de la BCT. Son secrétariat est 
+assuré par la structure chargée de l’étude des dossiers d’agrément au sein de 
+la BCT, à savoir la Direction Générale de la Régulation et de la Surveillance 
+Macro-Prudentielle. 
+Commission de 
+résolution 
+Autorité collégiale indépendante et compétente instituée par la loi bancaire 
+n°2016-48 relative au x BEF dotée de pouvoirs juridiques spéciaux pour la 
+résolution des BEF en situation compromise. Elle se compose du Gouverneur 
+de la BCT ou son suppléant (Président), d’un juge de troisième grade, d’un 
+représentant du ministère chargé des finances ayant le rang de directeur 
+général, du directeur général du fonds de garantie des dépôts bancaires et du 
+président du conseil du marché financier. Le secrétariat de la commission de 
+résolution est assuré par la structure chargée au sein de la BCT, du traitement 
+des situ ations des BEF en situation compromise, à savoir la Direction 
+Générale de la Supervision Bancaire. 
+Commission des 
+sanctions 
+ 
+Commission habilitée à infliger, pour les infractions à la législation et à la 
+réglementation bancaire prévues par l’article 172 de la loi bancaire n°2016-48 
+relative au x BEF, des sanctions qui peuvent aller jusqu'au retrait de 
+l'agrément. Elle se compose d'un juge de troisième grade (Président), d'un 
+juge de deuxième grade, d'un représentant de la BCT ayant le grade de 
+directeur général, d’un expert indépendant dans les domai nes bancaire et 
+financier et d’un expert-comptable. 
+Comité de 
+Surveillance 
+Macro 
+prudentielle et 
+de gestion des 
+crises 
+financières 
+ 
+Structure instituée par la loi n°2016-35 portant fixation du statut de la BCT 
+chargée d’émettre des recommandations sur les mesures que les autorités de 
+régulation du secteur financier devraient adopter et mettre en œuvre afin de 
+contribuer à la stabilité du système financier dans son ensemble, notamment, 
+en renforçant la solidité du système financier, en prévenant la survenance de 
+risques systémiques et en limitant les effets d'éventuelles perturbations sur 
+l’économie. Elle est composée du Gouverneur de la BCT, d’un représentant du 
+Ministère chargé des finances, du président du Conseil du Marché Financier, 
+du président du Comité Général des Assurances et du directeur général de 
+l’Autorité de Contrôle de la Microfinance. 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+8   
+   
+2- Principaux indicateurs de suivi  
+Ratio de solvabilité Calculé par le rapport entre les fonds propres nets tels que définis par 
+l’article 2 de la circulaire 2018-06 et les actifs pondérés par les risques tels 
+que définis par l'article 10 de la même circulaire. Ce ratio réglementaire ne 
+peut pas être inférieur à 10%. 
+Ratio Tier 1 Calculé par le rapport entre les fonds propres nets de base tels que définis 
+par l’article 3 de la circulaire 2018 -06 après les déductions prévues par 
+l’article 7 de la même circulaire et les actifs pondérés par les risques tels 
+que définis par l’article 10 de la même circulaire. Ce ratio réglementaire ne 
+peut pas être inférieur à 7%. 
+Marge d’intérêts La différence entre les intérêts et revenus assimilés et les intérêts encourus 
+et charges assimilées. La marge d'intérêt doit permettre à la banque de 
+faire face à l'ensemble de ses frais généraux et également de dégager une 
+rentabilité suffisante par rapport aux fonds propres immobilisés. 
+PNB (Produit net 
+bancaire) 
+La différence entre le Total des produits d'exploitation bancaire et le Total 
+des charges d'exploitation bancaire. 
+Coefficient 
+d’exploitation 
+Calculé par le rapport entre les charges opératoires et le produit net 
+bancaire. Il permet d'appréhender la part des gains réalisés par une banque 
+qui est absorbée par ses coûts fixes. 
+LCR (Liquidity 
+Coverage Ratio) 
+Taux de couverture des sorties nettes de trésorerie par l’encours des actifs 
+liquides de haute qualité sur un horizon de 30 jours dans une situation de 
+tension sur la liquidité. Sont seulement pris en compte pour le calcul de ce 
+ratio : les actifs, les passifs et les engagements hors bilan en Dinars. 
+LTD (Loan to 
+deposit ratio) 
+Calculé par le rapport entre l'encours brut des créances sur la clientèle en 
+dinars et la somme de l'encours des dépôts en dinars (après déduction des 
+autres sommes dues à la clientèle), de l'encours des certificats de dépôts et 
+de toute autre forme d’emprunts en dinars et en devises, à l’exception des 
+emprunts obligataires et des emprunts sur le marché monétaire. Ce ratio 
+permet d’assurer une meilleure adéquation entre les ressources et les 
+emplois et de maîtriser le risque de transformation d’échéances. 
+Les banques dont le ratio «LTD» se situe à un niveau supérieur à 120% à 
+la fin d’un trimestre donné doivent prendre les mesures nécessaires pour 
+réduire leur ratio arrêté à la fin du trimestre suivant.  
+ROA (Return On 
+Assets) 
+Calculé par le rapport entre le résultat net et l’actif moyen net. Ce ratio 
+fournit une indication sur la rentabilité des actifs d’une banque ou d’un 
+établissement financier. 
+ROE (Return on 
+Equity) 
+Calculé par le rapport entre le résultat net et la moyenne des fonds propres 
+bruts de base après répartition du résultat de l’année N -1 et des fonds 
+propres bruts de base avant répartition du résultat de l’année N. Ce ratio 
+permet d'apprécier la rentabilité des fonds propres d’une banque ou d’un 
+établissement financier. 
+Part des créances 
+classées 
+Calculée par le rapport entre les créances classées (telles que définies par 
+la circulaire 91-24) et le total des engagements. 
+Taux de couverture 
+des créances 
+classées par les 
+provisions 
+Calculé par le rapport entre les encours des provisions constituées (hors 
+provisions collectives telles que définies par la circulaire 91-24) et l’encours 
+des créances classées diminué des agios réservés.  
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+9   
+   
+ 
+Chiffres clés de 2024 
+ 
+1- Ressources Humaines de la supervision bancaire 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+39 42,5 
+ans 
+Effectif de la supervision 
+bancaire 
+Age moyen des cadres de la supervision bancaire. 
+100% 186 
+Taux d’encadrement à la 
+supervision bancaire. 
+Nombre de semaines de formations certifiantes dispensées en 
+ligne et organisées par des instances internationales. 
+168 
+Nombre de jours de formations et de workshops en ligne, en mode présentiel ou en mode 
+blended organisés par des instances régionales et internationales. 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+10   
+   
+2- La Supervision en 2024 
+Nombre de réunions avec les BEF dans le cadre de l’évaluation de leur 
+situation financière. 12 
+ 
+Nombre de réunions stratégiques avec les premiers responsables des BEF. 
+ 
+13 
+ 
+Nombre de réunions thématiques avec les BEF. 
+ 
+11 
+Autres réunions 
+ 
+21 
+ 
+Nombre de BEF ayant fait l'objet d’un rapport d’évaluation.  
+ 
+29 
+ 
+Nombre de BEF ayant fait l'objet d’une note spécifique. 
+ 
+46 
+Nombre de BEF ayant fait l'objet de notes sectorielles / communes 16 
+ 
+Nombre de BEF ayant fait l'objet d’une notification par suite de l’évaluation 
+de leurs situations financières. 
+9 
+ 
+Nombre de BEF ayant fait l'objet d’une notification par suite des missions 
+d’inspection. 
+6 
+Nombre de BEF ayant fait l'objet de notifications sectorielles / communes 6 
+ 
+Nombre de BEF ayant fait l'objet d’autres notifications. 
+ 
+32 
+ 
+Missions de contrôle sur place. 
+ 
+8 
+ 
+Montant total des sanctions pécuniaires en 202 4 recouvrées au profit du 
+Trésor public. 
+384 mDT 
+Dossiers de demande d’agréments traités et transmis par le PSF à la 
+commission d’agréments. 4 
+ 
+Dossiers portant sur la nomination des membres des organes de gouvernance 
+des BEF instruits par le PSF. 
+93 
+Dossiers portant sur l’autorisation des commissaires aux comptes 
+ 
+26 
+ 
+ 
+ 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+11   
+   
+ 
+3- Structure du secteur bancaire en 2024 
+Nombre d’établissements agréés  47 
+• Banques  29 
+    Banques résidentes  22 
+    Banques non-résidentes  7 
+• Etablissements financiers  18 
+    Etablissements de leasing  8 
+    Sociétés de factoring  2 
+    Banques d’affaires  2 
+    Etablissements de paiement 6 
+Réseau d’agences des banques résidentes 2 064 
+Réseau d’agences de leasing  66 
+Effectif des banques résidentes 20 178 
+ 
+ 
+4- Indicateurs d’activité et de rentabilité des banques 
+résidentes  
+Montants en millions de dinars tunisiens  
+(Sauf indications contraires) 2022 2023 2024* 
+Total actif 151 957   160 690   174 339 
+Total Dépôts 96 661   103 850   114 585  
+Total crédits 103 971   106 490 109 907 
+PNB 6 996 7 603 8 022 
+Coefficient d’exploitation 44,9% 44,9% 46,2% 
+Résultat net 1 207 1 451 1 576 
+ROA 0,9%   1,0%  1,0%   
+ROE 9,0%   10,4% 10,3% 
+Ratio de solvabilité 14,0%   14,2% 14,4% 
+Ratio Tier 1 10,9%   11,3% 11,7% 
+Part des créances classées 12,6%   13,6%   14,5% 
+Taux de couverture des créances classées par les provisions 55,1%   53,0%   50,5% 
+*Données provisoires  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+12   
+   
+5- Indicateurs d’activité et de rentabilité des 
+établissements de leasing  
+Montants en millions de dinars tunisiens  
+(Sauf indications contraires) 2022  2023  2024* 
+Total actif 4 772 5 087 5 418 
+Total crédit-bail 4 019 4 067 4 447 
+Total mises en force 1 901 2 163 2 387 
+Produit net de leasing 282 296 312 
+Coefficient d’exploitation 35,8% 38,6% 39,5% 
+Résultat net 83 103 106 
+ROA 2,0% 2,3% 2,2% 
+ROE 12,0% 13,6% 13,0% 
+Ratio de solvabilité 17,7% 17,1% 16,1% 
+Ratio Tier 1 13,6% 13,8% 13,6% 
+Part des créances classées 10,2% 9,1% 8,9% 
+Taux de couverture des créances classées par les provisions 71,7% 71,6% 66,9% 
+*Données provisoires  
+ 
+ 
+   
+ 
+13   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Chapitre 1 
+ 
+EVOLUTION DU DISPOSITIF REGLEMENTAIRE ET 
+PRUDENTIEL DE LA SUPERVISION BANCAIRE 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+14   
+   
+Chapitre 1 : Evolution du dispositif réglementaire et 
+prudentiel de la supervision bancaire 
+Section I- Renforcement du cadre réglementaire et prudentiel 
+de la supervision bancaire 
+1. Circulaires publiées 
+1-1- Révision de la méthodologie de calcul des provisions collectives 
+Dans un contexte économique marqué par des pressions multiples, la BCT a poursuivi sa 
+démarche proactive en matière de renforcement des provisions collectives, en vue de 
+consolider la résilience du secteur bancaire face aux risques latents et aux incertitu des 
+accrues. 
+Depuis 2020, la méthodologie de calcul des provisions collectives a fait l’objet de quatre 
+révisions majeures, traduisant une volonté d’adapter l’approche prudentielle aux évolutions 
+économiques nationales et aux standards internationaux. Ces ajustements visent notamment 
+à intégrer une approche prospective (forward-looking) en ligne avec les principes de la norme 
+IFRS 9. Ils se traduisent, entre autres, par l’introduction d’un facteur d’ajustement ∆ destiné 
+à affiner la probabilité de défaut historique, ain si que par une segmentation plus granulaire 
+et homogène des contreparties. 
+Par circulaire n°2025-01 du 29 janvier 2025, il a été décidé de maintenir pour l’exercice 2024 
+la méthodologie appliquée en 2023 tout en ajustant certains paramètres. À ce titre, le facteur 
+d’ajustement ∆ est révisé à la hausse pour les secteurs dépendants des ventes à tempérament, 
+en particulier le secteur du commerce,  fortement impactés par les nouvelles restrictions sur 
+les chèques imposées par la loi 2024-41. En outre, l’historique utilisé pour estimer le taux de 
+migration moyen a été étendu de 8 à 10 ans  et ce, pour stabiliser davantage ce paramètre et 
+réduire sa volatilité et sa sensibilité aux valeurs extrêmes.    
+1-2- Encadrement de la politique de distribution de dividendes 
+La Banque Centrale de Tunisie a poursuivi, en 2024 et pour le cinquième exercice consécutif, 
+l’encadrement des politiques de distribution de dividendes des banques et établissements 
+financiers. Cette orientation vise à préserver des niveaux de fonds propre s confortables afin 
+de renforcer la résilience du secteur bancaire face à un environnement toujours marqué par 
+de fortes incertitudes. 
+Les banques et établissements financiers sont ainsi appelés à maintenir une politique de 
+distribution prudente au titre de l’exercice 2024, afin de conserver et de consolider des 
+coussins de fonds propres au-dessus des seuils réglementaires minimaux et ce, au regard de 
+la persistance d’une conjoncture économique  difficile, ainsi que des impératifs de 
+convergence progressive vers les normes de Bâle et d’IFRS. 
+Dans ce cadre et conformément à la circulaire n°2025-02 du 29 janvier 2025, il a été décidé 
+de reconduire la politique adoptée en 2023, selon les modalités suivantes : 
+• Les banques et établissements financiers présentant des ratios de solvabilité et de 
+Tier 1, arrêtés à fin 2024 après déduction des dividendes à verser, qui dépassent 
+les niveaux réglementaires minimaux d’au moins 2,5 %, peuvent distribuer des 
+dividendes dans la limite de 35 % des bénéfices ; 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+15   
+   
+• La distribution peut être effectuée sans limitation, sous réserve de l’accord 
+préalable de la BCT, si le ratio Tier 1 dépasse le niveau minimum réglementaire 
+d’au moins 3,5 % ; 
+L’accord préalable de la BCT est également requis pour toute distribution de dividendes par 
+les BEF qui ne respectent pas les normes prudentielles en matière de division et concentration 
+des risques ou d’exposition aux parties liées. 
+Enfin, une nouvelle condition a été introduite : la demande d’autorisation préalable de la BCT 
+est également requise si les commissaires aux comptes formulent, à propos des états 
+financiers arrêtés à fin 2024, des réserves et/ou des paragraphes d’observations dans leur 
+rapport. 
+1-3- Publication de la circulaire  aux banques  relative aux règles 
+minimales régissant l’enrôlement électronique des clients  
+Soucieuse d’accompagner la transformation numérique du secteur bancaire, la BCT a établi 
+un cadre réglementaire fixant les exigences et diligences minimales à respecter par les 
+banques souhaitant proposer à leur clientèle l’ouverture de comptes via un canal digital. 
+Capitalisant sur les résultats des expérimentations menées dans le cadre de la Sandbox 
+Réglementaire, la circulaire aux banques n°2025-06 vise à constituer un levier pour 
+l’innovation et l’inclusion financière, tout en garantissant le respect des normes de sécurité et 
+de conformité par rapport aux normes de lutte contre le blanchiment d’argent et le 
+financement du terrorisme. 
+Elle encadre notamment les aspects suivants du parcours d’enrôlement électronique des 
+clients : 
+• Les responsabilités incombant aux organes d’administration des banques ; 
+• Les exigences liées au procédé technologique utilisé ; 
+• L’encadrement du recours à des fournisseurs de solutions technologiques. 
+Par ailleurs, afin de garder un droit de regard sur la digitalisation de l’ouverture des comptes, 
+la circulaire soumet tout lancement de ce processus à l’autorisation préalable de la BCT. 
+2. Conventions signées 
+2-1- Signature d’une convention entre la BCT et le CGA 
+Dans le cadre du renforcement de la coopération et de la coordination entre les autorités de 
+supervision du secteur financier, une convention a été signée entre la BCT et le Comité 
+Général des Assurances (CGA). Cette convention vise à : 
+• Encadrer la coopération entre les deux régulateurs dans leurs domaines 
+d’intervention communs, notamment les missions d’inspection et les assistances 
+techniques ; 
+• Mettre en place un système d’échange d’informations à des fins statistiques et de 
+supervision ; 
+• Favoriser la concertation sur les projets de textes réglementaires liés à la supervision 
+conjointe et à la protection des droits des clients. 
+ 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+16   
+   
+2-2- Signature d’une convention entre la BCT et la CTAF 
+La publication d'une note de service relative à l’échange de données entre les services de la 
+Banque Centrale de Tunisie et la Commission Tunisienne des Analyses Financières, s’inscrit 
+dans le cadre du renforcement du dispositif national de lutte contre le blanchiment d’argent, 
+le financement du terrorisme et la prolifération  d’armes de destruction massive . Cette 
+initiative traduit la volonté de la BCT d’assurer une meilleure coordination interne et une 
+efficacité accrue dans la gestion des risques. 
+La note vient formaliser et encadrer les modalités de circulation de l’information entre les 
+différentes structures concernées, en particulier avec la CTAF, afin de renforcer la chaîne de 
+vigilance et d’optimiser l’exploitation des données disponibles. Elle favorise la cohérence des 
+analyses, la rapidité de réaction et la fiabilité des décisions tout en contribuant à éviter les 
+cloisonnements susceptibles d’affaiblir l’action de prévention et de supervision. 
+Par cette note, la BCT réaffirme son engagement à se conformer aux meilleures pratiques 
+internationales en matière de lutte contre les flux financiers illicites. L’instauration d’un cadre 
+clair et structuré pour l’échange de données internes constitue une étape importante dans la 
+consolidation de la gouvernance, de la transparence et de la traçabilité, contribuant ainsi à 
+renforcer la crédibilité et l’efficacité du système national de LAB/FT. 
+ 
+3. Formalisation des processus 
+En application des recommandations du GAFI, la BCT a formalisé un nouveau processus de 
+surveillance des risques de BA/FT/FP au niveau du secteur bancaire selon une approche 
+basée sur les risques.  
+Ce nouveau processus repose, notamment, sur l’évaluation du risque de BA/FT/FP au niveau 
+des BEF selon une méthodologie arrêtée par la DGSB à cet effet et qui est largement inspirée 
+du guide pratique établi par la Banque Mondiale avec une adaptation au contexte tunisien.  
+Les résultats de cette évaluation permettent une catégorisation des BEF selon leur profil de 
+risque et une personnalisation des travaux de surveillance des risques de BA/FT/FP visant 
+une meilleure optimisation des efforts et des ressources de la DGSB en les orientant en 
+priorité vers les BEF à profil de risque élevé. 
+ 
+4. Projets en cours 
+4-1- Refonte du cadre réglementaire relatif aux opérations 
+d’externalisation 
+Face au recours croissant des banques aux prestataires de services et aux risques de 
+dépendance qui en découlent, la BCT a engagé une révision de la circulaire n°2006-01 relative 
+aux opérations d’externalisation. 
+Ce projet vise à aligner le cadre national sur les bonnes pratiques internationales, notamment 
+les recommandations du Comité de Bâle. Le nouveau dispositif portera sur : 
+• La gouvernance des opérations externalisées ; 
+• La sélection et la contractualisation avec les prestataires ; 
+• La gestion des risques liés au recours à des prestataires tiers ; 
+• La surveillance continue, y compris en cas d’externalisation à l’étranger. 
+L’objectif est de renforcer la gestion des risques tout en garantissant la sécurité, la conformité 
+et la continuité des services bancaires. 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+17   
+   
+4-2- Cadre normatif portant sur la résilience opérationnelle et les 
+prestataires tiers critiques 
+L’usage croissant de l’intelligence artificielle à des fins malveillantes, l’émergence de 
+nouveaux risques (climatiques, sanitaires) et les enseignements tirés de la pandémie 
+COVID- 19 ont mis en lumière la nécessité d’une résilience opérationnelle renforcée pour 
+assurer la continuité des services critiques. 
+En ligne avec les recommandations du Comité de Bâle, la BCT travaille sur l’élaboration d’un 
+cadre réglementaire structurant visant à : 
+• Renforcer la capacité des BEF à prévenir, détecter et gérer efficacement les risques 
+opérationnels, notamment cybernétiques et technologiques ; 
+• Intégrer la prévention des risques émergents dans la stratégie des banques ; 
+• Garantir la continuité des opérations critiques en toutes circonstances, y compris en 
+période de crise ; 
+• Encadrer le recours à des prestataires tiers pour maîtriser les risques associés ; 
+• Renforcer les dispositifs de gouvernance et de contrôle interne. 
+Ce nouveau cadre offrira une approche proactive et cohérente, assurant la solidité du secteur 
+bancaire face aux défis technologiques tout en alignant les pratiques locales sur les standards 
+internationaux. 
+ 
+4-3- Révision du cadre réglementaire relatif aux établissements de 
+paiement  
+À la suite d'une analyse approfondie de l’activité des établissements de paiement (EP) sur les 
+derniers exercices, la BCT prévoit une révision de la circulaire n°2018-16 dans une logique de 
+dynamisation du marché des paiements et de promotion de l’inclusion financière. 
+Les amendements envisagés visent à assouplir et clarifier certaines dispositions, notamment : 
+• L’allègement des conditions d’ouverture et de fonctionnement des comptes de 
+paiement ; 
+• La mise en place d’un reporting réglementaire spécifique ; 
+• La clarification des conditions d’exercice de l’activité de change manuel ; 
+• L’encadrement des règles de gouvernance ; 
+• L’adaptation des conditions d’ouverture d’agences par les EP à la nature de leur 
+activité. 
+ 
+Section II- Poursuite de la convergence du cadre prudentiel et 
+normatif vers les standards internationaux  
+Après avoir relancé, en 2022, le processus de convergence vers les standards internationaux 
+dans ses deux dimensions prudentielle (Bâle III) et normative (IFRS), les travaux des équipes 
+de la DGSB se sont poursuivis pour aboutir à un projet de texte réglementaire.  
+La BCT a privilégié une démarche consultative et progressiste par  le lancement d’ une 
+consultation élargie auprès des parties prenantes  et la publication de la circulaire aux BEF 
+n°2025-08 portant sur les mesures préalables pour l’adoption de s réformes prudentielles et 
+normatives. 
+ 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+18   
+   
+1. Contenu des réformes 
+Le projet en cours repose sur trois piliers complémentaires : 
+i. La refonte des normes d’adéquation des fonds propres, inspirée des normes Bâle III, avec 
+une approche plus sensible au risque et adaptée au profil des BEF tunisiens. Cette refonte 
+concerne :  
+♦ Les f onds propres prudentiels : définition, composition, filtres et ajustements 
+réglementaires, exigences minimales et volants de fonds propres. 
+♦ La révision de l’approche de calcul du risque de crédit pondéré basée sur la méthode 
+standard révisée (SCRA) de Bâle III. 
+♦ La révision de l’approche de calcul des exigences en fonds propres au titre du risque 
+opérationnel selon la nouvelle approche standard (SMA) de Bâle III. 
+♦ La révision des normes de division et de concentration des risques par référence au 
+cadre bâlois de suivi des grands risques. 
+ii. La révision du cadre de classification et de couverture des risques de crédit en vue d’adopter 
+les meilleures pratiques en matière d’identification, de mesure et de couverture des risques 
+de crédit et d’assurer une cohérence avec les règles de staging et de provisionnement des IFRS 
+9. 
+Les axes de la révision du dispositif actuel (circulaire 91-24) se résument notamment dans : 
+♦ La délimitation du périmètre des actifs objet d’évaluation. 
+♦ La consécration de la définition du défaut conformément aux standards 
+internationaux dans ses deux dimensions quantitative et qualitative (Unlikely to pay). 
+♦ La mise en place d’une nouvelle segmentation de classes de risque en alignement avec 
+les règles de staging IFRS 9. 
+♦ La mise en place d’un cadre approprié pour l’identification et la classification des 
+créances restructurées (forbearance). 
+♦ La clarification des règles de prise en compte des garanties déductibles en exigeant un 
+cadre approprié de contrôle interne des évaluations. 
+ 
+iii. L’élaboration d’un guide d’application de la norme IFRS 9 destiné à préparer le secteur 
+bancaire à adopter ce référentiel une fois la loi promulguée, sans pourtant interférer dans le 
+domaine normatif qui demeure de la compétence du Conseil National de la Comptabilité. Ce 
+guide ne couvre pas l’ensemble des aspects définis par la norme IFRS 9. Il aborde uniquement 
+les orientations et les règles que les BEF doivent suivre lors de l’application de l’approche ECL 
+aux actifs financiers évalués au coût amorti et à la juste valeur par OCI. 
+ 
+2. Consultation élargie 
+La consultation élargie sur le projet de convergence vers les standards internationaux est 
+lancée auprès du ministère des Finances, les autres autorités de régulation du système 
+financier (CMF, CGA et ACM), les BEF et la profession comptable en vue de recueillir leurs 
+avis, commentaires et/ou propositions . Cette cons ultation porte sur trois papiers de 
+discussion :   
+▪ Un document relatif aux normes d’adéquation des fonds propres avec quatre 
+composantes : Fonds propres prudentiels, risque de crédit, risque opérationnel et 
+normes de concentration des risques. 
+▪ Un document sur la révision des règles de classification et de couverture des risques 
+de crédit (refonte de la circulaire n°91-24). 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+19   
+   
+▪ Un guide d’application de la norme IFRS 9 destiné à fournir des directives aux BEF 
+afin d’assurer une application cohérente de la norme. 
+La BCT vise à travers cette démarche de consultation trois objectifs : 
+▪ Faire adhérer les BEF ainsi que les autres parties prenantes à ces réformes 
+structurantes et assurer leur adoption progressive et sans heurt en conciliant entre les 
+exigences de solidité financière et de financement de l’économie. 
+▪ L’ouverture d’un dialogue sur les défis et les implications multiples de ces réformes 
+afin de statuer sur certains aspects qui en découlent d’ordre prudentiel, comptable, 
+financier et, le cas échéant, fiscal.  
+▪ Engager les BEF dès le second semestre de 2025 sur un projet de pilotage stratégique 
+et opérationnel de l’application de ces réformes surtout sur les plans de pilotage des 
+fonds propres, de gouvernance DATA, de construction des modèles ECL, de systèmes 
+d’information et comptable et de processus. 
+ 
+3. Mesures préalables pour l’adoption de s réformes 
+prudentielles et normatives 
+La circulaire n°2025-08 du 16 mai 2025 fixe les prérequis opérationnels devant être respectés 
+par les BEF pour une mise en œuvre maîtrisée des réformes : gouvernance dédiée, plan de 
+mise en œuvre, dispositifs de pilotage, gestion des données et adaptation des systèmes 
+d’information. 
+Dans ce cadre, l es BEF doivent mettre en place un plan stratégique et opérationnel  pour la 
+conduite du projet global des réformes prudentielles et normatives . Le plan stratégique et 
+opérationnel susvisé doit être adapté à la taille de l’établissement, à son profil de risque ainsi 
+qu’à la nature et à la complexité de ses activités et de ses opérations.  Le conseil 
+d’administration doit approuver ce plan et veille à sa mise en œuvre effective. 
+La conduite du projet de réformes doit être assurée par un comité de pilotage dédié sous la 
+surveillance du comité d’audit et du comité des risques. 
+Pour appuyer la mise en œuvre des réformes prudentielles et normatives, un dispositif 
+structuré et transversal de gouvernance des données doit être implémenté par les BEF.  Ce 
+dispositif vise à garantir la qualité, l’intégrité, la traçabilité, la sécurité et la disponibilité des 
+données utilisées pour les calculs prudentiels, la modélisation des pertes de crédit attendues 
+(ECL) et le reporting réglementaire et financier. 
+ 
+Section III - Surveillance des pratiques bancaires et de 
+l’Innovation Financière 
+Dans le cadre de sa mission de surveillance des pratiques bancaires et à l’occasion de l’entrée 
+en vigueur de la circulaire n°2024 -02 du 29 janvier 2024  relative aux conditions de 
+commercialisation et de tarification des produits et services financiers, la Banque Centrale de 
+Tunisie réaffirme son engagement à renforcer la transparence, l’éthique et la protection des 
+clients dans les relations entre les banques et leur clientèle. 
+S’inscrivant dans une dynamique de modernisation du cadre réglementaire, cette circulaire 
+vise à encadrer les pratiques commerciales, promouvoir une concurrence saine, garantir une 
+Chapitre 1 : Evolution du dispositif réglementaire et prudentiel de la supervision bancaire 
+20   
+   
+tarification équitable et fournir aux usagers des services bancaires une information claire leur 
+permettant de faire des choix éclairés. 
+Il convient de rappeler que la BCT a gelé toute augmentation des conditions tarifaires 
+bancaires jusqu’au 31 décembre 2024. 
+Par ailleurs, en réponse à l’entrée en vigueur de la loi n°2024 -41 modifiant certaines 
+dispositions du Code de commerce visant notamment à rationaliser l’usage des chèques, la 
+BCT a enregistré une hausse significative des demandes formulées par les banques  pour le 
+développement de solutions alternatives. 
+Ces initiatives ont pour objectif d’améliorer l’expérience client tout en favorisant la transition 
+vers des moyens de paiement digitaux, plus sûrs et traçables. 
+Parmi ces solutions innovantes, certaines s’inspirent du modèle "Buy Now, Pay Later" 
+(BNPL), qui permet d’offrir une plus grande flexibilité budgétaire grâce au fractionnement 
+des paiements ou à l’accès à des lignes de crédit renouvelables. Toutefois, les approches 
+commerciales varient sensiblement d’une banque à l’autre, tant sur les plans fonctionnel et 
+technique que tarifaire. 
+Le tableau ci-dessous présente les principales solutions ayant obtenu l’accord de la BCT : 
+Solution Nombre de banques 
+concernées 
+Paiement fractionné adossé à une carte  1  
+Avance de trésorerie sur carte sous forme de prêt de bienfaisance (sans intérêt) 2 
+Avance de trésorerie sur carte sans intérêt mais avec prélèvement de commission 3  
+Lignes de financement avec intérêt 3 
+Module digital accessible via une application mobile moyennant une commission 1 
+ 
+Section IV- Verdissement du système financier 
+Dans le cadre de son plan stratégique 2023-2025, la BCT a initié un projet stratégique portant 
+sur «  Le verdissement du système financier et l’intégration de la dimension 
+risque climatique dans la régulation  ». Ce projet bénéficie de l’appui technique de 
+plusieurs partenaires internationaux et couvre, notamment, les aspects suivants : 
+o L’élaboration d’une feuille de route  sur la gestion des risques climatiques et le 
+développement de la finance verte. 
+o Le développement des capacités de la BCT et du secteur financier en matière de suivi 
+des risques climatiques et de développement des pratiques de la finance durable.  
+o L’évaluation de l’exposition du secteur bancaire au risque climatique. 
+o L’ajustement du cadre prudentiel pour intégrer la dimension climatique. 
+o L'évaluation du degré de verdissement du portefeuille de certaines banques de la place 
+(Green Portfolio Review).  
+o La préparation de l’écosystème à la mobilisation des fonds nécessaires au 
+développement de la finance durable.  
+ 
+21   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Chapitre 2 
+ 
+ACTIVITE DE LA SUPERVISION BANCAIRE 
+Chapitre 2 : Activité de la supervision bancaire 
+22   
+   
+Chapitre 2 : Activité de la supervision bancaire 
+Section I- Agréments, autorisations et sanctions 
+1. Travaux de la commission d’agréments 
+Depuis le début de son activité en avril 2017 et jusqu’à la fin de l’année 2024, la commission 
+d’agréments a tenu 35 réunions et examiné 60 dossiers de demande d’agrément. 
+Au cours de l’année 2024, elle a instruit 4 dossiers qui ont été soumis pour décision au 
+secrétariat de la commission et qui sont répartis comme suit :  
+• Un agrément pour le franchissement , par un nouvel actionnaire privé étranger,  
+du seuil du cinquième dans le capital d’une société de leasing dans le cadre des 
+dispositions de l’article 34 de la loi n°2016-48.     
+• Un agrément de principe pour la création d’un établissement de paiement.    
+• Un agrément définitif pour la création d’un établissement de paiement dans le 
+cadre des dispositions des articles 10, 20 et 24 de la loi n°2016-48.    
+• Un agrément pour une opération de réduction du capital d’une banque dans le 
+cadre des dispositions de l’article 24 de la loi n°2016-48.  
+2. Commission des sanctions  
+La Commission des sanctions, instituée par l’article 171 de la loi n°2016-48, constitue l’un 
+des piliers du régime des sanctions disciplinaires. 
+Depuis sa mise en place, la Commission a tenu six réunions : deux en 2022 et quatre en 
+2023. Ces réunions ont été consacrées à l’élaboration de son règlement intérieur. Ce projet 
+de règlement a été soumis à la Présidence du Gouvernement dans sa dernière mouture le 27 
+juin 2025 en vue de sa publication et a fait l’objet d’une concertation élargie avec les services 
+du Conseiller juridique et de législation du Gouvernement ainsi qu’avec le ministère de la 
+Justice, le ministère des Finances et le ministère du Commerce et du Développement des 
+Exportations. 
+3. Dossiers d’autorisations et d’approbations  : Gouvernance 
+des BEF  
+Au titre de l’exercice 2024, la BCT a instruit 93 dossiers portant sur la nomination des 
+membres des organes de gouvernance des BEF tels que présentés comme suit :  
+ 
+Catégories Banques Sociétés de 
+Leasing 
+Etablissements 
+de Paiement 
+Total par 
+catégorie 
+Administrateur Ordinaire  33 4 2 39 
+Administrateur indépendant 18 8 - 26 
+Administrateur représentant les 
+actionnaires minoritaires  4 4 - 8 
+Directeur Général  7 1 - 8 
+Directeur Général Adjoint  6 - 1 7 
+Président du Conseil d’Administration  4 - 1 5 
+Total général 72 17 4 93 
+  
+L’instruction des dossiers transmis par les BEF à la BCT dans le cadre des dispositions de 
+l’article 55 de la loi bancaire se base sur les critères d’intégrité et de réputation, de 
+Chapitre 2 : Activité de la supervision bancaire 
+23   
+   
+qualifications scientifiques, de compétences et d’expérience professionnelle et de leur 
+concordance avec les fonctions confiées à la personne concernée ainsi que l’absence 
+d’interdictions et ce, dans le strict respect des dispositions légales et réglementaires de la loi 
+n°2016-48 ainsi que la circulaire n°2021-05 relative au cadre de gouvernance des BEF.   
+4. Dossiers d’autorisation des commissaires aux comptes 
+Au titre de l’exercice 2024, la BCT a instruit 26 dossiers relatifs à la nomination des 
+commissaires aux comptes des BEF. Ces dossiers sont instruits par la BCT dans le cadre des 
+dispositions des articles 92, 93, 94 et 95 de la loi 2016-48, ainsi que de la circulaire 2022-03 
+fixant les conditions à respecter par les BEF lors de la désignation du ou des commissaires 
+aux comptes. 
+ 
+Section II- Activité de la surveillance sur Pièces et sur Place 
+La surveillance prudentielle des banques et des établissements financiers est exercée sur la 
+base d’un guide méthodologique de surveillance interne inspiré des bonnes pratiques 
+internationales. Cette surveillance repose sur :  
+- un contrôle permanent exercé sur la base de documents remis périodiquement par les 
+banques et les établissements financiers et des échanges réguliers avec les représentants 
+des fonctions clés de ces établissements et les commissaires aux comptes,  
+- et un contrôle périodique sur place orienté en fonction des résultats des travaux du 
+contrôle permanent. 
+1. Surveillance permanente des BEF  
+En 2024, les travaux de la surveillance permanente des BEF’s ont été focalisés sur l’évolution 
+du profil de risque de crédit en rapport avec la conjoncture économique, la couverture des 
+risques latents et le renforcement de l’assise financière du secteur bancaire.   
+Ainsi, les notes et rapports élaborés et les échanges avec les banques et les établissements 
+financiers ont porté sur :  
+- L’évolution du profil de risque de crédit et de liquidité des banques.  
+- L’évolution des paramètres de risque des principaux secteurs d’intervention des 
+banques.  
+- L’évolution de la situation des principaux groupes d’affaires.  
+- Les demandes d’un moratoire pour la résorption des encours de contre -garanties 
+bancaires croisées conclues dans l’objectif de conformité réglementaire.  
+- Les dispositifs internes de gestion des risques (organisation, moyens, procédures, etc.) 
+y compris le  risque de BA/FT et le suivi de l’état d’avancement de la mise en place 
+des plans d’actions présentés à la BCT suite à des missions d’inspection portant sur 
+ce volet. 
+- La validation des provisions collectives constituées par les banques et les 
+établissements financiers au titre de 2024 en couverture des risques latents.  
+- L’examen des demandes de distribution des dividendes au titre de 202 4 soumises à 
+l’accord préalable de la BCT.  
+Chapitre 2 : Activité de la supervision bancaire 
+24   
+   
+Les travaux de la surveillance permanente ont porté aussi sur :  
+- Le suivi de la mise en place des dispositions de la circulaire n°2021-05 relative au cadre 
+de gouvernance des banques et des établissements financiers et de la circulaire 
+n°2022-01 relative à la prévention et la résolution des créances non performantes.  
+- Le suivi de la mise en place des plans d’actions ou des programmes de redressement 
+présentés par les banques et les établissements financiers à la BCT suite aux 
+notifications portant, notamment, sur le renforcement des dispositifs de gouvernance, 
+de gestion des risques et de contrôle interne incluant la lutte contre le blanchiment 
+d’argent et le financement du terrorisme.   
+Le bilan opérationnel de l’analyse micro-prudentielle et de l’évaluation des profils de risque 
+des BEF au titre de l’année 2024 se présente comme suit : 
+ 
+Tableau 1:  Bilan opérationnel de l'activité de la surveillance permanente 
+ TOTAL 
+Réunions avec les BEF  57 
+Réunions dans le cadre de l'évaluation au titre de 2024 12 
+Réunions stratégiques avec les premiers responsables  
+(sous l'égide du Gouverneur de la BCT) 13 
+Réunions thématiques 11 
+Autres réunions 21 
+Notes et rapports sur la situation des BEF  91 
+Rapports d'évaluation 29 
+Notes spécifiques  46 
+Notes sectorielles/communes 16 
+Notifications aux BEF  53 
+Notifications relatives à l’évaluation 9 
+Notifications à la suite d’une mission d'inspection 6 
+Notifications sectorielles/communes 6 
+Autres notifications  32 
+ 
+2. Surveillance sur place 
+Le programme d’inspection est arrêté sur la base des constats des travaux d’évaluation sur 
+pièces (par la surveillance permanente) de la situation des BEF.  
+Ainsi, le programme d’inspection de 2024 a porté, notamment, sur :  
+- L’évaluation des dispositifs de gouvernance et de contrôle interne.   
+- Un contrôle général auprès d e certains établissements financiers de leasing et de 
+factoring.  
+- La vérification de la conformité de l’activité de certains établissements de paiement 
+par rapport aux termes des agréments accordés par la BCT en 2021.  
+- L’évaluation du dispositif de LAB/FT de certaines banques. 
+- L’évaluation du dispositif de reporting réglementaire. 
+- La vérification de la mise en œuvre du dispositif de prévention et de résolution des 
+créances non performantes. 
+ 
+Chapitre 2 : Activité de la supervision bancaire 
+25   
+   
+3. Mesures disciplinaires prises 
+L’activité de la supervision a donné lieu aux sanctions disciplinaires suivantes infligées à 
+l’encontre des BEF en 2024 : 
+Tableau 2:  Mesures disciplinaires prises 
+Banque/EF Motif de la sanction  Nature de 
+la sanction   
+Montant  
+(En mDT) 
+Banque A  Non-respect du ratio "crédits/dépôts" (LTD)  Amende  40,7 
+Banque B  Non-respect du ratio réglementaire de liquidité (LCR)  Amende  79,8 
+Banque C  Non-respect du ratio réglementaire de liquidité (LCR) Amende  16,4 
+Banque D  Non-respect du ratio "crédits/dépôts" (LTD)   Amende  173,3 
+Banque E  Non-respect de la norme d'exposition sur les parties liées  Amende  60,9 
+Etablissement 
+Financier A  
+Non-respect de la norme d'exposition sur un même 
+bénéficiaire  Amende  12,5 
+Total des sanctions pécuniaires infligées et recouvrées par le Trésor public  383,6 
+ 
+Section III - Développement des capacités de la supervision 
+bancaire 
+1. Ressources humaines 
+L’effectif de la DGSB est composé de 39 cadres dont 64% sont des femmes. Près de 54% de 
+cet effectif est d’un âge inférieur ou égal à 40 ans.   
+L’ancienneté moyenne à la supervision Bancaire est de 9 ans et près de 62% de l’effectif ont 
+une ancienneté de plus de 5 ans à la DGSB.   
+La répartition de l’effectif de la Supervision Bancaire par tranche d’âge et par genre se 
+présente ainsi : 
+ 
+  
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Age<=30 30<Age<=40 40<Age<=50 Age>50
+Effectif de la supervision bancaire
+Hommes
+Femmes
+Chapitre 2 : Activité de la supervision bancaire 
+26   
+   
+2. Assistance technique 
+Dans le cadre de l’accompagnement de la BCT dans la réalisation des différents projets micro 
+et macro prudentiels, la supervision bancaire continue, au cours de l’année 2024 à bénéficier 
+du soutien des instances internationales dont, principalement, la Banque Mondiale.  
+ 
+3. Renforcement des compétences de la supervision 
+La formation des superviseurs constitue un des principaux enjeux du développement des 
+capacités opérationnelles de la supervision bancaire, stimulant la conduite du changement 
+et soutenant la mise en œuvre des différentes réformes en complément des actions  
+d’assistance technique.   
+Ainsi, les cadres de la supervision bancaire ont bénéficié au cours de 202 4 d’un total de 24 
+formations et workshops en ligne, en mode présentiel ou en mode blended, organisés par 
+des instances régionales et internationales pour une durée globale de 168 jours à raison de 
+4,3 jours de formation par cadre en moyenne et ce, compte non tenu de 6 formations 
+certifiantes au profit de 9 cadres. 
+Ces actions de formation et workshops ont couvert différents domaines liés à la supervision 
+bancaire, notamment :   
+- LAB/FT : « Improving Anti -money Laundering and combating the financing of 
+terrorism Regime : A wholistic approach to mitigate financial crimes » 
+- Comptable : « Accounting for banking supervisors »  
+- Prudentiel : « Banques de taille systémique  » et « Pillar 2 Supervisory Review 
+Approaches » 
+- Durabilité : « Changement climatique et Banque Centrale » et « Finance verte » 
+- Digital et innovations technologique s : « Central Bank Digital Currency », 
+« Accelerating responsible innovation through Regulatory Technology (RegTech) », 
+« Innovations in the field of cashless payments » 
+- Cybersécurité : « Cybersecurity Compliance and System Administration » et «  Cyber 
+Risk Supervision » 
+ 
+Pour ce qui est des cycles de formations certifiantes, les principaux thèmes abordés ont 
+concerné : « Fondamentaux de la LAB/FT  », « AML Foundations for Private Banking and 
+Wealth Management  », « Certified Stress Testing Expert - Basel III  », « Certified Pillar 3 
+Expert - Basel III », « Climate-related and environmental risks ».
+ 
+27   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Chapitre 3 
+ 
+STABILITE FINANCIERE ET SURVEILLANCE 
+MACRO-PRUDENTIELLE 
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+28   
+   
+Chapitre 3 : Stabilité Financière et Surveillance 
+Macro-prudentielle 
+En 2024, le secteur bancaire a continué à consolider ses assises financières , malgré un 
+contexte économique difficile qui s’est traduit par une montée des créances non 
+performantes. Dans ce contexte, la BCT a poursuiv i son approche prudente avec le 
+renforcement des règles de calcul des provisions collectives et l’encadrement de la 
+distribution des dividendes et ce, en vue de consolider l’assise financière. 
+Par ailleurs, l’activité bancaire a été marquée par le ralentissement de la dynamique du crédit 
+et la croissance soutenue des dépôts. 
+Dans ce contexte, le Comité de Surveillance Macro -prudentielle et de Gestion des Crises 
+Financières (CSM) a tenu sa dixième réunion le 7 novembre 2024 et a convenu de poursuivre 
+la veille macro -prudentielle en vue de contenir les risques systémiques et de préserver la 
+stabilité financière ainsi que de coordonner les initiatives en matière de verdissement du 
+secteur financier. 
+Section I - Risques liés à l’évolution de la conjoncture 
+économique 
+L’année 2024 a connu la persistance des vulnérabilités macro -économiques ayant trait à la 
+faiblesse de la croissance économique et aux défis liés au financement du déficit budgétaire 
+dans un contexte international marqué par la montée des tensions géopolit iques. En 
+revanche, la détente graduelle de l’inflation et la contraction du déficit de la balance courante 
+ont constitué des développements favorables  ont relativement atténué l’intensité de 
+vulnérabilités. 
+L'activité économique a enregistré une croissance de 1,4% au titre de l’année 2024 après le 
+ralentissement enregistré en 2023. Cette légère reprise a été tirée principalement par 
+l’accroissement de la valeur ajoutée du secteur de l’agriculture et, à un moindre degré, celle 
+du secteur des services. En revanche, les secteurs de l’industrie et de la construction ont 
+enregistré un repli par rapport à 2023. 
+Au niveau des prix à la consommation, le taux d’inflation a poursuivi sa détente graduelle 
+pour atteindre 6,2% en décembre 2024 contre 8,1% en décembre 2023.  Toutefois, la 
+trajectoire future de l’inflation reste entourée de risques haussiers. 
+Sur un autre plan, la situation des finances publiques a été marquée par une baisse du déficit 
+budgétaire en 2024 à 6% du PIB contre 7,6% en 2023. Toutefois, le Trésor a eu recours 
+essentiellement aux ressources intérieures pour le financement du déficit d ans un contexte 
+marqué par des difficultés de mobilisation des ressources extérieures à l’instar de l’année 
+précédente.  
+En effet, l’Etat a levé sur le marché local un montant de 19,9 milliards de dinars en 2024 
+sous forme de bons du Trésor (+14,3 milliards) et au titre de l’emprunt obligataire national 
+(+5,1 milliards) ainsi que 570 MDT sous forme d’un prêt syndiqué en devi ses. Le Trésor a 
+également mobilisé 6,7 milliards de dinars auprès de la BCT sous forme de facilité accordée 
+par la BCT au Trésor. 
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+29   
+   
+Ainsi, l’encours des financements bancaires à l’Administration et aux entreprises publiques1 
+s’est élevé à 43 milliards de dinars à fin 2024 soit 27,4% du total des actifs nets des banques 
+(contre 34,7 milliards de dinars ou 24% à fin 2023). 
+Malgré cette hausse des besoins de financement du secteur public, les interventions de la 
+BCT sur le marché monétaire ont enregistré une baisse significative avec le repli du volume 
+global de refinancement de 14,3% pour se situer à 13,1 milliards de dinars à fin 2024 contre 
+15,3 milliards de dinars une année auparavant. 
+Concernant la situation du secteur extérieur, le déficit courant a affiché une contraction 
+significative pour revenir à 1, 5% du PIB au terme de l’année 2024 contre 2, 2% du PIB en 
+2023 en rapport principalement avec l’amélioration des revenus du travail (9,8 milliards de 
+dinars) et des recettes touristiques (7,5 milliards de dinars). Cette amélioration de la balance 
+courante a permis d’atténuer l’impact du creusement du déficit commercial, qui a atteint 
+18,9 milliards de dinars en 2024 contre 17,1 milliards de dinars en 2023, sous l’effet de 
+l’élargissement du déficit énergétique à 10,9 milliards de dinars à fin 2024 contre 9,7 
+milliards de dinars en 2023. 
+Aussi, la bonne tenue de la balance courante a permis la consolidation des avoirs nets en 
+devises qui ont totalisé 27.332 MDT à fin 2024 ou 121 jours d’importation (contre 26.408 
+MDT ou 120 jours au terme de 2023). 
+ 
+Section II- Evolution du financement de l’économie2 
+En 2024, l’encours des crédits à l’économie a atteint 118,6 milliards de dinars enregistrant 
+ainsi le même rythme d’accroissement observé au cours de l’année 2023 ; soit 2,8%.  
+1. Les crédits aux professionnels 
+L’analyse de l’évolution des crédits par catégorie de bénéficiaire fait apparaître  une forte 
+augmentation de l’encours des crédits accordés aux entreprises publiques passant de 9,5% 
+en 2024 contre 8,3% en 202 3 alors que l'évolution de l’encours des crédits accordés aux 
+entreprises privées s’est maintenue à 1,5% au même titre qu’en 2023. 
+Par ailleurs, la répartition sectorielle des crédits aux professionnels fait apparaître une 
+hausse de la part des crédits consentis aux secteurs des services et de l’agriculture et au 
+détriment du secteur de l’industrie.  
+ 
+Tableau 3: Répartition de l’encours des crédits par secteur 
+Désignation 2022 2023 2024 
+Variations en % 
+2023 
+2022 
+2024 
+2023 
+- Agriculture et pêche 3.615 3.968 4.276 9,7 7,8 
+Entreprises et administration publiques 191 246 285 28,7 16,0 
+Entreprises privées 3.424 3.722 3.991 8,7 7,2 
+- Industrie 36.906 37.310 38.370 1,1 2,8 
+ 
+1 Il s’agit de l’encours des titres de l’Etat détenus en portefeuille par les banques, des crédits syndiqués à 
+l’Administration et des crédits aux entreprises publiques. 
+2 Données de la Centrale d'informations de la BCT. 
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+30   
+   
+Désignation 2022 2023 2024 
+Variations en % 
+2023 
+2022 
+2024 
+2023 
+Entreprises et administration publiques 2.729 3.101 4.262 13,6 37,4 
+Entreprises privées 34.177 34.209 34.108 0,1 -0,3 
+- Services 43.879 45.410 46.568 3,5 2,5 
+Entreprises et administration publiques 11.509 12.273 12.564 6,6 2,4 
+Entreprises privées 32.370 33.137 34.004 2,4 2,6 
+Crédits aux entreprises et aux professionnels 84.400 86.688 89.213 2,7 2,9 
+Entreprises et administration publiques 14.429 15.620 17.111 8,3 9,5 
+Entreprises privées 69.971 71.068 72.102 1,5 1,5 
+ 
+2. Les crédits aux particuliers 
+L’endettement des particuliers auprès du secteur bancaire a totalisé 29.407 MDT en 2024 
+contre 28.754 MDT l’année précédente, soit une progression de 2,3% (contre 3,1% en 2023 
+et 4,8% en 2022 ). Cette décélération s’explique principalement par le fort ralentissement 
+des crédits à l’habitat dont le taux de croissance s’est limité à 0,8% en 2024. 
+Par ailleurs, la part des crédits aux particuliers dans le total des crédits à l’économie s’est 
+stabilisée au cours des trois dernières années, atteignant 24,8% à fin 2024.  Leur part dans 
+le PIB est passée à 18,5% en 2024 contre 19,3% en 2023. 
+ 
+Tableau 4: Répartition de l’encours des crédits accordés aux particuliers par objet de 
+financement 
+Désignation 2022 2023 2024 
+Variations en % 
+2023 
+2022 
+2024 
+2023 
+Crédits à l’habitat 12.505 12.917 13.014 3,3 0,8 
+Crédits à la consommation 15.393 15.837 16.393 2,9 3,5 
+Aménagement de logements 10.563 10.712 10.944 1,4 2,2 
+Dépenses courantes 1.880 1.930 2.001 2,6 3,7 
+Découverts 1.637 1.776 1.931 8,5 8,7 
+Véhicules 395 409 410 3,7 0,2 
+Autres 918 1.010 1.107 10,0 9,7 
+Total 27.898 28.754 29.407 3,1 2,3 
+Source : Centrale d’Informations de la BCT 
+ 
+Section III- Analyse des risques bancaires 
+1. Risques liés à l’expansion du crédit  
+L’écart entre le ratio crédit par rapport au PIB et sa tendance de long terme s’est davantage 
+creusé en 2024 faisant suite à un accroissement du crédit bancaire à un rythme moins 
+important que celui de la croissance de l’activité économique . Cette situation reflète un 
+ralentissement continu de la demande de financement en rapport avec la persistance de la 
+conjoncture économique difficile et ses répercussions sur les entreprises et les particuliers. 
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+31   
+   
+Graphique 1 : Evolution du Gap du ratio crédit au secteur privé / PIB par rapport à sa tendance 
+de long terme (en %) 
+  
+ 
+ 
+La dynamique du crédit par type de bénéficiaire montre une poursuite de l’accroissement 
+des crédits aux entreprises publiques contre un ralentissement des crédits au secteur privé 
+ce qui a ramené la contribution des crédits au secteur privé à 38% de l’accr oissement des 
+crédits professionnels contre 54,5% en 2023. Pour leur part, les crédits aux ménages ont 
+connu une décélération en 2024 avec une baisse de la part des crédits logement à 14,9% de 
+l’évolution des crédits aux particuliers contre 48,1% en 2023. 
+ 
+Tableau 5:  Evolution des principaux indicateurs du risque de crédit (%) 
+Désignation 2016 2017 2018 2019 2020 2021 2022 2023 2024 
+GAP du crédit hors 
+administration /PIB   1,7 5,1 2,8 -1,8 3,6 0,0 2,2 -2,5 -5,7 
+Contribution des crédits au 
+secteur privé dans l'évolution des 
+crédits professionnels hors 
+administration 
+98,0 88,1 90,3 54,5 45,8 69,4 68,0 54,5 38,0 
+Contribution des crédits logement 
+dans l'évolution des crédits aux 
+particuliers 
+49,8  52,6  67,9  74,3  22,9  31,2  45,1  48,1  14,9 
+ 
+ 
+2. Risques liés à la concentration par secteur d’activité 
+économique  
+L’indice de concentration sectorielle IHH des crédits aux professionnels révèle une légère 
+augmentation de la concentration sectorielle à fin 2024 avec une hausse des parts dans les 
+crédits aux professionnels du secteur de l’industrie et des autres services en relation avec la 
+hausse des engagements des activités financières et de l’Administration publique. En 
+revanche, les parts des secteurs du commerce, de la promotion immobilière et du tourisme 
+dans les crédits professionnels ont reculé en 2024. 
+ 
+
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+32   
+   
+Concernant l’indice de concentration des crédits IHH aux particuliers, il a connu une légère 
+hausse à fin 2024 tirée par l’accroissement de la part des crédits à la consommation au 
+détriment des crédits logement. 
+ 
+Tableau 6:  Evolution de l’indice de concentration sectorielle des crédits professionnels et des 
+crédits aux particuliers (IHH) 
+Désignation 2022 2023 2024 
+Crédits aux professionnels   22,5 %   22,6 %  22,7 % 
+Crédits aux particuliers  50,5 % 50,5 % 50,6 % 
+ 
+ 
+Graphique 2:Répartition sectorielle des crédits professionnels et des crédits aux particuliers 
+(en %) 
+Crédits aux professionnels Crédits aux particuliers 
+ 
+ 
+ 
+ 
+L’année 2024 a été marquée également par la poursuite du recours du Trésor aux ressources 
+intérieures auprès du secteur bancaire pour un montant total levé de 20,5 milliards  de 
+dinars. Aussi, les crédits accordés aux entreprises publiques ont enregistré une 
+augmentation de 13,1% en 2024 pour se situer à 14.537 MDT. 
+
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+33   
+   
+Graphique 3 : Evolution du financement bancaire de l’Etat et des entreprises publiques 
+ 
+ 
+Parallèlement, les expositions des banques résidentes sur les 5 et 10 plus grands 
+emprunteurs privés ont poursuivi leur tendance baissière pour représenter respectivement 
+47,5% et 77,9% des fonds propres nets de base du secteur bancaire en 2024 contre 49,9% et 
+80,9% en 2023. 
+ 
+Graphique 4 : Engagements des 5/10 premiers groupes privés dans les fonds propres nets de  
+base des banques résidentes 
+ 
+Les expositions des banques sur les 5 et 10 plus grands emprunteurs publics hors 
+administration ont enregistré une reprise en 2024 pour représenter respectivement 81,3% 
+et 100,8% des fonds propres nets de base des banques contre 71,4% et 89,1% en 2023. 
+ 
+Graphique 5:Engagements des 5/10 premiers opérateurs publics dans les fonds propres nets de 
+base des banques 
+ 
+
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+34   
+   
+3. Risques liés à la qualité des actifs 
+L'exercice 2024 a été marqué par la poursuite de la dégradation de la qualité des actifs du 
+secteur bancaire pour la troisième année consécutive et ce, en lien avec l e contexte 
+économique difficile.  
+Tableau 7:   Evolution de la part des créances classées par opérateur (%) 
+Part des créances classées en % 2021 2022 2023 2024 
+Entreprises privées 18,1 17,1 18,7 19,9 
+Particuliers 7,4 7,6 7,7 8,0 
+Taux de créances classées global 13,0 12,6 13,6 14,5 
+ 
+La répartition des créances classées par type d'agent économique a été marqué e par la 
+poursuite de la détérioration du taux des créances classées des entreprises privées pour 
+atteindre 19,9% à fin 2024, tirée principalement par la hausse du taux des créances non 
+performantes sur les petites et moyennes entreprises. Aussi, la part des créances classées 
+dans les engagements des particuliers a-t-elle connu une légère augmentation pour s’élever 
+à 8% à fin 2024. 
+Graphique 6 : Évolution de la répartition sectorielle de l'encours des créances classées du 
+secteur bancaire (en %) 
+  
+   
+ 
+Source : Centrale d’Informations de la BCT 
+ 
+La ventilation des créances classées par secteur montre le maintien de la concentration sur 
+les secteurs de l’industrie, des constructions et du commerce qui ont accaparé 64,5% de 
+l’encours des créances classées en 2024 contre 62,8% en 2023. Réunis, ces trois secteurs 
+représentent 54,7% des engagements du secteur bancaire. 
+Par ailleurs, les taux des créances classées des différents secteurs ont connu des évolutions 
+défavorables en 2024 à l’exception du secteur agricole dont le taux des créances classées est 
+revenu à 21,5% en 2024 contre 22,3% en 2023. 
+ 
+ 
+
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+35   
+   
+Tableau 8:  Évolution des taux des créances classées dans le total engagement par secteur (en 
+%) 
+Secteur d’activité 2023 2024* 
+Agriculture 22,3 21,5 
+Industrie 17,3 18,0 
+Constructions 24,2 27,1 
+Commerce 11,7 13,1 
+Tourisme 33,3 35,6 
+Autres services  10,1 10,0 
+Total engagement des professionnels 15,8 16,7 
+Particuliers 7,7 8,0 
+*Données provisoires 
+ 
+Source : Centrale d’Informations de la BCT 
+ 
+ 
+4. Risque de liquidité  
+L’année 2024 a connu une atténuation des risques sur la liquidité bancaire en rapport avec 
+le ralentissement de l’activité du crédit et la bonne dynamique enregistrée en matière de 
+collecte des dépôts. 
+Conséquemment, la part du refinancement dans le total des ressources des banques a 
+poursuivi sa tendance baissière en 2024 pour revenir à 4,6% en 2024 contre 4,8% en 2023 
+reflétant une diminution des besoins des banques en liquidité. 
+ 
+Section IV- Risques liés à l’activité du marché financier et à 
+l’épargne collective 
+En 2024, l’indice Tunindex a continué sa tendance haussière en affichant une performance 
+positive de 13,7%, en 2024, marquant une accélération par rapport à sa hausse de 7,9% 
+enregistrée en 2023.  
+Graphique 7: Evolution des indices Tunindex et Tunbank 2019 - 2024 
+ 
+ 
+
+Chapitre 3 : Stabilité Financière et Surveillance Macro-prudentielle 
+36   
+   
+En 2024, le volume des émissions de bons du Trésor sur le marché primaire a diminué de 
+11,8%, s’établissant à 14.327 MDT, tandis que les Bons du Trésor Assimilables (BTA) ont 
+repris, représentant 32% de ces émissions après une quasi-absence en 2023. D’un autre côté, 
+l’emprunt obligataire national 2024 a permis de mobiliser 5 100 MDT.  
+Pour ce qui est des émissions privées par appel public à l’épargne (APE), elles sont revenues 
+à 365 MDT en 2024 contre 522 MDT en 2023 marquant une deuxième baisse annuelle 
+consécutive et ont été effectuées exclusivement par les institutions financières su r le 
+compartiment obligataire.  
+La part de l'investissement étranger en portefeuille dans la capitalisation boursière a 
+diminué, passant de 21,2% à fin 2023 à 19,6% au terme de l'année 2024. Le solde net des 
+transactions réalisées par les investisseurs étrangers sur la cote de la Bourse a été négatif, 
+atteignant 96 MDT. 
+Par ailleurs, quatre sociétés ont été radiées de la cote de la bourse, à savoir « SERVICOM », 
+« MIP », « ELECTROSTAR » et « Gif-Filter », ce qui a ramené le nombre des sociétés cotées 
+à 74 unités à fin 2024.   
+La dynamique positive de l’activité des OPCVM a continué avec un rendement annuel de 
+6,5% en 2024 contre 6,1% en 2023 et un accroissement des actifs nets de 1 217 MDT ou 21% 
+en 2024 pour se situer à 7 005 MDT. Les unités obligataires accaparent 86% de ces actifs.  
+ 
+ 
+37   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Chapitre 4 
+ 
+STRUCTURE ET PHYSIONOMIE DU SECTEUR 
+BANCAIRE ET FINANCIER TUNISIEN 
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+38   
+   
+Chapitre 4 : Structure et Physionomie du Secteur 
+Bancaire et Financier Tunisien 
+Section I- Structure du Secteur Bancaire et Financier selon la 
+nature de l’activité 
+Le paysage financier tunisien a été renforcé en 202 4 par l’agrément accordé au sixième 
+établissement de paiement : Firstpay.   
+Par conséquent, le nombre total des BEFs s’élève désormais à 4 7 répartis entre 22 banques 
+résidentes, 7 banques non-résidentes, 8 établissements de leasing, 2 sociétés de factoring, 2 
+banques d’affaires et 6 établissements de paiement. 
+Tableau 9: Evolution du nombre d’établissements agréés 
+ 2020 2021 2022 2023 2024 
+Banques 30 30 29 29 29 
+  Résidentes 23 23 223 22 22 
+  Non-résidentes  7 7 7 7 7 
+Établissements Financiers 12 14 16 17 18 
+  Établissements de leasing 8 8 8 8 8 
+  Sociétés de factoring 2 2 2 2 2 
+  Banques d’affaires 2 2 2 2 2 
+  Établissements de paiement  - 2 4 5 6 
+Total 42 44 45 46 47 
+ 
+Selon leur business model, les 22 banques résidentes sont réparties entre 17 banques 
+universelles, 2 banques4 spécialisées dans le financement des micro-projets et des PME et 3 
+banques5 spécialisées dans l’activité bancaire islamique.  
+ 
+Section II - Structure du secteur bancaire selon la nature de 
+l’actionnariat 
+1. Banques résidentes 
+Le capital des banques résidentes s’élève à 4 592 MDT à fin 2024 ; soit une augmentation de 
+99,5 MDT par rapport à 2023 expliquée par les augmentations de capital réalisées par :  
+ 
+- ABC- Tunisie : augmentation de 32 MDT portant le capital de la banque à 100 MDT et 
+ce, en deux tranches successives. La première tranche a été effectuée à hauteur de 
+10,9 MD par voie d'incorporation des résultats reportés et la seconde a été effectuée à 
+hauteur de 21,1 MD dont la souscription a été réservée à l'actionnaire ABC BSC. 
+- BIAT : augmentation de 25,5 MDT par incorporation des réserves portant le capital de 
+la banque à 204 MDT. 
+- Amen Bank : réalisation en octobre 2024 de la deuxième phase de l'augmentation du 
+capital par incorporation de réserves de 23,3 MDT pour le porter à 174,6 MDT. 
+- BTE : augmentation en numéraires de 18,7 MDT portant le capital à 108,7 MDT. 
+ 
+3À la suite de la liquidation de la BFT en avril 2022. 
+4 La BTS et la BFPME. 
+5Wifak Intenational Bank (WIB), Banque Zitouna et Al Baraka Bank Tunisia. 
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+39   
+   
+Le capital des banques résidentes est réparti entre des actionnaires étrangers ( 39,8%), des 
+actionnaires publics et parapublics (29,1%) et des actionnaires privés tunisiens (31,1%). 
+Graphique 8: Structure du capital des banques résidentes par nature d’actionnariat 
+ 
+Selon le statut des actionnaires de référence6, la répartition des banques résidentes demeure 
+inchangée : 
+▪ l’État Tunisien dans 5 banques7 ; 
+▪ les actionnaires étrangers dans 9 banques8 ; 
+▪ les groupes d’affaires industriels et commerciaux dans 5 banques9 ; 
+▪ l’actionnariat de référence est mixte (capital réparti à parts égales entre l’État Tunisien et 
+un pays arabe) dans les 3 autres banques10. 
+Tableau 10: Évolution du nombre de banques suivant le statut de l’actionnariat 
+ 2020 2021 2022 2023 2024 
+Banques publiques 6 6 511 5 5 
+Banques à capitaux étrangers 11 912 9 9 9 
+Banques à capitaux privés tunisiens 3 5 5 5 5 
+Banques mixtes 3 3 3 3 3 
+Total 23 23 22 22 22 
+ 
+ 
+2. Banques non-résidentes 
+N’ayant connu aucun changement de physionomie, le capital des banques non -résidentes 
+s’élève à 4 76 MDT à fin 202 4 dont 83% reviennent à  des actionnaires étrangers, 
+particulièrement, libyens. 
+ 
+ 
+6 Au sens de l’article 102 de la loi n°2016-48. 
+7 STB, BNA, BH, BTS et BFPME. 
+8 ATB, ATTIJARI, UIB, Citibank, Bank ABC, QNB, Al Baraka, BT et BZ. 
+9 Amen Bank, BIAT, BTK, UBCI et WIB. 
+10TSBank, BTE et BTL. 
+11 À la suite de la liquidation de la BFT en avril 2022. 
+12À la suite de  la cession de la part de la BNP Paribas dans le capital de l’UBCI au groupe CARTE et de la 
+participation de la BPCE dans le capital de la BTK à la société ÉTABLISSEMENT MT ELLOUMI. 
+29,5%
+30,7%
+39,8%
+2023
+29,1%
+31,1%
+39,8%
+2024
+Actionnaires publics
+Actionnaires privés
+tunisiens
+Actionnaires étrangers
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+40   
+   
+3. Établissements de leasing 
+A fin 2024, le capital total des établissements de leasing est maintenu  à 294  MDT. Sa 
+répartition entre les actionnaires fait ressortir la pr édominance des actionnaires priv és 
+tunisiens qui en détiennent 85,5%.  
+ 
+Graphique 9: Structure du capital des établissements de leasing à fin 2024 
+ 
+Par groupe d’affiliation, les groupes bancaires détiennent 46,1% du capital des 
+établissements de leasing et représentent les actionnaires de référence de 6 établissements.  
+Les actionnaires de référence des 2 autres établissements de leasing sont des groupes 
+d’affaires privés tunisiens non-bancaires. 
+ 
+4. Établissements de paiement  
+Le capital des établissements de paiement agréés totalise 82  MDT à fin 2024 (contre 
+59 MDT à fin 2023) dont 68% sont détenus par les institutions du secteur financier et 31% 
+par des sociétés privées non financières. 
+Graphique 10: Structure de l’actionnariat des établissements de paiement agréés à fin 2024 
+ 
+ 
+Banques
+22%
+Institution de 
+microfinance 
+23%
+Autres institutions opérant dans le 
+secteur financier 5%
+Etablissement de 
+paiement 
+étranger 
+18%
+Autres sociétés 
+non financières 
+31%
+Personnes physiques  1%
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+41   
+   
+Section III- Analyse de la concentration du secteur bancaire 
+L’activité du secteur bancaire demeure concentrée sur les banques résidentes qui accaparent 
+93% du total actif, 95% des crédits et 97% des dépôts. 
+ 
+Tableau 11: Concentration de l’activité bancaire suivant la nature de l’établissement 
+ 2022 2023 2024* 
+Total actif (en MDT) 163 905 172 456 186 685 
+Part des banques résidentes (en %) 92,7%  93,2% 93,4% 
+Part des banques non-résidentes (en%) 4,2%  3,7% 3,5% 
+Part des établissements de leasing (en%) 2,9%  2,9% 2,9% 
+Part des sociétés de factoring (en%) 0,2%  0,2% 0,2% 
+Crédits à la clientèle (en MDT) 109 055 111 036 114 136 
+Part des banques résidentes (en %) 95,1%  95,0% 94,8% 
+Part des banques non-résidentes (en %) 1,0%  0,9% 1,0% 
+Part des établissements de leasing (en%) 3,7%  3,8% 4,0% 
+Part des sociétés de factoring (en%) 0,3%  0,3% 0,2% 
+Dépôts de la clientèle (en MDT) 99 781 106 813 117 692 
+Part des banques résidentes (en%) 96,9%  97,2% 97,4% 
+Part des banques non-résidentes (en%) 3,1%  2,8% 2,6% 
+*Données provisoires  
+ 
+Tableau 12: Indicateurs de concentration de l’activité des banques résidentes 
+ 
+Ratio de concentration % Indice Herfindhal-Hirshman 
+4 premières banques 8 premières banques 
+2022 2023 2024* 2022 2023 2024* 2022 2023 2024* 
+Total actif 50,2  49,8 49,5 76,7  75,8 75,3 0,089 0,089 0,088 
+Crédits à la clientèle 50,4  49,0 48,1 76,9  75,8 74,7 0,089 0,087 0,085 
+Dépôts de la clientèle 48,6  48,5 48,0 77,2  76,5 75,0 0,092 0,092 0,090 
+*Données provisoires  
+ 
+Au niveau des banques résidentes, les ratios de concentration CR413 et des CR814 montrent 
+un niveau de concentration élevé dans la mesure où les 4 et 8 premières banques contrôlent 
+respectivement près de la moitié et plus des trois-quarts de l’activité bancaire. 
+L’analyse de la concentration de l’activité bancaire suivant la nature de l’actionnariat fait 
+ressortir ce qui suit : 
+▪ La contribution des banques publiques demeure la plus importante avec une part de 
+marché en termes d’actif s de 35,7%, de crédits de 37,9% et à un degré moindre au 
+niveau des dépôts de 28,4%. 
+▪ Les banques à capitaux privés tunisiens détiennent 32, 6% du total actif, 30,3% des 
+crédits et 35,5% des dépôts.  
+ 
+13 Ratio de concentration des quatre premières banques 
+14 Ratio de concentration des huit premières banques 
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+42   
+   
+▪ Les banques à capitaux étrangers détiennent 28, 5% des actifs, 28,9% des crédits et 
+33,1% des dépôts. 
+▪ Les banques mixtes détiennent des parts de marché de 3,2% en termes d’actifs, 2,9% 
+des crédits et de 3,0% en termes de dépôts. 
+ 
+Graphique 11: Répartition de l’activité des banques résidentes selon la nature de 
+l’actionnariat 
+ 
+ 
+ 
+L’activité des établissements de leasing présente toujours une concentration au niveau du 
+total actif avec une part de 65,4% détenue par les 4 premiers établissements en 2024. 
+Tableau 13: Indicateurs de concentration de l’activité des établissements de leasing 
+ 
+Total actif 
+2022 2023 2024* 
+Part des 4 premiers établissements (%) 66,3  66,0 65,4 
+Indice Herfindhal-Hirshman 0,147  0,145 0,144 
+*Données provisoires  
+ 
+En s’appuyant sur l’indice d’IHH compris entre 0,1 et 0,18 pour ces trois dernières années, 
+cette concentration est classée comme modérée. 
+Une forte concentration de l’activité des banques non-résidentes est constatée au niveau des 
+dépôts, des crédits et du total actif comme en témoignent le ratio de concentration et l’indice 
+IHH qui dépasse le seuil de 0,18. 
+Tableau 14 : Indicateurs de concentration de l’activité des banques non- résidentes 
+ Total actif Crédits Dépôts 
+2022 2023 2024* 2022 2023 2024* 2022 2023 2024* 
+Part des 4 premières banques (%) 85,6  85,4 86,8 93,2  92,3 94,0 94,0  95,5 94,1 
+Indice Herfindhal-Hirshman 85,6  0,214 0,213 93,2  0,381 0,328 94,0  0,320 0,295 
+*Données provisoires  
+ 
+Section IV- Bancarisation 
+Le réseau d’agences bancaires s’est consolidé en passant de 2 041 agences à fin 2023 à 2 064 
+à fin 202 4, soit une agence pour 5  800 habitants contre une agence pour 5  806 habitants 
+une année auparavant. 
+ 
+
+Chapitre 4 : Structure et Physionomie du Secteur Bancaire et Financier Tunisien 
+43   
+   
+Tableau 15: Principaux indicateurs de bancarisation 
+ 2019 2020 2021 2022 2023 2024* 
+Réseau 1 945 1 974 1 992 2 023  2 041 2 064 
+Densité du réseau bancaire15 6 027 5 934 5 906 5 835  5 806  5 800 
+Nombre de comptes (en milliers) 9 835 9 590 9 798 10 031  10 532  10 669 
+dont Nombre de comptes à vue  3 924 3 399 3 463 3 564  3 739  3 845 
+Nombre de comptes spéciaux d'épargne  5 762 4 911 5 020 5 295  5 213  5 231 
+Nombre de DAB & GAB 2 854 2 947 3 005 3 039  3 207  3 305 
+Nombre de cartes bancaires (en millions) 5,5 5,7 6,1 6,6  7,1  5,5 
+Nombre de transactions monétiques (en 
+millions) 92,6 97,6 111,0 134,2  138,9  151,5 
+Volume de transactions monétiques (en MDT) 14 361 15 344 17 740 22 256  23674  26 273 
+*Données provisoires  
+ 
+Les deux tiers des agences (67%) sont situées dans le Grand Tunis et au Centre-Est.  
+Le réseau de deux banques privées16 s’étend à plus de 200 agences. 
+ 
+Graphique 12: Répartition du réseau d'agences bancaires par région 
+ 
+ 
+L'analyse de la bancarisation en termes de comptes montre que le nombre de comptes 
+bancaires a évolué, sur les 5 dernières années, de 1,6% en moyenne par an pour dépasser les 
+10,6 millions de comptes à fin 2024.  
+Le nombre de cartes bancaires émises à fin 202 4 s’élève à 5,5 millions de cartes, soit une 
+baisse de 21,4% par rapport à 2023 expliquée par une opération d'assainissement des cartes 
+non actives. En revanche, le nombre de DABs/GABs a poursuivi son augmentation avec une 
+moyenne annuelle de 3% sur les 5 dernières années pour s’établir à 3 305 unités à fin 2024.
+ 
+15 Nombre d’habitants par agence. 
+16 BIAT : 203 agences et BZ : 204 agences. 
+
+ 
+44   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Chapitre 5 
+ 
+ACTIVITE ET SITUATION FINANCIERE DES BANQUES 
+ET ETABLISSEMENTS FINANCIERS 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+45   
+   
+Chapitre 5 : Activité et Situation Financière des 
+Banques et des Etablissements Financiers  
+Section I - Analyse de la structure bilancielle des banques 
+résidentes 
+L’évolution de la structure bilancielle consolidée des banques résidentes a été marquée en 
+2024 par :  
+▪ La poursuite du repli de la part des crédits dans le total des actifs bancaires de 2,3 pp 
+pour représenter 65,0%.  
+▪ La consolidation de la part du portefeuille -titres dans le total des actifs bancaires de 
+3,4 pp pour représenter 20,1%. La part des bons du Trésor dans le total des actifs est 
+passée de 9,4% à 10,9%. 
+▪ La consolidation de la part des dépôts en dinars de 1,4 pp pour atteindre 57,8% du 
+passif des banques.   
+▪ Une légère consolidation de la part du refinancement auprès de la BCT aux alentours 
+de 4,9% expliquée, notamment, par le ralentissement des emprunts à moyen et long 
+termes.    
+Tableau 16: Structure bilantielle des banques résidentes (en %) 
+Eléments de l'Actif  2022 2023 2024* 
+Crédits   69,5  67,3 65,0 
+Crédits aux particuliers  18,6  18,1 17,5 
+Crédits aux professionnels  50,9  49,1 47,5 
+Bons du Trésor  9,8  9,4 10,9 
+Portefeuille-titres (hors bons du Trésor)  6,0  7,3 9,2 
+Immobilisations  2,9  3,0 1,6 
+Disponibilités 2,0  2,2 2,8 
+Dinars  1,0  1,0 1,4 
+Devises  1,1  1,3 1,4 
+Créances sur la BCT  3,7  4,3 4,5 
+Placement auprès des banques non-résidentes 0,6  0,7 0,6 
+Concours aux organismes financiers spécialisés  1,1  1,2 1,3 
+Autres actifs 4,4  4,6 4,2 
+Eléments du Passif et fonds propres   2022 2023 2024* 
+Dépôts de la clientèle  67,8  67,3 68,5 
+Dinars  56,9  56,4 57,8 
+Devises  10,9  10,9 10,8 
+Emprunts à moyen et long terme  6,0  5,6 4,9 
+Fonds propres et provisions  17,8  17,5 17,1 
+Emprunts auprès de la BCT  6,6  4,7 4,9 
+Avoirs des banques non-résidentes 0,5  0,6 0,3 
+Emprunts auprès des banques non-résidentes 0,4  0,4 0,4 
+Dépôts et avoirs des établissements financiers 0,2  0,3 0,4 
+Autres passifs  0,7 3,7 3,5 
+*Données provisoires  
+ 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+46   
+   
+Une quasi-stagnation du gap entre les emplois et les dépôts en dinars aux alentours de  
+39 milliards de dinars.   
+Graphique 13: Evolution du gap entre les 
+emplois et les dépôts en dinars17 
+ 
+Graphique 14: Evolution du gap entre les 
+emplois et les dépôts en devises 
+ 
+  
+*Données provisoires 
+ 
+ 
+Section II - Activité et situation financière des banques 
+résidentes 
+1. Évolution des emplois d’exploitation  
+L’année 202 4 a été marquée par un e accélération du taux de croissance des emplois 
+d’exploitation des banques ( 8,2% contre 4,2% en 2023) pour s’établir à 1 43,9 Milliards de 
+dinars. Cette accélération provient de la forte augmentation de l’encours du portefeuille -
+titres. 
+ 
+Tableau 17: Évolution des emplois des banques résidentes 
+*Données provisoires  
+ 
+1-1- Crédits à la clientèle  
+L’évolution de l’encours des crédits demeure relativement faible en 2024 ; soit 3,2% contre 
+2,4% en 202 3 malgré une légère  accélération du rythme de croissance des crédits aux 
+professionnels en 2024 (3,6% contre 2,1% en 2023) impulsée par l’important accroissement 
+des financements des entreprises publiques. 
+ 
+17 Les emplois sont calculés à la base du total portefeuille titres et du total crédits  
+18 Source : Centrale d’Informations (données de 22 banques hors crédits à l'administration publique) 
+67 782 73 668 81 079 87 049 96 570
+101 344 109 691
+120 188 125 284
+135 490
+2020 2021 2022 2023 2024*
+Total dépôts Total emplois
+14 463 15 550 15 581 16 801 18 015
+6 268 6 463 7 168 6 730 6 686
+2020 2021 2022 2023 2024*
+Total dépôts Total emplois
+ 2022 2023 2024 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Crédits18 103 971 106 490 109 907 2 519 2,4 3 417 3,2 
+Crédits aux professionnels 76 139 77 736 80 500 1 597 2,1 2 764 3,6 
+Crédits aux particuliers 27 832 28 754 29 407 922 3,3 653 2,3 
+Portefeuille-titres 23 686 26 518 33 968 2 832 12,0 7 450 28,1 
+dont bons du Trésor 14 647 14 916 18 441 269 1,8 3 525 23,6 
+Total emplois d’exploitation 127 656 133 008 143 875 5352 4,2 10 867 8,2 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+47   
+   
+1-2- Portefeuille-titres 
+L’encours du portefeuille -titres a augmenté de 7 499 MDT ou 28,1% provenant 
+essentiellement des souscriptions aux bons du Trésor et autres titres de l’Etat. 
+ 
+Tableau 18: Évolution de l’encours du portefeuille-titres des banques résidentes 
+*Données provisoires  
+ 
+ 
+2. Évolution des ressources d’exploitation 
+En 2024, les ressources d’exploitation ont progressé à un rythme soutenu, soit 9,2% (contre 
+6,9% en 2023) à la faveur de la hausse des dépôts en dinars pour atteindre 122,8 Milliards 
+de dinars.  
+Le recours des banques aux ressources du marché monétaire a enregistré une augmentation 
+de 13,2% (contre une baisse en 2023 de 23,5%) pour s’établir à 8 Milliards de dinars.  
+Tableau 19: Évolution des ressources d’exploitation des banques résidentes 
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Dépôts  96 660 103 850 114 585 7 190 7,4 10 735 10,3 
+    Dinars  81 079 87 049 96 570 5 970 7,4 9 521 10,9 
+    Devises 15 581 16 801 18 015 1 220 7,8 1 214 7,2 
+Ressources d'emprunt à MLT 8 537 8 608 8 231 71 0,8 -377 -4,4 
+Total des ressources d’exploitation 105 197 112 458 122 816 7 261 6,9 10 358 9,2 
+Emprunts sur le marché monétaire 9292 7 105 8 045 -2 187 -23,5 940 13,2 
+*Données provisoires  
+ 
+2-1- Mobilisation des dépôts 
+Les dépôts ont enregistré en 2024 une accélération de leur rythme de progression (soit 
++10,3% contre +7,4% à fin 2023) pour se situer à 114 585 MDT au terme de 2024 dépassant 
+ainsi l’encours des crédits. Cette hausse a concerné particulièrement les dépôts en dinars 
+(+10,9%) et à moindre ampleur ceux en devises (+7,2%). 
+ 
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Titres de propriété 4 141 4 262 4 627 121 2,9 365 8,6 
+Part dans les OPCVM 78 87 105 10 12,4 17 20,0 
+Titres de créances 19 466 22 169 29 236 2 702 13,9 7 067 31,9 
+    Bons du Trésor et autres titres de l'Etat 16 934 19 313 26 118 2 379 14,1 6 805 35,2 
+    Obligations 380 460 558 80 21,1 98 21,3 
+    Fonds gérés 2 153 2 395 2 560 243 11,3 164 6,9 
+Portefeuille-titres 23 686 26 518 33 968 2 833 12,0 7 449 28,1 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+48   
+   
+Tableau 20: Évolution de l’encours des dépôts des banques résidentes par catégorie de dépôts 
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Dépôts en dinars  81 079 87 049 96 570 5 970 7,4 9 521 10,9 
+Dépôts à vue 26 791 28 224 31 367 1 433 5,4 3 142 11,1 
+Dépôts d’épargne 30 279 33 451 37 002 3 172 10,5 3 551 10,6 
+   dont Comptes Spéciaux  
+   D’Epargne 27 284 30 173 33 498 2 889 10,6 3325 11,0 
+Dépôts à terme 18 236 19 726 22 264 1 489 8,2 2 538 12,9 
+Certificat de dépôts 5 773 5 648 5 937 -126 -2,2 290 5,1 
+Dépôts en devises 15 581 16 801 18 015 1 220 7,8 1 214 7,2 
+Total dépôts 96 660 103 850 114 585 7 190 7,4 10 735 10,3 
+*Données provisoires  
+ 
+La structure des dépôts des banques résidentes en 2024 a été marquée par le renforcement 
+de la part des dépôts en dinars de 0,5 pp pour atteindre 84,3% contre une régression de la 
+part des dépôts en devises pour se situer à 15,7%.  
+L’année 2024 a été marquée par une quasi -stagnation de la structure des dépôts en dinars, 
+avec une part des dépôts d’épargne de 38,3% et une part des dépôts à vue de 32,5%. La part 
+des dépôts à terme et certificats de dépôts s’est également stabilisée au niveau de 29,2% du 
+total des dépôts en dinars du secteur bancaire. 
+ 
+2-2- Ressources d’emprunts à moyen et long termes 
+Les ressources d’emprunts à moyen et long termes du secteur bancaire ont régressé de 4,4% 
+par rapport à leur encours à fin 2023 pour revenir à 8 231 MDT. 
+Tableau 21: Évolution des ressources d’emprunts à moyen et long termes des banques 
+résidentes 
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Ressources budgétaires 2 733 2 901 3 049 168 6,1 148 5,1 
+Ressources extérieures 2 036 1 841 1 583 -195 -9,6 -259 -14,0 
+Emprunts obligataires 2 508 2 536 2 183 28 1,1 -353 -13,9 
+Autres emprunts 1 259 1 330 1 416 70 5,6 86 6,5 
+Ressources d’emprunts à MLT 8 537 8 608 8 231 71 0,8 -377 -4,4 
+*Données provisoires  
+ 
+3. Indicateurs de risques et de solidité financière 
+3-1- Risque de liquidité  
+L’exercice 2024 a été marqué par une augmentation du recours des banques aux ressources 
+de la BCT comme en témoignent : 
+▪ Une reprise du refinancement auprès de la Banque Centrale de Tunisie (hors achat 
+ferme de bons du Trésor) de 5,5 % pour s’établir à 7 279 MDT à fin 2024 (contre une 
+baisse de 26,6 % ou 2 499 MDT une année auparavant). 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+49   
+   
+▪ La hausse du taux de couverture des crédits par les ressources du marché monétaire 
+passant de 7,5 % en 2023 à 8,2% en 2024. 
+ 
+Tableau 22: Indicateurs de liquidité des banques résidentes 
+En % 2022 2023 2024* 
+Actifs liquides / Total Actif en dinars 10,1 9,5 12,6 
+Ratio (Crédits/Dépôts) en % 105,5 101,4 96,2 
+Taux de couverture des crédits par les Ressources du marché monétaire 10,0 7,5 8,2 
+*Données provisoires 
+ 
+Le profil de risque de liquidité des banques résidentes demeure satisfaisant en 2024 avec : 
+▪ Un ratio LTD sectoriel  qui s’est stabilisé, depuis plus de quatre ans, à un niveau 
+inférieur à 120%. Avec un encours des dépôts dépassant celui des crédits, le ratio LTD 
+moyen a atteint 96,2% à fin 2024. 
+▪ Un ratio moyen de liquidité LCR largement supérieur au minimum réglementaire de 
+100% ; soit 223,3% en décembre 2024. 
+ 
+Tableau 23: Évolution de la répartition du ratio de liquidité des banques résidentes19  
+Seuil du LCR 
+déc.-23 déc.-24 
+Nombre de 
+banques 
+Parts dans le 
+total actif (%) 
+Nombre de 
+banques 
+Parts dans le 
+total actif (%) 
+Supérieur à 100% 19 98,7 20 100,0 
+Entre 90% et 100% 0 - 0 - 
+Entre 80% et 90% 0 - 0 - 
+Inférieur à 80% 1 1,3 0 - 
+ 
+3-2- Risque de crédit  
+Les indicateurs du risque de crédit des banques résidentes ont connu une détérioration en 
+2024 comme en témoignent :  
+▪ L’augmentation du risque additionnel de 321 MDT qui s’est traduite par la poursuite 
+de l’aggravation du taux de migration passant de 2,7% à fin 2023 à 3% à fin 2024. 
+▪ L’accroissement de l’encours des créances classées de 1 1,2% pour atteindre 
+19,2 milliards de dinars.  
+▪ La hausse de la part des créances classées pour atteindre 14,5% des engagements 
+contre 13,6% à fin 2023 et 12,6% à fin 2022 résultant de l’aggravation continue de la 
+part des créances classées des entreprises privées passant de 17,1% à fin 2022 à 18,7% 
+à fin 2023 et à 19,9% à fin 2024.   
+▪ La hausse de la part des créances classées 4 dans le total des engagements pour 
+atteindre 12% et ce, en dépit de la radiation , en 2024, d’une enveloppe de 793 MDT 
+dans le cadre de l’application des dispositions de la circulaire n°2022-01. 
+Tableau 24: Paramètres de défaut des banques résidentes 
+*Données provisoires 
+ 
+19 Hors BFPME et BTS 
+ En % sauf indications contraires 2022 2023 2024* 
+Taux de migration moyen (%) 1,7 2,7 3,0 
+Encours des créances classées (MDT) 15 665 17 297 19 234 
+Part des créances classées dans le total engagements (%) 12,6 13,6 14,5 
+Part des créances classées 4 dans le total engagements (%) 11,0 11,7 12,0 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+50   
+   
+En outre, l’analyse de ces évolutions montre que :  
+▪ La structure des créances non performantes par classe demeure marquée par une 
+prépondérance de la classe 4 qui représente 82,6% des créances classées à fin 2024. 
+Graphique 15: Ventilation des engagements par classe (en %) 
+ 
+*Données provisoires 
+ 
+▪ 9 banques détenant 40,2 % du total actif du secteur, affichent une part des créances 
+classées supérieure à 15%.  
+ 
+Tableau 25: Répartition de la part des créances classées des banques résidentes à fin 2024 
+Seuil de la part des créances classées Nombre de banques Parts dans le total actif (%) 
+Inférieur à 7% 9 40,3 
+Entre 7% et 10% 1 7,5 
+Entre 10% et 15% 3 12,0 
+Supérieur à 15% 9 40,2 
+ 
+En matière de couverture des créances, l’année 2024 a été marquée par :  
+▪ Une poursuite de la baisse du taux de couverture des créances classées par les 
+provisions de 2, 5 pp pour s’établir à 5 0,5 % expliquée par les opérations de 
+radiations. 
+▪ Un maintien de la couverture des créances courantes par les provisions collectives au 
+même niveau de 2023  ; soit 1,7% et ce, à la faveur de la révision annuelle de la 
+méthodologie de calcul des provisions collectives par la BCT.  
+▪ L’affectation de 1 8% du PNB réalisé par le secteur bancaire au titre de 202 4 aux 
+dotations aux provisions pour couvrir le risque de crédit.  
+Tableau 26: Indicateurs de couverture des risques des banques résidentes 
+En % 2022 2023 2024* 
+Taux de couverture des créances classées par les provisions  55,1 53 50,5 
+Taux des provisions collectives / Engagements 0 et 1 1,5 1,7 1,7 
+Coût du risque 2,6 1,6 1,3 
+Dotations aux provisions /PNB 23,3 20,0 18,0 
+*Données provisoires 
+ 
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+51   
+   
+L’analyse par banque du taux de couverture des créances classées par les provisions fait 
+ressortir des disparités. En effet, 10 banques détenant 53% du total actif du secteur affichent 
+des taux supérieurs à 60% et 9 banques détenant 30% du total actif affichent des taux 
+inférieurs à 50%. 
+Tableau 27: Répartition du taux de couverture des créances classées par les provisions à fin 
+2024 
+Taux de couverture des créances classées  
+par les provisions 
+Nombre de 
+banques 
+Part dans le total actif 
+(%) 
+Inférieur à 50% 9 30,0 
+Entre 50% et 60% 3 17,0 
+Supérieur à 60% 10 53,0 
+ 
+ 
+4. Exploitation et indicateurs de rentabilité  des banques 
+résidentes 
+Le PNB global du secteur a enregistré une croissance de 5,5 % (contre 8,7 % à fin 2023) pour 
+s’établir à 8 022 MDT résultant de l’effet conjugué de : 
+▪ La p oursuite de la progression des revenus du portefeuille d’investissement de 
+486 MDT ou 31,1 % provenant essentiellement des intérêts sur les bons du Trésor.  
+▪ L’amélioration des commissions nettes de 4,5 % ou 68 MDT. 
+▪ La régression de la marge d’intérêts globale de 1, 8 % ou 69 MDT en rapport avec la 
+faible croissance de l’activité et la montée des risques de crédit.  
+Tableau 28: Évolution des composantes du PNB des banques résidentes 
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Intérêts et Revenus Assimilés 8541 10 186 10 657 1 645 19,3% 471 4,6% 
+Intérêts Encourus et Charges Assimilées 5040 6 408 6 947 1 368 27,1% 540 8,4% 
+Marge d'Intérêts 3501 3 778 3 709 277 7,9% -69 -1,8% 
+Commissions Nettes 1441 1 502 1 570 61 4,2% 68 4,5% 
+Gains Nets sur Portefeuille-Titre Commercial 
+et Opérations Financières 832 763 694 -69 -8,3% -69 -9,0% 
+Revenus du Portefeuille d'Investissement 1224 1 562 2 049 338 27,6% 486 31,1% 
+Produit Net Bancaire-PNB 6996 7 603 8 022 607 8,7% 419 5,5% 
+*Données provisoires 
+ 
+En termes relatifs, la marge d’intermédiation s’est située à 3,9% à fin 202 4 résultant de la 
+stagnation du rendement moyen du portefeuille crédit au niveau de 9,2%  et la légère 
+augmentation du coût moyen des dépôts de 0,1 pp. 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+52   
+   
+Graphique 16: Évolution du coût des dépôts et du rendement des crédits des banques résidentes 
+  
+*Données provisoires 
+ 
+Compte tenu de ces évolutions, la structure du PNB a été marquée par la poursuite de :  
+▪ La consolidation de la part des revenus du portefeuille -titres d’investissement de 
+5 pp pour s'établir à 25,5%,  
+▪ La baisse de la part de la marge d’intérêts de 3,5pp pour revenir à 46,2%, 
+▪ La baisse de la contribution des commissions nettes de 0, 2 pp et des gains nets sur 
+portefeuille-titres commercial et opérations financières de 1,3 pp pour représenter 
+respectivement 19,6% et 8,7%.  
+ 
+ 
+Graphique 17 : Évolution de la structure du PNB des banques résidentes (en%) 
+ 
+ 
+ 
+ 
+ 
+*Données provisoires 
+ 
+Etant donné que les charges opératoires ont évolué à un rythme plus accéléré que le PNB, le 
+coefficient d’exploitation des banques résid entes s’est détérioré de 1,2pp pour se situer à 
+46,2% à fin 2024. 
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+53   
+   
+Tableau 29: Répartition du PNB des banques résidentes 
+ 2022 2023 2024* 
+Variations Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Produit net bancaire  6 996 7 603 8 022 607 8,7% 419 5,5% 
+(-) Dotations nettes aux provisions et résultat 
+des corrections de valeurs sur créances, hors 
+bilan et passif   
+1 633 1 520 1 493 -113 -6,9% -27 -1,8% 
+(-) Dotations nettes aux provisions et résultat 
+des corrections de valeurs sur portefeuille 
+d’investissements  
+23 60,1 37,4 37 161,3% -23 -37,8% 
+(+) Autres produits d’exploitation  45 42 49,6 -3 -6,7% 8 18,1% 
+(-) Charges opératoires   3 142 3 416 3 703 274 8,7% 287 8,4% 
+        Dont frais du personnel  2 148 2 338 2 541 190 8,8% 203 8,7% 
+(-) Dotations aux amortissements et aux 
+provisions sur immobilisations  217 233 236,9 16 7,4% 4 1,7% 
+Résultat d’exploitation  2 027 2 417 2 601 390 19,2% 184 7,6% 
+(+/-) Autres éléments ordinaires et éléments 
+extraordinaires   -27 -86 -61 -59 218,5% 25 -29,1% 
+(-) Impôts sur les bénéfices  793 879,9 964,9 87 11,0% 85 9,7% 
+Résultat net  1 207 1 451 1 576 244 20,2% 125 8,6% 
+*Données provisoires 
+ 
+Le PNB total réalisé par le secteur en 2024 a été affecté comme suit :  
+▪ 49,1% pour couvrir les charges opératoires et les amortissements,  
+▪ 19,1% pour couvrir le risque de crédit (2 0,8% en 2023) avec une enveloppe 
+additionnelle de provisions collectives de 57,5 MDT (249 MDT en 2023),  
+▪ 12% au titre des impôts sur les bénéfices, et  
+▪ 19,6% sous forme de bénéfices. 
+ 
+Graphique 18: Répartition du PNB des banques résidentes (en %) 
+ 
+ 
+*Données provisoires 
+20,8%
+48,0%
+11,6%
+19,1%19,1%
+49,1%
+12,0%
+19,6%
+Couverture des risques Charges opératoires et
+amortissements
+Impôts sur les bénéfices Résultat net
+2023 2024*
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+54   
+   
+Au titre de l’exercice 2024, le secteur a affiché un bénéfice net global de 1, 6 milliard de 
+dinars ; soit une augmentation de 8,6% (contre 20,2% en 2023) ce qui a permis de maintenir 
+les indicateurs de rentabilité du secteur quasiment au même niveau que celui de l’année 
+précédente ; soit une rentabilité des actifs «ROA» de 1, 0% et une rentabilité des fonds 
+propres «ROE» de 10,3%. 
+ 
+Graphique 19: Évolution des indicateurs de rentabilité des banques résidentes 
+ 
+ 
+*Données provisoires 
+ 
+Au titre de 202 4, 17 banques ont affiché un résultat bénéficiaire totalisant 1  753,9 MDT 
+(contre 16 banques avec un b énéfice cumulé de 1 664,8 MDT en 2023) et 5 banques ont 
+affiché un résultat déficitaire totalisant 179,5MDT (contre 6 banques avec une perte cumulée 
+de 214 MDT en 2023).  
+Etant signalé que dans le cadre de la poursuite des politiques prudentes de distribution des 
+dividendes, la BCT a publié une circulaire aux BEF portant sur les conditions de distribution 
+des dividendes au titre de l’exercice 202420. Conséquemment, le bénéfice  cumulé des 
+banques au titre de 2024 a été affecté à hauteur de  48,4% en dividendes distribués  (soit 
+850 MDT) et de 51,6% en réserves. 
+Graphique 20: Évolution de la répartition des bénéfices des banques résidentes 
+ 
+ 
+ 
+20Circulaire aux banques et aux établissements financiers n°2025-02 du 29 janvier 2025. 
+9,0
+10,4 10,3
+0,9
+1,0 1,0
+0,5
+1,0
+1,5
+1,0
+5,0
+9,0
+13,0
+2022 2023 2024*
+ROE (en %) ROA (en %)
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+55   
+   
+5. Analyse de l’adéquation des fonds propres 
+A la faveur de la révision annuelle de la méthode de calcul des provisions collectives et du 
+maintien de la politique limitative de distribution des dividendes édictée par la BCT depuis 
+la crise pandémique, le secteur bancaire tunisien a consolidé progress ivement son assise 
+financière au cours des dernières années.   
+A fin 2024, les fonds propres nets de base ont enregistré une hausse de 4,1% pour s’établir à 
+13,5 Milliards de dinars et les fonds propres nets ont augmenté de 1,3% pour s’élever à 16,5 
+Milliards de dinars à fin 2024. 
+ 
+ 
+Tableau 30: Évolution des fonds propres et des risques encourus des banques résidentes 
+   2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Capital  4 217 4 493 4 592 276 6,5% 99 2,2% 
+Fonds propres nets de base  11 915 12 961 13 490 1 046 8,8% 529 4,1% 
+Fonds propres complémentaires  3 448 3 334 3 022 -114 -3,3% -312 -9,4% 
+Fonds propres nets  15 363 16 295 16 512 932 6,1% 217 1,3% 
+Actifs pondérés par les risques  109 807 114 891 114 813 5 084 4,6% -78 -0,1% 
+*Données provisoires 
+ 
+ 
+Par ailleurs, les actifs pondérés par les risques ont quasiment stagné à leur niveau de 2023, 
+soit 114,8 Milliards de dinars. Ceci a permis au secteur bancaire de consolider ses ratios de  
+solvabilité avec une marge de plus de 4 pp permettant de faire face à une montée éventuelle 
+des risques et aux nouvelles exigences prudentielles envisagées dans le cadre de la 
+convergence vers les standards internationaux (Bâle 3 et IFRS).  
+ 
+Tableau 31: Évolution des ratios moyens de solvabilité et Tier 1 des banques résidentes 
+*Données provisoires 
+ 
+ 
+Les banques ont pu renforcer davantage la consistance de la qualité de leurs fonds propres 
+avec une prépondérance des fonds propres nets de base qui constituent 81,7% des fonds 
+propres nets du secteur (contre 79,5% en 2023).  
+En % 2022 2023 2024* 
+Ratio de solvabilité  14,0 14,2 14,4 
+Ratio Tier 1 10,9 11,3 11,7 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+56   
+   
+Graphique 21: Évolution de la structure des fonds propres des banques résidentes (en%) 
+ 
+ 
+Une disparité des ratios de solvabilité est constatée entre les banques :  
+▪ 15 banques accaparant 88,7% du total actif du secteur affichent à fin 2024 des marges 
+supérieures à 2% pour le ratio de solvabilité global.  
+▪ 16 banques accaparant 8 9,8% du total actif du secteur affichent à fin 2024 des 
+marges supérieures à 2% pour le ratio Tier 1.  
+▪ 5 banques ayant une part de marché en termes d’actifs de 4,7 % se trouvent, en 2024, 
+dans une situation de non-respect du minimum des ratios de solvabilité.  
+ 
+Tableau 32: Répartition des ratios de solvabilité des banques résidentes à fin 2024 
+ 
+2023 2024 
+Nombre de 
+banques 
+Parts dans le 
+total actif (%) 
+Nombre de 
+banques 
+Parts dans le 
+total actif (%) 
+Seuil du ratio de solvabilité 
+Supérieur à 12% 16 89,8 15 88,7 
+Entre 10% et 12% 1 5,5 2 6,6 
+Inférieur à 10% 5 4,7 5 4,7 
+Seuil du ratio Tier 1 
+Supérieur à 9% 16 89,8 16 89,8 
+Entre 7% et 9% 1 5,5 1 5,6 
+Inférieur à 7% 5 4,7 5 4,7 
+ 
+La situation des banques résidentes est affectée négativement par les difficultés des petites 
+banques à participation publique pour lesquelles l’Etat a décidé de maintenir sa 
+participation dans le capital et les a soumis à des missions de full -audit externe en vue 
+d’arrêter un programme de restructuration comprenant leur recapitalisation en vue de leur 
+permettre de respecter les normes prudentielles d’adéquation des fonds propres.   
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+57   
+   
+Section III - Activité et situation financière des banques 
+islamiques 
+En 2024, l'activité des banques exerçant des opérations islamiques s'est caractérisée par la 
+consolidation de leur part de marché en termes de crédits de 0, 8 pp pour s’établir à 8,2 %. 
+Les parts de marché de ces banques en termes de total actif et de dépôts ont augmenté de 
+0,2 pp pour s’établir respectivement à 7,1% et 8,2%.  
+ 
+Tableau 33: Indicateurs des banques islamiques 
+Part dans le total secteur (%) 2021  2022  2023  2024 
+Total actif  6,7  6,7  6,9  7,1 
+Total Dépôts  7,6  7,8  8,0  8,2 
+Total Crédits  6,8  6,8  7,4  8,2 
+ 
+ 
+1. Évolution des emplois d’exploitation 
+Les emplois d'exploitation des banques islamiques s'élèvent, au terme de l’année 202 4, à 
+9 766 MDT enregistrant une augmentation de 14,6 % (contre 10,2 % en 2023).   
+Le portefeuille de crédits des banques islamiques s’élève à 9 068 MDT et demeure dominé 
+par les opérations de Mourabaha (soit 65,1 %) suivies par les opérations d’Ijara avec une part 
+de 16,1%. 
+ 
+ 
+Tableau 34: Évolution des emplois d'exploitation des banques islamiques 
+ 2022 2023 2024 
+Variations 
+2023/2022 2024/2023 
+En MD En % En MD En % 
+Portefeuille Mourabaha 5 218 5 678 5 900 460 8,8 222 3,9 
+Portefeuille Ijara 1 092 1 228 1 461 136 12,4 233 19,0 
+Créances rattachées aux comptes de la clientèle 110 121 146 11 9,8 25 20,7 
+Impayés, créances immobilisées, arrangements 
+et rééchelonnements  211 219 1 011 8 3,9 792 361,6 
+Autres financements 541 698 550 157 29,1 -148 -21,2 
+Titres de placement et de participation  557 575 698 18 3,2 123 21,4 
+Total emplois d'exploitation  7 729 8 519 9 766 790 10,2 1247 14,6 
+ 
+ 
+2. Évolution des ressources d’exploitation 
+Les ressources d’exploitation des banques s’adonnant à des opérations islamiques ont évolué 
+de 13 % (contre 9,4 % à fin 2023) pour atteindre 9 507 MDT à fin 2024 dont 9 422 MDT ou 
+99 % sont constituées des dépôts (contre 8 313 MDT à fin 2023).   
+La structure des dépôts des banques islamiques demeure quasiment inchangée avec 45,4 % 
+de comptes d’épargne, 34,2 % de comptes à vue et 20,4% de dépôts participatifs. 
+ 
+ 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+58   
+   
+Tableau 35: Évolution des ressources d'exploitation des banques islamiques 
+ 2023  2024*  Variations 2024/2023 
+En MD En % 
+Comptes à vue 2 949 3 223 273 9,3 
+Comptes d’épargne 3 667 4 278 611 16,7 
+Dépôts participatifs 1 696 1 921 225 13,3 
+Ressources à moyen et long termes  102 85 -17 -16,7 
+Total ressources d’exploitation  8 415 9 507 1 092 13,0 
+*Données provisoires  
+ 
+ 
+3. Risque de crédit 
+Les indicateurs du risque de crédit des banques s’adonnant à des opérations islamiques ont 
+connu une détérioration en 2024 comme en témoignent :  
+▪ L’augmentation du risque additionnel de 131 MDT qui s’est traduite par l’aggravation 
+du taux de migration passant de 1,6% à fin 2023 à 2,9% à fin 2024. 
+▪ L’accroissement de l’encours  des créances classées de 30,8% pour se situer à 
+754 MDT à fin 2024 contre une augmentation de 9,1% une année auparavant. 
+▪ L’aggravation de la part des créances classées pour atteindre 6,7% des engagements 
+contre 5,8% à fin 2023.   
+Tableau 36: Indicateurs de couverture des risques des banques islamiques 
+ 2022 2023 2024* 
+Encours des créances classées (MDT) 528 577 754 
+Part des créances classées dans le total des engagements (%) 5,8 5,8 6,7 
+Encours des provisions (MDT) 180 203 262 
+Taux de couverture des créances classées par les provisions (%) 36,6 38,0 37,5 
+*Données provisoires  
+ 
+Par ailleurs, le taux de provisionnement des créances classées a diminué de 0,5 pp pour 
+atteindre 37,5%.  
+ 
+4. Exploitation et indicateurs de rentabilité 
+Le PNB des banques islamiques a connu une amélioration de 12% contre 10,1% l’année 
+précédente.  
+La structure du PNB reste dominée par la forte contribution de la marge de profit ; soit une 
+part qui dépasse 70%.  
+Tableau 37: Évolution des comptes d'exploitation des banques islamiques 
+ 2022  2023  2024*  
+Variations 
+2023/2022  2024/2023  
+En MDT En % En MDT En % 
+Marge de profit 353  397 455 44 12,6 58 14,7 
+Commissions 104  118 126 14 13,4 8 6,3 
+PNB 513  564 632 52 10,1 68 12,0 
+Dotations aux amortissements et aux 
+provisions sur immobilisations 26  27 29 2 6,3 1 4,8 
+Dotations nettes aux provisions 52  62 94 10 19,7 31 50,3 
+Charges opératoires  267  303 337 36 13,7 34 11,2 
+Résultat net 126  140 125 14 11,1 -15 -10,6 
+*Données provisoires  
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+59   
+   
+Les charges opératoires des banques islamiques ont augmenté de 1 1,2%. Conséquemment, 
+le coefficient d’exploitation a connu une légère amélioration pour s’établir à 53,4% à fin 2024 
+(contre 53,7%% à fin 2023). 
+Compte tenu d’un effort net de provisionnement de 94 MDT, le résultat net global des 
+banques islamiques a baissé de 10,6% (contre une hausse de 11,1% en 2023) pour se situer à 
+125 MDT à fin 2024.  
+Conséquemment à ces évolutions, les indicateurs de rentabilité de ces banques ont connu 
+une détérioration à fin 2024. 
+Tableau 38: Évolution des indicateurs de rentabilité des banques islamiques 
+En % 2022 2023 2024* 
+Rentabilité des actifs (ROA) 1,3 1,4 1,1 
+Rentabilité des fonds propres (ROE) 12,9 13,6 11,2 
+*Données provisoires 
+ 
+5. Analyse de l’adéquation des fonds propres 
+Les ratios de solvabilité moyens des banques islamiques demeurent globalement 
+satisfaisants et procurent aux 3 banques des marges confortables pour le développement de 
+leurs activités. 
+ 
+Tableau 39: Évolution des ratios moyens de solvabilité et Tier 1 des banques islamiques 
+ 
+En % 2022 2023 2024* 
+Ratio Tier 1 12,1 12,1 12,0 
+Ratio de solvabilité 14,3 13,8 13,4 
+*Données provisoires  
+ 
+Section IV- Activité et situation financière des établissements 
+de leasing 
+1. Evolution de l’activité des établissements de leasing 
+L’année 2024 s’est caractérisée par une croissance relativement soutenue de l’activité de s 
+établissements de leasing quoi que moins importante que les deux exercices précédents ; soit 
+une progression des mises en forces de 10,4% (contre 13,8% en 2023 et 17% en 2022) pour 
+s’établir à 2 387 MDT. Conséquemment, l’encours du crédit-bail du secteur a augmenté de 
+9,3% pour se situer à 4 447 MDT à fin 2024. 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+60   
+   
+Graphique 22: Évolution des indicateurs d’activité des établissements de leasing (en MDT) 
+ 
+ 
+L’activité du leasing a été financée à hauteur de 74% par des ressources d’emprunt. La 
+structure de ces ressources s’est caractérisée en 2024 par ce qui suit :  
+- Les emprunts bancaires restent la principale source d'emprunt, représentant 
+58,5 % des ressources d’emprunt (contre 53,6 % à fin 2023). 
+- Le léger renforcement de la part des emprunts obligataires pour s’établir à 28 %. 
+- La poursuite de la baisse de la part des ressources extérieures pour se situer à 11% 
+(contre 16,4% à fin 2023 et 20,4% à fin 2022). 
+Tableau 40: Évolution des ressources d’emprunt des établissements de leasing 
+   2022  2023 2024 
+Ressources d'emprunt (en MDT)  2 943 3 134 3 379 
+dont Ressources bancaires (%)  50,8% 53,6% 58,5% 
+  Ressources obligataires (%)  25,4% 27,3% 28,0% 
+  Ressources extérieures (%)  20,4% 16,4% 11,0% 
+ 
+ 
+2. Indicateurs de risque et de solidité financière  
+2-1- Risque de liquidité et de taux 
+Les ressources bancaires des établissements de leasing couvrent 43% de leurs crédits ; ce qui 
+les expose à : 
+• des risques de refinancement et de transformation d’échéances ; 
+• un risque important de taux vu que les emplois sont assortis de taux fixes alors que 
+54% des ressources sont à taux variables.  
+ 
+Tableau 41: Indicateurs de risque de liquidité et de taux des établissements de leasing 
+En %  2022 2023 2024 
+Taux de couverture des crédits par les ressources bancaires  37,2  39,3 43,1 
+Ressources bancaires/total ressources 39,9  42,3 46,7 
+Ressources obligataires /total ressources  19,9  21,5 22,4 
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+61   
+   
+2-2- Risque de crédit 
+Le profil de risque de crédit du secteur du leasing au titre de l’année 2024 a été marqué par : 
+• L’augmentation de l’encours des créances classées de 23 MDT ou 5,7 % pour s’établir 
+à 418 MDT compte tenu des opérations de radiation d’une enveloppe de créances 
+totalisant 25 MDT en 2024.  
+• La part des créances classées est revenue de 9,1% à fin 202 3 à 8,9% à fin 2024  en 
+raison de l’augmentation du total des engagements (+7,6%). 
+• Le taux de couverture des créances classées par les provisions s'élève à 66,9% à fin 
+2024 ; lequel taux est jugé satisfaisant  étant donné que les sociétés de leasing sont 
+propriétaires des biens financés qui sont essentiellement sous forme de  matériel 
+roulant, ce qui leur permet de maitriser les pertes financières en cas de défaut des 
+clients. 
+ 
+Tableau 42: Paramètres de défaut des établissements de leasing 
+ 2022 2023  2024 
+Encours des créances classées (en MDT)  420 395 418 
+Part des créances classées (en %)  10,2 9,1% 8,9% 
+Taux de couverture des créances classées par les provisions (en %)  71,7 71,6% 66,9% 
+Taux des provisions collectives (en %)  1,4 1,3% 1,5% 
+ 
+L’analyse des indicateurs de la qualité du portefeuille par établissement montre que : 
+- L’ensemble des établissements affichent des parts de créances classées supérieures à 
+7% dont trois établissements dépassent 9% (représentant 23,6% de l’actif du 
+secteur). 
+ 
+Tableau 43:Répartition de la part des créances classées des établissements de leasing à fin 2024 
+ 
+Seuil de la part des créances classées Nombre de banques Parts dans le total actif (%) 
+Inférieur à 7% 0 0 
+Entre 7% et 9% 5 76,4% 
+Supérieur à 9% 3 23,6% 
+ 
+- 2 établissements représentant 37,1% du total actif affichent des taux de 
+provisionnement supérieurs à 70%.  
+ 
+Tableau 44: Répartition du taux de couverture des créances classées par les provisions pour les 
+établissements de leasing à fin 2024 
+ 
+Seuil de la part des créances 
+classées 
+Nombre 
+d’établissements 
+Parts dans le total actif 
+(%) 
+Inférieur à 50% - - 
+Entre 50% et 70% 6 62,9% 
+Supérieur à 70% 2 37,1% 
+ 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+62   
+   
+3. Exploitation et indicateurs de rentabilité  
+L’exercice 202 4 a été marqué par un accroissement de la marge d’intérêt s de 4,1 % (ou 
+11 MDT) ; soit une hausse moins importante que celle de 2023 (6,1 %) et 2022 (14,7%). Cette 
+évolution est en ligne avec l’évolution de l’activité et s’explique par l’effet conjugué du léger 
+renchérissement du coût des ressources (+0,1 pp) et de l’amélioration du rendement des 
+crédits de 0,2 pp pour s’élever à 13,3% à fin 2024. 
+Tableau 45: Evolution du compte d’exploitation des établissements de leasing 
+ 
+ 2022 2023   2024 
+Variations   
+2023/2022   2024/2023 
+En MDT En %  En MDT En % 
+Marge d’intérêts  247 262 273 15  6,1  11  4,1  
+Produit net de leasing  282 295 311 13  4,6  16 5,7  
+Charges opératoires  101 114 123 13  12,9  9  8,2 
+Dotations nettes aux provisions 51 22 20 -29  -56,9  -2  -8,9  
+Résultat net  83,0 103,1 106,2 20,1  24,1  3,1 3,0 
+ 
+Le produit net de leasing de 2024 s’est amélioré de 5,7% (ou 1 6 MDT) pour atteindre 
+311 MDT suite notamment à l’augmentation des revenus sur portefeuille-titres (+6 MDT ou 
+22,4%).  
+Ce produit net de leasing a été affecté à hauteur de 39,5% pour couvrir les charges 
+opératoires et 6,3% pour couvrir les risques de crédit-bail (contre respectivement 38,6 % et 
+7,4 % en 2023).  
+Le résultat net global du secteur s'est légèrement amélioré de 3 % pour s'établir à 106,2 MDT 
+sous l’effet de l’augmentation du coefficient d’exploitation et la hausse notable de l’impôt sur 
+les bénéfices de 29 %. 
+Graphique 23: Evolution du coût des ressources, du rendement des crédits et du taux effectif 
+moyen des établissements de leasing 
+ 
+ 
+ 
+Par conséquence, la rentabilité du secteur du leasing s’est légèrement repliée, avec un ROE 
+de 13 % et un ROA de 2,2 %, contre respectivement 13,6 % et 2,3 % à fin 2023. 
+Tableau 46 : Evolution des indicateurs de rentabilité des établissements de leasing 
+ 
+En %  2022 2023 2024 
+ROA   2% 2,3% 2,2% 
+ROE   12% 13,6% 13,0% 
+
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+63   
+   
+4. Analyse de l’adéquation des fonds propres 
+Les fonds propres nets du secteur du leasing se sont établis à 858 MDT à fin 2024, en hausse 
+de 2,4 % par rapport à 2023 ; compte tenu de la distribution d’une enveloppe de dividendes 
+de 54 MDT représentant 51 % du résultat net du secteur (contre 47% en 2023). 
+En application des dispositions de la circulaire n°2025 -01, les sociétés de leasing ont 
+constitué, au titre de l’exercice 2024, une enveloppe de provisions collectives de 63  MDT 
+représentant 1,5% de l'engagement courant contre 1,3% à fin 2023. 
+Tableau 47: Evolution des fonds propres des établissements de leasing 
+ 
+ 2022  2023 2024 
+Variations 
+2023/2022 2024/2023 
+En MDT En %  En MDT En %  
+Fonds propres nets de base  621 679 722 58  9,3  43 6,4 
+      dont capital  284 294 294 10  3,5  -  - 
+Fonds propres complémentaires  185 159 136 -26  -14,1  -23 -14,7 
+     Provisions collectives  52 59 63 7  13,5  4 6,8 
+Fonds propres nets  806 838 858 32  4,0  20 2,4 
+ 
+Les fonds propres nets de base constituent 84% des fonds propres nets du secteur à fin 2024 
+contre 81% en 2023, ce qui témoigne de la poursuite de l’amélioration de la qualité des fonds 
+propres du secteur. 
+Tableau 48: Evolution du ratio de solvabilité et du ratio Tier 1 des établissements de leasing% 
+ 
+En %  2022 2023 2024 
+Ratio Tier 1 13,6% 13,8% 13,6% 
+Ratio de solvabilité 17,7% 17,1% 16,1% 
+ 
+Le secteur du leasing maintient une marge confortable de solvabilité avec :   
+• Un ratio Tier 1 de 13,6% et un ratio de solvabilité global de 16,1% à fin 2024.   
+• Des ratios de solvabilité supérieurs à 1 5% pour la majorité des établissements de 
+leasing ainsi que  des ratios Tier 1 dépassant les 10% pou r l’ensemble  des 
+établissements du secteur.  
+ 
+ 
+Section V- Activité et situation financière des banques non-
+résidentes 
+1. Evolution des emplois d’exploitation 
+Les emplois d’exploitation des banques non -résidentes ont enregistré en 2024 un léger 
+accroissement de 1% ou 20MUSD par rapport à 2023 , résultant de l’effet conjugué de l a 
+reprise de l’activité  de crédits (+11%) et de la baisse des  opérations de placement sur le 
+marché monétaire en devises principalement auprès de la BCT (-26,2%).  
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+64   
+   
+Tableau 49: Evolution des emplois des banques non-résidentes 
+*Données provisoires  
+ 
+Graphique 24: Evolution de la structure des emplois d’exploitation des banques non-
+résidentes (en %) 
+  
+ 
+ 
+ 
+2. Evolution des ressources d’exploitation 
+Les ressources d’exploitation des banques non -résidentes ont  enregistré en 2024 une 
+progression plus importante qu ’en 2023 (+ 1,9% contre +0,3% en 2023 ). Cette évolution 
+résulte de : 
+• L’augmentation des dépôts de la clientèle de 3,9% ou 38MUSD. 
+• La baisse des emprunts bancaires de 2,8% ou 10 MUSD. 
+ 
+ 
+73,7%
+16,9%
+9,4%
+2023
+71,9%
+18,6%
+9,5%
+2024
+Opérations de 
+trésorerie
+Crédits
+Portefeuille-titres
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023   
+En MUSD En % En MUSD En % 
+Opérations de trésorerie 1 576 1 442 1 421 -134 -8,5 -21 -1,5 
+   dont placement auprès des banques    641  735 690 94 14,6 -45 -6,1 
+- Installées en Tunisie   128  127 98 -1 -0,8 -29 -22,9 
+- Installées à l’étranger   513  608 592 95 18,4 -15 -2,5 
+   dont auprès de la BCT  399  407 301 8 2,1 -107 -26,2 
+Crédits   335  331 368 -4 -1,4 36 11 
+- à des résidents   87  75 64 -12 -13,3 -11 -15,2 
+- à des non-résidents   249  256 304 7 2,8 48 18,7 
+Portefeuille-titres   198  183 188 -15 -7,5 5 2,6 
+Total emplois d’exploitation   2 109 1 957 1 977 -152 -7,2 20 1,0 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+65   
+   
+Tableau 50 : Evolution des ressources d’exploitation des banques non-résidentes 
+ 
+*Données provisoires  
+ 
+La structure des ressources d’exploitation des banques non-résidentes a enregistré en 2024 
+une augmentation de la part des dépôts de la clientèle (74,6 % contre 73,1% en 2023) contre 
+un repli de la part des emprunts bancaires revenant à 25,4% 
+ 
+Graphique 25: Evolution de la structure des ressources d’exploitation des banques non -
+résidentes (en %) 
+  
+ 
+ 
+3. Exploitation 
+La marge d’intérêts issue de l’activité des banques non-résidentes s’est légèrement améliorée 
+en 2024 , avec une progression de  4,4% ou 2,8MUSD pour  s’élever à 66,8 MUSD. Cette 
+augmentation résulte principalement des revenus nets des opérations avec les 
+établissements bancaires et financiers.   
+Néanmoins, l e PNB a baissé de 3,5 % ou  3,7 MUSD pour s’établir à 10 3,9 MUSD suite 
+essentiellement à la baisse significative des revenus du portefeuille d’investissement s de 
+58,3 %. 
+26,7%
+73,1%
+0,2%
+2023
+25,4%
+74,6%
+0,02%
+2024
+Emprunts bancaires
+Dépôts de la clientèle
+Autres ressources
+ 2022 2023 2024* 
+Variations 
+2023/2022 2024/2023 
+En MUSD En % En MUSD En % 
+Emprunts bancaires 312  353 343 41 13,1 -10 -2,8 
+Banques installées en Tunisie 114  116  111 2 1,8 -5 -4,3 
+Banques installées à l’étranger 198  238  232 40 20,2 -6 -2,5 
+Dépôts de la clientèle 1 003 968 1 006 -35 -3,5 38 3,9 
+Résidente 6  57  51 51 850,0 -6 -10,5 
+Non-résidente 998  911  955 -87 -8,7 44 4,8 
+Autres ressources 5 3 0,3 -2 -40,0 -3 -90,0 
+Total ressources d’exploitation 1 320 1 324 1349 4 0,3 25,3 1,9 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+66   
+   
+Tableau 51 : Evolution du compte d’exploitation des banques non-résidentes 
+ 
+*Données provisoires 
+ 
+En termes de structure  du PNB, la part de la marge d’intérêts des banques non -résidentes 
+s’est consolidée pour atteindre 65% (contre 59% en 2023).  
+ 
+Graphique 26: Evolution de la structure du PNB des banques non-résidentes (en %) 
+  
+ 
+En dépit d ’une baisse de 1, 2% des charges opératoires, le coefficient d’exploitation s’est 
+aggravé de 0,8 pp pour se situer à 33,4% à fin 2024 en lien avec la baisse du PNB de 3,5%. 
+Le résultat net global des banques non -résidentes a diminué de 5,7 MUSD ou 15, 2% pour 
+s’établir à 32 MUSD. 
+ 
+59%
+11%
+23%
+7%
+2023
+65%10%
+22%
+3%
+2024
+Marge d’intérêts
+Commissions nettes
+Gains nets sur portefeuille-
+titres commercial
+Revenus du portefeuille 
+d’investissements
+ 2022   2023  2024*   
+Variations  
+2023/2022   2024/2023    
+En MUSD  En %  En MUSD  En %  
+Marge d’intérêts  30,3  64,0 66,8 33,7 111,2 2,8 4,4 
+Commissions nettes  9,2  11,4   10,8 2,2 24,0 -0,6 -5,5 
+Gains nets sur opérations de change  25,0   24,5   23,1 -0,5 -2,2 -1,3 -5,4 
+Revenus du portefeuille d’investissements  7,4  7,5   3,1 0,1 0,8 -4,3 -58,3 
+Produit net bancaire  71,9  107,3  103,9 35,4 49,3 -3,7 -3,5 
+Charges opératoires  28,9  35,0  34,6 6,1 21,2 -0,4 -1,2 
+Dotations nettes aux provisions   9,0   3,0 3,4 -6,5 -67,2 0,4 16,6 
+Résultat d’exploitation   32,6  66,8 64,1 34,2 105,0 -2,7 -4,0 
+Résultat net  14,8   37,7  32,0 22,9 154,9 -5,7 -15,2 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+67   
+   
+Section VI- Activité et exploitation des organismes de 
+factoring 
+ 
+1. Evolution de l’activité des établissements de factoring 
+Au titre de l’exercice 2024, l’activité des établissements de factoring a enregistré un net repli 
+avec une baisse de l’encours des financements de 88MDT ou 28 % (contre une hausse de  
+11,8% en 2023) pour s’établir à 233 MDT.  
+ 
+Tableau 52: Indicateurs sur l’activité du factoring 
+ 
+ 2022 2023 2024 
+Variations  
+2023/2022 2024/2023 
+En MDT En % En MDT En % 
+Encours des financements (en MDT) 287 321 233 34 11,8% -88 -27,5% 
+ 
+Du côté des ressources, l’année 2024 a été marquée par une baisse de 35 % ou 57 MDT des 
+emprunts mobilisés principalement auprès des banques.   
+La structure des ressources révèle l ’importance des certificats de dépôt qui représentent 
+61,9 % du total des ressources, suivis par les ressources bancaires (2 6,7%) et les emprunts 
+obligataires (11,4%). 
+ 
+Tableau 53: Evolution des ressources des établissements de factoring 
+ 
+   2022 2023 2024 
+Variation 
+2024/2023  
+En MDT En % 
+Fonds propres 83  89  97 8  9,3 
+Ressources d’emprunt (en MDT) 138  162  105 -57,0 -35,2 
+  Part des emprunts bancaires (en %) 41,4  55,3  26,7 -   -   
+  Part des emprunts obligataires (en %)  11,8  13,6  11,4  -   -   
+  Part des certificats de dépôts (en %)  46,7  31,1  61,9 -   -  
+ 
+ 
+2. Résultat d’exploitation des établissements de factoring 
+Le produit net de factoring a enregistré une amélioration de 12,4% ou 2,9MDT en 2024 pour 
+atteindre 27 MDT. Ce produit provient à hauteur de 61% de la marge d’intérêts, de 32% des 
+commissions nettes et de 7% des gains nets sur portefeuille-titres. 
+Ce produit net de factoring a été affecté  pour couvrir les charges opératoires à hauteur de 
+34,3 %, le risque de crédit à hauteur de 7,4 % et l’impôt sur les bénéfices à hauteur de 12,7%. 
+Conséquemment, le résultat net global des établissements de factoring s'est amélioré de 9% 
+pour s'élever à 11 MDT au titre de l’exercice 2024. 
+ 
+ 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+68   
+   
+Tableau 54: Indicateurs d’exploitation des établissements de factoring 
+(En MDT sauf indication contraire) 
+   2022   2023   2024 
+Variation 
+2024/2023  
+En MDT En % 
+Marge d’intérêt 14   15,6 16,3 0,6 4,1 
+Produit net de factoring 22  24 27 2,9 12,4 
+Charges opératoires 9   8,4 9,3 0,9 10,7 
+Coefficient d’exploitation (en %) 39,1   35,0 34,3  - -0,7 
+Dotations nettes aux provisions  3  2,4 2,0 -0,4 -16,7 
+Résultat net  7  10 11 0,9 9,0 
+ 
+ 
+Section VII- Activité et situation financière des établissements 
+de paiement   
+1. Evolution de l’activité des établissements de paiement 
+À fin 2024, les établissements de paiement en activité totalisent un actif de 94,3MD T. Ils 
+offrent leurs services à travers un réseau composé de 51 agences propres et de 3 463 agents 
+mandatés. 
+Les agents de paiement mandatés sont localisés essentiellement sur le Grand Tunis (28,6% 
+du total) suivi du gouvernorat de Sfax (7,4%) et de Sousse (7%). 
+ 
+Tableau 55 : Indicateurs d’activité des établissements de paiement 
+ 2022   2023  2024* 
+Nombre de comptes de paiement clients  24 414   34 703  78 930 
+             Dont comptes de paiement clients actifs  6 122   9 204  23 830 
+Montant total des transactions (MD) 46 495 1 632 
+Nombre de transactions  124 299   1 023 496   4 149 888 
+Nombre d'agences et d’agents de paiement  1 403  2 442  3 514 
+*Données provisoires 
+ 
+Le nombre total de s comptes de paiement ouverts auprès des établissements de paiement 
+s’élève à 78 930 comptes à fin 2024 dont 30% seulement sont actifs.  
+76% de ces comptes de paiement sont de niveau 2, 23% sont de niveau 1 et 1% sont de niveau 
+3. 
+ 
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+69   
+   
+Graphique 27: La répartition du nombre de transactions par nature d’opération 
+ 
+  
+ 
+En 2024, les établissements de paiement ont effectué environ 4,2 millions de transactions 
+pour un montant total de l’ordre de 1  632 MDT (contre respectivement 1 million de 
+transactions et 495 MDT en 2023).  
+ 
+En termes de nombre, les transactions sont ventilées comme suit : 
+✓ 65,2% proviennent des opérations de paiement dont 54,5% sont des opérations de 
+paiement des échéances de micro -crédits, 5,7% de recharge téléphonique et 5% de 
+paiement des factures. 
+✓ 32,4% proviennent des opérations de transferts de fonds dont 23,9% sont des 
+opérations de réception de fonds de l’étranger et 8,5% des transferts nationaux. 
+✓ 2,4% proviennent des opérations de cash-in et cash out. 
+En termes de montant, les transactions sont ventilées comme suit : 
+✓ 57,6% proviennent des opérations de transferts de fonds dont 54,9% sont des  
+opérations de réception de fonds de l’étranger et 2,7% des transferts nationaux.  
+✓ 31,3% proviennent des opérations de paiement sous forme principalement 
+d’opérations de paiement des échéances de micro-crédits (30,3%). 
+✓ 11% proviennent des opérations de cash -in et cash out dont 6,6% des opérations 
+d’alimentation des comptes de paiement et 4,4% sont des opérations de retrait. 
+ 
+2. Exploitation  
+Le produit net du paiement consolidé des établissements de paiement en activité s’est établi 
+à 9,7 MDT au titre de 2024 enregistrant une croissance d’environ 8,4 MDT par rapport à 
+2023, lequel niveau demeure insuffisant et ne permet pas de couvrir les importantes charges 
+d’exploitation, ce qui explique les pertes affichées par ces établissements, qui ont atteint  
+17,3 MDT au titre de l’exercice 2024 contre 12,4 MDT au titre de l’exercice 2023. 
+2%
+0,4%
+65,2%
+32,4%
+0%
+Nombre
+6,6%
+4,4%
+31,3%
+57,6%
+0%
+Montant 
+Alimentation du compte de 
+paiement
+Retrait
+Paiements 
+(commerçant,facture,échéances,re
+charge téléphonique)
+Transferts
+Autres services
+Chapitre 5 : Activité et Situation Financière des Banques et des Etablissements Financiers 
+70   
+   
+Graphique 28: Evolution du compte d’exploitation des établissements de paiement (en mille 
+dinars)  
+ 
+*Données provisoires 
+ 
+ (20,00)
+ (15,00)
+ (10,00)
+ (5,00)
+ -
+ 5,00
+ 10,00
+ 15,00
+PNP Commissions nettes Charges opératoires Résultat net
+2023 2024*
+ 
+71   
+   
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Annexes 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+72   
+   
+Annexes 
+Annexe 1: Organigramme du pôle de la stabilité financière 
+ 
+ 
+Pôle de la stabilité financière
+M. Nabil FELFEL
+Direction Générale de la Supervision 
+Bancaire 
+Direction Générale de la Régulation et de la 
+surveillance Macroprudentielle 
+Unité de la Centrale d’information
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+73   
+   
+ 
+
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+74   
+   
+
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+75   
+   
+Annexe 2: Bilan, état des engagements hors bilan et état de résultat des banques 
+résidentes 
+1- Bilan des banques résidentes (en milliers de dinars) 
+  2023 2024* 
+ACTIF     
+1- Caisse et avoirs auprès de la BC et CCP 4 711 432 6 615 937 
+2- Créances sur les établissements bancaires et 
+financiers 12 007 667 13 308 293 
+3- Créances sur la clientèle 95 998 031 97 606 356 
+4- Portefeuille-titres commercial 2 362 478 2 168 335 
+5- Portefeuille d'investissements 23 287 589 30 901 027 
+6- Valeurs immobilisées 2 423 014 2 653 956 
+7- Autres actifs 3 490 003 3 367 463 
+TOTAL ACTIF 144 280 214 156 621 366 
+PASSIF     
+1- Banque Centrale, CCP 6 028 523 6 387 866 
+2- Dépôts et avoirs des établissements bancaires et 
+financiers 6 400 333 7 044 966 
+3- Dépôts et avoirs de la clientèle 104 380 998 115 134 132 
+4- Emprunts et ressources spéciales 8 040 945 7 624 372 
+5- Autres passifs 5 147 719 5 396 481 
+TOTAL PASSIF 129 998 518 141 587 816 
+CAPITAUX PROPRES     
+1- Capital 4 492 503 4 592 027 
+2- Réserves 8 429 676 9 155 285 
+3- Actions propres 51 226 -11 054 
+4- Autres capitaux propres 221 669 87 186 
+5- Résultats reportés -364 182 -462 192 
+6- Résultats de l'exercice 1 450 805 1 574 359 
+TOTAL CAPITAUX PROPRES 14 281 697 15 033 549 
+TOTAL PASSIF ET CAPITAUX PROPRES 144 280 214 156 621 365 
+(*) Données provisoires 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+76   
+   
+ 
+2- État des engagements hors bilan des banques résidentes (en milliers de 
+dinars) 
+ 
+  2023 2024 
+PASSIFS ÉVENTUELS     
+Cautions, avals et autres garanties données en faveur de la 
+clientèle 11 154 559 11 713 728 
+Crédits documentaires 4 516 193 5 710 108 
+Actifs donnés en garantie 5 924 579 7 526 943 
+Total passifs éventuels 21 595 331 24 950 779 
+ENGAGEMENTS DONNÉS     
+Engagements de financements donnés en faveur de la clientèle 7 042 309 8 210 428 
+Engagements sur intérêts et commissions sur emprunts 16 580 10 000 
+Engagements sur titres 51 133 30 396 
+Total engagements donnés 7 110 022 8 250 824 
+ENGAGEMENTS REÇUS     
+Engagements de financements reçus 2 757 814 205 272 
+Garanties reçues 44 146 942 49 465 038 
+Total engagements reçus 46 904 756 49 670 310 
+(*) Données provisoires 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+77   
+   
+3- État de résultat des banques résidentes (en milliers de dinars) 
+  2023  2024 * 
+PRODUITS D'EXPLOITATION BANCAIRE 14 158 578 15 133 661 
+(+) INTÉRÊTS ET REVENUS ASSIMILÉS  10 185 667 10 656 475 
+(+) COMMISSIONS 1 647 235 1 734 336 
+(+) GAINS SUR PORTEFEUILLE-TITRES COMMERCIAL ET 
+OPÉRATIONS FINANCIÈRES  763 336 694 266 
+(+) REVENUS DU PORTEFEUILLE D'INVESTISSEMENTS  1 562 342 2 048 585 
+CHARGES D'EXPLOITATION BANCAIRE 6 555 448 7 111 786 
+(-) INTÉRÊTS ENCOURUS ET CHARGES ASSIMILÉES 6 407 751 6 947 405 
+(-) COMMISSIONS ENCOURUES 145 497 164 382 
+(-) PERTES SUR PORTEFEUILLE-TITRES COMMERCIAL ET 
+OPÉRATIONS FINANCIÈRES 2 201 0 
+MARGE D’INTÉRÊTS 3 777 916 3 709 070 
+PRODUIT NET BANCAIRE 7 603 132 8 021 876 
+(-) DOTATIONS NETTES AUX PROVISIONS ET RÉSULTAT 
+DES CORRECTIONS DE VALEURS SUR CRÉANCES, HORS 
+BILAN ET PASSIF 
+1 519 691 1 492 853 
+(-) DOTATIONS NETTES AUX PROVISIONS ET RÉSULTAT 
+DES CORRECTIONS DE VALEURS SUR PORTEFEUILLE 
+D'INVESTISSEMENTS 
+60 060 37 446 
+(+) AUTRES PRODUITS D'EXPLOITATION 42 018 49 630 
+(-) FRAIS DE PERSONNEL 2 337 938 2 542 073 
+(-) CHARGES GÉNÉRALES D'EXPLOITATION 1 077 601 1 162 274 
+(-) DOTATION AUX AMORTISSEMENTS ET AUX PROVISIONS 
+SUR IMMOBILISATIONS  232 963 236 944 
+RÉSULTAT D'EXPLOITATION  2 416 895 2 599 917 
+SOLDE EN GAIN (+) /PERTE (-) PROVENANT DES AUTRES 
+ÉLÉMENTS ORDINAIRES -3 220 -17 833 
+(-) IMPÔTS SUR LES BÉNÉFICES  879 878 964 873 
+RÉSULTAT DES ACTIVITÉS ORDINAIRES  1 540 238 1 652 875 
+ SOLDE EN GAIN (+) /PERTE (-) PROVENANT DES 
+ÉLÉMENTS EXTRAORDINAIRES  89 435 78 518 
+RÉSULTAT NET DE L'EXERCICE  1 450 805 1 574 358 
+(*) Données provisoires 
+ 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+78   
+   
+Annexe 3: Bilan et état de résultat des établissements de leasing 
+1- Bilan des établissements de leasing (en milliers de dinars) 
+  2023 2024 
+ACTIFS     
+1- Liquidités et équivalents de liquidités 154 862 151 467 
+2- Créances sur la clientèle 3 912 804 4 226 329 
+3- Portefeuille-titres de placement 124 395 126 174 
+4- Portefeuille d'investissements 294 161 301 823 
+5- Valeurs immobilisées 73 328 72 941 
+6-Autres actifs 54 532 76 617 
+TOTAL DES ACTIFS 4 614 081 4 955 351 
+PASSIFS    
+1- Concours bancaires et autres passifs financiers 315 745 315 834 
+2- Dettes envers la clientèle 50 556 64 670 
+3- Emprunts et ressources spéciales 2 853 142 3 093 219 
+4- Autres passifs 589 245 626 010 
+TOTAL DES PASSIFS 3 808 688 4 098 734 
+ CAPITAUX PROPRES    
+1-Capital social 294 000 294 000  
+2- Actions Propres -6 158 -2 722 
+3- Réserves 262 197 301 411 
+4-Prime d'émission   
+5-Résultats reportés 128 998 144 415 
+6-Autres capitaux propres 23 286 13 356 
+7-Réserves pour risques généraux   
+8- Modification comptable 0  
+9- Résultat de l'exercice 103 070 106 156 
+TOTAL DES CAPITAUX PROPRES 805 393 856 617 
+TOTAL DES CAPITAUX PROPRES ET DES PASSIFS 4 614 081 4 955 351 
+ 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+79   
+   
+2- État de résultat des établissements de leasing (en milliers de dinars) 
+   2023 2024 
+ PRODUITS D'EXPLOITATION       
+(+) INTÉRÊTS ET PRODUITS ASSIMILÉS DE LEASING  552 637 594 980  
+(+) INTÉRÊTS ET CHARGES ASSIMILÉES  -289 342 -320 508  
+(+) PRODUITS DES PLACEMENTS  26 833 32 397  
+(+) AUTRES PRODUITS D'EXPLOITATION  5 863  5 330  
+Total des produits d'exploitation  295 991  312 198  
+CHARGES D'EXPLOITATION      
+(-) CHARGES DE PERSONNEL  82 048  88 257  
+(-) DOTATIONS AUX AMORTISSEMENTS DES IMMOBILISATIONS 
+PROPRES  5 922  6 038  
+(-) DOTATIONS NETTES AUX PROVISIONS   27 144  20 675  
+(-) DOTATIONS (REPRISES) NETTES AUX AUTRES PROVISIONS  2 080  877  
+(-) AUTRES CHARGES D'EXPLOITATION  30 755 33 849  
+Total des charges d'exploitation  147 949 149 696  
+RÉSULTAT D'EXPLOITATION  148 042 162 502  
+(+) AUTRES GAINS ORDINAIRES  5 234  4 340  
+(-) AUTRES PERTES ORDINAIRES  159  492  
+RÉSULTAT DES ACTIVITÉS ORDINAIRES AVANT IMPÔT    153 117 166 350  
+(-) IMPÔT SUR LES SOCIÉTÉS  40 703  50 454  
+ELEMENTS EXTRAORDINAIRES  -9 340  - 9 738  
+RÉSULTAT NET DE L'EXERCICE  103 074  106 157 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+80   
+   
+Annexe 4: Bilan, état des engagements hors bilan et état de résultat des banques 
+non-résidentes 
+1- Bilan des banques non-résidentes (en milliers de dollars) 
+ 2023 2024 
+ACTIF   
+1- Caisse et avoirs auprès de la BC et CCP 418 678 318 712 
+2- Créances sur les établissements bancaires et 
+financiers 1 010 472 1087 968 
+3- Créances sur la clientèle 140 839 179 326 
+4- Portefeuille-titres commercial 69 456 74 669 
+5- Portefeuille d'investissements 111 826 111 560 
+6- Valeurs immobilisées 23 373 22 836 
+7- Autres actifs 37 176 44 827 
+TOTAL ACTIF 1 812 023 1839 899 
+PASSIF   
+1- Banques Centrale, CCP 6 093 8 105 
+2- Dépôts et avoirs des établissements bancaires et 
+financiers 403 615 389 098 
+3- Dépôts et avoirs de la clientèle 967 949 1005 745 
+4- Emprunts et ressources spéciales 3 247 661 
+5- Autres passifs 115 436 109 946 
+TOTAL PASSIF 1 496 340 1513 555 
+CAPITAUX PROPRES   
+1- Capital ou Dotation 149 961 149 600 
+2- Réserves 65 526 66 298 
+3- Actions propres 0 0 
+4- Autres capitaux propres 5 746 5 746 
+5- Résultats reportés 56 733 72 713 
+6- Résultats de l'exercice 37 718 31 986 
+TOTAL CAPITAUX PROPRES 315 683 326 343 
+TOTAL PASSIF ET CAPITAUX PROPRES 1 812 023 1839 899 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+81   
+   
+ 
+2- État des engagements hors bilan des banques non -résidentes (en milliers de 
+dollars) 
+ 2023 2024 
+PASSIFS ÉVENTUELS   
+Cautions, avals et autres garanties données en faveur de la 
+clientèle 386 083 317 633 
+Crédits documentaires 153 822 324 755 
+Actifs donnés en garantie 0 0 
+Total passifs éventuels 539 905 642 388 
+ENGAGEMENTS DONNES   
+Engagements de financements donnés en faveur de la 
+clientèle 51 003 14 195 
+Engagements sur titres 0 0 
+Total engagements donnés 51 003 14 195 
+ENGAGEMENTS REÇUS   
+Engagements de financements reçus 0 0 
+Garanties reçues 221 734 131 851 
+Total engagements reçus 221 734 131 851 
+ 
+ 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+82   
+   
+ 
+3- État de résultat des banques non-résidentes (en milliers de dollars) 
+  2023 2024 
+PRODUITS D'EXPLOITATION BANCAIRE 122 227 124 650 
+(+) INTÉRÊTS ET REVENUS ASSIMILÉS  78 463 86 887 
+(+) COMMISSIONS 11 844 11 745 
+(+) GAINS SUR PORTEFEUILLE-TITRES COMMERCIAL ET 
+OPÉRATIONS FINANCIÈRES  
+24 459 22 905 
+(+) REVENUS DU PORTEFEUILLE D'INVESTISSEMENTS  7 460 3 113 
+CHARGES D'EXPLOITATION BANCAIRE 14 910 21 048 
+(-) INTÉRÊTS ENCOURUS ET CHARGES ASSIMILÉES 14 473 20 081 
+(-) COMMISSIONS ENCOURUES 437 967 
+(-) PERTES SUR PORTEFEUILLE TITRES COMMERCIAL ET 
+OPÉRATIONS FINANCIÈRES  
+0 0 
+PRODUIT NET BANCAIRE 107 318 103 601 
+(-) DOTATIONS AUX PROVISIONS ET RÉSULTAT DES CORRECTIONS 
+DE VALEURS SUR CRÉANCES, HORS BILAN ET PASSIF 
+2 951 3 440 
+(-) DOTATIONS AUX PROVISIONS ET RÉSULTAT DES CORRECTIONS 
+DE VALEURS SUR PORTEFEUILLE D'INVESTISSEMENTS  
+0 0 
+(+) AUTRES PRODUITS D'EXPLOITATION 6 14 
+(-) FRAIS DE PERSONNEL 21 526 21 771 
+(-) CHARGES GÉNÉRALES D'EXPLOITATION 13 514 12 864 
+(-) DOTATION AUX AMORTISSEMENTS ET AUX PROVISIONS SUR 
+IMMOBILISATIONS  
+2 514 1 393 
+RÉSULTAT D'EXPLOITATION  66 818 64 148 
+SOLDE EN GAIN (+) /PERTE (-) PROVENANT DES AUTRES 
+ÉLÉMENTS ORDINAIRES 
+11 439 
+(-) IMPÔTS SUR LES BÉNÉFICES  25 537 32 285 
+RÉSULTAT DES ACTIVITÉS ORDINAIRES  41 292 32 302 
+ SOLDE EN GAIN (+) /PERTE (-) PROVENANT DES ÉLÉMENTS 
+EXTRAORDINAIRES  
+-3 572 -316 
+RÉSULTAT NET DE L'EXERCICE  37 720 31 986 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+83   
+   
+Annexe 5: Bilan et état de résultat des établissements de Factoring 
+1- Bilan des établissements de Factoring (en milliers de dinars) 
+  2023 2024 
+ACTIFS     
+1- Immobilisations incorporelles et corporelles 1 787 1 650 
+2- Immobilisations financières 29 340 29 330 
+3- Autres actifs non courants 0 0 
+4- Liquidités et équivalents de liquidités 8 096 17 560 
+5- Affacturage et comptes rattachés 297 304 232 562 
+6- Autres actifs courants 4 219 6 039 
+7- Placements et autres actifs financiers 24 47 
+TOTAL DES ACTIFS 340 770 265 987 
+PASSIFS   
+1- Emprunts  17 595 12 177 
+2- Fonds de garantie 37 308 32 816 
+3- Concours bancaires et autres passifs financiers 144 686 92 464 
+4- Adhérents et comptes rattachés 39 955 19 594 
+5- Fournisseurs et comptes rattachés 239 196 
+6- Autres passifs 12 039 10 887 
+TOTAL DES PASSIFS 251 821 168 729 
+ CAPITAUX PROPRES   
+1-Capital social 40 000 40 000 
+2- Réserves 37 023 43 535 
+3-Résultats reportés 1 809 2 698 
+4- Modification comptable 0 0 
+5- Résultat de l'exercice 10 117 11 025 
+TOTAL DES CAPITAUX PROPRES 88 949 97 258 
+TOTAL DES CAPITAUX PROPRES ET DES PASSIFS 340 770 265 987 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+84   
+   
+2- Etat de résultat des établissements de Factoring (en milliers de dinars) 
+ 
+ 
+  2023 2024 
+REVENUS D'AFFACTURAGE     
+Commissions d'affacturage 8 858 8 505 
+Produits financiers de mobilisation 30 365 32 141 
+Produits financiers de placement 607 1 865 
+Autres produits d'exploitation 123 13 
+Produits nets 39 954 42 523 
+CHARGES D'EXPLOITATION 
+Charges financières nettes 14 663 15 797 
+Provisions nettes aux comptes d'affacturage 2377 1979 
+Charges de personnel 5 426 5 937 
+Dotations aux amortissements et aux provisions 1422 684 
+Autres charges d'exploitation 3 055 3 342 
+Total des charges d'exploitation 26 943 27 740 
+RÉSULTAT D'EXPLOITATION 13 010 14 784 
+(+) AUTRES GAINS ORDINAIRES 0 0 
+(-) AUTRES PERTES ORDINAIRES 0 0 
+RÉSULTAT DES ACTIVITÉS ORDINAIRES 
+AVANT IMPÔT  13 010 14 784 
+(-) IMPÔT SUR LES SOCIÉTÉS 2 595 3 434 
+ELEMENTS EXTRAORDINAIRES 298 325 
+RÉSULTAT NET DE L'EXERCICE 10 117 11 025 
+ 
+ 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+85  
+   
+ 
+Annexe 6: Évolution des taux effectifs moyens par catégorie de concours 2005-2024 
+  
+ 
+ 
+ 
+
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+86   
+   
+ 
+ 
+ 
+  
+  
+
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+87  
+   
+ 
+ 
+Annexe 7: Évolution des TEGs par catégorie de concours et par BEF courant 2024 
+   
+   
+  
+
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+88   
+   
+Annexe 8: Répartition par région, par gouvernorat et par banque du réseau d’agences au 31/12/2024 
+REGIONS BANQUES PUBLIQUES TOTAL 
+Bq Pub. 
+BANQUES PRIVEES TOTAL 
+BQ PRIV. 
+BANQUES 
+MIXTES TOTAL 
+BQ 
+MIXTES 
+TOTAL 
+BANQUES GOUVERNORATS BNA STB BH BTS BFPME ATB Attijari BT AB BIAT UBCI UIB CBNA BTK QNB BZ ABC 
+TUN. 
+AL 
+Baraka WIB TSB BTE BTL 
+GRAND TUNIS 45 47 57 4 1 154 62 79 54 90 81 46 53 1 22 17 83 13 19 15 635 12 18 10 40 829 
+TUNIS 24 29 31 1 1 86 38 47 31 54 48 28 35 1 12 9 43 6 12 6 370 6 12 5 23 479 
+ARIANA 7 6 11 1 0 25 9 17 9 17 14 7 9 0 4 3 18 3 3 4 117 2 2 2 6 148 
+BEN AROUS 10 9 14 1 0 34 12 12 12 14 14 9 6 0 6 4 17 3 3 5 117 3 3 2 8 159 
+MANOUBA 4 3 1 1 0 9 3 3 2 5 5 2 3 0 0 1 5 1 1 0 31 1 1 1 3 43 
+CENTRE EST 41 41 44 6 0 132 26 44 31 35 72 37 44 1 7 13 55 3 16 13 397 8 7 4 19 548 
+SFAX 16 15 15 3 0 49 12 19 9 15 31 19 14 1 4 5 32 1 7 8 177 2 2 2 6 232 
+SOUSSE 11 14 18 1 0 44 8 14 9 11 22 11 18 0 2 6 13 2 4 2 122 3 3 1 7 173 
+MAHDIA 5 4 4 1 0 14 3 4 3 4 6 1 2 0 0 0 3 0 1 1 28 1 0 0 1 43 
+MONASTIR 9 8 7 1 0 25 3 7 10 5 13 6 10 0 1 2 7 0 4 2 70 2 2 1 5 100 
+CENTRE OUEST 25 8 6 3 0 42 4 5 4 4 5 2 8 0 0 1 10 0 1 3 47 1 1 0 2 91 
+SIDI BOUZID 7 3 2 1 0 13 1 2 1 1 2 1 3 0 0 0 3 0 0 2 16 0 0 0 0 29 
+KASSERINE 7 3 2 1 0 13 2 1 1 2 1 0 2 0 0 1 3 0 0 0 13 0 0 0 0 26 
+KAIROUAN 11 2 2 1 0 16 1 2 2 1 2 1 3 0 0 0 4 0 1 1 18 1 1 0 2 36 
+NORD EST 27 24 20 3 0 74 17 26 17 15 27 16 22 0 4 2 22 0 3 6 177 3 2 3 8 259 
+NABEUL 16 15 9 1 0 41 9 16 10 12 16 10 11 0 3 2 12 0 2 4 107 1 1 2 4 152 
+BIZERTE 8 7 9 1 0 25 7 8 5 2 8 5 9 0 1 0 7 0 1 1 54 2 1 1 4 83 
+ZAGHOUANE 3 2 2 1 0 8 1 2 2 1 3 1 2 0 0 0 3 0 0 1 16 0 0 0 0 24 
+NORD OUEST 26 13 8 4 0 51 9 8 10 4 8 4 6 0 1 2 9 0 1 2 64 0 2 0 2 117 
+SILIANA 6 1 1 1 0 9 3 1 1 1 1 0 1 0 0 1 1 0 0 0 10 0 0 0 0 19 
+EL KEF 5 3 1 1 0 10 1 3 2 1 2 1 1 0 0 0 2 0 0 0 13 0 0 0 0 23 
+BEJA 8 3 3 1 0 15 3 1 2 2 3 2 1 0 1 1 3 0 1 1 21 0 1 0 1 37 
+JENDOUBA 7 6 3 1 0 17 2 3 5 0 2 1 3 0 0 0 3 0 0 1 20 0 1 0 1 38 
+SUD EST 12 14 8 2 0 36 14 13 8 10 6 5 7 0 2 2 15 0 2 6 90 2 2 4 8 134 
+GABES 5 5 3 1 0 14 6 4 3 4 2 2 3 0 1 1 6 0 1 1 34 1 1 1 3 51 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+89  
+   
+ 
+REGIONS BANQUES PUBLIQUES TOTAL 
+Bq Pub. 
+BANQUES PRIVEES TOTAL 
+BQ PRIV. 
+BANQUES 
+MIXTES TOTAL 
+BQ 
+MIXTES 
+TOTAL 
+BANQUES GOUVERNORATS BNA STB BH BTS BFPME ATB Attijari BT AB BIAT UBCI UIB CBNA BTK QNB BZ ABC 
+TUN. 
+AL 
+Baraka WIB TSB BTE BTL 
+MEDENINE 7 9 5 1 0 22 8 9 5 6 4 3 4 0 1 1 9 0 1 5 56 1 1 3 5 83 
+SUD OUEST 9 9 8 4 0 30 7 17 2 4 4 1 8 0 0 0 10 0 0 3 56 0 0 0 0 86 
+KEBILI 1 2 1 1 0 5 2 4 0 1 1 0 0 0 0 0 3 0 0 1 12 0 0 0 0 17 
+TATAOUINE 1 2 2 1 0 6 1 4 0 1 1 0 2 0 0 0 3 0 0 1 13 0 0 0 0 19 
+TOZEUR 2 1 1 1 0 5 1 2 1 1 1 0 3 0 0 0 1 0 0 0 10 0 0 0 0 15 
+GAFSA 5 4 4 1 0 14 3 7 1 1 1 1 3 0 0 0 3 0 0 1 21 0 0 0 0 35 
+TOTAL 185 156 151 26 1 519 139 192 126 162 203 111 148 2 36 37 204 16 42 48 1466 26 32 21 79 2064 
+ 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+90   
+   
+Annexe 9: Répartition par région, par gouvernorat et par établissement de leasing du réseau d’agences au 31/12/2024 
+REGIONS ETABLISSEMENTS de LEASING TOTAL 
+LEASING GOUVERNORATS TLF CIL ATL ATTIJ. L BHL BTK L BL HL 
+GRAND TUNIS 2 2 2 2 1 1 3 2 15 
+TUNIS 1 1 1 1 1 1 1 1 8 
+ARIANA 0 0 0 0 0 0 0 0 0 
+BEN AROUS 1 1 1 1 0 0 1 1 6 
+MANOUBA 0 0 0 0 0 0 1 0 1 
+CENTRE EST 3 3 2 3 4 2 2 3 22 
+SFAX 1 2 1 2 1 1 1 2 11 
+SOUSSE 1 1 1 1 2 1 1 1 9 
+MAHDIA 0 0 0 0 0 0 0 0 0 
+MONASTIR 1 0 0 0 1 0 0 0 2 
+CENTRE OUEST 1 0 0 0 0 0 0 0 1 
+SIDI BOUZID 1 0 0 0 0 0 0 0 1 
+KASSERINE 0 0 0 0 0 0 0 0 0 
+KAIROUAN 0 0 0 0 0 0 0 0 0 
+NORD EST 1 1 2 0 1 1 3 1 10 
+NABEUL 1 1 1 0 1 1 1 1 7 
+BIZERTE 0 0 1 0 0 0 1 0 2 
+ZAGHOUANE 0 0 0 0 0 0 1 0 1 
+NORD OUEST 1 1 0 0 1 0 1 1 5 
+SILIANA 0 0 0 0 0 0 0 0 0 
+EL KEF 0 0 0 0 0 0 0 0 0 
+BEJA 1 1 0 0 1 0 1 1 5 
+JENDOUBA 0 0 0 0 0 0 0 0 0 
+SUD EST 2 1 1 0 1 1 1 2 9 
+GABES 1 1 0 0 1 1 1 1 6 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+91  
+   
+ 
+REGIONS ETABLISSEMENTS de LEASING TOTAL 
+LEASING GOUVERNORATS TLF CIL ATL ATTIJ. L BHL BTK L BL HL 
+MEDENINE 1 0 1 0 0 0 0 1 3 
+SUD OUEST 1 1 1 0 1 0 0 0 4 
+KEBILI 0 0 0 0 0 0 0 0 0 
+TATAOUINE 0 0 0 0 0 0 0 0 0 
+TOZEUR 0 0 0 0 0 0 0 0 0 
+GAFSA 1 1 1 0 1 0 0 0 4 
+TOTAL 11 9 8 5 9 5 10 9 66 
+ 
+ 
+ 
+92   
+   
+Annexe 10: Liste des tableaux 
+Tableau 1:  Bilan opérationnel de l'activité de la surveillance permanente  ....................................... 24 
+Tableau 2:  Mesures disciplinaires prises ............................................................................................. 25 
+Tableau 3: Répartition de l’encours des crédits par secteur ................................................................ 29 
+Tableau 4: Répartition de l’encours des crédits accordés aux particuliers par objet de financement
+.................................................................................................................................................................. 30 
+Tableau 5:  Evolution des principaux indicateurs du risque de crédit (%)  ......................................... 31 
+Tableau 6:  Evolution de l’indice de concentration sectorielle des crédits professionnels et des 
+crédits aux particuliers (IHH) ................................................................................................................ 32 
+Tableau 7:   Evolution de la part des créances classées par opérateur (%) ........................................ 34 
+Tableau 8:  Évolution des taux des créances classées dans le total engagement par secteur (en %)
+................................................................................................................................................................... 35 
+Tableau 9: Evolution du nombre d’établissements agréés ................................................................. 38 
+Tableau 10: Évolution du nombre de banques suivant le statut de l’actionnariat  ............................ 39 
+Tableau 11: Concentration de l’activité bancaire suivant la nature de l’établissement  ..................... 41 
+Tableau 12: Indicateurs de concentration de l’activité des banques résidentes  ................................. 41 
+Tableau 13: Indicateurs de concentration de l’activité des établissements de leasing  ...................... 42 
+Tableau 14 : Indicateurs de concentration de l’activité des banques non- résidentes ....................... 42 
+Tableau 15: Principaux indicateurs de bancarisation ......................................................................... 43 
+Tableau 16: Structure bilantielle des banques résidentes (en %) ........................................................ 45 
+Tableau 17: Évolution des emplois des banques résidentes ................................................................. 46 
+Tableau 18: Évolution de l’encours du portefeuille-titres des banques résidentes ............................ 47 
+Tableau 19: Évolution des ressources d’exploitation des banques résidentes  .................................... 47 
+Tableau 20: Évolution de l’encours des dépôts des banques résidentes par catégorie de dépôts  ... 48 
+Tableau 21: Évolution des ressources d’emprunts à moyen et long termes des banques résidentes
+.................................................................................................................................................................. 48 
+Tableau 22: Indicateurs de liquidité des banques résidentes .............................................................. 49 
+Tableau 23: Évolution de la répartition du ratio de liquidité des banques résidentes  ...................... 49 
+Tableau 24: Paramètres de défaut des banques résidentes ................................................................. 49 
+Tableau 25: Répartition de la part des créances classées des banques résidentes à fin 2024  ..........50 
+Tableau 26: Indicateurs de couverture des risques des banques résidentes  ......................................50 
+Tableau 27: Répartition du taux de couverture des créances classées par les provisions à fin 2024
+................................................................................................................................................................... 51 
+Tableau 28: Évolution des composantes du PNB des banques résidentes  ......................................... 51 
+Tableau 29: Répartition du PNB des banques résidentes .................................................................... 53 
+Tableau 30: Évolution des fonds propres et des risques encourus des banques résidentes  .............. 55 
+Tableau 31: Évolution des ratios moyens de solvabilité et Tier 1 des banques résidentes  ................ 55 
+Tableau 32: Répartition des ratios de solvabilité des banques résidentes à fin 2024  ....................... 56 
+Tableau 33: Indicateurs des banques islamiques ................................................................................. 57 
+Tableau 34: Évolution des emplois d'exploitation des banques islamiques  ....................................... 57 
+Tableau 35: Évolution des ressources d'exploitation des banques islamiques ................................... 58 
+Tableau 36: Indicateurs de couverture des risques des banques islamiques  ..................................... 58 
+Tableau 37: Évolution des comptes d'exploitation des banques islamiques  ....................................... 58 
+Tableau 38: Évolution des indicateurs de rentabilité des banques islamiques  .................................. 59 
+Tableau 39: Évolution des ratios moyens de solvabilité et Tier 1 des banques islamiques  ............... 59 
+Tableau 40: Évolution des ressources d’emprunt des établissements de leasing  ............................. 60 
+Tableau 41: Indicateurs de risque de liquidité et de taux des établissements de leasing  ................. 60 
+Tableau 42: Paramètres de défaut des établissements de leasing ...................................................... 61 
+Tableau 43:Répartition de la part des créances classées des établissements de leasing à fin 2024  61 
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+ 
+ 
+ 
+ 
+93  
+   
+ 
+Tableau 44: Répartition du taux de couverture des créances classées par les provisions pour les 
+établissements de leasing à fin 2024 ..................................................................................................... 61 
+Tableau 45: Evolution du compte d’exploitation des établissements de leasing  ................................ 62 
+Tableau 46 : Evolution des indicateurs de rentabilité des établissements de leasing  ....................... 62 
+Tableau 47: Evolution des fonds propres des établissements de leasing  ............................................ 63 
+Tableau 48: Evolution du ratio de solvabilité et du ratio Tier 1 des établissements de leasing%  .... 63 
+Tableau 49: Evolution des emplois des banques non-résidentes ........................................................ 64 
+Tableau 50 : Evolution des ressources d’exploitation des banques non-résidentes........................... 65 
+Tableau 51 : Evolution du compte d’exploitation des banques non -résidentes .................................. 66 
+Tableau 52: Indicateurs sur l’activité du factoring .............................................................................. 67 
+Tableau 53: Evolution des ressources des établissements de factoring  .............................................. 67 
+Tableau 54: Indicateurs d’exploitation des établissements de factoring  ........................................... 68 
+Tableau 55 : Indicateurs d’activité des établissements de paiement ................................................. 68 
+  
+BCT/ RAPPORT ANNUEL SUR LA SUPERVISION BANCAIRE 2024 
+94   
+   
+Annexe 11: Liste des graphiques 
+Graphique 1 : Evolution du Gap du ratio crédit au secteur privé / PIB par rapport à sa tendance 
+de long terme (en %) ............................................................................................................................... 31 
+Graphique 2:Répartition sectorielle des crédits professionnels et des crédits aux particuliers (en %)
+................................................................................................................................................................... 32 
+Graphique 3 : Evolution du financement bancaire de l’Etat et des entreprises publiques  ................ 33 
+Graphique 4 : Engagements des 5/10 premiers groupes privés dans les fonds propres nets de base 
+des banques résidentes ............................................................................................................................ 33 
+Graphique 5:Engagements des 5/10 premiers opérateurs publics dans les fonds propres nets de 
+base des banques ..................................................................................................................................... 33 
+Graphique 6 : Évolution de la répartition sectorielle de l'encours des créances classées du secteur 
+bancaire (en %) ........................................................................................................................................ 34 
+Graphique 7: Evolution des indices Tunindex et Tunbank 2019 - 2024 ............................................. 35 
+Graphique 8: Structure du capital des banques résidentes par nature d’actionnariat  .................... 39 
+Graphique 9: Structure du capital des établissements de leasing à fin 2024  ................................... 40 
+Graphique 10: Structure de l’actionnariat des établissements de paiement agréés à fin 2024 ....... 40 
+Graphique 11: Répartition de l’activité des banques résidentes selon la nature de l’actionnariat  ... 42 
+Graphique 12: Répartition du réseau d'agences bancaires par région  .............................................. 43 
+Graphique 13: Evolution du gap entre les emplois et les dépôts en dinars  ........................................ 46 
+Graphique 14: Evolution du gap entre les emplois et les dépôts en devises  ....................................... 46 
+Graphique 15: Ventilation des engagements par classe (en %)  ...........................................................50 
+Graphique 16: Évolution du coût des dépôts et du rendement des crédits des banques résidentes  . 52 
+Graphique 17 : Évolution de la structure du PNB des banques résidentes (en%)  .............................. 52 
+Graphique 18: Répartition du PNB des banques résidentes (en %)  .................................................... 53 
+Graphique 19: Évolution des indicateurs de rentabilité des banques résidentes  ............................... 54 
+Graphique 20: Évolution de la répartition des bénéfices des banques résidentes  ............................. 54 
+Graphique 21: Évolution de la structure des fonds propres des banques résidentes (en%)  .............. 56 
+Graphique 22: Évolution des indicateurs d’activité des établissements de leasing (en MDT)  ........ 60 
+Graphique 23: Evolution du coût des ressources, du rendement des crédits et du taux effectif 
+moyen des établissements de leasing ..................................................................................................... 62 
+Graphique 24: Evolution de la structure des emplois d’exploitation des banques non -résidentes (en 
+%) .............................................................................................................................................................. 64 
+Graphique 25: Evolution de la structure des ressources d’exploitation des banques non -résidentes 
+(en %) ........................................................................................................................................................ 65 
+Graphique 26: Evolution de la structure du PNB des banques non -résidentes (en %) ..................... 66 
+Graphique 27: La répartition du nombre de transactions par nature d’opération ........................... 69 
+Graphique 28: Evolution du compte d’exploitation des établissements de paiement (en mille 
+dinars) ...................................................................................................................................................... 70 

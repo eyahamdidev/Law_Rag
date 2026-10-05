@@ -1,0 +1,20 @@
+{
+ "id": "S086",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "LEDGAR - contract provision classification - LexGLUE paper",
+ "url": "https://aclanthology.org/2022.acl-long.297.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://aclanthology.org/2022.acl-long.297.pdf",
+ "content_type": "application/pdf",
+ "sha256": "90d7c0d438f7b1b12100b3c9d4ab7b49ee37d07ed999d269e8ed6959e6b24188",
+ "bytes": 1149614,
+ "status": "ok",
+ "path": "contracts\\Annotated_contract_datasets\\S086_LEDGAR_contract_provision_classification_LexGLUE_paper.pdf",
+ "pages": 21,
+ "text_chars": 100743,
+ "needs_ocr": false,
+ "lang": "en",
+ "last_modified": "Wed, 11 May 2022 03:01:02 GMT"
+}

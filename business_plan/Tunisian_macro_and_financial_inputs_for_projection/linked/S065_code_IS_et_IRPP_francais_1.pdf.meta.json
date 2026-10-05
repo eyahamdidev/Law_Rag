@@ -1,0 +1,20 @@
+{
+ "id": "S065",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "Tax rates for the plan - DGI IRPP/IS code page",
+ "url": "https://jibaya.tn/wp-content/uploads/2025/07/code-IS-et-IRPP-francais-1.pdf",
+ "parent": "https://jibaya.tn/docs/code-de-lirpp-et-is-2025/",
+ "flag": "E",
+ "final_url": "https://jibaya.tn/wp-content/uploads/2025/07/code-IS-et-IRPP-francais-1.pdf",
+ "content_type": "application/pdf",
+ "sha256": "0006d25e15d7a9ed1fd844e69c4abbaa012d779c06004369acb225e881fbd885",
+ "bytes": 1531858,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S065_code_IS_et_IRPP_francais_1.pdf",
+ "pages": 124,
+ "text_chars": 306312,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Fri, 19 Sep 2025 12:03:18 GMT"
+}

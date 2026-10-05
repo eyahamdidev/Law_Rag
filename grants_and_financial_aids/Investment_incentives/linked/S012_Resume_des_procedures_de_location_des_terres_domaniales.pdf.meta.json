@@ -1,0 +1,20 @@
+{
+ "id": "S012",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Decree 2017-389 - financial incentives (premiums) - Legal references incl. decree 2024-182",
+ "url": "https://www.apia.com.tn/medias/files/supports-promotionnels/Resume-des-procedures-de-location-des-terres-domaniales.pdf",
+ "parent": "https://www.apia.com.tn/references-juridiques.html",
+ "flag": "S",
+ "final_url": "https://www.apia.com.tn/medias/files/supports-promotionnels/Resume-des-procedures-de-location-des-terres-domaniales.pdf",
+ "content_type": "application/pdf",
+ "sha256": "dd50425d16607e4ea89b4dc0e3df3a762ab658c412db4929b171d2e2b423d3a6",
+ "bytes": 32033451,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S012_Resume_des_procedures_de_location_des_terres_domaniales.pdf",
+ "pages": 2,
+ "text_chars": 4,
+ "needs_ocr": true,
+ "lang": "fr",
+ "last_modified": "Thu, 08 Jun 2017 15:13:26 GMT"
+}

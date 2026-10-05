@@ -1,0 +1,20 @@
+{
+ "id": "S016",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Incitations a l'investissement - practical sheets - PDF",
+ "url": "https://investintunisia.tn/wp-content/uploads/2024/03/Incitations-a-lInvestissement-%E2%80%93-Fiches-Pratiques-2.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://investintunisia.tn/wp-content/uploads/2024/03/Incitations-a-lInvestissement-%E2%80%93-Fiches-Pratiques-2.pdf",
+ "content_type": "application/pdf",
+ "sha256": "c1b32dc57c1e8ff69333cc9fd94320b082390057f0fc369e7cd5c56512742841",
+ "bytes": 816101,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\S016_Incitations_a_l_investissement_practical_sheets_PDF.pdf",
+ "pages": 14,
+ "text_chars": 21239,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Wed, 24 Apr 2024 08:46:05 GMT"
+}

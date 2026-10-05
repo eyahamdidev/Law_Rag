@@ -1,0 +1,1535 @@
+http://www.procomptable.com/ 1
+NC 26 
+La présentation des états financiers  
+des entreprises d’assurance et / ou de réassurance 
+ 
+Objectif de la norme 
+01. La norme comptable NC 01 « Norme Comptable Générale » définit les règles relatives à la 
+présentation des états financiers des entreprises en général compte non tenu de la nature de leurs 
+activités.  
+02. La plupart de ces règles sont également applicables aux entreprises d'assurance et/ou de 
+réassurance notamment les considérations pour l'élaboration et la présentation des états financiers, 
+les dispositions communes, les composantes des états financiers et la structure des notes aux états 
+financiers.  
+Toutefois, dans la mesure où les activités des entreprises d'assurance et/ou de réassurance diffèrent 
+de façon significative de celles des autres entreprises commerciales et industrielles, des règles 
+particulières doivent leur être définies en vue d'aboutir à la production d'états financiers permettant 
+aux différents utilisateurs d'évaluer correctement la situation financière et les performances des 
+entreprises d'assurance et/ou de réassurance ainsi que leur évolution.  
+03. L'objectif de la présente norme est de définir les règles particulières de présentation des états 
+financiers spécifiques aux entreprises d'assurance et/ou de réassurance.  
+Champ d'application  
+04. La présente norme est applicable à toutes les entreprises d'assurance et/ou de réassurance 
+soumises à la tenue et la publication de leurs états financiers en Tunisie. Elle concerne la 
+présentation des états financiers dans les entreprises d'assurance et/ou de réassurance.  
+Dispositions relatives a la présentation des états financiers  
+Caractéristiques des états financiers  
+05. Les caractéristiques des états financiers des entreprises pratiquant des opérations d'assurance et 
+de réassurance sont identiques à celles régissant les entreprises des autres secteurs d'activité. Ces 
+caractéristiques, qui sont développées dans la norme comptable générale, sont les suivantes :  
+• L'agrégation  
+• La classification  
+• La structure 
+• L'articulation  
+• Les principes comptables généralement admis  
+• La bonne information.  
+Structure et contenu des états financiers  
+Dispositions générales  
+06. Les états financiers doivent être clairement identifiés et distingués des autres informations 
+publiées par l'entreprise. Les états financiers doivent comporter obligatoirement les mentions 
+suivantes :  
+• le nom de l'entreprise,  
+• la mention "comptes consolidés" si les états financiers se rapportent à un groupe 
+d'entreprises,  
+• la date d'arrêté et la période couverte par les états financiers,  
+• l'unité monétaire dans laquelle sont exprimés les états financiers et éventuellement l'indication 
+de l'arrondi.  
+07. Ces informations doivent être indiquées sur chacune des pages des états financiers publiés.  
+http://www.procomptable.com/ 2
+08. Pour chaque poste et rubrique, les chiffres correspondants de l'exercice précédent doivent être 
+mentionnés.  
+09. La compensation entre les postes d'actif et de passif ou entre des postes de charges et de 
+produits n'est pas admise à moins qu'elle ne soit autorisée par les normes comptables.  
+Contenu des états financiers  
+10. Les états financiers comprennent les éléments suivants qui forment un tout indissociable :  
+Entreprises pratiquant uniquement des opérations d'assurance et/ou de réassurance vie  
+• le bilan, 
+• l'état de résultat technique de l'assurance vie,  
+• l'état de résultat,  
+• le tableau des engagements reçus et donnés,  
+• l'état des flux de trésorerie,  
+• les notes aux états financiers.  
+Entreprises pratiquant uniquement des opérations d'assurance et/ou de réassurance non vie  
+• le bilan, 
+• l'état de résultat technique de l'assurance non vie,  
+• l'état de résultat,  
+• le tableau des engagements reçus et donnés,  
+• l'état des flux de trésorerie,  
+• les notes aux états financiers.  
+Entreprises pratiquant à la fois des opérations d'assurance et/ou de réassurance vie et non vie  
+• le bilan, 
+• l'état de résultat technique de l'assurance vie,  
+• l'état de résultat technique de l'assurance non vie,  
+• l'état de résultat,  
+• le tableau des engagements reçus et donnés,  
+• l'état des flux de trésorerie,  
+• les notes aux états financiers.  
+L'entreprise d'assurance et/ou de réassurance à la quelle sont confiés des fonds d'origine 
+budgétaire ou extérieure, à affectation spécifique, et sur lesquels elle encourt ou non un risque 
+quelconque, doit faire apparaître ces ressources au passif du bilan et les créances qui leurs 
+sont liées à l'actif du bilan. Les flux de fonds sont également présentés sur une ligne séparée 
+au niveau de l'état des flux de trésorerie dans l'activité de financement.  
+Le bilan  
+Caractéristiques principales  
+11. Les caractéristiques majeures du bilan sont les suivantes :  
+• La présentation retenue illustre l'inversion du cycle de production caractéristique de l'activité 
+d'assurance et/ou de réassurance en mettant en relief d'une part, les provisions techniques, 
+qui constituent la dette estimée de l'assureur et/ou du réassureur envers ses assurés, et 
+d'autre part, la couverture de ces engagements par des placements ou des créances sur les 
+réassureurs,  
+• Une plus grande lisibilité des différents engagements techniques qui figurent sur des lignes 
+distinctes des états financiers.  
+Modalités de présentation  
+12. La présentation du bilan est réglementée et son contenu obéit aux différentes règles de 
+raccordement qui figurent dans l'annexe 2 de la norme comptable relative au contrôle interne et à 
+l'organisation comptable. Les postes présentant un solde nul pour l'exercice en cours et l'exercice 
+précédent ne sont pas présentés dans le bilan.  
+http://www.procomptable.com/ 3
+13. Les postes du bilan (définis par deux lettres en majuscule suivies d'un chiffre et ceux définis par 
+deux lettres en majuscule suivies de deux chiffres) doivent être présentés dans le bilan à moins qu'ils 
+ne présentent un solde nul pour l'exercice en cours et l'exercice précédent. Les sous-postes du bilan 
+(présentés en italique) sont présentés dans le bilan ou dans les notes aux états financiers.  
+Modèle de bilan  
+14. Les entreprises d'assurance et/ou de réassurance doivent présenter le bilan selon le modèle 
+présenté en annexes N° 1 et 2.  
+15. Dans la mesure où des règles particulières ne sont pas prévues par les normes 
+sectorielles, les modalités d'inscription à l'actif du bilan des immobilisations corporelles, des 
+immobilisations incorporelles et des charges reportées sont réalisées conformément aux 
+normes du système comptable des entreprises.  
+Etat de résultat technique de l'assurance non vie  
+Caractéristiques principales  
+16. La présentation de l'état de résultat technique de l'assurance non vie et son contenu obéissent aux 
+différentes règles de raccordement qui figurent dans l'annexe 2 de la norme comptable relative au 
+contrôle interne et à l'organisation comptable.  
+17. L'état de résultat technique de l'assurance non vie fait apparaître les opérations brutes, les 
+cessions et rétrocessions et les opérations nettes. Le résultat des cessions et rétrocessions 
+apparaît donc en lecture directe dans l'état de résultat technique.  
+18. Les charges internes et externes sont classées selon leurs , destinations et non pas selon leurs 
+natures. On distingue à cet effet les 5 destinations principales suivantes, dont 4 d'entre elles figurent 
+dans l'état de résultat technique de l'assurance non vie et une dans l'état de résultat :  
+- les frais de gestion des sinistres,  
+- les frais d'acquisition des contrats,  
+- les frais d'administration,  
+- les frais de gestion des placements (état de résultat pour l'assurance non vie),  
+- les autres charges techniques.  
+19. Pour l'assurance non vie, les produits de placements et les charges de placements sont 
+considérés comme des éléments de l'état de résultat alors qu'ils font partie de l'état de résultat 
+technique pour l'assurance vie.  
+20. Il existe une passerelle entre l'état de résultat technique et l'état de résultat qui permet d'allouer 
+une partie du produit net des placements qui figure dans l'état de résultat à l'état de résultat technique. 
+Cette allocation est opérée par le biais des produits de placements transférés et des produits de 
+placements alloués. Les modalités d'allocation, pour l'assurance non vie, sont définies dans l'annexe 3 
+de la norme comptable sectorielle sur le contrôle interne et l'organisation comptable (compte de 
+produits).  
+Modalités de présentation  
+21. Les postes présentant un solde nul pour l'exercice en cours et l'exercice précédent ne sont pas 
+présentés dans l'état de résultat technique non vie.  
+22. Les postes qui ne sont pas significatifs dans l' état de résultat technique non vie peuvent ne pas 
+être présentés séparément et seront groupés avec d'autres postes de même nature.  
+23. Il est à noter que les entreprises qui pratiquent à la fois l'assurance vie et l'assurance non vie 
+doivent présenter deux états de résultats techniques séparés, les produits et charges de placements 
+figureront dans l'état de résultat technique pour l'assurance vie et dans l'état de résultat pour 
+l'assurance non vie.  
+Modèle de l'état de résultat technique de l'assurance non vie  
+24. L'état de résultat technique de l'assurance non vie intègre le poste frais d'exploitation qui se 
+décompose de la façon suivante :  
+- frais d'acquisition,  
+- variation du montant des frais d'acquisition reportés,  
+http://www.procomptable.com/ 4
+- frais d'administration,  
+- commissions reçues des réassureurs.  
+25. Les frais d'acquisition et d'administration correspondent à la répartition analytique des charges par 
+nature enregistrées préalablement dans la classe 9 qui est soldée lors de chaque arrêté comptable 
+(cf. §.18). La répartition des charges par nature dans les différentes destinations doit être réalisée sur 
+la base de critères définis par l'entreprise eu égard à ses activités. Les clefs de répartition analytique 
+doivent être objectives et contrôlables. Pour les charges qui sont affectées directement de par leur 
+nature à une destination précise (charges financières, prestations...), il a été prévu une imputation 
+directe dans les comptes de la classe 6.  
+26. Les commissions reçues des réassureurs sont inscrites en déduction du poste « Frais 
+d'exploitation » du fait que ces commissions ne sont pas considérées comme un revenu mais comme 
+une couverture des frais de gestion engagés par l'assureur.  
+27. Les entreprises d'assurance et/ou de réassurance doivent présenter l'état de résultat technique de 
+l'assurance non vie selon le modèle joint en annexe N° 3.  
+Etat de résultat technique de l'assurance vie  
+Caractéristiques principales  
+28. La présentation de l'état de résultat technique de l'assurance vie et son contenu obéissent aux 
+différentes règles de raccordement qui figurent dans l'annexe 2 de la norme comptable relative au 
+contrôle interne et à l'organisation comptable.  
+Les charges internes et externes sont classées selon leurs destinations et non pas selon leurs 
+natures. On distingue à cet effet les 5 destinations principales suivantes, qui retracent l'activité des 
+entreprises d'assurance et de réassurance et qui figurent dans l'état de résultat technique de 
+l'assurance vie :  
+- les frais d'administration,  
+- les frais de gestion des sinistres,  
+- les frais d'acquisition des contrats,  
+- les frais de gestion des placements,  
+- les autres charges techniques.  
+29. Pour l'assurance vie, les produits de placements et les charges de placements sont 
+considérés comme des éléments de l'état de résultat technique alors qu'ils font partie de l'état 
+de résultat pour l'assurance non vie.  
+30. Il existe deux postes que l'on ne retrouve que dans l'état de résultat technique de l'assurance vie: 
+les plus-values non réalisées sur placements et les moins-values non réalisées sur placements. Ces 
+postes servent à enregistrer la réévaluation des actifs représentatifs des contrats en unités de compte.  
+31. Il existe une passerelle entre l'état de résultat technique et l'état de résultat qui permet d'allouer 
+une partie du produit net des placements qui figure dans l'état de résultat technique à l'état de résultat. 
+Cette allocation est opérée par le biais des produits de placements transférés et des produits de 
+placements alloués. Les modalités d'allocation, pour l'assurance vie, sont définies dans l'annexe 3 de 
+la Norme comptable relative au contrôle interne et à l'organisation comptable.  
+Modalités de présentation 
+ 
+32. Les postes présentant un solde nul pour l'exercice en cours et l'exercice précédent ne sont pas 
+présentés dans l'état de résultat technique de l'assurance vie.  
+33. Les postes qui ne sont pas significatifs dans l'état de résultat technique de l'assurance vie peuvent 
+ne pas être présentés séparément et seront groupés avec d'autres postes de même nature.  
+34. Il est à noter que les entreprises qui pratiquent à la fois des activités d'assurance vie et des 
+activités d'assurance non vie doivent présenter deux états de résultats techniques séparés, les 
+produits et charges de placements figureront dans l'état de résultat technique pour l'activité vie et dans 
+l'état de résultat pour l'activité non vie.  
+Modèle d'état de résultat technique de l'assurance vie  
+35. L'état de résultat technique de l'assurance vie intègre le poste frais d'exploitation qui se 
+décompose de la façon suivante :  
+http://www.procomptable.com/ 5
+- frais d'acquisition  
+- variation du montant des frais d'acquisition reportés  
+- frais d'administration  
+- commissions reçues des réassureurs  
+36. Les frais d'acquisition et d'administration correspondent à la répartition analytique des charges par 
+nature enregistrées préalablement dans la classe 9 qui est soldée lors de chaque arrêté comptable 
+(cf. § 28). La répartition des charges par nature dans les différentes destinations doit être réalisée sur 
+la base de critères définis par les différentes entreprises eu égard à leurs activités. Les clefs de 
+répartition analytique doivent être objectives et contrôlables.  
+37. Les commissions reçues des réassureurs sont inscrites en déduction de ce poste dans la mesure 
+où ces commissions ne sont pas considérées comme un revenu mais comme une couverture des frais 
+de gestion engagés par l'assureur.  
+38. Les entreprises d'assurance et/ou de réassurance doivent présenter l'état de résultat technique de 
+l'assurance vie respectivement selon le modèle joint en annexe N° 4.  
+Etat de résultat  
+Caractéristiques principales  
+39. Les entreprises qui pratiquent une seule activité :  
+l'assurance vie ou l'assurance non vie ne font apparaître dans l'état de résultat que les postes 
+concernant leur activité.  
+40. L'état de résultat fait apparaître :  
+- le résultat technique de l'assurance vie,  
+- le résultat technique de l'assurance non vie,  
+- le résultat des activités ordinaires après impôts,  
+- le résultat extraordinaire,  
+- le résultat de l'exercice.  
+Modalités de présentation 
+ 
+41. Les postes avec un solde zéro pour l'exercice en cours et l'exercice précédent ne sont pas 
+présentés dans l'état de résultat.  
+42. La compensation entre les postes de charges et les postes de produits est interdite à moins qu'elle 
+ne soit explicitement prévue par la présente norme.  
+43. Les postes qui ne sont pas significatifs dans l'état de résultat peuvent ne pas être présentés 
+séparément et seront groupés avec d'autres postes de même nature  
+Modèle de l'état de résultat  
+44. Les entreprises d'assurance et/ou de réassurance doivent présenter l'état de résultat 
+conformément au modèle joint à l'annexe N° 5.  
+Tableau des engagements reçus et donnes  
+45. Un tableau des engagements donnés et reçus doit être établi par les entreprises d'assurance et 
+/ou de réassurance.  
+46. Les engagements sont des droits et obligations dont les effets sur le montant ou la composition du 
+patrimoine sont subordonnés à la réalisation de conditions (exemple: cautions) ou d'opérations 
+ultérieures.  
+47. Le tableau des engagements reçus et donnés doit être conforme au modèle présenté en 
+annexe à la norme comptable NC 14 relative aux éventualités et événements postérieurs à la 
+clôture de l'exercice. Cependant la spécificité des opérations d'assurance et de réassurance 
+doit conduire les entreprises d'assurance et/ou de réassurance à présenter le tableau des 
+engagements reçus et donnés conformément à celui en annexe N° 6.  
+48. Les entreprises doivent indiquer séparément pour les engagements donnés qui figurent dans le 
+tableau des engagements, le montant des engagements à l'égard des dirigeants, le montant des 
+engagements envers les entreprises liées et les entreprises avec un lien de participation.  
+http://www.procomptable.com/ 6
+Etat des flux de trésorerie  
+Modèle de tableau  
+49. L'état des flux de trésorerie renseigne sur la manière avec laquelle l'entreprise a obtenu et 
+dépensé des liquidités à travers ses activités d'exploitation, de financement et 
+d'investissement et à travers d'autres facteurs affectant sa liquidité et sa solvabilité.  
+50. L'état des flux de trésorerie, lorsqu'il est utilisé de concert avec le reste des états financiers, fournit 
+des informations qui permettent aux utilisateurs d'évaluer la capacité de l'entreprise à générer des flux 
+de trésorerie positifs, d'évaluer sa capacité à honorer ses engagements, sa capacité à distribuer des 
+dividendes et à couvrir ses besoins de financement interne. Il lui permet aussi d'évaluer les origines 
+des écarts entre le résultat net et les flux de trésorerie s'y rapportant ainsi que les effets des 
+transactions d'investissement et de financement de la période sur la position financière de l'entreprise.  
+Ces informations sont nécessaires pour estimer la probabilité de réalisation de flux de trésorerie ainsi 
+que l'importance de ces flux et les moments auxquels ces derniers peuvent avoir lieu.  
+51. De manière générale, les opérations de l'entreprise se traduisent, à plus ou moins brève 
+échéance, par des flux de trésorerie. Néanmoins, certaines opérations particulières peuvent être sans 
+incidence sur la trésorerie. Des exemples de ces opérations sont fournis dans le paragraphe 57.  
+52. Les flux de trésorerie liés aux activités d'exploitation sont présentés en utilisant la méthode directe 
+(méthode de référence) qui consiste à fournir des informations sur les principales catégories de 
+rentrées et de sorties de fonds.  
+53. Cet état doit présenter les flux de trésorerie de l'exercice classés en flux provenant des (ou utilisés 
+dans les) activités d'exploitation, d'investissement et de financement.  
+Flux de trésorerie liés à l'exploitation :  
+54. Les activités d'exploitation sont les principales activités génératrices de revenus et toutes activités 
+autres que celles qui sont définies comme étant des activités d'investissement ou de financement.  
+Les mouvements de trésorerie liés à l'exploitation sont par exemple :  
+• les rentrées de fonds provenant de l'encaissement des primes et les sorties de fonds 
+provenant des décaissements relatifs aux paiements des sinistres, rachats, arrivées à 
+échéance ;  
+• les rentrées de fonds provenant de l'encaissement des primes et les sorties de fonds 
+provenant du paiement des sinistres et des commissions sur les acceptations ;  
+• les mouvements de fonds liés aux cessions de primes et de sinistres et à l'encaissement des 
+commissions sur les affaires cédées ;  
+• les paiements aux membres du personnel et les impôts et taxes directs à moins qu'ils ne se 
+rapportent aux activités d'investissement et de financement;  
+• les décaissements et les encaissements relatifs à l'acquisition et la vente de portefeuilles 
+titres, à l'exception de ceux relatifs aux entreprises liées et aux entreprises avec un lien de 
+participation ;  
+• les flux de trésorerie liés aux produits financiers reçus.  
+Flux de trésorerie liés aux activités d'investissement :  
+55. Les activités d'investissement portent sur l'acquisition et la cession d'actifs à long terme et de tout 
+autre investissement qui n'est pas inclus dans les équivalents de liquidités.  
+Les mouvements de trésorerie liés aux activités d'investissement comprennent par exemple :  
+• les décaissements et les encaissements relatifs à l'acquisition et la vente de titres relatifs aux 
+entreprises liées et aux entreprises avec un lien de participation,  
+• les décaissements et les encaissements relatifs à l'acquisition et la vente de terrains et 
+constructions relatifs à l'exploitation,  
+• les encaissements et décaissements découlant des ventes et des achats d'immobilisations 
+corporelles et incorporelles et d'autres actifs immobilisés.  
+ 
+ 
+http://www.procomptable.com/ 7
+Flux de trésorerie liés aux activités de financement : 
+56. Les activités de financement sont les activités qui entraînent des changements quant à l'ampleur 
+et à la composition des capitaux propres et des capitaux empruntés par l'entreprise.  
+Les mouvements de trésorerie liés aux activités de financement comprennent par exemple :  
+• les flux liés à l'émission d'actions ou autres instruments de capitaux propres et au rachat par 
+l'entreprise de ses propres actions,  
+• les dividendes et autres distributions aux actionnaires,  
+• les flux liés à l'émission d'emprunts obligataires, d'emprunts hypothécaires, de billets de 
+trésorerie ou d'emprunts à court terme et à long terme et au remboursement des montants 
+empruntés ( en principal et intérêts).  
+Opérations sans incidence sur la trésorerie :  
+57. Les activités d'investissement et de financement qui n'entraînent pas de flux de trésorerie sont 
+exclues de l'état des flux de trésorerie. Il en est ainsi par exemple des conversions de créances en 
+capital. Il en est également des acquisitions d'actifs en leasing qui sont considérées comme 
+opérations de financement n'entraînant pas de flux de trésorerie alors que les remboursements 
+subséquents du principal sont considérés comme des sorties de trésorerie liées aux activités de 
+financement.  
+58. L'effet des variations des taux de change sur les liquidités détenues ou dues en monnaies 
+étrangères est présenté dans l'état des flux de trésorerie d'une manière séparée.  
+59. Les flux de trésorerie liés à des éléments extraordinaires et à des effets des modifications 
+comptables doivent être classés comme flux d'activités d'exploitation, d'investissement ou de 
+financement, selon le cas, et présentés séparément.  
+Liquidités et équivalents de liquidités :  
+60. Les liquidités comprennent les fonds disponibles, les dépôts à vue et les découverts bancaires 
+sauf s'il est établi qu'ils font l'objet d'un financement structurel de l'entreprise et font l'objet d'un contrat 
+ferme garantissant leur stabilité, auquel cas, ils sont classés parmi les flux de trésorerie liés aux 
+activités de financement. Les équivalents de liquidités sont des placements à court terme, très liquides 
+facilement convertibles en un montant connu de liquidités, et non soumis à un risque significatif de 
+changement de valeur.  
+61. Les entreprises doivent présenter un tableau des flux de trésorerie selon la méthode directe telle 
+qu'exposée en annexe N° 7 qui permet une meilleure visualisation des différents flux de trésorerie 
+d'exploitation (primes, sinistres, placements...).  
+Notes aux états financiers  
+62. Les notes aux états financiers présentent les informations sur les principes et méthodes 
+comptables appliquées aux transactions et événements importants ainsi que des informations sur les 
+bases de préparation des états financiers.  
+63. Les notes fournissent aux utilisateurs des informations complémentaires qui ne sont pas 
+présentées dans les états financiers. Les notes comprennent des commentaires et des analyses 
+détaillés sur les montants portés au bilan, aux états de résultat technique, à l'état de résultat, à l'état 
+des flux de trésorerie et au tableau des engagements reçus et donnés.  
+64. Les notes aux états financiers comprennent également des informations complémentaires utiles 
+aux utilisateurs tels que les engagements et éventualités qui ne figurent pas dans les états financiers 
+et en général, toutes informations significatives nécessaires pour une juste appréciation du patrimoine 
+et de la situation financière de l'entreprise.  
+65. Lorsque les notes donnent le détail d'un poste du bilan ou de l'état de résultat, les chiffres 
+correspondants à l'exercice précédent sont indiqués de manière à pouvoir être directement comparés 
+à ceux de l'exercice.  
+http://www.procomptable.com/ 8
+Structure des notes aux états financiers  
+66. Les notes aux états financiers doivent être présentées dans l'ordre suivant :  
+• Présentation de l'entreprise, de ses opérations et de ses activités.  
+• Faits marquants de l'exercice.  
+• Principes et méthodes comptables.  
+• Notes sur le bilan.  
+• Notes sur les états de résultats.  
+• Notes sur le tableau des engagements reçus et donnés.  
+• Notes sur l'état des flux de trésorerie.  
+• Notes complémentaires.  
+Présentation de l'entreprise de ses opérations et de ses activités  
+67. L'entreprise doit fournir une brève description de ses opérations et de ses principales activités tout 
+en faisant un rappel historique succinct des principales étapes de son développement.  
+68. Les entreprises doivent fournir les informations suivantes :  
+- Le nom et le siège de la Société- mère qui publie des comptes consolidés dans lesquels les comptes 
+sont intégrés,  
+- L'effectif employé au cours de l'exercice ventilé par catégorie de salariés ainsi que les frais de 
+personnel s'y rapportant à l'exercice.  
+Faits marquants de l'exercice  
+69 L'entreprise doit présenter succinctement les faits les plus caractéristiques de l'exercice qui sont 
+susceptibles d'affecter les comptes et pouvant aider l'utilisateur à comprendre l'évolution des 
+principales rubriques et principaux postes des états financiers.  
+Principes et méthodes comptables  
+70. L'entreprise mentionne les modes et méthodes d'évaluation appliqués aux divers postes du bilan 
+et des états de résultats ainsi que les méthodes utilisées pour le calcul des amortissements et des 
+provisions pour dépréciation. L'entreprise doit notamment décrire les règles retenues pour l'imputation 
+des charges par destination.  
+71. L'entreprise indique et explique, le cas échéant, les dérogations aux principes comptables 
+généraux qu'elle a été conduite à pratiquer dans le cas exceptionnel où l'application d'un principe 
+comptable se révèle impropre à donner une image fidèle du patrimoine, de la situation financière ou 
+du résultat. L'entreprise doit indiquer l'incidence de ces pratiques dérogatoires sur la détermination du 
+patrimoine, de la situation financière ou du résultat de l'exercice.  
+72. Tout changement de méthode et de présentation des comptes annuels doit être décrit et justifié et 
+son incidence sur les comptes doit être indiquée.  
+Notes sur le bilan  
+Mouvements sur les éléments de l'actif :  
+73. Les entreprises d'assurance doivent indiquer dans les notes aux états financiers les mouvements 
+ayant affectés les divers postes détaillés ci-après ainsi que les amortissements et provisions liés à ces 
+postes. Les informations peuvent être présentées selon le format en annexe N° 8.  
+74. Pour les opérations se rapportant à des entreprises liées et les entreprises avec un lien de 
+participation, les entreprises doivent indiquer pour chacune des deux catégories le montant des parts 
+détenues dans ces entreprises (actions et autres titres à revenus variables).  
+Etat récapitulatif des placements :  
+75. Les entreprises doivent inclure dans les notes aux états financiers un état récapitulatif des 
+placements qui reprend la valeur brute, la valeur nette et la juste valeur. Cet état doit être présenté 
+conformément au modèle en annexe N° 9.  
+76. A la suite de l'élaboration de l'état récapitulatif des placements, il y a lieu de préciser les 
+informations suivantes :  
+http://www.procomptable.com/ 9
+• Le montant des acomptes inclus dans le poste terrains et constructions,  
+• La valeur des terrains et constructions en distinguant les droits réels des parts de SCI 
+(Sociétés Civiles Immobilières) non cotées et en faisant apparaître les immobilisations 
+utilisées pour les besoins de l'activité et les autres immobilisations,  
+• Le solde non encore amorti de la différence entre le prix de remboursement et la valeur 
+comptable des titres amortissables.  
+Ventilation des créances et des dettes : 
+77. Les entreprises doivent indiquer la ventilation selon leur durée résiduelle des dettes et créances 
+en distinguant la part à moins d'un an, la part à plus d'un an et moins de cinq ans et la part à plus de 
+cinq ans.  
+Participations :  
+78. Les entreprises doivent fournir les informations suivantes sur leurs participations :  
+• le montant des participations et des parts dans des entreprises liées,  
+• la liste des filiales et participations en indiquant le nom, le siège, le pourcentage de capital 
+détenu, le montant des capitaux propres et du résultat du dernier exercice arrêté de ces 
+filiales,  
+• le nom, le siège et la forme juridique de toute entreprise dont l'entreprise d'assurance est 
+l'associé indéfiniment responsable.  
+Capitaux propres :  
+79. Les entreprises doivent fournir les informations suivantes :  
+• Le nombre et la valeur nominale de chaque catégorie de titres composant le capital social et 
+l'étendue des droits que confèrent à leur détenteur les titres de chaque catégorie avec 
+l'indication de ceux qui ont été créés ou remboursés pendant l'exercice,  
+• L'existence de parts bénéficiaires, d'obligations convertibles et de titres ou droits similaires, 
+avec indication de leur nombre et de l'étendue des droits qu'ils confèrent,  
+• La valeur nominale des différentes catégories de titres de l'entreprise détenus par elle même, 
+ainsi que le nombre et la valeur nominale des titres de chaque catégorie achetés ou vendus 
+pendant l'exercice.  
+• La ventilation des réserves en distinguant les réserves statutaires et chacune des réserves 
+réglementaires et des autres réserves avec leur dénomination précise,  
+• Le montant des éléments du bilan ayant fait l'objet d'une réévaluation au cours de l'exercice, 
+en précisant, pour chaque catégorie, la méthode de réévaluation employée, le montant et le 
+traitement fiscal de l'écart,  
+• Le détail des mouvements ayant affecté la composition des fonds propres au cours de 
+l'exercice notamment les réserves incorporées au capital social ou au fonds commun et les 
+augmentations de capital ou de fonds commun,  
+• Les titres soumis à une réglementation particulière.  
+Titres et dettes soumis à des conditions de subordination :  
+80. Les entreprises doivent fournir les informations ci-après sur les titres et dettes soumis à des 
+conditions de subordination :  
+• la nature juridique du titre (emprunt, titre obligataire, titre participatif...),  
+• le montant de la dette, la devise dans laquelle elle est libellée, le taux d'intérêt, l'échéance ou 
+l'indication que la dette est perpétuelle,  
+• la possibilité et les conditions d'un éventuel remboursement anticipé,  
+• les conditions de la subordination et l'existence éventuelle de stipulations permettant de 
+convertir le passif subordonné en capital ou en une autre forme de passif ainsi que les 
+conditions de ces stipulations.  
+Provisions pour sinistres à payer :  
+81. Les entreprises doivent préciser le montant des recours à encaisser qui sont venus en déduction 
+de la provision pour sinistres à payer.  
+http://www.procomptable.com/ 10
+82. Les entreprises doivent indiquer la différence entre d'une part, le montant des provisions pour 
+sinistres à payer inscrites au bilan d'ouverture, relatives aux sinistres survenus au cours des exercices 
+antérieurs et restant à régler, et d'autre part, le montant total des prestations payées au cours de 
+l'exercice au titre des sinistres survenus au cours d'exercices antérieurs et des provisions pour 
+sinistres inscrites au bilan de clôture au titre de ces mêmes sinistres.  
+83. Les entreprises d'assurance non vie doivent établir un état des règlements et des provisions pour 
+sinistres à payer inscrites à leur bilan pour l'ensemble de leurs opérations et ce selon le modèle en 
+annexe 10.  
+Informations diverses sur le bilan :  
+84. Les entreprises doivent mentionner les informations suivantes :  
+• le montant des actifs ayant fait l'objet d'une clause de réserve de propriété,  
+• le solde non amorti correspondant à la différence entre le montant initialement reçu et le prix 
+de remboursement des dettes représentées par un titre émis par l'entreprise,  
+• les provisions pour risques et charges ventilées selon l'objet de chacune en distinguant, au 
+moins, les provisions pour retraites, les provisions pour impôts et les autres provisions,  
+• le montant en devises et la contre- valeur en Dinars et la composition de l'actif et du passif en 
+devises, ainsi que le montant par devise des différences de conversion.  
+Notes sur le résultat  
+Produits et charges de placements :  
+85. Les entreprises d'assurance et/ou de réassurance doivent fournir la ventilation de leurs charges et 
+produits de placements et identifier la fraction de ces produits et charges relatives aux entreprises 
+liées ou avec un lien de participation. Cette ventilation peut être présentée selon le format en annexe 
+N° 11.  
+86. Les différentes rubriques de l' annexe N° 11 respectent la nomenclature comptable développée 
+dans la norme sectorielle sur le contrôle interne et l'organisation comptable. Les sous- comptes 
+devront être créés en tant que besoin pour fournir le détail demandé.  
+Résultats techniques par catégorie d'assurance :  
+87. Les entreprises d'assurance et/ou de réassurance vie doivent établir, pour chacune des catégories 
+de contrats, un état de résultat technique conforme au modèle présenté en annexe N° 12.  
+88. Les entreprises d'assurance et/ou de réassurance non vie doivent établir, pour chacune des 
+catégories d'assurance, un état de résultat technique conforme au modèle présenté en annexe N° 13.  
+89. Lorsque l'activité vie n'est pas significative, l'entreprise de réassurance peut n'établir qu'un seul 
+tableau.  
+90. Les informations suivantes sont fournies sur les opérations de réassurance réalisées par les 
+entreprises d'assurance et/ou de réassurance :  
+• Le tableau des résultats techniques par catégorie d'assurance qui figure dans les notes aux 
+états financiers doit reprendre en ligne, pour chacune des catégories d'assurance concernées, 
+le solde de réassurance qui comprend les primes cédées, la part des réassureurs dans les 
+charges de prestations, la part des réassureurs dans les charges de provisions, la part des 
+réassureurs dans la participation aux résultats et les commissions reçues des réassureurs.  
+• Le tableau des résultats techniques par catégorie d'assurance qui figure dans les notes aux 
+états financiers doit reprendre dans la dernière colonne le résultat technique des acceptations, 
+toutes catégories d'assurance confondues. Cette disposition n'est pas applicable aux 
+entreprises qui pratiquent exclusivement la réassurance.  
+Affectation des produits des placements aux différentes catégories :  
+91. Il est à noter qu'à défaut d'une affectation directe, les produits nets des placements sont affectés à 
+chaque catégorie au prorata des provisions techniques moyennes déterminées comme suit :  
+(Montant des provisions techniques à l'ouverture + Montant des provisions techniques à la clôture ) / 2 
+http://www.procomptable.com/ 11
+Ventilation des charges de personnel :  
+92. Les entreprises doivent indiquer la ventilation des charges de personnel et notamment les 
+salaires, les pensions de retraite, les charges sociales et les autres charges.  
+Charges de commissions :  
+93. Les entreprises doivent indiquer le montant total des commissions, réparties par type 
+d'intermédiaires, de toute nature afférentes à l'assurance directe comptabilisées au cours de 
+l'exercice.  
+Ventilation des primes par zones géographiques :  
+94. Les entreprises doivent indiquer la ventilation des primes brutes émises par zone géographique 
+pour les zones que l'entreprise considère comme importantes au regard de son activité et a fin de 
+remplir les objectifs de l'information financière.  
+La détermination des zones géographiques devra être réalisée conformément à la norme sur la 
+présentation de l'information sectorielle.  
+95. Les entreprises de réassurance, quant à elles doivent fournir une information sur les primes 
+acceptées et les primes acquises par pays ou par zone géographique.  
+Dérogations aux principes comptables :  
+96. L'entreprises doit porter l'information sur les retraitements à opérer pour dégager le résultat fiscal à 
+partir du résultat comptable et ce, en application de la législation fiscale.  
+Position fiscale latente :  
+97. Les entreprises doivent indiquer les éléments qui provoquent une augmentation ou un allégement 
+de la charge fiscale future.  
+Ventilation des éléments extraordinaires et non techniques :  
+98. Les entreprises doivent indiquer la ventilation des pertes et gains extraordinaires ainsi que les 
+produits et charges non techniques.  
+Provisions techniques d'assurance vie :  
+99. Les entreprises pratiquant des opérations d'assurance vie doivent fournir les informations 
+suivantes :  
+- Le détail de la variation des provisions d'assurance vie brutes de réassurance entre le montant à 
+l'ouverture de l'exercice et le montant à la clôture de l'exercice selon le format ci-après :  
+- Charges des provisions d'assurance vie (montant 
+figurant à l' état de résultat technique )  ……………
+- intérêts techniques ……………
+- participations aux résultats incorporées directement ……………
+- utilisation de la participation aux bénéfices ……………
+- différence de conversion (+ ou -) ……………
+Ecart entre les provisions d'assurance vie à 
+l'ouverture et les .provisions d'assurance vie à la 
+clôture 
+……………
+ Total 
+ 
+• Un tableau récapitulatif des éléments constitutifs de la participation des assurés aux résultats 
+techniques et financiers selon le format en annexe N° 14. 
+http://www.procomptable.com/ 12
+Notes sur l'état des flux de trésorerie  
+100. L'entreprise doit mentionner :  
+• les opérations d'investissement et de financement qui n'entraînent pas de sortie de liquidités 
+ou d'équivalents de liquidités et qui sont exclues de l'état des flux de trésorerie. Elles doivent 
+être présentées d'une manière qui permette de fournir toutes les informations pertinentes sur 
+les activités d'investissement et de financement en cause,  
+• les composantes des liquidités ou équivalents de liquidités et la méthode adoptée pour la 
+détermination de celles-ci,  
+• le rapprochement de l'état des flux de trésorerie avec les éléments équivalents inscrits au 
+bilan,  
+• le montant des soldes significatifs de liquidités ou équivalents de liquidités détenu par 
+l'entreprise et non disponible justifié par un commentaire,  
+• des informations complémentaires permettant de comprendre la situation financière et la 
+liquidité de l'entreprise justifiées par un commentaire.  
+Tableaux de raccordement du résultat technique par catégorie d'assurance  
+aux états financiers  
+101. Ces tableaux sont présentés en annexes N° 15 et 16.  
+Date d'application  
+102. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 
+1er janvier 2001.  
+A l'entrée en vigueur de la présente norme et pour les besoins de présentation d'informations 
+comparées, les entreprises d'assurances et/ou de réassurance doivent publier des informations 
+comparées couvrant la ou les périodes précédentes ainsi que l'ensemble de l'exercice clôturé au 
+31/12/2000 et ce conformément aux dispositions de la présente norme et à celles de la norme 
+comptable NC 19.  
+Une note, accompagnée de tableaux et d'explications décrivant et justifiant le passage de l'ancienne à 
+la nouvelle présentation doit être jointe aux états financiers relatifs aux périodes ouvertes à partir du 
+1er Janvier 2001.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 13
+ 
+Annexe n° 1 
+Actif du bilan d’une entreprise d’assurance et / ou de réassurance 
+  Exercice N Exercice 
+N-1 
+ 
+Note Brut 
+Amortisse
+ment et 
+provisions 
+Net Net 
+AC1 Actifs incorporels 
+AC11 Investissements de recherche et développement  
+AC12 Concessions, brevets, licences, marques  
+AC13 Fonds commercial  
+AC14 Acomptes versés  
+    
+     
+AC2 Actifs corporels d'exploitation  
+AC21 Installations techniques et machines  
+AC22 Autres installations, outillage et mobilier  
+AC23 Acomptes versés et Immobilisations corporelles en cours  
+    
+     
+AC3 Placements  
+AC31 Terrains et constructions  
+AC311 Terrains et constructions d'exploitation  
+AC312 Terrains et constructions hors exploitation  
+AC32 Placements dans les entreprises liées et participations  
+AC321 Parts dans des entreprises liées  
+AC322 Bons et obligations émis par les entreprises liées et 
+créances sur ces entreprises  
+AC323 Parts dans les entreprises avec un lien de participation  
+AC324 Bons d’obligations émis par des entreprises avec 
+lesquelles l'entreprise d’assurance à un lien de participation et 
+créances sur ces entreprises  
+AC33 Autres placements financiers  
+AC331 Actions, autres titres à revenu variable et part dans des 
+FCP  
+AC332 Obligations et autres titres à revenu fixe  
+AC333 Prêts hypothécaires  
+AC334 Autres prêts  
+AC335 Dépôts auprès des établissements bancaires et financiers 
+AC336 Autres  
+AC34 Créances pour espèces déposées auprès des entreprises 
+cédantes  
+    
+     
+AC4 Placements représentant les provisions techniques 
+afférentes aux contrats en unité de compte     
+     
+AC5 Part des réassureurs dans les provisions techniques  
+AC510 Provision pour primes non acquises  
+AC520 Provision d’assurance vie  
+AC530 Provision pour sinistres (vie)  
+AC531 Provision pour sinistres (non vie)  
+AC540 Provision pour participation aux bénéfices et ristournes 
+(vie)  
+AC541 Provision pour participation aux bénéfices et ristournes 
+(non vie)  
+AC550 Provisions d'égalisation et équilibrage  
+AC560 Autres provisions techniques (vie)  
+AC561 Autres provisions techniques (non vie)  
+AC570 Provisions techniques des contrats en unités de compte 
+    
+     
+http://www.procomptable.com/ 14
+AC6 Créances  
+AC61 Créances nées d'opérations d'assurance directe  
+AC611 Primes acquises et non émises  
+AC612 Autres créances nées d’opération d’assurance directe  
+AC613 Créances indemnisées subrogées à l'entreprise 
+d’assurance  
+AC62 Créances nées d'opérations de réassurance  
+AC63 Autres créances  
+AC631 Personnel  
+AC632 Etat, organismes de sécurité sociale, collectivités 
+publiques  
+AC633 Débiteurs divers 
+AC64 Créances sur ressources spéciales  
+    
+     
+AC7 Autres éléments d'actif  
+AC71 Avoirs en banque, CCP, chèques et caisse  
+AC72 Charges reportées  
+AC721 Frais d’acquisition reportés 
+AC722 Autres charges à répartir 
+AC73 Comptes de régularisation Actif  
+AC731 Intérêts et loyers acquis non échus  
+AC732 Estimations de réassurance -acceptation  
+AC733 Autres comptes de régularisation  
+AC74 Ecart de conversion  
+AC75 Autres  
+    
+     
+     
+     
+     
+Total de l’actif     
+http://www.procomptable.com/ 15
+ 
+Annexe n° 2 
+Capitaux propres et passif du bilan d’une entreprises 
+d’assurance et / ou de réassurance 
+N N-1 
+Capitaux propres   
+ CP1  Capital social ou fonds équivalent   
+ CP2  Réserves et prim es liées au capital   
+ CP3  Rachat d'actions propres   
+ CP4  Autres capitaux propres   
+ CP5  Résultat reporté   
+  Total capitaux propres avant résultat de 
+l'exercice 
+  
+ CP6  Résultat de l'exercice   
+  Total capitaux propres avant affectation   
+Passif    
+PA1 Autres passifs financiers    
+ PA11  Emprunts obligataires   
+ PA12  TCN émis par l'entreprise   
+ PA13  Autres emprunts   
+ PA14  Dettes envers les établissements bancaires et financiers   
+   
+PA2 Provisions pour autres risques et charges    
+ PA21  Provisions pour pensions et obligations similaires   
+ PA22  Provisions pour impôts   
+ PA23  Autres provisions   
+   
+   
+   
+PA3 Provisions techniques brutes    
+ PA310  Provision pour primes non acquises   
+ PA320  Provision d'assurance vie   
+ PA330  Provision pour sinistres (vie)   
+ PA331  Provision pour sinistres (non vie)   
+ PA340  Provisions pour participations aux bénéfices et 
+ristournes (vie) 
+  
+ PA341  Provisions pour participations aux bénéfices et 
+ristournes (non vie) 
+  
+ PA350  Provision pour égalisation et équ ilibrage   
+ PA360  Autres provisions techniques (vie)   
+ PA361  Autres provisions techniques (non vie)   
+   
+   
+PA4 Provisions techniques de contrats en unités de compte   
+   
+PA5 Dettes pour dépôts en espèces reçus des cessionnaires   
+   
+PA6 Autres dettes    
+PA61 Dettes nées d'opérations d'assurance directe    
+PA62 Dettes nées d'opérations de réassurance    
+ PA621  Parts des réassureurs dans les créances indemnisées 
+subrogées à l'entreprise d'assurance 
+  
+ PA622 Autres   
+PA63 Autres dettes    
+ PA631   Dépôts et cautionnements reçus   
+ PA632   Personnel   
+ PA633  Etat, organismes de sécurité sociale, collectivités 
+publiques 
+  
+ PA634   Créditeurs divers   
+PA64 Ressources spéciales    
+   
+PA7 Autres passifs    
+PA71 Comptes de régularisation Passif    
+ PA710  Report de commissions reçues des réassureurs   
+ PA711   Estimation de réassurance-rétrocession   
+ PA712   Autres comptes de régularisation Passif   
+   
+PA72 Ecart de conversion   
+   
+ Total du passif   
+ Total des capitaux propres et de passif   
+ 
+ 
+ 
+http://www.procomptable.com/ 16
+ 
+Annexe n° 3 
+Etat de résultat technique de l’assurance et / ou de la réassurance non vie 
+ 
+ Notes Opérations 
+brutes N 
+Cessions et/ou 
+rétrocessions 
+N 
+Opérations 
+nettes N 
+Opérations 
+nettes N-1 
+PRNV1  Primes acquises      
+ PRNV 11 Primes émises et 
+acceptées 
++    
+ PRNV12  Variation de la provision 
+pour primes non acquises 
++/-     
+      
+PRNT3  Produits de placements alloués, 
+transférés de l'état de résultat 
++    
+      
+PRNV2  Autres produits techniques +     
+      
+CHNV1  Charge de sinistres     
+ CHNV 11 Montants payés -     
+ CHNV 12 Variation de la provision 
+pour sinistres 
++/-     
+     
+      
+CHNV2  Variation des autres provisions 
+techniques 
++/-     
+      
+CHNV3  Participation aux bénéfices et 
+ristournes 
+    
+      
+CHNV4  Frais d'exploitation     
+ CHNV41  Frais d'acquisition -    
+ CHNV42 Variation du montant des 
+frais d'acquisition reportés 
++/-     
+ CHNV43 Frais d'administration -    
+ CHNV 44 commissions reçues des 
+réassureurs 
++    
+      
+CHNV5  Autres charges techniques -     
+      
+CHNV6  Variation de la provision pour 
+égalisation et équilibrage 
++/-     
+       
+ 
+RTNV Sous total (résultat 
+technique de 
+l'assurance et/ou de la 
+réassurance non vie) 
++/-
+    
+       
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 17
+Annexe n° 4 
+Etat de résultat technique de l’assurance et / ou de la réassurance vie 
+ 
+ Notes Opérations 
+brutes N 
+Cessions et 
+/ ou 
+rétroces-
+sions N 
+Opérations 
+nettes N 
+Opérations 
+nettes N-1 
+PRV1 Primes +     
+PRV11 Primes émises et acceptées      
+RV2 Produits de placements      
+PRV21 Revenus des placements +     
+PRV22 .Produits des autres placements +     
+sous total 2a      
+PRV23 Reprise de corrections de valeur sur 
+placements 
++     
+PRV24 Profits provenant de la réalisation des 
+placements et de change  
++     
+sous total 2      
+PRV3 Plus-values non réalisées sur 
+placements 
++     
+PRV4 Autres produits techniques +     
+CHV1 Charge de sinistres      
+CHV11 Montants payés -     
+CHV12 Variation de la provision pour sinistres +/-     
+sous total 3      
+CHV2 Variation des autres provisions 
+techniques 
+     
+CHV21 Provision d'assurance vie +/-     
+CHV22 Autres provisions techniques +/-     
+CHV23 Provision sur contrats en unité de 
+compte 
++/-     
+sous total 4      
+CHV3 Participation aux bénéfices et 
+ristournes 
+     
+CHV4 Frais d'exploitation      
+CHV41 Frais d'acquisition -     
+CHV42 Variation du montant des frais 
+d'acquisition reportés 
++/-     
+CHV43 Frais d'administration -     
+CHV44 commissions reçues des réassureurs +     
+sous total 5      
+CHV5 Autres charges techniques -     
+CHV9 Charges de placements      
+CHV91 Charges de gestion des placements, y 
+compris les charges d'intérêt 
+-     
+CHV92 Correction de valeur sur placements -     
+CHV93 Pertes provenant de la réalisation des 
+placements 
+-     
+sous total 6      
+CHV10 Moins values non réalisées sur 
+placements 
+-     
+CHNT2 Produits de placements alloués, 
+transférés à l'état de résultat 
+-     
+RTV Sous total (résultat technique de 
+l'assurance et/ou de la réassurance vie)  
+     
+ 
+ 
+ 
+http://www.procomptable.com/ 18
+Annexe n° 5 
+Etat de résultat 
+ Notes N N-1 
+RTNV Résultat technique de l'assurance et/ou de 
+la réassurance non vie  
++/-   
+RTV Résultat technique de l'assurance et/ou de 
+la réassurance vie 
++/-   
+PRNT1 Produits des placements (assurance 
+et/ou réassurance non vie) 
+   
+PRNT11 .Revenus des placements +   
+PRNT12 .Produits des autres placements +   
+sous total 1a    
+PRNT13 .Reprise de corrections de valeur sur 
+placements 
++   
+PRNT14 .Profits provenant de la réalisation des 
+placements 
++   
+sous total 1    
+PRNT3 Produits des placements alloués, 
+transférés de l'état de résultat technique de 
+l'assurance et/ou de la réassurance vie 
+   
+CHNT1 Charges des placements (assurance 
+et/ou réassurance non vie) 
+   
+CHNT11 Charges de gestion des placements. y 
+compris les charges d'intérêt 
+-   
+CHNT12 Correction de valeur sur placements -   
+CHNT13 Pertes provenant de la réalisation des 
+placements 
+-   
+sous total 2    
+CHNT2 Produits des placements alloués, 
+transférés à l'état de résultat technique de 
+l'assurance et/ou de la réassurance non vie 
+-   
+PRNT2 Autres produits non techniques +   
+CHNT3 Autres charges non techniques -   
+Résultat provenant des activités ordinaires    
+CHNT4 Impôts sur le résultat -   
+Résultat provenant des activités ordinaires 
+après impôts 
+   
+PRNT4 Gains extraordinaires  +   
+CHNT5 Pertes extraordinaires -   
+Résultat extraordinaire    
+Résultat net de l'exercice     
+CHNT6/PRNTS Effet des modifications comptables 
+(nets d'impôt) 
+   
+Résultat net de l'exercice après 
+modifications comptables 
+   
+ 
+ 
+Annexe n° 6 
+Tableau des engagements reçus et donnés 
+ N N-1 
+HB1 Engagements reçus  
+ 
+HB2 Engagements donnés  
+HB21 Avals, cautions et garanties de crédit données  
+HB22 Titres et actifs acquis avec engagement de revente 
+HB23 Autres engagements sur titres, actifs ou revenus  
+HB24 Autres engagements donnés  
+ 
+HB3 Valeurs reçues en nantissement des cessionnaires et 
+des rétrocessionnaires  
+ 
+HB4 Valeurs remises par des organismes réassurés avec 
+caution solidaire ou de substitution  
+ 
+HB5 Valeurs appartenant à des institutions de prévoyance  
+ 
+HB6 Autres valeurs détenues pour compte de tiers 
+  
+  
+http://www.procomptable.com/ 19
+ 
+Annexe n° 7 
+Etat de flux de trésorerie (méthode directe) 
+Notes N N-1 
+Flux de trésorerie liés à l'exploitation   
+Encaissements des primes reçues des assurés  
+Sommes versées pour paiement des sinistres  
+Encaissements des primes reçues (acceptations)  
+Sommes versées pour les sinistres (acceptations)  
+Commissions versées sur les acceptations  
+Décaissements de primes pour les cessions  
+Encaissements des sinistres pour les cessions  
+Commissions reçues sur les cessions  
+Commissions versées aux intermédiaires  
+Sommes versées aux fournisseurs et au personnel  
+Variation des dépôts auprès des cédantes  
+Variation des espèces reçues des cessionnaires  
+Décaissements liés à l'acquisition de placements financiers  
+Encaissements liés à la cession de placements financiers  
+Taxes sur les assurances versées au Trésor Produits financiers 
+reçus  
+Impôts sur les bénéfices payés Autres mouvements  
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x
+ 
+Flux de trésorerie provenant de l'exploitation   
+Flux de trésorerie liés aux activités d'investissement   
+Décaissements provenant de l'acquisition d'immobilisations 
+incorporelles et corporelles  
+Encaissements provenant de la cession d'immobilisations 
+incorporelles et corporelles 
+Décaissements provenant de l'acquisition de terrains et 
+constructions destinés à l'exploitation  
+Encaissements provenant de la cession de terrains et constructions 
+destinées à l'exploitation  
+Décaissements provenant de l'acquisition de placements auprès 
+d'entreprises liées ou avec un lien de participation 
+Encaissements provenant de la cession de placements auprès 
+d'entreprises liées ou avec un lien de participation  
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+Flux de trésorerie provenant des activités d'investissement   
+Flux de trésorerie liés aux activités de financement  
+Encaissements suite à l'émission d'actions  
+Dividendes et autres distributions  
+Encaissements provenant d'emprunts 
+Remboursements d'emprunts  
+Augmentations/ Diminutions des ressources spéciales  
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+x 
+Flux de trésorerie provenant des activités de financement   
+Incidence des variations de taux de change sur les liquidités ou équivalents 
+de liquidités 
+  
+Variation de trésorerie   
+Trésorerie de début d'exercice    
+Trésorerie de fin d'exercice   
+ 
+http://www.procomptable.com/ 20
+Annexe n° 8 
+Mouvements ayant affecté les éléments de l’actif 
+Valeur brute Amortissements et provisions  
+ A l’ouverture Augmentation Diminution (1) A la clôture 
+Désignation 
+A 
+l’ouver
+-ture 
+Acqui-
+sitions 
+Ces-
+sions 
+A la 
+clôture Amortisse-
+ments 
+Provi-
+sions 
+Amortisse-
+ments 
+Provi-
+sions 
+Amortisse-
+ments 
+Provi-
+sions 
+Amortisse-
+ments 
+Provi-
+sions 
+V.C.N. 
+à la 
+clôture 
+Actifs incorporels  
+Frais de recherche et 
+développement  
+Concessions, brevets, licences, 
+marques  
+Fonds de commerce 
+Acomptes versés  
+ 
+Actifs corporels d'exploitation  
+Installations techniques et 
+machines  
+Autres installations, outillage et 
+mobilier  
+Acomptes versés  
+ 
+Placements  
+Terrains et constructions 
+d'exploitation et hors exploitation  
+Placements dans les entreprises 
+liées  
+Parts  
+Bons et obligations  
+Placements dans les entreprises 
+avec un lien de participatIon  
+Parts  
+Bons et obligations  
+ 
+Autres placements financiers  
+Actions, autres titres à revenu 
+variable 
+Obligations et autres titres à 
+revenu fixe  
+Prêts hypothécaire  
+Autres prêts  
+Dépôt auprès des établ. 
+bancaires et financiers  
+Autres  
+Créances pour espèces déposées  
+Placements des contrats en UC 
+             
+http://www.procomptable.com/ 21
+Annexe n° 9 
+Etat récapitulatif des placements 
+ 
+Valeur brute Valeur nette Juste valeur 
+Plus ou 
+moins-value 
+latente 
+Placements immobiliers et placements 
+immobiliers en cours     
+Actions et autres titres à revenu variable 
+autres que les parts d’OPCVM     
+Parts d’OPCVM détenant uniquement des 
+titres à revenu fixe     
+Autres parts d’OPCVM     
+Obligations et autres titres à revenu fixe     
+Prêts hypothécaires     
+Autres prêts et effets assimilés     
+Autres dépôts     
+Actifs représentatifs de contrats en unités 
+de comptes selon le même détail que ci-
+dessus 
+    
+Total     
+Dont montant de ces placements qui est 
+admis à la représentation des provisions 
+techniques 
+    
+Autres actifs affectables à la 
+représentation des provisions techniques 
+autres que les placements ou la part des 
+réassureurs dans les provisions 
+techniques 
+    
+ 
+Annexe n° 10 
+Etat des règlements et des provisions pour sinistres à payer 
+Exercice de survenance 
+Année d’inventaire 
+N-4 N-3 N-2 N-1 N 
+Inventaire N-2 
+Règlements cumulés 
+Provisions pour sinistres 
+     
+Total charges des sinistres 
+Primes acquises 
+% sinistres – primes acquises 
+     
+ 
+Exercice de survenance Année d’inventaire 
+N-4 N-3 N-2 N-1 N 
+Inventaire N-1 
+Règlements cumulés 
+Provisions pour sinistres 
+   
+  
+Total charges des sinistres 
+Primes acquises 
+% sinistres – primes acquises 
+     
+ 
+Exercice de survenance Année d’inventaire 
+N-4 N-3 N-2 N-1 N 
+Inventaire N 
+Règlements cumulés 
+Provisions pour sinistres 
+     
+Total charges des sinistres 
+Primes acquises 
+% sinistres – primes acquises 
+     
+ 
+http://www.procomptable.com/ 22
+Annexe n° 11 
+Ventilation des charges et des produits des placements 
+ 
+Revenu et frais 
+financiers 
+concernant les 
+placements 
+dans des 
+entreprises 
+liées et avec 
+lien de 
+participations 
+Autres 
+revenus et 
+frais 
+financiers 
+Total Raccordement 
+Revenu des placements 
+immobiliers 
+   PRNT11 + PRV21 
+Revenu des participations    PNRT11 + PRV21 
+Revenu des autres 
+placements 
+   PRN12 + PRV22 
+Autres revenu financiers 
+(commissions, 
+    
+honoraires)    PRNT2 
+Total produits des 
+placements 
+    
+ 
+Intérêts    CHNT11+CHV9 
+Frais externes    CHNT3 
+Autres frais    CHNT3 
+Total charges des 
+placements 
+    
+ 
+Annexe n° 12 
+Résultat technique par catégorie d’assurance (assurance et / ou réassurance vie) 
+ 
+Catégorie de 
+contrat      
+et / ou 
+d’assurance 
+Catégorie de 
+contrat      
+et /ou 
+d’assurance 
+Total 
+Primes 
+Charges de prestations 
+Charges des provisions d’assurance vie et des 
+autres provisions techniques 
+Ajustement ACAV (Assurance à Capital Variable) 
+   
+Solde de souscription 
+Frais d’acquisition 
+Autres charges de gestion nettes 
+   
+Charges d’acquisition et de gestion nettes 
+Produits nets de placements 
+Participation aux résultats et intérêts techniques 
+   
+Solde financier 
+Primes cédées et / ou rétrocédées 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans les charges de 
+prestations 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans les charges de 
+provisions 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans la participation aux 
+résultats 
+Commissions reçues des réassureurs et / ou des 
+rétrocessionnaires 
+   
+Solde de réassurance et / ou de 
+rétrocession 
+   
+Résultat technique 
+Informations complémentaires 
+Montant des rachats 
+Intérêts techniques bruts de l’exercice 
+Provisions techniques brutes à la clôture 
+Provisions techniques brutes à l’ouverture 
+A déduire 
+Provisions devenues exigibles 
+   
+ 
+http://www.procomptable.com/ 23
+ 
+Annexe n° 13 
+Résultat technique par catégorie d’assurance (assurance et / ou réassurance non vie) 
+ Catégorie 
+d’assurance 
+Catégorie 
+d’assurance 
+Total 
+Primes acquises 
+Primes émises 
+Variation des primes non acquises 
+Charges de prestations 
+Prestations et frais payés 
+Charges des provisions pour prestations diverses 
+   
+Solde de souscription 
+Frais d’acquisition 
+Autres charges de gestion nettes 
+   
+Charges d’acquisition et de gestion nettes 
+Produits nets de placements 
+Participation aux résultats 
+   
+Solde financier 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans les primes acquises 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans les prestations payées 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans les charges de 
+provisions pour prestations 
+Part des réassureurs et / ou des 
+rétrocessionnaires dans la participation aux 
+résultats 
+Commissions reçues des réassureurs et / ou des 
+rétrocessionnaires 
+   
+Solde de réassurance et / ou de 
+rétrocession 
+   
+Résultat technique 
+Informations complémentaires 
+Provisions pour primes non acquises clôture 
+Provisions pour primes non acquises ouverture 
+Provisions pour sinistres à payer à la clôture 
+Provisions pour sinistre à payer à l’ouverture 
+Autres provisions techniques clôture 
+Autres provisions techniques ouverture 
+A déduire :
+ 
+Provisions devenues exigibles 
+   
+ 
+Annexe n° 14 
+Tableau récapitulatif des éléments constitutifs de la participation des assurées aux résultats 
+techniques et financiers 
+Exercice  
+N-4 N-3 N-2 N-1 N 
+Participation aux résultats (1) (état de 
+résultat technique) 
+- Participation attribuée à des 
+contrats 
+(y compris intérêts techniques) 
+- Variation de la provision pour 
+participation aux bénéfices 
+ 
+Participation aux résultats des contrats 
+d’assurance vie (2) 
+- Provisions mathématiques 
+moyennes 
+- Montant minimum de participation 
+- Montant effectif de la participation 
+dont attribuée (y compris intérêts 
+tech) dont variation de la provision 
+pour PB 
+     
+La première partie du tableau (1) correspond à la décomposition du poste participation aux bénéfices 
+et ristournes de l’état de résultat technique de l’assurance vie en participation attribuée aux contrats et 
+http://www.procomptable.com/ 24
+variations de la provision pour participation aux bénéfices. Ces éléments sont obtenus à partir de la 
+nomenclature comptable. La seconde partie du tableau (2) reprend les éléments suivants : 
+- Les provisions mathématiques moyennes qui correspondent à la moyenne arithmétique des 
+provisions mathématiques à l’ouverture et à la clôture de l’exercice. 
+- Le montant minimum de la participation aux bénéfices qui est déterminé sur la base des 
+obligations réglementaires en la matière. 
+- Le montant effectif de la participation aux bénéfices qui reprend le total de la partie (1) du 
+tableau. 
+ 
+Annexe n° 15 
+Tableau de raccordement du résultat technique par catégorie d’assurance aux états 
+financiers : Entreprises d’assurance et / ou de réassurance vie. 
+ Raccordement 
+Primes PRV1 1° colonne 
+Charges de prestations CHV1 1° colonne 
+Charges des provisions d’assurance vie et des autres 
+provisions techniques 
+CHV2 1° colonne 
+Ajustement ACAV (Assurance à Capital Variable) CHV10 – PRV3 1° colonne 
+Solde de souscription  
+Frais d’acquisition CHV41 + CHV42 
+Autres charges de gestion nettes CHV43 + CHV5 – PRV4 
+Charges d’acquisition et de gestion nettes  
+Produits nets de placements PRV2 – CHV9 
+Participation aux résultats et intérêts techniques CHV3 1° colonne 
+Solde financier  
+Primes cédées et / ou rétrocédées PRV1 2° colonne 
+Part des réassurances et / ou des rétrocessionnaires dans les 
+charges de prestations 
+CHV1 2° colonne 
+Part de réassureurs et / ou des rétrocessionnaires dans les 
+charges de provisions 
+CHV2 2° colonne 
+Part des réassureurs et / ou des rétrocessionnaires dans la 
+participation aux résultats 
+CHV3 2° colonne 
+Commission reçues des réassureurs et / ou des 
+rétrocessionnaires 
+CHV44 2° colonne 
+Solde de réassurance et / ou de rétrocession  
+Résultat technique  
+Informations complémentaires 
+Montant des rachats 
+Intérêts techniques bruts de l’exercice 
+Provisions techniques brutes à la clôture 
+Provisions techniques brutes à l’ouverture 
+A déduire : 
+Provisions devenues exigibles 
+ 
+ 
+ 
+http://www.procomptable.com/ 25
+Annexe n° 16 
+Tableau de raccordement du résultat technique par catégorie d’assurance aux états 
+financiers : Entreprises d’assurance et / ou de réassurance non vie. 
+ 
+ Raccordement 
+Primes acquises  
+Primes émises PRNV11 1° colonne 
+Variation des primes non acquises PRNV12 1° colonne 
+Charges de prestations  
+Prestations et frais payés PRNV11 1° colonne 
+Charges des provisions pour prestations et diverses CHNV12 + CHNV6 1° 
+colonne 
+Solde de souscription  
+Frais d’acquisition CHNV41 + CHNV 42 
+Autres charges de gestion nettes CHNV43 + CHNV5 – PRNV2 
+Charges d’acquisition et de gestion nettes  
+Produits nets de placements 
+Participation aux résultats 
+PRNT3 
+CHNV3 1° colonne 
+Solde financier  
+Part des réassurances et / ou des rétrocessionnaires dans les 
+primes acquises 
+PRNV1 2° colonne 
+Part des réassurances et / ou des rétrocessionnaires dans les 
+prestations payées 
+CHNV11 2° colonne 
+Part des réassureurs et / ou des rétrocessionnaires dans les 
+charges de provisions pour prestations 
+CHNV12 + CHNV2 + 
+CHNV6 2° colonne 
+Part des réassureurs et / ou des rétrocessionnaires dans la 
+participation aux résultat 
+CHNV3 2° colonne 
+Commissions reçues des réassureurs et / ou des 
+rétrocessionnaires 
+CHNV44 
+Solde de réassurance et / ou de rétrocession  
+Résultat technique  
+Informations complémentaires 
+Provisions pour primes non acquises clôture 
+Provisions pour primes non acquises ouverture 
+Provisions pour sinistres à payer à la clôture 
+Provisions pour sinistres à payer à l’ouverture 
+Autres provisions techniques clôture 
+Autres provisions techniques ouverture 
+A déduire :
+ 
+Provisions devenues exigibles 
+ 
+ 

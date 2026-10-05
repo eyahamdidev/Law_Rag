@@ -1,0 +1,22 @@
+{
+ "id": "S102",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Penal code - fraud and deceit (articles 291 to 296) - Table of contents",
+ "url": "https://www.jurisitetunisie.com/tunisie/codes/cp/menu.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.jurisitetunisie.com/tunisie/codes/cp/menu.html",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "23094ae1968aef9c7d07baf5fd2156c5976171009274fa455ff8397e0100c054",
+ "bytes": 228264,
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S102_Penal_code_fraud_and_deceit_articles_291_to_296_Table_of_con.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 8074,
+ "needs_ocr": false,
+ "lang": "ar+fr",
+ "title": "Table des matiÃĻres du Code pÃĐnal - Tunisie",
+ "note": "",
+ "last_modified": ""
+}

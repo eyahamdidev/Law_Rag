@@ -1,0 +1,20 @@
+{
+ "id": "S018",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Tax advantages guide (Law 2017-8) - 2020 guide",
+ "url": "http://www.infirst.tn/wp-content/uploads/2020/08/InFirst-Avantages-fiscaux-2020.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "http://www.infirst.tn/wp-content/uploads/2020/08/InFirst-Avantages-fiscaux-2020.pdf",
+ "content_type": "",
+ "sha256": "398cbf4e39262237065119665d6a467c08fc3cbd9dee5d958fcfaf28824ee11f",
+ "bytes": 3177835,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\S018_Tax_advantages_guide_Law_2017_8_2020_guide.pdf",
+ "pages": 276,
+ "text_chars": 710499,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": ""
+}

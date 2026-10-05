@@ -1,0 +1,20 @@
+{
+ "id": "S032",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BCT - credit and bank conditions - Bank conditions",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/loi2001-65n.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=66",
+ "flag": "E / S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/loi2001-65n.pdf",
+ "content_type": "application/pdf",
+ "sha256": "4b0b3cb791c5a146f0cc8a83334381401ad4468e137840ff86832dbf155a58fa",
+ "bytes": 160729,
+ "status": "ok",
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\linked\\S032_loi2001_65n.pdf",
+ "pages": 11,
+ "text_chars": 57478,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Thu, 27 Mar 2014 06:44:00 GMT"
+}

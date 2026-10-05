@@ -1,0 +1,20 @@
+{
+ "id": "S012",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Decree 2017-389 - financial incentives (premiums) - Legal references incl. decree 2024-182",
+ "url": "https://www.apia.com.tn/medias/files/supports-promotionnels/la-representation-de-apia.pdf",
+ "parent": "https://www.apia.com.tn/references-juridiques.html",
+ "flag": "S",
+ "final_url": "https://www.apia.com.tn/medias/files/supports-promotionnels/la-representation-de-apia.pdf",
+ "content_type": "application/pdf",
+ "sha256": "39fc2b499d98d3cba7e238f58e069696e233c79f4f22ddc5cdee137afd8fc9c2",
+ "bytes": 17791728,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S012_la_representation_de_apia.pdf",
+ "pages": 2,
+ "text_chars": 0,
+ "needs_ocr": true,
+ "lang": "unknown",
+ "last_modified": "Wed, 27 May 2015 11:10:36 GMT"
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tunisian Legal & Financial Assistant</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="eyebrow">Local assistant · scaffold</p>
+        <h1>Tunisian Legal & Financial Assistant</h1>
+      </div>
+      <p class="lede">
+        Cited answers from Tunisian legal and financial texts, a review pass for
+        suspicious documents, and a map of financing files already in this project.
+      </p>
+    </header>
+
+    <section class="pipeline" aria-label="Workflow">
+      <ol>
+        <li>Intake</li>
+        <li>Router</li>
+        <li>Legal workers · Fraud · Aid</li>
+        <li>Verifier</li>
+        <li>Answer</li>
+      </ol>
+    </section>
+
+    <section class="counts" id="counts">Reading the local folders…</section>
+
+    <nav class="tabs" role="tablist">
+      <button type="button" class="tab is-active" data-panel="ask" role="tab" aria-selected="true">
+        Cited answers
+      </button>
+      <button type="button" class="tab" data-panel="fraud" role="tab" aria-selected="false">
+        Fraud review
+      </button>
+      <button type="button" class="tab" data-panel="aid" role="tab" aria-selected="false">
+        Aid and financing
+      </button>
+    </nav>
+
+    <main>
+      <section id="ask" class="panel is-active" role="tabpanel">
+        <form id="ask-form">
+          <label for="question">Question</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="4"
+            required
+            placeholder="Example: Quelles mentions sont obligatoires dans les statuts d'une SARL ?"
+          ></textarea>
+          <button type="submit">Route the question</button>
+        </form>
+        <div id="ask-result" class="result" hidden></div>
+      </section>
+
+      <section id="fraud" class="panel" role="tabpanel" hidden>
+        <form id="fraud-form">
+          <label for="document-type">Document type</label>
+          <select id="document-type" name="document_type">
+            <option value="invoice">Invoice</option>
+            <option value="bank_statement">Bank statement</option>
+            <option value="financing_application">Financing application</option>
+            <option value="business_plan">Business plan</option>
+          </select>
+          <label for="file">File</label>
+          <input id="file" name="file" type="file" required />
+          <button type="submit">Hash and hold for review</button>
+        </form>
+        <p class="note">
+          Scoring is not connected. The file stays in the browser request and is
+          not saved into <code>fraud_detection/</code>.
+        </p>
+        <div id="fraud-result" class="result" hidden></div>
+      </section>
+
+      <section id="aid" class="panel" role="tabpanel" hidden>
+        <form id="aid-form">
+          <label for="stage">Company stage</label>
+          <select id="stage" name="stage">
+            <option value="creation">Creation</option>
+            <option value="extension">Extension</option>
+            <option value="growth">Growth</option>
+            <option value="unspecified">Not specified</option>
+          </select>
+          <label for="sector">Sector</label>
+          <input id="sector" name="sector" type="text" placeholder="Software, industry, services…" />
+          <label for="need">Need</label>
+          <select id="need" name="need">
+            <option value="financing">Financing</option>
+            <option value="grant">Grant</option>
+            <option value="tax_incentive">Tax incentive</option>
+            <option value="guidance">Guidance</option>
+            <option value="unspecified">Not specified</option>
+          </select>
+          <button type="submit">List matching files</button>
+        </form>
+        <div id="aid-result" class="result" hidden></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Generation, retrieval, OCR, and fraud scoring are placeholders.
+        A similarity score, once it exists, measures retrieval — not legal correctness.
+      </p>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

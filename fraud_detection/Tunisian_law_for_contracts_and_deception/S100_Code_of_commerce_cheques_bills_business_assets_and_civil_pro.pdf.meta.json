@@ -1,0 +1,22 @@
+{
+ "id": "S100",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Code of commerce (cheques, bills, business assets) and civil procedure - Civil and commercial procedure (WIPO Lex)",
+ "url": "https://www.wipo.int/wipolex/fr/text/581653",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://www.wipo.int/wipolex/fr/text/581653",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "8416d840f0418516d10a94ad517e772c3ff3d9b58358ab1a9fda34e3726dbec2",
+ "bytes": 644024,
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S100_Code_of_commerce_cheques_bills_business_assets_and_civil_pro.pdf",
+ "status": "ok",
+ "pages": 250,
+ "text_chars": 240153,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "WIPO Lex",
+ "note": "",
+ "last_modified": ""
+}

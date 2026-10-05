@@ -1,0 +1,22 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "946d1ae3db3e48c261db6756678452e0e968e47b78606cc8502b5a821987e09d",
+ "bytes": 368650,
+ "path": "business_plan\\Sector_benchmarks\\S071_Damodaran_all_current_and_archived_datasets_Current_data.pdf",
+ "status": "ok",
+ "pages": 9,
+ "text_chars": 13233,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Data for current year",
+ "note": "",
+ "last_modified": ""
+}

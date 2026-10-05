@@ -1,0 +1,20 @@
+{
+ "id": "S015",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Summary of advantages, premiums and incentives (audit firm) - PDF",
+ "url": "https://www.crowe.com/tn/-/media/Crowe/Firms/Middle-East-and-Africa/tn/CroweHorwathTN/Files/RsumdesavantagesprimesetincitationsoctroysdanslecadredelanouvellerglementationdinvestissementenTunis.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.crowe.com/tn/-/media/Crowe/Firms/Middle-East-and-Africa/tn/CroweHorwathTN/Files/RsumdesavantagesprimesetincitationsoctroysdanslecadredelanouvellerglementationdinvestissementenTunis.pdf",
+ "content_type": "application/pdf",
+ "sha256": "34d76423d35ca1094249460121a7fb5dbdfd0101e5497195a70e792ff2e48cc1",
+ "bytes": 761150,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\S015_Summary_of_advantages_premiums_and_incentives_audit_firm_PDF.pdf",
+ "pages": 19,
+ "text_chars": 47788,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Mon, 17 Dec 2018 14:32:42 GMT"
+}

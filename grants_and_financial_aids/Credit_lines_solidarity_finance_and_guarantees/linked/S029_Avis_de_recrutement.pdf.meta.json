@@ -1,0 +1,20 @@
+{
+ "id": "S029",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "SOTUGAR - credit guarantee schemes - Home and conditions",
+ "url": "https://sotugar.com.tn/wp-content/uploads/2026/09/Avis-de-recrutement.pdf",
+ "parent": "https://sotugar.com.tn/",
+ "flag": "S",
+ "final_url": "https://sotugar.com.tn/wp-content/uploads/2026/09/Avis-de-recrutement.pdf",
+ "content_type": "application/pdf",
+ "sha256": "014b0eb2e612539848dae8132768e886d32447f5faa9e29f785ba8e268695fa8",
+ "bytes": 1401870,
+ "status": "ok",
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\linked\\S029_Avis_de_recrutement.pdf",
+ "pages": 2,
+ "text_chars": 0,
+ "needs_ocr": true,
+ "lang": "unknown",
+ "last_modified": "Tue, 01 Sep 2026 10:49:25 GMT"
+}

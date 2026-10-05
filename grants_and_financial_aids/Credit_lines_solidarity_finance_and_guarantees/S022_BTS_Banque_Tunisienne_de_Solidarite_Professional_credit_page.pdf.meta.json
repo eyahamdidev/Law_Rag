@@ -1,0 +1,22 @@
+{
+ "id": "S022",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BTS - Banque Tunisienne de Solidarite - Professional credit page",
+ "url": "https://www.bts.com.tn/credit-professionnel-bts-bank/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.bts.com.tn:443/solutions",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "818d8f65fc80a08675c284ea152075296f5306aa217878d36db9513791386ab4",
+ "bytes": 480357,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S022_BTS_Banque_Tunisienne_de_Solidarite_Professional_credit_page.pdf",
+ "status": "ok",
+ "pages": 6,
+ "text_chars": 1781,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "BTS Bank - Produits & Solutions",
+ "note": "",
+ "last_modified": ""
+}

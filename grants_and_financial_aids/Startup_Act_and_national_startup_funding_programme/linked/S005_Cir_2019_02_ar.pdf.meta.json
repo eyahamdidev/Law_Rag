@@ -1,0 +1,20 @@
+{
+ "id": "S005",
+ "dataset": "grants",
+ "section": "Startup Act and national startup funding programmes",
+ "name": "Startup Act - Law 2018-20 and label procedures - Startup Act page",
+ "url": "https://startup.gov.tn/sites/default/files/2022-01/Cir_2019_02_ar.pdf",
+ "parent": "https://startup.gov.tn/fr/startup_act/discover",
+ "flag": "E",
+ "final_url": "https://startup.gov.tn/sites/default/files/2022-01/Cir_2019_02_ar.pdf",
+ "content_type": "application/pdf",
+ "sha256": "247e9dd2a1c4e8c1e1ceac490ed4fce2f3f8b8fb2dfee691e4d5dbba4ce6903c",
+ "bytes": 465430,
+ "status": "ok",
+ "path": "grants\\Startup_Act_and_national_startup_funding_programme\\linked\\S005_Cir_2019_02_ar.pdf",
+ "pages": 2,
+ "text_chars": 2564,
+ "needs_ocr": false,
+ "lang": "ar",
+ "last_modified": "Wed, 05 Jan 2022 16:16:43 GMT"
+}

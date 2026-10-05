@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/histretSP.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/histretSP.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "28b8110916a15a4dcc11c87c6422510704608ddedcdfa67a1298abdc22e49c69",
+ "bytes": 527872,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_histretSP.xls",
+ "last_modified": "Mon, 24 Aug 2026 15:39:01 GMT"
+}

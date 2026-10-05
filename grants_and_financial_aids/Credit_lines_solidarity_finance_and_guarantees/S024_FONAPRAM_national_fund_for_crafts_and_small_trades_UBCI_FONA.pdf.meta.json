@@ -1,0 +1,22 @@
+{
+ "id": "S024",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "FONAPRAM - national fund for crafts and small trades - UBCI FONAPRAM page",
+ "url": "https://www.ubci.tn/professionnels/financement/financer-mon-investissement/credit-fonapra/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.ubci.tn/professionnels/financement/financer-mon-investissement/credit-fonapra/",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "132d11e94b256656b88b8d8f6f89f450bd0d65b98c662c03e47cb2e449f215fd",
+ "bytes": 433599,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S024_FONAPRAM_national_fund_for_crafts_and_small_trades_UBCI_FONA.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 2340,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "UBCI | Crédit FONAPRA",
+ "note": "",
+ "last_modified": "Wed, 30 Sep 2026 20:07:28 GMT"
+}

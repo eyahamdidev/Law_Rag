@@ -1,0 +1,32 @@
+# Tunisian Legal & Financial Assistant
+# Python 3.11+
+# Install: pip install -r requirements.txt
+
+# --- Web application (used by this scaffold) ---
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-multipart>=0.0.20
+httpx>=0.28.0
+
+# --- Tests ---
+pytest>=8.3.0
+
+# --- Ingestion (wire up in modules/rag/ingestion) ---
+pypdf>=5.1.0
+
+# --- Retrieval (wire up in modules/rag/retrieval and services/vectorstore) ---
+qdrant-client>=1.13.0
+rank-bm25>=0.2.2
+
+# --- Workflow and local models (wire up in graph/ and services/) ---
+langgraph>=0.2.60
+ollama>=0.4.7
+
+# --- Evaluation (wire up in eval/ and the MLflow service) ---
+mlflow>=2.20.0
+
+# bge-m3 embeddings are planned. Install when the embedding service is implemented.
+# Prefer Ollama's embedding endpoint first so this environment does not need PyTorch.
+# sentence-transformers>=3.4.0

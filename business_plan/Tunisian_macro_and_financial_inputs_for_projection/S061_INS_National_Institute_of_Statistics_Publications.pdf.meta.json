@@ -1,0 +1,22 @@
+{
+ "id": "S061",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "INS - National Institute of Statistics - Publications",
+ "url": "https://www.ins.tn/publication",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://www.ins.tn/publication",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "a9e0bf882c1a2de8c77207c240bdf762629c8b8860e139e7ded19139ef6c9467",
+ "bytes": 355573,
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\S061_INS_National_Institute_of_Statistics_Publications.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 344896,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Publications | INS",
+ "note": "",
+ "last_modified": ""
+}

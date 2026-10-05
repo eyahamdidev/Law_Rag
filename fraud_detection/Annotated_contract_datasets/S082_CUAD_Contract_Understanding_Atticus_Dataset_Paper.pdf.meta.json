@@ -1,0 +1,20 @@
+{
+ "id": "S082",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "CUAD - Contract Understanding Atticus Dataset - Paper",
+ "url": "https://arxiv.org/pdf/2103.06268",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://arxiv.org/pdf/2103.06268",
+ "content_type": "",
+ "sha256": "5a6540d438a4af723efcdfcc2ced9f143678b612af8e2800fbd92dc25aec3d26",
+ "bytes": 2798114,
+ "status": "ok",
+ "path": "contracts\\Annotated_contract_datasets\\S082_CUAD_Contract_Understanding_Atticus_Dataset_Paper.pdf",
+ "pages": 15,
+ "text_chars": 53789,
+ "needs_ocr": false,
+ "lang": "en",
+ "last_modified": ""
+}

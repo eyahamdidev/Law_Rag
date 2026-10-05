@@ -1,0 +1,1077 @@
+ 
+ 
+ 1 | 31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Décembre 2025  
+Rapport Annuel de la 
+Médiation Bancaire 
+Année 2024 
+ 
+ 
+ 
+ 2 | 31 
+ 
+ 
+Table des matières 
+ 
+Mot du Président du Conseil de l’Observatoire de l’Inclusion Financière ............. 3 
+Chiffres Clés 2024 ...................................................................................................... 5 
+Chapitre 1 : Réclamations adressées aux médiateurs .................................................... 6 
+1- Evolution dans le temps ........................................................................................................................................ 6 
+2- Répartition par origine ........................................................................................................................................... 7 
+3- Analyse globale de la recevabilité ......................................................................................................................... 8 
+4- Analyse des réclamations rejetées ....................................................................................................................... 9 
+Chapitre 2 : Analyse des réclamations recevables ....................................................... 11 
+1- Répartition des réclamations par médiateur ....................................................................................................... 11 
+2- Répartition des réclamations par Banque ........................................................................................................... 12 
+3- Analyse thématique des réclamations ................................................................................................................ 13 
+4- Répartition des réclamations par zone géographique ........................................................................................ 15 
+5- Analyse des délais de traitement des réclamations ........................................................................................... 16 
+6- Analyse de l’enjeu financier ................................................................................................................................ 18 
+Chapitre 3 :  Analyse des réclamations traitées ........................................................... 19 
+1. Sort des réclamations traitées............................................................................................................................. 19 
+2. Analyse des réclamations résolues .................................................................................................................... 21 
+Annexes .................................................................................................................. 22 
+Annexe 1 : Liste des médiateurs bancaires ................................................................................................................. 23 
+Annexe 2 : Textes réglementaires régissant l’activité de la médiation bancaire......................................................... 26 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 | 31 
+ 
+Mot du Président du Conseil de l’Observatoire de l’Inclusion 
+Financière 
+ 
+Dans le cadre de l’accomplissement de ses missions, l’Observatoire de l’Inclusion 
+Financière (OIF) publie chaque année un rapport sur l’activité de la médiation bancaire, 
+conformément à l’article 94 de la loi n°2016-35 du 25 avril 2016 portant fixation du statut de 
+la Banque Centrale de Tunisie. 
+Ce rapport constitue un instrument essentiel d’évaluation du dispositif de la médiation 
+bancaire, en référence à l’objectif qui lui est assigné : le règlement à l’amiable des différends 
+entre les banques, les établissements financiers et leurs clientèles, dans le but de protéger le 
+consommateur et de renforcer la confiance dans le système financier. 
+L’analyse des indicateurs de l’exercice 2024 met en évidence le faible recours à la 
+médiation bancaire qui demeure en deçà des attentes en matière d’efficacité et de taux de 
+résolution des litiges  et ce en dépit des efforts soutenus des médiateurs. Ce constat interpelle 
+l’ensemble des parties prenantes — autorités de régulation, banques, établissements 
+financiers et médiateurs — sur la nécessité d’une  refonte radicale du modèle actuel afin 
+d’instaurer un dispositif plus crédible, indépendant et performant. 
+A ce titre, l’Observatoire de l’Inclusion Financière est en cours de finalisation d’une étude 
+approfondie sur l’état des lieux des dispositifs internes de traitement des réclamations auprès 
+des banques, établissements financiers, sociétés d’assurance et institutions de microfinance. 
+Les objectifs recherchés étant : 
+- Identifier l’impact de la circulaire de la BCT n°2022-08 relative aux politiques et 
+mesures de traitement de réclamations de la clientèle ainsi que le règlement du CGA 
+n° 01/2023 portant sur le traitement et le suivi des requêtes adressées au Comité 
+Général des Assurances concernant les services d'assurance e t le règlement        
+n°01-2025 portant sur les pratiques commerciales et l’Arrêté du ministre des finances 
+du 24 août 2016 relatif à la protection de la clientèle des institutions de microfinance. 
+ 
+ 
+ 4 | 31 
+ 
+- Relever les insuffisances dégagées de cette étude et relatives aux dispositifs 
+internes du règlement à l’amiable des différends. 
+- Proposer des solutions opérationnelles à même de remédier aux insuffisances 
+relevées, de renforcer les instruments du règlement à l’amiable et d’accroître la 
+satisfaction de la clientèle. 
+Conscient de l’importance d’un système de médiation fort et crédible, l’OIF œuvre à la 
+refonte de ce dispositif pour l’adapter aux exigences de la loi bancaire et aux meilleures 
+pratiques internationales. Ce projet sera mené en concertation avec la profession afin de 
+renforcer durablement la confiance du public dans les services financiers et de promouvoir 
+une inclusion financière équitable et responsable. 
+ 
+Président du Conseil de l’Observatoire de l’Inclusion Financière  
+Fethi Zouhaier Nouri  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 5 | 31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 506 Plaintes Reçues 
+2024 
+76 Plaintes  
+Non recevables 
+430 Plaintes Recevables (2024)  
+(Dont 11 réclamations inachevées 
+pour l’année 2023) 
+ 
+ 
+Chiffres Clés 2024 
+151 Plaintes ayant fait 
+l’objet d’un avis du 
+médiateur 
+279 Plaintes dont la 
+procédure a été 
+interrompue 
+41 Plaintes résolues  
+ 
+ 
+ 6 | 31 
+ 
+Chapitre 1 : Réclamations 
+adressées aux médiateurs 
+1- Evolution dans le temps 
+Le nombre d es réclamations r eçues par les médiateurs en 2024 s’est élevé à 506 
+réclamations enregistrant une augmentation significative de 182 réclamations ou 56,2% par 
+rapport à l’année 2023.  
+Cette augmentation est expliquée, d’une part, par la réception d’un nombre important de 
+réclamations relatives à l’application de l’article 412 de la loi 2024-41 du 02 août 2024 ainsi 
+que par le rôle joué par l’OIF en tant qu’accompagnateur des usagers des services financiers 
+en proc édant à l’acheminement des réclamations 1 reçues sur son site web vers les 
+intervenants dans le règlement à l’amiable notamment les médiateurs. 
+ 
+ 
+1 à travers l’adresse électronique « oif@bct.gov.tn » figurant sur le site web de l’OIF. 
+308 283
+324
+506
+2021 2022 2023 2024
+Evolution du nombre des réclamations
+(2021-2024)
+ 
+ 
+ 7 | 31 
+ 
+En plus de ces réclamations reçues en 2024, l’analyse des rapports de médiation fait 
+ressortir 11 réclamations seulement relatives à 2023 dont le traitement n’est   pas encore 
+achevé contre 25 réclamations relatives à 2022. 
+2- Répartition par origine 
+La répartition des réclamations par nature de réclamant montre que la part revenant aux 
+particuliers demeure la plus importante avec 408 réclamations représentant 80,6% du total 
+reçues en 2024. 
+ Quant aux réclamations provenant des entreprises, leur nombre a atteint 98 réclamations 
+enregistrant une augmentation de 37 réclamations ou 60,7% par rapport à 2023 . Les 
+réclamations provenant des entreprises accaparent 19,4% du total reçues en 2024. 
+Pour l’année 2024 , aucune réclamation n’a été enregistré e à l’encontre des 
+professionnels et des associations. 
+Le tableau ci -dessous résume l’évolution du nombre de réclamations reçues par 
+origine durant la période 2022-2024 : 
+ 
+ 
+ 
+REPARTITION DES RECLAMATIONS REÇUES PAR ORIGINE 
+ 
+243
+40
+0 0
+247
+61
+13 3
+408
+98
+0 0
+0
+50
+100
+150
+200
+250
+300
+350
+400
+450
+Particuliers Entreprises Professionnels Associations
+2022 2023 2024
+ 
+ 
+ 8 | 31 
+ 
+REPARTITIONS PAR ORIGINE DES RECLAMATIONS RECUES 
+Désignation 2022 2023 2024 
+ En nombre % En nombre % En nombre % 
+Particuliers 243 85,9 247 76,2 408 80,6 
+Entreprises 40 14,1 61 18,8 98 19,4 
+Professionnels - - 13 4 - - 
+Associations - - 3 1 - - 
+Total 283 100 324 100 506 100 
+ 
+3- Analyse globale de la recevabilité  
+Le nombre de réclamations déclarées re cevables a plus que doublé  soit  
+106,7 % atteignant 430 réclamations en 2024  soit une part du total reçu supérieure à celle 
+des deux années précédentes soit 84,9% contre 64,2% en 2023 et 72,8% en 2022. 
+Le tableau ci-dessous résume leur évolution au cours de la période 2022-2024 : 
+ 
+ANALYSE DES RECLAMATIONS SELON LE TRAITEMENT EFFECTUE 
+Désignation 2022 2023 2024 
+ En nombre % En nombre % En nombre % 
+Réclamations recevables 
+pour traitement 206 72,8 208 64,2 430 84,9 
+Réclamations rejetées  77 27,2 116 35,8 76 15,1 
+Total  283 100 324 100 506 100 
+ 
+Le graphique suivant illustre les parts des réclamations acceptées pour traitement et 
+celles rejetées par rapport au total des réclamations parvenues : 
+ 
+ 
+ 
+ 
+ 
+ 9 | 31 
+ 
+ANALYSE DES RECLAMATIONS RECEVABLES (en nombre et en %) 
+ 
+ 
+4- Analyse des réclamations rejetées 
+L’année 2024 a été caractérisée par une diminution de plus du tiers des réclamations 
+rejetées comparée à 2023 pour revenir à 76 réclamations ou 15,1% contre 116 en 2023 et 77 
+en 2022. 
+La répartition de ce rejet par motif se présente comme suit : 
+- 42% sont d ûs au non-épuisement du recours préalable par le réclamant auprès de sa 
+banque ou de son établissement financier, 
+- 22% sont liées à la politique commerciale de la banque ou l’institution financière, 
+- 6% sont attribuées au motif « Action en justice », 
+- 7% sont en rapport avec l’Interdiction d’arbitrage ou de transaction selon le jugement du 
+médiateur, et 
+- 23% sont dûs à des motifs divers : demandes d’informations, différends ayant pour objet  
+430 réclamations recevables 
+(84,98%)
+76 réclamations rejetées 
+(15,02%)
+Réclmations recevables Réclmations rejetées
+ 
+ 
+ 10 | 31 
+ 
+un problème foncier mais lié à un financement ou d’autres demandes diverses en dehors du 
+domaine de compétence du médiateur. 
+ 
+Le graphique ci-dessous présente l’évolution des réclamations rejetées au cours de la 
+période 2022-2024. 
+ 
+Ce graphique fait ressortir la prépondérance du motif du  rejet des réclamations 
+marquant l’année 2024 qui est due essentiellement au non-épuisement du mécanisme de 
+recours gracieux avant de s’adresser aux médiateurs et à un degré moindre le rejet des 
+plaintes qui concernent la politique commerciale des institutions. 
+Le graphique suivant retrace la répartition des dossiers rejetés par motif pour l’année 
+2024. 
+REPARTITION DES DOSSIERS REJETES PAR MOTIF POUR L’ANNEE 2024 (en %) 
+ 
+43%
+6%
+5%
+23%
+23%
+Recours gracieux non épuisé
+Arbitrage et transaction non admis
+Action en Justice
+Politique commerciale
+Autres
+DOSSIERS REJETES PAR MOTIF : ANALYSE COMPAREE 2022-2024 (en nombre) 
+ 
+32
+6
+13
+5
+21
+55
+2
+10
+26 23
+32
+4
+17
+4
+17
+0
+10
+20
+30
+40
+50
+60
+Recours gracieux non
+épuisé
+Arbitrage et
+transaction non admis
+Politique commerciale Action en Justice Autres
+2022 2023 2024
+ 
+ 
+ 11 | 31 
+ 
+Chapitre 2 : Analyse des 
+réclamations recevables 
+1- Répartition des réclamations par médiateur 
+Le nombre de réclamations recevables traitées par médiateur  s’élève à 39 
+réclamations, en moyenne, soit 3 par mois. Cette moyenne cache, cependant, une disparité 
+importante entre les médiateurs. En effet, seulement quatre médiateurs ont accaparé la 
+totalité des réclamations recevables durant l’année 2024.Ceci s’explique par le fait que deux 
+de ces médiateurs sont chargés du service commun de médiation relevant du Conseil 
+Bancaire et Financier et auquel la majorité des banques et des institutions financières 
+adhèrent. Pour les autres médiateurs2, aucune réclamation n’a été reçue et ont déclaré ainsi 
+« néant » leurs rapports.  
+REPARTITION DES REQUETES PAR MEDIATEUR (en %)  
+ 
+ 
+2 Il s’agit de six médiateurs qui sont : M. Mefteh Ziadi, M. Adel Ben Barket, M. Béchir Akkeri, M. Samir Bel Hadj 
+Messaoud, M. Youssef Idani, M. Ahmed Drira et M. Neyer Memmi.  
+52,8%
+23,7%
+17,8%
+5,7%
+ 1er Médiateur 2ème médiateur 3ème Médiateur 4ème Médiateur
+ 
+ 
+ 12 | 31 
+ 
+2- Répartition des réclamations par Banque 
+ 
+REPARTITION DES RECLAMATIONS REÇUES PAR BANQUE 
+ 
+Ce graphique fait ressortir une concentration des réclamations à hauteur de 140 ou 
+32,6% chez la Banque Internationale Arabe de Tunisie (BIAT) suivie en deuxième position 
+par Attijari Bank avec un taux de 17,4% (75 réclamations) et en troisième position l’Union 
+Internationale des Banques (UIB) avec un taux de 16% (69 réclamations).  
+Ainsi, il appert que l es banques privées détiennent la part dominante avec  369 
+réclamations ou 85,8%. Quant aux banques publiques, les réclamations recensées à leur 
+encontre sont au nombre de 51, représentant 11,9%  du total des réclamations recevables. 
+Par ailleurs, les réclamations à l’encontre d’une société de leasing ont atteint 10 réclamations 
+ou 2,3%.  
+Le tableau ci -dessous retrace la répartition des réclamations par nature 
+d’établissement : 
+REPARTITION DES RECLAMATIONS RECEVABLES PAR TYPE D’ETABLISSEMENT 
+Désignation 2022 2023 2024 
+ Nombre % Nombre % Nombre % 
+Banques publiques  48 25,1 60 28,8 51 11,9 
+Banques Privées  143 74,9 135 64,9 369 85,8 
+Sociétés de leasing et factoring - - 13 6,3 10 2,3 
+Total  191 100 208 100 430 100 
+140
+75 69
+27 23 22 16 10 10 11 8 5 5 4 2 2 1
+0
+20
+40
+60
+80
+100
+120
+140
+160
+ 
+ 
+ 13 | 31 
+ 
+3- Analyse thématique des réclamations   
+L’analyse thématique des requêtes reçues et traitées en 2024 fait ressortir la 
+prédominance des requêtes relatives aux  « Opérations de crédit  » qui s’inscrivent en 
+première position avec une part de 31,2%. Les requêtes relatives aux opérations sur compte 
+viennent en 2ème position avec une part de 20%. Pour la troisième position, elle revient aux 
+réclamations relatives aux moyens de paiement avec une part de 14,3%. 
+Le graphique ci-dessous illustre la répartition des requêtes par thème : 
+REQUETES RECEVABLES EN 2024 PAR THEMES (en %) 
+ 
+A ce titre, il sied de préciser que : 
+- les réclamations qui concernent l’application de l’article 412 de la loi 2024-41 
+du 02 août 2024 ont représenté 71,6% des réclamations relatives au thème 
+« opération de crédit ». O 
+- 36,9% des requêtes parvenues relatives au thème « opérations sur compte » 
+ont concerné des problèmes liés à la clôture des comptes. 
+- 72,7% des réclamations reçues au titre des « Moyens de paiement  » se 
+rapportent à la monétique. 
+ 
+ 
+0,5
+2,3
+2,9
+3,4
+6,0
+7,0
+12,4
+14,3
+20,0
+31,2
+0 5 10 15 20 25 30 35
+Placement financiers
+Epargne
+Acceuil et qualité de service
+Déclaration à la CI
+Mainlevée
+Tarification
+Autres
+Moyens de paiement
+Opérations sur compte
+Opération de crédit
+ 
+ 
+ 14 | 31 
+ 
+REPARTITION DES REQUETES RELATIVES aux « Opérations de crédit » (en %) 
+ 
+REPARTITION DES REQUETES RELATIVES AUX OPERATIONS SUR COMPTE (en %) 
+ 
+ 
+REPARTITION DES REQUETES RELATIVES AUX MOYENS DE PAIEMENT (en %) 
+ 
+ 
+71,6
+28,4
+Réclamations liées à l'application de la loi 2024-41 Autres réclamations relatives au thème "Opération de crédit"
+36,9
+63,1
+Réclamations de clotûre de compte Autres réclamations pour les opérations sur compte
+27,3
+72,7
+Autres réclmations sur les moyens de paiements Réclamations sur la monétique
+ 
+ 
+ 15 | 31 
+ 
+L’analyse comparative par thème sur la période 2022-2024 est résumée dans le 
+graphique suivant : 
+ANALYSE COMPAREE 2022-2024 (en %) 
+ 
+ 
+Il appert de ce graphique une forte progression des réclamations portant sur les 
+opérations de crédit de plus de la moitié comparée à 2023 et une baisse des doléances 
+liées aux o pérations sur compte , aux moyens de paiement et à la tarification  soit 
+respectivement 6,6, %, 4,1, % et 2,9% avec un changement de rang d’une année à l’autre. 
+4- Répartition des réclamations par zone géographique 
+ 
+  La répartition régionale fait apparaitre une forte concentration sur le gouvernorat 
+de Tunis qui accapare une part de 39,1% suivi de Nabeul (9,7%), de l’Ariana (9,3%), de 
+Sfax (5,2%) et de Ben-Arous (4,4%). Ces cinq gouvernorats accaparent ensemble 67,7% 
+des réclamations recevables contre 75 % en 2023 et ce, malgré la forte progression de 
+réclamations recevables. Par ailleurs, il y a lieu de mettre en valeur l’augmentation des 
+requêtes enregistrées dans les zones de l’intérieur du pays (autres que celle précitées ci-
+dessous) qui représentent 32,3% contre 26% en 2023. 
+ 
+ 
+ 
+2 2,4 2,9
+6,1
+10
+25,8
+9,6
+25,7
+15,5
+01 2 1
+7,3
+13
+18,4
+9,9
+20,3 26,6
+0,50,5
+2,3 2,9 6
+12.4 14,3
+7
+31,2
+20
+3,4
+0
+5
+10
+15
+20
+25
+30
+35
+Placements
+financiers
+Epargne Accueil et
+qualité de
+service
+Mainlevée Autres Moyens de
+paiement
+Tarification Opérations
+de crédit
+Opérations
+sur compte
+Déclaration
+à la CI
+2022 2023 2024
+ 
+ 
+ 16 | 31 
+ 
+REPARTITION DES REQUETES PAR ZONE GEOGRAPHIQUE (en %) 
+ 
+5- Analyse des délais de traitement des réclamations 
+ 
+          L’analyse du délai de traitement des réclamations montre une poursuite de la baisse 
+des réclamations traitées en dépassant le délai réglementaire (qui est de deux mois) pour 
+la troisième années consécutive revenant de 21,7% en 2022 à 17,3% en 2023 et 11,4% 
+en 2024. 
+           Pour les réclamations achevées dans les délais règlementaires, leur part a atteint 
+88,6% des réclamations traitées soit une amélioration par rapport à l’année précédant de 
+près de 5,9%. Ces réclamations ont été traitées dans les délais comme suit : 
+- 58,3% des réclamations ont été traitées dans un délai inférieur à deux semaines 
+enregistrant une progression significative de 30,4% comparée à 2023 contre 
+15,2% en 2022 ; 
+- 13,3 % des réclamations ont été traitées dans un délai compris entre deux 
+semaines et un mois contre 22,6% en 2023 et 21% en 2022. 
+- 17% des réclamations ont été traitées dans un délai compris entre un mois et 
+deux mois soit un progrès de 1,6 points de pourcentage par rapport à 2023. 
+           
+ 
+39,1
+9,79,3
+5,2
+4,4
+32,3
+Tunis Nabeul Ariana Sfax Ben Arous Autres gouvernorats
+ 
+ 
+ 17 | 31 
+ 
+Ces évolutions montrent une amélioration en termes de délai de traitement des 
+dossiers dans la mesure où le taux des réclamations traitées dans un délai inférieur à deux 
+semaines a augmenté, passant de 44,7% à fin 2023 à 58,3% à fin 2024. 
+ 
+ 
+ 
+ANALYSE DES DELAIS DE TRAITEMENT (en %) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EPARTITION DES DOSSIERS CLOTURES SELON LE DELAI DE REPONSE (en %) 
+  2022 2023 2024 
+< 1 semaine 21,4 32,2 39,3 
+Entre 1 semaine et 2 semaines 17,4, 12,5 19 
+Entre 2 semaines et 3 semaines 9,6 14,9 4,7 
+Entre 3 semaines et 1 mois 11,4 7,7 8,6 
+Entre 1 mois et 2 mois 19 15,4 17 
+> 2 mois 21,2 17,3 11,4 
+Total 100 100 100 
+39%
+19%
+5%
+9%
+17%
+11%
+< 1 semaine
+Entre une semaine et deux semaines
+Entre deux semaines et trois semaines
+Entre trois semaines et un mois
+Entre un mois et deux mois
+>  deux mois
+ 
+ 
+ 18 | 31 
+ 
+ANALYSE COMPAREE 2022-2024 (en %) 
+ 
+ 
+ 
+6- Analyse de l’enjeu financier 
+ 
+Selon les données recueillies, 17,2% des réclamations, faisant l’objet d’un avis du 
+médiateur, comportent un aspect financier. Ces réclamations totalisent un montant de 17,1 
+mD contre 14,9 mD en 2023 soit une augmentation de 14,8%. 
+Il est à signaler toutefois que les remboursements aux réclamants se sont situés à 
+4,8 mD, soit 28%, de l’enjeu financier global indiqué ci-dessus. Pour chaque réclamation 
+résolue, le montant s’est établi, en moyenne à 117 Dinars.  
+ 
+ 
+ 
+ 
+ 
+21,4
+17,4
+9,6 11,4
+19 21,2
+32,2
+12,5 14,9
+7,7
+15,4 17,3
+39,3
+19
+4,7
+8,6
+17,0
+11,4
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+< 1 semaine Entre une semaine
+et deux semaines
+Entre deux
+semaines et trois
+semaines
+Entre trois
+semaines et un
+mois
+Entre un mois et
+deux mois
+>  deux mois
+2022 2023 2024
+ 
+ 
+ 19 | 31 
+ 
+Chapitre 3 :  Analyse des 
+réclamations traitées 
+ 
+1. Sort des réclamations traitées 
+Le nombre des réclamations traitées a atteint 151 réclamations, soit 35,1% du total 
+recevables. Ces réclamations contiennent 11 réclamations non résolues reportées de l’année   
+2023. 
+En outre, aucune réclamation n’a été reportée à l’année 2025. Ces dernières ont 
+représenté 4,7% des réclamations recevables en 2023.  
+ 
+SORT DES RECLAMATIONS RECEVABLES (en %) 
+Désignation 2022 2023 2024 
+ En nombre En % En nombre En % En nombre En % 
+Saisines traitées                               
+(avis émis par le médiateur) 115 50,8 139 59,7 151 35,1 
+Saisines en cours de médiation 25 11,2 11 4,7 - - 
+Saisines dont la médiation a été 
+interrompue  86 38 83 35,6 279 64,9 
+Total 226 100 233 100 430 100 
+ 
+ 
+ 
+ 
+ 
+ 20 | 31 
+ 
+Le nombre de réclamations dont la saisine a été interrompue a atteint 279 parmi celles 
+déclarées recevables et celles reportées de l’année 2023 soit 64,9% des réclamations 
+recevables. Ces interruptions sont motivées soit par l’ouverture d’une procédure judiciaire 
+(23,8%) ou par une résolution de différends à l’amiable entre les deux parties (76,2%). 
+Le graphique ci-dessous retrace le sort des réclamations recevables pendant l’année 2024. 
+ Le graphique ci -dessous visualise les motifs de l’interruption des réclamations 
+recevables pendant l’année 2024. 
+SORT DES RECLAMATIONS RECEVABLES EN 2024 (en %) 
+ 
+MOTIFS D’INTERRUPTION DES RECLAMATIONS RECEVABLES EN 2024 (en %) 
+ 
+64,9
+35,1
+Saisines interompues Saisines traitées
+76,2
+23,8
+Résolution à l'amiable entre les deux parties Ouverture d'une procédure judiciaire par le client
+ 
+ 
+ 21 | 31 
+ 
+2. Analyse des réclamations résolues  
+Pour l’année 2024, le nombre de réclamations traitées par le médiateur et acceptées 
+par les deux parties a atteint 41 réclamations3 soit un taux de résolution de 27,2% des 
+réclamations traitées contre 25,2% en 2023 soit une amélioration de 17,4 %. 
+ 
+Analyse du sort des dossiers (en nombre et en %) 
+  Acceptation de l’avis du 
+médiateur  
+Refus de l’avis du médiateur 
+ Année En nombre 
+En % des 
+réclamations  
+En nombre 
+En % des 
+réclamations  
+Les deux parties 
+2024 41 27,24 27 17,9 
+2023 35 25,2 21 15,1 
+2022 18 15.6 23 20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 Les réclamations reçues et traitées en 2024 
+4 en % des réclamations dont l’avis de médiateur a été émis pour l’année 2024. 
+ 
+ 
+ 22 | 31 
+ 
+ 
+ 
+Annexes 
+ 
+ 
+ 
+ 
+ 23 | 31 
+ 
+Annexe 1 : Liste des médiateurs bancaires  
+  
+Médiateur Coordonnées du médiateur 
+Banque ou institution 
+financière 
+ 
+ 
+M. Meftah Ziadi 
+(à partir de 
+septembre 
+2024) 
+ 
+20, Rue Mohamed Triki, Cité 
+Enaser 2, 2001 Ariana  
+ Mobile : 50 428037 - 94 371576  
+98 34 72 67 
+ziadi.meftah@cbf.org.tn STB, BTS, BTL, ATB, QNB, 
+BFT, BT, UBCI, BZ, BH 
+Leasing, ALUBAF et BH   
+M. Slaheddine 
+Ben Salah 
+(janvier 2024 – 
+août 2024) 
+ 
+9, Rue des Fruits Borj Baccouche 
+- Ariana 
+Tél : 98 346 525 
+Fax :71 707 300 
+bensalah.slaheddine@apbt.org.tn 
+M. Sadok  
+Hattay 
+ 
+Villa N° 10, Lotissement 
+HACHICHA BOUMHAL Code 
+Postale 2050 
+Tél :  71 292 297 
+Mobile :  97 40 10 68 
+ sadok.hattay@cbf.org.tn 
+Hannibal Lease, UIB, BIAT, 
+TSB, BTE, NAIB, BFPME, AIL 
+et BTK 
+ 
+ 
+M. Sadok 
+Belkaied  
+ 
+ 
+1 Rue Medinet El Katif - Cité 
+Ennasr 2 - Ariana 2001 
+Tél : 71 817 026 - 98 422 440 
+Fax :71 817 341 
+s.belkaid@gnet.tn 
+ Attijari Leasing, Best Lease, 
+WIFAK BANK  
+Attijari Bank 
+ 
+ 
+ 24 | 31 
+ 
+ 
+M. Adel Ben 
+Baraket 
+ 
+ 
+65 , avennue Ali Belhouane Bab 
+Souika - Tunis 1000 
+Tél : 70 68 07 41 - 97004699 
+Fax : 70 68 07 41 
+adel.benbaraket@gmail.com 
+UNIFACTOR  
+M. Fahmi 
+Dhouib 
+ 
+ 
+Rue yakout el hamatoui, villa n°2 
+- Sidi Frej - La Soukra 2036 
+Tél : 70 948 373 
+Tél: 98 22 11 83 - 98 346 525 
+Fax: 71 948 373 
+fahmidhouib06@gmail.com 
+Banque  Nationale  Agricole  
+en Tunisie  (BNA)  
+ 
+ 
+M. Bechir 
+Akkari 
+ 
+ 
+ 
+9, rue Habib Khanfir - El Manzah 
+9 1013 
+Tél : 71 80 08 02 – 98 313 288 
+Fax : 71 80 03 44 
+akkaribechir8@gmail.com 
+ 
+CITIBANK (Onshore et 
+Offshore) 
+M. Kaabechi 
+Kheireddine 
+ 
+1, Rue El Jahedh - Sidi Bou Said 
+2026 
+Tél : 71 205 008 - 71 205 009 
+poste 115 
+58 456 780 - 20 321 588 
+khe.media@yahoo.fr 
+Al Baraka Bank et Amen 
+M. Neyer 
+Memmi 
+ 
+Rue André Ampère Résidence 
+Mimosas Apt n6 - Ariana 2080 
+Tél : 71 709 674 
+22 616 484 – 90 642 677 
+neyermemmi@gmail.com 
+ 
+ABC Bank (Onshore et 
+Offshore)  
+ 
+ 
+ 25 | 31 
+ 
+ 
+M. Ahmed Drira 
+ 
+ 
+16, Rue Mohamed Kakou - 
+Manar 3 - Tunis  2092 
+Tél : 22 21 00 25 
+ahmed.drira@planet.tn 
+Tunis International Bank 
+ 
+M. Youssef 
+Idani 
+ 
+ 
+1, Impasse Moussa Ibn Nousseir 
+– 2037 Manzah 5 
+Tél : 98 404 251 – 71 750 732  
+youssefidani1@gmail.com 
+BTK Leasing 
+M. Samir Haj 
+Massoud 
+36 Rue Errayhane Borj 
+Baccouche ARIANA 
+GSM : 98 345 866  
+Email: bhmsamir1@gmail.com 
+Compagnie Internationale 
+De Leasing ( CIL ) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 | 31 
+ 
+Annexe 2 : Textes réglementaires régissant l’activité de la médiation bancaire 
+1. Article 94 de loi 2016-35 portant fixation du statut de la 
+Banque Centrale de Tunisie  
+ l’intervention de l’observatoire couvre toutes les données relatives à l’accès et l’utilisation des 
+informations financières et non financières ainsi que les donn ées relatives à la qualité des 
+services financiers et leur effet dans l’amélioration des conditions de vie de la classe qui n’est 
+pas en mesure d’accéder à ces services. 
+L’observatoire est chargé notamment : 
+- de la collecte des données et des informations relatives à l’accès aux services financiers et 
+leur exploitation et la mise en place à cette fin d’une base de données ; 
+- du suivi de la qualité des prestations de services fournies par les établissements exerçant 
+dans le secteur financier, notamment sur le plan de satisfaction des besoins de la clientèle ; 
+- d’informer et de renseigner sur les services et produits financiers et leur coût ; 
+- d’établir des indicateurs qualitatifs et quantitatifs permettant de mesurer le coût des services 
+financiers et leur degré de satisfaction de la clientèle et le degré d’inclusion financière ; 
+- d’émettre des recommandations aux établissements exerçant dans le secteur financier et 
+aux médiateurs bancaires dans la limite des attributions de l’observatoire ; 
+- d’examiner les rapports des m édiateurs et d ’établir un rapport annuel sur la médiation 
+bancaire. 
+ 
+ 
+ذ 
+ 
+ 
+ 
+ 27 | 31 
+ 
+2. Loi N°2016-48 DU 11 JUILLET 2016, Relative aux 
+banques et aux établissements financiers 
+Article 186 : 
+Les banques et les établissements financiers sont tenus de constituer une association 
+professionnelle, ayant pour objectif d’œuvrer à l’étude des questions liées à l’exercice de la 
+profession et à son développement ainsi qu’à la formation des ressources humaines. 
+L’association joue également le rôle d’intermédiaire entre ses mem bres d’une part et les 
+pouvoirs publics et la Banque Centrale de Tunisie d’autre part, pour toute question intéressant 
+la profession. Le ministre chargé des finances et le gouverneur de la Banque Centrale de 
+Tunisie peuvent consulter, sur toute question re lative à l’évolution de la profession, 
+l’association qui peut présenter des propositions à cet effet. L’association doit établir un code 
+de déontologie qui s’impose à ses membres et œuvre pour garantir son respect. 
+Article 187 :  
+L’association visé_e à l’a rticle 186 de la présente loi doit créer un organe de médiation 
+bancaire chargé de l’examen des requêtes qui lui sont présentées par les clients et relatives 
+à leurs différends avec les banques et les établissements financiers.  
+Chaque banque ou établissement financier peut désigner, aux mêmes fins, un ou plusieurs 
+médiateurs bancaires. L’organe de médiation bancaire ou le médiateur bancaire propose les 
+solutions de médiation appropriées dans un délai maximum de deux mois à compter de sa 
+saisine. L’organe de médiation bancaire ou le médiateur bancaire est saisi des requêtes qui 
+lui sont présentées, gratuitement et dans un délai maximum de huit jours à compter de la 
+réception de la demande de médiation. 
+ Il ne peut se saisir des requêtes au titre desquelles i l n’est pas admis d’arbitrage ou de 
+transaction ou qui font l’objet d’affaires pendantes devant les tribunaux.  
+ 
+ 
+ 28 | 31 
+ 
+Les banques et les établissements financiers doivent faciliter la mission de l’organe de 
+médiation bancaire ou du médiateur bancaire et lui communiquer tous documents en relation 
+avec l’objet du différend dans les délais qui leur sont impartis.  
+Les banques et les établissements financiers doivent porter à la connaissance de leur 
+clientèle, l’organe de médiation bancaire ou le médiateur bancaire e t les modalités de sa 
+saisine notamment par l’insertion de clauses à cet effet dans la convention prévue à l’article 
+83 de la présente loi et dans les extraits de comptes bancaires, les sites web et les contrats 
+de financement.  
+Les dirigeants, les agents de l’organe de médiation bancaire ou le médiateur bancaire sont 
+tenus au respect du secret professionnel pour les informations dont ils ont pris connaissance 
+du fait de l’exercice de leurs missions et doivent s’interdire d’utiliser ces informations, en 
+dehors des cas permis par la loi, à des fins autres que celles qu’exige l’exécution des missions 
+qui leurs sont dévolues, même après perte de leurs qualités, et ce, sous peine de s’exposer 
+aux sanctions prévues par l’article 254 du code pénal. 
+ L’organe de médiation bancaire ou le médiateur bancaire adresse à l’observatoire d’inclusion 
+financière un rapport annuel sur les résultats de son activité. Les conditions d’exercice de 
+l’activité de l’organe de médiation bancaire et des médiateurs bancaires sont fixées par un 
+décret gouvernemental. 
+3. Décret n ° 2006-1881 du 10 juillet 2006, fixant les 
+conditions d’exercice de l’activité de médiateur bancaire.  
+Article premier : 
+Le présent décret fixe les conditions d’exercice de l’activité de médiation bancaire.  
+Article 2 : 
+ L’activité de médiation bancaire peut être exercée par toute personne physique ou morale. 
+Lorsque la médiation bancaire est exercée par une personne morale,  les personnes 
+ 
+ 
+ 29 | 31 
+ 
+physiques qui exercent la médiation bancaire doivent remplir les conditions prévues aux 
+articles 3 et 4 du présent décret.  
+Article 3 : 
+ Le médiateur bancaire doit être de nationalité tunisienne et justifier d’une expérience 
+minimale de dix ans dans le domaine bancaire.  
+Article 4 :  
+Il est interdit aux établissements de crédit de désigner les médiateurs bancaires parmi les 
+personnes avec lesquelles ils sont liés par une relation de travail ou par tout autre lien au sens 
+de l’article 23 de la loi n° 2001-65 susvisée.  
+Article 5 :  
+ Le médiateur bancaire est désigné pour une durée de trois année renouvelable une seule 
+fois, par le conseil d’administration ou le conseil de surveillance de l’établissement de crédit 
+sur proposition, selon le cas, du président-directeur général, du directeur général ou du 
+président du directoire. L’établissement de crédit doit informer sans délai la banque centrale 
+de la désignation du médiateur bancaire. La banque centrale de Tunisie peut s’opposer à 
+cette désignation dans un délai d’un mois à partir de la date d’information.  
+Article 6 :  
+Une convention écrite doit être conclue entre l’établissement de crédit et le médiateur 
+bancaire, cette convention fixe notamment sa durée, les obligations des deux parties et les 
+honoraires du médiateur bancaire, et ce, conformément à une convention-type approuvée par 
+le conseil de l’association professionnelle prévue par l’article 31 de la loi n° 2001-65 susvisée. 
+ Article 7 :  
+ La convention de médiation ne peut être résiliée à l’initiative de l’établissement de crédit, 
+avant l’arrivée de son terme, que dans le cas où il est établi qu’une faute grave a été commise 
+ 
+ 
+ 30 | 31 
+ 
+par le médiateur dans l’exercice de ses fonctions. La décision de résiliation doit être motivée 
+et portée sans délai à la connaissance de la Banque Centrale.  
+Article 8 : 
+Le client doit, avant de recourir au médiateur bancaire, adresser, par écrit, un recours gracieux 
+à l’établissement de crédit, le médiateur bancaire ne peut se saisir de la plainte qu’après la 
+réponse de l’établissement de crédit à cette requête et dans tous les cas après 15 jours 
+ouvrables dans les banques à partir de sa date.  
+Article 9 : 
+ Les plaintes doivent être introduites auprès du médiateur bancaire par requête écrite, signée 
+par le client, comportant ses réclamations et accompagnée des justificatifs à sa disposition et 
+de la preuve de l’épuisement des procédures spécifiées à l’article 8 du présent décret.  
+Article 10 : 
+Le médiateur bancaire statue sur la recevabilité des plaintes qui lui sont soumises par décision 
+motivée.  
+Article 11 : 
+ Le médiateur bancaire peut demander à l’établissement de crédit et au client de lui 
+communiquer tous les documents qu’il juge nécessaires pour l’accomplissement de sa 
+mission, le médiateur entend l’établissement de crédit et le client chaque fois que nécessaire.  
+Article 12 : 
+ Le médiateur bancaire informe simultanément, l’établissement de crédit et le client de son 
+avis, et ce, par un écrit signé de sa part prévoyant obligatoirement que ledit avis ne lie pas les 
+parties et n’est susceptible d’aucun recours. L’établissement de crédit et le client doivent dans 
+les dix jours ouvrables dans les banques à partir de cette information, faire connaître au 
+médiateur bancaire l’acceptation ou le refus de cet avis.  
+ 
+ 
+ 31 | 31 
+ 
+Article 13 : 
+ Les constatations et les déclarations qui peuvent être effectuées ou recueillies à l’occasion 
+de la médiation ainsi que l’avis du médiateur ne peuvent être invoqués devant la justice. Il est 
+interdit au médiateur de représenter l’une des parties devant la justice à propos du litige.  
+Article 14 : 
+ Le client conserve le droit de porter l’affaire, à tout moment au cours du litige devant la justice.  
+Article 15 :  
+Le médiateur bancaire adresse au plus tard le 31 mars de chaque année, à l’observatoire des 
+services bancaires un rapport annuel sur son activité.  
+Article 16 :  
+ Le gouverneur de la banque centrale de Tunisie est chargé de l’application du présent décret 
+qui sera publié au Journal Officiel de la République Tunisienne.  
+ 
+ 
+ 
+ 

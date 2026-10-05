@@ -1,0 +1,22 @@
+{
+ "id": "S037",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "Impact Together! - Fund Impact grants (EU-funded) - Article",
+ "url": "https://www.impacteurope.net/insights/grants-growth-tunisia",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.impacteurope.net/insights/grants-growth-tunisia",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "4240791ea7da870ab2fecd50f8d776e5b6b98ec2b13167b273c9e886c1d5bd80",
+ "bytes": 49031,
+ "path": "grants\\International_donors_accelerators_and_calls\\S037_Impact_Together_Fund_Impact_grants_EU_funded_Article.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 9116,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Grants for Growth in Tunisia | Impact Europe",
+ "note": "playwright failed (Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.impacteurope.net/insights/grants-growth-tunisia\nCall log:\n  - navigating to \"https://www.impacteurope.net/insights/grants-growth-tunisia\", waiting until \"networkidle\"\n); used text renderer",
+ "last_modified": ""
+}

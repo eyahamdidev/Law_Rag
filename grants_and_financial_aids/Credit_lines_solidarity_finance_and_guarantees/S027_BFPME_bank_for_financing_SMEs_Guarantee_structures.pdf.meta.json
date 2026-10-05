@@ -1,0 +1,22 @@
+{
+ "id": "S027",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BFPME - bank for financing SMEs - Guarantee structures",
+ "url": "https://www.bfpme.com.tn/fr/structures-de-garantie",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.bfpme.com.tn/fr/structures-de-garantie",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "4e309031490c97f9cb35ed8a0290ba2cd0f49ed7bf53c8ee91ce15b2854406bd",
+ "bytes": 9749170,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S027_BFPME_bank_for_financing_SMEs_Guarantee_structures.pdf",
+ "status": "ok",
+ "pages": 3,
+ "text_chars": 1500,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Structures de Garantie | BFPME",
+ "note": "",
+ "last_modified": ""
+}

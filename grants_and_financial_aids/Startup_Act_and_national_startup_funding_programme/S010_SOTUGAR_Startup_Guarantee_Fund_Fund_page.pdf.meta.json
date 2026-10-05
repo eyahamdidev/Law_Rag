@@ -1,0 +1,22 @@
+{
+ "id": "S010",
+ "dataset": "grants",
+ "section": "Startup Act and national startup funding programmes",
+ "name": "SOTUGAR - Startup Guarantee Fund - Fund page",
+ "url": "https://sotugar.com.tn/fg-startups/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://sotugar.com.tn/fg-startups/",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "e886babb96f6021318db36f50b3c28038b13a1f53fe848c6b6cec64197f2a33f",
+ "bytes": 188761,
+ "path": "grants\\Startup_Act_and_national_startup_funding_programme\\S010_SOTUGAR_Startup_Guarantee_Fund_Fund_page.pdf",
+ "status": "ok",
+ "pages": 3,
+ "text_chars": 1062,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Le Fonds De Garantie Pour Les Startups - SOTUGAR",
+ "note": "",
+ "last_modified": ""
+}

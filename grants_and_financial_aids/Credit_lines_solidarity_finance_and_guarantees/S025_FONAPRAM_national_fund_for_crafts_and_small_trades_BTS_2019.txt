@@ -1,0 +1,1824 @@
+ 
+ 
+ 
+ 
+   ETATS FINANCIERS   
+ 
+BANQUE TUNISIENNE DE SOLIDARITE-BTS- 
+Siège social :56 Avenue Mohamed V - 1002 Tunis 
+ 
+  
+La BANQUE TUNISIENNE DE SOLIDARITE -BTS- publie ci-dessous, ses états fi nanciers arrêtés au              
+31 décembre 2019 tels qu’ils seront soumis à l’approbation de l’assemblée générale ordinaire qui se tiendra 
+en date du 30 juin 2020. Ces états sont  accompagnés des rapports général et spécial des  commissaires aux 
+comptes M. Anis SMAOUI (Cabinet ICCA) et Wajdi GUERFALA (Groupement CWG-CRD). 
+ 
+ BILAN ARRETE AU  31 DECEMBRE 2019 
+(Unité:en KDT) 
+ 
+   ACTIFS 
+ACTIFS Note 31/12/2019 31/12/2018 
+(retraité) 31/12/2018 Variation 
+AC1- Caisse et avoirs auprès de la BCT, CCP et 
+TGT 
+3.1
+11 861 9 100 9 100 2 761 
+AC2- Créances sur les établissements bancaires et 
+financiers  
+3.2 264 239 231 458 231 458 32 781 
+AC3- Créances sur la clientèle 3.3 1 191 249 1 112 693 1 112 693 78 556 
+AC4- Portefeuille –titres commercial - - - -
+AC5- Portefeuille d’investissement 3.4 1 604 1 983 1 983 -379 
+AC6- Valeurs immobilisées 3.5 7 068 7 220 7 220 -152 
+AC7- Autres actifs(*) 3.6 37 612 35501 37 249 2 111
+Total Actifs  1 513 633 1 397 955    1 399 703  115678
+PASSIFS & CAPITAUX PROPRES 
+PASSIFS 
+PASSIFS Note 31/12/2019 31/12/2018 
+(retraité) 31/12/2018 Variation 
+PA1- Banque centrale et CCP 4.1 1 995 1 876 1 876 119 
+PA2- Dépôts et avoirs des établissements bancaires 
+et financiers(*) 4.2 77 77 119 -
+PA3- Dépôts et avoirs de la clientèle 4.3 19 895 18 078 18 078 1 817 
+PA4- Emprunts et ressources spéciales 4.4 1 304 834 1 219 945 1 219 945 84 889 
+PA5- Autres passifs(*) 4.5 98 596 79 020 80 726 19 576
+Total Passifs  1 425 397 1 318 996 1 320 744 106 401
+ 
+  CAPITAUX PROPRES  
+ 
+CAPITAUX PROPRES Note 31/12/2019 31/12/2018 
+(retraité) 31/12/2018 Variation 
+1- Capital  60 000 60 000 60 000 -
+2-Réserves 7 504 6 372 6 372 1 132
+3- Autres capitaux propres  ---  -
+4- Résultats reportés   11 558 6 746 6 746 4 812
+5- Résultat de la période  9174 5841 5841 3333
+Total Capitaux propres  4.6 88 236 78959 78959 9277 
+Total Passifs et Capitaux Propres   1 513633 1 397 955 1 399 703 115678 
+(*) Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des états 
+financiers. 
+ 
+
+ 
+ 
+ 
+ETAT DES ENGAGEMENTS HORS BILAN  
+ARRETE AU  31 DECEMBRE 2019 
+(Unité:en KDT) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LIBELLE Note 31/12/2019 31/12/2018 Variation 
+     
+Passifs Eventuels     
+HB 1-Cautions, avals et autres garanties 
+données 6.1 595 675 -81 
+HB 2-Crédits documentaires  - - -
+HB 3-Actifs donnés en garanties  - - -
+   
+Total Passifs éventuels   595 675 -81 
+Engagements donnés   
+   
+HB 4-Engagements de financements donnés 6.2 110 076 85 744 24 332
+HB 5-Engagements sur titres   - - -
+   
+  
+Total Engagements donnés   110 076 85 744 24 332
+Engagements reçus   
+   
+HB 6-Engagements de financements reçus 6.3 61 114 50829 10 285
+HB 7-Garanties reçues 6.4 1 157 353 1 078083 79 270
+  
+    
+Total Engagements reçus 1 218 467 1 128912 89 555
+ 
+ 
+ 
+ 
+ETAT DE RESULTAT 
+ARRETE AU  31 DECEMBRE 2019 
+(Unité: en KDT) 
+ 
+LIBELLE Note 31/12/2019 31/12/2018  Variation 
+I- Produits d’exploitation Bancaire    
+    
+PR 1-Intérêts et revenus assimilés 5.1 51 859 39 945          11 914
+PR 2-Commissions  5.2 6 256 5 537 719
+PR 3-Gains sur portefeuille-titres commercial et 
+opérations financières 
+ 36  - 3
+PR 4-Revenus du portefeuille d'investissement  - -  -
+Total  Produits d’exploitation bancaire  58 118 45 488 12 630
+II- Charges d’exploitation Bancaire   
+CH 1-Intérêts et charges assimilées  5.3 -6 140 -5 294 -846
+CH 2-Commissions encourues  - - -
+CH 3-Pertes sur portefeuille-titres commercial et 
+opérations financières 
+ - - -
+    
+Total charges d’exploitation Bancaire -6 140 -5 294  -846
+Produit net Bancaire  = (I-II) 51978 40 194 11 784
+PR 5\CH 4-Dotations aux Provisionset résultat des 
+corrections de valeurs sur créances 
+Hors Bilan et passifs 
+5.4 -5834 -4 280 -1553
+PR 6\CH 5- Dotations aux Provisionset résultat des 
+corrections de valeurs sur portefeuille 
+d'investissement 
+5.5 -296 -70 -226
+PR 7- Autres produits d’exploitation   119 130 -12
+CH 6- Frais de personnel 5.6 -19011 -17 293 -1718
+CH 7- Charges générales d’exploitation 5.7 -7473 -6 250 -1223
+CH 8- Dotations aux Amortissements et aux 
+Provisions sur immobilisations 
+ -1411 -1 300 -111
+   
+Résultat d’exploitation  18072 11 131 6 941
+PR 8\CH 9- Solde en gain \ perte provenant des 
+autres éléments ordinaires 5.8 44 -42 85
+    
+CH 11- Impôt sur les bénéfices  -8236 -4 592 -3644
+  
+   
+Résultat des activités ordinaires   9880 6 497  3 383
+PR 9\CH 10- Solde en gains/pertes provenant des 
+éléments  extraordinaires 5.9 -706 -656 -50
+Résultat Net de la période    9174 5 841  3332
+Effets des modifications comptables (net d’impôt)  - - -
+Résultat après modifications comptables    9 174 5 841  3332
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ETAT DES FLUX  DE TRESORERIE 
+ARRETE AU  31 DECEMBRE 2019 
+(Unité:en KDT) 
+ 
+LIBELLE 31/12/2019 31/12/2018 Variation 
+ACTIVITES D’EXPLOITATION  
+Produits d'exploitation bancaire encaissés 56 917 44 499 12 418
+Charges d'exploitation  bancaire décaissées  - 71 - 66 - 5
+Dépôts /retraits dépôts auprès d’autres établissements 
+bancaires et financiers 
+- -
+Prêts et avances / remboursement prêts et avances 
+accordés à la clientèle  
+-43 458 -51 804 8 346
+Dépôts /retraits de dépôts de la clientèle  
+Titres de placement 
+-7 227
+-
+4 231 
+- 
+-11 459
+-
+Sommes versées au personnel et créditeurs divers -18 920 -17 119 -1 801
+Autres flux de trésorerie provenant des activités 
+d’exploitation  
+-23 833 -40 597 16 764
+Impôt sur les bénéfices -6 139 -2 283 -3856
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES D’EXPLOITATION 
+-42 731 -63 139 20 409
+ACTIVITES D’INVESTISSEMENT   
+ Intérêts et dividendes encaissés sur portefeuille 
+d’investissement  --  -
+Acquisitions / cessions sur portefeuille d’investissement - - -
+ 
+Acquisitions / cessions sur immobilisations -1 259 - 914 -345 
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES D’INVESTISSEMENT -1 259 - 914 - 345
+ACTIVITES DE FINANCEMENT  
+Emission d’action                   - - -
+Remboursement d’emprunts -8 390 -27 556  19 166 
+Augmentation / diminution ressources spéciales 87 211 145 202 -57 991 
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES DE FINANCEMENT  
+78 821 117 647 -38 826
+VARIATION DE TRESORERIE  
+Variation nette des liquidités et équivalents de liquidités 
+au cours de l'exercice 
+34831 53 594  -18 762
+Liquidités et équivalents de liquidités en début 
+d'exercice  
+238 565 184 971 53 594 
+LIQUIDITES ET EQUIVALENTS DE 
+LIQUIDITES EN  FIN D’EXERCICE 
+273 396 238 565 34832
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LES NOTES AUX ETATS FINANCIERS  
+ARRÊTES AU 31/12/2019 
+ 
+ 
+ 
+NOTE N°1 : PRESENTATION DE L’ENTREPRISE 
+ 
+La Banque Tunisienne de Solidarité créée le 22 Décembre 1997, a pour objet de :  
+ D’ancrer la culture de l'auto emploi et de la prise de l'initiative ; 
+ De créer des offres d'emploi notamment pour les classes sociales les plus démunies ; 
+ D’intégrer les petits projets dans le tissu économique ; 
+ De consolider l'effort des associations pour le développement.  
+La composition du capital de la BTS se présente comme suit: 
+(Exprimé en dinars) 
+Actionnaires Nombre Valeur nominale Montant total Part 
+d'actions de l'action en capital
+Publics   4 153 613 10 41 536 130 69,23%
+  Etat Tunisien 3 550 933 10 35 509 330 59,18%
+  Personnes Morales Publiques 602 680 10 6 026 800 10,04%
+                - CNSS 176396 10 1 763 960 2,94%
+                - OACA 100 000 10 1 000 000 1,67%
+                - STIR 100 000 10 1 000 000 1,67%
+                - CNAM 73 704 10 737 040 1,23%
+                - OCT 50 000 10 500 000 0,83%
+                - ONPT 50 000 10 500 000 0,83%
+                - ETAP 50 000 10 500 000 0,83%
+              - Société El Bouniane 2 580 10 25 800 0,04%
+Privés   1 846387 10 18 463870 30,77%
+  Personnes Morales 249 620 10 2 496 200 4,16%
+  Personnes Physiques 1 596 767 10 15 967 670 26,61%
+Total 6 000 000 10 60 000 000 100% 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE N°2 : RESPECT DES NORMES COMPTABLES TUNISIENNES,  
+                      BASES DE MESURE ET PRINCIPES COMPTABLES SPECIFIQUES 
+ 
+2-1.  Note sur le référentiel d'élaboration des états financiers 
+ 
+Les états financiers relatifs à la période allant  du 1er janvier au 31 Décembre 2019 ont été établis conformément aux 
+dispositions des normes comptables tunisiennes et notamme nt les normes comptables relatives aux établissements 
+bancaires. 
+ 
+2-2. Note sur les bases de mesure et les principes comptables pertinents appliqués  
+ 
+Les états financiers ont été préparés par référence aux hypothèses de continuité de l’exploitation et de la 
+comptabilité d'engagement ainsi qu’aux conventions compta bles de base prévues par le cadre conceptuel de la 
+comptabilité financière. 
+ 
+2.2.1. Règles de prise en compte et d'évaluation des engagements 
+ 
+2.2.1.1 Règles de prise en compte des engagements  
+Les engagements de la banque sont constatés en hors bila n lors de la prise en compte de l'acceptation de la 
+notification de l'accord de crédit par le bénéficiaire et sont apurés au fur et à mesure des déblocages des crédits.  
+2.2.1.2 Règles d'évaluation des engagements et de détermination des provisions sur les engagements douteux 
+ 
+A. Critères de classification  sur les crédits de  microprojets 
+ 
+La classification des promoteurs est faite conformément aux dispositions de la circulaire de la Banque Centrale de 
+Tunisie n° 91-24 du 17 décembre 1991 complétée et modifiée pa r la  circulaire de la BCT  n° 99-04 du 19/03/1999 
+et par la circulaire de la BCT  n° 2001-12 du 04 mai 2001, et  par référence aux termes de la note aux banques n° 93-
+23 du 30 juillet 1993 en se basant notamment sur le critère de l’antériorité d’impayés pour déterminer la classe du 
+promoteur et par application de la règle de la contagion.  
+ 
+Classe Retard de paiement  
+1 Inférieur à 90 jours 
+2 Compris entre 90 jours et 180 jours 
+3 Compris entre 180 jours et 360 jours 
+4 Supérieur à 360 jours  
+ 
+B. Détermination des Provisions individuelles  
+Les provisions sur les crédits classées sont déterminées sur la base  des taux minima par classe d'actif tels que prévu 
+par la circulaire de la BCT n° 91-24 du 17 décembre 1991 et la note aux banques n° 93-23. 
+Ces taux se présentent comme suit : 
+ 20% pour les actifs de la classe 2,  
+ 50% pour les actifs de la classe 3,  
+ 100% pour les actifs de la classe 4.  
+Il est à signaler que l'application, de ces taux, est acco mpagnée d’un abattement de 90% qui correspond à la 
+couverture du FNG de tous les crédits accordés par la BT S. Cet abattement n'est pas pris en compte pour les 
+créances dont les demandes d'indemnisation ont été refusées par le FNG.  
+Cependant et pour l’exercice en cours la banque a constaté une provision collective sur l’encours des crédits de la 
+classe 0 et des crédits  nécessitant un suivi particulier (cla sse 1), et ce conformément à la circulaire de la BCT 2012-
+02 du 11 janvier 2012.  
+C. Détermination des Provisions collectives  
+En application des dispositions de la circulaire aux banques n°2012-02 du 11 janvier 2012, la banque a procédé à la 
+comptabilisation par prélèvement sur le résultat de l’exercice 2019, des provisions à caractère général dites « 
+provisions collectives ». Ces provisions ont été constituées  en couverture des risques latents sur les engagements 
+courants (Classe 0) et des engagements nécessitant un suivi particulier (Classe 1) au sens de l’article 8 de la 
+circulaire n°91-24. Ces provisions ont été déterminées en se basant sur les règles prévues par la note aux 
+établissements de crédit n°2012-08 du 2 mars 2012. 
+ 
+ 
+ 
+ 
+ 
+La méthodologie adoptée par la banque a consisté au :  
+- Regroupement des engagements classés 0 et 1 en groupe s homogènes par nature de débiteur et par secteur 
+d’activité ; 
+- Calcul d’un taux de migration moyen pour chaque gr oupe qui correspond aux risques additionnels du groupe 
+considéré en N rapporté aux engagements 0 et 1 du même groupe de l’année N-1 ; Les taux de migration moyens ont 
+été calculés sur la période 2015-2019. 
+- Détermination d’un facteur scalaire par groupe traduisant  l’aggravation des risques en 2019. Il est déterminé en 
+rapportant la proportion des impayés et consolidations au niveau des engagements classés 0 et 1 d’un groupe donné 
+de l’année 2019 sur la même proportion en 2018.  Ce facteur ne peut être inférieur à 1. 
+Par ailleurs la banque a considéré les retraitements suivan ts afin d’éliminer les biais qui peuvent affecter la 
+détermination du facteur scalaire : 
+- L’application des taux de provisionnements minimaux proposés par la circulaire aux banques n°2012-08. 
+D. Détermination des Provisions sur actifs ayant une ancienneté dans la classe 4 supérieure ou 
+égale à 3 ans 
+ 
+En application des dispositions de la circulaire a ux banques n°2013-21 du 30 décembre 2013, la banque a procédé à 
+la comptabilisation des provisions additionnelles  par prél èvement sur le résultat de l’exercice 2018. Ces provisions 
+ont été constituées en couverture du risque net sur les enga gements ayant une ancienneté dans la classe 4 supérieure 
+ou égale à 3 ans.  
+Ces provisions ont été déterminées conformément aux quotités minimales prévues par l’article 1 de ladite circulaire :  
+- 40% pour les engagements ayant une ancienneté dans la classe 4 de 3 à 5 ans. 
+- 70% pour les engagements ayant une ancienneté dans la classe 4 de 6 et 7 ans. 
+- 100% pour les engagements ayant une ancienneté dans la classe 4 supérieure ou égale à 8 ans.  
+Ce taux est appliqué au risque net non couvert soit le montant de l’engagement déduction faite :  
+- des agios réservés ; 
+- des garanties reçues de l’Etat, des organismes d’assurance et des établissements de crédit ; 
+- des garanties sous forme de dépôts ou d’actifs financiers susceptibles d’être liquidés sans que leur valeur soit 
+affectée ; 
+- des provisions constituées conformément aux dispositions de l’article 10 de la circulaire aux établissements 
+de crédit n°91-24.  
+La dite circulaire stipule que les provisions additionnelles sur les actifs ayant une ancienneté dans la classe 4 
+supérieure ou égale à 3 ans au 31 décembre 2012 sont imputées sur les capitaux propres d’ouverture de l’exercice 
+2013.  
+2.2.2 Règles de prise en compte des intérêts et commissions sur les engagements 
+ 
+Les intérêts sur les engagements sont constatés au fur et à mesure qu'ils sont courus et sont rattachés à la période 
+adéquate par abonnement.   
+Pour les crédits finançant les  microprojets, et à chaque date d'arrêté comptable, les intérêts courus et non échus sont 
+inscrits dans les comptes de créances rattachées correspondants par la contrepartie d'un compte de résultat.  
+ Les intérêts afférents aux crédits consentis par la banque et demeurant impayés sont réservés.   
+Les intérêts réservés ne sont constatés en résultat qu'au moment de leur encaissement effectif.  
+La comptabilisation des commissions sur les crédits est prise en compte au moment de la constatation du déblocage 
+crédit dans le compte du promoteur.  
+2.2.3 Règles de classification et d'évaluation des titres  
+Le portefeuille titres de la banque est composé par des titres de participations et des titres de placement.  
+ 
+Ces titres non cotés  sont évalués par référence à leurs vale urs mathématiques. Seules les moins-values  font l'objet 
+de provisions nécessaires.  
+2.2.4Valeurs Immobilisées  
+Les immobilisations sont comptabilisées à leur coût d'acquisition. Le coût d'entrée est constitué du prix d'achat et du 
+montant de la TVA non récupérable. 
+Les immobilisations sont amorties selon la méthode linéaire  conformément aux taux d'amortissement prévus par le 
+décret n° 2008/492 du 25/02/2008 : 
+ 
+ 
+ 
+ 
+ 
+ 
+* Logiciel et matériels informatiques               33% 
+* Matériel de transport                              20% 
+* MMB                                              20% 
+* Agencements et aménagements     10% 
+* Constructions                                       5% 
+ 
+ 
+2.2.5  Ressources spéciales 
+ 
+Ce poste enregistre les ressources extérieures accordées à la BTS tels que le FADES et la BID  ainsi que les 
+Ressources spéciales  gérées par la Banque telles que : FOSDAP ; FONAPRAM ; FONDS FNE Microprojets et les 
+autres ressources. 
+ 
+C1- Ressources spéciales accordées : 
+ FOSDAP 
+ FONAPRAM 
+ FNE 
+ Art 11 Loi de Finance 2017 
+ ONA-FR 
+ INTILAK 
+     
+C2- Emprunt extérieures  
+ FADES 
+ BID 
+ 
+C3- Autres principales ressources  
+ Ministère de la Femme, de la Famille, de l’Enfance et des Seniors.  
+ CPG 
+ ETAP  
+ QFF 
+ 
+2.2.6 Engagements de financement donnés 
+ 
+Ce poste comprend notamment les crédits confirmés que la banque s'est engagée à mettre à la disposition des 
+promoteurs des petits projets et  les titres de participations non libérés. 
+ 
+2.2.7 Engagements de financement  reçus 
+Ce poste comprend les intérêts conventionnels sur crédits à recevoir de la clientèles constatés lors du déblocage du 
+crédit.  
+ 
+ 
+ 
+Faits marquants de l'exercice 2019: 
+ 
+ Reprise du financement FONAPRAM 
+ 
+La Banque a repris le financement sur le FONAPRAM suite au Décret n°2019-57 du 21/01/2019 relatif à la 
+fixation des conditions d’octroi de la dotation remboursable sur les ressources FONAPRAM. 
+ 
+ Mise en place du module consolidation 
+ 
+La Banque a mis en place au niveau de son global bancaire le module consolidation. 
+ 
+ La contribution sociale solidaire 
+ 
+Conformément aux dispositions de l’article 39 de la loi n°2019-78 du 23/12/2019 portant loi de finances pour 
+l'année 2020, la BTS a constaté une contribution sociale solidaire au profit du budget de l'Etat d'un montant de 
+706 KDT. Cette contribution correspond à 3% des bénéfices de la Banque servant de base pour le calcul de 
+l'impôt sur les sociétés. 
+ 
+ La constitution d’une provision exceptionnelle au titre du seuil de contentieux utile  
+ 
+La Banque a constituéen 2019 une provision exceptionnelle d’un montant de 4,6 MD au titre du seuil de 
+contentieux utile pour les montants des encours de crédit à risque inférieurs ou égale à 900 dinars. 
+NOTE N°3 : BILAN ACTIF 
+ 
+3.1   Caisse et avoirs auprès de la BCT, CCP, et TGT  
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019  à11 861KDT contre 9 100KDT au 31 décembre 2018 et 
+se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Caisse  57 94 -37
+CCP exploitation  9 060 8 147 913
+CCP agences BTS 19 21 -2
+CCP versement TOUMOUH 0 132 -132
+Comptes chez la Banque Centrale de Tunisie 2 724 706 2 018
+TOTAL 11861 9 100 2 761 
+ 
+3-2. Créances sur les établissements bancaires 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 264 239KDTcontre 231 458 KDTau 31 décembre 2018, 
+et se  détaille comme suit : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Désignation Note 31/12/2019 31/12/2018 Variation 
+Avoirs  chez les établissements bancaires (1) 55 33 23
+Prêts au jour le jour et à terme en dinars aux banques (2) 262 200 230 300 31 900
+Créances rattachées (2) 1 984 1 125 859
+TOTAL  264 239 231 458 231 458 
+ 
+ 
+ 
+3-2-1Ventilation des créances sur les établissements bancaires et financiers selon la durée résiduelle se 
+présente comme suit : 
+ 
+Description ≤ 3 mois ]3mois‐6mois] ]6mois ‐1an] > 1 ans Total 
+Avoirs chez les établissements bancaires 55 - - - 55 
+Prêts aux établissements Financiers 262 200 - - - 262 200 
+Créances rattachées 1 984 - - - 1 984 
+TOTAL 264 239 - - - 264 239 
+ 
+3-3 .Créances sur la clientèle 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 1 191 249KDTcontre  un  solde  de 1 112 693 KDT 
+au 31 décembre 2018, et se détaille comme suit : 
+Désignation Note 31/12/2019 31/12/2018 Variation 
+Échéances non échues   865 554 799 974 65 580 
+Crédits sur ressources ordinaires (1) 47 284 63 736 -16 452 
+Crédits sur ressources spéciales (2) 818 270 736 238 82 032 
+Échéances impayés sur ressources 
+ordinaires  
+ 169 756 171 615 -1 859 
+Crédits impayés en Principal (3) 150 166 151 410 -1 244 
+Intérêts impayés  (4) 19 590 20 205 -615 
+Échéances impayés  sur ressources spéciales  238 694 215 557 23 137 
+Crédits impayés en Principal (5) 216 463 196 717 19 746 
+Intérêts impayés  (6) 22 231 18 840 3 391 
+Comptes débiteurs (7) 3 701 3 457 244 
+Créances rattachées aux comptes de la 
+clientèle 
+ 2 662 2 097 565 
+Intérêts échus (8) 746 582 164 
+Profit échus  120 23 97 
+Intérêts courus non échus (*)  1 531 1 379 152 
+Profit courus non échus  265 113 152 
+Couvertures comptables  -89 118 -80 006 -9 112 
+Agios réservés (9) -43 389 -40 516 -2 873 
+Provisions sur crédits (10) -45729 -39 490 -6 239 
+TOTAL NET  1 191249 1 112 693 78 555 
+  
+ 
+ 
+3-3-1Crédits sur ressources ordinaires: 
+ 
+Ce compte enregistre un montant de  47 285KDT au 31 Décembre 2019 contre un montant de 63 736KDTau 
+31 Décembre 2018 et se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Crédits Agence Succursale 16 186 13 707 2 479 
+Crédits sur ressources ordinaires: 28 456 50 029 -21 573 
+Crédits de consolidation sur ressources ordinaires: 2 643 0 2 643 
+TOTAL 47 285 63 736 -16 451 
+ 
+ 
+ 
+3-3-2 Crédits sur ressources spéciales: 
+ 
+Ce compte enregistre un montant de  818 270KDT au 31 Décembre 2019 contre un montant de 736 238KDT au 
+31/12/2018 et se détaille comme suit : 
+ 
+Désignation Note 31/12/2019 31/12/2018 Variation 
+Financement sur Emprunt (a) 283 261 254 911 28 350 
+Financement Gestion pour Compte (b) 535 009 481 327 53 682 
+TOTAL  818 270 736 238 82 032 
+ 
+ a-Financement sur Emprunt: 
+ 
+Les Crédits financés à partir d'emprunts se présentent comme suit: 
+Désignation Note 31/12/2019 31/12/2018 Variation 
+Crédits sur la ligne FNE  134 139 147 913 -13 774 
+Crédits sur la ligne art11 LF2017  18 618 12 197 6 421 
+Crédits FADES2  80 996 63 512 17 484 
+Crédits sur la ligne BID (i) 49 508 31 289 18 219 
+TOTAL 283 261 254 911 28 350 
+ 
+ (i) Les crédits accordés sur les lignes de  financement BID se présentent comme suit: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Financement Mourabaha 33 859 29 900 3 959 
+Profits Mourabaha constatés d'avance -6 000 -5 112 -888 
+Financement Ijara 21 649 6 501 15 148 
+Financement BID1 0 0 0 
+TOTAL 49 508 31 289 18 219 
+ 
+ 
+b-Financement dans le cadre de la Gestion pour Compte: 
+Désignation 31/12/2019 31/12/2018 Variation 
+Lignes de crédits servies aux Associations de MC 266 968 244 929 22 039
+Dotation FONAPRAM 114 689 112 940 1 749
+Dotation FOSDAP 1 255 1 531 -276
+Crédits ONA 15 330 13 816 1 514
+Crédits ETAP Autofinancement 1 297 1 454 -157
+Crédits INTILAK 87 946 75 212 12 734
+Crédits AF-BG-TUNISIA LTD 153 115 38
+Crédits AF-STORM 200 243 -43
+ 
+ 
+Dotation QFF 1 039 1 656 -617
+Dotation Entreprise Solidaire 181 228 -47
+Crédits Prêt Participatif (LFC 2015) 8 805 8 821 -16
+Crédits Programme MAF 12 658 8 178 4 480
+Crédits Programme BTP 17 401 7 742 9 659
+Crédits Programme CPG 4 302 3 885 417
+Crédits Programme ETAP Auto-
+FinancementKebili 
+513 209 304
+Crédits Programme PNUD 356 368 -12
+CréditsProgramme GREEN START UP 1 916 0 1 916
+TOTAL 535 009 481 327 53 682
+ 
+ 
+3-3-3Crédits impayés en Principal sur Ressources Ordinaires : 
+ 
+Le total des impayés en principal accordés sur ressources ordinaires au 31 Décembre 2019, a atteint  
+150 166KDT. Ce compte se détaille comme suit : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3-3-4Intérêts impayés sur Ressources Ordinaires : 
+ 
+Ce compte enregistre le montant des intérêts impayés sur les crédits octroyés sur ressources ordinaires. Il se 
+détaille comme suit : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3-3-5Crédits impayés en Principal sur Ressources Spéciales : 
+ 
+Le total des impayés en principal accordés sur ressources spéciales au 31 Décembre 2019, a atteint 216 463KDT. Ce 
+compte se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+a-Impayés sur Emprunt: 120 979 110 404 10 575 
+Crédits sur la ligne FNE impayés 104 005 98 026 5 979 
+Crédits FADES2 impayés 10 157 7 783 2 374 
+Crédits BID impayés 1 690 1 817 -127 
+Financement MOURABAHA impayés 1 964 1 000 964 
+Financement IJARA impayés 77 13 64 
+Crédits Art11 LF2017 impayés 3 086 1 767 1 319 
+b-Impayés Gestion pour Compte: 95 484 86 312 9 172 
+Dotation FONAPRAM impayée 75 997 71 629 4 368 
+Crédits FOSDAP impayés 631 493 138 
+Crédits ONA impayés 14 663 12 366 2 297 
+Désignation 31/12/2019 31/12/2018 Variation 
+Crédits Agence Impayés 892 876 16 
+Crédits sur Res. Ord. Impayés 145 080 146 126 -1 046 
+Crédits P.C.F impayés 4 183 4 408 -225 
+Crédits Consolidés impayés 11 - 11 
+TOTAL 150 166 151 410 -1 244 
+Désignation 31/12/2019 31/12/2018 Variation 
+Intérêts impayés sur ressources ordinaires 19 188 19 799 -611 
+Intérêts impayés P.C.F 259 274 -15 
+Intérêts impayés clients agence  133 132 1 
+Intérêts impayés sur crédits consolidés  11  - 11 
+TOTAL 19 590 20 205 -615 
+ 
+ 
+Crédits BTP impayés 386 222 164 
+Crédits QFF impayés 712 345 367 
+Crédits INTILAK impayés 1 579 586 993 
+Crédits ETAP Autofinancement impayés 162 64 98 
+Crédits BG impayés 19 13 6 
+Dotation MAF impayés 1 270 577 693 
+Dotation Entreprise Solidaire impayés 31 16 15 
+Crédits STORM MPJ impayés 19 - 19 
+Crédits PNUD impayés 6- 6  
+Crédits GREEN START UP impayés 7- 7  
+TOTAL 216 463 196 717 19 746 
+ 
+3-3-6Intérêts impayés sur Ressources Spéciales : 
+ 
+Ce compte enregistre le montant des intérêts impayés sur les crédits octroyés sur ressources spéciales. Il se 
+détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+a-Intérêts impayés sur Emprunt: 20 989  17 817  3 172 
+Intérêts impayés FNE  17 054 15 373 1 681 
+Impayés sur frais BID 161 174 -13 
+Intérêts impayés FADES2  2 631 1 680 951 
+Profits Mourabaha impayés 769 455 314 
+Profits IJARA impayés 42 7 35 
+Intérêts impayés art11 LF 2017  332 128 204 
+b-Intérêts impayés Gestion pour Compte: 1 242 1 023 219 
+Intérêts impayés ONA  710 585 125 
+Intérêts impayés FOSDAP 233 215 18 
+Intérêts impayés QFF 271 207 64 
+Intérêts impayés BTP  22 16 6 
+Intérêtsimpayés GREEN START UP 6-  6  
+TOTAL 22 231 18 840 3 391 
+ 
+3-3-7Clients comptes débiteurs: 
+ 
+Il s'agit des clients ayant des comptes débiteurs et qui se détaille comme suit: 
+Désignation 31/12/2019 31/12/2018 Variation 
+COMPTE CHEQUE 352 307 45 
+COMPTE COURANT 561 479 82 
+COMPTE COURANT ASSOCIATION 38 31 7 
+COMPTE COURANT PERSONNEL BTS 728 619 109 
+COMPTE SPECIAL MPJ 1 625 1 605 20 
+COMPTE SPECIAL PCF 397 416 -19 
+TOTAL 3 701 3 457 244 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3-3-8Intérêts échus: 
+Ce compte enregistre les intérêts échus au 31 Décembre 2019. Il se détaille comme suit: 
+Désignation 31/12/2019 31/12/2018 Variation 
+Intérêts échus sur ressources ordinaires 77 74 3 
+Intérêts échus sur crédit FNE 377 376 1 
+Intérêts échus sur crédits agence 2 -3 5 
+Intérêts échus sur crédit FADES2 232 109 123 
+Intérêts échus sur crédit Art 11 LF2017 37 26 11 
+Intérêts échus sur crédit de consolidation 21 - 21 
+TOTAL 746 582 164 
+ 
+3-3-9Agios réservés : 
+ 
+Ce compte enregistre les intérêts et profits réservés au 31 Décembre 2019. Il se détaille comme suit: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Agios réservés sur ressource ordinaire 20 481 21 058 -577 
+Agios réservés sur crédit M.T 19 600 20 221 -621 
+Agios réservés sur PCF 259 273 -14 
+Agios réservés sur Clients succursale 441 564 -123 
+Agios réservés sur crédits consolidés 181 0 181 
+Agios réservés sur ressource spéciale 
+(Emprunt) 21 937 18 643 3 294 
+Agios réservés sur frais BID 161 174 -13 
+Agios réservés sur FNE (*) 17 635 15 929 1 706 
+Agios réservés sur FADES2 2 870 1 864 1 006 
+Agios réservés sur art 11 LF2017 369 144 225 
+Profits Réservés sur Financement Mourabaha 848 517 331 
+Profits Réservés sur Financement IJARA 54 15 39 
+Agios réservés sur ressource spéciale (Gestion 
+pour compte) 971 816 155 
+Agios réservés sur ONA 710 585 125 
+Agios réservés sur FOSDAP 233 215 18 
+Agios réservés sur BTP 22 16 6 
+Agios réservés sur GREEN START UP 6- 6  
+TOTAL 43 389 40 517 2 872 
+ 
+3-3-10Provisions sur crédits: 
+Ce compte enregistre les provisions effectuées sur les crédits impayés dont le risque final est supporté 
+ par la banque. Il se détaille comme suit : 
+Désignation 31/12/2019 31/12/2018 Variation 
+Provisions crédit M.T  20 691 16 967 3 724
+Provisions crédit FNE 14 658 13 461 1 197
+Provisions crédit art11 LF2017 422 73 349
+Provisions crédit consolidé 159 - 159
+Provisions crédit Agence 844 929 -85
+Provisions comptes débiteurs 2 420 2 317 103
+Provisions crédit PCF 437 462 -25
+Provisions crédit BID 169 182 -13
+Provisions crédit FADES2 2 521 1 717 804
+ 
+ 
+Provisions sur Financement Mourabaha 790 453 337
+Provisions crédit QFF 237 228 9
+Provisions collective 2 270 2 589 -319
+Provision additionnelle 110 112 -2
+TOTAL 45729 39 490 6 239
+ 
+Ventilation des créances sur la clientèle (Hors provisions, agios réservés et Associations): 
+ 
+Désignation ≤ 3 mois ]3mois‐6mois] ]6mois‐1an] ]1an‐5an] > 5 ans TOTAL 
+Crédits sur ressources ordinaires 8 912 5 328 7 302 18 961 6 781 47 284 
+Crédits sur ressources spéciales 22 179 25 140 54 767 319 637 129 579 551 302 
+Comptes débiteurs 3 701 - - - - 3 701 
+Créances rattachées 2 420 146 96 - - 2 662 
+TOTAL 37 212 30 614 62 165 338 598 136 360 604 949 
+3.4Portefeuille titres d’investissement : 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 1604 KDT et se détaille comme suit 1 560 KDT titre de 
+participation et 44 KDT au titre de l’emprunt obligataire : 
+ 
+3-4-1 Titres de participation: 
+Désignation Montant 
+brut Provision Solde au 31/12/2019 Solde au 31/12/2018 
+Sociétè tunisienne de garantie 20 - 20 20 
+Societesidco 365 -194 171 177 
+Societesodissicar 391 -165 226 245 
+SIBTEL 70 - 70 70 
+Societe FRDCM 175 -175 - - 
+Societesodino 2 084 -1 011 1 073 1343 
+TOTAL 3 105 -1 545 1 560 1855 
+ 
+3-4-2Emprunt Obligataire: 
+Désignation Principal Créances rattachées Total  
+Emprunt obligataire de l'Etat 2014 40 4 44 
+ 
+3-5. Valeurs immobilisées 
+La valeur nette des immobilisations s’élève au 31 Décembre 2019 à 7 068 KDT contre7 220 KDT 
+ au 31 décembre 2018 et se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Logiciel Informatique  1 579 1 340 239 
+Fonds de commerce 26 26 0 
+Immobilisations en cours 90 180 -90 
+Matériel Informatique 2 594 2 369 225 
+Matériel de Transport 2 314 1 937 377 
+Mobilier et Matériel de Bureau  2 744 2 669 75 
+Terrains 1 439 1 439 0 
+Constructions 5 608 5 608 0 
+Agencements, Aménagements et Installations  4 037 3 900 137 
+Total immobilisations Brutes 20 431 19 468 963 
+Amortissements -13 363 -12 248 -1 115 
+Total immobilisations nettes 7 068 7 220 -152 
+ 
+ 
+ 
+ 
+Tableau de variation des immobilisations au 31 Décembre 2019 (en dinars) 
+ 
+ 
+Désignation 
+Valeurs 
+Brutes 
+31/12/2018 
+Acquisitions
+Redressement 
+suite Maj 
+P.TVA ND 
+cessions 
+Valeurs 
+Brutes 
+31/12/2019 
+Taux 
+% 
+Amort. 
+cumulés 
+31/12/18 
+Dotations 
+31/12/2019 
+Redres
+sAmrt 
+suite 
+Maj 
+P.TVA 
+ND 
+cessions 
+Amort. 
+cumulés 
+31/12/2019 
+VCN au 
+31/12/2019 
+Immobilisations incorporelles 
+Immobilisations incorporelles 
+en cours 39 082    74 083 0%      74 083 
+Fonds de commerce 26 102 26 102 5% 13 862 1 305 15 168 10 934 
+Software-logiciels 1 339 726 237 012 1 805,308 1 578 544 33% 1 185 720 131023 444 1 317187 261356 
+Total Immobilisations 
+incorporelles 1 404 910 237 012 1 805 0 1 678 728  1 199 583 132328 444 0 1 332355 346373 
+Immobilisations corporelles 
+Immobilisations corporelles en 
+cours 251 898    16 226 0%      16 226 
+Mobilier de bureau 2 669 287 193 263 292,712 118 512,301 2 744 331 20% 1 856 660 402 602 280 116 597 2 143 699 600 632 
+Matériel de transport et de 
+signalisation 1 937 327 464 222  88 036,692 2 313 512 20% 1 424 860 228 858  88 037 1 565 681 747 831 
+Hardware-matériels et 
+accessoires informatiques 2 368 648 312 564 2 352,284 89 197,388 2 594 367 33% 2 290 322 101 143 104 89 197 2 302 539 291 828 
+Aménagement Agencement et 
+Installations 3 788 474 248 991 745,854 1 779,710 4 036 431 10% 2 293 550 263 906 57 1 780 2 555 732 1 480 699 
+Construction 5 607 840 5 607 840 5% 3 182 641 280 392 3 463 033 2 144 807 
+Terrains 1 439 399 1 439 399 0% 0 0 1 439 399 
+Total Immobilisations 
+corporelles 18 062 874 1 219 040 3 391 297 526 18 752 105  11 048 032 1 276 901 441 295 611 12 030 686 6 721 420 
+Total Actif Immobilisé 19 467 784 1 456 051 5 196 297 526 20 430 834  12 247 615 1 409 229 885 295 611 13 363 041 7 067 793 
+ 
+ 
+ 
+ 
+3-6. Autres actifs 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 37 612KDT contre 35 501KDT au 31 décembre 2018, et 
+se détaille comme suit : 
+Désignation Note 31/12/2019 31/12/2018
+(retraité) 31/12/2018 Variation 
+Sièges, succursales  et agences    173 7 682 9 428 -7 508 
+   Comptes centraux et liaisons (*) (1)  173 7 682 7 681 -7 508
+   Comptabilité matière (*)  - - 1 747 -
+Comptes d'attente et de régularisation    8 939 1 067 1 069 7 872 
+   Comptes d’attente et de régularisation (*) (2)  233 286 274 -53
+   Valeur en compensation (*)   8 182 308 322 7 874
+   Compte Achat IJARA   524 473 473 51
+Créances sur le Personnel   5 127 4 465 4 465 662 
+Débiteurs divers   23 461 22 377 22 377 1 084 
+   Créance sur l’Etat  (3) 14 365 15 007 15 007 -642
+   Etat, impôts et taxes   546 211 211 335
+   Intermédiaire en bourse   70 - - 70
+   Subvention PCF  37 37 37 -
+   Commissions de gestion à recevoir 
+FONAPRAM 
+  4 544 3 948 3 948 596
+   Commissions de gestion à recevoir ONA  2 701 2 223 2 223 478
+Commissions de gestion à recevoir INTILAK   1 109 868 868 241
+   Commissions de gestion à recevoir FOSDAP   77 72 72 5
+Commissions de gestion à recevoir FONDS   
+SPECIFIQUE MNISTERE EMPLOI 
+  12 11 11 1
+Autres éléments actifs    9 7 7 2 
+   Compte des stocks   977  2
+Provision pour risque divers (3) -97 -97 -97 0 
+TOTAL   37612 35 501 37 249 2 111 
+(*) Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des états 
+financiers,le retraitement a porté essentiellement sur la correction du regroupement des comptes au niveau de ces rubriques et pour se 
+conformer aux dispositions du § 32 de la NCT 22 en ce qui concerne la comptabilité matière. 
+(1) Le montant de 7 682 mD au 31/12/2018 représente des prélèvements bancaires émis à la compensation le 31/12/2018 qui ont été 
+télécompensées le 02/01/2019. 
+(2) Le montant de 8 182mD au 31/12/2019 représenteles valeurs à la compensation repris le 31/12/2019 qui ont été apurées le 
+02/01/2020. 
+(3) Il s’agit des sommes à récupérer de l’Etat: 
+      - 4 696 KDT dans le cadre de la prise en charge par l'Etat des risques de change relatifs aux emprunts BID   et FADES. Ce chiffre 
+tient compte d'un encaissement de 11 125 KDT au titre de la couverture du risque de change sur l'emprunt FADES par l'Etat, 
+sachant que la différence de change relative à l’emprunt FADES1 a été totalement encaissée en Février 2019. 
+     - 9 669 KDT dans le cadre de l'abandon de crédits Agricoles (conformément à la loi 2013-54 du 30 Décembre 2013 modifié par la 
+loi n°2015-18 du 2 Juin 2015). 
+(3) Il s’agit essentiellement des provisions sur l'ancien personnel, comptes rattachés et sur subvention PCF. 
+ 
+ 
+NOTE N°4 : BILAN PASSIF 
+ 
+4-1. Banque Centrale et CCP 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 1 995 KDT contre un solde de  
+1 876 KDTau 31 décembre 2018, et se détaille comme suit : 
+ 
+Désignation Note 31/12/2019 31/12/2018 Variation
+Compte CCP exploitation (a) 1 993 1 875 118 
+Compte CCP agence   2 1 1 
+TOTAL(*)   1 995 1 876 119 
+ 
+(a)    Ce compte se détaille comme suit : 
+Désignation 31/12/2019 31/12/2018 Variation 
+Compte CCP 3024-84 1 763 1 764 -1 
+Compte CCP 3127-81 111 111 - 
+Compte CCP TOUMOUH 119 - 119 
+TOTAL  1 993 1 875 118 
+ 
+4-2. Dépôts et avoirs des établissements financiers : 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 77 KDT contre un solde de77  KDT 
+au 31 décembre 2018, et se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 
+(retraité) 
+31/12/2018 Variation
+STB Compte Exploitation 12 12 12 - 
+Compte BNA  (4740) 65 65 65 - 
+Valeurs non encore imputées (*) - - 42 - 
+TOTAL 77 77 119 - 
+(*)Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des états 
+financiers, le retraitement a porté essentiellement sur la correction du regroupement des comptes de cette rubrique.  
+ 
+4-3. Dépôts et avoirs de la clientèle 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 19 895KDT contre un solde de  
+18 078 KDTau 31 décembre 2018, et se détaille comme suit : 
+Désignation 31/12/2019 31/12/2018 Variation 
+Comptes Courants  7 577 6 408 1 169 
+Comptes Chèques 1 948 1 627 321 
+Comptes d’épargne 1 113 1 070 43 
+Comptes de dépôt  0 1 -1 
+Autres sommes dues à la clientèle 9 257 8 972 285 
+   -Comptes spéciaux (MPJ+PCF+SUARL) 7 936 7 912 24 
+   -Comptes blocage 1er Loyer IJARA 719 585 134 
+   -Blocage constitué pour le compte de la clientèle 602 475 127 
+TOTAL 19895 18 078 1817 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4-4. Emprunts et ressources spéciales 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 1 304 834 KDT contre un solde de 1 219 945KDT au 31 
+décembre 2018, et se détaille comme suit : 
+ 
+Désignations Note 31/12/2019 31/12/2018 Variation
+Total brut des emprunts et ressources spéciales   1 302 950 1 218 137 84 813
+Ressources d'Emprunt (1) 574 956 549 181 25 775
+Ressources Gestion Pour Compte (2) 727 994 668 956 59 038
+Dettes rattachées  1 884 1 808 76
+Total   1 304 834 1 219 945 84 889
+ 
+ 
+4-4-1 Les Ressources d'Emprunt se présentent comme suit: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+MPJ FNE Programme spécifique 320 100 299 100 21 000 
+Emprunt FADES 1 9 287 11 608 -2 321 
+Emprunt FADES 2 109 256 110 910 -1 654 
+Ressources BID1 78 78 - 
+Fonds MOUDHARBA BID 2 76 235 77 485 -1 250 
+Programme LF 2017 ART 11 60 000 50 000 10 000 
+TOTAL 574 956 549 181 25 775 
+ 
+ 
+La ventilation des ressources d'emprunt et dettes rattachées selon la durée résiduelle au 31/12/2019 se présente 
+comme suit: 
+ 
+Désignation ≤ 3 mois ]3mois‐6mois] ]6mois‐1an] ]1an‐2an] ]2an‐5an] > 5 ans TOTAL
+Ressources d'Emprunt 2 077 1 161 3 238 8 975 47 887 511 618 574 956
+Dettes rattachées 1849 35         1884 
+TOTAL 3 926 1 196 3 238 8 975 47 887 511 618 576 840
+ 
+4-4-2 Les Ressources Gestion Pour Compte se présentent comme suit: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Dotation de L’Etat et FNE fin micro crédits 248 136 250 947 -2 811 
+FONAPRAM(*) 228 992 221 303 7 689 
+Prime investissement / Etat -47 700 -47 703 3 
+Fonds INTILAK 101 526 72 538 28 988 
+Programme LF 2017 ART 11 MC 73 709 65 224 8 485 
+Ressources FOSDAP  33 904 33 872 32 
+Subvention à recevoir FOSDAP -32 713 -31 929 -784 
+Ressources ONA-FR 34 405 30 723 3 682 
+Fonds Minist. de l'Equip. et Trav. Publique 22 876 16 656 6 220 
+Fonds MAF 21 562 15 747 5 815 
+Ressources Ministère Agriculture MC 14 000 14 000 - 
+Prog. Loi de Finance Complém. 2015 (article 6) 8 066 8 089 -23 
+Dotation Programme CPG 4 532 4 607 -75 
+Ressources ETAP MC 3 695 3 695 - 
+ 
+ 
+Fonds QFF 2 482 2 482 - 
+Fonds Tuniso- Belge 1 857 1 857 - 
+FONDS ETAP TATAOUINE 1 609 1 546 63 
+FONDS GREEN START UP  1 544 0 1 544 
+Fonds British Gaz 1 539 1 301 238 
+Ressources PRD 1 100 1 100 - 
+Ressources ETAP Autofinancement 643 658 -15 
+Prêt Participatif Programme PNUD 588 601 -13 
+Prog. Minist. de la Formation Prof. et de l'emploi 541 541 - 
+Micro crédit PDHL 444 444 - 
+Ressource STORM 388 388 - 
+Micro crédit OVERSEAS 183 183 - 
+Fonds SEREPT 66 66 - 
+Micro crédit OMS 18 18 - 
+Fonds SSI PROJ ECO MAINTORING 2 2 - 
+TOTAL 727 994 668 956 59 038 
+(*) Ce solde tient compte d'un montant des commissions de gestion de 1 458 KDT perçue sur la ligne de financement 
+FONAPRAM relatif à la période 1999-2009après accord de la BCT. 
+ 
+4-5. Autres passifs 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 98 595KDT contre un solde de 79 020KDT au 31 
+décembre 2018, et se détaille comme suit : 
+Désignation Note
+31/12/2019 31/12/2018
+(retraité) 
+31/12/2018 Variation 
+Provisions pour passifs et charges (1) 3 100 3 506 3 506 -406
+Comptes régularisation et Créditeurs Divers(*) (2) 95496 75 514 77 221 19982
+TOTAL   98596 79 020 80 727 19576 
+(*) Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des 
+états financiers,le retraitement a porté essentiellement sur la correction du regroupement des comptes au niveau de ces rubriques et 
+pour se conformément aux dispositions du § 32 de la NCT 22 en ce qui concerne la comptabilité matière. 
+ 
+4-5-1    Le solde de la rubrique "Provisions pour passifs et charges" se détaille comme suit : 
+ 
+Désignation Note 31/12/2019 31/12/2018 Variation 
+Provisions pour risques divers (3) 2983 3 393 -410 
+Provisions sur Engagement par Signature   117 113 4 
+TOTAL   3 100 3 506 -406 
+ 
+4-5-2    Le solde de la rubrique "Comptes régularisation et Créditeurs Divers" se détaille comme suit : 
+ 
+Désignation 
+31/12/2019 31/12/2018 
+(retraité) 
+31/12/2018 variation 
+Sièges, succursales  et agences 70 331 2 097 -261 
+Comptabilité matières (i) - - 1 766 -
+Comptes liaisons et centraux 70 331 331 -261
+Comptes d'attente et de régularisation 19506 18 239 18 179 1 267 
+Personnel, charges à payer (i1) 9 316 8 572 7 770 744
+Comptes d’attente(i2) 1 210 1 194 1 194 16
+Comptes de régularisation (i1) 94 138 940 ‐44
+Valeur en compensation à régler (i1) 8 874 8 335 8 274 539
+ 
+ 
+NafaaElaam 12 1 1 11
+Créditeurs divers 75919 56 944 56 945 18975 
+Fournisseurs MPJ  51 125 39 469 39 469 11 656
+Fournisseurs Mourabaha 7 355 4 656 4 657 2 699
+Fournisseurs IJARA 586 500 500 86
+Fournisseur d'immobilisation 400 365 365 35
+FNG à payer(i3) 8 566 6 303 6 303 2 263
+Etat, impôts et taxes 6 187 3 937 3 937 2 250
+Dette envers l’Etat(i4) 1 696 1 710 1 710 ‐14
+Assurances à payer 444  ‐
+TOTAL 95496 75 514 77 221 19982 
+(i)Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des états 
+financiers conformément aux dispositions du § 32 de la NCT 22. 
+(i1)Les chiffres du 31/12/2018 ont été retraités pour les besoins de comparabilité suite à la nouvelle présentation au niveau des états 
+financiers, le retraitement a porté essentiellement sur la correction du regroupement des comptes au niveau de ces rubriques. 
+(i2) Il s’agit essentiellement des recouvrements PCF encaissés par la banque et non encore identifié. 
+(i3) Cette rubrique comporte un montant de 8 306 KDT d’indemnisations FNG. 
+(i4) Il s’agit des sommes dues à l’Etat dans le cadre de la convention de couverture contre les risques de change relatifs à l’emprunt 
+FADES et BID. 
+ 
+4-5-3    Le solde de la rubrique "Provisions pour risques divers"se détaille comme suit : 
+Désignation 31/12/2019 31/12/2018 variation 
+Provision Suspends CCP exploitation 754 550 204 
+Provision  Suspends CCP AGENCE 163 174 -11 
+Provision  Suspends BCT 22 -  
+Provision Sur Caisse 33 -  
+Provisions pour risques divers 2 061 2 664 -603 
+TOTAL 2983 3 393 -410 
+ 
+4-6. Capitaux propres 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 88 237KDT contre 78 959KDT au 31 décembre 
+2018 et se détaille comme suit : 
+Désignation  Note 31/12/2019 31/12/2018 Variation  
+Capital (*)   60 000 60 000 - 
+Réserves (1) 7 505 6 372 1 133 
+Résultats reportés    11 558 6 746 4 812 
+Résultat de l’exercice   9174 5 841 3333 
+TOTAL   88237 78 959 9278 
+(*)La structure du capital est détaillée à la page 8. 
+ 
+4-6-1Les réserves se détaillent comme suit : 
+Désignation  31/12/2019 31/12/2018 Variation 
+Reserve Légale 2 081 1 452 629
+Réserve pour fonds social (*) 5 424 4 920 504
+TOTAL 7 505 6 372 1 133 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(*) Les réserves pour fonds social et se détaillent comme suit :  
+Détaille Fonds Social Montant  
+1- Solde au 31/12/2018 4 920 
+     -Trésorerie 1447 
+    - Prêts au personnel 3 473 
+2- Ressources de l'année 2019 504 
+    - Quote-part résultat de l'exercice précédent 400 
+    - Intérêts de prêts au personnel 104 
+3- Solde au 31/12/2019 5 424 
+    - Trésorerie 1 610 
+    - Prêts au personnel 3 814 
+NOTE N°5 : ETAT DE RESULTAT 
+ 
+5-1.   Intérêts et revenus assimiles 
+ 
+Le solde de cette rubrique s’élève au 31 Décembre 2019 à 51 859KDT contre 39 945 KDTau 31 décembre 2018 et 
+se détaille comme suit : 
+ 
+Désignation  Notes 31/12/2019 31/12/2018 Variation 
+Produits des placements    26 117 15 902 10 215
+Intérêts sur crédits (1) 22 884 22 615 269
+Produits sur opérations Mourabaha   1 542 1 259 283
+Produits sur opérations Ijara   1 316 168 1 148
+TOTAL   51 859 39 945 11 914
+ 
+5-1-1 Les Intérêts sur crédits,ce compte se détaille comme suit: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Intérêts sur crédits MT 8 848 9 862 -1 014 
+Intérêts sur crédits FNE 7 615 7 450 165 
+Intérêts sur crédits FADES2 3 997 3 737 260 
+Intérêts sur crédits PCF 168 195 -27 
+Intérêts sur crédits Agence 1 317 934 383 
+Intérêts sur crédits Art 11 LF2017 765 428 337 
+Intérêts sur crédits Consolidé 161 0 161 
+Récupération frais sur crédit BID 13 10 3 
+Total 22 884 22 616 268 
+ 
+5-2.   Commissions 
+ 
+Le solde de ce compte se détaille comme suit : 
+ 
+Désignation  31/12/2019 31/12/2018 Variation 
+Commissions sur compte 402 371 31 
+Commissions d'études 1 920 1 959 -41 
+Commissions sur opérations Mourabaha 243 250 -7 
+Commissions sur opérations IJARA  47 24 23 
+Commissions de gestion  3 644 2 933 711 
+Total 6 256 5 537 719 
+ 
+ 
+ 
+5-2-1 Les commissions de gestion se détaillent comme suit : 
+ 
+Désignation  31/12/2019 31/12/2018 Variation 
+Commissions de gestion lignes MICRO CREDIT 1 523 1 174 349 
+Commissions de gestion art 11 MC 219 435 -216 
+Commissions de gestion FONAPRAM 501 340 161 
+Commissions de gestion ONA 402 382 20 
+Commissions de gestion Prêt Participatif LFC 
+(LFC 2015)  1 61 -60 
+Commissions de gestion INTILAK 202 213 -11 
+Commissions de gestion MAF 194 123 71 
+Commissions de gestion BTP 461 67 394 
+Commissions de gestion CPG 63 60 3 
+Commissions de gestion PNUD -2 - 2  
+Commissions de gestion ETAP MC - 14 -14 
+Commissions de gestion ETAP Autofinancement 13 56 -43 
+Commissions de gestion FOSDAP 45 - 1  
+Commissions de gestion Prog. ENTREPRISE 
+SOLIDAIRE 11 -  
+COMMISSIONS DE GESTION GREEN STAT 
+UP 60 - 60 
+TOTAL 3 644 2 933 711 
+ 
+5-3.   Intérêts Encourus et charges assimilées 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Intérêts sur emprunt FADES 3 778 3 343 435
+Intérêts sur emprunt BID 2 291 1 885 406
+Autres intérêts  71 66 5
+TOTAL 6 140 5 294 846 
+ 
+5-4.  Dotations aux provisions et résultats des corrections des valeurs sur créances hors 
+bilan et passif: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Dotations aux provisions pour dépréciation des
+créances 6 243 3 316 2927 
+Dotation aux provisions sur Crédits 6307 2 194 4113
+Dotationaux provisions clients Succursales -81 73 -154
+Dotation / Reprise aux provisions additionnelle -2 28 -30
+Dotation aux provisions sur Financement 
+Mourabaha 338 344 -6
+Dotation / Reprise aux provisions collective -319 677 -996
+Dotations nettes aux provisions pour passifs -409 964 -1 373 
+Dotation / Reprise aux provisions pour risques  -408 861 -1 269
+Dotation / Repriseaux provisions trésorerie -1 103 -104
+TOTAL 5834 4 280 2 099 
+ 
+ 
+ 
+ 
+5-5. Dotations aux provisions et résultat des corrections de valeurs sur portefeuille 
+d'investissement: 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Dotation aux provisions pour titres participation 296 70 226 
+TOTAL 286 70 226 
+ 
+5-6.  Frais de personnel : 
+ 
+Le solde de cette rubrique s'élève au 31 Décembre 2019 à 19 011KDT contre un solde de 17 293KDT au 31 
+décembre 2018 et se détaille ainsi : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Salaires, primes et appointements  14 988 13 531 1 457
+Charges Sociales 2 891 2 755 136
+Assurances Groupe 681 573 108
+Dotation aux provisions Congés payés et départ à 
+la retraite  
+382 367 15
+Autres frais 69 67 2
+TOTAL 19 011 17 293 1 718 
+ 
+5-7.   Autres charges d’exploitation : 
+ 
+Le solde de cette rubrique s'élève au 31 Décembre 2019 à 7 473KDT contre un solde de 6 250KDT au 31 décembre 
+2018 et se détaille ainsi : 
+  
+Désignation 31/12/2019 31/12/2018 Variation 
+Entretien et réparation 1 008 774 234
+Frais de suivi de recouvrement et de contentieux 2 271 1 772 499
+Honoraires et autres services 201 280 ‐79
+Publicité et relations publiques  560 423 137
+Intervention Amicale BTS 800 698 102
+Loyers 651 629 22
+Fournitures  263 138 125
+Fournitures non stockées  842 658 184
+Nettoyages et gardiennage 102 106 ‐4
+Impôts et taxes 584 591 ‐7
+Voyages et déplacements 23 8 15
+Autres 168 173 ‐5
+TOTAL 7 473 6 250 1 223 
+ 
+5-8. Solde en gain \ perte provenant des autres éléments ordinaires: 
+Désignation 31/12/2019 31/12/2018 Variation 
+Profit réalisé sur Immobilisation Corporelle  71 - 71 
+PERTES EXCEPTIONNELLES -27 -6 -21 
+Solde gain \ perte d'apurement - -36 36 
+TOTAL 44 -42 86 
+ 
+ 
+ 
+ 
+ 
+5-9.Solde en gains/pertes provenant des éléments extraordinaires: 
+Désignation 31/12/2019 31/12/2018 Variation 
+Solde en gains/pertes provenant des éléments  
+extraordinaires -706(*) -656 (**) -50 
+TOTAL -706 -656 -50 
+(*)Conformément aux dispositions de l’article 39 de la loi n°2019-78 du 23/12/2019 portant loi de finances pour l'année 
+2020, la BTS a constaté une contribution sociale solidaire au profit du budget de l'Etat d'un montant de 706 KDT.Cette 
+contribution correspond à 3% des bénéfices de la Banque servant de base pour le calcul de l'impôt sur les sociétés.  
+ 
+(**)Conformément aux dispositions des articles 52 et 53 de la loi n°2017-66 du 18/12/2017 portant loi de finances pour 
+l'année 2018, la BTS a constaté une contribution conjoncturelle exceptionnelle au profit du budget de l'Etat d'un montant de 
+525 KDT et une contribution sociale de solidarité au profit du budget de l'Etat d'un montant de 131 KDT. Ces contributions 
+correspondent respectiv ement à 4% et 1% des bénéfices de la Banque servant de base pour le calcul de l'impôt sur les 
+sociétés. 
+ 
+ 
+NOTE N°6 : ENGAGEMENTS HORS BILAN 
+ 
+6-1. Cautions, avals et autres garanties donnés: 
+Le solde de cette rubrique s'élève au 31 Décembre 2019 à 595 KDT contre 675KDT au 31 décembre 2018, et 
+représente les cautions données par la banque aux promoteurs. 
+ 
+6-2. Engagements de financement donnés: 
+Le solde de cette rubrique s'élève au 31 Décembre 2019à 110 076KDT et se détaille comme suit : 
+ 
+Désignation 31/12/2019 31/12/2018 Variation 
+Engagement BTS + FNE CMT  44 242 40 677 3 565 
+Engagement BTS FONAPRAM  2EME 
+GENERATION 11 060 - 11 060 
+Engagement BTS LF 2017 ART 11 10 111 7 415 2 696 
+Engagement BTS MOURABAHA 6 491 6 676 -185 
+Engagement BTS PROG LFC 2015 PRÊT 
+PARTICIPATIF 709 1 519 -810 
+Engagement BTS INTILAK 2 360 1 874 486 
+Engagement BTS IJARA 15 274 9 934 5 340 
+Engagement BTS MAF 7 254 4 457 2 797 
+Engagement BTS FONAPRAM  30 - 30 
+Engagement BTS + FNE CCT  1 466 1 154 312 
+Engagement BTS ONA 3 413 2 750 663 
+ENGAGEMENT FIANCEMENT CCT (Avance 
+sur Subvention Agricole) FP 1 443 - 1 443 
+Engagement BTS Succursale 497 177 320 
+Engagement BTS CPG 410 874 -463 
+Engagement en vers le Fournisseur TAMKIN 367 304 64 
+Engagement en vers le Fournisseur IJARA 4383 1 077 3 306 
+Engagement BTS BTP 241 6 822 -6 581 
+Engagement BTS GREEN START UP 227 - 227 
+Engagement BTS ETAP 16 34 -19 
+Engagement BTS dotation QFF CCT 80 - 80 
+Engagement BTS FOSDAP 2- 2  
+TOTAL 110 076 85 744 24 687 
+ 
+ 
+ 
+ 
+6-3. Engagements de financement reçus : 
+ 
+Le solde de cette rubrique s'élève au 31 Décembre 2019  à61114 KDT et représente les engagements reçus de 
+la clientèle relatifs aux intérêts contractuels. 
+ 
+6-4. Garanties reçues: 
+ 
+Le solde de cette rubrique s'élève au 31 Décembre 2019 à 1 157 353KDT et représente les garanties reçues du 
+Fonds National de Garantie au titre des crédits de la BTS, ainsi que les crédits accordés sur les fonds gérés pour 
+le compte d'autrui. 
+ 
+Ce solde se détaille comme suit : 
+Désignation 31/12/2019 31/12/2018 Variation 
+Garantie reçue FNG/ MPJ & PCF 527 464 511 083 16 381 
+Garantie reçue sur fonds gérer pour compte 
+d’autrui 629 889 567 000 62 889 
+TOTAL 1 157 353 1 078 083 79 270 
+ 
+ 
+ 
+RAPPORT GENERAL DES COMMISSAIRES AUX COMPTES  
+EXERCICE CLOS LE 31 DECEMBRE 2019 
+ 
+ 
+Mesdames, Messieurs les Actionnaires  
+De La Banque Tunisienne De Solidarité-BTS BANK 
+ 
+I- Rapport sur l’audit des états financiers 
+ 
+1- Opinion  
+ 
+En exécution du mandat de commissariat aux comptes qu e vous avez bien voulu nous confier lors de votre 
+assemblée générale ordinaire du 29 avril 2019, nous avons effectué l’audit des états financiers de la Banque 
+Tunisienne De Solidarité « BTS BANK » (la « Banque ») qui comprennent le bilan arrêté au 31 décembre 2019, 
+l’état des engagements hors bilan, l’état de résultat et l’état des flux de tr ésorerie pour l’exercice clos à cette 
+date, ainsi que les notes annexes, y compris le résumé des principales méthodes comptables.  
+ 
+Ces états financiers font ressortir des capitaux propres positifs de 88 236 KDT, y compris le résultat bénéficiaire 
+net de l’exercice s’élevant à 9 174 KDT. 
+ 
+À notre avis, les états financiers ci-joints présentent si ncèrement, dans tous leurs aspects significatifs, la 
+situation financière de la Banque au 31 décembre 2019, ainsi que des résultats de ses opérations et de ses flux de 
+trésorerie, conformément au système comptable des entreprises. 
+ 
+2- Fondement de l’opinion 
+ 
+Nous avons effectué notre audit selon les normes in ternationales d’audit applicables en Tunisie. Les 
+responsabilités qui nous incombent en vertu de ces norm es sont plus amplement décrites dans la section « 
+Responsabilité de l’auditeur pour l’audit des états financiers » du présent rapport. Nous sommes indépendants de 
+la banque conformément aux règles de  déontologie qui s’appliquent à l’audit des états financiers en Tunisie et 
+nous nous sommes acquittés des autres responsabilités déontologiques qui nous incombent selon ces règles. 
+ 
+Nous estimons que les éléments probants  que nous avons obtenus sont suffisants et appropriés pour fonder notre 
+opinion d’audit. 
+ 
+ 
+ 
+ 
+ 
+ 
+3- Questions clés de l’audit 
+ 
+Les questions clés de l’audit sont les questions qui, selon notre jugeme nt professionnel, ont été les plus 
+importantes dans l’audit des états financiers de la péri ode considérée. Ces questions ont été traitées dans le 
+contexte de notre audit des états financiers pris dans leur  ensemble et aux fins de la  formation de notre opinion 
+sur ceux-ci, et nous n’exprimons pas une opinion distincte sur ces questions. 
+ 
+Nous avons déterminé que les questions décrites ci-après  constituent les questions cl és de l’audit qui doivent 
+être communiquées dans notre rapport. 
+ 
+ 
+ 
+3-1-Prise en compte des intérêts et revenus assimilés et des commissions en produits 
+ 
+Point clé d’audit : 
+ 
+Au 31 décembre 2019, les intérêts et revenus assimilés et les commissions,  portés au niveau du résultat, 
+totalisent respectivement 51 859 KDT et  6 256 KDT, soit 99% du total des produits d’exploitation bancaire 
+enregistrés au titre de l’exercice 2019.  
+ 
+Les méthodes de prise en compte des intérêts et reve nus assimilés ainsi que les commissions sont décrites au 
+niveau des notes aux états financiers 2.2.2 « R ègles de prise en compte des intérêts et commissions sur les 
+engagements ».  
+Bien que la majeure partie de ces revenus soit générée et comptabilisée automatiquement par le système 
+d’information de la banque, nous avons considéré que la prise en compte des intérêts et revenus assimilés et des 
+commissions en produits constitue un po int clé d’audit en raison  du volume important des transactions et de 
+l’importance de cette rubrique par rapport au total des produits d’exploitation bancaire. 
+ 
+Procédures d’audit mises en œuvre en réponse à ce risque  
+ 
+Dans le cadre de notre audit des comptes, nos travaux ont porté plus particulièrement sur les éléments suivants : 
+‐ Un examen des politiques, des proc essus et des contrôles mis en plac e par la banque en vue de la 
+reconnaissance et la comptabilisation des revenus ; 
+‐ L’évaluation de l’environnement info rmatique compte tenu de la généra tion et de la prise en compte 
+automatique des revenus en comptabilité ; 
+‐ La vérification du respect de la norme comptable NCT 24 relative aux « engagements et revenus y afférents 
+dans les établissements bancaires » en matière de prise en compte des revenus et de séparation des 
+exercices comptables ; 
+‐ La réalisation de procédés analytiques sur l'évolution des intérêts et des commissions ; 
+‐ La fiabilité des méthodes de réservation des intérêts ; 
+‐ La vérification du caractère approprié des informations fournies dans les notes aux états financiers. 
+ 
+3-2-Classification des créances et estimation des provisions 
+ 
+Point clé d’audit : 
+ 
+Au 31 décembre 2019, les créances enve rs les clients s’élèvent à 1 191 249 KDT, les provisions constituées en 
+couverture des risques rattachés à ces créances s’élèv ent à 45 729 KDT et les intérêts et agios réservés ont 
+atteint 43 389 KDT. 
+ 
+Conformément à la circulaire de la Banque Centrale de Tunisie n°91-24 du  17 décembre 1991, relative à la 
+division, couverture et suivi des engagements, la Banque doit constituer des provisions à affecter spécifiquement 
+à tout actif classé, ces provisions se déterminent comp te tenu des garanties reçues. La constitution de ces 
+provisions pour couverture des actifs classées est une qu estion clé de notre audit, étant donné que la valeur des 
+engagements est significative dans les états financiers a rrêtés au 31 décembre 2019 (79% de la valeur des actifs 
+de la banque). Dans le cas de la Banque Tunisienne de Solidarité, ces provisions se déterminent compte tenu des 
+garanties reçues de la part du Fonds National de Garantie  (FNG), qui consistent à ce que, si une relation de la 
+banque s’avère insolvable et après ép uisement de toutes les voies de reco urs judiciaires, le FNG assure le 
+remboursement de 90% du principal de la créance impayée.  
+ 
+ 
+ 
+ 
+ 
+Procédures d’audit mises en œuvre en réponse à ce risque  
+ 
+Nous avons, à partir des entretiens avec la direction et  de l’examen des procédures de contrôle mises en place 
+par la Banque, pris connaissance de la méthode d’évaluati on du risque de contrepart ie et la constatation des 
+provisions nécessaires compte tenu des garanties obtenues. La méthode de cl assification des engagements de la 
+Banque repose principalement sur l’antériorité de la créance. 
+ 
+ 
+Nous avons ainsi poursuivi la démarche d’audit suivante : 
+ 
+- Le rapprochement de la situation des engagements de la clientèle aux données comptables ; 
+- S’assurer de la capacité de la Banque à satisfaire les exigences de dépôt de dossiers d’exécution de la 
+garantie recevables par le Fonds National de Garantie ; 
+- La fiabilité informations fournies par le management de  la Banque au sujet de sa capacité à exécuter la 
+garantie FNG 
+ 
+4- Paragraphe d’observation 
+ 
+Sans remettre en cause notre opinion ci-haut exprimé, no us estimons utile d’attirer votre attention sur le point 
+suivant : 
+Les états financiers de la BTS BANK relatifs à l’exercice clos le 31 décembre 2019 ont été arrêtés par son conseil 
+d’administration tenu en date du 14 Février 2020. De ce fait, tous les évènements ayant eu lieu postérieurement 
+à cette date n’ont pas été pris en considération lors de la préparation des présents états financiers. Cependant, 
+il convient de préciser qu’au vu des évènements survenus postérieurement à cette date relatifs à la pandémie de 
+COVID -19 et les décisions gouvernementales suivies pa r les circulaires d’application BCT 2020-06 ET 2020-07 
+relatives aux rééchelonnement des crédits d’entreprise et  des crédits aux particuliers n’ont pas été pris en 
+considération lors de l’appréciation de la qualité du portefeuille de la Banque au 31 décembre 2019. 
+ 
+Notons enfin que les effets de la pandémie COVID 19 sur la  situation financière de la Banque en 2020 ne peuvent 
+être anticipés à la date de l'émission de notre rapport. 
+ 
+5- Rapport de gestion 
+ 
+La responsabilité du rapport de gestion incombe au Conseil d’Administration. Notre opinion sur les états 
+financiers ne s’étend pas au rapport de gestion et nous n’exprimons aucune forme d’assurance que ce soit sur ce 
+rapport. 
+ 
+En application des dispositions de l’article 266 du code des sociétés commerciales, notre responsabilité consiste 
+à vérifier l’exactitude des informations données sur les comptes de la banque dans le rapport de gestion par 
+référence aux données figurant dans les états financiers. Nos travaux consistent à lire  le rapport de gestion et, 
+ce faisant, à apprécier s’il existe une incohérence significative entre celui -ci et les états financiers ou la 
+connaissance que nous avons acquise au cours de l’audit, ou encore si le rapport de  gestion semble autrement 
+comporter une anomalie significative. Si, à la lumière de s travaux que nous avons effectués, nous concluons à la 
+présence d’une anomalie significative dans le rapport de gestion, nous sommes tenus de signaler ce fait.  
+ 
+Nous n’avons rien à signaler à cet égard. 
+ 
+6- Responsabilités de la direction et des responsables de la gouvernance à l’égard des états financiers 
+ 
+Le Conseil d’Administration est responsable de la préparat ion et de la présentation fidèle des états financiers 
+conformément aux principes comptables généralement ad mis en Tunisie, ainsi que du contrôle interne qu’il 
+considère comme nécessaire pour permettre la préparation d’états financiers exempts d’anomalies significatives, 
+que celles-ci résultent de fraudes ou d’erreurs. 
+ 
+Lors de la préparation des états financiers, c’est à la di rection qu’il incombe d’évaluer la capacité de la banque 
+à poursuivre son exploitation, de communiquer, le ca s échéant, les questions relatives à la continuité 
+d’exploitation et d’appliquer le principe comptable de continuité d’exploitation, sauf si la direction a l’intention 
+de liquider la banque ou de cesser son activité ou si aucune autre solution réaliste ne s’offre à elle. 
+ 
+Il incombe aux responsables de la gouvernance de surveiller le processus d’information financière de la banque.  
+ 
+ 
+ 
+ 
+7- Responsabilités de l’auditeur pour l’audit des états financiers 
+ 
+Nos objectifs sont d’obtenir l’assurance raisonnable que les états financiers pris dans leur ensemble sont 
+exempts d’anomalies significatives, que celles-ci résultent de fraudes ou d’erreurs, et de délivrer un rapport de 
+l’auditeur contenant notre opinion. L’assurance raiso nnable correspond à un niveau élevé d’assurance, qui ne 
+garantit toutefois pas qu’un audit, réalisé conformément aux normes inte rnationales d’audit applicables en 
+Tunisie, permettra toujours de détecter toute anomalie significative qui pourrait exister. Les anomalies peuvent 
+résulter de fraudes ou d’erreurs et elles sont considérées comme signific atives lorsqu’il est raisonnable de 
+s’attendre à ce que, individuellement  ou collectivement, elles puissent influer sur les décisions économiques 
+que les utilisateurs des états financiers  prennent en se fondant sur ceux-ci. 
+ 
+Dans le cadre d’un audit réalisé conformément aux normes  internationales d’audit applicables en Tunisie, nous 
+exerçons notre jugement professionnel et faisons preuve d’esprit critique tout au long de cet audit. En outre : 
+ 
+- Nous identifions et évaluons les risques que les états financiers comportent des anomalies significatives, que 
+celles-ci résultent de fraudes ou d’erreurs, concevons et mettons en  œuvre des procédures d’audit en 
+réponse à ces risques, et réunissons des éléments pr obants suffisants et approp riés pour fonder notre 
+opinion. Le risque de non- détection d’une anomalie significative ré sultant d’une fraude est plus élevé que 
+celui d’une anomalie significative résultant d’une erre ur, car la fraude peut impliquer la collusion, la 
+falsification, les omissions volontaires, les fausses déclarations ou le contournement du contrôle interne ; 
+ 
+- Nous acquérons une compréhension des éléments du co ntrôle interne pertinents pour l’audit afin de 
+concevoir des procédures d’audit appropriées dans les circonstances ; 
+ 
+- Nous apprécions le caractère approprié des méthodes comptables retenues et le caractère raisonnable des 
+estimations comptables faites par la direction, de même que des informations y afférentes fournies par 
+cette dernière ; 
+ 
+- Nous tirons une conclusion quant au caractère approp rié de l’utilisation par la direction du principe 
+comptable de continuité d’exploitation et, selon les éléments probants obtenus, quant à l’existence ou non 
+d’une incertitude significative liée à des évènements ou situations susceptibles de jeter un doute important 
+sur la capacité de la banque à poursuivre son exploita tion. Si nous concluons à l’existence d’une incertitude 
+significative, nous sommes tenus d’ attirer l’attention des lecteurs de notre rapport sur les informations 
+fournies dans les états financiers au sujet de cette incertitude ou, si ces informations ne sont pas adéquates, 
+d’exprimer une opinion modifiée. Nos conclusions s’appu ient sur les éléments prob ants obtenus jusqu’à la 
+date de notre rapport. Des évènements  ou situations futurs pourraient par ailleurs amener la banque à 
+cesser son exploitation. 
+ 
+- Nous évaluons la présentation d’ensemble, la form e et le contenu des états financiers, y compris les 
+informations fournies dans les notes, et apprécions si  les états financiers représ entent les opérations et 
+évènements sous-jacents d’une manière propre à donner une image fidèle. 
+ 
+- Nous communiquons aux responsables de la gouvernanc e notamment l’étendue et le calendrier prévus des 
+travaux d’audit et nos constatations importantes, y compris toute déficience importante du contrôle interne 
+que nous aurions relevée au cours de notre audit. 
+ 
+- Nous fournissons également aux responsables de la gouvernance une déclaration précisant que nous nous 
+sommes conformés aux règles de déontologie pertinentes concernant l’indépendance, et leur communiquons 
+toutes les relations et les autres facteurs qui peuven t raisonnablement être cons idérés comme susceptibles 
+d’avoir des incidences sur notre indépendance ainsi que les sauvegardes connexes s’il y a lieu. 
+ 
+- Parmi les questions communiquées aux responsables de la gouvernance, nous déterminons quelles ont été les 
+plus importantes dans l’audit des états financiers de la période considérée : ce sont les questions clés de 
+l’audit. Nous décrivons ces questions dans notre rapport , sauf si des textes légaux ou réglementaires en 
+empêchent la publication ou si, dans  des circonstances extrêmement rare s, nous déterminons que nous ne 
+devrions pas communiquer une question dans notre rapp ort parce que l’on peut raisonnablement s’attendre 
+à ce que les conséquences néfastes de la communication de cette question dépassent les avantages pour 
+l’intérêt public. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+II- Rapport relatif aux obligations légales et réglementaires 
+ 
+Dans le cadre de notre mission de commissariat aux co mptes, nous avons égalemen t procédé aux vérifications 
+spécifiques prévues par les normes publiées par l’Ordre des Experts Comptables de Tunisie et par les textes 
+règlementaires en vigueur en la matière. 
+ 
+1- Efficacité du système de contrôle interne 
+ 
+En application des dispositions de l’article 3 de la lo i 94-117 du 14 novembre 1994, telle que modifiée par la loi 
+2005-96 du 18 octobre 2005, portant promulgation réorganisati on du marché financier, nous avons procédé à une 
+évaluation générale portant sur l’effi cacité du système de contrôle intern e de la banque. À ce sujet, nous 
+rappelons que la responsabilité de la conception et de la mise en place d’un systèm e de contrôle interne ainsi 
+que la surveillance périodique de son efficacité et de  son efficience incombe à la direction et au conseil 
+d’administration. 
+ 
+Sur la base de notre examen, nous n’avons pas identifi é des déficiences importantes du contrôle interne. Un 
+rapport traitant des faiblesses et des insuffisances identifiées au cours de notre audit a été remis à la Direction 
+Générale de la Banque.   
+ 
+2- Conformité de la tenue des comptes des valeurs mobilières à la réglementation en vigueur 
+ 
+En application des dispositions de l’article 19 du décret n°2001-2728 du 20 novembre  2001, nous avons procédé 
+aux vérifications portant sur la confor mité de la tenue des comptes des vale urs mobilières émises par la banque 
+avec la réglementation en vigueur. 
+ 
+La responsabilité de veiller à la conformité aux prescriptions de la réglementation en vigueur incombe au Conseil 
+d’Administration. 
+ 
+Sur la base des diligences que nous avons estimées néce ssaires de mettre en œuvre,  nous n’avons pas détecté 
+d’irrégularité liée à la conformité des comptes de la banque avec la réglementation en vigueur. 
+ 
+ 
+Tunis, le 08/06/2020 
+Les Co-commissaires aux comptes 
+ 
+P/Cabinet ICCA P/Groupement CWG -  CRD 
+Anis SMAOUI Wajdi GUERFALA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RAPPORT SPECIAL DES COMMISSAIRES AUX COMPTES  
+EXERCICE CLOS LE 31 DECEMBRE 2019 
+ 
+Mesdames, Messieurs les actionnaires  
+de la Banque Tunisienne de Solidarité-BTS BANK- 
+ 
+ 
+En application des articles 43 et 62 de la loi n° 2016-48 re lative aux banques et aux ét ablissements financiers et 
+de l’article 200 et suivants et de l’article 475 du code des sociétés commerciales, no us reportons ci-dessous sur 
+les conventions conclues et les opérations réalisées au cours de l'exercice 2019. 
+ 
+Notre responsabilité est de nous assurer du respect des procédures légales d’autorisation et d’approbation de ces 
+conventions ou opérations et de leur traduction correcte in  fine dans les états financiers. Il ne nous appartient 
+pas de rechercher spécifiquement et de façon étendue l’existence éventuelle de telles conventions ou opérations 
+mais de vous communiquer, sur la base des informations  qui nous ont été données et celles obtenues au travers 
+de nos procédures d’audit, leurs caractéristiques et moda lités essentielles, sans avoi r à nous prononcer sur leur 
+utilité et leur bien fondé. Il vous appartient d’ap précier l’intérêt qui s’attachait à la conclusion de ces 
+conventions et la réalisation de ces opérations en vue de leur approbation. 
+ 
+I. Conventions nouvellement conclues au cours de l’ex ercice clos le 31 décembre 2019(Autres que les 
+rémunérations des dirigeants) : 
+ 
+1. La BTS BANK a conclu une nouvelle convention avec le ministère de la format ion professionnelle et de 
+l’emploi en date du 6 novembre 2019   intitulée « programme nouvelle génération des promoteurs» ayant 
+pour objectif  l’entretien des établissements d’enseignement ainsi que les équipements et les  réseaux  de 
+communication de ces établissements.  
+ 
+Aucune commission n’a été perçue par la BTS BANK en 2019 au titre de la gestion de ce programme. 
+ 
+2. La BTS BANK a conclu une nouvelle convention avec le ministère de la format ion professionnelle et de 
+l’emploi en date du 6 novembre 2019   intitul ée « programme nouvelle génération des promoteurs-  
+municipalité» ayant pour objectif  d’encourager et accompagner les je unes diplômés de l’enseignement 
+supérieur pour la création de petites entreprises da ns les différents domaines d’activités inclus dans 
+l’article 240 du code des collectivités locales  .  
+Aucune commission n’a été perçue par la BTS BANK en 2019 au titre de la gestion de ce programme. 
+ 
+II.Opérations réalisées relatives à des conventions antérieures 
+ 
+L’exécution des conventions conclues par la « BTS BANK » pour la gestion de la ligne de financement des 
+microcrédits et celles pour la gest ion des ressource FONAPRAM, FOSDAP, et le ministère de la formation 
+professionnelle et de l’emploi se sont poursuivies. 
+  
+Les commissions perçues par la BTS BANK au titre de ces conventions au cours de l’exercice 2019 se détaillent 
+comme suit :    
+Désignation  Montant au 31/12/2019 
+en KDT 
+Commissions de gestion lignes MICRO CREDIT 1 523  
+Commissions de gestion art 11 MC 219 
+Commissions de gestion FONAPRAM 501  
+Commissions de gestion ONA 402 
+Commissions de gestion Prêt Participatif LFC (LFC 2015)  1  
+Commissions de gestion INTILAK 202 
+Commissions de gestion MAF 194 
+Commissions de gestion BTP 461 
+Commissions de gestion FOSDAP 4 
+Commissions de gestion Prog. ENTREPRISE SOLIDAIRE 1  
+Commissions de gestion GREEN STAT UP 60  
+TOTAL 3 568  
+ 
+A l’exception des conventions citées ci-dessus, votre co nseil d’administration ne nous a pas avisés d’aucune 
+convention, au titre de l’exercice 2019, rentrant dans le cadre des articles ci-dessus mentionnés.   
+ 
+ 
+ 
+III-Obligations et engagements de la BTS BANK envers les dirigeants 
+ 
+1. Les obligations et engagements de la BTS BANK envers les dirigeants tels que visés par l'article 200 (nouveau) 
+Il § 5 du Code des Sociétés Commerciales se détaillent comme suit : 
+ 
+1-1- La rémunération du Directeur Général a été fixée par l’arrêté de la présidence du gouvernement du 24 avril 
+2017, et ce, selon la première modalité du décret gouvernemental n°2015-2217 du 11 décembre 2015, fixant le 
+régime de rémunération des chefs d’établissement et des entreprises publics et des sociétés à majorité publique. 
+Cette rémunération se compose d’un salaire mensuel, de diverses indemnités et primes, d’un quota de 500 
+litres de carburant par mois, de la mise à dispositio n d’une voiture de fonction et du remboursement des 
+frais téléphonique.  
+L’encours des crédits accordés par la Banque Tunisienne de Solidarité à son Directeur Général s’élève au 31 
+décembre 2019 à 28 909 DT. 
+1-2- La rémunération du Directeur Géné ral Adjoint nommé par décision du conseil d’administration lors de sa 
+réunion du 14 Février 2014, est fixée par référence au x termes de la convention collective nationale du 
+personnel des banques et des établissements financiers. Cette rémunération se compose d’un salaire mensuel, 
+de diverses indemnités et primes, d’un quota de 400 litres de carburant par mois, de la mise à disposition d’une 
+voiture de fonction et du remboursement de frais téléphoniques.    
+ 
+- L’encours des crédits accordés par la Banque Tunisienne de Solidarité à son Directeur Général Adjoint s’élève au 
+31 décembre 2019 à 208 196 DT. 
+ 
+2. Les Jetons de présence et primes spécifiques revenant aux administrateurs, présidents et membres des comités 
+émanant du conseil d’administration : 
+ 
+L’assemblée générale ordinaire tenue le 29 Avril 2019 a fixé les montants au titre de l’exercice 2019, des jetons 
+de présence et des primes revenant aux administrateurs, présidents et membres des comités émanant du conseil 
+d’administration comme suit : 
+    
+- Jetons de présence : 5 000 DT bruts par administrateur ; 
+- Prime nette de 1 000 DT pour chaque réunion au profit  du président de chaque comité émanant du conseil 
+d’administration sans dépasser 6 000 DT nets par exercice pour chaque président du comité ; 
+- Prime nette de 500 DT pour chaque réunion au profit  de chaque membre des comités émanant du conseil 
+d’administration sans dépasser 3 000 DT nets par exercice pour chaque membre des comités. 
+ 
+3. Les obligations et engagements de la BTS BANK enve rs ses dirigeants, tels qu'ils ressortent des états 
+financiers de l'exercice clos le 31 décembre 2019, se présentent comme suit : 
+(En DT)   
+Nature de la 
+rémunération 
+Directeur général Directeur général Adjoint Administrateurs et membres 
+de comités 
+Charges de 
+l’exercice 
+Passif au 
+31/12/2019 
+Charges de 
+l’exercice 
+Passif au 
+31/12/2019 
+Charges de 
+l’exercice 
+Passif au 
+31/12/2019 
+Avantages à court terme 209 687 32 527 153 120 35 520 62 500 124 000 
+Avantages postérieurs à 
+l’emploi  - - 2 828 21 124 - - 
+Total 209 687 32 527 155 948 56 644 62 500  124 000 
+ 
+Par ailleurs, et en dehors des conventions et opérations précitées, nos travaux d’audit n'ont pas révélé l'existence 
+d'autres conventions ou opérations rentrant dans le cadre des textes de loi sus-indiqués 
+ 
+Tunis, le 08/06/2020 
+Les Co-commissaires aux comptes 
+P/Cabinet ICCA P/Groupement CWG - CRD 
+Anis SMAOUI Wajdi GUERFALA 
+ 
+ 

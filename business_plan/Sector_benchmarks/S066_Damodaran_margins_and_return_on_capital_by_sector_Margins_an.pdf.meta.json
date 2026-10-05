@@ -1,0 +1,22 @@
+{
+ "id": "S066",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - margins and return on capital by sector - Margins and ROIC (US)",
+ "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/mgnroc.html",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "393dcad7e8ee1e8675a175d8d7202d15fdc68ca277df370108af49ff1b01bd0d",
+ "bytes": 128642,
+ "path": "business_plan\\Sector_benchmarks\\S066_Damodaran_margins_and_return_on_capital_by_sector_Margins_an.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 5226,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Margins and ROC",
+ "note": "",
+ "last_modified": ""
+}

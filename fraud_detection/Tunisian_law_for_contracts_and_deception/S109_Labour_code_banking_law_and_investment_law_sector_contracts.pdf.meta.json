@@ -1,0 +1,20 @@
+{
+ "id": "S109",
+ "dataset": "contracts",
+ "section": "Tunisian law for contracts and deception",
+ "name": "Labour code, banking law and investment law (sector contracts) - Banking law 2016-48",
+ "url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi2016_48_fr.pdf",
+ "parent": "",
+ "flag": "E",
+ "final_url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi2016_48_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "f26ac426dcfb7f667b85a0c2d7309301a077eb7fa7122e4e18708e7299d89845",
+ "bytes": 808074,
+ "status": "ok",
+ "path": "contracts\\Tunisian_law_for_contracts_and_deception\\S109_Labour_code_banking_law_and_investment_law_sector_contracts.pdf",
+ "pages": 35,
+ "text_chars": 180093,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Wed, 29 May 2024 13:26:49 GMT"
+}

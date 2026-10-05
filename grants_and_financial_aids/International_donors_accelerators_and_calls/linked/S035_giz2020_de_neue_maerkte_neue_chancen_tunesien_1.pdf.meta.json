@@ -1,0 +1,20 @@
+{
+ "id": "S035",
+ "dataset": "grants",
+ "section": "International donors, accelerators and calls",
+ "name": "GIZ Tunisia - programmes and diaspora startup call - GIZ Tunisia",
+ "url": "https://www.giz.de/sites/default/files/media/els-document/2025-09/giz2020-de-neue-maerkte-neue-chancen-tunesien-1.pdf",
+ "parent": "https://www.giz.de/en/regions/africa/tunisia",
+ "flag": "S",
+ "final_url": "https://www.giz.de/sites/default/files/media/els-document/2025-09/giz2020-de-neue-maerkte-neue-chancen-tunesien-1.pdf",
+ "content_type": "application/pdf",
+ "sha256": "6258b2e092eec5391036bf756f58871454659fb4346f266943ad035ce4f9596b",
+ "bytes": 3136766,
+ "status": "ok",
+ "path": "grants\\International_donors_accelerators_and_calls\\linked\\S035_giz2020_de_neue_maerkte_neue_chancen_tunesien_1.pdf",
+ "pages": 11,
+ "text_chars": 34713,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Thu, 04 Sep 2025 12:31:57 GMT"
+}

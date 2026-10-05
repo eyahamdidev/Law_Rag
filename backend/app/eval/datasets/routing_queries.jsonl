@@ -1,0 +1,3 @@
+{"id": "r001", "question": "Cette facture est-elle suspecte ?", "intent": "fraud", "domains": []}
+{"id": "r002", "question": "Quels documents BFPME faut-il pour une création ?", "intent": "aid", "domains": []}
+{"id": "r003", "question": "Quel article du code des sociétés traite du capital minimum ?", "intent": "rag", "domains": ["legal"]}

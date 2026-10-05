@@ -1,0 +1,22 @@
+{
+ "id": "S029",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "SOTUGAR - credit guarantee schemes - Home and conditions",
+ "url": "https://sotugar.com.tn/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://sotugar.com.tn/",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "2e28b0bd1cb46cfd8d9fba46e53d37b45fda3be52297a2c0c466a89a96453d78",
+ "bytes": 3123079,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S029_SOTUGAR_credit_guarantee_schemes_Home_and_conditions.pdf",
+ "status": "ok",
+ "pages": 13,
+ "text_chars": 12102,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Accueil - SOTUGAR",
+ "note": "",
+ "last_modified": ""
+}

@@ -1,0 +1,140 @@
+CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service | Artificial Intelligence and Law | Springer Nature Link
+https://link.springer.com/article/10.1007/s10506-019-09243-2
+
+Abstract
+Terms of service of on-line platforms too often contain clauses that are potentially unfair to the consumer. We present an experimental study where machine learning is employed to automatically detect such potentially unfair clauses. Results show that the proposed system could provide a valuable tool for lawyers and consumers alike.
+This is a preview of subscription content, log in via an institution to check access.
+Access this article
+Subscribe and save
+Starting from 10 chapters or articles per month
+Access and download chapters and articles from more than 300k books and 2,500 journals
+Cancel anytime
+Buy Now
+Price includes VAT (Tunesia)
+Instant access to the full article PDF.
+Institutional subscriptions
+Similar content being viewed by others
+AI in Search of Unfairness in Consumer Contracts: The Terms of Service Landscape
+A machine learning-based approach to identify unlawful practices in online terms of service: analysis, implementation and evaluation
+Increasing the Inference and Learning Speed of Tsetlin Machines with Clause Indexing
+Explore related subjects
+Machine Translation
+Meta-Ethics
+Standards
+Net Literature
+Symbolic AI
+Automated Pattern Recognition
+Legal Frameworks and Human Rights in Workplace Regulation
+Notes
+See the Council Directive 93/13/EEC on Unfair Terms in Consumer Contracts, art. 3.1.
+We remark that, from the point of view of natural language processing, we are handling a pure sentence classification task, as we detect full statements and not directly single clauses.
+In particular, we selected the ToS offered by: 9gag.com, Academia.edu, Airbnb, Amazon, Atlas Solutions, Betterpoints, Booking.com, Crowdtangle, Deliveroo, Dropbox, Duolingo, eBay, Endomondo, Evernote, Facebook, Fitbit, Google, Headspace, Instagram, Linden Lab, LinkedIn, Masquerade, Microsoft, Moves-app, musically, Netflix, Nintendo, Oculus, Onavo, Pokemon GO, Rovio, Skype, Skyscanner, Snapchat, Spotify, Supercell, SyncMe, Tinder, TripAdvisor, TrueCaller, Twitter, Uber, Viber, Vimeo, Vivino, WhatsApp, World of Warcraft, Yahoo, YouTube and Zynga.
+http://claudette.eui.eu/ToS.zip .
+Segmentation into sentences was made using the Stanford CoreNLP suite (see Sect. 5 ).
+In particular, we selected the ToS offered by: Alibaba, Badoo, Goodreads, Groupon, Mozilla, Ryanair, Shazam, Slack, Zalando UK, eDreams.
+https://stanfordnlp.github.io/CoreNLP/ .
+Sampling takes into account the class distribution in the training set.
+References
+Aletras N, Tsarapatsanis D, Preoiuc-Pietro D, Lampos V (2016) Predicting judicial decisions of the European Court of Human Rights: a natural language processing perspective. PeerJ Comput Sci 2:e93
+Article Google Scholar
+Ashley K (2017) Artificial intelligence and legal analytics: new tools for law practice in the digital age. Cambridge University Press, Cambridge
+Book Google Scholar
+Ashley KD, Walker VR (2013) Toward constructing evidence-based legal arguments using legal decision documents and machine learning. In: Francesconi E, Verheij B (eds) ICAIL 2012, Rome, Italy, ACM, pp 176–180. https://doi.org/10.1145/2514601.2514622 . http://dl.acm.org/citation.cfm?id=2514622
+Bakos Y, Marotta-Wurgler F, Trossen DR (2014) Does anyone read the fine print? Consumer attention to standard-form contracts. J Legal Stud 43(1):1–35
+Article Google Scholar
+Bartolini C, Giurgiu A, Lenzini G, Robaldo L (2016) Towards legal compliance by correlating standards and laws with a semi-automated methodology. In: BNCAI, Communications in computer and information science, vol 765. Springer, pp 47–62
+Biagioli C, Francesconi E, Passerini A, Montemagni S, Soria C (2005) Automatic semantics extraction in law documents. In: Proceedings of ICAIL, ACM, pp 133–140
+Cohen J (1968) Weighted kappa: nominal scale agreement provision for scaled disagreement or partial credit. Psychol Bull 70(4):213
+Article Google Scholar
+Collins M, Duffy N (2002) New ranking algorithms for parsing and tagging: kernels over discrete structures, and the voted perceptron. In: Proceedings of the 40th annual meeting of the ACL, ACL, pp 263–270
+Department of Commerce (2010) Commercial data privacy and innovation in the internet economy: a dynamic policy framework. Technical report, Department of Commerce Internet Policy Task Force. https://www.ntia.doc.gov/files/ntia/publications/iptf_privacy_greenpaper_12162010.pdf
+Fabian B, Ermakova T, Lentz T (2017) Large-scale readability analysis of privacy policies. In: Proceedings of the international conference on web intelligence, ACM, pp 18–25
+Graves A, Schmidhuber J (2005) Framewise phoneme classification with bidirectional lstm and other neural network architectures. Neural Netw 18(5):602–610
+Article Google Scholar
+Habernal I, Gurevych I (2017) Argumentation mining in user-generated web discourse. Comput Linguist 43(1):125–179
+Article MathSciNet Google Scholar
+Harkous H, Fawaz K, Lebret R, Schaub F, Shin KG, Aberer K (2018) Polisis: automated analysis and presentation of privacy policies using deep learning. arXiv:180202561
+Joachims T (1998) Text categorization with support vector machines: Learning with many relevant features. In: ECML, vol 98, pp 137–142
+Kim Y (2014) Convolutional neural networks for sentence classification. In: Moschitti A, Pang B, Daelemans W (eds) Proceedings of the 2014 conference on empirical methods in natural language processing, EMNLP 2014, October 25–29, 2014, Doha, Qatar, A meeting of SIGDAT, a special interest group of the ACL, ACL, pp 1746–1751
+Landis JR, Koch GG (1977) The measurement of observer agreement for categorical data. Biometrics 33(1):159–174
+Article MATH Google Scholar
+Leopold E, Kindermann J (2002) Text categorization with support vector machines. How to represent texts in input space? Mach Learn 46(1–3):423–444
+Article MATH Google Scholar
+Lippi M, Torroni P (2016a) Argumentation mining: state of the art and emerging trends. ACM Trans Internet Technol 16(2):10:1–10:25
+Article Google Scholar
+Lippi M, Torroni P (2016b) Margot: a web server for argumentation mining. Expert Syst Appl 65(C):292–303. https://doi.org/10.1016/j.eswa.2016.08.050
+Article Google Scholar
+Lippi M, Palka P, Contissa G, Lagioia F, Micklitz H, Panagis Y, Sartor G, Torroni P (2017) Automated detection of unfair clauses in online consumer contracts. In: Wyner AZ, Casini G (eds) Legal knowledge and information systems—JURIX 2017: the thirtieth annual conference, vol 302, Luxembourg, 13–15 December 2017, IOS Press, Frontiers in Artificial Intelligence and Applications, pp 145–154
+Lippi M, Lagioia F, Contissa G, Sartor G, Torroni P (2018) Claim detection in judgments of the EU Court of Justice. In: Artificial intelligence and the complexity of legal systems, VI international workshop (AICOL), selected revised papers. Lecture notes in artificial intelligence, Springer, forthcoming
+Loos M, Luzak J (2016) Wanted: a bigger stick. On unfair terms in consumer contracts with online service providers. J Consum Policy 39(1):63–90
+Article Google Scholar
+McDonald A, Cranor L (2008) The cost of reading privacy policies. I/S J Law Policy Inf Soc 4(3):543–568
+Google Scholar
+Micklitz HW, Reich N (2014) The court and sleeping beauty: the revival of the unfair contract terms directive (UCTD). Common Market Law Rev 51(3):771–808
+Google Scholar
+Micklitz HW, Pałka P, Panagis Y (2017) The empire strikes back: digital control of unfair terms of online services. J Consum Policy 40(3):367–388
+Article Google Scholar
+Mikolov T, Chen K, Corrado G, Dean J (2013) Efficient estimation of word representations in vector space. arxiv: 1301.3781
+Moens MF, Boiy E, Palau RM, Reed C (2007) Automatic detection of arguments in legal texts. In: Proceedings of the 11th international conference on artificial intelligence and law, ACM, pp 225–230
+Moschitti A (2006) Efficient convolution kernels for dependency and constituent syntactic trees. In: Fürnkranz J, Scheffer T, Spiliopoulou M (eds) Machine learning: ECML 2006, LNCS, vol 4212. Springer, Berlin Heidelberg, pp 318–329
+Nebbia P (2007) Unfair contract terms in European law: a study in comparative and EC law. Bloomsbury Publishing, London
+Google Scholar
+Obar JA, Oeldorf-Hirsch A (2016) The biggest lie on the internet: ignoring the privacy policies and terms of service policies of social networking services. In: TPRC 44: the 44th research conference on communication, information and internet policy
+Reich N, Micklitz HW, Rott P, Tonner K (2014) European consumer law. Intersentia, Cambridge
+Google Scholar
+Robaldo L, Sun X (2017) Reified input/output logic: combining input/output logic and reification to represent norms coming from existing legislation. J Logic Comput 27(8):2471–2503
+Article MathSciNet MATH Google Scholar
+Schulte-Nölke H, Twigg-Flesner C, Ebers M (2008) EC consumer law compendium: the consumer acquis and its transposition in the member states. Walter de Gruyter, Berlin
+Google Scholar
+Sebastiani F (2002) Machine learning in automated text categorization. ACM Comput Surv 34(1):1–47. https://doi.org/10.1145/505282.505283
+Article Google Scholar
+Shulayeva O, Siddharthan A, Wyner A (2017) Recognizing cited facts and principles in legal judgements. Artif Intell Law 25(1):107–126
+Article Google Scholar
+Tsochantaridis I, Joachims T, Hofmann T, Altun Y (2005) Large margin methods for structured and interdependent output variables. J Mach Learn Res 6:1453–1484
+MathSciNet MATH Google Scholar
+Download references
+Acknowledgements
+Funding was obtained from European University Institute by author Hans-Wolfgang Micklitz (CLAUDETTE Project).
+Author information
+Authors and Affiliations
+DISMI – University of Modena and Reggio Emilia, Via Amendola 2, 42122, Reggio Emilia, Italy
+Marco Lippi
+Yale Law School Center for Private Law, Information Society Project, 127 Wall Street, New Haven, CT, 06511, USA
+Przemysław Pałka
+CIRSFID, University of Bologna, Via Galliera, 3, Bologna, 40121, Italy
+Giuseppe Contissa, Francesca Lagioia & Giovanni Sartor
+Law Department, European University Institute, Villa La Fonte, Via delle Fontanelle 10, 50014, San Domenico di Fiesole, Florence, Italy
+Giuseppe Contissa, Francesca Lagioia, Hans-Wolfgang Micklitz & Giovanni Sartor
+DISI – University of Bologna, Viale Risorgimento 2, 40136, Bologna, Italy
+Paolo Torroni
+Search author on: PubMed Google Scholar
+Corresponding author
+Correspondence to Marco Lippi .
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Reprints and permissions
+About this article
+Cite this article
+Lippi, M., Pałka, P., Contissa, G. et al. CLAUDETTE: an automated detector of potentially unfair clauses in online terms of service. Artif Intell Law 27 , 117–139 (2019). https://doi.org/10.1007/s10506-019-09243-2
+Download citation
+Published : 15 February 2019
+Version of record : 15 February 2019
+Issue date : 15 June 2019
+DOI : https://doi.org/10.1007/s10506-019-09243-2
+Share this article
+Anyone you share the following link with will be able to read this content:
+Sorry, a shareable link is not currently available for this article.
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Machine learning
+Terms of service
+Potentially unfair clauses
+Natural language processing
+Profiles
+Marco Lippi View author profile
+Przemysław Pałka View author profile
+Francesca Lagioia View author profile
+Giovanni Sartor View author profile
+Paolo Torroni View author profile

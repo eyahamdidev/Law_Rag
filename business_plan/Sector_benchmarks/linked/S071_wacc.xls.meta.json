@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/wacc.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/wacc.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "d38b149c731bba6847d077ef67c9a4bfa0a54f947ba480b2f9ea89f5451d39a6",
+ "bytes": 77312,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_wacc.xls",
+ "last_modified": "Mon, 12 Jan 2026 13:41:41 GMT"
+}

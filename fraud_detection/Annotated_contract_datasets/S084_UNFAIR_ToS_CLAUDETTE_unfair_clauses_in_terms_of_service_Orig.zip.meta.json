@@ -1,0 +1,16 @@
+{
+ "id": "S084",
+ "dataset": "contracts",
+ "section": "Annotated contract datasets",
+ "name": "UNFAIR-ToS (CLAUDETTE) - unfair clauses in terms of service - Original corpus (zip)",
+ "url": "http://claudette.eui.eu/ToS.zip",
+ "parent": "",
+ "flag": "S",
+ "final_url": "http://claudette.eui.eu/ToS.zip",
+ "content_type": "application/zip",
+ "sha256": "14a7f96b0ac1ec86c4b97ac9db8b3d54c53ee9eae9248993e02881a354ba0bff",
+ "bytes": 2329452,
+ "status": "ok",
+ "path": "contracts\\Annotated_contract_datasets\\S084_UNFAIR_ToS_CLAUDETTE_unfair_clauses_in_terms_of_service_Orig.zip",
+ "last_modified": "Mon, 28 Jan 2019 17:13:13 GMT"
+}

@@ -1,0 +1,22 @@
+{
+ "id": "S033",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BCT - credit and bank conditions - Main interest rates",
+ "url": "https://www.bct.gov.tn/bct/siteprod/francais/indicateurs/interet.jsp",
+ "parent": "",
+ "flag": "E / S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/francais/indicateurs/interet.jsp",
+ "content_type": "text/html; charset=iso-8859-1",
+ "sha256": "48e8e807eea8fc86b27e1c57c100ca2f1976f9cc33b5cdb236c2d6b14bbb3001",
+ "bytes": 32205,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S033_BCT_credit_and_bank_conditions_Main_interest_rates.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 78,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Banque Centrale de Tunisie",
+ "note": "",
+ "last_modified": ""
+}

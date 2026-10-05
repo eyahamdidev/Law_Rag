@@ -1,0 +1,22 @@
+{
+ "id": "S054",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - interest rates - TMM history",
+ "url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203105",
+ "content_type": "text/html; charset=iso-8859-1",
+ "sha256": "b8ac4fdb5a3c1d5c4c40792f8e02d2f742e6c35aae84c448aec669b919c04ef1",
+ "bytes": 32205,
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\S054_BCT_interest_rates_TMM_history.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 3639,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Statistique - Taux moyen du march montaire TMM",
+ "note": "",
+ "last_modified": ""
+}

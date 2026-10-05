@@ -1,0 +1,22 @@
+{
+ "id": "S095",
+ "dataset": "contracts",
+ "section": "Unfair terms law and guidance",
+ "name": "CJEU judgments on unfair terms (examples) - C-34/18",
+ "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62018CJ0034",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62018CJ0034",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "4ad2fe4339f3aad03fdec43b3291799d7653fe66367a7351026129d8239088fe",
+ "bytes": 200721,
+ "path": "contracts\\Unfair_terms_law_and_guidance\\S095_CJEU_judgments_on_unfair_terms_examples_C_34_18.pdf",
+ "status": "ok",
+ "pages": 12,
+ "text_chars": 46894,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "62018CJ0034",
+ "note": "",
+ "last_modified": ""
+}

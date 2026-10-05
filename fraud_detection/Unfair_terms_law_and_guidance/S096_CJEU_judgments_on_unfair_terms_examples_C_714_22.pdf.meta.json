@@ -1,0 +1,22 @@
+{
+ "id": "S096",
+ "dataset": "contracts",
+ "section": "Unfair terms law and guidance",
+ "name": "CJEU judgments on unfair terms (examples) - C-714/22",
+ "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62022CJ0714",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62022CJ0714",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "76931f02d4f6543ff9b52aec01417f664e5570cb2c44989c9617d789e38f5b53",
+ "bytes": 230400,
+ "path": "contracts\\Unfair_terms_law_and_guidance\\S096_CJEU_judgments_on_unfair_terms_examples_C_714_22.pdf",
+ "status": "ok",
+ "pages": 15,
+ "text_chars": 60746,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "62022CJ0714",
+ "note": "",
+ "last_modified": ""
+}

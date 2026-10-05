@@ -1,0 +1,208 @@
+NC 35 
+Norme comptable relative aux états financiers consolidés 
+ 
+Champ d'application  
+1. La présente norme doit être appliquée à la préparation et à la présentation des états 
+financiers consolidés d'un groupe d'entreprises contrôlées par une entreprise mère.  
+2. La préparation et la présentation des états fi nanciers consolidés requièrent, en plus de la 
+comptabilisation des participations dans les filiales tr aitées par la présente norme, la comptabilisation 
+des participations dans les entreprises associées  et des participations dans les coentreprises, 
+respectivement selon la norme comptable NC 36 re lative aux participations dans les entreprises 
+associées et la norme NC 37 relative aux participations dans les coentreprises.  
+3. La présente Norme ne traite pas : 
+(a) de la comptabilisation des participations dans le s états financiers individuels, objet de la norme 
+comptable NC 07 relative aux placements;  
+(b) des méthodes de comptabilisation des regr oupements d'entreprises et de leurs effets en 
+consolidation, y compris du goodwill résultant d'un regroupement d'entreprises objet de la norme 
+comptable NC38 relative aux regroupements d'entreprises;  
+(c) de la comptabilisation des participations dans des entreprises associées objet de la norme 
+comptable NC36 relative aux participations dans les entreprises associées;  
+(d) de la comptabilisation des participations dans des coentreprises, objet de la norme comptable 
+NC37 relative aux participations dans les coentreprises.  
+Définitions  
+4. Dans la présente norme, les termes suivants ont la signification indiquée ci-après :  
+Le contrôle (dans le cadre de la présente norme) est le pouvoir de diriger les politiques 
+financières et opérationnelles d'une entreprise afin d'obtenir des avantages de ses activités.  
+Une filiale est une entreprise contrôlée par une autre entreprise (appelée la mère).  
+Une mère est une entreprise qui a une ou plusieurs filiales.  
+Un groupe  est une mère et toutes ses filiales.  
+Les états financiers consolidés sont les états financiers d'un groupe présentés comme ceux 
+d'une entreprise unique.  
+Les intérêts minoritaires sont la quote-part dans les résultats nets et dans les capitaux propres 
+d'une filiale, attribuable aux intérêts qui ne s ont détenus par la mère, ni directement, ni 
+indirectement par l'intermédiaire des filiales.  
+Présentation des états financiers consolides  
+5. Une mère, à l'exception du cas mentionné au paragraphe 6, doit présenter des états 
+financiers consolidés.  
+6. II n'est pas nécessaire qu'une entreprise mère qui est une filiale d'une autre entreprise 
+établie en Tunisie, présente des états financ iers consolidés. Cette exemption est subordonnée 
+à la condition que des intérêts minoritaires re présentant 5% du capital social ne s'y opposent 
+pas. Cette entreprise mère doit indiquer les raisons pour lesquelles des états financiers 
+consolidés n'ont pas été présentés ainsi que les bases sur lesquelles ses participations dans 
+les filiales ont été comptabilisées dans ses états financiers individuels. Le nom et le siège 
+social de sa mère qui présente des états financiers consolidés doivent également être fournis.  
+7. Les utilisateurs des états financiers d'une entrepr ise mère sont généralement intéressés par la 
+situation financière, les résultats et les changements de la situation financière du groupe pris dans son 
+ensemble et ont besoin d'en être informés. Ce besoin est satisfait par les états financiers consolidés 
+qui présentent l'information financière du groupe comme celle d'une entreprise unique, sans tenir 
+compte des frontières juridiques des différentes entités juridiques.  
+8. Une mère qui est elle-même contrôlée par une autre entreprise établie en Tunisie, n'est pas 
+toujours tenue de présenter des états financiers consolidés puisque de tels états ne sont pas 
+nécessairement imposés par ses actionnaires et que les besoins des autres utilisateurs peuvent être 
+mieux satisfaits par les états financiers consolidés de sa mère.  
+Périmètre des états financiers consolides 
+9. Une mère qui présente des états financiers consolidés doit consolider toutes les filiales, 
+étrangères et nationales, autres que celles auxquelles il est fait référence au paragraphe 11.  
+10. Les états financiers consolidés comprennent toutes  les entreprises qui sont contrôlées par la 
+mère, autres que les filiales qui sont exclues pour les raisons exposées dans le paragraphe II. Le 
+contrôle existe lorsque la mère détient, directement  ou indirectement par l'intermédiaire de filiales, 
+plus de la moitié des droits de vote d'une entreprise, sauf si dans des circonstances exceptionnelles, il 
+peut être clairement démontré que cette détention ne permet pas le contrôle. Le contrôle existe 
+également lorsque la mère, détenant la moitié ou moins de la moitié des droits de vote d'une 
+entreprise, dispose:  
+(a) du pouvoir sur plus de la moitié des droits de vote en vertu d'un accord avec d'autres   
+investisseurs ;  
+(b) du pouvoir de diriger les politiques financière et opérationnelle de l'entreprise en vertu des statuts 
+ou d'un contrat ;  
+(c) du pouvoir de nommer ou de révoquer la majorité des membres du conseil d'administration ou de 
+l'organe de direction équivalent; ou  
+(d) du pouvoir de réunir la majorité des droits de vote dans les réunions du conseil d'administration ou 
+de l'organe de direction équivalent.  
+Le contrôle est présumé exister, dès lors qu'une entreprise détient direct ement ou indirectement 
+quarante pour cent au moins des droits de vote dans  une autre entreprise, et qu'aucun autre associé 
+n'y détienne une fraction supérieure à la sienne.  
+11. Une filiale doit être exclue de la consolidation lorsque :  
+(a) le contrôle est destiné à être temporaire parce que la filiale est acquise et détenue dans 
+l'unique perspective de sa sortie ultérieure dans un avenir proche; ou  
+(b) la filiale est soumise à des restrictions durables et fortes qui limitent de façon importante sa 
+capacité à transférer des fonds à la mère.  
+De telles filiales doivent être comptabilisées comme si elles constituaient des placements.  
+12. Une filiale n'est pas exclue de la consolidation lorsque ses activités sont dissemblables de celles 
+des autres entreprises du groupe. L'information fourni e est meilleure en consolidant une telle filiale et 
+en fournissant des informations supplémentaires dans les états financiers consolidés sur les 
+différentes activités des filiales. Par exemple, le s informations à fournir conformément aux règles 
+régissant l'information sectorielle, aident à expliquer  l'importance des différentes activités au sein du 
+groupe.  
+ 
+ 
+Procédures de consolidation 
+13. Pour établir des états financiers consolidés, le s états financiers individuels de la mère et de ses 
+filiales sont combinés ligne à ligne en additionnant les éléments semblables d'actifs, de passifs, de 
+capitaux propres, de produits et de charges. Afin que les états fi nanciers consolidés présentent 
+l'information financière du groupe comme celle d'une entreprise unique, les étapes ci-dessous sont 
+alors suivies :  
+(a) la valeur comptable de la participation de la mère dans chaque filiale et la quote-part de la mère 
+dans les capitaux propres de chaque filiale sont éliminées (voir NC38 relative aux regroupements 
+d'entreprises, qui décrit également le traitement du goodwill en résultant) ;  
+(b) les intérêts minoritaires dans le résultat net des filiales consolidées de l'exer cice sont identifiés et 
+soustraits du résultat du groupe afin d'obtenir le résultat net attribuable aux propriétaires de la mère; et  
+(c) les intérêts minoritaires dans les capitaux propr es des filiales consolidées sont identifiés et 
+présentés dans le bilan consolidé séparément des pa ssifs et des capitaux propres de la mère. Les 
+intérêts minoritaires dans les capitaux propres comprennent:  
+(i) le montant à la date du regroupement d'origine,  calculé selon NC38, relative aux regroupements 
+d'entreprises; et  
+(ii) la part des minoritaires dans les mouv ements des capitaux propres depuis la date du 
+regroupement.  
+14. Les soldes intra- groupe et transactions intra- groupe et les profits latents en résultant 
+doivent être intégralement éliminés. Les pertes latentes résultant de transactions intra-groupe 
+doivent également être éliminées à moins que le coût ne puisse être recouvré.  
+15. Les soldes et les transactions intra-groupe, y compris les ventes, les charges et les dividendes, 
+sont intégralement éliminés. Les profits latents résultant de transactions intra-groupe qui sont compris 
+dans la valeur comptable d'actifs, tels que les st ocks et les immobilisations, sont intégralement 
+éliminés. Les pertes latentes résultant de tr ansactions intra-groupe qui viennent en déduction de la 
+valeur comptable des actifs sont également éliminées , sauf si le coût ne peut pas être recouvré. Les 
+différences temporaires qui proviennent de l'éliminat ion des profits et des per tes latents résultant de 
+transactions intragroupe sont traitées selon les règles comptables relatives à l'impôt sur les résultats.  
+16. Quand les états financiers utilisés en conso lidation sont établis à des dates de clôture 
+différentes, des ajustements doivent être effectués pour prendre en compte les effets des 
+transactions et autres événements importants qui  se sont produits entre ces dates et la date 
+des états financiers de la mère. En aucun cas, la différence entre les dates de clôture ne doit 
+être supérieure à trois mois.  
+17. Les états financiers de la mère et de ses filiale s utilisés pour l'établissem ent des états financiers 
+consolidés sont généralement établis à la même date. Lorsque les dates de clôture sont différentes, la 
+filiale prépare souvent, pour les besoins de la conso lidation, des états à la même date que le groupe. 
+Lorsqu'il n'est pas possible de le faire, des états fi nanciers établis à des dates de clôture différentes 
+peuvent être utilisés, à condition que la différence ne soit pas supérieure à trois mois. La convention 
+de permanence des méthodes exige que la durée des exer cices et toute différence entre les dates de 
+clôture soient les mêmes d'un exercice à l'autre.  
+18. Les états financiers consolidés doivent êt re établis en utilisant des méthodes comptables 
+uniformes pour des transactions et autres évén ements semblables dans des circonstances 
+similaires. S'il n'est pas possible d'utiliser des méthodes comptables uniformes pour établir les 
+états financiers consolidés, ce fait doit être indiqué, de même que les proportions respectives 
+des éléments des états financiers consolidés auxquels les différentes méthodes comptables 
+ont été appliquées.  
+19. Dans de nombreux cas, si un membre du groupe utilise des méthodes comptables différentes de 
+celles adoptées dans les états financiers conso lidés pour des transactions et des événements 
+semblables dans des circonstances similaires, des  ajustements appropriés sont apportés à ses états 
+financiers lorsqu'ils sont utilisés pour préparer les états financiers consolidés.  
+ 
+ 
+20. Les résultats d'une filiale sont inclus dans les états financiers consolidés à partir de la date 
+d'acquisition, qui est la date à laquelle le contrôle de la filiale acquise est effectivement transféré à 
+l'acquéreur, selon NC38 relative aux regroupements d'entreprises. Les résultats d'une filiale sortie 
+sont inclus dans le compte de résultat consolidé ju squ'à la date de sortie qui est la date à laquelle la 
+mère cesse d'avoir le contrôle de la filiale. La différenc e entre les produits de la sortie de la filiale et la 
+valeur comptable de ses actifs moins ses passifs à la date de sortie est comptabilisée dans l'état de 
+résultat consolidé, en tant que résu ltat de sortie de la filiale. Afin d'assurer la comparabilité des états 
+financiers d'un exercice à l'autre, un complément d'information est souvent fourni, concernant l'effet de 
+l'acquisition et de la sortie de filiales sur la situati on financière à la date de clôture et sur les résultats 
+de l'exercice, ainsi que sur tes montants correspondants de l'exercice précédent.  
+21. Dès la date où elle cesse de correspondre à la définition d'une filiale et sans devenir une 
+entreprise associée comme définie par la NC 36 relative aux participations dans les entreprises 
+associées, une participation dans une entreprise doit être comptabilisée à sa valeur comptable 
+de consolidation à la date à laquelle elle cesse d'être une filiale. Les titres ainsi conservés, 
+sont évalués à la quote-part des capitaux propres consolidés qu'ils représentent à cette date, 
+augmentés de la quote-part correspondante dans l'écart d'acquisition résiduel.  
+22. La valeur comptable de la participation à la date à laquelle elle cesse d'être une filiale est 
+considérée comme son coût par la suite. Celui-ci  est figé sauf dépréciation ultérieure, lorsque sa 
+valeur d'inventaire devient inférieure à cette nouvelle valeur comptable.  
+23. Les intérêts minoritaires doivent être présentés dans le bilan consolidé séparément des 
+passifs et des capitaux propres de la mère. Les intérêts minoritaires dans le résultat du groupe 
+doivent également être présentés séparément.  
+24. Les pertes revenant aux minoritaires dans une f iliale consolidée peuvent être supérieures aux 
+intérêts minoritaires dans les capitaux propres de la  filiale. Cet excédent et toutes les pertes futures 
+relatives aux minoritaires sont imputés aux intérê ts majoritaires sauf si les minoritaires ont une 
+obligation irrévocable de compenser les pertes et sont  capables de le faire. Si la filiale dégage par la 
+suite des bénéfices, les intérêts majoritaires se vo ient allouer la totalité de ces bénéfices jusqu'à ce 
+que la part des pertes relatives aux minoritaires antérieurement imputée aux majoritaires ait été 
+recouvrée.  
+25. Si une filiale a des actions de préférence cumu latives en circulation telles que les actions à 
+dividende prioritaire sans droit de vote, qui sont  détenues hors du groupe, la mère calcule sa quote-
+part de résultat après ajustement pour tenir co mpte des dividendes de préférence de la filiale, que 
+ceux-ci aient été décidés ou non.  
+Informations à fournir  
+26. Outre les informations imposées par les paragraphes  6 et 18, les informat ions suivantes doivent 
+être fournies:  
+(a) dans les états financiers consolidés, une liste des filiales indiquant, notamment le nom, le pays 
+d'enregistrement ou de résidence, la quot e-part d'intérêt dans le capital e t, si celle-ci est différente, la 
+quote-part des droits de vote détenus ;  
+(b) dans les états financiers consolidés, le cas échéant : 
+(i) les raisons de la non consolidation d'une filiale ;  
+(ii) la nature de la relation entre la mère et une filiale dont la mère ne détient pas, directement ou 
+indirectement par des filiales, plus de la moitié des droits de vote ;  
+(iii) le nom d'une entreprise dont plus de la moit ié des droits de vote est détenue par la mère, 
+directement ou indirectement par des filiales, mais qui, en raison de l'absence de contrôle, n'est pas 
+une filiale; et  
+(iv) l'effet de l'acquisition et de la sortie de filiales sur la situation financière à la date de clôture, sur 
+les résultats de l'exercice et sur les montants correspondants de l'exercice précédent.  
+Date d'entrée en vigueur et dispositions transitoires  
+27. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+clôturés à partir du 31 décembre 2003.  
+28. Pour les établissements de crédit tels que définis par la loi no2001-65 du 10 juillet 2001 et 
+les autres organismes et établissements financiers  et bancaires tels que définis par les textes 
+en vigueur, et à titre transitoire jusqu'à l'exer cice clôturé au 31 décembre 2004, les filiales qui 
+ne sont pas des entreprises du secteur financier sont consolidées par la méthode de mise en 
+équivalence.  
+Les entreprises du secteur financier comprennent, pour les besoins d'application de la 
+présente norme, les entreprises qui ont le statut d'établissement de crédit ainsi que les 
+entreprises dont l'activité se situe dans le prolongement direct des activités des 
+établissements de crédit ou relève des services auxiliaires de celles-ci, à l'exception des 
+entreprises d'assurance et / ou de réassurance.  
+29. Pour les entreprises d'assurance et / ou de réassurance telles que définies par les textes en 
+vigueur et à titre transitoire jusqu'à l'exercice clôturé au 31 décembre 2004, les filiales qui ne 
+sont pas des entreprises du secteur des assurances et / ou de réassurance sont consolidées 
+par la méthode de mise en équivalence.  
+30. Toute disposition relative à la consolidation des comptes, contraire à la présente norme et 
+prévue par les normes sectorielles, est considérée sans objet.  
+ 
+ 

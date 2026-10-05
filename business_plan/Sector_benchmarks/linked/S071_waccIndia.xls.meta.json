@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/waccIndia.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/waccIndia.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "56a6a79b1f6fb9f28d4e835aeab95d21243570c20df6dbea43d531a635b7c935",
+ "bytes": 77312,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_waccIndia.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:21:59 GMT"
+}

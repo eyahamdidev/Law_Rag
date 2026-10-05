@@ -1,0 +1,274 @@
+http://www.procomptable.com/ 1
+NC 24 
+Les engagements et revenus y afférents dans les établissements bancaires 
+ 
+ 
+Objectif 
+ 
+01. Les prêts et avances et les engagements de financement ou de garantie constituent généralement 
+un segment important des activités des établissements bancaires et représentent une part significative 
+de leurs actifs et engagements hors bilan. Les banques perçoivent, à l'occasion de l'octroi de ces 
+engagements, différentes rémunérations sous forme d'intérêts et de commissions.  
+02. La survenance d'événements postérieurement à la conclusion de ces opérations peut amener les 
+établissements bancaires à réviser la valeur de ces actifs ou engagements, notamment par la 
+constatation de provisions, et à revoir la façon avec laquelle les revenus y afférents sont pris en 
+compte en résultats.  
+03. L'objectif de la présente norme est de définir les règles de prise en compte, d'évaluation et de 
+présentation des engagements contractés par un établissement bancaire et des revenus y afférents.  
+Champ d' application  
+04. La présente norme s'applique aux engagements contractés par les établissements 
+bancaires tels que définis par les textes en vigueur régissant l'activité bancaire.  
+05. Entrent dans le champ d'application de la présente norme les engagements matérialisés par des 
+titres représentant des parts dans le capital d'entreprises lorsque, en substance, ces engagements 
+établissent une relation de créancier- débiteur entre l'établissement bancaire et l'entreprise émettrice. 
+C'est le cas des participations qu'un établissement bancaire acquiert ou souscrit et au titre desquelles, 
+au moment même de l'acquisition ou de la souscription, il conclut un contrat avec la société émettrice 
+prévoyant le rachat de ces mêmes actions par une tierce personne, généralement le promoteur, après 
+une certaine période et à un prix convenu d'avance calculé en fonction d'un taux d'actualisation qui ne 
+tient compte ni de la valeur de la société émettrice au moment du rachat ni de la valeur de marché 
+lorsque les actions sont cotées sur un marché.  
+06. Bien que la norme ne traite pas spécifiquement des engagements de financement et de garantie 
+reçus, ceux- ci peuvent être comptabilisés conformément aux dispositions des paragraphes 9 à 14 de 
+la présente norme.  
+07. Sont exclus du champ d'application de la présente norme :  
+(a) les engagements découlant des opérations de change au comptant ou à terme  
+(b) les engagements sur titres 
+(c) les engagements sur instruments financiers à terme  
+Définitions  
+08. Pour l'application de la présente norme, les termes ci-après ont la signification suivante :  
+(a) Engagement : désigne toute créance résultant des prêts et avances accordés par l'établissement 
+bancaire, ainsi que toute obligation de l'établissement bancaire en vertu d'un contrat ou tout autre 
+mécanisme, de fournir des fonds à une autre partie (engagement de financement) ou de garantir à un 
+tiers l'issue d'une opération en se substituant à son client s'il n'honore pas ses obligations 
+(engagement de garantie).  
+(b ) Crédit : désigne les fonds mis à disposition par un établissement bancaire directement ou 
+indirectement à une autre partie en vertu d'un accord de financement conclu.  
+(c) Crédits documentaires : désigne les engagements en vertu desquels l'établissement bancaire, 
+agissant à la demande et conformément aux instructions d'un tiers en rapport avec une transaction 
+http://www.procomptable.com/ 2
+commerciale de ce dernier, est tenu, le cas échéant par l'intermédiaire d'un autre établissement 
+bancaire, soit à effectuer un paiement au créancier de ce tiers ou à son ordre, soit à payer, à accepter 
+ou à négocier des effets de commerce, contre remise des documents afférents à la transaction 
+commerciale en cause.  
+(d) Donneur d'ordre : désigne la personne qui a contracté un engagement avec l'établissement 
+bancaire au profit d'une tierce personne, le bénéficiaire.  
+(e) Risque pays : désigne le risque attaché à l'ensemble des emprunteurs résidant dans un pays, lié 
+à des considérations d'ordre économique et politique existant dans ce pays.  
+(f) Valeur de réalisation attendue : désigne la valeur à laquelle un engagement sera probablement 
+honoré par le débiteur.  
+Engagements de financement et de garantie  
+09. Les engagements de financement et de garantie concernent généralement les ouvertures de 
+lignes de crédit, les crédits documentaires et les cautions, avals et autres garanties donnés par la 
+banque à la demande du donneur d'ordre. Ils sont souvent matérialisés par des contrats écrits comme 
+dans les cas d'accords de financement, et peuvent résulter parfois d'autres usages bancaires comme 
+les télex de confirmation dans les cas de garanties internationales.  
+Ces engagements ne sont pas nécessairement mis en œu vre. Leur comptabilisation doit distinguer le 
+moment où ils sont contractés et le cas échéant de leur mise en œuvre  celle-ci s'accompagnant 
+généralement par une livraison de fonds.  
+10. Les engagements de financement et de garantie doivent être enregistrés en hors bilan dès 
+le moment où ils sont contractés. Un engagement est réputé être contracté lorsqu'il découle :  
+(a) d'une obligation contractuelle irrévocable que la banque ne peut annuler à son gré sans 
+s'exposer à des pénalités ou à des frais,  
+(b) d'un usage bancaire qui, même en l'absence d'un contrat écrit, met à la charge de la 
+banque une quelconque obligation.  
+11. En application de cette règle, les cautions, avals et autres garanties donnés sont enregistrés au 
+moment de la signature de l'acte portant garantie et les ouvertures de lignes de crédit au moment de 
+leur notification. Les engagements liés aux crédits documentaires sont enregistrés :  
+- lorsque la banque est émettrice : à la notification de l'ouverture du crédit documentaire  
+- lorsque la banque est notificatrice : à la confirmation du crédit documentaire, ou à l'aval de 
+l'acceptation à payer émise par la banque émettrice.  
+12. La valeur pour laquelle un engagement de financement ou de garantie doit être comptabilisé 
+résulte généralement des termes contractuels et correspond à la valeur des fonds à accorder pour les 
+engagements de financement et au montant de la garantie donnée pour les engagements de garantie.  
+13. La comptabilisation des engagements de financement et de garantie en hors bilan doit respecter la 
+partie double sans inclure de croisement avec les comptes de bilan, et doit être effectuée selon le 
+sens que prendra l'engagement au bilan, lors de sa mise en œuvre éventuelle.  
+14. Les engagements de financement et de garantie sont annulés du hors bilan :  
+- soit à la fin de la période de garantie, telle que prévue par le contrat ou par les usages, et à partir 
+de laquelle l'engagement cesse de produire ses effets.  
+- soit lors de la mise en œuvre de l'engagement, l'annulation étant dans ce cas consécutive au 
+versement de fonds et à l'enregistrement d'une créance au bilan.  
+Prêts et avances  
+15. Les prêts et avances doivent être enregistrés, pour le montant des fonds mis à disposition 
+du débiteur, au moment de leur mise à disposition.  
+http://www.procomptable.com/ 3
+16. Dans certains cas, le montant des fonds mis à disposition est différent de la valeur nominale, par 
+exemple lorsque les intérêts sont décomptés et prélevés d'avance sur le montant du prêt.  
+Dans de telles situations, les prêts et avances sont comptabilisés pour leur valeur nominale et la 
+différence par rapport au montant mis à la disposition du débiteur portée dans un compte de 
+régularisation et pris en compte en revenus conformément aux paragraphes 36 à 38 de la présente 
+norme. Toutefois, et pour les besoins de la présentation des états financiers, le montant des intérêts 
+perçus d'avance et non courus à la date d'arrêté des états financiers doit être soustrait de la valeur 
+des prêts et avances figurant à l'actif.  
+Engagements consortiaux  
+17. Lorsqu'un établissement bancaire s'associe avec d'autres banques pour accorder un 
+concours à une tierce personne sous forme de prêts et avances, ou d'engagements de 
+financement ou de garantie, l'engagement doit être comptabilisé pour sa quote-part dans 
+l'opération.  
+Dans le cas où la quote-part en risque de l'établissement bancaire est supérieure ou inférieure 
+à celle de sa quote-part dans l'opération, la différence doit être constatée selon le cas parmi les 
+engagements de garantie donnés ou les engagements de garantie reçus.  
+Garanties reçues  
+18. Les établissements bancaires peuvent, en contrepartie des engagements donnés, obtenir des 
+garanties sous forme d'actifs financiers, de sûretés réelles et personnelles, sous forme notamment de 
+cautions, avals et autres garanties donnés par d'autres établissements bancaires ainsi que des 
+garanties données par l'Etat et les entreprises d'assurance.  
+19. La divulgation des informations relatives aux garanties reçues est importante car elle permet 
+d'apprécier les risques encourus par un établissement bancaire. Cependant, certaines garanties 
+posent des difficultés quant à leur évaluation ainsi qu'à la valeur pour laquelle elles doivent être 
+comptabilisées.  
+20. Les garanties reçues doivent être comptabilisées, lorsque leur évaluation peut être faite de 
+façon fiable, pour leur valeur de réalisation attendue au profit de l'établissement bancaire, sans 
+pour autant excéder la valeur des engagements qu'elles couvrent.  
+21. Une évaluation peut résulter d'expertises effectuées par l'établissement bancaire lui-même ou par 
+des organismes externes. Les frais nécessaires que la banque doit engager pour la réalisation des 
+garanties à son profit doivent être estimés et déduits de la valeur de réalisation attendue.  
+22. Lorsque l'évaluation des garanties reçues ne peut pas être faite de façon fiable, des informations 
+sur la nature des garanties reçues et la valeur des engagements correspondants doivent, lorsqu'elles 
+sont significatives, être indiquées dans les notes aux états financiers.  
+Evaluation des engagements en date d'arrête  
+23. Les engagements de financement et de garantie doivent faire l'objet d'une évaluation périodique, 
+au moins à la clôture de l'exercice, en vue d'estimer s'il convient de constituer des provisions pour 
+tenir compte du risque que les contreparties concernées n'honorent pas leurs engagements.  
+24. Le risque que les contreparties n'honorent pas leurs engagements peut être lié soit à des 
+difficultés que les contreparties éprouvent, ou qu'il est prévisible qu'elles éprouveront, pour 
+honorer leurs engagements ou au fait qu'elles contestent le montant de leurs engagements. 
+Lorsqu'un tel risque existe, les engagements correspondants sont qualifiés de douteux. Une 
+provision doit être constituée et le cas échéant ajustée de façon à ramener la valeur comptable 
+de l'engagement à sa valeur de réalisation attendue.  
+25. Pour estimer les provisions sur les engagements douteux, il doit être tenu compte de tous les 
+risques prévisibles, des pertes éventuelles et des dépréciations qui ont pris naissance au cours de 
+l'exercice ou au cours d'exercices antérieurs, ainsi que des événements survenus après la clôture de 
+l'exercice conformément à la Norme Comptable NC 14 relative aux éventualités et événements 
+survenant après la date de clôture.  
+http://www.procomptable.com/ 4
+26. L'évaluation des engagements et l'estimation des provisions relèvent du jugement de la direction. 
+Il est essentiel que ce jugement soit fondé sur les hypothèses les plus vraisemblables et qu'elles 
+soient appliquées de façon constante. Il est généralement tenu compte de plusieurs facteurs tels que 
+la conjoncture économique générale et spécifique au secteur d'activité, la situation financière du 
+débiteur, les retards de paiement des échéances antérieures, les garanties reçues et les chances 
+réelles de leur réalisation, et le risque-pays dans le cas où la contrepartie se situe à l'étranger. La 
+restructuration, la consolidation ou le rééchelonnement d'un ou de plusieurs crédits, n'implique pas en 
+soit que les contreparties ont honoré leurs engagements et que les risques y attachés ont disparu ou 
+ont été diminués.  
+27. Les provisions doivent être appliquées sur la valeur totale des engagements douteux, qu'ils 
+soient échus ou non encore échus, ainsi que sur les revenus constatés en résultat au cours 
+d'exercices antérieurs.  
+28. L'évaluation des engagements et l'estimation des provisions se fait pour chaque engagement 
+séparément. Toutefois, pour les engagements qui, en raison de leur importance individuelle réduite et 
+de leur nombre se prêtent insuffisamment à une appréciation individualisée et régulière, l'estimation 
+de provisions peut être effectuée en tenant compte des observations statistiques des difficultés 
+rencontrées par la banque pour ces catégories de créances et d'engagements. Les constatations 
+tirées des observations statistiques sont, le cas échéant, ajustées pour tenir compte de l'incidence de 
+facteurs conjoncturels ou de modifications de la politique de la banque relative à ces catégories 
+d'engagements.  
+29. Lorsque l'incapacité d'une contrepartie d'honorer ses engagements a été établie ou est quasi 
+certaine, ou qu'il est certain ou quasi certain que l'issue d'un engagement faisant l'objet d'un litige 
+aboutira au non recouvrement des créances contestées ou à l'impossibilité d'exercer les recours 
+contestés, les créances correspondantes peuvent être annulées et le montant non provisionné passé 
+en perte.  
+30. Les provisions relatives à des engagements dont le risque est supporté par l'Etat ou d'autres 
+établissements bancaires tunisiens ou étrangers, ne sont pas imputées en résultat de l'établissement 
+bancaire qui en assure la gestion.  
+Prise en compte des revenus  
+31. Les revenus liés aux engagements contractés par les établissements bancaires sont perçus 
+généralement sous forme d'intérêts et de commissions. Leur prise en compte en résultat doit se faire 
+conformément aux règles prévues par la Norme Comptable NC 03 relative aux revenus.  
+32. Les revenus liés aux engagements contractés par les établissements bancaires sont pris 
+en compte en résultat de façon à les rattacher à l'exercice au cours duquel ils sont encourus, 
+sauf si leur encaissement effectif n'est pas raisonnablement assuré.  
+33. L'encaissement effectif des revenus n'est pas raisonnablement assuré lorsque les engagements 
+auxquels ils se rapportent sont qualifiés de douteux conformément au paragraphe 24 de la présente 
+norme, ou que des sommes en principal ou intérêts venues antérieurement à échéance sur la même 
+contrepartie sont demeurées impayées. II est d'usage que les banques se référent à un délai 
+déterminé d'impayés à partir duquel les revenus postérieurement échus cessent d'être pris en compte 
+en résultat, et l'appliquent de façon uniforme et permanente à tous les engagements.  
+34. Lorsque l'encaissement effectif de revenus n'est pas raisonnablement assuré, ils doivent 
+être constatés au bilan au cours de leur période de rattachement. Les revenus pris en compte 
+antérieurement en résultat au cours d'exercices antérieurs ne sont pas extournés mais doivent 
+être intégralement provisionnés.  
+35. Les revenus constatés au bilan antérieurement à la date de restructuration ou de consolidation 
+des engagements auxquels ils sont rattachés sont repris en résultat proportionnellement aux 
+encaissements réalisés sur ces engagements après la restructuration ou la consolidation .Le montant 
+des revenus repris en résultat est égal au montant des encaissements pondérés par le rapport entre le 
+montant total de ces revenus avant la date de restructuration ou de consolidation et le montant total 
+de l'engagement après cette même date.  
+Rattachement des intérêts  
+http://www.procomptable.com/ 5
+36. Les intérêts liés aux engagements sont pris en compte à mesure qu'ils sont courus sur la 
+base du temps écoulé et du solde restant en début de chaque période.  
+37. Lorsque des créances découlant de financements ou de prêts sont remboursables de manière 
+échelonnée par des versements périodiques d'un montant constant, qui comprend à la fois le 
+paiement des intérêts et le remboursement d'une partie du montant du financement ou du prêt, le 
+montant à imputer au titre des intérêts courus est déterminé par application du taux réel découlant des 
+dispositions du contrat au solde restant dû en capital en début de chaque période.  
+38. Pour les créances découlant des contrats de location qui sont en substance des opérations de 
+crédit, leur comptabilisation est faite sur la base d'une ventilation appropriée des remboursements en 
+intérêts et principal.  
+Rattachement des commissions  
+39. En général, les banques perçoivent plusieurs types de commissions dans le cadre de leurs 
+activités courantes. Bien que le mode de leur perception peut être le même, la façon de les prendre en 
+compte en résultat diffère selon la substance des services fournis et la portée de l'engagement pris 
+par la banque.  
+40. Trois catégories de commissions doivent être distinguées :  
+- les commissions rémunérant la mise en place d'un engagement, ces commissions sont 
+généralement liées à l'exécutIon d'un acte bien déterminé ne donnant pas nécessairement lieu au 
+montage d'un crédit. C'est le cas des commissions prélevées en rémunération de l'évaluation et 
+l'étude de dossiers I préalablement à l'octroi d'un concours bancaire ;  
+- les commissions gagnées à mesure que des services sont rendus. Ces commissions sont 
+généralement calculées en fonction de la durée et du montant de l'engagement. Tel est le cas des 
+commissions de garantie, des commissions d'acceptation et des commissions sur les crédits 
+documentaires;  
+- les commissions rémunérant des services faisant partie intégrante du montage d'un crédit, c'est 
+généralement le cas des commissions d'ouverture de crédit et les commissions d'engagement.  
+41. Les commissions sont prises en compte en résultat selon les règles ci-après :  
+- pour les commissions rémunérant la mise en place d'un engagement, lorsque le service est 
+rendu  
+- pour les commissions perçues à mesure que des services sont rendus, à mesure qu'elles 
+sont courues sur la période couverte par l'engagement  
+- pour les commissions rémunérant des services faisant partie intégrante du montage d'un 
+crédit, à mesure qu'elles sont courues sur la durée de réalisation de crédit.  
+Actifs donnes en garantie  
+42. Dans certains cas, les établissements bancaires peuvent être appelés à donner des éléments 
+d'actif en garantie d'engagements figurant au passif ou parmi les éléments hors bilan.  
+Dans ce cas, la valeur comptable des éléments d'actif donnés en garantie, telle qu'elle figure au bilan, 
+doit être portée en hors bilan.  
+Engagements représentes par des titres  
+43. Les règles d'évaluation des engagements et de prise en compte des revenus s'y rattachant, telles 
+que décrites aux paragraphes 23 à 41, sont applicables aux engagements représentés par des titres 
+inclus dans le champs d'application de la présente norme par le paragraphe 5ci-dessus. 
+Conformément à ces règles, les plus-values réalisées sur la rétrocession des titres représentant des 
+engagements sont traitées comme étant des intérêts et sont de ce fait rattachées aux différents 
+exercices à mesure qu'ils sont courus, sauf si leur encaissement effectif n'est pas raisonnablement 
+assuré.  
+http://www.procomptable.com/ 6
+44. Les engagements représentés par des titres doivent figurer au bilan dans le poste AC5 -
+Portefeuille d'investissement, conformément à la norme comptable relative à la présentation des états 
+financiers dans les établissements bancaires, sous une rubrique distincte intitulée « Participations en 
+rétrocession », ou dans les notes aux états financiers lorsque la subdivision de ce poste n'apparaît 
+pas sur la face du bilan.  
+45. Les revenus des engagements représentés par des titres doivent figurer dans l'état de résultat 
+dans le poste PR4 - Revenus du portefeuille d'investissement, conformément à la norme comptable 
+relative à la présentation des états financiers dans les établissements bancaires, sous une rubrique 
+distincte intitulée "Revenus des participations en rétrocession", ou dans les notes aux états financiers 
+lorsque la subdivision de ce poste PR4 n'apparaît pas sur la face de l'état de résultat.  
+Informations a fournir  
+46. Les méthodes comptables adoptées pour le traitement des engagements et des revenus y 
+afférents doivent être indiquées dans les notes aux états financiers. Ces méthodes concernent 
+notamment:  
+- les règles de prise en compte des engagements, de prise en compte des intérêts et des 
+commissions ainsi que de cessation de leur constatation;  
+- les règles de constatation en engagements douteux, d'évaluation des provisions 
+individualisées et non individualisées les concernant, et de passation en perte.  
+47. Lorsqu'elles sont significatives, les informations suivantes doivent être fournies dans les 
+notes aux états financiers :  
+- les informations sur les concentrations des engagements par groupe, secteur, zone 
+géographique et autres concentrations de risque;  
+- la nature des garanties reçues qui ne peuvent pas être estimées de façon fiable et la valeur 
+des engagements auxquels elles se rapportent.  
+Date d' application  
+48. La présente norme comptable est applicable aux états financiers relatifs aux exercices ouverts à 
+partir du 1er Janvier 1999.  
+ 
+ 
+ 

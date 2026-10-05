@@ -1,0 +1,20 @@
+{
+ "id": "S049",
+ "dataset": "business_plan",
+ "section": "Accounting rules",
+ "name": "Law 96-112 on the enterprise accounting system - PDF (CMF)",
+ "url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_96-112_301296_fr.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.cmf.tn/sites/default/files/pdfs/reglementation/textes-reference/loi_96-112_301296_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "6d0ca05f472c7dd9a2f60374a913cd1fd5f9bbb4fa848d450dc4727eda03b003",
+ "bytes": 21642,
+ "status": "ok",
+ "path": "business_plan\\Accounting_rules\\S049_Law_96_112_on_the_enterprise_accounting_system_PDF_CMF.pdf",
+ "pages": 4,
+ "text_chars": 10125,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Mon, 19 Apr 2021 10:46:03 GMT"
+}

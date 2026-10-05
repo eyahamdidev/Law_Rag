@@ -1,0 +1,22 @@
+{
+ "id": "S057",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - exchange rates - Rates",
+ "url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/cours.jsp",
+ "content_type": "text/html; charset=iso-8859-1",
+ "sha256": "d3e48abeef8cd844cc3a50cd648723877a34706828a5db6c8b4d6d36a5a30c3d",
+ "bytes": 32205,
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\S057_BCT_exchange_rates_Rates.pdf",
+ "status": "ok",
+ "pages": 1,
+ "text_chars": 3512,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "Statistique - Cours",
+ "note": "",
+ "last_modified": ""
+}

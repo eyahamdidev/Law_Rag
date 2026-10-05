@@ -1,0 +1,58 @@
+CUAD Dataset | The Atticus Project
+https://www.atticusprojectai.org/cuad/
+
+Contract Understanding Atticus Dataset (CUAD)
+A dataset of legal contracts with rich expert annotations
+Contract Understanding Atticus Dataset (CUAD) v1 is a corpus of 13,000+ labels in 510 commercial legal contracts that have been manually labeled under the supervision of experienced lawyers to identify 41 types of legal clauses that are considered important in contract review in connection with a corporate transaction, including mergers & acquisitions, etc.
+CUAD is curated and maintained by The Atticus Project, Inc. to support NLP research and development in legal contract review.
+Publication
+Accepted at NeurIPS 2021 , Datasets and Benchmarks Track.
+Dataset
+Contributors
+Attorney Advisors
+Wei Chen
+John Brockland
+Kevin Chen
+Jacky Fink
+Spencer P. Goodson
+Justin Haan
+Alex Haskell
+Kari Krusmark
+Jenny Lin
+Jonas Marson
+Benjamin Petersen
+Alexander Kwonji Rosenberg
+William R. Sawyers
+Brittany Schmeltz
+Max Scott
+Zhu Zhu
+Law Student Leaders
+John Batoha
+Daisy Beckner
+Lovina Consunji
+Gina Diaz
+Chris Gronseth
+Calvin Hannagan
+Joseph Kroon
+Sheetal Sharma Saran
+Law Student Contributors
+Scott Aronin
+Bryan Burgoon
+Jigar Desai
+Imani Haynes
+Philip Katz
+Jeongsoo Kim
+Margaret Lynch
+Allison Melville
+Felix Mendez-Burgos
+Nicole Mirkazemi
+David Myers
+Emily Rissberger
+Behrang Seraj
+Sarahginy Valcin
+Technical Advisors
+Dan Hendrycks
+Collin Burns
+Spencer Ball
+Anya Chen
+The use of CUAD, Atticus Labels and other information provided by The Atticus Project is subject to our privacy policy and disclaimer .

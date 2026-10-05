@@ -1,0 +1,22 @@
+{
+ "id": "S026",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "BFPME - bank for financing SMEs - About and limits",
+ "url": "https://bfpme.com.tn/?page_id=5622",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://bfpme.com.tn/?page_id=5622",
+ "content_type": "text/html; charset=utf-8",
+ "sha256": "af2cef67cd1d478310083eff810bbea61dcc846f9409d802f501cf4305f360fc",
+ "bytes": 46207,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S026_BFPME_bank_for_financing_SMEs_About_and_limits.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 2390,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "BFPME - Banque de Financement des PME",
+ "note": "playwright failed (Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://bfpme.com.tn/?page_id=5622\", waiting until \"networkidle\"\n); used text renderer",
+ "last_modified": ""
+}

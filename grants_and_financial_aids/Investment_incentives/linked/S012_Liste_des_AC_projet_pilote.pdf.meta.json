@@ -1,0 +1,20 @@
+{
+ "id": "S012",
+ "dataset": "grants",
+ "section": "Investment incentives",
+ "name": "Decree 2017-389 - financial incentives (premiums) - Legal references incl. decree 2024-182",
+ "url": "https://www.apia.com.tn/medias/files/encadrement-et-appui/Liste-des-AC-projet-pilote.pdf",
+ "parent": "https://www.apia.com.tn/references-juridiques.html",
+ "flag": "S",
+ "final_url": "https://www.apia.com.tn/medias/files/encadrement-et-appui/Liste-des-AC-projet-pilote.pdf",
+ "content_type": "application/pdf",
+ "sha256": "be5b22044f2a8a3978f43c28f6bd8f77649808286aee45815fa387a9730e3e8f",
+ "bytes": 160911,
+ "status": "ok",
+ "path": "grants\\Investment_incentives\\linked\\S012_Liste_des_AC_projet_pilote.pdf",
+ "pages": 2,
+ "text_chars": 8343,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Wed, 12 Feb 2025 08:04:07 GMT"
+}

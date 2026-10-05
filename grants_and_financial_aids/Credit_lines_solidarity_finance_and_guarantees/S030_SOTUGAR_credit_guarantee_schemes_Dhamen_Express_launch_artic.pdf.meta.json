@@ -1,0 +1,22 @@
+{
+ "id": "S030",
+ "dataset": "grants",
+ "section": "Credit lines, solidarity finance and guarantees",
+ "name": "SOTUGAR - credit guarantee schemes - Dhamen Express launch article",
+ "url": "https://www.webmanagercenter.com/2022/03/17/482533/la-societe-tunisienne-de-garantie-lance-dhamen-express-en-faveur-des-pme/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.webmanagercenter.com/2022/03/17/482533/la-societe-tunisienne-de-garantie-lance-dhamen-express-en-faveur-des-pme/",
+ "content_type": "text/html",
+ "sha256": "d93080c51e2787a8111f5fb905eb7ac7775ee7d9dbc6931a5045645914e05e41",
+ "bytes": 160848,
+ "path": "grants\\Credit_lines_solidarity_finance_and_guarantees\\S030_SOTUGAR_credit_guarantee_schemes_Dhamen_Express_launch_artic.pdf",
+ "status": "ok",
+ "pages": 4,
+ "text_chars": 5947,
+ "needs_ocr": false,
+ "lang": "fr",
+ "title": "La Société tunisienne de garantie lance «Dhamen Express» en faveur des PME - WMC",
+ "note": "",
+ "last_modified": "Thu, 17 Sep 2026 21:01:50 GMT"
+}
