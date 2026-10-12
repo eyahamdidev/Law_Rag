@@ -1,0 +1,14 @@
+{
+ "module": "bp",
+ "status": "abstain",
+ "answer": "Mock: provide a plan or answers.",
+ "signals": [
+  {
+   "id": "bp-missing_input",
+   "kind": "missing_input",
+   "severity": "info",
+   "message": "Review this: no plan, no answers and no profile were provided.",
+   "source": "rule"
+  }
+ ]
+}

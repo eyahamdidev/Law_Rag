@@ -1,0 +1,30 @@
+id: chart_reader
+version: 1
+owner: P4
+role_in_system: Read tables and charts from scanned plan pages. Output is candidate rows for human checking.
+technique: structured output
+model: llm_vision
+text: |
+  These images are pages of a business plan. Read every table or chart that shows financial figures.
+  Return one row per line item and year exactly as printed. Do not compute, correct or estimate anything.
+  If a value is unreadable, use null.
+  Reply with JSON: {"rows": [{"label": "...", "year": "...", "value": number or null}]}
+output_schema:
+  type: object
+  properties:
+    rows:
+      type: array
+      items:
+        type: object
+        properties:
+          label: {type: string}
+          year: {type: string}
+          value: {type: [number, "null"]}
+        required: [label]
+  required: [rows]
+failure_cases_observed: []
+fix_applied: null
+metric_before: null
+metric_after: null
+metric_note: Compare with plain table parsing (extract_financials) on plans that contain tables.
+date: 2026-10-10

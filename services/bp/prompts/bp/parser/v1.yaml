@@ -1,0 +1,36 @@
+id: parser
+version: 1
+owner: P4
+role_in_system: Choose which template section each uncertain plan segment belongs to. It never extracts or invents numbers.
+technique: structured output, closed label set
+model: llm_fast
+text: |
+  A business plan was cut into segments. For each segment below choose the best matching template section id,
+  or null if none fits. Use only ids from this list.
+
+  Sections:
+  {{sections}}
+
+  Segments (JSON, text may contain placeholders like [[NAME_1]]):
+  {{items}}
+
+  Reply with JSON: {"mapping": [{"i": <segment number>, "section_id": "<id or null>", "confidence": <0 to 1>}]}
+output_schema:
+  type: object
+  properties:
+    mapping:
+      type: array
+      items:
+        type: object
+        properties:
+          i: {type: integer}
+          section_id: {type: [string, "null"]}
+          confidence: {type: number}
+        required: [i, section_id]
+  required: [mapping]
+failure_cases_observed: []
+fix_applied: null
+metric_before: null
+metric_after: null
+metric_note: Fill after the first section-mapping benchmark (keywords vs llm vs auto). Do not copy numbers from anywhere else.
+date: 2026-10-10

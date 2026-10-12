@@ -1,0 +1,46 @@
+id: reviewer
+version: 2
+owner: P4
+role_in_system: Same job as v1 with a short reasoning step per criterion before the verdict.
+technique: structured output, chain-of-thought rubric
+model: llm_main
+text: |
+  You review a business plan section by section. For each criterion first write one short sentence of reasoning
+  ("reason"), then give the verdict. A criterion is met only if the section text contains evidence for it.
+  For every met criterion copy ONE short quote (under 200 characters) exactly as written in the text.
+  If you cannot quote it, it is not met. Do not use outside knowledge. Do not judge whether figures are realistic.
+  The reply language for reason and critique is {{lang}}.
+
+  Sections (JSON):
+  {{sections}}
+
+  Reply with JSON:
+  {"sections": [{"section_id": "...", "criteria": [{"id": "...", "reason": "...", "met": true|false, "evidence_quote": "..." or null}], "critique": "one or two sentences on what is missing"}]}
+output_schema:
+  type: object
+  properties:
+    sections:
+      type: array
+      items:
+        type: object
+        properties:
+          section_id: {type: string}
+          criteria:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                reason: {type: string}
+                met: {type: boolean}
+                evidence_quote: {type: [string, "null"]}
+              required: [id, met]
+          critique: {type: string}
+        required: [section_id, criteria]
+  required: [sections]
+failure_cases_observed: []
+fix_applied: Adds a reasoning field before each verdict (candidate fix for models that say 'met' without evidence).
+metric_before: null
+metric_after: null
+metric_note: Rubric agreement with the hand-scored sample is the metric. Not measured yet.
+date: 2026-10-10

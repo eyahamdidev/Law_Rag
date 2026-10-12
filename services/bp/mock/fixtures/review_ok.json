@@ -1,0 +1,15 @@
+{
+ "module": "bp",
+ "status": "ok",
+ "answer": "Mock review: completeness 62/100.",
+ "signals": [
+  {
+   "id": "bp-fin-negative_cash-Y1",
+   "kind": "negative_cash",
+   "severity": "high",
+   "message": "Review this: modelled cash falls below zero at the end of Y1.",
+   "source": "rule"
+  }
+ ],
+ "latency_ms": 12
+}

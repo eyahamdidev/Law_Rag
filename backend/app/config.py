@@ -21,6 +21,10 @@ class Settings(BaseSettings):
     aid_corpus_dir: Path = REPO_ROOT / "grants_and_financial_aids"
     fraud_data_dir: Path = REPO_ROOT / "fraud_detection"
 
+    uploads_dir: Path = REPO_ROOT / "data" / "uploads"
+    bp_service_url: str = "http://localhost:8104"
+    bp_timeout_s: float = 90.0
+
     ollama_base_url: str = "http://localhost:11434"
     qdrant_url: str = "http://localhost:6333"
     mlflow_tracking_uri: str = "http://localhost:5000"
@@ -35,3 +39,4 @@ settings = Settings()
 settings.law_corpus_dir = settings.resolve(settings.law_corpus_dir)
 settings.aid_corpus_dir = settings.resolve(settings.aid_corpus_dir)
 settings.fraud_data_dir = settings.resolve(settings.fraud_data_dir)
+settings.uploads_dir = settings.resolve(settings.uploads_dir)

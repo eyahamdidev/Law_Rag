@@ -1,0 +1,49 @@
+{
+ "contract": "bp_report/1",
+ "mode": "review",
+ "template": {
+  "id": "bfpme_creation",
+  "title": "BFPME business plan (creation)",
+  "verified_against_official_model": false
+ },
+ "input": {
+  "methods": [
+   "questionnaire"
+  ],
+  "document": null
+ },
+ "context": {
+  "values": {},
+  "provenance": {},
+  "conflicts": [],
+  "missing_required": [],
+  "answer_errors": {},
+  "ignored_keys": [],
+  "sources_used": []
+ },
+ "completeness": {
+  "overall": 62,
+  "sections": [
+   {
+    "section_id": "executive_summary",
+    "title": "R\u00e9sum\u00e9 du projet",
+    "status": "weak",
+    "score": 48,
+    "criteria": [],
+    "critique": "",
+    "method": "rules"
+   }
+  ]
+ },
+ "financials": null,
+ "drafts": [],
+ "unmapped": [],
+ "signals": [],
+ "privacy": {
+  "masking": true,
+  "masked_counts": {},
+  "model_used": false
+ },
+ "usage": {},
+ "summary_text": "Mock review: completeness 62/100."
+}

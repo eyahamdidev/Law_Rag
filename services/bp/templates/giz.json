@@ -1,0 +1,1138 @@
+{
+  "id": "giz",
+  "title": "GIZ plan d'affaires",
+  "stage": "any",
+  "version": "0.1.0",
+  "verified_against_official_model": false,
+  "official_model_file": "grants_and_financial_aids/Business_Plan_Models/Modele_Plan_Affaires_GIZ.doc",
+  "source_page": null,
+  "note": "Derived skeleton. Not yet checked heading by heading against the official model.",
+  "sections": [
+    {
+      "id": "executive_summary",
+      "title": {
+        "en": "Executive summary",
+        "fr": "Résumé du projet",
+        "ar": "ملخص المشروع"
+      },
+      "title_keywords": {
+        "fr": [
+          "résumé",
+          "synthèse",
+          "présentation du projet",
+          "executive"
+        ],
+        "en": [
+          "executive summary",
+          "summary",
+          "overview"
+        ],
+        "ar": [
+          "ملخص",
+          "نبذة"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_what",
+          "text": {
+            "en": "States what the business does",
+            "fr": "Dit ce que fait l'entreprise"
+          },
+          "keywords": {
+            "fr": [
+              "activité",
+              "produit",
+              "service",
+              "projet"
+            ],
+            "en": [
+              "business",
+              "product",
+              "service",
+              "project"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_need",
+          "text": {
+            "en": "States the amount and use of funds",
+            "fr": "Indique le montant et l'usage des fonds"
+          },
+          "keywords": {
+            "fr": [
+              "financement",
+              "investissement",
+              "montant",
+              "dt",
+              "tnd"
+            ],
+            "en": [
+              "funding",
+              "investment",
+              "amount",
+              "tnd",
+              "dt"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "project_name",
+        "solution",
+        "total_investment"
+      ]
+    },
+    {
+      "id": "promoters_team",
+      "title": {
+        "en": "Promoters and team",
+        "fr": "Promoteurs et équipe",
+        "ar": "المبعوثون والفريق"
+      },
+      "title_keywords": {
+        "fr": [
+          "promoteur",
+          "équipe",
+          "fondateur",
+          "porteur"
+        ],
+        "en": [
+          "founder",
+          "team",
+          "promoter",
+          "management"
+        ],
+        "ar": [
+          "باعث",
+          "فريق",
+          "مؤسس"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_exp",
+          "text": {
+            "en": "Describes founders' experience",
+            "fr": "Décrit l'expérience des promoteurs"
+          },
+          "keywords": {
+            "fr": [
+              "expérience",
+              "diplôme",
+              "formation",
+              "parcours"
+            ],
+            "en": [
+              "experience",
+              "background",
+              "degree",
+              "career"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_roles",
+          "text": {
+            "en": "Assigns roles",
+            "fr": "Répartit les rôles"
+          },
+          "keywords": {
+            "fr": [
+              "rôle",
+              "responsable",
+              "directeur",
+              "gérant"
+            ],
+            "en": [
+              "role",
+              "responsible",
+              "manager",
+              "ceo",
+              "cto"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "founders",
+        "key_skills"
+      ]
+    },
+    {
+      "id": "project_description",
+      "title": {
+        "en": "Project, offer and value proposition",
+        "fr": "Description du projet et de l'offre",
+        "ar": "وصف المشروع والعرض"
+      },
+      "title_keywords": {
+        "fr": [
+          "description du projet",
+          "offre",
+          "produit",
+          "service",
+          "proposition de valeur",
+          "idée"
+        ],
+        "en": [
+          "project description",
+          "offer",
+          "value proposition",
+          "product",
+          "solution"
+        ],
+        "ar": [
+          "وصف المشروع",
+          "العرض",
+          "المنتج"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_problem",
+          "text": {
+            "en": "Names the customer problem",
+            "fr": "Nomme le problème client"
+          },
+          "keywords": {
+            "fr": [
+              "problème",
+              "besoin",
+              "difficulté"
+            ],
+            "en": [
+              "problem",
+              "need",
+              "pain"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_solution",
+          "text": {
+            "en": "Explains the solution",
+            "fr": "Explique la solution"
+          },
+          "keywords": {
+            "fr": [
+              "solution",
+              "offre",
+              "produit",
+              "service"
+            ],
+            "en": [
+              "solution",
+              "offer",
+              "product",
+              "service"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_diff",
+          "text": {
+            "en": "States what makes it different",
+            "fr": "Indique ce qui le différencie"
+          },
+          "keywords": {
+            "fr": [
+              "différenc",
+              "avantage",
+              "innov",
+              "unique"
+            ],
+            "en": [
+              "different",
+              "advantage",
+              "innovat",
+              "unique"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "problem",
+        "solution",
+        "differentiator"
+      ]
+    },
+    {
+      "id": "market_analysis",
+      "title": {
+        "en": "Market and competition",
+        "fr": "Étude de marché et concurrence",
+        "ar": "دراسة السوق والمنافسة"
+      },
+      "title_keywords": {
+        "fr": [
+          "marché",
+          "concurren",
+          "clientèle",
+          "cible",
+          "étude de marché"
+        ],
+        "en": [
+          "market",
+          "competitor",
+          "competition",
+          "customers",
+          "target"
+        ],
+        "ar": [
+          "السوق",
+          "منافس",
+          "حرفاء"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_target",
+          "text": {
+            "en": "Defines target customers",
+            "fr": "Définit la clientèle cible"
+          },
+          "keywords": {
+            "fr": [
+              "cible",
+              "clientèle",
+              "segment",
+              "client"
+            ],
+            "en": [
+              "target",
+              "customer",
+              "segment"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_size",
+          "text": {
+            "en": "Sizes the market with a figure and a source",
+            "fr": "Chiffre le marché avec une source"
+          },
+          "keywords": {
+            "fr": [
+              "taille du marché",
+              "part de marché",
+              "ins",
+              "source",
+              "étude"
+            ],
+            "en": [
+              "market size",
+              "market share",
+              "source",
+              "survey"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_comp",
+          "text": {
+            "en": "Names competitors",
+            "fr": "Nomme les concurrents"
+          },
+          "keywords": {
+            "fr": [
+              "concurrent",
+              "concurrence"
+            ],
+            "en": [
+              "competitor",
+              "competition",
+              "alternative"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "target_customers",
+        "market_size_note",
+        "competitors"
+      ]
+    },
+    {
+      "id": "marketing_plan",
+      "title": {
+        "en": "Marketing and sales",
+        "fr": "Plan marketing et commercial",
+        "ar": "الخطة التسويقية"
+      },
+      "title_keywords": {
+        "fr": [
+          "marketing",
+          "commercial",
+          "prix",
+          "tarif",
+          "distribution",
+          "vente"
+        ],
+        "en": [
+          "marketing",
+          "sales",
+          "pricing",
+          "price",
+          "channel",
+          "distribution"
+        ],
+        "ar": [
+          "تسويق",
+          "أسعار",
+          "توزيع"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_price",
+          "text": {
+            "en": "States pricing",
+            "fr": "Indique les prix"
+          },
+          "keywords": {
+            "fr": [
+              "prix",
+              "tarif",
+              "dt"
+            ],
+            "en": [
+              "price",
+              "pricing",
+              "tnd",
+              "dt"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_channel",
+          "text": {
+            "en": "Describes sales channels",
+            "fr": "Décrit les canaux de vente"
+          },
+          "keywords": {
+            "fr": [
+              "canal",
+              "distribution",
+              "vente",
+              "réseaux"
+            ],
+            "en": [
+              "channel",
+              "distribution",
+              "sales",
+              "online"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "pricing",
+        "channels"
+      ]
+    },
+    {
+      "id": "operations",
+      "title": {
+        "en": "Operations and production",
+        "fr": "Moyens de production et exploitation",
+        "ar": "الاستغلال والإنتاج"
+      },
+      "title_keywords": {
+        "fr": [
+          "production",
+          "exploitation",
+          "moyens",
+          "fournisseur",
+          "local",
+          "équipement",
+          "approvisionnement"
+        ],
+        "en": [
+          "operations",
+          "production",
+          "supplier",
+          "premises",
+          "equipment",
+          "supply"
+        ],
+        "ar": [
+          "الإنتاج",
+          "الاستغلال",
+          "المزودين",
+          "المعدات"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_means",
+          "text": {
+            "en": "Lists equipment and premises",
+            "fr": "Liste les équipements et locaux"
+          },
+          "keywords": {
+            "fr": [
+              "équipement",
+              "local",
+              "machine",
+              "matériel"
+            ],
+            "en": [
+              "equipment",
+              "premises",
+              "machine",
+              "facility"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_supply",
+          "text": {
+            "en": "Names suppliers or supply chain",
+            "fr": "Nomme les fournisseurs"
+          },
+          "keywords": {
+            "fr": [
+              "fournisseur",
+              "approvisionnement",
+              "matières"
+            ],
+            "en": [
+              "supplier",
+              "supply",
+              "raw material"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "production_means",
+        "suppliers",
+        "imported_share_pct",
+        "governorate"
+      ]
+    },
+    {
+      "id": "human_resources",
+      "title": {
+        "en": "Organisation and human resources",
+        "fr": "Organisation et ressources humaines",
+        "ar": "التنظيم والموارد البشرية"
+      },
+      "title_keywords": {
+        "fr": [
+          "ressources humaines",
+          "organisation",
+          "effectif",
+          "personnel",
+          "recrutement",
+          "emplois"
+        ],
+        "en": [
+          "human resources",
+          "organisation",
+          "staff",
+          "headcount",
+          "hiring",
+          "employees"
+        ],
+        "ar": [
+          "الموارد البشرية",
+          "التنظيم",
+          "عدد الأعوان"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_hc",
+          "text": {
+            "en": "Gives headcount by year",
+            "fr": "Donne l'effectif par année"
+          },
+          "keywords": {
+            "fr": [
+              "effectif",
+              "emplois",
+              "recrutement",
+              "salarié"
+            ],
+            "en": [
+              "headcount",
+              "employees",
+              "hiring",
+              "staff"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_pay",
+          "text": {
+            "en": "States wage level",
+            "fr": "Indique le niveau de salaire"
+          },
+          "keywords": {
+            "fr": [
+              "salaire",
+              "masse salariale",
+              "rémunération"
+            ],
+            "en": [
+              "salary",
+              "wage",
+              "payroll"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "headcount",
+        "avg_gross_salary"
+      ]
+    },
+    {
+      "id": "legal_structure",
+      "title": {
+        "en": "Legal form and ownership",
+        "fr": "Forme juridique et capital",
+        "ar": "الشكل القانوني ورأس المال"
+      },
+      "title_keywords": {
+        "fr": [
+          "forme juridique",
+          "capital",
+          "statut",
+          "sarl",
+          "suarl",
+          "actionnaire",
+          "associé"
+        ],
+        "en": [
+          "legal form",
+          "legal structure",
+          "capital",
+          "ownership",
+          "shareholder",
+          "sarl"
+        ],
+        "ar": [
+          "الشكل القانوني",
+          "رأس المال",
+          "الشركاء"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_form",
+          "text": {
+            "en": "States the legal form",
+            "fr": "Indique la forme juridique"
+          },
+          "keywords": {
+            "fr": [
+              "sarl",
+              "suarl",
+              "sa",
+              "sas",
+              "forme juridique"
+            ],
+            "en": [
+              "sarl",
+              "suarl",
+              "sas",
+              "legal form"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_cap",
+          "text": {
+            "en": "States share capital and split",
+            "fr": "Indique le capital et la répartition"
+          },
+          "keywords": {
+            "fr": [
+              "capital",
+              "parts",
+              "répartition"
+            ],
+            "en": [
+              "capital",
+              "shares",
+              "split",
+              "ownership"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "legal_form",
+        "startup_label",
+        "share_capital"
+      ]
+    },
+    {
+      "id": "investment_plan",
+      "title": {
+        "en": "Investment plan",
+        "fr": "Plan d'investissement",
+        "ar": "برنامج الاستثمار"
+      },
+      "title_keywords": {
+        "fr": [
+          "investissement",
+          "immobilisation",
+          "équipement",
+          "coût du projet"
+        ],
+        "en": [
+          "investment",
+          "capex",
+          "fixed assets",
+          "project cost"
+        ],
+        "ar": [
+          "الاستثمار",
+          "التجهيزات"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_items",
+          "text": {
+            "en": "Itemises investments with amounts",
+            "fr": "Détaille les investissements chiffrés"
+          },
+          "keywords": {
+            "fr": [
+              "investissement",
+              "immobilisation",
+              "équipement",
+              "dt"
+            ],
+            "en": [
+              "investment",
+              "capex",
+              "equipment",
+              "tnd"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_wc",
+          "text": {
+            "en": "Includes working capital need",
+            "fr": "Inclut le besoin en fonds de roulement"
+          },
+          "keywords": {
+            "fr": [
+              "fonds de roulement",
+              "bfr",
+              "besoin en fonds"
+            ],
+            "en": [
+              "working capital",
+              "bfr"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "capex_items",
+        "total_investment"
+      ]
+    },
+    {
+      "id": "financing_plan",
+      "title": {
+        "en": "Financing plan",
+        "fr": "Plan de financement",
+        "ar": "خطة التمويل"
+      },
+      "title_keywords": {
+        "fr": [
+          "financement",
+          "fonds propres",
+          "emprunt",
+          "crédit",
+          "subvention",
+          "apport"
+        ],
+        "en": [
+          "financing",
+          "funding",
+          "equity",
+          "loan",
+          "grant",
+          "own funds"
+        ],
+        "ar": [
+          "التمويل",
+          "قرض",
+          "أموال ذاتية",
+          "منحة"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_mix",
+          "text": {
+            "en": "Splits equity, loan and grants",
+            "fr": "Répartit fonds propres, crédit, subventions"
+          },
+          "keywords": {
+            "fr": [
+              "fonds propres",
+              "emprunt",
+              "crédit",
+              "subvention",
+              "apport"
+            ],
+            "en": [
+              "equity",
+              "loan",
+              "grant",
+              "own funds"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_bal",
+          "text": {
+            "en": "Sources equal uses",
+            "fr": "Ressources égales emplois"
+          },
+          "keywords": {
+            "fr": [
+              "emplois",
+              "ressources",
+              "total"
+            ],
+            "en": [
+              "uses",
+              "sources",
+              "total"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "own_funds",
+        "loan_amount",
+        "loan_rate_pct",
+        "loan_years",
+        "grant_amount",
+        "funding_instrument"
+      ]
+    },
+    {
+      "id": "financial_projections",
+      "title": {
+        "en": "Financial projections",
+        "fr": "Prévisions financières",
+        "ar": "التوقعات المالية"
+      },
+      "title_keywords": {
+        "fr": [
+          "prévision",
+          "compte de résultat",
+          "trésorerie",
+          "seuil de rentabilité",
+          "chiffre d'affaires",
+          "résultat"
+        ],
+        "en": [
+          "projection",
+          "forecast",
+          "income statement",
+          "cash flow",
+          "break-even",
+          "revenue",
+          "profit"
+        ],
+        "ar": [
+          "توقعات",
+          "نتيجة",
+          "رقم المعاملات",
+          "خزينة"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_pl",
+          "text": {
+            "en": "Has a multi-year income statement",
+            "fr": "Contient un compte de résultat pluriannuel"
+          },
+          "keywords": {
+            "fr": [
+              "chiffre d'affaires",
+              "charges",
+              "résultat"
+            ],
+            "en": [
+              "revenue",
+              "costs",
+              "profit",
+              "income"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_cf",
+          "text": {
+            "en": "Has a cash-flow plan",
+            "fr": "Contient un plan de trésorerie"
+          },
+          "keywords": {
+            "fr": [
+              "trésorerie",
+              "flux"
+            ],
+            "en": [
+              "cash flow",
+              "cash"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_be",
+          "text": {
+            "en": "States break-even",
+            "fr": "Indique le seuil de rentabilité"
+          },
+          "keywords": {
+            "fr": [
+              "seuil de rentabilité",
+              "point mort"
+            ],
+            "en": [
+              "break-even",
+              "breakeven"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "horizon_years",
+        "revenue_by_year",
+        "cogs_by_year",
+        "opex_by_year",
+        "payroll_by_year",
+        "capex_by_year",
+        "tax_rate_pct"
+      ]
+    },
+    {
+      "id": "impact",
+      "title": {
+        "en": "Impact (jobs, inclusion, sustainability)",
+        "fr": "Impact (emploi, inclusion, durabilité)",
+        "ar": "الأثر (التشغيل، الإدماج، الاستدامة)"
+      },
+      "title_keywords": {
+        "fr": [
+          "impact",
+          "emplois",
+          "inclusion",
+          "durabilité",
+          "environnement",
+          "social"
+        ],
+        "en": [
+          "impact",
+          "jobs",
+          "inclusion",
+          "sustainab",
+          "environment",
+          "social"
+        ],
+        "ar": [
+          "أثر",
+          "تشغيل",
+          "استدامة"
+        ]
+      },
+      "required": false,
+      "weight": 0.6,
+      "criteria": [
+        {
+          "id": "c_impact",
+          "text": {
+            "en": "Describes social or environmental impact",
+            "fr": "Décrit l'impact social ou environnemental"
+          },
+          "keywords": {
+            "fr": [
+              "impact",
+              "social",
+              "environnement",
+              "durable"
+            ],
+            "en": [
+              "impact",
+              "social",
+              "environment",
+              "sustainab"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "jobs_created",
+        "impact_note"
+      ]
+    },
+    {
+      "id": "risks",
+      "title": {
+        "en": "Risks and mitigation",
+        "fr": "Risques et mesures d'atténuation",
+        "ar": "المخاطر وسبل التخفيف"
+      },
+      "title_keywords": {
+        "fr": [
+          "risque",
+          "atténuation",
+          "swot",
+          "menace"
+        ],
+        "en": [
+          "risk",
+          "mitigation",
+          "swot",
+          "threat"
+        ],
+        "ar": [
+          "مخاطر",
+          "تخفيف"
+        ]
+      },
+      "required": false,
+      "weight": 0.6,
+      "criteria": [
+        {
+          "id": "c_risk",
+          "text": {
+            "en": "Names main risks",
+            "fr": "Nomme les principaux risques"
+          },
+          "keywords": {
+            "fr": [
+              "risque",
+              "menace",
+              "faiblesse"
+            ],
+            "en": [
+              "risk",
+              "threat",
+              "weakness"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_mit",
+          "text": {
+            "en": "Gives a mitigation for each",
+            "fr": "Donne une mesure pour chacun"
+          },
+          "keywords": {
+            "fr": [
+              "atténu",
+              "mesure",
+              "plan b",
+              "couvert"
+            ],
+            "en": [
+              "mitigat",
+              "measure",
+              "contingency",
+              "hedge"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "risks"
+      ]
+    }
+  ]
+}

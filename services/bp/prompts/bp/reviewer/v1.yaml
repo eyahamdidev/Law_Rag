@@ -1,0 +1,44 @@
+id: reviewer
+version: 1
+owner: P4
+role_in_system: Judge each template section against its rubric and quote the evidence.
+technique: structured output, plain rubric
+model: llm_main
+text: |
+  You review a business plan section by section. For every section judge each criterion as met or not met.
+  A criterion is met only if the section text contains evidence for it. For every met criterion copy ONE short
+  quote (under 200 characters) exactly as written in the text. If you cannot quote it, the criterion is not met.
+  Do not use outside knowledge. Do not judge whether figures are realistic. The reply language for critique is {{lang}}.
+
+  Sections (JSON):
+  {{sections}}
+
+  Reply with JSON:
+  {"sections": [{"section_id": "...", "criteria": [{"id": "...", "met": true|false, "evidence_quote": "..." or null}], "critique": "one or two sentences on what is missing"}]}
+output_schema:
+  type: object
+  properties:
+    sections:
+      type: array
+      items:
+        type: object
+        properties:
+          section_id: {type: string}
+          criteria:
+            type: array
+            items:
+              type: object
+              properties:
+                id: {type: string}
+                met: {type: boolean}
+                evidence_quote: {type: [string, "null"]}
+              required: [id, met]
+          critique: {type: string}
+        required: [section_id, criteria]
+  required: [sections]
+failure_cases_observed: []
+fix_applied: null
+metric_before: null
+metric_after: null
+metric_note: Compare with v2 (chain-of-thought rubric) on the hand-scored sample of about 10 plans.
+date: 2026-10-10

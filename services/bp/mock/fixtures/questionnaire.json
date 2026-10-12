@@ -1,0 +1,850 @@
+{
+ "template": {
+  "id": "bfpme_creation",
+  "title": "BFPME business plan (creation)",
+  "verified_against_official_model": false
+ },
+ "lang": "fr",
+ "progress": {
+  "answered": 3,
+  "total": 47,
+  "required_done": 3,
+  "required_total": 13
+ },
+ "conflicts": [],
+ "ignored_keys": [],
+ "questions": [
+  {
+   "id": "project_name",
+   "group": "identity",
+   "type": "text",
+   "required": true,
+   "choices": [],
+   "label": "Nom du projet ou de l'entreprise",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "executive_summary"
+   ]
+  },
+  {
+   "id": "stage",
+   "group": "identity",
+   "type": "choice",
+   "required": true,
+   "choices": [
+    "idea",
+    "creation",
+    "extension"
+   ],
+   "label": "Stade du projet",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "prefilled",
+   "value": "creation",
+   "source": "orchestrator",
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "sector",
+   "group": "identity",
+   "type": "text",
+   "required": true,
+   "choices": [],
+   "label": "Secteur ou activité",
+   "help": "Des mots simples suffisent, par exemple « logiciel pour cliniques ».",
+   "orchestrator_can_prefill": true,
+   "status": "prefilled",
+   "value": "software",
+   "source": "orchestrator",
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "legal_form",
+   "group": "identity",
+   "type": "choice",
+   "required": true,
+   "choices": [
+    "SUARL",
+    "SARL",
+    "SA",
+    "SAS",
+    "sole_proprietor",
+    "other"
+   ],
+   "label": "Forme juridique",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "legal_structure"
+   ]
+  },
+  {
+   "id": "startup_label",
+   "group": "identity",
+   "type": "choice",
+   "required": false,
+   "choices": [
+    "yes",
+    "no",
+    "pre_label"
+   ],
+   "label": "Label Startup Act",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "legal_structure"
+   ]
+  },
+  {
+   "id": "governorate",
+   "group": "identity",
+   "type": "choice",
+   "required": false,
+   "choices": [
+    "Tunis",
+    "Ariana",
+    "Ben Arous",
+    "Manouba",
+    "Nabeul",
+    "Zaghouan",
+    "Bizerte",
+    "Béja",
+    "Jendouba",
+    "Le Kef",
+    "Siliana",
+    "Sousse",
+    "Monastir",
+    "Mahdia",
+    "Sfax",
+    "Kairouan",
+    "Kasserine",
+    "Sidi Bouzid",
+    "Gabès",
+    "Médenine",
+    "Tataouine",
+    "Gafsa",
+    "Tozeur",
+    "Kébili"
+   ],
+   "label": "Gouvernorat",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "operations"
+   ]
+  },
+  {
+   "id": "export_status",
+   "group": "identity",
+   "type": "choice",
+   "required": false,
+   "choices": [
+    "none",
+    "partial",
+    "total"
+   ],
+   "label": "Statut d'exportation",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "share_capital",
+   "group": "identity",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Capital social (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "legal_structure"
+   ]
+  },
+  {
+   "id": "years_in_operation",
+   "group": "identity",
+   "type": "int",
+   "required": false,
+   "choices": [],
+   "label": "Ancienneté en années (extension)",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "problem",
+   "group": "offer",
+   "type": "longtext",
+   "required": true,
+   "choices": [],
+   "label": "Quel problème client résolvez-vous ?",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "answered",
+   "value": "Les cliniques perdent du temps",
+   "source": "questionnaire",
+   "error": null,
+   "feeds_sections": [
+    "project_description"
+   ]
+  },
+  {
+   "id": "solution",
+   "group": "offer",
+   "type": "longtext",
+   "required": true,
+   "choices": [],
+   "label": "Quel est votre produit ou service ?",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "executive_summary",
+    "project_description"
+   ]
+  },
+  {
+   "id": "differentiator",
+   "group": "offer",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Qu'est-ce qui vous différencie ?",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "project_description"
+   ]
+  },
+  {
+   "id": "target_customers",
+   "group": "market",
+   "type": "longtext",
+   "required": true,
+   "choices": [],
+   "label": "Qui sont vos clients cibles ?",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "market_analysis"
+   ]
+  },
+  {
+   "id": "market_size_note",
+   "group": "market",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Taille du marché et sa source",
+   "help": "Ne donnez un chiffre que si vous avez une source.",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "market_analysis"
+   ]
+  },
+  {
+   "id": "competitors",
+   "group": "market",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Principaux concurrents ou alternatives",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "market_analysis"
+   ]
+  },
+  {
+   "id": "pricing",
+   "group": "market",
+   "type": "longtext",
+   "required": true,
+   "choices": [],
+   "label": "Prix (par unité ou formule)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "marketing_plan"
+   ]
+  },
+  {
+   "id": "channels",
+   "group": "market",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Canaux de vente et distribution",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "marketing_plan"
+   ]
+  },
+  {
+   "id": "founders",
+   "group": "team",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Promoteurs et leurs rôles",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "promoters_team"
+   ]
+  },
+  {
+   "id": "key_skills",
+   "group": "team",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Expérience et compétences clés",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "promoters_team"
+   ]
+  },
+  {
+   "id": "headcount",
+   "group": "team",
+   "type": "int",
+   "required": true,
+   "choices": [],
+   "label": "Effectif prévu au démarrage",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "human_resources"
+   ]
+  },
+  {
+   "id": "avg_gross_salary",
+   "group": "team",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Salaire brut mensuel moyen (TND)",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "human_resources"
+   ]
+  },
+  {
+   "id": "production_means",
+   "group": "operations",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Équipements et locaux",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "operations"
+   ]
+  },
+  {
+   "id": "suppliers",
+   "group": "operations",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Principaux fournisseurs",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "operations"
+   ]
+  },
+  {
+   "id": "imported_share_pct",
+   "group": "operations",
+   "type": "pct",
+   "required": false,
+   "choices": [],
+   "label": "Part des coûts en devises ou importée (%)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "operations"
+   ]
+  },
+  {
+   "id": "capex_items",
+   "group": "investment",
+   "type": "items",
+   "required": false,
+   "choices": [],
+   "label": "Investissements, un par ligne « libellé : montant »",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "investment_plan"
+   ]
+  },
+  {
+   "id": "total_investment",
+   "group": "investment",
+   "type": "number",
+   "required": true,
+   "choices": [],
+   "label": "Investissement total y compris BFR (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "executive_summary",
+    "investment_plan"
+   ]
+  },
+  {
+   "id": "funding_instrument",
+   "group": "financing",
+   "type": "choice",
+   "required": true,
+   "choices": [
+    "loan",
+    "equity",
+    "grant",
+    "mixed",
+    "none"
+   ],
+   "label": "Instrument de financement principal",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "funding_need_amount",
+   "group": "financing",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Financement externe recherché (TND)",
+   "help": "",
+   "orchestrator_can_prefill": true,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "own_funds",
+   "group": "financing",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Apport en fonds propres (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "loan_amount",
+   "group": "financing",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Crédit bancaire (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "loan_rate_pct",
+   "group": "financing",
+   "type": "pct",
+   "required": false,
+   "choices": [],
+   "label": "Taux d'intérêt du crédit (%)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "loan_years",
+   "group": "financing",
+   "type": "int",
+   "required": false,
+   "choices": [],
+   "label": "Durée du crédit (années)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "grace_years",
+   "group": "financing",
+   "type": "int",
+   "required": false,
+   "choices": [],
+   "label": "Différé (années)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "grant_amount",
+   "group": "financing",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Subventions (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financing_plan"
+   ]
+  },
+  {
+   "id": "horizon_years",
+   "group": "projections",
+   "type": "choice",
+   "required": true,
+   "choices": [
+    "3",
+    "5"
+   ],
+   "label": "Horizon de projection (années)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "revenue_by_year",
+   "group": "projections",
+   "type": "year_series",
+   "required": true,
+   "choices": [],
+   "label": "Chiffre d'affaires par année (TND)",
+   "help": "Un chiffre par année, séparés par des virgules.",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "cogs_by_year",
+   "group": "projections",
+   "type": "year_series",
+   "required": false,
+   "choices": [],
+   "label": "Coûts directs par année : achats, matières (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "payroll_by_year",
+   "group": "projections",
+   "type": "year_series",
+   "required": false,
+   "choices": [],
+   "label": "Masse salariale par année charges comprises (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "opex_by_year",
+   "group": "projections",
+   "type": "year_series",
+   "required": false,
+   "choices": [],
+   "label": "Autres charges d'exploitation par année (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "capex_by_year",
+   "group": "projections",
+   "type": "year_series",
+   "required": false,
+   "choices": [],
+   "label": "Dépenses d'investissement par année (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "tax_rate_pct",
+   "group": "projections",
+   "type": "pct",
+   "required": false,
+   "choices": [],
+   "label": "Taux d'IS utilisé (%)",
+   "help": "Laissez vide pour le taux par défaut, à confirmer avec votre comptable.",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "financial_projections"
+   ]
+  },
+  {
+   "id": "last_revenue",
+   "group": "extension",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "CA du dernier exercice (extension, TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "last_net_income",
+   "group": "extension",
+   "type": "number",
+   "required": false,
+   "choices": [],
+   "label": "Résultat net du dernier exercice (TND)",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "extension_goal",
+   "group": "extension",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Qu'apporte l'extension ?",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "jobs_created",
+   "group": "extension",
+   "type": "int",
+   "required": false,
+   "choices": [],
+   "label": "Emplois créés",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "impact_note",
+   "group": "extension",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Impact social ou environnemental",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": []
+  },
+  {
+   "id": "risks",
+   "group": "risks",
+   "type": "longtext",
+   "required": false,
+   "choices": [],
+   "label": "Principaux risques et mesures",
+   "help": "",
+   "orchestrator_can_prefill": false,
+   "status": "missing",
+   "value": null,
+   "source": null,
+   "error": null,
+   "feeds_sections": [
+    "risks"
+   ]
+  }
+ ]
+}

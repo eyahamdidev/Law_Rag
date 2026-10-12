@@ -12,3 +12,12 @@ qdrant_storage/
 .idea/
 .vscode/
 _deck_extract.txt
+# runtime data
+data/uploads/
+services/bp/.cache/
+business_plan/
+repomix-output.xml
+data/uploads/
+services/bp/data/knowledge.sqlite
+__pycache__/
+.pytest_cache/

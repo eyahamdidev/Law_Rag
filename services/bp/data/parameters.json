@@ -1,0 +1,12 @@
+{
+  "_note": "Curated from catalog/bp_datasets_catalog.csv (key_value_to_use). 'verified' is true only when the value comes from a primary text in the pack. Everything else must be confirmed before it is quoted as fact.",
+  "is_general_rate_pct": {"value": 20.0, "as_of": "2024-01-01", "verified": true,
+    "source": "Code IRPP/IS, art. 49 (LF 2024-48), S065", "note": "Reduced rates exist, for example 10% for artisanal, agricultural and fishing activities. The zip edition stops at LF 2024; LF 2026 may add contributions. The Damodaran file lists Tunisia at 15% and 25%: do not use it for tax."},
+  "is_reduced_rates_pct": {"value": [10.0], "as_of": "2024-01-01", "verified": false, "source": "Code IRPP/IS, art. 49, S065", "note": "Check the article for which activities qualify."},
+  "cnss_employer_rate_general_pct": {"value": 17.07, "as_of": "2026", "verified": false,
+    "source": "Deloitte summary of the 2026 finance law (secondary)", "note": "Get the official text (JORT n. 148, 12 Dec 2025) and the CNSS site before quoting."},
+  "cnss_employer_rate_exporting_pct": {"value": 16.57, "as_of": "2026", "verified": false, "source": "Deloitte summary of the 2026 finance law (secondary)", "note": "Totally exporting companies."},
+  "bct_policy_rate_pct": {"value": 7.0, "as_of": "2026-07-31", "verified": false, "source": "Press citing BCT", "note": "Kept at 7.00% at the 11 Feb 2026 meeting. Check the BCT site for the latest."},
+  "tmm_pct": {"value": 7.0, "as_of": "2026-08", "verified": false, "source": "Press citing BCT", "note": "TMM was 6.99% Feb-Jul 2026 and 7.00% in Aug 2026. Bank lending rates to firms sit above the TMM."},
+  "wage_increase_pct_per_year": {"value": 5.0, "as_of": "2026-2028", "verified": false, "source": "Press on JORT n. 44 (30 Apr 2026)", "note": "SMIG and SMAG. Read the decree for exact monthly amounts."}
+}

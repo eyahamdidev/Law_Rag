@@ -66,6 +66,12 @@ MODULES: list[ModuleInfo] = [
         status=ModuleStatus.ok,
     ),
     ModuleInfo(
+        id="bp",
+        pillar="business_plan",
+        role="Review an uploaded plan or a guided questionnaire: sections, deterministic financial checks, drafts. Separate service on port 8104.",
+        status=ModuleStatus.ok,
+    ),
+    ModuleInfo(
         id="verifier",
         pillar="shared",
         role="Check document ids, pages, articles, version, and claim support.",

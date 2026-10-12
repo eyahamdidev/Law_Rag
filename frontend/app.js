@@ -1,3 +1,24 @@
+// One browser session id, so what the assistant learns in one tab is available in the others.
+const SESSION_ID = (() => {
+  try {
+    let id = localStorage.getItem("session_id");
+    if (!id) {
+      id = (crypto.randomUUID && crypto.randomUUID()) || String(Date.now()) + Math.random();
+      localStorage.setItem("session_id", id);
+    }
+    return id;
+  } catch {
+    return "anonymous-" + Date.now();
+  }
+})();
+const _fetch = window.fetch.bind(window);
+window.fetch = (url, opts = {}) => {
+  if (typeof url === "string" && url.startsWith("/api/")) {
+    opts = { ...opts, headers: { ...(opts.headers || {}), "X-Session-Id": SESSION_ID } };
+  }
+  return _fetch(url, opts);
+};
+
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 

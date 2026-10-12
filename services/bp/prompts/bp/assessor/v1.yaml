@@ -1,0 +1,40 @@
+id: assessor
+version: 1
+owner: P4
+role_in_system: Find credibility problems the keyword rules missed, using a fixed taxonomy and exact quotes.
+technique: structured output, closed taxonomy, quote-or-discard guardrail
+model: llm_main
+text: |
+  You are checking a business plan or investment pitch for credibility problems. Use ONLY the taxonomy below.
+  Report a problem only if the plan text itself shows it, and copy ONE exact quote (under 200 characters) from the plan
+  as proof. If you cannot quote it, do not report it. Do not report problems already found. Do not accuse anyone of a crime:
+  you describe patterns the reader should verify.
+
+  Taxonomy:
+  {{taxonomy}}
+
+  Already found by the rules: {{already}}
+
+  Plan text (placeholders like [[NAME_1]] are masked identifiers, leave them):
+  {{plan}}
+
+  Reply with JSON: {"flags": [{"rule": "<taxonomy id>", "quote": "<exact quote from the plan>"}]}
+  Also look for contradictions inside the plan (for example criticising a business model and then relying on it) and use the closest taxonomy id.
+output_schema:
+  type: object
+  properties:
+    flags:
+      type: array
+      items:
+        type: object
+        properties:
+          rule: {type: string}
+          quote: {type: string}
+        required: [rule, quote]
+  required: [flags]
+failure_cases_observed: []
+fix_applied: null
+metric_before: null
+metric_after: null
+metric_note: Measure on the pitch cases (eval/run_pitch_eval.py) with and without the model pass.
+date: 2026-10-11
