@@ -12,3 +12,6 @@ qdrant_storage/
 .idea/
 .vscode/
 _deck_extract.txt
+
+# Generated retrieval artefacts (chunks, embeddings, local Qdrant, OCR)
+data/

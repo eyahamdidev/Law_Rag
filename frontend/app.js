@@ -63,6 +63,27 @@ async function loadCounts() {
   }
 }
 
+let sessionId = null;
+
+function citationList(citations) {
+  if (!citations || !citations.length) return "";
+  const items = citations
+    .map((c) => {
+      const where = [c.act || c.title, c.article ? `art. ${c.article}` : "", `p. ${c.page}`]
+        .filter(Boolean)
+        .join(", ");
+      const check = c.supported === false ? "hold" : c.supported ? "ok" : "";
+      return (
+        `<li><strong>[${c.ref}]</strong> ${escapeHtml(where)} ` +
+        `<span class="pill ${check}">${c.supported === null ? "unchecked" : c.supported ? "supported" : "weak"}</span>` +
+        `<br><code>${escapeHtml(c.path)}</code>` +
+        `<blockquote>${escapeHtml(c.quote)}…</blockquote></li>`
+      );
+    })
+    .join("");
+  return `<h2>Sources</h2><ol class="citations">${items}</ol>`;
+}
+
 document.querySelector("#ask-form").addEventListener("submit", async (event) => {
   event.preventDefault();
   const form = event.currentTarget;
@@ -70,24 +91,30 @@ document.querySelector("#ask-form").addEventListener("submit", async (event) => 
   const result = document.querySelector("#ask-result");
   button.disabled = true;
   result.hidden = false;
-  result.textContent = "Routing…";
+  result.textContent = "Planning, searching and checking sources…";
   try {
     const response = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ question: form.question.value }),
+      body: JSON.stringify({ question: form.question.value, session_id: sessionId }),
     });
     if (!response.ok) throw new Error(await readError(response));
     const body = await response.json();
-    const domains = body.domains.length ? body.domains.join(", ") : "none yet";
+    sessionId = body.session_id;
+    const agents = body.plan.steps.length ? body.plan.steps.map((s) => s.agent).join(", ") : "none";
+    const v = body.verification || {};
     result.innerHTML =
-      `<p class="answer">${escapeHtml(body.answer)}</p>` +
+      `<p class="answer">${escapeHtml(body.answer).replaceAll("\n", "<br>")}</p>` +
       pills([
-        [`intent: ${body.intent}`, "ok"],
-        [`domains: ${domains}`, ""],
+        [`plan: ${body.plan.source}`, body.plan.source === "llm" ? "ok" : "hold"],
+        [`agents: ${agents}`, ""],
         [`language: ${body.language}`, ""],
         [body.abstained ? "abstained" : "answered", body.abstained ? "hold" : "ok"],
+        [`claims supported: ${v.supported ?? 0}/${v.claims_total ?? 0}`, ""],
+        [`${Math.round(body.latency_ms)} ms`, ""],
       ]) +
+      citationList(body.citations) +
+      `<p class="note">Information from official texts, not legal advice. Texts may have been amended since the cited version.</p>` +
       traceList(body.trace);
   } catch (error) {
     result.textContent = error.message;

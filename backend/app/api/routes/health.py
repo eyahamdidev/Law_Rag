@@ -3,7 +3,9 @@
 from fastapi import APIRouter
 
 from app.config import settings
-from app.modules.registry import MODULES
+from app.agents.registry import cards
+from app.modules.registry import modules as module_map
+from app.schemas.agents import AgentCard
 from app.schemas.common import HealthResponse, ModuleInfo
 
 router = APIRouter()
@@ -20,4 +22,9 @@ def health() -> HealthResponse:
 
 @router.get("/modules", response_model=list[ModuleInfo])
 def modules() -> list[ModuleInfo]:
-    return MODULES
+    return module_map()
+
+
+@router.get("/agents", response_model=list[AgentCard])
+def agents() -> list[AgentCard]:
+    return cards()

@@ -13,7 +13,7 @@ from app.schemas.fraud import FraudReport
 
 def analyze_upload(filename: str, content: bytes, document_type: str) -> FraudReport:
     digest = hashlib.sha256(content).hexdigest()
-    intake = inspect_document(filename or "upload", len(content))
+    _, intake = inspect_document(filename or "upload", content, "")
     return FraudReport(
         status=ModuleStatus.placeholder,
         filename=filename or "upload",

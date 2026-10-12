@@ -1,67 +1,97 @@
 # Architecture
 
-One FastAPI app serves the web shell and three workspaces. A router decides which workspace a question belongs to. Legal questions then go to domain workers. Fraud and aid do not pass through the legal workers.
-
 ```
-browser
-  → FastAPI
-      → intake (language, later OCR)
-      → router
-          → cited answers: retrieve → domain worker → generate → verifier → composer
-          → fraud review: hash and planned signals
-          → aid: stage filter on the local catalog
+Telegram / webhook / web UI
+        │  n8n (n8n/*.json): channel trigger, file download, error replies
+        ▼
+FastAPI  POST /api/chat  ·  POST /api/chat/upload (files)
+        │
+        ├─ intake        uploads → text: PDF text, vision OCR for scans and photos
+        ▼
+LangGraph orchestrator (backend/app/orchestrator/graph.py)
+   plan ──► run_agent × N (parallel, LangGraph Send) ──► verify ──► compose
+     │                                                              ▲
+     └── clarify / out of scope ────────────────────────────────────┘
 ```
 
-The deck's stack stays the target for cited answers: LangGraph for the bounded workflow, Ollama for the local model and vision, bge-m3 for embeddings, Qdrant for vectors, MLflow for traces. n8n, if added later, only triggers the API. Client stubs live in `backend/app/services/` and raise `NotImplementedError` until a module calls them.
+| Step | File | What it does | LLM calls |
+| --- | --- | --- | --- |
+| plan | `orchestrator/planner.py` | Picks 0–3 agents, writes each a sub-task and a French search query, extracts profile facts, or asks a clarifying question. Keyword router if no LLM or bad JSON. | 1 (fast tier) |
+| run_agent | `agents/*.py` | Each agent gets an `AgentRequest`, returns an `AgentResult`. Agents never call each other. | 1–2 per RAG agent |
+| verify | `orchestrator/verifier.py` | Citation validity in code (passage exists, page in index). Claim support by LLM, each claim against only its cited passages. | 1 (fast tier) |
+| compose | `orchestrator/composer.py` | Global citation numbers, drops unsupported claims, merges agents. Skipped when one agent passed verification. | 0–1 |
 
-## Modules you can replace
+A turn with two agents costs at most 1 + 2×2 + 1 + 1 = 7 LLM calls, usually 5.
 
-| Path | Contract |
-| --- | --- |
-| `modules/router/domain_router.py` | `route_query(question) -> intent, domains` |
-| `modules/rag/ingestion/pipeline.py` | Read PDFs into the metadata fields listed in `metadata.py` |
-| `modules/rag/retrieval/hybrid.py` | `retrieve(question, domains) -> passages` |
-| `modules/domains/*.py` | `draft(question) -> claims` for legal, tax, banking, labour, IP |
-| `modules/fraud/detector.py` | `analyze_upload(...) -> risk_level, signals` |
-| `modules/aid/matcher.py` | `match(profile) -> programs` |
-| `modules/verifier/` | Citation existence, claim support, abstention |
-| `modules/composer/answer.py` | Final text. Abstain when there is no passage |
-| `graph/workflow.py` | The function LangGraph should replace |
+## Why this shape
 
-`GET /api/modules` returns this map. `GET /api/corpus` counts files under `law/`, `grants_and_financial_aids/`, and `fraud_detection/`.
+- **Router/planner + parallel workers + verifier**, not one big prompt: legal and funding questions need different corpora and filters. Separate agents keep retrieval clean, and each failure shows up in the trace for one step.
+- **Not a swarm or agent-to-agent chat**: more calls, more latency, harder to evaluate, and nothing in this use case needs agents to negotiate. Every hand-off goes through the graph state.
+- **Not a fixed sequential chain**: most questions need one or two agents, so the planner calls only those, in parallel.
+- **One bounded loop**: a RAG agent may run one follow-up search when its draft abstains. That is the agentic decision, and the bound keeps latency predictable.
+- **Deterministic where possible**: citation checks, the keyword fallback and eligibility rules are code. The model handles language.
 
-## Cited answers
+## The agent contract (for teammates)
 
-Answers name the code, article, and version date once retrieval exists. Until then the composer abstains and says so. A retrieval score is relevance, not the probability that the answer is legally correct. Unknown dates stay unknown. Publication date and effective date are different fields.
+`backend/app/schemas/agents.py`:
 
-Domain workers share one local model. A worker may later request one extra search. The verifier stays deterministic for document id, page, and article, with a separate claim-support check.
+```python
+class AgentRequest:   task, search_query, question, language, profile: FounderProfile,
+                      attachments: list[Attachment], history: list[Turn]
+class AgentResult:    agent, status ("ok" | "abstained" | "needs_info" | "placeholder" | "error"),
+                      answer, claims: list[Claim], citations: list[Citation], passages,
+                      missing_info: list[str], profile_updates: dict, confidence, trace
+```
 
-## Fraud review
+To plug in your agent:
 
-This workspace was not in the deck. It reviews a file the founder uploads: invoice, bank statement, financing application, or business plan. Planned signals are missing fiscal identifiers, inconsistent dates, duplicate hashes, and totals that do not match the lines. They are reasons for a person to look again. The module does not declare that a document is legally fraudulent.
+1. Create `backend/app/agents/<your_agent>.py` with a class extending `app.agents.base.Agent` and a `run(request) -> AgentResult` method.
+2. In `backend/app/agents/registry.py`, replace your `PlaceholderAgent(...)` entry with your class. Keep the card `id`. Make `description` and `use_when` accurate, because the planner reads only those.
+3. To search the corpus, call `app.modules.rag.retrieval.hybrid.search(query, corpora=[...])` or reuse `RagAgent`. Cite with `[n]` markers that match `citations[].ref`, and put the cited passages in `passages`, or the verifier marks the citations invalid.
+4. Put your prompts in `backend/app/prompts/library/<agent>.<name>.yaml` and load them with `get_prompt(...)` (see below).
+5. Return `missing_info` instead of guessing facts about the founder, and `profile_updates` for facts you learn (sector, governorate…), so other agents can reuse them.
+6. Add your routing examples to `backend/app/eval/datasets/routing_queries.jsonl`.
 
-Uploads are hashed in the response and discarded. Put future labelled samples in `fraud_detection/`. Starter rows for evaluation are in `backend/app/eval/datasets/fraud_labels.jsonl`.
+## RAG
 
-## Aid and financing
+| Choice | Value | Why |
+| --- | --- | --- |
+| Corpus | `law/` (19 PDFs) + `grants_and_financial_aids/` (84 PDFs), 97 unique documents after hash dedupe | Official texts and programme pages a founder needs. `business_plan/` can be added with `--corpora`. |
+| Extraction | PyMuPDF per page, font repair, NFKC, running-header removal | The Companies Code PDF has a shifted font encoding. Arabic extracts as presentation forms. JORT banners repeat on every page. |
+| Chunking | `structural`: one chunk per article, long articles split with a context header; recursive paragraph split for non-legal docs. Baseline `fixed`: 1000 chars / 150 overlap | An article is what a citation names. JORT issues carry several texts, so the act (decree number) is tracked per article. |
+| Embeddings | multilingual-e5-base (ONNX), cached in SQLite; GPU through DirectML when available, CPU otherwise | French + Arabic, runs without PyTorch or CUDA. e5-base beat e5-small (Recall@5 0.72 vs 0.62 dense); e5-large fits a 4 GB GPU only at batch 4. See `docs/RETRIEVAL_EVAL.md`. |
+| Reranker | jina-reranker-v2-base-multilingual on the top 20 | Recall@5 0.68 → 0.82 and MRR 0.49 → 0.74 for ~1.9 s per query on a GTX 1050. |
+| Vector store | Qdrant, embedded by default, server in Docker | Payload filters on corpus and domain. Same API in both modes. |
+| Retrieval | BM25 + dense, Reciprocal Rank Fusion, optional cross-encoder rerank, max 5 distinct passages | BM25 catches article numbers and exact terms, dense catches paraphrases and cross-language questions. |
+| Query side | Planner writes a French query, agents fuse it with the original wording | Most of the corpus is French. English and Arabic questions still need to find it. |
 
-This workspace was not in the deck. It lists programs whose files are already in the repo:
+Build the index from `backend/`:
 
-- BFPME creation and extension checklists, plus the 2024 financing form
-- Business-plan models, including the GIZ model
-- Startup Act texts under `law/.../01_STARTUPS`
-- Investment-law texts under `law/.../02_INVESTMENT`
+```bash
+python -m app.modules.rag.ingestion.pipeline --strategy structural
+python -m app.modules.rag.ingestion.pipeline --strategy fixed
+python -m app.eval.retrieval_eval
+```
 
-The matcher filters on company stage only. Sector and need are stored on the request and are not rules yet. Questions about what a law says still belong to cited answers.
+Known corpus problems (see `data/index/report.json` after a build):
 
-## Evaluation hypotheses
+- 513 pages have no text layer: the 1976 Foreign Exchange Code (64 p.), the BCT exchange-regulation collection (249 p.), the 2016 API procedures manual (199 p.). `python -m app.modules.intake.extractor --corpus-ocr` OCRs them with the vision model, then rebuild the index.
+- JORT issue PDFs contain the whole gazette (appointments, land tables), not just the law, which adds noise.
+- Some grant "sources" are not useful: an "Access Denied" page (UNDP), a civil-service code of conduct filed under decree 2017-389, German-language GIZ material.
+- No labour code, tax code or IP law yet. Questions on those topics should get an abstention, not an answer.
 
-From the deck, to be calibrated after a dense-only baseline:
+## Prompt library
 
-- Recall@5 and MRR on 50 questions
-- Citation validity near 100 percent, tracked separately from claim support
-- Routing Macro-F1 at least 0.90 on about 60 labelled queries
-- Refusal at least 85 percent and false refusal at most 10 percent
-- Field-level F1 on about 15 uploaded documents, set after the first run
-- Latency p50 / p95 tracked beside quality, not instead of it
+`backend/app/prompts/library/*.yaml`, one file per prompt, every version kept with its techniques, observed failures and fix. `python -m app.prompts.library` regenerates `docs/PROMPT_LIBRARY.md`. Each trace step names the prompt version it ran (`rag.answer@v1 via groq/llama-3.3-70b-versatile`).
 
-Constants live in `backend/app/eval/metrics.py`.
+Add a new version when an evaluation or a trace shows a failure. Record the failure on the old version and the change on the new one. That is the before/after the grading asks for.
+
+## Evaluation
+
+| What | Command | Output |
+| --- | --- | --- |
+| Retrieval: chunking × mode × model, Recall@1/5, MRR, per language, latency | `python -m app.eval.retrieval_eval` | `docs/RETRIEVAL_EVAL.md` |
+| Routing: keyword vs LLM planner, Macro-F1 per agent | `python -m app.eval.routing_eval` | `docs/ROUTING_EVAL.md` |
+| Contracts and offline behaviour | `pytest backend` | |
+
+The question sets were written by the orchestrator owner from real passages. Teammates should review them and add their own before the final report.

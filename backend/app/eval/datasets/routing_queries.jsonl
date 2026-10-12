@@ -1,3 +1,60 @@
-{"id": "r001", "question": "Cette facture est-elle suspecte ?", "intent": "fraud", "domains": []}
-{"id": "r002", "question": "Quels documents BFPME faut-il pour une création ?", "intent": "aid", "domains": []}
-{"id": "r003", "question": "Quel article du code des sociétés traite du capital minimum ?", "intent": "rag", "domains": ["legal"]}
+{"id": "r001", "question": "Quel est le capital minimum pour créer une SA ?", "language": "fr", "agents": ["legal"]}
+{"id": "r002", "question": "SARL ou SUARL, quelle différence si je suis seul ?", "language": "fr", "agents": ["legal"]}
+{"id": "r003", "question": "What are the conditions to get the Tunisian startup label?", "language": "en", "agents": ["legal"]}
+{"id": "r004", "question": "Puis-je ouvrir un compte en devises pour ma startup labellisée ?", "language": "fr", "agents": ["legal"]}
+{"id": "r005", "question": "ما هي شروط الحصول على علامة المؤسسة الناشئة؟", "language": "ar", "agents": ["legal"]}
+{"id": "r006", "question": "Can I hire foreign engineers in my Tunisian company and how many?", "language": "en", "agents": ["legal"]}
+{"id": "r007", "question": "Quelles mentions obligatoires dans les statuts d'une société ?", "language": "fr", "agents": ["legal"]}
+{"id": "r008", "question": "Comment fonctionne le crowdfunding en Tunisie, c'est légal ?", "language": "fr", "agents": ["legal"]}
+{"id": "r009", "question": "Ma société n'arrive plus à payer ses dettes, quelles procédures existent ?", "language": "fr", "agents": ["legal"]}
+{"id": "r010", "question": "chnowa el wrak elli lazmin bech na3mel société ?", "language": "fr", "agents": ["legal"]}
+{"id": "r011", "question": "Est-ce qu'un salarié peut prendre un congé pour lancer sa startup ?", "language": "fr", "agents": ["legal"]}
+{"id": "r012", "question": "هل يمكن لمستثمر أجنبي أن يشتري محلا لمشروعه؟", "language": "ar", "agents": ["legal"]}
+{"id": "r013", "question": "Quels documents faut-il pour un financement BFPME ?", "language": "fr", "agents": ["grants"]}
+{"id": "r014", "question": "Is there any grant for green startups in Tunisia?", "language": "en", "agents": ["grants"]}
+{"id": "r015", "question": "Je suis artisan, est-ce que le FONAPRAM peut financer mon atelier ?", "language": "fr", "agents": ["grants"]}
+{"id": "r016", "question": "Comment avoir une garantie SOTUGAR pour mon crédit ?", "language": "fr", "agents": ["grants"]}
+{"id": "r017", "question": "Quelle prime pour un projet à Kasserine, zone de développement régional ?", "language": "fr", "agents": ["grants"]}
+{"id": "r018", "question": "ما هي المنح المتوفرة لبعث مشروع صغير؟", "language": "ar", "agents": ["grants"]}
+{"id": "r019", "question": "Which accelerators or seed funds invest in Tunisian startups?", "language": "en", "agents": ["grants"]}
+{"id": "r020", "question": "Je suis jeune diplômé sans garantie, quelle banque peut me prêter ?", "language": "fr", "agents": ["grants"]}
+{"id": "r021", "question": "nlawej 3la tamwil l mashrou3i, chnowa el7loul ?", "language": "fr", "agents": ["grants"]}
+{"id": "r022", "question": "L'Etat prend-il en charge une partie des intérêts de mon crédit d'investissement ?", "language": "fr", "agents": ["grants"]}
+{"id": "r023", "question": "What documents does BFPME ask for an extension project?", "language": "en", "agents": ["grants"]}
+{"id": "r024", "question": "Y a-t-il une aide pour la formation de mes employés ?", "language": "fr", "agents": ["grants"]}
+{"id": "r025", "question": "Aide-moi à remplir le Business Model Canvas de mon application de livraison.", "language": "fr", "agents": ["business_plan"]}
+{"id": "r026", "question": "How do I estimate my break-even point for a small bakery?", "language": "en", "agents": ["business_plan"]}
+{"id": "r027", "question": "Quelle structure pour un business plan à présenter à une banque ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r028", "question": "Peux-tu faire mes prévisions financières sur 3 ans ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r029", "question": "ساعدني في إعداد مخطط أعمال لمشروع فلاحي", "language": "ar", "agents": ["business_plan"]}
+{"id": "r030", "question": "Quelle norme comptable simplifiée s'applique à une petite entreprise ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r031", "question": "What is the typical margin in the restaurant sector?", "language": "en", "agents": ["business_plan"]}
+{"id": "r032", "question": "Lean canvas vs BMC, lequel choisir pour une startup tech ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r033", "question": "Comment trouver mes premiers clients pour une app de covoiturage à Tunis ?", "language": "fr", "agents": ["marketing"]}
+{"id": "r034", "question": "How should I price my SaaS for Tunisian SMEs?", "language": "en", "agents": ["marketing"]}
+{"id": "r035", "question": "Quelle stratégie réseaux sociaux pour une marque de cosmétiques bio ?", "language": "fr", "agents": ["marketing"]}
+{"id": "r036", "question": "كيف أسوق منتجاتي الحرفية عبر الإنترنت؟", "language": "ar", "agents": ["marketing"]}
+{"id": "r037", "question": "Who are my competitors and how do I position against them?", "language": "en", "agents": ["marketing"]}
+{"id": "r038", "question": "Fais-moi un plan go-to-market pour lancer en Tunisie puis en Algérie.", "language": "fr", "agents": ["marketing"]}
+{"id": "r039", "question": "kifech nesta9tab clients jdod l 7anouti ?", "language": "fr", "agents": ["marketing"]}
+{"id": "r040", "question": "Quel prix de vente fixer pour mes plats à emporter ?", "language": "fr", "agents": ["marketing"]}
+{"id": "r041", "question": "Ce contrat de location contient-il des clauses abusives ?", "language": "fr", "agents": ["fraud"]}
+{"id": "r042", "question": "This invoice from a supplier looks suspicious, can you check it?", "language": "en", "agents": ["fraud"]}
+{"id": "r043", "question": "J'ai reçu une offre d'investisseur qui me semble être une arnaque.", "language": "fr", "agents": ["fraud"]}
+{"id": "r044", "question": "هل هذا العقد آمن للإمضاء؟", "language": "ar", "agents": ["fraud"]}
+{"id": "r045", "question": "Is this partnership agreement fair to me or should I refuse?", "language": "en", "agents": ["fraud"]}
+{"id": "r046", "question": "Vérifie si cette facture fictive est une fraude.", "language": "fr", "agents": ["fraud"]}
+{"id": "r047", "question": "Je lance une startup fintech : quelle forme juridique et quels financements possibles ?", "language": "fr", "agents": ["legal", "grants"]}
+{"id": "r048", "question": "Startup label benefits and which seed funds can invest after I get it?", "language": "en", "agents": ["legal", "grants"]}
+{"id": "r049", "question": "Je veux créer une SARL de pâtisserie et faire son business plan pour la BFPME.", "language": "fr", "agents": ["legal", "business_plan", "grants"]}
+{"id": "r050", "question": "Prépare mon BMC et une stratégie marketing pour mon e-shop de vêtements.", "language": "fr", "agents": ["business_plan", "marketing"]}
+{"id": "r051", "question": "ما هي الإجراءات القانونية لبعث شركة وما هي المنح المتاحة؟", "language": "ar", "agents": ["legal", "grants"]}
+{"id": "r052", "question": "Combien coûte le lancement de mon projet et où trouver le financement ?", "language": "fr", "agents": ["business_plan", "grants"]}
+{"id": "r053", "question": "Is this investor term sheet fair, and what does the law say about issuing shares to him?", "language": "en", "agents": ["fraud", "legal"]}
+{"id": "r054", "question": "Quelle prime régionale pour une usine à Sidi Bouzid et quelles obligations légales pour l'investissement ?", "language": "fr", "agents": ["grants", "legal"]}
+{"id": "r055", "question": "bonjour", "language": "fr", "agents": []}
+{"id": "r056", "question": "J'ai une idée.", "language": "fr", "agents": []}
+{"id": "r057", "question": "What's the weather in Sousse tomorrow?", "language": "en", "agents": []}
+{"id": "r058", "question": "Écris-moi un poème sur la mer.", "language": "fr", "agents": []}
+{"id": "r059", "question": "مرحبا", "language": "ar", "agents": []}
+{"id": "r060", "question": "Qui a gagné le match de l'Espérance hier ?", "language": "fr", "agents": []}

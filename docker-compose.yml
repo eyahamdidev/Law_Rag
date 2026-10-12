@@ -4,13 +4,30 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - .env.example
+      - .env
+    environment:
+      QDRANT_URL: ""            # embedded Qdrant in ./data; set to http://qdrant:6333 with the ml profile
     volumes:
       - ./law:/app/law:ro
       - ./grants_and_financial_aids:/app/grants_and_financial_aids:ro
+      - ./business_plan:/app/business_plan:ro
       - ./fraud_detection:/app/fraud_detection
+      - ./data:/app/data        # chunks, embedding cache, vectors, OCR text, sessions
 
-  # Planned services from the architecture deck. They are not required to boot the scaffold.
+  # Automation backbone: chat channels, uploads, scheduled jobs. Workflows in n8n/.
+  n8n:
+    image: n8nio/n8n:1.88.0
+    ports:
+      - "5678:5678"
+    environment:
+      GENERIC_TIMEZONE: Africa/Tunis
+      API_BASE_URL: http://api:8000
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./n8n:/workflows:ro
+    depends_on:
+      - api
+
   qdrant:
     image: qdrant/qdrant:v1.13.4
     profiles: ["ml"]
@@ -28,3 +45,4 @@ services:
 
 volumes:
   qdrant_storage:
+  n8n_data:
