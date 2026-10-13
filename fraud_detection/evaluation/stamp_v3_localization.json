@@ -1,0 +1,2931 @@
+{
+  "thresholds_changed": false,
+  "finder": "gray_stamp width 0.72 height 0.55 aspect 2.25",
+  "queries_exclude_gen_000": true,
+  "summary": {
+    "oval_02": {
+      "queries": 50,
+      "localized": 13,
+      "matrix": {
+        "counterfeit|missing": 30,
+        "counterfeit|uncertain": 8,
+        "counterfeit|unrecognized": 2,
+        "genuine|missing": 7,
+        "genuine|uncertain": 3
+      },
+      "fraud_ids": [],
+      "genuine_ids": [],
+      "reasons": {}
+    },
+    "rect_02": {
+      "queries": 50,
+      "localized": 20,
+      "matrix": {
+        "counterfeit|missing": 24,
+        "counterfeit|uncertain": 15,
+        "counterfeit|unrecognized": 1,
+        "genuine|missing": 6,
+        "genuine|uncertain": 4
+      },
+      "fraud_ids": [],
+      "genuine_ids": [],
+      "reasons": {}
+    },
+    "oval_07": {
+      "queries": 50,
+      "localized": 45,
+      "matrix": {
+        "counterfeit|fraudulent": 2,
+        "counterfeit|missing": 4,
+        "counterfeit|uncertain": 33,
+        "counterfeit|unrecognized": 1,
+        "genuine|missing": 1,
+        "genuine|uncertain": 9
+      },
+      "fraud_ids": [
+        "oval_07_cfr_023",
+        "oval_07_cfr_026"
+      ],
+      "genuine_ids": []
+    },
+    "rect_04": {
+      "queries": 50,
+      "localized": 45,
+      "matrix": {
+        "counterfeit|fraudulent": 2,
+        "counterfeit|missing": 5,
+        "counterfeit|uncertain": 33,
+        "genuine|fraudulent": 1,
+        "genuine|uncertain": 9
+      },
+      "fraud_ids": [
+        "rect_04_har_002",
+        "rect_04_cfr_000",
+        "rect_04_cfr_013"
+      ],
+      "genuine_ids": []
+    }
+  },
+  "records": [
+    {
+      "id": "oval_02_gen_000",
+      "identity_id": "oval_02",
+      "kind": "genuine",
+      "verdict": "genuine",
+      "status": "match",
+      "reason_codes": [
+        "reference_match"
+      ],
+      "ncc": 1.0,
+      "stamp_localized": true,
+      "review_recommended": false,
+      "risk_level": "low"
+    },
+    {
+      "id": "oval_02_har_000",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_001",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_002",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_003",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1286,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_004",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_005",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_006",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_007",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_008",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6552,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_har_009",
+      "identity_id": "oval_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.4899,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_000",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_001",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.487,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_002",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_003",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_004",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1314,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_005",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_006",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_007",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_008",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6443,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_009",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_010",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.4674,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_011",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_012",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_013",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_014",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.4981,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_015",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_016",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1463,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_017",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_018",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_019",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.5412,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_020",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_021",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_022",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_023",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "unrecognized",
+      "status": "unrecognized",
+      "reason_codes": [
+        "no_matching_enrolled_identity"
+      ],
+      "ncc": 0.1698,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_024",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_025",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_026",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_027",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_028",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_029",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1413,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_030",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_031",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_032",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_033",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_034",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_035",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_036",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_037",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_038",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "unrecognized",
+      "status": "unrecognized",
+      "reason_codes": [
+        "no_matching_enrolled_identity"
+      ],
+      "ncc": 0.3428,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_02_cfr_039",
+      "identity_id": "oval_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_gen_000",
+      "identity_id": "rect_02",
+      "kind": "genuine",
+      "verdict": "genuine",
+      "status": "match",
+      "reason_codes": [
+        "reference_match"
+      ],
+      "ncc": 1.0,
+      "stamp_localized": true,
+      "review_recommended": false,
+      "risk_level": "low"
+    },
+    {
+      "id": "rect_02_har_000",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_001",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2174,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_002",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.224,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_003",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_004",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_005",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.205,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_006",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_007",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_008",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_har_009",
+      "identity_id": "rect_02",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2281,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_000",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1787,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_001",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1749,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_002",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1627,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_003",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2451,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_004",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_005",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_006",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_007",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_008",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_009",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_010",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2345,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_011",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1902,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_012",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_013",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_014",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_015",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_016",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_017",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2364,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_018",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_019",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_020",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2474,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_021",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_022",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_023",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2155,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_024",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1746,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_025",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.309,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_026",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_027",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2987,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_028",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_029",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_030",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_031",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_032",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_033",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.234,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_034",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "unrecognized",
+      "status": "unrecognized",
+      "reason_codes": [
+        "no_matching_enrolled_identity"
+      ],
+      "ncc": 0.1458,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_035",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_036",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2186,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_037",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_038",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2507,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_02_cfr_039",
+      "identity_id": "rect_02",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_gen_000",
+      "identity_id": "oval_07",
+      "kind": "genuine",
+      "verdict": "genuine",
+      "status": "match",
+      "reason_codes": [
+        "reference_match"
+      ],
+      "ncc": 1.0,
+      "stamp_localized": true,
+      "review_recommended": false,
+      "risk_level": "low"
+    },
+    {
+      "id": "oval_07_har_000",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6806,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_001",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.786,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_002",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8034,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_003",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7376,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_004",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_005",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.721,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_006",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.8289,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_007",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8207,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_008",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9007,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_har_009",
+      "identity_id": "oval_07",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6774,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_000",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6817,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_001",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.3592,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_002",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6995,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_003",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2658,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_004",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8229,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_005",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2583,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_006",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.169,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_007",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2864,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_008",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.7897,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_009",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6329,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_010",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_011",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2098,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_012",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7833,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_013",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.5015,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_014",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.761,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_015",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8318,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_016",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6632,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_017",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7584,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_018",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2371,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_019",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.7117,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_020",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6424,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_021",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2845,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_022",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.302,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_023",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "ncc": 0.5148,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "high"
+    },
+    {
+      "id": "oval_07_cfr_024",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8385,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_025",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.636,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_026",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "ncc": 0.4472,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "high"
+    },
+    {
+      "id": "oval_07_cfr_027",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "text_mismatch"
+      ],
+      "ncc": 0.6647,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_028",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7479,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_029",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2056,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_030",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8068,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_031",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_032",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "unrecognized",
+      "status": "unrecognized",
+      "reason_codes": [
+        "no_matching_enrolled_identity"
+      ],
+      "ncc": 0.4603,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_033",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_034",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_035",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.3643,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_036",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7985,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_037",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8072,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_038",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.1291,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "oval_07_cfr_039",
+      "identity_id": "oval_07",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.65,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_gen_000",
+      "identity_id": "rect_04",
+      "kind": "genuine",
+      "verdict": "genuine",
+      "status": "match",
+      "reason_codes": [
+        "reference_match"
+      ],
+      "ncc": 1.0,
+      "stamp_localized": true,
+      "review_recommended": false,
+      "risk_level": "low"
+    },
+    {
+      "id": "rect_04_har_000",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7913,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_001",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7519,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_002",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "ncc": 0.3305,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "high"
+    },
+    {
+      "id": "rect_04_har_003",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6956,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_004",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.452,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_005",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.3572,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_006",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7197,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_007",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9341,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_008",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8382,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_har_009",
+      "identity_id": "rect_04",
+      "kind": "genuine_variant",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2937,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_000",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "ncc": 0.3177,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "high"
+    },
+    {
+      "id": "rect_04_cfr_001",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6844,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_002",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.475,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_003",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2874,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_004",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_005",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7943,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_006",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2734,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_007",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_008",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9063,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_009",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9507,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_010",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8705,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_011",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_012",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7041,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_013",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "ncc": 0.3329,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "high"
+    },
+    {
+      "id": "rect_04_cfr_014",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7547,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_015",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_016",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.4636,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_017",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8144,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_018",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2945,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_019",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7654,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_020",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9196,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_021",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.2607,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_022",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6702,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_023",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7914,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_024",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8209,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_025",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8606,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_026",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8899,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_027",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8587,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_028",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6654,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_029",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8614,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_030",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "missing",
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "ncc": null,
+      "stamp_localized": false,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_031",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.7115,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_032",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "poor_image_quality"
+      ],
+      "ncc": 0.2357,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_033",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.9217,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_034",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.6657,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_035",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.674,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_036",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8481,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_037",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.423,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_038",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8614,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    },
+    {
+      "id": "rect_04_cfr_039",
+      "identity_id": "rect_04",
+      "kind": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "ncc": 0.8824,
+      "stamp_localized": true,
+      "review_recommended": true,
+      "risk_level": "medium"
+    }
+  ],
+  "also_rescored_because_seven_previously_missing_boxes_appeared": [
+    "oval_07",
+    "rect_04"
+  ]
+}

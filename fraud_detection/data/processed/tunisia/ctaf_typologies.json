@@ -1,0 +1,174 @@
+{
+  "source_note": "Patterns below are condensed from CTAF publications that were downloaded and read. They are documented cases and warning signs. They are not transaction-level training rows. Numeric gates used by the rule engine, when present, are marked operational_gate and are not figures printed by CTAF.",
+  "patterns": [
+    {
+      "pattern_id": "CTAF-2024-T1",
+      "crime_category": "money_laundering_ponzi_shell_companies",
+      "transaction_behavior": "Companies with no declared turnover are funded by transfers from many people, presented as investments in commercial paper, while related share sales are used to simulate activity.",
+      "entities_involved": ["company", "broker", "straw_man", "investors"],
+      "instruments": ["domestic_transfer", "commercial_paper", "share_sale"],
+      "geographic_indicators": ["Tunisia", "resident_nonresident_compensation_without_BCT_authorization"],
+      "temporal_indicators": ["multi_year_share_sales_used_to_support_a_later_subscription_scheme"],
+      "amount_indicators": ["declared_turnover_zero_against_large_bank_flows", "share_sales_of_1500000_TND_in_the_described_case"],
+      "velocity_indicators": ["many_payers_funding_the_same_companies"],
+      "relationship_graph_indicators": ["family_and_broker_links", "shell_companies", "straw_man"],
+      "documented_warning_signs": [
+        "Declared tax turnover is zero while bank flows are large.",
+        "No share purchases for the issuing companies over three years.",
+        "Repeated share sales to related parties.",
+        "Promised yields described as abnormally high versus sector practice."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 20-22",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Fire only when declared annual revenue is exactly zero and at least five distinct payers fund the receiver within 30 days. CTAF did not publish that payer count."
+    },
+    {
+      "pattern_id": "CTAF-2024-T2",
+      "crime_category": "terrorism_financing_and_smuggling",
+      "transaction_behavior": "Cash deposits and cheque proceeds move through one account, with deposits and withdrawals synchronized, and no credible economic justification for the volume.",
+      "entities_involved": ["account_holder", "commercial_counterparties"],
+      "instruments": ["cash", "cheque"],
+      "geographic_indicators": ["cash_deposits_from_several_places_in_Tunisia_mainly_border_cities"],
+      "temporal_indicators": ["2022-2023 in the described case", "tight_synchronization_between_deposits_and_withdrawals"],
+      "amount_indicators": ["1200000_TND_total_in_the_described_case", "432439_TND_cash", "756067_TND_cheques"],
+      "velocity_indicators": ["deposits_and_withdrawals_move_together"],
+      "relationship_graph_indicators": ["several_commercial_originators"],
+      "documented_warning_signs": [
+        "Volume is inconsistent with the customer's economic profile.",
+        "No credible economic justification.",
+        "Cash deposits and withdrawals are tightly synchronized."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 22-23",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "The rule uses cash or cheque instruments plus a 6-hour in-and-out ratio. It does not use occupation, age, or nationality. The case amounts are not a threshold."
+    },
+    {
+      "pattern_id": "CTAF-2024-T3",
+      "crime_category": "pass_through_accounts",
+      "transaction_behavior": "Accounts opened in Tunisia receive funds from abroad and transfer them onward to foreign beneficiaries, with no apparent link and no real activity in Tunisia.",
+      "entities_involved": ["foreign_nonresident_persons", "tunisian_company", "foreign_beneficiaries"],
+      "instruments": ["cross_border_transfer"],
+      "geographic_indicators": ["funds_in_from_abroad", "funds_out_to_abroad", "countries_described_as_weaker_surveillance_in_the_case"],
+      "temporal_indicators": ["remote_management_of_the_account"],
+      "amount_indicators": ["not_quantified_in_the_case_narrative"],
+      "velocity_indicators": ["receipt_followed_by_onward_transfer"],
+      "relationship_graph_indicators": ["pass_through", "no_apparent_link_between_originator_and_beneficiary", "beneficial_owner_outside_the_account_name"],
+      "documented_warning_signs": [
+        "Account used to receive and immediately redistribute cross-border funds.",
+        "No economic justification and no effective activity in Tunisia.",
+        "Remote control of the account."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 23-25",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Requires cross-border inbound funding and a cross-border onward payment within 24 hours covering at least 70 percent of that inflow, from at least two distinct originators. Country of either side alone does not fire the rule."
+    },
+    {
+      "pattern_id": "CTAF-2024-T4",
+      "crime_category": "illegal_sports_betting_and_crypto_payment_rails",
+      "transaction_behavior": "A small group receives and sends many instant money orders with no economic link, then uses crypto purchases and sales in dinars and electronic foreign-currency payments to reach foreign betting platforms.",
+      "entities_involved": ["money_order_recipients", "foreign_betting_platforms"],
+      "instruments": ["mandat_minute", "crypto_against_tnd", "electronic_payment_in_foreign_currency"],
+      "geographic_indicators": ["foreign_betting_platforms", "payments_aimed_at_circumventing_resident_FX_limits"],
+      "temporal_indicators": ["recurrent_money_orders"],
+      "amount_indicators": ["volume_inconsistent_with_counterparty_profiles"],
+      "velocity_indicators": ["many_money_orders_in_and_out", "shared_counterparties"],
+      "relationship_graph_indicators": ["same_individuals_linked_to_the_group", "phone_numbers_advertised_for_betting_and_peer_to_peer_crypto"],
+      "documented_warning_signs": [
+        "Many instant money orders without an economic or personal link.",
+        "Betting or crypto payment role is actually indicated.",
+        "Foreign-currency electronic payments used to reach betting platforms."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 25-26",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Requires both a betting or crypto indicator on the payment and at least four money-order counterparties in 30 days. A money order alone, or a country alone, does not fire."
+    },
+    {
+      "pattern_id": "CTAF-2024-T5",
+      "crime_category": "cyberfraud_phishing_social_accounts",
+      "transaction_behavior": "Occasional customers receive several money orders in a short period after senders report fraud. Instruments are instant dinar money orders and international money orders.",
+      "entities_involved": ["occasional_customer", "money_order_sender"],
+      "instruments": ["mandat_minute_tnd", "international_money_order"],
+      "geographic_indicators": ["international_money_orders_as_well_as_domestic_instant_orders"],
+      "temporal_indicators": ["several_money_orders_over_a_short_period"],
+      "amount_indicators": ["described_instant_orders_between_380_and_4000_TND", "described_international_orders_between_500_and_4000_TND"],
+      "velocity_indicators": ["several_incoming_money_orders_in_a_short_window"],
+      "relationship_graph_indicators": ["no_economic_link_between_sender_and_receiver", "senders_report_the_recipient"],
+      "documented_warning_signs": [
+        "Occasional customer.",
+        "Several money orders in a short period.",
+        "No economic link.",
+        "The case also describes social-media account takeover. Age, region, and occupation from the case are not used as rules."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 26-27",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Requires an explicit occasional-customer flag and at least three inbound money orders in 7 days. The 380-4000 TND band is cited, not used as a detector."
+    },
+    {
+      "pattern_id": "CTAF-2024-T6",
+      "crime_category": "declared_activity_mismatch_cash_and_unauthorized_cross_border_transfer",
+      "transaction_behavior": "Companies declaring IT services are funded mainly by cash and then transfer dinar balances abroad without the required authorization. The real activity described was passenger transport.",
+      "entities_involved": ["tunisian_company", "foreign_shareholders", "foreign_related_companies"],
+      "instruments": ["cash_deposit", "cross_border_transfer"],
+      "geographic_indicators": ["transfers_from_tunisia_to_related_foreign_accounts"],
+      "temporal_indicators": ["activity_described_over_2019-2024", "related_foreign_entities_mostly_created_in_2019"],
+      "amount_indicators": ["about_14000000_TND_in_the_described_case"],
+      "velocity_indicators": ["cash_in_followed_by_transfers_abroad"],
+      "relationship_graph_indicators": ["nested_company_structure", "declared_activity_differs_from_observed_cash_and_foreign_transfers"],
+      "documented_warning_signs": [
+        "Heavy cash funding.",
+        "Declared activity does not match the observed financial activity.",
+        "Transfers abroad without the authorization the case says was required."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 27-28",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Requires a declared IT or software activity together with both cash funding and a cross-border transfer in 30 days. Declared activity alone does not fire."
+    },
+    {
+      "pattern_id": "CTAF-2024-T7",
+      "crime_category": "migrant_smuggling_collection_through_money_orders",
+      "transaction_behavior": "One occasional customer collects many international money orders, with no economic justification. The 2024 case is 46 orders totaling 76445 TND over four months. A separate bulletin case is 57 Western Union or MoneyGram orders totaling 60943.24 TND over eight months.",
+      "entities_involved": ["occasional_customer", "many_unrelated_senders", "money_transfer_operator"],
+      "instruments": ["international_money_order", "western_union", "moneygram"],
+      "geographic_indicators": ["orders_sent_from_several_foreign_countries"],
+      "temporal_indicators": ["four_months_in_the_2024_case", "eight_months_in_the_bulletin_case"],
+      "amount_indicators": ["76445_TND_across_46_orders", "60943.24_TND_across_57_orders"],
+      "velocity_indicators": ["many_international_money_orders_to_one_receiver"],
+      "relationship_graph_indicators": ["many_unrelated_senders", "several_phone_numbers_used_to_collect", "possible_straw_collector"],
+      "documented_warning_signs": [
+        "Repeated international money orders to one collector.",
+        "No economic or contractual justification.",
+        "Sender origin is described in the case. Origin, nationality, and ethnicity are not used as rule conditions."
+      ],
+      "source_page": "CTAF Rapport d'activité 2024, pp. 28-29; CTAF bulletin 2020-2025, p. 16",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/68ed20ef1333f7.67071673.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "At least eight inbound cross-border money orders to the same receiver in 120 days. That gate is below the documented counts of 46 and 57 and is not itself a CTAF statistic."
+    },
+    {
+      "pattern_id": "CTAF-FT-2020-2025-FLOWS",
+      "crime_category": "terrorism_financing_behavioral_indicators",
+      "transaction_behavior": "Bulletin warning signs that can be checked from payment fields: unjustified origin or destination, repeated international transfers, heavy cash use, many international money orders from unrelated people, sudden activity, frequent unexplained FX, large cash followed by immediate withdrawal, a bank account funded by many unrelated originators, and an occasional customer doing frequent or large operations.",
+      "entities_involved": ["customer", "company", "association"],
+      "instruments": ["cash", "international_money_order", "transfer", "cheque", "electronic_payment"],
+      "geographic_indicators": ["international_transfers_are_a_signal_only_together_with_other_behavior"],
+      "temporal_indicators": ["sudden_activity", "rapid_change_in_behavior"],
+      "amount_indicators": ["volume_inconsistent_with_declared_activity_or_revenue"],
+      "velocity_indicators": ["high_frequency_small_local_transfers", "repeated_international_money_orders"],
+      "relationship_graph_indicators": ["many_unrelated_originators", "young_or_previously_inactive_company_with_unusual_volume"],
+      "documented_warning_signs": [
+        "Sanctions listing is already handled by the sanctions layer.",
+        "Demographic breakdowns in the bulletin (age, gender, nationality, residence) are not encoded as rules."
+      ],
+      "source_page": "CTAF bulletin 2020-2025, pp. 17-18",
+      "source_url": "https://www.ctaf.gov.tn/data/uploads/pdf/6a26c622d81294.49709769.pdf",
+      "confidence": "documented_case",
+      "operational_gate": "Used as the citation for the young-entity and many-unrelated-originator behavior already covered by the 2024 case rules. No extra score is produced from this indicator list alone."
+    }
+  ]
+}

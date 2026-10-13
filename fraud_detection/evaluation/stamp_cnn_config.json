@@ -1,0 +1,66 @@
+{
+  "model": "resnet18",
+  "version": "stamp-cnn-v1",
+  "seed": 20261012,
+  "input_size": 224,
+  "learning_rate": 0.0003,
+  "max_epochs": 8,
+  "patience": 2,
+  "epochs_ran": 4,
+  "target_fpr": 0.05,
+  "threshold_high": 0.8935847789049148,
+  "threshold_low": 0.5960011661052704,
+  "val_average_precision": 0.711697839325763,
+  "val_counts": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 4,
+        "suspicious": 8,
+        "manual_review": 132,
+        "n": 144
+      },
+      "counterfeit": {
+        "likely_genuine": 13,
+        "suspicious": 23,
+        "manual_review": 224,
+        "n": 260
+      }
+    },
+    "counterfeit_recall": 0.08846153846153847,
+    "false_fraud_rate": 0.05555555555555555,
+    "false_accept_rate": 0.05,
+    "precision": 0.7419354838709677,
+    "unresolved_rate": 0.8811881188118812,
+    "suspicious_count": "23/31",
+    "recall_count": "23/260",
+    "false_fraud_count": "8/144",
+    "false_accept_count": "13/260",
+    "unresolved_count": "356/404"
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "train_loss": 0.8845033302805783,
+      "val_average_precision": 0.6848711601435616
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.7176931984803775,
+      "val_average_precision": 0.711697839325763
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6993347398595873,
+      "val_average_precision": 0.7020234940385398
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6824677073617906,
+      "val_average_precision": 0.6912907319677859
+    }
+  ],
+  "class_weight_genuine": 2.3181817531585693,
+  "class_weight_counterfeit": 0.637499988079071,
+  "score_is_calibrated_probability": false,
+  "test_identities_used_for_training_or_thresholds": false
+}

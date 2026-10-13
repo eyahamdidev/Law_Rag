@@ -1,0 +1,72 @@
+{
+  "behavioral_model": "fraud_detection/models/artifacts/supervised.joblib",
+  "anomaly_model": "fraud_detection/models/artifacts/anomaly.joblib",
+  "sanctions_index": "fraud_detection/models/artifacts/sanctions.joblib",
+  "ulb_specialist_used_when_pca_present": "fraud_detection/models/artifacts/ulb_card.joblib",
+  "general_behavior_model": "fraud_detection/models/artifacts/general_behavior.joblib",
+  "specialists_not_used_by_api": [
+    "fraud_detection/models/artifacts/elliptic_aml.joblib"
+  ],
+  "feature_names": [
+    "log_amount",
+    "amount",
+    "hour",
+    "is_night",
+    "is_round_1000",
+    "is_cross_border",
+    "out_count_1h",
+    "out_count_24h",
+    "out_sum_24h",
+    "in_count_24h",
+    "in_sum_24h",
+    "unique_in_counterparties_24h",
+    "unique_out_counterparties_24h",
+    "is_new_counterparty",
+    "repeat_same_amount_72h",
+    "hours_since_prev",
+    "account_age_days",
+    "amount_over_monthly_revenue",
+    "is_foreign_receiver",
+    "is_tnd",
+    "in_out_ratio_6h",
+    "bid_count",
+    "award_to_estimate_ratio",
+    "is_card",
+    "has_invoice",
+    "has_expense",
+    "amount_vs_median",
+    "amount_percentile",
+    "out_count_7d",
+    "balance_mismatch",
+    "amount_to_old_balance",
+    "balance_zeroed"
+  ],
+  "label_map": {
+    "CARD_FRAUD": "banksim",
+    "AML_LAUNDERING": "ibm_aml",
+    "ACCOUNT_TAKEOVER": "paysim"
+  },
+  "aggregation": {
+    "weights": {
+      "rules": 0.3,
+      "supervised": 0.3,
+      "anomaly": 0.2,
+      "graph_if_positive": 0.2
+    },
+    "floors": {
+      "rules_at_least_0.85": "max(score, 0.9 * rules)",
+      "supervised_at_least_0.90": 0.75,
+      "graph_at_least_0.90": 0.75,
+      "two_model_components_at_least_0.80": 0.78,
+      "sanctions_match": 0.8
+    },
+    "levels": {
+      "HIGH_RISK": ">= 75",
+      "MEDIUM_RISK": ">= 45",
+      "LOW_RISK": "< 45"
+    },
+    "meaning": "risk score from 0-100 produced by a deterministic evidence aggregation policy, not a probability of fraud",
+    "type_gate": "schema only, not dataset name: CARD_FRAUD for card or ULB PCA inputs; ACCOUNT_TAKEOVER for mobile-money, device, or balance-drain inputs; AML_LAUNDERING for transfers and AML payment formats",
+    "supervised_floor": "0.75 only when data coverage is HIGH and the eligible calibrated specialist score is at least 0.90"
+  }
+}

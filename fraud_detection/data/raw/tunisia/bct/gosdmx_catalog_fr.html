@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOSDMX</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: white; /* Arrière-plan blanc pour toute la page */
+            color: black; /* Texte noir pour une meilleure lisibilité */
+        }
+        .nav-section {
+            background-color: #4e94c8; /* Arrière-plan bleu personnalisé pour la section de navigation */
+            padding: 10px;
+        }
+        .language-link-active {
+            margin-left: 10px;
+            color: white; /* Couleur du texte blanc */
+            font-weight: bold; /* Texte en gras */
+        }
+        .language-link-normal {
+            margin-left: 10px;
+            color: white; /* Couleur du texte blanc */            
+        }
+        .page-title {
+            font-size: 28px; /* Taille de la police du titre */
+        }
+        .img-fluid {
+            max-height: 200px; /* Hauteur maximale pour les images */
+            width: auto; /* Ajustement automatique de la largeur */
+        }
+        .image-section {
+            position: relative; /* Position relative pour permettre le positionnement absolu */
+            padding: 0; /* Réinitialisation des marges internes */
+        }
+        .image-mask {
+            position: absolute; /* Position absolue pour masquer l'arrière-plan */
+            top: 0; /* Alignement en haut */
+            bottom: 0; /* Alignement en bas */
+            left: 0; /* Alignement à gauche */
+            right: 0; /* Alignement à droite */
+            background-color: #9cc0d9; /* Couleur d'arrière-plan pour les côtés */
+            z-index: -1; /* Position derrière les images */
+        }
+        .wider-table {
+            width: 100%; /* Largeur de la table à 100% */
+        }
+        .smaller-title {
+            font-size: 20px; /* Taille de la police plus petite */
+        }
+        .table tbody tr:nth-child(odd) {
+            background-color: #f2f2f2; /* Fond gris clair plus sombre pour les lignes impaires */
+        }
+        .table td, .table th {
+            border: none; /* Supprimer les bordures entre les colonnes */
+        }
+        .footer {
+            background-color: #f8f9fa; /* Couleur d'arrière-plan du footer */
+            color: #000000; /* Couleur du texte */
+        }
+        .footer .col-md-6 {
+            margin-right: 15px; /* Marge à droite pour la première colonne */
+            margin-left: 15px; /* Marge à gauche pour la deuxième colonne */
+        }
+         
+        .first-column {
+            width: 1000px; /* Vous pouvez ajuster la largeur selon vos besoins */
+        }
+    
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 nav-section d-flex justify-content-between">
+            <div></div> <!-- Ajoute un espace vide pour pousser les liens à droite -->
+            <div>
+                <a href="/gosdmx/pnrd?lang=FR" class="language-link-active">Français</a>
+                <a href="/gosdmx/pnrd?lang=EN" class="language-link-normal">Anglais</a>
+            </div>
+        </div>
+    </div>
+     <div class="row image-section justify-content-end">
+        <div class="col-md-12 text-right">
+            <div class="image-mask"></div> <!-- Masque d'arrière-plan -->
+            <!-- Inclure l'image avec Thymeleaf -->
+            <img src="/gosdmx/assets/img/bct_header.png" class="img-fluid" alt="BCT Header" style="max-width: 900px; max-height: 700px;">
+            <img src="/gosdmx/assets/img/bct_logo.png" class="img-fluid" alt="BCT Logo" style="max-width:300px; max-height: 700px;">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="page-title">Données économiques et financières</h1>
+            <p>Les données contenues dans cette page correspondent aux données décrites dans le Tableau d'affichage des normes de diffusion (TAND) du Fonds monétaire international.Pour obtenir des explications plus complètes sur le TAND et les normes statistiques auxquelles la Tunisie s'est conformée, veuillez cliquer sur <a href="https://dsbb.imf.org/sdds/country/TUN/category" target="_blank">la Page d'accueil du TAND</a>.</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div  class="row">
+        <div class="col-md-12">
+                <h3 class="smaller-title">Données macroéconomiques et financières</h3>
+            
+            <table class="table table-bordered wider-table">
+                <tbody>
+                    <tr>
+                        <td class="first-column">Comptes Nationaux</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1423">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=NAG">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/NAG00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Indice de production</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1610">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=IND">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/IND00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Marché du travail : Emploi</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1424">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=EMP">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/EMP00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Marché du travail: taux de chômage</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1425">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=UEM">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/UEM00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Salaires et gains</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1426">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=WOE">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/WOE00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Indice de prix à la consommation</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=1420">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=CPI">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/CPI00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Indices de prix de ventes industrielles</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=2">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=PPI">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/PPI00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Opérations du secteur public</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=5">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=GGO">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/GGO00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Opérations de l&#39;administration centrale</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=6">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=CGO">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/CGO00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Encours Dette Publique:Administration Centrale</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=7">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=CGD">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/CGD00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Comptes analytiques du secteur bancaire</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=8">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=DCS">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/AAB00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Comptes analytiques de la Banque Centrale</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=9">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=CBS">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/AAC00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Taux d&#39;interêt</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                <button type="button" class="btn btn-primary btn-sm" onclick="window.open(&#39;https://www.bct.gov.tn/bct/siteprod/stat_page.jsp?id=129&amp;la=AN&#39;, &#39;_blank&#39;)">Voir les données</button>
+                
+            </td>
+
+
+
+                        <td>
+                        
+                         
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/INR00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Indices Boursiers</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                <button type="button" class="btn btn-primary btn-sm" onclick="window.open(&#39;https://www.bct.gov.tn/bct/siteprod/indicateurs.jsp&#39;, &#39;_blank&#39;)">Voir les données</button>
+                
+            </td>
+
+
+
+                        <td>
+                        
+                         
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/SPI00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Balance des Paiements</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=12">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=BOP6">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/BOP00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Réserves Internationales</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=13">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=ILV1">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/ILV00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Tableau des réserves</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=14">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=ILV2">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/ILV00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Commerce extérieur</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=15">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=MET">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/MET00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Position extérieure globale</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=16">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=IIP6">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/IIP00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Taux de change</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                <button type="button" class="btn btn-primary btn-sm" onclick="window.open(&#39;https://www.bct.gov.tn/bct/siteprod/cours.jsp&#39;, &#39;_blank&#39;)">Voir les données</button>
+                
+            </td>
+
+
+
+                        <td>
+                        
+                         
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/EXR00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                    <tr>
+                        <td class="first-column">Position de la dette extérieure brute</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=18">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=EXD">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/EXD00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                   
+                    
+                   
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12">
+                <h3 class="smaller-title">Indicateurs démographiques et socio-économiques</h3>
+            
+            <table class="table table-bordered wider-table">
+                <tbody>
+                    <tr>
+                        <td class="first-column">Demographic and  Socio-Economic Indicators</td>
+
+
+
+
+            <td>
+                <!-- Utilisation de th:if pour conditionner l'affichage du bouton Voir les données -->
+                
+                <a href="/gosdmx/telechargerFichierExcel?rubriqueId=2210">
+                    <button type="button" class="btn btn-primary btn-sm">Voir les données</button>
+                </a>
+            </td>
+
+
+
+                        <td>
+                        
+                         <a href="/gosdmx/telechargerFichierXML?rubriqueAbbreviation=POP">
+                    <button type="button" class="btn btn-success btn-sm">Télécharger SDMX</button>
+                </a>
+                        </td>
+<td>
+                <a href="https://dsbb.imf.org/sdds/dqaf-base/country/TUN/category/POP00" target="_blank">
+                    <button type="button" class="btn btn-info btn-sm">Métadonnées DSBB</button>
+                </a>
+            </td>                    </tr>
+                   
+                    
+                   
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-12">
+                
+            
+            <table class="table table-bordered wider-table">
+                <tbody>
+                    
+                   
+                    
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>© 2024 Copyright: Banque Centrale de Tunisie</p>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

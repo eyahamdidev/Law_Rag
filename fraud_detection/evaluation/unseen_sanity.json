@@ -1,0 +1,550 @@
+{
+  "note": "Local fixtures. Not training rows and not test-set metrics.",
+  "load_seconds": 1.289,
+  "first_score_seconds": 0.1819,
+  "later_score_seconds_median": 0.0191,
+  "cases": [
+    {
+      "case": "normal_recurring_payment",
+      "risk_score": 4,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1531,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1206
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.85,
+      "model_confidence": 0.85,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for recurring."
+    },
+    {
+      "case": "large_known_beneficiary",
+      "risk_score": 5,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1931,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1588
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.81,
+      "model_confidence": 0.81,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for large-known."
+    },
+    {
+      "case": "repeated_invoice",
+      "risk_score": 81,
+      "risk_level": "HIGH_RISK",
+      "fraud_labels": [
+        "INVOICE_FRAUD"
+      ],
+      "fraud_types": [
+        "duplicate_invoice"
+      ],
+      "model_scores": {
+        "supervised": null,
+        "supervised_by_type": {},
+        "anomaly": 0.1522,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1182
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": true,
+      "tunisia_score": null,
+      "explanation": "The same payment of 4200 EUR from fr-sender to supplier appears 2 times inside 48 hours."
+    },
+    {
+      "case": "new_beneficiary_domestic",
+      "risk_score": 33,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [
+        "ACCOUNT_TAKEOVER"
+      ],
+      "fraud_types": [
+        "new_counterparty"
+      ],
+      "model_scores": {
+        "supervised": 0.1167,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.1167
+        },
+        "anomaly": 0.1955,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1673
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.5,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "First payment to a beneficiary with no prior payments is 9000 EUR, above this sender's usual size."
+    },
+    {
+      "case": "rapid_incoming_outgoing",
+      "risk_score": 81,
+      "risk_level": "HIGH_RISK",
+      "fraud_labels": [
+        "AML_LAUNDERING"
+      ],
+      "fraud_types": [
+        "rapid_in_outflow",
+        "rapid_chain"
+      ],
+      "model_scores": {
+        "supervised": 0.083,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.083
+        },
+        "anomaly": 0.2402,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.64,
+        "general_behavior": 0.2128
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": true,
+      "tunisia_score": null,
+      "explanation": "The account received 6000 TND from 3 counterparties and sent 92% onward within 0.7 hours. collector forwarded funds after receiving from 3 accounts inside the same 6 hour window."
+    },
+    {
+      "case": "high_velocity",
+      "risk_score": 81,
+      "risk_level": "HIGH_RISK",
+      "fraud_labels": [
+        "ANOMALY",
+        "ACCOUNT_TAKEOVER"
+      ],
+      "fraud_types": [
+        "unusual_transaction_velocity"
+      ],
+      "model_scores": {
+        "supervised": 0.0,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0
+        },
+        "anomaly": 0.1897,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1652
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": true,
+      "tunisia_score": null,
+      "explanation": "fr-sender sent 9 transactions within one hour."
+    },
+    {
+      "case": "unusual_hour",
+      "risk_score": 29,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [
+        "ANOMALY"
+      ],
+      "fraud_types": [
+        "unusual_night_activity"
+      ],
+      "model_scores": {
+        "supervised": 0.0085,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0085
+        },
+        "anomaly": 0.2187,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1951
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.39,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "The payment of 400 EUR was made at 02:00, outside this sender's usual hours."
+    },
+    {
+      "case": "many_to_one",
+      "risk_score": 18,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [
+        "AML_LAUNDERING"
+      ],
+      "fraud_types": [
+        "fan_in"
+      ],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1491,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.72,
+        "general_behavior": 0.1251
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "hub received funds from 11 accounts within 6 hours."
+    },
+    {
+      "case": "one_to_many",
+      "risk_score": 18,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [
+        "AML_LAUNDERING"
+      ],
+      "fraud_types": [
+        "fan_out"
+      ],
+      "model_scores": {
+        "supervised": 0.0024,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0024
+        },
+        "anomaly": 0.1927,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.72,
+        "general_behavior": 0.1742
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "distributor sent funds to 11 accounts within 6 hours."
+    },
+    {
+      "case": "short_cycle",
+      "risk_score": 75,
+      "risk_level": "HIGH_RISK",
+      "fraud_labels": [
+        "AML_LAUNDERING"
+      ],
+      "fraud_types": [
+        "cycle"
+      ],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1979,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.93,
+        "general_behavior": 0.185
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.7,
+      "data_coverage": "HIGH",
+      "requires_human_review": true,
+      "tunisia_score": null,
+      "explanation": "Recent transfers form a path from cycle-a back to cycle-c."
+    },
+    {
+      "case": "cross_border",
+      "risk_score": 28,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [
+        "cross_border_flow"
+      ],
+      "model_scores": {
+        "supervised": 0.0178,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0178
+        },
+        "anomaly": 0.1452,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1166
+      },
+      "graph_status": "insufficient_history",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.4,
+      "model_confidence": 0.55,
+      "data_coverage": "MEDIUM",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "A 25000 TND payment moves between TN and FR."
+    },
+    {
+      "case": "missing_history",
+      "risk_score": 4,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1502,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1259
+      },
+      "graph_status": "insufficient_history",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.85,
+      "model_confidence": 0.85,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for solo."
+    },
+    {
+      "case": "incomplete_fields",
+      "risk_score": 4,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": 0.0,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0
+        },
+        "anomaly": 0.1573,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1298
+      },
+      "graph_status": "insufficient_history",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.35,
+      "model_confidence": 0.35,
+      "data_coverage": "LOW",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for missing-id-0e83ede52a4e."
+    },
+    {
+      "case": "unknown_category_currency",
+      "risk_score": 6,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": null,
+        "supervised_by_type": {},
+        "anomaly": 0.1586,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1311
+      },
+      "graph_status": "insufficient_history",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.84,
+      "model_confidence": 0.84,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for pix."
+    },
+    {
+      "case": "sanctions_hit",
+      "risk_score": 80,
+      "risk_level": "HIGH_RISK",
+      "fraud_labels": [],
+      "fraud_types": [
+        "sanctions_match"
+      ],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1564,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1254
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "match",
+        "match": true,
+        "matched_entity": "AEROCARIBBEAN AIRLINES",
+        "match_score": 1.0
+      },
+      "confidence": 0.84,
+      "model_confidence": 0.84,
+      "data_coverage": "HIGH",
+      "requires_human_review": true,
+      "tunisia_score": null,
+      "explanation": "The receiver name matches AEROCARIBBEAN AIRLINES on the OFAC_SDN list."
+    },
+    {
+      "case": "ordinary_entity",
+      "risk_score": 5,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": 0.0069,
+        "supervised_by_type": {
+          "AML_LAUNDERING": 0.0069
+        },
+        "anomaly": 0.1758,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1382
+      },
+      "graph_status": "scored",
+      "sanctions": {
+        "status": "no_match",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.82,
+      "model_confidence": 0.82,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for clean-name."
+    },
+    {
+      "case": "unfamiliar_shape",
+      "risk_score": 6,
+      "risk_level": "LOW_RISK",
+      "fraud_labels": [],
+      "fraud_types": [],
+      "model_scores": {
+        "supervised": null,
+        "supervised_by_type": {},
+        "anomaly": 0.1586,
+        "anomaly_source": "population_isolation_forest",
+        "graph": 0.0,
+        "general_behavior": 0.1311
+      },
+      "graph_status": "insufficient_history",
+      "sanctions": {
+        "status": "no_name_supplied",
+        "match": false,
+        "matched_entity": null,
+        "match_score": null
+      },
+      "confidence": 0.84,
+      "model_confidence": 0.84,
+      "data_coverage": "HIGH",
+      "requires_human_review": false,
+      "tunisia_score": null,
+      "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for gift."
+    }
+  ]
+}

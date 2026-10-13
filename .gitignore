@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+*.pyc
+.env
+
+# Immutable raw drops and generated matrices stay on disk, not in git.
+fraud_detection/data/download.log
+fraud_detection/data/**/*.csv
+!fraud_detection/data/stamp_dataset_v3/**/*.csv
+fraud_detection/data/**/*.parquet
+fraud_detection/data/**/*.zip
+fraud_detection/data/**/*.jsonl
+fraud_detection/data/**/*.tsv
+fraud_detection/data/**/*.xml
+fraud_detection/data/**/*.pdf
+!fraud_detection/data/genuine/*.pdf
+fraud_detection/data/**/*.npz
+fraud_detection/data/**/*.npy
+fraud_detection/models/**/*.joblib
+fraud_detection/models/**/*.pkl
+# Saved scoring weights are small enough to share. Raw training files stay out.
+!fraud_detection/models/artifacts/*.joblib
+fraud_detection/data/specimens/*
+!fraud_detection/data/specimens/README.md
+model_store/**/*.joblib
+model_store/**/*.pkl

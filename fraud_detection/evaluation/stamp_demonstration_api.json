@@ -1,0 +1,118 @@
+{
+  "endpoint": "POST /v1/score",
+  "enrollment": "capital PDF then balance PDF, each approved with POST /v1/documents/decide for receiver demo-company",
+  "note": "Uploaded scans are kept up to 1600 px. The enrolled PDFs are rendered and limited to 1200 px, matching the measurement used for the verdict rule.",
+  "api": [
+    {
+      "filename": "capital_0000_reference.jpg",
+      "ground_truth": "reference",
+      "expected": "genuine",
+      "http_status": 200,
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9754,
+      "genuine_probability": 0.0193,
+      "specimen_id": "b9aaf925553e",
+      "matched_expected": true
+    },
+    {
+      "filename": "capital_0005_reference.jpg",
+      "ground_truth": "reference",
+      "expected": "genuine",
+      "http_status": 200,
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9674,
+      "genuine_probability": 0.0041,
+      "specimen_id": "b9aaf925553e",
+      "matched_expected": true
+    },
+    {
+      "filename": "capital_0014_reference.jpg",
+      "ground_truth": "reference",
+      "expected": "genuine",
+      "http_status": 200,
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9648,
+      "genuine_probability": 0.012,
+      "specimen_id": "b9aaf925553e",
+      "matched_expected": true
+    },
+    {
+      "filename": "capital_0021_reference.jpg",
+      "ground_truth": "reference",
+      "expected": "genuine",
+      "http_status": 200,
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9694,
+      "genuine_probability": 0.0142,
+      "specimen_id": "b9aaf925553e",
+      "matched_expected": true
+    },
+    {
+      "filename": "balance_0028_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "expected": "fraudulent",
+      "http_status": 200,
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6952,
+      "genuine_probability": 0.0154,
+      "specimen_id": "9851d63f24c4",
+      "matched_expected": true
+    },
+    {
+      "filename": "balance_0036_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "expected": "fraudulent",
+      "http_status": 200,
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6402,
+      "genuine_probability": 0.0408,
+      "specimen_id": "9851d63f24c4",
+      "matched_expected": true
+    },
+    {
+      "filename": "balance_0044_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "expected": "fraudulent",
+      "http_status": 200,
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.4784,
+      "genuine_probability": 0.0005,
+      "specimen_id": "9851d63f24c4",
+      "matched_expected": true
+    },
+    {
+      "filename": "balance_0047_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "expected": "fraudulent",
+      "http_status": 200,
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6155,
+      "genuine_probability": 0.0002,
+      "specimen_id": "9851d63f24c4",
+      "matched_expected": true
+    }
+  ],
+  "other_organization": {
+    "filename": "decision_attribution_subvention.pdf",
+    "verdict": "unrecognized",
+    "status": "unrecognized",
+    "alignment_ncc": 0.1818,
+    "proposal": true
+  },
+  "subtle_counterfeit": {
+    "filename": "capital_0008_counterfeit.jpg",
+    "ground_truth": "counterfeit",
+    "verdict": "uncertain",
+    "alignment_ncc": 0.923,
+    "genuine_probability": 0.0061
+  },
+  "all_matched": true
+}

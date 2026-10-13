@@ -1,0 +1,77 @@
+{
+  "method": "supervised",
+  "unsupervised_used": false,
+  "task": "Compare one later stamp crop with the single genuine crop a user enrolled.",
+  "backend": "lightgbm",
+  "threshold": 0.3,
+  "feature_count": 155,
+  "train_pairs": 2829,
+  "dataset_crops": 400,
+  "enrollment_store": "empty_until_a_user_enrolls",
+  "train": {
+    "pairs": 2829,
+    "genuine_pairs": 1179,
+    "fake_pairs": 1650,
+    "genuine_recall": 1.0,
+    "fake_recall": 0.9873,
+    "pr_auc": 0.9999,
+    "precision": 0.9825,
+    "recall": 1.0
+  },
+  "validation": {
+    "pairs": 705,
+    "genuine_pairs": 301,
+    "fake_pairs": 404,
+    "genuine_recall": 0.7841,
+    "fake_recall": 0.75,
+    "pr_auc": 0.8236,
+    "precision": 0.7003,
+    "recall": 0.7841
+  },
+  "leave_one_document_out": [
+    {
+      "pairs": 500,
+      "genuine_pairs": 200,
+      "fake_pairs": 300,
+      "genuine_recall": 0.03,
+      "fake_recall": 0.99,
+      "pr_auc": 0.5058,
+      "precision": 0.6667,
+      "recall": 0.03,
+      "doc": "balance"
+    },
+    {
+      "pairs": 500,
+      "genuine_pairs": 200,
+      "fake_pairs": 300,
+      "genuine_recall": 0.445,
+      "fake_recall": 0.7367,
+      "pr_auc": 0.5483,
+      "precision": 0.5298,
+      "recall": 0.445,
+      "doc": "capital"
+    },
+    {
+      "pairs": 500,
+      "genuine_pairs": 200,
+      "fake_pairs": 300,
+      "genuine_recall": 0.775,
+      "fake_recall": 0.4367,
+      "pr_auc": 0.5361,
+      "precision": 0.4784,
+      "recall": 0.775,
+      "doc": "labellisation"
+    },
+    {
+      "pairs": 500,
+      "genuine_pairs": 200,
+      "fake_pairs": 300,
+      "genuine_recall": 0.82,
+      "fake_recall": 0.4167,
+      "pr_auc": 0.53,
+      "precision": 0.4838,
+      "recall": 0.82,
+      "doc": "subvention"
+    }
+  ]
+}
