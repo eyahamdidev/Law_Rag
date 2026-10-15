@@ -1,0 +1,1454 @@
+http://www.procomptable.com/ 1
+NC 21 
+Présentation des états financiers des établissements bancaires 
+ 
+ 
+Objectif 
+01. La Norme Comptable NC 01 -"Norme Comptable Générale" définit les règles relatives à la 
+présentation des états financiers des entreprises en général sans distinction de la nature de leurs 
+activités.  
+02. La plupart de ces règles sont également applicables aux établissements bancaires notamment les 
+considérations pour l'élaboration et la présentation des états financiers, les dispositions communes, 
+les composantes des états financiers et la structure des notes aux états financiers.  
+Toutefois, dans la mesure où les activités des établissements bancaires diffèrent de façon significative 
+de celles des autres entreprises commerciales et industrielles, des règles particulières doivent leur 
+être définies en vue d'aboutir à la production d'états financiers permettant aux utilisateurs d'évaluer 
+correctement la situation financière et les performances des banques ainsi que leur évolution.  
+03. L'objectif de la présente norme est de définir les règles particulières applicables aux états 
+financiers des établissements bancaires.  
+Champ d' application  
+04. La présente norme est applicable aux états financiers annuels et aux situations 
+intermédiaires et destinés à être publiés par les établissements bancaires tels que définis par 
+les textes en vigueur régissant l'activité bancaire.  
+Règles générales et composantes des états financiers  
+05. Les états financiers des établissements bancaires se composent du bilan, de l'état des 
+engagements hors bilan, de l'état de résultat, de l'état des flux de trésorerie et des notes aux 
+états financiers. Ils doivent être présentés selon l'ordre suivant :  
+- le bilan 
+- l'état des engagements hors bilan  
+- l'état de résultat  
+- l'état des flux de trésorerie  
+- les notes aux états financiers  
+06. Les chiffres présentés dans les états financiers doivent être exprimés en Dinars ou en Milliers de 
+Dinars. Au cas où les états financiers sont exprimés en une monnaie autre que le Dinar, l'utilisation de 
+chiffres arrondis est admise tant que l'importance relative est respectée.  
+Le bilan  
+07. Le bilan doit faire apparaître distinctement les rubriques suivantes ainsi que le montant 
+total de chacune de ces rubriques : l'actif, le passif et les capitaux propres. Les éléments du 
+bilan sont présentés selon leur nature par rapport à l'activité bancaire en privilégiant l'ordre 
+décroissant de liquidité.  
+08 Le bilan doit renseigner au minimum sur les postes suivants :  
+Actif 
+AC 1 - Caisse et avoirs auprès de la BC, CCP et TGT  
+AC 2 - Créances sur les établissements bancaires et financiers  
+http://www.procomptable.com/ 2
+a- Créances sur les établissements bancaires  
+b- Créances sur les établissements financiers  
+AC 3 - Créances sur la clientèle  
+a- Comptes débiteurs  
+b- Autres concours à la clientèle  
+c- Crédits sur ressources spéciales  
+AC 4 - Portefeuille-titres commercial  
+a- Titres de transaction  
+b- Titres de placement  
+AC 5 - Portefeuille d'investissement  
+a- Titres d'investissement  
+b- Titres de participation  
+c- Parts dans les entreprises associées et co- entreprises  
+d- Parts dans les entreprises liées  
+AC 6- Valeurs immobilisées  
+a- Immobilisations incorporelles  
+b- Immobilisations corporelles  
+AC 7 -Autres actifs  
+a- Comptes d'attente et de régularisation  
+b- Autres  
+Passif 
+ 
+PA 1- Banque centrale, CCP  
+PA 2- Dépôts et avoirs des établissements bancaires et financiers  
+a- Dépôts et avoirs des établissements bancaires  
+b- Dépôts et avoirs des établissements financiers  
+PA 3 -Dépôts et avoirs de la clientèle  
+a- Avue  
+b- Autres dépôts et avoirs  
+PA 4- Emprunts et Ressources spéciales  
+a- Emprunts matérialisés  
+b- Autres fonds empruntés  
+c- Ressources spéciales  
+PA 5 - Autres passifs  
+a- Provisions pour passifs et charges  
+b- Comptes d'attente et de régularisation  
+c- Autres  
+http://www.procomptable.com/ 3
+Capitaux propres 
+CP 1- Capital :  
+a - Capital souscrit  
+b - Capital non libéré  
+CP 2- Réserves  
+a- Primes liées au capital  
+b- Réserves légales  
+c- Réserves statutaires  
+d- Réserves ordinaires  
+e- Autres réserves  
+CP 3- Actions propres  
+CP 4- Autres Capitaux propres  
+a- Subventions  
+b- Ecart de réévaluation  
+c- Titres assimilés à des Capitaux propres  
+CP 5- Résultats reportés  
+CP 6- Résultat de l'exercice  
+09. Les postes du bilan ( définis par deux lettres en majuscule suivies d'un chiffre) doivent 
+obligatoirement être présentés dans le bilan, à moins qu'ils ne présentent un solde nul pour l'exercice 
+en cours et l'exercice précédent. Les sous-postes du bilan (définis par une lettre en minuscule), qui 
+ont un caractère significatif, sont présentés dans le bilan ou dans les notes aux états financiers. Un 
+modèle de bilan est présenté en annexe I de la norme.  
+10. Les postes d'actif sont présentés pour leur valeur nette d'amortissement etlou de 
+provision.  
+11. La compensation entre un élément d'actif et un élément de passif au bilan ne peut être opérée que 
+lorsque celle- ci est prévue par les normes comptables, ou lorsque les conditions suivantes sont 
+remplies :  
+(a) l'élément d'actif et l'élément de passif portent sur des montants déterminés et sont libellés 
+dans la même monnaie ou dans des monnaies échangeables ;  
+(b) il existe un droit légal pour opérer la compensation ou un accord avec la contrepartie 
+compatible avec le droit légal ;  
+(c) la banque a l'intention de liquider les soldes correspondant aux éléments d'actif et de passif 
+sur une base compensée, ou de réaliser l'élément d'actif et de liquider l'élément de passif de 
+façon simultanée.  
+12. Le contenu des postes du bilan est défini ci-après :  
+POSTES D’ACTIF  
+Poste AC 1 :
+ Caisse et avoirs auprès de la Banque Centrale, du Centre de Chèques Postaux et 
+de la Trésorerie Générale de Tunisie :  
+Ce poste comprend :  
+- la caisse qui est composée des billets et m onnaies libellés en Dinar tunisien ayant cours légal 
+ainsi que les billets et monnaies en cours de retrait dont la Banque Centrale continue à 
+http://www.procomptable.com/ 4
+assurer le remboursement, les monnaies et billets de banque étrangers et les chèques de 
+voyages et valeurs assimilées négociées sur place;  
+- les avoirs auprès de la Banque Centrale de T unisie, du Centre de Chèques Postaux et de la 
+Trésorerie Générale de Tunisie,  
+- les avoirs auprès des Banques Centrales et des Centres de Chèques Postaux des pays 
+étrangers où se trouve implanté l'établissement bancaire, dans la mesure où ils peuvent être 
+retirés à tout moment.  
+- Les autres avoirs auprès de ces institutions sont inscrits au poste AC2 -Créances sur les 
+établissements bancaires et financiers.  
+Poste AC 2 : Créances sur les établissements bancaires et financiers  
+Ce poste comprend :  
+- Sous (a) créances sur les établissements bancai res: les avoirs et les créances liées à des 
+prêts ou avances (principal et intérêts courus), détenus sur les établissements bancaires tels 
+que définis par les textes en vigueur régissant l'activité bancaire y compris les créances 
+matérialisées par des titres du marché interbancaire. N'en sont exclues que les créances qui 
+sont matérialisées par des obligations ou tout autre titre et qui doivent figurer au poste AC4 -
+Portefeuille-titres commercial ou au poste AC5 -Portefeuille d'investissement.  
+- Sous (b ) créances sur les établissements financ iers: les avoirs et les créances liées à des 
+prêts et avances (principal et intérêts courus) détenus sur les établissements financiers tels 
+que définis par la législation en vigueur , notamment les sociétés de leasing et les sociétés de 
+factoring.  
+Les créances sur des entreprises qui ne peuvent pas être considérées comme banques ou comme 
+établissements financiers, au sens des textes en vigueur, figurent au poste AC3 -Créances sur la 
+clientèle.  
+Poste AC 3 : Créances sur la clientèle  
+Ce poste comprend les créances, liées à des prêts ou avances (principal et intérêts courus), détenues 
+sur des agents économiques nationaux ou étrangers autres que les établissements bancaires et 
+financiers. N'en sont exclues que les créances qui sont matérialisées par des obligations ou tout autre 
+titre et qui doivent figurer au poste AC4 -Portefeuille-titres commercial ou au poste AC5 -Portefeuille 
+d'investissement.  
+Les intérêts et autres produits échus et qui n'ont pas pu être constatés parmi les revenus (intérêts et 
+autres produits réservés) ne sont pas présentés au passif, mais sont inclus de façon soustractive dans 
+le poste AC3 -Créances sur la clientèle. 
+Ce poste inclut :  
+- sous (a) Comptes ordinaires débiteurs : les concours bancaires sous forme de découvert 
+en compte.  
+- sous (b) Autres concours à la clientèle: les créances liées à des prêts ou avances, autres 
+que les comptes ordinaires débiteurs et les crédits sur ressources spéciales.  
+- sous (c) Crédits sur ressources spéciales: les créances liées à des prêts ou avances 
+accordés sur des ressources spéciales (c'est à dire les fonds d'origine budgétaire ou 
+extérieure gérés pour compte et à affectations spécifiques) et sur lesquels la banque 
+encourt ou non un risque quelconque.  
+Poste AC 4 : Portefeuille-titres commercial 
+Ce poste comprend :  
+- sous (a) Titres de transacti on: les titres négociables sur un marché liquide, qui sont 
+détenus par l'établissement bancaire avec l'intention de les vendre dans un avenir très 
+proche, qu'ils soient à revenu fixe ou variable.  
+- sous (b) Titres de placement: les titres, qu'ils soient à revenu fixe ou variable, qui ne sont 
+classés ni dans la catégorie des titres de transaction (poste AC 4.a), ni dans la catégorie 
+des titres du portefeuille d'investissement (poste AC5), ainsi que les revenus courus et 
+non échus qui leur sont rattachés.  
+Les titres d'emprunt émis par l'Etat et les organismes publics ne doivent figurer dans ce poste que 
+lorsqu'ils ne peuvent pas figurer dans le poste AC5 - Portefeuille d'investissement.  
+http://www.procomptable.com/ 5
+Les titres d'emprunt détenus par un établissement bancaire sur lui-même ne doivent pas figurer dans 
+ce poste, mais doivent être déduits du poste P A4 - Emprunts et ressources spéciales.  
+Poste AC 5 : Portefeuille d'investissement  
+Ce poste comprend :  
+- sous (a) Titres d'investissement: les titres à revenu fixe que l'établissement bancaire a la 
+capacité et l'intention de conserver de façon durable, en principe jusqu'à leurs échéances, 
+ainsi que les parts d'intérêts courus et non échus qui leur sont rattachées.  
+- sous (b) Titres de participation: les actions et autres titres à revenu variable détenus par 
+l'établissement bancaire et qui sont destinés à une activité de portefeuille consistant à investir 
+dans des titres pour en retirer sur une longue durée une rentabilité satisfaisante et s'exerçant 
+sans intervention dans la gestion des entreprises dans lesquelles les titres sont détenus, ainsi 
+que les parts de dividendes, dont le droit est établi, et non encore échus qui leur sont 
+rattachées.  
+- sous ( c) Parts dans les entreprises associées et les coentreprises : les actions et parts de 
+capital détenues dans des entreprises sur lesquelles l'établissement bancaire exerce une 
+influence notable ou un contrôle conjoint, ainsi que les actions et parts de capital détenues 
+dans les entreprises filiales qui ne peuvent pas être intégrées globalement au niveau des 
+états financiers consolidés, ainsi que les parts de dividendes, dont le droit est établi, et non 
+encore échus qui leur sont rattachées.  
+- sous (d) Parts dans les entreprises liées: les actions et parts de capital détenues par 
+l'établissement bancaire dans la société mère, et dans les entreprises filiales susceptibles 
+d'être intégrées globalement au niveau des états financiers consolidés, ainsi que les parts de 
+dividendes, dont le droit est établi, et non encore échus qui leur sont rattachées.  
+Poste AC 6 : Valeurs immobilisées  
+Ce poste comprend :  
+- sous (a) Immobilisations incorporelles: les éléments d'actif incorporel, notamment le fonds 
+commercial, le droit au bail, les logiciels informatiques et les dépenses de recherche et de 
+développement immobilisées.  
+- sous (b) Immobilisations corporelles: les élém ents d'actif corporel, notamment les terrains, les 
+constructions, les installations, matériels et équipements et les immobilisations corporelles en 
+cours ainsi que les immobilisations en crédit-bail retournées.  
+Les charges reportées, notamment les frais de constitution et de premier établissement et les charges 
+à répartir ne figurent pas dans ce poste. Elles doivent être présentées dans le poste AC7 -Autres 
+actifs.  
+Poste AC 7 : Autres actifs  
+Ce poste comprend :  
+- Sous (a) Comptes d'attente et de régularisati on : les suspens débiteurs à régulariser qui ne 
+peuvent pas être portés de façon certaine à un compte déterminé ou qui exigent une 
+information complémentaire ainsi que les comptes de régularisation représentant la 
+contrepartie des produits constatés en résultat relatifs à des opérations de bilan ou de hors 
+bilan et les charges comptabilisées d'avance, autres que ceux directement inclus dans les 
+postes AC2, AC3, AC4 et AC5. En particulier, les intérêts et dividendes courus et échus sur 
+les titres de placement, les titres d'investissement et le portefeuille des titres détenus sous 
+forme de participation figurent dans ce poste.  
+- Sous (b) Autres :  
+- les stocks, les matières d'or et les créances sur des tiers qui ne figurent pas dans les 
+autres postes d'actif, notamment dans les postes AC 2 et AC 3.  
+- les charges reportées.  
+- les timbres postes, les timbres fiscaux et les formules timbrées détenus par 
+l'établissement bancaire.  
+- et les autres éléments d'actif qui ne figurent pas dans les autres postes d'actif.  
+http://www.procomptable.com/ 6
+Postes du passif  
+Poste PA 1 : Banque Centrale, CCP  
+Ce poste comprend :  
+- les dettes à l'égard de la Banque Centrale de Tunisie et du Centre des Chèques Postaux ;  
+- les dettes à l'égard des banques centrales et des centres de chèques postaux des pays 
+étrangers où se trouve implanté l'établissement bancaire, dans la mesure où elles sont 
+exigibles à vue. Les autres dettes à l'égard de ces institutions sont inscrites au poste PA2 -
+Dépôts et avoirs des établissements bancaires et financiers.  
+Poste PA 2 : Dépôts et avoirs des établissements bancaires et financiers  
+Ce poste comprend:  
+- Sous (a) Dépôts et avoirs des établissements bancaires: les dettes contractées, au titre 
+d'opérations bancaires, envers les établissements bancaires tels que définis par les textes en 
+vigueur régissant l'activité bancaire y compris les dettes matérialisées par des titres du 
+marché interbancaire. N'en sont exclues que les dettes qui sont matérialisées par des 
+obligations ou tout autre titre similaire et qui doivent figurer au poste PA 4.a -Emprunts 
+matérialisés. 
+- Sous (b) Dépôts et avoirs des établissements financiers les dettes contractées, au titre 
+d'opérations bancaires, envers les établissements financiers tels que définis par la législation 
+en vigueur, notamment les sociétés de leasing et les sociétés de factoring.  
+Les dettes contractées envers des entreprises qui ne peuvent pas être considérées comme banques 
+ou comme établissements financiers, au sens des textes en vigueur, figurent au poste P A 3 -Dépôts 
+de la clientèle ou au poste PA 4 -Emprunts et ressources spéciales.  
+Poste PA 3 : Dépôts et avoirs de la clientèle  
+Ce poste comprend les dépôts de la clientèle autre que les établissements bancaires, qu'ils soient à 
+vue ou à terme, les comptes d'épargne ainsi que les sommes dues à l'exception des dettes envers la 
+clientèle qui sont matérialisées par des obligations ou tout autre titre similaire et qui doivent figurer au 
+poste PA 4.a -Emprunts matérialisés.  
+Poste PA 4: Emprunts et ressources spéciales  
+Ce poste comprend :  
+- sous (a) Emprunts matérialisés: les emprunts émis par l'établissement bancaire et autres 
+emprunts et dettes matérialisés par un titre.  
+- sous (b) Autres fonds empruntés: les emprunts et autres dettes contractés auprès 
+d'organismes nationaux et étrangers autres que les établissements bancaires, au sens des 
+textes en vigueur régissant l'activité bancaire et la clientèle.  
+- Sous (c) Ressources spéciales: les fonds spéciaux d'origine budgétaire ou extérieure gérés 
+pour compte et à affectations spécifiques autres que les emprunts définis sous (a) et (b) ci-
+dessus.  
+Poste PA 5 : Autres passifs  
+Ce poste comprend :  
+- -Sous (a) provisions pour passifs et charges: les provisions constituées sur les éléments du 
+hors bilan ainsi que les provisions pour litiges et autres passifs.  
+- -Sous (b) Comptes d'attente et de régularisation : les suspens créditeurs à régulariser qui ne 
+peuvent être imputés de façon certaine à un compte déterminé ou qui exigent une information 
+complémentaire ainsi que les comptes de régularisation représentant la contrepartie des 
+pertes constatées en résultat, relatives à des opérations de bilan ou de hors bilan et les 
+produits constatés d'avance.  
+- Sous (c) Autres: les dettes à l'égard des tiers qui ne figurent pas dans les autres postes de 
+passif ainsi que les provisions pour risques et charges qui ne peuvent pas être directement 
+déduites des postes d'actif .  
+http://www.procomptable.com/ 7
+Postes de capitaux propres 
+Poste CP 1 : Capital  
+Ce poste correspond à la valeur nominale des actions composant le capital social, ainsi que des titres 
+qui en tiennent lieu ou qui y sont assimilés notamment les certificats d'investissement.  
+Le capital souscrit et non libéré, qu'il soit appelé ou non appelé est soustrait de ce poste.  
+Poste CP 2 : Réserves  
+Ce poste comprend :  
+- sous (a) Primes liées au capital: les primes liées au capital souscrit, notamment les primes 
+d'émission, d'apport, de fusion ou de conversion d'obligations en actions  
+- sous (b) Réserves légales: les réserves dotées par prélèvements sur les bénéfices des 
+exercices précédents effectués en application des dispositions légales.  
+- sous ( c ) Réserves statutaires: les réserves dotées par prélèvements sur les bénéfices des 
+exercices précédents effectués en application des dispositions des statuts.  
+- sous ( d) Réserves ordinaires: les réserves dotées par prélèvements sur les bénéfices des 
+exercices précédents effectués sur décision de l'assemblée générale des actionnaires.  
+- sous (e) Autres réserves: les autres réserves dotées par prélèvements sur les bénéfices telles 
+que les fonds pour risques bancaires généraux et le fonds social.  
+Poste CP 3 : Actions propres  
+Ce poste comprend les actions détenues par l'établissement bancaire sur lui-même, notamment en 
+vue de réguler les cours boursiers de ses actions. Ce poste figure de façon soustractive.  
+Poste CP 4 : Autres capitaux propres  
+Ce poste comprend :  
+- sous (a) Subventions: les subventions non remboursables.  
+- sous (b) Ecart de réévaluation: les écarts constatés lors de la réévaluation d'éléments du 
+bilan.  
+- sous ( c ) titres assimilés à des capitaux propres: le produit des émissions de titres 
+assimilés à des capitaux propres, notamment les titres participatifs et les obligations 
+convertibles en actions.  
+Poste CP 5 : Résultats reportés  
+Ce poste comprend la fraction des bénéfices des exercices précédents qui n'ont pas été distribués ou 
+affectés à un compte de réserves, ainsi que l'effet des modifications comptables non imputé sur le 
+résultat de l'exercice, dans les rubriques des capitaux propres.  
+Poste CP 6 : Résultat de l'exercice  
+Ce poste enregistre le résultat de l'exercice. En cas de perte, le montant du résultat est présenté de 
+façon soustractive dans la rubrique des capitaux propres.  
+L'état des engagements hors bilan  
+13. L'état des engagements hors bilan doit faire apparaître distinctement les rubriques 
+suivantes : les passifs éventuels, les engagements donnés et les engagements reçus. Le 
+montant total des passifs éventuels et le montant total des engagements donnés y sont 
+également indiqués.  
+14. L'état des engagements hors bilan doit renseigner au minimum sur les postes suivants :  
+Passifs éventuels  
+HB 1 - Cautions, avals et autres garanties données  
+a- en faveur d'établissements bancaires et financiers  
+b- en faveur de la clientèle  
+ 
+http://www.procomptable.com/ 8
+HB 2 - Crédits documentaires  
+HB 3 - Actifs donnés en garantie  
+Engagements donnés  
+HB 4 - Engagements de financement donnés  
+a- en faveur d'établissements bancaires, financiers et d'assurance.  
+b- en faveur de la clientèle  
+HB 5 - Engagements sur titres  
+a- participations non libérées  
+b- titres à recevoir  
+Engagements reçus 
+ 
+HB 6- Engagements de financement reçus  
+HB 7- Garanties reçues  
+a- garanties reçues de l'Etat  
+b- garanties reçues d'établissements bancaires et financiers  
+c- garanties reçues de la clientèle  
+15. Les postes de l'état des engagements hors bilan (définis par deux lettres en majuscule suivies 
+d'un chiffre) doivent obligatoirement être présentés dans l'état des engagements hors bilan, à moins 
+qu'ils ne présentent un solde nul pour l'exercice en cours et l'exercice précédent. Les sous-postes de 
+l'état des engagements hors bilan (définis par une lettre en minuscule) qui ont un caractère significatif 
+sont présentés dans l'état des engagements hors bilan ou dans les notes aux états financiers. Un 
+modèle de l'état des engagements hors bilan est présenté en annexe 2 de la norme.  
+16. Le contenu des postes de l'état des engagements hors bilan est défini ci-après :  
+Postes de passifs éventuels  
+Poste HB 1 :
+ Cautions, avals et autres garanties données  
+Ce poste comprend l'ensemble des engagements de garantie, notamment sous forme de cautions ou 
+avals, autres que ceux issus des crédits documentaires. Ces garanties figurent :  
+- sous (a) en faveur d'établissements bancaires et financiers: pour les cautions, avals et autres 
+garanties dont le donneur d'ordre est un établissement bancaire, tel que défini par les textes 
+en vigueur régissant l'activité bancaire ou un établissement financier tel que défini par la 
+législation en vigueur .  
+- sous (b) en faveur de la clientèle: pour les cautions, avals et autres garanties dont le donneur 
+d'ordre est un agent économique qui ne peut être considéré comme un établissement 
+bancaire et financier.  
+Poste HB 2 : Crédits documentaires  
+Ce poste comprend l'ensemble des engagements liés aux crédits documentaires. Ces engagements 
+peuvent concerner: 
+- lorsque la banque est émettrice: la notification de l'ouverture d'un crédit documentaire, la 
+confirmation de l'ouverture d'un crédit documentaire (émission de l'acceptation à payer). 
+- lorsque la banque est notificatrice : la confirmation d'un crédit documentaire (aval de 
+l'acceptation à payer émise par la banque émettrice).  
+Poste HB 3 : Actifs donnés en garantie  
+Ce poste comprend la valeur comptable des éléments d'actif donnés par la banque en garantie 
+d'engagements figurant au passif ou parmi les éléments hors bilan. Ces éléments sont inscrits dans 
+ce poste pour la valeur à laquelle ils figurent au bilan. La valeur du passif et engagements hors bilan 
+garantis et la nature des éléments d'actif donnés en garantie sont présentées dans les notes aux états 
+financiers.  
+http://www.procomptable.com/ 9
+Postes d'engagements donnes  
+Poste HB 4 : Engagements de financement donnés  
+Ce poste comprend :  
+- sous (a) en faveur d'établissements bancaires et financiers: les accords de refinancement et 
+les ouvertures de lignes de crédit confirmées que la banque s'est engagée à mettre à la 
+disposition d'autres établissements bancaires et financiers.  
+- Par ligne de crédit confirmée, il faut entendre l'engagement ferme de consentir un crédit, qui 
+ne peut pas être révoqué à tout moment avec effet immédiat.  
+- sous (b) en faveur de la clientèle: les ouvertures de lignes de crédit confirmées que la banque 
+s'est engagée à mettre à la disposition d'agents économiques autres que les établissements 
+bancaires et financiers.  
+Poste RB 5 : Engagements sur titres  
+Ce poste comprend :  
+- sous (a) Participations non libérées: la part non libérée des participations détenues par 
+l'établissement bancaire.  
+- sous (b) Titres à recevoir : les titres à recevoir résultant d'opérations d'achat de titres dont la 
+livraison effective est différée soit pour des considérations techniques (délai usuel de 
+règlement \ livraison) ou par la volonté expresse des parties (achat à terme).  
+Postes d'engagements reçus  
+Poste HB 6 : Engagements de financement reçus  
+Ce poste comprend les accords de refinancement et les ouvertures de lignes de crédit confirmées, 
+reçus d'autres établissements bancaires ou d'autres organismes de financement.  
+Poste HB 7 : Garanties reçues  
+Ce poste comprend :  
+- sous (a) garanties reçues de l'Etat: les garanties reçues de l'Etat au titre des crédits et 
+engagements contractés par la banque auprès de sa clientèle.  
+- sous (b) garanties reçues d'autres établissements bancaires, financiers et d'assurance: les 
+cautions, avals et autres garanties reçues d'autres établissements bancaires ou d'autres 
+établissements financiers, notamment les contre-garanties reçues sur crédits, ainsi que les 
+garanties reçues des entreprises d'assurance.  
+- sous (c) garanties reçues de la clientèle: les sûretés réelles, les sûretés personnelles et autres 
+garanties reçues de la clientèle en garantie des crédits accordés et autres engagements 
+contractés en faveur de la clientèle, autres que les dépôts affectés et qui figurent dans le 
+poste PA3 -Dépôts et avoirs de la clientèle.  
+L'état de résultat  
+17. L'état de résultat doit faire apparaître les produits et les charges de façon à déterminer les 
+valeurs et soldes intermédiaires suivants :  
+- la valeur totale des produits d'exploitation bancaire  
+- la valeur totale des charges d'exploitation bancaire  
+- le produit net bancaire  
+- le résultat d'exploitation  
+- le résultat des activités ordinaires, lorsqu'il existe des éléments extraordinaires au 
+titre de l'exercice en cours ou de l'exercice antérieur  
+- le résultat net de l'exercice.  
+- Le résultat des activités ordinaires avant et après impôt peuvent également 
+apparaître sur l'état de résultat de façon distincte.  
+18. Les produits et les charges d'exploitation bancaire concernent les produits et les charges liés aux 
+activités centrales ou permanentes d'un établissement bancaire.  
+http://www.procomptable.com/ 10
+19. Le Produit Net Bancaire correspond à la différence entre les produits d'exploitation bancaire et les 
+charges d'exploitation bancaire.  
+20. Le Résultat d'Exploitation correspond au Produit Net Bancaire augmenté des produits 
+d'exploitation non bancaire, et diminué des charges d'exploitation non bancaire, des frais généraux, 
+des dotations aux provisions sur créances et hors bilan, des dotations aux provisions sur portefeuille 
+d'investissement, des dotations aux amortissements et aux provisions sur immobilisations et aux 
+résorptions des charges reportées et diminué ou augmenté du résultat des corrections de valeurs sur 
+créances et hors bilan et sur portefeuille d'investissement.  
+21. Le Résultat des Activités Ordinaires correspond au Résultat d'Exploitation ajusté des opérations 
+périphériques ou incidentes, notamment le résultat de cession des immobilisations corporelles et 
+incorporelles et des activités abandonnées.  
+22. L'état de résultat doit renseigner au minimum sur les postes suivants :  
+Produits d'exploitation bancaire  
+PR 1 - Intérêts et revenus assimilés  
+a- opérations avec les établissements bancaires et financiers  
+b- opérations avec la clientèle  
+c- autres intérêts et revenus assimilés  
+PR 2- Commissions (en produits)  
+PR 3- Gains sur portefeuille-titres commercial et opérations financières  
+a- gain net sur titres de transaction  
+b- gain net sur titres de placement  
+c- gain net sur opérations de change  
+PR 4- Revenus du portefeuille d'investissement  
+a- intérêts et revenus assimilés sur titres d'investissement  
+b- dividendes et revenus assimilés sur titres de participation  
+c- dividendes et revenus assimilés sur parts dans les entreprises associées et co-entreprises  
+d- dividendes et revenus assimilés sur parts dans les entreprises liées  
+Charges d'exploitation bancaire  
+CH 1 - Intérêts encourus et charges assimilées  
+a- opérations avec les établissements bancaires et financiers  
+b- opérations avec la clientèle  
+c- emprunts et ressources spéciales  
+d- autres intérêts et charges  
+CH 2- Commissions encourues  
+CH 3- Pertes sur Portefeuille-titres commercial et opérations financières  
+a- perte nette sur titres de transaction  
+b- perte nette sur titres de placement  
+c- perte nette sur opérations de change  
+Autres postes de produits et charges 
+ 
+PR 5 \ CH 4 - Dotations aux Provisions et résultat des corrections de valeurs sur créances, 
+hors bilan et passif  
+PR 6 \ CH 5 - Dotations aux provisions et résultat des corrections de valeurs sur portefeuille 
+d'investissement  
+PR. 7- Autres produits d'exploitation  
+CH 6- Frais de personnel  
+CH 7- Charges générales d'exploitation  
+a- frais d'exploitation non bancaire  
+b- autres charges générales d'exploitation  
+CH 8- Dotations aux amortissements et aux provisions sur immobilisations  
+PR8 \ CH 9- Solde en gain \ perte sur autres éléments ordinaires  
+CH 11- Impôt sur les bénéfices  
+PR 9 \ CH 10- Solde en gain \ perte provenant des éléments extraordinaires  
+http://www.procomptable.com/ 11
+23. Les postes de l'état de résultat (définis par deux lettres en majuscule suivies d'un chiffre) doivent 
+obligatoirement être présentés dans l'état de résultat, à moins qu'ils ne présentent un solde nul pour 
+l'exercice en cours et l'exercice précédent. Les sous-postes de l'état de résultat ( définis par une lettre 
+en minuscule) qui ont un caractère significatif sont présentés dans l'état de résultat ou dans les notes 
+aux états financiers. Un modèle de l'état de résultat est présenté en annexe 3 de la norme.  
+24. La compensation entre des charges et des produits dans l'état de résultat ne peut être opérée que 
+lorsque celle-ci est prévue par les normes comptables, ou lorsque les charges et produits se 
+rapportent à des éléments d'actif et de passif pouvant être compensés au bilan conformément au 
+paragraphe II de la présente norme.  
+25. Le contenu des postes de l'état de résultat est défini ci- après :  
+Postes de produits d'exploitation bancaire  
+Poste PR I: Intérêts et revenus assimilés  
+Ce poste comprend les intérêts et revenus assimilés, notamment les commissions ayant le caractère 
+d'intérêt calculées en fonction de la durée et du montant de la créance ou de l'engagement donné, et 
+provenant des éléments d'actif suivants :  
+- Sous (a) opérations avec les établissements bancaires et financiers: les intérêts et revenus 
+assimilés provenant des prêts et avances accordés aux établissements bancaires et 
+financiers (poste AC2 -Créances sur les établissements bancaires et financiers).  
+- Sous (b) opérations avec la clientèle: les intérêts et revenus assimilés provenant des prêts et 
+avances accordés à la clientèle (poste AC3 Créances sur la clientèle).  
+- Sous (c) autres intérêts et revenus assimilés: les intérêts et revenus assimilés provenant des 
+opérations réalisées avec la Banque Centrale et les CCP et des autres opérations bancaires, 
+autres que ceux inscrits aux postes PR 3 -Gains sur Portefeuille-titres commercial et 
+opérations financières et PR4 -Revenus du portefeuille d'investissement, notamment les 
+différentiels d'intérêts réalisés à l'occasion d'opérations à terme conclues à titre de couverture, 
+et les commissions ayant le caractère d'intérêt.  
+Poste PR 2: Commissions (en produits)  
+Ce poste comprend les revenus facturés sous forme de commissions autres que celles inscrites au 
+poste PR I -Intérêts et revenus assimilés. II s'agit notamment :  
+- des commissions relatives aux opérations sur chèques, effets, virements et de tenue de 
+compte et autres moyens de paiement ;  
+- des commissions relatives aux opérations sur titres pour le compte de la clientèle ;  
+- des commissions relatives aux opérations de change ;  
+- des commissions relatives aux opérations de commerce extérieur (domiciliation, accréditifs, 
+remise documentaire, lettre de garantie) ; 
+- des commissions relatives à la location de coffre-fort ; 
+- des commissions d'étude, de montage de financement, de conseil et d'assistance.  
+Poste PR 3 : Gains sur PortefeuiIIe-titres commercial et opérations financières  
+Ce poste comprend :  
+- sous. (a) gain net sur titres de transaction: le solde positif entre :  
+- d'une part, les plus values provenant de la cession des titres classés parmi les 
+titres de transaction ainsi que les plus values résultant de leur évaluation à la date 
+d'arrêté. 
+- d'autre part, les moins values provenant des cessions, et les moins values 
+résultant de l'évaluation à la date d'arrêté des titres de la même catégorie.  
+- sous (b ) gain net sur titres de placement: le solde positif entre :  
+- d'une part, les intérêts et revenus assimilés sur les titres à revenu fixe et les 
+dividendes et revenus assimilés sur les titres à revenu variable classés parmi les 
+titres de placement, ainsi que les reprises sur provisions antérieurement 
+constituées et les plus values provenant de leur cession ;  
+- d'autre part, les dotations aux provisions et les moins values de cession sur les 
+titres de la même catégorie.  
+http://www.procomptable.com/ 12
+- sous (c) gain net sur opérations de change: le solde positif résultant de la réévaluation 
+périodique des positions de change, ainsi que celui dégagé sur les opérations de change 
+à terme spéculatives; 
+Lorsque l'un des soldes prévus sous (a), (b) ou (c) reste négatif, celui-ci doit figurer sous le poste 
+CH3-Pertes sur Porte feuiIIe-titres commercial et opérations financières.  
+Poste PR 4 : Revenus du portefeuille d'investissement  
+Ce poste comprend :  
+- sous (a) intérêts et revenus assimilés sur titres d'investissement: les intérêts et revenus 
+assimilés sur les titres à revenu fixe classés parmi les titres d'investissement. 
+- sous (b) dividendes et revenus assimilés sur les titres de participation: les dividendes et 
+revenus assimilés sur les titres de participation.  
+- sous (c) dividendes et revenus assimilés sur les parts dans les entreprises associées et les 
+co- entreprises: les dividendes et revenus assimilés sur les parts dans les entreprises 
+associées et les co- entreprises.  
+- sous ( d) dividendes et revenus assimilés sur les parts dans les entreprises liées: les 
+dividendes et revenus assimilés sur les parts dans les entreprises liées.  
+Postes de charges d'exploitation bancaire  
+Poste CH 1 : Intérêts encourus et charges assimilées  
+Ce poste comprend les intérêts encourus et charges assimilées, notamment les commissions ayant le 
+caractère d'intérêts calculées en fonction de la durée et du montant de la dette ou de l'engagement 
+reçu, et provenant des éléments de passif suivants:  
+- sous (a) opérations avec les établissements bancaires et financiers: les intérêts et charges 
+assimilées provenant des dépôts et avoirs des établissements bancaires et financiers 
+(poste PA 2 -Dépôts et avoirs des établissements bancaires et financiers).  
+- sous (b) opérations avec la clientèle: les intérêts et charges assimilées provenant des 
+dépôts de la clientèle (poste PA 3 -dépôts et avoirs de la clientèle).  
+- sous (c) emprunts et ressources spéciales: les intérêts et charges assimilées provenant 
+des emprunts et ressources spéciales (poste PA 4 - Emprunts et ressources spéciales).  
+- sous ( d) autres intérêts et charges: les intérêts et charges assimilées provenant des 
+opérations réalisées avec la Banque Centrale et les CCP et des autres opérations 
+bancaires, autres que ceux inscrits au poste CH 2 -commissions encourues et CH 3 -
+Pertes sur portefeuille-titres commercial notamment le différentiel d'intérêts supporté à 
+l'occasion d'opérations à terme conclues à titre de couverture, et les commissions ayant le 
+caractère d'intérêts.  
+Poste CH 2 : Commissions encourues  
+Ce poste comprend les charges encourues sous forme de commissions dues à l'utilisation de services 
+rendus par des tiers, à l'exception des charges qui figurent au poste CH 1 -Intérêts encourus et 
+charges assimilées.  
+Poste CH 3 : Pertes sur portefeuille-titres commercial et opérations financières  
+Ce poste comprend:  
+- sous (a) perte nette sur titres de transaction: le solde négatif entre :  
+- d'une part, les intérêts et revenus assimilés sur les titres à revenu fixe et les 
+dividendes et revenus assimilés sur les titres à revenu variable classés parmi les 
+titres de transaction, ainsi que les plus values provenant de leur cession et les plus 
+values résultant de leur évaluation à la date d'arrêté.  
+- d'autre part, les moins values provenant des cessions, et des moins values 
+résultant de l'évaluation à la date d'arrêté des titres de la même catégorie.  
+- sous (b) perte nette sur titres de placement: le solde négatif entre :  
+- d'une part, les intérêts et revenus assimilés sur les titres à revenu fixe et les 
+dividendes et revenus assimilés sur les titres à revenu variable classés parmi les 
+titres de placement, ainsi que les reprises sur provisions antérieurement 
+constituées et les plus values provenant de leurs cessions ;  
+- d'autre part, les dotations aux provisions et les moins values de cession des titres 
+de la même catégorie.  
+http://www.procomptable.com/ 13
+- sous ( c ) perte nette sur opérations de change: le solde négatif résultant de la réévaluation 
+périodique des positions de change, ainsi que celui dégagé sur les opérations de change à 
+terme spéculatives.  
+Lorsque l'un des soldes prévus sous (a), (b) ou (c) est positif, celui-ci doit figurer sous le poste PR3 - 
+Gains sur portefeuille-titres commercial et opérations financières.  
+Autres postes de produits  
+Poste PR 5 : Solde en gain des corrections de valeurs sur créances, hors bilan et provisions 
+pour passif  
+Ce poste comprend le solde positif entre :  
+- d'une part, les reprises de provisions sur créances douteuses, engagements hors bilan et 
+pour passif, et les sommes recouvrées au cours de l'exercice, au titre de créances passées 
+en perte lors des exercices précédents, considérant qu'elles sont définitivement 
+irrécouvrables.  
+- d'autre part, les dotations aux provisions sur créances douteuses, engagements hors bilan et 
+pour passif et les montants des créances passées en pertes considérant qu'elles sont 
+définitivement irrécouvrables.  
+Lorsque ce solde est négatif, il est reproduit dans le poste CH 4 Dotations aux provisions et résultat 
+des corrections de valeurs sur créances, hors bilan et passif.  
+Poste PR 6 : Solde en gain des corrections de valeurs sur portefeuille d'investissement  
+Ce poste comprend le solde positif entre :  
+- d'une part, les reprises sur provisions et les plus-values de cession sur les titres classés dans 
+le portefeuille d'investissement (poste AC 5 - Portefeuille d'investissement) ;  
+- d'autre part, les dotations aux provisions et les moins-values de cession sur les titres classés 
+dans le portefeuille d'investissement.  
+Lorsque ce solde est négatif, il est reproduit dans le poste CH5 -Dotations aux provisions et résultat 
+des corrections de valeurs sur portefeuille d'investissement.  
+Poste PR 7 : Autres produits d'exploitation  
+Ce poste comprend les produits d'exploitation non bancaire, notamment les produits de location, les 
+frais généraux refacturés et les transferts de charges non liées à l'activité bancaire, lorsque les postes 
+de charges concernés ne peuvent être clairement identifiés. Les frais généraux refacturés et les 
+transferts de charges non liées à l'activité bancaire viennent en diminution des postes des charges 
+concernés dans la mesure où ces postes ont été identifiés.  
+Poste PR 8 : Solde en gain provenant des autres éléments ordinaires  
+Ce poste comprend le solde positif entre :  
+- d'une part, les gains résultant d'événements ou d'opérations inclus parmi les autres éléments 
+ordinaires des établissements bancaires, tels que les plus-values sur les cessions des 
+immobilisations et le résultat positif sur les corrections de valeurs sur immobilisations .  
+- d'autre part, les pertes résultant d'événements ou d'opérations inclus parmi les éléments de 
+même nature.  
+Lorsque ce solde est négatif, il est reproduit dans le poste CH 9 -Solde en perte provenant des autres 
+éléments ordinaires.  
+Poste PR 9 : Solde en gain provenant des éléments extraordinaires  
+Ce poste comprend le solde positif, après impôt sur les bénéfices entre :  
+- d'une part, les gains résultant d'événements ou d'opérations clairement distincts des activités 
+ordinaires des établissements bancaires et qui, en conséquence, ne sont pas censés se 
+reproduire de manière fréquente et régulière.  
+- d'autre part, les pertes résultant d'événements ou d'opérations clairement distincts des 
+activités ordinaires des établissements bancaires et qui, en conséquence, ne sont pas censés 
+se reproduire de manière fréquente et régulière.  
+Lorsque ce solde est négatif, il est reproduit dans le poste CH 10- Solde en perte provenant des 
+éléments extraordinaires.  
+http://www.procomptable.com/ 14
+Autres postes de charges  
+Poste CH 4 : Dotations aux provisions et résultat des corrections de valeurs sur créances, hors 
+bilan et passif  
+Ce poste comprend le solde négatif entre :  
+- d'une part, les reprises de provisions sur créances douteuses, engagements hors bilan et 
+pour passif, et les sommes recouvrées au cours de l'exercice, au titre de créances passées 
+en perte lors des exercices précédents, considérant qu'elles sont définitivement 
+irrécouvrables. 
+- d'autre part, les dotations aux provisions sur créances douteuses, engagements hors bilan et 
+pour passif et les montants des créances passées en pertes considérant qu'elles sont 
+définitivement irrécouvrables.  
+Lorsque ce solde est positif, il est reproduit dans le poste PR 5 -Solde en gain des corrections de 
+valeurs sur créances, hors bilan et provisions pour passif.  
+Poste CH 5 : Dotations aux provisions et résultat des corrections de valeurs sur portefeuille 
+d'investissement  
+Ce poste comprend le solde négatif entre :  
+- d'une part, les reprises sur provisions et les plus-values de cession sur les titres classés dans 
+le portefeuille d'investissement (poste AC 5-Portefeuille d'investissement) ;  
+- d'autre part, les dotations aux provisions et les moins-values de cession sur les titres classés 
+dans le portefeuille d'investissement.  
+Lorsque ce solde est positif, il est reproduit dans le poste PR 6 -Solde en gain des corrections de 
+valeurs sur portefeuille d'investissement .  
+Poste CH 6 : Frais de personnel  
+Ce poste comprend les frais de personnel, dont les salaires et traitements, les charges sociales et les 
+impôts et taxes liés aux frais de personnel.  
+Poste CH 7 : Charges générales d'exploitation  
+Ce poste comprend :  
+- sous (a) Frais d'exploitation non bancaires: les charges d'exploitation liées aux activités non 
+bancaires.  
+- sous (b) Autres charges générales d'exploitation : les charges d'administration générale, 
+notamment les fournitures de bureau, et la rémunération des services extérieurs.  
+Poste CH 8 : Dotations aux amortissements et provisions sur immobilisations  
+Ce poste comprend les dotations aux amortissements et aux provisions pour dépréciation relatives 
+aux immobilisations incorporelles et corporelles inscrites au poste AC 6- Valeurs immobilisées.  
+Poste CH 9 : Solde en perte provenant des autres éléments ordinaires  
+Ce poste comprend le solde négatif entre :  
+- d'une part, les gains résultant d'événements ou d'opérations inclus parmi les autres éléments 
+ordinaires, tels que les plus-values sur les cessions des immobilisations et le résultat positif 
+sur les corrections de valeurs sur immobilisations  
+- d'autre part, les pertes résultant d'événements ou d'opérations inclus parmi les éléments de 
+même nature .  
+Lorsque ce solde est positif, il est porté dans le poste PR 8 -Solde en gain provenant des autres 
+éléments ordinaires.  
+Poste CH 10 : Solde en perte provenant des éléments extraordinaires  
+Ce poste comprend le solde négatif, après impôt sur les bénéfices entre :  
+- les gains résultant d'événements ou d'opérations clairement distincts des activités ordinaires 
+des établissements bancaires et qui, en conséquence, ne sont pas censés se reproduire de 
+manière fréquente et régulière.  
+- les pertes résultant d'événements ou d'opérations clairement distincts des activités ordinaires 
+des établissements bancaires et qui, en conséquence, ne sont pas censés se reproduire de 
+manière fréquente et régulière.  
+Lorsque ce solde est positif, il est porté dans le poste PR9 -Solde en gain provenant des éléments 
+extraordinaires.  
+ 
+http://www.procomptable.com/ 15
+Poste CH 11 : Impôt sur les bénéfices  
+Ce poste correspond au montant de l'impôt sur les bénéfices dû au titre du bénéfice imposable 
+provenant des opérations ordinaires de l'exercice.  
+L'état des flux de trésorerie  
+26. Conformément à la norme comptable NC 01 -Norme Comptable Générale, l'état des flux de 
+trésorerie doit distinguer séparément les flux provenant (ou utilisés) des (ou dans) les activités 
+d'exploitation, d'investissement et de financement. La présentation des flux de trésorerie liés 
+aux activités d'exploitation selon la méthode directe est plus appropriée. Un modèle de l'état 
+des flux de trésorerie est présenté en annexe 4 de la norme.  
+27. Constituent des équivalents de liquidités les placements à court terme facilement convertibles en 
+un montant connu de liquidités dont la valeur ne risque pas de changer de façon significative, 
+notamment les titres de transaction et les prêts, avances et placements auprès des banques payables 
+dans un délai inférieur à 3 mois à partir de leur octroi. Les dépôts et avoirs des établissements 
+bancaires et financiers payables dans un délai inférieur à 3 mois à partir de leur octroi en sont déduits.  
+28. La classification des flux de trésorerie consécutifs à des contrats à terme dépend de l'intention de 
+leur réalisation. Lorsque ces contrats sont réalisés à des fins de couverture, les flux de trésorerie sont 
+classés dans la même catégorie que ceux de la position couverte. Les flux de trésorerie liés à des 
+contrats à terme réalisés à des fins spéculatives sont classés parmi les activités d'exploitation.  
+29. Les flux de trésorerie doivent être présentés pour leur montant net lorsqu'ils résultent des activités 
+suivantes :  
+- les encaissements et les décaissements liés aux dépôts de la clientèle ;  
+- les encaissements et les décaissements liés aux dépôts et avoirs des établissements 
+bancaires et financiers (autres que ceux déduits des équivalents de liquidités) ;  
+- les encaissements et les décaissements liés aux prêts et avances consentis à la clientèle ;  
+- les encaissements et les décaissements liés aux prêts et avances auprès d'autres 
+établissements bancaires et financiers (autres que ceux considérés comme équivalents de 
+liquidités).  
+Les notes aux états financiers  
+30. Les notes aux états financiers des établissements bancaires comportent :  
+1- Une note confirmant le respect des normes comptables tunisiennes  
+2- Une note sur les bases de mesure et les principes comptables pertinents appliqués  
+3- Les notes sur le bilan  
+4- Les notes sur les engagements hors bilan  
+5- Les notes sur l'état de résultat  
+6- Les notes sur l'état des flux de trésorerie  
+7- Les autres informations  
+31. Les notes aux états financiers des établissements bancaires doivent comporter les informations 
+dont la divulgation est prévue par la norme comptable NC 01 - Norme Comptable Générale et les 
+autres normes comptables.  
+32. Les principes comptables ci-après doivent être nécessairement divulgués parce qu'ils s'appliquent 
+généralement à des activités importantes dans les établissements bancaires et sont en conséquence 
+pertinents pour les utilisateurs des états financiers :  
+- les règles de prise en compte des intérêts et produits assimilés et des commissions ainsi 
+que de cessation de leur constatation  
+- les règles de constatation en créances douteuses et d'évaluation des provisions les 
+concernant  
+- les règles de classification et d'évaluation des titres et de constatation des revenus y 
+afférents  
+- les règles de conversion des opérations en monnaies étrangères, de réévaluation et de 
+constatation des résultats de change.  
+http://www.procomptable.com/ 16
+33. Les notes sur le bilan doivent comporter les informations suivantes lorsqu'elles sont significatives:  
+- la subdivision des postes du bilan (définis par deux lettres en majuscule suivies d'un chiffre) en 
+sous postes (définis par une lettre en minuscule) lorsque cette subdivision n'apparaît pas dans la 
+face du bilan.  
+- pour le poste AC 2 - Créances sur les établissements bancaires et financiers :  
+- la ventilation des créances sur les établissements bancaires et financiers :  
+- selon la durée résiduelle en distinguant les échéances suivantes: jusqu'à 3 
+mois, plus de 3 mois et moins d'un an, plus d'un an et moins de 5 ans, plus de 
+5 ans, et le cas échéant à durée indéterminée  
+- selon la nature de la relation: entreprises liées, entreprises associées et co- 
+entreprises, et autres  
+- selon qu'elles sont éligibles ou non au refinancement de la Banque Centrale.  
+- selon qu'elles sont matérialisées ou non par des titres du marché 
+interbancaire  
+- les mouvements des créances douteuses sur les établissements bancaires et financiers et 
+des provisions correspondantes au cours de l'exercice: montants à la clôture de l'exercice 
+précédent, augmentations ( dotations) de l'exercice, diminutions (reprises) de l'exercice, 
+montants à la clôture de l'exercice  
+- le montant des créances sur les établissements bancaires et financiers existant à la 
+clôture de l'exercice pour lesquelles les intérêts ne sont pas constatés parmi les produits 
+de l'exercice et le montant de ces intérêts.  
+- pour le poste AC 3 -Créances sur la clientèle :  
+- la ventilation des créances sur la clientèle :  
+- selon la durée résiduelle en distinguant les échéances suivantes: jusqu'à 3 
+mois, plus de 3 mois et moins d'un an, plus d'un an et moins de 5 ans, plus de 
+5 ans, et le cas échéant à durée indéterminée  
+- selon la nature de la relation: entreprises liées, entreprises associées et co- 
+entreprises, et autre clientèle.  
+- selon qu'elles sont éligibles ou non au refinancement de la Banque Centrale.  
+- les mouvements de créances douteuses sur la clientèle et des provisions 
+correspondantes au cours de l'exercice: montants à la clôture de l'exercice précédent, 
+augmentations (dotations) de l'exercice, diminutions (reprises) de l'exercice, montants à la 
+clôture de l'exercice.  
+- Le montant des créances sur la clientèle existant à la clôture de l'exercice pour lesquelles 
+les revenus correspondants ne sont pas constatés parmi les produits de l'exercice et le 
+montant de ces revenus.  
+- Le cas échéant, le montant des crédits sur ressources spéciales sur lesquels la banque 
+n'encourt aucun risque de quelque nature que se soit, ainsi que le montant de l'encours 
+des crédits sur ressources spéciales pour lequel la banque n'a pas encore obtenu l'accord 
+de financement du bailleur de fonds correspondant.  
+- pour le poste AC 4 - Portefeuille-titres commercial :  
+- la ventilation des titres de transaction et des titres de placement entre :  
+- titres cotés et titres non cotés  
+- titres émis par les organismes publics, titres émis par les entreprises liées, 
+titres émis par les entreprises associées et co- entreprises et autres titres  
+- titres à revenu fixe et titres à revenu variable.  
+- le montant des transferts, entre catégories de titres, des titres de transaction vers les titres 
+de placement au cours de l'exercice  
+- le montant des plus-values latentes sur les titres de placement, correspondant à la 
+différence entre la valeur probable de négociation (ou valeur de remboursement) et le coût 
+d'acquisition,  
+- les mouvements des provisions pour dépréciation des titres de placement: montant à la 
+clôture de l'exercice précédent, reprises, dotations de l'exercice, montant à la clôture de 
+l'exercice.  
+ 
+ 
+http://www.procomptable.com/ 17
+- pour le poste AC 5 - Portefeuille d'investissement :  
+- les mouvements par catégorie de titres classés dans le portefeuille d'investissement et 
+des provisions correspondantes au cours de l'exercice: montants à la clôture de l'exercice 
+précédent, acquisitions, cessions et transferts de titres, dotations aux provisions et 
+reprises sur provisions, montants à la clôture de l'exercice.  
+- la ventilation des titres selon qu'ils sont cotés ou non  
+- la liste des entreprises filiales indiquant pour chacune d'elles le nom et siège, la part du 
+capital détenu et les montants des capitaux propres et du résultat du dernier exercice.  
+- pour le poste AC 6 - Valeurs immobilisées :  
+La ventilation des immobilisations incorporelles et des immobilisations corporelles par principales 
+catégories et les mouvements des valeurs brutes et des amortissements au cours de l'exercice en 
+distinguant les immobilisations en cours et les immobilisations en crédit-bail retournées, des autres 
+immobilisations: valeurs brutes, amortissements et provisions à la clôture de l'exercice précédent, 
+mouvements de l'exercice, dotations aux amortissements et provisions et reprises effectuées au cours 
+de l'exercice, valeurs brutes, amortissements et provisions cumulés et valeurs nettes à la clôture de 
+l'exercice.  
+- pour le poste AC 7 - Autres actifs : 
+Les mouvements par catégorie d'actif des provisions et résorptions y afférentes au cours de l'exercice: 
+à la clôture de l'exercice précédent, dotations et reprises au cours de l'exercice, montants à la clôture 
+de l'exercice.  
+- pour le poste PA 2 - Dépôts et avoirs des établissements bancaires et financiers :  
+- la ventilation des dépôts et avoirs des établissements bancaires et financiers :  
+- selon la durée résiduelle en distinguant les échéances suivantes: jusqu'à 3 mois, plus 
+de 3 mois et moins d'un an, plus d'un an et moins de 5 ans, plus de 5 ans, et le cas 
+échéant à durée indéterminée  
+- selon la nature de la relation: entreprises liées, entreprises associées et co-
+entreprises, et autres  
+- selon qu'ils soient matérialisés ou non par des titres du marché interbancaire  
+- pour le poste PA 3 - Dépôts et avoirs de la clientèle :  
+- la ventilation des dépôts et avoirs de la clientèle :  
+- selon la durée résiduelle en distinguant les échéances suivantes: jusqu'à 3 mois, plus 
+de 3 mois et moins d'un an, plus d'un an, et moins de 5 ans, plus de 5 ans, et à durée 
+indéterminée  
+- selon la nature de la relation: entreprises liées, entreprises associées et ,co- 
+entreprises, et autre clientèle  
+- pour le poste PA 4 - Emprunts et ressources spéciales  
+- la ventilation des emprunts matérialisés par un titre et des autres fonds empruntés :  
+- selon la durée résiduelle en distinguant les échéances suivantes: jusqu'à 3 mois, plus 
+de 3 mois et moins d'un an, plus d'un an et moins de 5 ans, et plus de 5 ans  
+- selon la nature de la relation: entreprises liées, entreprises associées et co- 
+entreprises, et autres emprunteurs.  
+- la ventilation des ressources spéciales par catégories principales  
+- pour le poste PA 5 - Autres passifs :  
+- la ventilation des autres passifs par principales catégories.  
+- pour le poste CP 1 - Capital  
+- le nombre et la valeur de chaque catégorie de titres composant le capital souscrit et 
+l'étendue des droits que confèrent à leur détenteur les titres de chaque catégorie.  
+- la nature et le montant des diverses modifications du capital au cours de l'exercice et le 
+nombre d'actions concernées.  
+- le cas échéant, le montant du capital appelé et non encore libéré.  
+- pour le poste CP 2 - Réserves :  
+- les mouvements ayant affecté les primes liées au capital 
+- les mouvements ayant affecté les réserves au cours de l'exercice.  
+ 
+ 
+http://www.procomptable.com/ 18
+- pour le poste CP 3 - Actions propres :  
+- la valeur nominale des différentes catégories d'actions propres détenues par la Banque et 
+les mouvements sur actions propres.  
+- -Pour le poste CP 4 - Autres capitaux propres :  
+- les mouvements ayant affecté les subventions au cours de l'exercice.  
+- les mouvements ayant affecté l'écart de réévaluation au cours de l'exercice avec mention, 
+le cas échéant, de la ventilation de ce montant par catégories d'éléments du bilan 
+concernés.  
+- le nombre et la valeur de chaque catégorie de titres assimilés à des capitaux propres et 
+l'étendue des droits qui confèrent à leur détenteur les titres de chaque catégorie.  
+- pour le poste CP 5 - Résultats reportés :  
+- Les mouvements ayant affecté les résultats reportés au cours de l'exercice pour chaque 
+nature d'opérations portées dans ce compte.  
+34. Les notes sur les engagements hors bilan doivent comporter les informations suivantes 
+lorsqu'elles sont significatives :  
+- la subdivision des postes de hors bilan (définis par deux lettres en majuscule suivies d'un chiffre) en 
+sous-postes (définis par une lettre en minuscule) lorsque cette subdivision n'apparaît pas sur l'état des 
+engagements hors bilan.  
+- pour le poste HB 1 - Cautions, avals et autres garanties données :  
+la ventilation des cautions, avals et autres garanties données selon la nature de la relation: 
+entreprises liées, entreprises associées et co-entreprises, autres.  
+- pour le poste RB 2 - Crédits documentaires :  
+la ventilation des engagements liés aux crédits documentaires selon la nature de la relation : 
+entreprises liées, entreprises associées et co- entreprises, autres.  
+- pour le poste RB 3 - Actifs donnés en garantie :  
+la nature et le montant des actifs donnés en garantie des engagements propres de l'établissement 
+bancaire, et des engagements à l'égard des tiers et les postes de passif ou de hors bilan auxquels 
+se rapportent ces actifs.  
+- pour le poste RB 4 - Engagements de financement donnés :  
+la ventilation des engagements de financement donnés selon la nature de la relation: entreprises 
+liées, entreprises associées et co-entreprises, autres.  
+- pour le poste RB 6 - Engagements de financement reçus :  
+la ventilation des engagements de financement reçus selon la nature de la relation: entreprises 
+liées, entreprises associées et co-entreprises, autres.  
+- pour le poste RB 7 - Garanties reçues : 
+la nature et le montant des garanties reçues et le montant total ainsi que celui considéré douteux 
+des postes d'actif ou de hors bilan auxquels se rapportent ces garanties.  
+35. Les notes sur les engagements Dors bilan doivent également comporter :  
+- la valeur des opérations de change au comptant non dénouées à la clôture de l'exercice 
+(montant nominal converti au cours de change au comptant en vigueur à la date de clôture).  
+- la valeur des opérations de change à terme contractées à des fins de couverture et non 
+dénouées à la clôture de l'exercice (montant nominal converti au cours de change à terme 
+restant à courir, en vigueur à la date de clôture).  
+- la valeur des opérations de change à terme contractées à des fins spéculatives et non 
+dénouées à la clôture de l'exercice (montant nominal converti au cours de change à terme 
+restant à courir, en vigueur à la date de clôture).  
+- la valeur des titres à livrer résultant d'opérations de vente de titres dont la livraison effective 
+est différée, soit pour des considérations techniques (délai usuel de règlement \ livraison) ou 
+par la volonté expresse des parties (vente à terme).  
+36. Les notes sur l'état de résultat doivent comporter les informations suivantes lorsqu'elles sont 
+significatives :  
+- la subdivision des postes de produits et charges (définis par deux lettres en majuscule suivies 
+d'un chiffre) en sous postes (définis par une lettre en minuscule) lorsque cette subdivision 
+n'apparaît pas sur l'état de résultat.  
+http://www.procomptable.com/ 19
+- pour les postes PR 3 \ CH 3 - Gains / Pertes sur portefeuille-titres commercial et opérations 
+financières :  
+- la ventilation du gain net \ perte nette sur titres de transaction entre: plus-values de 
+cession, plus-values de réévaluation, moins- values de cession, moins-values de 
+réévaluation.  
+- la ventilation du gain net \ perte nette sur titres de placement entre: intérêts et revenus 
+assimilés sur les titres à revenu fixe, dividendes et revenus assimilés sur les titres à 
+revenu variable, plus-values de cession, reprises sur provisions, moins-values de cession, 
+dotations aux provisions.  
+- pour les postes PR 5 \ CH 4 - Dotations aux provisions et résultat des corrections de valeurs sur 
+créances, hors bilan et passif :  
+la ventilation du solde entre: reprises sur provisions, sommes recouvrées sur créances passées 
+en perte, dotations aux provisions, créances passées en perte.  
+- pour le poste PR 6 \ CH 5 - Dotations aux provisions et résultat des corrections de valeurs sur 
+portefeuille d'investissement :  
+la ventilation du solde entre: reprises sur provisions, plus-values de cession, dotations aux 
+provisions, moins-values de cession.  
+- pour le poste PR 8 \.CH 9 - Solde en gain \ perte provenant des autres éléments ordinaires :  
+la ventilation du solde entre: corrections de valeurs, plus-values de cession, moins-values de 
+cession.  
+- pour le poste PR 9 \ CH 10 - Solde en gain \ perte provenant des éléments extraordinaires :  
+la ventilation du solde par nature et montant d'éléments extraordinaires.  
+37. Les notes aux états financiers doivent également indiquer la valeur des chèques, effets et autres 
+valeurs assimilées détenus par la banque pour le compte de tiers, en attente d'encaissement.  
+Etats financiers intermédiaires  
+38. Les établissements bancaires peuvent être appelés, en vertu de dispositions légales et 
+réglementaires, à présenter des états financiers intermédiaires destinées aux utilisateurs 
+externes. Ces états financiers doivent être établies conformément à la norme comptable 
+relative aux états financiers intermédiaires et à la présente norme.  
+39. Dans les établissements bancaires, la détermination du montant approprié des provisions 
+sur le portefeuille des titres détenus sous forme de participations et les engagements douteux, 
+dans le cadre de l'élaboration des états financiers annuels, s'appuie sur un processus 
+relativement long et complexe. Ce processus inclut généralement une analyse individuelle des 
+risques liés aux contreparties sur la base des informations disponibles sur leurs liquidités, 
+solvabilité et performances financières.  
+Des estimations similaires, dans le cadre de l'élaboration d'états financiers intermédiaires, 
+peuvent s'appuyer sur l'actualisation des provisions déterminées sur la base des risques 
+estimés à la clôture de l'exercice précédent, plutôt que sur la recherche d'informations plus 
+récentes sur les liquidités, solvabilité et performances financières des contreparties, et ce pour 
+favoriser l'élaboration d'états financiers intermédiaires en temps utile et améliorer par 
+conséquent leur pertinence.  
+40. Les états financiers intermédiaires des établissements bancaires comportent obligatoirement :  
+- un bilan ;  
+- un état des engagements hors bilan;  
+- un état de résultat ;  
+- un état des flux de trésorerie ;  
+- des notes aux états financiers intermédiaires ;  
+41. Le bilan doit au minimum faire apparaître les postes (définis par deux lettres en majuscule suivis 
+d'un chiffre) prévus au paragraphe 8 de la présente norme. L'état des engagements hors bilan doit 
+faire apparaître les postes (définis par deux lettres en majuscule suivies d'un chiffre) prévus au 
+paragraphe 14 de la présente norme.  
+http://www.procomptable.com/ 20
+L'état de résultat doit au minimum faire apparaître les postes (définis par deux lettres en majuscule 
+suivies d'un chiffre) prévus au paragraphe 22 de la présente norme.  
+Les modèles de bilan, de l'état des engagements hors bilan, de l'état de résultat et de l'état des flux de 
+trésorerie inclus dans les états financiers intermédiaires, arrêtés selon une périodicité semestrielle, 
+sont présentés en annexes 5 à 8 de la présente norme.  
+Date d'application  
+42. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+Janvier 1999.  
+Annexe 1 Modèle de bilan 
+BILAN 
+Exercice clos le 31 décembre N 
+(Unité : en 1000 DT) 
+ 
+Actifs
+ Note 31-12-N   31-12- N-1  
+1- Caisse et avoirs auprès de la BC, CCP et TGT 
+2- Créance sur les établissements bancaires et financiers 
+3- Créances sur la clientèle 
+4- Portefeuille-titres commercial 
+5- Portefeuille d’investissement 
+6- Valeur immobilisées 
+7- Autres actifs 
+    
+     
+TOTAL ACTIF     
+Passif     
+1- Banque centrale et CCP 
+2- Dépôts et avoirs des établissements bancaires et financiers 
+4- Dépôts et avoirs de la clientèle 
+5- Emprunts et ressources spéciales 
+6- Autres passifs 
+    
+      
+TOTAL PASSIF     
+Capitaux propres     
+1- Capital 
+2- Réserves 
+3- Actions propres 
+4- Autres capitaux propres 
+5- Résultats reportés 
+6- Résultat de l’exercice 
+    
+     
+TOTAL CAPITAUX PROPRES     
+TOTAL PASSIF ET CAPITAUX PROPRES     
+ 
+Annexe 2 Modèle de l’état des engagements hors bilan 
+Etat des engagements hors bilan 
+Exercice clos le 31 décembre N 
+(Unité : en 1000 DT) 
+ 
+PASSIFS EVENTUELS
+ Note  31-12-N   31-12 N-1  
+HB 1 – Cautions, avals et autres garanties données 
+HB 2 – Crédits documentaires 
+HB 3 – Actifs donnés en garantie 
+    
+TOTAL PASSIFS EVENTUELS     
+ 
+ENGAGEMENTS  DONNES 
+    
+HB 4 – Engagements de financement donnés 
+HB 5 – Engagements sur titres 
+    
+TOTAL ENGAGEMENTS DONNES     
+ENGAGEMENT RECUS     
+HB 6 – Engagements de financement reçus     
+HB 7 – Garanties reçues     
+http://www.procomptable.com/ 21
+Annexe 3 Modèle de l’état de résultat 
+Etat de résultat 
+Exercice de 12 mois clos le 31 décembre N 
+(Unité : en 1000 DT) 
+ 
+ 
+PRODUITS D'EXPLOITATION BANCAIRE
+ Note Année N    Année N-1  
+      
+PR 1 -Intérêts et revenus assimilés  
+PR 2 -Commissions (en produits)  
+PR 3 -Gains sur portefeuille-titres commercial et opérations 
+financières  
+PR 4 -Revenus du portefeuille d'investissement  
+Total Produits d'exploitation Bancaire  
+     
+      
+Total produits d’exploitation bancaire      
+      
+CHARGES D'EXPLOITATION BANCAIRE      
+      
+CH I -Intérêts encourus et charges assimilées :  
+CH 2 -Commissions encourues  
+CH 3 -Pertes sur portefeuille-titres commercial et opérations financières  
+     
+      
+Total charges d'exploitation bancaire      
+      
+PRODUIT NET BANCAIRE      
+      
+PR 5 \ CH 4 -Dotations aux provisions et résultat des corrections de 
+valeurs sur  créances, hors bilan et passif  
+PR 6 \ CH 5 -Dotations aux provisions et résultat des corrections de 
+valeurs sur portefeuille d'investissement  
+PR 7 -Autres produits d'exploitation  
+CH 6 -Frais de personnel  
+CH 7- Charges générales d'exploitation  
+CH 8 -Dotations aux amortissements et aux 'Provisions sur 
+immobilisations  
+     
+      
+RESULTAT D’EXPLOITATION      
+      
+PR 8 \ CH 9 -Solde en gain \ perte provenant des Autres éléments 
+ordinaires  
+CH 11 -Impôt sur les bénéfices  
+     
+      
+RESULTAT DES ACTIVITES ORDINAIRES      
+      
+PR 9 \ CH 10 -Solde en gain \ perte provenant des Eléments 
+extraordinaires 
+     
+      
+RESULTAT NET DE L’EXERCICE      
+      
+      
+Résultat net de l'exercice  
+Effets des modifications comptables (net d'impôt)  
+     
+      
+RESULTAT APRES MODIFICATIONS COMPTABLES      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 22
+Annexe 4 - Modèle de l’état des flux de trésorerie 
+Etat des flux de trésorerie 
+Exercice de 12 mois clos le 31 décembre N 
+(Unité : en 1000 DT) 
+ 
+ 
+ACTIVITES D'EXPLOITATION
+ Note Année N    Année N-1  
+ 
+Produits d'exploitation bancaire encaissés  
+(hors revenus du portefeuille d'investissement)  
+Charges d'exploitation bancaire décaissées  
+Dépôts \ Retraits de dépôts auprès d'autres établissements 
+bancaires et financiers  
+Prêts et avances \ Remboursement prêts et avances accordés à 
+la clientèle  
+Dépôts \ Retraits de dépôts de la clientèle Titres de placement  
+Sommes versées au personnel et créditeurs divers  
+Autres flux de trésorerie provenant des activités d'exploitation  
+Impôt sur les bénéfices 
+     
+      
+FLUX DE TRESORERIE NET PROVENANT DES ACTIVITES 
+D’EXPLOITATION 
+     
+      
+ACTIVITES D'INVESTISSEMENT       
+      
+Intérêts et dividendes encaissés sur portefeuille d'investissement  
+Acquisitions \ cessions sur portefeuille d'investissement  
+Acquisitions \ cessions sur immobilisations 
+     
+      
+      
+FLUX DE TRESORERIE NET PROVENANT DES ACTIVITES 
+D’INVESTISSEMENT 
+     
+      
+ACTIVITES DE FINANCEMENT      
+      
+Emission d'actions  
+Emission d'emprunts  
+Remboursement d'emprunts  
+Augmentation \ diminution ressources spéciales  
+Dividendes versés 
+     
+      
+FLUXDE TRESORERIE NET PROVENANT DES ACDVlTES DE 
+FINANCEMENT 
+     
+      
+Incidence des variations des taux de change sur les liquidités et 
+équivalents de liquidités  
+Variation nette des liquidités et équivalents de liquidités au cours 
+de l'exercice  
+Liquidités et équivalents de liquidités en début d'exercice 
+     
+      
+LIQUIDITES ET EQUIVALENTS DE LIQUIDITES EN FIN 
+D’EXERCICE 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 23
+Annexe 5 - Modèle de bilan (états financiers semestriels) 
+Bilan 
+Arrêté au 30 juin N 
+(Unité : en 1000 DT) 
+ 
+ 
+ACTIF 30.06.N   30.06.N-1    31.12.N-1  
+ 
+1- Caisse et avoirs auprès de la BC, CCP et TGT  
+2- Créances sur les établissements bancaires et  
+financiers  
+3- Créances sur la clientèle  
+4- Portefeuille-titre commercial  
+5- Portefeuille d'investissement  
+6- Valeurs immobilisées  
+7- Autres actifs  
+       
+        
+TOTAL ACTIF        
+        
+PASSIF        
+        
+1- Banque centrale et CCP  
+2- Dépôts et avoirs des établissements bancaires et 
+financiers  
+3- Dépôts et avoirs de la clientèle  
+4- Emprunts et ressources spéciales  
+5- Autres passifs  
+       
+        
+TOTAL PASSIF        
+        
+CAPITAUX PROPRES        
+        
+1- Capital  
+2- Réserves  
+3- Actions propres  
+4- Autres capitaux propres  
+5- Résultats reportés  
+6- Résultat de la période  
+       
+        
+TOTAL CAPITAUX PROPRES        
+        
+TOTAL PASSIF ET CAPITAUX PROPRES         
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 24
+ Annexe 6 - Modèle de l’état des engagements hors bilan (états financiers semestriels) 
+Etat des engagements hors bilan 
+Arrêté au 30 juin N 
+(Unité : en 1000 DT) 
+ 
+ 
+ACTIF 30.06.N   30.06.N-1    31.12.N-1  
+ 
+PASSIFS EVENTUELS 
+       
+        
+HB I -Cautions, avals et autres garanties données 
+HB 2 -Crédits documentaires  
+HB 3 -Actifs donnés en garantie 
+       
+        
+TOTAL PASSIFS EVENTUELS        
+        
+ENGAGEMENTS DONNES        
+        
+HB 4 -Engagements de financement donnés  
+HB 5 -Engagements sur titres 
+       
+        
+TOTAL ENGAGEMENTS DONNES        
+        
+ENGAGEMENTS RECUS        
+        
+HB 6 -Engagements de financement reçus  
+HB 7 -Garanties reçues 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 25
+Annexe 7 - Modèle de l’état de résultat (états financiers semestriels) 
+Etat de résultat 
+Période du 01-01 au 30-06-N 
+(Unité : en 1000 DT) 
+ 
+ 
+ 
+Période du 
+01-01- au 
+30-06 Année 
+N 
+  
+Période du 01-
+01- au 30-06 
+Année N-1 
+  Année N-1  
+ 
+ PRODUITS D'EXPLOITATION BANCAIRE 
+       
+        
+PR I -Intérêts et revenus assimilés  
+PR 2- Commissions (en produits)  
+PR 3 -Gains sur portefeuille-titres commercial et opérations 
+financières  
+PR 4 -Revenus du portefeuille d'investissement 
+       
+        
+TOTAL PRODUITS D'EXPLOITATION BANCAIRE        
+        
+CHARGES D'EXPLOITATION BANCAIRE        
+        
+CH I -Intérêts encourus et charges assimilées  
+CH 2 -Commissions encourues  
+CH 3 -Pertes sur portefeuille-titres commercial et opérations 
+financières 
+       
+        
+TOTAL CHARGES D'EXPLOITATION BANCAIRE        
+        
+PRODUIT NET BANCAIRE        
+        
+PR 5 \ CH 4 -Dotations aux Provisions et résultat des corrections 
+de valeurs sur créances hors bilan et passif  
+PR 6 \ CH 5 -Dotations aux provisions et résultat des corrections 
+de valeurs sur portefeuille d’investissement  
+PR 7 -Autres produits d'exploitation  
+CH 6 -Frais de personnel  
+CH 7 -Charges générales d'exploitation  
+CH 8 -Dotations aux amortissements et aux provisions 
+       
+        
+RESULTAT D’EXPLOITATION        
+        
+PR 8 \ CH 9 -Solde en gain \ perte provenant des autres 
+éléments ordinaires  
+CH 11 -Impôt sur les bénéfices 
+       
+        
+RESULTAT DES ACTIVITES ORDINAIRES        
+        
+PR 9 \ CH 10 -Solde en gain \ perte provenant des éléments 
+extraordinaires 
+       
+        
+RESULTAT NET DE LA PERIODE        
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 26
+Annexe 8 Modèle de l’état de flux de trésorerie (états financiers semestriels) 
+Etat de flux de trésorerie 
+Période du 01-01 au 30-06-N 
+(Unité : en 1000 DT) 
+ 
+ 
+ 
+Période du 01-
+01- au 30-06 
+Année N 
+  
+Période du 01-
+01- au 30-06 
+Année N-1 
+  Année N-1  
+ 
+ ACTIVITES D'EXPLOITATION 
+       
+        
+Produits d'exploitation bancaire encaissés  
+(hors revenus du portefeuille d'investissement)  
+Charges d'exploitation bancaire décaissées  
+Dépôts \ Retraits de dépôts auprès d'autres 
+établissements bancaires et financiers  
+Prêts et avances \ Remboursement prêts et avances 
+accordés à la clientèle  
+Dépôts \ Retraits de dépôts de la clientèle  
+Titres de placement  
+Sommes versées au personnel et créditeurs divers  
+Autres flux de trésorerie provenant des activités 
+d'exploitation  
+Impôts sur les bénéfices 
+       
+        
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES D’EXPLOITATION 
+       
+        
+ACTIVITES D'INVESTISSEMENT        
+        
+Intérêts et dividendes encaissés sur portefeuille 
+d'investissement  
+Acquisitions \ cessions sur portefeuille d'investissement  
+Acquisitions \ cessions sur immobilisations 
+       
+        
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES D'INVESTISSEMENT 
+       
+        
+ACTIVITES DE FINANCEMENT        
+        
+Emission d'actions  
+Emission d'emprunts  
+Remboursement d'emprunts  
+Augmentation \ diminution ressources spéciales  
+Dividendes versés  
+       
+        
+FLUX DE TRESORERIE NET PROVENANT DES 
+ACTIVITES DE FINANCEMENT 
+       
+        
+Incidence des variations des taux de change sur les 
+liquidités et équivalents de liquidités  
+Variation nette des liquidités et équivalents de liquidités 
+au cours de la période  
+Liquidités et équivalents de liquidités en début de période 
+       
+        
+LIQUIDITES ET EQUIVALENTS DE LIQUIDITES EN FIN 
+DE PERIODE 
+       
+ 
+ 

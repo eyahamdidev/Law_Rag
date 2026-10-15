@@ -1,0 +1,681 @@
+NC 38 
+Norme comptable relative aux Regroupements d'entreprises 
+  
+Objectif 
+L'objet de la présente norme est de prescrire le traitement comptable applicable aux regroupements 
+d'entreprises. La présente norme couvre l'acquisition d'une entreprise par une autre. La 
+comptabilisation d'une acquisition implique la détermination du coût  de cette acquisition, son 
+affectation aux actifs et aux passifs identifiables de l'entreprise acquise ainsi que la comptabilisation 
+du goodwill ou goodwill négatif en résultant, à la fois à la date d'acquisition et ultérieurement. Les 
+autres problèmes com ptables incluent la détermination du montant des intérêts minoritaires, la 
+comptabilisation des acquisitions se déroulant sur une certaine période, les changements ultérieurs 
+dans le coût d'acquisition ou dans l'identification des actifs et des passifs ain si que les informations à 
+fournir.  
+Champ d'application 
+1. La présente norme doit être appliquée à la comptabilisation des regroupements 
+d'entreprises.  
+2. Un regroupement d'entreprises peut être structuré de différentes façons pour des raisons juridiques 
+ou autres. Il peut impliquer l'acquisition par une entreprise, des capitaux propres d'une autre 
+entreprise ou l'achat de l'actif net d'une entreprise. Il peut être effectué par l'émission d'actions ou par 
+le transfert de liquidités, d'équivalents de liquid ités ou d'autres actifs. L'opération peut se dérouler 
+entre les actionnaires des entreprises se regroupant, ou entre une entreprise et les actionnaires de 
+l'autre entreprise. Le regroupement d'entreprises peut impliquer la création d'une nouvelle entrepris e 
+devant prendre le contrôle des entreprises se regroupant, le transfert vers autre entreprise de l'actif 
+net d'une ou plusieurs des entreprises se regroupant ou la dissolution d'une ou plusieurs des 
+entreprises se regroupant. Lorsque la substance de l'opé ration correspond à la définition d'un 
+regroupement d'entreprises selon la présente norme, les dispositions qu'elle contient concernant la 
+comptabilisation et les informations à fournir sont appropriées, quelle que soit la structure particulière 
+adoptée pour effectuer le regroupement.  
+3. Un regroupement d'entreprises peut donner lieu à une relation mère -filiale dans laquelle l'acquéreur 
+est la mère et l'entreprise acquise est une filiale de l'acquéreur. Dans un tel cas, l'acquéreur applique 
+la présente nor me dans ses états financiers consolidés. Il inclut dans ses états financiers individuels 
+sa part d'intérêts dans la société acquise, comme une participation dans une filiale (voir NCT 35 Etats 
+financiers consolidés).  
+4. Un regroupement d'entreprises peut impliquer l'acquisition de l'actif net, y compris tout goodwill, 
+d'une autre entreprise au lieu de l'achat des actions de l'autre entreprise. Un tel regroupement ne crée 
+pas une relation mère -filiale. Dans une telle situation, l'acquéreur applique la prése nte norme dans 
+ses états financiers individuels et en conséquence, dans ses états financiers consolidés.  
+5. Un regroupement d'entreprises peut donner lieu à une fusion. Celle -ci est en général une opération 
+entre deux sociétés, dans laquelle :  
+(a) les actifs et les passifs d'une société sont transférés à l'autre société et la première société est 
+dissoute; ou  
+(b) les actifs et les passifs des deux sociétés sont transférés à une nouvelle société et les deux 
+sociétés initiales sont dissoutes.  
+De nombreuses fusions interviennent dans le cadre de la restructuration ou de la réorganisation d'un 
+groupe et ne sont pas visées par la présente norme parce qu'il s'agit d'opérations entre entreprises 
+sous contrôle commun. Toutefois, tout regroupement d'e ntreprises conduisant les deux entreprises à 
+devenir membres du même groupe est traité comme une acquisition dans les états financiers 
+consolidés, selon les dispositions de la présente norme.  
+6. La présente norme ne traite pas des états financiers individ uels d'une mère, sauf dans le cas décrit 
+au paragraphe 4.  
+7. La présente norme ne traite pas :  
+(a) des opérations entre entreprises sous contrôle commun. etc  
+ (b) des participations dans les co -entreprises (voir NCT 37 participations dans les co -entreprises), ni 
+des états financiers des coentreprises.  
+Définitions  
+8. Dans la présente norme, les termes suivants ont les significations indiquées ci -après :  
+Un regroupement d'entreprises est le fait de regrouper des entreprises distinctes au sein d'une 
+seule entité économique à la suite d'une prise de contrôle de l'actif net et des activités d'une 
+autre entreprise.  
+Une acquisition est un regroupement d'entreprises dans lequel l'une des entreprises, 
+l'acquéreur, prend le contrôle de l'actif net et des activi tés d'une autre entreprise, l'entreprise 
+acquise, en échange d'un transfert d'actifs, de la prise en compte d'un passif ou de l'émission 
+de titres de capitaux propres.  
+Le contrôle est le pouvoir de diriger les politiques financières et opérationnelles d'u ne 
+entreprise afin d'obtenir des avantages de ses activités.  
+Une mère est une entreprise qui a une ou plusieurs filiales.  
+Une filiale est une entreprise contrôlée par une autre entreprise (appelée la mère).  
+Les intérêts minoritaire sont la quote -part, dans les résultats nets des activités et dans les 
+capitaux propres d'une filiale, attribuable aux intérêts qui ne sont détenus par la mère, ni 
+directement, ni indirectement par l'intermédiaire des filiales.  
+La juste valeur est le monta nt pour lequel un actif pourrait être échangé, ou un passif éteint, 
+entre parties bien informées et consentantes et agissant dans des conditions de concurrence 
+normale.  
+Les actifs monétaires désignent l'argent détenu et les actifs à recevoir en argent pou r des 
+montants fixes ou déterminables.  
+La date d'acquisition est la date à laquelle le contrôle de l'actif net et des activités de 
+l'entreprise acquise est effectivement transféré à l'acquéreur.  
+Acquisitions 
+9. Dans pratiquement tous les regroupements d' entreprises, une des entreprises participant au 
+regroupement acquiert le contrôle de l'autre entreprise, permettant de la sorte, d'identifier un 
+acquéreur. La prise de contrôle est présumée lorsqu'une des entreprises participant au regroupement 
+acquiert pl us de la moitié des droits de vote de l'autre entreprise, sauf à ce que dans des 
+circonstances exceptionnelles, il puisse être clairement démontré qu'une telle prise de participation ne 
+constitue pas un contrôle. Même lorsqu'une des entreprises participant es n'acquiert pas plus de la 
+moitié des droits de vote de l'autre entreprise, il peut demeurer possible d'identifier un acquéreur 
+lorsqu'une de ces entreprises, par suite du regroupement:  
+(a) prend le contrôle de plus de la moitié des droits de vote de l'autre entreprise en vertu d'un accord 
+avec d'autres investisseurs ;  
+(b) obtient le pouvoir de diriger les politiques financière et opérationnelle de l'autre entreprise en vertu 
+des statuts ou d'un accord ;  
+(c) obtient le pouvoir de nommer ou de révoquer la majorité des membres du conseil d'administration, 
+ou de l'instance équivalente, de l'autre entreprise ; ou  
+(d) dispose du pouvoir de rassembler la majorité des votes lors des réunions du c onseil 
+d'administration, ou de l'instance équivalente, de l'autre entreprise.  
+Le contrôle est présumé, dès lors que l'une de ces entreprises détient directement ou indirectement 
+quarante pour cent au moins des droits de vote dans l'autre entreprise, et qu 'aucun autre associé n'y 
+détienne une fraction supérieure à la sienne.  
+10. Bien qu'il puisse être parfois difficile d'identifier un acquéreur, il y a en général des indices qu'il en 
+existe un, par exemple quand :  
+(a) la juste valeur d'une entreprise est sensiblement plus élevée que celle de l'autre entreprise se 
+regroupant. Dans un tel cas, l'acquéreur est l'entreprise la plus importante ;  
+(b) le regroupement s'effectue sous forme d'un échange d'actions ordinaires ayant droit de vote contre 
+de la trésorerie. Dans un tel cas, l'acquéreur est l'entreprise cédant la trésorerie; ou  
+(c) le regroupement est tel que les dirigeants d'une entreprise sont en mesure de dominer le choix de 
+l'équipe de direction de l'entreprise regroupée. Dans un tel cas, l'acquéreur est l'entreprise dominante.  
+Acquisitions inversées  
+11. Il peut arriver qu'une entreprise acquiert des actions d'une autre entreprise, en émettant, en 
+rémunération de l'opération d'échange, un nombre suffisant d'actions ayant droit de vote pour que le 
+contrôle de l'entreprise regroupée passe aux propriétaires de l'entreprise dont les actions ont été 
+acquises. Cette situation est appelée acquisition inversée. Bien que juridiquement, l'entreprise 
+émettrice des actions puisse être considérée comme la mère ou  l'entreprise poursuivant l'activité, c'est 
+l'entreprise dont les actionnaires contrôlent désormais l'entreprise regroupée qui est l'acquéreur 
+jouissant des droits de vote et autres pouvoirs identifiés au paragraphe 9. L'entreprise ayant émis les 
+actions est considérée comme ayant été acquise par l'autre entreprise; cette dernière est réputée être 
+l'acquéreur et applique la méthode de l'acquisition aux actifs et passifs de l'entreprise ayant émis les 
+actions.  
+Comptabilisations des acquisitions 
+12. Un regroupement d'entreprises qui constitue une acquisition doit être comptabilisé selon la 
+méthode de l'acquisition telle qu'elle est décrite dans les dispositions normatives figurant aux 
+paragraphes 14 à 71.  
+13. le recours à la méthode de l'acquisition conduit à comptabiliser l'acquisition d'une entreprise de 
+façon analogue à l'acquisition d'autres actifs. Ce mode de comptabilis8tion est approprié puisqu'une 
+acquisition implique une opération selon laquelle des actifs sont transférés, des passifs sont assumés 
+ou des parts de capital sont émises en échange du contrôle de l'actif net et des activités d'une autre 
+entreprise. La méthode de l'acquisition utilise le coût comme base d'enregistrement de l'acquisition et 
+s'appuie sur l'opération d'échange sous-jacente à l'acquisition pour déterminer le coût.  
+Date d'acquisition  
+14. A compter de la date d'acquisition, un acquéreur doit :  
+(a) intégrer à l'état de résultats, les résultats de l'entreprise acquise; et  
+(b) comptabiliser au bilan les actifs et passifs identif1 8bles de l'entreprise acquise et tout 
+goodwill ou goodwill négatif provenant de cette opération.  
+15. La date d'acquisition est la date à laquelle le contrôle de l'actif net et des activités de l'entreprise 
+acquise est effectivement transféré à l'acquéreur  et la date à laquelle commence l'application de la 
+méthode de l'acquisition. Les résultats d'une entreprise acquise sont inclus dans les états financiers 
+de l'acquéreur à compter de la date d'acquisition, qui est la date à laquelle le contrôle de l'entrep rise 
+acquise est effectivement transféré à l'acquéreur. En substance, la date d'acquisition est la date à 
+partir de laquelle l'acquéreur a le pouvoir de diriger les politiques financière et opérationnelle d'une 
+entreprise afin d'obtenir des avantages de se s activités. Le contrôle n'est pas réputé avoir été 
+transféré à l'acquéreur tant que toutes les conditions nécessaires à la protection des intérêts des 
+parties impliquées n'ont pas été satisfaites. Toutefois, il n'est pas nécessaire qu'une opération soit 
+achevée ou finalisée d'un point de vue juridique pour que le contrôle passe effectivement à 
+l'acquéreur. Pour apprécier si le contrôle a été effectivement transféré, il convient de tenir compte de 
+la substance de l'acquisition.  
+Coût d'acquisition  
+16. Une acquisition doit être comptabilisée à son coût, à savoir le montant de liquidités ou 
+d'équivalents de liquidités versé ou la juste valeur, à la date d'échange, des autres éléments du 
+prix d'acquisition consentis par l'acquéreur en échange du contrô le de l'actif net de l'autre 
+entreprise, plus tous autres coûts directement attribuables à l'acquisition.  
+17. Lorsqu'une acquisition implique plus d'une opération d'échange, le coût de l'acquisition est le coût 
+cumulé des opérations individuelles. Lorsqu' une acquisition s'effectue par étapes, la distinction entre 
+la date d'acquisition et la date de l'opération d'échange est importante. Alors que la comptabilisation 
+de l'acquisition commence à compter de la date d'acquisition, les informations relatives au coût et à la 
+juste valeur telles qu'elles sont déterminées à la date de chaque opération d'échange sont utilisées.  
+18. Les actifs monétaires accordés et les passifs assumés sont évalués à leur juste valeur à la date de 
+l'opération d'échange. Lorsque le rè glement du prix d'acquisition est différé, le coût d'acquisition est la 
+valeur actualisée du prix, compte tenu de tout prime ou rabais qui interviennent probablement dans le 
+règlement, et non la valeur nominale de la somme à payer.  
+19. Pour déterminer le coût d'acquisition, les titres négociables sur un marché émis par l'acquéreur 
+sont évalués à leur juste valeur qui est leur prix de marché à la date de l'opération d~échange, à 
+moins que des fluctuations anormales ou l'étroitesse du marché ne fassent du pr ix de marché un 
+indicateur non fiable. Lorsque le prix du marché à une date donnée n'est pas un indicateur fiable, il 
+convient de tenir compte des mouvements de prix pendant un délai raisonnable avant et après 
+l'annonce des conditions de l'acquisition. Lor sque le marché n'est pas fiable ou lorsque les titres ne 
+sont pas cotés, la juste valeur des titres émis par l'acquéreur est estimée en fonction de la part qu'ils 
+représentent dans la juste valeur de l'entreprise de l'acquéreur, ou en fonction de la part d ans la juste 
+valeur de l'entreprise acquise, selon celle des deux valeurs qui paraît la plus claire. La partie du prix 
+qui est versée en trésorerie aux actionnaires de l'entreprise acquise en lieu et place de titres peut 
+également donner une indication de la juste valeur totale accordée. Tous les aspects de l'acquisition, 
+y compris les facteurs importants ayant influencé les négociations, doivent être pris en considération 
+et des évaluations indépendantes peuvent être utilisés pour aider à déterminer la jus te valeur de titres 
+émis.  
+20. En plus du prix d'acquisition, l'acquéreur peut encourir des coûts directs liés à l'acquisition. Ceux -
+ci comprennent les coûts d'inscription et d'émission de titres, ainsi que les honoraires versés aux 
+professionnels comptables, aux conseils juridiques, a ux évaluateurs et autres consultants intervenus 
+pour effectuer l'acquisition. Les coûts administratifs généraux, y compris les coûts de fonctionnement 
+d'un service chargé des acquisitions, et les autres coûts qui ne peuvent être directement attribués à 
+l'acquisition en cours de comptabilisation, ne sont pas inclus dans le coût d'acquisition mais sont 
+comptabilisés en charge au moment où ils sont encourus.  
+Comptabilisation des actifs et passifs identifiables  
+21. Les actifs et passifs identifiables acquis c omptabilisés selon le paragraphe 14 doivent être 
+les actifs et passifs de l'entreprise acquise qui existaient à la date d'acquisition ainsi que tout 
+passif comptabilisé selon le paragraphe 26. Ils doivent être comptabilisés de façon séparée à la 
+date d'acquisition si, et seulement si :  
+(a) il est probable que tous les avantages économiques futurs s'y rapportant iront à l'acquéreur 
+ou que des ressources représentatives d'avantages économiques futurs sortiront de chez 
+l'acquéreur; et  
+(b) l'on dispose d'une évaluation fiable de leur coût ou de leur juste valeur.  
+22. Les actifs et passifs qui sont comptabilisés selon le paragraphe 21 sont décrits dans la présente 
+norme comme des actifs et passifs identifiables. Dans la mesure où des actifs et passifs acquis n e 
+satisfont pas à ces critères de comptabilisation, il en résulte un effet sur le montant du goodwill ou 
+goodwill négatif généré par l'acquisition, car le goodwill ou goodwill négatif est déterminé comme étant 
+le coût d'acquisition résiduel après comptabilisation des actifs et passifs identifiables.  
+23. Les actifs et passifs identifiables dont l'acquéreur prend le contrôle peuvent inclure des actifs et 
+des passifs qui n'étaient pas précédemment comptabilisés dans les états financiers de la société 
+acquise. Ceci peut être le cas parce qu'ils ne satisfaisaient pas aux critères de comptabilisation avant 
+l'acquisition.  
+24. Sous réserve du paragraphe 26, des passifs ne doivent pas être comptabilisés à la date 
+d'acquisition s'ils résultent d'intentions ou d'actions de l'acquéreur. Des passifs ne doivent pas 
+non plus être comptabilisés au titre de pertes futures ou d'autres coûts que l'on s'attend à 
+encourir du fait de l'acquisition, que ces pertes ou coûts soient liés à l'acquéreur ou à 
+l'entreprise acquise.  
+25. Les passifs visés au paragraphe 24, ne sont pas des passifs de l'entreprise acquise à la date 
+d'acquisition. Par conséquent, il n'est pas pertinent de les prendre en compte dans l'affectation du 
+coût d'acquisition. Néanmoins, la présente norme prévoit une  exception spécifique à ce principe 
+général. Cette exception s'applique si l'acquéreur a élaboré un plan ayant trait à l'activité de 
+l'entreprise acquise et si l'acquisition a pour conséquence directe de générer une obligation. Parce 
+que ces plans font par tie intégrante du plan d'acquisition de l'acquéreur, la présente norme impose 
+aux entreprises de comptabiliser une provision pour les coûts en résultant (voir paragraphe 26). Dans 
+le cadre de la présente norme, les actifs et passifs identifiables acquis in cluent les provisions 
+comptabilisées selon le paragraphe 26. Le paragraphe 26 pose des conditions strictes destinées à 
+s'assurer que les plans faisaient partie intégrante de l'acquisition et que dans un délai court, dans les 
+trois mois à compter de la date  d'acquisition et sans dépasser la date d'approbation des états 
+financiers, l'acquéreur a élaboré les plans d'une manière telle qu'elle impose à l'entreprise de 
+comptabiliser une provision pour restructuration. La présente norme impose également à une 
+entreprise de reprendre ces provisions si le plan n'est pas mis en oeuvre de la manière attendue ou 
+dans le délai attendu à l'origine (voir paragraphe 70) et de fournir des informations sur ces provisions 
+(voir paragraphe 80).  
+26. A la date d'acquisition, l'a cquéreur doit comptabiliser une provision qui n'était pas un 
+passif de l'entreprise acquise à cette date si, et seulement si, l'acquéreur a :  
+(a) à la date d'acquisition ou à une date antérieure, élaboré les principales caractéristiques 
+d'un plan qui implique d'arrêter ou de réduire les activités de l'entreprise acquise et prévoit :  
+(i) le versement d'indemnités au personnel de l'entreprise pour mettre fin à leur emploi ;  
+(ii) la fermeture d'installations de l'entreprise acquise ; 
+(iii) la suppression de lignes de produits de l'entreprise acquise; ou  
+(iv) la résiliation de contrats de l'entreprise acquise qui sont devenus déficitaires car 
+t'acquéreur a informé l'autre partie, à la date d'acquisition ou à une date antérieure, que te 
+contrat serait résilié;  
+(b) en annonçant les principales caractéristiques du plan, à la date d'acquisition ou à une date 
+antérieure, créé chez les personnes concernées une attente fondée qu'il mettra en oeuvre le 
+plan; et  
+(c) dans un délai de trois mois à compter de la date d 'acquisition et sans dépasser la date 
+d'approbation des états financiers, développé ces principales caractéristiques en un plan 
+détaillé et formalisé indiquant au moins :  
+(i) l'activité ou la partie d'activité concernée;  
+(ii) les principaux sites affectés ; 
+(iii) la localisation, la fonction et le nombre approximatif de membres du personnel qui seront 
+indemnisés au titre de la fin de leur contrat de travail ;  
+(iv) les dépenses qui seront engagées; et  
+(v) la date à laquelle le plan sera mis en oeuvre.  
+Toute provision comptabilisée selon le présent paragraphe doit couvrir uniquement le coût des 
+éléments énumérés au (a) (i) à (iv) ci-dessus.  
+Affectation du coût d'acquisition traitement de référence  
+27. les actifs et passifs identifiables comptabilisés s elon le paragraphe 21 doivent être évalués 
+pour un montant égal au total de :  
+(a) la juste valeur des actifs et passifs identifiables acquis à la date de l'opération d'échange à 
+concurrence de la part d'intérêts obtenu par l'acquéreur dans l'opération d'é change; et  
+(b) la part des minoritaires dans les valeurs comptables antérieures à l'acquisition des actifs et 
+passifs identifiables de la filiale.  
+Tout goodwill ou goodwill négatif doit être comptabilisé selon la présente norme.  
+28. Le coût d'une acquis ition est affecté aux actifs et passifs identifiables comptabilisés selon le 
+paragraphe 21 par référence à leur juste valeur à la date de l'opération d'échange. Toutefois, le coût 
+de l'acquisition ne correspond qu'au pourcentage des actifs et des passifs i dentifiables acquis par 
+l'acquéreur. En conséquence, lorsqu'un acquéreur acquiert moins de la totalité des actions de l'autre 
+entreprise, les intérêts minoritaires en résultant sont évalués sur la base de la part revenant aux 
+minoritaires dans la valeur co mptable antérieure à l'acquisition de l'actif net identifiable de la filiale. Il 
+en est ainsi parce que la part des minoritaires n'a pas fait partie de l'opération d'échange visant à 
+effectuer l'acquisition.  
+Autre traitement autorise  
+29. Les actifs et passifs identifiables comptabilisés selon le paragraphe 21 doivent être évalués 
+à leur juste valeur à la date d'acquisition. Tout goodwill ou goodwill négatif, doit être 
+comptabilisé selon la présente norme. Tout intérêt minoritaire doit être évalué sur la base de la 
+part des minoritaires dans les justes valeurs des actifs et passifs identifiables comptabilisés 
+selon le paragraphe 21.  
+30. Selon cette approche, l'actif net identifiable dont l'acquéreur a pris le contrôle figure à la juste 
+valeur, que l'acquéreur ait acquis tout ou seulement partie du capital de l'autre entreprise ou qu'il ait 
+acquis les actifs directement. En conséquence, tout intérêt minoritaire est évalué sur la base de la part 
+des minoritaires dans les justes valeurs de l'actif net identifiable de la filiale.  
+Achats d'acquisitions successifs 
+31. Une acquisition peut comprendre plus d'une opération d'échange, par exemple lorsqu'elle 
+s'effectue par étapes par des achats successifs en bourse. Lorsque telle est le cas, chaqu e opération 
+importante est traitée séparément pour la détermination de la juste valeur des actifs et passifs 
+identifiables acquis et pour celle du montant de tout goodwill ou goodwill négatif provenant de cette 
+opération. Ceci aboutit à une comparaison éta pe par étape du coût des prises de participation 
+individuelle avec la part d'intérêts de l'acquéreur dans les justes valeurs des actifs et passifs acquis, 
+lors de chaque étape importante.  
+32. Lorsqu'une acquisition s'effectue par achats successifs, les ju stes valeurs des actifs et passifs 
+identifiables peuvent varier à la date de chaque opération d'échange. Si tous les actifs et passifs 
+identifiables relatifs à une acquisition sont ajustés à la juste valeur applicable au moment des achats 
+successifs, tout ajustement de la part d'intérêts détenue précédemment par l'acquéreur est une 
+réévaluation et est comptabilisé en tant que telle.  
+33. Avant de pouvoir être qualifiée d'acquisition, une opération peut être qualifiée de participation dans 
+une société associ ée et être comptabilisée par application de la méthode de la mise en équivalence 
+selon la NC 36 participations dans des entreprises associées. Dans ce cas, la détermination de la 
+juste valeur des actifs et passifs identifiables acquis et la comptabilisatio n du goodwill ou goodwill 
+négatif se produisent, par convention, à compter de la date à laquelle la méthode de mise en 
+équivalence est appliquée. Lorsque la participation n'était pas précédemment qualifiée de participation 
+dans une entreprise associée, la juste valeur des actifs et passifs identifiables est déterminée à la date 
+de chaque étape importante et les goodwills ou goodwills négatifs sont comptabilisés à compter de la 
+date d'acquisition.  
+Détermination de la juste valeur des actifs et passifs identifiables acquis  
+34. On trouvera ci -après des indications générales permettant d'établir la juste valeur des actifs et 
+passifs identifiables acquis :  
+(a) titres négociables sur un marché, à leur valeur de marché ;  
+(b) titres non-négociables sur un marché , à des valeurs estimées qui prennent en considération des 
+caractéristiques telles que le ratio cours/bénéfice, les rendements sur dividendes et les taux de 
+croissance attendus de titres comparables d'entreprises ayant des caractéristiques similaires;  
+(c) créances, à la valeur actualisée des montants à recouvrer, déterminée avec des taux d'intérêt 
+actuels appropriés, diminuée le cas échéant, des corrections de valeur pour irrécouvrabilité et des 
+coûts de recouvrement. Toutefois, l'actualisation n'est pas r equise pour les créances à court terme 
+lorsque la différence entre le montant nominal de la créance et son montant actualisé n'est pas 
+significative ;  
+(d) Stocks : 
+(i) produits finis et marchandises, au prix de vente diminué de la somme (a) des coûts de s ortie et (b) 
+d'une marge raisonnable pour rémunérer l' effort de vente de l' acquéreur sur la base de la marge 
+constatée pour des produits finis et marchandises similaires ;  
+(ii) travaux en cours, au prix de vente des produits finis diminué de la somme (a ) des coûts à 
+terminaison, (b) des coûts de sortie et (c) d'une marge raisonnable sur les coûts restant à engager 
+pour la terminaison et la vente, sur la base de la marge constatée pour les produits finis similaires; et  
+(iii) matières premières, au coût de remplacement ; 
+(e) terrains et constructions, à leur valeur de marché ; 
+(f) installations et équipements, à la valeur de marché, normalement déterminée par évaluation à dires 
+d'expert Lorsqu'on ne dispose d'aucune indication de la valeur de marché en rai son de la nature 
+spécialisée des installations et équipements ou parce que ces biens sont rarement vendus, sauf dans 
+le cadre d'un transfert d'activité, ils sont évalués à leur coûts de remplacement net d'amortissement ;  
+(g) immobilisations incorporelles, telles que définies dans la NC 6 : Immobilisations incorporelles, à la 
+juste valeur déterminée :  
+(i) par référence à un marché actif qui est un marché pour lequel sont réunies les conditions   
+suivantes : 
+-les éléments négociés sur ce marché sont les mêmes,  
+-on peut normalement trouver des acheteurs et des vendeurs consentants, et  
+-les prix sont mis à la disposition du public. 
+(ii) en l'absence d'un marché actif, sur une base reflétant le montant que l'en treprise aurait payé pour 
+l'actif dans une transaction entre parties consentantes et bien informées, effectuée dans des 
+conditions de concurrence normale, en se fondant sur la meilleure information disponible. Pour 
+déterminer ce montant, l'entreprise prend  en compte les résultats des transactions récentes pour des 
+actifs similaires.  
+(h) actifs et passifs d'impôts, au montant du " crédit d'impôt lié au déficit fiscal ou des impôts à payer 
+sur le résultat net, apprécié dans la perspective de l' entité regrou pée ou du groupe issu de 
+l'acquisition. L'actif ou le passif d'impôt est déterminé après prise en compte de l'effet d'impôt lié au 
+retraitement des actifs et passifs identifiables à leur juste valeur et n'est pas actualisé. Les actifs 
+d'impôt incluent tout  actif d'impôt différé de l'acquéreur qui n'avait pas été comptabilisé avant 
+l'acquisition mais qui, du fait du regroupement d'entreprises, répond désormais aux critères de 
+comptabilisation;  
+(i) fournisseurs et effets à payer, emprunts à long -terme, passifs, charges à payer et autres, à la 
+valeur actualisée des sommes à débourser pour éteindre le passif, déterminée en fonction des taux 
+d'intérêt actuels appropriés. Toutefois, l'actualisation n'es t pas requise pour les passifs à court -terme 
+lorsque la différence entre le montant nominal du passif et le montant actualisé n 'est pas   
+significative ;  
+(j) contrats déficitaires et autres passifs identifiables de l'entreprise acquise à la valeur actual isée des 
+sommes à débourser pour éteindre l'obligation, déterminée en fonction des taux d'intérêt actuels 
+appropriés; et  
+(k) provisions pour arrêt ou réduction des activités de l'entreprise acquise qui sont comptabilisées 
+selon le paragraphe 26, à un mont ant déterminé selon la NC 14 : Eventualités et évènements 
+postérieurs à la date de clôture.  
+Certaines des indications ci -dessus supposent que les justes valeurs soient déterminées par 
+actualisation. Lorsque les indications ne font pas mention du recours à  l'actualisation, celle -ci peut-
+être ou non utilisée pour déterminer les justes valeurs des actifs et des passifs identifiables.  
+35. Si la juste valeur d'une immobilisation incorporelle ne peut être évaluée par référence à un 
+marché actif, le montant comp tabilisé pour cette immobilisation incorporelle à la date de 
+l'acquisition doit être limité à un montant ne créant pas un goodwill négatif ou n'augmentant 
+pas un goodwill négatif généré lors de l'acquisition (voir paragraphe 54).   
+Goodwill généré par l'acquisition comptabilisation et évaluation :  
+36. Tout excédent du coût d'acquisition sur la part d'intérêts de l'acquéreur dans la juste valeur 
+des actifs et passifs identifiables acquis à la date de l'opération d'échange doit être décrit 
+comme goodwill et comptabilisé en tant qu'actif.  
+37. Le goodwill généré par l'acquisition représente un paiement effectué par l'acquéreur en 
+anticipation d'avantages économiques futurs. Les avantages économique~ futurs peuvent résulter 
+d'une synergie entre les actifs identi fiables acquis ou d'actifs, qui individuellement, ne satisfont pas 
+aux critères de comptabilisation dans les états financiers mais pour lesquels l'acquéreur est disposé à 
+effectuer un paiement dans le cadre de l'acquisition.  
+38. Le goodwill doit être comp tabilisé à son coût diminué du cumul des amortissements et du 
+cumul des pertes de valeur.  
+Amortissement : 
+39. Le goodwill doit être amorti sur une base systématique sur sa durée d'utilité. La durée 
+d'amortissement doit refléter la meilleure estimation de la période durant laquelle il est attendu 
+que des avantages économiques futurs iront à l'entreprise. Il existe une présomption qui peut 
+être réfutée que la durée d'utilité du goodwill n'excède pas vingt ans à compter de sa 
+comptabilisation initiale.  
+40. L e mode d'amortissement utilisé doit traduire le rythme attendu de consommation des 
+avantages économiques futurs résultant du goodwill. Sauf éléments probants et convaincants 
+qu'un autre mode est plus approprié en la circonstance, le mode linéaire doit être  appliqué.  
+41. L'amortissement de chaque exercice doit être comptabilisé en charges.  
+42. Avec le temps, le goodwill diminue, reflétant une diminution de son potentiel de service. Dans 
+certains cas, il peut apparaître que la valeur du goodwill ne diminue pas avec le temps. Cela est dû au 
+fait que le potentiel d'avantages économiques acquis initialement est progressivement remplacé par le 
+potentiel d'avantages économiques résultant d'améliorations ultérieures du goodwill. Autrement dit, le 
+goodwill qui a ét é acquis est progressivement remplacé par un goodwill généré en interne. La NC 6: 
+Immobilisations incorporelles interdit la comptabilisation en tant qu'actif du goodwill généré en interne. 
+Il convient donc d'amortir le goodwill sur une base systématique su r la meilleure estimation de sa 
+durée d'utilité.  
+43. De nombreux facteurs doivent être pris en considération pour déterminer la durée d'utilité du 
+goodwill, notamment :  
+(a) la nature et la durée de vie prévisible de l'entreprise acquise;  
+(b) la stabilité et la durée de vie prévisible du secteur d'activité auquel correspond le goodwill;  
+(c) les informations publiques sur les caractéristiques du goodwill dans des entreprises ou secteurs 
+d'activité similaires et les cycles de vie types d'entreprises similaires;  
+(d) les effets de l'obsolescence des produits, des modifications dans la demande et des autres 
+facteurs économiques sur l'entreprise acquise;  
+(e) l'espérance de vie professionnelle des personnes ou des groupes de salariés clés et la question de 
+savoir si l'entreprise acquise pourrait être gérée efficacement par une autre équipe dirigeante;  
+(f) le niveau des dépenses de maintenance ou de financements requis pour obtenir les avantages 
+économiques futurs attendus de l'entreprise acquise, et la capacit é et l'intention de l'entreprise 
+d'atteindre ce niveau;  
+(g) les actions attendues de la part des concurrents ou des concurrents potentiels; et  
+(h) la durée du contrôle sur l'entreprise acquise et les dispositions légales, réglementaires ou 
+contractuelles affectant sa durée d'utilité.  
+44. Du fait que le goodwill représente, entre autres choses, des avantages économiques futurs 
+résultant de synergies ou d'actifs qui ne peuvent être comptabilisés distinctement, il est difficile d'en 
+estimer la durée d'utilité. Ces estimations deviennent moin s fiables à mesure que la durée d'utilité 
+augmente. La présomption retenue dans la présente norme est que la durée d'utilité du goodwill 
+n'excède normalement pas vingt ans à compter de sa comptabilisation initiale.  
+45. Dans de rares cas, il peut exister d es éléments probants et convaincants que la durée d'utilité du 
+goodwill aura une durée spécifique supérieure à vingt ans. Bien que des exemples soient difficiles à 
+trouver, cela peut être le cas lorsque le goodwill est si clairement lié à un actif identifi able ou à un 
+groupe d'actifs identifiables que l'on peut raisonnablement s'attendre à ce qu'il bénéficie à l'acquéreur 
+sur la durée d'utilité de cet actif ou de ce groupe d'actifs identifiables. Dans ces cas, la présomption 
+selon laquelle la durée d'utilité du goodwill n'excède pas vingt ans, est r6futée et l'entreprise :  
+(a) amortit le goodwill sur la meilleure estimation de sa durée d'utilité;  
+(b) estime la valeur recouvrable du goodwill au minimum une fois par an afin d'identifier toute perte de 
+valeur (voir paragraphe 51) ; et  
+(c) indique les raisons pour lesquelles la présomption est réfutée ainsi que Ie(s) facteur(s) qui a (ont) 
+joué un rôle important dans la détermination de la durée d'utilité du goodwill (voir paragraphe 76(b) ).  
+46. La durée d'u tilité du goodwi1l est toujours finie. L'incertitude justifie de faire preuve de prudence 
+dans l'estimation de la durée d'utilité du goodwill, mais elle ne justifie pas d'estimer une durée d'utilité 
+dont la brièveté n'est pas réaliste.  
+47. Il n'existera q ue rarement, voire jamais, d'éléments probants et convaincants justifiant l'utilisation 
+d'un mode d'amortissement du goodwi1l autre que le mode linéaire, en particulier si cet autre mode 
+aboutit à un cumul d'amortissements inférieur à celui obtenu av~ le m ode linéaire. Le mode 
+d'amortissement est appliqué de manière cohérente d'un exercice sur l'autre, sauf si le rythme attendu 
+des avantages économiques du goodwill a changé.  
+48. Lors de la comptabilisation d'une acquisition, il peut y avoir des circonstanc es dans lesquelles le 
+goodwill généré par l'acquisition ne reflète pas les avantages économiques futurs attendus par 
+l'acquéreur. Par exemple, une baisse des flux de trésorerie futurs attendus de l'actif net identifiable 
+acquis, a pu se produire depuis la négociation du prix d'acquisition. Dans ce cas~ l'entreprise procède 
+à un test de dépréciation du goodwill, et comptabilise en conséquence toute perte de valeur.  
+49. La durée et le mode d'amortissement doivent être réexaminés au minimum à la clôture de ch aque 
+exercice. Si la durée d'utilité attendue du goodwill est significativement différente des estimations 
+antérieures, la durée d'amortissement doit être modifiée en conséquence. Si le rythme attendu des 
+avantages économiques du goodwill a connu un change ment important, le mode d'amortissement doit 
+être modifié pour traduire le nouveau rythme. Ces changements doivent être comptabilisés comme 
+des changements d'estimations comptables selon la NC 11: Modifications comptables, en ajustant la 
+dotation aux amortissements de l'exercice et des exercices futurs.  
+Recouvrabilité de la valeur comptable - pertes de valeur :  
+50. Lorsque des éléments indiquent que le goodwill a perdu de la valeur, un test de dépréciation doit 
+être opéré. L'entreprise détermine alors la valeur recouvrable du goodwill et la compare par rapport à 
+sa valeur comptable nette, le cas échéant une perte de valeur est comptabilisée.  
+51. Outre ces dispositions, une entreprise doit, au minimum à la clôture de chaque exercice, estimer la 
+valeur recouvrable du goodwill qui est amorti sur une durée supérieure à vingt ans à compter de sa 
+comptabilisation initiale, même s'il n'existe aucun indice d'une perte de valeur.  
+51. Il est parfois difficile d'établir si le goodwill a perdu de la valeur, en partic ulier si sa durée d'utilité 
+est longue. En conséquence, la présente norme impose, au minimum, un calcul annuel de la valeur 
+recouvrable du goodwill si sa durée d'Utilité est supérieure à vingt ans à compter de sa 
+comptabilisation initiale.  
+53. L'obligation d'effectuer un test annuel de dépréciation du goodwill s'applique à chaque fois que la 
+durée actuelle totale d'utilité estimée du goodwill excède vingt ans à compter de sa comptabilisation 
+initiale. Par conséquent, si la durée d'utilité du goodwill avait  été estimée inférieure à vingt ans lors de 
+sa comptabilisation initiale mais si la durée d'utilité estimée est par la suite étendue et excède vingt 
+ans à compter de sa comptabilisation initiale, l'entreprise effectue le test de dépréciation imposé selon 
+le paragraphe 51 et fournit les informations imposées selon le paragraphe 76(b).  
+Goodwill négatif généré par  l’acquisition  
+54. Tout excédent, à la date de l'opération d'échange, de la part d'intérêts de l'acquéreur dans 
+les justes valeurs des actifs et p assifs identifiables acquis, sur le coût d'acquisition doit être 
+comptabilisé en tant que goodwill négatif.  
+55. L'existence d'un goodwill négatif peut indiquer que des actifs identifiables ont été surévalués et 
+que des passifs identifiables ont été omis ou sous-évalués. Avant de comptabiliser un goodwill négatif, 
+il est important de s'assurer que tel n'est pas le cas.  
+56. Dans la mesure où le goodwill négatif correspond à des pertes et des dépenses futures 
+attendues identifiées dans le plan d'acquisition de l'acquéreur, qui peuvent être évaluées de 
+manière fiable, mais qui ne représentent pas à la date d'acquisition des passifs identifiables 
+(voir paragraphe 21), cette fraction du goodwill négatif doit être comptabilisée en produits dans 
+l'état de résultat  lorsque les pertes et les dépenses futures sont comptabilisées. Si ces pertes 
+et dépenses futures identifiables ne sont pas comptabilisées au cours de l'exercice attendu, le 
+goodwill négatif doit être traité selon le paragraphe 57(a) et (b).  
+57. Dans la mesure où le goodwill ne correspond pas à des pertes et des dépenses futures 
+identifiables attendues pouvant être évaluées de manière fiable à la date d'acquisition, il doit 
+être comptabilisé en produit dans l'état de résultat, de la manière suivante :  
+(a) le montant du goodwill négatif n'excédant pas les justes valeurs des actifs non monétaires 
+identifiables acquis doit être comptabilisé en produits sur une base systématique sur la durée 
+d'utilité moyenne pondérée restant à courir des actifs amortissables identifiables acquis; et  
+(b) le montant du goodwill négatif excédant les justes valeurs des actifs non monétaires 
+identifiables acquis doit être comptabilisé immédiatement en produits.  
+58. Dans la mesure où le goodwill négatif ne correspond pas à des pertes et des dépenses futures 
+attendues qui ont été identifiées dans le plan d'acquisition de l'acquéreur et qui peuvent être évaluées 
+de manière fiable, le goodwill négatif est un profit qui est comptabilisé en produits lorsque les 
+avantages économiques futurs incorporés dans les actifs amortissables identifiables acquis sont 
+consommés. Dans le cas d'actifs monétaires, le profit est comptabilisé immédiatement en produits.  
+Présentation  
+59. Un goodwill négatif doit être présenté en déduction des actifs de  l'entreprise présentant les états 
+financiers, dans la même rubrique du bilan que le goodwill.  
+Ajustement du prix d'acquisition dépendant d'événements futurs  
+60. Lorsque le contrat d'acquisition prévoit un ajustement du prix d'acquisition dépendant d'un 
+ou de plusieurs événements futurs, le montant de l'ajustement doit être inclus dans le coût 
+d'acquisition à la date d'acquisition si cet ajustement est probable et si son montant peut être 
+évalué de façon fiable.  
+61. Les contrats d'acquisition peuvent prévoir que le prix d'acquisition soit ajusté en fonction d'un ou 
+de plusieurs événements futurs. Les ajustements peuvent être subordonnés au maintien ou à la 
+réalisation lors des exercices futurs d'un niveau de rentabil ité spécifié ou au maintien du prix de 
+marché des titres émis pour rémunérer l'acquisition.  
+62. Lors de la comptabilisation initiale d'une acquisition, il est en général possible d'estimer le montant 
+de tout ajustement du prix d'acquisition, même si quelq ue incertitude existe, sans porter atteinte à la 
+fiabilité de l'information. Si les événements futurs ne se produisent pas, ou s'il est nécessaire de revoir 
+l'estimation, le coût d'acquisition est ajusté, avec effet correspondant sur le goodwill ou goodwil l 
+négatif, selon le cas.  
+Modifications ultérieures du coût d'acquisition  
+63. Le coût d'acquisition doit être ajusté lorsqu'une éventualité affectant le montant du prix 
+d'acquisition est levée postérieurement à la date d'acquisition, de sorte que le paiem ent du 
+montant est probable et qu'il est possible d'en faire une estimation fiable.  
+64. Les conditions d'une acquisition peuvent prévoir un ajustement du prix d'acquisition si, 
+postérieurement à l'acquisition, les résultats de l'entreprise acquise sont su périeurs ou inférieurs à un 
+niveau convenu. Lorsque ultérieurement, l'ajustement devient probable et qu'il est possible de faire 
+une estimation fiable de son montant, l'acquéreur assimile le complément de prix à un ajustement du 
+coût d'acquisition, avec effet correspondant sur le goodwill, ou goodwill négatif, selon le cas.  
+65. Dans certaines circonstances, l'acquéreur peut être tenu de dédommager ultérieurement le 
+vendeur pour compenser une réduction du prix d'acquisition. C'est le cas lorsque l'acquéreur  a garanti 
+le prix de marché des titres ou des dettes émises à titre de rémunération et doit procéder à une 
+nouvelle émission de titres ou de dettes a fin de reconstituer le coût d'acquisition initialement 
+déterminé. Dans de tels cas, il n 'y a pas d'augme ntation du coût d'acquisition et, en conséquence, 
+pas d'ajustement du goodwill ou goodwill négatif. Au lieu de cela, l'augmentation des titres ou des 
+dettes émises représente une réduction de la prime d'émission ou un accroissement de la prime de 
+remboursement constaté(e) lors de l'émission initiale.  
+Identification ou changements de la valeur des actifs et passifs identifiables 
+postérieurement a l'acquisition  
+66. Les actifs et passifs identifiables, qui sont acquis mais ne satisfont pas aux critères du 
+paragraphe 21 applicables à la prise en compte de façon distincte lors du traitement comptable 
+initial de l'acquisition, doivent être pris en compte ultérieurement dès qu'ils satisfont à ces 
+critères. Les valeurs comptables des actifs et passifs identifiable s acquis doivent être ajustées 
+lorsque, postérieurement à l'acquisition, des indications complémentaires permettent de 
+procéder à l'estimation des montants affectés à ces actifs et passifs identifiables lors de la 
+comptabilisation initiale de cette acquisi tion. Le montant affecté au goodwill, ou goodwill 
+négatif, doit également être ajusté, si nécessaire, dans la mesure où :  
+(a) l'ajustement n'a pas pour effet de porter la valeur comptable du goodwill au delà de sa 
+valeur recouvrable,  
+(b) cet ajustement e st effectué avant la fin du premier exercice comptable annuel ouvert après 
+l'acquisition (sauf pour la comptabilisation d'un passif identifiable selon le paragraphe 26, pour 
+laquelle s'applique le délai prévu par le paragraphe 26 (c) ;  
+dans les autres cas , les ajustements opérés sur les actifs et passifs identifiables doivent être 
+comptabilisés en produits ou en charges.  
+67. Les actifs et passifs identifiables d'une entreprise acquise peuvent ne pas avoir été comptabilisés 
+lors de l'acquisition parce qu'i ls ne satisfaisaient pas aux critères de comptabilisation des actifs et 
+passifs identifiables ou parce que l'acquéreur ignorait leur existence. De même, les justes valeurs 
+attribuées à la date d'acquisition aux actifs et passifs identifiables acquis peuven t nécessiter d'être 
+ajustées à mesure que l'on dispose d'indications complémentaires aidant à estimer la valeur de l'actif 
+ou du passif identifiable à la date d'acquisition. Lorsque les actifs et passifs identifiables sont 
+comptabilisés ou que les valeurs comptables sont ajustées après la fin du premier exercice comptable 
+annuel (à l'exclusion des périodes intermédiaires) ouvert après l'acquisition, c'est un produit ou une 
+charge qui est comptabilisé, et non un ajustement du goodwill ou goodwill négatif. Bi en qu'arbitraire 
+dans sa durée, ce délai évite que le goodwill et goodwill négatif, ne soit indéfiniment réestimé et 
+ajusté.  
+68. Selon le paragraphe 61, la valeur comptable du goodwill (goodwill négatif) est ajustée si, 
+par exemple, un actif identifiable acquis perd de sa valeur avant la fin du premier exercice 
+comptable annuel ouvert après l'acquisition et si la perte de valeur n'est pas liée à des 
+événements spécifiques ou à des changements de circonstances survenant après la date 
+d'acquisition.  
+69. Lorsque, postérieurement à l'acquisition mais avant la fin du premier exercice comptable annuel 
+ouvert après l'acquisition, l'acquéreur prend connaissance de l'existence d'un passif qui existait à la 
+date d'acquisition ou d'une perte de valeur non liée à des événements spécifiques ou à des 
+changements de circonstances survenant après la date d'acquisition, le goodwill n'est pas augmenté 
+au-delà de sa valeur recouvrable.  
+70. Si des provisions relatives à l'arrêté ou à la réduction des activités de l'entrep rise acquise 
+ont été comptabilisées selon le paragraphe 26, elles doivent être reprises si, et seulement si :  
+(a) la sortie d'avantages économiques n'est plus probable; ou (b) le plan formel et détaillé n'est 
+pas mis en oeuvre:  
+(i) de la manière indiquée dans le plan formel et détaillé; ou  
+(ii) dans le délai indiqué dans le plan formel et détaillé.  
+Cette reprise doit se traduire par un ajustement du goodwill ou goodwill négatif (et des intérêts 
+minoritaires, le cas échéant), de sorte qu'aucun produit ou  q'aucune charge ne soit 
+comptabilisé à ce titre. Le montant ajusté du goodwill doit être amorti de manière prospective 
+sur sa durée d'utilité restant à courir. Le montant ajusté du goodwill négatif doit être traité 
+selon le paragraphe 57 (a) et (b).  
+71. Normalement, aucun ajustement ultérieur n'est nécessaire au titre des provisions comptabilisées 
+selon le paragraphe 26, car le plan formel et détaillé est tenu de préciser les dépenses qui seront 
+engagées. Si les dépenses ne sont pas produites durant la pé riode attendue ou si l'on ne s'attend plus 
+à ce qu'elles se produisent, il convient d'ajuster la provision relative à l'arrêt ou à la réduction des 
+activités de l'entreprise acquise et de procéder à un ajustement correspondant du montant du goodwill 
+ou goodwill négatif: (et des intérêts minoritaires, le cas échéant). Si, par la suite, une obligation doit 
+être comptabilisée selon la NC 14: Eventualités et évènements postérieurs à la date de clôture, 
+l'entreprise comptabilise une charge correspondante.  
+Impôts sur le résultat  
+72. Tout passif d'impôt différé et tout actif d'impôt différé en résultant est comptabilisé conformément 
+aux règles comptables relatives aux impôts sur le résultat.  
+73. L'avantage potentiel issu de reports de pertes fiscales ou d'autres  actifs d'impôt différé d'une 
+entreprise acquise qui n'ont pas été comptabilisés en tant qu'actif identifiable par l'acquéreur à la date 
+d'acquisition, peuvent être réalisés ultérieurement. Lorsque ceci se produit, l'acquéreur comptabilise 
+l'avantage en pr oduits conformément aux règles comptables relatives aux impôts sur le résultat. De 
+plus, l'acquéreur :  
+(a) ajuste la valeur comptable brute et le cumul des amortissements du goodwill en fonction des 
+montants qui auraient été enregistrés si l'actif d'impôt  différé avait été comptabilisé en tant qu'actif 
+identifiable à la date du regroupement d'entreprises; et  
+(b) comptabilise en charge la réduction de la valeur nette comptable du goodwill.  
+Néanmoins cette procédure ne doit ni créer de goodwill négatif ni augmenter la valeur comptable d'un 
+goodwill négatif existant.  
+Informations à fournir  
+74. Pour l'ensemble des regroupements d'entreprises, les informations suivantes doivent être 
+données dans les états financiers de l'exercice au cours duquel le regroupement a eu lieu :  
+(a) les noms et descriptions des entreprises se regroupant;  
+(b) la méthode de comptabilisation du regroupement;  
+(c) la date d'effet comptable du regroupement; et  
+(d) toutes activités résultant du regroupement dont l'entreprise a décidé de se séparer.  
+75. Pour un regroupement d'entreprises qui constitue une acquisition, l es informations 
+supplémentaires suivantes doivent figurer dans les états financiers de l'exercice au cours 
+duquel a eu lieu l'acquisition:  
+(a) le pourcentage acquis des actions ayant droit de vote; et  
+(b) le coût d'acquisition et une description du prix d'acquisition payé ou dont le paiement est 
+éventuel.  
+76. Pour le goodwill, les états financiers doivent mentionner :  
+(a) la (les) durée (s) d'amortissement adoptée (s) ; 
+(b) si le goodwill est amorti sur plus de vingt ans, les raisons pour lesquelles est  réfutée la 
+présomption selon laquelle la durée d'utilité du goodwill n'excède pas vingt ans à compter de 
+sa comptabilisation initiale. Dans l'exposé de ces raisons, l'entreprise doit décrire le(s) 
+facteur(s) ayant joué un rôle important dans la détermination de la durée d'utilité du goodwill;  
+(c) si le goodwill n'est pas amorti selon le mode linéaire, le mode retenu et la raison pour 
+laquelle ce mode est plus approprié que le mode d'amortissement linéaire ;  
+(d) le(s) poste(s) du compte de résultat dans l e(s) quel(s) est porté l'amortissement du goodwill 
+; et  
+(e) un rapprochement entre la valeur comptable du goodwill à l'ouverture et à la clôture de 
+l'exercice, montrant :  
+(i) la valeur brute et le cumul des amortissements (regroupé avec le cumul des pert es de 
+valeur) à l'ouverture de l'exercice ;  
+(ii) tout goodwill supplémentaire comptabilisé au cours de l'exercice ;  
+(iii) tous ajustements résultant de l'identification ou de changements de la valeur des actifs et 
+passifs identifiables postérieurement à l'acquisition ;  
+(iv) tout goodwill décomptabilisé du fait de la sortie au cours de l'exercice de tout ou partie de 
+l'activité à laquelle il se rapporte ;  
+(v) l'amortissement comptabilisé au cours de l'exercice ;  
+(vi) les pertes de valeur comptabilisées au cours de l'exercice (s'il y a lieu);  
+(vii) les pertes de valeur reprises au cours de l'exercice (s'il y a lieu) ;  
+(viii) les autres variations de la valeur comptable au cours de l'exercice (s'il y a lieu) ; et  
+(ix) la valeur brute et le cumul des amortissements (regroupé avec le cumul des pertes de 
+valeur) à la clôture de l'exercice.  
+l'information comparative n'est pas imposée 
+77. Lorsqu'une entreprise décrit le(s) facteur(s) ayant joué un rôle important dans la détermination de 
+la durée d'utilité du goodwill qui est amorti sur plus de vingt ans, l'entreprise considère la liste des 
+facteurs énumérés au paragraphe 38.  
+78. Une entreprise fournit des informations sur le goodwill déprécié, en complément des informations 
+imposées au paragraphe 76 (e) (vi) et (vii).  
+79. Pour le goodwill négatif, les états financiers doivent indiquer :  
+(a) dans la mesure où le goodwill négatif est traité selon le paragraphe 56, une description, le 
+montant et l'échéancier des pertes et des dépenses futures attendues ;  
+(b) la durée sur laquelle le goodwill négatif est comptabilisé en produits ;  
+(c) le(s) poste(s) du compte de résultat dans le(s) quel(s) le goodwill négatif est comptabilisé 
+en produits; et  
+(d) un rapprochement entre la valeur comptable du goodwill négatif à l'ouverture et à la clôture 
+de l'exercice montrant :  
+(i) la valeur brute du goodw ill négatif et le montant cumulé du goodwill négatif déjà 
+comptabilisé en produits, à l'ouverture de l'exercice ;  
+(ii) tout goodwill négatif supplémentaire comptabilisé au cours de l'exercice ;  
+(iii) tous ajustements résultant de l'identification ou des changements de la valeur des actifs et 
+passifs identifiables postérieurement à l'acquisition ;  
+(iv) tout goodwill négatif décomptabilisé du fait de la sortie de tout ou partie de l'activité à 
+laquelle il se rapporte au cours de l'exercice ;  
+(v) le goodwill négatif comptabilisé en produits au cours de l'exercice en indiquant séparément 
+la partie du goodwill négatif comptabilisée en produits selon le paragraphe 51 (s'il y a lieu) ;  
+(vi) les autres changements de la valeur comptable au cours de l'exercice ( s'il y a lieu) ; et  
+(vii) la valeur brute du goodwill négatif et le montant cumulé du goodwill négatif déjà 
+comptabilisé en produits, à la clôture de l'exercice.  
+l'information comparative n'est pas imposée. 
+80. Les dispositions de la NC 14: Eventualités et évènements postérieurs à la date de clôture, 
+en matière d'informations à fournir, s'appliquent aux provisions comptabilisées selon le 
+paragraphe 26 relatives à l'arrêt ou à la réduction des activités d'une entreprise acquise. Ces 
+provisions doivent être traitées comme une catégorie de provisions distincte dans le cadre des 
+informations à fournir selon la NC 14. En outre, la valeur comptable globale de ces provisions 
+doit être indiquée pour chaque regroupement d'entreprises.  
+81. Dans une acquisition, si les justes valeurs des actifs et passifs identifiables ou le prix 
+d'acquisition ne peuvent être déterminés que sur une base provisoire à la clôture de l'exercice 
+au cours duquel l'acquisition a eu lieu, ce fait doit être indiqué et les explications 
+correspondantes doivent être fournies. Lorsque ces justes valeurs provisoires sont ajustées 
+ultérieurement, ces ajustements doivent être indiqués et expliqués dans les états financiers de 
+l'exercice concerné.  
+82. Les informations d'ordre général devant figurer d ans les états financiers consolidés sont incluses 
+dans la NC 35 : états financiers consolidés.  
+83. Pour les regroupements d'entreprises effectués après la date de clôture, les informations 
+imposées par les paragraphes 74 à 82 doivent être fournies. S'il n 'est pas possible de fournir 
+l'une de ces informations, ce fait doit être indiqué.  
+84. Les regroupements d'entreprises effectués après la date de clôture et avant la date 
+d'approbation des états financiers de l'une des entreprises se regroupant, sont indi qués si leur 
+importance est telle que l'absence d'information affecterait la capacité de ceux qui utilisent les 
+états financiers à faire des évaluations correctes et à prendre des décisions appropriées (voir 
+NC 14: Eventualités et évènements postérieurs à la date de clôture).  
+85. Dans certains cas, l'effet du regroupement peut permettre à l'entreprise regroupée de préparer des 
+états financiers selon l'hypothèse de continuité d'exploitation. Ceci aurait pu ne pas être possible pour 
+une des entreprises se re groupant ou pour les deux. Tel peut être le cas, par exemple, lorsqu'une 
+entreprise en butte à des difficultés de trésorerie, se regroupe avec une entreprise pouvant disposer 
+de trésorerie qui peut être utilisée par l'entreprise en ayant besoin. Dans un pa reil cas, la présentation 
+de cette information dans les états financiers de l'entreprise ayant des difficultés de trésorerie est 
+pertinente.  
+Date d'application  
+86. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+clôturés à partir du 31 décembre 2003.  
+  
+  
+ 

@@ -1,0 +1,229 @@
+http://www.procomptable.com/ 
+ 
+NC 09 
+Norme comptable relative aux Contrats de construction 
+ 
+Objectif 
+01. Les contrats de construction portent généralement sur la construction d'immeubles, de barrages, 
+de ponts, de bateaux ou d'autres ouvrages. La nature et l'importance de ces contrats font que les 
+travaux s'étendent, dans la plupart des cas, sur une période excédant l'exercice, et de ce fait, ils se 
+trouvent partiellement exécutés à la clôture d'un ou de plusieurs exercices comptables. 
+02. La Norme Comptable "Revenus", prescrit, pour la comptabilisation des revenus découlant des 
+prestations de services partiellement exécutés, à la date de clôture de l'exercice, l'utilisation de la 
+méthode dite du pourcentage d'avancement. 
+03. L'objectif de la présente norme est de prescrire le mode d'application des critères de prise en 
+compte des revenus selon la méthode de pourcentage d'avancement dans le contexte des contrats de 
+construction. 
+Champ d’application 
+04. La présente norme s'applique pour la comptabilisation, dans les états financiers du maître 
+d'œuvre des contrats de construction tels que définis au paragraphe 05 ci-après. 
+Définitions 
+05. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+Le contrat de construction est un contrat qui a pour objet la réalisation d'un bien ou d'un 
+ensemble de biens interdépendants dans leur conception, leur technologie et leur finalité. 
+Le contrat à forfait est un contrat dans lequel le maître d'œuvre accepte un contrat à prix fixe, 
+ou une rémunération à taux fixe par unité de production, assorti dans certains cas d'une 
+clause de révision pour tenir compte des effets de variations des prix des matières premières 
+utilisées ou du coût de la main-d'œuvre. 
+Le contrat en régie est un contrat dans lequel le maître d'œuvre est remboursé en fonction des 
+dépenses acceptées ou conformes à toute autre base de détermination, et perçoit de plus un 
+pourcentage de ces dépenses ou une rémunération fixe. 
+La réclamation désigne les sommes demandées par le maître d'œuvre au client pour tenir 
+compte des frais et coûts occasionnés par les travaux et dont le remboursement n'est pas 
+prévu par le contrat. 
+La retenue de garantie désigne les sommes retenues par le client en garantie de l'exécution de 
+certains travaux ou en garantie de la bonne réalisation des biens ou services. 
+La marge prévisionnelle du contrat est la différence entre le total des revenus et le total des 
+coûts encourus au titre d'un contrat. 
+Détermination des coûts 
+06. Les coûts relatifs à un contrat de construction comprennent le coût des matières 
+consommées et une juste part des coûts directs et indirects, pouvant être raisonnablement 
+rattachée à ce contrat, encourus à compter de la date de sa signature jusqu'à sa date 
+d'achèvement définitif. 
+07. Les coûts engagés préalablement à la signature d'un contrat de construction ne sont pas inclus 
+dans les coûts relatifs à ce contrat. Toutefois, les coûts engagés pour obtenir la signature du contrat 
+peuvent y être inclus lorsque les deux conditions suivantes sont remplies : 
+a. les coûts sont identifiés séparément et peuvent être mesurés de façon fiable ; et 
+http://www.procomptable.com/ 
+ 
+b. la conclusion du contrat est quasiment certaine. 
+Lorsque les coûts engagés pour obtenir la signature d'un contrat sont constatés en charges au cours 
+d'un exercice, ils ne peuvent être imputés au contrat au cours d'un exercice ultérieur au motif que le 
+contrat a été conclu au cours de cet exercice. 
+08. Les coûts des matières consommées et la part des coûts directs et indirects, rattachée à un 
+contrat de construction, sont déterminés conformément aux règles de détermination des coûts 
+d'acquisition et de production développées dans la Norme Comptable "Stocks". Ils incluent  
+notamment : 
+a. les dépenses de main-d'œuvre de chantier,  y compris la supervision du chantier ; 
+b. le coût des matériaux utilisés dans la construction ; 
+c. l'amortissement du matériel utilisé dans la construction ; 
+d. les coûts d'approche et de repliement du matériel nécessaire au chantier ; 
+e. les coûts de location de l'équipement ; 
+f. les coûts de conception et d'assistance technique qui sont directement rattachés au contrat ; 
+g. les coûts estimés de rectification et des travaux effectués au titre de la garantie, y compris les 
+charges à prévoir au titre des clauses de garantie ; 
+h. les réclamations provenant de tiers ; 
+i. les coûts d'assurance ; 
+j. les coûts de conception et d'assistance technique qui ne sont pas directement rattachés à un 
+contrat déterminé ; 
+k. les frais généraux de production. 
+Les trois dernières catégories de coût sont affectées à l'aide de méthodes systématiques et 
+rationnelles, appliquées de façon cohérente à l'ensemble des coûts ayant des caractéristiques 
+analogues. 
+Le montant des produits accessoires qui ne sont pas inclus dans le produit du contrat, tel que le 
+revenu provenant de la cession d'équipement de matériaux à la fin du contrat, peut être diminué des 
+coûts sus indiqués. 
+09. Lorsque le maître d'œuvre contracte des emprunts pour financer la production de biens et services 
+prévus dans les contrats de construction, les charges financières que ces emprunts occasionnent 
+peuvent être incorporées aux coûts de ces contrats conformément à la Norme "Charges d'emprunt". 
+Le montant des charges financières pouvant être inclus dans les coûts d'un contrat de construction 
+doit correspondre au montant des charges d'emprunt réellement encourues au cours d'un exercice 
+diminué du montant des revenus du placement temporaire de cet emprunt. 
+L'incorporation des charges financières aux coûts d'un contrat de construction doit commencer à partir 
+du moment où les activités préalables indispensables à l'ouverture des travaux ont débuté. Cette 
+incorporation doit être terminée lorsque les activités préalables indispensables à la livraison du bien 
+objet du contrat ont été achevées. 
+Toute interruption dans l'exécution des travaux pendant une période relativement longue doit se 
+traduire par la suspension de l'incorporation des charges financières dans les coûts relatifs à ce 
+contrat. 
+Mesure des revenus 
+10. Les revenus découlant des contrats de construction doivent être mesurés à la juste valeur 
+des contreparties reçues ou à recevoir incluant généralement : 
+a. le prix de vente de base ou le montant initial des produits convenus dans le contrat ; 
+http://www.procomptable.com/ 
+ 
+b. la révision contractuelle des prix ou la garantie de risque économique spécifique au 
+contrat ; 
+c. les suppléments de prix survenant suite aux changements dans les conditions 
+d'exécution des travaux lorsqu'ils ont été approuvés par le client ; 
+d. les réclamations valablement présentées au client conformément aux dispositions 
+contractuelles lorsqu'elles ont été approuvées par ce dernier. 
+Constatation des revenus 
+11. Lorsque le résultat d'un contrat de construction peut être estimé de façon fiable, les 
+revenus relatifs au contrat doivent être comptabilisés au fur et à mesure que les travaux sont 
+exécutés par référence au degré d'avancement des travaux à la date d'arrêté des états 
+financiers. 
+Le résultat découlant d'un contrat de construction peut être estimé de façon fiable lorsque les 
+conditions énoncées au paragraphe 12 sont satisfaites pour les contrats à forfait et les 
+conditions énoncées au paragraphe 13 sont satisfaites pour les contrats en régie. 
+12. Dans le cas d'un contrat à forfait, il est possible d'estimer de façon fiable le résultat de ce 
+contrat lorsque les conditions suivantes sont satisfaites : 
+a. le total des revenus relatifs au contrat peut être évalué de façon fiable ; 
+b. le recouvrement des revenus est raisonnablement sûr ; 
+c. tant les coûts d'achèvement du contrat que le degré d'avancement du contrat à la date 
+de clôture peuvent être évalués de façon fiable ; et 
+d. les coûts imputables au contrat peuvent être clairement identifiés et mesurés de façon 
+fiable de telle sorte que les coûts effectivement supportés au titre du contrat puissent 
+être comparés aux estimations antérieures. 
+13. Dans le cas d'un contrat en régie, il est possible d'estimer de façon fiable le résultat de ce 
+contrat lorsque les conditions suivantes sont satisfaites :  
+a. le recouvrement des revenus est raisonnablement sûr ; et  
+b. les coûts imputables au contrat, qu'ils soient spécifiquement remboursables ou non, 
+peuvent être identifiés clairement et évalués de façon fiable. 
+14. Pour pouvoir estimer de façon fiable le résultat découlant d'un contrat de construction, le maître 
+d'œuvre doit :  
+a. procéder à un inventaire des biens et travaux en cours à la date de clôture ;  
+b. obtenir l'acceptation du client sur l'ensemble des travaux qui ont été réalisés et des produits 
+non prévus au contrat ; et  
+c. disposer d'un système de comptabilité de gestion permettant le suivi approprié et fiable des 
+coûts et prix de revient. 
+Le maître d'œuvre procède à la révision de ses estimati ons de revenus et charges relatifs au contrat à 
+mesure que les travaux sont exécutés. 
+Le montant des revenus du contrat peut diminuer par suite des pénalités imposées en raison de 
+retards pris par le maître d'œuv re dans l'exécution du contrat. 
+15. Le degré d'avancement des travaux doit être déterminé en application d'une méthode adaptée, 
+constante et vérifiable permettant de mesurer de façon fiable les travaux exécutés. Parmi les 
+méthodes qui peuvent être utilisées par l'entreprise, on peut citer :  
+a. le rapport existant entre les coûts engagés jusqu'à la date considérée et le montant total des 
+coûts estimés pour la réalisation du contrat ;  
+b. des examens techniques pour apprécier les travaux exécutés ; et  
+http://www.procomptable.com/ 
+ 
+c. l'achèvement d'une partie des travaux inclus dans le contrat. 
+Les paiements partiels, mémoires, avances et acomptes reçus du client ne peuvent constituer à eux 
+seuls des références pour mesurer le degré d'avancement des travaux. 
+16. Lorsque le degré d'avancement des travaux est déterminé par référence aux coûts engagés au 
+titre du contrat jusqu'à la date considérée par rapport au coût total estimé, seuls les coûts 
+correspondant aux travaux réalisés sont inclus parmi les coûts engagés jusqu'à cette date. 
+Parmi les exemples de coûts du contrat qui en sont exclus, on peut citer : 
+a. les coûts du contrat qui portent sur une activité future au titre du contrat, tels que les coûts 
+des matériaux qui ont été livrés sur le chantier, ou mis de côté pour être utilisés au titre du 
+contrat sans avoir été encore installés, consommés ou mis en œuvre pendant l'exécution du 
+contrat, à moins que ces matériaux aient été fabriqués spécialement pour le contrat ; et 
+b. les versements effectués aux sous-traitants, à titre d'acompte sur les travaux de sous-
+traitance à exécuter. 
+17. Lorsque le résultat d'un contrat de longue durée ne peut pas être estimé de façon fiable, les 
+revenus ne doivent être constatés qu'à concurrence des coûts comptabilisés et jugés 
+récupérables. 
+18. En règle générale, il est souvent difficile de pouvoir estimer de façon fiable le résultat d'un contrat 
+de construction, lorsque l'avancement dans la réalisation du contrat n'a pas atteint un degré suffisant. 
+Dans le cas où les coûts encourus à ce stade sont jugés récupérables, les revenus ne sont constatés 
+qu'a due concurrence et aucun résultat n'est dégagé. 
+19. Lorsque, en raison de faits futurs, les incertitudes qui empêchaient d'estimer de façon 
+fiable le résultat d'un contrat de construction ont été levées, les revenus relatifs au contrat 
+doivent être comptabilisés conformément au paragraphe 11 ci-dessus. 
+20. Le résultat d'un contrat de construction ne peut être estimé de façon fiable que lorsque le 
+recouvrement des revenus découlant du contrat est raisonnablement sûr. Toutefois, lorsqu'une 
+incertitude surgit quant à la recouvrabilité d'une somme déjà incluse dans les produits du contrat, et 
+déjà constatée dans l'état de résultat, le montant irrécouvrable ou le montant dont la recouvrabilité a 
+cessé d'être probable est constaté en charge, et non pas en ajustement du montant des produits 
+relatifs au contrat. 
+Détermination du résultat prévisionnel 
+21. Le résultat prévisionnel est calculé par contrat. Toutefois, dans des circonstances 
+particulières, prévues aux paragraphes 22, 23 et 24 ci-dessous, il peut apparaître approprié au 
+maître d'œuvre de diviser un contrat en plusieurs sous-ensembles ou au contraire de 
+regrouper plusieurs contrats pour la détermination du résultat prévisionnel. Le maître d'œuvre 
+doit procéder au regroupement et/ou à la division des contrats avant qu'il ne procède aux 
+enregistrements comptables relatifs à ces contrats. 
+22. Lorsqu'un contrat porte sur plusieurs biens, la réalisation de chaque bien doit être traitée 
+comme un contrat de construction distinct lorsque : 
+a. des propositions ou offres distinctes ont été présentées pour chaque bien ; 
+b. chaque bien a fait l'objet d'une négociation séparée et le maître d'œuvre et le client ont 
+eu la possibilité technique et commerciale d'accepter ou de rejeter la part du contrat 
+afférente à chaque bien ; et 
+c. les revenus et les charges afférents à chaque bien peuvent être identifiés séparément. 
+23. Un ensemble de contrats, passés avec le même client ou avec des clients différents, 
+doivent être considérés comme un seul et même contrat lorsque : 
+a. les contrats ont été négociés et signés comme étant un seul et même contrat et dans 
+des circonstances économiques identiques ; 
+http://www.procomptable.com/ 
+ 
+b. il existe un lien économique étroit entre les différents contrats qui font alors partie 
+d'un projet unique dont la marge bénéficiaire est globale ; et 
+c. la durée entre la conclusion des différents contrats est brève de façon qu'ils sont 
+exécutés simultanément ou successivement sans interruption. 
+24. Un contrat peut porter sur la réalisation d'un bien supplémentaire au choix du client ou 
+peut être modifié pour inclure la réalisation d'un bien supplémentaire. La réalisation d'un bien 
+supplémentaire doit être assimilée à un contrat de construction distinct lorsque : 
+a. le bien concerné présente une conception, une technologie ou une fonction 
+substantiellement différente du bien ou des biens visés dans le contrat initial ; et 
+b. le prix du bien est négocié indépendamment du prix fixé dans le contrat initial. 
+Constatation des pertes attendues 
+25. Lorsqu'il est probable que le résultat prévisionnel d'un contrat soit déficitaire, la perte 
+attendue doit être constatée en charge. 
+26. Le montant de la perte correspondante est déterminé et constaté indépendamment : 
+a. du démarrage ou non des travaux ; 
+b. du stade d'avancement des travaux ; et 
+c. du montant des profits attendus sur d'autres contrats distincts. 
+Incidence des changements d’estimation 
+27. En raison des incertitudes qui peuvent surgir au cours de l'exécution d'un contrat sur le montant 
+des charges et des revenus, les estimations faites par le maître d'œuvre peuvent différer d'un exercice 
+à l'autre. En effet, les estimations sont effectuées sur la base des dernières informations disponibles 
+que de faits futurs peuvent modifier et mettre en cause le montant des revenus et le calcul de la 
+marge prévisionnelle sur un contrat. 
+28. L'incidence d'un changement dans les estimations comptables doit être, conformément à la 
+Norme comptable, "Modifications Comptables” prise en compte dans la détermination du 
+résultat au titre : 
+a. de l'exercice où la modification a eu lieu, si celle-ci n'affecte que cet  exercice ; et 
+b. de l'exercice et des exercices ultérieurs, si ceux-ci sont concernés. 
+Informations à fournir 
+29. L'entreprise doit indiquer dans ses états financiers : 
+a. les méthodes utilisées pour déterminer le degré d'avancement des contrats en cours ; 
+b. les méthodes utilisées pour l'évaluation des pertes attendues et des coûts directs et 
+indirects imputables aux contrats ; et 
+c. les regroupements et les divisions de contrats pour la détermination du résultat 
+prévisionnel et leurs motifs. 
+Date d’application 
+30. La présente Norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er Janvier 1997. 
+ 

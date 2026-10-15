@@ -1,0 +1,22 @@
+{
+ "id": "S077",
+ "dataset": "business_plan",
+ "section": "Business model templates and frameworks",
+ "name": "World Bank Enterprise Surveys - Tunisia - Tunisia",
+ "url": "https://www.enterprisesurveys.org/en/data/exploreeconomies/2020/tunisia",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://www.enterprisesurveys.org/en/data/exploreeconomies/2020/tunisia",
+ "content_type": "text/html;charset=utf-8",
+ "sha256": "262ad5a1932124fb0482fb34b7d95401ce3c60a63a634668c0b9cfb2d347bf34",
+ "bytes": 776083,
+ "path": "business_plan\\Business_model_templates_and_frameworks\\S077_World_Bank_Enterprise_Surveys_Tunisia_Tunisia.pdf",
+ "status": "ok",
+ "pages": 5,
+ "text_chars": 223,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Economy | Tunisia | Enterprisesurveys",
+ "note": "",
+ "last_modified": "Mon, 05 Oct 2026 00:14:00 GMT"
+}

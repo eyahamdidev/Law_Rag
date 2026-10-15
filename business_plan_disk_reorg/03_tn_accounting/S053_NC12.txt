@@ -1,0 +1,149 @@
+ 
+http://www.procomptable.com/ 
+NC 12 
+Norme comptable relative aux Subventions publiques 
+ 
+Objectif 
+01. Les subventions et les aides obtenues par une entreprise présentent diverses formes variant selon 
+la nature et selon les obligations, qui y sont attachées, et qui conditionnent le choix de la méthode 
+adéquate de comptabilisation ainsi que les informations correspondantes à fournir. 
+02. Certaines formes de subventions et aides obtenues par une entreprise ne peuvent être évaluées 
+bien qu'elles demeurent significatives à l'égard des informations à divulguer et aux conditions de 
+comparabilité des états financiers de cette entreprise par rapport aux exercices précédents et aux 
+états financiers d'autres entreprises. 
+Cette catégorie de subventions et aides comprend notamment : 
+a. l'assistance technique, commerciale ou financière fournie à une entreprise par certaines 
+administrations, organismes et sociétés ; 
+b. les garanties données par certaines administrations et organismes ; et 
+c. le conseil technique ou commercial gratuit. 
+03. Par ailleurs, d'autres formes de subventions et aides obtenues par une entreprise ne sont pas 
+caractérisées par un transfert de ressources, et par conséquent, ne font pas l'objet d'un traitement 
+comptable mais restent significatives à l'égard des informations à fournir à travers les états financiers 
+de l'entreprise. 
+Cette catégorie comprend notamment : 
+a. l'imposition à un taux réduit de certains secteurs d'activité ;  
+b. l'octroi des prêts à un taux réduit ; 
+c. la prise en charge de certaines cotisations de la sécurité sociale ; et 
+d. l'exonération de certains achats des droits de douane. 
+04. L'objectif de la présente norme est de prescrire le traitement comptable et la présentation aux 
+états financiers des subventions, ainsi que les informations à fournir sur ces subventions et sur les 
+autres sortes d'aides pouvant être accordées à une entreprise. 
+Champ d’application 
+05. La présente norme s'applique : 
+a. au traitement des diverses natures de subventions accordées par les tiers (Etat, 
+collectivités publiques ou entreprises publiques) ; 
+b. au traitement des subventions non monétaires obtenues par une entreprise ; 
+c. aux éventualités rattachées aux subventions obtenues ; 
+d. au remboursement de subventions obtenues, suite au non respect de certaines 
+obligations qui y sont  attachées ; 
+e. aux informations à fournir sur les subventions et aides obtenues par une entreprise ; 
+et 
+f. à toute autre forme d'aide assimilée à des subventions. 
+06. La présente norme ne traite pas des avantages fournis indirectement au moyen de mesures 
+affectant les conditions générales de l'activité économique et qui ont un caractère plutôt général, 
+permanent ou non quantifiable, telles que : 
+ 
+http://www.procomptable.com/ 
+a. la mise à disposition d'infrastructures dans des zones en développement, 
+b. l'amélioration du réseau général de transport ou de communication, 
+c. la fourniture de meilleurs services publics ; et 
+d. l’instauration de contraintes commerciales à des concurrents. 
+Elle ne traite pas non plus des participations détenues par la puissance publique dans le capital d'une 
+entreprise ainsi que les aides pouvant être assimilées à des apports de capitaux propres. 
+07. Dans le cas où l'entreprise bénéficie de subventions autres que publiques, elles sont 
+traitées conformément aux prescriptions de la présente norme. 
+Définitions 
+08. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+La puissance publique désigne l'Etat, les Etablissements publics, les collectivités locales et 
+tout autre organisme public national ou international ; 
+Une aide publique désigne toute mesure prise par la puissance publique destinée à donner un 
+avantage économique spécifique à une entreprise ou à une catégorie d'entreprises ; 
+Les subventions, qui constituent une des formes des aides publiques, désignent toute aide 
+générant un transfert de ressources vers une entreprise. 
+Les subventions d'investissement sont celles destinées à permettre à l'entreprise bénéficiaire 
+d'acheter, de construire, de créer ou de se rendre acquéreur, par tout autre moyen, d'actifs 
+immobilisés ou d'autres actifs. 
+Les subventions d'exploitation sont les subventions autres que celles d'investissement tel  
+que :  
+a. les subventions dont bénéficie une entreprise pour lui permettre de compenser 
+l'insuffisance de certains produits d'exploitation ou de faire face à certaines charges 
+d'exploitation ; et  
+b. les subventions dont bénéficie une entreprise pour compenser, en tout ou partie, la 
+perte qu'elle aurait constatée si ces subventions ne lui avaient pas été accordées. 
+Les prêts non remboursables sont des prêts assortis d'une clause, pouvant dispenser une 
+entreprise du remboursement, si elle se conforme aux conditions prévues lors de l'octroi de 
+ces prêts. 
+Les subventions non monétaires sont celles qui se présentent, sous la forme d'un transfert 
+d'actif non monétaire, tel qu'un terrain ou une autre ressource à l'usage de l'entreprise. 
+Conditions générales de prise en compte des subventions 
+9. Les subventions, y compris celles en nature évaluées à leur valeur de réalisation, ne doivent 
+être prises en compte que lorsqu'il existe une assurance raisonnable que : 
+a. l'entreprise pourra se conformer aux conditions attachées aux subventions ; 
+b. les subventions seront perçues par l'entreprise. 
+L'encaissement d'une subvention ne permet pas en lui-même de conclure que les obligations, 
+attachées à la subvention, ont été respectées ou le seront. 
+10. L'octroi d'une subvention ou aide peut être assorti d'une condition qui peut être suspensive ou 
+résolutoire. 
+Lorsqu'elle est : 
+a. suspensive, la subvention ne devient acquise par une entreprise que si la condition se  
+réalise ; 
+ 
+http://www.procomptable.com/ 
+b. résolutoire, la subvention devient acquise dès la signature de l'accord ou la notification de 
+son octroi ; si la condition résolutoire se réalise, l'entreprise se trouve dans l'obligation de 
+rembourser la subvention. 
+11. Si la subvention est accordée sous conditions résolutoires, elle est acquise et constatée en 
+comptabilité dès la signature de l'accord indépendamment de son encaissement. 
+Toute éventualité relative à cette subvention doit être traitée conformément à la Norme 
+Comptable "éventualités et événements postérieurs à la date de clôture". 
+12. Si la subvention est accordée sous conditions suspensives, elle ne pourra être enregistrée 
+tant que ces conditions n'auront pas été réalisées. 
+13. Un prêt non remboursable, accordé à une entreprise sous certaines conditions, est traité 
+comme une subvention, s'il existe une assurance raisonnable que l'entreprise remplira ses 
+conditions. 
+Traitement comptable des subventions d’investissement 
+14. Les subventions d'investissement relatives à des biens amortissables sont à rapporter aux 
+résultats des exercices pendant lesquels sont constatées les charges d'amortissement 
+relatives à ces immobilisations. Ces subventions sont rapportées proportionnellement à ces 
+charges d'amortissement. 
+15. Les subventions relatives à des biens non amortissables qui nécessitent, le cas échéant, 
+l'accomplissement de certaines obligations, sont à rapporter aux résultats du ou des exercices 
+qui supportent le coût d'exécution de ces obligations. 
+A titre d'exemple, la subvention accordée pour l'acquisition d'un terrain, allouée sous la condition d'y 
+construire un immeuble, est à rapporter aux résultats en fonction de la durée d'utilisation de 
+l'immeuble. 
+16. La subvention non monétaire et le bien correspondant transféré à l'entreprise sont évalués 
+et comptabilisés à leur valeur de réalisation. 
+Traitement des subventions d’exploitation 
+17. Les subventions attribuées pour couvrir des charges spécifiques sont à rapporter aux 
+résultats des exercices ayant enregistré ces charges. 
+18. Les subventions accordées à une entreprise en compensation de pertes constatées au cours d'un 
+exercice antérieur, doivent être comptabilisées parmi les produits de l'exercice d'exigibilité. Ces 
+subventions sont souvent qualifiées de subvention d'équilibre. 
+19. La subvention d'exploitation est enregistrée comptablement au crédit d'un compte de produit. 
+Traitement des remboursements des subventions 
+20. Le remboursement d'une subvention, en raison du non respect de certaines obligations, 
+doit être traité comptable-ment comme un changement de méthode comptable et imputé dans 
+l'exercice au cours duquel les conditions entraînant le remboursement se matérialisent. 
+Il ne doit pas faire l'objet d'un redressement d'éléments sur exercices antérieurs. 
+21. Le remboursement d'une subvention d'exploitation doit venir, en premier lieu, en déduction du 
+solde de la subvention non encore rapporté au résultat. Dans le cas où le remboursement excède le 
+solde de la subvention, ou si ce solde est nul, le remboursement doit être comptabilisé directement en 
+charges de l'exercice de l'événement. 
+22. Le remboursement d'une subvention d'investissement doit être comptabilisé en déduction du solde 
+de la subvention inscrite au bilan et non encore rapporté au résultat. Dans le cas où le remboursement 
+excède le solde de la subvention, ou si ce solde est nul, le remboursement doit être comptabilisé 
+directement en charges de l'exercice. 
+ 
+http://www.procomptable.com/ 
+Informations à fournir 
+23. Les états financiers doivent faire apparaître : 
+a. la nature et l'étendue des subventions comptabilisées dans les états financiers ; 
+b. les conditions non remplies et toute autre éventualité relative aux subventions ; 
+c. la nature et l'étendue des autres aides publiques accordées à l'entreprise ; et 
+d. les conditions non remplies et toute autre éventualité relative aux autres aides 
+publiques. 
+Date d’application 
+24. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+ouverts à partir du 1er Janvier 1997. 
+ 

@@ -1,0 +1,71 @@
+Statistique - Taux dintrt directeur de la BCT
+https://www.bct.gov.tn/bct/siteprod/tableau_statistique_a.jsp?params=PL203260
+
+Situation mensuelle de la BCT
+Situation mensuelle des autres institutions de dépôts (AID)
+Situation mensuelle des institutions de dépôts (SID)
+Agrégats de monnaie et leurs contreparties
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques offshore
+Notes méthodologiques
+Situation mensuelle de la BCT
+Autres statistiques de la BCT
+Situation mensuelle des banques
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques off-shore
+Secteur monétaire
+Secteur Financier
+Bons du Trésor
+Achats fermes des Bons du Trésor
+Taux moyen du marché monétaire (TMM)
+Système de règlement
+Volume des transactions des opérations devise contre dinar
+Marché des changes Devise-Devise
+Cours quotidiens des principales monnaies cotées
+Historique du marché de change
+Transactions de change au comptant
+Répartition par devise des transactions (opérations en compte et au comptant)
+Evolution des transactions sur le marché des changes au comptant
+Opérations devises/devises
+Moyenne des cours du marché interbancaire
+Moyennes des cours du marché interbancaire
+Balance des paiements
+Position Extérieure Globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Notes Méthodologiques
+Balance de paiements
+Position exérieure globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Exportations (FOB)
+Importations (CAF)
+Position de la dette extérieure brute
+Structure du service de la dette extérieure
+Structure de la dette extérieure par monnaie de règlement
+Principaux paramètres de la dette extérieure
+Endettement total
+Statistiques Monétaires, Économiques et Financières
+Taux d'intérêt directeur de la BCT
+Indicateurs | 2021 | 2022 | 2023 | 2024 | 2025 | 2026
+Janvier | 6,25000 | 6,25000 | 8,00000 | 8,00000 | 8,00000 | 7,00000
+Février | 6,25000 | 6,25000 | 8,00000 | 8,00000 | 8,00000 | 7,00000
+Mars | 6,25000 | 6,25000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Avril | 6,25000 | 6,25000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Mai | 6,25000 | 7,00000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Juin | 6,25000 | 7,00000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Juillet | 6,25000 | 7,00000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Août | 6,25000 | 7,00000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Septembre | 6,25000 | 7,00000 | 8,00000 | 8,00000 | 7,50000 | 7,00000
+Octobre | 6,25000 | 7,25000 | 8,00000 | 8,00000 | 7,50000
+Novembre | 6,25000 | 7,25000 | 8,00000 | 8,00000 | 7,50000
+Décembre | 6,25000 | 7,25000 | 8,00000 | 8,00000 | 7,50000
+Série rétrospective
+Indicateurs
+Janvier Février Mars Avril Mai Juin Juillet Août Septembre Octobre Novembre Décembre | Date debut : 31/12/1987 31/12/1988 31/12/1989 31/12/1990 31/12/1991 31/12/1992 31/12/1993 31/12/1994 31/12/1995 31/12/1996 31/12/1997 31/12/1998 31/12/1999 31/12/2000 31/12/2001 31/12/2002 31/12/2003 31/12/2004 31/12/2005 31/12/2006 31/12/2007 31/12/2008 31/12/2009 31/12/2010 31/12/2011 31/12/2012 31/12/2013 31/12/2014 31/12/2015 31/12/2016 31/12/2017 31/12/2018 31/12/2019 31/12/2020 31/12/2021 31/12/2022 31/12/2023 31/12/2024 31/12/2025 31/12/2026 Date fin : 31/12/2026 31/12/2025 31/12/2024 31/12/2023 31/12/2022 31/12/2021 31/12/2020 31/12/2019 31/12/2018 31/12/2017 31/12/2016 31/12/2015 31/12/2014 31/12/2013 31/12/2012 31/12/2011 31/12/2010 31/12/2009 31/12/2008 31/12/2007 31/12/2006 31/12/2005 31/12/2004 31/12/2003 31/12/2002 31/12/2001 31/12/2000 31/12/1999 31/12/1998 31/12/1997 31/12/1996 31/12/1995 31/12/1994 31/12/1993 31/12/1992 31/12/1991 31/12/1990 31/12/1989 31/12/1988 31/12/1987
+Monnaie
+Taux d'interêt
+moyens de paiement
+Change
+Secteur Exterieur
+Economie générale

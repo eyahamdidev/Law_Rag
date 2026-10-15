@@ -1,0 +1,16 @@
+{
+ "id": "S072",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Archive",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/inshold13.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/inshold13.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "b4c941817f7af797bc95f53c53e511e4327b5f0b43c2530e97f8aa460797bb45",
+ "bytes": 40448,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S072_inshold13.xls",
+ "last_modified": "Mon, 20 Jan 2014 19:32:28 GMT"
+}

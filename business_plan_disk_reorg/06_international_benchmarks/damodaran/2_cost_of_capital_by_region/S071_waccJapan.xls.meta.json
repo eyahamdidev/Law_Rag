@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/waccJapan.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/waccJapan.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "610e16b7d102895bfc4eff197ff37343ed8c9ac2e6af9f00282a684ca91b5405",
+ "bytes": 77312,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_waccJapan.xls",
+ "last_modified": "Mon, 12 Jan 2026 13:41:44 GMT"
+}

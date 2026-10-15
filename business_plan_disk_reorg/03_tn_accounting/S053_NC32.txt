@@ -1,0 +1,789 @@
+http://www.procomptable.com/ 1
+NC 32 
+Norme comptable relative a la présentation des états financiers des 
+associations autorisées à accorder des micro-credits 
+ 
+Objectif  
+01. La norme comptable NC 01 -"Norme comptable générale" définit les règles relatives à la 
+présentation des états financiers des entreprises en général sans distinction de la nature de leurs 
+activités.  
+02. La plupart de ces règles sont également applicables aux associations autorisées à accorder des 
+micro-crédits, notamment les considérations pour l'élaboration et la présentation des états financiers, 
+les dispositions communes, les composantes des états financiers et la structure des notes aux états 
+financiers.  
+Toutefois, dans la mesure où les activités des associations autorisées à accorder des micro-crédits 
+diffèrent de façon significative de celles des entreprises industrielles et commerciales, des règles 
+particulières doivent leur être définies en vue d'aboutir à la production d'états financiers permettant 
+aux financeurs et donateurs de fonds d'évaluer correctement la situation financière de l'association et 
+la façon avec laquelle ses différents fonds ont été utilisés.  
+03. L'objectif de la présente norme est de définir les règles particulières applicables aux états 
+financiers des associations autorisées à accorder des micro-crédits.  
+Champ d'application  
+04. La présente norme est applicable aux états financiers destinés à être publiés par les 
+associations autorisées à accorder des micro-crédits telles que définies par la législation en 
+vigueur.  
+Définition  
+05. Pour l'application de la présente norme, les termes ci- après sont utilisés avec la signification 
+suivante :  
+(a) Actif net : désigne les ressources nettes dont dispose l'association autorisée à accorder des 
+micro-crédits. Il représente le solde résiduel des actifs après déduction des passifs.  
+(b) Apports : Correspondent à un transfert au profit de l'association de liquidités ou équivalents de 
+liquidités ou d'autres actifs ou au règlement ou diminution d'un élément de passif, sans contrepartie 
+donnée à l'apporteur. Les apports peuvent être sous forme d'apports affectés, d'apports non affectés 
+et de dotations.  
+(c) Apports affectés : sont des apports grevés d'une affectation d'origine externe en vertu de laquelle 
+l'association est tenue de les utiliser à une fin déterminée. On distingue notamment les apports 
+affectés aux charges de l'exercice, aux charges d'un exercice futur, à l'achat d'immobilisations, au 
+remboursement d'une dette. ..  
+(d) Dotations : constituent un type particulier d'apport grevé d'une affectation d'origine externe en 
+vertu de laquelle l'association est tenue de maintenir en permanence les ressources attribuées.  
+(e) Apports non affectés : ne sont liés à aucune charge et ne répondent pas à la définition d'un 
+apport affecté ou d'une dotation.  
+(f) Revenus : les revenus des associations autorisées à accorder des micro-crédits ne résultent pas 
+seulement de l'activité de micro-crédits mais peuvent également se présenter sous la forme de dons, 
+subventions, cotisations et d'autres apports. En effet, pour réaliser leurs activités centrales, les 
+associations autorisées à accorder des micro-crédits utilisent les apports sous forme de dons, 
+subventions et autres dons.  
+Règles générales et composantes des états financiers  
+Règles générales de présentation  
+06. Les états financiers des associations autorisées à accorder des micro-crédits doivent comporter 
+sur chacune des pages les mentions obligatoires suivantes :  
+- la dénomination de l'association autorisée à accorder des micro-crédits suivie de la phrase 
+«Association autorisée à accorder des micro-crédits» ;  
+http://www.procomptable.com/ 2
+- la date d'arrêté pour le bilan et la période couverte pour l'état de résultat et l'état des flux de 
+trésorerie ;  
+- l'unité monétaire dans laquelle sont exprimés les états financiers.  
+07. Pour chaque rubrique, poste et sous-poste, les chiffres correspondants de l'exercice précédent et 
+éventuellement le numéro de la note aux états financiers doivent être mentionnés. Les postes 
+présentant un solde nul pour l'exercice en cours et l'exercice précèdent ne sont pas présentés.  
+08. Les notes aux états financiers sont fournies par fonds. Pour chaque fonds des informations sont 
+fournies simultanément sur les actifs, passifs et charges et produits y afférents.  
+09. La compensation entre les postes d'actifs et de passifs ou entre les postes de charges et de 
+produits n'est admise que lorsqu'elle est prévue par les normes comptables.  
+10. Les virements inter-fonds sont présentés dans l'état de l'évolution des actifs nets parmi les notes 
+aux états financiers, lorsqu'ils sont autorisés par les conventions avec les financeurs et donateurs de 
+fonds.  
+Composantes des états financiers  
+11. Les états financiers des associations autorisées à accorder des micro-crédits se composent du 
+bilan, de l'état de résultats, de l'état des flux de trésorerie et des notes aux états financiers et doivent 
+être présentés selon l'ordre suivant :  
+- Le bilan  
+- L'état de résultat  
+- L'état des flux de trésorerie  
+- Les notes aux états financiers  
+Les chiffres présentés dans les états financiers doivent être exprimés en dinars tunisiens.  
+Le bilan  
+Présentation du bilan  
+12. Le bilan d'une association autorisée à accorder des micro-crédits doit faire apparaître les 
+actifs, les passifs et les actifs nets. Les postes du bilan sont définis par deux lettres en 
+majuscule suivies d'un chiffre. Les sous-postes sont définis par deux lettres en majuscule 
+suivies d'un chiffre et d'une lettre.  
+13. Les éléments du bilan sont présentés selon leur nature par rapport à l'activité des associations 
+autorisées à accorder les micro-crédits en privilégiant J'ordre décroissant de liquidité. Ainsi cette 
+classification fait apparaître les apports reçus, les micro-crédits et les ressources qui lui sont affectés. 
+Ces critères ont été privilégiés au critère de classement entre éléments courants et éléments non 
+courants.  
+14. Le bilan doit renseigner au minimum sur les postes et sous-postes suivants :  
+ACTIFS  
+AC 1 - Liquidités et équivalents de liquidités  
+AC 2 - Placements et autres actifs financiers  
+AC 3 - Apports à recevoir  
+AC 4 - Micro-crédits  
+AC 5 - Stocks  
+AC 6 - Actifs immobilisés  
+a - Immobilisations corporelles  
+b - Autres immobilisations  
+AC 7 - Autres actifs  
+a - Débiteurs divers  
+b - Autres actifs  
+PASSIFS 
+ 
+PA 1 - Concours bancaires  
+PA 2 - Apports reportés  
+http://www.procomptable.com/ 3
+PA 3 - Fonds pour micro-crédits  
+PA 4 - Emprunts  
+PA 5 - Autres passifs  
+a - Créditeurs divers  
+b - Autres passifs  
+ACTIFS NETS 
+ 
+AN 1 - Actifs nets investis en immobilisations  
+AN 2 - Actifs nets affectés, sous forme de dotations  
+AN 3 - Actifs nets affectés aux micro-crédits  
+AN 4 - Autres actifs nets affectés  
+AN 5 - Actifs nets non affectés  
+Un modèle de bilan est présenté en annexe 1 à la présente norme.  
+Contenu des postes et sous-postes du bilan 
+ 
+15. Le contenu des postes et sous-postes du bilan est défini ci-après :  
+POSTES D'ACTIF  
+16. Le contenu des postes et sous-postes présentés dans l'actif du bilan des associations autorisées à 
+accorder des micro-crédits est défini comme suit :  
+Poste AC 1 : Liquidités et équivalents de liquidités :  
+Les liquidités comprennent les fonds disponibles et les dépôts à vue qui proviennent notamment des 
+apports reçus. Les équivalents de liquidités sont des placements à court terme, très liquides 
+facilement convertibles en un montant connu de liquidités, et non soumis à un risque significatif de 
+changement de valeur.  
+Poste AC 2 : Placements et autres actifs financiers :  
+Ce poste comprend les placements à court terme qui ne sont pas classés parmi les équivalents de 
+liquidités, acquis par l'association comme emploi de ses ressources ou reçus à titre d'apport. Il 
+enregistre également les prêts autres que les micro-crédits et qui entrent dans le cadre des activités 
+de l'association.  
+Poste AC3 
+: Apports à recevoir :  
+Ce poste comprend les apports dont la juste valeur peut être estimée d'une façon fiable et la réception 
+est raisonnablement assurée, mais qui ne sont pas encore encaissés (liquidités) ou réceptionnés 
+(apports en nature) par l'association.  
+Poste AC 4 : Micro-crédits :  
+Ce poste comprend le montant des micro-crédits en principal non échus ainsi que le montant des 
+micro-crédits en principal échus et impayés et les intérêts courus non échus et les intérêts courus 
+échus et impayés. Ce poste inclut également les frais d'huissier et d'avocat engagés pour le 
+recouvrement des micro-crédits.  
+Poste AC 5 : Stocks :  
+Ce poste comprend les apports reçus sous forme d'articles en nature à stocker ainsi que les autres 
+stocks acquis par l'association.  
+Poste AC 6 : Actifs immobilisés : Ce poste comprend  
+• Sous (a) - Immobilisations corporelles : les immobilisations corporelles reçues sous forme 
+d'apports en nature, ainsi que les immobilisations corporelles acquises par l'association et 
+financées par des apports sous forme de liquidités ou par les fonds de l'association.  
+• Sous (b) - Autres immobilisations : les immobilis ations incorporelles et financières reçues sous 
+forme d'apports en nature, ainsi que les immobilisations incorporelles et financières acquises 
+par l'association et financées par des apports sous forme de liquidités ou par les fonds de 
+l'association.  
+Poste AC7 :
+ Autres actifs : Ce poste comprend  
+• Sous (a) - Débiteurs divers : les débiteurs dive rs et les créances qui leurs sont rattachées 
+autres que ceux afférents à des apports à recevoir et les micro-crédits et qui sont constatés 
+http://www.procomptable.com/ 4
+aux postes correspondants. Il s'agit notamment des créances sur le personnel et de celles 
+provenant de la vente à crédit d'articles en nature détenus par l'association.  
+• Sous (b) - Autres actifs : comprend les él éments d'actifs qui ne sont pas classés dans les 
+autres postes d'actif et notamment les comptes d'attente et à régulariser débiteurs.  
+POSTES DE PASSIF  
+17. Le contenu des postes et sous postes présentés dans le passif du bilan des associations 
+autorisées à accorder des micro-crédits est défini comme suit :  
+Poste PA 1 : Concours bancaires :  
+Ce poste comprend les découverts bancaires accordés à l'association qui n'entrent pas dans le cadre 
+du financement structurel des activités de l'association et qui font l'objet d'un contrat ferme 
+garantissant leur stabilité, auquel cas, ils sont classés au poste PA4 - Emprunts.  
+Poste PA 2 : Apports reportés :  
+Ce poste comprend les apports grevés d'affectations d'origine externe, et qui sont affectés, 
+conformément à l'engagement pris à leur égard, à l'acquisition d'immobilisations, aux charges 
+d'exercices futurs ou à d'autres fins.  
+Poste PA 3 : Fonds pour micro-crédits :  
+Ce poste comprend les fonds reçus pour l'octroi de micro-crédits et qui seront repris conformément 
+aux conventions conclues entre l'association autorisée à accorder des micro-crédits et les financeurs.  
+Poste PA 4 : Emprunts :  
+Ce poste comprend les emprunts contractés par l'association pour financer ses activités et notamment 
+celles relatives à l'octroi de micro-crédits ainsi que les intérêts courus sur ces emprunts.  
+Poste PA 5 : Autres passifs : Ce poste comprend  
+• Sous (a) - Créditeurs divers : les dettes four nisseurs et les dettes rattachées relatives à 
+l'acquisition de stocks et d'immobilisations ainsi que les créances vis-à-vis du personnel et de 
+l'administration fiscale.  
+• Sous (b) - Autres passifs: comprend les élém ents de passifs qui ne sont pas classés dans les 
+autres postes de passifs et notamment les comptes d'attente et les comptes à régulariser 
+créditeurs.  
+POSTES DES ACTIFS NETS  
+18. Le contenu des postes des actifs nets est défini comme suit :  
+Poste AN 1 - Les actifs nets investis en immobilisations :  
+Ce poste comprend les apports affectés qui ont été dépensés pour l'acquisition d'immobilisations non 
+amortissables. Il comporte également les affectations d'origine interne d'apports non affectés, pour 
+l'acquisition d'immobilisations amortissables.  
+Poste AN 2 - Les actifs nets affectés sous forme de dotations :  
+Ce poste comprend les apports affectés que l'association autorisée à accorder des micro-crédits est 
+tenue de maintenir en permanence, en vertu d'une affectation d'origine externe. Lorsque ces fonds 
+sont placés, le produit des placements est soit constaté dans ce poste soit constaté en résultat 
+conformément à la volonté du donateur.  
+Poste AN3 - Les actifs nets affectés aux micro-crédits :  
+Ce poste comprend les fonds accordés par les différents financeurs et donateurs à titre définitif sous 
+forme d'apport et qui doivent être affectés par l'association autorisée à accorder des micro-crédits à 
+l'octroi de micro-crédits telles que définies par la législation en vigueur. Il est augmenté des intérêts 
+constatés en résultat sur micro-crédits et diminué des dotations aux provisions et des pertes sur 
+micro- crédits octroyés sur ces mêmes fonds.  
+Sont exclus de ce poste les fonds pour micro-crédits qui seront repris par les financeurs et qui doivent 
+figurer au passif du bilan au poste PA3. Sont également exclus de ce poste les intérêts constatés en 
+résultat sur les fonds pour micro-crédits qui seront repris par les financeurs ainsi que les provisions et 
+pertes sur micro-crédits y afférents et qui doivent figurer parmi les actifs nets non affectés.  
+Poste AN 4 - Les autres actifs nets affectés :  
+Ce poste comprend les apports affectés dont bénéficie l'association autres que ceux investis en 
+immobilisations et ceux affectés aux micro-crédits.  
+http://www.procomptable.com/ 5
+Poste AN 5 - Les actifs nets non affectés :  
+Ce poste comprend les apports non affectés dont bénéficie l'association pour la réalisation de son 
+objet social. Il comprend aussi l'excédent des produits sur les charges qui n'a pas été affecté aux 
+autres postes d'actifs nets.  
+L'état de résultat  
+Présentation de l'état de résultat  
+19. L'état de résultat présente, pour un exercice comptable, le détail des produits et des 
+charges de l'association autorisée à accorder des micro-crédits pour l'exercice. L'état de 
+résultat doit fournir précisément, des informations sur les charges afférentes aux services 
+fournis par l'association et sur la mesure dans laquel1e ces charges ont été financées par des 
+apports et d'autres produits.  
+20. Le classement des postes et sous-postes dans l'état de résultat suit la logique de classement des 
+postes et sous- postes du bilan auxquels ils sont rattachés.  
+21. L'état de résultat doit renseigner au minimum sur les postes et sous- postes suivants :  
+PRODUITS  
+PR 1 - Apports  
+a - Dons, legs et donations  
+b - Subventions  
+c - Cotisations  
+d - Autres apports non affectés  
+e - Apports reportés imputés au résultat de l'exercice  
+PR 2 - Produits des placements  
+PR 3 - Revenus des micro-crédits  
+a - Intérêts et revenus assimilés  
+b - Autres revenus sur micro-crédits  
+PR 4 - Reprise de provisions et récupération de créances passées en perte sur micro-crédits  
+PR 5 - Autres produits d'exploitation  
+PR 6 - Gains  
+CHARGES 
+ 
+CH 1 - Dons, subventions et services fournis  
+a - Dons et subventions accordés  
+b - Prestations de services fournies  
+CH 2 - Charges financières  
+CH3- Charges d'encadrement et de formation  
+CH4- Dotations aux provisions et créances passées en pertes sur micro-crédits  
+CH5 - Charges du personnel  
+CH6 - Charges générales d'exploitation  
+CH7- Autres charges d'exploitation  
+CH8 - Dotations aux amortissements et aux provisions sur immobilisations  
+CH9 - Pertes  
+Un modèle de l'état de résultat est présenté en annexe 2 de la présente norme.  
+Contenu de l'état de résultat 
+ 
+22. Le contenu des postes de l'état de résultat est défini ci- après :  
+POSTES DE PRODUITS  
+Poste PR 1 : Apports : ce poste comprend :  
+• Sous (a) - Dons, legs et donations: les dons reçus en numéraire par l'association des divers 
+donateurs et qui servent à la réalisation de son objet social sans affectation spécifique ainsi 
+http://www.procomptable.com/ 6
+que le produit de tous les biens meubles ou immeubles provenant d'une succession, legs ou 
+donations cédés par l'association.  
+• Sous (b) - Subventions : toutes les subventio ns de fonctionnement dont bénéficie l'association 
+ainsi que les subventions d'investissement non affectées spécifiquement et qui sont inscrites 
+en tant que produit de l'exercice.  
+• Sous (c) - Cotisations: toutes les sommes versées par les membres ou les adhérents de 
+l'association à titre de cotisations au cours de l'exercice.  
+• Sous (d) - Autres apports non affectés: les autres apports non affectés ainsi que les 
+bénévolats et les prestations de services en nature lorsque l'association peut estimer d'une 
+façon fiable leur juste valeur-  
+• Sous (e) - Apports reportés imputés au résultat  de l'exercice: les apports inscrits initialement 
+dans le poste PA2 "apports reportés" et repris en résultat de l'exercice au cours des 
+exercices, au rythme de constatation en résultat des charges correspondantes.  
+Poste PR 2 : Produits des placements :  
+Ce poste comprend les produits des placements sous forme notamment d'intérêts et de dividendes.  
+Poste PR 3 : Revenus des micro-crédits : ce poste comprend :  
+• Sous (a) -Intérêts et revenus as similés: les revenus réalisés par l'association sur l'activité de 
+micro-crédits, sous forme d'intérêts y compris la reprise des intérêts réservés-  
+• Sous (b) -Autres revenus sur micro-crédits : les commissions d'étude de dossiers et les autres 
+revenus qui n'ont pas un caractère d'intérêts.  
+Poste PR 4 : Reprise de provisions et récupération de créances passées en perte sur micro-
+crédits :  
+Ce poste comprend les reprises de provisions sur micro- crédits douteux ainsi que les montants des 
+micro-crédits recouvrés et qui ont été antérieurement passées en pertes considérant qu'elles sont 
+définitivement irrécouvrables.  
+Poste PR 5 : Autres produits d'exploitation :  
+Ce poste comprend tous les autres produits d'exploitation réalisés par l'association autorisée à 
+accorder des micro-crédits.  
+Poste PR 6 : Gains :  
+Ce poste comprend les gains ordinaires provenant notamment de la cession d'éléments d'actifs 
+immobilisés ainsi que les gains extraordinaires résultant d'événements ou d'opérations clairement 
+distincts des activités ordinaires de l'association et qui, en conséquence, ne sont pas censés se 
+reproduire de manière fréquente et régulière.  
+POSTES DE CHARGES  
+Poste CH 1: Dons, subventions et services fournis : ce poste comprend :  
+• Sous (a) - Dons et subventions accordés: les dons et subventions en numéraire et en nature, 
+autres que ceux sous forme de prestations de services en nature, accordés à d'autres 
+associations ou autres bénéficiaires dans le cadre des programmes de l'association y compris 
+la variation des stocks des articles destinés à être distribués sous forme de dons en nature.  
+• Sous (b) - prestations de services fournies: les dons accordés à d'autres associations ou 
+autres bénéficiaires sous forme de prestation de services en nature, soit directement soit par 
+l'intermédiaire de prestataires de services, dans le cadre des programmes de l'association.  
+Poste CH2 : Charges financières :  
+Ce poste comprend les intérêts sur découverts et emprunts et notamment les intérêts sur emprunts 
+pour micro-crédits constatés au poste PA4.  
+Poste CH3 : Charges d'encadrement et de formation :  
+Ce poste comprend les charges supportées par l'association suite à la conduite d'actions 
+d'encadrement et de formation au profit des bénéficiaires des micro-crédits.  
+Poste CH4 : Dotations aux provisions et créances passées en pertes sur rnicro-crédits :  
+http://www.procomptable.com/ 7
+Ce poste comprend les dotations aux provisions sur micro-crédits douteux ainsi que les montants des 
+micro- crédits passées en pertes considérées comme définitivement irrécouvrables dans la limite des 
+risques encourus par l'association.  
+Poste CH 5 : Charges du personnel :  
+Ce poste comprend les frais de personnel, dont les salaires et traitements, les charges sociales et les 
+impôts et taxes liés aux frais du personnel.  
+Poste CH6 : Charges générales d'exploitation :  
+Ce poste comprend la variation des stocks des articles acquis et entrant dans le cadre des activités de 
+l'association (stocks consommables et autres) ainsi que les charges d'administration générale, 
+notamment les fournitures de bureau et la rémunération des services extérieurs. Il inclut également 
+les charges supportées par l'association suite à la conduite d'actions d'encadrement et de formation 
+au profit des bénéficiaires des programmes de l'association autres que l'octroi de micro-crédits.  
+Poste CH 7 : Autres charges d'exploitation :  
+Ce poste comprend toutes les autres charges d'exploitation encourues par l'association autorisée à 
+accorder les micro-crédits.  
+Poste CH 8 : Dotations aux amortissements et aux provisions sur immobilisations :  
+Ce poste comprend les dotations aux amortissements et aux provisions pour dépréciation relatives 
+aux immobilisations incorporelles et corporelles inscrites au poste AC 6 -Actifs immobilisés.  
+Poste CH 9 : Pertes :  
+Ce poste comprend les pertes ordinaires provenant notamment de la cession d'éléments d'actifs 
+immobilisés ainsi que les pertes extraordinaires résultant d'événements ou d'opérations clairement 
+distincts des activités ordinaires de l'association et qui en conséquence, ne sont pas censés se 
+reproduire de manière fréquente et régulière.  
+L'état des flux de trésorerie  
+23. L'état des flux de trésorerie fournit des informations sur la provenance des fonds de l'association 
+autorisée à accorder des micro-crédits et sur la façon dont celle-ci utilise ces fonds pour exercer ses 
+activités d'exploitation, d'investissement et de financement. Il aide les utilisateurs des états financiers 
+et notamment les financeurs et les donateurs de fonds à évaluer la capacité de l'association d'obtenir 
+des fonds de natures et de sources diverses ainsi que la manière dont elle utilise ces fonds pour 
+poursuivre ses activités et s'acquitter de ses obligations.  
+24. Conformément à la norme comptable NC 01 - Norme Comptable Générale, l'état des flux de 
+trésorerie doit distinguer séparément les flux provenant (ou utilisés) des (ou dans les) activités 
+d'exploitation, d'investissement et de financement.  
+L'état des flux de trésorerie des associations autorisées à accorder des micro-crédits doit être 
+présenté selon la méthode directe.  
+Un modèle d'état des flux de trésorerie est présenté en annexe 3 de la norme.  
+• Flux de trésorerie liés aux activités d'exploitation  
+25. Les flux de trésorerie liés aux activités d'exploitation comprennent tous les encaissements et les 
+décaissements de fonds résultant des activités poursuivies par l'association dans le cadre de son 
+objet. Les apports non affectés, les apports affectés au fonctionnement de l'association, par exemple 
+les frais de service, les décaissements à titre d'octroi de micro-crédits et les remboursements de 
+principal et intérêts y afférents ainsi que les produits financiers non affectés sont inclus dans les flux 
+de trésorerie liés aux activités d'exploitation.  
+• Flux de trésorerie liés aux activités d'investissement  
+26. Les flux de trésorerie liés aux activités d'investissement comprennent les décaissements relatifs à 
+l'acquisition d'immobilisations et de placements à long terme, et les encaissements relatifs à la 
+cession d'actifs comme les immobilisations et les placements à long terme. 
+• Flux de trésorerie liés aux activités de financement  
+27. Les flux de trésorerie liés aux activités de financement comprennent les apports en espèces 
+affectés à l'acquisition d'immobilisations, les apports en espèces reçus à titre de dotations ainsi que 
+les encaissements et les décaissements afférents à la prise en charge et au remboursement de 
+dettes. 
+http://www.procomptable.com/ 8
+• Opérations de financement et d'investiss ement sans incidence sur la trésorerie  
+28. Certaines activités de financement et d'investissement ne mettent pas en cause des 
+encaissements ni des décaissements, il peut s'agir, par exemple, de l'apport d'immobilisations ou de 
+l'apport d'un portefeuille de placements qui seront détenus à des fins de dotation. L'effet d'une telle 
+opération est semblable à celui d'un encaissement suivi immédiatement d'un décaissement, c'est à 
+dire que l'opération est présentée dans l'état des flux de trésorerie à la fois à titre d'encaissement et 
+de décaissement.  
+Les notes aux états financiers  
+29. Les notes aux états financiers des associations autorisées à accorder des micro-crédits 
+comportent notamment :  
+1. Une note de présentation de l'association autorisée à accorder des micro-crédits  
+2. Une note sur le renouvellement des sources de financement  
+3. Une note sur le respect des normes comptables tunisiennes  
+4. Une note sur les bases de mesure et les principes comptables pertinents appliqués.  
+5. Les notes sur le bilan  
+6. Les notes sur l'état de résultat  
+7. Les notes sur l'état des flux de trésorerie  
+8. Les notes complémentaires.  
+Les notes aux états financiers des associations autorisées à accorder des micro-crédits 
+doivent comporter les informations dont la divulgation est prévue par la norme comptable NC 
+01 - Norme Comptable Générale et les autres normes comptables.  
+Note de présentation de l'association autorisée à accorder des micro-crédits  
+30. L'association autorisée à accorder des micro-crédits doit fournir une brève description de ses 
+activités et notamment l'activité de micro-crédit.  
+Elle fournit également des informations sur le nombre et la localisation de ses établissements et 
+représentations régionales. Elle fournit aussi le nombre de son personnel en distinguant le personnel 
+permanent et le personnel occasionnel et bénévole.  
+Note sur le renouvellement des sources de financement  
+31. L'activité d'une association autorisée à accorder des micro-crédits est en étroite dépendance des 
+financeurs et donateurs de fonds, ce qui fait que la continuité d'exploitation dépend largement de 
+facteurs externes nettement peu maîtrisés. De ce fait, la continuité de l'exploitation pourra être mise 
+en cause lorsque l'association n'obtient pas les sources de financement nécessaires pour continuer à 
+financer ses activités.  
+32. Les associations autorisées à accorder des micro-crédits doivent fournir dans les notes aux états 
+financiers une note concernant les sources de financement. Dans cette note l'association précise les 
+faits sur la base desquels elle croit poursuivre ses activités.  
+Notes sur les bases de mesures et des principes comptables pertinents  
+33. Les principes comptables ci-après doivent être nécessairement divulgués parce qu'ils sont 
+pertinents pour les utilisateurs des états financiers :  
+- les méthodes comptables appliquées pour la constatation des apports,  
+- les méthodes comptables appliquées pour la constatation des micro-crédits et des revenus y 
+afférents ainsi que les règles de constatation des provisions sur les micro-crédits,  
+- les méthodes d'évaluation des dons en nature, les méthodes d'évaluation des fournitures de services 
+ainsi que les contributions volontaires lorsque l'association opte pour leur constatation en comptabilité.  
+Notes sur le bilan  
+34. Les associations autorisées à accorder des micro-crédits doivent divulguer dans les notes aux 
+états financiers les informations suivantes sur le bilan, lorsqu'elles sont significatives :  
+-  Poste AC4 "Micro-crédits", ventilés par nature d'activité économique ayant bénéficié de micro-
+crédits :  
+http://www.procomptable.com/ 9
+• Le montant des micro-crédits accordés au cour s de l'exercice ventilé par fonds en micro-
+crédits pour acquisition de matériel, micro-crédits pour fonds de roulement et micro-crédits 
+pour amélioration des conditions de vie.  
+• Le montant des micro-crédits remboursés (princi pal et intérêts) au cours de l'exercice ventilé 
+par fonds en micro-crédits pour acquisition de matériel, micro-crédits pour fonds de roulement 
+et micro-crédits pour amélioration des conditions de vie.  
+• Le montant des micro-crédits échus et impayés (p rincipal et intérêts) au cours de l'exercice 
+ainsi que le montant cumulé des impayés ventilé par fonds en micro-crédits pour acquisition 
+de matériel, micro-crédits pour fonds de roulement et micro-crédits pour amélioration des 
+conditions de vie.  
+• Le classement des impayés sur micro-crédit (pri ncipal et intérêts) par ancienneté ventilés par 
+fonds en micro- crédits pour acquisition de matériel, pour fonds de roulement et micro-crédits 
+pour amélioration des conditions de vie.  
+• Le montant des intérêts courus au cours de l'ex ercice en indiquant le montant des intérêts 
+impayés et des intérêts réservés, ventilé par fonds en micro-crédits pour acquisition de 
+matériel, micro-crédits pour fonds de roulement et micro-crédits pour amélioration des 
+conditions de vie.  
+• Les provisions pour micro-crédits douteux co nstituées au cours de l'exercice ainsi que le 
+montant cumulé des provisions ventilées par fonds en micro-crédits pour acquisition de 
+matériel, micro-crédits pour fonds de roulement et micro-crédits pour amélioration des 
+conditions de vie.  
+- Poste PA2 : «Apports reportés» 
+• Les montants des apports reportés attribuables à chaque catégorie principale d'affectation 
+d'origine externe et une description de chacune de ces affectations et indication de leur 
+origine.  
+• Les apports reportés constatés au bilan au cours de l'exercice ventilé par catégorie principale 
+d'affectation (immobilisation, charges futures, etc. ...).  
+• Les apports reportés imputés au résultat au cours de l'exercice avec une description de 
+chacune des reprises.  
+• Les apports reportés correspondant à des affect ations (projets, programmes. ..) qui n'ont pas 
+fait l'objet d'imputation en résultat au cours des deux derniers exercices.  
+• Les apports reportés avec conditions résoluto ires et dans quelle mesure l'association peut 
+respecter ces conditions.  
+• Le montant des apports reportés momentanément placés avant utilisation avec indication des 
+périodes de non- utilisation et le montant et l'affectation des produits financiers y afférents.  
+Poste PA3 : "Fonds pour micro-crédits"  
+• Le montant des fonds pour micro-crédits obtenu s au cours de l'exercice ainsi que le cumul. 
+• Le montant des fonds utilis és dans l'octroi de micro- crédits ventilé par fonds en micro-crédits 
+pour acquisition de matériel, micro-crédits pour fonds de roulement et micro-crédits pour 
+amélioration des conditions de vie avec indication de la nature des principales activités ayant 
+bénéficié des micro-crédits.  
+• Le montant des fonds momentanément placés  avant utilisation ainsi que le montant et 
+l'affectation des produits financiers y afférents-  
+• Le montant des fonds pour micro-cr édits remboursés aux financeurs.  
+- Postes des actifs nets  
+• Un état récapitulatif sur l'évolution des actifs  nets présentant le détail des variations survenues 
+dans les actifs nets de l'association autorisée à accorder des micro-crédits au cours de 
+l'exercice. Cet état permet de rapprocher la situation des actifs nets présentée dans le bilan 
+d'ouverture de l'exercice avec celle présentée dans le bilan de clôture de l'exercice et montre 
+dans quelle mesure les activités ont donné lieu à un accroissement ou une diminution des 
+actifs nets. Il renseigne sur la répartition du déficit ou de l'excédent des produits sur les 
+charges entre les actifs nets ainsi que sur les virements inter actifs nets relatifs aux 
+investissements en immobilisations et aux affectations d'origine interne.  
+http://www.procomptable.com/ 10
+Un modèle d'état de l'évolution des actifs nets est présenté en annexe 4 de la norme.  
+• Des informations sur les principaux mouv ements ayant affectés les actifs nets. Ces 
+informations concernent l'origine et la justification des principaux mouvements ainsi que leur 
+montant.  
+Notes sur l'état de résultat  
+35. Les associations autorisées à accorder des micro-crédits doivent divulguer dans les notes aux 
+états financiers les informations suivantes sur l'état de résultat, lorsqu'elles sont significatives :  
+• La ventilation des charges et produits de  l'exercice par fonds et/ou programmes 
+conformément au modèle fourni en annexe 5 à la présente norme.  
+• Le montant des intérêts sur micro-crédits en indi quant le montant des intérêts réservés repris 
+en résultat ventilé en micro-crédits pour acquisition de matériel, micro-crédits pour fonds de 
+roulement et micro-crédits pour amélioration des conditions de vie par fonds  
+• Le montant des produits de placement constatés au cours de l'exercice et leur affectation aux 
+différents fonds.  
+36. Les informations données ci-dessus sur le bilan et l'état de résultats doivent être accompagnées 
+d'un état récapitulatif sur l'activité de micro-crédits.  
+Un modèle d'état récapitulatif sur l'activité de micro- crédits est présenté en annexe 6 de la 
+norme.  
+Notes complémentaires  
+37. Lorsqu'elles sont utiles aux utilisateurs des états financiers, des informations de nature financière 
+et non financière sont fournies dans les notes complémentaires aux états financiers.  
+Date d'application  
+38. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er janvier 2002.  
+ 
+http://www.procomptable.com/ 11
+Annexe 1 - modèle de bilan 
+Bilan 
+Exercice clos le 31 décembre N 
+(chiffres exprimés en dinars) 
+ Note 31/12/N 31/12/N-1 
+ACTIFS    
+AC 1 - Liquidités et équivalents de liquidités    
+AC 2 - Placements et autres actifs financiers     
+moins provisions    
+AC 3 - Apports à recevoir    
+AC 4 - Micro-crédits    
+moins provisions et intérêts réservés    
+AC 5 - Stocks     
+moins provisions    
+AC 6 - Actifs immobilisés     
+a - Immobilisations corporelles     
+moins amortissements    
+b - Autres immobilisations     
+moins amortissements et provisions    
+AC 7 - Autres actifs     
+a - Débiteurs divers    
+b - Autres actifs  
+ 
+   
+TOTAL DES ACTIFS    
+PASSIFS    
+PA 1 - Concours bancaires    
+PA 2 - Apports reportés     
+PA 3 - Fonds pour micro-crédits    
+PA 4 - Emprunts     
+PA 5 - Autres passifs     
+a - Créditeurs divers    
+b - Autres passifs 
+ 
+   
+TOTAL DES PASSIFS    
+ACTIFS NETS     
+AN 1 - Actifs nets investis en immobilisations    
+AN 2 - Actifs nets affectés, sous forme de dotations    
+AN 3 - Actifs nets affectés aux micro-crédits    
+AN 4 - Autres actifs nets affectés    
+AN 5 - Actifs nets non affectés 
+ 
+   
+TOTAL DES ACTIFS NETS    
+TOTAL DES PASSIF ET ACTIFS NETS     
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 12
+Annexe 2 - modèle de l'état de résultat  
+Etat de résultat  
+Période allant du 1er janvier au 31/12/N  
+(chiffres exprimés en dinars)  
+ 
+ Note 31/12/N 31/12/N-1 
+PRODUITS     
+PR 1 - Apports    
+a - Dons, legs et donations     
+b - Subventions     
+c - Cotisations     
+d - Autres apports non affectés     
+e - Apports reportés imputés au résultat de l'exercice     
+PR 2 - Produits des placements     
+PR 3 - Revenus des micro-crédits     
+a - Intérêts et revenus assimilés     
+b - Autres revenus sur micro-crédits     
+PR 4 - Reprise de provisions et récupération de créances 
+passées en perte sur micro-crédits  
+   
+PR 5 - Autres produits d'exploitation     
+PR 6 - Gains  
+ 
+   
+TOTAL PRODUITS     
+ 
+CHARGES  
+   
+CH 1- Dons, subventions et services fournis     
+a - Dons et subventions accordés     
+b - Prestations de services fournies     
+CH 2 - Charges financières     
+CH 3 - Charges d'encadrement et de formation     
+CH 4- Dotations aux provisions et créances passées en 
+pertes sur micro-crédits  
+   
+CH 5 - Charges du personnel     
+CH 6 - Charges générales d'exploitation     
+CH 7 - Autres charges d'exploitation     
+CH 8 - Dotations aux amortissements et aux provisions sur 
+immobilisations  
+   
+CH 9 - Pertes  
+ 
+   
+TOTAL DES CHARGES     
+    
+EXCEDENT (DEFICIT) DES PRODUITS SUR LES CHARGES    
+ 
+http://www.procomptable.com/ 13
+Annexe 3 - modèle de l'état des flux de trésorerie  
+Etat des flux de trésorerie  
+Période allant du 1er janvier au 31/12/N 
+(chiffres exprimés en dinars) 
+ 
+ Note 31/12/N 31/12/N-1 
+ACTIVITES D'EXPLOITATION    
+Encaissements / décaissements provenant des placements affectés aux 
+activités d'exploitation  
+   
+Encaissements / décaissements sur cotisations, dons, subventions et 
+autres apports  
+   
+Encaissements provenant des intérêts et revenus assimilés sur micro-
+crédits  
+   
+Micro-crédits / remboursements des micro-crédits     
+Encaissements / décaissements relatifs aux actions d'encadrement et de 
+formation  
+   
+Décaissements relatifs aux charges générales     
+Décaissements relatifs aux salaires et charges sociales     
+Autres flux de trésorerie provenant des activités d'exploitation     
+    
+Flux de trésorerie net provenant des activités d'exploitation    
+    
+ACTIVITES D'INVESTISSEMENT     
+Encaissements/décaissements provenant des placements affectés aux 
+activités d'investissements.  
+   
+Acquisition/cession d'actifs immobilisés (autres que les placements)     
+Décaissements relatifs à l'acquisition d'actifs d'immobilisés     
+    
+Flux de trésorerie net provenant des activités d'investissement    
+    
+ACTIVITES DE FINANCEMENT     
+Encaissements/décaissements provenant des fonds et apports pour 
+micro-crédits  
+   
+Encaissements provenant des apports sous forme de dotations     
+Encaissements provenant des apports affectés à l'acquisition 
+d'immobilisations  
+   
+Encaissements/remboursements relatifs aux emprunts     
+    
+Flux de trésorerie net provenant des activités de financement    
+    
+VARIATIONS DE TRESORERIE    
+TRESORERIE AU DEBUT DE L'EXERCICE    
+    
+TRESORERIE A LA  CLOTURE DE L'EXERCICE    
+ 
+http://www.procomptable.com/ 14
+Annexe 4 - modèle de l'état de l'évolution des actifs nets  
+Etat de l'évolution des actifs nets 
+Exercice clos le 31 décembre N 
+(chiffres exprimés en dinars) 
+ 
+Actifs nets 
+Actifs nets 
+investis en 
+immobilisations 
+Actifs nets 
+affectés sous 
+forme de 
+dotations 
+Actifs nets 
+affectés aux 
+micro-crédits
+Autres actifs 
+nets 
+affectés 
+actifs 
+nets non 
+affectés 
+31/12/N 31/12/N-1
+SOLDE 
+D'OUVERTURE        
+. Excédent 
+(insuffisance) 
+des produits 
+sur les charges  
+       
+. Apports reçus 
+à titre de 
+dotations  
+       
+. Apports 
+affectés aux 
+micro-crédits 
+       
+. Apports 
+investis en 
+immobilisations 
+       
+. Affectations 
+d'origine 
+interne  
+       
+SOLDE DE 
+CLOTURE        
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 15
+Annexe 5 - modèle de l'état de résultat par fonds et/ou programme  
+Etat de résultat par fonds et/ou programme  
+Période allant du 1er janvier au 31/12/N 
+(chiffres exprimés en dinars) 
+ 
+ 31/12/N   
+ Programmes de 
+micro-crédits 
+Fonds ou 
+programme n 
+Total au 
+31/12/N 
+Total au 
+31/12/N-1
+PRODUITS      
+PR 1 - Apports      
+a - Dons, legs et donations      
+b - Subventions      
+c - Cotisations      
+d - Autres apports non affectés      
+e - Apports reportés imputés au résultat de 
+l'exercice  
+    
+PR 2 - Produits des placements      
+PR 3 - Revenus des micro-crédits      
+a - Intérêts et revenus assimilés      
+b - Autres revenus sur micro-crédits      
+PR 4 - Reprise de provisions et récupération de 
+créances passées en perte sur micro-
+crédits  
+    
+PR 5 - Autres produits d'exploitation      
+PR 6 - Gains      
+TOTAL PRODUITS     
+CHARGES      
+CH1 - Dons, subventions et services fournis      
+a - Dons et subventions accordés      
+b - prestations de services fournies      
+CH 2 - Charges financières      
+CH 3 - Charges d'encadrement et de formation      
+CH 4 - Dotations aux provisions et créances 
+passées en pertes sur micro-crédits  
+    
+CH 5 - Charges du personnel      
+CH 6 - Charges générales d'exploitation      
+CH 7 - Autres charges d'exploitation      
+CH 8 - Dotations aux amortissements et aux 
+provisions sur immobilisations  
+    
+CH 9 - Pertes      
+TOTAL DES CHARGES     
+EXCEDENT DES PRODUITS SUR LES CHARGES      
+http://www.procomptable.com/ 16
+Annexe 6 - Etat récapitulatif des activités de micro-crédits  
+ 31/12/N 31/12/N-1 
+I - Fonds pour micro-crédits    
+. Fonds au début de l'exercice    
+. Fonds obtenus au cour de l'exercice    
+. Fonds remboursés au cours de l'exercice (        ) (        ) 
+. Fonds perdus au cours de l'exercice (        ) (        ) 
+Solde des fonds pour micro-crédits de fin d'exercice    
+Il - Micro-crédits octroyés et remboursés    
+. Micro-crédits au début de l'exercice    
+. Micro-crédits débloqués au cours de l'exercice    
+. Micro-crédits remboursés au cours de l'exercice  (        ) (        ) 
+. Micro-crédits passés en perte  (        ) (        ) 
+Soldes des micro-crédits de fin d'exercice    
+III -Revenus des micro-crédits    
+. Intérêts courus sur micro-crédit et constatés en résultat au cours de l'exercice   
+. Intérêts courus sur micro-crédit et non encore encaissés au cours de l'exercice  (        ) (        ) 
+. Intérêts réservés encaissés au cours de l'exercice    
+. Frais de dossiers constatés en résultat au cours de l'exercice    
+. Frais de dossier constatés en résultat au cours de l'exercice et non encore encaissés (        ) (        ) 
+Revenus encaissés sur les micro-crédits    
+IV - Provisions et intérêts réservés    
+. Provisions au début de l'exercice    
+. Intérêts réservés au début de l'exercice    
+. Dotations aux provisions de l'exercice    
+. Intérêts réservés constatés au cours de l'exercice    
+. Intérêts réservés repris en résultat au cours de l'exercice (        ) (        ) 
+. Intérêts réservés abandonnés au cours de l'exercice (        ) (        ) 
+Solde des provisions et intérêts réservés de fin d'exercice    
+ 
+ 
+ 
+ 
+ 

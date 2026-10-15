@@ -1,0 +1,101 @@
+Statistique - Cours
+https://www.bct.gov.tn/bct/siteprod/cours.jsp
+
+Situation mensuelle de la BCT
+Situation mensuelle des autres institutions de dépôts (AID)
+Situation mensuelle des institutions de dépôts (SID)
+Agrégats de monnaie et leurs contreparties
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques offshore
+Notes méthodologiques
+Situation mensuelle de la BCT
+Autres statistiques de la BCT
+Situation mensuelle des banques
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques off-shore
+Secteur monétaire
+Secteur Financier
+Bons du Trésor
+Achats fermes des Bons du Trésor
+Taux moyen du marché monétaire (TMM)
+Systčme de rčglement
+Volume des transactions des opérations devise contre dinar
+Marché des changes Devise-Devise
+Cours quotidiens des principales monnaies cotées
+Historique du marché de change
+Transactions de change au comptant
+Répartition par devise des transactions (opérations en compte et au comptant)
+Evolution des transactions sur le marché des changes au comptant
+Opérations devises/devises
+Moyenne des cours du marché interbancaire
+Moyennes des cours du marché interbancaire
+Balance des paiements
+Position Extérieure Globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Notes Méthodologiques
+Balance de paiements
+Position exérieure globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Exportations (FOB)
+Importations (CAF)
+Position de la dette extérieure brute
+Structure du service de la dette extérieure
+Structure de la dette extérieure par monnaie de rčglement
+Principaux paramčtres de la dette extérieure
+Endettement total
+Statistiques Monétaires, Économiques et Financières
+Statistiques
+Cours Moyens des Devises Cotées en dinar tunisien sur le Marché des Changes interbancaire
+Monnaie | Sigle | Unité | Valeur
+DINAR ALGERIEN | DZD | 10 | 0,2220
+RIYAL SAOUDIEN | SAR | 10 | 7,9238
+DOLLAR CANADIEN | CAD | 1 | 2,0902
+COURONNE DANOISE | DKK | 100 | 44,8980
+DOLLAR DES USA | USD | 1 | 2,9967
+LIVRE STERLING | GBP | 1 | 3,9386
+YEN JAPONAIS | JPY | 1000 | 18,8715
+DIRHAM MAROCAIN | MAD | 10 | 3,0374
+COURONNE NORVEGIENNE | NOK | 100 | 30,9574
+COURONNE SUEDOISE | SEK | 10 | 2,9718
+FRANC SUISSE | CHF | 10 | 35,8975
+DINAR KOWEITIEN | KWD | 1 | 9,6606
+DIRHAM DES EAU | AED | 10 | 8,1005
+EURO | EUR | 1 | 3,3719
+DINAR LIBYEN | LYD | 1 | 0,4645
+OUGUIYA MAURITANIEN | MRU | 10 | 0,7419
+DINAR DE BAHREIN | BHD | 1 | 7,8907
+RIAL QATARI | QAR | 10 | 8,1618
+YUAN CHINOIS | CNY | 1 | 0,4437
+RIAL OMANI | OMR | 1 | 7,7274
+Cours Moyens en dinar tunisien pour le Change Manuel et les Chčques de Voyage des Devises Cotées sur le Marché des Changes Interbancaire
+Monnaie | Sigle | Unité | Valeur
+RIYAL SAOUDIEN | SAR | 10 | 7,913
+DOLLAR CANADIEN | CAD | 1 | 2,088
+COURONNE DANOISE | DKK | 100 | 44,756
+DIRHAM DES EAU | AED | 10 | 8,089
+DOLLAR DES USA | USD | 1 | 2,970
+LIVRE STERLING (*) | GBP | 1 | 3,925
+YEN JAPONAIS | JPY | 1000 | 18,832
+DINAR KOWEITIEN | KWD | 1 | 9,647
+COURONNE NORVEGIENNE | NOK | 100 | 30,866
+RIAL QATARI | QAR | 10 | 8,150
+COURONNE SUEDOISE | SEK | 10 | 2,962
+FRANC SUISSE | CHF | 10 | 35,892
+EURO | EUR | 1 | 3,345
+DINAR DE BAHREIN | BHD | 1 | 7,879
+DINAR LIBYEN | LYD | 1 | 0,463
+YUAN CHINOIS | CNY | 1 | 0,443
+RIAL OMANI | OMR | 1 | 7,716
+(*) S'applique également ŕ la Livre Ecossaise et ŕ la livre de l'Irlande du Nord
+Cours moyens ŕ terme en dinar tunisien
+Période | USD | EUR
+3 Mois | 3,0187 | 3,4124
+6 Mois | 3,0491 | 3,4535
+Monnaie
+Taux d'interęt
+moyens de paiement
+Change
+Secteur Exterieur
+Economie générale

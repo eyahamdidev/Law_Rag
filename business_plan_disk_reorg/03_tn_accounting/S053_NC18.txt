@@ -1,0 +1,1013 @@
+http://www.procomptable.com/ 
+NC 18 
+Norme comptable relative au contrôle interne et à l’organisation comptable 
+dans les OPCVM 
+ 
+Objectif 
+01. La Norme Comptable NC 01 - Norme Comptable Générale définit les règles de contrôle interne et 
+d'organisation comptable et propose une nomenclature des comptes et un guide de fonctionnement 
+général des comptes.  
+02. Les dispositions de cette norme sont de portée générale et devraient s'appliquer à l'ensemble des 
+entreprises compte non tenu de la nature particulière de leurs activités. 
+Au regard du cadre organisationnel spécifique des Organismes de Placement Collectif en Valeurs 
+Mobilières (OPCVM) et de la nature de leur activité, des règles particulières doivent leur être définies 
+afin de mettre en place un système de contrôle interne efficace et un cadre d'organisation comptable 
+approprié. 
+03. L'objectif de la présente norme est de définir les règles de contrôle interne et d'organisation 
+comptable applicables aux OPCVM. 
+Champ d'application 
+04. La présente norme est applicable aux organismes de placement collectif en valeurs 
+mobilières (OPCVM), notamment les sociétés d'investissement à capital variable (SICAV) et les 
+fonds communs de placement (FCP) tels que définis par la législation en vigueur. 
+Le contrôle interne 
+Objectifs du contrôle interne 
+05. L'exercice de l'activité d'une SICAV ou d'un FCP nécessite, généralement, l'intervention de 
+plusieurs acteurs : le dépositaire, le gestionnaire, le négociateur en bourse. Le recours à ces acteurs 
+peut être soit obligatoire (dépositaire) ou facultatif (gestionnaire). 
+La gestion de la SICAV peut être assurée soit par la SICAV elle-même soit confiée à un établissement 
+externe. Le FCP est obligatoirement géré par un établissement externe. 
+Dans tous les cas, l'exercice de l'activité de SICAV ou de FCP nécessite au préalable la mise en place 
+d'un système de contrôle interne aménagé conformément aux règles prévues par la norme comptable 
+NC 01 - Norme Comptable Générale et aux dispositions de la présente norme. 
+06. Les objectifs du système de contrôle interne sont prévus par la norme comptable générale 
+(NC 01). Le système de contrôle interne dans les OPCVM doit particulièrement viser les 
+objectifs suivants : 
+a. assurer la régularité des opérations effectuées eu égard aux dispositions législatives, 
+réglementaires et statutaires ; 
+b. assurer l'égalité entre les actionnaires ou les porteurs de parts dans tous les traitements 
+effectués ; 
+c. assurer la protection et la sauvegarde des actifs de l'OPCVM contre les risques inhérents 
+à l'activité de l'OPCVM ; 
+d. garantir les droits des actionnaires de la SICAV et des porteurs de parts de FCP contre 
+tout risque de conflit d'intérêts ; 
+e. garantir l'obtention d'une information financière complète, fiable, en accord avec les 
+règles prévues et dans les délais requis. 
+ 
+http://www.procomptable.com/ 
+Facteurs essentiels de contrôle interne 
+07. Il incombe à la direction de la SICAV et au gérant du FCP de déterminer les procédures et les 
+moyens adéquats pour atteindre les objectifs de contrôle interne. 
+Lorsque la gestion de la SICAV est confiée à un organisme externe, la Direction Générale de la 
+SICAV et son conseil d'administration doivent s'assurer que les éléments d'un système de contrôle 
+interne efficace existent au niveau de l'organe gestionnaire. 
+Les relations entre l'OPCVM et les différents intervenants doivent être régies par des conventions 
+écrites. 
+08. Un système de contrôle interne efficace s'appuie sur les facteurs  suivants : 
+a. Un système adéquat de définition des pouvoirs et des procédures permettant la 
+surveillance et le contrôle des risques spécifiques liés à la réalisation et au traitement des 
+opérations conclues par l'OPCVM que ce soit au niveau de l'OPCVM lui même ou de 
+l'établissement gestionnaire. Ce système doit permettre de : 
+- respecter les taux d'emploi de l'actif définis par la loi ; 
+- s'assurer de l'utilisation exclusive de fonds propres dans la gestion de l'OPCVM ; 
+- assurer le respect permanent de l'égalité entre les actionnaires ou les porteurs de   
+parts ; 
+- éviter tout risque de conflit d'intérêts. 
+b. Un document décrivant de façon claire l'organisation et les procédures suivies ; 
+c. Des procédures efficaces permettant de respecter la piste d'audit. 
+09. Un système adéquat de définition des pouvoirs suppose l'existence : 
+a. d'une structure organisationnelle et d'une séparation de fonctions appropriées, 
+b. de délégations de pouvoirs prudentes, 
+c. des procédures efficaces de collecte, de contrôle et de synthétisation de l'information. 
+10. Les règles permettant le suivi et le contrôle des risques spécifiques liés à la réalisation des 
+opérations conclues par l'OPCVM doivent inclure : 
+a. la séparation entre les fonctions de gestion de portefeuille et de négociation en bourse ; 
+b. la séparation entre les fonctions de gestion du portefeuille de la SICAV ou du FCP, d'une 
+part, et de gestion pour compte propre, d'autre part ; 
+c. la séparation entre les fonctions de gestion et de comptabilité ; 
+d. les contrôles portant sur le développement et la maintenance des programmes informatiques 
+incluant la documentation de programmes nouveaux ou révisés et l'accès à la documentation 
+des programmes ; 
+e. des procédures de sécurité physique des installations informatiques et des données 
+produites par le système de traitement des informations notamment des procédures de 
+sauvegarde des fichiers et des procédures de secours informatique en cas de détérioration ou 
+de perte de données ; 
+f. des procédures de sécurité logique d'utilisation et de manipulation des systèmes de 
+traitement des informations, notamment des procédures d'habilitation aux différents niveaux de 
+consultation, d'utilisation et de modification des données stockées dans les fichiers, des 
+procédures de saisie, de validation et de redressement des opérations. 
+11. Pour être utile, le document décrivant l'organisation et les procédures au sein de la SICAV ou de 
+l'établissement gestionnaire, doit comporter : 
+http://www.procomptable.com/ 
+a. l'organigramme de la SICAV ou de l'établissement gestionnaire et de ses différentes 
+structures fonctionnelles et opérationnelles, la description des postes et la définition des 
+délégations des pouvoirs et des responsabilités ; 
+b. les procédures décrivant le processus de déroulement des différentes opérations incluant les 
+procédures de traitement informatisé, en identifiant les contrôles nécessaires aux étapes 
+d'autorisation, d'exécution et d'enregistrement eu égard aux objectifs de contrôle interne cités 
+au paragraphe 06 ci-dessus. 
+c. les procédures, l'organisation comptable et les règles de traitement des opérations telles que 
+prévues par la présente norme. 
+12. La piste d'audit est un ensemble de procédures permettant d'améliorer les caractéristiques 
+qualitatives et de faciliter le contrôle de l'information financière au sein des SICAV ou des 
+établissements gestionnaires. Elle doit permettre : 
+a. de justifier toute information par une pièce d'origine à partir de laquelle il doit être possible de 
+remonter par un cheminement ininterrompu aux états financiers et réciproquement ; 
+b. d'expliquer l'évolution des soldes d'un arrêté comptable à l'autre par la conservation des 
+mouvements ayant affecté les soldes comptables des postes des états financiers. 
+L'organisation comptable 
+Nomenclature comptable 
+13. L'organisation comptable des OPCVM doit être aménagée conformément aux règles 
+prévues par la norme comptable NC 01- Norme Comptable Générale ainsi qu'aux dispositions 
+de la présente norme, de façon à répondre aux besoins des différents utilisateurs en matière 
+d'information financière dans les délais impartis.  
+14. En principe, et pour répondre aux différents besoins d'informations, dont ceux des utilisateurs des 
+états financiers et des organes de surveillance, il est nécessaire d'associer aux événements 
+comptables plusieurs attributs d'informations. De façon générale, les attributs peuvent être gérés soit 
+au niveau de la base d'informations directement liées à la comptabilité dont le plan des comptes, soit 
+au niveau d'autres bases d'informations incluant notamment les applications de gestion. 
+15. Parmi les attributs essentiels d'information relatifs au portefeuille titres, il y a lieu de citer : 
+- le type du titre (action, obligation, bon de trésor,...), 
+- l'émetteur du titre, 
+- l'identification précise du titre, 
+- la nature du titre : admis à la cote, non admis à la cote, 
+- la garantie liée au titre. 
+16. Il appartient à la direction de la SICAV ou à l'établissement gestionnaire de définir le niveau 
+de gestion des attributs d'information de façon à obtenir le plus efficacement possible une 
+information financière complète, fiable et répondant dans les délais impartis aux besoins des 
+différents utilisateurs. 
+17. Toutefois, le plan des comptes doit être défini de façon telle que les soldes des comptes 
+figurant dans le plan des comptes puissent, au minimum, alimenter par voie directe ou par 
+regroupement les postes et sous postes du bilan, de l'état de résultat et l'état de variation de 
+l'actif net tels que définis par la norme comptable relative à la présentation des états financiers 
+des OPCVM. 
+Un plan des comptes répondant à ces caractéristiques est proposé à l'annexe 1 de la présente norme. 
+Contrôle systématique de calcul de la valeur liquidative
+ 
+18. La valeur liquidative (VL) de l'action d'une SICAV ou d'une part d'un FCP sert de base pour toute 
+opération de souscription ou de rachat d'actions ou de parts. 
+http://www.procomptable.com/ 
+Un contrôle indépendant du calcul de la valeur liquidative doit être effectué de façon systématique. 
+19. Le contrôle du calcul de la valeur liquidative doit couvrir les éléments suivants : 
+- la correcte évaluation des éléments d'actif ; 
+- le respect de la règle d'abonnement des charges et produits ; 
+- la prise en compte de toutes les opérations et événements pouvant influencer la valeur 
+liquidative ; 
+- la vérification du nombre d'actionnaires ou porteurs de parts au moment du calcul de la VL. 
+Le contrôle de calcul de la valeur liquidative doit s'effectuer à chaque détermination de la VL et 
+préalablement à sa publication. 
+Inventaire du portefeuille titres
+ 
+20. Conformément aux dispositions légales, les valeurs détenues en portefeuille par la SICAV ou le 
+FCP doivent être conservées par un dépositaire. Le dépositaire a la charge de la garde des avoirs et 
+des titres chez lui déposés à l'appui d'un système de comptabilité matière appropriée. 
+Un inventaire du portefeuille titres doit être arrêté au moins une fois par trimestre et doit aboutir à la 
+confirmation de l'état du portefeuille détenu par le dépositaire. 
+Abonnement des charges et produits 
+21. La variabilité permanente du capital d'un OPCVM nécessite le calcul de la valeur liquidative. Afin 
+d'assurer l'égalité entre les actionnaires ou porteurs de parts entrants et sortants, cette valeur 
+liquidative à une date donnée doit exprimer la situation nette réelle de la SICAV ou du FCP à cette 
+date. 
+De ce fait, l'ensemble des charges et des produits courus à la date de calcul de la VL doivent être pris 
+en compte en comptabilité. 
+Les SICAV et les établissements gestionnaires doivent mettre en place un système comptable 
+permettant l'abonnement des charges et produits entrant en ligne de compte dans le calcul de la 
+valeur liquidative. 
+Livres comptables obligatoires 
+22. En plus des livres comptables dont la tenue est obligatoire en vertu de la norme comptable 
+NC 01 - Norme Comptable Générale, il est tenu un journal des opérations de souscription et de 
+rachat où est transcrit quotidiennement les opérations de souscription et de rachat effectuées 
+durant la journée (nombre d'actions / parts souscrites / rachetées, identité du souscripteur / 
+racheteur, valeur liquidative du jour etc). 
+23. Il est également tenu un livre de calcul de la valeur liquidative. 
+Ce livre reproduit les valeurs liquidatives périodiques en se référant à un support de synthèse 
+du calcul effectué. 
+24. Le journal des opérations de souscription et de rachat et le livre de détermination de la valeur 
+liquidative peuvent être obtenus par des moyens informatiques dans le cadre d'une comptabilité tenue 
+au moyen de systèmes informatisés, et organisée conformément aux conditions prévues par la NC 01 
+Norme Comptable Générale et par le paragraphe 10 de la présente norme. 
+Date d'application 
+25. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 01/01/1999. 
+ 
+ 
+ 
+http://www.procomptable.com/ 
+ANNEXE 1 
+PLAN DES COMPTES PROPOSÉ 
+ Correspondance avec les 
+postes de 
+ Bilan Etat de 
+résultat 
+Etat de A 
+l’actif net 
+Classe 1 : Comptes de capitaux ou d'actif net 
+10 Capital 
+   
+101 Capital social CP1   
+102 Souscriptions et rachats CP1   
+1021 Souscriptions   AN 3 (a) 
+1022 Rachats   AN 3 (b) 
+103 Commissions de souscription et de rachat CP1   
+1031 Commission de souscription    AN 3 (a) 
+1032 Commission de rachat   AN 3 (b) 
+1039 Rétrocession de commissions de 
+souscription et de rachat 
+   
+10391 Rétrocession de commissions de 
+souscription 
+  AN 3 (a) 
+10392 Rétrocession de commissions de 
+rachat 
+  AN 3 (b) 
+104 Frais de négociation CP1  AN 1 (d) 
+105 Variation de la différence d'estimation CP1  AN 1 (b) 
+1051 Variation de la différence d'estimation 
+sur portefeuille titres 
+   
+10511 VDE sur actions, valeurs assimilées 
+et droits rattachés 
+   
+10512 VDE sur obligations et valeurs 
+assimilées 
+   
+10513 VDE sur titres OPCVM    
+106 Plus ou moins- values réalisées CP1  AN 1 (c) 
+1061 Plus ou moins-values réalisées sur 
+portefeuille titres 
+   
+10611 Plus ou moins-values réalisées sur 
+actions, valeurs assimilées et droits 
+rattachés 
+   
+10612 Plus ou moins-values réalisées sur 
+obligations et valeurs assimilées 
+   
+10613 Plus ou moins-values réalisées sur 
+titres OPCVM 
+   
+12 Résultats reportés CP2 (a)   
+121 Report à nouveau sur arrondissement de 
+coupons 
+   
+129 Autres résultats reportés    
+13 Résultat de l'exercice CP2 (b)   
+131 Résultat de l'exercice    
+14 Résultat de l'exercice clos CP2 (a)   
+141 Résultat de l'exercice clos en instance 
+d'affectation 
+   
+142 Résultat de l'exercice clos en instance de 
+distribution 
+   
+15 Régularisations    
+151 Régularisation des sommes non 
+distribuables de l'exercice en cours 
+CP1  AN 3 
+152 Régularisation des résultats reportés CP2 (a)  AN 3 
+1521 Régularisation du report à nouveau sur 
+arrondissement de coupons 
+   
+1522 Régularisation des autres résultats 
+reportés 
+   
+153 Régularisation du résultat de l'exercice clos CP2 (a)  AN 3 
+1531 Régularisation du résultat de l’exercice 
+clos en instance d’affectation 
+   
+1532 régularisation du résultat de l’exercice 
+clos en instance de distribution 
+ 
+   
+Classe 2 : Comptes d’immobilisations    
+22 Immobilisations corporelles AC4   
+221 Terrains    
+222 Constructions    
+228 Autres immobilisations corporelles    
+http://www.procomptable.com/ 
+26 Immobilisations financières AC4   
+265 Dépôts et cautionnements    
+268 Autres immobilisations financières    
+28 Amortissements des immobilisations AC4   
+282 Amortissement des immobilisations 
+corporelles 
+   
+2822 Amortissement des constructions    
+2828 Amortissement des autres 
+immobilisations corporelles 
+ 
+   
+Classe 3 : Portefeuille titres et placements 
+monétaires 
+   
+31 Portefeuille titres    
+311 Actions, valeurs assimilées et droits 
+rattachés 
+AC1 (a)   
+Actions, valeurs assimilées et droits rattachés    
+Différence d’estimation sur actions, valeurs 
+assimilées et droits rattachés 
+   
+312 Obligations et valeurs assimilées AC1 (b)   
+3121 Obligations et valeurs assimilées    
+3125 Intérêts courus sur obligations et 
+valeurs assimilées 
+   
+3129 Différence d’estimation sur obligations 
+et valeurs assimilées 
+   
+313 Titres d’OPCVM AC1 (a)   
+3131 Actions SICAV    
+3132 Parts de FCP    
+3139 Différence d’estimation sur titres 
+d’OPCVM 
+   
+319 Autres valeurs du portefeuille titres AC1 (c)   
+3191 Autres valeurs du portefeuille titres    
+3197 Intérêts courus sur autres valeurs    
+3199 Différence d’estimation sur autres 
+valeurs 
+   
+32 Placements monétaires AC2 (a)   
+321 Bons du trésor émis sur le marché 
+monétaire 
+   
+3211 Bons du trésor émis sur le marché 
+monétaire 
+   
+3214 Intérêts précomptés sur bons du trésor 
+émis sur le marché monétaire 
+   
+3215 Intérêts courus sur bons du trésor émis 
+sur le marché monétaire 
+   
+322 Billets de trésorerie    
+3221 Billets de trésorerie    
+3224 Intérêts précomptés sur billets de 
+trésorerie 
+   
+3225 Intérêts courus sur billets de trésorerie    
+323 Certificats de dépôt    
+3231 Certificats de dépôt    
+3234 Intérêts précomptes sur certificats de 
+dépôt 
+   
+3235 Intérêts courus sur certificats de dépôt    
+324 Autres placements monétaires    
+3241 Autres placements monétaires    
+3244 Intérêts précomptés sur autres 
+placements monétaires 
+   
+3245 Intérêts courus sur autres placements 
+monétaires 
+ 
+   
+Classe 4 : Comptes des tiers    
+40 Opérateurs créditeurs PA1   
+401 Gestionnaire    
+402 Dépositaire    
+403 Autres opérateurs créditeurs    
+404 Compte d’affectation périodique des 
+charges 
+   
+41 Opérateurs débiteurs AC3   
+411 Dividendes à recevoir    
+412 Intérêts à recevoir    
+413 Obligations amorties    
+414 Placements monétaires échus    
+http://www.procomptable.com/ 
+415 Souscription à titre réductible    
+44 Actionnaires et porteurs de parts PA2   
+45 Débiteurs et créditeurs divers PA2   
+451 Personnel PA2   
+452 Etat AC3   
+457 Autres débiteurs PA2   
+458 Autres créditeurs    
+47 Comptes de régularisation AC3   
+471 Comptes de régularisation actif PA2   
+472 Comptes de régularisation passif 
+ 
+   
+Classe 5 : Comptes financiers    
+53 Banques, établissements financiers et 
+assimilés 
+AC2 (b)   
+531 Dépôts à terme    
+532 Dépôts à vue rémunérés    
+533 Banques    
+5331 Avoirs en banque    
+5332 Sommes à l’encaissement    
+5333 Sommes à régler 
+ 
+   
+Classe 6 : Comptes de charges    
+60 Services extérieurs liés à la gestion des 
+placements 
+ CH1  
+601 Rémunération du gestionnaire    
+602 Rémunération du dépositaire    
+61 Services extérieurs liés à l’exploitation  CH2  
+611 Rémunération d’intermédiaires et 
+honoraires 
+   
+612 Redevance du Conseil du Marché Financier    
+613 Publicité et publications    
+614 Services bancaires et assimilés    
+615 Location et charges locatives    
+616 Entretiens et réparations    
+617 Primes d’assurance    
+619 Autres services extérieurs liés à 
+l’exploitation 
+   
+64 Charges de personnel   CH2  
+641 Rémunérations du personnel    
+642 Charges sociales    
+645 Autres charges du personnel et autres 
+charges sociales 
+   
+65 Charges diverses d’exploitation   CH2  
+653 Jetons de présence    
+654 Fournitures de bureau    
+66 Impôts, taxes et versements assimilés  CH2  
+661 Impôts, taxes et versements assimilés sur 
+rémunérations 
+   
+665 Autres impôts et taxes et versements 
+assimilés 
+   
+67 Dotations aux frais de gestion budgétisés  CH2  
+68 Dotations aux amortissements et plus ou 
+moins-values sur cessions d’immobilisations 
+ CH2  
+681 Dotations aux amortissements    
+687 Plus ou moins-values réalisées sur cession 
+d’immobilisations 
+ 
+   
+Classe 7 : Comptes de produits    
+70 Revenus des placements    
+701 Revenus des actions, valeurs assimilées et 
+droits rattachés    
+ PR1 (a)  
+702 Revenus des obligations et valeurs 
+assimilées 
+ PR1 (b)  
+703 Revenus des titres d’OPCVM  PR1 (a)  
+705 Revenus des autres valeurs  PR1 (c)  
+706 Revenus des placements monétaires  PR2  
+7061 Revenus des bons de trésor émis sur le 
+marché monétaire 
+   
+7062 Revenus des billets de trésorerie    
+7063 Revenus des certificats de dépôt    
+7069 Revenus des autres placements 
+monétaires 
+   
+http://www.procomptable.com/ 
+71 Produits divers  PR2  
+711 Intérêts sur comptes de dépôt  PR4  
+73 Autres produits     
+77 Régularisation du résultat de l’exercice 
+en cours 
+CP2 (b) PR5 AN3 
+ 
+                  
+ 
+ 
+ANNEXE 2 
+REGLES DE FONCTIONNEMENT DES COMPTES 
+Classe 1 : Comptes de capitaux ou d'actif net 
+Sous-classe 10 - Capital 
+Le capital d’une SICAV est égal à tout moment à la valeur de l’actif net de la société, déduction faite 
+des sommes distribuables telles que définies par la loi. 
+Ainsi, le capital d’un OPCVM regroupe le capital (en début d’exercice) augmenté ou diminué des 
+émissions et rachats d’actions ou de parts, des commissions y afférentes et des plus ou moins-values 
+latentes et réalisées. 
+Compte 101- Capital social 
+Ce compte est débité/crédité à chaque fin d’exercice à hauteur des soldes de tous les comptes 
+enregistrant des sommes non distribuables : 
+- le compte 102 Souscriptions et rachats, 
+- le compte 103 Commissions de souscription et de rachat, 
+- le compte 104 Frais de négociation, 
+- le compte 105 Variation de la différence d’estimation, 
+- le compte 106 Plus ou moins-value réalisée, 
+- le compte 151 Régularisation des sommes non distribuables de l’exercice en cours. 
+Ce compte est d’autre part débité/crédité suite à une décision de non distribution du résultat réalisé au 
+titre d’un exercice donné et ce à hauteur des soldes des comptes : 
+- 141 Résultat de l’exercice clos en instance d’affectation, 
+- 1531 Régularisation du résultat de l’exercice clos en instance d’affectation. 
+Compte 102 - Souscriptions et rachats 
+Ce compte est crédité (souscription) ou débité (rachat) pour la quote-part des      actions / parts 
+souscrites ou rachetées dans le capital social de début de période. 
+Ce compte est, en fin d’exercice, soldé par le compte 101 - Capital social. 
+Compte 103 - Commissions de souscription et de rachat 
+Ce compte est crédité du montant total des commissions de souscription et /ou de rachat, telles 
+qu’elles sont prévues par les statuts ou le règlement de l’OPCVM. 
+Dans le cas où une fraction des commissions de souscription et/ou de rachat encaissées revient à une 
+tierce partie, cette fraction est débitée au compte 1039 par le crédit du compte 403 «Autres opérateurs 
+créditeurs». 
+Ce compte est, en fin d’exercice, soldé par le compte 101- Capital social. 
+Compte 104 - Frais de négociation 
+Ce compte enregistre les frais occasionnés par les opérations d’achat et de vente de titres (honoraires 
+d’intermédiaires, CTB, etc). 
+http://www.procomptable.com/ 
+Le compte 104 est soldé en fin d’exercice, selon la nature de son solde, par le débit ou le crédit du 
+compte 101 «Capital social». 
+Compte 105 - Variation de la différence d'estimation 
+Conformément aux principes d’évaluation spécifiques aux OPCVM, les éléments du portefeuille titres 
+doivent être évalués à chaque calcul de la valeur liquidative, à leur valeur de marché. Les gains 
+(pertes) latents (latentes) hors frais de négociation et coupons courus sont enregistrés au crédit (débit) 
+du compte «variation de la différence d’estimation», en contrepartie du compte 31X9. 
+Le compte 105 est soldé en fin d’exercice, selon la nature de son solde, par le débit ou le crédit du 
+compte 101 «Capital social». 
+Compte 106 - Plus et moins-values réalisées 
+Ce compte comptabilise les plus ou moins-values réalisées sur cession ou remboursement sur les 
+différents éléments du portefeuille (actions, obligations...). 
+Ce compte est soldé en fin d’exercice, selon la nature de son solde, par le débit ou le crédit du compte 
+101 «Capital social». 
+Sous-classe 12 - Résultats reportés 
+Compte 121 - Report à nouveau sur arrondissement de coupon 
+Lors de la passation de l’écriture d’affectation de résultats de l’exercice N, ce compte est crédité du 
+montant de l’arrondissement au dinar inférieur du coupon à payer. Lors de l’exercice suivant, il sera 
+débité, et ainsi momentanément soldé lors de la passation de l’écriture d’affectation des résultats de 
+l’exercice N+1. 
+Compte 129 - Autres résultats reportés 
+Ce compte est ouvert pour permettre le suivi d’autres reports à nouveau à la suite d’une décision 
+spécifique de l’OPCVM ou par tout autre traitement. 
+Lors de l’affectation des résultats de l’exercice N, ce compte est crédité à hauteur du montant non 
+distribué. 
+Au cours de l’exercice suivant, il est débité, et ainsi momentanément soldé, lors de la passation de 
+l’écriture d’affectation des résultats de l’exercice N+1. 
+Sous-classe 13 - Résultat de l’exercice 
+Compte 131 - Résultat de l'exercice 
+Le résultat de l’exercice s’obtient par différence entre les comptes de charges et de produits y compris 
+le compte 77 Régularisation du résultat de l’exercice en cours. 
+Ce compte est soldé dès l’ouverture de l’exercice suivant par le compte 141 «Résultat de l’exercice 
+clos en instance d’affectation». 
+Sous-classe 14 - Résultat de l’exercice clos 
+Compte 141- Résultat de l‘exercice clos en instance d'affectation 
+Ce compte reçoit dès l’ouverture de l’exercice N le résultat de l’exercice N-1 en contrepartie du 
+compte 131 «Résultat de l’exercice». 
+Il est soit débité en contrepartie du compte 142 «Résultat de l’exercice clos en instance de 
+distribution». 
+Dans le cas d’une décision de distribution ou en contrepartie du compte 101 "Capital social» dans le 
+cas d’une décision de non distribution. 
+http://www.procomptable.com/ 
+Compte 142 - Résultat de l’exercice clos en instance de distribution 
+Ce compte est crédité pour le montant du résultat à distribuer conformément à la décision de 
+l’assemblée générale et ce par le débit du compte 141 "Résultat de l’exercice clos en instance 
+d’affectation." 
+Sous-classe 15 - Régularisations 
+En raison de la variabilité permanente du capital des OPCVM, la législation en vigueur prévoit un 
+mécanisme de régularisation qui permet d’assurer une répartition équitable du résultat distribuable 
+entre les actionnaires. La loi prévoit, en effet, ce qui suit : 
+«la fraction du prix d’émission ou de rachat correspondant au montant par action du report à nouveau, 
+au montant par action des revenus réalisés depuis le début de l’exercice et au dividende de l’exercice 
+clos si l’opération a lieu avant la mise en paiement de ce dividende, est respectivement enregistrée 
+dans un compte de report à nouveau, un compte de régularisation des revenus de l’exercice en cours, 
+un compte de régularisation des revenus de l’exercice clos». 
+Les comptes de régularisation ont pour effet de neutraliser l’incidence de l’entrée ou de la sortie des 
+actionnaires ou porteurs de parts sur le montant unitaire des sommes distribuables. 
+Ainsi, tout actionnaire ou porteur de parts doit recevoir le même dividende quelle que soit la date de 
+souscription. 
+Pour permettre une meilleure analyse de la valeur liquidative de l’action ou de la part du FCP entre sa 
+part revenu (partie distribuable) et sa part capital (partie non distribuable), les comptes suivants sont 
+utilisés : 
+Compte 151 - Régularisation des sommes non distribuables de l'exercice en cours 
+Ce compte est crédité (débité) lors des souscriptions (rachats) de la quote-part dans la valeur 
+liquidative provenant des sommes non distribuables de l’exercice en cours soit le solde des comptes 
+103, 104, 105, 106 et 151. 
+Compte 152 - Régularisation des résultats reportés  
+Ce compte est crédité (débité) lors des opérations de souscription (rachat) pour la quote-part dans la 
+valeur liquidative provenant du report à nouveau, soit le solde des comptes 12 et 152. 
+Compte 153 - Régularisation du résultat de l’exercice clos 
+Compte 1531 - Régularisation du résultat de l’exercice clos en instance d’affectation 
+Ce compte est crédité (débité) lors des opérations de souscription (rachat) pour la quote-part dans la 
+valeur liquidative provenant du résultat de l’exercice clos non encore affecté soit le solde des comptes 
+141 et 1531. 
+Compte 1532 - Régularisation du résultat de l’exercice clos en instance de distribution 
+Ce compte est crédité (débité) lors des opérations de souscription (rachat) pour la quote-part dans la 
+valeur liquidative du résultat de l’exercice clos en instance de distribution soit le solde des comptes 
+142 et 1532. 
+Classe 2 - Comptes d’immobilisations 
+Conformément à la législation en vigueur, les SICAV ne peuvent posséder d’autres immeubles que 
+ceux nécessaires à leur fonctionnement. 
+Les FCP ne peuvent pas posséder d’immobilisations. 
+Les immobilisations détenues par les SICAV sont enregistrées en comptabilité au coût historique. 
+L’ensemble de ces comptes fonctionnent conformément au système comptable des entreprises 
+(Norme Comptable NC 01). 
+http://www.procomptable.com/ 
+Classe 3 - Portefeuille titres 
+Sous-classe 31 - Portefeuille titres 
+Les comptes de la sous classe 31 enregistrent les mouvements sur les valeurs constituant le 
+portefeuille titres. 
+Ces comptes sont tenus de façon à distinguer séparément le coût d’entrée et les différences résultant 
+de leur évaluation à la valeur actuelle. 
+Compte 311 - Actions, valeurs assimilées et droits rattachés 
+Le compte 311 enregistre les entrées en portefeuille des actions, valeurs assimilées et droits rattachés 
+(compte 311) ainsi que la différence d’estimation sur actions, valeurs assimilées et droits rattachés 
+(compte 3119). 
+Les entrées en portefeuille consécutives à des acquisitions sont comptabilisées aux comptes 3111 
+pour leur prix d’acquisition frais exclus en contrepartie d’un compte de trésorerie. 
+Les sorties du portefeuille sont constatées dans les mêmes comptes pour un prix déterminé selon la 
+méthode du coût moyen pondéré (CMP) en contrepartie d’un compte de trésorerie. 
+Les frais de négociation occasionnés par l’achat ou la vente du titre sont imputés au débit du compte 
+104 «frais de négociation». 
+Lorsque la cession d’un titre génère une plus ou moins-value, elle est comptabilisée hors frais au 
+compte «106 Plus et moins-values réalisés». 
+Le compte 311 «Actions, valeurs assimilées et droits rattachés» traduit également l’entrée en 
+portefeuille des droits préférentiels de souscription (DPS) et des droits d’attribution (DA). 
+Les droits rattachés aux actions peuvent avoir pour origine soit un achat en bourse soit un 
+démembrement des actions en portefeuille. 
+Les droits acquis en bourse sont débités au compte 311 pour leur prix d’achat frais exclus. En cas de 
+cession, elles sont crédités au même compte pour un prix déterminé selon la méthode du coût moyen 
+pondéré (CMP). 
+Les frais de négociation sont imputés au compte «104 frais de négociation». 
+La plus ou moins-value générée par la cession des droits est comptabilisée hors frais au compte «106 
+Plus ou moins-values réalisées». 
+Les droits provenant d’un démembrement des actions en portefeuille sont constatés à l’entrée dans un 
+compte divisionnaire du compte principal 3111 «Actions, valeurs assimilées et droits rattachés pour sa 
+valeur théorique (coût d’entrée théorique) calculé sur la base du coût moyen pondéré de l’action 
+ancienne. La contrepartie est imputée au crédit du compte correspondant au titre d’origine. 
+La sortie des droits est constatée dans le crédit du compte concerné en contrepartie du débit d’un 
+compte divisionnaire en cas de participation à l’augmentation du capital ou par la contrepartie d’un 
+compte de trésorerie en cas de vente. 
+Les plus ou moins-values réalisées lors de la sortie du droit est constatée dans un compte 
+divisionnaire du compte «106 Plus ou moins-values réalisées». 
+Compte 312 - Obligations et valeurs assimilées 
+Le compte 312 "Obligations et valeurs assimilées", notamment les titres de créance émis par le Trésor 
+et négociables sur le marché financier est subdivisé en comptes ventilés selon la nature du titre et la 
+qualité de la garantie qui lui est rattachée. 
+Le compte 3121 constate à son débit les acquisitions d’obligations et valeurs assimilées, soit par voie 
+d’achat en bourse soit par voie de souscription à l’émission, à leur coût d’acquisition hors frais d'achat 
+et intérêts courus à l’achat. 
+Il constate à son crédit les sorties suite au remboursement des obligations et valeurs assimilées ou 
+leur vente pour leur coût moyen pondéré au moment de la sortie. 
+http://www.procomptable.com/ 
+Le compte 3125 «Intérêts courus sur obligations et valeurs assimilées» constate les intérêts courus à 
+l’achat et les intérêts courus entre la date d’acquisition et la date de sortie des obligations et valeurs 
+assimilées. 
+Le compte 3125 est crédité lors de la cession ou le remboursement des titres du montant des intérêts 
+courus à cette date. 
+Il peut être créé sous le compte 3125 des sous comptes distincts pour les intérêts courus à l’achat et 
+pour les intérêts courus au cours de la période de détention du titre. 
+Le compte 3129 «Différence d’estimation sur obligations et valeurs assimilées» constate à son débit 
+les plus-values latentes et à son crédit les moins-values latentes en contrepartie du compte 10512 
+«Variation de la différence d’estimation sur obligations et valeurs assimilées». Ce compte est crédité 
+lors de la vente ou le remboursement des obligations et valeurs assimilées pour la quote-part des 
+titres vendus ou remboursés dans la différence d’estimation comptabilisée. 
+Compte 313 - Titres d'OPCVM 
+Ce compte constate les actions de SICAV (compte 3131) et les parts de FCP (compte 3132). 
+Le compte 3139 constate les plus ou moins-values potentielles sur actions SICAV ou FCP. 
+Ces trois comptes fonctionnent de manière identique aux comptes des postes 311 et 312. 
+Compte 319 - Autres valeurs 
+Ce compte enregistre les opérations faites sur les valeurs en portefeuille autres que celles prévues 
+aux postes 311, 312 et 313, c’est le cas notamment des titres participatifs. 
+Sous-classe 32 - Placements monétaires 
+Compte 321 - Bons du Trésor émis sur le marché monétaire 
+Le compte bons du Trésor constate à son débit les bons du trésor émis sur le marché monétaire 
+souscrits par l’OPCVM, pour leur valeur nominale. Il est crédité lors des rétrocessions. 
+Compte 322 - Billets de trésorerie 
+Ce compte enregistre à son débit les billets de trésorerie souscrits pour leur valeur nominale. Les 
+intérêts précomptés correspondants sont crédités dans le compte 3224 «Intérêts précomptés sur 
+billets de trésorerie». Il est crédité lors du remboursement ou rétrocession des billets de trésorerie en 
+contrepartie d’un compte de trésorerie. 
+Compte 323 - Certificats de dépôt 
+Ce compte enregistre à son débit les certificats de dépôt souscrits pour leur valeur nominale. Les 
+intérêts précomptés correspondants sont crédités dans le compte 3231 «Intérêts précomptés sur 
+certificats de dépôt». Il est crédité lors du remboursement ou rétrocession des certificats de dépôt en 
+contrepartie d’un compte de trésorerie. 
+Compte 3215 - Intérêts courus sur bons du trésor 
+Compte 3225 - Intérêts courus sur billets de trésorerie 
+Compte 3235 - Intérêts courus sur certificats de dépôt 
+Compte 3245 - Intérêts courus sur autres placements monétaires 
+Chacun de ces comptes est débité des intérêts par le crédit d’un compte de produits (subdivision du 
+compte 706 «Revenus des placements monétaires»). 
+Classe 4 - Comptes de tiers 
+Sous-classe 40 - Opérateurs créditeurs 
+Les comptes de cette sous classe enregistrent principalement la dette de l'OPCVM vis-à-vis des deux 
+principaux acteurs qui interviennent dans son fonctionnement : le dépositaire et le gestionnaire. 
+http://www.procomptable.com/ 
+La rémunération de ces deux intervenants peut être soit fixe soit variable en fonction d’un pourcentage 
+de l’actif. Dans le cas où elle est variable, cette rémunération est imputée périodiquement (selon la 
+périodicité de calcul de la VL) au crédit du compte 401 (Gestionnaire) ou le compte 402 (Dépositaire) 
+par le débit du compte 601 ou 602. 
+Les commissions de souscription et de rachat éventuellement rétrocédées sont constatées au crédit 
+du compte 403 «Autres opérateurs créditeurs». 
+Les comptes 401, 402 et 403 sont débités lors du règlement par le crédit d’un compte de trésorerie. 
+Le compte 404 «Compte d’affectation périodique des charges» est crédité périodiquement (à chaque 
+calcul de la VL) du montant des frais budgétisés correspondant à la période considérée par le débit du 
+compte 67 «Dotations aux frais de gestion budgétisés». Il est crédité en contrepartie du compte 67 
+lors du règlement des frais, ces derniers étant imputés dans un compte de charge par nature par la 
+contrepartie d’un compte de trésorerie. 
+Sous-classe 41 - Opérateurs débiteurs 
+La sous classe «Opérateurs débiteurs» enregistre les créances de l'OPCVM provenant de son activité 
+de gestion de portefeuille. 
+Compte 411 - Dividendes à recevoir 
+Ce compte enregistre à son débit le montant du dividende à recevoir sur les actions en portefeuille par 
+le crédit d'un sous compte du compte 70. Il est crédité au moment de la perception du dividende, en 
+contrepartie d'un compte de trésorerie. 
+Compte 412 - Intérêts à recevoir 
+Ce compte enregistre à son débit les intérêts échus et non encore perçus. Il est crédité au moment de 
+la perception des intérêts, en contrepartie d’un compte de trésorerie. 
+Compte 413 - Obligations amorties 
+Ce compte enregistre à son débit la valeur faciale des obligations amorties non encore remboursées. 
+Il est soldé lors de l’encaissement de la valeur des obligations, en contrepartie d’un compte de 
+trésorerie. 
+Compte 414 - Placements monétaires échus 
+Ce compte enregistre à son débit la valeur des placements monétaires échus non encore perçus. Il 
+est soldé lors de l’encaissement de la valeur des placements, en contrepartie d’un compte de 
+trésorerie. 
+Compte 415- Souscription à titre réductible 
+Ce compte enregistre à son débit le montant des fonds avancés au titre d’une souscription à titre 
+réductible. 
+Il est soldé soit par le compte 311 dans le cas d’une suite positive (souscription) ou par le débit d’un 
+compte de trésorerie dans le cas d’une suite négative. 
+Sous classe 44 - Actionnaires et porteurs de parts 
+Sous classe 45 - Débiteurs et créditeurs divers 
+Sous classe 47 - Comptes de régularisation 
+Les comptes rattachés à ces trois sous classes fonctionnent conformément au système comptable 
+général des entreprises (Norme Comptable NC 01). 
+Classe 5 - Comptes financiers 
+Sous-classe 53 - Banques et établissements financiers 
+Compte 531 - Dépôts à terme 
+Compte 532 - Dépôts à vue rémunérés 
+http://www.procomptable.com/ 
+Compte 533 - Banques 
+Ces trois comptes fonctionnent de manière identique à ceux de même nature prévus par la norme 
+comptable générale NC 01. 
+Dans le cas où le dénouement financier d’une opération quelconque est postérieur à sa date de 
+réalisation, il y a lieu d’utiliser les comptes de transit 5331 ou 5333. 
+Classe 6 - Comptes de charges 
+Sous-classe 60 - Services extérieurs liés à la gestion des placements 
+Compte 601- Rémunération du gestionnaire 
+Compte 602 - Rémunération du dépositaire 
+Le compte 601 enregistre la rémunération du gestionnaire chargé d’assurer la gestion administrative. 
+Le compte 602 enregistre la rémunération du dépositaire. 
+Sous-classe 61 - Services extérieurs liés à l’exploitation 
+Le compte 612 «Redevances du Conseil du Marché Financier» enregistre la redevance que les 
+OPCVM sont tenus de verser mensuellement au Conseil du Marché Financier. Cette redevance est 
+calculée en fonction d’un pourcentage de l’actif géré, et elle fait l’objet d’un abonnement périodique 
+par le débit du compte 612 en contrepartie du compte «458 Autres créditeurs». 
+Les autres comptes de la classe 61 fonctionnent de manière identique à ceux de même nature prévus 
+par la norme générale NC 01. 
+Sous-classe 64 - Charges de personnel 
+Les comptes 641 «Rémunération du personnel», 642 «Charges sociales» et 643 «Autres charges du 
+personnel et autres charges sociales» fonctionnent de manière identique à ceux de même nature 
+prévus par la norme comptable générale NC 01. 
+Sous-classe 65 - Charges diverses d’exploitation 
+Les comptes 653 «Jetons de présence» et 654 «Fournitures de bureau» fonctionnent de manière 
+identique à ceux de même nature prévus par la norme comptable générale NC 01. 
+Sous-classe 66 - Impôts, taxes et versements assimilés 
+Les comptes 661 «Impôts, taxes et versements assimilés sur rémunérations» et 665 «Autres impôts et 
+taxes et versements assimilés» fonctionnent de manière identique à ceux de même nature prévus par 
+la norme générale NC 01. 
+Sous-classe 67 - Dotations aux frais de gestion budgétisés 
+La sous classe 67 peut être subdivisée en autant de comptes que de charges devant être budgétisés. 
+Chaque compte de dotations enregistre les frais de gestion budgétisés périodiquement (mensuel, 
+quotidien). 
+L’OPCVM extourne le compte 67X «Dotations aux...» et le compte 404 «Compte d’affectation 
+périodique des charges» au fur et à mesure des paiements effectués. Ceux-ci sont enregistrés au 
+débit des comptes de charges concernés et au crédit d’un compte de trésorerie. 
+Cependant, une dotation aux frais de gestion budgétisés subsiste à hauteur des frais de gestion à 
+payer. 
+Sous-classe 68 - Dotations aux amortissements et aux plus-values ou moins-values sur 
+cession d’immobilisations 
+Les comptes de cette sous-classe enregistrent les dotations aux amortissements des immobilisations 
+ainsi que, le cas échéant, les plus-values ou les moins-values réalisées sur cession d’immobilisations. 
+http://www.procomptable.com/ 
+Classe 7 : Comptes de produits 
+Sous-classe 70 - Revenus des placements 
+Compte 701 - Revenus des actions, valeurs assimilées et droits rattachés 
+Les dividendes des actions sont comptabilisés dans le compte 701 par le débit du compte 411 
+«Dividendes à recevoir». Ce dernier est soldé au moment de l’encaissement par le débit d’un compte 
+de trésorerie. 
+Compte 702 - Revenus des obligations et valeurs assimilées 
+Les subdivisions de ce compte enregistrent à leur crédit les intérêts courus par type d’obligation ou 
+valeur assimilée en contrepartie du compte 3125 «Intérêts courus sur obligations et valeurs 
+assimilées». Ils sont soldés en fin d’exercice par le crédit du compte «Résultat de l’exercice». 
+Compte 703 - Revenus des titres OPCVM 
+Le compte 703 constate par le crédit de ses comptes divisionnaires les dividendes sur les actions de 
+SICAV et les parts de FCP. Il est soldé en fin d’exercice par le compte «Résultat de l’exercice». 
+Compte 706 - Revenus des placements monétaires 
+Compte 7061 - Revenus des bons du trésor émis sur le marché monétaire 
+Compte 7062 - Revenus des billets de trésorerie 
+Compte 7063 - Revenus des certificats de dépôt 
+Compte 7069 - Revenus des autres placements monétaires 
+Ces comptes enregistrent les produits sur chacun des actifs concernés par la contrepartie du compte 
+intérêts courus correspondant (sous classe 32). Ils sont soldés en fin d’exercice par le compte 
+«Résultat de l’exercice». 
+Sous-classe 71 - Produits divers 
+Compte 711- Intérêts sur comptes de dépôt 
+Ce compte enregistre les intérêts courus et autres revenus relatifs aux dépôts rémunérés de 
+l’OPCVM. 
+Sous-classe 77 - Régularisation des revenus de l’exercice en cours 
+Le compte 77 constate la quote-part dans la valeur liquidative provenant du résultat de l’exercice en 
+cours. Il est soldé en fin d’exercice par la contrepartie du compte «Résultat de l’exercice». 
+ 
+ 
+ANNEXE 3 
+SCHEMAS DE TRAITEMENT DES OPERATIONS 
+1. Opérations sur portefeuille titres 
+1.1. Opérations sur actions 
+Achat d’actions 
+ 
+A la date de transaction 
+- Débit : 311 pour le prix d’achat. 
+- Débit : 104 «Frais de négociation» pour le montant des frais décaissés. 
+- Crédit : 5333 «Sommes à régler» pour le montant total à décaisser.     
+http://www.procomptable.com/ 
+A la date du décaissement 
+- Débit : 5333 «Sommes à régler». 
+- Crédit : 5331 «Avoirs en banque» pour le montant effectivement décaissé.  
+Evaluation en date d’arrêté
+ 
+Plus-value latente 
+- Débit : 3119 «Différence d’estimation sur actions et valeurs assimilées». 
+- Crédit : 10511 «VDE sur actions, valeurs assimilées et droits rattachés» pour la différence entre 
+le coût moyen pondéré ajusté par la différence d’estimation antérieurement constatée et le prix de 
+marché ou la juste valeur du titre considéré à la date d’évaluation. 
+Moins-value latente 
+- Débit : 10511 «VDE sur actions, valeurs assimilées et droits rattachés». 
+- Crédit : 3119 «Différence d’estimation sur actions et valeurs assimilées» pour la différence entre 
+le coût moyen pondéré ajusté par la différence d’estimation antérieurement constatée et le prix de 
+marché ou la juste valeur du titre considéré à la date d’évaluation. 
+Constatation des dividendes 
+- Débit : 411 «Dividendes à recevoir». 
+- Crédit : 701 «Revenus des actions, valeurs assimilées et droits rattachés» pour le montant du 
+dividende à encaisser. 
+Démembrement des actions
+ 
+- Débit : compte divisionnaire du 3111 (DA ou DPS). 
+- Crédit : compte Actions concerné du 3111 pour le coût de revient comptable du DA ou DPS. 
+Cession d’actions
+ 
+1er cas : Cession avec plus-value réalisée : 
+A la date de transaction 
+- Débit : 5332 Sommes à l’encaissement pour le montant à encaisser. 
+- Débit : 10511 VDE sur actions, valeurs assimilées et droits rattachés pour la quote-part 
+(éventuellement). 
+- Débit : 104 «Frais de négociation». 
+- Crédit : 3111 pour le CMP du titre cédé. 
+- Crédit : 3119 «Différence d’estimation sur actions, valeurs assimilées et droits rattachés» pour la 
+quote-part (éventuellement). 
+- Crédit 10611 «Plus-values réalisées sur portefeuille titres» pour la différence entre le prix d’achat 
+et le prix de vente hors frais. 
+A la date de l’encaissement
+ 
+- Débit : 5331 «Avoirs en banque». 
+- Crédit : 5332 «Sommes à l’encaissement»  
+pour le montant effectivement encaissé.  
+2ème cas : cession avec moins-value réalisée : 
+Dans le cas d’une cession avec moins-value, la différence entre le prix d’achat et le prix de vente hors 
+frais est imputée au débit du compte 10612 «Moins-values réalisées sur portefeuille titres». 
+http://www.procomptable.com/ 
+1.2. Opérations sur obligations 
+Souscription d’obligations à l’émission 
+Emission au pair 
+ - Débit : 312 «Obligations et valeurs assimilées», 
+ - Crédit : 533 «Banques», 
+pour le prix de souscription (prix d’acquisition). 
+Emission au dessous du pair
+ 
+ - Débit : 312 «Obligations et valeurs assimilées», 
+ - Crédit : 533 «Banques», 
+pour le prix d’émission (prix d’acquisition). 
+Achat d’obligations en bourse
+ 
+Traitement applicable aux SICAV ainsi qu’aux FCP qui optent pour la retenue libératoire 
+A la date de transaction 
+- Débit : 3121 «Obligations et valeurs assimilées», pour le prix d’acquisition des obligations. 
+- Débit : 3125 «Intérêts courus sur obligations...», pour les intérêts courus à la date d’achat net de 
+retenue. 
+- Débit : 104 «Frais de négociation» pour le montant des frais décaissés. 
+- Crédit : 5333 «Sommes à régler», pour le prix à décaisser. 
+A la date du décaissement
+ 
+ - Débit : 5333 «Sommes à régler». 
+ - Crédit : 5331 «Avoirs en banque». 
+Traitement applicable aux FCP qui n’optent pas pour la retenue libératoire 
+A la date de transaction
+ 
+- Débit : 3121 «Obligations et valeurs assimilées», pour le prix d’acquisition des obligations. 
+- Débit : 3125 «Intérêts courus sur obligations, pour les intérêts courus à la date d’achat net 
+d’impôt. 
+- Débit : 452 «Etat», pour le montant de retenue à la source grevant les intérêts courus. 
+- Débit : 1041 «Frais de négociation» pour le montant des frais décaissés. 
+- Crédit : 5333 «Sommes à régler», pour le prix à décaisser. 
+A la date du décaissement
+ 
+- Débit : 5333 «Sommes à régler». 
+- Crédit : 5331 «Avoirs en banque». 
+Constatation périodique des intérêts courus
+ 
+1er cas : Les SICAV ainsi que les FCP qui optent pour la retenue libératoire 
+- Débit : 3125 «Intérêts courus sur obligations...». 
+- Crédit : 702 «Revenus des obligations et valeurs assimilées», pour le montant des intérêts courus 
+nets d'impôt. 
+http://www.procomptable.com/ 
+2ème cas : Les FCP qui n'optent pas pour la retenue libératoire 
+- Débit : 3125 «Intérêts courus sur obligations...», pour les intérêts nets d’impôt de la période. 
+- Débit : 452 «Etat», pour le montant de la retenue à la source grevant les intérêts imputés. 
+- Crédit : 702 «Revenus des obligations et valeurs assimilées», pour le montant brut des intérêts 
+courus de la période. 
+Remboursement d’obligations 
+A la date d’échéance : 
+- Débit : 5332 «Sommes à l’encaissement», pour l'annuité en principal et intérêts nets de retenue. 
+- Débit : 10512 «VDE sur obligations et valeurs assimilées». 
+- Crédit : 3121 «Obligations et valeurs assimilées», pour le CMP des titres remboursés. 
+- Crédit : 3125 «Intérêts courus sur obligations», pour le montant des intérêts courus la veille de la 
+date de remboursement. 
+- Crédit : 3129 «Différence d’estimation sur obligations et valeurs assimilées», pour la quote-part 
+relative aux titres remboursés à la date de l’encaissement de l'annuité remboursée. 
+- Débit : 5331 «Avoirs en banque». 
+- Crédit : 5332 «Sommes à l’encaissement». 
+Cession des obligations
+ 
+1ère étape 
+- Débit : 10512 «VDE sur obligations et valeurs assimilées». 
+- Crédit : 3129 «Différence d’estimation sur obligations et valeurs assimilées», pour la part de la 
+plus-value potentielle éventuelle relative aux obligations cédées. 
+ou : 
+- Débit : 3129 «Différence d’estimation sur obligations et valeurs assimilées». 
+- Crédit : 10512 «VDE sur obligations et valeurs assimilées»,  
+pour la part de la moins-value potentielle éventuelle relative aux obligations cédées. 
+2ème étape
+ 
+- Débit : 5332 «Sommes à l’encaissement», pour le prix de vente à encaisser. 
+- Débit : 104 «Frais de négociation», pour le montant des frais décaissés. 
+- Débit : 106112 «Plus-values réalisées sur obligations et valeurs assimilées» (éventuellement). 
+- Crédit : 312 «Obligations et valeurs assimilées», pour le CMP. 
+- Crédit : 3125 «Intérêts courus sur obligations», pour la quote-part des obligations cédées. 
+- Crédit : 106122 «Moins-values réalisées sur obligations et valeurs assimilées» (éventuellement). 
+2. Opérations sur titres de créances négociables 
+Souscription de bons du trésor émis sur le marché monétaire
+ 
+- Débit : 3211 «Bons du Trésor émis sur le marché monétaire», 
+- Crédit : 5331 «Avoirs en banque», 
+pour la valeur nominale des bons du trésor souscrits. 
+http://www.procomptable.com/ 
+Souscription de billets de trésorerie ou certificats de dépôt 
+- Débit : 3221 / 3231 «Billets de trésorerie» / «Certificats de dépôt», pour la valeur des billets de 
+trésorerie ou de certificats de dépôt souscrits. 
+- Crédit : 3224 / 3234 «Intérêts précomptés sur billets de trésorerie» / «Certificats de dépôt», pour 
+le montant des intérêts nets décomptés à l’achat. 
+- Crédit : 5331 «Avoirs en banque», pour le montant net décaissé. 
+Constatation des intérêts 
+- Débit : 325 «Intérêts courus sur... », 
+- Crédit : 706 «Revenus des... », 
+pour le montant des intérêts courus de la période. 
+Rétrocession de bons du trésor émis sur le marché
+ 
+- Débit : 5331 «Banques», pour la valeur des bons du trésor et les intérêts acquis. 
+- Crédit : 3211 «Bons du trésor», pour la valeur souscrite. 
+- Crédit : 3215 «Intérêts courus sur bons du trésor», pour la part des intérêts courus relatifs aux 
+bons du trésor rétrocédés. 
+Rétrocession de billets de trésorerie / certificats de dépôt 
+- Débit : 5331 «Avoirs en banque», pour la valeur nominale des billets de trésorerie ou certificats 
+de dépôt rétrocédés. 
+- Débit : 3222/3232 «Intérêts précomptés sur billets de trésorerie» / «Certificats de dépôt», pour la 
+part des titres rétrocédés. 
+- Crédit : 3221 / 3231 «Billets de trésorerie» / «Certificats de dépôt», pour la valeur nominale des 
+titres rétrocédés. 
+- Crédit : 3225 / 3235 «Intérêts courus sur billets de trésorerie» / «Certificats de dépôt». 
+3. Traitement des charges de gestion 
+Les frais de gestion budgétisés sont imputés selon la périodicité de calcul de la valeur liquidative. 
+Périodiquement :  
+- Débit : 67 «Dotations aux frais de gestion budgétisés». 
+- Crédit : 404 «Compte d’affectation périodique des charges». 
+Lors du règlement : 
+Dans un premier temps : 
+- Débit : Compte de charge par nature 60/61/64/65/66, 
+- Crédit : 5331 «Avoirs en banque»,  
+pour le montant des charges réglées. 
+Dans un deuxième temps : 
+- Débit : 404 «Compte d’affectation périodique des charges», 
+- Crédit : 67 «Dotations aux frais de gestion budgétisés», 
+pour le montant des charges réglées. 
+http://www.procomptable.com/ 
+4 Traitement des opérations de souscription et de rachat 
+Souscription 
+Bien que les comptes mouvementés lors d’une opération de souscription (rachat) diffèrent selon la 
+situation comptable au moment de l’opération, l’analyse de l'opération et son traitement obéit toujours 
+aux mêmes principes. 
+En effet, toute opération de souscription (rachat) est effectuée sur la base d’une valeur liquidative 
+connue, augmentée éventuellement de commissions de souscription (rachat) ou droit d’entrée (de 
+sortie). 
+La valeur liquidative doit dans un premier temps être défalquée entre sa part revenu et sa part capital. 
+La part capital est défalquée entre la quote-part dans le capital de début d’exercice et dans la quote-
+part dans les sommes non distribuables de l’exercice en cours (comptes 103 à 106). 
+La part revenu est défalquée entre la quote-part dans les résultats des exercices antérieurs non 
+distribués, la quote-part dans le résultat de l’exercice clos et la quote-part dans le résultat de l’exercice 
+en cours. 
+Une fois cette analyse faite, l’opération de souscription est traitée ainsi : 
+- La quote-part dans le capital de début d’exercice est imputée au crédit du compte «1021 
+Souscriptions». 
+- La quote-part dans les sommes non distribuables de l’exercice en cours est imputée au compte 
+151 «Régularisation des sommes non distribuables de l’exercice en cours». 
+- La quote-part dans les résultats reportés est imputée au crédit du compte 152 «Régularisation 
+des résultats reportés». 
+- La quote-part dans le résultat de l’exercice clos est imputée au crédit du compte 153 
+«Régularisation du résultat de l’exercice clos» en cas de solde créditeur et au débit du même compte 
+en cas de solde débiteur. 
+- La quote-part dans le résultat de l’exercice en cours est imputée au crédit du compte 77 
+«Régularisations du résultat de l’exercice en cours» dans le cas où le résultat est positif et au débit du 
+même compte dans le cas où le résultat est négatif. 
+Le montant de la valeur liquidative est débité dans un compte de trésorerie. 
+Les commissions de souscription éventuelles sont crédités au compte 1031 «Commissions de 
+souscription». 
+Dans le cas où une partie des commissions de souscription revient à une tierce partie, le compte 
+10391 «Rétrocession de commissions de souscription» est débité en contrepartie du compte 403 
+«Autres opérateurs créditeurs». 
+Rachat 
+Le traitement comptable d’une opération de rachat obéit aux mêmes règles que celles prévues pour 
+une opération de souscription. 

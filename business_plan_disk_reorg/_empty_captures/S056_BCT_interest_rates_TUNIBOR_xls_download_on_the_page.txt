@@ -1,0 +1,76 @@
+Statistique - Cours
+https://www.bct.gov.tn/bct/siteprod/Tunibor_archive.jsp
+
+Situation mensuelle de la BCT
+Situation mensuelle des autres institutions de dépôts (AID)
+Situation mensuelle des institutions de dépôts (SID)
+Agrégats de monnaie et leurs contreparties
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques offshore
+Notes méthodologiques
+Situation mensuelle de la BCT
+Autres statistiques de la BCT
+Situation mensuelle des banques
+Situation mensuelle des organismes de leasing
+Situation mensuelle des banques off-shore
+Secteur monétaire
+Secteur Financier
+Bons du Trésor
+Achats fermes des Bons du Trésor
+Taux moyen du marché monétaire (TMM)
+Système de règlement
+Volume des transactions des opérations devise contre dinar
+Marché des changes Devise-Devise
+Cours quotidiens des principales monnaies cotées
+Historique du marché de change
+Transactions de change au comptant
+Répartition par devise des transactions (opérations en compte et au comptant)
+Evolution des transactions sur le marché des changes au comptant
+Opérations devises/devises
+Moyenne des cours du marché interbancaire
+Moyennes des cours du marché interbancaire
+Balance des paiements
+Position Extérieure Globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Notes Méthodologiques
+Balance de paiements
+Position exérieure globale
+Principaux indicateurs de paiements extérieurs
+Autres indicateurs du secteur extérieur
+Exportations (FOB)
+Importations (CAF)
+Position de la dette extérieure brute
+Structure du service de la dette extérieure
+Structure de la dette extérieure par monnaie de règlement
+Principaux paramètres de la dette extérieure
+Endettement total
+Statistiques Monétaires, Économiques et Financières
+TUNIBOR
+TUNIBOR au 05/10/2026
+Maturité | Taux en %
+1 Semaine | 7,15
+2 Semaines | 7,27
+1 Mois | 7,47
+2 Mois | 7,61
+3 Mois | 7,74
+6 Mois | 7,94
+9 Mois | 8,15
+12 Mois | 8,32
+TUNIBOR : Taux d’intérêt de référence sur le dinar tunisien (TND)
+Définition
+Le TUNIBOR est un taux d’intérêt moyen indicatif auquel les banques actives sur le marché monétaire en dinar sont disposées à se prêter des liquidités à blanc, sans garanties, pour huit maturités allant d’une semaine à douze mois : une semaine, deux semaines , un mois, deux mois, trois mois, six mois, neuf mois et douze mois.
+Méthodologie de calcul
+Pour chaque maturité, la Banque Centrale de Tunisie procède à 11H du matin (heure locale exacte) au calcul du TUNIBOR en tant que moyenne arithmétique simple des taux prêteurs reportés par tous les contributeurs et ce en respectant qu’au moins la moitié des banques du panel aient communiqué leurs taux prêteurs sur les 8 échéances avant 10H45.
+Etant précisé que les 15% des cotations extrêmes c’est à dire les plus hautes et les plus basses seront éliminées pour chaque maturité.
+Collecte des données et diffusion de l’information
+La collecte des données et le calcul du TUNIBOR sont réalisés au moyen de la plateforme Reuters logée à la Banque Centrale de Tunisie. La diffusion de l’information est assurée par la Banque Centrale de Tunisie à 11H du matin du lundi au vendredi (sauf jours fériés) à travers les plateformes Reuters, au niveau de la page «TUNIBOR= », et Bloomberg, dans le menu « CBTU ».
+La liste des banques contributrices au TUNIBOR
+(Date de mise à jour 31/12/2024)
+ATB, BNA, ATTIJARI, BT, AMEN BANK, BIAT, STB, UBCI, UIB, BH, BTK, TSB, QNB, BTE, BTL, ABC
+Monnaie
+Taux d'interêt
+moyens de paiement
+Change
+Secteur Exterieur
+Economie générale

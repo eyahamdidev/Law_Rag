@@ -1,0 +1,827 @@
+1 
+http://www.procomptable.com  
+Norme Comptable Relative aux Immobilisations Corporelles 
+NC 05 (nouveau) 
+ 
+Objectif 
+01 L'objectif de la présente norme consiste à prescrire le traitement comptable pour les immobilisations 
+corporelles de sorte que le s utilisateurs des éta ts financiers puissent distinguer les informations 
+relatives aux investissements d 'une entreprise dans ses immobilisations corporelles et ce lles 
+relatives aux variation s de ces investissements. Les questions fondamentales concernant l a 
+comptabilisation de s immobilisations corporelles portent sur la comptabilisation des actifs, la 
+détermination de l eur valeur comptable ainsi que de s dotations aux amortissements et des pertes 
+de valeur correspondantes. 
+Champ d'application 
+02 La présente norme s'applique pour la comptabilisation des immobilisations corporelles sauf 
+lorsqu'une autre norme comptable requiert un traitement comptable différent. 
+03 La présente norme ne s'applique pas aux : 
+(a) Biens détenus par les entreprises d'extraction sujets à épuisement tels que :  
+- forêts et ressources naturelles se renouvelant d'elles-mêmes ; 
+- concessions minières, prospection et extraction de minerais, de pétrole, de gaz naturel 
+et autres ressources similaires non renouvelables ; 
+- Par contre, les immobilisations corporelles utilisées par ces entreprises pour développer 
+ou maintenir leur activité ou les immobilisations entrent dans le champ d'application de la 
+présente norme, dès lors qu'elles sont distinctes de ces activités ou éléments. 
+(b) Immobilisations financières ; 
+(c) Immobilisations incorporelles ; 
+04 Tout bien ayant un statut juridique particulier et répondant à la définition de l'immobilisation 
+corporelle, est traité conformément à la présente norme. 
+05 Dans certains cas, les norm es comptables autorisent que la valeur compta ble des 
+immobilisations corporelles soit initialement comptabilisée suivant une approche différente 
+de celle prescrite dans la présente norme. Par exemple, la norme comptable NC 38 relative 
+aux Regroupements d'entreprises , impose que les immobilisations co rporelles acquises 
+dans le cadre d'un regroupement d 'entreprises soient évaluées initialement à la juste valeur 
+même lorsque celle -ci est supérieure au coût. Toutefois, dans de tels cas, tous les autres 
+aspects du traitement comptable de c es actifs, y compris l'amortissement des 
+immobilisations corporelles, sont déterminés par les dispositions de la présente norme 
+06 De nombreuses entreprises sont tenues de démanteler, d'enlever ou de remettre en état des 
+éléments d'immobilisations corporelles. Dans la prés ente norme, il est fait référence à de 
+telles obligations comme à des "passifs relatifs au démantèlement ou à la remise en état et 
+autres passifs similaires". Selon la présente norme , le coût d'un élément  d'immobilisation 
+corporelle inclut l'estimation ini tiale des coûts relatifs à son démantèlement et à son 
+enlèvement et à la remise en état du site sur lequel il est situé, obligation qu'une entreprise 
+contracte soit lors de l'acquisition de l'élément , soit du fait de son utilisation pendant une 
+durée spécifique à des fins autres que la production de stocks au cours de cette période. La 
+présente norme conti ent des  dispositions sur la façon d'évaluer des  passifs relatifs au 
+démantèlement ou à la remise en état et d'autres passifs similaires. La présente norme  
+fournit, également, des indications sur la façon de comptabiliser  l'effet des variations de 
+l'évaluation d es passifs existants relatifs au démantèlement ou à la remi se en état et des 
+autres passifs similaires. La norme comptable NC 14 relative aux Eventualités et événements 
+postérieurs à la date de clôture ne  s'applique pas, dans ce cas , aux passifs relatifs au 
+démantèlement ou à la remise en état et d'autres passifs similaires comptabilisés selon cette 
+norme. 
+2 
+http://www.procomptable.com  
+Définitions 
+07 Dans la présente norme, les termes suivants ont la signification indiquée ci-après : 
+Les immobilisations corporelles sont les éléments d'actif physiques et tangibles qui : 
+(a) ayant un potentiel de générer des avantages futurs, sont détenus par une entreprise soit 
+pour être utilisés dans la production ou la fourniture de biens et de services, soit pour être 
+loués à des tiers, soit à des fins administratives et de soutien à leur activité ; 
+(b) sont censés être utilisés sur plus d'un exercice. 
+L’amortissement est la répartition systématique du montant amortissable d 'un actif sur sa 
+durée d'utilité. 
+La durée d'utilité est : 
+(a) soit la période pendant laquelle l'entreprise s'attend à pouvoir utiliser un actif ; ou 
+(b) soit la période correspondant au nombre d'unités de production  (ou l'équivalent) que 
+l'entreprise s'attend à obtenir de l'actif. 
+Le montant amortissable est le coût d'un actif, ou tout autre montant substitué au coût, 
+diminué de sa valeur résiduelle. 
+Le coût est le montant de liquidités ou d'équivalents de liquidités payé ou la juste valeur de 
+toute autre contrepartie donnée pour acquérir un actif au moment de son acquisition ou de 
+sa production, ou, s'il y a lieu, le montant attribué à cet actif lors de sa comptabilisation initiale 
+selon les dispositions spécifiques d'autres normes comptables. 
+La valeur résidu elle d'un actif est le montant estimé qu'une entreprise obtiendrait 
+actuellement de la sortie de l'actif, après déduction des coûts de sortie estimés, si l'actif avait 
+déjà l'âge et se trouvait déjà dans l'état prévu à la fin de sa durée d'utilité. 
+La juste valeur est le prix auquel un actif pourrait être éch angé entre un acheteur et un 
+vendeur, normalement informés et consentants, dans une transaction équilibrée. 
+La valeur comptable est le montant pour lequel un actif est comptabilisé après déduction du 
+cumul des amortissements et du cumul des pertes de valeur (constatées directement ou via 
+un compte de provision pour dépréciation). 
+La valeur récupérable est le montant que l'entreprise compte obtenir de l'usage futur d'un 
+actif, y compris sa valeur résiduelle de cession. 
+Une perte de valeur  est le montant d e l'excédent de la valeur comptable d'un actif  sur sa 
+valeur récupérable. 
+Une obligation juridique est une obligation qui découle : 
+(a) d'un contrat (sur la base de ses clauses explicites ou implicites) ; 
+(b) de dispositions légales ou réglementaires ; ou 
+(c) de toute autre source juridique. 
+Une obligation implicite est une obligation qui décou le des actions d'une entreprise       
+lorsque : 
+(a) elle a indiqué aux tiers, par ses pratiques passées, par sa politique  affichée ou par une 
+déclaration récente suffisamment explicite, qu'elle assumera certaines responsabilités ; et 
+(b) en conséquence, l'entreprise a créé chez ces tiers une attente fondée  qu'elle assumera 
+ces responsabilités. 
+Comptabilisation 
+08 Un élément des immobilisations corporelles doit être inscrit à l'actif lorsque : 
+(a) il est probable que les avantages futurs associés à cette immobilisation  bénéficieront à 
+l'entreprise ; et 
+(b) le coût de cette immobilisation pour l'entreprise peut être mesuré de façon fiable. 
+3 
+http://www.procomptable.com  
+09 L'assurance du respect du premier critère ne peut être obtenue que s i l'entreprise s upporte les 
+risques et bénéficie des avantages économiques inhérents à la détention de l'actif. Cette assurance 
+existe lorsque les risques et les produits ont été transférés à l'entreprise. 
+Avant ce transfert, l'opération d'acquisition de l'immobilisation peut être abandonnée sans engendrer 
+de pénalités importantes, et par conséquent, l’actif n'est pas pris en compte. 
+10 Le deuxième critère de prise en compte des immobilisations est satisfait lorsque l'entreprise peut 
+identifier la contrepartie cédée en vue d'acquérir et de mettre en service l'immobilisation. Pour ce 
+faire, on se réfère à la contrepartie, en liquidités ou autrement, de l'échange qui constitue une mesure 
+objective de la valeur d'une immobilisation. 
+11 L'application de ces deux critères peut poser en pratique certaines difficultés. Une appréciation est 
+nécessaire pour appliquer ces critères aux circonstances propres à chaque entreprise. Il en est ainsi, 
+notamment pour :  
+- certains éléments de faible valeur  individuelle, tels que les moules, outils et matrices. Il est 
+opportun de regrouper ces éléments et d'appliquer les critères à leur valeur globale,  
+- les pièces de rechange principales (c'est-à-dire celles des tinées à remplacer ou à être intégrées 
+à un composant de l'immobilisation principale) et les équipements en instance dont l'utilisation 
+est supérieure à une année. Ces pièces et équipements sont comptabilisés en immobilisations 
+corporelles, 
+- les pièces de rechange et le matériel d'entretien dont l'utilisation est irrégulière et ne pouvant 
+être utilisés qu'en association avec un élément des immobilisations corporelles. Ces pièces et 
+matériel sont comptabilisés en immobilisations corporelles. 
+12 Dans certains cas, un actif corporel peut être composé de parties apportant un flux d'avantages 
+futurs différents ou ayant des durées d'utilité spécifiques. Dans ce cas, ces différentes parties sont 
+prises en compte séparément. A titre d'exemple, un avion et ses moteurs ou son intérieur (sièges), 
+une centrale électrique et ses turbines doivent être comptabilisés séparément puisque ces éléments 
+ont des durées d'utilité différentes. 
+Coûts initiaux 
+13 L'acquisition de biens de soutien tels que le matériel de formation, de sécurité, de protection de 
+l'environnement, tout en n'augmentant pas directement les avantages futurs se rattachant à une 
+immobilisation donnée, peut se révéler nécessaire pour que l'entreprise puisse tirer profit  des 
+avantages écono miques futurs de ses a utres immobilisations. Lorsque tel est l e cas, de telles 
+acquisitions d'immobilisations ont qualité pour  être comptabilisées comme é léments d'actif parce 
+qu'ils conditionnent la réalisatio n d 'avantages futurs ou ils permettent à l'entreprise de tirer des 
+avantages futurs des actifs Liés supérieurs à ce ux que l'entreprise a urait pu obtenir sans leur 
+acquisition. Toutefois ces actifs ne sont constatés que dans la mesure où leur valeur comptable et 
+de celle des actifs liés ne sont pas supérieures à la valeur récupérable de cet actif et de ses actifs 
+liés. A titre d'exemple, un confectionneur d e tissus délavés pe ut devoir installer une station 
+d'épuration d es eaux usées afin de se conformer à  des o bligations e nvironnementales sur l a 
+fabrication de tels produits. Une telle station est comptabilisée comme actif dans la mesure où elle 
+est récupérable parce que, sans cet investissement, l'entreprise n'est pas en mesure de fabriquer ni 
+de vendre ses produits. 
+Coûts ultérieurs 
+14 Les coûts ultérieurs relatifs à une immobilisation corporelle déjà prise en compte doivent être 
+ajoutées à la valeur comptable de l'actif lorsqu'il est probable que des avantages futurs, 
+supérieurs au niveau de performance initialement évalué de l'actif existant, bénéficieront à 
+l'entreprise. Tous les autres coûts ultérieurs doivent être inscrites en charges de de l'exercice 
+au cours duquel ils sont encourus. 
+15 Les coûts ultérieurs à une immobilisation corporelle ne sont inclus dans la valeur comptable de cette 
+immobilisation qu e s'il est démontré que les avantage s économiques futurs de l'actif existant, 
+excédant le niveau normal antérieurement déterminé, bénéficieront à l'entreprise. 
+Ces coûts peuvent inclure : 
+(a) la modification d'une unité de production p ermettant d 'allonger sa durée d'utilité, ou 
+l'augmentation de sa capacité, 
+4 
+http://www.procomptable.com  
+(b) l'amélioration d e parties machines permettant d 'obtenir un e amé lioration substantielle de l a 
+qualité de la production. 
+(c) l'adoption des nouveaux processus de production permettant une réduction substantielle des 
+frais d'exploitation initialement prévus. 
+16 Les coûts relatifs aux réparations ou à l'entretien des immobilisations corporelles qui sont encourus 
+afin de restaurer les avantages futurs qu'une entreprise peut escompter du niveau de performance 
+antérieurement déterminé de l'actif concerné, sont, en général, inscrites en charges. Par exemple, 
+les frais de service après-vente, ou de révision des installations et de l 'équipement sont 
+généralement inscrits en charges parce qu'ils servent à maintenir, et non à augmenter, le niveau de 
+performance déterminé. 
+17 Le traitement comptable approprié de s coûts encourus postérieurement à l'acquisition d'une 
+immobilisation corporelle dépend des conditions prévalant lors de l'évaluation et de l'enregistrement 
+de l'immobilisation correspondante et de la recouvrabilité ou non du coût subséquent. 
+Ainsi par exemple, lorsque la valeur comptable d'une immobilisation corporelle tient déj à compte 
+d'une diminution de s avantages futurs, le coût subséquent en vue de r établir les avantages 
+économiques futurs attendus de l'immobilisation est immobilisée, à condition que la valeur comptable 
+n'excède pas le montant récupérable de l'immobilis ation. Tel est le cas notamment lorsque le prix 
+d'achat reflète déjà l'obligation pour l'entrepri se d'engager ult érieurement d es co ûts qui seront 
+nécessaires pour mettre l'actif en état de fonctionnement. On peut c iter, à titre d'exemple, 
+l'acquisition d'un immeubl e exigeant une rén ovation. En de telles circonstances, les coûts sont 
+ajoutés à la valeur comptable de l'actif dans la me sure où ils pourront être récupérés lors de 
+l'utilisation future de cet actif. 
+18 Des éléments essentiels de certaines immobilisations corporelles peuvent avoir à être remplacés à 
+intervalles réguliers. Par exemple, au bout d'un certain nombre d'heures d'utilisation, un four peut 
+avoir besoin d'un nouveau revêtement intérieur, ou bien les intérieurs d'avions tels que les sièges et 
+les cuisines peuvent devoir être renouvelés plusieurs fois au cours de la vie de l'appareil. Ces 
+éléments so nt comptabilisés co mme des actifs distincts parce qu'ils ont des durées d'utilités 
+différentes de celles des immobilisations corporelles auxquelles ils se rattachent. En conséquence, 
+dès lors que les critères de constatation figurant au paragraphe 8 sont satisfaits, les coûts encourus 
+pour remplacer ou renouveler un tel élément sont comptabilisées comme l'acquisition d'un actif 
+distinct et l'actif remplacé est ramené à sa juste valeur. 
+Évaluation lors de la comptabilisation 
+19 Une immobilisation corporelle qui remplit les conditions de comptabilisation en tant qu'actif 
+doit être évaluée initialement à son coût. 
+Éléments du coût 
+20 Le coût d'une immobilisation corporelle est la contrepartie, monétaire ou autre, cédée pour l'acquérir 
+et de la mettre en état de marche en vue de l'utilisation prévue. Sont inclus dans le coût : 
+(a) le prix d'achat, y compris les droits et taxes supportés et non récupérables, après déduction des 
+remises et rabais commerciaux ; 
+(b) les frais directs tels que commissions et frais d'actes, les honoraires des architectes et ingénieurs, 
+les frais de démolition et de viabilisation, les frais de préparation du site, les frais de livraison et 
+de manutention initiaux et les frais d'installation ; 
+(c) l'estimation initiale des coûts relatifs au démantèlement et à l'enlèvement de l'immobilisation et à 
+la remise en état du site sur lequel elle est située, obligation qu'une entreprise contracte soit du 
+fait de l'acquisition de l'immobilisation corporelle, soit du fait de son utilisation pendant une durée 
+spécifique à des fins autres que la production de stocks au cours de cette période. 
+21 Les obligations afférentes aux coûts comptabilisés selon le paragraphe 20 (c) sont comptabilisées 
+et évaluées selon les paragraphes 83 à 93 de la présente norme. 
+22 Les frais gé néraux ne sont admis à être inclus dans le coût d'acquisition d'une immobilisation 
+corporelle que s'il est démontré que ces frais se rapportent directement à l'acquisition ou à la mise 
+en état d'utilisation de cet actif. Les frais de démarrage et les frais analogues qui ne peuvent pas 
+être directement affectés à l'acquisition ou à la mise en état de fonctionnement d'un actif, n'entrent 
+pas dans la détermination du coût de cet actif. Les pertes d'exploitation initiales, supportées après 
+5 
+http://www.procomptable.com  
+la mise en service mais avant que l'actif parvienne à la performance prévue, sont constatées en 
+charges 
+23 Le coût d'un actif produit par l'entreprise pour elle-même est déterminé en utilisant les mêmes 
+principes que pour un actif acquis. Si une entreprise produit des actifs similaires en vue de les vendre 
+dans le cadre de son activité normale, le coût de cet actif est en général le même que le coût de 
+construction d 'un actif destiné à la ve nte (voir norme comptable NC 04 re lative aux Stocks). En 
+conséquence, tous les profits internes sont éliminés pour arriver à ces coûts. De même, les montants 
+anormaux au titre des matières premières, de la main-d’œuvre et des autres ressources gaspillées 
+dans la construction d'un actif par l'entreprise pour elle-même ne sont pas inclus dans le coût de cet 
+actif. La norme co mptable N C 13 relative aux Charges d 'emprunt, ét ablit l es critères de 
+comptabilisation d e la charge financière co mme co mposante de la valeur comptable d 'une 
+immobilisation corporelle produite par l'entreprise pour elle-même. 
+Évaluation du coût 
+24 Le coût d'une immobilisation corporelle est le prix comptant équivalent à la date de comptabilisation. 
+Si le règlement est différé au-delà des conditions habituelles de crédit, la différence entre le prix 
+comptant équivalent et le total des paiements est comptabilisée en charges financières sur la période 
+de crédit, à moins que ces c harges ne soient incorporées dans le coût de l'acti f se lon la n orme 
+comptable NC 13 relative aux Charges d'emprunt. 
+25 Le coût d'entrée des immobilisations acquises par voie d'échange est différent selon la nature de 
+l'actif échangé : 
+(a) Actif de nature différente : évaluation à la juste valeur de l'actif reçu. La juste valeur de l'actif reçu 
+équivaut à la juste valeur de l'actif donné en échange, ajustée du montant de la soulte éventuelle 
+en liquidités ou équivalent de liquidités versée ou reçue. Le gain ou la perte résultant de l'échange 
+doit être constaté en résultat comme pour toute cession. 
+(b) Actif de même nature ou participation dans un actif de même nature : évaluation à la valeur 
+comptable de l'actif cédé. Un actif de même nature est un actif dont la juste valeur et l'utilisation 
+dans une même branche d'activité sont similaires. Dans ce type d'échange, ni charge, ni produit 
+n'est dégagé de la transaction, car le coût de l'actif acquis est égal à la valeur comptable de l'actif 
+cédé. Toutefois, la juste valeur de l'immobilisation reçue peut mettre en évidence une réduction 
+de la valeur de l'immobilisation cédée. La valeur de l'actif cédé servant de référence à l'évaluation 
+est alors diminuée du montant de la réduction de valeur correspondante. Cette valeur diminuée 
+est celle affectée à l'actif reçu. 
+26 Le coût d'un actif déte nu par un preneur dans le cadre d 'un contrat de location-financement est 
+déterminé selon les principes fixés dans la norme comptable NC 41 relative aux Contrats de location. 
+27 La subvention d'investissement se rapportant à un actif n'est pas déduite du coût de cet actif. 
+Évaluation après comptabilisation 
+28 Une entreprise doit choisir pour méthode comptable soit le modèle du coût décrit au paragraphe 29, 
+soit le modèle de la réévaluation d écrit au paragraphe 30 ; elle doit appliquer cette méthod e à 
+l'ensemble d'une catégorie d'immobilisations corporelles. 
+Modèle du coût 
+29 Après sa comptabilisation en tant qu'actif, une immobilisation corporelle doit être évaluée à son coût 
+diminué du cumul des amortissements et du cumul des pertes de valeur. 
+Modèle de la réévaluation 
+30 Après sa comptabilisation en tant qu'actif, une immobilisation corporelle dont la juste valeur 
+peut être évaluée de manière fiable doit être évaluée à son montant réévalué, à savoir sa juste 
+valeur à la dat e de réévaluation, diminuée du cumul des amortissements ultérieurs et du 
+cumul de pertes de valeur ultérieures. Les réévaluations doiv ent être effectuées avec une 
+régularité suffisante pour s'assurer que la valeur comptable ne d iffère p as de façon 
+significative de celle qui aurait été déterminée en utilisant la juste valeur à la date de clôture 
+de l'exercice. 
+31 La juste valeur des terrains et constructions est habituellement fondée sur le marché et déterminée 
+par une éval uation à dire d'expert généralement effectuée par de s é valuateurs professionnels 
+6 
+http://www.procomptable.com  
+qualifiés. La juste valeur des installations de production est habituellement leur valeur de marché 
+déterminée par évaluation à dire d'expert. 
+32 Dans le cas où la juste valeur d'une immobilisation corporelle ne peut être fondée sur le marché en 
+raison de la nature spécifique de l’immobilisation et du fait qu'elle est rarement vendue, sauf dans le 
+cadre d'un transfert de l'activité, une entreprise peut être amenée à estimer la juste valeur en utilisant 
+l'approche par le résultat ou l'approche du coût de remplacement net d'amortissement. 
+33 La fr équence des réévaluations dépend d es variations de la juste va leur d es immobilisations 
+corporelles à réév aluer. Lorsque la juste valeur d'un actif réévalué diffère significativement de sa 
+valeur comptable, une nouvelle réévaluation est nécessaire. Certaines immobilisations corporelles 
+peuvent connaître des va riations importantes e t v olatiles de leur ju ste v aleur, nécessitant un e 
+réévaluation annu elle. D'aussi fréquentes réévaluations ne sont p as nécessaires pour les 
+immobilisations corporelles qui enregistrent d es v ariations négligeables de leur ju ste v aleur. Au 
+contraire, il peut n'être nécessaire de réévaluer l'immobilisation corporelle que tous les trois ou cinq 
+ans. 
+34 Lorsqu'une immobilisation corporelle est réévaluée, s a valeur comptable est ajustée au montant 
+réévalué. À la date de réévaluation l'actif est traité de l'une des manières suivantes : 
+(a) la valeur comptable brute est ajustée d'une manière qui concorde avec la réévaluation d e la 
+valeur comptable de l'actif. Pa r exempl e, la valeur comptable brute p eut être retraitée par 
+référence à des données de marché observables o u au prorat a de la variation de la v aleur 
+comptable. Le c umul d es a mortissements à la date de réévaluation est aju sté pour qu'il 
+corresponde à la di fférence entre la valeur comptable brute de l'actif et s a valeur comptable 
+déduction faite du cumul des pertes de valeur ; 
+(b) le cumul des amortissements est déduit de la valeur comptable brute de l'actif. 
+Le montant de l'ajustement du cumul des amortissements fait partie de l'accroissement ou de la 
+diminution de la valeur comptable qui est traité selon les paragraphes 38 et 39. 
+35 Lorsqu'une immobilisation corporelle est réévaluée, toute la catégorie d'immobilisations 
+corporelles dont fait partie cet actif doit être réévaluée. 
+36 Une catégorie d’immobilisations corporelles est un regroupement d'actifs de nature similaire, utilisés 
+de manière similaire dans les activités d'une entreprise. On citera à titre d'exemples de catégories 
+distinctes 
+(a) terrains ; 
+(b) terrains et constructions ; 
+(c) machines ; 
+(d) navires ; 
+(e) avions ; 
+(1) véhicules à moteur ; agencements et aménagements ; 
+(g) équipements informatiques ; et 
+(h) mobilier et matériel de bureau. 
+37 Les éléments au sein d'une catégorie d'immobilisations corporelles sont réévalués simultanément 
+afin d'éviter un e réévaluation sélective des a ctifs e t la présentation d ans les états financiers de 
+montants qui représentent un mélange de coûts et de valeurs à des dates différentes. Toutefois, une 
+catégorie d'actifs peut être réévaluée par rou lement, à c ondition que la rééval uation de cette 
+catégorie d'actifs soit achevée dans un cou1t délai et que ces réévaluations soient tenues à jour. 
+38 Lorsque la valeur comptable d'un actif e st augmentée à la suite d'une réévaluation  
+l'augmentation doit être comptabilisé~ directement en capitaux propres sous le libellé écart 
+de réévaluation. Toutefois, une réévaluation positive doit être comptabilisée en produits dans 
+la mesure où elle comp ense une réévaluation négative du m ême actif antérieurement 
+comptabilisée en charges. 
+39 Lorsque, à la suite d'une réévaluation, la valeur comptable d'un actif diminue, cette diminution 
+doit être comptabilisée en charges. Toutefois, une réévaluation négative doit être directement 
+7 
+http://www.procomptable.com  
+imputée sur l'écart de réévaluation correspondant dans la mesure où c ette diminution 
+n'excède pas le montant comptabilisé en écart de réévaluation concernant le même actif. 
+40 L'écart de réévaluation compris dans les capitaux propres peut être transféré directement dans les 
+résultats reportés lorsque l'écart est réalisé. La totalité des écarts peut être réalisée lors de la mise 
+hors service ou de la sortie de l'actif. Toutefois, une part de l'écart peut être réalisée à mesure que 
+l'actif est utilisé par l'entreprise ; dans un tel cas, le montant de l'écart réalisé est la différence être 
+l'amortissement basé sur la valeur comptable réévaluée de l'actif et l'amortissement basé sur le coût 
+d'origine de !'actif. Le tra nsfert de l'écart de réévaluation aux résultats reportés ne passe pas par 
+l'état de résultat. 
+41 Les effets sur l'impôt sur le résultat qui pourraient éventuellement résulter de la réévaluation des 
+immobilisations c orporelles sont tr aités selon les règles comptables relatives à l'impôt sur les 
+résultats. 
+Amortissement 
+42 Le montant amortissabl e d'une immobilisation corporelle doit être r éparti de façon 
+systématique sur sa durée d'utilité. Le mode d 'amortissement utilisé doit  refléter le rythme 
+selon lequel les avantages économiques futurs liés à l'actif sont consommés par l'entreprise. 
+La dotation aux amortissements de chaque exercice doit être comptabilisée en charges à 
+moins qu'elle ne soit incorporée dans la valeur comptable d'un autre actif. 
+43 A mesure que les avantages économiques représentatifs d'un actif sont consommés par l’entreprise, 
+la valeur comptable de l 'actif est réduite pour refléter cette co nsommation, généralement en 
+constatant une dotation aux amortissements. Une dotation aux amortissements est constatée même 
+si la juste valeur de l'actif est supérieure à sa valeur comptable. 
+44 Les avantages économiques repr ésentatifs d'une immobilisation corporelle sont consommés par 
+l'entreprise principalement à travers l'utilisation de cet actif. Toutefois, d'autres facteurs, tels que 
+l'obsolescence technique et l'usure d 'un actif alors qu 'il reste  inutilisé, conduisent souvent à la 
+diminution des avantages économiques auxquels on aurait pu s'attendre à disposer grâce à cet actif. 
+En conséquence, l'ensemble des facteurs suivants doit être pris en considération pour déterminer la 
+durée d'utilité d'un actif : 
+(a) l'usage attendu de cet actif par l'entreprise. Cet usage est évalué par référence à la capacité ou 
+à la production physique attendue de cet actif ; 
+(b) l'usure physique attendue, qui dépend des facteurs d'activité telles que les cadences auxquelles 
+est utilisé l'actif et le programme d e maintenance de l'entreprise, et les soins appor tés et la 
+maintenance de l'actif en dehors de sa période d'utilisation ; 
+(c) l'obsolescence technique découlant de changements ou d'améliorations dans la production, ou 
+d'une évolution de la demande du marché pour le produit ou le service fourni par l’actif ; et 
+(d) les limites juridiques ou similaires sur l'usage de l'actif, telles que les dates d'expiration de s 
+contrats de location. 
+45 La durée d'utilité d'un actif est définie en fonction de l’utilité attendue de cet actif pour l’entreprise. La 
+politique de gestion des actifs d’une entreprise peut faire intervenir la sortie d’actifs au bout d'un délai 
+précis ou après consommation d'une certaine quantité d’avantages économiques représentatifs de 
+cet actif. En conséquence, la durée d'utilité d'un actif peut être plus courte que sa vie économique. 
+L'estimation de la durée d'utilité d’une immobilisation corporelle est affaire de jugement basé sur 
+l'expérience qu’a l'entreprise avec des actifs similaires. 
+46 Les terrains et les constructions sont des actifs distincts, traités séparément en comptabilité même 
+lorsqu’ils sont acquis ensemble. Sauf quelques exceptions, telles que des carrières et des sites de 
+décharge, les terrains ont une durée d’utilité illimitée et ne sont donc pas amortis. Les constructions 
+ont une durée d'utilité limitée et sont, en conséquence, des actifs amortissables. Une augmentation 
+de la valeur du terrain sur lequel est édifiée une construction n’affecte pas l a détermination du 
+montant amortissable de la construction. 
+47 Lorsque des coûts de démantèlement, d'enlèvement et de remise en état du site sont incorporés au 
+coût d'un terrain, cette partie du terrain est amortie sur la durée des avantages obtenus en engageant 
+ces coûts. Dans certains cas, le terrain lui-même peut avoir une durée d’utilité limitée, auquel cas il 
+est amorti d'une manière reflétant les avantages qui doivent en être retirés. 
+8 
+http://www.procomptable.com  
+48 Le montant amortissable d'un actif est déterminé après déduction de la valeur résiduelle de l'actif. 
+Dans la pratique, la valeur résiduelle d'un actif est souvent peu importante et en conséquence, est 
+insignifiante dans le calcul du montant amortissable. Lorsque modèle du coût est adopté et qu'il est 
+probable que la valeur résiduelle sera importante, la valeur résiduelle es t estimée à la date 
+d'acquisition et n'est pas ultérieurement augmentée des changements de prix. Toutefois, lorsque le 
+modèle de réévaluation est adopté, une nouvelle estimation est faite à la date de toute réévaluation 
+ultérieure de  l'actif. Cette estimation est basée sur la valeur résiduelle constatée à la dat e de 
+l'estimation pour des actifs similaires qui sont parvenus à la fin de leur durée d'utilité et qui ont été 
+exploités dans des conditions similaires à celles dans lesquelles l'actif sera utilisé. 
+49 Différents mode s d'amo1tissement peuvent être utilisés pour répartir de fa çon systématique le 
+montant amortissable d'un actif sur sa durée d'utilité. Ces modes incluent le mode linéaire, le mode 
+dégressif, le mode des unit és de production. L'amortissement linéaire conduit à une charge 
+constante sur la durée d'utilité de l'actif. Le mode dégressif conduit à une charge décroissante sur la 
+durée d'utilité de l'actif. Le mode des uni tés de production donne lieu à une charge basée sur 
+l'utilisation ou la production prévue de l'actif. L'entreprise sélectionne le mode qui reflète le plus 
+étroitement le rythme attendu de consommation des avantages économiques futurs représentatifs 
+de l'actif. Ce mode d’amortissement est appliqué de manière cohérente d’un exercice à l'autre, sauf 
+en cas de changement du rythme attendu de consommation de ces avantages économiques futurs. 
+50 La dotation aux amortissements pour un exercice est en général comptabilisée en charges. Il arrive 
+toutefois que les avantages économiques futurs représentatifs d 'un actif soient absorbés dans la 
+production d'autres actifs. Dans ce cas, la dotation aux amortissements fait partie du coût de l’autre 
+actif et est incluse dans sa valeur comptable. A titre d’exemple, l'amortissement des installations de 
+production est inclus dans les coûts de fabrication des stocks (voir la norme comptable NC 04 relative 
+aux Stocks). De même, l'amortissement des immobilisations corporelles utilisées pour les activités 
+de développement peut être inclus dans les dépenses de développement qui sont comptabilisées 
+selon la norme comptable NC 20 relative aux dépenses de recherche et de développement. 
+Réexamen de la durée d'utilité 
+51 La durée d'utilité d'une immobilisation corporelle doit être réexaminée périodiquement et, si 
+les prévisions sont sensiblement différentes des e stimations antérieures, la dotation aux 
+amortissements de l'exercice en cours et des exercices futurs doit être ajustée. 
+52 Au cours de l'utilisation d'un actif il peut devenir apparent que l'estimation de sa durée d'utilité est 
+inappropriée. Par exemple, la durée d'utilité peut être allongée du fait de dépenses ultérieures sur 
+l'actif qui améliorent l'état de cet actif au-delà de son niveau de performance défini à l'origine. A 
+contrario, des changements technologiques ou des évol utions du mar ché des produits 
+correspondants peuvent réduire la durée d'utilité de l'actif. Dans de tels cas, la durée d'utilité et, en 
+conséquence, le taux d'amortissement sont aj ustés pour l'e xercice en cours et l es exe rcices 
+suivants. 
+53 La politique de réparation et de maintenance de l'entreprise peut également affecter la durée d'utilité 
+d'un actif. Cette politique peut conduire à une extension d e la durée d'utilit é d'un actif ou à un 
+accroissement de sa valeur résiduelle. Toutefois, l'adoption d'une telle politique ne supprime pas la 
+nécessité de constater des dotations aux amortissements. 
+Réexamen du mode d'amortissement 
+54 Le mode d'amortiss ement appliqué aux immobilisations corporell es doit être réexaminé 
+périodiquement et, en cas de modification importante du rythme attendu d'avantages 
+économiques découlant de ces actifs, le mode doit être modifié pour refléter ce changement 
+de rythme. Ce changement doit être comptabilisé comme un changement d'estimation 
+comptable selon la norme comptable NC 11 relative aux Modifications comptables. 
+Dépréciation 
+55 Lorsque des circonstances ou événements particuliers la issent à penser que la valeur 
+comptable ne pourra pas être récupérée par les résultats futurs provenant de son utilisation, 
+auquel cas il y a lieu de ramener la valeur de l'actif à sa valeur récupérable.  Cette réduction 
+est une perte de valeur et doit être comptabilisée immédiatement en charges, à moins qu'elle 
+ne compense une réévaluation antérieure, auquel cas elle doit être imputée aux capitaux 
+propres conformément au paragraphe 39. 
+9 
+http://www.procomptable.com  
+56 Une perte de valeur d'un actif non réévalué est comptabilisée en charges en réduisant la valeur brute 
+de l'immobilisation ou par la constitution d'une provision s'il est jugé qu'elle n'est pas irréversible. En 
+revanche, une perte de valeur d'un actif réévalué est co mptabilisée en capitaux propres dans la 
+mesure où la p erte de valeur n’excède pas le montant de l’écart de réévaluation relatif à cet actif. 
+Cette perte de valeur sur un actif réévalué réduit l'écart de réévaluation relatif à cet actif. 
+57 A titre d'exemple, les événements ou circonstances suivants peuvent amener l'entreprise à constater 
+une dépréciation : 
+(a) baisse significative de la valeur de marché d'un actif ; 
+(b) évolution importante et défavorable de la législation ou de l'environnement économique affectant 
+la valeur de l'actif ; et 
+(c) accumulation des coûts de loin supérieure aux montants initialement estimés pour la fabrication 
+ou l'acquisition d'un élément d'actif. 
+58 Si l'entreprise rencontre une des situations analogues ou d'autres situations de nature à engendrer 
+une réduction de valeur de l'actif, elle doit estimer le montant des cash-flows futurs actualisés qui 
+seront générés par l'utilisation de l'actif et son éventuelle cession. Dans ce cas, la valeur récupérable 
+de l’actif correspond à la valeur actualisée des cashflows futurs. Lorsque la valeur actualisée des 
+cash-flows futurs est difficile à déterminer, la valeur récupérable de l’actif correspond, alors à sa juste 
+valeur. La juste valeur est déterminée par référence au prix de marché, s'il existe un marché actif 
+pour l'immobilisation, ou si ce prix ne peut être obtenu, par référence à un prix d'un actif équivalent, 
+ou par référence à d'autres techniques d'évaluation, s'il n'est pas possible de se référer à un prix de 
+marché. 
+59 La valeur r écupérable d ’actifs individuels ou d’un groupe d’actifs similaires est déterminée  
+séparément et la valeur comptable est réduite à cette valeur. Toutefois, il peut se présenter des cas 
+où il n’est pas possible d’évaluer la valeur récupérable d'un actif sur cette base, par exemple lorsque 
+toutes les installations de production d’une usine sont utilisées pour le même objectif. Dans un tel 
+cas, la valeur comptable de chacun des actifs correspondants est réduite, proportionnellement à la 
+baisse globale de la valeur récupérable du plus petit regroupement d’immobilisations pour lesquelles 
+il est possible d’effectuer une évaluation de la valeur récupérable. 
+60 Le montant d es cash-flows futurs est déterminé sur la durée d’utilité de l'actif restant à courir de 
+l'immobilisation. Il est déterminé par ensemble d'immobili sations le plus réduit possible, à partir 
+duquel il est possible de mettre en évidence un flux de trésorerie indépendant des flux liés à d'autres 
+immobilisations. Pour le calcul des cash-flows, les charges financières ne sont pas prises en compte. 
+Le montant des cash-flows est augmenté de la valeur résiduelle de sortie de l’actif 
+61 Le montant des cash-flows est déterminé à partir de projections et d'hypothèses raisonnablement 
+justifiées. 
+L'estimation des cash-flows peut se faire à l'aide d'une fourchette de prévisions auxquelles 
+l'entreprise applique une probabilité de réalisation, en fonction du caractère objectivement vérifiable 
+des hypothèses retenues. 
+62 Après la comptabilisation d'une perte de valeur, la dotation aux amortissements de l'actif doit 
+être ajustée pour les exercices futurs, afin que la valeur comptable révisée de l'actif, diminuée 
+de sa valeur résiduelle (s'il y a lieu), puisse être répartie de façon systématique sur sa durée 
+d'utilité restant à courir. 
+Reprise d'une perte de valeur 
+63 Une perte de valeur comptabilisée au cours d'exercices antérieurs pour un actif doit être 
+reprise si, et seulement si, il y a eu un changement dans l es es timations utilis ées pour 
+déterminer la valeur récupérable de l'actif depuis la dernière comptabilisation d'une perte de 
+valeur. Si tel est le cas, la valeur comptable de l'actif doit être augmentée à hauteur de sa 
+valeur récupérable, sous réserve de s dispositions décrites au paragraphe 66. Cette 
+augmentation constitue une reprise de perte de valeur. 
+64 Une reprise de pe1te de valeur reflète une augmentation du potentiel de service estimé d'un actif, 
+résultant soit de son utili sation, soit de s a vente, depuis la date à laquelle une entreprise a 
+comptabilisé pour la dernière fois une perte de valeur pour cet actif. Le paragraphe 105 impose à 
+une entreprise d’identifier le changement d’estimation qui conduit à l’augmentation du potentiel de 
+service estimé. Des exemples de changements d’estimation incluent : 
+10 
+http://www.procomptable.com  
+(a) un changement de la base utilisée pour la détermination de la  valeur récupérable (cette base 
+pouvant être soit la valeur actualisée des cashflows futurs ou la juste valeur) ;  
+(b) si la valeur récupérable était fondée sur la valeur actualisée des cashflows futurs, un changement 
+du montant ou de l'échéancier des flux de trésorerie futurs estimés ou du taux d’actualisation ; ou 
+(c) si la valeur récupérable était fondée sur la juste valeur, un changement d’estimation de la juste 
+valeur. 
+65 La valeur actualisée des cash-flows futurs d’un actif peut devenir supérieure à sa valeur comptable 
+simplement parce que cette valeur augmente au fur et à mesure que entrées de trésorerie futures 
+se rapprochent. Toutefois, le potentiel de service de l'actif n'a pas augmenté. Par conséquent, une 
+perte de valeur n’est pas reprise du si mple fait du passage du temps (parfois nommé « 
+désactualisation ») même si la valeur récupérable de l'actif devient supérieure à sa valeur comptable. 
+Reprise d'une perte de valeur d'un actif pris individuellement 
+66 La valeur comptable d'un actif augmentée en raison de la reprise d'une perte de valeur ne doit 
+pas être supérieure à la valeur comptable qui aurait été déterminée ( nette des 
+amortissements) si aucune perte de valeur n'avait été comptabilisée pour cet actif au cours 
+d'exercices antérieurs. 
+67 Toute augmentation de la valeur comptable d'un actif au-delà de la valeur comptable qui aurait été 
+déterminée (n ette des amortissements) si aucune perte de valeur n’avait été comptabilisée pour 
+l’actif au c ours d’exercices antérieurs e st une réé valuation comptabilisée se lon l e modèle de 
+réévaluation prévu par la présente norme. 
+68 Une reprise de perte de valeur d'un actif doit être immédiatement comptabilisée en produits, 
+sauf si l'actif est comptabilisé pour son montant réévalué conformément au paragraphe 30. 
+Toute reprise d'une perte de valeur d’un actif réévalué doit être traitée comme une 
+réévaluation positive selon le paragraphe 38. 
+69 Une reprise d’une perte de valeur d'un actif réévalué est comptabilisée dans les capitaux propres et 
+augmente !'écart de réévaluation pour cet actif. Toutefois, dans la mesure où une perte de valeur 
+relative à ce même actif réévalué a été antérieurement comptabilisée en charges, une reprise de 
+cette perte de valeur est comptabilisée en produits. 
+70 Après la comptabilisation d'une reprise de perte de valeur, la dotation aux amortissements de l'actif 
+doit être ajustée pour les exercices futurs, afin que la valeur comptable révisée de l'actif , diminuée 
+de sa valeur résiduelle (s'il y a lieu), soit répartie de façon systématique sur la durée d’utilité restant 
+à courir. 
+Reprise d'une perte de valeur d'un regroupement d'immobilisations 
+71 Lorsque l'entreprise applique le  paragraphe 59 ci-dessus, la reprise d'une perte de valeur 
+comptabilisée sur le plus petit regroupement d'immobilisations pour lesquelles il est possible 
+d'effectuer une évaluation de la valeur récupérable doit être répartie entre les actifs 
+correspondants au prorata des valeurs comptables de ces actifs.  Ces augmentations de 
+valeurs comptables doivent être traitées comme des reprises de pertes de valeur d'actifs pris 
+individuellement et comptabilisées selon le paragraphe 66. 
+72 Lors de la répartition d'une reprise de perte de valeur selon le paragraphe 71, la valeur 
+comptable d'un actif ne doit pas être augmentée au-delà du plus faible : 
+(a) de sa valeur récupérable (si on peut la déterminer) ; et 
+(b) de la valeur comptable qui aurait été déterminée (nette des amortissements) si aucune 
+perte de valeur n'avait été comptabilisée pour l'actif au cours d'exercices antérieurs. 
+Le montant de la perte de valeur qui, sinon, aurait été affecté à l'actif , doit être réparti au 
+prorata entre les autres actifs du plus petit regroupement d'immobilisations pour lesquelles 
+il est possible d'effectuer une évaluation de la valeur récupérable. 
+Indemnisations liées à la dépréciation 
+73 Les indemnisations accordées par des tiers relativement à des immobilisations 
+corporelles dépréciées, perdues ou cédées doivent être incluses dans le résultat lorsqu'elles 
+deviennent exigibles. 
+11 
+http://www.procomptable.com  
+74 Les dépréciations ou p ertes d’immobilisations corporelles, les demandes de règlement ou le  
+paiement d’indemnités liées provenant de tiers, et tout achat ou construction ultérieurs d’actifs de 
+remplacement sont d es événements économiques indépendants e t d oivent être comptabilisés 
+séparément de la façon suivante 
+(a) les dépréciations d’immobilisations corporelles sont comptabilisées selon la présente norme ; 
+(b) la décomptabilisation d’immobilisations corporelles mises hors service ou sotties est déterminée 
+selon la présente norme ; 
+(c) les indemnisations accordées par de s tiers r elativement à des immobilisations c orporelles 
+dépréciées, perdues ou cédées sont incluses dans le résultat lorsqu’elles deviennent exigibles ; 
+et 
+(d) le c oût des immobilisations corporelles restaurées, acquises ou construites a u titre de 
+remplacement est déterminé selon la présente norme. 
+Décomptabilisation 
+75 La valeur comptable d’une immobilisation corporelle doit être décomptabilisée : 
+(a) lors de sa sortie ; ou 
+(b) lorsqu'aucun avantage économique futur n’est attendu de son utilisation ou de sa sortie. 
+76 Le profit ou la perte résultant de la décomptabilisation d'une immobilisation corporelle doit 
+être inclus dans le résultat lors de la décomptabilisation de l'élément (sauf si la norme 
+comptable NC 41 relative aux Contrats de location impose un traitement différent en cas de 
+cession-bail). Les profits ne doivent pas être classés en revenus. 
+77 Cependant, une entreprise qui, dans le cadre de ses activités ordinaires, vend habituellement des 
+immobilisations corporelles détenues en vue de la location à d’autres, doit transférer ces actifs vers 
+les stocks à leur valeur comptable lorsqu’ils cessent d’être loués et deviennent détenus en vue de la 
+vente. Les produits de la vente de ces actifs doivent être comptabilisés en revenus, conformément 
+à la norme comptable NC 03 relative aux Revenus. 
+78 La sortie d'une immobilisation corporelle peut intervenir de différentes manières (par exemple par 
+voie de v ente, de co nclusion d 'un contrat de location-financement ou d e donation). Lors d e la 
+détermination de la date de sortie d'un élément, l'entreprise applique les critères énoncés dans la 
+norme comptable NC 03 relative aux Revenus pour comptabiliser le produit provenant de la vente 
+de b iens. La norm e co mptable NC 41 relative aux Contrats de location s'applique aux so rties 
+résultant d'une cession-bail. 
+79 Si, selon le principe de comptabilisation énoncé au paragraphe 8, une entreprise comptabilise dans 
+la valeur comptable d’une immobilisation corporelle le coût de remplacement d'une partie de celle-
+ci, elle décomptabilise la valeur comptable de la partie remplacée, que cette dernière ait ou non été 
+amortie séparément. S'il n'est pas praticable pour une entreprise de déterminer la valeur comptable 
+de la partie remplacée, elle peut utiliser le coût de remplacement comme indication de ce que le coût 
+de la partie remplacée était au moment de son acquisition ou de sa production. 
+80 Le profit ou la perte résultant de la décomptabilisation d'une immobilisation corporelle doit 
+être déterminé comme la différence entre le produit net de la sortie, le cas échéant, et la valeur 
+comptable de l'immobilisation corporelle. 
+81 La c ontrepartie à recevoir lors de la sortie d’une immobilisation corporelle es t initialement 
+comptabilisée à sa juste v aleur. Si  le r èglement de l'immobilisation corporelle es t différé, la 
+contrepartie reçue est comptabilisée initialement au prix comptant équivalent. La différence entre le 
+montant nominal de la contrepartie e t le prix co mptant équivalent est comptabilisée en produit s 
+financiers selon la norme comptable NC 03 relative aux Revenus, reflétant le rendement effectif de 
+la créance. 
+Passifs re latifs au démantèlement ou à la remise en état et autres passifs 
+similaires 
+82 Un passif relatif au démantèlement ou à la remise en état ou un autre passif similaire peut exister, 
+par exemple, pour le démantèlement d’une usine, la réhabilitation de dommages environnementaux 
+dans des industries extractives, ou l'enlèvement de matériel. 
+12 
+http://www.procomptable.com  
+Comptabilisation 
+83 Une obligation qu'une entreprise contracte soit du fait de l'acquisition d'une immobilisation 
+corporelle, soit du fait de son utilisation pendant une dur ée spécifique , donne lieu à la 
+comptabilisation, au passif, d'une provision lorsque : 
+(a) L'entreprise a une obliga tion actuelle juridique ou implicite) résultant d'un événement 
+passé ; 
+(b) il est probable qu'une sortie de ressources représentatives d'avantages économiques sera 
+nécessaire pour éteindre l'obligation ; et 
+(c) le montant de l'obligation peut être estimé de manière fiable. 
+Si ces conditions ne sont pas réunies, aucune provision pour coûts relatifs au démantèlement 
+et à l'enlèvement de l'immobilisation et à la remise en état du site sur lequel elle est située ne 
+doit être comptabilisée. 
+Evaluation 
+Meilleure estimation 
+84 Le montant comptabilisé en provision pour coûts relatifs au démantèlement et à l'enlèvement 
+de l'immobilisation et à la remise en état du site sur lequel elle est située doit être la meilleure 
+estimation de la dépense nécessaire à l'extinction de l'obligation actuelle à la fin de l'exercice. 
+85 La meilleure estimation de la dépense imposée par l'extinction de l'obligation actuelle est le montant 
+que 1’entreprise devrait raisonnablement payer pour éteindre son obligation à la date de clôture ou 
+pour la transférer à un tiers à ce tte même date. Éteindre ou transférer une obligation à la fin de 
+l’exercice sera bien souvent impossible ou d’un coût prohibitif. Toutefois, l'estimation du montant que 
+l'entreprise devrait raisonnablement payer pour éteindre son obligation ou la tran sférer fournit la 
+meilleure estimation de la dépense à engager pour éteindre l’obligation actuelle à la fin de l’exercice. 
+86 Les estimations du résultat et de l'effet financier sont déterminées à partir du jugement de la direction 
+de l’entreprise, complétées par l’expérience de transactions similaires et, dans certains cas, par des 
+rapports d 'experts indépendants. L es indications disponibles englobent toute indication 
+complémentaire fournie par des événements posté1ieurs à la date de clôture. 
+Risques et incertitudes 
+87 Les risques et incertitudes qui affectent inévitablement de nombreux événements et 
+circonstances doivent être pris en compte  pour parvenir à la meilleure estimation  d'une 
+provision pour coûts relatifs au  démantèlement et à l'enlèvement de l'immobilisation et à la 
+remise en état du site sur lequel elle est située. 
+Valeur actualisée 
+88 Le mon tant de la provision pour coûts relatifs au démantèlement et à l'enlèvement de 
+l'immobilisation et à la remise en état du site sur lequel elle est située doit être la valeur 
+actualisée des dépenses attendues que l'on pense nécessaires pour éteindre l'obligation. 
+89 Le ou les taux d'actualisation doivent être des taux avant impôts reflétant les  évaluations 
+actuelles par le marché de la valeur temps de l'argent et des risques spécifiques à ce passif. 
+Les taux d'actualisation ne doivent pas refléter les  risques pour lesquels les estimations de 
+flux de trésorerie futurs ont été ajustées. 
+Événements futurs 
+90 Les événements futurs pouvant avoir un effet sur le montant nécessaire à l'extinction d'une 
+obligation doivent être traduits dans le montant de la provision lorsqu'il existe des indications 
+objectives suffisantes que ces événements se produiront. 
+91 Les évé nements futurs attendus peuvent être particulièrement im portants pour l’évaluation des 
+provisions pour coûts relatifs au démantèlement et à l'enlèvement de l’immobilisation et à la remise 
+en état du site sur lequel elle est située. Une entreprise peut penser, par exemple, que le coût de 
+décontamination d 'un site à la fin de sa durée d’utilisation sera diminué par des progrès  
+technologiques futurs. L e montant comptabilisé reflète une atte nte raiso nnable d'observateurs 
+objectifs et techniquement qualifiés, prenant en compte tous les éléments probants dont ils disposent 
+quant à l’état de la technologie au moment de la décontamination. Il convient donc d’inclure, par 
+13 
+http://www.procomptable.com  
+exemple, les réductions de coûts attendues du fait d’une plus grande expérience de l'application 
+d'une technologie exis tante ou le coût attendu de l’application d 'une technologie existante à une 
+opération de décontamination plus importante  ou plus complexe que celles e ffectuées 
+précédemment. Toutefois, une e ntreprise n’anticipe pas la mise au point d 'une technologie 
+entièrement nou velle de décontamination sauf si elle s’appuie sur des indications objectives 
+suffisantes. 
+Sortie attendue d'actifs 
+92 Les profits résultant de la sortie attendue d'actifs ne doivent pas être pris en compte  dans 
+l'évaluation d'une provision pour  coûts relatifs au démantèlement et à l'enlèvement de 
+l'immobilisation et à la remise en état du site sur lequel elle est située. 
+93 Les profits sur la sortie attendue d’actifs ne sont pas pris en compte dans l’évaluation d'une provision 
+coûts relatifs au démantèlement et à l’enlèvement de l'immobilisation et à la remise en état du site 
+sur lequel elle est située même si la sortie attendue est étroitement liée à l'événement ayant donné 
+lieu à la provision. À la place, !'entreprise comptabilise les profits sur les sorties attendues d’actifs à 
+la date spécifiée par la norme comptable traitant des actifs concernés. 
+Variation des passifs existants relatifs au démantèlement ou à la remise en 
+état et des autres passifs similaires 
+94 Les événements suivants modifient l’évaluation d'un passif existant relatif au démantèlement ou à la 
+remise en état ou d'un autre passif similaire : 
+(a) une variation des sorties estimées de ressources représentatives d'avantages économiques (par 
+exemple flux de trésorerie) nécessaires pour éteindre l'obligation ; 
+(b) une variation du taux d’actualisation courant fondé sur le marché tel que prévu au paragraphe 89 
+(ceci inclut des variations de la valeur temps de l'argent et les risques spécifiques au passif) ; et 
+(c) une augmentation qui reflète le passage du temps (désignée aussi comme la désactualisation). 
+95 Les variations de l'évaluation d'un passif existant relatif au démantèlement ou à la remise en état ou 
+d'un autre passif similaire qui résultent des variations de l'échéancier ou du montant estimé des 
+sorties de re ssources représentatives d ’avantages économiques  nécessaires pour éteindre 
+l'obligation, ou une variation du taux d’actualisation, doivent être comptabilisées selon l es 
+paragraphes 96 à 98 ci-dessous. 
+96 Si l’actif lié est évalué en utilisant le modèle du coût : 
+(a) sous réserve de l'alinéa (b), les variations du passif doivent être ajoutées au ou déduites du coût 
+de l'actif lié dans l’exercice considéré ; 
+(b) le montant déduit du coût de l'actif ne doit pas excéder sa valeur comptable. Si une diminution 
+du passif excède la valeur comptable de l’actif, l’excédent doit être immédiatement comptabilisé 
+en produits ; 
+(c) si l’ajustement résulte en un ajout au coût d'un actif, l'entreprise doit examiner si ceci est une 
+indication que la nouvelle valeur comptable de l'actif peut ne pas être entièrement récupérable. 
+S’il existe une telle indication, l'entité doit tester l'actif pour dépréciation en estimant sa valeur 
+récupérable, et doit comptabiliser toute perte de valeur selon cette norme. 
+97 Si l’actif lié est évalué en utilisant le modèle de la réévaluation : 
+(a) le s variations du passif modifient l'excédent ou le déficit de réévaluation précédemment 
+comptabilisé sur cet actif, si bien que : 
+(i) une diminution du passif doit (sous réserve de l’alinéa (b)) être comptabilisée dans les capitaux 
+propres et augmenter l’excédent de réévaluation, sauf si elle doit être comptabilisée en produits 
+dans la mesure où  elle r eprend un déficit de réévaluation sur l'actif qui était précédemment 
+comptabilisé en charges ; 
+(ii) une augmentation du pas sif doit être com ptabilisée e n charges, sauf si elle doit être 
+comptabilisée dans les capitaux propres et réduire l’excédent de réévaluation à concurrence de 
+tout solde créditeur existant dans l'excédent de réévaluation concernant cet actif ; 
+14 
+http://www.procomptable.com  
+(b) dans le cas où une diminution du passif excéderait la valeur comptable qui aurait été constatée 
+si l’actif avait  été co mptabilisé se lon le modèle du coût, l'excèdent doit être immédiatement 
+comptabilisé en produits ; 
+(c) une variation du passif est une indication que l’actif peut avoir été réévalué afin de s’assurer que 
+la valeur comptable ne diffère pas de façon significative de celle qui aurait été déterminée en 
+utilisant la juste valeur à la fin de l'exercice. Une telle réévaluation doit être prise en compte en 
+déterminant les montants à comptabiliser en résultat ou dans les capitaux propres selon l’alinéa 
+(a) Si une réévaluation est nécessaire, tous les actifs de cette catégorie doivent être réévalués. 
+98 Le montant amortissable ajusté de l’actif est amorti sur sa durée d'utilité. Par conséquent, une fois 
+que l'actif correspondant a atteint la fin de sa durée d’utilité, toutes les variations ultérieures du passif 
+doivent être comptabilisées en résultat au fur et à mesure qu'elles se produisent. Ceci s'applique 
+tant selon le modèle du coût que selon le modèle de la réévaluation. 
+99 La désactualisation périodique doit être comptabilisée en résultat en tant que coût financier au fur et 
+à mesure. L’incorporation au coût de l'actif selon la norme comptable NC 13 relative aux Charges 
+d'emprunts n’est pas autorisée. 
+Informations à fournir 
+100 Les états financiers doivent indiquer, pour chaque catégorie d'immobilisations      
+corporelles : 
+(a) les conventions d'évaluation utilisées pour déterminer la valeur comptable brute ;  
+(b) les modes d'amortissement utilisés ; 
+(c) les durées d'utilité ou les taux d'amortissement utilisés ;  
+(d) la valeur compta hie brute et le cumul des amortissements (ajouté aux cumuls des pertes 
+de valeur) à l'ouverture et à la clôture de l'exercice ;  
+(e) et un rapprochement entre les valeurs comptables à l'ouverture et à la clôture de l'exercice, 
+faisant apparaître : 
+(i) les entrées, 
+(ii) les sorties, 
+(iii) les acquisitions par voie de regroupements d'entreprises, 
+(iv) les augmentations ou les diminutions résultant des r éévaluations décrites aux 
+paragraphes 30, 38 et 39 et des pertes de valeur comptabilisées ou reprises dans l es 
+capitaux propres selon cette norme, 
+(v) les pertes de valeur comptabilisées en charges selon cette norme, 
+(vi) les pertes de valeur faisant l'objet d'une reprise en produits selon cette norme, 
+(vii) les amortissements, et 
+(viii) les autres variations. 
+101 Les états financiers doivent également indiquer : 
+(a) l'existence et les montants des restrictions sur les immobilisations corporelles données 
+en nantissement de dettes 
+(b) le montant des dépenses comptabilisées dans la valeur comptable d'une immobilisation  
+corporelle en cours de construction ; 
+(c) le montant des engagements contractuels pour l'acquisition d'immobilisations corporelles 
+; et 
+(d) s'il n'est pas présenté séparément dans l'état de résultat, le montant des indemnisations 
+accordées par des tiers relativem ent à des immobilisations corporelles dépréciées, 
+perdues ou cédées qui sont incluses dans le résultat. 
+102 Le choix du mode d’amortissement et l'estimation de la durée d’utilité des actifs sont affaire de 
+jugement. En conséquence, l'indication des modes adoptés, des durées d’utilité estimées ou des 
+taux d’amortissement apporte aux utilisateurs des états financiers des informations leur permettant 
+15 
+http://www.procomptable.com  
+d'examiner les politiques retenues par les dirigeants et permettant la comparaison avec d’autres 
+entreprises. Pour les mêmes motifs, il est nécessaire d’indiquer : 
+(a) l'amortissement, qu'il soit comptabilisé en résultat ou dans le coût d’autres actifs, au cours d 'un 
+exercice ; et 
+(b) l'amortissement cumulé à la clôture de l'exercice. 
+103 Selon la norme comptable NC 11 relative aux Modifications comptables, une entreprise indique la 
+nature et l'effet d'un changement dans une estimation comptable ayant une incidence sur l'exercice 
+en cours o u dont il est prévu qu’il aura une incidence sur des  exercices ultérieurs. Pour les 
+immobilisations corporelles, l’obligation de fournir ces informations peut résulter de changements 
+dans les estimations concernant : 
+(a) les valeurs résiduelles ; 
+(b) les coû ts estimés de démantèlement , d’enlèvement ou de remise en état d’immobilisations 
+corporelles ; 
+(c) les durées d’utilité ; et 
+(d) les modes d’amortissement. 
+104 Lorsque les immobilis ations corporelles sont inscrites à leur montant réévalué, les 
+informations suivantes doivent être fournies : 
+(a) la date d'entrée en vigueur de la réévaluation ; 
+(b) le recours ou non à un évaluateur indépendant ; 
+(c) les méthodes et les hypothès es importantes retenues pour  estimer la juste valeur des 
+immobilisations corporelles ; 
+(d) la mesure dans laquelle les justes valeurs des immobilisations corporelles ont été soit 
+déterminées par référence directe à des prix observables sur un marché actif ou dans des 
+transactions récentes sur le marché dans d es conditions de concurrence normale, soit 
+estimées par d'autres techniques d'évaluation ; 
+(e) pour chaque catégorie d'immobilisations corporelles réévaluées, la valeur comptable qui 
+aurait été comptabilisée si les actifs avaient été comptabilisés selon le modèle du coût ; et 
+(f) l'écart de réévaluation, en indiquant les variations de l’exercice ainsi que toute restriction 
+sur la distribution de cet écart aux associés. 
+105 En plus des informations imposées par le paragraphe 100 (e) (iv) à (vi), une entreprise doit 
+fournir les informations suivantes pour chaque perte de valeur significative comptabilisée ou 
+reprise au cours de l'exercice concernant un actif pris individuellement ou un regroupement 
+d’immobilisations visé aux paragraphes 59, 7l et 72 : 
+(a) les événements et circonstances qui ont conduit à comptabiliser ou  à reprendre la perte 
+de valeur ; 
+(b) le montant de la perte de valeur comptabilisée ou reprise ; 
+(c) pour un actif pris individuellement, la nature de l'actif ;  
+(d) pour un regroupement d'immobilisations vise aux paragraphes 59, 71 et 72 : 
+(i) le montant de la perte de valeur comptabilisée ou reprise par catégorie d'actifs, et 
+(ii) si le regroupement d'immobilisations a changé depuis l'estimation précédente de sa 
+valeur récupérable (le cas échéant), une description du mode actuel et du mode antérieur 
+de regroupement d'immobilisations ainsi que les raisons ayant conduit à changer le mode 
+d'identification de ce regroupement ;  
+(e) si la valeur récupérable de l'actif (du regroupement d'immobilisations vise aux  
+paragraphes 59, 71 et 72) est sa juste valeur ou sa valeur actualisée des cash-flows futurs 
+; 
+16 
+http://www.procomptable.com  
+(f) lorsque la valeur récupérable est la juste valeur, la base utilisée pour déterminer la juste 
+valeur (par exemple, la juste valeur a-t-elle été déterminée en faisant référence à un marché 
+actif ?) ;  
+(g) lorsque la valeur récupérable est la valeur actualisée des cash-flows futurs, le ou les taux 
+d'actualisation utilisés d ans l'estimation actuelle et dans l'estimation précédente (le cas  
+échéant) de la valeur actualisée des cash-flows futurs. 
+106 Une entreprise doit communiquer les informations suivantes concernant le total des pertes 
+de valeur et le total des reprises de pertes de valeur comptabilisées au cours de l'exercice au 
+titre desquelles aucune information n'est fournie selon le paragraphe 105 : 
+(a) les principales catégories d'actifs affectés par l es pertes de valeur et les principales 
+catégories d'actifs affectés par les reprises de pertes de valeur ; 
+(b) les principaux événements et circonstances qui ont conduit à comptabiliser ces pertes de 
+valeur et ces reprises de pertes de valeur. 
+107 Les utilisateurs des états financiers peuvent trouver les informations sui vantes également adaptées 
+à leurs besoins : 
+(a) la valeur comptable des immobilisations corporelles temporairement inutilisées ; 
+(b) la valeur comptable brute de toute immobilisation corporelle entièrement amortie qui est encore 
+en usage ; 
+(c) la valeur comptable des immobilisations corporelles mises hors service ; et 
+(d) lorsque le modèle du coût est utilisé, la juste valeur des immobilisations corporelles lorsque celle-
+ci diffère de façon significative de la valeur comptable. 
+Les entreprises sont en conséquence encouragées à fournir ces montants. 
+Dispositions transitoires 
+108 L'entreprise qui optera, pour la première fois, pour le modèle de réévaluation prévu par la 
+présente norme, doit l'appliquer de manière prospective. 
+109 Les changements de méthodes comptables, relatives à la comptabilisation et à l'évaluation 
+des coûts relatifs au démantèlement et à l'enlèvement d'une immobilisation et à la remise en 
+état du site sur lequel elle est située ainsi qu'aux passifs correspondants et à leur variation, 
+doivent être comptabilisés selon les dispositions de la norme comptable NC 11 relative aux 
+Modifications comptables. 
+Date d'entrée en vigueur 
+110 La présente norme comptable est applicable aux états financiers relatifs aux exercices  
+ouverts à partir du 1" janvier 2021. 
+ 

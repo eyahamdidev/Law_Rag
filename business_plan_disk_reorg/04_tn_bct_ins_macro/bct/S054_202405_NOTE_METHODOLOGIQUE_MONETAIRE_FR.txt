@@ -1,0 +1,827 @@
+Banque Centrale de Tunisie 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTES METHODOLOGIQUES D’ELABORATION DES 
+STATISTIQUES MONETAIRES  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Banque Centrale de Tunisie -25, Rue Hédi Nouira, BP 777-1080- Tunis Tél 
+: (+216) 71 122 000 – Fax (+216) 71 340615 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Banque Centrale de Tunisie 
+2 
+ 
+ 
+Introduction  
+Ce recueil méthodologique est un guide didactique pour présenter le cadre conceptuel d'élaboration 
+des statistiques monétaires de la BCT. Il fera l'objet d'une mise à jour périodique en fonction de 
+l'élargissement du champ des statistiques monétaires . Le passage à ces nouvelles normes  
+d’élaboration des statistiques monétaires et financières à travers l’application des principes du 
+MFSMCG 2016 a induit des changements profonds. 
+1. Principes d’élaboration des statistiques monétaires selon le MFSMCG2016 
+1.1. Sectorisation des unités institutionnelles 
+La sectorisation des unités institutionnelles  que propose le MFSMCG2016, en ligne avec les 
+regroupements retenus par le Système de Comptabilité Nationale, 2008 (SCN 2008) repose sur la 
+notion de résidence1 et le concept d’unités institutionnelles 2. Ces dernières sont regroupées en 
+secteurs3 institutionnels sur la base de leurs objectifs, fonctions et comportement économique. Ainsi, 
+les agents économiques résidents sont classés comme suit : 
+Sociétés financières (SF) ; 
+- Banque Centrale ; 
+- Autres Institutions de Dépôts (AID) ; 
+- Autres Sociétés Financières (ASF) ; 
+Administrations publiques ; 
+                     - Administration Centrale ; 
+- Administrations Locales ; 
+- Administrations de sécurité sociale ; 
+Sociétés non financières ; 
+- Sociétés Non Financières Publiques (SNFPu) ; 
+- Sociétés Non Financières Privées (SNFPr) ; 
+ Autres secteurs résidents (ASR). 
+ 
+ 
+ 
+ 
+Figure 1 : Sectorisation des sociétés financières basée sur le MFSMCG 2016  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 La notion de résidence telle que définie dans la 6ième édition du manuel de la Balance des Paiements repose sur les concepts du territoire économique et du centre 
+d’intérêt économique. Ainsi, une unité institutionnelle est considérée comme étant résidente d’un pays si elle a un centre d’ intérêt économique sur  le territoire 
+économique de ce pays. 
+2 Une unité institutionnelle est une unité économique capable de posséder des actifs, de contracter des obligations et de réaliser des opérations économiques de tous 
+types. 
+3 Le détail de chaque secteur se trouve au niveau de l’annexe 01. 
+Secteur des sociétés financières   
+ 
+Institutions de dépôts   
+ 
+Autres sociétés financières  
+Banque 
+Centrale 
+de 
+Tunisie 
+ 
+Autres 
+institutions de 
+dépôts  
+ 
+Autres intermédiaires financiers  
+✓ Organismes de Leasing  
+✓ Banques off shore  
+✓ Banques d’affaires  
+✓ Sociétés d’affacturage,  
+✓ Sociétés de recouvrement,  
+✓ Institutions de microfinance,  
+✓ Sociétés d’investissement,  
+✓ Organismes de placement collectif,   
+✓ Caisse des dépôts et consignation 
+ 
+Sociétés d’assurance 
+et de réassurance 
+ 
+ 
+Auxiliaires financiers  
+✓ Bourse des valeurs 
+mobilières de Tunis,  
+✓ Intermédiaires en 
+bourse 
+ 
+
+Banque Centrale de Tunisie 
+3 
+ 
+ 
+Pour la définition des agrégats monétaires, il est crucial de scinder les unités institutionnelles  en 
+secteur émetteur et détenteur de monnaie. 
+Secteur émetteur de monnaie  : Il regroupe les institutions financières monétaires  dont l’activité 
+principale est l’intermédiation financière et qui émettent des éléments de passif entrant dans la 
+définition nationale de la monnaie au sens large. Il comprend les institutions de dépôts (ID).  
+Bien qu’ils ne s’agissent pas d’institutions de dépôts, la monnaie au sens large comprend aussi 
+l’encours des comptes courants auprès du Centre des Chèques Postaux (CCP) et les comptes 
+d’épargne sur les livres du Centre de l’Epargne Postale (CEP). 
+Secteur détenteur de monnaie  : Il regroupe tous les secteurs économiques résidents en Tunisie 
+autres que les institutions de dépôts et l’administration centrale.  
+ 
+   Figure 2 : Position des secteurs résidents de l’économie par rapport à la monnaie  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Compte tenu des spécificités de ses contraintes de financement, de ses décisions de dépenses et 
+de ses techniques de gestion de trésorerie, le secteur de l’Administration Centrale  est considéré 
+neutre vu que ses dépôts sont exclus des agrégats monétaires car ils ne réagissent pas aux 
+phénomènes macroéconomiques comparativement aux dépôts des détenteurs de monnaie. 
+1.2. Classification des actifs financiers selon le MFSMCG2016 
+Selon le MFSMCG2016, les actifs et passifs financiers des sociétés sont classés en huit catégories4 
+comme suit :   
+• Or monétaire et DTS (banque centrale seulement) ; 
+• Numéraire et dépôts (transférables et autres) ; 
+• Titres autres qu’actions ; 
+• Crédits ; 
+• Dérivés financiers ; 
+• Réserves techniques d’assurance ; 
+• Actions et autres titres de participation ; 
+• Autres comptes à recevoir (à payer) ; 
+ 
+4 Le détail de chaque instrument financier est explicité en annexe. 
+Secteur neutre   
+ 
+Secteur émetteur de 
+monnaie 
+ 
+Secteur détenteur de monnaie  
+✓ Banque Centrale de 
+Tunisie 
+✓ Autres institutions 
+de dépôts (AID) 
+ 
+Sociétés financières autres que 
+les banques  
+- Autres intermédiaires financiers  
+- Sociétés d’assurance et de 
+réassurance 
+- Auxiliaires financiers  
+Secteur public  
+ 
+✓ Sociétés non financières 
+publiques 
+✓ Administrations locales  
+✓ Administrations de 
+sécurité sociale  
+ 
+ 
+Secteur privé  
+✓ Sociétés non 
+financières privées 
+✓ Ménages 
+et ISBLM 
+Administration 
+Centrale 
+Banque Centrale de Tunisie 
+4 
+ 
+ 
+2. Situation des institutions de dépôts (ID) 
+La situation des institutions de dépôts (SID) représente l’agrégation des situations analytiques 
+de la BCT et des autres institutions de dépôts qui couvrent concrètement les banques. 
+2.1. Source des données 
+Les données primaires à l’élaboration de la situation des institutions de dépôts sont :  
+• Situation décadaire de fin du mois  élaborée par la Direction Générale en charge de la 
+Comptabilité en conformité avec les dispositions de la loi n°2016-35 du 25 avril 2016 portant 
+création et organisation de la BCT, d’une part, et le Système comptable Tunisien tout en 
+tenant compte des spécificités de l’activité de la BCT, d’autre part.           
+• Situation mensuelle comptable  ventilée par unité de monnaie et par résidents/non -
+résident en sus des annexes statistiques communiquées mensuellement par des banques 
+à la Direction Générale en charge de la Supervision Bancaire conformément à la circulaire 
+aux banques et établissements financiers n°2017-065 du 31 juillet 2017 relative au reporting 
+comptable, prudentiel et statistique à la Banque Centrale de Tunisie.  
+2.2. Principaux agrégats de la situation des ID  
+Dans ce qui suit, un descriptif des principaux indicateurs figurant dans la situation des ID.  
+2.2.1. Actifs extérieurs nets  
+Ils représentent les créances des institutions de dépôt s sur les non -résidents nettes de leurs 
+engagements extérieurs.  
+Les avoirs extérieurs nets de la BCT sont constitués des avoirs extérieurs  de la BCT qui 
+couvrent concrètement les actifs de réserves officiels 6 et les autres actifs extérieurs diminués 
+de ses engagements extérieurs. En effet, les actifs de réserves officiels sont constitués des 
+avoirs en or monétaire et la partie de DTS allouée à la Tunisie des avoirs créés par le FMI, de 
+la position de réserve au FMI ainsi que des avoirs et titres en monnaies étrangères. Les autres 
+actifs extérieurs représentent généralement le portefeuille -titres de participation de la BCT en 
+devises et la souscription aux organismes internationaux autres que le FMI et Fonds Monétaire 
+Arabe (FMA).  
+Pour ce qui est des engagements de la BCT  envers les non -résidents, ils couvrent les 
+engagements en devises envers les organismes internationaux et l’allocation de DTS.    
+Les créances des AID sur les non-résidents sont composées, en plus du numéraire en monnaie 
+étrangère, des dépôts auprès des correspondants étrangers, des crédits accordés aux non -
+ 
+5 Pour la constitution des statistiques rétrospectives des autres institutions de dépôts avant la mise en vigueur de la circulaire n°2017-06, les services des statistiques 
+monétaires et financières ont eu recours, en sus des situations mensuelles comptables et certaines annexes communiquées à la BCT conformément à la circulaire aux 
+banques et établissements financiers n°93-08 du 30 juillet 1993, à des hypothèses pour la sectorisation de certains postes de la situation des banques, notamment, les 
+crédits à la clientèle, le portefeuille-titres et certaines ressources collectées auprès de la clientèle. Ces hypothèses ont été construites à partir des informations collectées 
+auprès du Conseil du Marché Financier (CMF) et de la Centrale d’information à la BCT.  
+ 
+6 Les actifs de réserves officiels d’un pays se composent des avoirs extérieurs qui sont à la disposition immédiate et sous le contrôle des autorités monétaires et qui 
+leur permettent de financer directement les déséquilibres de la balance des paiements, de régulariser indirectement l’ampleur de ces déséquilibres au moyen 
+d’interventions sur le marché des changes et de parer à d’autres besoins ». s. 
+Banque Centrale de Tunisie 
+5 
+ 
+ 
+résidents, des participations dans des sociétés non-résidentes. Tandis que leurs engagements 
+envers les non -résidents sont constitués des différents types dépôts et de produits financiers 
+des non-résidents sur les livres des banques.  
+2.2.2. Créances nettes sur l’Administration Centrale  
+Elles correspondent aux créances des institutions de dépôts sur l’administration centrale nettes 
+de leurs engagements envers elle. On distingue :  
+Les créances de la BCT comprennent, en l’occurrence, les diverses avances accordées à l’Etat 
+telles que permises par la loi, les bons du Trésor acquis par la BCT dans le cadre des opérations 
+de l’open market et les créances au titre du crédit du FMI pour appui à la balance des paiements 
+alors que ses engagements envers ce sous -secteur couvrent les comptes du gouvernement 
+logés à la BCT7.   
+Les créances des AID comprennent, principalement, les bons de trésor en portefeuille des 
+banques, les prises en charge par l’Etat , la souscription des banques aux emprunts nationaux 
+émis par l’Etat  et les prêts syndiqués en devises consentis à l’Etat . Les engagements logent , 
+plutôt, les ressources spéciales d’origine budgétaire. 
+2.2.3. Créances sur l’économie 
+Elles couvrent les crédits consentis par les institutions de dépôt s aux secteurs institutionnels 
+résidents de l’économie autres que les AID et l’administration centrale ainsi que leur portefeuille-
+titres.  
+Les créances de la BCT sur l’économie reflètent globalement les crédits et les avances accordés 
+à son personnel et sa participation au capital social de la société interbancaire de 
+télécompensation «SIBTEL» et au Fonds de Garantie des Dépôts Bancaires.  
+Celles des AID au sens du MFSMCG 2016 portent sur le portefeuille -titres des banques ainsi 
+des crédits accordés à la clientèle résidente autres que l’Administration Centrale.   
+2.2.4. Passifs monétaires au sens large 
+L’ensemble des instruments financiers répondant à la définition nationale de la monnaie au sens 
+large conformément aux enseignements du MFSMCG2016 constitue cet agrégat. Il s’agit, 
+effectivement, de :  
+• Numéraire hors institutions de dépôts ; 
+• Comptes à vue auprès des banques ;  
+• Comptes à terme, bons de caisse et autres produits financiers ;   
+• Certificats de dépôts ; 
+• Comptes d’épargne sur les livres des banques ; 
+• Billets de trésorerie ; 
+• Autres sommes dues à la clientèle. 
+ 
+ 
+7 Art.8 de la loi n°2016-35 du 25 avril 2016, portant fixation du statut de la BCT qui stipule que cette dernière est chargée entre autres, d’agir en qualité de caissier 
+et d’agent financier de l’Etat. 
+Banque Centrale de Tunisie 
+6 
+ 
+ 
+2.2.5. Ressources à caractère non monétaire 
+Font partie de cette catégorie, les instruments suivants :  
+• Actions et autres titres de participation  : Cette rubrique est l’équivalent des fonds 
+propres en additionnant la contribution des propriétaires, les bénéfices réinvestis, les 
+réserves générales et spéciales, le résultat de l’exercice en cours et l’ajustement de 
+valeur ; 
+• Passifs à caractère non monétaire qui couvrent les instruments financiers ne répondant 
+pas à la définition de la masse monétaire au sens large  (MMSL). Il s ’agit, notamment, 
+des transactions de trésorerie entre les banques et leurs correspondants étrangers, de 
+l’épargne contractuelle et des emprunts privés et obligataires ; 
+• Autres postes nets : C’est le ressort net entre l’actif et le passif de toutes les autres 
+rubriques non mentionnées ci-dessus. 
+3. Agrégats de monnaie et leurs contreparties  
+3.1. Agrégats de monnaie 
+La masse monétaire au sens large (MMSL) représente, selon le MFSMCG 2016, l’ensemble 
+des moyens de paiements immédiats ou différés et d’actifs financiers, dont la conversion rapide 
+et facile n’implique pas un risque important de perte en capital, détenus par les agents non 
+financiers résidents à un moment donné.  
+Par ailleurs, le passage des passifs monétaires de la situation des ID aux agrégats de 
+monnaie se fait en complétant les passifs monétaires des institutions de dépôts, par : 
+• Les dépôts des entreprises et particuliers auprès du Centre des Chèques Postaux (CCP) 
+et les comptes d’épargne postale en dinars et en devises communiqués, mensuellement, 
+par l’Office National de la Poste (ONP) ; 
+• L’encaisse du Trésor communiqué, mensuellement, par la Trésorerie Générale ; 
+• L’encours global des bons du trésor à court terme hors portefeuille des banques  
+communiqués mensuellement par la Direction Générale de la Politique Monétaire. 
+Par conséquent, les différents agrégats monétaires sont définis par intégration successive 
+d’actifs financiers selon leur nature et leur degré de liquidité et sont structurés ainsi :  
+• La masse monétaire au sens étroit M1 ou disponibilités monétaires  représente les 
+actifs liquides transférables sans rendement  ayant le caractère de moyen de paiement. 
+Elle est constituée de : 
+- La monnaie fiduciaire, qui se compose des billets et monnaie en circulation, nets 
+de l’encaisse des institutions de dépôts et du Trésor ; 
+- La monnaie scripturale, constituée des dépôts à vue sur les livres des institutions 
+de dépôts (BCT et banques) et du Centre des Chèques Postaux (CCP). Ces dépôts 
+sont mobilisables immédiatement au moyen d'instruments de paiement comme les 
+chèques, les cartes de paiement, etc.  
+Banque Centrale de Tunisie 
+7 
+ 
+ 
+• La masse monétaire M2  est composée de l’agrégat M1 majoré des placements 
+financiers à court terme rapportant un rendement. Il s’agit, en l’occurrence, des dépôts à 
+terme et  des autres produits financiers ainsi que  l’épargne sous forme de compt es 
+spéciaux tant auprès des banques que ceux sur les livres du Centre d’Epargne Postale 
+(CEP) ; 
+• La masse monétaire au sens large M3, étant l’agrégat de monnaie le plus large, 
+comporte l’agrégat M2 et les titres  monétaires répondant à la définition nationale de la 
+masse monétaire au sens large ( MMSL), notamment, les certificats de dépôt, les billets 
+de trésorerie , les bons de caisse et les bons du Trésor à court terme (BTCT) hors 
+portefeuille des banques.   
+3.2. Contreparties de la masse monétaire au sens large 
+L'évolution de la masse monétaire au sens large est expliquée par celle de ses contreparties 
+qui sont les sources de la création monétaire dont on distingue :  
+• Les avoirs extérieurs nets des institutions de dépôts qui figurent dans la situation des 
+institutions de dépôt ; 
+• Créances intérieures ; 
+▪ Les créances nettes sur l’Administration centrale  sont déduites à partir des créances 
+nettes des ID sur l’administration centrale auxquelles s’ajoutent l es contrepartie s des 
+dépôts des entreprises et particuliers auprès du Centre des Chèques Postaux (CCP) et 
+les comptes d’épargne postale auprès du Centre d’Epargne Postale (CEP) ; 
+▪ Les créances sur l’économie englobent toutes les créances des institutions de dépôt 
+sur les secteurs intérieurs autres que l’Administration Centrale. Elles comprennent , 
+notamment, les crédits octroyés par les institutions de dépôt  et les titres émis par les 
+unités détentrices de monnaie et acquis par les Institutions de Dépôts ; 
+• Autres postes nets. 
+  
+4. Situation des sociétés financières autres que les institutions de dépôts 
+Selon le manuel du FMI, MFSMCG2016 ; le secteur des sociétés financières autres que les 
+institutions de dépôts englobe les sociétés d’assurance et de réassurance et fonds de pension, 
+les autres intermédiaires financiers ainsi que les auxiliaires financiers. 
+En fait, la situation des autres sociétés financières présente les créances et les engagements 
+des sociétés financières autres que les institutions de dépôts vis -à-vis des secteurs de 
+l’économie.  
+ 
+ 
+ 
+ 
+ 
+Banque Centrale de Tunisie 
+8 
+ 
+ 
+Figure 3 : Sectorisation des Autres sociétés financières selon le MFSMCG 2016 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.1 Source des données 
+Les sources de données de la situation des sociétés de leasing et des banques off-shore sont :   
+• Reporting comptable, prudentiel et statistique envoyé mensuellement à la Banque 
+Centrale de Tunisie  via le système d’échange de donnée (SED) qui est élaboré 
+conformément aux maquettes publiées au niveau de la circulaire aux banques et 
+établissements financiers n°2017-06 publiée au 31 juillet 2017.   
+• Les annexes statistiques du reporting précité, à savoir l’annexe 620 « État récapitulatif 
+du portefeuille titres (hors titres de l’Etat)  », l’annexe 630 « Ventilation des ressources 
+collectées par secteur institutionnel  » et l’annexe 640 « Ventilation des créances sur la 
+clientèle par secteur institutionnel ». En fait , ces annexes donnent plus de détail sur 
+certaines rubriques du reporting en termes de sectorisation et de nature de la monnaie 
+avec laquelle l’opération a été effectuée (dinars ou devise).   
+Autres sociétés financières 
+Autres intermédiaires financiers  
+✓ Organismes de Leasing  
+✓ Banques off shore  
+✓ Banques d’affaires  
+✓ Sociétés d’affacturage,  
+✓ Sociétés de recouvrement,  
+✓ Institutions de microfinance,  
+✓ Sociétés d’investissement,  
+✓ Organismes de placement collectif,   
+✓ Caisse des dépôts et consignation 
+ 
+Sociétés 
+d’assurance et de 
+réassurance 
+ 
+ 
+Auxiliaires financiers  
+✓ Bourse des valeurs mobilières de 
+Tunis,  
+✓ Intermédiaires en bourse 
+✓ Bureaux de change 
+✓ Établissements de paiement 
+ 
+Banque Centrale de Tunisie 
+9 
+ 
+ 
+ANNEXE 1 : NOMENCLATURE DETAILLEE DES SECTEURS INSTITUTIONNELS SELON LE 
+MANUEL DES STATISTIQUES MONETAIRES ET FINANCIERES (MFSMCG 2016) 
+ 
+Secteurs institutionnels Composition 
+ 
+A. Secteur des Sociétés financières 
+Banque Centrale   
+ 
+Institution financière nationale qui exerce un contrôle sur 
+les aspects essentiels du système financier et a pour 
+fonction d’émettre de la monnaie, de gérer les réserves 
+internationales, d’effectuer les transactions avec le FMI 
+et de fournir les crédits aux autres institutions de dépôts. 
+ 
+Composition  
+• Banque Centrale de Tunisie 
+ 
+Autres institutions de 
+dépôts  
+ 
+Sociétés financières et quasi-financières résidentes dont 
+l’activité principale est l’intermédiation financière et qui 
+émettent des éléments entrant dans la définition 
+nationale de la monnaie au sens large. 
+ 
+Composition  
+• Banques    
+ 
+Autres sociétés 
+financières 
+ 
+✓ Autres intermédiaires financiers  
+• Organismes de leasing  
+• Banques off shore  
+• Banques d’affaires  
+• Institutions de microfinance 
+• Organismes de placement collectif 
+• Sociétés d’investissement  
+• Caisse de dépôts et consignation (CDC)  
+• Sociétés de factoring  
+✓ Sociétés d’assurances et de réassurance 
+✓ Auxiliaires Financiers  
+• Sociétés de recouvrement  
+• Bourse des valeurs mobilières de Tunis, 
+• Tunisie clearing, 
+• Intermédiaires en bourse, 
+• Courtiers et agents de change. 
+• Etablissements de paiement 
+• Messageries financières (transfert de fonds) 
+• Courtiers d’assurance 
+ 
+B. Secteur des Administrations Publiques 
+Administration Centrale  
+ 
+Comprend l’Etat et les établissements publics 
+d’administration centrale dont la compétence s'étend sur 
+la totalité du territoire économique. 
+Composition  
+• Présidence, ministères et directions, les forces 
+armées, le parlement, l’ensemble des services du 
+système judiciaire national et des divers 
+établissements publics émanant de l'administration 
+centrale. 
+ 
+Banque Centrale de Tunisie 
+10 
+ 
+ 
+Administrations Locales 
+ 
+Ce sont les unités institutionnelles dont le pouvoir fiscal, 
+législatif et exécutif s'étend sur une subdivision locale du 
+territoire économique. 
+Composition  
+• Collectivités locales (communes urbaines et rurales, 
+régions, communautés urbaines, conseils provinciaux 
+et préfectoraux et syndicats de communes) et des 
+divers établissements publics émanant de 
+l’administration locale.  
+ 
+Administrations de 
+Sécurité sociale 
+ 
+Il s’agit  des organismes qui assurent la gestion de la 
+sécurité sociale en Tunisie. 
+Composition 
+• La Caisse Nationale de Retraite et de Prévoyance Sociale 
+(CNRPS) 
+• La Caisse Nationale de Sécurité Sociale (CNSS) 
+• La Caisse Nationale d’Assurance Maladie (CNAM) 
+ 
+C. Secteur des Sociétés non Financières 
+Sociétés non Financières 
+Publiques 
+ 
+• L’ensemble des sociétés et quasi -sociétés dont 
+l’activité principale consiste à produire des biens et 
+des services non financiers et qui sont soumises au 
+contrôle de l’Etat.  
+ 
+Autres Sociétés non 
+Financières  
+• Englobe les sociétés non financières privées 
+nationales ainsi que les sociétés non financières 
+installées en Tunisie et contrôlées par des non -
+résidents. 
+D. Autres Secteurs Résidents 
+Les Ménages  Composition 
+• Ménage défini comme étant un petit groupe de 
+personnes qui partagent le même logement, mettent 
+en commun une partie ou la totalité de leur revenu et 
+de leur patrimoine et consomment collectivement 
+certains types de biens et de services. 
+• Les entreprises individuelles et les sociétés de 
+personnes sans personnalité juridique qui sont des 
+producteurs marchands ;  
+ 
+Les Institutions Sans But 
+Lucratif au Service des 
+Ménages (ISBLSM):  
+ 
+Ce secteur couvre les ISBLSM qui fournissent des biens 
+et des services non marchands aux ménages. 
+Composition 
+• Les syndicats, groupements professionnels, sociétés 
+savantes, associations de consommateurs, partis 
+politiques, églises et congrégations religieuses (y 
+compris celles financées mais pas contrôlées par les 
+administrations publiques), clubs sociaux, culturels, 
+récréatifs et sportifs ;  
+• Les organismes de charité et associations de 
+bienfaisance financés par des transferts volontaires 
+en espèces ou en nature provenant d'autres unités 
+institutionnelles. 
+E.  Secteur Non 
+Résident 
+• Le reste du monde 
+ 
+ 
+Banque Centrale de Tunisie 
+11 
+ 
+ 
+ 
+ANNEXE 2 : DEFINITIONS DES INSTRUMENTS FINANCIERS SELON LE MANUEL DES 
+STATISTIQUES MONETAIRES ET FINANCIERES (MFSMCG 2016) 
+ 
+ 
+Instrument Définition 
+Or monétaire et DTS 
+ 
+Figurant à l’actif seulement, cette rubrique, englobe l’or 
+monétaire que détient la BCT et la partie de DTS allouée à la 
+Tunisie des avoirs créés par le FMI.   
+Les DTS sont des avoirs de réserves internationales crées 
+par le FMI et alloués à des pays membres pour compléter 
+leurs réserves officielles. 
+ 
+Numéraire et dépôts Le numéraire représente les billets et pièces émis et mis en 
+circulation par la BCT en caisse des institutions de dépôts 
+distingués par l’unité de monnaie. 
+Les dépôts comprennent toutes les créances sur la BCT, sur 
+les autres institutions de dépôts et sur les autres unités 
+institutionnelles qui sont matérialisées par des dépôts répartis 
+entre ceux qui sont transférables et ceux qui ne le sont pas et 
+par unité de monnaie. 
+Les dépôts transférables comprennent tous les dépôts qui 
+sont tirables à vue, sans frais ni restrictions d’autre sorte et 
+directement utilisables pour effectuer des paiements par 
+chèque, traite, virement, crédit/débit ou autre moyen de 
+paiement direct. 
+Sont enregistré sous la catégorie de dépôts transférables : 
+les comptes de chèque et les comptes courants de la clientèle 
+chez les banques, les comptes courants des autres 
+institutions de dépôts résidentes et non-résidentes et les ceux 
+auprès de la BCT. 
+Les autres créances sont appelées autres dépôts  et 
+incluent :  
+- Les dépôts d’épargne  
+- Les comptes à terme et autres produits financiers. 
+- Les ressources spéciales. 
+- Les autres sommes dues à la clientèle en attente 
+d’affectation. 
+ 
+Titres autres qu’actions 
+ 
+Les titres autres qu’actions sont les instruments négociables 
+qui sont représentatifs d’obligations que des unités 
+institutionnelles doivent régler en espèces, et au moyen 
+d’instruments financiers ou tout autre actif ayant une valeur 
+économique.  
+Parmi les titres les plus courants, on cite les bons du Trésor, 
+les obligations, les billets de trésorerie, les bons de caisse et 
+les certificats de dépôts émis par les institutions de dépôts. 
+ 
+Banque Centrale de Tunisie 
+12 
+ 
+ 
+Crédits 
+ 
+Il s’agit de tout actif financier créé lorsque des créanciers 
+prêtent des fonds directement à des débiteurs. Les crédits 
+sont toujours matérialisés par des documents non 
+négociables. 
+A l’actif, il inclut les toutes les catégories de crédits consentis 
+à la clientèle et, au passif, ce sont plutôt les emprunts privés 
+et les emprunts subordonnés. Les interventions sur les 
+marchés monétaire et interbancaire sont des postes d’actif et 
+de passif. 
+ 
+Actions et autres titres 
+de participation 
+ 
+A l’actif, cette rubrique comporte les prises de participations 
+des institutions de dépôts dans d’autres sociétés résidentes 
+et non-résidentes (parts dans les entreprises liées, parts dans 
+des entreprises avec convention de rétrocession, par dans 
+les entreprises associées, les fonds gérés SICAR…).  
+Figurant au passif, cette rubrique est l’équivalent des fonds 
+propres et se compose de la contribution des propriétaires, 
+des bénéfices réinvestis, des réserves générales et 
+spéciales, du résultat de l’exercice en cours et des 
+ajustements de valeur. 
+ 
+Réserves techniques 
+d’assurance 
+Cette rubrique comprend les droits nets des ménages sur les 
+réserves techniques d’assurance vie et sur les fonds de 
+pension, ainsi que les réserves primes et les réserves 
+sinistres. 
+ 
+Dérivés financiers 
+ 
+Il s’agit de tout instrument financier lié à un autre instrument 
+ou indicateur financier ou produit de base spécifique et par le 
+biais duquel des risques financiers spécifiques (taux de 
+change, taux d’intérêt, etc.) peuvent être négociés en tant que 
+tel sur les marchés financiers comme le contrat à terme ou le 
+contrat d’option. 
+ 
+Autres comptes à 
+recevoir/à payer 
+Cette rubrique comprend les crédits commerciaux et avances 
+et les autres comptes à recevoir/ à payer qui couvrent, 
+généralement, les provisions, l’amortissement, les comptes 
+de régularisation, les effets en cours de recouvrement, etc. 
+ 
+ 
+ 
+ 

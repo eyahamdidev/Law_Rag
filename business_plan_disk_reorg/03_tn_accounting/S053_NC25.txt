@@ -1,0 +1,326 @@
+http://www.procomptable.com/ 1
+NC 25 
+Le portefeuille-titres dans les établissements bancaires 
+ 
+ 
+Objectif  
+01. Dans le cadre de ses activités courantes, la banque peut affecter une partie de ses ressources à 
+la gestion d'un portefeuille-titres. Selon l'intention qui préside à la détention de ces valeurs, le 
+traitement comptable peut différer d'une situation à une autre. De façon générale, les placements 
+effectués dans l'intention d'être conservés durablement sont considérés comme "Immobilisations 
+Financières", moins liquides que des placements de négoce à court terme, et sont, de ce fait traités 
+différemment.  
+02. La norme comptable NC 07 relative aux placements définit les règles générales de distinction et 
+de traitement des placements. Ces règles sont applicables, dans leur majorité, aux établissements 
+bancaires. Mais, la spécificité de l'activité de ces établissements et l'importance et la diversité de leurs 
+portefeuille-titres font que des règles particulières doivent régir les placements des banques.  
+03. L'objectif de la présente norme est de définir les règles particulières applicables au portefeuille-
+titres géré par les établissements bancaires.  
+Champ d' application  
+04. La présente norme doit être appliquée pour le traitement, par les établissements bancaires 
+tels que définis par les textes en vigueur régissant l'activité bancaire, des opérations sur titres 
+détenues sous forme :  
+- de valeurs mobilières  
+- de bons de trésor et autres titres de créances négociables  
+- d'instruments du marché interbancaire  
+- et d'une manière générale de toutes créances représentées par un titre négociable sur 
+un marché.  
+05. Bien qu'il ne soit pas toujours aisé, dans certains cas, de distinguer les opérations sur titres 
+effectuées par un établissement bancaire, des opérations de crédit classiques, les titres acquis par 
+une banque et ayant le caractère de prêts sont considérés comme des crédits à la clientèle et ne 
+rentrent pas, par conséquent, dans le champ d'application de la présente norme. C'est le cas des 
+participations qu'un établissement bancaire acquiert ou souscrit et au titre desquelles, au moment 
+même de l'acquisition ou de la souscription, il conclut un contrat avec la société émettrice prévoyant le 
+rachat de ces mêmes actions par une tierce personne, généralement le promoteur, après une. 
+certaine période et à un prix convenu d'avance calculé en fonction d'un taux d'actualisation qui ne tient 
+compte ni de la valeur de la société émettrice au moment du rachat ni de la valeur de marché lorsque 
+les actions sont cotées sur un marché.  
+06. Sont également exclus du champ d'application de la présente norme les instruments financiers à 
+terme.  
+Définitions  
+07. Pour l'application de la présente norme, les termes ci- dessous ont la signification suivante :  
+(a) Date d'arrêté comptable : désigne la date de clôture d'une période comptable.  
+(b) Période comptable : désigne l'exercice comptable ou toute autre période comptable au terme de 
+laquelle l'établissement bancaire est tenu, en vertu des dispositions légales et réglementaires, de 
+présenter des situations comptables ou des états financiers intermédiaires ou annuels.  
+http://www.procomptable.com/ 2
+(c) Titres à revenu fixe : sont les titres dont les revenus sont fixés à la date de leur émission en 
+fonction d'un paramètre déterminé, même si la valeur peut elle-même varier au cours de la durée de 
+vie du titre en question. C'est le cas, par exemple, lorsque le taux de rémunération varie en fonction 
+du taux du marché monétaire.  
+(d) Titres à revenu variable : sont les titres dont le revenu dépend du résultat de l'entreprise 
+émettrice.  
+(e) Titres de transaction : sont des titres à revenu fixe ou variable acquis en vue de leur revente à 
+brève échéance et dont le marché de négociation est jugé liquide.  
+(f) Titres d'investissement : sont les titres à revenu fixe acquis avec l'intention de les détenir de 
+façon durable, en principe jusqu'à la date de leur échéance.  
+(g) Titres de participation : sont les actions et autres titres à revenu variable détenus par 
+l'établissement bancaire sur une longue durée autres que les parts dans les entreprises associées, 
+co-entreprises ou entreprises liées.  
+(h) Parts dans les entreprises associées : sont les actions et parts de capital détenues dans des 
+entreprises sur lesquelles l'établissement exerce une influence notable.  
+(i) Parts dans les co-entreprises : sont les actions et parts de capital détenues dans des entreprises 
+sur lesquelles l'établissement bancaire exerce un contrôle conjoint.  
+(j) Parts dans les entreprises liées : sont les actions et parts de capital détenues par l'établissement 
+bancaire dans la société mère et dans les entreprises filiales.  
+(k) Titres de placement : sont les titres à revenu fixe ou variable qui ne sont ni des titres de 
+transaction, ni des titres d'investissement ni encore des titres de participation ou parts dans les 
+entreprises associées, co-entreprises ou entreprises liées.  
+(l) Contrôle exclusif : signifie le pouvoir de diriger les politiques financières et opérationnelles d'une 
+entreprise afin de tirer avantage de ses activités.  
+(m) Influence notable : est le pouvoir de participer aux décisions sur les politiques financières et 
+opérationnelles de l'entreprise détenue, sans toutefois en avoir le contrôle. 
+(n) Contrôle conjoint : est le contrôle d'une activité économique exercé collégialement en vertu d'un 
+accord contractuel à cet effet.  
+Classement des titres  
+Titres de transaction  
+08. Les titres de transaction se distinguent par les deux critères suivants :  
+- leur courte durée de détention  
+- leur liquidité  
+Pour être classés parmi les titres de transaction, la durée de détention des titres doit être 
+limitée à trois mois.  
+09. Un titre est considéré comme étant liquide lorsque :  
+(a) il existe, pour ces titres, soit un marché organisé, soit un marché de gré à gré fonctionnant 
+régulièrement à l'intervention d'établissements bancaires ou de teneurs de titres assurant des 
+cotations permanentes de cours acheteurs et vendeurs dont les fourchettes correspondent aux 
+usages du marché ;  
+(b ) les titres concernés peuvent, compte tenu des volumes régulièrement traités sur le marché, 
+être réalisés à tout moment sans incidence significative sur les cours.  
+10. De ce fait, il convient de considérer si le volume d'une catégorie de titres détenus par la banque 
+constitue ou non un obstacle à une négociation aisée. Ceci suppose, en général, que le volume 
+détenu représente une part limitée de l'encours total du titre concerné.  
+http://www.procomptable.com/ 3
+Toutefois, le fait qu'un établissement détienne une part importante du marché d'un titre ne doit pas 
+être considéré, toujours, comme étant un obstacle à la classification de ces titres parmi les titres de 
+transaction. Il convient, en effet, de raisonner dans une perspective de continuité d'exploitation où 
+l'établissement bancaire ne se trouve pas astreint à liquider immédiatement la totalité de ces titres. Il 
+s'agit d'estimer si le volume des cessions auxquelles procédera l'établissement sera compatible avec 
+les capacités d'absorption du marché et si elles n'entraîneront pas de décalage brutal de la valeur du 
+titre, contrairement à ce qui se passerait en cas de liquidation instantanée de la totalité du stock.  
+11. Sont également considérés comme titres de transaction, les titres qu'ils soient à revenu fixe ou 
+variable, acquis en vue de leur placement auprès de tiers. Tel est le cas des bons du trésor acquis par 
+la banque pour être placés auprès de sa clientèle.  
+Titres de placement 
+12. Sont considérés comme des titres de placement, les titres acquis avec l'intention de les 
+détenir à court terme durant une période supérieure à trois mois, à l'exception des titres à 
+revenu fixe que l'établissement a l'intention de conserver jusqu'à l'échéance et qui satisfont à 
+la définition de titres d'investissement.  
+13. Dans la plupart des cas, les titres de placement sont ceux qui ne répondent pas aux critères 
+retenus pour les titres de transaction, ni à ceux retenus pour les titres d'investissement. Il en est ainsi :  
+- des titres préalablement inscrits parmi les titres de transaction dont le transfert est intervenu suite 
+à une détention supérieure à trois mois ;  
+- des titres acquis avec l'intention de les revendre dans un délai inférieur à trois mois, mais dont le 
+marché n'est pas liquide ;  
+- des titres à revenu fixe acquis avec l'intention de les conserver jusqu'à l'échéance, mais pour 
+lesquels l'établissement ne dispose pas des moyens de financement et / ou de couverture jusqu'à une 
+telle date.  
+14. De façon plus générale, l'alimentation du portefeuille des titres de placement peut se faire par 
+deux voies différentes :  
+- le classement direct notamment lorsque l'établissement ne connaît pas la durée probable de 
+détention du titre.  
+- le résultat d'un transfert du portefeuille de transaction.  
+Titres d'investissement  
+15. Pour pouvoir classer des valeurs en titres d'investissement, l'établissement bancaire doit 
+avoir l'intention ferme de les détenir, en principe, jusqu'à leur échéance et doit pouvoir 
+disposer de moyens suffisants pour concrétiser cette intention.  
+16. L'intention de l'établissement doit être matérialisée par une décision qui résulte généralement 
+d'une politique et d'une stratégie propres au portefeuille des titres d'investissement. Cette politique 
+explicite les objectifs poursuivis en développant cette activité et les stratégies qui permettront de les 
+atteindre dans différentes hypothèses de contexte économique. Les conditions et les circonstances 
+qui pourraient amener la banque à vendre les titres avant l'échéance finale, sont également précisées.  
+17. Il convient, également, d'apprécier la capacité de la banque à matérialiser son intention. En effet, 
+pour porter sur plusieurs exercices une affectation durable, la banque doit disposer de ressources 
+d'échéance comparable ou, du moins, avoir la capacité de les mobiliser .  
+L'adossement de ressources durables de financement et / ou de couverture aux titres 
+d'investissement signifie que :  
+- la durée de ces ressources est au moins égale à celle des titres  
+- il existe, pendant la durée de vie des titres, une couverture contre le risque de taux, lorsque de 
+tels risques existent.  
+- en résultat, les pertes sur les titres et les gains sur les ressources se compensent et inversement.  
+http://www.procomptable.com/ 4
+Titres de participation, parts dans les entreprises associées et co-entreprises et parts dans les 
+entreprises liées  
+18. Sont classés parmi ces valeurs, les titres dont la possession durable est estimée utile à 
+l'activité de la banque, permettant ou non d'exercer une influence notable, un contrôle conjoint 
+ou un contrôle exclusif sur la société émettrice.  
+19. La qualification de la nature de l'influence exercée lorsqu'elle existe, sur la société émettrice 
+permet de distinguer les catégories suivantes :  
+- parts dans les entreprises associées  
+- parts dans les co-entreprises  
+- parts dans les entreprises liées.  
+20. Sont, en revanche, classés parmi les titres de participation :  
+- les actions et autres titres à revenu variable détenus pour en retirer sur une longue durée 
+une rentabilité satisfaisante sans pour autant que l'établissement bancaire n'intervienne dans 
+la gestion de la société émettrice ;  
+- les actions et autres titres à revenu variable détenus pour permettre la poursuite des 
+relations bancaires entretenues avec la société émettrice, et qui ne peuvent pas être classés 
+parmi les parts dans les entreprises associées, ou les parts dans les co-entreprises ou encore 
+les parts dans les entreprises liées.  
+Acquisition des titres  
+Date d'acquisition  
+21. Les titres sont comptabilisés à la date d'acquisition. Celle-ci correspond à la date du 
+transfert de propriété des titres, soit celle de l'inscription de la valeur mobilière dans un 
+compte ouvert au nom du propriétaire et tenu, soit par la société émettrice, soit par un 
+intermédiaire habilité.  
+22. Lorsque la date de transfert de propriété est postérieure à la date de négociation, les titres sont 
+traités comme suit :  
+- en date de négociation, les engagements sont inscrits dans des comptes de hors bilan suivant le 
+sens de l'opération et font l'objet d'une évaluation selon la catégorie de titres concernée;  
+- en date de règlement /livraison, les écritures relatives aux comptes de bilan concernés sont 
+enregistrées après extourne de celles passées en hors bilan.  
+Coût d'acquisition  
+23. Les titres sont comptabilisés à leur coût d'acquisition, soit le prix pour lequel les titres ont 
+été acquis, tous frais et charges exclus, à l'exception de ceux inclus dans le coût des 
+participations conformément à la Norme Comptable NC 07 relative aux placements.  
+24. Les intérêts courus à la date d'acquisition des titres à revenu fixe sont comptabilisés selon les 
+règles ci-après :  
+- ils sont inclus dans le coût d'acquisition pour les titres de transaction ;  
+- ils sont repris dans le coût d'acquisition pour les titres d'investissement et les titres de placement, 
+en application de la méthode dite "actuarielle" visée au paragraphe 41 de la présente norme. Lorsque 
+la méthode dite "linéaire" est utilisée, les intérêts courus sont constatés dans un compte rattaché.  
+25. Lorsque le prix d'acquisition des titres à revenu fixe est supérieur ou inférieur à leur prix de 
+remboursement, la différence, appelée selon le cas prime ou décote, est incluse dans le coût 
+d'acquisition.  
+Toutefois, et pour les titres d'investissement et les titres de placement, les primes et décotes doivent 
+être individualisées et étalées sur la durée de vie résiduelle du titre.  
+http://www.procomptable.com/ 5
+26. En cas de reclassement des titres, les traitements varient suivant les deux types de transferts 
+possibles :  
+- le transfert des titres de transaction vers les titres de placement et d'investissement, se fait au prix 
+du marché du jour du transfert ;  
+- le transfert des titres de placement vers le portefeuille d'investissement, se fait au prix 
+d'acquisition ; les provisions antérieurement constituées sont affectées aux titres d'investissement, 
+puis reprises de manière échelonnée sur la durée de vie résiduelle des titres concernés.  
+Evaluation en date d'arrêté  
+27. Les titres sont évalués conformément aux dispositions de la Norme Comptable NC 07 relative aux 
+placements et aux règles ci-après :  
+Titres de transaction  
+28. A chaque arrêté comptable, les titres de transaction doivent être évalués à la valeur de 
+marché. La valeur de marché correspond au cours en bourse moyen pondéré à la date d'arrêté 
+ou à la date antérieure la plus récente. Les variations de cours consécutives à leur évaluation à 
+la valeur de marché sont portées en résultat.  
+29. Lorsque les conditions de marché d'un titre dégagent une tendance à la baisse exprimée par une 
+réservation à la baisse ou une tendance à la hausse exprimée par une réservation à la hausse, le 
+cours d'évaluation à retenir est le seuil de réservation à la baisse dans le premier cas et le seuil de 
+réservation à la hausse dans le deuxième cas.  
+30. Lorsqu'un titre donné n'a fait l'objet ni de demande ni d'offre pendant un nombre significatif de 
+séances de bourse consécutives, on doit considérer s'il est approprié de maintenir le titre à son 
+dernier cours boursier. Il en est également de même lorsque la quantité des titres détenus pourrait 
+avoir, compte tenu des volumes régulièrement traités sur le marché, une incidence significative sur les 
+cours.  
+Lorsque des critères objectifs du marché justifieraient l'abandon de ce cours comme base 
+d'évaluation, une décote doit être appliquée au dernier cours boursier pour se rapprocher au mieux de 
+la valeur probable de négociation du titre. A titre indicatif, cette décote pourrait se baser sur les 
+critères suivants :  
+- la physionomie de la demande et / ou de l'offre potentielle sur le titre  
+- la valeur mathématique du titre  
+- le rendement du titre  
+- l'activité de la société émettrice, le niveau de distribution de dividendes  
+- le degré de dilution du titre  
+- la quantité de titres détenus et l'historique des transferts sur le titre.  
+31. Le reclassement des titres de transaction doit être réexaminé périodiquement et au moins lors de 
+chaque arrêté comptable. Soit à la suite de ce réexamen, soit au plus tard au terme d'une durée de 
+détention de trois mois, les titres détenus seront sortis définitivement des titres de transaction pour 
+être comptabilisés dans les titres de placement ou d'investissement.  
+Titres de placement 
+ 
+32. A chaque arrêté comptable, les titres de placement doivent faire l'objet d'une évaluation à la valeur 
+de marché pour les titres cotés et à la juste valeur pour les titres non cotés, en vue d'estimer s'il 
+convient de constituer des provisions pour dépréciation.  
+33. La valeur de marché est déterminée conformément aux paragraphes 28 à 30 de la présente 
+norme. La juste valeur est la valeur probable de négociation et est déterminée en retenant un ou 
+plusieurs critères objectifs comme le prix stipulé lors de transactions récentes, la valeur 
+mathématique, le rendement, l'importance des bénéfices, l'activité, l'ampleur ou la notoriété de la 
+société.  
+http://www.procomptable.com/ 6
+34. Les titres sont valorisés pour chaque type de titres séparément. Les plus-values latentes 
+mises en évidence sur certains titres ne peuvent pas compenser des pertes latentes sur 
+d'autres.  
+Les moins-values latentes ressortant de la différence entre la valeur comptable 
+(éventuellement corrigée des amortissements des primes et décotes) et la valeur de marché ou 
+la juste valeur des titres donnent lieu à la constitution de provisions pour dépréciation. Les 
+plus-values latentes ne sont pas constatées.  
+Titres d'investissement  
+35. A chaque arrêté comptable, il est procédé à la comparaison du coût d'acquisition des titres 
+d'investissement à la valeur de marché pour les titres cotés et à la juste valeur pour les titres non 
+cotés.  
+La valeur de marché et la juste valeur sont déterminées conformément aux paragraphes 28,29, 30 et 
+33 de la présente norme.  
+36. Les plus-values latentes sur titres d'investissement ne sont pas comptabilisées.  
+Les moins-values latentes ressortant de la différence entre la valeur comptable 
+(éventuellement corrigée des amortissements ou reprises des primes ou décotes) et la valeur 
+de marché ou la juste valeur des titres, ne sont provisionnées que dans les cas ci-après :  
+- il existe, en raison de circonstances nouvelles, une forte probabilité que l'établissement ne 
+conserve pas ces titres jusqu'à l'échéance ;  
+- il existe des risques de défaillance de l'émetteur des titres.  
+Revenus des titres a revenu fixe  
+37. La constatation des revenus des titres à revenu fixe classés parmi les titres d'investissement ou 
+les titres de placement peuvent présenter des particularités dans le cas où l'acquisition est faite avec 
+une prime ou une décote et / ou lorsqu'il y a une différence entre le taux nominal de rémunération du 
+titre et le taux du marché au moment de l'acquisition.  
+38. De façon générale, deux méthodes peuvent être utilisées: la méthode "actuarielle" et la 
+méthode "linéaire". La méthode actuarielle est plus appropriée dans la mesure où elle permet 
+une juste détermination des revenus et un meilleur rattachement aux différents exercices.  
+39. Quelque soit la méthode utilisée, celle-ci doit s'appliquer à l'ensemble des titres et de façon 
+permanente d'un exercice à un autre.  
+Méthode actuarielle  
+40. Selon la méthode actuarielle les titres sont enregistrés, lors de l'acquisition, pour leur prix 
+d'acquisition, coupon couru à l'achat inclus.  
+A chaque arrêté des comptes, il est procédé aux traitements suivants :  
+(a) les intérêts courus de la période, calculés au taux nominal des titres sont enregistrés dans un 
+compte de créances rattachées ;  
+(b) les intérêts courus de la période, calculés au taux du marché constaté lors de l'acquisition sont 
+enregistrés en résultat ;  
+(c) la différence entre ces deux montants est portée directement en diminution ou en 
+augmentation, selon le cas, de la valeur comptable des titres correspondants. Cette différence 
+correspond au montant de l'amortissement de la prime ou de la décote.  
+41. Pour le calcul des intérêts courus selon la méthode actuarielle, le taux du marché constaté lors de 
+l'acquisition est appliqué à une base variable selon la période considérée :  
+- de l'acquisition à la tombée du premier coupon, la base est constituée par la somme algébrique 
+des éléments suivants: prix d'achat des titres "pied de coupon", coupons courus à l'acquisition et 
+amortissement de la prime ou de la décote déjà pratiquées ;  
+http://www.procomptable.com/ 7
+- de la tombée du premier coupon au remboursement, la base est constituée par la somme 
+algébrique des éléments suivants: prix d'achat des titres "pied de coupon", et amortissements de la 
+prime ou de la décote déjà pratiquées.  
+42. Pendant la durée de détention des titres, le coût d'acquisition est ajusté pour converger vers la 
+valeur de remboursement afin de ne dégager comptablement ni gain ni perte le jour du 
+remboursement de l'emprunt.  
+43. A cet effet, et pour les obligations amortissables par anticipation à la discrétion de l'émetteur, la 
+date de fin de la période d'amortissement à retenir correspond à la date de remboursement la plus 
+proche pour les titres achetés avec prime et la date la plus lointaine pour celle acquise avec décote.  
+44. La valeur historique du titre est progressivement diminuée du montant amorti de la prime par une 
+diminution du résultat. Ainsi, le taux de rémunération apparent du titre tel qu'il ressort des comptes 
+devient très proche de celui qui existait sur le marché à la date d'acquisition.  
+Symétriquement, l'amortissement de la décote augmente le résultat de la période par une 
+augmentation du compte titres. 
+45. La méthode actuarielle permet de faire ressortir un produit en compte de résultat calculé à un taux 
+constant sur la durée de portage du titre et met ainsi en évidence une marge constante si des 
+ressources à taux fixe ont été adossées à l'actif lors de l'achat.  
+46. Si la valeur de remboursement des titres est liée à celle d'un indice, elle doit être évaluée en date 
+d'arrêté et l'écart de taux sera déterminé et amorti sur cette base. Lors de l'arrêté suivant, une 
+nouvelle estimation sera effectuée et le plan d'amortissement de la prime ou de la décote sera 
+aménagé en conséquence sur la durée de vie résiduelle du titre.  
+Méthode linéaire  
+47. Selon la méthode linéaire, les titres sont enregistrés, lors de leur acquisition, coupon couru à 
+l'achat exclu.  
+A chaque arrêté comptable, il est procédé de la manière suivante :  
+(i) les intérêts courus de la période, calculés au taux nominal du titre, sont enregistrés au compte 
+de résultat ;  
+(ii) le montant de la prime ou de la décote fait l'objet d'un échelonnement linéaire sur la durée de 
+vie du titre.  
+Informations a fournir  
+48. Les méthodes comptables adoptées pour le traitement des titres et des revenus y afférents 
+doivent être indiquées dans les notes aux états financiers. Ces méthodes concernent 
+notamment :  
+- Les règles de classification et d'évaluation des titres ;  
+- les règles de constatation des revenus, y compris les revenus des titres à revenu fixe.  
+49. Lorsqu'elles sont significatives, les informations suivantes doivent être fournies dans les 
+notes aux états financiers :  
+- le montant des transferts, entre catégories de titres, au cours de l'exercice ;  
+- le montant des plus-values latentes sur les titres de placement ;  
+- les mouvements des provisions pour dépréciation des titres au cours de l'exercice.  
+Date d'application  
+50. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+Janvier 1999.  
+ 

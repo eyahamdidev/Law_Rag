@@ -1,0 +1,213 @@
+http://www.procomptable.com/ 
+NC 17 
+Norme comptable relative au portefeuille-titres et autres opérations effectuées 
+par les OPCVM 
+ 
+Objectif 
+01. La Norme Comptable NC 07 - relative aux placements définit les règles de prise en compte, 
+d'évaluation et de présentation, par une entreprise, de ses placements dans les états financiers. 
+Les dispositions de cette norme sont de portée générale et devraient s'appliquer à l'ensemble des 
+entreprises amenées à détenir et gérer un portefeuille titres. 
+02. La détention et la gestion d'un portefeuille titres constitue, pour les OPCVM, l'essence même de 
+leur activité et les règles les régissant diffèrent généralement des règles applicables aux opérations de 
+même nature dans les autres entreprises. 
+03. L'objectif de la présente norme est de définir les règles de prise en compte et d'évaluation du 
+portefeuille titres par les OPCVM ainsi que les règles de traitement des autres opérations effectuées 
+dans le cadre de leur activité courante. 
+Champ d'application 
+04. La présente norme est applicable aux organismes de placement collectif en valeurs mobilières 
+(OPCVM), notamment les sociétés d'investissement à capital variable (SICAV) et les fonds communs 
+de placement (FCP) tels que définis par la législation en vigueur. 
+Définitions 
+05. Pour l'application de la présente norme, les termes ci-après ont la signification suivante : 
+a. Cote de la bourse : la cote de la bourse comporte le premier marché, le second marché et le 
+marché obligataire. Elle assure la cotation des valeurs émises par les entreprises selon des conditions 
+propres à chaque marché arrêtées par le Conseil du Marché Financier. 
+b. Marché hors cote : désigne le marché sur lequel sont négociés les titres de capital et de 
+créance de toute société anonyme faisant appel public à l'épargne et non admis à la cote de la 
+bourse. 
+c. Titre admis à la cote : désigne un titre inscrit sur l'un des marchés de la cote de la bourse. 
+d. Titre non admis à la cote : désigne un titre représentatif d'un titre de capital ou de créance de 
+toute société anonyme faisant appel public à l'épargne et non admis à la cote de la bourse. 
+e. Cours moyen pondéré : correspond à la moyenne des cours auxquels ont été réalisées les 
+transactions sur un titre déterminé au cours d'une séance de bourse pondérés par les quantités 
+respectives traitées. 
+f. Seuil de réservation à la hausse : désigne le cours boursier de référence augmenté du 
+maximum de la fourchette de variation autorisée pour une séance de bourse. 
+g. Seuil de réservation à la baisse : désigne le cours boursier de référence diminué du minimum 
+de la fourchette de variation autorisée pour une séance de bourse. 
+h. Cours de référence : désigne le dernier cours boursier ou le dernier prix indicatif publié. 
+Prise en compte des placements et des revenus y afférents 
+06. Les placements en portefeuille titres et les placements monétaires sont pris en compte en 
+comptabilité au moment du transfert de propriété pour leur prix d'achat frais exclus. Les frais 
+encourus à l'occasion de l'achat sont imputés en capital. 
+http://www.procomptable.com/ 
+07. Les intérêts courus à l'achat sur les obligations et valeurs assimilées sont constatés au bilan pour 
+leur montant net de retenues à la source au titre de l'impôt dans la mesure où celles-ci sont effectuées 
+à titre définitif et libératoire. 
+08. Les intérêts précomptés sur les placements sur le marché monétaire, notamment les billets de 
+trésorerie et les certificats de dépôt, sont constatés au bilan pour leur montant net de retenue à la 
+source au titre de l'impôt, dans la mesure où celles-ci sont effectuées à titre définitif et libératoire. 
+09. Les dividendes relatifs aux actions et valeurs assimilées sont pris en compte en résultat à la date 
+de détachement du coupon. 
+10. Les intérêts sur les placements en obligations et valeurs assimilées et sur les placements 
+monétaires sont pris en compte en résultat à mesure qu'ils sont courus pour : 
+- leur montant net de retenues à la source lorsque ces retenues sont effectuées à titre définitif et 
+libératoire ; 
+- pour leur montant brut, l'impôt étant constaté comme créance sur l'Etat, dans la mesure où les 
+retenues à la source effectuées constituent une avance sur l'impôt. 
+Evaluation des placements en actions et valeurs assimilées 
+Evaluation des actions 
+11. Les actions sont évaluées en date d'arrêté conformément aux dispositions de la norme comptable 
+NC 07 relative aux placements et aux règles ci-après : 
+Actions admises à la cote 
+12. Les actions admises à la cote de la Bourse des Valeurs Mobilières de Tunis sont évaluées à 
+leur valeur de marché. La valeur de marché correspond au cours moyen pondéré du jour de 
+calcul de la valeur liquidative, ou à la date antérieure la plus récente. 
+13. Lorsque les conditions de marché d'un titre donné dégagent une tendance à la baisse exprimée 
+par une réservation à la baisse ou une tendance à la hausse exprimée par une réservation à la 
+hausse, le cours d'évaluation à retenir est le seuil de réservation à la baisse dans le premier cas et le 
+seuil de réservation à la hausse dans le deuxième cas. 
+14. Lorsqu'un titre donné n'a fait l'objet ni de demande ni d'offre pendant un nombre significatif de 
+séances de bourse consécutives, on doit considérer s'il est approprié de maintenir le titre à son 
+dernier cours d'évaluation. Il en est également de même lorsque la quantité des titres détenus pourrait 
+avoir, compte tenu des volumes régulièrement traités sur le marché, une incidence significative sur les 
+cours. 
+Lorsque des critères objectifs du marché justifieraient l'abandon de ce cours comme base 
+d'évaluation, une décote doit être appliquée au dernier cours boursier pour se rapprocher au mieux de 
+la valeur probable de négociation du titre. A titre indicatif, cette décote pourrait se baser sur les 
+critères suivants : 
+- la physionomie de la demande et /ou de l'offre potentielle sur le titre, 
+- la valeur mathématique du titre, 
+- le rendement du titre, 
+- l'activité de la société émettrice, le niveau de distribution de dividendes, 
+- le degré de dilution du titre,  
+- la quantité des titres détenus et l'historique des transferts sur le titre. 
+Actions non admises à la cote 
+15. Les actions non admises à la cote sont évaluées à leur juste valeur. La juste valeur des 
+actions non admises à la cote est déterminée par référence à des critères objectifs tels que le 
+prix stipulé dans des transactions récentes sur les titres considérées et la valeur 
+mathématique des titres. 
+http://www.procomptable.com/ 
+Les actions non admises à la cote qui sont négociées dans les mêmes conditions que les 
+actions admises à la cote sont évaluées selon les mêmes règles applicables à ces dernières. 
+Evaluation des droits attachés aux actions 
+16. Les droits attachés aux actions admises à la cote (droit préférentiel de souscription et droit 
+d'attribution) sont évalués conformément aux règles d'évaluation des actions c'est à dire à la 
+valeur de marché. 
+Les droits attachés à des actions non admises à la cote sont évalués à leur juste valeur. La 
+juste valeur des droits attachés aux actions non admises à la cote est déterminée par référence 
+à des critères objectifs tels que le prix stipulé dans des transactions récentes sur les valeurs 
+considérées et leur coût de revient comptable. 
+Evaluation des obligations et valeurs assimilées 
+17. Les obligations et valeurs assimilées tels que les titres de créance émis par le Trésor et 
+négociables sur le marché financier sont évaluées : 
+- à la valeur de marché lorsqu'elles ont fait l'objet de transactions ou de cotation à une date 
+récente ; 
+- au prix d'acquisition lorsqu'elles n'ont pas fait l'objet, depuis leur acquisition, de 
+transactions ou de cotation à un prix différent ; 
+- à la valeur actuelle lorsqu'il est estimé que ni la valeur de marché ni le prix d’acquisition ne 
+constitue une base raisonnable de la valeur de réalisation du titre et que les conditions de 
+marché indiquent que l'évaluation à la valeur actuelle en application de la méthode actuarielle 
+est appropriée. 
+18. Parmi les conditions qui pourraient justifier l'évaluation des obligations ou des titres de créance 
+émis par le Trésor et négociables sur le marché financier à leur valeur actuelle, il y a lieu de citer une 
+variation significative du taux de rémunération des placements similaires récemment émis. 
+Une augmentation du taux d'intérêt se traduirait par une dépréciation des obligations ou titres de 
+créance émis par le Trésor et négociables sur le marché financier émis à l'ancien taux, tandis qu'une 
+diminution de ce taux se traduirait par une appréciation des obligations ou titres de créance émis par 
+le Trésor et négociables sur le marché financier émis à l'ancien taux. 
+19. L'évaluation selon la méthode actuarielle consiste à actualiser les flux de trésorerie futurs générés 
+par le titre à la date d'évaluation. 
+D'une façon générale, l'évaluation selon la méthode actuarielle doit reposer sur les pratiques et 
+usages de la profession de façon à préserver l'homogénéité et la comparabilité des états financiers 
+des OPCVM. 
+Le taux d'actualisation à retenir correspond au taux de rémunération des placements similaires 
+récemment émis en termes de rendement et de risque. 
+Evaluation des titres d'OPCVM 
+20. Les titres d'OPCVM sont évalués à leur valeur liquidative la plus récente. 
+Evaluation des placements monétaires 
+21. Les placements monétaires sont évalués à la date d'arrêté à leur valeur nominale déduction faite 
+des intérêts précomptés non courus. 
+Evaluation des immobilisations corporelles 
+22. Les immobilisations corporelles sont évaluées conformément aux dispositions de la norme 
+comptable NC 05 relative aux immobilisations corporelles. 
+http://www.procomptable.com/ 
+Démembrement des actions 
+23. Le démembrement des actions en droits préférentiels de souscription (DPS) et en droits 
+d'attribution (DA) consécutivement à une opération d'augmentation de capital est constaté en 
+comptabilité le jour de début d'exercice du droit soit le jour de son détachement en bourse. 
+La valeur théorique des DPS et DA initialement rattachés à l’action, correspondant à leur coût 
+d’entrée théorique, est extraite du compte d’origine pour le coût de revient comptable 
+déterminé par référence au coût moyen pondéré de l’action avant détachement et aux 
+modalités de l’augmentation de capital. 
+24. La valeur théorique du DA correspond à la valeur historique de l’action ex-droit diminuée 
+éventuellement de la différence de jouissance, multipliée par le rapport entre le nombre d’actions 
+nouvellement émises et le nombre d’actions avant augmentation du capital. 
+La valeur historique de l’action ex-droit est la valeur, telle que multipliée par le nombre d’actions après 
+augmentation du capital, égaliserait le coût moyen des actions anciennes augmenté éventuellement 
+de la différence de jouissance. 
+25. La valeur théorique du DPS correspond à la valeur historique ex-droit de l’action diminuée du prix 
+d’émission et éventuellement de la différence de jouissance multipliée par le rapport entre le nombre 
+d’actions nouvellement émises et le nombre d’actions avant augmentation du capital. La valeur 
+historique de l’action ex-droit est la valeur, telle que multipliée par le nombre d’actions après 
+augmentation, égaliserait le coût moyen des actions augmenté du prix d’émission des actions 
+nouvellement émises dont l’OPCVM aurait droit et éventuellement de la différence de jouissance. 
+Cession des placements 
+26. La sortie des placements est constatée en comptabilité à la date de transaction. La valeur 
+de sortie est déterminée par la méthode du Coût Moyen Pondéré. La différence entre la valeur 
+de sortie et le prix de cession hors frais constitue, selon le cas, une plus- value ou une moins-
+value réalisée portée directement, en capitaux propres, en tant que somme non distribuable. 
+La plus ou moins-value potentielle antérieurement constatée est annulée pour la quote-part 
+des placements cédés. 
+Les intérêts courus à la date de cession sur les obligations et valeurs assimilées cédées sont 
+annulés. 
+Remboursement des obligations et des valeurs assimilées 
+27. Le remboursement des obligations et valeurs assimilées est constaté en comptabilité le jour du 
+remboursement. La fraction remboursée est déduite de l’actif pour son Coût Moyen Pondéré. 
+La différence entre le prix de remboursement et le Coût Moyen Pondéré constitue, selon le cas, une 
+plus ou une moins-value réalisée portée directement en capitaux propres, en tant que somme non 
+distribuable. 
+La plus ou moins-value potentielle antérieurement constatée est annulée pour la quote-part des 
+obligations et valeurs assimilées remboursées. Les intérêts courus à la date du remboursement sont 
+annulés. 
+Rétrocession des placements monétaires 
+28. La rétrocession des placements monétaires est prise en compte à la date du rachat des 
+placements. L'annulation des placements est constatée pour la valeur nominale. 
+Les intérêts courus à la date de rétrocession ainsi que les intérêts précomptés au moment de 
+la souscription et antérieurement constatés sont annulés. 
+Traitement des charges de gestion 
+29. Les charges comportent les charges liées à l'activité de placement et les autres charges 
+notamment liées à l'exploitation. 
+http://www.procomptable.com/ 
+En vue de respecter le principe d'égalité entre les actionnaires et porteurs de parts, la comptabilisation 
+des charges de gestion doit se faire conformément au principe de rattachement des charges 
+supportées à la période concernée. 
+Les frais de gestion budgétisés sont prises en compte en résultat selon la périodicité de calcul de la 
+valeur liquidative. 
+Traitement des opérations de souscription et de rachat 
+30. Toute opération de souscription (ou rachat) est effectuée sur la base d'une valeur liquidative 
+connue, augmentée éventuelle-ment des commissions de souscription (ou de rachat) ou droit d'entrée 
+(ou de sortie). 
+La valeur liquidative doit dans un premier temps être défalquée entre sa part capital et sa part revenu. 
+La part capital est défalquée entre la quote-part dans le capital de début d'exercice et la quote-part 
+dans les sommes non distribuables de l'exercice en cours. 
+La part revenu est défalquée entre la quote-part dans les résultats reportés, la quote-part dans le 
+résultat de l'exercice clos et la quote-part dans le résultat de l’exercice en cours. 
+Détermination de la valeur liquidative 
+31. La valeur liquidative de l'action d'une SICAV ou de la part d'un FCP sert de base pour les entrées 
+et sorties des actionnaires ou porteurs de parts. Elle est égale à l'actif net divisé par le nombre 
+d'actions ou de parts en circulation au moment de son calcul. 
+Cette valeur tient compte, à la date de son calcul, de l'ensemble des plus ou moins-values réalisées, 
+des moins-values latentes et des plus-values latentes sur le portefeuille titres, ainsi que des produits 
+et charges courus à cette date. 
+Informations à fournir 
+32. Lorsque des titres cotés sont évalués sur une base autre que le dernier cours boursier, 
+conformément aux paragraphes 14 et 17 de la présente norme, les notes aux états financiers doivent 
+préciser : 
+• l'identification du titre, 
+• la valeur comptable et la base d'évaluation retenue, 
+• la valeur déterminée par application du dernier cours boursier. 
+Date d'application 
+33. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 01/01/1999. 

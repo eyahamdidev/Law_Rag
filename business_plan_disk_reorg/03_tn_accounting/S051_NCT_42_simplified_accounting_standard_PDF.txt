@@ -1,0 +1,890 @@
+1 
+ 
+NORME RELATIVE À LA 
+ COMPTABILITÉ SIMPLIFIÉE 
+NCT 42 
+OBJECTIF 
+ 
+1. L’article premier de la loi n°96 -112 du 30 
+décembre 1996, relative au système 
+comptable des entreprises, dispose que la 
+comptabilité simplifiée  à laquelle so nt 
+soumises les entreprises répondant aux 
+conditions fixées par des législations 
+spéciales, est définie par des normes 
+comptables.   
+2. La comptabilité simplifiée, objet de la présente 
+norme, est de nature à répondre aux besoins 
+relativement simples des différents utilisateurs 
+de l’information f inancière (propriétaires, 
+dirigeants, Etat et organismes publics, 
+établissements de crédit, etc.). 
+3. L'objectif de la présente norme est de prescrire 
+les règles particulières  en matière 
+d’organisation comptable,  de prise en compte, 
+d’évaluation et de présentation applicables aux 
+personnes soumises par une législation  
+spéciale  à la tenue d’une comptabilité 
+simplifiée, afin d’aboutir à la  prod uction 
+d'états financiers simplifié s permettant au x 
+utilisateurs d'évaluer leurs situations 
+financières et leurs performances ainsi que les 
+variations de leurs situations financières. 
+ 
+Ces personnes sont désignées dans la présente 
+norme par "entité". 
+ 
+ CHAMP D’APPLICATION 
+ 
+4. La présente norme s’applique aux entités qui 
+répondent aux conditions fixées par des 
+législations spéciales pour la tenue d'une 
+comptabilité simplifiée telle que définie par 
+la présente norme. 
+5. Pour toute entité soumise à la tenue d’une 
+comptabilité simplifiée,  l’application du 
+système comptable des entreprises prévu par 
+la loi n°96-112 du 30 décembre 1 996, est 
+encouragée. 
+ 
+FONDEMENTS CONCEPTUELS  
+6. Le cadre conceptuel de la comptabili té 
+financière tel qu’approuvé par le décret n°96-
+2459 du 30 décembre 1996  et les normes 
+comptables du système comptable des 
+entreprises constituent la référence de base 
+pour l’application de la présente norme. 
+7. Les caractéristiques qualitatives de  
+l’information financière, les hypothèses sous -
+jacentes, les conventions comptables , les 
+définitions et les conditions de prise en 
+compte des éléments des états financiers  ainsi 
+que les procédés de mesure , tels que  prévus 
+par le cadre conceptuel , sont dans leur  
+ensemble applicables pour la tenue d ’une 
+comptabilité simplifiée. 
+8. Dans la mesure où la na ture et la taille des 
+activités des petites entités  assujetties à la 
+tenue d’une comptab ilité simplifiée diffèrent 
+de celles des autres entités économiques, des 
+règles particulières doivent leur être définies 
+en vue d'aboutir à la production d'états 
+financiers simplifiés. 
+9. La  comptabilité simplifiée est une 
+comptabilité d’engagement. Les effe ts des 
+transactions et autres événements sont 
+comptabilisés quand ces transactions ou 
+événements se produisent, et non pas lors   du 
+décaissement ou de l’encaissement de 
+trésorerie, et ils sont enregistrés dans les livres 
+comptables et présentés dans les ét ats 
+financiers des exercices auxquels ils se 
+rattachent. 
+10. La comptabilité simplifiée suppose une nette 
+séparation entre le patrimoine de l’entité et 
+celui de ses propriétaires. Ce sont les 
+transactions de l’entité et non celles de ses 
+propriétaires qui sont prises en compte dans les 
+états financiers. 
+11. Le coût historique est le  procédé de mesure 
+communément utilisé  pour la préparation  des 
+états financiers simplifiés.  
+12. Le coût historique est habituellement combiné 
+avec les autres procédés de mesure (vale ur de 
+réalisation, coût actuel, etc.) prévus par le cadre 
+conceptuel ou les normes comptables du 
+système comptable des entreprises. 
+ 
+DISPOSITIONS RELATIVES A 
+L’ORGANISATION COMPTABLE 
+ 
+13. La Norme Comptable Générale  NC 01 du 
+système comptable des entreprises définit les 
+règles relatives au contrôle interne et à 
+l'organisation comptable des entités en 
+général indépendamment de la nature et de 
+la taille de leurs activités.  
+2 
+ 
+14. L'ensemble de ces règles est également 
+applicable aux entités soumises à la tenue 
+d’une comptabilité simplifiée. Toutefois, étant 
+donné que la taille des activités des ces entités 
+est souvent réduite  et que les  besoins des 
+utilisateurs en matière d’information 
+financière sont relativement simples , des 
+règles particulières doivent leur être définies 
+en matière d’organisation comptable.   
+ 
+15. La tenue d’une comptabilité simplifiée 
+s’appuie sur des pièces justificatives et 
+comporte: 
+a) la tenue des livres comptables prévus par 
+la présente norme, 
+b) l’élaboration et la présentation d’un état 
+de résultat simplifié e t d’un  bilan 
+simplifié. 
+16. L’exercice comptable comporte douze mois. Il 
+débute le 1er janvier et se termine le 31 
+décembre de la même année. 
+17. Les documents, les livres et les pièces 
+justificatives de chaque exercice comptable  
+sont conservés pendant dix ans au moins.  
+ 
+Les livres comptables 
+ 
+18. Les entités concernées par l’application de la 
+présente norme doivent tenir, au moins , les 
+livres comptables suivants : 
+a) un journal général, et 
+b) un livre d’inventaire. 
+19. Le journal  général et le livre d'inventaire  
+doivent être côtés et paraphés par les autorités 
+compétentes prévues par la  législation en 
+vigueur. Ils doivent être  tenus sans blanc ni 
+altération d'aucune sorte. 
+ 
+Le journal général 
+ 
+20.  Toute  transaction  effectuée  par  l’entité  et  
+tout  effet  d'événement  suscept ible  d'avoir  
+des répercussions  sur  sa  situation  financière  
+et  ses  performances  constitue  une  
+opération  comptable devant être enregistrée 
+dans sa comptabilité. 
+21. Le journal général  est le livre sur lequel  sont 
+enregistrées les opérations soit au jour le jour, 
+soit sous forme de récapitulations mensuelles 
+des totaux de ces opérat ions à condition de 
+conserver tous les documents permettant leur 
+reconstitution jour par jour. 
+22. Tout enregistrement précise l'origine, le contenu 
+et l'imputation de l'opérat ion ainsi que les 
+références des pièces justificatives qui 
+l'appuient.  
+23. Toute opé ration comptable de l'entité  est 
+traduite par une écriture passée selon le 
+système de la "partie double".  
+24. Les écritures sont passées dans le journal 
+opération par opération et jour par jour. 
+Toutefois, les opérations de même nature 
+réalisées en un même lieu et au cours d'une 
+même journée peuvent  être  regroupées  et  
+enregistrées  en  une  même écriture à condition 
+de conserver  les documents justifiant leurs 
+détails. 
+ 
+Le livre d’inventaire  
+ 
+25. L'opération d'inventaire doit être réalisée, 
+au moins une fois par exercice, à l'effet de 
+vérifier l'existence  des  éléments  d'actifs  et  
+de  passifs  et  de  s'assurer  de  leur  valeur.  
+Les  éléments  sont regroupés sur le livre 
+d'inventaire selon la nature de chaque 
+élément inventorié et le mode de son 
+évaluation. 
+26. L’entité transcrit sur le livre d'inventaire ses 
+états financiers simplifiés. 
+ 
+Inventaire des immobilisations 
+ 
+27. L’inventaire des immobilisations est porté sur  
+un état perme ttant notamment le recensement 
+exhaustif des actifs immobilisés  de l’entité 
+ainsi que le calcul des dotations aux 
+amortissements y afférent s. Cet état est  
+présenté selon le modèle prévu à l'annexe n° 1 
+de la présente norme.   
+ 
+Inventaire des stocks 
+ 
+28. À la f in de l’exercice, les stocks existants 
+doivent être recensés, évalués et portés sur un 
+état d’inventaire des stocks  établi, par 
+catégorie homogène  et par article , selon le 
+modèle présenté à l'annexe n° 2 jointe à la 
+présente norme.  
+29. Les données récapitulati ves de l ’inventaire 
+des stocks sont porté es sur le livre 
+d’inventaire en précisant pour chaque  
+catégorie homogène d’articles sa valeur brute, 
+la provision pour dépréciation correspondante 
+et sa valeur nette  ainsi que  son mode 
+3 
+ 
+d’évaluation. Le détail de cha que catégorie  
+d’articles est vérifié par l’état d’inventaire  s’y 
+rapportant.  
+   
+Procédés et moyens de traitement de  
+l'information 
+ 
+30. La comptabilité simplifiée peut être t enue 
+manuellement ou au moyen d e systèmes 
+informatisés. L’organisation de la 
+comptabilité tenue au moyen d e systèmes 
+informatisés doit permettre de satisfaire les 
+exigences de sécurité et de fiabilité requises 
+en la matière et de restituer sur papier sous 
+une forme directement intelligible toute 
+donnée entrée dans le système de traitement. 
+31. L’identification des documents issus d e 
+systèmes informatisés est obtenue par : 
+a) une numérotation des pages ;  
+b) l’utilisation de la date du jour de 
+traitement générée par le système et qui ne 
+peut être modifiée par l’entité, pour dater 
+les documents ; 
+c) l’utilisation d’un programme interdisant 
+l’annulation ou la modification des 
+enregistrements validés. 
+32. L’entité qui tien t sa comptabilité  au  moyen  
+de  systèmes informatisés, doit transcrire  les 
+totaux des en registrements comptables sur le  
+journal  général co té et paraphé une fois par 
+mois au moins. 
+ 
+Nomenclature comptable 
+ 
+33.  L'organisation comptable de l’entité doit 
+être aménagée conformément aux règles 
+prévues par la Norme Comptable Générale  
+NC 01 du système comptable des entreprises  
+ainsi qu'aux dispositions  de la présente 
+norme. 
+34. Le plan des comptes de l'entité est un 
+document qui rassemble, dans un ordre 
+logique, la nomenclature  des  comptes  à  
+utiliser.   
+Un plan allégé est prévu, à titre indicatif, dans 
+l’annexe n°5 de la présente norme. 
+35. L’entité peut ou vrir les subdivisions 
+nécessitées  par  ses activités ou,  dans le cas  
+où  la  nomenclature  figurant  à  l’annexe 5  de  
+la  présente norme   s'avère  trop  détaillée, 
+l'entité  peut  regrouper  certains  comptes  à  
+condition  que  le regroupement opéré n e soit 
+pas fait pour procéder à des compensations non 
+autorisées et qu'il puisse permettre 
+l'établissement normal des états financiers. 
+36. Le fonctionnement des comptes est identique 
+à celui prévu par la Norme Comptable 
+Générale NC 01 du système comptable des  
+entreprises. 
+ 
+DISPOSITIONS RELATIVES AUX REGLES 
+DE PRISE EN COMPTE ET 
+D’EVALUATION  
+ 
+37. La plupart des règles de prise en compte  et 
+d’évaluation des éléments des états 
+financiers telles que prescrites  par le cadre 
+conceptuel et les normes  du système 
+comptable des entreprises sont applicables 
+pour la tenue d’une comptabilité simplifiée.  
+38. Dans un objectif de simplification, l ’entité 
+peut adopter pour ses immobilisations  
+incorporelles et corporelles le mode  
+d’amortissement linéaire. La valeur 
+résiduelle de  l’actif amortissable est 
+considérée comme étant nulle. 
+39. Les co ûts d’emprunt sont comptabilisés en 
+charges de l’exercice au cours duquel ils  
+sont encourus. 
+40. Les stocks doivent être évalués au plus faible 
+du coût et de la valeur nette de réalisation. 
+41. Les éléments constitutifs du coût des stocks 
+sont, en principe, les coûts réels. Cependant, 
+pour des raisons pratiques, des techniques 
+d’évaluation du coût des stocks, telles que la 
+méthode du coût standard ou celle du prix de 
+détail, peuvent être utilisées si elles 
+aboutissent à des résultats proches du coût.  
+42. Les coûts standards retiennent les niveaux 
+normaux d’utilisation de matières premières 
+et de fournitures, de main -d’œuvre, 
+d’efficience et de capacité. Ils sont 
+régulièrement réexaminés et, le cas échéant, 
+révisés à la lumière des conditions actuelles. 
+43. La méthode du prix de détail est souvent 
+utilisée dans l’activité de la distribution au 
+détail. Le coût des stocks est déterminé en 
+déduisant de la valeur de vente des stocks le 
+pourcentage de marge brute approprié.  Le 
+pourcentage utilisé prend en considération les 
+stocks qui ont été démarqués au -dessous de 
+leur prix de vente initial.   
+44. Une entité est autorisée à utiliser le prix 
+d’achat le plus récent si celui -ci donne une 
+approximation du coût. 
+4 
+ 
+45. À chaque date de clô ture, les éléments 
+monétaires en monnaie étrangère doivent 
+être convertis en utilisant le cours de clôture. 
+46. Les écarts de change résultant du règlement 
+d’éléments monétaires ou de la conversion 
+d’éléments monétaires à des cours différents 
+de ceux qui ont é té utilisés lors de leur 
+comptabilisation initiale au cours de la 
+période ou dans des états financiers 
+antérieurs doivent être comptabilisés en 
+produits ou en ch arges de l’exercice  au 
+cours duquel ils surviennent. 
+ 
+DISPOSITIONS RELATIV ES A LA 
+PRESENTATION DES ETATS FINANCIERS 
+SIMPLIFIES 
+ 
+47. Les états financiers simplifiés comprennent : 
+a) un bilan  simplifié, 
+b) un état de résultat simplifié, et 
+c) des notes aux états financiers simplifiées. 
+ 
+Le bilan simplifié 
+ 
+48. Le bilan simplifié fournit l'information sur la 
+situation financière de l'entité et particulièrement 
+sur les ressources économiques qu'elle contrôle 
+et ses obligations  actuelles,  ainsi que sur  les 
+effets des transactions, événements et 
+circonstances susceptibles de modifier c es 
+ressources et obligations. 
+49. Le bil an simplifié doit faire apparaître 
+distinctement les rubriques suivantes ainsi que 
+le montant total de chacune d’elles : les actifs, 
+les passifs et les capitaux propres. Les 
+éléments du bilan sont présentés en 
+privilégiant l'ordre croissant de liquidité  ou 
+d’exigibilité.   
+ 
+50. Le bilan simplifié renseigne au moins sur les 
+postes suivants : 
+ 
+ACTIFS 
+ 
+AC1 : Immobilisations incorporelles 
+AC2 : Immobilisations corporelles 
+AC3 : Actifs financiers 
+AC4 : Stocks 
+AC5 : Clients et comptes rattachées 
+AC6 : Autres actifs 
+AC7 : Liquidités et équivalents de liquidités 
+ 
+PASSIFS 
+PA1: Emprunts 
+PA2 : Fournisseurs et comptes rattachées 
+PA3 : Autres passifs. 
+PA4 : Concours bancaires 
+ 
+CAPITAUX PROPRES 
+CP1 : Capital  
+CP2 : Autres capitaux propres 
+CP3 : Résultat de l'exercice  
+ 
+Un mod èle de bilan simplifié est présenté à 
+l’annexe n° 3 de la présente norme. 
+ 
+L’état de résultat simplifié 
+ 
+51. L'état de résultat simplifié informe sur les 
+performances de l’entité.  
+Les produits et les char ges sont classés dans 
+l’état de résultat simplifié en fonction de leur 
+nature.  
+ 
+52. L’état de résultat simplifié renseigne au moins 
+sur les postes suivants : 
+ 
+PR1 : PRODUITS D’EXPLOITATION 
+a) Revenus 
+b) Autres produits d’exploitation 
+CH1 : CHARGES D’EXPLOITATION 
+a) Variation des stocks des produits finis 
+et des en-cours  
+b) Achats consommés 
+c) Charges de personnel 
+d) Dotations aux amortissements et aux 
+provisions 
+e) Autres charges d’exploitation.  
+PR 2 : PRODUITS HORS EXPLOITATION 
+CH2 : CHARGES HORS EXPLOITATION 
+ 
+Un modèle de l’état de résultat simplifié est 
+présenté à l’annexe n°4 de la présente norme. 
+ 
+53. Sont considérés comme éléments 
+d’exploitation, les produits et les charges  
+générés par le cours  des  activités  s'inscrivant  
+dans  le  cadre  de  l'exploitation  centrale  ou  
+permanente  de l’entité. 
+5 
+ 
+ 
+Informations à fournir 
+ 
+54. Les no tes aux états financiers simplifiés 
+comportent essentiellement :  
+a) une note comportant des informations 
+générales sur l’entité, dont notamment : 
+i. la dénomination sociale, 
+ii. la forme juridique, 
+iii. l’adresse du siège social et du 
+principal établissement s’il est 
+différent, 
+iv. le numéro d’immatriculation au 
+registre de commerce, 
+v. le matricule fiscal, 
+vi. une description de la nature des 
+opérations de l’entité et de ses 
+principales activités, et 
+vii. la structure du capital social. 
+b) une note sur les bases de mesure et les 
+principes comptables appliqués, 
+c) une note sur les immobilisations présentée 
+selon le modèle prévu à l’annexe  n°1 de 
+la présente norme, 
+d) une note sur les stocks les détaillant en 
+catégories homogènes, avec précision de la 
+valeur brute, de la provision pour 
+dépréciation, le cas échéant, et de la valeur 
+nette de chacune d’elles,  
+ 
+DATE D’APPLICATION 
+ 
+55. La présente norme est applicable pour les 
+exercices ouverts à partir du premier 
+janvier 2011.
+ 
+6 
+ 
+Annexe n° 1 
+  
+ETAT D’INVENTAIRE DES IMMOBILISATIONS AU 31 DECEMBRE N 
+(Montants exprimés en dinars) 
+ 
+ 
+ 
+Annexe n°2 
+ETAT D’INVENTAIRE DES STOCKS AU 31 DECEMBRE N 
+(Montants exprimés en dinars) 
+ 
+Intitulé de l’article Quantité 
+(1) 
+Valeur 
+unitaire 
+(2) 
+Valeur totale 
+brute(3) 
+(1)x(2) 
+Provision  
+(4) 
+Valeur totale 
+nette 
+(3-4) 
+Catégorie1 : 
+- article a 
+- article b 
+- 
+Catégorie2 : 
+- 
+ 
+ 
+ 
+    
+Total      
+ 
+Annexe n°3 
+BILAN SIMPLIFIE AU 31 DECEMBRE N 
+           (Montants exprimés en dinars) 
+ 
+ACTIFS Notes N N+1 CAPITAUX PROPRES ET PASSIFS Notes N N+1 
+    Capitaux propres    
+AACC11--IImmmmoobbiilliissaattiioonnss  iinnccoorrppoorreelllleess  
+MMooiinnss  ::  aammoorrttiisssseemmeennttss    
+      CCPP11--  CCaappiittaall  ssoocciiaall  //  CCoommppttee  ddee  
+ll’’eexxppllooiittaanntt     
+      
+AACC22--  IImmmmoobbiilliissaattiioonnss  ccoorrppoorreelllleess  
+  MMooiinnss  ::  aammoorrttiisssseemmeennttss  
+      CCPP22--  AAuuttrreess  ccaappiittaauuxx  pprroopprreess        
+AACC33--  AAccttiiffss    ffiinnaanncciieerrss    
+MMooiinnss  ::  pprroovviissiioonnss  
+      CCPP33--  RRééssuullttaatt  ddee  ll’’eexxeerrcciiccee       
+        Total capitaux propres        
+AACC44--  SSttoocckkss  
+MMooiinnss  ::  pprroovviissiioonnss  
+   PASSIFS    
+AACC55--  CClliieennttss  eett  ccoommpptteess  rraattttaacchhééss  
+MMooiinnss  ::  pprroovviissiioonnss  
+   PPAA11--  EEmmpprruunnttss         
+AACC66--  AAuuttrreess  aaccttiiffss  
+MMooiinnss  ::  pprroovviissiioonnss  
+      PPAA22--  FFoouurrnniisssseeuurrss  eett  ccoommpptteess  rraattttaacchhééss        
+AACC77--  LLiiqquuiiddiittééss  eett  ééqquuiivvaalleennttss  ddee  
+lliiqquuiiddiittééss   
+   PPAA33--  AAuuttrreess  ppaassssiiffss     
+     PPAA44--  CCoonnccoouurrss  bbaannccaaiirreess       
+    Total des passifs    
+Total des actifs    Total des capitaux propres et des passifs    
+Immobilisat
+ions 
+Date 
+d’acquisi
+tion 
+Valeur brute 
+ou d’origine 
+(1) 
+Cumul des 
+amortissements 
+pratiqués (N-1) 
+(2) 
+Valeur nette 
+(N-1) 
+(1-2) 
+Dotation 
+d’amortissement 
+(N) 
+(3) 
+Cumul des 
+amortissements 
+pratiqués (4) 
+(2+3) 
+Valeur 
+nette (N) 
+(1-4) 
+Incorporelles 
+- 
+- 
+Corporelles :  
+- 
+- 
+       
+ 
+ 
+Total        
+ 
+7 
+ 
+ 
+Annexe n°4   
+ETAT DE RESULTAT SIMPLIFIE  
+              POUR L’EXERCICE CLOS LE 31 DECEMBRE N    
+(Montants exprimé en dinars) 
+ 
+ELEMENTS  Notes N N-1 
+   
+ PR1 : PRODUITS D’EXPLOITATION 
+(a)  Revenus  
+(b)  Autres produits d’exploitation 
+ CH1 : CHARGES D’EXPLOITATION 
+(a) Variation des stocks des produits finis et des en-cours  
+(b) Achats consommés 
+(c) Charges de personnel 
+(d) Dotations aux amortissements et aux provisions 
+(e) Autres charges d’exploitation.  
+   
+RESULTAT D'EXPLOITATION 
+    
+PR2 : PRODUITS HORS EXPLOITATION 
+       CH2 : CHARGES HORS EXPLOITATION 
+        
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RESULTAT NET DE L’EXERCICE AVANT IMPOTS     
+IMPOTS SUR LE RESULTAT    
+RESULTAT NET DE L’EXERCICE    
+ 
+ 
+ 
+Annexe n°5 
+NOMENCLATURE  DES COMPTES  
+ 
+ 
+Classe 1 : Comptes de capitaux propres et passifs non courants  
+ 
+10 Capital 
+ 101 Capital social 
+ 108 Compte de l'exploitant 
+11 Réserves   
+12 Résultats reportés 
+13 Résultat de l'exercice 
+ 131 Résultat bénéficiaire 
+ 135  Résultat déficitaire 
+14 Autres capitaux propres  
+15 Provisions pour risques & charges 
+16 Emprunts  
+18 Autres dettes financières   
+ 
+ 
+8 
+ 
+ 
+Classe 2 : Comptes d'actifs immobilisés 
+ 
+21 Immobilisations incorporelles 
+ 212 Concessions de marques, brevets, licences, marques, procédés de fabrication 
+  & valeurs similaires 
+ 213 Logiciels 
+ 214 Fonds commercial 
+ 216 Droit au bail 
+22 Immobilisations corporelles 
+ 221 Terrains 
+ 222 Constructions 
+ 223 Installations techniques, matériel et outillage industriels 
+ 224 Matériel de transport 
+ 228 Autres immobilisations corporelles 
+  2281 Installations générales, agencements et aménagements  divers 
+  2282 Equipement de bureaux 
+  2286 Emballages récupérables identifiables 
+23 Immobilisations en cours 
+ 231 Immobilisations incorporelles en cours 
+ 232 Immobilisations corporelles en cours 
+237    Avances et acomptes versés sur immobilisations incorporelles 
+238    Avances et acomptes versés sur immobilisations corporelles 
+24 Immobilisations à statut juridique particulier 
+26 Portefeuille-titres et autres actifs financiers 
+ 261 Titres immobilisés (droit de propriété) 
+  2611 Actions 
+  2618 Autres titres 
+ 262 Titres immobilisés (droit de créance) 
+  2621 Obligations 
+  2622 Bons 
+ 264 Prêts 
+ 265 Dépôts et cautionnements versés 
+27 Autres actifs immobilisés 
+28 Amortissements des immobilisations 
+ 281 Amortissements des immobilisations incorporelles 
+ 282 Amortissements des immobilisations corporelles 
+ 284 Amortissements des immobilisations à statut juridique particulier 
+29 Provisions pour dépréciation des immobilisations 
+ 295 Provisions pour dépréciation du  portefeuille titres et des autres actifs financiers 
+  
+Classe 3 : Comptes de stocks 
+31 Matières premières et fournitures liées 
+32 Autres approvisionnements 
+33 En-cours de production de biens 
+34 En-cours de production de services 
+35 Stocks de produits 
+37 Stocks de marchandises 
+39 Provisions pour dépréciation des stocks 
+ 
+ 
+9 
+ 
+ 
+Classe 4 : Comptes de tiers 
+ 
+40 Fournisseurs et comptes rattachés 
+ 401 Fournisseurs d'exploitation 
+ 403 Fournisseurs d'exploitation - effets à payer 
+ 404 Fournisseurs d'immobilisations 
+ 405 Fournisseurs d'immobilisations - effets à payer 
+ 408 Fournisseurs - factures non parvenues 
+ 409 Fournisseurs débiteurs 
+41 Clients et comptes rattachés 
+ 411 Clients 
+ 413 Clients - effets à recevoir 
+ 416 Clients douteux ou litigieux 
+ 417 Créances sur travaux non encore facturables 
+ 418 Clients -  produits non encore facturés (produits à recevoir) 
+ 419 Clients créditeurs 
+42 Personnel et comptes rattachés 
+ 421 Personnel - avances et acomptes 
+ 423 Personnel - œuvres sociales 
+ 425 Personnel - rémunérations dues 
+ 426 Personnel - dépôts 
+ 427 Personnel - oppositions 
+ 428 Personnel - charges à payer et produits à recevoir 
+43 Etat et collectivités publiques 
+ 431 Etat - subventions à recevoir 
+ 432 Etat - impôts et taxes retenus à la source 
+ 433 Opérations particulières avec l'Etat, les collectivités publiques,  les organismes internationaux 
+ 434 Etat - impôts sur le résultat 
+ 435 Obligations cautionnées 
+ 436 Etat - taxes sur le chiffre d'affaires 
+ 437 Autres impôts, taxes et versements assimilés   
+45 Débiteurs divers et Créditeurs divers 
+ 452 Créances sur cessions d'immobilisations 
+ 453 Sécurité sociale et autres organismes sociaux 
+          457 Autres comptes débiteurs ou créditeurs divers 
+ 458 Divers charges à payer et produits à recevoir  
+46 Comptes transitoires ou d'attente 
+ 461 Compte d'attente 
+ 468 Autres comptes transitoires 
+47 Comptes de régularisation 
+ 471 Charges constatées d'avance 
+ 472 Produits constatés d'avance  
+49 Provisions pour dépréciation des comptes de tiers 
+ 491 Provisions pour dépréciation des comptes clients 
+ 496 Provisions pour dépréciation des débiteurs divers 
+   
+Classe 5 : Comptes financiers 
+50 Emprunts et autres dettes financières courants 
+ 501 Emprunts courants liés au cycle d'exploitation 
+505 Echéances à moins d'un an sur emprunts non courants 
+ 506 Concours bancaires courants 
+ 
+10 
+ 
+ 507 Emprunts échus et impayés 
+ 508 Intérêts courus 
+  (à subdiviser selon la même ventilation que le compte 50) 
+51 Prêts et autres créances financières courants 
+  511   Prêts courants liés au cycle d'exploitation 
+ 518 Intérêts courus 
+52 Placements   
+ 523 Actions 
+  5231 Titres cotés 
+  5235 Titres non cotés 
+ 524 Autres titres conférant un droit de propriété 
+ 525 Obligations et bons émis par l’entité et rachetés par elle 
+ 526 Obligations 
+ 527 Bons du Trésor et bons de caisse à court terme 
+53 Banques, établissements financiers et assimilés 
+ 531 Valeurs à l'encaissement 
+  5311 Coupons échus à l'encaissement 
+  5312 Chèques à encaisser 
+  5313 Effets à l'encaissement 
+  5314 Effets à l'escompte 
+ 532 Banques  
+ 534 C.C.P. 
+ 535 Comptes au Trésor 
+ 537 Autres organismes financiers 
+54 Caisse  
+59 Provisions pour dépréciation des comptes financiers 
+       (Même ventilation que les comptes de la classe 5). 
+ 
+Classe 6 : Comptes de Charges 
+60 Achats (sauf 603)  
+ 601 Achats stockés - Matières premières et fournitures liées 
+ 602 Achats stockés - Autres approvisionnements  
+ 604 Achats d'études et de prestations de services (y compris achat  de sous-traitance de 
+production) 
+ 605 Achats de matériel, équipements et travaux 
+ 606 Achats non stockés de matières et fournitures 
+ 607 Achats de marchandises  
+ 609 Rabais, remises et ristournes obtenus sur achats 
+                                                ________________________________________________________  
+ 603 Variation des stocks (approvisionnements et marchandises) 
+  6031 Variation des stocks de matières premières et fournitures 
+  6032 Variation des stocks des autres approvisionnements 
+  6037 Variation des stocks de marchandises 
+____________________________________________________________ 
+61 Services extérieurs 
+ 611 Sous-traitance générale 
+ 612 Redevances pour utilisation d'immobilisations concédées 
+ 613 Locations (y compris malis sur emballages) 
+ 614 Charges locatives et de copropriété 
+ 615 Entretien et réparations 
+ 616 Primes d'assurances 
+ 617 Etudes, recherches et divers services extérieurs 
+ 
+11 
+ 
+ 619 Rabais, remises et ristournes obtenues sur services extérieurs 
+62 Autres services extérieurs 
+ 621 Personnel extérieur à l'entreprise 
+ 622 Rémunération d'intermédiaires et honoraires 
+ 623 Publicité, publications, relations publiques 
+ 624 Transports de biens et transports collectifs du personnel 
+ 625 Déplacements, missions et réceptions 
+ 626 Frais postaux et frais de communications 
+ 627 Services bancaires et assimilés 
+ 629 Rabais, remises et ristournes obtenus sur autres services extérieurs. 
+63 Charges diverses ordinaires 
+ 631 Redevances pour concessions de marques, brevets, licences, procédés, droits et valeurs 
+similaires 
+ 633 Jetons de présence 
+ 634 Pertes sur créances irrécouvrables 
+ 636 Pertes nettes sur cession d'immobilisations et autres pertes  
+ 637 Réductions de valeur 
+64 Charges de personnel 
+ 640 Salaires et compléments de salaires 
+ 642 Appointements et compléments d'appointements 
+ 643 Indemnités représentatives de frais 
+ 644 Commissions au personnel 
+ 645 Rémunérations des administrateurs, gérants et associés 
+ 646 Charges connexes aux salaires, appointements, commissions et  rémunérations 
+ 647 Charges sociales légales 
+ 649 Autres charges de personnel   
+65 Charges financières 
+ 651 Charges d'intérêts 
+ 654 Escomptes accordés 
+ 655 Pertes de change 
+ 656 Pertes nettes sur cessions de valeurs mobilières 
+ 657 Autres charges financières 
+66 Impôts, taxes et versements assimilés 
+ 661 Impôts, taxes et versements assimilés sur rémunérations  
+  6611 TFP   
+  6612 FOPROLOS 
+  6618 Autres 
+ 665 Autres impôts, taxes et versements assimilés  
+68 Dotations aux amortissements et aux provisions 
+ 681 Dotations aux amortissements et aux provisions - charges  
+ ordinaires (autres que financières) 
+  6811 Dotations aux amortissements des immobilisations incorporelles et corporelles 
+  6815 Dotations aux provisions pour risques et charges  
+                   6817 Dotations aux provisions pour dépréciation des stocks et des créances clients  
+ 686 Dotations aux amortissements et aux provisions - charges  
+ financières  
+69 Impôts sur les bénéfices 
+  
+Classe 7 : Compte de  produits 
+  
+70 Ventes de produits, prestations de services  
+ 701 Ventes de produits finis 
+ 
+12 
+ 
+ 702 Ventes de produits intermédiaires 
+ 703 Ventes de produits résiduels 
+ 704 Travaux 
+ 705 Etudes et prestations de services 
+ 706 Produits des activités annexes 
+ 707 Ventes de marchandises 
+ 709 Rabais, remises et ristournes accordés    
+71 Production stockée (ou déstockage) 
+ 713 Variation des stocks (en-cours de production et  produits) 
+  7133 Variations des en-cours de production de biens 
+  7134 Variation des en-cours de production de services 
+  7135 Variation des stocks de produits 
+72 Production immobilisée 
+ 721 Immobilisations incorporelles 
+ 722 Immobilisations corporelles  
+73 Produits divers ordinaires 
+ 731 Redevances pour concessions, brevets, licences, marques,  
+ procédés, droits et valeurs similaires 
+ 732 Revenus des immeubles non affectés aux activités professionnelles 
+ 733 Jetons de présence et rémunérations d'administrateurs et de gérants,  
+ 735 Quotes-parts de résultat sur opérations faites en commun 
+ 736 Profits nets sur cessions d'immobilisations et autres gains sur  éléments non récurrents ou 
+exceptionnels 
+ 739 Quotes-parts des subventions d'investissement inscrites au  
+ résultat de l'exercice 
+74 Subventions d'exploitation et d'équilibre 
+ 741 Subventions d'exploitation 
+ 745 Subventions d'équilibre 
+75 Produits financiers 
+ 751 Produits du portefeuille titres  
+ 752 Produits des autres actifs financiers 
+ 753 Revenus des autres créances 
+ 755 Escomptes obtenus 
+ 756 Gains de change 
+ 757 Profits nets sur cessions de valeurs mobilières 
+78 Reprises sur amortissements et provisions  
+79      Transferts de charges       
+ 

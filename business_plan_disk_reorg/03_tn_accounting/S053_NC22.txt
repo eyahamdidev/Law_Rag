@@ -1,0 +1,1669 @@
+http://www.procomptable.com/ 1
+NC 22 
+Le contrôle interne et l’organisation comptable dans les établissements 
+bancaires 
+ 
+ 
+Objectif  
+01. La Norme Comptable NC 01 -Norme Comptable Générale définit les règles relatives au contrôle 
+interne et à l'organisation comptable des entreprises en général sans distinction de la nature de leurs 
+activités.  
+02. En dehors de la nomenclature comptable, l'ensemble de ces règles sont également applicables 
+aux établissements bancaires. Toutefois, et compte tenu notamment de la nature et du volume 
+considérable des opérations bancaires, et de l'importance des risques liés à l'organisation et à 
+l'activité bancaires, des règles particulières doivent leur être définies en vue de permettre l'obtention 
+d'informations financières fiables et pertinentes.  
+03. L'objectif de la présente norme est de définir les règles de contrôle interne et d'organisation 
+comptable applicables aux établissements bancaires.  
+Champ d' application  
+04. La présente norme s'applique aux établissements bancaires tels que définis par les textes 
+en vigueur régissant l'activité bancaire.  
+Définitions  
+05. Pour l'application de la présente norme, les termes ci- après ont la signification suivante :  
+(a) Date d'arrêté comptable : désigne la date de clôture d'une période comptable.  
+(b ) Période comptable : désigne l'exercice comptable ou toute autre période comptable au terme de 
+laquelle l'établissement bancaire est tenu, en vertu des dispositions légales et réglementaires, de 
+présenter des situations comptables ou des états financiers intermédiaires ou annuels.  
+(c) Monnaie de référence : désigne la monnaie de comptabilisation, soit la monnaie dans laquelle 
+sont établis les états financiers de l'établissement bancaire en vertu des dispositions légales et 
+statutaires.  
+Le contrôle interne 
+Objectifs du contrôle interne 
+06. Les établissements bancaires doivent disposer d'un système de contrôle interne efficace. Ce 
+système doit être aménagé conformément aux règles prévues par la norme comptable NC 01 -Norme 
+comptable générale et aux dispositions de la présente norme.  
+07. Les objectifs du système de contrôle interne sont prévus par la norme comptable générale. 
+Le système de contrôle interne dans les établissements bancaires doit particulièrement viser 
+les objectifs suivants :  
+(a) assurer que les opérations réalisées par l'établissement bancaire sont conformes aux 
+dispositions législatives et réglementaires, et sont conduites de façon prudente et 
+appropriée en accord avec la politique arrêtée par la direction ;  
+http://www.procomptable.com/ 2
+(b) assurer la protection et la sauvegarde des actifs de l'établissement bancaire contre les 
+risques inhérents à l'organisation et à l'activité bancaires, notamment les risques liés aux 
+irrégularités, erreurs et fraudes qui pourraient survenir ;  
+(c) garantir l'obtention d'une information financière complète, fiable, en accord avec les 
+règles prévues, et dans les délais requis.  
+Facteurs essentiels du contrôle interne  
+08. Il appartient à la direction de déterminer les procédures et les moyens adéquats pour 
+atteindre les objectifs de contrôle interne, tout en s'assurant que les procédures et moyens 
+mis en place sont effectivement appliqués. Un système de contrôle interne efficace devrait 
+s'appuyer sur les facteurs suivants :  
+(a) un système adéquat de définition des pouvoirs et des procédures permettant la 
+surveillance et le contrôle des risques spécifiques liés à la réalisation et au traitement des 
+opérations bancaires, notamment :  
+- la surveillance des risques de contrepartie ;  
+- la surveillance des risques de liquidité ;  
+- la surveillance des risques de taux ;  
+- la surveillance des positions de change de l'établissement bancaire ;  
+- la maîtrise des risques de patrimoine, juridique et administratif ; 
+- la surveillance des risques liés aux traitements informatisés.  
+(b) un document décrivant de façon claire l'organisation et les procédures au sein de 
+l'établissement bancaire ;  
+(c) des procédures efficaces permettant de respecter la piste d'audit ;  
+(d) une structure d'audit interne efficace et opérationnelle.  
+09. Un système adéquat de définition des pouvoirs suppose l'existence :  
+(a) d'une structure organisationnelle et d'une séparation de fonctions appropriée ;  
+(b) de délégations de pouvoirs prudentes ;  
+(c) de procédures efficaces de collecte, de contrôle et de synthétisation de l'information;  
+10. Les procédures permettant le suivi et le contrôle des risques spécifiques liés à la réalisation des 
+opérations bancaires doivent inclure :  
+(a) l'existence d'un système permettant d'enregistrer immédiatement les opérations dès leur 
+survenance;  
+(b) l'existence d'un système de limites internes aux risques de taux, de change et de contrepartie ;  
+(c) l'existence d'un système permettant la détermination des positions, le calcul des résultats et la 
+vérification des limites internes.  
+(d) l'existence d'un système permettant la conservation adéquate des actifs confiés à 
+l'établissement et la bonne exécution des opérations dont il a la charge.  
+http://www.procomptable.com/ 3
+11. Les procédures permettant le suivi et le contrôle des risques spécifiques liés aux traitements 
+informatisés des opérations bancaires doivent inclure :  
+(a) l'organisation de la fonction informatique incluant les politiques et procédures concernant les 
+fonctions de contrôle et la séparation des fonctions incompatibles;  
+(b) les contrôles portant sur le développement et la maintenance des programmes informatiques 
+incluant la documentation des programmes nouveaux ou révisés et l'accès à la documentation des 
+programmes;  
+(c) des procédures de sécurité physique des installations informatiques et des données produites 
+par le système de traitement des informations, notamment des procédures d'accès aux salles 
+machines, des procédures de sauvegarde des fichiers et des procédures de secours informatiques 
+en cas de détérioration ou de perte de données;  
+(d) des procédures de sécurité logique d'utilisation et de manipulation des systèmes de traitement 
+des informations, notamment des procédures d'habilitation aux différents niveaux de consultation, 
+d'utilisation et de modification des données stockées dans les fichiers, des procédures de saisie, 
+de validation et de redressement des opérations.  
+12. Pour être utile, le document décrivant l'organisation et les procédures au sein de l'établissement 
+bancaire doit comporter:  
+(a) l'organigramme de l'établissement bancaire et de ses différentes structures fonctionnelles et 
+opérationnelles, la description des postes et la définition des délégations de pouvoirs et des 
+responsabilités ;  
+(b) les procédures décrivant le processus de déroulement des différentes opérations incluant les 
+procédures de traitements informatisés, en identifiant les contrôles nécessaires aux étapes 
+d'autorisation, d'exécution et d'enregistrement eu égard aux objectifs de contrôle interne cités au 
+paragraphe 07 ci-dessus.  
+(c) les procédures et l'organisation comptables telles que prévues par les paragraphes 37 et 38 de 
+la présente norme.  
+13. La piste d'audit est un ensemble de procédures permettant d'améliorer les caractéristiques 
+qualitatives et de faciliter le contrôle de l'information financière au sein des établissements bancaires. 
+Elle doit permettre :  
+(a) de justifier toute information par une pièce d'origine à partir de laquelle il doit être possible de 
+remonter par un cheminement ininterrompu aux états financiers et réciproquement ;  
+(b) d'expliquer l'évolution des soldes d'un arrêté comptable à l'autre par la conservation des 
+mouvements ayant affecté les soldes comptables. des postes des états financiers.  
+Structure d'audit interne et comité d'audit  
+14. Les établissements bancaires doivent créer une structure d'audit interne opérant de façon 
+indépendante et qui a pour mission de veiller au bon fonctionnement, l'efficacité et l'efficience 
+du système de contrôle interne.  
+15. Conformément aux bonnes pratiques d'usage, il est approprié de créer un comité d'audit, rattaché 
+au conseil d'administration, et ayant pour rôle :  
+- de définir, de contrôler et de coordonner les activités de la structure d'audit interne et le cas 
+échéant les travaux des autres structures de la banque chargées de missions de contrôle ;  
+- l'examen des insuffisances du fonctionnement du système de contrôle interne relevées par les 
+différentes structures de la banque et autres organes chargés de missions de contrôle ;  
+http://www.procomptable.com/ 4
+- l'adoption des orientations permettant la correction et le suivi des insuffisances des procédures de 
+contrôle interne.  
+16. La structure d'audit interne rend compte par écrit des missions qu'elle accomplit dans le cadre de 
+ses programmes de contrôle régulier.  
+Périodiquement, et au moins une fois par an, la structure d'audit interne élabore également un rapport 
+sur le fonctionnement général du système de contrôle interne.  
+17. Le conseil d’administration des établissements bancaires doit procéder, au moins une fois par an, 
+à l’examen des conditions dans lesquelles le fonctionnement général du système de contrôle interne 
+est assuré. 
+L’organisation comptable 
+Nomenclature comptable 
+18. L’organisation comptable des établissements bancaire doit être aménagée conformément 
+aux règles prévues par la norme comptable NC 01 – Norme Comptable Générale ainsi qu’aux 
+dispositions de la présente norme, et de façon à répondre aux besoins des différents 
+utilisateurs en matière d’information financière dans les délais impartis. 
+19. En principe, et pour répondre aux différents besoins d’information, dont ceux des utilisateurs des 
+états financiers et des organes de surveillance, il est nécessaire d’associer aux événements 
+comptables plusieurs attributs d’information. De façon générale, ces attributs peuvent être gérés soit 
+au niveau de la base d’informations directement liée à la comptabilité dans le plan des comptes, soit 
+au niveau d’autres bases d’informations incluant notamment les applications de gestion. 
+20. Il appartient à la direction de définir le niveau de gestion des différents attributs 
+d’information de façon à obtenir le plus efficacement possible une information financière 
+complète, fiable et pertinente, répondant dans les délais impartis aux besoins des différents 
+utilisateurs. 
+21. Toutefois, le plan des comptes doit être défini de façon telle que les soldes des comptes 
+figurant dans le plan des comptes puissent, au minimum, alimenter par voie directe ou par 
+regroupement les postes et sous postes du bilan, de l’état des engagements hors bilan et de 
+l’état de résultat tels que définie par la norme comptable relative à la présentation des états 
+financiers des établissements financiers. 
+22. Un plan des comptes répondant à ces caractéristiques est proposé en annexe à la présente 
+norme. La nomenclature est basée sur la logique suivante : 
+- la classification des comptes de bilan et de hors bilan est définis selon trois critères 
+essentiels : 
+• la création de la monnaie en tant que critère essentiel de l’activité bancaire, 
+• l’origine de cette monnaie ou la nature de la contrepartie, 
+• la liquidité des fonds concernés. 
+- la classification des comptes de résultat est définie selon trois critères essentiels : 
+• la correspondance avec le découpage des comptes du bilan et du hors bilan. 
+• Les agents économiques, 
+• La nature de la charge ou du produit. 
+http://www.procomptable.com/ 5
+Enregistrement des opérations 
+23. Il peut être associé différentes dates à un événement comptable au sein d’un établissement 
+bancaire. Les différentes dates de traitement peuvent se présenter en pratique comme suit : 
+- date d’opération : c’est la date de survenance de l’opération qui est généralement portée sur 
+la pièce justificative pour permettre son imputation comptable ; 
+- date effective comptable : c’est la date à laquelle l’écriture comptable à un effet sur le solde 
+d’un compte ; 
+- dans de saisie ou de génération : c’est la date de prise en charge de l’événement dans le 
+système comptable. 
+24. Les opérations effectuées par les établissements bancaires doivent être enregistrées 
+chronologiquement le jour même ou elles surviennent soit en date d’opération. 
+25. Dans le cas ou l’établissement bancaire se trouve dans l’impossibilité de passer à temps toutes les 
+écritures afférentes à un arrêté comptable, il est fait usage d’une période d’inventaire appelée journée 
+comptable complémentaire. 
+26. Les journées comptables complémentaires sont des journées comptables de saisie 
+d’écritures postérieures à la date de l’arrêté comptable, qui permettent la prise en compte dans 
+la période adéquats : 
+(a) des opérations des derniers jours de la période comptable qui n’ont pas pu être 
+enregistrées en leur date de survenance, telles que les opérations inter-unités ; 
+(b) des corrections d’écritures comptables enregistrées en cours des journées comptables 
+de la période comptable ; 
+(c) des écritures d’abonnement des produits et charges et le cas échéant des écritures 
+d’inventaire. 
+Tenue des comptes en devises 
+27. Les établissements bancaires ayant un volume significatif d’opérations en devises doivent 
+tenir une comptabilité distincte dans chacune des devises, afin de recenser l’ensemble des 
+opérations qu’ils réalisent en leurs monnaies d’origine. 
+L’enregistrement, la conversion et la réévaluation de ces opérations sont effectués 
+conformément à la norme comptable relative à la comptabilité des opérations en devise dans 
+les établissements bancaires. 
+28. Les conditions de forme de tenue de la comptabilité en monnaie de référence telles que prévues 
+par la norme comptable NC 01 « Normes comptable générale » et la présente norme, sont applicables 
+à la comptabilité en devises. 
+29. En cas de tenue d’une comptabilité dans chacune des devises, les livres comptables obligatoires 
+de l’établissement bancaire incluent, outre les livres comptables obligatoires prévue par NC 01 
+« Norme comptable générale ». 
+- les journaux tenus dans chacune des devises ;  
+- les grands livres tenus dans chacune des devises ;  
+- les balances auxiliaires tenues dans chacune des devises.  
+Comptabilité matière 
+ 
+http://www.procomptable.com/ 6
+30. Les éléments détenus par les établissements bancaires pour le compte de tiers et ne 
+figurant pas dans les états financiers annuels, font l'objet d'une comptabilité matière.  
+31. Parmi ces éléments, figurent notamment les chèques, effets et autres valeurs assimilées remis par 
+les clients pour encaissement. Le système de comptabilité matière destiné à gérer ces éléments doit 
+permettre un suivi effectif des valeurs jusqu'au dénouement des opérations et une identification, à tout 
+moment, du stade de traitement de chaque valeur .Ce système doit être entouré des sécurités 
+nécessaires comparables à celles applicables pour une comptabilité financière.  
+32. Toutefois, les établissements bancaires peuvent opter pour le traitement des chèques, effets et 
+autres valeurs assimilées remis par les clients pour encaissement au sein de la comptabilité 
+financière. Dans ce cas, les comptes utilisés doivent être annulés pour les besoins de la présentation 
+des états financiers intermédiaires ou annuels.  
+Opérations d'inventaire  
+33. Les opérations d'inventaire pour l'arrêté des situations comptables incluent notamment la 
+justification des comptes, l'apurement des suspens et des comptes inter-unités et l'inventaire 
+physique des éléments actifs et passifs.  
+34. Les opérations d'inventaire physique dans les établissements bancaires couvrent généralement :  
+- la caisse (espèces, chèques et chèques de voyages) ;  
+- les coupons et autres documents valant espèces ;  
+- les créances détenues par l'établissement bancaire et matérialisées par des titres ;  
+- le portefeuille effets commerciaux ;  
+- les garanties reçues de la clientèle ;  
+- les cartes monétique ;  
+- et les immobilisations.  
+Abonnement des produits et charges 
+ 
+35. L'organisation comptable des établissements bancaires doit permettre la détermination des 
+produits de la période comptable ainsi que les charges et frais d'exploitation y afférents et leur 
+prise en compte dans la période comptable considérée.  
+36. La détermination des produits et charges doit couvrir l'ensemble des opérations effectuées par 
+l'établissement et notamment :  
+- les opérations de prêt et emprunts sur le marché interbancaire ;  
+- les opérations courantes avec la clientèle ;  
+- les opérations entraînant engagement vis à vis de la clientèle ou en faveur de l'établissement 
+bancaire ;  
+- les opérations de change au comptant ou à terme ainsi que les opérations portant sur tout autre 
+instrument financier à terme ;  
+- les charges générales et administratives y compris les amortissements, et les produits non 
+bancaires.  
+Documentation de l'organisation et des procédures comptables 
+ 
+http://www.procomptable.com/ 7
+37. Un document décrivant l'organisation et les procédures comptables doit être tenu par 
+l'établissement bancaire et servira à la compréhension du système de traitement des 
+informations et à la réalisation des contrôles.  
+38. Pour être utile, le document décrivant l'organisation et les procédures comptables doit contenir :  
+(a) l'organisation de la fonction comptable en ce qui concerne la répartition des responsabilités au 
+sein des services comptables de l'établissement entre l'imputation, la saisie, la validation et le 
+contrôle des enregistrements ;  
+(b) la description de la structure du système d'information comptable incluant notamment les 
+niveaux de gestion des différents attributs d'information ;  
+(c) les procédures comptables incluant le plan des comptes, le contenu explicatif des comptes, les 
+schémas comptables des opérations, les méthodes comptables, les règles de numérotation et de 
+classification des pièces justificatives et des journées comptables et les états de restitution 
+comptable.  
+(d) les procédures de clôture et de validation des journées et des périodes comptables par les 
+agences et le siège de l'établissement bancaire, y compris le cas échéant, les procédures relatives 
+aux journées comptables complémentaires ;  
+(e) la périodicité et les procédures des opérations d'inventaire et d'abonnement des produits et 
+charges en indiquant les éléments couverts par ces procédures;  
+(t) les procédures de contrôle comptable qui accompagnent la réalisation et l'enregistrement des 
+opérations ainsi que les procédures de contrôle qui sont effectuées postérieurement à leur 
+enregistrement.  
+Date d' application  
+39. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+Janvier 1999.  
+ 
+Annexe 1 : plan des comptes propose 
+ Poste / sous poste 
+des états financiers 
+Classe 1 : Opérations de trésorerie et interbancaires  
+  
+10 CAISSE  
+  
+101 Billets et monnaies AC1 
+109 Autres valeurs AC1 
+  
+11 BANQUES CENTRALES  
+  
+111 Comptes ordinaires  
+1111 Comptes ordinaires AC1 OU PC1 
+1117 Créances et dettes rattachées AC1 OU PC1 
+112 Comptes de prêts  
+1121 Comptes de prêts AC2 
+1127 Créances rattachées AC2 
+113 Comptes d'emprunts  
+1131 Comptes d'emprunts  PA2 
+1137 Dettes rattachées PA2 
+  
+12 CENTRES DE CHEQUES POSTAUX ET TRESORERIE GENERALE  
+  
+121 CCP, comptes ordinaires  
+1211 Comptes ordinaires AC1 OU PA1 
+1217 Créances et dettes rattachées AC1 OU PA1 
+122 TGT: comptes ordinaires  
+http://www.procomptable.com/ 8
+1221 Comptes ordinaires AC1 OU PA1 
+1227 Créances et dettes rattachées AC1 OU PA1 
+  
+13 COMPTES ORDINAIRES BANQUES  
+  
+131 Comptes NOSTRI  
+1311 Comptes NOSTRI AC2 OU PA2 
+1317 Créances et dettes rattachées AC2 OU PA2 
+135 Comptes LORI  
+1351 Comptes LORI AC2 OU PA2 
+1357 Créances et dettes rattachées AC2 OU PA2 
+  
+14 PRETS ET EMPRUNTS INTERBANCAIRES  
+  
+141 Prêts interbancaires  
+1411 Prêts du marché interbancaire matérialisés par des titres AC2 
+1412 Prêts du marché interbancaire non matérialisés par des titres AC2 
+1417 Créances rattachées AC2 
+145 Emprunts interbancaires  
+1451 Emprunts du marché interbancaire matérialisés par des titres PA2 
+1452 Emprunts du marché interbancaire non matérialisés par des titres  PA2 
+1457 Dettes rattachées PA2 
+  
+16 VALEURS NON IMPUTEES ET AUTRES SOMMES DUES  
+  
+161 Valeurs non imputées  
+1611 Valeurs non imputées AC2 
+1617 Créances rattachées AC2 
+162 Autres sommes dues  
+1621 Autres sommes dues PA2 
+1627 Dettes rattachées PA2 
+  
+19 CREANCES DOUTEUSES  
+  
+191 Créances douteuses AC2 
+199 Provisions  
+1991 Provisions sur créances douteuses  
+19911 Provisions sur comptes ordinaires AC2 
+19912 Provisions sur prêts AC2 
+1992 Provisions sur éléments du hors bilan PA5 (a) 
+  
+Classe 2 : Opération avec la clientèle  
+  
+20 CREDITS COMMERCIAUX ET INDUSTRIELS  
+  
+201 Crédits commerciaux et industriels AC3 
+207 Créances rattachées AC3 
+  
+21 CREDITS IMMOBILIERS  
+  
+211 Crédits immobiliers promoteurs AC3 
+215 Crédits immobiliers acquéreurs AC3 
+217 Créances rattachées AC3 
+  
+22 CREDITS AGRICOLES  
+  
+221 Crédits agricoles AC3 
+227 Créances rattachées AC3 
+  
+23 CREANCES DE CREDIT BAIL  
+  
+231 Créances de crédit bail mobilier AC3 
+323 Créances de crédit bail immobilier AC3 
+237 Créances rattachées AC3 
+  
+24 CREDITS SUR RESSOURCES SPECIALES  
+  
+241 Crédits sur ressources spéciales AC3 
+247 Créances rattachées AC3 
+  
+25 COMPTES DE LA CLIENTELE  
+  
+http://www.procomptable.com/ 9
+251 Comptes ordinaires AC3 ou PA3 
+253 Comptes d’épargne PA3 
+255 Comptes à échéance PA3 
+256 Bons à échéance et valeurs assimilées PA3 
+257 Créances et dettes rattachées AC3 ou PA3 
+  
+26 VALEURS NON IMPUTEES ET AUTRES SOMMES DUES  
+  
+261 Valeurs non imputées AC3 (B) 
+262 Autres sommes dues PA3 
+  
+29 CREANCES DOUTEUSES  
+  
+291 Créances douteuses AC3 
+299 Provisions  
+2991 Provisions sur créances douteuses  
+29911 Provisions sur crédits à la clientèle AC3 
+29915 Provisions sur comptes ordinaires débiteurs de la clientèle AC3 
+2992 Provisions sur éléments du hors bilan PA5 (a) 
+  
+Classe 3 : Opérations sur titres et opérations diverses  
+  
+30 OPERATIONS SUR TITRES  
+  
+301 Titres de transaction  
+3011 Titres de transaction à revenu fixe AC4 (a) 
+3012 Titres de transaction à revenu variable AC4 (a) 
+302 Titres de placement  
+3021 Titres de placement à revenu fixe AC4 (B) 
+3022 Titres de placement à revenu variable AC4 (B) 
+3027 Créances rattachées  
+30271 Intérêts courus et dividendes dont le droit est établi et non échus AC4 (B) 
+30272 Intérêts et dividendes échus AC7 (a) 
+3029 Provisions  
+30291 Provisions pour dépréciation AC4 (B) 
+30292 Provisions sur éléments du hors bilan PA5 (b) 
+303 Titres d’investissement  
+3031 Titres d’investissement AC5 (a) 
+3037 Créances rattachées  
+30371 Intérêts courus et non échus AC5 (a) 
+30372 Intérêts échus AC7 (a) 
+3039 Provisions  
+30391 Provisions pour dépréciation AC5 (a) 
+30392 Provisions sur éléments du hors bilan PA5 (a) 
+  
+33 SIEGE ET SUCCURSALES  
+  
+331 Comptes inter-unités comptables du siège / Agences AC7 (a) ou PA5 (a) 
+332 Comptes inter-unités comptables Etablissements / Réseau AC7 (a) ou PA5 (b) 
+  
+34 COMPTES DE POSITION DE CHANGE ET D’AJUSTEMENT DEVISES  
+  
+341 Comptes de position de change  
+342 Comptes de cours valeur position de change  
+343 Comptes d’ajustement devises AC7(a) ou PA5 ‘a) 
+  
+36 DEBITEURS ET CREDITEURS DIVERS  
+  
+361 Débiteurs divers  
+3611 Débiteurs divers AC7 (b) 
+3617 Créances rattachées AC7 (b) 
+3619 Provisions pour dépréciation AC7 (b) 
+365 Créditeur divers  
+3651 Créditeurs divers PA5 (a) 
+3657 Dettes rattachées PA5 (a) 
+  
+37 COMPTES DE STOCKS  
+  
+371 Avoirs en or et métaux précieux AC7 (b) 
+372 Autres stocks et assimilés AC7 (b) 
+3721 Timbres fiscaux, timbres et autres formules timbrées  
+379 Provisions sur stock  
+http://www.procomptable.com/ 10
+3791 Provisions pour dépréciation des avoirs en or et métaux précieux AC7 (b) 
+  
+38 COMPTES DE REGULARISATION  
+  
+381 Comptes de régularisation actif  
+3811 Charges constatées d’avance, payées sur opérations avec la clientèle PA2 
+3812 Autres charges constatées d’avance AC7(a) 
+3813 Produits à recevoir AC7 (a) 
+3818 Pertes sur contrats de couverture à terme AC7 (a) 
+382 Comptes de régularisations passif  
+3821 Produits constatés d’avance retenue sur prêts AC3 
+3822 Autres produits constatés d’avance PA5 (b) 
+3825 Charges à payer PA5 (b) 
+3828 Gains sur contrats de couverture à terme PA5 (b) 
+383 Intérêts et autres produits réservés AC3 
+384 Comptes d’attente à régulariser (actif) AC7 (a) 
+385 Comptes d’attente à régulariser (passif) PA5 (b) 
+  
+Classe 4 – valeurs immobilisées  
+  
+41 PARTS DANS LES ENTREPRISES LIEES, COENTREPRISES ET TITRES DE 
+PARTICIPATION 
+ 
+411 Titres de participation AC5 (b) 
+412 Parts dans les entreprises associées AC5 (c) 
+413 Parts dans les co-entreprises AC5 (c) 
+414 Parts dans les entreprises liées AC5 (d) 
+415 Avances en compte courant AC3 
+416 Ecarts de conversion  
+4161 Ecarts de conversion sur titres de participation AC5 (b) 
+4162 Ecarts de conversion sur parts dans les entreprises associées AC5 (c) 
+4163 Ecarts de conversion sur parts dans les co-entreprises AC5 (c) 
+4164 Ecarts de conversion sur parts dans les entreprises liées AC5 (d) 
+417 Créances rattachées  
+4171 Parts de dividendes dont le droit est établi et non échus AC5 
+4172 Dividendes échus AC7 (a) 
+419 Provisions  
+4191 Provisions pour dépréciation des titres de participation AC5 (b) 
+4192 Provisions pour dépréciation des parts dans les entreprises associées AC5 (c) 
+4193 Provisions pour dépréciation des parts dans les co-entreprises AC5 (c) 
+4194 Provisions pour dépréciation des parts dans les entreprises liées AC5 (d) 
+4198 Provisions sur éléments du hors bilan PA5 (a) 
+  
+42 DOTATIONS DES SUCCURSALES A L'ETRANGER   
+  
+421 Dotations AC7 (b) 
+422 Ecarts de conversion AC7 (b) 
+  
+43 IMMOBILISATIONS EN COURS  
+  
+431 Immobilisations incorporelles en cours AC6 (a) 
+432 Immobilisations corporelles en cours  AC6 (b) 
+433 Avances et acomptes sur commandes d'immobilisations en cours  
+4331 Avances et acomptes sur commandes d'immobilisations incorporelles en 
+cours 
+AC6 (c) 
+4332 Avances et acomptes sur commandes d'immobilisations corporelles en 
+cours 
+AC6 (b) 
+  
+44 CHARGES REPORTEES ET IMMOBILISATIONS D'EXPLOITATION  
+  
+440 Charges reportées AC7 (b) 
+441 Immobilisations incorporelles AC6 (a) 
+442 Immobilisations corporelles AC6 (b) 
+445 Autres immobilisations d'exploitation AC6 (b) 
+  
+45 IMMOBILISATIONS HORS EXPLOITATION  
+  
+451 Immobilisations incorporelles AC6 (a) 
+452 Immobilisations corporelles AC6(b) 
+455 Autres immobilisations hors exploitation AC6(b) 
+  
+48 AMORTISSEMENTS DES IMMOBILISATIONS  
+  
+http://www.procomptable.com/ 11
+481 Amortissements des immobilisations incorporelles AC6 (a) 
+482 Amortissements des immobilisations corporelles AC6 (a) 
+  
+49 PROVISIONS POUR DEPRECIATION DES IMMOBILISATIONS  
+  
+491 Provisions pour dépréciation des immobilisations incorporelles AC6(a) 
+492 Provisions pour dépréciation des immobilisations corporelles AC6 (b) 
+495 Provisions pour dépréciation des autres immobilisations AC6 (b) 
+  
+Classe 5 : Capitaux permanents  
+  
+50 RESSOURCES SPECIALES  
+  
+501 Fonds publics affectés PA4 (a) 
+502 Emprunts et dettes pour ressources spéciales PA4 (c) 
+507 Dettes rattachées PA4 (c) 
+  
+51 EMPRUNTS ET DETTES  
+  
+511 Emprunts et dettes pour propre compte PA4 (b) 
+512 Emprunts obligataires PA4 (a) 
+517 Dettes rattachées  
+5171 Dettes rattachées aux emprunts et dettes pour propre compte PA4 (b) 
+5172 Dettes rattachées aux emprunts obligataires PA4 (a) 
+  
+53 AUTRES PROVISIONS POUR PASSIFS ET CHARGES  
+  
+531 Provisions pour litiges PA5 (a) 
+532 Provisions pour charges à répartir sur plusieurs exercices PA5 (a) 
+533 Provisions pour retraites et obligations assimilées PA5 (a) 
+534 Provisions pour impôts PA5 (a) 
+539 Autres provisions pour passifs et charges PA5 (a) 
+  
+54 FONDS POUR RISQUES BANCAIRES GENERAUX  CP2 (e) 
+  
+55 PRIMES LIEES AU CAPITAL ET RESERVES  
+  
+551 Réserve légale CP2 (b) 
+552 Réserves statutaires CP2 (c) 
+553 Primes liées au capital CP2 (a) 
+558 Rachat d'actions propres  
+5581 Rachat de capital social CP3 
+5582 Rachat de réserves et autres éléments de capitaux propres CP3 
+559 Autres réserves  
+5591 Réserves pour fonds social CP2 (e) 
+  
+56 AUTRES CAPITAUX PROPRES  
+  
+561 Titres soumis à des réglementations particulières CP4 (c) 
+562 Réserves réglementées et réserves soumises à un régime fiscal particulier  CP2 (e) 
+563 Amortissements dérogatoires CP2 (e) 
+564 Réserve Spéciale de réévaluation  CP4 (b) 
+565 Subventions CP4 (a) 
+  
+57 CAPITAL  
+  
+571 Capital social  
+5711 Capital souscrit non appelé CP1 (b) 
+5712 Capital souscrit, appelé non versé CP1 (b) 
+5713 Capital souscrit, appelé versé CP1 (a) 
+575 Fonds de dotation CP1 (a) 
+577 Certificats d'investissement CP1 (a) 
+579 Actionnaires, capital souscrit, non appelé CP1 (b) 
+  
+58 RESULTATS REPORTES  
+  
+581 Résultats reportés CP5 
+588 Modifications comptables affectant les résultats reportés CP5 
+  
+59 RESULTAT DE L'EXERCICE  
+  
+591 Résultat bénéficiaire CP6 
+http://www.procomptable.com/ 12
+592 Résultat déficitaire CP6 
+  
+Classe 6 – Charges  
+  
+60 CHARGES D’EXPLOITATION BANCAIRE  
+  
+601 Charges sur opérations de trésorerie et opérations interbancaires  
+6011 Intérêts et charges assimilées sur comptes ordinaires Banques Centrale, 
+CCP et TGT 
+CH1(d) 
+6012 Intérêts et charges assimilées sur comptes ordinaires Banques CH1(a) 
+6013 Intérêts et charges assimilées sur comptes d’emprunts Banques Centrales CH1(d) 
+6014 Intérêts et charges assimilées sur comptes d’emprunts interbancaires CH1(a) 
+6015 Départs sur opérations de change à terme de couverture CH1(d) 
+6019 Commissions CH2 
+602 Charges sur opérations avec la clientèle  
+6021 Intérêts sur comptes ordinaires créditeurs de la clientèle CH1(b) 
+6022 Intérêts sur comptes d’épargne de la clientèle CH1(b) 
+6023 Intérêts sur comtes à échéance de la clientèle CH1(b) 
+6024 Intérêts sur bons à échéance et valeurs assimilées CH1(b) 
+6029 Commission CH2 
+603 Charges sur opérations sur titres  
+6031 Pertes sur titres de transaction CH3(a) 
+6032 Charges sur titres de placement  
+60321 Frais d’acquisition CH2 
+60322 Etalement de la prime CH5(b) 
+60323 Moins-value de cession CH1(b) 
+6033 Charges sur titres d’investissement  
+60331 Etats d’acquisition CH5 
+60332 Etalement de la prime CH5 
+6034 Charges sur titres de participation parts dans les entreprises associées, 
+les coentreprises et les entreprises liées 
+CH5 
+604 Charges sur opérations de change  
+6041 Pertes sur opérations de change et d’arbitrage CH3(e 
+6042 Pertes de réévaluation des opérations ou devises et des métaux précieux CH3(e) 
+6049 Commissions CH2 
+605 Charges sur opérations sur ressources spéciales et emprunts  
+6051 Intérêts sur ressources spéciales et emprunts CH1(e) 
+6059 Commissions CH2 
+606 Charges sur opérations de hors bilan  
+6061 Charges sur engagements de financement CH2 
+6062 Charges sur engagements de garantie CH2 
+6063 Charges sur engagements sur titres CH2 
+607 Charges sur opérations sur prestations de services financiers CH2 
+608 Charges d’exploitation bancaire liées à une modification comptable à prendre 
+en compte dans le résultat de l’exercice ou à une activité abandonnée 
+CH1(d) 
+609 Autres charges d’exploitation bancaire  
+6091 Autres charges d’exploitation bancaire assimilées à des intérêts CH2 
+6099 Commissions CH6 
+  
+61 CHARGES DE PERSONNEL  
+  
+611 Salaires et traitements  
+612 Charges sociales  
+618 Charges de personnel liées à une modification comptable à prendre en compte 
+dans le résultat de l’exercice ou à une activité abandonnée 
+ 
+619 Autres charges de personnel  
+  
+62 CHARGES GENERALES D’EXPLOITATION  
+  
+620 Fournitures et autres matières consommables CH7(b) 
+621 Services extérieurs CH7(a) 
+622 Autres services extérieurs CH7(b) 
+624 Charges diverses d’exploitation  
+6241 Redevances pour concessions, brevets, licences, procédés, droits et 
+valeurs similaires 
+CH7(b) 
+6242 Jetons de présence CH7(b) 
+6243 Moins-values de cession des immobilisations corporelles CH9 
+6244 Moins-values de cession des immobilisations incorporelles CH9 
+6249 Autres charges diverses d’exploitation CH7(b) 
+625 Dépôts et taxes CH7(b) 
+626 Charges d’exploitation liées à des activités non bancaires CH7(b) 
+628 Autres charges d’exploitation bancaire liées à une modification comptable à  
+http://www.procomptable.com/ 13
+prendre en compte dans le résultat de l’exercice ou à une activité abandonnée 
+  
+65 DOTATIONS AUX PROVISIONS POUR CREANCES DOUTEUSES ET POUR 
+DEPRECIATION, PERTES SUR CREANCES ET AUTRES PERTES ORDINAIRES 
+ 
+  
+651 Dotations aux provisions sur opérations de trésorerie et interbancaires CH4 
+652 Dotations aux provisions sur opérations avec la clientèle CH4 
+653 Dotations sur provisions sur titres  
+6531 Dotations aux provisions sur créances rattachées aux titres de placement CH3(b) 
+6532 Dotations aux provisions sur créances rattachées aux titres 
+d’investissement 
+CH5 
+6533 Dotations aux provisions sur créances rattachées aux titres de 
+participation, aux parts dans les entreprises associées, les coentreprises et les 
+entreprises liées 
+CH5 
+6535 Dotations aux provisions sur titres de placement CH3(b) 
+6536 Dotations aux provisions sur titres d’investissement CH5 
+6537 Dotations aux provisions sur titres de participations, des parts dans les 
+entreprises associées, les coentreprises et les entreprises liées 
+CH5 
+654 Dotations aux provisions pour autres passifs et charges CH4 
+656 Pertes sur créances CH4 
+6561 Pertes sur créances couvertes par des provisions  
+6562 Pertes sur créances non couvertes par des provisions  
+657 Moins-values de cession des titres de participation, des parts dans les 
+entreprises associées, des parts dans les coentreprises et des parts dans les 
+entreprises liées 
+CH5 
+6571 Moins-values de cession des titres de participation  
+6572 Moins-values de cession des parts dans les entreprises associées  
+6573 Moins-values de cession des parts dans les coentreprises  
+6574 Moins-values de cession des parts dans les entreprises liées  
+658 Dotations aux provisions pour créances douteuses et pour dépréciation liées à 
+une modification comptable à prendre en compte dans le résultat de l’exercice ou à 
+une activité abandonnée 
+CH5 
+  
+66 DOTATIONS AUX AMORTISSEMENTS ET AUX PROVISIONS SUR 
+IMMOBILISATIONS 
+ 
+  
+661 Dotations aux amortissements sur immobilisations CH8 
+662 Dotations aux provisions sur immobilisations CH8 
+668 Dotations aux amortissements et aux provisions sur immobilisations liées à 
+une modification comptable à prendre en compte dans le résultat de l’exercice ou à 
+une activité abandonnée 
+ 
+  
+67 CHARGES EXTRAORDINAIRES CH10 
+  
+69 IMPOT SUR LES BENEFICES CH11 
+  
+Classe 7 : Produit  
+  
+70 PRODUITS D'EXPLOITATION BANCAIRE  
+  
+701 Produits sur opérations de trésorerie et opérations interbancaires  
+7011 Intérêts et charges assimilées sur comptes ordinaires Banques Centrales, 
+CCP et TGT 
+PR1(c) 
+7012 Intérêts et charges assimilées sur comptes ordinaires Banques PR1 (a) 
+7013 Intérêts et charges assimilées sur comptes de prêts Banques Centrales PR1 (c) 
+7014 Intérêts et charges assimilées sur comptes prêts interbancaires PR1(a) 
+7015 Reports sur opérations de change à terme de couverture PR1(c) 
+7019 Commissions PR2 
+702 Produits sur opérations avec la clientèle  
+7021 Intérêts sur crédits à la clientèle PR1 (b) 
+7022 Intérêts sur comptes ordinaires débiteurs de la clientèle PR1(b) 
+7029 Commissions PR2 
+703 Produits sur opérations sur titres  
+7031 Revenus des titres de transaction  
+70311 Intérêts PR3(a) 
+70314 Gains sur titres de transaction PR3(a) 
+7032 Revenus des titres de placement  
+70321 Intérêts PR3(b) 
+70322 Etalement de la décote PR3(b) 
+70323 Dividendes et produits assimilés PR3(b) 
+70324 Plus values de cession PR3(b) 
+7033 Revenus des titres d'investissement  
+http://www.procomptable.com/ 14
+70331 Intérêts PR4(a) 
+70332 Etalement de la décote PR6 
+7034 Revenus des titres de participation  
+70341 Dividendes et produits assimilés PR4(b) 
+7035 Revenus des parts dans les entreprises associées  
+70351 Dividendes et produits assimilés PR4(c) 
+7036 Revenus des parts dans les coentreprises  
+70361 Dividendes et produits assimilés PR4(c) 
+7037 Revenus des parts dans les entreprises liées  
+70371 Dividendes et produits assimilés PR4(d) 
+704 Produits sur opérations de change   
+7041 Gains sur opérations de change et d'arbitrage PR3(c) 
+7042 Gains de réévaluation des opérations en devises et des métaux précieux PR3(c) 
+7049 Commissions PR2 
+706 Produits sur opérations de hors bilan  
+7061 Produits sur engagements de financement PR2 
+7062 Produits sur engagements de garantie  
+70621 Intérêts et produits assimilés PR1 (c) 
+70622 Commissions PR2 
+7063 Produits sur engagements sur titres PR2 
+707 Produits sur opérations sur prestation de services financiers PR2 
+708 Produits d'exploitation bancaire liés à une modification comptable à prendre 
+en compte dans le résultat de l'exercice ou à une activité abandonnée  
+ 
+709 Autres produits d'exploitation bancaire  
+7091 Autres produits d'exploitation bancaire assimilés à des intérêts PR1 (c) 
+7099 Commissions PR2 
+  
+72 PRODUITS DIVERS D'EXPLOITATION  
+  
+721 Produits provenant des immeubles non liés à l'exploitation PR7 
+722 Plus-values de cession des immobilisations PR8 
+723 Reprises de provision sur immobilisations PR6 
+724 Plus-values de cession des titres de participation, des parts dans les 
+entreprises associées, des parts dans les co-entreprises et des parts dans les 
+entreprises liées 
+PR6 
+7241 Plus-values de cession des titres de participation  
+7242 Plus-values de cession des parts dans les entreprises associées  
+7243 Plus-values de cession des parts dans les co-entreprises  
+7244 Plus-values de cession des parts dans les entreprises liées  
+728 Autres produits d'exploitation bancaire liés à une modification comptable à 
+prendre en compte dans le résultat de l'exercice ou à une activité abandonnée 
+ 
+729 Autres produits divers d'exploitation PR7 
+  
+76 REPRISES DE PROVISIONS ET RECUPERATION DE CREANCES  
+  
+761 Reprises de provisions sur opérations de trésorerie et interbancaires PR5 
+762 Reprises de provisions sur opérations avec la clientèle PR5 
+763 Reprises de provisions sur titres  
+7631 Reprises de provisions sur créances rattachées aux titres de placement PR3(b) 
+7632 Reprises de provisions sur créances rattachées aux titres de participation, 
+aux parts dans les entreprises associées, les co-entreprises et les entreprises 
+liées 
+PR6 
+7633 Reprises de provisions sur titres de placement PR3(b) 
+7634 Reprises de provisions sur titres d'investissement PR3(b) 
+7635 Reprises de provisions sur titres de participation, des parts dans les 
+entreprises associées, les co-entreprises et les PR6 entreprises liées 
+PR6 
+764 Reprises de provisions pour autres passifs et charges PR5 
+766 Récupération de créances passées en pertes  PR5 
+768 Reprises de provisions et récupération de créances liées à une modification 
+comptable à prendre en compte dans le résultat de l'exercice ou à une activité 
+abandonnée 
+ 
+  
+77 PRODUITS EXTRAORDINAIRES  PR9 
+  
+79 TRANSFERTS DE CHARGES NON LIEES AUX ACTIVITES BANCAIRES  
+  
+Classe 9 – Engagements hors bilan  
+  
+90 ENGAGEMENTS DE FINANCEMENT  
+  
+901 Engagements de financement en faveur d’établissements bancaires, financiers 
+et d’assurance 
+HB4 (a) 
+http://www.procomptable.com/ 15
+902 Engagements de financement reçus d’établissements bancaires HB6 
+903 Engagements de financement en faveur de la clientèle  
+9031 Ouverture de crédits documentaires irrévocables HB2 
+9032 Ouverture de lignes de crédits confirmés HB4 (b) 
+9033 Acceptations à payer HB2 
+9039 Autres engagements de financement en faveur de la clientèle HB4 (b) 
+904 Engagements de financement reçus de la clientèle HB6 
+909 Contrepartie des engagements de financement  
+  
+91 ENGAGEMENTS DE GARANTIE  
+  
+911 Cautions, avals et autres garanties d’ordre d’établissements bancaires et 
+financiers 
+ 
+9111 Confirmations d’ouverture de crédits documentaires HB2 
+9112 Acceptations à payer HB2 
+9119 autres engagements de garantie HB1 (a) 
+912 Cautions, avals et autres garanties reçues d’établissements bancaires HB7 (b) 
+913 Cautions, avals et autres garanties d’ordre de la clientèle  
+9131 Cautions, avals et autres garanties HB1 (b) 
+9139 Autres garanties d’ordre de la clientèle HB1 (b) 
+914 Cautions, avals et autres garanties reçues de la clientèle   
+9141 Cations, avals et autres garanties reçues de l’Etat, des administrations 
+publiques et assimilées 
+HB7 (a) 
+9142 Cautions, avals et autres garanties reçues de la clientèle HB7 (b) 
+919 Contrepartie des engagements de garantie  
+  
+92 ENGAGEMENTS SUR TITRES  
+  
+921 Titres à recevoir HB5 (b) 
+922 Titres à livrer  
+923 Titres, partie non libérée HB5 (a) 
+929 Contrepartie des engagements sur titres  
+  
+93 OPERATIONS EN DEVISES  
+  
+931 Opérations de change au comptant  
+9311 Dinars achetés non encore reçus  
+9312 Devises achetées non encore reçues  
+9313 Dinars vendus non encore livrés  
+9314 Devises vendues non encore livrées  
+932 Opérations de change à terme  
+9321 Dinars à recevoir  
+9322 Devises à recevoir  
+9323 Dinars à livrer  
+9324 Devises à livrer  
+933 Opérations de prêts et d’emprunts en devises  
+934 Report, déport non couru  
+935 Comptes de position de change hors bilan  
+9351 Position de change au comptant hors bilan  
+9352 Position de change à terme hors bilan  
+936 Comptes de contre-valeur position de change hors bilan  
+9361 Contre-valeur position de change au comptant hors bilan  
+9362 Contre-valeur position de change à terme hors bilan  
+937 Comptes d’ajustement devises  
+9371 Ajustement devises sur opérations de change au comptant hors bilan  
+9372 Ajustement devises sur opérations de change à terme hors bilan  
+  
+94 INSTRUMENTS FINANCIERS A TERME  
+  
+95 AUTRES ENGAGEMENTS  
+  
+951 Autres engagements donnés HB3 
+952 Autres engagements reçus HB7 (e) 
+  
+99 ENGAGEMENTS DOUTEUX  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 16
+ 
+ 
+ 
+Annexe 2 – Règles de fonctionnement des comptes 
+CLASSE 1 – OPERATIONS DE TRESORERIE ET INTERBANCAIRES 
+Présentation générale
+ 
+Les comptes de la classe 1 enregistrent les billets et monnaies et les autres valeurs en caisse, les 
+opérations de trésorerie et les opérations de prêts et emprunts effectuées avec les établissements 
+bancaires et financiers. 
+Une distinction des opérations est effectuée par nature de contrepartie bancaire. 
+La subdivision de la classe 1 est conçue telle que les créances ou les dettes rattachées, selon le cas, 
+soient présentées de façon séparée sous le compte ou le sous-compte qu’elles concernent. Parmi les 
+créances et dettes rattachées de la classe 1, il y a lieu de citer à titre d’exemple les intérêts courus sur 
+les prêts interbancaires (compte 1417) ou les intérêts courus sur les emprunts interbancaires (compte 
+1457). 
+Fonctionnement des comptes 
+Le compte 10 Caisse est subdivisé : 
+101 Billets et monnaies 
+109 Autres valeurs 
+Le compte 101 enregistre les mouvements de fonds (billets et monnaies). 
+Le compte 109 enregistre les autres valeurs assimilées à la caisse en attente d’encaissement auprès 
+des émetteurs et notamment les chèques de voyages 
+Le compte 11 Banques centrales est subdivisé : 
+111 Comptes ordinaires 
+112 Comptes de prêts 
+113 Comptes d’emprunts 
+Le compte 111 enregistre les opérations de dépôts réalisées auprès de la BCT en Dinars et en 
+Devises. Il constitue les avoirs pouvant être retirés à tout moment sans préavis. 
+Le compte 112 enregistre les opérations de prêts au jour le jour et à terme réalisées auprès de la BCT 
+ou des banques centrales à l’étranger en Dinars et en Devises. 
+Le compte 113 enregistre les opérations d’emprunts au jour le jour et à terme réalisées auprès de la 
+BDT ou des banques centrales à l’étranger en Dinars et en Devises. 
+Le compte 12 centres de chèques postaux et trésorerie générale est subdivisé : 
+121 CCP, comptes ordinaires 
+122 TGT, comptes ordinaires 
+Le compte 121 enregistre les opérations sur les comptes des centres de chèques postaux en Dinars. 
+Les avoirs compris dans ce compte peuvent être retirés à tout moment sans préavis. 
+Le compte 122 enregistre les opérations sur les Trésorerie Générale de Tunisie. Les avoirs compris 
+dans ce compte peuvent être retirés à tout moment sans préavis. 
+Le compte 13 Comptes ordinaires banques est subdivisé : 
+131 Comptes NOSTRI 
+http://www.procomptable.com/ 17
+135 Compte LORI 
+Ne doivent être classés dans ces comptes que les avoirs et dettes liquides ou immédiatement 
+exigibles.  
+Le compte 14 Prêts et emprunts interbancaires est subdivisé :  
+141 Prêts interbancaires  
+145 Emprunts interbancaires  
+Le compte 141 enregistre les opérations de prêts au jour le jour et à terme effectuées avec un 
+établissement bancaire ou financier. Les prêts matérialisés par des titres du marché interbancaire sont 
+enregistrés dans le compte 1411. Les prêts conclus sur le marché interbancaire et non matérialisés 
+par des titres sont enregistrés dans le compte 1412.  
+Le compte 145 enregistre les opérations d'emprunts au jour le jour et à terme effectuées avec un 
+établissement bancaire ou financier. Les emprunts matérialisés par des titres du marché interbancaire 
+sont enregistrés dans le compte 1451. Les emprunts conclus sur le marché interbancaire et non 
+matérialisés par des titres sont enregistrés dans le compte 1452.  
+Le compte 16 Valeurs non imputées et autres sommes dues est subdivisé :  
+161 Valeurs non imputées  
+162 Autres sommes dues  
+Le compte 161 enregistre provisoirement les valeurs en attente d'imputation aux comptes des 
+établissements bancaires ou financiers concernés reçues notamment à l'occasion d'encaissement, 
+ainsi que les retraits DAB à recouvrer auprès des établissements bancaires.  
+Le compte 162 enregistre les sommes dues, notamment :  
+- Les chèques à payer sur nous-mêmes :  
+chèques émis par l'établissement bancaire et tirés sur lui en règlement des prestations diverses de 
+tiers ou à la demande de la clientèle: règlement d'appartement, de voiture...  
+- Autres sommes dues :  
+* toutes les sommes reçues en faveur d'établissements bancaires ou financiers, et en attente 
+d'imputation.  
+* les valeurs envoyées à l'encaissement et ayant fait l'objet de crédit immédiat au profit de 
+l'établissement bancaire  
+Le compte 19 Créances douteuses est subdivisé :  
+191 Créances douteuses  
+199 Provisions 
+Le compte 191 enregistre les créances douteuses sur d'autres établissements bancaires ou financiers 
+en principal et intérêts.  
+Le compte 199 enregistre:  
+- les provisions constituées sur les créances douteuses sur d'autres établissements bancaires ou 
+financiers, sous forme notamment des comptes ordinaires et de prêts et présentant un risque probable 
+ou certain de non recouvrement total ou partiel ou présentant un caractère contentieux.  
+-ainsi que les provisions sur éléments du hors bilan et relatifs aux opérations effectuées avec d'autres 
+établissements bancaires ou financiers.  
+CLASSE 2: OPERATIONS AVEC LA CLIENTELE  
+Présentation générale 
+ 
+http://www.procomptable.com/ 18
+Les comptes de la classe 2 enregistrent les opérations de crédits ainsi que les opérations de dépôts 
+de fonds effectuées avec la clientèle, autre que les établissements bancaires et financiers. Les crédits 
+sont ventilés par nature en distinguant les différentes catégories de crédits. Les dépôts sont distingués 
+en fonction de l'échéance et de la nature des fonds déposés.  
+La subdivision de la classe 2 est conçue telle que les créances ou les dettes rattachées, selon le cas, 
+soient présentées de façon séparée sous le compte ou le sous-compte qu'elles concernent. Parmi les 
+créances rattachées de la classe 2, il y a lieu de citer à titre d'exemple les intérêts courus sur les 
+crédits accordés à la clientèle (comptes 207,217,227,237 et 247 ).  
+Fonctionnement des comptes  
+Le compte 20 Crédits commerciaux et industriels est subdivisé :  
+201 Crédits commerciaux et industriels  
+207 Créances rattachées  
+Le compte 201 enregistre les crédits commerciaux et industriels de toute nature ( trésorerie, 
+exportation, financement équipements...) accordés à la clientèle pour le montant de la créance. Les 
+échéances impayées en principal et intérêts peuvent être maintenues dans les mêmes comptes, dans 
+la mesure où une gestion des attributs permettra la distinction entre les montants non échus et les 
+montants échus et demeurés impayés, ou logées dans des sous comptes du compte 201.  
+Le compte 207 enregistre les intérêts courus et à recevoir rattachables aux crédits commerciaux et 
+industriels.  
+Le compte 21 Crédits immobiliers est subdivisé :  
+211 Crédits immobiliers, promoteurs  
+215 Crédits immobiliers, acquéreurs  
+217 Créances rattachées  
+Une distinction est faite entre les crédits accordés aux promoteurs et les crédits accordés aux 
+acquéreurs particuliers.  
+Le compte 22 Crédits agricoles est subdivisé :  
+221 Crédits agricoles  
+227 Créances rattachées  
+Il fonctionne selon les mêmes modalités que le compte 20 Crédits commerciaux et industriels.  
+Le compte 23 Créances de crédit bail est subdivisé :  
+231 Créances de crédit bail immobilier  
+232 Créances de crédit bail mobilier  
+237 Créances rattachées  
+Les compte 231 et 232 enregistrent les créances de crédit-bail représentant l'actualisation des flux 
+futurs des contrats de crédit-bail immobiliers et mobiliers.  
+Le compte 24 Crédits sur ressources spéciales est subdivisé :  
+241 Crédits sur ressources spéciales  
+247 Créances rattachées  
+Il fonctionne selon les mêmes modalités que le compte 20 Crédits commerciaux et industriels.  
+Le compte 25 Comptes de la clientèle est subdivisé : 
+251 Comptes ordinaires 
+http://www.procomptable.com/ 19
+253 Comptes d’épargne 
+355 Comptes à échéance 
+256 Bons à échéance et valeurs assimilées 
+257 Créances et dettes rattachées 
+Les comptes 251 sont des comptes ouverts aux clients et destinés à faire face à leurs opérations 
+courantes de paiement. Ces comptes enregistrent les dépôts pouvant être retirés à tout moment sans 
+préavis. 
+Le compte 253 enregistre l’ensemble des dépôts d’épargne. 
+Le compte 255 enregistre l’ensemble des dépôts à terme. 
+Le compte 256 enregistre les bons de caisse et les valeurs assimilées. 
+Le compte 257 enregistre les créances et dettes rattachées aux comptes de la clientèle. Leur 
+classement au bilan dépend du classement du compte de la clientèle auquel ils se rapportent. Ainsi : 
+- les créances rattachées aux comptes de la clientèle débiteurs à la date d’arrêté (qui figurent 
+donc au poste AC3-a) sont présentées à l’actif (s’ajoutent au poste AC3-a). 
+- Les créances rattachées aux comptes de la clientèle créditeurs à la date d’arrêté (qui figurent 
+donc au poste PA3-a) sont présentées au passif (viennent en diminution du poste PA3-a). 
+- Les dettes rattachées aux comptes de la clientèle débiteurs à la date d’arrêté (qui figurent 
+donc au poste AC3-a) sont présentées à l’actif (viennent en diminution du poste AC3-a). 
+- Les dettes rattachées aux comptes de la clientèle créditeurs à la date d’arrêté (qui figurent 
+donc au poste PA3-a) sont présentées au passif (j’ajoutent au poste PA3-a). 
+Le compte 26 Valeurs non imputées et autres sommes dues est subdivisé : 
+261 Valeurs non imputées 
+262 Autres sommes dues. 
+Le compte 261 enregistre les sommes et valeurs, notamment reçues de la compensation, payées par 
+l’établissement bancaire en attente d’imputation aux comptes de la clientèle. 
+Le compte 262 enregistre : 
+- les sommes reçues de la compensation en attente d’imputation aux comptes de la clientèle. 
+- les provisions constituées par la clientèle pour l’exécution de certaines opérations. 
+- toutes autres sommes en attente d’affectation au crédit des comptes de la clientèle, de 
+transfert ou au crédit de tout autre compte. 
+Le compte 29 Créances douteuses fait apparaître : 
+291 Créances douteuses 
+299 Provisions 
+Le compte 291 enregistre les créances identifiées comme douteuses par l’établissement bancaire. Il 
+représente le montant des créances extraites des postes d’origine et qualifiées comme telles. 
+Le compte 299 enregistre : 
+- les provisions constituées pour faire face à des risques de non recouvrement sur les crédits 
+accordés par l’établissement bancaire et les découverts en compte courant. 
+- ainsi que les provisions sur éléments du hors bilan et relatifs aux opérations réalisées avec la 
+clientèle. 
+ 
+http://www.procomptable.com/ 20
+CLASSE 3 - OPERATIONS SUR TITRES ET OPERATIONS DIVERSES  
+Présentation générale  
+Les comptes de la classe 3 enregistrent les opérations sur titres autres que les titres de participation, 
+les parts dans les entreprises associées, dans les co-entreprises et dans les entreprises liées, ainsi 
+que, les écritures en suspens entre les différentes unités comptables de l'établissement et diverses 
+opérations de régularisation.  
+La subdivision de la classe 3 est conçue telle que les créances ou les dettes rattachées, selon le cas, 
+soient présentées de façon séparée sous le compte ou le sous-compte qu'elles concernent. Parmi les 
+créances rattachées de la classe 3, il y a lieu de citer à titre d'exemple les intérêts et dividendes 
+courus et non échus sur titres de placement ( compte 30271 )  
+Fonctionnement des comptes  
+Le compte 30 Opérations sur titres est subdivisé :  
+301 Titres de transactions  
+302 Titres de placement.  
+303 Titres d'investissement  
+Le compte 301 enregistre les investissements financiers en titres de transaction. Ces titres sont 
+subdivisés en titres à revenu fixe et titres à revenu variable.  
+Le compte 302 enregistre les investissements financiers en titres de placement c'est à dire les titres 
+autres que ceux classés parmi les titres d'investissement et les titres de transaction.  
+Le compte 303 enregistre les investissements financiers en titres d'investissement, c'est à dire les 
+titres à revenu fixe acquis avec l'intention de les détenir de façon durable, en principe jusqu'à 
+l'échéance.  
+Le compte 33 Sièges et succursales est subdivisé :  
+331 Comptes Inter-unités comptables du siège et agences.  
+332 Comptes Inter-unités comptables de l'établissement et le réseau.  
+Ces comptes de liaison retracent les opérations réalisées entre les unités comptable de 
+l'établissement et celles entre différents établissements du réseau auquel appartient l'établissement. 
+Ils permettent la décomposition des opérations entre les différentes unités de traitement comptable.  
+Le compte 34 Comptes de position de change et d’ajustement devises est subdivisé :  
+341 Comptes de position de change  
+342 Comptes de contre-valeur position de change  
+343 Comptes d'ajustement devises  
+Le compte 341 enregistre, dans les comptabilités devises, les montants affectant la position de 
+change de l'établissement.  
+La consultation de ce compte permet à la banque de connaître sa position de change. A chaque 
+arrêté comptable, sa valeur est réévaluée puis comparée au compte de contre-valeur position de 
+change par devise pour dégager le résultat de change. Il est ensuite soldé en contrepartie du compte 
+342 et ne figure plus de ce fait dans le bilan.  
+Le compte 342 enregistre, dans la comptabilité en monnaie de référence, la contre-valeur des 
+comptes de position de change tenus dans les comptabilités devises. Ce compte représente le 
+"stock", en données historiques, des opérations affectant la position de change. A chaque arrêté 
+comptable, sa valeur est réajustée à hauteur de celle des comptes position de change réévalués. Ces 
+réajustements constituent soit des gains de change soit des pertes de change.  
+http://www.procomptable.com/ 21
+Le compte 343 permet la constatation des résultats de change des opérations hors bilan dans les 
+comptes de résultats. Il est débité ou crédité, selon le cas, du gain ou de la perte de change sur les 
+éléments hors bilan.  
+Le compte 36 Débiteurs et créditeurs divers est subdivisé :  
+361 débiteurs divers  
+365 créditeurs divers  
+Le compte 361 enregistre les opérations de créances d'exploitation non bancaires, les créances sur 
+l'Etat et les organismes sociaux, le personnel et les opérations diverses avec la clientèle ne pouvant 
+être affectées à d'autres comptes de tiers. Il enregistre notamment :  
+- Le montant des créances d'exploitation non bancaires,  
+- Le montant des créances sur le compte du personnel,  
+- Le montant des créances sur les organismes sociaux,  
+- Le montant de la TV A déductible,  
+- Le montant de la TV A à reporter,  
+- Le montant des retenues à la source,  
+- Le montant des acomptes provisionnels,  
+- Le montant de l'impôt sur les sociétés à reporter,  
+- Le montant des reports d'acomptes provisionnels,  
+- Le montant des indemnités de sinistre à récupérer ,  
+- Le montant des honoraires d'huissiers et d'avocats,  
+- Le montant des frais d'actes et d'enregistrement à récupérer.  
+Le compte 365 enregistre les opérations de dettes d'exploitation non bancaires et sur immobilisations, 
+les dettes sur l'Etat et les organismes sociaux, le personnel, les assurances et les opérations diverses 
+ne pouvant être affectées à d'autres comptes de tiers. Il enregistre notamment :  
+- Le montant des dettes d'exploitation non bancaires et sur immobilisations,  
+- Le montant des dettes sur le compte du personnel,  
+- Le montant des dettes sur les organismes sociaux,  
+- Le montant de la TV A collectée,  
+- Le montant de la TV A à payer,  
+- Le montant des retenues à la source,  
+- Le montant des crédits TFP et FOPROLOS,  
+- Le montant des crédits TCL  
+- Le montant de l'impôt sur les bénéfices à payer,  
+- Le montant des autres impôts et taxes dus  
+- Le montant des sommes dues aux assurances,  
+- Le montant des remboursements reçus des assurances à ventiler .  
+Le compte 38 Comptes de régularisation est subdivisé :  
+381 Comptes de régularisation actif  
+http://www.procomptable.com/ 22
+382 Comptes de régularisation passif  
+383 Intérêts et autres produits réservés  
+384 Comptes d'attente à régulariser (actif )  
+385 Comptes d'attente à régulariser (passif )  
+Le compte 381 enregistre les charges constatées d'avance sur les opérations de la clientèle sous 
+forme, notamment d'intérêts décomptés d'avance sur les bons de caisse et autres valeurs assimilées .  
+Le compte 382 enregistre notamment les produits constatés d'avance sur les crédits à la clientèle 
+sous forme d'intérêts décomptés d'avance et retenus sur ces crédits.  
+Le compte 383 enregistre les intérêts et autres produits dont l'inscription en résultat a été différée en 
+raison de la probabilité ou de la certitude de leur non recouvrement .  
+CLASSE 4 : VALEURS IMMOBILISEES  
+Présentation générale 
+ 
+Les comptes de la classe 4 enregistrent les biens et créances destinés à rester d'une façon durable 
+dans l'établissement. Figurent notamment dans cette classe les titres de participations, les dotations 
+des succursales à l'étranger et les immobilisations. Les comptes d'amortissement et de provisions 
+pour dépréciation sont portés en déduction des valeurs d'actifs auxquelles ils se rapportent.  
+Fonctionnement des comptes  
+Le compte 41 Parts dans les entreprises liées, coentreprises et titres de participation est 
+subdivisé :  
+411 Titres de participation  
+412 Parts dans les entreprises associées  
+413 Parts dans les coentreprises  
+414 Parts dans les entreprises liées  
+415 Avances en compte courant  
+416 Ecart de conversion  
+417 Créances rattachées  
+419 Provisions  
+Le compte 415 enregistre les avances en compte courant se rattachant à des parts dans les 
+entreprises liées les coentreprises et les titres de participation. ,  
+Le compte 416 enregistre les écarts résultant de la conversion en monnaie de référence des parts et 
+titres libellés en devises et financés en monnaie de référence. Le compte 419 enregistre:  
+- les provisions pour dépréciation des parts dans les entreprises liées et des titres de participation.  
+- ainsi .que. les provisions sur éléments du hors bilan et relatifs aux parts dans les entreprises 
+liées, coentreprises et titres de participation  
+Le compte 42 Dotations des succursales a l'étranger est subdivisé :  
+421 Dotations  
+422 Ecarts de conversion  
+Le compte 421 enregistre les fonds transférés par l'établissement à ses succursales à titre permanent.  
+Le compte 422 enregistre les écarts résultant de la conversion en monnaie de référence des dotations 
+libellées en devises et financées en monnaie de référence.  
+http://www.procomptable.com/ 23
+Le compte 43 Immobilisations en cours est subdivisé :  
+431 Immobilisations incorporelles en cours  
+432 Immobilisations corporelles en cours  
+433 Avances et acomptes sur commandes d'immobilisation en cours  
+Le compte 431 enregistre notamment les logiciels en cours de développement et les dépenses de 
+recherche et développement en cours.  
+Le compte 432 enregistre les constructions en cours, les agencements et aménagements de ces 
+constructions, le matériel, l'outillage, les systèmes informatiques, le matériel de transport en cours et 
+les installations.  
+Le compte 433 enregistre les avances et acomptes sur commandes d'immobilisations en cours.  
+Le compte 44 Charges reportées et immobilisations d'exploitation est subdivisé :  
+440 Charges reportées  
+441 Immobilisations incorporelles  
+442 Immobilisations corporelles  
+445 Autres immobilisations d'exploitation  
+Le compte 441 enregistre les immobilisations incorporelles notamment :  
+- Le montant du droit au bail,  
+- Le montant des autres éléments de fonds commercial,  
+- Le montant des logiciels informatiques acquis,  
+- Le montant des frais de création des logiciels.  
+Le compte 442 enregistre les immobilisations corporelles et assimilées telles que les terrains, les 
+constructions, les agencements et aménagements des constructions, le matériel et outillage, le 
+matériel de transport, le mobilier et matériel de bureau, les agencements et aménagements et les 
+installations.  
+Les comptes 44 CHARGES REPORTEES ET IMMOBILISATIONS D'EXPLOITATION, 45 
+IMMOBILISATIONS HORS EXPLOITATION, 48 AMORTISSEMENT DES IMMOBILISATIONS ET 49 
+PROVISIONS POUR DEPRECIA TION DES IMMOBILISATIONS fonctionnent conformément au 
+système comptable des entreprises (norme comptable NC 01).  
+CLASSE 5: CAPITAUX PERMANENTS  
+Présentation générale 
+ 
+Les comptes de la classe 5 enregistrent les fonds investis dans l'établissement de façon permanente 
+ainsi que les provisions pour risques et charges .  
+Fonctionnement des comptes  
+Le compte 50 Ressources spéciales est subdivisé :  
+501 Fonds publics affectés  
+502 Emprunts et dettes pour ressources spéciales  
+507 Dettes rattachées  
+Le compte 501 enregistre les fonds reçus de l'Etat sous forme de ressources spéciales dont 
+l'affectation est déterminée par celui-ci.  
+Le compte 502 enregistre les fonds empruntés par l'établissement et garantis par l'Etat et dont 
+l'affectation est déterminée par celui-ci.  
+http://www.procomptable.com/ 24
+Le compte 51 Emprunts et dettes est subdivisé :  
+511 Emprunts et dettes pour propre compte  
+512 Emprunts obligataires  
+517 Dettes rattachées  
+Le compte 511 enregistre les emprunts et dettes contractés par l'établissement bancaire pour son 
+propre compte et qui constituent des ressources de refinancement.  
+Le compte 512 enregistre les emprunts obligataires émis par l'établissement.  
+Le compte 53 Autres provisions pour passifs et charges enregistre les provisions destinées à 
+couvrir les risques identifiés, autres que celles inhérentes à l'activité bancaire et classées aux comptes 
+199,299,3029,3039 et419. Ce compte est subdivisé en :  
+531 Provisions pour litiges  
+532 Provisions pour charges à répartir sur plusieurs exercices  
+533 Provisions pour retraites et obligations assimilées  
+534 Provisions pour impôts  
+539 Autres provisions pour autres passifs et charges  
+Le compte 531 enregistre les provisions pour litiges.  
+Le compte 532 enregistre les charges prévisibles, telles que les grosses réparations, qui ne sauraient 
+être rattachées au seul exercice au cours duquel elles sont engagées.  
+Le compte 533 enregistre les charges que peuvent engendrer des obligations contractuelles conférant 
+au personnel de l'entreprise des droits à un régime de retraite complémentaire et/ou à d'autres 
+avantages similaires.  
+Le compte 534 enregistre la charge probable d'impôts dont la prise en compte définitive dépend des 
+résultats et d'événements futurs.  
+Le compte 54 Fonds pour risques bancaires généraux enregistre les sommes destinées à faire 
+face aux risques généraux de l'activité bancaire, tels que les pertes futures et les autres risques 
+imprévisibles ou éventualités.  
+Les sommes portées dans ce compte doivent être traitées comme étant des affectations du résultat 
+dans la mesure où elles ne couvrent pas des risques qui ont un caractère probable et qui ont été 
+clairement identifiés, et ne peuvent pas, de ce fait, répondre aux critères de provision pour passifs et 
+charges.  
+Le compte 55 Primes liées au capital et réserves est subdivisé :  
+551 Réserve légale  
+552 Réserves statutaires  
+553 Primes liées au capital  
+558 Rachat d'actions propres  
+559 Autres réserves  
+Le compte 553 enregistre les primes d'émission, de fusion et d'apport.  
+Les comptes 57 Capital, 58 Résultats reportés et 59 Résultat de l'exercice fonctionnent conformément 
+au système comptable des entreprises ( norme comptable NC 01).  
+CLASSE 6 - CHARGES  
+Présentation générale 
+ 
+http://www.procomptable.com/ 25
+Les comptes de la classe 6 enregistrent les charges de l'établissement. Une distinction est faite en 
+fonction de la nature de la charge (bancaire, de personnel et générale) et de la contrepartie avec 
+laquelle la charge a été contractée.  
+Les comptes 608, 618, 628, 658 et 668 sont destinés à traduire les effets des modifications 
+comptables à prendre en compte dans le résultat de l'exercice, notamment les effets de changement 
+d'estimation ou de corrections d'erreurs commises dans les états financiers antérieurs et les charges 
+des activités abandonnées.  
+Le compte 608 peut, au besoin, être subdivisé en autant de sous comptes de façon à pouvoir 
+remonter les soldes dans les postes et sous postes appropriés des états financiers.  
+Fonctionnement des comptes  
+Le compte 60 charges d'exploitation bancaire regroupe les charges provenant des activités courantes 
+d'un établissement bancaire et correspondent à la notion de charge proprement dite telle que définie 
+par le cadre conceptuel de la comptabilité financière.  
+Le compte 60 Charges d'exploitation bancaire est subdivisé :  
+601 Charges sur opérations de trésorerie et opérations interbancaires  
+602 Charges sur opérations avec la clientèle  
+603 Charges sur opérations sur titres  
+604 Charges sur opérations de change  
+605 Charges sur ressources spéciales et emprunts  
+606 Charges sur opérations de hors-bilan  
+607 Charges sur prestations de services financiers  
+608 Charges d'exploitation bancaire liées à une modification comptable à prendre en compte 
+dans le résultat de l'exercice ou à une activité abandonnée  
+609 Autres charges d'exploitation bancaire  
+Le compte 601 enregistre toutes les charges relatives aux opérations que l'établissement bancaire 
+effectue avec d'autres établissements bancaires ou financiers dans le cadre du marché interbancaire 
+ou financier en dinars ou en devises ainsi que les opérations sur les comptes de la Banque chez les 
+correspondants ou sur les comptes de correspondants ouverts dans les livres de la banque :  
+- les intérêts sur comptes ordinaires et emprunts ouverts sur les banques centrales, notamment à 
+la BCT;  
+- les intérêts des comptes ouverts au centre des chèques postaux et à la Trésorerie Générale de 
+Tunisie;  
+- les intérêts sur comptes ordinaires débiteurs ouverts auprès des établissements bancaires;  
+- les intérêts sur emprunts au jour le jour et à terme ;  
+- les intérêts sur opérations de trésorerie;  
+- les commissions de toute nature.  
+Le compte 602 enregistre toutes les charges occasionnées par les opérations avec la clientèle et 
+notamment :  
+- les intérêts sur comptes ordinaires;  
+- les intérêts sur comptes d'épargne;  
+- les intérêts sur comptes à échéance;  
+- les intérêts sur bons à échéances ;  
+http://www.procomptable.com/ 26
+- les commissions sur opérations avec la clientèle.  
+Le compte 603 est destiné à ranger les charges relatives aux opérations sur titres de toute nature, 
+autres que les moins- values de cession des titres de participation, des parts dans les entreprises 
+associées, des parts dans les co-entreprises et des parts dans les entreprises liées. Il enregistre 
+notamment :  
+- les pertes enregistrées lors de la réévaluation au prix de marché ou de la cession de titres de 
+transaction ;  
+- les charges sur titres de placement et d'investissement notamment les primes ou décotes   
+étalées ;  
+- les charges et commissions sur opérations d'acquisition des titres dont le montant n'est pas inclus 
+dans la valeur d'acquisition de ces titres. 
+Le compte 604 enregistre les pertes sur opérations de change et d'arbitrage résultant :  
+- d'opérations d'achat/vente de devises,  
+- de la réévaluation périodique des opérations en devises. Lors de la réévaluation, il est débité 
+en contrepartie du compte 342 de la perte de change résultant de la réévaluation des comptes 
+en devises.  
+- des commissions de change payées.  
+Le compte 605 enregistre les charges sur dettes et emprunts contractés par l'établissement et qui sont 
+enregistrés dans les comptes de la classe 5.  
+Le compte 606 enregistre toutes les charges relatives à la conclusion d'opérations inscrites en hors 
+bilan à l'exception des opérations de change avec délais d'usance et opérations sur instruments 
+financiers à terme de change. Sont enregistrées notamment:  
+- les charges sur engagements de financement reçus des établissements bancaires et de la 
+clientèle,  
+- les charges sur engagements de garantie, notamment ceux reçus de l'Etat et de compagnies 
+d'assurance. 
+Le compte 607 enregistre les charges liées au recouvrement des valeurs, les charges liées à la 
+fabrication des carnets de chèque et autres prestations de services financiers à l'établissement 
+bancaire.  
+Le compte 61 Charges de personnel est subdivisé :  
+611 Frais du personnel  
+611 Charges sociales  
+618 Charges de personnel liées à une modification comptable à prendre en compte dans le 
+résultat de l'exercice ou à une activité abandonnée  
+619 Autres charges liées au personnel  
+Le compte 611 enregistre les salaires de base, les heures supplémentaires, les indemnités 
+complémentaires provisoires, les indemnités de représentation, les indemnités de transport, les 
+indemnités de fonction, les indemnités de technicité, les primes de bilan, les enveloppes, les primes 
+exceptionnelles, les primes de scolarité, les allocations de salaire uniques et allocations familiales, les 
+bons d'essence et les autres indemnités servies.  
+Le compte 612 enregistre les charges sociales, à savoir : les contributions patronales CNSS-CNRPS, 
+les contributions patronales assurances groupe, les charges sociales sur prime de bilan, les 
+contributions assurances, accidents du travail et assurance individuelle et les autres charges sociales.  
+Le compte 619 enregistre notamment les taxes sur les salaires, la taxe d'apprentissage et la 
+participation des employeurs à la formation professionnelle.  
+http://www.procomptable.com/ 27
+Le compte 62 Charges générales d'exploitation est subdivisé :  
+620 Fournitures et autres matières consommables  
+621 Services extérieurs  
+621 Autres services extérieurs  
+624 Charges diverses d'exploitation  
+625 Impôts et taxes  
+626 Charges d'exploitation liées à des activités non bancaires  
+628 Autres charges d'exploitation bancaire liées à une modification comptable à prendre en 
+compte dans le résultat de l'exercice ou à une activité abandonnée.  
+Le compte 620 enregistre les achats de fournitures de bureau et autres matières consommables qui 
+constituent des achats stockables.  
+Le compte 621 enregistre notamment :  
+* Sous-traitance générale  
+* Locations  
+* Entretiens et réparations  
+* Primes d'assurance  
+* Etudes, recherches et divers services extérieurs  
+Le compte 622 enregistre notamment :  
+* Rémunérations d'intermédiaires et honoraires  
+* Publicité, publications et relations publiques  
+* Transports de biens et transports collectifs de personnel  
+* Déplacements, missions et réceptions  
+* Frais postaux et frais de télécommunication.  
+Le compte 624 enregistre notamment :  
+* Redevances pour concessions, brevets, licences, procédés, droits et valeurs similaires  
+* Jetons de présence  
+* Moins-values de cession des immobilisations corporelles  
+* Moins-values de cession des immobilisations incorporelles  
+Le compte 625 enregistre les impôts et taxes locales, les droits d'enregistrement, la TFP et le 
+FOPROLOS et d'une façon générale tous impôts et taxes non récupérables fiscalement, autres que 
+l'impôt sur les bénéfices.  
+Le compte 626 enregistre toutes les charges engagées par l'établissement bancaire en dehors des 
+activités purement bancaires.  
+Le compte 65 Dotations aux provisions pour créances douteuses et pour dépréciation, pertes 
+sur créances et autres pertes ordinaires est subdivisé :  
+651 Dotations aux provisions sur opérations de trésorerie et interbancaires  
+652 Dotations aux provisions sur opérations avec la clientèle  
+653 Dotations aux provisions sur titres  
+http://www.procomptable.com/ 28
+654 Dotations aux provisions pour autres passifs et charges  
+656 Pertes sur créances  
+657 Moins-values de cession des titres de participation, des parts dans les entreprises 
+associées, des parts dans les co-entreprises et des parts dans les entreprises liées  
+658 Dotations aux provisions pour créances douteuses et pour dépréciation liées à une 
+modification comptable à prendre en compte dans le résultat de l'exercice ou à une activité 
+abandonnée.  
+Le compte 651 enregistre les dotations aux provisions pour dépréciation des créances douteuses 
+sous forme de prêts interbancaires et de dépôts auprès d'autres établissements bancaires et 
+financiers ainsi que les créances qui y sont rattachées sous forme d'intérêts et qui sont constatés 
+dans le résultat de la période.  
+Le compte 652 enregistre les dotations aux provisions pour dépréciation des créances douteuses 
+sous forme de prêts et de découverts en compte courants débiteurs ainsi que les intérêts constatés 
+dans le résultat de la période.  
+Le compte 653 enregistre les dotations aux provisions pour dépréciation du portefeuille titres, dans le 
+cas où à l'arrêté comptable la valeur d'usage est inférieure au coût d'acquisition, telles que :  
+- les provisions pour dépréciation du portefeuille titres de placement et les créances rattachées,  
+- les provisions pour dépréciation des parts dans les entreprises liées et les titres de participation et 
+les créances rattachées.  
+Le compte 654 enregistre les dotations aux provisions destinées à couvrir des risques et des charges 
+que des événements survenus ou en cours rendent probables, nettement précisés quant à l'objet, 
+mais dont la réalisation est incertaine. Le compte 656 enregistre les créances ou fractions de 
+créances qui ont acquis le caractère d'une perte définitive.  
+Le compte 657 enregistre les moins-values de cession des titres de participation, des parts dans les 
+entreprises associées, des parts dans les co-entreprises et des parts dans les entreprises liées.  
+Le compte 66 Dotations aux amortissements et aux provisions sur immobilisations est  
+subdivisé :  
+661 Dotations aux amortissements sur immobilisations  
+662 Dotations aux provisions sur immobilisations  
+668 Dotations aux amortissements et aux provisions sur immobilisations liées à une 
+modification comptable à prendre en compte dans le résultat de l'exercice ou à une activité 
+abandonnée  
+Le compte 661 enregistre les dotations aux amortissements sur les immobilisations que constituent 
+les amoindrissements de valeurs jugés irréversibles. Il inclut aussi les dotations aux amortissements 
+sur les immobilisations hors exploitation.  
+Le compte 662 enregistre les dotations aux provisions sur les immobilisations que constituent les 
+amoindrissements de valeurs qui ne sont pas jugés irréversibles.  
+Le compte 67 Charges extraordinaires enregistre les charges qualifiées d'extraordinaire par 
+référence à la norme comptable NC 08 relative au résultat net de l'exercice et éléments 
+extraordinaires.  
+Le compte 69 Impôt sur les bénéfices enregistre le montant de l'impôt sur les sociétés dû au titre du 
+bénéfice imposable provenant des opérations ordinaires de l'exercice.  
+CLASSE 7 - PRODUITS  
+Présentation générale 
+ 
+Les comptes de la classe 7 enregistrent les produits de l'établissement. Une distinction est faite en 
+fonction de la nature du produit et de la contrepartie avec laquelle le produit a été réalisé.  
+http://www.procomptable.com/ 29
+Les comptes 708, 728 et 768 sont destinés à traduire les effets des modifications comptables à 
+prendre en compte dans le résultat de l'exercice, notamment les effets de changement d'estimation ou 
+de corrections d'erreurs commises dans les états financiers antérieurs et les produits des activités 
+abandonnées.  
+Le compte 708 peut, au besoin, être subdivisé en autant de sous comptes de façon à pouvoir 
+remonter les soldes dans les postes et sous postes appropriés des états financiers.  
+Fonctionnement des comptes  
+Le compte 70 produits d'exploitation bancaire regroupe les produits provenant des activités courantes 
+d'un établissement bancaire et correspondant à la notion de revenus telle que définie par le cadre 
+conceptuel de la comptabilité financière.  
+Le compte 70 Produits d'exploitation bancaire est subdivisé :  
+701 Produits sur opérations de trésorerie et opérations interbancaires  
+702 Produits sur opérations avec la clientèle  
+703 Produits sur opérations sur titres  
+704 Produits sur opérations de change  
+706 Produits sur opérations de hors-bilan  
+707 Produits sur prestations de services financiers  
+708 Produits d'exploitation bancaire liés à une modification comptable à prendre en compte 
+dans le résultat de l'exercice ou à une activité abandonnée  
+709 Autres Produits d'exploitation bancaire  
+Le compte 701 enregistre tous les produits relatifs aux opérations que l'établissement bancaire 
+effectue avec d'autres établissements bancaires et financiers dans le cadre du marché interbancaire 
+en dinars ou en devises ainsi que les opérations sur les comptes de la Banque chez les 
+correspondants ou sur les comptes de correspondants ouverts dans les livres de la banque :  
+- les intérêts sur comptes ordinaires ouverts auprès des banques centrales notamment à la BCT ,  
+- les intérêts des comptes ouverts au centre des chèques postaux ,  
+- les intérêts sur comptes ordinaires créditeurs,  
+- les intérêts sur comptes ordinaires débiteurs des autres établissements bancaires et financiers,  
+- les intérêts sur prêts au jour le jour et à terme.  
+Le compte 702 enregistre tous les produits issus des opérations effectuées avec la clientèle et 
+notamment :  
+- les intérêts sur crédits à la clientèle,  
+- les intérêts sur comptes courants débiteurs,  
+- les commissions bancaires sur comptes de la clientèle,  
+- les commissions bancaires relatives aux crédits,  
+- les commissions sur services fournis à la clientèle.  
+Le compte 703 est destiné à ranger les produits relatifs aux opérations sur titres de toute nature, 
+autres que les plus-values de cessions des titres de participation, des parts dans les entreprises 
+associées, des parts dans les co-entreprises et des parts dans les entreprises liées. Il enregistre 
+notamment :  
+- les gains enregistrés lors de la réévaluation au prix de marché ou de la cession de titres de 
+transaction ;  
+http://www.procomptable.com/ 30
+- les produits sur titres de placement et d'investissement et autres titres assimilés, notamment les 
+primes ou décotes étalées, intérêts courus de la période calculés au taux du marché constaté lors de 
+l'acquisition et appliqué au prix d'achat du titre corrigé des amortissements déjà pratiqués ;  
+- les dividendes et produits assimilés ;  
+- les produits divers sur opérations de titres.  
+Le compte 704 enregistre les gains sur opérations de change et d'arbitrage résultant :  
+- d'opérations d'achat/vente de devises,  
+- de la réévaluation périodique des opérations en devises. Lors de la réévaluation, il est crédité 
+en contrepartie du compte 342 du gain de change résultant de la réévaluation des comptes en 
+devises,  
+- des commissions de change reçues.  
+Le compte 706 enregistre tous les produits, sous forme d'intérêts et de commissions relatifs à la 
+conclusion d'opérations inscrites en hors bilan à l'exception des opérations de change avec délais 
+d'usance et opérations sur instruments financiers à terme de change. Sont enregistrés dans ce 
+compte notamment :  
+- les produits sur engagements de financement en faveur d'établissements bancaires et financiers 
+et de la clientèle,  
+- les produits sur engagements de garantie ,  
+- les produits sur engagements de titres ,  
+- les produits sur autres engagements donnés.  
+Le compte 707 enregistre les produits de services financiers tels que :  
+- les commissions sur titres gérés ou en dépôt,  
+- les commissions sur opérations sur titres pour le compte de la clientèle (achat/vente de titres, 
+placement,...),  
+- les produits sur moyens de paiement,  
+- les autres produits sur prestations de services financiers,  
+- les commissions relatives aux opérations sur titres telles que les commissions de placement sur 
+titres, les commissions de courtage, les commissions de garde, les commissions sur encaissement de 
+coupons, les commissions de domiciliation des valeurs mobilières, les commissions sur émission 
+d'emprunts obligataires, Ies commissions sur introduction des titres à la BVM et les commissions de 
+gestion de titres.  
+Le compte 72 Produits divers d'exploitation est subdivisé :  
+721 Produits provenant des immeubles non liés à l'exploitation  
+722 Plus-values de cession des immobilisations  
+723 Reprises de provision sur immobilisation  
+724 Plus-values de cession des titres de participation, des parts dans les entreprises 
+associées, des parts dans les co-entreprises et des parts dans les entreprises liées  
+728 Autres produits d'exploitation bancaire liés à une modification comptable à prendre en 
+compte dans le résultat de l'exercice ou à une activité abandonnée  
+729 Autres produits divers d'exploitation  
+Le compte 721 enregistre les produits provenant des immobilisations détenues par l'établissement 
+bancaire et qui n'entrent pas dans le cadre des activités de l'établissement bancaire. Il s'agit 
+notamment de produits de location des immeubles ( location hors crédit-bail ).  
+http://www.procomptable.com/ 31
+Le compte 722 enregistre les plus-values de cession des immobilisations détenues par l'établissement 
+bancaire et qui ne constituent pas en principe des opérations courantes.  
+Le compte 723 enregistre les reprises des provisions sur les immobilisations dont les dotations ne 
+sont plus justifiées. 
+Le compte 724 enregistre les plus-values de cession des titres de participation, des parts dans les 
+entreprises associées, des parts dans les co-entreprises et des parts dans les entreprises liées.  
+Le compte 729 enregistre les autres produits divers d'exploitation tels que la quote-part des 
+subventions d'investissement virée au compte de résultat et les produits qui ne se rapportent pas à 
+l'activité proprement bancaire.  
+Le compte 76 Reprises de provisions et récupération de créances est subdivisé :  
+761 Reprises de provisions sur opérations de trésorerie et interbancaires  
+762 Reprises de provisions sur opérations avec la clientèle  
+763 Reprises de provisions sur titres  
+764 Reprises de provisions pour autres passifs et charges  
+766 Récupération de créances passées en pertes  
+768 Reprises de provisions et récupération de créances liées à une modification comptable à 
+prendre en compte dans le résultat de l'exercice ou à une activité abandonnée  
+Le compte 761 enregistre les reprises de provisions pour dépréciation des créances douteuses sous 
+forme de prêts interbancaires et de dépôts auprès d'autres établissements bancaires ainsi que les 
+créances qui y sont rattachées sous forme d'intérêts.  
+Le compte 762 enregistre les reprises de provisions pour dépréciation des créances douteuses sous 
+forme de prêts et de découverts en comptes courants débiteurs ainsi que les intérêts .  
+Le compte 763 enregistre les reprises de provisions pour dépréciation du portefeuille titres, dans le 
+cas où à l'arrêté comptable la valeur d'usage n'est plus inférieure au coût d'acquisition.  
+Le compte 764 enregistre les reprises de provisions constituées pour couvrir des risques et des 
+charges que des événements survenus ont rendus sans objet.  
+Le compte 766 enregistre les créances ou fractions de créances qui, antérieurement passées en perte 
+ont fait l'objet de recouvrement.  
+Le compte 77 Produits extraordinaires enregistre les produits qualifiés d'extraordinaires par 
+référence à la norme comptable NC 08 relative au résultat net de l'exercice et éléments 
+extraordinaires.  
+Le compte 79 Transferts de charges non liées a l'exploitation bancaire enregistre les charges à 
+transférer soit à un compte de bilan ou à un compte de charge. Ce compte doit être ventilé en fonction 
+des comptes où ont été imputées les charges à transférer.  
+CLASSE 9 : ENGAGEMENTS HORS BILAN  
+Présentation générale 
+ 
+Les comptes de la classe 9 enregistrent les engagements de financement et les engagements de 
+garantie que l'établissement contracte en distinguant les engagements avec les établissement 
+bancaires et financiers et les engagements avec la clientèle. Ils enregistrent aussi les engagements 
+sur les opérations en devises et les opérations sur instruments financiers non encore dénouées.  
+Fonctionnement des comptes  
+Le compte 90 Engagements de financement est subdivisé :  
+901 Engagements en faveur d'établissements bancaires financiers et d'assurance  
+902 Engagements reçus d'établissements bancaires  
+http://www.procomptable.com/ 32
+903 Engagements en faveur de la clientèle  
+904 Engagements reçus de la clientèle  
+909 Contrepartie des engagements de financement  
+Les engagements de financement constituent une promesse irrévocable prise par l'établissement de 
+consentir des concours de trésorerie en faveur du bénéficiaire (établissement bancaire ou financier ou 
+clientèle) suivant les modalités prévues par un contrat. Ils sont enregistrés dans le hors-bilan pour leur 
+montant non utilisé; dès qu'ils sont utilisés, totalement ou partiellement, ils sont enregistrés dans le 
+bilan et cessent donc de figurer dans le hors-bilan.  
+Le compte 901 enregistre les concours que l'établissement s'est irrévocablement engagé à mettre à la 
+disposition d'autres établissements bancaires et financiers, lorsque ces derniers en feront la demande.  
+Le compte 903 enregistre les concours que l'établissement s'est irrévocablement engagé à mettre à la 
+disposition de sa clientèle lorsque celle-ci en fera la demande: lignes de crédits irrévocables, 
+ouvertures de crédits documentaires et souscriptions des acceptations à payer par l'établissement 
+émetteur.  
+Le compte 909 enregistre la contrepartie des écritures hors bilan. 
+Le compte 91 Engagements de garantie est subdivisé :  
+911 Cautions, avals et autres garanties d'ordre d'établissements bancaires et financiers  
+912 Cautions, avals et autres garanties reçues d'établissements bancaires et financiers  
+913 Garanties d'ordre à la clientèle  
+914 Garanties reçues de la clientèle  
+919 Contrepartie des engagements de garantie  
+Les engagements de garantie sont des opérations pour lesquelles un établissement bancaire (le 
+garant) s'engage en faveur d'un tiers (le bénéficiaire) à assurer d'ordre et pour le compte d'un client (le 
+donneur d'ordre) la charge d'une obligation souscrite par ce dernier, s'il n'y satisfait pas lui-même.  
+Le compte 911 enregistre notamment les confirmations de crédits documentaires, les acceptations à 
+payer souscrites par l'établissement confirmateur , les engagements sur billets de trésorerie, les 
+cautions et avals sur actes séparés, les endos et avals sur effets de billets de mobilisation.  
+Le compte 913 enregistre notamment les cautions immobilières pour garanties d'achèvement, de 
+remboursement, les cautions fiscales, les obligations cautionnées .  
+Le compte 914 enregistre les garanties reçues des administrations publiques et assimilées et des 
+entreprises d'assurance.  
+Le compte 92 Engagements sur titres est subdivisé :  
+921 Titres à recevoir  
+922 Titres à livrer  
+923 Titres, partie non libérée  
+929 Contrepartie des engagements sur titres  
+Ces comptes enregistrent les engagements sur compte propre. Figurent en particulier dans ces 
+comptes les achats et ventes de titres entre la date de conclusion de l'opération et la date de 
+règlement. Le compte 921 enregistre les achats de titres entre la date de conclusion de l'opération et 
+la date de règlement. 
+Le compte 922 enregistre les ventes de titres entre la date de conclusion de l'opération et la date de 
+règlement.  
+Le compte 923 enregistre la partie non libérée des parts dans les entreprises liées, les participations 
+et les titres de placement .  
+http://www.procomptable.com/ 33
+Le compte 93 Opérations en devises est subdivisé :  
+931 Opérations de change au comptant  
+932 Opérations de change à terme  
+933 Opérations de prêts ou d'emprunts en devises  
+934 Report / Déport non couru  
+935 Comptes de position de change hors bilan  
+936 Comptes de contre-valeur position de change hors bilan  
+937 Comptes d'ajustement devises hors bilan  
+Le compte 931 enregistre les opérations d'achat et de vente de devises dont les parties ne diffèrent le 
+dénouement qu'en raison du délai d'usance (en général de deux jours ouvrables).  
+Le compte 932 enregistre les opérations d'achat et de vente de devises dont les parties décident de 
+différer le dénouement pour des motifs autres que le délai d'usance (date d'échéance supérieure à 
+deux jours).  
+Le compte 933 enregistre les montants correspondant aux opérations de prêts ou d'emprunts en 
+devises tant que le délai de mise à disposition des fonds n'est pas écoulé.  
+Le compte 934 enregistre le report / déport non couru sur les opérations de change à terme qui seront 
+répartis sur la durée des opérations à terme.  
+Le compte 95 Autres engagements est subdivisé :  
+951 Autres engagements donnés  
+952 Autres engagements reçus  
+Le compte 951 enregistre les valeurs affectées en garantie: bons du trésor, titres, … 
+Le compte 952 enregistre les valeurs reçues en garantie: bons du trésor, titres...  
+ 

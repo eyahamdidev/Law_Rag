@@ -1,0 +1,294 @@
+NC 37 
+Norme comptable relative aux participations dans des coentreprises 
+  
+Champ d'application  
+1. La présente norme doit être appliquée à la comptabilisation des participations dans :   
+(a) les coentreprises constituées sous forme d'activités contrôlées conjointement ;  
+(b) les coentreprises constituées sous forme d'actifs contrôlés conjointement ;  
+(c) et les coentreprises constituées sous forme d'entités contrôlées conjointement.   
+2. Dans le cas où il n'est pas soumis à l'él aboration d'états financiers consolidés, un coentrepreneur 
+doit appliquer La présente norme pour préparer et présenter les notes à ses états financiers 
+individuels, relatives à ses participations dans des coentreprises constituées sous fom1e d'entités 
+contrôlées conjointement.  
+Définitions  
+3. Dans La présente norme, les termes suivants ont la signification indiquée ci -après :  
+Une coentreprise est un accord contractuel en vertu duquel deux parties ou plus conviennent 
+d'exercer une activité économique sous contrôle conjoint.  
+Le contrôle est le pouvoir de diriger les politiques financières et opérationnelles d'une activité 
+économique afin d'en obtenir des avantages.  
+Le contrôle conjoint est le partage en vertu d'un accord contractuel du contrôle d'une activ ité 
+économique.  
+L'influence notable est le pouvoir de participer aux décisions de politique financière et 
+opérationnelle d'une activité économique, sans toutefois exercer un contrôle ou un contrôle 
+conjoint sur ces politiques.  
+Un coentrepreneur est un pa rticipant à une coentreprise qui exerce un contrôle conjoint sur 
+celle-ci.  
+Un investisseur dans une coentreprise est un participant à une coentreprise et il n'exerce pas 
+un contrôle conjoint sur celle-ci.  
+La consolidation proportionnelle est une méthode de comptabilisation et de présentation selon 
+laquelle la quote-part d'un coentrepreneur dans chacun des actifs, passifs, produits et charges 
+de l'entité contrôlée conjointement est regroupée, ligne par ligne, avec les éléments similaires 
+dans les états fin anciers consolidés du coentrepreneur ou est présentée sous des postes 
+distincts dans les états financiers consolidés du coentrepreneur.  
+La méthode de la mise en équivalence est une méthode de comptabilisation et de présentation 
+selon laquelle la participa tion dans une entité contrôlée conjointement est initialement 
+enregistrée au coût et est ensuite ajustée pour prendre en compte les changements 
+postérieurs à l'acquisition de la quote -part du coentrepreneur dans les capitaux propres de 
+l'entité contrôlée conjointement. L'état de résultat reflète la quote -part du coentrepreneur dans 
+les résultats de l'entité contrôlée conjointement.  
+Formes de coentreprises 
+4. Les coentreprises revêtent diverses formes et structures. La présente norme identifie trois grandes  
+catégories: les activités contrôlées conjointement, les actifs contrôlés conjointement et les entités 
+contrôlées conjointement qui sont généralement connues sous le nom de coentreprise et répondent à 
+leur définition. Toutes les coentreprises partagent les caractéristiques suivantes :  
+(a) deux coentrepreneurs ou plus sont liés par un accord contractuel; et  
+(b) l'accord contractuel établit un contrôle conjoint.  
+Accord contractuel  
+5. L'existence d'un accord contractuel permet de distinguer les participati ons contrôlées conjointement 
+des participations dans des entreprises associées sur lesquelles l'investisseur exerce une influence 
+notable (voir NC36 relative aux participations dans des entreprises associées). Aux fins de la présente 
+norme, les activités q ui ne font pas l'objet d'un accord contractuel pour établir le contrôle conjoint ne 
+sont pas des coentreprises.  
+6. La preuve de l'accord contractuel peut être apportée de différentes façons, par exemple par un 
+contrat conclu entre les coentrepreneurs ou l e procès verbal de leurs discussions. Dans certains cas, 
+l'accord est incorporé dans les statuts ou dans les règlements de la coentreprise. Quelle qu'en soit la 
+forme, l'accord contractuel est généralement constaté par écrit et traite de questions comme :   
+(a) l'activité, la durée et les obligations de communication financière de la coentreprise ;   
+(b) la désignation du conseil d'administration ou autre organe de direction similaire de la coentreprise 
+et les droits de vote des coentrepreneurs.  
+(c) Les apports en capital des coentrepreneurs ; et (d) Le partage entre les coentrepreneurs de la 
+production, des produits, charges ou résultats de la coentreprise.  
+7. L'accord contractuel établit le contrôle conjoint sur la coentreprise. Une telle dispositi on assure 
+qu'aucun des coentrepreneurs pris individuellement n'est en mesure de contrôler unilatéralement 
+l'activité. L'accord identifie les décisions qui sont essentielles à la réalisation des objectifs de la 
+coentreprise et qui nécessitent le consentemen t de tous les coentrepreneurs et les décisions qui 
+nécessitent le consentement d'une majorité déterminée des coentrepreneurs.   
+8. L'accord contractuel peut identifier l'un des coentrepreneurs comme le gestionnaire ou le gérant de 
+la coentreprise. Le gestionnaire ne contrôle pas la coentreprise mais agit en vertu des pouvoirs qui lui 
+ont été délégués, conformément aux politiques financières et opérationnelles dont sont convenus les 
+coentrepreneurs selon l'accord contractuel. Si le gestionnaire a le pouvoir d e diriger les politiques 
+financières et opérationnelles de l'activité économique, il contrôle la coentreprise et celle -ci est alors 
+une filiale du gestionnaire et non une coentreprise.  
+Activités contrôlées conjointement 
+9. L'activité de certaines coentrep rises implique l'utilisation des actifs et autres ressources des 
+coentrepreneurs, plutôt que la création d'une société commerciale, d'un partnership ou d'une autre 
+entité, ou d'une structure financière distincte des coentrepreneurs eux -mêmes. Chaque 
+coentrepreneur utilise ses propres immobilisations corporelles et ses propres stocks. Il assume 
+également ses propres charges et ses propres passifs et lève ses propres financements, qui 
+représentent des obligations qui lui sont propres. Les activités de la coen treprise peuvent être 
+réalisées par le personnel du coentrepreneur parallèlement aux activités similaires du coentrepreneur. 
+L'accord de coentreprise prévoit généralement un mode de partage, entre les coentrepreneurs, des 
+produits tirés de la vente de la production conjointe et de toute charge encourue en commun.  
+10. Un exemple d'activité contrôlée conjointement est celui où deux coentrepreneurs ou plus 
+regroupent leurs activités, ressources et compétences pour produire, commercialiser et distribuer 
+conjointement un produit particulier. Chacun des coentrepreneurs est chargé d'une partie du 
+processus de fabrication. Chacun assume ses propres coûts et obtient une quote -part du revenu de la 
+vente du produit, quote-part déterminée conformément à l'accord contractuel.  
+11. En ce qui concerne sa participation dans les activités contrôlées conjointement, un 
+coentrepreneur doit comptabiliser dans ses états financiers individuels et, par conséquent, 
+dans ses états financiers consolidés :  
+(a) les actifs dont il a le contrôle et les passifs qu'il encourt ; et  
+(b) les charges qu'il encourt et sa quote -part des produits qu'il retire de la vente des biens ou 
+des services de la coentreprise.  
+12. Etant donné que les actifs, passifs, produits et charges sont déjà comptabil isés dans les états 
+financiers individuels du coentrepreneur et, par conséquent, dans ses états financiers consolidés, 
+aucun ajustement ou autre procédure de consolidation n'est requis à l'égard de ces éléments lorsque 
+le coentrepreneur présente des états financiers consolidés.  
+13. Une comptabilité distincte est généralement requise à la coentreprise et des états financiers sont, 
+en conséquence, préparés par celle -ci. A défaut, les coentrepreneurs peuvent préparer des comptes 
+de gestion afin de pouvoir évaluer la performance de la coentreprise.  
+Actifs contrôles conjointement 
+14. Certaines coentreprises impliquent le contrôle conjoint, et souvent la copropriété, par les 
+coentrepreneurs d'un ou plusieurs actifs apportés ou acquis aux fins de la coentreprise et qui lui sont 
+dévolus à ces fins. Les actifs servent à procurer des avantages aux coentrepreneurs. Chaque 
+coentrepreneur peut prendre sa quote -part de la production générée par les actifs et assume une part 
+convenue des charges encourues.  
+15. Ces coentr eprises n'impliquent pas la création d'une société commerciale, d'un partnership ou 
+d'une autre entité ou d'une structure financière distincte des coentrepreneurs eux -mêmes. Chaque 
+coentrepreneur exerce, par le moyen de sa quote -part dans l'actif contrôlé conjointement, un contrôle 
+sur sa part dans les avantages économiques futurs.  
+16. De nombreuses activités dans les secteurs du pétrole, du gaz naturel et de l'extraction des 
+minerais impliquent des actifs contrôlés conjointement; par exemple, un certain n ombre de sociétés 
+pétrolières peuvent contrôler et exploiter conjointement un oléoduc. Chaque coentrepreneur utilise 
+l'oléoduc pour transporter son propre produit, en contrepartie de quoi il assume une part convenue 
+des charges liées à l'activité de l'oléo duc. Un autre exemple d'actif contrôlé conjointement est celui de 
+deux entreprises contrôlant conjointement un immeuble, chacune d'elles touchant une part des loyers 
+reçus et assumant une part des charges.  
+17. En ce qui concerne sa participation dans des actifs contrôlés conjointement, un 
+coentrepreneur doit comptabiliser dans ses états financiers individuels et, par conséquent, 
+dans ses états financiers consolidés :  
+(a) sa quote-part dans les actifs contrôlés conjointement, classée selon la nature des ac tifs ;  
+(b) tout passif qu'il encourt ; (c) sa quote -part dans tout passif qu'il encourt conjointement 
+avec les autres coentrepreneurs de la coentreprise ;  
+(d) tout produit de la vente ou de l'utilisation de sa quote -part de la production de la 
+coentreprise ainsi que sa quote-part dans toute charge encourue par la coentreprise ; et  
+(e) toute charge encourue au titre de sa participation dans la coentreprise . 
+18. Pour ce qui concerne sa participation dans les actifs contrôlés conjointement, chaque 
+coentrepreneur inclut dans sa comptabilité et comptabilise dans ses états financiers individuels et par 
+conséquent, dans ses états financiers consolidés :  
+(a) sa quote-part des actifs contrôlés conjointement, classée selon la nature des actifs et non comme 
+une participation. Par exemple, la quote -part dans un oléoduc contrôlé conjointement est classée en 
+tant qu'immobilisations corporelles ;  
+(b) tout passif qu'il encourt, par exemple ceux qu'il a encouru pour financer sa quote -part des actifs ;  
+(c) sa quote-part de tout passif encouru conjointement avec les autres coentrepreneurs relativement à 
+la coentreprise ;  
+(d) tout produit de la vente ou de l'utilisation de sa quote -part de la production de la coentreprise ainsi 
+que sa quote-part de toute charge encourue par la coentreprise ; et  
+(e) toute charge qu'il a encourue relativement à sa participation dans la coentreprise, par exemple 
+celles qui sont liées au financement de sa participation dans les actifs et à la vente de sa quote -part 
+de la production.  
+Etant don né que les actifs, passifs, produits et charges sont déjà comptabilisés dans les états 
+financiers individuels du coentrepreneur et, par conséquent, dans ses états financiers consolidés, 
+aucun ajustement ou autre procédure de consolidation n'est requis à l' égard de ces éléments lorsque 
+le coentrepreneur présente des états financiers consolidés.  
+19. Le traitement des actifs contrôlés conjointement rend compte de la substance, de la réalité 
+économique et, généralement, de la forme juridique de la coentreprise. La comptabilité distincte de la 
+coentreprise peut se limiter aux charges qui sont encourues en commun par les coentrepreneurs et 
+qui seront assumées in fine par ceux -ci en proportion des parts convenu es. Il est possible de ne pas 
+préparer d'états financiers pour la coentreprise, même si les coentrepreneurs préparent des comptes 
+de gestion a fin de pouvoir évaluer la performance de la coentreprise.  
+Entités contrôlées conjointement 
+20. Une entité contrô lée conjointement est une coentreprise qui implique la création d'une société 
+commerciale, d'un partnership ou d'une autre entité dans laquelle chaque coentrepreneur détient une 
+participation. L'entité fonctionne de la même manière que toute autre entrepri se, si ce n'est qu'un 
+accord contractuel conclu entre les coentrepreneurs établit le contrôle conjoint sur l'activité 
+économique de l'entité.  
+21. L'entité contrôlée conjointement contrôle les actifs de la coentreprise, encourt des passifs et des 
+charges e t réalise des produits. Elle peut passer des contrats en son nom propre et lever le 
+financement nécessaire à l'activité de la coentreprise. Chaque coentrepreneur a droit à une quote -part 
+dans les résultats de l'entité contrôlée conjointement, même si certa ines entités contrôlées 
+conjointement prévoient également le partage de la production de la coentreprise.   
+22. Un exemple courant d'entité contrôlée conjointement est celui de deux entreprises qui regroupent 
+leurs activités dans un métier donné en transférant les actifs et passifs appropriés à une entité 
+contrôlée conjointement. Un autre exemple est celui d'une entreprise qui débute une activité dans un 
+pays étranger conjointement avec l'Etat ou un organisme public de ce pays, en établissant une entité 
+distincte contrôlée conjointement par l'entreprise et l'Etat ou l'organisme public.  
+23. De nombreuses entités contrôlées conjointement sont en substance similaires aux coentreprises 
+définies comme des 3ctivités contrô lées conjointement ou des actifs contrôlées conjointement. A titre 
+d'exemple, les coentrepreneurs peuvent transférer un actif contrôlé conjointement, comme un 
+oléoduc, à une entité contrôlée conjointement. De même, les coentrepreneurs peuvent apporter dans  
+une entité contrôlée conjointement des actifs qui seront exploités conjointement. Certaines activités 
+contrôlées conjointement impliquent également l'établissement d'une entité contrôlée conjointement 
+pour traiter certains aspects de l'activité, par exemp le la conception, la commercialisation, la 
+distribution ou le service après-vente du produit.  
+24. Une entité contrôlée conjointement tient sa propre comptabilité et prépare et présente des états 
+financiers de la même manière que les autres entreprises, co nformément aux dispositions du système 
+comptable des entreprises.  
+25. Généralement, chaque coentrepreneur apporte de la trésorerie ou autres ressources à l'entité 
+contrôlée conjointement. Ces apports sont compris dans la comptabilité du coentrepreneur et 
+comptabilisés dans ses états financiers individuels comme une participation dans l'entité contrôlée 
+conjointement.  
+Coentrepreneur établissant des états financiers consolides  
+26. Dans ses états financiers consolidés, un coentrepreneur doit présenter sa pa rticipation 
+dans une entité contrôlée conjointement en utilisant l'un des deux modes de présentation de la 
+consolidation proportionnelle.  
+27. Lors de la présentation, dans ses états financiers consolidés, de sa participation dans une entité 
+contrôlée conjointement, il est essentiel qu'un coentrepreneur rende compte de la substance et de la 
+réalité économique de l'accord, plutôt que de la structure ou de la forme particulière de la 
+coentreprise. Dans une entité contrôlée conjointement, un coentrepreneur con trôle sa part des 
+avantages économiques futurs par le biais de sa quote -part des actifs et passifs de la coentreprise. 
+Cette substance et cette réalité économique sont traduites dans les états financiers consolidés du 
+coentrepreneur , lorsque le coentrepre neur présente sa participation dans les actifs, passifs, produits 
+et charges de l'entité contrôlée conjointement en utilisant l'un des deux formats de présentation de la 
+consolidation proportionnelle décrits au paragraphe 29.  
+28. L'application de la conso lidation proportionnelle signifie que -le bilan consolidé du coentrepreneur 
+inclut sa quote -part des actifs contrôlés conjointement et sa quote -part des passifs dont il est 
+conjointement responsable. L'état de résultat consolidé du coentrepreneur comprend s a quote -part 
+des produits et charges de l'entité contrôlée conjointement. De nombreuses procédures qui 
+conviennent à l'application de la consolidation proportionnelle sont similaires aux procédures utilisées 
+pour la consolidation des participations dans de s filiales, lesquelles sont exposées dans la NC35 
+relative aux états financiers consolidés.  
+29. Différents formats de présentation peuvent être utilisés pour la consolidation proportionnelle. Le 
+coentrepreneur peut regrouper, ligne par ligne, sa quote -part de chacun des actifs, passifs, produits et 
+charges de l'entité contrôlée conjointement avec les éléments similaires dans ses états financiers 
+consolidés. Par exemple, il peut regrouper sa quote -part des stocks des immobilisations corporelles 
+de l'entité contrôlée conjointement avec les éléments correspondants du groupe consolidé. Ou bien, le 
+coentrepreneur peut inclure des postes distincts, dans ses états financiers consolidés, pour sa quote -
+part des actifs, passifs, charges et produits de l'entité contrô lée conjointement. Par exemple, il peut 
+faire apparaître, de façon séparée, sa quote -part des actifs courants de l'entité contrôlée 
+conjointement parmi les actifs courants du groupe consolidé. Ces deux formats de présentation 
+aboutissent à la présentation de montants identiques au titre du résultat net et de chaque grande 
+catégorie d'actifs, passifs, produits et charges. Les deux formats sont acceptables aux fins de la 
+présente norme.  
+30. Un coentrepreneur doit cesser d'utiliser la consolidation proportion nelle à compter de la 
+date à laquelle il cesse d'avoir le contrôle conjoint d'une entité contrôlée conjointement.   
+31. Le coentrepreneur cesse d'utiliser la consolidation proportionnelle à compter de la date à laquelle 
+il cesse de partager le contrôle conj oint de l'entité. Cela peut se produire, par exemple, lorsque le 
+coentrepreneur cède sa participation ou lorsque l'entité contrôlée conjointement se voit imposer des 
+restrictions externes telles qu'elle n'est plus en mesure d'atteindre ses objectifs.   
+32. L'utilisation de la consolidation proportionnelle n'est pas appropriée lorsque la 
+participation dans une entité contrôlée conjointement est acquise et détenue exclusivement en 
+vue de sa cession ultérieure dans un avenir proche. Ceci n'est pas non plus appr oprié lorsque 
+l'entité contrôlée conjointement est soumise à des restrictions durables et fortes qui limitent 
+de façon importante sa capacité à transférer des fonds au coentrepreneur.   
+Dans ce cas, le coentrepreneur doit comptabiliser ses participations co mme s'il s'agissait de 
+placements.  
+33. A compter de la date à laquelle une entité contrôlée conjointement devient une filiale d'un 
+coentrepreneur, le coentrepreneur comptabilise sa participation selon la NC 35 Etats financiers 
+consolidés.  
+Transactions entre un coentrepreneur et une coentreprise  
+34. Lorsqu'un coentrepreneur apporte ou vend des actifs à une coentreprise, la comptabilisation d'un 
+profit ou d'une perte quelconque découlant de la transaction doit traduire la substance de la 
+transaction. Tant que la coentreprise conserve les actifs, et à la condition que le coentrepreneur ait 
+transféré les principaux risques et avantages rattachés au droit de propriété, le coentrepreneur doit 
+comptabiliser uniquement la partie du profit ou de la perte qui est a ttribuable aux participations des 
+autres coentrepreneurs. Le coentrepreneur doit comptabiliser le montant intégral de toute perte 
+lorsque l'apport ou la vente révèle une diminution de la valeur nette de réalisation des actifs courants 
+ou une perte de valeur.  
+35. Lorsqu'un coentrepreneur achète des actifs à une coentreprise, le coentrepreneur ne doit pas 
+comptabiliser la quote -part des profits de la coentreprise dans la transaction jusqu'à ce qu'il revende 
+les actifs à un tiers indépendant. Un coentrepreneu r doit comptabiliser sa quote -part des pertes 
+découlant de ces transactions de la même façon que les profits, si ce n'est que les pertes doivent être 
+comptabilisées immédiatement lorsqu'elles représentent une diminution de la valeur nette de 
+réalisation des actifs courants ou une perte de valeur.  
+36. Pour apprécier si une transaction entre un coentrepreneur et une coentreprise donne l'indication 
+d'une dépréciation d'actif, le coentrepreneur détermine la valeur recouvrable de l'actif selon les règles 
+relatives aux dépréciations d'actifs. Afin de déterminer la valeur d'utilité, les flux de trésorerie futurs 
+attendus de l'actif sont estimés sur la base de l'utilisation continue de l'actif et de sa cession in fine par 
+la coentreprise.  
+Comptabilisation, dans le s états financiers d'un investisseur, de sa 
+participation dans une coentreprise  
+37. Un investisseur qui détient une participation dans une coentreprise sans la contrôler 
+conjointement, mais tout en exerçant une influence notable sur cette coentreprise, do it 
+comptabiliser sa participation dans ses états financiers selon la norme NC 36 :Participations 
+dans des entreprises associées.  
+Informations à fournir 
+38. Conformément à la norme comptable NC 14 relative aux éventualités et événements 
+postérieurs à la da te de clôture, un coentrepreneur doit indiquer, séparément du montant 
+déterminé pour les autres éventualités, le montant global déterminé pour les éventualités 
+suivantes, à moins que la probabilité de perte ne soit faible :  
+(a) toute éventualité encourue par le coentrepreneur au titre de ses participations dans des 
+coentreprises et sa quote -part dans chacune des éventualités encourues conjointement avec 
+d'autres coentrepreneurs ;  
+(b) sa quote -part des éventualités des coentreprises elles -mêmes, pour lesqu elles il pourrait 
+être éventuellement responsable; et  
+(c) les éventualités qui découlent du fait que le coentrepreneur est éventuellement responsable 
+des passifs des autres coentrepreneurs d'une coentreprise.  
+39. Un coentrep reneur doit indiquer, séparément du montant des autres engagements, le 
+montant global des engagements suivants au titre de ses participations dans des 
+coentreprises :  
+(a) tout engagement en capital pris par le coentrepreneur au titre de ses participations  dans 
+des coentreprises et sa quote -part dans les engagements en capital pris conjointement avec 
+d'autres coentrepreneurs ; et  
+(b) sa quote-part dans les engagements en capital pris par les coentreprises elles-mêmes.  
+40. Un coentrepreneur doit fournir la  liste et la description de ses participations dans des 
+coentreprises importantes, ainsi que la quote -part d'intérêt détenue dans des entités 
+contrôlées conjointement. Un coentrepreneur, qui fait état de ses participations dans des 
+entités contrôlées conjo intement en ayant recours à l'intégration proportionnelle par 
+regroupement des éléments ligne par ligne, doit indiquer les montants globaux respectifs des 
+actifs courants, actifs non courant, passifs courants, passifs non courants, produits et charges 
+se rapportant à ses participations dans des coentreprises.  
+Coentrepreneur non soumis à l'établissement d'états financiers consolides  
+41. Un coentrepreneur qui détient des participations dans des coentreprises peut ne pas 
+émettre des états financiers consolid és parce qu'il n'a pas de filiales. II convient, dans ce cas, 
+qu'un tel coentrepreneur fournisse la même information sur ses participations dans les 
+coentreprises que les entreprises qui émettent des états financiers consolidés.   
+42. Si la méthode de la co nsolidation proportionnelle est appropriée pour la coentreprise, le 
+coentrepreneur doit fournir au niveau des notes à ses états financiers individuels, l'information 
+sur l'effet qu'aurait l'application de cette méthode sur ses actifs, sur ses passifs et su r ses 
+résultats, comme s'il avait à émettre des états financiers consolidés. II doit présenter aussi, les 
+informations imposées par les paragraphes 38,39 et 40.  
+Date d'entrée en vigueur  
+43. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+clôturés à partir du 31 décembre 2003.  
+ 

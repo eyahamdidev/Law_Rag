@@ -1,0 +1,143 @@
+http://www.procomptable.com/ 1
+NC 34 
+Norme comptable relative aux micro-credits et revenus y afférents dans les 
+associations autorisées à accorder des micro-credits 
+ 
+Objectif  
+01. Les micro-crédits accordés par les associations constituent une activité principale parmi les 
+activités des associations autorisées à accorder des micro-crédits. Ces micro-crédits donnent lieu à la 
+perception, à l'occasion de leur remboursement, d'une rémunération sous forme d'intérêts.  
+02. Des circonstances ultérieures à l'octroi des micro-crédits peuvent mettre en cause leur 
+recouvrement et amèneraient l'association autorisée à accorder des micro-crédits à constater des 
+provisions et à ne pas constater les intérêts y afférents en résultat.  
+03. La norme comptable NC 03- Norme Comptable relative aux revenus définit les règles de mesure 
+et de constatation des revenus ainsi que les informations à fournir à leur propos. Bien que l'ensemble 
+de ces règles s'appliquent aux revenus générés par les micro-crédits accordés par les associations 
+autorisées à accorder des micro-crédits, des règles particulières doivent leur être définies, eu égard à 
+la spécificité de leurs activités.  
+04. L'objectif de la présente norme est de définir les règles de constatation, d'évaluation et de suivi 
+des micro-crédits et des revenus y afférents.  
+Champ d'application  
+05. La présente norme s'applique aux micro-crédits octroyés par les associations autorisées à 
+accorder des micro-crédits tels que définis par la législation en vigueur.  
+Définition 
+06. Dans la présente norme, le terme ci-après a la signification suivante :  
+Micro-crédit : est considéré micro-crédit tout crédit visant l'aide à l'intégration économique et sociale 
+tel que défini par la législation en vigueur.  
+Constatation des micro-credits  
+Règles de prise en compte des micro-crédits à la date d'entrée au bilan  
+07. Les micro-crédits doivent être constatés au bilan à la date de leurs déblocages aux 
+bénéficiaires, pour le montant effectivement mis à leur disposition.  
+Les micro-crédits octroyés et non encore débloqués sont mentionnés dans les notes aux états 
+financiers.  
+08. L'octroi de micro-crédits doit s'effectuer conformément à la réglementation en vigueur et 
+notamment celle relative l'éligibilité. Dans tous les cas, l'octroi d'un micro-crédit doit être appuyé par 
+un dossier contenant tous les contrats et autres pièces justificatives ayant trait à son octroi. Ces 
+dossiers sont tenus conformément à une séquence permettant leur rapprochement avec les 
+enregistrements comptables aux fins de la justification des comptes.  
+09. La prise en compte des micro-crédits doit être effectuée en comptabilité séparément pour chaque 
+catégorie de micro-crédits. A cet effet, des comptes spécifiques à chaque catégorie de micro-crédits 
+doivent être tenus.  
+Evaluation des micro-crédits à la date de clôture de l'exercice  
+10. Les micro-crédits accordés doivent faire l'objet d'une évaluation à la date de clôture de 
+l'exercice, pour déterminer s'il existe un risque de non- remboursement et constituer, le cas 
+échéant, des provisions pour couvrir ce risque.  
+Détermination des risques de non-remboursement  
+11. Lorsque des risques de non-remboursement sont établis, le micro-crédit est qualifié de douteux. 
+En règle générale un micro-crédit est qualifié comme âant douteux lorsqu'un délai raisonnable s'est 
+écoulé depuis la première échéance impayée.  
+12. Les risques de non-remboursement peuvent être liés à des circonstances existantes à la date de 
+clôture de l'exercice ainsi qu'à des événements survenus après la date de clôture de l'exercice 
+http://www.procomptable.com/ 2
+conformément à la norme comptable NC 14 - Norme Comptable relative aux éventualités et 
+événements survenant après la date de clôture. Ces circonstances ou événements peuvent inclure le 
+décès ou la disparition du bénéficiaire ou encore le non-paiement des échéances pendant une 
+période relativement longue ou encore l'impossibilité d'exécuter un jugement obligeant le bénéficiaire 
+à rembourser le micro-crédit.  
+13. Le délai raisonnable de non-paiement à partir du quel un micro-crédit est qualifié de 
+douteux doit être fixé par l'association autorisée à accorder des micro-crédits et appliqué à 
+l'ensemble des micro-crédits d'une façon homogène.  
+Détermination des provisions sur les micro-crédits douteux  
+14. Lorsqu'il est établi qu'un micro-crédit est qualifié de douteux, une provision pour 
+dépréciation doit être constituée. Cette provision est estimée sur la base du montant échu et 
+non échu du micro-crédit ainsi que sur les intérêts constatés en résultat et non encore 
+encaissés compte non tenu des risques non supportés par l'association.  
+15. L'estimation des provisions sur les micro-crédits relève du jugement de l'organe de 
+direction de l'association autorisée à accorder des micro-crédits.  
+Le critère de l'antériorité des impayés peut être retenu par l'organe de direction de 
+l'association pour l'estimation de ces provisions. Des taux de provisionnement sont 
+déterminés selon l'antériorité de l'impayé et appliqué d'une façon homogène à l'ensemble des 
+micro-crédits.  
+Pour déterminer l'antériorité des impayés sur les micro- crédits douteux, il doit être tenu 
+compte de tous les impayés et des pertes éventuelles qui ont pris naissance au cours de 
+l'exercice ou au cours d'exercices antérieurs, ainsi que des événements survenus après la 
+clôture de l'exercice conformément à la Norme Comptable NC 14 -relative aux éventualités et 
+événements postérieurs à la date de clôture. Ces événements postérieurs peuvent concerner la 
+constatation d'autres impayés ou au contraire le recouvrement d'échéances impayées après la 
+date de clôture de l'exercice.  
+16. Le montant de la provision est déterminé sur la base du montant des micro-crédits échus et 
+demeurés impayés et des micro-crédits non échus, compte tenu des risques supportés par 
+l'association, pondéré par le taux de provisionnement retenu en fonction de l'antériorité des 
+impayés et augmenté du montant des intérêts constatés en résultat et demeurés impayés.  
+17. Les pertes éventuelles sur les micro-crédits dont le risque de non-recouvrement est supporté par 
+les organismes financeurs, donateurs ou de garanties ne font pas l'objet de provisions par les 
+associations autorisées à accorder des micro-crédits.  
+Suivi des micro-crédits 
+ 
+18. Les associations autorisées à accorder des micro- crédits doivent effectuer un suivi 
+régulier des micro- crédits pour s'assurer du respect des dispositions législatives et 
+réglementaires ainsi que de la capacité des bénéficiaires à rembourser leurs micro-crédits.  
+19. Le rééchelonnement ou la consolidation d'un micro-crédit n'implique pas en soit que le risque de 
+non remboursement n'existe plus. Les provisions éventuelles constatées sur les micro-crédits ayant 
+fait l'objet du rééchelonnement ou de la consolidation ne sont reprises qu'à la cadence de 
+remboursement du micro-crédit consolidé ou rééchelonné.  
+Règles de prise en compte des micro-crédits à la date de sortie du bilan  
+20. Les micro-crédits sont sortis du bilan :  
+• à la date de remboursement  
+• lorsqu'il a été établi que le bénéficiaire est incapable de payer le montant restant dû de 
+son micro-crédit.  
+21. Lorsque l'incapacité d'un bénéficiaire de payer le montant restant dû de son micro-crédit a été 
+établie ou est quasi-certaine, la créance correspondante peut être annulée et le montant non 
+provisionné passé en perte dans la limite du risque supporté par l'association autorisée à accorder 
+des micro-crédits.  
+http://www.procomptable.com/ 3
+Constatation des revenus sur les micro-credits  
+22. Les revenus liés aux micro-crédits accordés par les associations autorisées à accorder des micro-
+crédits sont perçus sous forme d'intérêts. Leur prise en compte en résultat doit se faire conformément 
+aux règles prévues par la Norme Comptable NC 03 relative aux revenus.  
+ 
+Règles de constatation des intérêts 
+ 
+23. Les revenus liés aux micro-crédits accordés par les associations autorisées à accorder des 
+micro-crédits sont pris en compte en résultat de façon à les rattacher à l'exercice au cours 
+duquel ils sont encourus, sauf si leur encaissement effectif n'est pas raisonnablement assuré.  
+24. L'encaissement effectif des revenus n'est pas raisonnablement assuré lorsque les micro-crédits 
+auxquels ils se rapportent sont qualifiés de douteux.  
+25. Les associations autorisées à accorder des micro-crédits doivent se référer à un délai 
+déterminé d'antériorité des impayés à partir duquel les revenus antérieurement constatés en 
+résultat et demeurés impayés sont provisionnés et les intérêts à échoir cessent d'être pris en 
+compte en résultat et l'appliquent de façon uniforme et permanente à tous les micro-crédits.  
+26. Lorsque l'encaissement effectif de revenus n'est pas raisonnablement assuré, ils doivent 
+être constatés au bilan au cours de leur période de rattachement. Les revenus pris en compte 
+antérieurement en résultat et demeurés impayés sont provisionnés.  
+27. Les intérêts constatés au bilan antérieurement à la date de consolidation d'un micro-crédit auquel 
+ils sont rattachés sont repris en résultat proportionnellement aux encaissements réalisés sur ce micro-
+crédit après la consolidation. Le montant des intérêts repris en résultat est égal au montant des 
+encaissements pondérés par le rapport entre le montant total de ces intérêts avant la date de 
+consolidation et le montant total du micro-crédit après cette même date.  
+Rattachement des intérêts 
+ 
+28. Les intérêts liés aux micro-crédits sont pris en compte à mesure qu'ils sont courus sur la 
+base du temps écoulé et du solde restant en début de chaque période.  
+29. Les micro-crédits remboursables de manière échelonnée par des versements périodiques d'un 
+montant constant, qui comprend à la fois le paiement des intérêts et remboursement d'une partie du 
+micro-crédit, le montant à imputer au titre des intérêts courus est déterminé par application du taux 
+réel découlant des dispositions du contrat au solde restant dû en capital en début de chaque période.  
+Information a fournir  
+30. Les associations autorisées à accorder des micro-crédits doivent fournir notamment les 
+informations suivantes :  
+- les règles de qualification des micro-crédits douteux  
+- les règles de provisionnement des micro-crédits douteux.  
+Date d'application  
+31. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir 
+du 1er janvier 2002.  

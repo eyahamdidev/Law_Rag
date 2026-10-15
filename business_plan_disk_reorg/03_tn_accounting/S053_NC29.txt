@@ -1,0 +1,378 @@
+http://www.procomptable.com/ 1
+NC 29 
+Les provisions techniques dans  
+les entreprises d’assurances et / ou de réassurance 
+ 
+ 
+Objectif  
+01. L'activité d'assurance et/ou de réassurance se caractérise par :  
+• une inversion du cycle de la production: la prime est encaissée immédiatement, alors que la 
+prestation et le règlement de l'indemnité interviennent ultérieurement ;  
+• une promesse de prestation qui peut se réaliser comme elle peut ne pas se réaliser ;  
+• un décalage possible entre la survenance du fait dommageable, générateur du paiement de 
+l'indemnité et le règlement effectif de cette indemnité.  
+Ces caractéristiques rendent nécessaire le rattachement des charges aux produits.  
+02. L'objectif de la présente norme est de prescrire les règles de prise en compte, d'évaluation et de 
+présentation applicables aux provisions techniques des entreprises d'assurance et/ou de réassurance. 
+Cette norme couvrira les méthodes d'évaluation ainsi que la comptabilisation à l'inventaire.  
+Champ d'application  
+03. La présente norme s'applique à toutes les entreprises d'assurance et/ou de réassurance 
+soumises à la tenue et à la publication de leurs états financiers en Tunisie. Elle concerne les 
+provisions techniques en assurance vie et en assurance non -vie.  
+Définitions  
+04. Pour l'application de la présente norme, les termes ci- dessous ont la signification suivante :  
+a) Provisions techniques  
+Il s'agit de l'ensemble des provisions évaluées par les entreprises d'assurance et/ou de réassurance 
+suffisantes pour le règlement intégral de leur engagement technique vis à vis des assurés ou 
+bénéficiaires de contrats. Le qualificatif technique, prévu par la réglementation en vigueur, permet de 
+faire la distinction avec les autres provisions telles que provisions pour risques et charges, provisions 
+pour dépréciation  
+b) Provision pour risque d'exigibilité des engagements techniques  
+La provision pour risque d'exigibilité des engagements techniques correspond à la différence, calculée 
+pour les placements, entre le montant global de la valeur de marché et la valeur comptable nette des 
+placements concernés quand cette différence est négative.  
+Définitions propres à l'assurance vie  
+c) Provisions mathématiques  
+Il s'agit de la différence à la date d'inventaire entre les valeurs actuelles des engagements 
+respectivement pris par l'assureur et les assurés.  
+Les notes aux états financiers doivent fournir le détail des provisions mathématiques vie. d) Provision 
+pour frais de gestion Il s'agit d'une provision constituée pour couvrir les charges de gestion futures des 
+contrats qui ne sont pas couvertes par ailleurs. Cette provision vise à couvrir les charges de gestion 
+engendrées par les contrats en portefeuille dès lors qu'elles ne sont pas couvertes par des revenus 
+futurs.  
+e) Provision pour participation aux bénéfices  
+Il s'agit d'une provision constituée pour enregistrer l'engagement de l'entreprise d'assurance envers 
+les bénéficiaires des contrats lorsque les montants dus au titre des bénéfices n'ont pas encore été 
+versés ou crédités au compte de l'assuré.  
+http://www.procomptable.com/ 2
+f) Provision des contrats en unités de compte  
+Il s'agit des provisions pour enregistrer l'engagement de l'entreprise d'assurance envers les assurés 
+qui ont souscrit des contrats pour lesquels la garantie n'est pas exprimée en Dinars Tunisiens mais en 
+fonction d'un support (Organismes de Placement Collectif en Valeurs Mobilières, Sociétés Civiles 
+Immobilières, Sociétés Commerciales de Placements Immobiliers, actions...).  
+g) Provision pour sinistres à payer  
+Il s'agit de la dette de l'entreprise d'assurance envers ses assurés pour les sinistres, rachats, arrivées 
+à échéance déclarés mais non encore décaissés par l'entreprise d'assurance ainsi que les sinistres 
+survenus mais non encore déclarés (les sinistres tardifs).  
+h) Provision d'égalisation  
+Il s'agit des montants provisionnés pour permettre d'égaliser les fluctuations des taux de sinistres pour 
+les années à venir dans le cadre des opérations d'assurance de groupe contre le risque décès.  
+Définitions propres à l'assurance non -vie  
+i) Provisions pour primes non acquises  
+Il s'agit de la provision destinée à constater, pour l'ensemble des contrats en cours, la part des primes 
+émises et des primes restant à émettre se rapportant à la période comprise entre la date d'inventaire 
+et la date de la prochaine échéance de prime ou, à défaut, du terme du contrat.  
+j) Provision pour risques en cours  
+La provision pour risques en cours est définie comme étant le montant à provisionner en supplément 
+des primes non acquises pour couvrir les risques à assumer et destinée à faire face à toutes les 
+demandes d'indemnisation et à tous les frais (y compris les frais d'administration) liés aux contrats 
+d'assurance en cours excédant le montant des primes non acquises et des primes exigibles relatives 
+aux dits contrats.  
+k) Provision pour sinistres à payer 
+La provision pour sinistres à payer correspond à une évaluation du montant qui sera versé 
+postérieurement à la clôture de l'exercice au titre d'événements qui se sont réalisés antérieurement à 
+la clôture de l'exercice.  
+Les provisions comportent trois types de sinistres restant à payer :  
+• Les sinistres dont l'évaluation est définitive, connue et pour lesquels il ne demeure que le 
+mouvement de trésorerie à générer,  
+• Les sinistres pour lesquels l'évaluation n'est pas définitive et ayant fait ou non l'objet de 
+règlements partiels,  
+• Les sinistres survenus antérieurement à la clôture mais dont la survenance n'a pas été portée, 
+à cette date, à la connaissance de l'entreprise. Il s'agit des sinistres tardifs.  
+I) Prévisions de recours à encaisser  
+Il s'agit du produit à attendre des actions exercées par une entreprise d'assurance en vue d'obtenir, 
+par le responsable d'un préjudice, le remboursement d'une indemnité ou partie d'indemnité de 
+sinistres versée au titre d'un sinistre.  
+m) Provision d'égalisation et/ou d'équilibrage  
+Il s'agit des montants provisionnés conformément aux dispositions légales et réglementaires 
+permettant d'égaliser les fluctuations des taux de sinistres pour les années à venir ou de couvrir des 
+risques spéciaux.  
+n) Provision pour participation aux bénéfices et ristournes  
+Il s'agit des montants destinés aux assurés ou aux bénéficiaires des contrats sous la forme de 
+participations aux bénéfices et de ristournes dans la mesure où ces derniers n'ont pas été crédités.  
+Cette provision fera l'objet d'utilisation au cours de/ou des exercices ultérieurs.  
+ 
+http://www.procomptable.com/ 3
+o) Provision mathématique de rente  
+Il s'agit de la valeur actuelle probable des montants qui seront versés, sous forme de rentes et 
+accessoires de rentes, postérieurement à la clôture de l'exercice au titre d'événements qui se sont 
+réalisés antérieurement à la clôture de l'exercice.  
+Définitions propres à la réassurance  
+p) Dépôt espèces et dépôt de valeurs  
+Il s'agit du montant prélevé au compte courant du réassureur en garantie des engagements pris par le 
+réassureur envers la cédante. Ce dépôt est en général rémunéré par un taux d'intérêt convenu lors de 
+la souscription des traités. Le dépôt peut également être réalisé sous forme de titres remis en 
+nantissement.  
+Le dépôt espèces ou le dépôt de valeurs couvre à la fois le dépôt de primes qui correspond à la 
+provision pour primes non acquises et le dépôt de sinistres qui correspond à la provision pour sinistres 
+à payer et la provision pour risque en cours.  
+Règles de prise en compte et d'évaluation  
+Principes d'évaluation des provisions techniques en assurance vie  
+05. Le montant des provisions techniques doit à tout instant être suffisant pour permettre à l'entreprise 
+d'honorer, dans la mesure de ce qui est raisonnablement prévisible, les engagements résultant des 
+contrats d'assurance.  
+Provisions mathématiques  
+06. A la clôture de chaque arrêté comptable, les entreprises doivent évaluer et comptabiliser 
+les provisions mathématiques d'assurance vie relatives aux contrats en portefeuille. Ces 
+provisions mathématiques d'assurance vie correspondent à la différence à la date d'inventaire 
+entre les valeurs actuelles des engagements respectivement pris par l'assureur et les assurés.  
+07. La provision mathématique d'assurance vie comprend la valeur actuarielle estimée des 
+engagements de l'entreprise d'assurance, y compris les participations aux bénéfices déjà 
+allouées et déduction faite de la valeur actuarielle des primes futures.  
+08. La provision mathématique d'assurance vie doit être calculée séparément pour chaque contrat 
+individuel d'assurance vie. L'utilisation de méthodes statistiques peut cependant être autorisée par 
+l'autorité de tutelle pour les contrats groupe. Dans ce cas, un résumé des principales hypothèses 
+retenues doit être fourni dans les notes aux états financiers.  
+09. Le calcul des provisions mathématiques d'assurance vie doit être fait sur la base de la prime 
+d'inventaire c'est-à- dire de la prime commerciale en excluant les chargements d'acquisition des 
+contrats.  
+10. Les entreprises doivent évaluer et comptabiliser les frais d'acquisition des contrats en 
+vertu des principes énoncés dans la norme relative aux charges techniques. Le montant des 
+frais d'acquisition reportés doit être inscrit à l'actif du bilan. Les notes aux états financiers 
+doivent fournir la décomposition de ces frais d'acquisition inscrits à l'actif du bilan par type de 
+contrat et génération de souscription.  
+11. Le calcul des provisions mathématiques est fait annuellement à la date d'inventaire sur la base 
+d'une méthode actuarielle certifiée par un actuaire.  
+Provision pour frais de gestion  
+12. Les entreprises doivent constater en comptabilité une provision pour frais de gestion à due 
+concurrence de l'ensemble des charges de gestion future des contrats non couvertes par des 
+chargements sur primes ou par des prélèvements sur produits financiers prévus par ceux-ci.  
+La provision constituée doit être suffisante pour faire face aux frais de gestion futurs dès lors que 
+ceux-ci ne sont pas couverts paf ailleurs (prélèvement sur primes ou produits financiers).  
+13. Les charges de gestion future des contrats correspondent à la valeur actuelle probable de 
+l'ensemble des frais qui seront engagés après la date de clôture pour couvrir les charges de 
+gestion des contrats et le règlement des sinistres et des rachats. Les lois de sorties utilisées 
+(rachats, sinistres, arrivées à échéance) doivent être mises en œuvre en respect du principe de 
+prudence.  
+http://www.procomptable.com/ 4
+14. Les chargements sur primes correspondent à la valeur actuelle probable de la part des primes, 
+perçues postérieurement à la date de clôture de l'exercice, qui est affectée à la gestion des contrats. A 
+ce titre, seuls les contrats à primes périodiques sont concernés.  
+15. Les produits financiers correspondent à la valeur actuelle des produits financiers qui seront 
+utilisables dans le futur par l'assureur pour couvrir les frais nécessaires pour la bonne fin des contrats. 
+Les produits financiers qui doivent être versés aux assurés ou aux bénéficiaires en vertu d'obligations 
+réglementaires et/ou de clauses contractuelles doivent être exclus du calcul.  
+Provision pour participation aux bénéfices et ristournes  
+16. La provision pour participation aux bénéfices et ristournes comprend les montants destinés aux 
+assurés ou aux bénéficiaires des contrats sous la forme de participations aux bénéfices et de 
+ristournes dans la mesure où ces derniers n'ont pas été crédités aux assurés ou ne sont pas inclus 
+dans un "fonds spécial". Le montant de la participation aux bénéfices est déterminé eu égard aux 
+obligations réglementaires et/ou contractuelles ou alors résulte d'une décision de gestion prise par 
+l'entreprise.  
+Provision des contrats en unité de compte  
+17. Les entreprises d'assurance doivent évaluer et comptabiliser, lors de chaque arrêté comptable, 
+leur engagement au titre des contrats en unité de compte en portefeuille.  
+18. La provision des contrats en unité de compte comprend les provisions techniques 
+constituées pour couvrir les engagements liés à des investissements dans le cadre de contrats 
+d'assurance vie, dont la valeur ou le rendement est déterminé en fonction de placements pour 
+lesquels le preneur supporte le risque ou en fonction d'un indice.  
+19. Pour ces contrats, la garantie offerte est exprimée non en Dinars mais par référence à un actif 
+sous-jacent. La provision des contrats en unité de compte doit donc être évaluée sur la base du 
+nombre de part de cet ou ces actifs sous-jacents inscrits au compte de l'assuré et de la valeur de 
+marché, à la date d ' arrêté, de ces actifs sous- jacents.  
+20. Les provisions additionnelles qui peuvent être constituées au titre des frais d'administration, de 
+risques de mortalité ou d'autres risques doivent être indiquées en provision d'assurance vie.  
+Provision pour sinistres à payer  
+21. Lors de chaque arrêté de comptes, les entreprises doivent inscrire dans les provisions pour 
+sinistres à payer le montant correspondant aux sinistres déclarés mais non encore réglés aux 
+bénéficiaires des contrats. Ce montant doit être majoré des frais de règlement des sinistres. En 
+contrepartie, les provisions mathématiques d'assurance vie relatives aux contrats concernés doivent 
+être exclues des provisions mathématiques d'assurance vie. Les entreprises utilisent les sous 
+comptes nécessaires pour identifier les sinistres, les rachats et les arrérages à payer .  
+Provision d'égalisation  
+22. La provision pour égalisation comprend tous les montants provisionnés pour permettre d'égaliser 
+les fluctuations des taux de sinistres pour les années à venir ou de répondre à des dispositions 
+contractuelles.  
+Provision pour risque d'exigibilité des engagements techniques  
+23. A la date de clôture, il est procédé à l'évaluation des placements sel~n leur valeur de 
+marché. La valeur de marché est déterminée séparément pour chaque catégorie de placements 
+de même nature.  
+24. La moins-value globale constatée par rapport à la valeur comptable nette des placements doit 
+faire l'objet d'une provision pour risque d'exigibilité des engagements techniques comptabilisée dans 
+les charges de l'exercice. Les plus-values constatées par rapport à la valeur comptable nette ne sont 
+pas constatées.  
+25. Cette provision est inscrite au passif du bilan dans les provisions techniques. Si la provision qui 
+figure au bilan de l'exercice précédent devient sans objet, il convient de la reprendre dans le résultat 
+de l'exercice en cours.  
+ 
+ 
+http://www.procomptable.com/ 5
+Principes d'évaluation des provisions techniQues en assurance non -vie  
+26. Le montant des provisions techniques doit à tout instant être suffisant pour permettre à l'entreprise 
+d'honorer, dans la mesure de ce qui est raisonnablement prévisible, les engagements résultant des 
+contrats d'assurance.  
+Provision pour primes non acquises  
+27. La provision pour primes non acquises est destinée à constater, pour l'ensemble des contrats en 
+cours, la part des primes émises et des primes restant à émettre se rapportant à la période comprise 
+entre la date d'inventaire et la date de la prochaine échéance de prime ou, à défaut, du terme dû 
+contrat.  
+28. Lors de chaque arrêté comptable, les entreprises doivent évaluer et comptabiliser 
+séparément pour chacune des catégories d'assurance les provisions pour primes non 
+acquises relatives aux contrats en cours. Ainsi, dans le cas où la garantie accordée porte sur 
+plusieurs exercices comptables, seule la part de la prime qui correspond à la période de 
+garantie de l'exercice en cours doit être intégrée dans les revenus de la période.  
+29. Dans une première phase, le calcul est réalisé sur la base des primes nettes de cessions ou 
+rétrocessions puis dans une seconde phase sur la base de la partie des primes cédées ou 
+rétrocédées.  
+30. La provision pour primes non acquises relative aux cessions en réassurance ou 
+rétrocessions ne doit en aucun cas être portée au passif du bilan pour un montant inférieur à 
+celui pour lequel la part du réassureur ou du rétrocession na ire dans la provision pour primes 
+non acquises figure à l'actif.  
+Cette provision est calculée sur la base de la méthode du prorata temporis et porte sur la prime 
+commerciale c'est à dire la prime de risque majorée des différents chargements. La variation 
+d'un exercice sur l'autre du poste des provisions pour primes non acquises est inscrite sur 
+une ligne spécifique du compte de résultat technique sous la ligne des primes émises. 
+L'ensemble constitué par les primes émises et la variation des primes non acquises constitue 
+les primes acquises à l'exercice.  
+31. La provision pour primes non acquises doit être calculée séparément pour chaque contrat 
+d'assurance. Cependant, l'utilisation de méthodes statistiques (proportionnelles ou forfaitaires) peut 
+être retenue lorsqu'il y a lieu de supposer que ces méthodes donneront approximativement des 
+résultats similaires.  
+32. Lorsque les traités de cession ou rétrocession en réassurance prévoient, en cas de résiliation, 
+l'abandon au cédant ou au rétrocédant de la portion de prime due en sus des primes payées 
+d'avance, la provision pour primes non acquises relatives à ces traités ne doit en aucun cas être 
+inférieure au montant calculé des provisions pour primes non acquises compte tenu de ces abandons.  
+33. Pour les branches d'assurance dans lesquelles la méthode du prorata temporis se révèle 
+inadaptée du fait du cycle du risque, il y a lieu de tenir compte de l'évolution différente du risque dans 
+le temps.  
+34. Les entreprises doivent inscrire à l'actif du bilan les frais d'acquisition des contrats pour la 
+fraction non imputable à l'exercice. La période d'imputation des frais d'acquisition ne peut 
+s'étendre au-delà de la date à laquelle le souscripteur peut exercer son droit de résiliation. 
+Lorsque les frais reportés sont des commissions payables à chaque échéance de prime, cette 
+période d'imputation ne peut courir au-delà de la prochaine échéance de prime. Ainsi, les frais 
+d'acquisition reportés sont évalués en appliquant au montant des primes non acquises le 
+coefficient de frais d'acquisition déterminé par le rapport des frais d'acquisition enregistrés en 
+comptabilité (ligne spécifique de l'état de résultat technique) aux primes émises.  
+Provision pour risques en cours  
+35. Les entreprises doivent, lors de chaque arrêté comptable évaluer et comptabiliser si nécessaire 
+les provisions pour risques en cours relatives aux contrats en cours.  
+36. Pour évaluer la provision pour risques en cours, l'entreprise calcule, pour chacune des 
+catégories d'assurance, le montant total des charges de sinistres rattachées à l'exercice 
+courant et à l'exercice précédent, et des frais d'administration autres que ceux immédiatement 
+engagés et frais d'acquisition imputables à l'exercice courant et à l'exercice précédent ; elle 
+http://www.procomptable.com/ 6
+rapporte ce total au montant des primes brutes émises au cours de ces exercices corrigé de la 
+variation sur la même période, des primes restant à émettre, des primes à annuler et de la 
+provision pour primes non acquises; si ce rapport est supérieur à 100 %, l'écart constaté par 
+rapport à 100 % est appliqué au montant des provisions pour primes non acquises.  
+Provision pour sinistres à payer  
+37. La provision pour sinistres à payer correspond au coût total estimé que représentera pour 
+l'entreprise d'assurance le paiement de tous les sinistres survenus jusqu'à la fin de l'exercice, déclarés 
+ou non, déduction faite des sommes déjà payées au titre de ces sinistres. La provision qui doit être 
+calculée par catégorie de risque brute de réassurance tient en compte les considérations suivantes :  
+• Une provision est en principe constituée séparément pour chaque sinistre à concurrence du 
+montant prévisible des charges futures. Des méthodes statistiques autorisées peuvent être 
+utilisées dans la mesure où la provision constituée est suffisante compte tenu de la nature des 
+risques, 
+• Cette provision doit tenir compte également des sinistres survenus mais non déclarés à la 
+date de clôture du bilan. Pour le calcul de cette provision, il est tenu compte de l'expérience 
+du passé en ce qui concerne le nombre et le montant des sinistres déclarés après la clôture 
+du bilan,  
+• Dans le calcul de la provision il est tenu compte des frais de gestion des sinistres 
+(chargements de gestion), quelle que soit leur origine. Ces frais doivent être évalués sur la 
+base des frais réels de gestion des sinistres à condition de justifier de la méthode adoptée 
+dans les notes aux états financiers. A défaut, les entreprises d'assurance et/ou de 
+réassurance doivent utiliser des taux qui ne peuvent être inférieurs à ceux prévus par la 
+réglementation en vigueur.  
+Ces frais de gestion sont enregistrés en comptabilité séparément dans un sous - compte du compte 
+principal créé à cet effet.  
+Toute déduction ou tout escompte implicite issu d'un calcul d'actualisation des provisions pour 
+sinistres à payer est interdit.  
+38. Les états financiers doivent faire apparaître la provision pour sinistres à payer pour son 
+montant brut, les prévisions de recours à encaisser qui viennent en déduction des provisions 
+pour sinistres à payer et le montant net des provisions pour sinistres à payer. Les prévisions 
+de recours à encaisser doivent être évaluées de manière prudente.  
+Prévisions de recours à encaisser  
+39. Les sommes récupérables provenant de l'acquisition des droits des assurés vis-à-vis des tiers 
+(subrogation) ou de l'obtention de la propriété légale des biens assurés (sauvetage) sont inscrites en 
+prévisions de recours à encaisser et sont estimées avec prudence. Ces montants sont mentionnés 
+dans les notes aux états financiers.  
+Provision d'égalisation et/ou d'équilibrage  
+40. La provision d'égalisation et/ou d'équilibrage comprend tous les montants qui sont provisionnés 
+conformément aux dispositions légales et réglementaires permettant d'égaliser les fluctuations des 
+taux de sinistres pour les années à venir ou de couvrir des risques spéciaux notamment grêle, 
+assurance crédit et assurance caution.  
+41. Ces provisions sont évaluées conformément aux principes définis dans le code des assurances et 
+doivent être comptabilisées dans deux comptes qui s'intitulent selon le cas provision pour égalisation 
+(grêle) ou provision pour équilibrage (assurance crédit et assurance caution).  
+Provision pour participation aux bénéfices et ristournes  
+42. Les entreprises doivent évaluer et comptabiliser, lors de chaque arrêté comptable, l'engagement 
+qui résulte des clauses contractuelles de participations aux bénéfices et de ristournes qui peuvent 
+exister pour chacune des catégories d'assurance.  
+43. La provision pour participation aux bénéfices et ristournes comprend les montants destinés aux 
+assurés ou aux bénéficiaires des contrats sous la forme de participations aux bénéfices et de 
+ristournes dans la mesure où ces derniers n'ont pas été crédités aux assurés.  
+A l'inventaire, il convient de constater la provision de clôture et l'utilisation de la provision d'ouverture.  
+http://www.procomptable.com/ 7
+Provision mathématique de rente  
+44. Lorsque les indemnités au titre d'un sinistre seront servies sous forme d'annuités, les montants à 
+provisionner à cette fin doivent être calculés sur la base de méthodes actuarielles reconnues.  
+45. La provision mathématique de rente correspond à la valeur actuelle des engagements de 
+l'entreprise en ce qui concerne les rentes et accessoires de rentes mis à sa charge.  
+Provision pour risque d'exigibilité  
+46. A la date de clôture, il est procédé à l'évaluation des placements selon leur valeur de marché. La 
+valeur de marché est déterminée séparément pour chaque catégorie de placements de même nature.  
+47. La moins-value globale constatée par rapport à la valeur comptable nette des placements doit 
+faire l'objet d'une provision pour risque d'exigibilité des engagements techniques comptabilisée dans 
+les charges de l'exercice. Les plus-values relevées par rapport à la valeur comptable nette ne sont 
+pas enregistrées.  
+48. Cette provision est inscrite au passif du bilan dans les provisions techniques. Si la provision qui 
+figure au bilan de l'exercice précédent devient sans objet, il convient de la reprendre dans le résultat 
+de l'exercice en cours.  
+Informations a fournir  
+49. Les états financiers doivent faire apparaître :  
+Au bilan  
+• le montant des provisions pour primes non acquises et la part des réassureurs dans ces 
+provisions,  
+• le montant des provisions d'assurance vie et la part des réassureurs dans ces provisions,  
+• le montant des provisions pour sinistres vie et la part des réassureurs dans ces provisions,  
+• le montant des provisions pour sinistres à payer non-vie brutes de recours et la part des 
+réassureurs dans ces provisions,  
+• le montant dos prévisions de recours à encaisser et la part des réassureurs dans ces 
+prévisions,  
+• le montant des provisions pour sinistres à payer nettes de recours et la part des réassureurs 
+dans ces provisions,  
+• le montant des provisions pour participation aux bénéfices et ristournes vie et la part des 
+réassureurs dans ces provisions,  
+• le montant des provisions pour participation aux bénéfices et ristournes non-vie et la part des 
+réassureurs dans ces provisions,  
+• le montant des provisions pour égalisation et/ou équilibrage et la part des réassureurs dans 
+ces provisions,  
+• le montant des autres provisions techniques vie et la part des réassureurs dans ces 
+provisions,  
+• le montant des autres provisions techniques non-vie et la part des réassureurs dans ces 
+provisions,  
+• le montant des provisions techniques des contrats en unités de compte et la part des 
+réassureurs dans ces provisions.  
+Dans l'état de résultat technique  
+• la variation des provisions pour primes non acquises pour les opérations brutes, les cessions 
+et rétrocessions et les opérations nettes (assurance non-vie),  
+• la variation des provisions pour sinistres à payer pour les opérations brutes, les cessions et 
+rétrocessions et les opérations nettes (assurance non-vie),  
+• la variation des autres provisions techniques pour les opérations brutes, les cessions et 
+rétrocessions et les opérations nettes (assurance non-vie),  
+http://www.procomptable.com/ 8
+• la variation des provisions pour égalisation et/ou équilibrage pour les opérations brutes, les 
+cessions et rétrocessions et les opérations nettes (assurance non-vie),  
+• la variation des provisions pour sinistres à payer pour les opérations brutes, les cessions et 
+rétrocessions et les opérations nettes (assurance vie),  
+• la variation des provisions d'assurance vie pour les opérations brutes, les cessions et 
+rétrocessions et les opérations nettes (assurance vie).  
+Dans les notes aux états financiers  
+Les principes et méthodes d'évaluation des différentes provisions conformément au §.70 de la Norme 
+de présentation des états financiers,  
+• L'analyse détaillée des provisions pour sinistres à payer conformément aux §.81, 82 et 83 de 
+la Norme de présentation des états financiers,  
+• Le détail des principales provisions techniques par catégorie d'assurance est donné dans 
+l'analyse du résultat technique par catégorie d'assurance ainsi que le détail de la provision 
+pour participation aux bénéfices et ristournes de l'assurance vie conformément au §.99 de la 
+Norme de présentation des états financiers,  
+• Le détail de la provision pour équilibrage pour les entreprises d'assurance et/ou de 
+réassurance qui interviennent sur les risques crédit, 
+• Le détail de la provision pour sinistres à payer vie et non -vie, pour les sinistres dont le 
+montant ou l'évaluation sont définitivement connus et pour lesquels il ne demeure que le 
+mouvement de trésorerie à générer.  
+Date d'application  
+50. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1 er 
+janvier 2001.  
+ 

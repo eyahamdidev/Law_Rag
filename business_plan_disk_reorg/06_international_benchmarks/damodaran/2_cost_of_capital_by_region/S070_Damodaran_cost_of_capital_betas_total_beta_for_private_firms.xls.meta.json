@@ -1,0 +1,16 @@
+{
+ "id": "S070",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - cost of capital, betas, total beta for private firms - Excel (total beta)",
+ "url": "https://www.stern.nyu.edu/~adamodar/pc/datasets/totalbeta.xls",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/totalbeta.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "c48c41ea738f60e8427056e64f12f1c8c8dfd2c89907d8749e1b44dd4d432e83",
+ "bytes": 56320,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\S070_Damodaran_cost_of_capital_betas_total_beta_for_private_firms.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:22:49 GMT"
+}

@@ -1,0 +1,182 @@
+NC 36 
+Norme comptable relative aux participations dans des entreprises associées 
+ 
+Champ d'application  
+1. La présente Norme doit être appliquée à la comptabilisation par un investisseur dans ses 
+états financiers consolidés, de ses participations dans des entreprises associées.  
+2. Dans le cas où il n'est pas soumis à l'él aboration d'états financiers consolidés, un 
+investisseur doit appliquer la présente norme pour préparer et présenter les notes à ses états 
+financiers individuels, relatives à ses participations dans des entreprises associées.  
+Définitions 
+3. Dans la présente Norme, les termes suivants ont la signification indiquée ci-après :  
+Une entreprise associée  est une entreprise dans laquelle l'investisseur a une influence notable 
+et qui n'est ni une filiale ni une coentreprise de l'investisseur.  
+L'influence notable  est le pouvoir de participer aux décisions de politique financière et 
+opérationnelle de l'entreprise détenue, sans toutefois exercer un contrôle sur ces politiques.  
+Le contrôle  (dans le cadre de la présente Norme) est le pouvoir de diriger les politiques 
+financières et opérationnelles d'une entreprise afin d'obtenir des avantages de ses activités.  
+Une filiale est une entreprise contrôlée par une autre entreprise (appelée la mère). 
+La méthode de la mise en équivalence  est une méthode de comptabilisation selon laquelle la 
+participation est initialement enregistrée au coût et est ensuite ajustée pour prendre en compte 
+les changements postérieurs à l'acquisition de la quote-part de l'investisseur dans les capitaux 
+propres de l'entreprise détenue. L'état de résultat  reflète la quote-part de l'investisseur dans 
+les résultats de l'entreprise détenue.  
+La méthode du coût  est une méthode de comptabilisation selon laquelle la participation est 
+enregistrée au coût. L'état de résultat ne reflèt e le résultat lié à la participation que dans la 
+mesure où l'investisseur reçoit des distributions provenant du cumul des résultats nets de 
+l'entreprise détenue après la date d'acquisition.  
+Influence notable 
+4. Si un investisseur détient, directement ou indirect ement par le biais de filiales, 20% ou plus des 
+droits de vote dans l'entreprise détenue, il est pr ésumé avoir une influence not able, sauf à démontrer 
+clairement que ce n'est pas le cas. Inversement, si l'investisseur détient, directement ou indirectement 
+par le biais de filiales, moins de 20% des droits  de vote dans l'entreprise détenue, il est présumé ne 
+pas avoir d'influence notable, s auf à démontrer clairement que ce tte influence existe. L'existence 
+d'une participation importante ou majoritaire d'un autre  investisseur n'exclut pas nécessairement que 
+l'investisseur ait une influence notable.  
+5. L'existence de l'influence notable d'un investisseur est habituellement mise en évidence de l'une ou 
+l'autre des façons suivantes :  
+(a) représentation au conseil d'administration ou à l'organe de direction équivalent de l'entreprise 
+détenue ;  
+(b) participation au processus d'élaboration des politiques ;  
+(c) transactions significatives entre l'investisseur et l'entreprise détenue ;  
+(d) échange de personnels dirigeants ; ou  
+(e) fourniture d'informations techniques essentielles.  
+Méthode de la mise en équivalence 
+6. Selon la méthode de la mise en équivalence, la par ticipation est initialement enregistrée au coût et 
+la valeur comptable est augmentée ou diminuée pour prendre en compte la quote-part de 
+l'investisseur dans les résultats de l'entreprise détenue après la date d'acquisi tion. Les distributions 
+reçues de l'entreprise détenue réduisent la valeur comptable de la participation. Des ajustements de la 
+valeur comptable peuvent également être nécessaires  pour des modifications dues à des variations 
+des capitaux propres de l'entreprise détenues qui n'ont pas été incluses dans l'état de résultat.  
+Méthode du coût  
+7. Selon la méthode du coût, un investisseur enregi stre sa participation dans l'entreprise détenue au 
+coût d'acquisition. L'investisseur ne comptabilise un résultat que dans la mesure où il reçoit des 
+distributions provenant du cumul des résultats nets de l'entrepr ise détenue générés après la date 
+d'acquisition par l'investisseur. Les distributions reçues en sus de ces bénéfices sont considérées 
+comme une récupération de la participation et sont  enregistrées comme une réduction du coût de la 
+participation.  
+Investisseur établissant des états financiers consolides  
+8. Une participation dans une entreprise asso ciée doit être comptabilisée dans les états 
+financiers consolidés selon la méthode de la mise en équivalence sauf si:  
+(a) la participation est acquise et détenue da ns l'unique perspective d'une cession ultérieure 
+dans un avenir proche ; ou  
+(b) l'entreprise est soumise à des restricti ons durables et fortes qui limitent de façon 
+importante sa capacité à transférer des fonds à l'investisseur.  
+Dans ces deux cas, la participation doit être comptabilisée selon la méthode du coût.  
+9. La comptabilisation du résultat sur la base des distributions reçues peut ne pas constituer une 
+mesure adéquate du résultat revenant à un investisseur du fait de sa participation dans une entreprise 
+associée, parce que les distributions reçues peuvent n'avoir que peu de rapport avec la performance 
+de l'entreprise associée. Comme l'investisseur ex erce une influence notable sur l'entreprise associée, 
+il a une part de responsabilité dans la performance de l'entreprise associée et, en conséquence, dans 
+la rentabilité de sa participation. L'investisseur  prend en compte les conséquences de cette influence 
+en étendant le périmètre de ses états financiers cons olidés pour y inclure sa quote-part de résultats 
+d'une telle entreprise associée et il fournit ainsi, une analyse de ses bénéfices et de ses participations 
+à partir de laquelle on peut calculer des ratios plus utiles. En conséquence, l'application de la méthode 
+de la mise en équivalence fournit une meilleure informat ion sur les actifs nets et le résultat net de 
+l'investisseur.  
+10. Un investisseur doit cesser d'utiliser la méthode de la mise en équivalence à partir de la 
+date à laquelle : 
+(a) il cesse d'avoir une influence notable dans une entreprise associée mais conserve, en tout 
+ou partie, sa participation; ou  
+(b) l'utilisation de la méthode de la mise en  équivalence n'est plus appropriée parce que 
+l'entreprise associée est soumise à des restricti ons durables et fortes qui limitent de façon 
+importante sa capacité à transférer des fonds à l'investisseur.  
+La valeur comptable de la participation à cette date est considérée constituer son coût par la 
+suite.  
+Modalités d'application de la méthode de la mise en équivalence  
+11. Nombre des procédures appropriées pour l'applic ation de la méthode de la mise en équivalence 
+sont similaires aux procédures de consolidation ét ablies par NC 35, Etats financiers consolidés. En 
+outre, les concepts généraux sous-jacents aux pr océdures de consolidation utilisées lors de 
+l'acquisition d'une filiale sont adoptés pour l 'acquisition d'une participation dans une entreprise 
+associée.  
+12. Une participation dans une entreprise associée est comptabilisée selon la méthode de la mise en 
+équivalence à partir de la date à laquelle elle r épond à la définition d'une entreprise associée. Lors de 
+l'acquisition de la participation, toute différence (pos itive ou négative) entre le coût d'acquisition et la 
+quote-part de l'investisseur dans les justes valeurs des actifs identifiables nets de l'entreprise associée 
+est comptabilisée selon NC 38 relative aux regr oupements d'entreprises. Des ajustements appropriés 
+sont apportés à la quote-part de l'investisseur dans les résultats postérieurs à l'acquisition pour tenir 
+compte :  
+(a) de l'amortissement des actifs amortissables, sur la base de leurs justes valeurs; et  
+(b) de l'amortissement de la différence entre le coût de la participation et la quote-part de l'investisseur 
+dans les justes valeurs des actifs identifiables nets.  
+13. Ce sont les états financiers les plus récent s de l'entreprise associée qui sont utilisés par 
+l'investisseur pour appliquer la méthode de la mise en équivalence; ils sont habituellement établis à la 
+même date que les états financiers de l'investisseur. Lorsque les dates de clôture de l'investisseur et 
+de l'entreprise associée sont différentes, l 'entreprise associée prépare souvent, à l'usage de 
+l'investisseur, des états à la même date que les états financiers de l'investisseur. Quand ceci n'est pas 
+possible, on peut utiliser des états financiers établis  à des dates de clôture différentes. La convention 
+de permanence des méthodes exige que la durée des exer cices et toute différence entre les dates de 
+clôture soient les mêmes d'un exercice à l'autre.  
+14. Lorsqu'on utilise des états financiers avec des dates  de clôture différentes, des ajustements sont 
+effectués pour tenir compte de l'effet de tout événement ou transaction important entre l'investisseur et 
+l'entreprise associée se produisant entre la date de clôture des états financiers de l'entreprise 
+associée et celle des états financiers de l'investisseur.  
+15. Les états financiers de l'investisseur sont  généralement préparés en utilisant des méthodes 
+comptables uniformes pour des transactions et  événements semblables se produisant dans des 
+circonstances analogues. Dans de nombreux cas, si une entreprise associée utilise des méthodes 
+comptables différentes de celles adoptées par l'in vestisseur pour des transactions et événements 
+similaires se produisant dans des circonstances similaires, des ajustements appropriés sont apportés 
+aux états financiers de l'entreprise associée lorsque l'investisseur les utilise pour appliquer la méthode 
+de mise en équivalence. S'il n'est pas possible de déter miner le montant de ces ajustements, ce fait 
+est généralement mentionné dans .les notes aux états financiers de l'investisseur.  
+16. Si une entreprise associée a des actions de préf érence cumulatives en circulation telles que les 
+actions à dividende prioritaire sans droit de vote, détenues  par des intérêts tiers, l'investisseur calcule 
+sa quote-part de résultats après ajustements pour  tenir compte des dividendes de préférence, que 
+ceux-ci aient été décidés ou non.  
+17. Si, selon la méthode de la mise en équivalence, la quote-part de l'investisseur dans les résultats 
+déficitaires d'une entreprise associée est égale ou supérieure à la valeur comptable de la participation, 
+l'investisseur cesse habituellement de prendre en compte sa quote-part dans les pertes à venir. La 
+participation est alors présentée pour une valeur nulle. Les pertes supplémentaires sont provisionnées 
+dans la mesure où l'investisseur a assumé des obligations ou a effectué des paiements pour le 
+compte de l'entreprise associée afin de remplir les obligations de cette dernière que l'investisseur a 
+garanties ou pour lesquelles il s'est engagé par quelque moyen que ce soit. Si l'entreprise associée 
+enregistre ultérieurement des bénéfices, l'investi sseur ne reprend en compte sa quote-part dans ces 
+profits qu'après qu'elle ait dépassé sa quote-part de pertes nettes non prises en compte.  
+Pertes de valeur 
+18. S'il existe un indice qu'une participation dans une entreprise associée a pu perdre de la valeur, 
+l'entreprise applique les règles relatives à la dépréciation d'actifs. La perte de valeur d'une 
+participation dans une entreprise associée est normale ment appréciée par rapport à la valeur d'utilité. 
+Pour déterminer la valeur d'utilité de la participation, l'entreprise estime :  
+(a) sa quote-part dans la valeur actualisée des fl ux de trésorerie futurs estimés attendus de 
+l'entreprise détenue dans son ensemble, comprenant les flux de trésorerie générés par les activités de 
+l'entreprise détenue et les produits liés à la sortie in fine de la participation, ou  
+(b) la valeur actualisée des flux de trésorerie futurs estimés att endus des dividendes à recevoir de la 
+participation et de sa sortie in fine.  
+En retenant des hypothèses appropriées, les deux méthodes donnent le même résultat, toute perte de 
+valeur de la participation en résultant est affectée en premier lieu à tout goodwill restant à amortir  
+19. La valeur recouvrable d'une participation dans une entreprise associée est appréciée pour chaque 
+entreprise associée prise individuellement, à moin s que l'activité continue d'une entreprise associée 
+prise individuellement ne génère pas d'entrées de trésorerie largement indépendantes de celles 
+générées par d'autres actifs de l'entreprise présentant les états financiers.  
+Eventualites  
+20. Conformément à la NC 14 relative aux évent ualités et événements postérieurs à la date de 
+clôture, l'investisseur indique :  
+(a) sa quote-part dans les éventualités et engagem ents en capital d'une entreprise associée pour 
+laquelle il est aussi éventuellement responsable; et  
+(b) les éventualités qui proviennent du fait que l'investisseur est solidairement responsable de tous les 
+passifs de l'entreprise associée.  
+Informations à fournir  
+21. Un investisseur doit fournir les informations suivantes :  
+(a) une liste et une description appropriées des entreprises associées, y compris la quote-part 
+d'intérêt dans le capital et, si elle est différente, celle des droits de vote détenus; et  
+(b) les méthodes utilisées pour comptabiliser ces participations.  
+22. Les participations dans les entreprises associ ées comptabilisées en utilisant la méthode de la 
+mise en équivalence doivent être classées dans le s actifs non courants et être présentées comme un 
+élément distinct au bilan.  
+La quote-part de l'investisseur dans les résultats de ces participations doit être présentée comme un 
+élément distinct à l'état de résultat. La quote-part de l'investisseur dans les éléments extraordinaires 
+ou provenant des modifications comptables doit également être présentée séparément.  
+Investisseur non soumis à l’établissement d’états financiers consolidés 
+23. Un investisseur qui détient des participat ions dans des entreprises associées peut ne pas 
+émettre des états financiers consolidés parce qu' il n'a pas de filiales. Il convient, dans ce cas, 
+qu'un tel investisseur fournisse, dans les notes au x états financiers, la même information sur 
+ses participations dans les entreprises associées que les entreprises qui émettent des états 
+financiers consolidés.  
+24. Si la méthode de la mise en équivalence est appropriée pour l'entreprise associée, 
+l'investisseur doit fournir au niveau des notes à ses états financiers individuels, l'information 
+sur l'effet qu'aurait l'application de cette méthode  sur la valeur de ses participations et sur ses 
+résultats, comme s'il avait à émettre des états financiers consolidés.  
+Date d'entrée en vigueur  
+25. La présente Dorme comptable est applicable  aux états financiers relatifs aux exercices 
+clôturés à partir du 31 décembre 2003  
+ 

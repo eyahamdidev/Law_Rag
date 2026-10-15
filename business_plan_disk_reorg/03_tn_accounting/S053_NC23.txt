@@ -1,0 +1,291 @@
+http://www.procomptable.com/ 1
+NC 23 
+Les opérations en devises dans les établissements bancaires 
+ 
+ 
+Objectif  
+01. La Norme Comptable Tunisienne NC 15 relative aux opérations en monnaies étrangères définit les 
+règles de prise en compte, d'évaluation et de présentation relatives aux opérations en devises 
+conclues par les entreprises.  
+02. Bien que l'ensemble de ces règles s'appliquent également aux établissements bancaires, cette 
+norme ne couvre pas les opérations effectuées dans le cadre de l'activité courante des banques. Elle 
+ne définit pas non plus les règles relatives à la comptabilité distincte en devises que les banques 
+doivent tenir conformément aux dispositions de la Norme Comptable relative au contrôle interne et 
+l'organisation comptable dans les établissements bancaires.  
+03. L'objectif de la présente norme est de définir les règles de tenue de la comptabilité multi-devises et 
+de traitement des opérations en devises réalisées par les établissements bancaires dans le cadre de 
+leur activité courante, notamment les opérations de financement, de dépôts, de prêts et emprunts, de 
+portefeuille et de change au comptant et à terme.  
+Champ d' application  
+04 La présente norme s'applique aux établissements bancaires tels que définis par les textes 
+en vigueur régissant l'activité bancaire. 
+Définitions  
+05 Dans la présente norme, les termes ci-dessous ont la signification suivante :  
+a) Date d'arrêté comptable : désigne la date de clôture d'une période comptable.  
+b) Période comptable : désigne l'exercice comptable ou toute autre période comptable au terme 
+de laquelle l'établissement bancaire est tenu, en vertu des dispositions légales et réglementaires, de 
+présenter des situations comptables ou des états financiers intermédiaires ou annuels.  
+c) Monnaie de référence : désigne la monnaie de comptabilisation soit la monnaie dans laquelle 
+sont libellés les états financiers publiés par l'établissement bancaire, en vertu des dispositions légales 
+et statutaires. Elle correspond généralement à la monnaie locale, soit le Dinar Tunisien.  
+d) Devise : désigne une monnaie autre que la monnaie de référence, ainsi que les métaux 
+précieux tels que l'or monétaire détenus sous une forme négociable.  
+e) Position de change : correspond, pour une devise donnée, au solde des avoirs nets de la 
+banque dans cette devise.  
+f) Risque de change : correspond à une dépréciation possible d'une créance ou d'un avoir ou à 
+une appréciation possible d'une dette, libellés en devises.  
+g) Eléments monétaires : désignent les actifs et passifs, y compris les comptes de régularisation, 
+qui doivent être encaissés ou payés pour des montants fixes ou déterminables, ainsi que les 
+engagements reçus et donnés portant sur un nombre déterminé d'unités monétaires à encaisser ou à 
+payer. Les titres, qu'ils soient à revenu fixe ou variable, classés dans la catégorie du portefeuille- titres 
+commercial sont également traités comme éléments monétaires libellés dans la monnaie du prix payé 
+à l'achat lorsqu'ils sont cotés sur le marché dans cette monnaie et destinés à être vendus par le 
+règlement du prix dans cette même monnaie.  
+h) Cours de change au comptant en vigueur : correspond, pour une date donnée, au cours de 
+change au comptant interbancaire de la veille publié par la Banque Centrale de Tunisie.  
+ 
+http://www.procomptable.com/ 2
+Comptabilité multi-devises  
+06. Les opérations effectuées en devises doivent être enregistrées en comptabilité de façon 
+distincte par la tenue d'une comptabilité autonome dans chacune des devises utilisées. Cette 
+comptabilité tenue selon le système dit en partie double doit permettre la détermination 
+périodique de la position de change.  
+07. La position de change, dans une devise, correspond à la valeur totale des actifs détenus dans 
+cette devise augmentée de la valeur totale des engagements à recevoir dans la devise et diminuée de 
+la valeur totale des passifs et de la valeur des engagements à livrer dans la même devise. Elle reflète 
+le risque lié aux engagements nets de la banque en devises et diffère, de ce fait, de la position de 
+trésorerie qui exprime les disponibilités en devises uniquement. La position globale de change 
+correspond à la somme de toutes les contre-valeurs dans la monnaie de référence des positions de 
+change par devise.  
+08. Les engagements hors bilan en devises qui ont une faible probabilité de réalisation, telle que les 
+cautions, avals et autres engagements de garantie, ne sont pas, en général, pris en compte dans la 
+détermination de la position de change.  
+09. De façon générale, la position de change peut être affectée par trois types d'opérations: 
+opérations libellées dans la même devise, opérations entre deux devises, opérations entre une devise 
+et la monnaie de référence.  
+10. Les opérations libellées dans la même devise affectent la position de change si elles engendrent 
+une rupture de l'équilibre entre les ressources et les emplois dans la même devise. C'est le cas 
+notamment des opérations de transferts entre des comptes clients de sommes dans la même devise, 
+et qui donnent lieu à la perception de commissions au profit de la banque.  
+11. Les opérations entre deux devises engendrent systématiquement une modification des positions 
+de change dans chacune des devises. Elles peuvent également affecter la position globale de change 
+en raison des différences existant entre les parités de chacune des devises par rapport à la monnaie 
+de référence.  
+12. Les opérations entre une devise et la monnaie de référence engendrent systématiquement une 
+modification de la position de change puisqu'elles affectent de façon unilatérale soit les ressources 
+soit les emplois dans la devise. Par exemple, une opération d'achat de devises au comptant se traduit 
+au niveau de la devise uniquement par un accroissement des actifs détenus dans cette devise, la 
+contrepartie consistant dans la diminution des actifs détenus dans la monnaie de référence.  
+Les commissions et autres revenus perçus à l'occasion de ces opérations n'affectent pas la position 
+de change lorsqu'elles sont prélevées dans la monnaie de référence.  
+13. Pour assurer la tenue de comptabilité autonome par devise, il est fait usage des comptes 
+techniques "position de change", "contre-valeur position de change" et "ajustement devises". 
+Ces comptes présentent l'avantage d'assurer la tenue d'une comptabilité équilibrée à même de 
+limiter les risques d'erreurs et d'identifier clairement les opérations affectant la position de 
+change.  
+14. Les comptes "position de change" sont des comptes ouverts au bilan et en hors bilan dans la 
+comptabilité de chacune des devises. Ils enregistrent la contrepartie des opérations ayant un impact 
+sur la position de change.  
+15. Les comptes "contre-valeur position de change" sont des comptes ouverts au bilan et en hors 
+bilan dans la comptabilité en monnaie de référence. Ils enregistrent la contrepartie des opérations 
+ayant un impact sur la position de change converties dans la monnaie de référence. 
+16. Les comptes "ajustement devises", sont des comptes ouverts au bilan et hors bilan dans la 
+comptabilité en monnaie de référence. Les comptes d'ajustement devises ouverts en hors bilan 
+servent à déterminer le résultat de change sur les opérations en devises figurant en hors bilan à la 
+date d'arrêté des états financiers. Les comptes d'ajustement devises ouverts au bilan servent à 
+transférer au bilan le résultat de change figurant dans les comptes ajustement devises du hors bilan.  
+ 
+http://www.procomptable.com/ 3
+Mécanisme de tenue de la comptabilité multi-devises  
+17. Conformément au paragraphe 06, les opérations effectuées en devises sont enregistrées dans la 
+comptabilité ouverte dans chacune des devises. Elles sont ensuite converties et reversées dans la 
+comptabilité en monnaie de référence.  
+Le processus de tenue d'une comptabilité multi-devises comporte généralement les étapes suivantes: 
+la conversion de charges et produits libellés en devises, la réévaluation des comptes de position et la 
+détermination et le traitement des différences de change.  
+Conversion des charges et produits libellés en devises  
+18. Les charges et produits libellés en devises influent sur la position de change. Ils doivent 
+être comptabilisés dans la comptabilité ouverte au titre de chaque devise concernée dès que 
+les conditions de leur prise en compte sont réunies, puis convertis dans la comptabilité en 
+monnaie de référence.  
+19. De façon générale, la conversion des charges et produits libellés en devises peut se faire selon 
+différentes périodicités: quotidienne, hebdomadaire, mensuelle, trimestrielle, etc. Cependant, cette 
+périodicité ne pourrait s'étaler au delà de la période au titre de laquelle un arrêté comptable doit être 
+établi.  
+20. Au delà de la périodicité de conversion, la question importante concernant la conversion des 
+charges et produits libellés en devises se rapporte au taux de change à utiliser. Dans la mesure où 
+ces opérations influent sur la position de change dès qu'elles sont  prises en compte dans la 
+comptabilité, plus le taux de conversion se rapproche de celui en vigueur à la date de leur prise en 
+compte, plus la dissociation entre le résultat de change et le résultat de l'opération elle- même se fait 
+de façon fiable.  
+21. Les charges et produits libellés en devises sont convertis dans la comptabilité en monnaie 
+de référence sur la base du cours de change au comptant en vigueur à la date de leur prise en 
+compte dans la comptabilité tenue en devises.  
+Toutefois, un cours de change moyen hebdomadaire ou mensuel peut être utilisé pour 
+l'ensemble des opérations comptabilisées dans chaque devise au cours de cette période. Dans 
+ce cas, la base de détermination du taux de change moyen doit être indiquée dans les notes 
+aux états financiers.  
+22. Les charges et produits libellés en devises courus et non échus à la date d'arrêté 
+comptable sont convertis sur la base du cours de change au comptant en vigueur à la date de 
+l'arrêté comptable. Toutefois, dans le cas où elles ont fait l'objet de façon anticipée d'une 
+opération de couverture spécifique, la conversion doit être faite sur la base du cours de 
+change de l'opération de couverture.  
+Réévaluation des comptes de position en date d'arrêté 
+ 
+23. A chaque arrêté comptable, les éléments d'actif, de passif et de hors bilan figurant dans chacune 
+des comptabilités devises sont convertis et reversés dans la comptabilité en monnaie de référence.  
+24. A l'exception des éléments non monétaires et des engagements de change à terme, cette 
+conversion est faite sur la base du cours de change au comptant en vigueur à la date d'arrêté.  
+Constatation du résultat de change  
+25. A chaque arrêté comptable, les différences entre, d'une part, les éléments d'actif, de passif et de 
+hors bilan réévalués conformément aux paragraphes 23 et 24, et d'autre part, les montants 
+correspondants dans les comptes de contre-valeur de position de change sont prises en compte en 
+résultat de la période considérée, à l'exception des différences de change visées aux paragraphes 26 
+et 27 ci-après.  
+26. Les différences relatives à des opérations de change dont le risque de change est supporté par 
+l'Etat ne sont pas prises en compte en résultat. Elles sont enregistrées dans des comptes de 
+régularisation.  
+http://www.procomptable.com/ 4
+27. Les différences positives résultant de la réévaluation d'éléments libellés dans des devises dont les 
+marchés ne présentent pas une liquidité suffisante ne sont pas prises en compte en résultat de la 
+période considérée. Elles sont enregistrées dans des comptes de régularisation.  
+28. Un marché est considéré comme présentant une liquidité suffisante lorsque :  
+(a) il existe soit un marché organisé, soit un marché de gré à gré fonctionnant régulièrement à 
+l'intervention d'établissements bancaires tiers mainteneurs de marché assurant des cotations 
+permanentes de cours acheteurs et vendeurs dont les fourchettes correspondent aux usages du 
+marché ;  
+(b) les titres, valeurs ou instruments financiers concernés peuvent, compte tenu des volumes 
+régulièrement traités sur leur marché, être réalisés à tout moment sans incidence significative sur les 
+cours.  
+Opérations devises contre devises  
+29. Il existe plusieurs méthodes pour comptabiliser les opérations réalisées devises contre devises. 
+Ces méthodes varient selon le choix de la monnaie dans laquelle le résultat de l'opération va être 
+exprimé ainsi que de la base de conversion dans la monnaie de référence.  
+30. Généralement, l'une des deux devises, au moins, est régulièrement cotée dans la monnaie de 
+référence sur le marché.  
+La méthode la plus simple consiste à décomposer l'opération en deux transactions séparées réalisées 
+contre la monnaie de référence. Celle-ci joue le rôle de monnaie pivot.  
+La contre-valeur dans la monnaie de référence est déterminée sur la base du cours de change sur le 
+marché pour une des deux devises considérées (appelée devise directrice). Le cours de change relatif 
+à l'autre devise est déduit de façon à équilibrer les contre-valeurs de chacune des deux devises dans 
+la monnaie de référence.  
+31. Lorsque aucune des devises n'est cotée dans la monnaie de référence sur le marché, il peut être 
+approprié d'utiliser l'une des devises comme monnaie pivot. L'opération est, dans un premier temps, 
+rapportée dans cette monnaie et le résultat est en définitive converti dans la monnaie de référence.  
+Change au comptant  
+32. Les opérations de change au comptant sont des opérations d'achat et de vente de devises dont 
+les parties ne différent pas le dénouement, ou ne différent le dénouement qu'en raison des délais 
+d'usance.  
+Le délai d'usance correspond au délai nécessaire à la mise en œuvre de la livraison des devises qui 
+est généralement de 2 jours ouvrables.  
+33. Lorsque le dénouement d'une opération de change au comptant est différé, sa réalisation est 
+analysée en deux temps :  
+- à la date d'engagement, à laquelle les parties concluent le contrat  
+- à la date de mise à disposition, à laquelle les devises sont effectivement livrées.  
+34. Les opérations de change au comptant avec délai d'usance doivent être comptabilisées en 
+hors bilan dès la date d'engagement et au bilan à la date de mise à disposition.  
+Change a terme  
+35. Les opérations de change à terme sont les opérations d'achat et de vente de devises dont les 
+parties décident de différer le dénouement pour des motifs autres que les délais d'usance. Elles se 
+traduisent ainsi par un engagement d'acheter ou de vendre une certaine quantité de devises, à un 
+cours déterminé, à une date future donnée.  
+Les opérations de change à terme peuvent être conclues à des fins de couverture ou à des fins 
+spéculatives.  
+http://www.procomptable.com/ 5
+36. Les opérations de change à terme à des fins de couverture ont pour but et pour effet de 
+compenser ou de réduire le risque de variation du cours de change portant sur un élément monétaire 
+ou un ensemble homogène d'éléments monétaires au regard du risque de fluctuation du taux de 
+change.  
+37. Pour être qualifiée d'opération de couverture, l'opération de change à terme doit satisfaire 
+les conditions suivantes :  
+(a) l'élément couvert ou l'ensemble homogène d'éléments couverts doit exposer 
+l'établissement bancaire à un risque de variation du cours de change ;  
+(b) l'opération de couverture doit être qualifiée comme telle dès l'origine ;  
+(c) l'élément couvert ou l'ensemble homogène d'éléments couverts et l'opération de 
+couverture doivent être libellés dans la même devise.  
+Change à terme à des fins spéculatives  
+38. A la date d'engagement, les opérations de change à terme à des fins spéculatives sont 
+converties au cours de change à terme tel que prévu par le contrat. Elles sont comptabilisées 
+en hors bilan.  
+A chaque arrêté comptable, les engagements sont réévalués sur la base du cours de change à 
+terme pour le terme restant à courir à la date d'arrêté. Toute différence de change résultant de 
+cette réévaluation est portée dans sa totalité en résultat.  
+Change à terme à des fins de couverture  
+39. Les opérations de change à terme à des fins de couverture peuvent être effectuées pour couvrir 
+des éléments de bilan et de hors bilan de natures différentes : soit des éléments évalués au cours au 
+comptant, tel est le cas par exemple d'un contrat de change à terme conclu en vue de couvrir un prêt 
+accordé en devises, soit des éléments évalués au cours à terme, tel est le cas par exemple d'un 
+contrat de change à terme conclu en vue de couvrir une autre opération de change à terme.  
+40. Les engagements de change à terme conclus à des fins de couverture sont convertis, à la 
+date de leur engagement, et réévalués à la date de chaque arrêté comptable sur la base du 
+cours de change utilisé pour la conversion et l'évaluation des éléments couverts. Les 
+différences positives et négatives résultant de cette réévaluation sont prises en compte de 
+façon symétrique à la prise en compte des gains et pertes de change sur les éléments 
+couverts.  
+41. En application de cette règle, les opérations de change à terme conclues pour couvrir des 
+éléments de bilan et de hors bilan évalués au cours de change au comptant sont comptabilisées de la 
+façon suivante :  
+- à la date d'engagement, le montant nominal du contrat est converti sur la base du cours de 
+change au comptant en vigueur à cette date.  
+La différence entre le montant nominal du contrat converti sur la base du cours de change au 
+comptant et celui converti sur la base du cours de change à terme prévu par le contrat constitue un 
+report ou déport et est comptabilisée en hors bilan séparément. Cette différence constitue un report 
+lorsque le cours à terme est supérieur au cours au comptant et un déport lorsque le cours à terme est 
+inférieur au cours au comptant.  
+Les reports et déports sont étalés au prorata temporis sur la période du contrat et imputés comme 
+produits et charges assimilés à des intérêts.  
+- à chaque date d'arrêté comptable, le montant du contrat est réévalué sur la base du cours de 
+change au comptant en vigueur à cette date. La différence de change ainsi dégagée est comptabilisée 
+en résultat de manière identique mais de sens inverse que la différence de change constatée sur les 
+éléments couverts.  
+42. Les opérations de change à terme conclues pour couvrir d'autres opérations de change à terme 
+sont traitées comme étant des opérations de change à terme conclues à des fins spéculatives 
+conformément au paragraphe 38 de la norme. 
+http://www.procomptable.com/ 6
+Eléments non monétaires 
+43. Les éléments non monétaires en devises que peuvent détenir les banques concernent 
+généralement les immobilisations corporelles et incorporelles et les titres, qu'ils soient à revenu fixe ou 
+variable, classés dans la catégorie du portefeuille d'investissement. Ces éléments peuvent être 
+financés soit en monnaie de référence soit en devises.  
+44. Lorsqu'ils sont financés en monnaie de référence, et conformément à la Norme Comptable NC 15 
+relative aux opérations en monnaies étrangères, les éléments non monétaires sont convertis au cours 
+de change en vigueur à la date de leur enregistrement.  
+45. Ces éléments peuvent être comptabilisés dans la comptabilité devise et convertis à chaque arrêté 
+comptable dans la comptabilité en monnaie de référence, ou directement comptabilisés dans la 
+comptabilité en monnaie de référence.  
+46. Lorsque les éléments non monétaires financés en monnaie de référence sont comptabilisés 
+dans la comptabilité devise et convertis à chaque arrêté comptable dans la comptabilité en 
+monnaie de référence, les dotations aux amortissements, et le cas échéant les dotations aux 
+provisions et les reprises sur provisions relatives à ces éléments sont également 
+comptabilisées dans la comptabilité devise et converties à chaque arrêté comptable dans la 
+comptabilité en monnaie de référence sur la base du cours de change utilisé pour la 
+conversion des éléments auxquelles ces dotations et reprises se rapportent.  
+47. Les éléments non monétaires financés en devises sont convertis, et réévalués à chaque 
+date d'arrêté comptable sur la base du cours de change au comptant en vigueur à la date de 
+conversion ou d'arrêté comptable. Les différences de change résultant de la réévaluation sont 
+comptabilisées en résultat de manière symétrique aux différences de change constatées sur le 
+financement. Dans ce cas, la perte ou gain de change enregistré lors de la réévaluation des 
+éléments non monétaires est compensé par le gain ou la perte de change résultant de la 
+réévaluation du financement.  
+informations a fournir  
+48. Les méthodes comptables adoptées pour le traitement des opérations en devises doivent 
+être indiquées dans les notes aux états financiers. Ces méthodes concernent notamment :  
+- la base de conversion des charges et produits libellés en devises lorsqu'une base autre 
+que le cours de change au comptant en vigueur à la date de leur prise en compte dans la 
+comptabilité devise est utilisée ;  
+- les bases utilisées pour la réévaluation des positions en devises  
+- les règles de prise en compte des différences de change en résultat.  
+49. Les notes aux états financiers doivent indiquer les informations suivantes lorsqu'elles sont 
+significatives :  
+- le montant global de la contre-valeur en monnaie de référence de l'actif et du passif en 
+devises.  
+- la valeur des opérations de change au comptant non dénouées à la clôture de l'exercice.  
+- la valeur des opérations de change à terme non dénouées à la clôture de l'exercice en 
+distinguant les opérations conclues à des fins de couverture de celles conclues dans un but 
+spéculatif .  
+- le montant des autres engagements relatifs à des opérations en devises.  
+date d'application  
+50. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+Janvier 1999.  
+ 
+ 

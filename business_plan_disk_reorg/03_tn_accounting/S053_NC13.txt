@@ -1,0 +1,137 @@
+ 
+http://www.procomptable.com/ 
+NC 13 
+Norme comptable relative aux Charges d'emprunt 
+ 
+Objectif 
+01. L'objectif de la présente norme est de prescrire le traitement comptable applicable aux charges 
+d'emprunt. 
+Champ d’application 
+02. La présente norme doit être appliquée pour la comptabilisation des charges d'emprunt. 
+Définitions 
+03. Dans le présent texte, les termes ci-après sont utilisés avec le sens suivant : 
+Les charges d'emprunt sont les intérêts et autres charges supportés par une entreprise dans le 
+cadre d'un emprunt de fonds. 
+Un bien pouvant donner lieu à l'immobilisation des charges d'emprunt est un bien qui exige 
+une longue période de préparation avant de pouvoir être utilisé ou vendu. 
+04. Les charges d'emprunt peuvent inclure : 
+a) les intérêts sur découverts bancaires et emprunts à court terme et long   terme ; 
+b) l'amortissement des primes d'émission ou de remboursement ;  
+c) l'amortissement des coûts accessoires entraînés par la réalisation d'emprunts ; 
+d) les charges financières en rapport avec les contrats de location-financement ; 
+e) les différences de change résultant des emprunts de devises, dans la mesure où elles 
+sont assimilées à un complément des charges d'intérêt. 
+05. Parmi les biens pouvant donner lieu à immobilisation des charges d'emprunt on peut citer, 
+à titre d'exemple, les stocks qui exigent une longue période de préparation avant de pouvoir 
+être utilisés ou vendus, les installations de fabrication, les installations de production 
+d'énergie et les biens immobiliers. Les autres investissements et les stocks, qui sont fabriqués 
+de façon routinière ou autrement produits en larges quantités de façon répétitive, n'entrent pas 
+parmi ces biens. De même, les biens qui sont prêts à être utilisés ou cédés au moment de leur 
+acquisition ne donnent pas lieu à immobilisation des charges d'emprunt. 
+Prise en compte 
+06. Les charges d'emprunt doivent être passées en charges de l'exercice au cours duquel elles 
+sont encourues, sauf à ce qu'elles soient immobilisées conformément au paragraphe 07. 
+07. Les charges d'emprunt qui sont directement imputables à l'acquisition, la construction ou 
+la production d'un bien, pouvant donner lieu à immobilisation des charges d'emprunt, doivent 
+être immobilisées comme une partie du coût de ce bien. Le montant des charges d'emprunt 
+immobilisées doit être déterminé conformément à la présente norme. 
+08. Les charges d'emprunt qui sont directement imputables à l'acquisition, la construction ou la 
+production d'un bien sont incorporées dans le coût de ce bien. De telles charges d'emprunt sont 
+immobilisées, comme faisant partie du coût de ce bien, lorsqu'il est probable qu'elles donneront lieu à 
+des avantages économiques futurs pour l'entreprise et que leur coût peut être évalué de façon fiable. 
+Les autres charges d'emprunt sont passées en charges de l'exercice au cours duquel elles sont 
+encourues. 
+ 
+http://www.procomptable.com/ 
+ Charges d’emprunt immobilisées 
+09. Les charges d'emprunt qui sont directement imputables à l'acquisition, la construction ou la 
+production d'un bien, pouvant donner lieu à immobilisation, correspondent aux charges d'emprunt qui 
+auraient pu être évitées si les dépenses relatives au bien n'avaient pas été faites. 
+10. Dans la mesure où des fonds empruntés spécifiquement en vue de l'obtention d'un bien pouvant 
+donner lieu à immobilisation des charges d'emprunt, le montant des charges d'emprunt à immobiliser 
+doit être égal aux charges d'emprunt réelles, encourues sur cet emprunt au cours de l'exercice, 
+diminuées de tout revenu obtenu du placement temporaire de ces emprunts. 
+11. Le mode de financement retenu pour un bien, pouvant donner lieu à immobilisation des charges 
+d'emprunt, peut être tel qu'une entreprise recueille les fonds empruntés et supporte les charges 
+d'emprunt correspondantes avant que tout ou partie des fonds soient utilisés pour les dépenses 
+relatives au bien concerné. Dans un tel cas, les fonds sont souvent placés temporairement, dans 
+l'attente d'être dépensés, pour le bien concerné. Lors du calcul du montant des charges d'emprunt, 
+pouvant être immobilisées au cours d'un exercice, il convient de porter le revenu de ce placement en 
+déduction des charges d'emprunt correspondantes. 
+12. Dans la mesure où les fonds sont empruntés de façon générale et utilisés en vue de 
+l'obtention d'un bien, pouvant donner lieu à immobilisation des charges d'emprunt, le montant 
+des charges d'emprunt à immobiliser doit être déterminé en appliquant un taux de 
+capitalisation aux dépenses relatives au bien. Ce taux de capitalisation doit être la moyenne 
+pondérée des charges d'emprunt applicables aux emprunts de l'entreprise en cours au titre de 
+l'exercice, autres que les emprunts contractés spécifiquement dans le but d'obtenir le bien 
+concerné. Le montant des charges d'emprunt immobilisées au cours d'une période donnée ne 
+doit pas excéder le montant total des charges d'emprunt supportées au cours de cette même 
+période. 
+ Début de l’immobilisation des charges d’emprunt 
+13. L'incorporation des charges d'emprunt dans le coût d'un bien pouvant donner lieu à 
+immobilisation des charges d'emprunt doit commencer lorsque : 
+(a) les dépenses relatives au bien ont été réalisées, 
+(b) les activités indispensables à la préparation du bien, préalablement à son utilisation 
+ou à sa vente, sont en cours,  
+(c) les charges d'emprunt sont encourues. 
+14. Les activités indispensables à la préparation du bien préalablement à son utilisation ou à sa vente 
+vont au-delà de la construction physique du bien concerné. Elles comprennent les travaux techniques 
+et administratifs, préalables au commencement de la construction physique, tels que les activités 
+associées à l'obtention d'autorisations préalablement au commencement de la construction physique. 
+Toutefois, de telles activités ne comprennent pas le fait de détenir un bien lorsqu'il n'y a ni production 
+ni développement modifiant la substance de ce bien. A titre d'exemple, les charges d'emprunt, 
+supportées pendant la phase de développement d'un terrain, sont immobilisées dans la période au 
+cours de laquelle les activités relatives à ces développements sont entreprises. Toutefois, les charges 
+d'emprunt, supportées lorsque le terrain acquis à des fins de construction est détenu sans 
+s'accompagner d'une activité de développement, n'ont pas qualité pour être immobilisées. 
+ Suspension de l’immobilisation des charges d’emprunt 
+15. L'immobilisation des charges d'emprunt doit être suspendue pendant les périodes longues 
+d'interruption de l'activité productive. 
+16. Des charges d'emprunt peuvent être supportées pendant de longues périodes où les activités 
+indispensables à la préparation du bien, préalablement à son utilisation ou à sa vente, sont 
+interrompues. De telles charges correspondent au coût de détention de biens dont la construction est 
+partiellement achevée et n'ouvrent pas droit à immobilisation. Toutefois, l'immobilisation des charges 
+d'emprunt n'est normalement pas suspendue pour une période au cours de laquelle des travaux 
+techniques et administratifs importants sont en cours. L'immobilisation des charges d'emprunt n'est 
+pas, non plus, suspendue lorsque le délai est un préalable nécessaire au processus de préparation du 
+ 
+http://www.procomptable.com/ 
+bien à son utilisation ou à sa vente. A titre d'exemple, l'immobilisation se poursuit pendant une longue 
+période de maturation des stocks. 
+ Cessation de l’immobilisation des charges d’emprunt 
+17. L'immobilisation des charges d'emprunt doit cesser lorsque les activités indispensables à la 
+préparation du bien, préalablement à son utilisation ou à sa vente, sont pratiquement toutes 
+terminées. 
+18. Un bien est en général prêt à être utilisé ou vendu, comme prévu, lorsque sa construction 
+physique est achevée, même si des travaux administratifs de routine se poursuivent toujours. Si 
+seules des modifications mineures, telles que la décoration d'une propriété selon les spécifications de 
+l'acheteur ou de l'utilisateur, restent à apporter, cela indique que les activités sont pratiquement toutes 
+terminées. 
+19. Lorsque la construction d'un bien est partiellement terminée et que chacune des parties 
+constitutives est utilisable, indépendamment des autres dont la construction se poursuit, il 
+faut cesser d'immobiliser les charges d'emprunt et ce, quand pratiquement toutes les activités 
+indispensables à la préparation d'une de ces parties constitutives préalablement à son 
+utilisation ou à sa vente prévue sont terminées. 
+20. Un parc immobilier comprenant plusieurs immeubles, dont chacun peut être utilisé 
+individuellement, est un exemple de bien pour lequel chaque partie est en mesure d'être utilisée 
+pendant que la construction se poursuit sur d'autres parties. A titre d'exemple de bien nécessitant 
+d'être achevé avant que chaque partie puisse être utilisée, on citera un établissement industriel 
+mettant en œuvre plusieurs processus de mani ère consécutive en différents points de cet 
+établissement à l'intérieur du même site, comme par exemple une aciérie. 
+Informations à fournir 
+21. Les états financiers doivent mentionner les informations suivantes : 
+a. le montant des charges d'emprunt immobilisées au cours de l'exercice ; 
+b. le taux de capitalisation utilisé pour déterminer le montant des charges d'emprunt 
+pouvant être immobilisées. 
+Date d’application et dispositions transitoires 
+22. La présente norme comptable est applicable, prospectivement aux états financiers relatifs 
+aux exercices ouverts à partir du 1er Janvier 1997. 
+Les charges d'emprunt figurant, le cas échéant, dans les comptes "frais financiers sur 
+acquisitions d'immobilisations" et "provisions pour frais financiers sur acquisitions 
+d'immobilisations" doivent être apurées, et la différence est imputée dans les capitaux propres 
+d'ouverture, conformément à la norme " modifications comptables". 
+Toutefois, et à titre transitoire, cette différence pourra être imputée dans un compte d'actif 
+distinct et résorbée sur une durée de 3 ans à partir du premier exercice d'application du 
+nouveau système comptable ou sur la durée initiale de résorption si celle-ci est plus courte. 
+ 
+ 

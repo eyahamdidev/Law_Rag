@@ -1,0 +1,326 @@
+http://www.procomptable.com/ 1
+NC 30 
+Les charges techniques dans les entreprises  
+d’assurance et / ou de réassurance 
+ 
+Objectif  
+01. L'activité d'assurance et/ou de réassurance se caractérise par l'inversion du cycle de la production 
+et le décalage possible entre la survenance du fa it dommageable et le règlement effectif de 
+l'indemnité. Ce qui nécessite le respect des règles suivantes :  
+• Séparation des exercices  
+• Rattachement des charges aux produits  
+• Passage des charges par nature aux charges par destination.  
+02. L'objectif de la présente norme est de prescrire les règles de prise en compte, d'évaluation et de 
+présentation ainsi que le traitement comptable applicable aux opérations relatives aux charges 
+techniques des entreprises d'assurance et/ou de réassurance.  
+Champ d'application  
+03. La présente norme s'applique à toutes les entreprises d'assurance et/ou de réassurance 
+soumises à la tenue et à la publication de leurs états financiers en Tunisie. Elle concerne les 
+opérations relatives à la charge de sinistres et aux charges de gestion et d'exploitation.  
+04. La Présente norme ne traite pas des charges provenant :  
+• de la gestion des placements,  
+• des opérations d'inventaire et notamment, 
+• des provisions techniques qui font l'objet d'une norme spécifique.  
+Définitions  
+05. Dans la présente norme, les termes ci-après sont utilisés avec la signification suivante :  
+Définitions liées à l'activité d'assurance vie  
+a) Sinistre  
+Il s'agit de la réalisation du risque, objet du contrat, ou de l'arrivée à échéance du contrat, ou du rachat 
+de contrat, qui serait de nature à entraîner les garanties de l'assureur.  
+Les sinistres ou prestations payés correspondent à l'indemnisation prévue au contrat dans le cas de la 
+réalisation du risque.  
+b) Rachat  
+Il s'agit du paiement de la prestation prévue avant l'échéance, dans le cas où la nature du contrat le 
+permet, demandée par un assuré ou le bénéficiaire, de la provision mathématique afférente à ce 
+contrat ( déduction faite d'une indemnité de résiliation que l'entreprise a la possibilité de retenir).  
+c) Capitaux et arrérages échus  
+Il s'agit des capitaux ou des rentes versés ou à verser à l'assuré ou aux bénéficiaires à l'échéance du 
+contrat, lorsque celle-ci tombe dans l'exercice, en cas de vie de l'assuré.  
+d) Capitaux décès  
+Il s'agit des capitaux versés durant l'exercice  ou à verser, en cas de décès de l'assuré désigné au 
+contrat d'assurance vie comportant cette garantie, aux bénéficiaires du contrat.  
+e) Participation aux bénéfices et ristournes  
+Il s'agit des sommes qui, en application de disposit ions réglementaires ou contractuelles, sont 
+prélevées sur les résultats de l'entreprise d'assur ance et affectées aux assurés ou aux bénéficiaires 
+soit par une revalorisation du contrat soit par un paiement direct.  
+Définitions liées à l'activité d'assurance non vie 
+ 
+f) Sinistre  
+Il s'agit de la réalisation du risque objet du contrat et de nature à entraîner les garanties de l'assureur.  
+Les sinistres payés correspondent à l'indemnisation des dommages garantis subis par les assurés, ou 
+que les assurés ont eux-mêmes fait subir à des tiers.  
+http://www.procomptable.com/ 2
+g) Versements périodiques de rentes  
+Il s'agit des rentes versées durant l'exercice dans  le cadre de l'indemnisation des dommages garantis 
+subis par l'assuré ou que les assurés ont eux mêmes fait subir à des tiers.  
+h) Participation aux bénéfices et ristournes  
+Il s'agit des sommes imputables à l'exercice qui s ont payées ou à payer aux souscripteurs et autres 
+assurés ou qui sont provisionnées en leur faveur.  
+Les ristournes comprennent de telles sommes dans la mesure où elles constituent un remboursement 
+partiel de prime effectué sur la base des perfo rmances du contrat. Ainsi, ce type de ristourne 
+n'entraîne pas la diminution de la prime initialem ent comptabilisée mais l'enregistrement d'une charge 
+de participation aux bénéfices et ristournes.  
+i) Recours encaissés  
+Il s'agit des sommes encaissées sous forme de ré cupération partielle ou totale d'une indemnité de 
+sinistres versée à l'assuré ou à la victime d'un accident.  
+j) Sauvetages  
+Il s'agit des sommes provenant au cours de l'exerci ce de la vente par l'assureur d'un bien récupéré 
+après versement de l'indemnité.  
+Définitions liées à la 2estion spéciale des rentes 
+ 
+k) Rente  
+La rente est la somme d'argent que l'entreprise d'a ssurance et/ou de réassurance est tenue de payer 
+périodiquement à une victime d'accident ou à ses ayants droit.  
+I) Taux d'incapacité physique  
+Le taux d'incapacité physique s'entend de la réduction de la capacité professionnelle ou fonctionnelle 
+produite par l'accident de travail ou la maladie pr ofessionnelle exprimée par rapport à la capacité que 
+possédait la victime au moment de l'accident ou de la constatation médicale de la maladie.  
+L'incapacité permanente est définie comme étant "ce lle qui subsiste après consolidation de la 
+blessure survenue suite à l'accident de trav ail ou de la guérison apparente de la maladie 
+professionnelle".  
+Définitions liées aux activités d'assurance et de réassurance 
+ 
+m) La distinction entre charges techniques et charges non techniques  
+Les charges des entreprises d'assurance et/ou de réassurance sont en principe des charges 
+techniques. Toutefois :  
+• les charges qui peuvent être individualisées et  affectées en totalité de manière univoque et 
+sans application de clé de répartition, à une activité non technique, peuvent par exception être 
+portées en charges non techniques: les activités non techniques sont les activités sans lien 
+technique avec l'activité d'assurance, par exem ple la distribution de produits bancaires ou la 
+vente de matériels hors service ou de déchets ; ne peuvent être considérées comme activités 
+non techniques les activités de prestations de services telles que la prévention, la souscription 
+ou la gestion de contrats d'assurance pour le co mpte d'autres entreprises d'assurance, ou la 
+mise à disposition de tiers de moyens de gestion ordinairement affectés à l'exploitation ;  
+• les opérations qui par nature ont un caractère non récurrent et étranger à l'exploitation, 
+notamment les charges résultant de cas de forc e majeure étrangère à l'exploitation, sont 
+portées en charges extraordinaires (conformément  à la norme relative aux résultats nets de 
+l'exercice et éléments extraordinaires).  
+n) Charges par nature  
+Il s'agit de l'ensemble des dépenses engagées par l'ent reprise qui doivent, en respect des principes 
+comptables, être inscrites dans le compte de résultat de l'exercice.  
+o) Charges par destination  
+Les. charges par destination correspondent à la répartition analytique des charges par nature 
+précédemment citées entre les différentes destinati ons représentatives de l'activité d'assurance et de 
+réassurance et notamment, l'acquisition des contra ts, l'administration des contrats, la gestion des 
+sinistres, la gestion des placements et les autres charges techniques.  
+http://www.procomptable.com/ 3
+p) Frais d'acquisition  
+Les frais d'acquisition correspondent aux frais internes  et externes occasionnés par la conclusion des 
+contrats d'assurance. Ils comprennent tant les fr ais directement imputables, tels que les commissions 
+d'acquisition et les frais d'ouverture de dossiers ou d'admission des contrats d'assurance dans le 
+portefeuille, que les frais indirectement imputabl es, tels que les frais de publicité ou les frais 
+administratifs liés au traitement des demandes et à l'établissement des contrats. Ils comprennent en 
+particulier les frais de personnel, la quote-part de loyer et les amortissements du mobilier et du 
+matériel engagés dans le cadre de cette activité (étab lissement des contrats, publicité, marketing), les 
+commissions d'acquisition, les frais des réseaux commerciaux.  
+q) Frais d'administration des contrats  
+Les frais d'administration des contrats correspondent aux frais internes et externes occasionnés par la 
+gestion des contrats en portefeuille. Ils comprennent  notamment les frais d'encaissement des primes, 
+d'administration du portefeuille, de gestion des parti cipations aux bénéfices et de ristournes et de 
+réassurance acceptée et cédée. Ils comprennent en particulier les frais de personnel, la quote-part de 
+loyer et les amortissements du mobilier et du matériel engagés dans le cadre de cette activité, les 
+commissions de gestion et d'encaissement, les frais de contentieux liés aux primes.  
+r) Frais de gestion des sinistres  
+Les frais de gestion des sinistres correspondent aux fr ais internes et externes occasionnés par le 
+traitement des dossiers sinistres ( ouverture des dossiers, évaluation, règlement). Ils comprennent en 
+particulier les frais de personnel, la quote-part de loyer et les amortissements du mobilier et du 
+matériel engagés dans le cadre de cette activité , les frais de contentieux et les commissions 
+comptabilisées au titre de la gestion des sinistres.  
+s) Frais de gestion des placements  
+Les frais de gestion des placements correspondent aux frais internes et externes occasionnés par 
+l'activité de gestion des placements. Ils comprennent en particulier les frais de personnel, la quote-part 
+de loyer et les amortissements du mobilier et du matériel engagés dans le cadre de cette activité, les 
+honoraires commissions et courtages versés dans ce cadre.  
+t) Autres charges techniques  
+Les autres charges techniques correspondent aux frais internes et externes qui exceptionnellement ne 
+peuvent être affectés ni directement ni par l'application d'une clé de répartition à l'une des destinations 
+définies par la présente norme.  
+Règles de prise en compte et d'évaluation  
+Dispositions relatives à l'assurance vie  
+06. La charge de sinistres de l'état de r ésultat technique de l'assurance vie comprend les 
+montants payés au titre de l'exercice et la vari ation des provisions pour sinistres à payer telle 
+que définie par la norme comptable relative aux provisions techniques.  
+07. Les montants payés au titre de l'exercice correspondent aux prestations de toutes natures qui ont été 
+versées aux assurés au titre des sinistres, des rachats, des arrivées à échéance et des rentes échues ainsi 
+que les frais internes et externes de gestion des sinistres qui ont été engagés pour cette activité.  
+Rachats  
+08. Les entreprises d'assurance enregistrent les opé rations de rachats lors de l'émission des 
+paiements relatifs à ces derniers. Cet enregistrement doit être accompagné simultanément 
+d'une mise à jour de l'inventaire permanent des provisions pour sinistres à payer.  
+Capitaux et arrérages échus  
+09. Les entreprises d'assurance enregistrent les charges liées aux capitaux et arrérages échus 
+lors de l'échéance de ces derniers qu'ils aient fait l'objet de l'émission d'un règlement ou pas.  
+10. Dans le cas où les capitaux ou arrérages n'ont pas fait l'objet de l'émission d'un règlement pour 
+des raisons techniques ou des raisons liées aux difficultés rencontrées dans l'identification du 
+bénéficiaire, le montant dû par l'entreprise figure au bilan dans un compte de dette identifié comme tel 
+dans la nomenclature comptable.  
+Capitaux décès  
+11. Les entreprises d'assurance enregistrent les charges liées aux capitaux décès lors de 
+l'émission du règlement à l'assuré. Cet enregist rement doit être simultanément accompagné 
+d'une mise à jour de l'inventaire permanent des provisions pour sinistres à payer.  
+http://www.procomptable.com/ 4
+Participation aux bénéfices et ristournes  
+12. Les participations aux bénéfices et rist ournes, qui sont directement affectées aux 
+provisions techniques ou aux prestations sans avoir été préalablement lors de la clôture 
+précédente provisionnées, sont enregistrées dans les sous comptes correspondants du 
+compte participation aux bénéfices et ristournes. Cette charge est comptabilisée avec pour 
+contrepartie la diminution des charges liées au x postes de prestations ou de variation de 
+provisions qui ont bénéficié de cette affectation immédiate.  
+13. Les participations aux bénéfices et ristournes  affectées aux assurés au cours d'un exercice 
+ultérieur à l'année de référence et qui, à ce titre, ont  fait l'objet de la constitution d'une provision pour 
+participation aux résultats et ri stournes doivent faire l'objet d'un enregistrement comptable dans un 
+compte d'utilisation de la provision qui est portée en déduction, selon le cas, des prestations versées 
+ou de la charge des provisions.  
+Dispositions relatives à l'assurance non -vie 
+ 
+14. Les montants payés au titre de l'exercice corres pondent aux prestations de toutes natures qui ont 
+été versées aux assurés au titre des sinistres (i ndemnité, rente viagère ou temporaire) ainsi que les 
+frais internes et externes de gestion des sini stres qui ont été engagés pour cette activité. Les 
+montants récupérés au titre des recours et des  sauvetages viennent en déduction de ce poste. Les 
+montants payés au titre de l'exer cice correspondent aux prestations  de toute natures qui ont été 
+versées aux assurés au titre des sinistres (indemni té, rente viagère ou temporaire) ainsi que les frais 
+internes et externes de gestion des sinistres qui  ont été engagés pour cette activité. Les montants 
+récupérés au titre des recours et des sauvetages viennent en déduction de ce poste.  
+Sinistres  
+15. Les entreprises d'assurance enregistrent les sini stres lors de l'émission totale ou partielle 
+du règlement à l'assuré. Cet enregistrement doit être accompagné simultanément d'une mise à 
+jour de l'inventaire des sinistres à payer et des provisions y afférentes.  
+Versements périodiques de rentes  
+16. Les entreprises d'assurance enregistrent l es versements périodiques de rentes lors de 
+l'échéance de celles-ci. Cet enregistrement doit être accompagné simultanément d'une mise à 
+jour de l'inventaire des contrats et des provisions mathématiques de rentes y afférentes.  
+Participation aux bénéfices et ristournes  
+17. Les participations aux bénéfices, qui sont directement affectées aux provisions techniques 
+ou aux prestations sans avoir été préalablement lors de la clôture précédente provisionnées, 
+sont enregistrées dans les sous comptes correspondants du compte participation aux 
+bénéfices et ristournes. Cette charge est comptabilisée avec pour contrepartie la diminution 
+des charges liées aux postes de prestations ou de variations de provisions qui ont bénéficié de 
+cette affectation immédiate.  
+18. Les participations aux bénéfices et ristournes  affectées aux assurés au cours d'un exercice 
+ultérieur à l'année de référence et qui, à ce titre, ont  fait l'objet de la constitution d'une provision pour 
+participation aux bénéfices et rist ournes doivent faire l'objet d'un enregistrement comptable dans un 
+compte d'utilisation de la provision qui est portée en déduction, selon le cas, des prestations versées 
+ou de la charge des provisions.  
+Recours encaissés  
+19. 
+Les entreprises d'assurance comptabilisent les r ecours encaissés lors de perception effective 
+des fonds. Cette comptabilisation doit être simultanément accompagnée d'une information 
+permettant de mettre à jour l'inventaire permanent des prévisions de recours à encaisser et donc 
+les provisions correspondantes (cf. norme sectorielle sur les provisions techniques).  
+Sauvetage  
+20. Les entreprises d'assurance comptabilisent l es sauvetages lors de l'encaissement effectif 
+des fonds provenant de la cession du bien. Cette comptabilisation doit être simultanément 
+accompagnée d'une information permettant de mettre à jour l'inventaire permanent des 
+prévisions de recours à encaisser et donc les provisions correspondantes (cf. norme sur les 
+provisions techniques).  
+Dispositions relatives à la gestion spéciale des rentes 
+ 
+21. La provision mathématique des rentes est inscrite au passif du bilan parmi les provisions 
+techniques et résulte d'opérations d'inventaire  de fin d'exercice des décisions judiciaires 
+prononcées à l'encontre de l'entreprise d'assurance.  
+http://www.procomptable.com/ 5
+22. La valeur des rentes est calculée conformément au tableau de conversion des rentes allouées aux 
+victimes, ou à leurs ayants droit, conformément à la réglementation en vigueur.  
+Le taux d'incapacité physique est déterminé par expertise.  
+Dispositions spécifiques aux opérations de réassurance 
+Sinistres payés cédés aux réassureurs  
+23. Dès lors que la nature du traité permet d'iden tifier les opérations cédées, le fait générateur 
+de la comptabilisation des sinistres payés est l'émission du paiement à l'assuré. C'est le cas en 
+général de tous les types de traités à l'exception des traités en excédent de taux de sinistre. 
+Par commodité, il est acceptable que les arrêtés de réassurance et la comptabilisation des 
+opérations ne soient effectués que trimestriellement.  
+Les cédantes (ou rétrocédantes) doivent four nir trimestriellement ces informations aux 
+cessionnaires (ou rétrocessionnaires ).  
+24. Pour les traités en excédent de taux de sinistres (traité non proportionnel), les sinistres cédés ne seront 
+définitivement connus qu'à l'issue de la période prévue au traité et qui correspond généralement à la 
+période de déroulement des sinistres. Les sinistres cédés sont donc évalués à l'inventaire et des opérations 
+de régularisation sont effectuées l'année suivante et/ou lors des années suivantes.  
+Sinistres payés acceptés par les réassureurs  
+25. Les sinistres payés acceptés doivent être co mptabilisés dès lors que l'entreprise dispose 
+d'une information suffisamment précise et  fiable du cédant pour permettre cette 
+comptabilisation.  
+La comptabilisation des acceptations doit êt re réalisée dans l'exercice sans décalage. 
+L'enregistrement sur l'exercice suivant d'opérations relatives à l'exercice précédent doit donc 
+rester exceptionnel.  
+A ce titre, les entreprises doivent mettre en place des procédures adéquates pour assurer la 
+bonne information des contractants dans les délais requis.  
+26. En cas de retard dans la comptabilisation des opérations d'acceptation le résultat de la période sur 
+le traité concerné ne pourra pas être reconnu en comptabilité sauf dans le cas où l'on estime qu'il sera 
+déficitaire. Lors de l'inventaire, les sinistres payés manquants doivent être :  
+• estimés si l'entreprise possède des informati ons suffisamment fiables pour réaliser ces 
+estimations,  
+• ignorés dans le cas où l'entreprise ne poss ède pas d'éléments suffisamment fiables pour 
+estimer les éléments manquants. Les éléments disponibles sont alors neutralisés. Cependant, 
+si une perte est attendue, elle doit faire l'objet d'une provision complémentaire.  
+Commissions reçues des réassureurs  
+27. Les commissions reçues des réassureurs sont gé néralement exprimées en fonction des primes 
+cédées. Le fait générateur de l'enregistrement comptable de ces commissions est donc l'émission 
+de la prime qui sera cédée. Par commodité, il est acceptable que les arrêtés de réassurance et la 
+comptabilisation des opérations ne soient effectués que trimestriellement. Dans le cas où la 
+commission est à échelle, c'est-à-dire susceptible de fluctuer entre un montant minimum et un 
+montant maximum, il convient de procéder à l' enregistrement comptable dès que les informations 
+sont suffisamment précises pour que le produit soit acquis.  
+28. Les commissions versées à la cédante doivent êt re comptabilisées par le cessionnaire dès lors 
+que l'entreprise dispose d'une information suffisamm ent précise et fiable du cédant pour permettre 
+cette comptabilisation.  
+Participations aux bénéfices  
+29. Les participations aux bénéfices de l'assureur c édant dans les résultats du réassureur nécessitent 
+la détermination du résultat technique brut. Il conv ient donc de procéder à l'enregistrement comptable 
+de ce produit (chez le cédant) dès que les informations sont suffisamment précises pour que le produit 
+soit acquis.  
+30. Les participations aux bénéfices versées à la cédante doivent être comptabilisées par le 
+cessionnaire dès lors que celui-ci dispose d'une information suffisamment précise et fiable du 
+cédant pour permettre cette comptabilisation.  
+ 
+http://www.procomptable.com/ 6
+Dispositions communes à l'ensemble de l'activité d'assurance et de réassurance  
+31. Les charges engagées par les entreprises d'assu rance et/ou de réassurance sont présentées 
+dans l'état de résultat par destination.  
+Les destinations représentatives de l'activité d'assu rance et de réassurance sont défmies de manière 
+limitative comme:  
+• les frais de gestion des sinistres, les frais d'acquisition,  
+• les frais d'administration,  
+• les charges de gestion des placements,  
+• les autres charges techniques.  
+Les charges liées aux prestations et frais payés, aux provisions te chniques et aux placements sont 
+inscrites directement dans les comptes de la classe 6 correspondants dans la mesure où elles 
+peuvent être affectées directement sans l'utilisation d'une clé de répartition à une activité technique.  
+Les autres charges doivent être enregistrées dans  les comptes de la classe 9 correspondant à la 
+nature de celles-ci. La classe 9 doit être soldée pér iodiquement pour alimenter les différents comptes 
+de charges par destination de la classe 6 prévus dans la nomenclature comptable.  
+32. La répartition des charges par nature dans les comptes de charges par destination doit être 
+réalisée à l'aide de clés de répartition qui doivent êt re fondées sur des critères quantitatifs objectifs, 
+appropriés et contrôlables, directement liés à la nature des charges. Les pr océdures d'affectation des 
+charges aux comptes par destination ainsi que les m odalités de calcul des clés de répartition font 
+partie intégrante du système d'infor mation comptable et doivent être  définies de manière explicite 
+dans la documentation interne de l'entreprise. Leur mise en œuvre doit être contrôlable et répondre 
+aux obligations liées au chemin de révision.  
+33. Les frais d'exploitation des entreprises d'assu rance et de réassurance comprennent les frais 
+d'acquisition des contrats, la variation des frais d'ac quisition reportés, les frais d'administration et les 
+commissions reçues des réassureurs. Ces commissions viennent en déduction des frais d'exploitation 
+dans la mesure où il ne s'agit pas d'un revenu de l 'entreprise d'assurance mais d'une participation du 
+réassureur à ces frais d'administration et d'acquisition.  
+Informations à fournir  
+34. Les entreprises d'assurance et/ou de réassurance doivent faire figurer dans les états des résultats 
+les éléments suivants :  
+• le montant des sinistres payés,  
+• le montant de la variation des provisions pour sinistres à payer,  
+• le montant de la charge de participation aux bénéfic es et ristournes de l'exercice, le montant 
+des frais d'acquisition,  
+• le montant de la variation des frais d'acquisition reportés,  
+• le montant des commissions reçues des réassureurs,  
+• le montant des frais d'administration, le montant des charges de placement,  
+• le montant des autres charges techniques,  
+• le montant des recours à encaisser qui sont venus en déduction de la provision pour sinistres 
+à payer dès lors que ce montant est significatif,  
+• la ventilation des charges de personnel, 
+• le montant total des commissions de toutes natures qui ont été versées au cours de l'exercice.  
+35. En outre, les notes aux états financiers doivent faire apparaître :  
+• dans une note séparée le résultat technique ventilé par catégorie et sous-catégorie 
+d'assurance,  
+• des informations relatives aux sinistres et provisions sur sinistres,  
+• un tableau de passage des charges par nature aux charges par destination ou 
+inversement ainsi que les clefs de répartition retenues.  
+Date d'application  
+36. La présente norme est applicable aux états financiers  relatifs aux exercices ouverts à partir du 1er 
+janvier 2001.  

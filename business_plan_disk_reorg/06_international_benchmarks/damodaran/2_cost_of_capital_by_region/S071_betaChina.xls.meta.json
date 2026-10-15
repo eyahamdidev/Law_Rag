@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betaChina.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/betaChina.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "ff9187e1ca2dc5ee697e240d368f5c8f1956bc00c4ff8e8b0b0d46c698f2aee9",
+ "bytes": 68608,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_betaChina.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:21:59 GMT"
+}

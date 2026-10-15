@@ -1,0 +1,818 @@
+http://www.procomptable.com/ 1
+NC 19 
+Norme comptable relative aux  états financiers intermédiaires 
+ 
+Objectif 
+01. L’information périodique sur la situation et l’activité de l’entreprise au cours d’un exercice, revêt 
+une importance primordiale aussi bien pour les investisseurs et les prêteurs que pour toute autre 
+partie intéressée pour connaître la performance de l’entreprise au cours d’une période et sa capacité à 
+générer des liquidités et à mobiliser des capitaux. 
+02. Les informations à communiquer périodiquement doivent être présentées sous forme d’états 
+financiers intermédiaires et doivent couvrir des périodes inférieures à douze mois, durée usuelle d’un 
+exercice comptable. 
+03. L’objectif de la présente norme est de prescrire le contenu  minimum des états financiers 
+intermédiaires ainsi que les méthodes de reconnaissance et de mesure suivies dans leur 
+élaboration. 
+Champ d'application 
+04. La présente norme s’applique à toutes les entreprises qui publient des états financiers 
+intermédiaires. 
+Elle ne porte pas sur les rapports financiers et les situations intermédiaires destinés à 
+l’information interne au sein de l’entreprise. 
+Définitions 
+05. Dans la présente norme, les termes ci-après sont utilisés avec les significations suivantes : 
+Une période intermédiaire est une période inférieure à un exercice comptable de 12 mois. 
+Les états financiers intermédiaires signifient des états financiers tels que définis par le 
+paragraphe 77 du cadre conceptuel de la comptabilité financière et les paragraphes 18 et 
+suivants de la norme comptable générale NC 01, se rapportant à une période intermédiaire et 
+arrêtés en conformité avec les dispositions de la présente norme. 
+Contenu des états financiers intermédiaires 
+06. Les états financiers intermédiaires doivent être établis selon les mêmes méthodes 
+comptables que celles utilisées pour l’établissement des états financiers annuels. Toutefois, et 
+pour favoriser l'élaboration des états financiers intermédiaires dans les meilleures conditions 
+d’économie et de délai, il peut être admis que la mesure des éléments basés sur l’estimation 
+soit faite selon des procédures simplifiées comparativement à celles qui sont requises pour 
+l’élaboration des états financiers annuels. 
+07. Les états financiers intermédiaires comportent les mêmes éléments  que les états 
+financiers annuels (un bilan, un état de résultat, un état de flux de trésorerie et des notes aux 
+états financiers). Toutefois et au niveau des notes aux états financiers, les entreprises peuvent 
+opter pour la présentation de seulement une sélection de ces notes. 
+08. L’utilisateur d’états financiers intermédiaires d’une entreprise a généralement accès à ses états 
+financiers annuels les plus récents. Par conséquent, il peut ne pas être utile de fournir, au niveau des 
+états financiers intermédiaires, des notes de mises à jour non significatives pour des informations 
+ayant déjà été présentées dans les états financiers annuels précédemment publiés. Il serait par 
+contre, beaucoup plus utile de présenter, à la fin d’une période intermédiaire, une information sur les 
+événements et les transactions qui pourraient expliquer les variations significatives dans la situation 
+financière et la performance de l’entreprise depuis la date d’arrêté des derniers états financiers 
+annuels. 
+http://www.procomptable.com/ 2
+09. L’information présentée dans les états financiers intermédiaires doit concerner la période 
+allant du début de l’exercice en cours jusqu’à la date d’arrêté de ces états ainsi que tout autre 
+événement ou transaction significatifs aidant à la compréhension des données de la période 
+intermédiaire en cours. L’entreprise doit inclure, au minimum, les informations suivantes dans 
+les notes aux états financiers intermédiaires, lorsqu’elles sont significatives et qu’elles 
+n’apparaissent pas ailleurs dans ces  états : 
+a) la déclaration que les mêmes principes et méthodes comptables ont été utilisés dans 
+les états financiers intermédiaires par rapport aux plus récents états financiers annuels 
+ou, si les principes et les méthodes ont été modifiés, une description de la nature et 
+des effets des modifications effectuées ; 
+b) des commentaires expliquant le caractère saisonnier ou cyclique des opérations 
+effectuées durant la période intermédiaire ; 
+c) la nature et le montant des éléments inha bituels de par leur nature, taille ou incidence, 
+affectant les actifs, les passifs, les capitaux propres, le résultat net ou les flux de 
+trésorerie ; 
+d) la nature et les montants des changeme nts d’estimation des montants présentés dans 
+les précédents états financiers intermédiaires de l’exercice en cours ou des 
+changements d’estimation dans les montants présentés dans les états financiers 
+annuels précédents, si ces changements ont un effet significatif sur la période 
+intermédiaire en cours ; 
+e) les émissions, rachats et remboursemen ts de dettes et d’actions ordinaires ; 
+f) les dividendes payés (globalement ou par action) séparément pour les actions 
+ordinaires et autres actions ; 
+g) le revenu sectoriel et le résultat sectoriel ; 
+h) les événements significatifs posté-rieurs à la fin de la période intermédiaire et qui n’ont 
+pas été inclus dans les états financiers intermédiaires ; 
+i) l’effet des changements dans la struct ure de l’entreprise pendant la période 
+intermédiaire, y compris les regroupements, les acquisitions ou la cession de filiales et 
+les investissements à long terme, restructurations et abandons d’activité ; 
+j) les changements dans les engagements hors bilan, depuis le dernier bilan annuel ; et 
+k) les mouvements dans les capitaux propres conformément aux dispositions du 
+paragraphe 83 de la norme comptable générale NC 01. 
+Présentation des données comparatives 
+10. Les états financiers intermédiaires doivent inclure les données suivantes : 
+a. le bilan arrêté à la fin de la période intermédiaire en cours, avec le bilan comparatif 
+pour la même période de l’exercice précédent, ainsi que le bilan comparatif arrêté à la fin 
+de l’exercice précédent ; 
+b. les états de résultats pour la période intermédiaire en cours et cumulativement pour 
+les périodes intermédiaires de l’exercice en cours allant du début de l’exercice jusqu’à la 
+date d’arrêté intermédiaire, avec les états de résultats comparatifs pour des périodes 
+intermédiaires (en cours et allant du début de l’exercice jusqu’à la date d’arrêté 
+intermédiaire) de l’exercice précédent, ainsi que l’état de résultat comparatif arrêté à la 
+fin de l’exercice précédent ; 
+c. l’état de flux de trésorerie cumulatif pour l’exercice en cours, allant du début de 
+l’exercice jusqu’à la date d’arrêté des états financiers intermédiaires, avec un état pour la 
+même période de l’exercice précédent, ainsi que l’état de flux de trésorerie comparatif 
+arrêté à la fin de l’exercice précédent. 
+http://www.procomptable.com/ 3
+Des modèles de bilan, d’états de résultat et d’états de flux de trésorerie intermédiaires sont présentés 
+en annexe jointe à la présente norme. 
+11. Pour les entreprises dont l’activité est particulièrement saisonnière, il peut être utile de présenter 
+des informations financières pour les douze mois finissant à la date d’arrêté de la situation financière 
+intermédiaire, comparées par rapport aux données des douze mois précédents. En conséquence, les 
+entreprises ayant une activité particulièrement saisonnière, sont encouragées à présenter de telles 
+informations en plus de celles énoncées dans le paragraphe précédent. 
+Importance relative des éléments à présenter dans les états financiers 
+intermédiaires 
+12. Afin de décider comment reconnaître, mesurer, classer ou présenter un élément dans des états 
+financiers intermédiaires, le seuil de signification devrait être évalué par rapport aux données 
+financières de la période intermédiaire en question. En procédant à l’évaluation du seuil de 
+signification, il faut reconnaître que les mesures intermédiaires sont basées d’une manière beaucoup 
+plus extensive sur des estimations que ne le sont les mesures appliquées aux données des états 
+financiers annuels. 
+Divulgation dans les états financiers annuels 
+13. Si l’estimation d’un montant présenté dans des états financiers intermédiaires change 
+d’une manière significative durant la période finale de l’exercice, alors qu’il n’y a pas eu 
+publication d’autres états financiers pour cette période intermédiaire finale, la nature et le 
+montant de ce changement d’estimation doivent être divulgués dans une note aux états 
+financiers de fin d’exercice. 
+Reconnaissance et mesure 
+14. Une entreprise doit appliquer les mêmes méthodes comptables dans ses états financiers 
+intermédiaires que celles qui sont appliquées dans les états financiers annuels, sauf s’il s’agit 
+de changements de méthodes effectuées après la date des états financiers annuels de 
+l’exercice précédent et devant être inclus dans les états financiers annuels de l’exercice en 
+cours. Néanmoins, la fréquence d’arrêté des états financiers par une entreprise (annuelle, 
+semestrielle ou trimestrielle) ne doit pas avoir un effet sur la mesure de ses résultats annuels. 
+15. La mesure pour les besoins des états financiers intermédiaires doit être effectuée en prenant la 
+période allant du début de l’exercice jusqu’à la date d’arrêté intermédiaire. On peut être appelé à 
+procéder à des changements dans l’estimation de montants d’une période à une autre durant 
+l’exercice en cours jusqu’à l'estimation finale pour les besoins d'arrêté des états financiers annuels, 
+sans que la modification des estimations intermédiaires n’ait d’incidences sur le traitement de 
+l’estimation de fin d’exercice. Toutefois, les méthodes de reconnaissance des actifs, des passifs, des 
+produits et des charges de la période intermédiaire sont les mêmes que celles appliquées pour les 
+états financiers annuels. 
+16. Les procédures de mesure à suivre pour l’établissement d’états financiers intermédiaires 
+doivent être conçues de manière à assurer la publication d’une information fiable, pertinente et 
+appropriée pour la compréhension de la situation financière et de la performance de 
+l’entreprise. Bien que les mesures dans les états financiers intermédiaires et annuels sont 
+souvent basées sur des estimations raisonnables, il convient de préciser que la préparation 
+des états financiers intermédiaires nécessite généralement une plus grande utilisation des 
+méthodes d’estimation que la préparation des états financiers annuels. 
+Traitement des flux saisonniers, cycliques ou occasionnels 
+17. Les revenus que l’entreprise perçoit d’une manière saisonnière, cyclique ou occasionnelle 
+au courant de l’exercice ne doivent être ni anticipés ni différés dans les états financiers 
+intermédiaires, lorsque ce type d’anticipation ou de report n’est pas admis à la date de clôture 
+de l’exercice. 
+18. Certains revenus comme les dividendes, les intérêts, les loyers, les royalties et autres sont 
+généralement reçus d’une manière saisonnière ou cyclique. Pour certains d’entre eux, comme les 
+dividendes, ils ne sont reconnus qu’à la date de décision de leur distribution. Ainsi, si cette catégorie 
+http://www.procomptable.com/ 4
+de revenus est reconnue pendant une période, elle ne peut être différée, ne serait-ce pour une partie, 
+sur la période suivante. Cela aurait été le cas si on avait à arrêter des états financiers annuels. La 
+reconnaissance des dividendes décidés au cours d’un exercice ne peut être différée sur l’exercice 
+suivant, ni anticipée au niveau des états financiers de l’exercice antérieur. Ce traitement ne sera pas 
+le même, pour les autres catégories de revenus dont la reconnaissance se fait de manière périodique 
+et systématique, indépendamment de leurs dates d’encaissement. Il en est ainsi, par exemple, pour 
+les loyers dont la reconnaissance comme revenu se fait par période courue. 
+19. Les coûts que l’entreprise encourt d’une manière irrégulière au courant d’un exercice doivent être 
+anticipés ou différés dans les états financiers intermédiaires lorsqu’il est possible d’anticiper ou de 
+différer ce type de coûts à la date de clôture de l'exercice. 
+Modifications apportées aux états financiers intermédiaires antérieurs 
+20. Un changement dans les méthodes comptables, et à moins d’énonciation contraire par une 
+norme comptable, doit engendrer la modification des états financiers relatifs aux périodes 
+intermédiaires antérieures de l’exercice en cours et les mêmes états des exercices précédents. 
+Date d'application 
+21. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+ouverts à partir du 1er Janvier 1999. 
+ 
+Annexe à la norme NC 19 
+La présente annexe fournit, à titre d’illustration, des modèles d’application du paragraphe 10 de la 
+Norme Comptable NC 19 relative aux Etats Financiers Intermédiaires et ce dans le but de faciliter la 
+compréhension de ses dispositions. 
+Les illustrations concernent aussi bien les entreprises qui publient des états financiers semestriels que 
+celles qui publient des états couvrant des périodes plus courtes : 
+• les entreprises qui publient des états financiers semestriels (selon le modèle de présentation de 
+référence) peuvent s'inspirer des illustrations figurant aux annexes 1, 2   et 4. 
+• les entreprises qui publient des états financiers semestriels (selon le modèle de présentation 
+autorisé) peuvent s’inspirer des illustrations figurant aux annexes 1, 3 et 5. 
+• les entreprises qui publient des états financiers couvrant des périodes intermédiaires plus courtes 
+que le semestre (selon le modèle de présentation de référence) peuvent s’inspirer des illustrations 
+figurant aux annexes 1, 4 et 6. 
+• les entreprises qui publient des états financiers couvrant des périodes intermédiaires plus courtes 
+que le semestre (selon le modèle de présentation autorisée) peuvent s’inspirer des illustrations 
+figurant aux annexes 1, 5 et 7. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 5
+ 
+Modèle du Bilan (Entreprise)  Annexe 1 
+BILAN au 
+(Exprimé en dinars) 
+ 
+ Notes à fin période 
+n 
+à fin période 
+n-1 
+au 31/12 
+n-1 
+Actifs 
+Actifs non courants 
+Actifs immobilisés 
+ 
+    
+Immobilisations incorporelles  
+Moins : amortissements 
+x 
+(x)
+ 
+x 
+(x) 
+x 
+(x) 
+  x x x 
+Immobilisations corporelles  
+Moins : amortissements 
+ 
+ 
+x 
+(x)
+ 
+x 
+(x) 
+x 
+(x) 
+  x x x 
+Immobilisations financières  
+Moins : provisions 
+ 
+ 
+x 
+(x)
+ 
+x 
+(x) 
+x 
+(x) 
+  x  x  x  
+Total des actifs immobilisés 
+ 
+ x x  x  
+Autres actifs non courants 
+ 
+ x x  x  
+Total des actifs non courants 
+ 
+ x x  x  
+Actifs courants     
+Stocks  
+Moins : provisions 
+ 
+ 
+x 
+(x)
+ 
+x 
+(x) 
+x 
+(x) 
+  x x x 
+Clients et comptes rattachés  
+Moins : provisions 
+ 
+ 
+x 
+(x)
+ 
+x 
+(x) 
+x 
+(x) 
+  x x x 
+Autres actifs courants 
+ 
+ x x x 
+Placements et autres actifs financiers 
+ 
+x x x 
+Liquidités et équivalents de liquidités 
+ 
+x
+ x  x  
+Total des actifs courants 
+ 
+x x  x  
+Total des actifs x  x  x  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 6
+Modèle du Bilan (Entreprise)  Annexe 1 (suite) 
+BILAN au 
+(Exprimé en dinars) 
+ 
+ Notes à fin période 
+n 
+à fin période 
+n-1 
+au 31/12 
+n-1 
+Capitaux Propres et Passifs 
+Capitaux propres 
+ 
+    
+Capital social 
+Réserves 
+Autres capitaux propres 
+Résultats reportés 
+ x 
+x 
+x 
+x
+ 
+x 
+x 
+x 
+x
+ 
+x 
+x 
+x 
+x
+ 
+ 
+Total des capitaux propres avant résultat 
+de l’exercice 
+  
+x 
+ 
+x 
+ 
+x 
+ 
+Résultat de l’exercice 
+  
+x
+ 
+ 
+x 
+ 
+x 
+ 
+Total des capitaux propres (avant 
+affectation) 
+  
+ 
+x
+ 
+ 
+ 
+x 
+ 
+ 
+x 
+ 
+Passifs 
+ 
+Passifs non courants 
+    
+ 
+Emprunts 
+Autres passifs financiers 
+Provisions 
+ 
+ 
+x 
+x 
+x
+ 
+ 
+x 
+x 
+x
+ 
+ 
+x 
+x 
+x
+ 
+ 
+Total des passifs non courants 
+  
+x 
+ 
+x 
+ 
+x 
+ 
+Passifs courants 
+    
+ 
+Fournisseurs et comptes rattachés 
+Autres passifs courants 
+Concours bancaires et autres passifs financiers 
+  
+x 
+x 
+ 
+x
+ 
+ 
+x 
+x 
+ 
+x
+ 
+ 
+x 
+x 
+ 
+x
+ 
+ 
+Total des passifs courants 
+  
+x
+ 
+ 
+x 
+ 
+x 
+ 
+Total des passifs 
+  
+x
+ 
+ 
+x 
+ 
+x 
+ 
+Total des capitaux propres et des 
+passifs 
+  
+x
+ 
+ 
+x 
+ 
+x 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 7
+ 
+ 
+Modèle de l'état de résultat  
+(présentation de référence)  
+(Entreprise)    
+Annexe 2 
+ 
+État de Résultat 
+(exprimé en dinars) 
+ 
+Notes Période 
+n 
+Période 
+n-1 
+Exercice 
+n-1 
+Revenus   X  X  X  
+Coût des ventes   (X)  (X)  (X)  
+Marge brute   X  X  X  
+Autres produits d'exploitation 
+ 
+Frais de distribution 
+Frais d’administration 
+Autres charges d’exploitation 
+ X 
+ 
+(X)  
+(X)  
+(X)
+ 
+X 
+ 
+(X)  
+(X)  
+(X)
+ 
+X 
+ 
+(X)  
+(X)  
+(X)
+ 
+ 
+Résultat d’exploitation  
+  
+X  
+ 
+X  
+ 
+X  
+ 
+Charges financières nettes  
+Produits des placements 
+Autres gains ordinaires 
+Autres pertes ordinaires 
+  
+(X) 
+X  
+X 
+(X) 
+ 
+(X) 
+X  
+X 
+(X) 
+ 
+(X) 
+X  
+X 
+(X) 
+Résultat des activités ordinaires avant impôt   X  X  X  
+Impôt sur les bénéfices   X  X  X  
+Résultat des activités ordinaires après impôt   X  X  X  
+Éléments extraordinaires  (Gains/Pertes)   X 
+ X  X  
+Résultat net de l'exercice   X  X  X  
+Résultat net de l'exercice   X  X  X  
+Effet des modifications comptables (net d'impôt)   X  X  X  
+Résultat après modifications comptables   X  X  X  
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 8
+ 
+Modèle de l'état de résultat  
+(présentation autorisée)  
+(Entreprise)    
+Annexe 3 
+ 
+État de Résultat 
+(exprimé en dinars) 
+ Notes Période 
+n 
+Période 
+n-1 
+Exercice 
+n-1 
+Revenus  x x x 
+Produits d'exploitation  x x x 
+Production immobilisée  x x  x  
+Total des produits d'exploitation x x x 
+Charges d'exploitation  x x x 
+Variation des stocks des produits finis et des encours 
+(en+ou-) 
+x x x 
+Achats de marchandises consommés  x x x 
+Achats d'approvisionnements consommés  x x x 
+Charges de personnel  x x x 
+Dotations aux amortissements et aux provisions  x x x 
+Autres charges d'exploitation  x x  x  
+Total des charges d'exploitation  (x)  (x)  (x)  
+Résultat d'exploitation  x x x 
+Charges financières nettes  (x) (x) (x) 
+Produits des placements  x x x 
+Autres gains ordinaires  x x x 
+Autres pertes ordinaires  (x) (x)  (x)  
+Résultat des activités ordinaires avant impôt  x x x 
+Impôt sur les bénéfices  (x) (x) (x) 
+Résultat des activités ordinaires après impôt  x x x 
+Eléments extraordinaires (Gains/Pertes)  x x  x  
+Résultat net de l’exercice  x  x  x  
+Résultat net de l’exercice  x x x 
+Effet des modifications comptables (net d'impôt)  x  x  x  
+Résultat après modifications comptables  x x x 
+http://www.procomptable.com/ 9
+ 
+Modèle de l'état de flux de trésorerie  
+(modèle de référence)  
+(Entreprise)    
+Annexe 4 
+ 
+État des flux de trésorerie de la période……  
+(exprimé en dinars) 
+ Notes Du 1/1 à fin 
+Période n 
+Du 1/1 à fin 
+Période n-1 
+Au 31/12 
+n-1 
+Flux de trésorerie liés à l’exploitation     
+Encaissements reçus des clients x x x 
+Sommes versées aux fournisseurs et au personnel x x x 
+Intérêts payés x x x 
+Impôts sur les bénéfices payés x x  x  
+Flux de trésorerie provenant de (affectés à) 
+l’exploitation x x x 
+Flux de trésorerie liés aux activités d’investissement 
+   
+Décaissements affectés à l’acquisition d’immobilisations       
+corporelles et incorporelles x x x 
+Encaissements provenant de la  x x x 
+cession d’immobilisations corporelles et incorporelles x x x 
+Décaissements affectés à l’acquisition d’immobilisations 
+financières x x x 
+Encaissements provenant de la cession d’immobilisations 
+financières x x x 
+Flux de trésorerie provenant des (affectés aux) activités 
+d’investissement x x x 
+Flux de trésorerie liés aux activités de financement 
+   
+Encaissements suite à l’émission d’actions x x x 
+Dividendes et autres distributions x x x 
+Encaissements provenant des emprunts x x x 
+Remboursement d’emprunts x x x 
+Flux de trésorerie provenant des (affectés aux) activités 
+de financement x x x 
+Incidences des variations des taux de change sur les 
+liquidités et équivalents de liquidités x x  x  
+Variation de trésorerie x x  x  
+Trésorerie au début x x x 
+Trésorerie à la fin x x x 
+ 
+ 
+    
+http://www.procomptable.com/ 10
+ 
+Modèle de l'état de flux de trésorerie  
+(modèle autorisé)  
+(Entreprise)    
+Annexe 5 
+ 
+État des flux de trésorerie de la période……  
+(exprimé en dinars) 
+ Notes Du 1/1 à fin 
+Période n 
+Du 1/1 à fin 
+Période n-1 
+Au 31/12 
+n-1 
+Flux de trésorerie liés à l’exploitation     
+Résultat net x x x 
+Ajustements pour :    
+• Amortissements et provisions x x x 
+• Variation des : x x x 
+- Stocks x x x 
+- Créances x x x 
+- Autres actifs x x x 
+- Fournisseurs et autres dettes x x x 
+• Plus ou moins-values de cession x x x 
+• Transfert de charges x
+ x  x  
+Flux de trésorerie provenant de (affectés à) 
+l'exploitation x x x 
+Flux de trésorerie liés aux activités 
+d'investissement 
+   
+Décaissements affectés à l'acquisition d'immobilisations 
+corporelles et incorporelles x x x 
+Encaissements provenant de la cession d'immobilisations 
+corporelles et incorporelles x x x 
+Décaissements affectés à l'acquisition d'immobilisations 
+financières x x x 
+Encaissements provenant de la cession d'immobilisations 
+financières x x  x  
+Flux de trésorerie provenant des (affectés aux) 
+activités d'investissement x x x 
+Flux de trésorerie liés aux activités de 
+financement 
+   
+Encaissements suite à l'émission d'actions x x x 
+Dividendes et autres distributions x x x 
+Encaissements provenant des emprunts x x x 
+Remboursement d'emprunts x  x  x  
+Flux de trésorerie provenant des (affectés aux) 
+activités de financement x x x 
+Incidence des variations des taux de change sur les 
+liquidités et équivalents de liquidités x x  x  
+Variation de trésorerie x  x  x  
+Trésorerie au début x x x 
+Trésorerie à la fin x x x 
+ 
+ 
+ 
+http://www.procomptable.com/ 11
+ 
+Modèle de l'état de résultat (présentation de référence)                               
+(Entreprise)           
+Annexe 6 
+ 
+Etat de Résultat de la période ... 
+(exprimé en dinars) 
+ Notes Période 
+(n) 
+Période 
+(n-1) 
+Du 1/1 à fin  
+période n 
+Du 1/1 à fin  
+période (n-1) 
+Au 31/12  
+(n-1) 
+Revenus  x x x x x 
+Coût des ventes  (x)  (x)  (x)  (x)  (x)  
+Marge brute  x x x x x 
+Autres produits d'exploitation  x x x x x 
+Frais de distribution  (x) (x) (x) (x) (x) 
+Frais d’administration  (x) (x) (x) (x) (x) 
+Autres charges d’exploitation  (x)
+ (x)  (x)  (x)  (x)  
+Résultat d’exploitation  x x x x x 
+Charges financières nettes  (x) (x) (x) (x) (x) 
+Produits des placements  x x x x x 
+Autres gains ordinaires  x x x x x 
+Autres pertes ordinaires   (x) (x) (x) (x) (x) 
+Résultat des activités 
+ordinaires (avant impôt) 
+ x x x x x 
+Impôt sur les bénéfices  x x x x x 
+Résultat des activités 
+ordinaires après impôt  x x x x x 
+Eléments extraordinaires  
+(Gains/Pertes) 
+ x  x  x  x  x  
+Résultat net de l'exercice  x x x x x 
+Résultat net de l'exercice x x x x x 
+Effet des modifications 
+comptables (net d'impôt) 
+ x  x  x  x  x  
+Résultat après modifications 
+comptables 
+x x x x x 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 12
+Modèle de l'état de résultat (présentation autorisé)                                      
+(Entreprise)           
+Annexe 7 
+ 
+Etat de Résultat de la période ... 
+(exprimé en dinars) 
+ Notes Période 
+(n) 
+Période  
+(n-1) 
+Du 1/1 à fin 
+période n 
+Du 1/1 à fin  
+période (n-1) 
+Au 31/12  
+(n-1) 
+Produits d'exploitation       
+Revenus  x x x x x 
+Autres produits d'exploitation  x x x x x 
+Production immobilisée  x x  x  x  x  
+Total des produits d'exploitation x x x x x 
+Charges d'exploitation       
+Variation des stocks des produits 
+finis et des encours (en+ou-) 
+ x x x x x 
+Achats de marchandises 
+consommés 
+ x x x x x 
+Achats d'approvisionnements 
+consommés 
+ x x x x x 
+Charges de personnel  x x x x x 
+Dotations aux amortissements et 
+aux provisions 
+ x x x x x 
+Autres charges d'exploitation  x x  x  x  x  
+Total des charges d'exploitation (x)  (x)  (x)  (x)  (x)  
+Résultat d'exploitation  x x x x x 
+Charges financières nettes  (x) (x) (x) (x) (x) 
+Produits des placements  x x x x x 
+Autres gains ordinaires  x x x x x 
+Autres pertes ordinaires  (x) (x)  (x)  (x)  (x)  
+Résultat des activités 
+ordinaires avant impôt 
+ x x x x x 
+Impôt sur les bénéfices  (x) (x) (x) (x) (x) 
+Résultat des activités 
+ordinaires après impôt 
+ x x x x x 
+Eléments extraordinaires 
+(Gains/Pertes) 
+ x x  x  x  x  
+Résultat net de l’exercice  x x x x x 
+Résultat net de l’exercice  x x x x x 
+Effet des modifications comptables 
+(net d'impôt) 
+ x  x  x  x  x  
+Résultat après 
+modifications comptables 
+ x  x  x  x  x  
+ 

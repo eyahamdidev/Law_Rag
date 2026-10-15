@@ -1,0 +1,402 @@
+ 
+ 1 
+METHODOLOGIE D’ELABORATION DE  LA BALANCE DES 
+PAIEMENTS SELON LA SIXIEME EDITION DU MANUEL 
+DU FMI 
+  
+La présente note décrit le cadre méthodologique et conceptuel adopté par la Tunisie pour l'élaboration de 
+la balance des paiements et ce, conformément aux recommandations préconisées par le fonds monétaire 
+international dans sa sixième édition du Manuel de la balance des paiements et de la position extérieure 
+globale MBP6 (publié en 2009).  
+Ainsi, la balance des paiements de la Tunisie est établie selon le cadre de référence international "MBP6", 
+couvrant une série rétrospective des cinq dernières années (2018 -2022). Par comparaison à l'édition 
+précédente, cette version comporte des changemen ts qui ont touché aussi bien la méthodologie que la 
+présentation. 
+La balance des paiements est un état statistique qui rassemble et ordonne sous une forme comptable 
+l’ensemble des transactions économiques et financières d’une économie – territoire, pays ou zone 
+monétaire – avec le reste du monde au cours d’une période do nnée. Les flux économiques et financiers 
+représentatifs de ces transactions sont répartis en distinguant le compte de transactions courantes, le 
+compte de capital et le compte financier 
+Selon le MBP6, la balance des paiements est présentée suivant trois comptes essentiels : 
+✓ Le compte des transactions courantes  comporte trois principaux postes (biens et services, le 
+revenu primaire et le revenu secondaire) ;  
+✓  Le compte de capital ;  
+✓ Le compte financier couvre 5 principaux postes (investissements directs, investissements de 
+portefeuille, dérivés financiers, autres investissements et avoirs de réserve). 
+Pour les changements fondamentaux, ils ont porté sur le reclassement entre les marchandises et les 
+services en ce qui concerne les transactions effectuées dans le cadre du régime de transformation en se 
+basant sur le concept de transfert de propriété entre résident et non résident. Par ailleurs, le poste des 
+services sera présenté d'une manière plus détaillée e t comporte douze rubriques principales. Quant au 
+compte des revenus et celui des transferts courants, ils ont été remplacés respectivement par le compte 
+du « revenu primaire » et celui du « revenu secondaire ».  
+S’agissant du compte de capital, il a été distingué du "Compte de capital et d'opérations financières" 
+dans le MBP5 avec un enregistrement en valeur brute.  
+Quant au compte financier, il est présenté sur une base nette des actifs et des passifs selon les cinq 
+catégories fonctionnelles préconisées par le MBP6. 
+ 
+ 
+ 2 
+I- COMPTE DES TRANSACTIONS COURANTES 
+1- BIENS ET SERVICES  
+1-1. A. BIENS 
+La nouvelle méthodologie préconise le reclassement des marchandises concernant la transformation 1  
+sans qu’il y ait transfert de propriété entre résidents et non-résidents, de la rubrique "marchandises" à la 
+rubrique "services". Ainsi, le passage de l'enregistrement des importations de l'optique CAF2 à l'optique 
+FOB3 ne concernera que le poste des marchandises générales. Ce traitement est effectué sur la base d’un 
+coefficient moyen estimé à 7,5% qui fera l’objet d’une révision périodique. Les frais d'expédition 
+(assurances, transports) étant réaffectés aux rubriques de services appropriées.  
+Pour les réexportations4, elles ont été distinguées et classées dans une rubrique à part dans le poste des 
+"Biens". De même, "le négoce international" (sur marchandises) n'est plus traité comme un service, mais 
+classé dans les exportations nettes de biens. 
+Par ailleurs, des ajustements sont portés à certains postes de marchandises pour tenir compte des 
+exigences de la nouvelle méthodologie (MBP6) à l'instar de la valeur de la redevance gaz qui sera 
+intégrée dans la rubrique des marchandises générales (importations et exportations). 
+Le poste des "Biens" est déterminé à partir d’un mixage de sources de données (imputations douanières, 
+enquêtes auprès des opérateurs économiques, ITRS5…)6 . Il est composé de trois grandes rubriques :  
+✓ Marchandises générales : ce poste enregistre toutes les transactions impliquant un transfert 
+de propriété. Des corrections et ajustements sont apportés pour retracer les seuls flux 
+correspondants à des transactions portant sur des biens et conduisant à un changement de 
+propriété économique . En effet, sont exclues des biens, essentiellement toutes les 
+transactions sur les marchandises effectuées dans le cadre du régime douanier sous « 
+admission temporaire » pour transformation ou réparation réalisées sans paiements.   
+✓ Négoce international : englobe l’achat de biens par un résident à un non -résident, et leur 
+revente ultérieure à un autre non -résident sans que les biens entrent dans l’économie 
+nationale.  
+✓ Or non monétaire  : recouvre la totalité de l’or, autre que monétaire. Il peut prendre une 
+forme physique, de poudre et d’autres formes non ouvrées ou semi-manufacturées.  
+ 
+ 
+ 
+1 Essentiellement sous-traitante ou travaux à façon. 
+2 CAF : Coût, Assurance, Fret. 
+3 FOB : Free On Board (sans frais à bord). 
+4 Les réexportations sont des biens étrangers (biens produits dans d’autres économies et précédemment importés avec 
+transfert de propriété) qui sont exportés sans profonde transformation par rapport à l’état dans lequel ils se trouvaient 
+lorsqu’ils ont été précédemment importés. 
+5 International Transactions Reporting System. 
+6 Les échanges de biens mesurés selon les statistiques du commerce international des marchandises (SCIM) sont effectués sur 
+la base des imputations douanières qui reflètent tous les mouvements physiques des biens à travers les frontières y compris 
+ceux dans le cadre de "transformation" ou "réparation". 
+Les rubriques de ce compte ont subi différents changements ayant trait principalement aux 
+reclassements entre les biens et les services et l'utilisation de nouveaux concepts pour établir les 
+rubriques " revenu primaire " et " revenu secondaire ". Par aille urs, les opérations de ce compte 
+devraient être enregistrées sur une base brute. Par convention, le crédit correspond à une 
+exportation ou à une recette et le débit représente une importation ou une dépense. 
+ 
+ 
+ 3 
+1-1. B. SERVICES   
+Deux nouveaux postes appartenant auparavant aux "Biens" ont été intégrés dans les "Services" à savoir 
+les "Services de fabrication" et les "Services d'entretien et de réparation non inclus ailleurs". Les 
+autres postes de services ont subi des reclassements et/ou certains éclatements. 
+Le MBP6 compte ainsi douze (12) rubriques de services :  
+- Services de fabrication fournis sur des intrants physiques détenus par des tiers  : ce poste 
+recouvre les services de transformation, d’assemblage, d’étiquetage, d’emballage, etc., fournis 
+par des entités qui ne sont pas les propriétaires des biens en question. Les prestataires de services 
+seront ainsi réglés par le propriétaire des biens en échange des services rendus. 
+- Services d'entretien et de réparation non inclus ailleurs  : ils couvrent les travaux d’entretien 
+et de réparation effectués par des résidents sur des biens qui appartiennent à des non-résidents (et 
+vice versa). Les réparations peuvent être faites sur le site du réparateur ou ailleurs. Les services 
+de réparation et d’entretien des navires, avions et autres matériels de transport sont classés dans 
+ce poste.  
+- Transport (+ services postaux/messagerie) : est le déplacement des personnes ou des biens d’un 
+lieu à un autre et recouvre les services connexes d’appui et auxiliaires, ainsi que les services 
+postaux et de messagerie. Les transports peuvent être classés selon : a) le mode de transport, à 
+savoir transport maritime, aérien ou autres7 ; b) l’objet du transport (passagers, fret et autres). 
+- Voyages : Au crédit , les voyages recouvrent les biens et services que les non -résidents se 
+procurent dans une économie, pour leur propre usage ou à des fins de cadeaux, au cours de leur 
+séjour dans cette économie. Au débit , les voyages concernent les biens et services que les 
+résidents d’une économie acquièrent dans d’autres économies, pour leur propre usage ou à des 
+fins de cadeaux, au cours de leur séjour dans ces économies. Les composantes types des voyages 
+sont les voyages à titre professionnel et les voyages à titre personnel (santé, éducation, tourisme, 
+etc…), avec présentation de données supplémentaires pour les groupes présentant un intérêt 
+particulier, tels que les travailleurs frontaliers, saisonniers et autres travailleurs temporaires. 
+- Construction : couvre la création, la rénovation, la réparation ou l’agrandissement d’actifs fixes 
+sous forme de bâtiments, d’aménagements de terrains relevant de l’ingénierie, et autres 
+constructions d’ingénierie telles que les routes, ponts, barrages, etc. Elle incl ut en outre, les 
+travaux d’installation et d’assemblage connexes, les travaux de préparation des chantiers et de 
+construction générale, les services spécialisés et la gestion des projets de construction. 
+- Services d'assurance et de pension  : recouvrent principalement l’assurance vie et les annuités 
+d’assurance vie, l’assurance dommages, la réassurance, l’assurance du fret, les pensions, les 
+garanties standards et les services auxiliaires d’assurance. Dans l’ensemble, la valeur totale des 
+services d’assurance et de pension est égale à l’écart entre les montants perçus par les sociétés (à 
+savoir les primes, cotisations et suppléments) et les montants revenant aux assurés (à savoir les 
+indemnités et prestations). 
+- Services financiers  : recouvrent les services des intermédiaires financiers et les services 
+auxiliaires, à l’exception de ceux des sociétés d’assurance et des fonds de pension. Ces services 
+incluent ceux qui sont généralement fournis par les banques et autres institutions financières.  
+- Frais pour usage de la propriété intellectuelle non inclus ailleurs  : recouvrent : a) les frais 
+pour utilisation des droits de propriété (activités de recherche, développement ou de 
+commercialisation …) ; b ) les frais de licence pour reproduire et/ou distribuer la propriété 
+intellectuelle incorporée dans les œuvres originales ou prototypes créés ainsi que les droits 
+connexes. 
+ 
+ 
+7 Les autres transports peuvent être subdivisés en transports ferroviaires, routiers, par voies navigables intérieures, par 
+pipeline et transports spatiaux et distribution d’électricité. 
+ 
+ 4 
+- Services de télécommunications, d'informatique et d’information :  
+• Les services de télécommunication recouvrent la transmission de sons, d'images, de données 
+ou autres, les informations par téléphone, télex, télégramme, radio ou télévision, courrier 
+électronique, télécopie, etc.,  
+• Les services d’informatique  comprennent les services liés aux matériels et logiciels 
+informatiques et les services de traitement des données.  
+• Les services d’information recouvrent les services d’agence de presse, les services liés aux 
+bases de données (conception, stockage, diffusion, fenêtres de recherche), les abonnements 
+individuels directs aux journaux et périodiques et les services de bibliothèque et d’archive.  
+- Autres services aux entreprises : ce poste inclut toutes les autres transactions qui ne peuvent pas 
+être classées dans les autres postes de services. Ils incluent essentiellement les services de 
+recherche et de développement, les services spécialisés, les services de conseil en gestion,  les 
+services techniques et les autres services aux entreprises. 
+- Services personnels, culturels et relatifs aux loisirs : comprennent a) les services audiovisuels 
+et connexes (production de films, d’émissions de radio et de télévision et d’enregistrements 
+musicaux) b) les autres services personnels, culturels et relatifs aux loisirs (les services de santé 
+et d’éducation, les services associés aux musées et autres activités culturelles, sportives, de jeux 
+récréatives à l’exception de ceux qui sont classés au poste des voyages). 
+- Biens et services publics non inclus ailleurs  : recouvrent : a) les biens et services fournis ou 
+reçus par des enclaves telles que les ambassades, les bases militaires et les organisations 
+internationales ; b) les biens et services achetés à l’économie d’accueil par les diplomates, les 
+effectifs consulaires et le personnel militaire en poste à l’étranger c) les services fournis ou reçus 
+par les administrations publiques et non inclus dans d’autres catégories de services. 
+Les sources de données utilisées pour établir les différents postes des services sont les imputations 
+douanières, l’ITRS, le reporting des bureaux de change, les fichiers administratifs et les enquêtes ciblées.   
+2- REVENU PRIMAIRE 
+Le revenu primaire correspond pratiquement à la rubrique « revenus » dans le MBP5. Il représente 
+le revenu qui revient aux unités institutionnelles en contrepartie de leur contribution à la production 
+(rémunération des salariés) ou de la fourniture d’actifs financiers (revenus des investissements) et 
+de la location de ressources naturelles à d’autres unités institutionnelles (loyer) ainsi que les impôts 
+et les subventions sur les produits et la production. 
+Les statistiques de ce poste sont compilées en utilisant des sources de données diversifiées (imputations 
+douanières, ITRS, fichiers administratifs, enquêtes ciblées auprès des opérateurs économiques, 
+organismes…).  
+Pour les revenus des autres investissements, les intérêts sont inscrits en terme «  réel » soit déduction 
+faite du SIFIM et les suppléments de prime sont mesurés par enquête auprès des sociétés d’assurance. 
+3- REVENU SECONDAIRE  
+Le revenu secondaire a remplacé la notion de "transferts courants" dans le MBP5. Il retrace les transferts 
+courants qui correspondent à la fourniture d’un bien, d’un service, d’un actif financier ou d’un autre 
+actif non produit sans contrepartie. Ainsi, la rubrique "revenu secondaire" comprend principalement les 
+transferts personnels (y compris les envois de fonds des travailleurs), les impôts courants sur le revenu 
+et le patrimoine, les cotisations sociales, les prestations sociales, les primes nettes et i ndemnités 
+d’assurance dommages, la coopération internationale courante et les transferts courants divers. 
+Les différentes rubriques du revenu secondaire sont déterminées à partir de l'ITRS qui sont complétées 
+par des données douanières et par des statistiques recueillies à partir des enquêtes réalisées auprès de 
+certains organismes et opérateurs.  
+ 
+ 5 
+II- COMPTE DE CAPITAL 
+ 
+III- COMPTE FINANCIER  
+1- INVESTISSEMENTS DIRECTS 
+L’investissement direct est une catégorie d’investissement transnational dans lequel un résident d’une 
+économie détient le contrôle ou une influence importante sur la gestion d’une entreprise résidente d’une 
+autre économie. Est considéré comme investisseme nt direct, toute participation étrangère au capital 
+d’une société résidente dépassant le seuil de 10% des droits de vote. Outre l'investissement initial 
+donnant lieu à un contrôle ou à une influence, l'investissement direct comprend également toutes les 
+transactions financières ultérieures, ainsi que les transactions d’investissement direct entre entreprises 
+sœurs, les prêts/emprunts inter-entreprises (à l’exception de la dette de certains intermédiaires financiers 
+affiliés), l’investissement à rebours et le réinvestissement des bénéfices. 
+Le compte financier enregistre les opérations sur actifs ou passifs financiers effectuées entre résidents 
+et non -résidents. Il indique, sur une base nette, les catégories fonctionnelles, les secteurs, les 
+instruments et les échéances des opérations financi ères internationales relatives aux transactions 
+d’investissement et de financement réalisées entre résidents et non-résidents.  
+Contrairement au "Compte courant" et au "Compte de capital", les opérations relatives à ce compte 
+ne sont plus enregistrées en termes de "Crédit" et de "Débit", mais sont désormais comptabilisées sur 
+une base nette "Acquisition nette d’actifs financiers" et "Accroissement net des passifs". Un chiffre 
+positif reflète une augmentation des actifs et des passifs, qu'ils soient financiers ou monétaires. Un 
+chiffre négatif représente une diminution des actifs et des passifs.   
+Le solde du compte financier est dénommé "capacité (+) /besoin ( -) de financement ». Il est égal à 
+l'Acquisition nette d’actifs financiers - Accroissement net des passifs, soit théoriquement le solde des 
+deux autres comptes (Compte courant et Compte de capital). L'écart entre les deux manières de calcul 
+de cette/ce "capacité/besoin" devrait être méthodologiquement imputé au poste "erreurs  
+et omissions".  
+La ventilation fonctionnelle du compte financier comprend les investissements directs, les 
+investissements de portefeuille, les dérivés financiers, les autres investissements et les avoirs de 
+réserve. 
+Le "Compte de capital" se compose des acquisitions et cessions d’actifs non financiers non produits 
+(les ressources naturelles, les contrats, les baux et licences, les actifs de commercialisation…) et des 
+transferts en capital à recevoir et à payer (dons p our investissement, remises de dettes, indemnités 
+d’assurance dommages, impôts…). 
+Les données sur les opérations en capital sont principalement puisées à partir de l'ITRS et des 
+enquêtes auprès des ministères, ambassades, organismes publics, associations etc… 
+ 
+ 6 
+Les données sur les investissements directs sont puisées principalement des sources administratives, de 
+l'ITRS et des enquêtes sectorielles effectuées par les structures publiques, membres du comité ad hoc 
+chargé du suivi des investissements étrangers8.  
+2- INVESTISSEMENTS DE PORTEFEUILLE 
+Les investissements de portefeuille sont définis comme des transactions et positions transfrontalières 
+portant sur des titres de créance ou des actions, autres que de l’investissement direct ou des avoirs de 
+réserve. Ces titres sont négociables et prennent principalement la forme d’actions ou de titres de créance. 
+Les emprunts obligataires émis sur les marchés financiers par le trésor ou les opérateurs économiques 
+résidents sont intégrés dans cette catégorie. 
+Les données sur les investissements de portefeuille sont collectées à partir des sources administratives, 
+de l'ITRS et du comité Ad hoc sus indiqué.   
+3- DERIVES FINANCIERS 
+Cette nouvelle catégorie fonctionnelle a été séparée des investissements de portefeuille selon MBP6. 
+Elle comprend les primes sur instruments conditionnels et les contrats à terme, achetés ou vendus par 
+les banques résidentes et par les autres secteurs, ainsi que les appels de marge, les soultes et les intérêts 
+sur swaps. Il est à noter que les dérivés financiers associés à la gestion des avoirs de réserve sont exclus 
+de cette rubrique et inclus dans les avoirs de réserve. 
+Les données relatives aux opérations sur dérivés financiers sont collectées à partir de l'ITRS. 
+4- AUTRES INVESTISSEMENTS 
+Le poste "Autres Investissements" est un poste résiduel qui englobe toutes les opérations sur actifs et 
+passifs financiers vis -à-vis des non -résidents qui ne figurent pas sous une autre rubrique du compte 
+financier (investissements directs, investissements  de portefeuille, dérivés financiers et avoirs de 
+réserve). Ce poste, comme toutes les rubriques du compte financier, est enregistré en termes de 
+variations nettes d'actifs et de passifs financiers, au lieu de l'imputation en crédit et débit. 
+Les autres investissements sont répertoriés par instrument, puis par secteur. Une classification par 
+échéance initiale (à court et à long terme) est également recommandée. La ventilation fonctionnelle est 
+maintenue, mais elle est plus détaillée. Par ailleu rs, la définition des instruments de dette a été 
+harmonisée avec celle du manuel des statistiques de la dette extérieure (EDS 2013).  
+A mentionner que la banque centrale a remplacé les autorités monétaires, en tant que sous-secteur. Les 
+autres secteurs sont décomposés en « Autres sociétés financières » et « Sociétés non financières, ménages 
+et ISBLSM ». Aussi, les passifs résultant des allocations de DTS sont inclus dans les autres 
+investissements en tant que poste distinct. 
+La classification des actifs et passifs financiers est désormais conforme au SCN2008 et au Manuel des 
+statistiques monétaires et financières de 2000, en plus de la terminologie utilisée.  
+Dans les composantes types du MBP6, on distingue les catégories d'instruments suivantes :  
+1. Autres participations 
+2. Numéraire et dépôts 
+3. Prêts 
+4. Système d’assurance, de pensions et de garanties standards 
+5. Crédits commerciaux et avances 
+6. Autres comptes à recevoir / à payer 
+7. Droits de tirage spéciaux (allocations). 
+Les « Autres investissements » passent de quatre (4) à sept (7) rubriques. Ce changement concerne 
+l'éclatement de la rubrique « Autres avoirs, autres engagements » du MBP5 en : Autres titres de 
+ 
+8 Les principaux membres : FIPA, APII, Ministère de l’Industrie, des Mines et de l’Energie, Ministère du 
+tourisme, APIA, BVMT, CMF.  
+ 
+ 7 
+participation, qui correspondent aux participations non incluses dans les investissements directs et 
+qui ne prennent pas la forme de titres. 
+5- AVOIRS DE RESERVE 
+Les avoirs de réserve sont les actifs extérieurs que les autorités monétaires contrôlent directement 
+et dont elles peuvent disposer immédiatement pour répondre à des besoins de financement de la balance 
+des paiements, pour intervenir sur les marchés des changes afin d’influer sur le taux de change ainsi que 
+pour d’autres besoins connexes (par exemple maintenir la confiance dans la monnaie et dans l’économie 
+et permettre d’emprunter à l’étranger). Le concept d’avoir de réserve repose sur les notions de « contrôle 
+» et de « disponibilité à l’emploi » par les autorités monétaires.   
+Ils sont constitués des créances brutes en or monétaire et en devises, y compris sous forme de 
+titres émis par des non‑résidents, des avoirs en droits de tirage spéciaux (DTS) et de la position nette de 
+réserve à l’égard du Fonds monétaire international. 
+Les données sur les avoirs de réserves proviennent de la situation comptable de la Banque 
+Centrale de Tunisie. 
+La variation des réserves internationales correspond au solde général de la balance des paiements 
+extérieurs. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 8 
+ 
+METHODOLOGIE D’ELABORATION DE LA POSITION 
+EXTERIEURE GLOBALE SELON LA SIXIEME EDITION DU 
+MANUEL DU FMI  
+ 
+ 
+ 
+ La présente note décrit le cadre méthodologique et conceptuel adopté par la Tunisie pour 
+l'élaboration de la position extérieure globale et ce, conformément aux recommandations 
+préconisées par le fonds monétaire international dans la sixième édition du Manuel de la balance 
+des paiements et de la position extérieure globale. La PEG est établie, depuis l’année 2022, selon 
+le "MBP6", couvrant une série rétrospective de cinq ans.  
+La position extérieure globale (PEG) est un état statistique qui indique la valeur et la composition 
+à un moment donné a) des actifs financiers des résidents d’une économie qui sont des créances 
+sur des non-résidents et de l’or physique détenu comme avoir de réserve ; et b) des engagements 
+(passifs) des résidents d’une économie envers des non -résidents. En effet, la PEG est un bilan 
+des stocks d'actifs et passifs financiers extérieurs. 
+La position extérieure globale nette représente la différence entre les actifs et les passifs 
+financiers d'une économie qui pourrait être créditrice nette (lorsque les actifs sont supérieurs aux 
+passifs) ou débitrice nette (lorsque les passifs excèdent les  actifs). La PEG est établie 
+principalement à partir des opérations financières enregistrées en termes de flux au niveau de la 
+balance des paiements.  
+La classification, l'enregistrement net et le classement dans la PEG devraient se conformer 
+aux postes équivalents dans le compte financier (MBP6).  Outre l’impact des flux financiers 
+enregistrés dans la balance des paiements, les variations du stock des actifs et des passifs 
+extérieurs peuvent provenir d’autres effets (prix, taux de change, volume…). 
+La PEG, selon le "MBP6", indique les catégories fonctionnelles , les instruments, les 
+secteurs, et les échéances des positions financières internationales entre résidents et non -
+résidents.  
+a) Les catégories fonctionnelles : investissements directs, investissements de portefeuille, 
+dérivés financiers (autres que les réserves) et options sur titres des salariés, autres 
+investissements et avoirs de réserve, 
+b) Les instruments financiers : ventilés par principales rubriques (actions et parts de fonds 
+de placement, instruments de dette et autres actifs et passifs financiers),  
+c) Le secteur institutionnel de la partie résidente : Banque centrale, institutions de dépôts 
+autres que la banque centrale, administrations publiques et autres secteurs ventilés entre 
+les autres sociétés financières et le sous -secteur non financier (sociétés non financières, 
+ménages et ISBLSM),  
+d) L’échéance (dans le cas d’instruments de dette) soit court terme ou long terme.   
+ 
+ 
+ 9 
+ 
+1- INVESTISSEMENTS DIRECTS 
+Les encours d’investissements directs portent sur les actifs détenus par les résidents vis -à-vis du reste 
+du monde et sur les passifs détenus par les non -résidents dans des entreprises installées en Tunisie (y 
+compris les prêts interentreprises). Dans ce cas, la notion d'intérêt durable9 devrait être toujours vérifiée. 
+La catégorie "investissements directs" a été présentée par instrument financier qui englobe les 
+différentes relations d’investissement. 
+Le stock d’IDE (actifs et passifs) est déterminé à partir des données de la balance de paiements (flux) et 
+ce, à travers l’accumulation des flux nets au titre d’IDE actualisés ou ajustés par le déflateur du FBCF 
+(méthode en cours de révision). 
+2- INVESTISSEMENTS DE PORTEFEUILLE 
+Les positions sur les investissements de portefeuille sont définies comme des positions transfrontalières 
+portant sur des titres de créance ou des actions, autres que celles de l’investissement direct 10 ou des 
+avoirs de réserve. L'encours des emprunts obligataires émis sur les marchés financiers par le trésor ou 
+les opérateurs économiques résidents est intégré dans cette catégorie (titres de créance). 
+La présentation de cette catégorie est répartie par instrument, secteur institutionnel et par maturité pour 
+les titres de créances. 
+Les statistiques sur les positions des investissements de portefeuille sont compilées à partir des données 
+de la BVMT 11, le reporting des statistiques  monétaires, la  base nationale de dette extérieure  
+et l'enquête sur   la dette extérieure des entreprises. 
+3- DERIVES FINANCIERS 
+Cette nouvelle catégorie fonctionnelle, a été séparée dans une rubrique à part selon le "MBP6". Elle est 
+répartie par secteur institutionnel et déterminée à partir des statistiques monétaires. 
+4- AUTRES INVESTISSEMENTS 
+Le poste « Autres Investissements » englobe toutes les positions sur actifs et passifs financiers vis -à-
+vis des non -résidents qui ne figurent pas sous une autre rubrique de la PEG à l’instar des 
+investissements directs, des investissements de portefeuille,  des dérivés financiers ou des avoirs de 
+réserve.  
+Conformément au MBP6, la rubrique des autres investissements a été ventilée selon les instruments, 
+les secteurs institutionnels et les maturités.  
+On distingue les catégories d'instruments suivantes :  
+8. Autres participations 
+9. Numéraire et dépôts 
+10. Prêts 
+11. Systèmes d’assurance, de pensions et de garanties standards 
+12. Crédits commerciaux et avances 
+13. Autres comptes à recevoir / à payer 
+14. Droits de tirage spéciaux (allocations en DTS) 
+Les "Allocations de DTS" sont désormais comptabilisées comme des passifs des "Autres 
+investissements". Le "MBP6" considère l’allocation des DTS comme une dette ou créance 12 du pays 
+bénéficiaire.  
+ 
+9 Il y a intérêt durable ou relation d’investissement direct lorsque l’investisseur détient au moins 10% du capital.  
+10 Les investissements sont considérés de portefeuille lorsque la participation de l’investisseur représente moins de 10% du 
+capital de l’entreprise concernée. 
+11 Bourse des Valeurs Mobilières de Tunis. 
+12 En raison de l’exigence de remboursement dans certaines circonstances et de paiements d'intérêts. 
+ 
+ 10 
+La catégorie des autres investissements est compilée à partir de plusieurs sources (fichiers administratifs, 
+enquêtes, reporting des statistiques monétaires…). 
+5- AVOIRS DE RESERVE  
+Les avoirs de réserve sont constitués des avoirs extérieurs disponibles pour le financement des 
+transactions avec l’étranger. Ils sont constitués des créances brutes en or monétaire et en devises, y 
+compris sous forme de titres émis par des non‑résidents, des avoirs en droits de tirage spéciaux (DTS) 
+et de la position nette de réserve à l’égard du Fonds monétaire international. 
+Dans la position extérieure, l’encours des avoirs de réserve est déterminé à partir des données de la 
+Banque Centrale de Tunisie. 
+ 
