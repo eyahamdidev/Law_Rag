@@ -250,5 +250,5 @@ table.fin th:first-child, table.fin td:first-child { text-align: left; }
 .chat-input { display: flex; gap: 0.5rem; }
 .chat-input input { flex: 1; }
 .verdict { display: flex; justify-content: space-between; padding: 0.8rem 1rem; border-radius: 0.7rem; border: 1px solid var(--line); margin: 0.6rem 0; }
-.verdict.good { border-color: #2e7d32; } .verdict.moderate { border-color: #b8860b; } .verdict.bad, .verdict.high_risk { border-color: #b3261e; }
+.verdict.good { border-color: #2e7d32; } .verdict.moderate { border-color: #b8860b; } .verdict.unfilled { border-color: #6b6b6b; } .verdict.bad, .verdict.high_risk { border-color: #b3261e; }
 @media (max-width: 640px) { .bp-cards { grid-template-columns: 1fr; } }

@@ -138,7 +138,7 @@ class LLMClient:
             if remaining <= 1.0:
                 raise LLMUnavailable("Time budget exhausted before the model answered.")
             try:
-                with httpx.Client(transport=self.transport, timeout=min(remaining, 45.0)) as client:
+                with httpx.Client(transport=self.transport, timeout=min(remaining, settings.llm_request_timeout_s)) as client:
                     resp = client.post(f"{self.base_url}/chat/completions", json=body,
                                        headers={"Authorization": f"Bearer {self.api_key}"})
             except httpx.HTTPError as exc:

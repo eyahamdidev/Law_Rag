@@ -151,8 +151,8 @@ def map_llm(segs: list[Segment], template: dict, llm: LLMClient, masker: Masker,
 ROW_PATTERNS: list[tuple[str, re.Pattern]] = [
     ("total_costs", re.compile(r"total\s+(des\s+)?(charges|costs|expenses)|charges\s+totales|اجمالي")),
     ("net_income", re.compile(r"r[ée]sultat\s+net|net\s+(income|profit|result)|b[ée]n[ée]fice\s+net|النتيجة الصافية")),
-    ("revenue", re.compile(r"chiffre\s+d.affaires|^ca\b|ventes|revenue|turnover|sales|رقم المعاملات")),
     ("cogs", re.compile(r"achats|co[uû]t\s+(des|de)|cost\s+of\s+(goods|sales)|cogs|mati[eè]res|direct\s+costs")),
+    ("revenue", re.compile(r"chiffre\s+d.affaires|^ca\b|ventes|revenue(?!\s+specific)|turnover|(?<!unit )sales|رقم المعاملات")),
     ("payroll", re.compile(r"charges?\s+de\s+personnel|masse\s+salariale|salaires|payroll|personnel\s+costs|staff\s+costs")),
     ("depreciation", re.compile(r"dotations?|amortissements?|depreciation|amortization")),
     ("interest", re.compile(r"charges?\s+financi[eè]res|int[ée]r[êe]ts|interest")),
@@ -176,7 +176,10 @@ def _num(cell: str) -> float | None:
     if not c or not re.search(r"\d", c):
         return None
     neg = c.startswith("(") and c.endswith(")")
-    c = c.strip("()").replace("%", "").strip()
+    if c.startswith("-") or c.startswith("\u2212"):
+        neg, c = True, c[1:]
+    c = re.sub(r"(?i)\s*(?:tnd|dt|usd|eur|dinars?)\b|[$€£]", "", c).strip("() ")
+    c = c.replace("%", "").strip()
     try:
         v = parse_number(c)
     except ParseError:
@@ -190,6 +193,52 @@ def _year_cols(rows: list[list[str]]) -> tuple[int, list[int], list[str]] | None
         if len(cols) >= 2:
             return ri, cols, [row[ci].strip() for ci in cols]
     return None
+
+
+AMOUNT = r"(\d[\d  ]*(?:[.,]\d+)?)\s*(k|m|md|millions?|mille|thousand|billion)?\b"
+REV_KEY = re.compile(r"(?:revenue|revenues|arr|sales|turnover|chiffre\s+d.affaires|\bca\b)", re.I)
+YEAR_MARK = re.compile(r"\b(?:year|an|ann[ée]e|y)\s*(\d)\b", re.I)
+ASK = re.compile(r"(?:we\s+need|seeking|raising|seed\s+need|funding\s+(?:need|ask)|besoin\s+de|nous\s+cherchons|lev[ée]e\s+de)\D{0,25}?" + AMOUNT, re.I)
+UNITS = {"k": 1e3, "thousand": 1e3, "mille": 1e3, "m": 1e6, "million": 1e6, "millions": 1e6, "md": 1e9, "billion": 1e9}
+
+
+def _amount(num: str, unit: str | None) -> float | None:
+    try:
+        v = parse_number(num.replace("\u00a0", " ").strip())
+    except ParseError:
+        return None
+    return v * UNITS.get((unit or "").lower(), 1.0)
+
+
+def prose_revenue(text: str) -> tuple[list[str], list[float]] | None:
+    """Revenue by year when the plan states it in sentences: 'Year 1 revenue 400k, Year 2 2M' or 'Year 1: 150 accounts, ARR 520k'."""
+    flat = re.sub(r"\s+", " ", text)
+    marks = list(YEAR_MARK.finditer(flat))
+    best: dict[int, float] = {}
+    for i, mk in enumerate(marks):
+        end = marks[i + 1].start() if i + 1 < len(marks) else len(flat)
+        seg = flat[mk.end(): min(end, mk.end() + 140)]
+        lead = flat[max(0, mk.start() - 40): mk.start()]
+        km = REV_KEY.search(seg)
+        if km:
+            am = re.search(AMOUNT, seg[km.end():], re.I)
+        elif REV_KEY.search(lead) or best:  # 'Revenue: Year 1 50k, Year 2 400k' or a series already under way
+            am = re.match(r"\W{0,3}" + AMOUNT, seg, re.I)
+        else:
+            am = None
+        if am:
+            v = _amount(am.group(1), am.group(2))
+            if v:
+                best.setdefault(int(mk.group(1)), v)
+    if len(best) < 2:
+        return None
+    yrs = sorted(best)
+    return [f"Y{y}" for y in yrs], [best[y] for y in yrs]
+
+
+def prose_funding_ask(text: str) -> float | None:
+    m = ASK.search(re.sub(r"\s+", " ", text))
+    return _amount(m.group(1), m.group(2)) if m else None
 
 
 def extract_financials(doc: Document) -> FinancialModel:
@@ -207,7 +256,8 @@ def extract_financials(doc: Document) -> FinancialModel:
                     setattr(m, name, [None] * len(labels))
             n = min(len(labels), len(m.years))
             for row in rows[hdr + 1:]:
-                label = norm(row[0] if row else "")
+                first = cols[0]
+                label = norm(next((c for c in row[:first] if c.strip() and not re.fullmatch(r"[\W\d_]*", c.strip())), ""))
                 if not label:
                     continue
                 for key, pat in ROW_PATTERNS:
@@ -225,6 +275,16 @@ def extract_financials(doc: Document) -> FinancialModel:
         # uses and sources tables: label | amount (single or side by side)
         _read_funding(tbl, m)
         found_any = found_any or bool(m.uses or m.sources)
+    if not found_any:
+        pr = prose_revenue(doc.text)
+        if pr:
+            m.years, rev = pr
+            for name in ("revenue", "cogs", "payroll", "opex", "depreciation", "interest", "tax", "capex",
+                         "total_costs_stated", "net_income_stated", "debt_service_stated"):
+                setattr(m, name, [None] * len(m.years))
+            m.revenue = rev
+            m.evidence["revenue"] = {"page": None, "bbox": None, "row": "stated in the text"}
+            found_any = True
     if not found_any:
         m.origin = "none"
     return m
@@ -278,6 +338,9 @@ def extract_facts(doc: Document, model: FinancialModel) -> dict:
         facts["loan_amount"] = model.sources["loan"]
     if "grant" in model.sources:
         facts["grant_amount"] = model.sources["grant"]
+    ask = prose_funding_ask(text)
+    if ask and "funding_need_amount" not in facts:
+        facts["funding_need_amount"] = ask
     return facts
 
 

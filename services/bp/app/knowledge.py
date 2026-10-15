@@ -159,12 +159,26 @@ def search(query: str, k: int = 2, source_ids: tuple[str, ...] | None = None) ->
             "where passages_fts match ? order by rank limit ?", (q, k * 6)).fetchall()
     except sqlite3.Error:
         return []
-    out = []
+    terms = list(dict.fromkeys(t for t in re.findall(r"\w{3,}", fold(query)) if t not in STOP))[:12]
+    scored = []
     for r in rows:
         if source_ids and r["source_id"] not in source_ids:
             continue
+        scored.append((rerank(-r["rank"], r["text"], terms), r))
+    scored.sort(key=lambda x: -x[0])
+    out = []
+    for sc, r in scored[:k]:
         out.append({"id": f"{r['source_id']}#{r['id']}", "doc_id": r["source_id"], "title": f"{r['title']} ({r['locator']})",
-                    "text": r["text"][:700], "score": round(-r["rank"], 3), "score_kind": "relevance", "url": r["url"], "origin": "pack"})
-        if len(out) >= k:
-            break
+                    "text": r["text"][:700], "score": round(sc, 3), "score_kind": "relevance", "url": r["url"], "origin": "pack"})
     return out
+
+
+def rerank(bm25: float, text: str, terms: list[str]) -> float:
+    """BM25 alone likes short fragments (account lists, tables). Reward passages that cover many of the query words
+    in running prose, and penalise fragments made of short lines or mostly digits."""
+    t = fold(text)
+    cover = sum(1 for w in terms if w in t) / max(1, len(terms))
+    lines = [ln for ln in text.splitlines() if ln.strip()]
+    short = sum(len(ln.strip()) < 35 for ln in lines) / max(1, len(lines))
+    letters = sum(c.isalpha() for c in text) / max(1, len(text))
+    return bm25 * (0.6 + 0.8 * cover) * (1.0 - 0.5 * short) * (0.5 + 0.5 * min(1.0, letters / 0.7))

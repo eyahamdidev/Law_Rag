@@ -162,7 +162,8 @@ def compose_summary(values: dict, derived: dict | None, lang: str) -> list[tuple
     return [("p", " ".join(parts))] if parts else []
 
 
-def build_plan_docx(title: str, sections: list[dict], chart_png: bytes | None, lang: str, open_items: list[tuple[str, list[str]]]) -> bytes:
+def build_plan_docx(title: str, sections: list[dict], chart_png: bytes | None, lang: str, open_items: list[tuple[str, list[str]]],
+                    critique: dict | None = None) -> bytes:
     d = Document()
     d.styles["Normal"].font.name = "Calibri"
     d.styles["Normal"].font.size = Pt(11)
@@ -200,6 +201,16 @@ def build_plan_docx(title: str, sections: list[dict], chart_png: bytes | None, l
             d.add_heading(sec_title, 2)
             for it in items:
                 _bullet(d, it)
+    cw = (critique or {}).get("weaknesses") or []
+    if cw:
+        d.add_page_break()
+        d.add_heading({"fr": "Faiblesses critiques à corriger", "ar": "نقاط ضعف حرجة يجب تصحيحها"}.get(lang, "Critical weaknesses to fix"), 1)
+        fix_h = {"fr": "Correction", "ar": "الإصلاح"}.get(lang, "Fix")
+        from app.agents.critic import dim_label
+        for w in cw:
+            _bullet(d, f"{dim_label(w['dimension'], lang)} — {w['why']}")
+            p = d.add_paragraph(f"{fix_h}: {w['fix']}")
+            p.paragraph_format.left_indent = Inches(0.25)
     buf = io.BytesIO()
     d.save(buf)
     return buf.getvalue()
@@ -231,11 +242,11 @@ POLISH_NOTE = {"en": "Wording professionalised from your answers; no facts were 
                "ar": "صياغة مهنية انطلاقا من إجاباتكم دون إضافة وقائع."}
 
 
-def advise(composed: dict, review, guidance_hits: list[dict], lang: str) -> None:
-    """Append advisor notes: criteria the section does not cover yet, then the matching good practice. Works without a model."""
+def advise(composed: dict, review, guidance_hits: list[dict], lang: str, critic_notes: list[str] | None = None) -> None:
+    """Append advisor notes: critic demands first, then uncovered criteria, then the matching good practice. Works without a model."""
     from app.templates import label as _label
 
-    notes: list[str] = []
+    notes: list[str] = list(critic_notes or [])
     if review is not None:
         for c in review.criteria:
             if not c.met:

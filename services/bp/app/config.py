@@ -37,6 +37,17 @@ class Settings:
         return _env("LLM_API_KEY", "")
 
     @property
+    def llm_request_timeout_s(self) -> float:
+        # Local models on a laptop are slow. Raise this together with BP_TIMEOUT_S.
+        return float(_env("LLM_TIMEOUT_S", "45"))
+
+    def llm_step(self, name: str) -> bool:
+        """BP_LLM_STEPS=plan_writer,drafts limits the model to those steps (parser, reviewer, assessment, vision,
+        drafts, plan_writer). Default: all. Useful on a slow local model: reading and judging plans stays rule-based and fast."""
+        raw = _env("BP_LLM_STEPS", "all").strip().lower()
+        return raw in ("", "all") or name in {x.strip() for x in raw.split(",")}
+
+    @property
     def llm_json_mode(self) -> str:
         # "json_schema" (strict) or "json_object" depending on the model.
         return _env("LLM_JSON_MODE", "json_object")
@@ -86,6 +97,9 @@ DEFAULT_MODELS = {
 
 def model_for(role: str) -> str:
     """Models are chosen by config, not code (rule 8). Fall back to defaults before the freeze."""
+    override = os.environ.get("LLM_MODEL_" + {"llm_main": "MAIN", "llm_fast": "FAST", "llm_vision": "VISION", "embedder": "EMBEDDER"}.get(role, ""))
+    if override:  # e.g. a local Ollama model name
+        return override
     path = settings.models_config
     try:
         if path.exists():

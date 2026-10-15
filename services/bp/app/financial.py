@@ -23,6 +23,9 @@ TOL_REL = 0.01  # 1 percent
 TOL_ABS = 1.0  # one dinar
 GROWTH_REVIEW = 1.0  # +100 percent year over year
 GROWTH_HIGH = 3.0  # +300 percent
+# Early-stage pitch plans ramp from a pilot: the first step may be several times larger without being a red flag.
+EARLY_FIRST_REVIEW, EARLY_FIRST_HIGH = 5.0, 14.0
+EARLY_REVIEW, EARLY_HIGH = 2.5, 6.0
 DSCR_REVIEW = 1.2
 DSCR_HIGH = 1.0
 PAYROLL_BAND = (0.95, 1.45)  # stated payroll / (headcount * avg gross * 12)
@@ -271,7 +274,7 @@ def _sig(kind: str, severity: str, message: str, ev: Evidence | None, tag: str =
     return Signal(id=f"bp-fin-{kind}{('-' + tag) if tag else ''}", kind=kind, severity=severity, message=message, evidence=ev, source="rule")
 
 
-def check(m: FinancialModel, d: dict | None = None) -> list[Signal]:
+def check(m: FinancialModel, d: dict | None = None, early_stage: bool = False) -> list[Signal]:
     """Run every deterministic check. The wording is always 'review this'."""
     out: list[Signal] = []
     if not m.has_projection() and not m.uses and not m.sources:
@@ -340,7 +343,8 @@ def check(m: FinancialModel, d: dict | None = None) -> list[Signal]:
                             f"Review this: gross margin in {m.years[t]} is {gm:.0%}"
                             f"{' (direct costs exceed revenue)' if gm < 0 else ''}.",
                             _ev(m, "cogs", cg, t), f"gm-{m.years[t]}"))
-        if nm is not None and nm > 0.6:
+        has_costs = any(x is not None and x != 0 for x in (_pad(m.cogs, n)[t], _pad(m.payroll, n)[t], _pad(m.opex, n)[t]))
+        if nm is not None and nm > 0.6 and has_costs:
             out.append(_sig("impossible_margin", "review",
                             f"Review this: net margin in {m.years[t]} is {nm:.0%}, which is unusually high. Check costs are complete.",
                             _ev(m, "net_income", d["net_income"][t], t), f"nm-{m.years[t]}"))
@@ -350,9 +354,10 @@ def check(m: FinancialModel, d: dict | None = None) -> list[Signal]:
         a, b = rev[t - 1], rev[t]
         if a and b is not None and a > 0:
             g = b / a - 1
-            if g >= GROWTH_HIGH:
+            hi, rv = (GROWTH_HIGH, GROWTH_REVIEW) if not early_stage else ((EARLY_FIRST_HIGH, EARLY_FIRST_REVIEW) if t == 1 else (EARLY_HIGH, EARLY_REVIEW))
+            if g >= hi:
                 out.append(_sig("growth_implausible", "high", f"Review this: revenue grows {g:.0%} from {m.years[t-1]} to {m.years[t]}. Say what drives it.", _ev(m, "revenue", b, t), m.years[t]))
-            elif g >= GROWTH_REVIEW:
+            elif g >= rv:
                 out.append(_sig("growth_implausible", "review", f"Review this: revenue grows {g:.0%} from {m.years[t-1]} to {m.years[t]}. Say what drives it.", _ev(m, "revenue", b, t), m.years[t]))
 
     # 5. cash

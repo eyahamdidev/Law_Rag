@@ -213,6 +213,7 @@ def draft_section(
     masker: Masker,
     trace: Trace,
     extra_numbers: set[float] | None = None,
+    critic_notes: list[str] | None = None,
 ) -> Draft:
     title = label(sec["title"], lang)
     allowed = allowed_numbers(values, derived or {}, existing, extra_numbers or set())
@@ -228,6 +229,8 @@ def draft_section(
     crit = "\n".join(f"- {label(c['text'], lang)}" for c in sec["criteria"])
     adv = "\n".join(f"- {g['title']}: {g['text']}" for g in guidance)
     feedback = ""
+    if critic_notes:
+        feedback = "\nCRITIC'S DEMANDS (address what the facts allow; never invent figures):\n" + "\n".join(f"- {n}" for n in critic_notes[:4])
     for attempt in (0, 1):
         user = prompts.render(p["text"], section=title, language={"fr": "French", "ar": "Arabic", "en": "English"}[lang],
                               criteria=crit, guidance=adv, facts=facts_json, existing=masker.mask(existing)[:1500],

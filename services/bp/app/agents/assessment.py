@@ -210,6 +210,7 @@ LABEL_TEXT = {
     "good": {"en": "Looks credible and reasonably complete", "fr": "Plan crédible et plutôt complet", "ar": "خطة جديرة بالثقة ومكتملة نسبيا"},
     "moderate": {"en": "Plausible but with gaps to close", "fr": "Plausible mais avec des lacunes à combler", "ar": "معقولة لكن بها ثغرات"},
     "bad": {"en": "Weak plan: major gaps or unrealistic assumptions", "fr": "Plan faible : lacunes majeures ou hypothèses irréalistes", "ar": "خطة ضعيفة: ثغرات كبيرة أو فرضيات غير واقعية"},
+    "unfilled": {"en": "This file looks like an unfilled template, not a business plan", "fr": "Ce fichier ressemble à un modèle non rempli, pas à un business plan", "ar": "يبدو هذا الملف نموذجا غير مملوء وليس خطة عمل"},
     "high_risk": {"en": "High risk: several fraud patterns. Verify everything independently before any commitment", "fr": "Risque élevé : plusieurs schémas de fraude. Tout vérifier de façon indépendante avant tout engagement", "ar": "خطر مرتفع: عدة مؤشرات احتيال. تحققوا من كل شيء بشكل مستقل قبل أي التزام"},
 }
 
@@ -418,7 +419,7 @@ def _model_flags(text, flags, strengths, llm, masker, trace):
     model = model_for("llm_main")
     with trace.step("assessment.llm", model=model, prompt_id=prompts.ref(p)):
         try:
-            out = llm.chat_json(model=model, system="You are a careful due-diligence analyst. Reply with JSON only.", user=user, schema=p.get("output_schema"), max_tokens=1500)
+            out = llm.chat_json(model=model, system="You are a brutally honest angel investor and due-diligence auditor looking for credibility problems. Reply with JSON only.", user=user, schema=p.get("output_schema"), max_tokens=1500)
         except LLMUnavailable as exc:
             trace.note(f"assessment.llm skipped: {exc}")
             return None

@@ -124,7 +124,7 @@
       const a = rep.assessment;
       if (a) {
         const lab = a.label[langSel.value] || a.label.en;
-        html += `<div class="verdict ${a.verdict}"><strong>${escapeHtml(lab)}</strong><span>${a.score}/100</span></div>` +
+        html += `<div class="verdict ${a.verdict}"><strong>${escapeHtml(lab)}</strong><span>${a.verdict === "unfilled" ? "" : a.score + "/100"}</span></div>` +
           `<p class="note">${escapeHtml(a.rationale)} This is a prompt to verify, not an accusation.</p>`;
         if (a.flags.length) html += `<h3>Red flags and weaknesses</h3>` + a.flags.map((f) =>
           `<div class="sig ${f.group === "fraud" ? "high" : "review"}">${escapeHtml(f.why)}${f.quote ? `<br><em>“${escapeHtml(f.quote)}”</em>` : ""}</div>`).join("");

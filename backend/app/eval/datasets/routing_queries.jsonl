@@ -1,3 +1,6 @@
 {"id": "r001", "question": "Cette facture est-elle suspecte ?", "intent": "fraud", "domains": []}
 {"id": "r002", "question": "Quels documents BFPME faut-il pour une création ?", "intent": "aid", "domains": []}
 {"id": "r003", "question": "Quel article du code des sociétés traite du capital minimum ?", "intent": "rag", "domains": ["legal"]}
+{"id": "r090", "question": "Peux-tu relire mon business plan ?", "intent": "bp", "domains": []}
+{"id": "r091", "question": "Mon prévisionnel est-il cohérent ?", "intent": "bp", "domains": []}
+{"id": "r092", "question": "Review my plan: is the break-even realistic?", "intent": "bp", "domains": []}

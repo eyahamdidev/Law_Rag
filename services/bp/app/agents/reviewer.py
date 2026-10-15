@@ -134,7 +134,8 @@ def review_all(
 
 
 def _apply_llm(template, sections, reviews, *, lang, llm, masker, trace, style):
-    p = prompts.load("reviewer", 2 if style == "cot" else 1)
+    # v3 (investor persona, weakness-plus-fix critique) is the default; v2 stays for the cot benchmark variant.
+    p = prompts.load("reviewer", 2 if style == "cot" else 3)
     items = []
     for sec, rv in zip(template["sections"], reviews):
         if rv.text_len == 0:
@@ -151,7 +152,7 @@ def _apply_llm(template, sections, reviews, *, lang, llm, masker, trace, style):
     user = prompts.render(p["text"], sections=json.dumps(items, ensure_ascii=False), lang=lang)
     with trace.step("reviewer.llm", model=model, prompt_id=prompts.ref(p)):
         try:
-            out = llm.chat_json(model=model, system="You are a strict business-plan reviewer. Reply with JSON only.", user=user,
+            out = llm.chat_json(model=model, system="You are a brutally honest angel investor and McKinsey-style auditor reviewing a business plan. Reply with JSON only.", user=user,
                                 schema=p.get("output_schema"), max_tokens=4000)
         except LLMUnavailable as exc:
             trace.note(f"reviewer.llm skipped: {exc}")

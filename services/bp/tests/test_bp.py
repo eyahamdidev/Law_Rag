@@ -447,3 +447,213 @@ def test_professional_layer_rewrites_and_guards_numbers():
     assert "place de marché dédiée" in text           # professional wording used
     assert "7777 [à confirmer par le fondateur]" in text  # invented figure is marked, never presented as fact
     assert "Conseils" in text                         # advisor notes present
+
+
+def test_model_name_can_be_overridden_by_env(monkeypatch):
+    from app.config import model_for
+    monkeypatch.setenv("LLM_MODEL_MAIN", "qwen2.5:7b")
+    assert model_for("llm_main") == "qwen2.5:7b"
+    monkeypatch.delenv("LLM_MODEL_MAIN")
+    assert model_for("llm_main") != "qwen2.5:7b"
+
+
+def test_rerank_prefers_prose_over_account_list_fragments():
+    from app.knowledge import rerank
+    terms = ["amortissement", "immobilisations"]
+    fragment = "142 Résultat\\nde l'exercice\\n15 Régularisations\\n151 Somme\\nimmobilisations"
+    prose = ("Les immobilisations corporelles sont amorties selon le mode adopté. L'amortissement est calculé "
+             "sur la durée d'utilité estimée de chaque immobilisation et indiqué dans les notes.")
+    assert rerank(5.0, prose, terms) > rerank(5.0, fragment, terms)
+
+
+def test_llm_steps_gate(monkeypatch):
+    from app.config import settings
+    monkeypatch.setenv("BP_LLM_STEPS", "plan_writer,drafts")
+    assert settings.llm_step("plan_writer") and not settings.llm_step("reviewer")
+    monkeypatch.delenv("BP_LLM_STEPS")
+    assert settings.llm_step("reviewer")
+
+
+def test_unfilled_template_is_detected_and_not_scored_as_plan():
+    from app.template_detect import scan
+    tpl = ("Executive Summary\nHelp tip\nStart writing here..\nMarket opportunity\nHelp tip\nStart writing here..\n"
+           "Start writing here..\nStart writing here..\nJohn Doe CEO john.doe@example.com\n"
+           "[John Doe] brings over [XX] years of experience. [He/She] holds a [Type of Degree] from [University/Institution Name].\n"
+           "Business Plan [YEAR]\n")
+    assert scan(tpl)["unfilled"]
+    real = "Notre huilerie conditionne 40 tonnes d'huile d'olive par an à Sfax. Investissement total 180 000 TND. " * 5
+    assert not scan(real)["unfilled"]
+
+
+def test_prose_revenue_and_funding_ask():
+    from app.agents.parser import prose_funding_ask, prose_revenue
+    assert prose_revenue("Financials\nYear 1 revenue 400k, Year 2 2M, Year 3 6M. We need around 300k.") == (["Y1", "Y2", "Y3"], [400000.0, 2000000.0, 6000000.0])
+    assert prose_revenue("Year 1: 150 accounts, ARR 520k MAD, burn 1.6M MAD. Year 2: 700 accounts, ARR 2.9M MAD.") == (["Y1", "Y2"], [520000.0, 2900000.0])
+    assert prose_revenue("Profit of 100M MAD in the first year.") is None
+    assert prose_funding_ask("Seeking 2.5M MAD for 24 months") == 2500000.0
+
+
+# ---- final institutional writer (final_writer@v3 batched, v2 per section) --------------
+def test_final_writer_agent_writes_six_guarded_sections():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    seen = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        body = json.loads(request.content.decode())
+        seen.append(body)
+        sid = next(s for s in fw.SECTION_IDS if f"Write ONLY section {fw.SECTION_TITLES[s]}" in body["messages"][1]["content"])
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"id": sid, "title": fw.SECTION_TITLES[sid], "text": "The plan rests on 80 000 TND of own funds and targets 150 000 TND revenue."})}}],
+            "usage": {"prompt_tokens": 5, "completion_tokens": 4}})
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, '{"total_investment": "80 000"}', "plan text", "[]",
+                                                transport=httpx.MockTransport(handler), mode="sequential"))
+    assert [s["id"] for s in out["sections"]] == fw.SECTION_IDS
+    assert all(s["status"] == "ok" for s in out["sections"]) and out["method"] == "model" and out["mode"] == "sequential"
+    assert len(seen) == 6 and all(b["temperature"] == 0 and b["seed"] == 7 for b in seen)
+    text = out["sections"][0]["text"]
+    assert "80 000 TND" in text and "150 000 TND [to be confirmed by the founder]" in text
+
+
+def test_final_writer_agent_batch_is_one_call():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    seen = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        body = json.loads(request.content.decode())
+        seen.append(body)
+        assert fw.BATCH_MARKER in body["messages"][1]["content"]
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid],
+                           "text": "Uses 80 000 TND of own funds and targets 150 000 TND revenue."} for sid in fw.SECTION_IDS]})}}],
+            "usage": {"prompt_tokens": 5, "completion_tokens": 4}})
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, '{"total_investment": "80 000"}', "plan text", "[]",
+                                                transport=httpx.MockTransport(handler)))
+    assert out["mode"] == "batch" and out["method"] == "model" and out["usage"]["calls"] == 1
+    assert len(seen) == 1 and seen[0]["temperature"] == 0 and seen[0]["seed"] == 7
+    assert [s["id"] for s in out["sections"]] == fw.SECTION_IDS
+    assert "150 000 TND [to be confirmed by the founder]" in out["sections"][5]["text"]
+
+
+def test_final_writer_agent_batch_tops_up_missing_sections():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    users = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        body = json.loads(request.content.decode())
+        user = body["messages"][1]["content"]
+        users.append(user)
+        if fw.BATCH_MARKER in user:
+            keep = fw.SECTION_IDS[:3]
+            return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+                {"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid], "text": "batch body."} for sid in keep]})}}]})
+        sid = next(s for s in fw.SECTION_IDS if f"Write ONLY section {fw.SECTION_TITLES[s]}" in user)
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"id": sid, "title": fw.SECTION_TITLES[sid], "text": "topped-up body."})}}]})
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler)))
+    assert out["method"] == "model" and out["usage"]["calls"] == 4 and len(users) == 4
+    assert all(s["status"] == "ok" for s in out["sections"])
+    assert out["sections"][0]["text"] == "batch body." and out["sections"][3]["text"] == "topped-up body."
+
+
+def test_final_writer_agent_degrades_not_crashes():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+    calls = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls["n"] += 1
+        return httpx.Response(500)
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]",
+                                                transport=httpx.MockTransport(handler), max_retries=0))
+    assert [s["id"] for s in out["sections"]] == fw.SECTION_IDS
+    assert all(s["status"] == "error" for s in out["sections"]) and out["method"] == "unavailable"
+    assert calls["n"] == 7  # one batch attempt, then one single attempt per section, no retry storm
+
+
+def test_final_writer_agent_stops_when_budget_gone():
+    import asyncio
+    import time
+
+    from app import prompts
+    from app.agents import final_writer as fw
+    calls = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls["n"] += 1
+        return httpx.Response(200, json={"choices": [{"message": {"content": "{}"}}]})
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler),
+                                                deadline=time.monotonic() - 1))
+    assert calls["n"] == 0 and all(s["status"] == "error" for s in out["sections"])
+    assert "time budget" in out["sections"][0]["error"]
+
+
+def test_final_writer_agent_skipped_without_key():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]"))
+    assert out["method"] == "unavailable" and all(s["status"] == "skipped" for s in out["sections"])
+
+
+def test_pipeline_generate_plan_runs_critic_and_final_writer(monkeypatch):
+    from app import pipeline as pl
+    from app.agents import final_writer as fw
+    from app.llm import LLMClient
+
+    monkeypatch.setenv("BP_LLM_STEPS", "critic,final_writer,plan_writer,drafts")
+    monkeypatch.setenv("LLM_API_KEY", "k")
+
+    def sync_handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"weaknesses": [{"dimension": "market_realism", "quote": None, "section_id": "market_analysis",
+                             "severity": "medium", "why": "no TAM given", "fix": "add a TAM/SAM/SOM breakdown"}]})}}],
+            "usage": {"prompt_tokens": 3, "completion_tokens": 2}})
+
+    async def fake_post(client, body, remaining):
+        user = body["messages"][1]["content"]
+        if fw.BATCH_MARKER in user:
+            return json.dumps({"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid],
+                                             "text": f"{fw.SECTION_TITLES[sid]}: revenue target 999 999 TND."} for sid in fw.SECTION_IDS]}), {"prompt_tokens": 5, "completion_tokens": 4}
+        sid = next(s for s in fw.SECTION_IDS if f"Write ONLY section {fw.SECTION_TITLES[s]}" in user)
+        return json.dumps({"id": sid, "title": fw.SECTION_TITLES[sid], "text": "topped-up body."}), {"prompt_tokens": 5, "completion_tokens": 4}
+
+    monkeypatch.setattr(fw, "_post", fake_post)
+    llm = LLMClient(api_key="k", transport=httpx.MockTransport(sync_handler), cache=False, max_retries=0)
+    r = pl.run(Request(request_id="fp", lang="en", options={"answers": ANSWERS, "generate_plan": True}), llm)
+    assert r.status == "ok"
+    rep = json.loads(storage.read(next(a.file_ref for a in r.artifacts if a.label == "bp_report")))
+    final_plan = rep["final_plan"]
+    assert [s["id"] for s in final_plan["sections"]] == fw.SECTION_IDS
+    assert all(s["status"] == "ok" for s in final_plan["sections"])
+    assert final_plan["method"] == "model" and final_plan["mode"] == "batch" and final_plan["usage"]["calls"] == 1
+    financial = final_plan["sections"][-1]
+    assert "999 999 TND [to be confirmed by the founder]" in financial["text"]
+
+
+def test_pipeline_rejects_unknown_final_writer_mode():
+    from app import pipeline as pl
+    from app.contract import ModuleError
+
+    with pytest.raises(ModuleError):
+        pl.run(Request(request_id="x", options={"answers": {"sector": "a"}, "final_writer_mode": "nope"}), None)

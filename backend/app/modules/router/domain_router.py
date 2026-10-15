@@ -32,12 +32,25 @@ AID_TERMS = (
     "financer",
     "prime",
     "incitation",
-    "business plan",
     "prêt",
     "pret",
     "crédit",
     "credit",
     "startup act",
+)
+
+BP_TERMS = (
+    "business plan",
+    "plan d'affaires",
+    "plan d’affaires",
+    "prévisionnel",
+    "previsionnel",
+    "seuil de rentabilité",
+    "break-even",
+    "plan de financement",
+    "relire mon plan",
+    "review my plan",
+    "خطة عمل",
 )
 
 LEGAL_STYLE_TERMS = (
@@ -119,6 +132,14 @@ def route_query(question: str) -> RouteDecision:
 
     aid_hit = any(_contains(text, term) for term in AID_TERMS)
     legal_style = any(_contains(text, term) for term in LEGAL_STYLE_TERMS)
+    bp_hit = any(_contains(text, term) for term in BP_TERMS)
+    if bp_hit and not aid_hit and not legal_style:
+        return RouteDecision(
+            intent="bp",
+            domains=[],
+            needs_clarification=False,
+            detail="Keyword baseline sent this to the business-plan workspace.",
+        )
     if aid_hit and not legal_style:
         return RouteDecision(
             intent="aid",

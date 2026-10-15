@@ -53,6 +53,10 @@ This workspace was not in the deck. It lists programs whose files are already in
 
 The matcher filters on company stage only. Sector and need are stored on the request and are not rules yet. Questions about what a law says still belong to cited answers.
 
+## Business plan
+
+Separate service in `services/bp/` (port 8104). The gateway talks to it over HTTP with `file_ref` uploads (`data/uploads/<sha256>`), never by import. Two input methods, usable together: upload a plan, or answer the guided questionnaire. The gateway also keeps a per-session profile (header `X-Session-Id`) filled from chat and the aid tab; it is sent as `profile`. The service merges questionnaire, profile and plan, reports conflicts, and checks every figure in plain Python. Routes: `POST /api/bp/questionnaire`, `POST /api/bp/run`, `GET /api/files/{sha256}`, `GET|PUT /api/profile`. See `services/bp/README.md`.
+
 ## Evaluation hypotheses
 
 From the deck, to be calibrated after a dense-only baseline:

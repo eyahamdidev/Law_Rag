@@ -13,6 +13,7 @@ for precedence and conflict handling.
 
 from __future__ import annotations
 
+import asyncio
 import json
 import re
 import time
@@ -21,6 +22,8 @@ from typing import Any
 from app import financial as fin
 from app import storage
 from app.agents import chart_maker, guidance, reviewer, writer
+from app.agents import critic as critic_agent
+from app.agents import final_writer as final_writer_agent
 from app.agents.common import Trace, fold
 from app.config import model_for, settings
 from app.contract import Artifact, Citation, Evidence, Handoff, ModuleError, Request, Response, Signal
@@ -32,7 +35,7 @@ from app.questionnaire import BANK_BY_ID
 from app.report import build_docx
 from app.sections import answers_to_sections, combine
 from app.agents import assessment
-from app import benchmark_check, knowledge, plan_doc
+from app import benchmark_check, knowledge, plan_doc, prompts, template_detect
 from app.templates import choose_template, label, load_template, section_index
 
 SEV_ORDER = {"high": 0, "review": 1, "info": 2}
@@ -131,6 +134,9 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     mode = opt.get("mode", "review")
     if mode not in ("review", "draft_section"):
         raise ModuleError("BAD_INPUT", "options.mode must be 'review' or 'draft_section'.")
+    fw_mode = opt.get("final_writer_mode", "batch")
+    if fw_mode not in ("batch", "sequential"):
+        raise ModuleError("BAD_INPUT", "options.final_writer_mode must be 'batch' or 'sequential'.")
     lang = req.lang if req.lang in ("fr", "ar", "en") else "fr"
     deadline = time.monotonic() + settings.timeout_budget_s
     llm = llm or LLMClient(deadline=deadline)
@@ -165,9 +171,9 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
 
     plan = parser_agent.ParsedPlan()
     if doc is not None:
-        plan = parser_agent.parse(doc, template, llm=llm if use_llm else LLMClient(api_key="", cache=False), masker=masker, lang=lang,
+        plan = parser_agent.parse(doc, template, llm=llm if (use_llm and settings.llm_step("parser")) else LLMClient(api_key="", cache=False), masker=masker, lang=lang,
                                   trace=trace, mode=opt.get("parser_mode", "auto"))
-        if plan.model.origin == "none" and doc.scanned_pages and use_llm:
+        if plan.model.origin == "none" and doc.scanned_pages and use_llm and settings.llm_step("vision"):
             rows = chart_maker.read_charts(doc, llm, trace)
             if rows:
                 plan.warnings.append(f"A vision model read {len(rows)} table rows from scanned pages. They were NOT used in checks. Check them by hand.")
@@ -186,7 +192,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     signals: list[Signal] = []
     with trace.step("financial_checker"):
         if derived is not None or model.uses or model.sources:
-            signals += fin.check(model, derived)
+            signals += fin.check(model, derived, early_stage=(template_id == "investor_pitch"))
         signals += _doc_conflicts(plan.model, q_model)
     signals += _profile_signals(ctx, model)
     with trace.step("benchmarks"):
@@ -196,7 +202,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     # ---- review ------------------------------------------------------------------
     with trace.step("reviewer.total"):
         reviews = reviewer.review_all(template, sections, lang=lang, llm=llm, masker=masker, trace=trace,
-                                      style=opt.get("rubric_style", "plain"), use_llm=use_llm)
+                                      style=opt.get("rubric_style", "plain"), use_llm=use_llm and settings.llm_step("reviewer"))
     for rv in reviews:
         if rv.status == "missing" and rv.required:
             signals.append(Signal(id=f"bp-section-{rv.section_id}", kind="section_missing", severity="review",
@@ -228,7 +234,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
                 "expects_financials": any(r.section_id in ("financial_projections", "financials_ask") for r in reviews),
             }
             assess = assessment.assess(full_text, {k: v.get("text", "") for k, v in sections.items()}, lang=lang,
-                                       llm=llm, masker=masker, trace=trace, use_llm=use_llm, structure=structure)
+                                       llm=llm, masker=masker, trace=trace, use_llm=use_llm and settings.llm_step("assessment"), structure=structure)
         for f in assess.flags:
             if f.group == "strength":
                 continue
@@ -236,6 +242,17 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
                                   severity="high" if f.group == "fraud" and f.weight >= 2 else "review",
                                   message=f"Review this: {f.why}", evidence=Evidence(field=f.rule, value=f.quote),
                                   source="model" if f.source == "model" else "rule"))
+
+    tpl = template_detect.scan(doc.text) if doc is not None else {"unfilled": False}
+    if tpl["unfilled"]:
+        if assess is not None:
+            assess.verdict, assess.score, assess.strengths, assess.strength_count = "unfilled", 0, [], 0
+            assess.rationale = {"en": f"{tpl['total']} template placeholders found ({', '.join(tpl['examples'])}). Section scores are not meaningful until the template is filled in.",
+                                "fr": f"{tpl['total']} éléments de modèle trouvés ({', '.join(tpl['examples'])}). Les scores par section n'ont pas de sens tant que le modèle n'est pas rempli.",
+                                "ar": f"{tpl['total']} عنصر نموذج. درجات الأقسام بلا معنى قبل ملء النموذج."}.get(lang, "")
+        signals.append(_sig("unfilled_template", "high",
+                            f"Review this: this file looks like an unfilled template ({tpl['total']} placeholders such as {', '.join(repr(e) for e in tpl['examples'][:3])}). "
+                            "The help text and sample names or figures inside it are not your plan. Fill it in, then upload it again.", "document", tpl["kinds"]))
 
     # ---- drafts ---------------------------------------------------------------------
     drafts: list[writer.Draft] = []
@@ -258,7 +275,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
         hits += knowledge.search(f"{label(sec['title'], lang)} {ctx.get('sector') or ''} {existing[:150]}", k=1)
         with trace.step(f"writer.{sid}"):
             d = writer.draft_section(sec, values=ctx.values, derived=derived, existing=existing, guidance=hits, lang=lang,
-                                     llm=llm if use_llm else LLMClient(api_key="", cache=False), masker=masker, trace=trace,
+                                     llm=llm if (use_llm and settings.llm_step("drafts")) else LLMClient(api_key="", cache=False), masker=masker, trace=trace,
                                      extra_numbers=_plan_numbers(plan))
         drafts.append(d)
         for h in hits:
@@ -279,7 +296,9 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     score = reviewer.overall(reviews)
     weak_names = [r.title for r in reviews if r.status in ("missing", "weak") and r.required]
     summary = _summary(lang, score, len(reviews), signals, weak_names)
-    if assess is not None:
+    if tpl["unfilled"] and assess is not None:
+        summary = assessment.LABEL_TEXT["unfilled"][lang if lang in ("en", "fr", "ar") else "en"] + ". " + assess.rationale
+    elif assess is not None:
         summary = f"{assessment.LABEL_TEXT[assess.verdict][lang if lang in ('en', 'fr', 'ar') else 'en']}. " + summary
     report = {
         "contract": "bp_report/1",
@@ -306,16 +325,24 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     chart_png = None
     if derived is not None and any(derived["revenue"]):
         with trace.step("chart_maker"):
-            chart_png = chart_maker.projection_png(derived, lang)
-        artifacts.append(Artifact(kind="png", file_ref=storage.put(chart_png), label="projection_chart"))
+            try:
+                chart_png = chart_maker.projection_png(derived, lang)
+            except Exception as exc:  # noqa: BLE001  a broken plotting install must not lose the review
+                chart_png = None
+                trace.note(f"chart skipped: {exc.__class__.__name__}: {exc}")
+        if chart_png:
+            artifacts.append(Artifact(kind="png", file_ref=storage.put(chart_png), label="projection_chart"))
     if opt.get("generate_plan") and mode == "review":
+        with trace.step("critic"):
+            crit = critic_agent.critique(full_text, sections, reviews, lang=lang, llm=llm, masker=masker, trace=trace,
+                                         use_llm=use_llm and settings.llm_step("critic"))
         with trace.step("plan_document"):
             secs = []
             rv_by = {r.section_id: r for r in reviews}
             for sec in template["sections"]:
                 comp = plan_doc.compose_section(sec, ctx.values, derived, lang)
                 hits = guidance.retrieve(sec["id"], label(sec["title"], "en"), k=2)
-                if use_llm:
+                if use_llm and settings.llm_step("plan_writer"):
                     plan_doc.polish(comp, sec, ctx.values, derived, hits, lang, llm, masker, trace)
                 plan_doc.advise(comp, rv_by.get(sec["id"]), hits, lang)
                 secs.append(comp)
@@ -323,10 +350,16 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
             if summ and secs:
                 secs[0]["blocks"] = list(summ) + secs[0]["blocks"] if secs[0]["id"] in ("executive_summary", "summary") else secs[0]["blocks"]
             open_items = [(s_["title"], s_["missing"]) for s_ in secs if s_["missing"]]
-            plan_bytes = plan_doc.build_plan_docx(str(ctx.get("project_name") or ""), secs, chart_png, lang, open_items)
+            plan_bytes = plan_doc.build_plan_docx(str(ctx.get("project_name") or ""), secs, chart_png, lang, open_items,
+                                                  critique=crit.to_dict())
         artifacts.append(Artifact(kind="docx", file_ref=storage.put(plan_bytes), label="business_plan"))
         report["generated_plan"] = {"sections": [{"id": s_["id"], "title": s_["title"], "missing": s_["missing"], "polished": bool(s_.get("polished")), "advice": s_.get("advice", [])} for s_ in secs],
                                     "open_items": sum(len(s_["missing"]) for s_ in secs)}
+        if use_llm and settings.llm_step("final_writer"):
+            with trace.step("final_writer"):
+                final_plan = _final_plan(masker, ctx.values, derived, full_text, crit, deadline, mode=fw_mode)
+                if final_plan is not None:
+                    report["final_plan"] = final_plan
     with trace.step("report.docx"):
         artifacts.append(Artifact(kind="docx", file_ref=storage.put(build_docx(report, chart_png, lang)), label="bp_review" if mode == "review" else "bp_draft"))
     artifacts.append(Artifact(kind="json", file_ref=storage.put(json.dumps(report, ensure_ascii=False, default=str).encode()), label="bp_report"))
@@ -340,6 +373,23 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
 
 def _plan_numbers(plan) -> set[float]:
     return writer.allowed_numbers([s["text"] for s in plan.sections.values()], plan.facts)
+
+
+def _final_plan(masker: Masker, values: dict, derived: dict | None, plan_text: str, crit, deadline: float,
+                mode: str = "batch") -> dict | None:
+    """The institutional six-section rewrite. Names stay local: inputs are masked, the result is unmasked.
+
+    Degrades to None on any failure, so the plan document and the rest of the report are never lost.
+    """
+    facts = json.dumps({"answers": {k: v for k, v in values.items() if k != "founders"},
+                        "derived": writer._slim(derived)}, ensure_ascii=False, default=str)
+    try:
+        out = asyncio.run(final_writer_agent.run_final_writer_agent(
+            prompts, masker.mask(facts), masker.mask(plan_text),
+            masker.mask(json.dumps(crit.to_dict()["weaknesses"], ensure_ascii=False)), deadline=deadline, mode=mode))
+        return masker.unmask_obj(out)
+    except Exception as exc:  # noqa: BLE001  a broken final writer must not lose the plan document
+        return None
 
 
 def _names(ctx: Context) -> list[str]:

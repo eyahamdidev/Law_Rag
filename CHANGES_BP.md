@@ -56,3 +56,42 @@ Tests: (cd services/bp && pytest)   (cd backend && pytest)
 - plan_doc.polish: with a model, the founder's plain answers are rewritten as business-plan prose (prompt plan_writer@v1). Every figure is checked against the founder's facts; untraceable ones are marked "[to be confirmed by the founder]".
 - plan_doc.advise: each section ends with "Advisor's notes" (criteria not covered yet + good-practice passage). Works without a model.
 - Untested with a real Groq key: only a stub model was used in tests.
+
+## v10: final institutional writer
+- `prompts/bp/final_writer/v2.yaml`: one section per call with a {{section}} placeholder; the six-section skeleton, English-only rule, zero-hallucination marker and critic-bridging rules are unchanged from v1.
+- `app/agents/final_writer.py`: `run_final_writer_agent(prompts, facts, current_plan, critique_report)` writes the six
+  skeleton sections sequentially over async HTTP (httpx, temperature 0, seed 7, JSON-schema mode when configured).
+  `writer.guard` runs on every section. Degrades per section (and as a whole) on no-key, timeout, bad JSON or an
+  exhausted time budget; it never raises.
+- `pipeline.py`: the critic pass (`app/agents/critic.py`) now runs inside `options.generate_plan` and feeds both
+  the "critical weaknesses" page of the plan docx (previously dormant) and the final writer. The final writer is
+  gated by `settings.llm_step("final_writer")`; its result is stored in `report["final_plan"]` of the `bp_report`
+  artifact (contract unchanged). Inputs are masked before the calls and the result is unmasked after.
+
+## v11: the final writer batches by default
+- `prompts/bp/final_writer/v3.yaml`: all six sections in one reply (90-160 words each), same rules as v2.
+- `app/agents/final_writer.py`: batch mode is the default — one call pays the context prefill once, which is most
+  of the wait on a slow local model (measured estimate: ~4 min down to ~1.5-2 min on a local 70B, ~20-30 s on an
+  8B). A section the batch reply dropped or malformed is topped up one call at a time with v2; if the batch call
+  itself failed, top-ups run without retries so a dead endpoint is not hammered. `mode="sequential"` keeps the v2
+  behavior. The result reports `mode` and `usage.calls`.
+- `options.final_writer_mode` (`batch | sequential`, default `batch`) selects the strategy; anything else is
+  `BAD_INPUT`. The report shape and the `bp_report` contract are unchanged.
+
+## v12: the stack ships its own model (docker-compose)
+- `docker-compose.yml` gains an `ollama` service (healthcheck, `ollama_models` volume, commented NVIDIA GPU block) and a
+  one-shot `ollama-init` that pulls `LLM_MODEL_MAIN` (default `qwen2.5:7b`) on first boot. The bp container now waits for
+  the pull (`service_completed_successfully`), so `docker compose up` is ready only when the model is usable. First boot
+  downloads ~4.7 GB; afterwards it is cached in the volume.
+- bp defaults in compose now point at the bundled Ollama (`LLM_BASE_URL=http://ollama:11434/v1`, `LLM_API_KEY=ollama`);
+  hosted OpenAI-compatible APIs stay one env override away. The gateway gets `BP_TIMEOUT_S=600` to match the bp budget so
+  local-model plan generation is not cut off at 90 s. Deterministic-only run: `docker compose up api bp --no-deps`.
+- `.env.example`: Ollama-first defaults, and the real-looking Groq key that was committed there is replaced by a
+  placeholder (it remains in git history — rotate it if it was live).
+
+## v13: Groq-first env template
+- `.env.example` now ships with the hosted Groq block active (placeholder key, `llama-3.3-70b-versatile` /
+  `llama-3.1-8b-instant`, fast timeouts) and the local-Ollama block commented with switch instructions. One active
+  block at a time — the previous version allowed both pairs to be present, where last-one-wins decided silently.
+- With the Groq block active under Docker, start `api bp --no-deps`: the bundled Ollama would otherwise be pulled
+  (4.7 GB) and awaited before bp starts, only to go unused.

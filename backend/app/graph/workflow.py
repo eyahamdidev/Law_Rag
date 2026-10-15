@@ -60,6 +60,30 @@ def run_question(question: str) -> ChatResponse:
             trace=trace,
         )
 
+    if decision.intent == "bp":
+        trace.append(
+            TraceStep(
+                module="bp",
+                status=ModuleStatus.ok,
+                detail="Open the Business plan tab: upload a plan, fill the questionnaire, or both.",
+            )
+        )
+        return ChatResponse(
+            status=ModuleStatus.ok,
+            intent="bp",
+            domains=[],
+            language=language,
+            needs_clarification=False,
+            answer=(
+                "Business-plan review runs in its own tab. Upload your plan, answer the "
+                "guided questionnaire, or do both. What you already told the assistant "
+                "(stage, sector, legal form, funding need) is reused there."
+            ),
+            abstained=False,
+            citations=[],
+            trace=trace,
+        )
+
     if decision.intent == "aid":
         trace.append(
             TraceStep(
