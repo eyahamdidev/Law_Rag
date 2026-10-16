@@ -1,78 +1,37 @@
-"""Local programs and the files already in this repository.
+"""Structured funding and aid catalog loader with provenance tracking.
 
-Eligibility rules are not encoded here. The matcher only filters this list
-by company stage so the web shell can show the right checklists.
+Every condition is grounded in a source document and page number.
 """
+
+from pathlib import Path
+import yaml
 
 from app.schemas.aid import AidProgram
 
-CATALOG: list[AidProgram] = [
-    AidProgram(
-        id="bfpme-creation",
-        name="BFPME financing request — creation",
-        provider="BFPME",
-        summary=(
-            "Checklists and the 2024 financing form for creating a small or "
-            "medium enterprise."
-        ),
-        stages=["creation"],
-        local_files=[
-            "grants_and_financial_aids/BFPME/Checklist_Creation_Entreprise.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Demande_Financement.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Notification_Financement.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Deblocage.pdf",
-            "grants_and_financial_aids/BFPME/Demande_Financement_BFPME_2024.doc",
-            "grants_and_financial_aids/Business_Plan_Models/Modele_Business_Plan_Creation.xls",
-        ],
-    ),
-    AidProgram(
-        id="bfpme-extension",
-        name="BFPME financing request — extension",
-        provider="BFPME",
-        summary="Checklists and business-plan model for extending an existing enterprise.",
-        stages=["extension", "growth"],
-        local_files=[
-            "grants_and_financial_aids/BFPME/Checklist_Extension_Entreprise.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Demande_Financement.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Notification_Financement.pdf",
-            "grants_and_financial_aids/BFPME/Checklist_Deblocage.pdf",
-            "grants_and_financial_aids/Business_Plan_Models/Modele_Business_Plan_Extension.xls",
-        ],
-    ),
-    AidProgram(
-        id="giz-business-plan",
-        name="GIZ business-plan model",
-        provider="GIZ",
-        summary="Plan-d'affaires template stored with the other financing models.",
-        stages=["creation", "extension", "growth"],
-        local_files=[
-            "grants_and_financial_aids/Business_Plan_Models/Modele_Plan_Affaires_GIZ.doc",
-        ],
-    ),
-    AidProgram(
-        id="startup-act",
-        name="Startup Act label and incentives",
-        provider="Startup Tunisia / JORT",
-        summary=(
-            "Law 2018-20, decree 2018-840, and BCT startup circulars live in "
-            "the legal corpus. Cited answers for those texts go through the RAG workers."
-        ),
-        stages=["creation", "growth"],
-        local_files=[
-            "law/TUNISIA_LEGAL_BUSINESS_CORPUS/01_STARTUPS",
-        ],
-    ),
-    AidProgram(
-        id="investment-incentives",
-        name="Investment-law incentives",
-        provider="JORT",
-        summary=(
-            "Law 2016-71, its 2017 decrees, and law 2019-47 are in the legal "
-            "corpus. Use cited answers for what the text says."
-        ),
-        stages=["creation", "extension", "growth"],
-        local_files=[
-            "law/TUNISIA_LEGAL_BUSINESS_CORPUS/02_INVESTMENT",
-        ],
-    ),
-]
+CATALOG_YAML_PATH = Path(__file__).with_name("catalog.yaml")
+
+
+def load_catalog(path: Path = CATALOG_YAML_PATH) -> list[AidProgram]:
+    """Load and validate the aid catalog from YAML."""
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle) or {}
+    raw_programs = data.get("programs", [])
+    return [AidProgram.model_validate(item) for item in raw_programs]
+
+
+CATALOG: list[AidProgram] = load_catalog()
+
+
+def get_program(program_id: str) -> AidProgram | None:
+    """Retrieve a program by id."""
+    for prog in CATALOG:
+        if prog.id == program_id:
+            return prog
+    return None
+
+
+def all_programs() -> list[AidProgram]:
+    """Return all catalog programs."""
+    return list(CATALOG)
