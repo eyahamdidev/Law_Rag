@@ -285,6 +285,21 @@ def test_literal_quote_options_are_present_in_the_source():
         assert engine._normalized(quote) in engine._normalized(source.text)
 
 
+def test_long_legal_list_retains_its_final_evidence():
+    source = passage().model_copy(update={"text": "Des dénominations " + "des mots " * 55 + "et des signes sonores."})
+    quotes = engine.quote_options(source)
+    assert any("signes sonores" in quote for quote in quotes)
+    assert all(engine._normalized(q) in engine._normalized(source.text) for q in quotes)
+
+
+def test_trademark_examples_prefer_definition_over_distinctiveness():
+    question = "Quels signes peuvent constituer une marque de fabrique ?"
+    _, expansion = engine.topic(question)
+    distinctive = passage().model_copy(update={"text":"Le caractère distinctif d’un signe de nature à constituer une marque s’apprécie à l’égard des produits ou services désignés."})
+    definition = passage().model_copy(update={"text":"Peuvent constituer un signe : les dénominations, les signes figuratifs et les signes sonores."})
+    assert engine.prioritize_intent([distinctive,definition],question,expansion)[0] == definition
+
+
 def test_english_source_prose_is_not_accepted_as_a_french_answer():
     assert not engine.language_matches("The trademark shall distinguish the goods and services of a business.","fr")
     assert engine.language_matches("La marque permet de distinguer les produits et les services de l'entreprise.","fr")

@@ -54,6 +54,8 @@ def topic(question):
         if any(term in folded for term in terms):
             if "brevet" in expansion and any(word in folded for word in ("condition", "requirement", "شروط", "brevetable", "patentable")):
                 expansion += " nouveauté activité inventive application industrielle novel inventive step industrial application الاختراعات الجديدة نشاط ابتكاري قابلة للتطبيق الصناعي"
+            if trademark_signs_question(question, expansion):
+                expansion += " Peuvent notamment constituer un tel signe dénominations mots noms patronymiques lettres chiffres signes figuratifs sonores signs words names letters numerals figurative sound"
             return domains, expansion
     return None, ""
 
@@ -72,8 +74,10 @@ def quote_options(passage):
     text = " ".join(passage.text[:1000].split())
     options = []
     for sentence in re.split(r"(?<=[.!?;])\s+", text):
-        if len(sentence) > 350:
-            sentence = sentence[:350].rsplit(" ", 1)[0]
+        while len(sentence) > 350:
+            excerpt = sentence[:350].rsplit(" ", 1)[0]
+            options.append(excerpt)
+            sentence = sentence[len(excerpt):].lstrip()
         if len(sentence) >= 12:
             options.append(sentence)
     return list(dict.fromkeys(options)) or [text[:350]]
@@ -83,8 +87,22 @@ def patentability_question(question, expansion):
     return "brevet" in expansion and any(word in question.casefold() for word in ("condition","requirement","شروط","brevetable","patentable"))
 
 
+def trademark_signs_question(question, expansion):
+    folded = question.casefold()
+    return "trademarks" in expansion and any(word in folded for word in ("signe", "signs", "constituer", "définition", "definition", "علامات", "إشارات"))
+
+
+def trademark_definition_score(passage):
+    text = passage.text.casefold()
+    groups = [("dénominations", "denominations", "names", "تسميات"),
+              ("figurat", "figurative", "تصوير"), ("sonores", "sound", "صوت")]
+    return sum(any(term in text for term in group) for group in groups)
+
+
 def prioritize_intent(passages, question, expansion):
     """For patentability questions, prefer the actual criteria over filing boilerplate."""
+    if trademark_signs_question(question, expansion):
+        return sorted(passages, key=trademark_definition_score, reverse=True)
     if not patentability_question(question,expansion):
         return passages
     groups = [("novel", "nouve", "جديد"), ("inventive", "inventiv", "ابتكاري"), ("industrial", "industri", "الصناعي")]
@@ -154,7 +172,7 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
                                 mode="needs_info", jurisdiction=body.jurisdiction, limitations=limitations)
     domains, expansion = topic(body.question)
     primary_domains = [d for d in domains if d != "ip_guidance"] if domains else None
-    candidates = 20 if patentability_question(body.question,expansion) else 5
+    candidates = 20 if patentability_question(body.question,expansion) or trademark_signs_question(body.question,expansion) else 5
     passages = web_passages if web_passages is not None else search_many([body.question, expansion], rerank_query=body.question, corpora=["law"], domains=primary_domains, k=candidates)
     trace = list(prior_trace or []) + [TraceStep(module="legal.wipo_research" if web_passages is not None else "legal.retrieve", status=ModuleStatus.ok,
         detail=(f"Bounded WIPO lookup: {passages[0].publisher_url}; accessed {passages[0].retrieved_at}; no profile or uploads transmitted." if web_passages else f"{len(passages)} legal passages; domain filter={domains}; multilingual query expansion."))]
@@ -174,6 +192,10 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
         return GuidanceResponse(result=fallback, mode="evidence_only", jurisdiction=body.jurisdiction, limitations=limitations)
     try:
         options=[quote_options(p) for p in passages]
+        if trademark_signs_question(body.question,expansion):
+            best = max(map(trademark_definition_score, passages), default=0)
+            if best >= 2:
+                options = [quotes if trademark_definition_score(p)==best else [] for p,quotes in zip(passages,options)]
         if patentability_question(body.question,expansion):
             groups=[("novel","nouve","جديد"),("inventive","inventiv","ابتكاري"),("industrial","industri","الصناعي")]
             def criteria_score(quote):
