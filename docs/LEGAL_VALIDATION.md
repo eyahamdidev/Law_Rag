@@ -4,7 +4,7 @@ Validated locally on 16 October 2026 with Python 3.12.10. These are software and
 
 ## Automated checks
 
-- 82 tests pass with the local corpus index. The suite includes the team's original API/orchestrator regressions, ten contract types in three output languages, Word package/content checks, missing-intake handling, ownership totals, unilateral NDA roles, rejected fabricated citations, translation numeric preservation, bounded WIPO fallback, private document intake, page-range limits and citation page offsets.
+- 83 tests pass with the local corpus index. The suite includes the team's original API/orchestrator regressions, ten contract types in three output languages, Word package/content checks, missing-intake handling, ownership totals, unilateral NDA roles, rejected fabricated citations, translation numeric and patent-terminology preservation, bounded WIPO fallback, private document intake, page-range limits and citation page offsets.
 - A fresh-clone configuration without generated indexes or model weights is also tested; only the two index-dependent integration checks are skipped there.
 - `pip check` reports no broken requirements. `node --check frontend/legal.js` passes.
 - GitHub Actions runs the no-key/no-model suite for the legal-guidance branch and integration pull requests. Its actions are pinned to verified official release commits. A workflow definition alone does not prove a remote run passed; inspect the check on the pushed commit.

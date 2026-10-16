@@ -221,6 +221,7 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
                 "If evidence is insufficient, return no claims and ask precise questions. No external knowledge."
                 f" The text field MUST be in { {'fr':'French','en':'English','ar':'Arabic'}[language] }, even if the quote is in another language."
                 " French legal terminology: natural person = personne physique; juridical person = personne morale; surnames = noms patronymiques."
+                " Arabic patent terminology: invention = اختراع, inventions = اختراعات, inventive step = نشاط ابتكاري. Never translate invention as اختيار (choice)."
             )},
             {"role": "user", "content": json.dumps({"language": language, "jurisdiction": body.jurisdiction, "question": body.question,
                 "profile": body.profile.known(), "user_documents": [{"filename": a.filename, "text": a.text[:1800]} for a in body.attachments],
@@ -249,6 +250,10 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
             refs = [r for r in refs if quote in _normalized(passages[r - 1].text[:1000])]
             if len(quote) < 12 or not refs:
                 continue
+            if language == "ar" and patentability_question(body.question,expansion):
+                claim_text = str(claim.get("text", ""))
+                if "اختيار" in claim_text and "اختراع" not in claim_text:
+                    continue
             key=(quote,tuple(sorted(refs)))
             if key in seen_quotes:
                 continue

@@ -111,6 +111,20 @@ def test_fabricated_citations_are_not_exposed_as_generated_answers(monkeypatch):
     assert "Invented rule" not in result.result.answer
     assert not result.result.claims and result.result.citations[0].page == 3
 
+
+def test_arabic_patent_answer_cannot_change_invention_into_choice(monkeypatch):
+    quote = "الاختراعات الجديدة والناتجة عن نشاط ابتكاري والقابلة للتطبيق الصناعي"
+    source = passage().model_copy(update={"text":quote,"domain":"intellectual_property","language":"ar"})
+    monkeypatch.setattr(engine,"search_many",lambda *a,**k:[source])
+    class Model:
+        available = True
+        def chat_json(self,*a,**k):
+            return {"claims":[{"text":"يجب أن يكون الاختيار جديدا.","quote":quote,"refs":[1]}]},SimpleNamespace(provider="fake",model="fake")
+    monkeypatch.setattr(engine,"get_llm",lambda:Model())
+    result = engine._guidance(GuidanceRequest(question="ما هي شروط حماية الاختراع ببراءة؟",language="ar"))
+    assert result.mode == "evidence_only"
+    assert "الاختيار" not in result.result.answer
+
 def test_verified_claim_retains_its_source_and_page(monkeypatch):
     monkeypatch.setattr(engine, "search_many", lambda *a, **k: [passage()])
     class Model:
