@@ -21,6 +21,24 @@ GOVERNORATES = [
     "باجة", "تطاوين", "قبلي", "مدنين", "قابس", "زغوان", "المهدية", "تونس",
 ]
 
+GOVERNORATE_CANONICAL = {
+    "القصرين": "kasserine",
+    "سيدي بوزيد": "sidi bouzid",
+    "قفصة": "gafsa",
+    "القيروان": "kairouan",
+    "جندوبة": "jendouba",
+    "الكاف": "kef",
+    "سليانة": "siliana",
+    "باجة": "beja",
+    "تطاوين": "tataouine",
+    "قبلي": "kebili",
+    "مدنين": "medenine",
+    "قابس": "gabes",
+    "زغوان": "zaghouan",
+    "المهدية": "mahdia",
+    "تونس": "tunis",
+}
+
 
 def heuristic_extract_profile(text: str) -> AidProfile:
     """Deterministic heuristic extraction when LLM is offline."""
@@ -65,6 +83,8 @@ def heuristic_extract_profile(text: str) -> AidProfile:
     found = False
     for cluster_name in priority_clusters:
         synonyms = set(SECTOR_CLUSTERS.get(cluster_name, set()))
+        if cluster_name == "greentech":
+            synonyms.update(["green tech", "solar", "solaire", "transition écologique"])
         if cluster_name == "technologie":
             synonyms.update(["logicielle", "startup"])
         for syn in sorted(synonyms, key=len, reverse=True):
@@ -94,7 +114,7 @@ def heuristic_extract_profile(text: str) -> AidProfile:
     governorate = None
     for gov in GOVERNORATES:
         if has_word(gov):
-            governorate = gov
+            governorate = GOVERNORATE_CANONICAL.get(gov, gov)
             break
 
     # 6. Flags
@@ -162,7 +182,7 @@ def extract_profile(
         )
         missing_fields = data.get("missing_fields") or []
         return profile, missing_fields, version_ref
-    except (LLMUnavailable, Exception):
+    except LLMUnavailable:
         profile = heuristic_extract_profile(question)
         missing = []
         if profile.stage == "unspecified":
@@ -172,4 +192,3 @@ def extract_profile(
         if profile.need == "unspecified":
             missing.append("need")
         return profile, missing, "heuristic@fallback"
-

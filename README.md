@@ -88,6 +88,13 @@ Wait for `Application startup complete`, then **about one more minute** while th
 - **http://127.0.0.1:8000**: the web interface. Ask for example `Quel est le capital minimum pour une SARL ?`, `ما هي شروط الحصول على علامة المؤسسة الناشئة؟` or `I'm launching a fintech: which legal form and what funding?`. Under each answer you see the sources (document, article, page) and the trace of every step.
 - **http://127.0.0.1:8000/docs**: call the API by hand (`/api/chat`, `/api/search`, `/api/agents`).
 
+The **Aid and financing** tab is also available in the main web interface. It
+calls `/api/aid/match` and displays eligible programmes, excluded programmes
+with reasons, source pages, required documents, legal handoffs, and the full
+deterministic rule trace. You can provide either structured profile fields or a
+founder description; missing stage, sector, and need fields are extracted from
+the description when possible.
+
 Stop with Ctrl+C.
 
 ### 6. Optional: use an NVIDIA GPU (Windows)

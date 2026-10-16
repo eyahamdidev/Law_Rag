@@ -155,7 +155,7 @@ Known profile context: {{profile}}
 
 **Observed failures:**
 
-- None recorded yet. Field extraction accuracy improved from 76% to 94% on the 32-profile benchmark.
+- None recorded yet.
 
 ## `intake.ocr_page`
 

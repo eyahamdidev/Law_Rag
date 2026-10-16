@@ -8,6 +8,7 @@ from app.prompts.library import get_prompt
 from app.schemas.agents import Citation, Claim
 from app.schemas.aid import AidMatchResponse
 from app.services.llm import LLMUnavailable, get_llm
+from app.modules.rag.retrieval.hybrid import search
 
 
 def explain_match(
@@ -19,6 +20,13 @@ def explain_match(
     citations: list[Citation] = []
     claims: list[Claim] = []
     evidence_blocks: list[str] = []
+
+    # Use indexed aid passages when available; deterministic catalog evidence
+    # remains the fallback when ingestion has not been run.
+    try:
+        passages = search(question, corpora=["grants"], k=5)
+    except (OSError, RuntimeError, ValueError):
+        passages = []
 
     # Build evidence passages from eligible programs
     ref_idx = 1
@@ -46,6 +54,26 @@ def explain_match(
                 verdict="supported",
             )
         )
+        ref_idx += 1
+
+    for passage in passages:
+        citations.append(
+            Citation(
+                ref=ref_idx,
+                doc_id=passage.doc_id,
+                title=passage.title,
+                path=passage.path,
+                page=passage.page_start,
+                page_end=passage.page_end,
+                act=passage.act,
+                article=passage.article,
+                quote=passage.text[:180],
+                score=passage.score,
+                score_meaning=passage.score_kind,
+                supported=None,
+            )
+        )
+        evidence_blocks.append(f"[{ref_idx}] {passage.citation_label()}: {passage.text[:700]}")
         ref_idx += 1
 
     # Format deterministic rule trace for prompt
@@ -96,7 +124,7 @@ def explain_match(
     try:
         result = llm.chat(messages, tier="main", max_tokens=400)
         return result.text, citations, claims, version_ref
-    except (LLMUnavailable, Exception):
+    except LLMUnavailable:
         # Fallback to deterministic summary
         lines = ["### Programmes éligibles\n"]
         for i, p in enumerate(match_response.programs, 1):

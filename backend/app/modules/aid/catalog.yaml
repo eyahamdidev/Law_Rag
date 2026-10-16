@@ -77,7 +77,7 @@ programs:
     requires_innovation: false
     requires_label: false
     requires_graduate: true
-    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/FONAPRAM.pdf"
+    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S025_FONAPRAM_national_fund_for_crafts_and_small_trades_BTS_2019.pdf"
     source_page: 1
     official_form_link: "https://www.bts.com.tn/fr/services-en-ligne/demande-de-credit/"
     required_documents:
@@ -87,7 +87,7 @@ programs:
       - "Factures proforma des équipements ou matériel roulant utilitaire"
       - "Contrat de location ou attestation de domiciliation du local"
     local_files:
-      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/FONAPRAM.pdf"
+      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S025_FONAPRAM_national_fund_for_crafts_and_small_trades_BTS_2019.pdf"
 
   - id: "sotugar-dhamen-express"
     name: "SOTUGAR — Garantie Dhamen Express"
@@ -102,7 +102,7 @@ programs:
     requires_innovation: false
     requires_label: false
     requires_graduate: false
-    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/SOTUGAR_Dhamen_Express.pdf"
+    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S030_SOTUGAR_credit_guarantee_schemes_Dhamen_Express_launch_artic.pdf"
     source_page: 1
     official_form_link: "https://www.sotugar.com.tn"
     required_documents:
@@ -111,7 +111,7 @@ programs:
       - "Fiche de renseignements SOTUGAR signée"
       - "Extrait RNE de l'entreprise"
     local_files:
-      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/SOTUGAR_Dhamen_Express.pdf"
+      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S030_SOTUGAR_credit_guarantee_schemes_Dhamen_Express_launch_artic.pdf"
 
   - id: "startup-act"
     name: "Startup Act — Label Startup & Avantages Fiscaux/Sociaux"
@@ -128,7 +128,7 @@ programs:
     conditions:
       max_company_age_years: 8
       innovation_scalability: true
-    source_file: "law/TUNISIA_LEGAL_BUSINESS_CORPUS/01_STARTUPS/JORT_2018-04-20_N32_FR_Loi_2018-20.pdf"
+    source_file: "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S005_Startup_Act_Law_2018_20_and_label_procedures_Startup_Act_pag.pdf"
     source_page: 2
     official_form_link: "https://startup.gov.tn"
     required_documents:
@@ -137,8 +137,7 @@ programs:
       - "CV des fondateurs et tableau de répartition du capital (Cap Table)"
       - "Dépôt du dossier sur le portail national startup.gov.tn"
     local_files:
-      - "law/TUNISIA_LEGAL_BUSINESS_CORPUS/01_STARTUPS/JORT_2018-04-20_N32_FR_Loi_2018-20.pdf"
-      - "law/TUNISIA_LEGAL_BUSINESS_CORPUS/01_STARTUPS/JORT_2018-10-23_N85_FR_Decret_2018-840.pdf"
+      - "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S005_Startup_Act_Law_2018_20_and_label_procedures_Startup_Act_pag.pdf"
 
   - id: "startup-air-grant"
     name: "Startup Flywheel — Bourse AIR (Avance Remboursable / Subvention POC)"
@@ -151,7 +150,7 @@ programs:
     requires_innovation: true
     requires_label: true
     requires_graduate: false
-    source_file: "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/Programme_AIR.pdf"
+    source_file: "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S001_Startup_Tunisia_programmes_page_Programmes.pdf"
     source_page: 1
     official_form_link: "https://startup.gov.tn/programmes/air"
     required_documents:
@@ -160,7 +159,7 @@ programs:
       - "Spécifications techniques du prototype / produit minimum viable (MVP)"
       - "Relevé d'identité bancaire (RIB) de l'entreprise ou du porteur"
     local_files:
-      - "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/Programme_AIR.pdf"
+      - "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S001_Startup_Tunisia_programmes_page_Programmes.pdf"
 
   - id: "investment-regional-premium"
     name: "Prime de Développement Régional (Loi 2016-71 & Décret 2017-389)"
@@ -188,7 +187,7 @@ programs:
     requires_innovation: false
     requires_label: false
     requires_graduate: false
-    source_file: "law/TUNISIA_LEGAL_BUSINESS_CORPUS/02_INVESTMENT/JORT_2017-03-14_N21_FR_Decret_2017-389.pdf"
+    source_file: "grants_and_financial_aids/Investment_incentives/linked/S012_Decret2017_389_Fr.pdf"
     source_page: 4
     official_form_link: "https://myinvest.tia.gov.tn"
     required_documents:
@@ -197,7 +196,7 @@ programs:
       - "Contrat de propriété ou de location du terrain / local dans la zone éligible"
       - "Attestation de libération d'au moins 30% des fonds propres"
     local_files:
-      - "law/TUNISIA_LEGAL_BUSINESS_CORPUS/02_INVESTMENT/JORT_2017-03-14_N21_FR_Decret_2017-389.pdf"
+      - "grants_and_financial_aids/Investment_incentives/linked/S012_Decret2017_389_Fr.pdf"
 
   - id: "investment-incentives"
     name: "Exonérations Fiscales de l'Investissement (Loi 2016-71)"
@@ -210,7 +209,7 @@ programs:
     requires_innovation: false
     requires_label: false
     requires_graduate: false
-    source_file: "law/TUNISIA_LEGAL_BUSINESS_CORPUS/02_INVESTMENT/JORT_2016-10-07_N82_FR_Loi_2016-71.pdf"
+    source_file: "grants_and_financial_aids/Investment_incentives/linked/S012_LOI71_2016_fr.pdf"
     source_page: 6
     official_form_link: "https://www.finances.gov.tn"
     required_documents:
@@ -218,7 +217,7 @@ programs:
       - "Quitus fiscal délivré par la recette des finances"
       - "Liasse fiscale annuelle et états financiers certifiés"
     local_files:
-      - "law/TUNISIA_LEGAL_BUSINESS_CORPUS/02_INVESTMENT/JORT_2016-10-07_N82_FR_Loi_2016-71.pdf"
+      - "grants_and_financial_aids/Investment_incentives/linked/S012_LOI71_2016_fr.pdf"
 
   - id: "giz-business-plan"
     name: "Modèle et Accompagnement Plan d'Affaires GIZ"
@@ -252,7 +251,7 @@ programs:
     requires_innovation: true
     requires_label: false
     requires_graduate: false
-    source_file: "grants_and_financial_aids/International_donors_accelerators_and_calls/Greentech_Call.pdf"
+    source_file: "grants_and_financial_aids/International_donors_accelerators_and_calls/S041_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Africarrieres.pdf"
     source_page: 1
     official_form_link: "https://anme.tn"
     required_documents:
@@ -260,4 +259,4 @@ programs:
       - "Dossier technique de la solution écologique et mesure de l'impact environnemental"
       - "Factures proforma des équipements verts / certifications"
     local_files:
-      - "grants_and_financial_aids/International_donors_accelerators_and_calls/Greentech_Call.pdf"
+      - "grants_and_financial_aids/International_donors_accelerators_and_calls/S041_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Africarrieres.pdf"

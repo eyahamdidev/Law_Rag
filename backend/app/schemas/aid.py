@@ -4,6 +4,7 @@ from typing import Any, Literal
 from pydantic import BaseModel, Field
 
 from app.schemas.common import ModuleStatus, TraceStep
+from app.schemas.agents import Citation, Claim
 
 
 class AidProfile(BaseModel):
@@ -91,3 +92,7 @@ class AidMatchResponse(BaseModel):
     handoff: Handoff | None = None
     summary: str
     trace: list[TraceStep] = Field(default_factory=list)
+    answer: str = ""
+    citations: list[Citation] = Field(default_factory=list)
+    claims: list[Claim] = Field(default_factory=list)
+    explanation_ref: str = ""

@@ -3,6 +3,7 @@
 import pytest
 from app.modules.aid.catalog import CATALOG, get_program
 from app.modules.aid.rules_engine import detect_law_handoff, match_programs
+from app.config import REPO_ROOT
 from app.schemas.aid import AidProfile
 
 
@@ -17,6 +18,14 @@ def test_catalog_loaded_and_valid():
         assert len(program.stages) > 0
         assert program.source_file, f"Program {program.id} missing source_file"
         assert program.source_page is not None, f"Program {program.id} missing source_page"
+
+
+def test_catalog_provenance_paths_exist():
+    """Catalog references must point to checked-in corpus files."""
+    for program in CATALOG:
+        assert (REPO_ROOT / program.source_file).is_file(), program.id
+        for local_file in program.local_files:
+            assert (REPO_ROOT / local_file).is_file(), f"{program.id}: {local_file}"
 
 
 def test_stage_filtering():
@@ -104,4 +113,3 @@ def test_statute_question_handoff_detection():
 
     # Non-legal question should not trigger handoff
     assert detect_law_handoff("Quels sont les financements disponibles pour ma startup ?") is None
-

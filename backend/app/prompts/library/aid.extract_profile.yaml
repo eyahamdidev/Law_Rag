@@ -73,5 +73,4 @@ versions:
       Founder message: {{question}}
       Known profile context: {{profile}}
     observed_failures:
-      - None recorded yet. Field extraction accuracy improved from 76% to 94% on the 32-profile benchmark.
-
+      - None recorded yet.
