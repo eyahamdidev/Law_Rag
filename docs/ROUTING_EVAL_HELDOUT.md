@@ -4,21 +4,21 @@
 
 | Router | Macro-F1 | Exact match |
 | --- | --- | --- |
-| keyword | 0.481 | 0.50 |
+| keyword | 0.469 | 0.50 |
 | llm | 1.000 | 1.00 |
 
-Calls served by: keyword: keyword x30; llm: orchestrator.planner@v4 via groq/qwen/qwen3.8-27b x28, orchestrator.planner@v4 via gemini/gemini-3.5-flash-lite x2
+Calls served by: keyword: keyword x30; llm: orchestrator.planner@v4 via groq/qwen/qwen3.8-27b x30
 
 ## keyword: F1 per agent
 
 | Agent | Precision | Recall | F1 | Support |
 | --- | --- | --- | --- | --- |
-| legal | 0.86 | 0.75 | 0.80 | 8 |
+| legal | 0.67 | 0.75 | 0.71 | 8 |
 | grants | 0.71 | 0.71 | 0.71 | 7 |
 | business_plan | 1.00 | 0.40 | 0.57 | 5 |
 | marketing | 1.00 | 0.25 | 0.40 | 4 |
 | fraud | 0.00 | 0.00 | 0.00 | 4 |
-| none | 0.27 | 0.80 | 0.40 | 5 |
+| none | 0.29 | 0.80 | 0.42 | 5 |
 
 ### keyword: errors
 
@@ -33,9 +33,9 @@ Calls served by: keyword: keyword x30; llm: orchestrator.planner@v4 via groq/qwe
 - `h017` Should I sell on Instagram or open my own website first? — expected ['marketing'], got ['none']
 - `h018` ما هي أفضل طريقة لتحديد سعر خدماتي؟ — expected ['marketing'], got ['none']
 - `h019` Je reçois des factures d'un fournisseur que je ne connais pas, c'est normal ? — expected ['fraud'], got ['none']
-- `h020` Can you read this NDA and tell me if anything is risky for me? — expected ['fraud'], got ['none']
+- `h020` Can you read this NDA and tell me if anything is risky for me? — expected ['fraud'], got ['legal']
 - `h021` Un investisseur me demande de payer des frais avant de transférer les fonds. — expected ['fraud'], got ['grants']
-- `h025` Ce contrat de prêt BFPME est-il équilibré, et quelles autres aides existent ? — expected ['fraud', 'grants'], got ['grants']
+- `h025` Ce contrat de prêt BFPME est-il équilibré, et quelles autres aides existent ? — expected ['fraud', 'grants'], got ['grants', 'legal']
 - `h028` Quelle est la capitale de l'Australie ? — expected ['none'], got ['legal']
 
 ## llm: F1 per agent
