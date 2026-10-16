@@ -1,0 +1,24 @@
+id: intake.ocr_page
+agent: intake
+role: >
+  Vision OCR for scanned PDF pages (the 1976 Foreign Exchange Code, the BCT 2022
+  exchange-regulation collection, the 2016 API procedures manual) and for scans or
+  photos that founders upload. The page is rendered to PNG and sent to the vision
+  model. Output is cached per document hash and page, then indexed like digital text.
+current: v1
+versions:
+  - version: v1
+    date: 2026-10-12
+    techniques:
+      - role prompting (transcriber, not summariser)
+      - format preservation instructions
+      - explicit uncertainty marker
+    system: ""
+    user: |
+      Transcribe all the text on this scanned page exactly as printed.
+      - Keep the original language (French or Arabic). Do not translate.
+      - Keep headings such as "Article 12" or "الفصل 12" on their own line.
+      - Keep the reading order of columns. Write tables row by row, cells separated by " | ".
+      - Write [illisible] for any word you cannot read. Do not guess it.
+      - Output the text only, with no comments.
+    observed_failures: []

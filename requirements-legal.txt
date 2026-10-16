@@ -1,0 +1,33 @@
+# Tunisian Legal & Financial Assistant
+# Python 3.10+
+# Install: pip install -r requirements.txt
+
+# --- Web application ---
+fastapi>=0.115.6
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-multipart>=0.0.20
+httpx>=0.28.0
+
+# --- Tests ---
+pytest>=8.3.0
+
+# --- Ingestion: page text, font repair, page rendering for OCR ---
+pymupdf>=1.25.0
+pyyaml>=6.0
+
+# --- Retrieval: ONNX embeddings and reranker on CPU (no PyTorch), vectors, BM25 ---
+fastembed>=0.5.0
+qdrant-client>=1.13.0
+rank-bm25>=0.2.2
+numpy>=1.26
+
+# --- Orchestration and LLM providers (Groq, Gemini via OpenAI-compatible APIs) ---
+langgraph>=0.2.60
+openai>=1.60.0
+
+
+# Editable contract drafts
+python-docx>=1.2.0
+Pillow>=10.0

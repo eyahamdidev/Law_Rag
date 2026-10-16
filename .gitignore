@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+mlruns/
+qdrant_storage/
+*.egg-info/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+_deck_extract.txt
+
+# Generated retrieval artefacts (chunks, embeddings, local Qdrant, OCR)
+data/

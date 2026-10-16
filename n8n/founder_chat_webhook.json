@@ -1,0 +1,77 @@
+{
+  "name": "Founder chat (webhook)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "founder-chat",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0001",
+      "name": "Founder message",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "7c1d6a52-3f6e-4f3e-a6a1-founderchat01"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ ($env.API_BASE_URL || 'http://localhost:8000') + '/api/chat' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ question: $json.body.question, session_id: $json.body.session_id || null, channel: 'webhook' }) }}",
+        "options": { "timeout": 120000 }
+      },
+      "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0002",
+      "name": "Orchestrator /api/chat",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [240, 0],
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = $input.first().json;\nconst sources = (r.citations || []).map(c => `[${c.ref}] ${c.act || c.title}${c.article ? ', art. ' + c.article : ''}, p. ${c.page}`);\nreturn [{ json: {\n  session_id: r.session_id,\n  answer: r.answer,\n  sources,\n  needs_clarification: r.needs_clarification,\n  abstained: r.abstained,\n  agents: (r.plan?.steps || []).map(s => s.agent),\n  verification: r.verification,\n  latency_ms: r.latency_ms\n} }];"
+      },
+      "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0003",
+      "name": "Format reply",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [480, -80]
+    },
+    {
+      "parameters": { "respondWith": "json", "responseBody": "={{ $json }}", "options": {} },
+      "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0004",
+      "name": "Reply",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [720, -80]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ answer: 'The assistant is unavailable right now. Please try again in a minute.', error: $json.error?.message || 'API error' }) }}",
+        "options": { "responseCode": 503 }
+      },
+      "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0005",
+      "name": "Reply: API down",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [480, 120]
+    }
+  ],
+  "connections": {
+    "Founder message": { "main": [[{ "node": "Orchestrator /api/chat", "type": "main", "index": 0 }]] },
+    "Orchestrator /api/chat": {
+      "main": [
+        [{ "node": "Format reply", "type": "main", "index": 0 }],
+        [{ "node": "Reply: API down", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format reply": { "main": [[{ "node": "Reply", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false
+}

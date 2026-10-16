@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Legal assistant: start local model",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["scripts/local_runtime.py"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Legal assistant: run API",
+      "dependsOn": "Legal assistant: start local model",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "uvicorn", "app.main:app", "--app-dir", "backend", "--host", "127.0.0.1", "--port", "8000"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Legal assistant: tests",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "pytest", "backend", "-q"],
+      "options": {"cwd": "${workspaceFolder}", "env": {"APP_ENV": "test"}},
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Legal assistant: build text index",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "app.modules.rag.ingestion.pipeline", "--strategy", "structural", "--chunks-only"],
+      "options": {"cwd": "${workspaceFolder}/backend"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Legal assistant: build vector index",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": ["-m", "app.modules.rag.ingestion.pipeline", "--strategy", "structural", "--reuse-chunks"],
+      "options": {"cwd": "${workspaceFolder}/backend"},
+      "problemMatcher": []
+    }
+  ]
+}

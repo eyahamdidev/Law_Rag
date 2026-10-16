@@ -1,0 +1,149 @@
+{
+  "name": "Founder chat (Telegram, text and documents)",
+  "nodes": [
+    {
+      "parameters": { "updates": ["message"], "additionalFields": {} },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0001",
+      "name": "Telegram message",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.1,
+      "position": [0, 0],
+      "webhookId": "b2f4e6a8-1c3d-4e5f-8a9b-telegramchat1",
+      "credentials": { "telegramApi": { "id": "REPLACE", "name": "Telegram bot" } }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "loose" },
+          "conditions": [
+            {
+              "id": "has-file",
+              "leftValue": "={{ !!($json.message.document || $json.message.photo) }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "true", "singleValue": true }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0002",
+      "name": "Has a document or photo?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "resource": "file",
+        "fileId": "={{ $json.message.document ? $json.message.document.file_id : $json.message.photo[$json.message.photo.length - 1].file_id }}",
+        "additionalFields": {}
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0003",
+      "name": "Download file",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [460, -120],
+      "credentials": { "telegramApi": { "id": "REPLACE", "name": "Telegram bot" } }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ ($env.API_BASE_URL || 'http://localhost:8000') + '/api/chat/upload' }}",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            { "name": "question", "value": "={{ $('Telegram message').item.json.message.caption || 'Analyse ce document pour mon projet.' }}" },
+            { "name": "session_id", "value": "={{ 'tg-' + $('Telegram message').item.json.message.chat.id }}" },
+            { "parameterType": "formBinaryData", "name": "files", "inputDataFieldName": "data" }
+          ]
+        },
+        "options": { "timeout": 180000 }
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0004",
+      "name": "Orchestrator /api/chat/upload",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [700, -120],
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ ($env.API_BASE_URL || 'http://localhost:8000') + '/api/chat' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ question: $json.message.text, session_id: 'tg-' + $json.message.chat.id, channel: 'telegram' }) }}",
+        "options": { "timeout": 120000 }
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0005",
+      "name": "Orchestrator /api/chat",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 120],
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "const r = $input.first().json;\nconst sources = (r.citations || []).slice(0, 6).map(c => `[${c.ref}] ${c.act || c.title}${c.article ? ', art. ' + c.article : ''}, p. ${c.page}`);\nlet text = r.answer || '';\nif (sources.length) text += '\\n\\nSources:\\n' + sources.join('\\n');\nif (!r.needs_clarification) text += '\\n\\nInformation, not legal advice. Check the official text before deciding.';\nreturn [{ json: { chat_id: $('Telegram message').first().json.message.chat.id, text: text.slice(0, 4000) } }];"
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0006",
+      "name": "Format reply",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [940, 0]
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $json.chat_id }}",
+        "text": "={{ $json.text }}",
+        "additionalFields": { "appendAttribution": false }
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0007",
+      "name": "Send reply",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1160, 0],
+      "credentials": { "telegramApi": { "id": "REPLACE", "name": "Telegram bot" } }
+    },
+    {
+      "parameters": {
+        "chatId": "={{ $('Telegram message').first().json.message.chat.id }}",
+        "text": "Le service est momentanément indisponible. Réessayez dans une minute.",
+        "additionalFields": { "appendAttribution": false }
+      },
+      "id": "a3e1c9d0-0000-4a00-9000-telegram0008",
+      "name": "Send: API down",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [940, 240],
+      "credentials": { "telegramApi": { "id": "REPLACE", "name": "Telegram bot" } }
+    }
+  ],
+  "connections": {
+    "Telegram message": { "main": [[{ "node": "Has a document or photo?", "type": "main", "index": 0 }]] },
+    "Has a document or photo?": {
+      "main": [
+        [{ "node": "Download file", "type": "main", "index": 0 }],
+        [{ "node": "Orchestrator /api/chat", "type": "main", "index": 0 }]
+      ]
+    },
+    "Download file": { "main": [[{ "node": "Orchestrator /api/chat/upload", "type": "main", "index": 0 }]] },
+    "Orchestrator /api/chat/upload": {
+      "main": [
+        [{ "node": "Format reply", "type": "main", "index": 0 }],
+        [{ "node": "Send: API down", "type": "main", "index": 0 }]
+      ]
+    },
+    "Orchestrator /api/chat": {
+      "main": [
+        [{ "node": "Format reply", "type": "main", "index": 0 }],
+        [{ "node": "Send: API down", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format reply": { "main": [[{ "node": "Send reply", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "active": false
+}
