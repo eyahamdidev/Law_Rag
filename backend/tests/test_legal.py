@@ -300,6 +300,13 @@ def test_trademark_examples_prefer_definition_over_distinctiveness():
     assert engine.prioritize_intent([distinctive,definition],question,expansion)[0] == definition
 
 
+def test_legal_list_items_are_separate_complete_quote_options():
+    source = passage().model_copy(update={"text":"Peuvent constituer un signe : a) Les mots et les lettres, b) Les dessins et les couleurs, c) Les sons et les phrases musicales."})
+    quotes = engine.quote_options(source)
+    assert "a) Les mots et les lettres," in quotes
+    assert "c) Les sons et les phrases musicales." in quotes
+
+
 def test_english_source_prose_is_not_accepted_as_a_french_answer():
     assert not engine.language_matches("The trademark shall distinguish the goods and services of a business.","fr")
     assert engine.language_matches("La marque permet de distinguer les produits et les services de l'entreprise.","fr")
