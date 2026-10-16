@@ -53,6 +53,9 @@ class Settings(BaseSettings):
     local_llm_base_url: str = "http://127.0.0.1:11434/v1"
     local_llm_model: str = "local-legal"
     legal_web_fallback_enabled: bool = False
+    # Fraud detection service (fraud_detection/), run separately: python -m fraud_detection serve --port 8100
+    fraud_service_url: str = "http://127.0.0.1:8100"
+    fraud_timeout_s: float = 60.0
     # gpt-oss only: hidden reasoning tokens count toward max_tokens. low | medium | high
     llm_reasoning_effort: str = "low"
 

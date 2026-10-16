@@ -117,7 +117,8 @@ class RagAgent(Agent):
             return AgentResult(
                 agent=self.id,
                 status="abstained",
-                answer="No passage in the corpus matches this question.",
+                # No text: the composer shows its own "nothing found" line in the founder's language.
+                answer="",
                 trace=trace,
             )
 

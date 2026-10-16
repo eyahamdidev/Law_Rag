@@ -1,0 +1,1695 @@
+{
+  "level": "AGGREGATE",
+  "fraud_labels": false,
+  "note": "Latest observation per published BCT SDMX series. These are not transactions.",
+  "datasets": {
+    "DCS": {
+      "dataset": "DCS",
+      "country": "TN",
+      "frequency": "M",
+      "n_periods": 297,
+      "period_start": "2001-12",
+      "period_end": "2026-08",
+      "n_series": 7,
+      "series": [
+        {
+          "code": "FMB_XDC",
+          "label": "M3",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 155243.0
+        },
+        {
+          "code": "FM2_XDC",
+          "label": "M2",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 144680.0
+        },
+        {
+          "code": "FM1_XDC",
+          "label": "M1",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 69633.0
+        },
+        {
+          "code": "FDSF_XDC",
+          "label": "Avoirs extérieurs  nets",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 9370.0
+        },
+        {
+          "code": "FDSAD_XDC",
+          "label": "Créances intérieures",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 197184.0
+        },
+        {
+          "code": "FDSDG_XDC",
+          "label": "Créances nettes sur l'Administration Centrale",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 70112.0
+        },
+        {
+          "code": "FDSAO_XDC",
+          "label": "Créances sur l'économie",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 127072.0
+        }
+      ]
+    },
+    "CBS": {
+      "dataset": "CBS",
+      "country": "TN",
+      "frequency": "M",
+      "n_periods": 297,
+      "period_start": "2001-12",
+      "period_end": "2026-08",
+      "n_series": 5,
+      "series": [
+        {
+          "code": "FASAFOTH_XDC",
+          "label": "Créances sur les non-résidents",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 28271.483
+        },
+        {
+          "code": "FASLF_XDC",
+          "label": "Engagements envers les non-résidents",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 4443.99
+        },
+        {
+          "code": "FASAG_XDC",
+          "label": "Créances sur l'Administration Centrale",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 22618.698
+        },
+        {
+          "code": "FASAD_XDC",
+          "label": "Créances sur  les autres institutions de dépôt",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 6997.492
+        },
+        {
+          "code": "FASMB_XDC",
+          "label": "Monnaie Centrale",
+          "n_observations": 297,
+          "period_start": "2001-12",
+          "period_end": "2026-08",
+          "latest_value": 41854.485
+        }
+      ]
+    },
+    "BOP6": {
+      "dataset": "BOP6",
+      "country": "TN",
+      "frequency": "A",
+      "n_periods": 8,
+      "period_start": "2018",
+      "period_end": "2025",
+      "n_series": 23,
+      "series": [
+        {
+          "code": "BCA_BP6_XDC",
+          "label": "Current account",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": -4038.199999999997
+        },
+        {
+          "code": "BXCA_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 77687.6
+        },
+        {
+          "code": "BMCA_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 81725.8
+        },
+        {
+          "code": "BG_BP6_XDC",
+          "label": "Goods",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": -34529.8
+        },
+        {
+          "code": "BXG_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 26343.0
+        },
+        {
+          "code": "BMG_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 60872.8
+        },
+        {
+          "code": "BS_BP6_XDC",
+          "label": "Services",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 23795.699999999997
+        },
+        {
+          "code": "BXS_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 36944.7
+        },
+        {
+          "code": "BMS_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 13149.0
+        },
+        {
+          "code": "BIP_BP6_XDC",
+          "label": "Primary income",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": -3947.2999999999993
+        },
+        {
+          "code": "BXIP_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 2743.1000000000004
+        },
+        {
+          "code": "BMIP_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 6690.4
+        },
+        {
+          "code": "BIS_BP6_XDC",
+          "label": "Secondary income",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 10643.199999999999
+        },
+        {
+          "code": "BXIS_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 11656.8
+        },
+        {
+          "code": "BMIS_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 1013.6000000000001
+        },
+        {
+          "code": "BK_BP6_XDC",
+          "label": "Capital account",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 843.1
+        },
+        {
+          "code": "BK_CD_BP6_XDC",
+          "label": "Credit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 869.2
+        },
+        {
+          "code": "BK_DB_BP6_XDC",
+          "label": "Debit",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 26.1
+        },
+        {
+          "code": "BFD_BP6_XDC",
+          "label": "Direct investment",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": -3336.5
+        },
+        {
+          "code": "BFP_BP6_XDC",
+          "label": "Portfolio investment",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 3105.4
+        },
+        {
+          "code": "BFO_BP6_XDC",
+          "label": "Other investment",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 34.899999999999466
+        },
+        {
+          "code": "BFRA_BP6_XDC",
+          "label": "Reserve assets",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": -1768.6999999999998
+        },
+        {
+          "code": "BOP_BP6_XDC",
+          "label": "Net errors and omissions",
+          "n_observations": 8,
+          "period_start": "2018",
+          "period_end": "2025",
+          "latest_value": 1230.2
+        }
+      ]
+    },
+    "ILV1": {
+      "dataset": "ILV1",
+      "country": "TN",
+      "frequency": "M",
+      "n_periods": 140,
+      "period_start": "2015-01",
+      "period_end": "2026-08",
+      "n_series": 6,
+      "series": [
+        {
+          "code": "RAFA_XDC",
+          "label": "Official Reserve Assets",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 28013777.264843
+        },
+        {
+          "code": "RAFAGOLD_XDC",
+          "label": "Gold (Including Gold Deposits and, If Appropriate, Gold Swapped)",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 1775959.2140559999
+        },
+        {
+          "code": "RAFASDR_XDC",
+          "label": "SDRs",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 75867.82067399999
+        },
+        {
+          "code": "RAFAFX_XDC",
+          "label": "Foreign Currency Reserves (in Convertible Foreign Currencies)",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 25679747.823569
+        },
+        {
+          "code": "RAFAIMF_XDC",
+          "label": "IMF Reserve Position",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 482202.406544
+        },
+        {
+          "code": "RAFAO_XDC",
+          "label": "Other Reserve Assets (Specify)",
+          "n_observations": 128,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 2021.4
+        }
+      ]
+    },
+    "ILV2": {
+      "dataset": "ILV2",
+      "country": "TN",
+      "frequency": "M",
+      "n_periods": 140,
+      "period_start": "2015-01",
+      "period_end": "2026-08",
+      "n_series": 19,
+      "series": [
+        {
+          "code": "MAU_RAFA_XDC",
+          "label": "A. Official reserve assets",
+          "n_observations": 120,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 28013.777264843004
+        },
+        {
+          "code": "MAU_RAFAFX_XDC",
+          "label": "(1) Foreign currency reserves (in convertible foreign currencies)",
+          "n_observations": 117,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 23667.76733133
+        },
+        {
+          "code": "MAU_RAFAFXS_XDC",
+          "label": "(a) Securities",
+          "n_observations": 115,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 12066.672596125
+        },
+        {
+          "code": "MAU_RAFAFXCD_XDC",
+          "label": "(b) total currency and deposits with:",
+          "n_observations": 36,
+          "period_start": "2023-06",
+          "period_end": "2026-08",
+          "latest_value": 11601.094735205
+        },
+        {
+          "code": "MAU_RAFAFXCDN_XDC",
+          "label": "(i) other national central banks, BIS and IMF",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 823.3482060389999
+        },
+        {
+          "code": "MAU_RAFAFXCDBO_XDC",
+          "label": "(iii) banks headquartered outside the reporting country",
+          "n_observations": 133,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 10777.746529166001
+        },
+        {
+          "code": "MAU_RAFAIMF_XDC",
+          "label": "(2) IMF reserve position",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 482.20240654400004
+        },
+        {
+          "code": "MAU_RAFASDR_XDC",
+          "label": "(3) SDRs",
+          "n_observations": 139,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 66.421667535
+        },
+        {
+          "code": "MAU_RAFAGOLD_XDC",
+          "label": "(4) gold (including gold deposits and, if appropriate, gold swapped)",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 1775.959214056
+        },
+        {
+          "code": "MAU_RAFAGOLDV_OZT",
+          "label": "—volume in fine troy ounces",
+          "n_observations": 28,
+          "period_start": "2024-05",
+          "period_end": "2026-08",
+          "latest_value": 0.2197137771089031
+        },
+        {
+          "code": "MAU_RAFAO_XDC",
+          "label": "(5) other reserve assets (specify)",
+          "n_observations": 128,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 2021.4266453780003
+        },
+        {
+          "code": "MAU_RAPFALSD_XDC",
+          "label": "Total",
+          "n_observations": 137,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 2886.5475324110157
+        },
+        {
+          "code": "MAU_RAPFALSD_1M_XDC",
+          "label": "—Up to 1 month",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": 7361.97634323964
+        },
+        {
+          "code": "MAU_RAPFALSD_1M_3M_XDC",
+          "label": "—More than 1 and up to 3 months",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -302.7668622396845
+        },
+        {
+          "code": "MAU_RAPFALSD_3M_1Y_XDC",
+          "label": "—More than 3 months and up to 1 year",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -4172.661948588941
+        },
+        {
+          "code": "MAU_RACFAL_XDC",
+          "label": "Total",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -1778.15964920094
+        },
+        {
+          "code": "MAU_RACFAL_1M_XDC",
+          "label": "—Up to 1 month",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -126.3
+        },
+        {
+          "code": "MAU_RACFAL_1M_3M_XDC",
+          "label": "—More than 1 and up to 3 months",
+          "n_observations": 138,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -183.2
+        },
+        {
+          "code": "MAU_RACFAL_3M_1Y_XDC",
+          "label": "—More than 3 months and up to 1 year",
+          "n_observations": 137,
+          "period_start": "2015-01",
+          "period_end": "2026-08",
+          "latest_value": -1468.65964920094
+        }
+      ]
+    },
+    "MET": {
+      "dataset": "MET",
+      "country": "TN",
+      "frequency": "M",
+      "n_periods": 142,
+      "period_start": "2014-01",
+      "period_end": "2026-07",
+      "n_series": 2,
+      "series": [
+        {
+          "code": "TXG_FOB_XDC",
+          "label": "External Trade, Goods, Value of Exports, Free on Board (FOB)",
+          "n_observations": 142,
+          "period_start": "2014-01",
+          "period_end": "2026-07",
+          "latest_value": 5993.3
+        },
+        {
+          "code": "TMG_CIF_XDC",
+          "label": "External Trade, Goods, Value of Imports, Cost Insurance Freight (CIF)",
+          "n_observations": 142,
+          "period_start": "2014-01",
+          "period_end": "2026-07",
+          "latest_value": 8381.4
+        }
+      ]
+    },
+    "IIP6": {
+      "dataset": "IIP6",
+      "country": "TN",
+      "frequency": "A",
+      "n_periods": 7,
+      "period_start": "2019",
+      "period_end": "2025",
+      "n_series": 88,
+      "series": [
+        {
+          "code": "I_BP6_XDC",
+          "label": "Net International Investment Position",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": -232014.49999999994
+        },
+        {
+          "code": "IA_BP6_XDC",
+          "label": "Assets",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 34288.7
+        },
+        {
+          "code": "IAD_BP6_XDC",
+          "label": "Direct investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2317.9
+        },
+        {
+          "code": "IADE_BP6_XDC",
+          "label": "Equity and investment fund shares",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2317.9
+        },
+        {
+          "code": "IADED_BP6_XDC",
+          "label": "Direct investor in direct investment  enterprises",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2317.9
+        },
+        {
+          "code": "IAP_BP6_XDC",
+          "label": "Portfolio investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 779.5
+        },
+        {
+          "code": "IAPE_BP6_XDC",
+          "label": "Equity and investment fund shares",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 779.5
+        },
+        {
+          "code": "IAPECB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 246.3
+        },
+        {
+          "code": "IAPEDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 533.2
+        },
+        {
+          "code": "IAO_BP6_XDC",
+          "label": "Other investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 3728.1
+        },
+        {
+          "code": "IAOCD_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1623.6
+        },
+        {
+          "code": "IAOCDDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1623.6
+        },
+        {
+          "code": "IAOCDDC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1623.6
+        },
+        {
+          "code": "IAOT_BP6_XDC",
+          "label": "Trade credit and advances",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2048.0
+        },
+        {
+          "code": "IAOTO_BP6_XDC",
+          "label": "Other sectors",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2048.0
+        },
+        {
+          "code": "IAOTO_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2048.0
+        },
+        {
+          "code": "IAOTONF_BP6_XDC",
+          "label": "Nonfinancial corporations, households, and NPISHs",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2048.0
+        },
+        {
+          "code": "IAOTONF_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2048.0
+        },
+        {
+          "code": "IAOR_BP6_XDC",
+          "label": "Other accounts receivable",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 56.5
+        },
+        {
+          "code": "IAORCB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2.2
+        },
+        {
+          "code": "IAORCB_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2.2
+        },
+        {
+          "code": "IAORDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 54.3
+        },
+        {
+          "code": "IAORDC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 54.3
+        },
+        {
+          "code": "IAR_BP6_XDC",
+          "label": "Reserve assets",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 27463.2
+        },
+        {
+          "code": "IARMG_BP6_XDC",
+          "label": "Monetary gold",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1671.4
+        },
+        {
+          "code": "IARMGGB_BP6_XDC",
+          "label": "Gold bullion",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1671.4
+        },
+        {
+          "code": "IARSDR_BP6_XDC",
+          "label": "Special drawing rights",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 38.6
+        },
+        {
+          "code": "IARIMF_BP6_XDC",
+          "label": "Reserve position in the IMF",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 492.6
+        },
+        {
+          "code": "IARO_BP6_XDC",
+          "label": "Other reserve assets",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 25260.600000000002
+        },
+        {
+          "code": "IAROCD_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 9180.1
+        },
+        {
+          "code": "IAROCDMA_BP6_XDC",
+          "label": "Claims on monetary authorities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2162.5
+        },
+        {
+          "code": "IAROCDO_BP6_XDC",
+          "label": "Claims on other entities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 7017.6
+        },
+        {
+          "code": "IAROS_BP6_XDC",
+          "label": "Securities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 16015.2
+        },
+        {
+          "code": "IAROSD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 16015.2
+        },
+        {
+          "code": "IAROSD_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 16015.2
+        },
+        {
+          "code": "IAROO_BP6_XDC",
+          "label": "Other claims",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 65.3
+        },
+        {
+          "code": "IL_BP6_XDC",
+          "label": "Liabilities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 266303.19999999995
+        },
+        {
+          "code": "ILD_BP6_XDC",
+          "label": "Direct investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 129690.6
+        },
+        {
+          "code": "ILDE_BP6_XDC",
+          "label": "Equity and investment fund shares",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 129690.6
+        },
+        {
+          "code": "ILDED_BP6_XDC",
+          "label": "Direct investor in direct investment  enterprises",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 129690.6
+        },
+        {
+          "code": "ILP_BP6_XDC",
+          "label": "Portfolio investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 11675.8
+        },
+        {
+          "code": "ILPE_BP6_XDC",
+          "label": "Equity and investment fund shares",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 6551.9
+        },
+        {
+          "code": "ILPECB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILPEDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 3427.5
+        },
+        {
+          "code": "ILPEO_BP6_XDC",
+          "label": "Other sectors",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 3124.4
+        },
+        {
+          "code": "ILPEOF_BP6_XDC",
+          "label": "Other financial corporations",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 385.1
+        },
+        {
+          "code": "ILPEONF_BP6_XDC",
+          "label": "Nonfinancial corporations, households, and NPISHs",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2739.3
+        },
+        {
+          "code": "ILPD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 5123.900000000001
+        },
+        {
+          "code": "ILPDCB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILPDCB_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILPDCB_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILPDDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 415.1
+        },
+        {
+          "code": "ILPDDC_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 415.1
+        },
+        {
+          "code": "ILPDG_BP6_XDC",
+          "label": "General government",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 4708.8
+        },
+        {
+          "code": "ILPDG_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 4708.8
+        },
+        {
+          "code": "ILO_BP6_XDC",
+          "label": "Other investment",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 124936.79999999999
+        },
+        {
+          "code": "ILOCD_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 19983.9
+        },
+        {
+          "code": "ILOCDCB_BP6_XDC",
+          "label": "Central banks",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 3661.4
+        },
+        {
+          "code": "ILOCDCB_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 746.9
+        },
+        {
+          "code": "ILOCDCB_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 2914.5
+        },
+        {
+          "code": "ILOCDDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except the central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 16322.5
+        },
+        {
+          "code": "ILOCDDC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 16322.5
+        },
+        {
+          "code": "ILOCDDC_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILOLN_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 61871.59999999999
+        },
+        {
+          "code": "ILOLNCB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1.6
+        },
+        {
+          "code": "ILOLNCBIMF_BP6_XDC",
+          "label": "Credit and loans with the IMF",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILOLNCB_L_BP6_XDC",
+          "label": "Other long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1.6
+        },
+        {
+          "code": "ILOLNDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except the central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 840.1
+        },
+        {
+          "code": "ILOLNDC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILOLNDC_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 840.1
+        },
+        {
+          "code": "ILOLNG_BP6_XDC",
+          "label": "General government",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 49148.2
+        },
+        {
+          "code": "ILOLNGIMF_BP6_XDC",
+          "label": "Credit and loans with the IMF",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 1713.5
+        },
+        {
+          "code": "ILOLNG_S_BP6_XDC",
+          "label": "Other short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILOLNG_L_BP6_XDC",
+          "label": "Other long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 47434.7
+        },
+        {
+          "code": "ILOLNO_BP6_XDC",
+          "label": "Other sectors",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 11881.7
+        },
+        {
+          "code": "ILOLNO_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 11881.7
+        },
+        {
+          "code": "ILOT_BP6_XDC",
+          "label": "Trade credit and advances",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 39618.9
+        },
+        {
+          "code": "ILOTO_BP6_XDC",
+          "label": "Other sectors",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 39618.9
+        },
+        {
+          "code": "ILOTO_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 39618.9
+        },
+        {
+          "code": "ILOTONF_BP6_XDC",
+          "label": "Nonfinancial corporations, households, and NPISHs",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 39618.9
+        },
+        {
+          "code": "ILOTONF_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 39618.9
+        },
+        {
+          "code": "ILOP_BP6_XDC",
+          "label": "Other accounts payable  - other",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 289.5
+        },
+        {
+          "code": "ILOPCB_BP6_XDC",
+          "label": "Central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 7.2
+        },
+        {
+          "code": "ILOPCB_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 7.2
+        },
+        {
+          "code": "ILOPDC_BP6_XDC",
+          "label": "Deposit-taking corporations, except central bank",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 282.3
+        },
+        {
+          "code": "ILOPDC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 0.0
+        },
+        {
+          "code": "ILOPDC_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 282.3
+        },
+        {
+          "code": "ILOSDR_BP6_XDC",
+          "label": "Special drawing rights  (Net incurrence of liabilities)",
+          "n_observations": 7,
+          "period_start": "2019",
+          "period_end": "2025",
+          "latest_value": 3172.9
+        }
+      ]
+    },
+    "EXD": {
+      "dataset": "IIP5",
+      "country": "TN",
+      "frequency": "Q",
+      "n_periods": 34,
+      "period_start": "2018-Q1",
+      "period_end": "2026-Q2",
+      "n_series": 50,
+      "series": [
+        {
+          "code": "DG_BP6_XDC",
+          "label": "General Government",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 54390.1
+        },
+        {
+          "code": "DG_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_SC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 9,
+          "period_start": "2024-Q2",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_SD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_SL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_SR_BP6_XDC",
+          "label": "Trade credit and advances",
+          "n_observations": 9,
+          "period_start": "2024-Q2",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_SO_BP6_XDC",
+          "label": "Other debt liabilities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DG_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 54390.1
+        },
+        {
+          "code": "DG_LS_BP6_XDC",
+          "label": "Special drawing rights (allocations)",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 2100.2
+        },
+        {
+          "code": "DG_LD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 4726.2
+        },
+        {
+          "code": "DG_LL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 47563.7
+        },
+        {
+          "code": "DG_LO_BP6_XDC",
+          "label": "Other debt liabilities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DCB_BP6_XDC",
+          "label": "Central Bank",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 4760.3
+        },
+        {
+          "code": "DCB_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 700.7
+        },
+        {
+          "code": "DCB_SC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 693.5
+        },
+        {
+          "code": "DCB_SD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DCB_SL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DCB_SO_BP6_XDC",
+          "label": "Other debt liabilities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 7.2
+        },
+        {
+          "code": "DCB_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 4059.6000000000004
+        },
+        {
+          "code": "DCB_LS_BP6_XDC",
+          "label": "Special drawing rights (allocations)",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 1095.8
+        },
+        {
+          "code": "DCB_LC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 2963.8
+        },
+        {
+          "code": "DCB_LD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DCB_LL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODC_BP6_XDC",
+          "label": "Deposit-Taking Corporations, except the Central Bank",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 18934.000000000004
+        },
+        {
+          "code": "DODC_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 18196.300000000003
+        },
+        {
+          "code": "DODC_SC_BP6_XDC",
+          "label": "Currency and deposits*",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 17388.9
+        },
+        {
+          "code": "DODC_SD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 420.4
+        },
+        {
+          "code": "DODC_SL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 7,
+          "period_start": "2018-Q1",
+          "period_end": "2019-Q3",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODC_SO_BP6_XDC",
+          "label": "Other debt liabilities**",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 387.0
+        },
+        {
+          "code": "DODC_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 737.6999999999999
+        },
+        {
+          "code": "DODC_LC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODC_LD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODC_LL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 737.6999999999999
+        },
+        {
+          "code": "DODC_LO_BP6_XDC",
+          "label": "Other debt liabilities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_BP6_XDC",
+          "label": "Other Sectors",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 49608.0
+        },
+        {
+          "code": "DODS_S_BP6_XDC",
+          "label": "Short-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 37985.7
+        },
+        {
+          "code": "DODS_SC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_SD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_SL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_SR_BP6_XDC",
+          "label": "Trade credit and advances",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 37985.7
+        },
+        {
+          "code": "DODS_L_BP6_XDC",
+          "label": "Long-term",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 11622.3
+        },
+        {
+          "code": "DODS_LC_BP6_XDC",
+          "label": "Currency and deposits",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_LD_BP6_XDC",
+          "label": "Debt securities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DODS_LL_BP6_XDC",
+          "label": "Loans",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 11622.3
+        },
+        {
+          "code": "DODS_LO_BP6_XDC",
+          "label": "Other debt liabilities",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DIL_A_BP6_XDC",
+          "label": "Direct Investment: Intercompany Lending",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DIL_BP6_XDC",
+          "label": "Debt liabilities of direct investment enterprises to direct investors",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DILD_BP6_XDC",
+          "label": "Debt liabilities of direct investors to direct investment enterprises",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "DILA_BP6_XDC",
+          "label": "Debt liabilities to fellow enterprises",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 0.0
+        },
+        {
+          "code": "D_BP6_XDC",
+          "label": "Gross External Debt Position",
+          "n_observations": 34,
+          "period_start": "2018-Q1",
+          "period_end": "2026-Q2",
+          "latest_value": 127692.4
+        }
+      ]
+    }
+  }
+}

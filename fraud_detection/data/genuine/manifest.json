@@ -1,0 +1,36 @@
+{
+  "role": "genuine",
+  "split": "supervised_positive",
+  "trained": false,
+  "note": "These four files are reference documents only. They are not enrolled. The supervised stamp verifier is trained separately on stamp_dataset_v2, and the live specimen store starts empty.",
+  "documents": [
+    {
+      "id": "labellisation_startup",
+      "file": "attestation_labellisation_startup.pdf",
+      "title": "Attestation de labellisation Startup Act",
+      "pages": 1,
+      "label": "genuine"
+    },
+    {
+      "id": "liberation_capital",
+      "file": "attestation_liberation_capital.pdf",
+      "title": "Attestation de libération du capital social",
+      "pages": 1,
+      "label": "genuine"
+    },
+    {
+      "id": "solde_bancaire",
+      "file": "attestation_solde_bancaire.pdf",
+      "title": "Attestation de solde bancaire",
+      "pages": 1,
+      "label": "genuine"
+    },
+    {
+      "id": "attribution_subvention",
+      "file": "decision_attribution_subvention.pdf",
+      "title": "Décision d'attribution de subvention",
+      "pages": 1,
+      "label": "genuine"
+    }
+  ]
+}

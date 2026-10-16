@@ -1,0 +1,18 @@
+{
+  "model_name": "tunisia_behavior",
+  "trained": false,
+  "artifact": null,
+  "reason": "No transaction-level Tunisian payments with fraud or AML labels were available. Aggregate BCT series, Findex indicators, and CTAF cases were not converted into training rows.",
+  "tunisia_score": null,
+  "coverage_possible": ["LOW", "MEDIUM"],
+  "coverage_not_used": "HIGH",
+  "global_models_retrained": false,
+  "ablation": {
+    "A_global_models_on_public_non_tunisia_sets": "unchanged; see fraud_detection/evaluation/metrics.json",
+    "B_global_plus_tunisia_context": "not evaluated",
+    "C_global_plus_tunisia_features": "not evaluated",
+    "D_global_plus_tunisia_model": "not trained",
+    "E_global_plus_tunisia_model_plus_rules": "not evaluated"
+  },
+  "download_date": "2026-10-06"
+}

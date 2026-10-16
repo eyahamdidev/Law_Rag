@@ -1,0 +1,3773 @@
+{
+  "reference": {
+    "n": 200,
+    "genuine": 9,
+    "fraudulent": 0,
+    "uncertain": 191,
+    "unrecognized": 0,
+    "missing": 0
+  },
+  "counterfeit": {
+    "n": 200,
+    "genuine": 0,
+    "fraudulent": 13,
+    "uncertain": 187,
+    "unrecognized": 0,
+    "missing": 0
+  },
+  "by_doc": {
+    "balance": {
+      "reference": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 0,
+        "uncertain": 50,
+        "unrecognized": 0,
+        "missing": 0
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 7,
+        "uncertain": 43,
+        "unrecognized": 0,
+        "missing": 0
+      }
+    },
+    "capital": {
+      "reference": {
+        "n": 50,
+        "genuine": 5,
+        "fraudulent": 0,
+        "uncertain": 45,
+        "unrecognized": 0,
+        "missing": 0
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 6,
+        "uncertain": 44,
+        "unrecognized": 0,
+        "missing": 0
+      }
+    },
+    "labellisation": {
+      "reference": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 0,
+        "uncertain": 50,
+        "unrecognized": 0,
+        "missing": 0
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 0,
+        "uncertain": 50,
+        "unrecognized": 0,
+        "missing": 0
+      }
+    },
+    "subvention": {
+      "reference": {
+        "n": 50,
+        "genuine": 4,
+        "fraudulent": 0,
+        "uncertain": 46,
+        "unrecognized": 0,
+        "missing": 0
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 0,
+        "fraudulent": 0,
+        "uncertain": 50,
+        "unrecognized": 0,
+        "missing": 0
+      }
+    }
+  },
+  "demonstration": {
+    "procedure": "After the decision rule was frozen, take pages in filename order. The genuine demonstration is the first four reference pages the live checker calls genuine. The counterfeit demonstration is the first four counterfeit pages it calls fraudulent. Families with no fraudulent call are absent from that list. This is a demonstration of the cases with positive evidence, not an independent evaluation.",
+    "genuine": [
+      {
+        "doc": "capital",
+        "name": "capital_0000_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "genuine",
+        "status": "match",
+        "alignment_ncc": 0.9754,
+        "genuine_probability": 0.0193
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0005_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "genuine",
+        "status": "match",
+        "alignment_ncc": 0.9674,
+        "genuine_probability": 0.0041
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0014_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "genuine",
+        "status": "match",
+        "alignment_ncc": 0.9648,
+        "genuine_probability": 0.012
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0021_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "genuine",
+        "status": "match",
+        "alignment_ncc": 0.9694,
+        "genuine_probability": 0.0142
+      }
+    ],
+    "fraudulent": [
+      {
+        "doc": "balance",
+        "name": "balance_0028_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "fraudulent",
+        "status": "fraudulent",
+        "alignment_ncc": 0.6952,
+        "genuine_probability": 0.0154
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0036_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "fraudulent",
+        "status": "fraudulent",
+        "alignment_ncc": 0.6402,
+        "genuine_probability": 0.0408
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0044_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "fraudulent",
+        "status": "fraudulent",
+        "alignment_ncc": 0.4784,
+        "genuine_probability": 0.0005
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0047_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "fraudulent",
+        "status": "fraudulent",
+        "alignment_ncc": 0.6155,
+        "genuine_probability": 0.0002
+      }
+    ]
+  },
+  "rows": [
+    {
+      "doc": "balance",
+      "name": "balance_0000_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5168,
+      "genuine_probability": 0.0058
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0001_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8762,
+      "genuine_probability": 0.043
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0002_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8698,
+      "genuine_probability": 0.1165
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0003_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7769,
+      "genuine_probability": 0.2247
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0004_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8709,
+      "genuine_probability": 0.349
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0005_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8703,
+      "genuine_probability": 0.3299
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0006_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6386,
+      "genuine_probability": 0.1032
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0007_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7598,
+      "genuine_probability": 0.0285
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0008_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8836,
+      "genuine_probability": 0.3086
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0009_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8879,
+      "genuine_probability": 0.1228
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0010_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8447,
+      "genuine_probability": 0.0327
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0011_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8613,
+      "genuine_probability": 0.0465
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0012_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8833,
+      "genuine_probability": 0.0502
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0013_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9071,
+      "genuine_probability": 0.0889
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0014_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9457,
+      "genuine_probability": 0.0784
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0015_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7509,
+      "genuine_probability": 0.305
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0016_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.872,
+      "genuine_probability": 0.2443
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0017_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8891,
+      "genuine_probability": 0.0227
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0018_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.825,
+      "genuine_probability": 0.1989
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0019_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8002,
+      "genuine_probability": 0.2923
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0020_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7988,
+      "genuine_probability": 0.0983
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0021_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8422,
+      "genuine_probability": 0.0802
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0022_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8879,
+      "genuine_probability": 0.0212
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0023_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7661,
+      "genuine_probability": 0.0135
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0024_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8846,
+      "genuine_probability": 0.2003
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0025_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8393,
+      "genuine_probability": 0.0022
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0026_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8159,
+      "genuine_probability": 0.1098
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0027_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8228,
+      "genuine_probability": 0.1717
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0028_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6952,
+      "genuine_probability": 0.0154
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0029_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7548,
+      "genuine_probability": 0.003
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0030_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8666,
+      "genuine_probability": 0.0257
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0031_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.732,
+      "genuine_probability": 0.2922
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0032_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9213,
+      "genuine_probability": 0.0307
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0033_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8122,
+      "genuine_probability": 0.04
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0034_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8199,
+      "genuine_probability": 0.5539
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0035_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.889,
+      "genuine_probability": 0.0344
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0036_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6402,
+      "genuine_probability": 0.0408
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0037_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8666,
+      "genuine_probability": 0.115
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0038_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.853,
+      "genuine_probability": 0.0372
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0039_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8267,
+      "genuine_probability": 0.0298
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0040_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8527,
+      "genuine_probability": 0.2921
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0041_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8385,
+      "genuine_probability": 0.0193
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0042_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8742,
+      "genuine_probability": 0.0948
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0043_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8775,
+      "genuine_probability": 0.0142
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0044_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.4784,
+      "genuine_probability": 0.0005
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0045_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8631,
+      "genuine_probability": 0.2173
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0046_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8098,
+      "genuine_probability": 0.0454
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0047_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6155,
+      "genuine_probability": 0.0002
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0048_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8275,
+      "genuine_probability": 0.0613
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0049_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7302,
+      "genuine_probability": 0.0099
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0050_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7639,
+      "genuine_probability": 0.1655
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0051_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9051,
+      "genuine_probability": 0.1802
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0052_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7813,
+      "genuine_probability": 0.1889
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0053_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.821,
+      "genuine_probability": 0.1226
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0054_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8855,
+      "genuine_probability": 0.1359
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0055_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8362,
+      "genuine_probability": 0.0353
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0056_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8848,
+      "genuine_probability": 0.2424
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0057_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8616,
+      "genuine_probability": 0.0526
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0058_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6618,
+      "genuine_probability": 0.0096
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0059_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8722,
+      "genuine_probability": 0.0488
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0060_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9257,
+      "genuine_probability": 0.0146
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0061_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8198,
+      "genuine_probability": 0.0182
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0062_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7496,
+      "genuine_probability": 0.009
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0063_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9367,
+      "genuine_probability": 0.0817
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0064_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7772,
+      "genuine_probability": 0.0049
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0065_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9011,
+      "genuine_probability": 0.0526
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0066_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7949,
+      "genuine_probability": 0.091
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0067_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8372,
+      "genuine_probability": 0.2157
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0068_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8432,
+      "genuine_probability": 0.0513
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0069_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8756,
+      "genuine_probability": 0.0101
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0070_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8297,
+      "genuine_probability": 0.0714
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0071_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8667,
+      "genuine_probability": 0.2849
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0072_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9067,
+      "genuine_probability": 0.1515
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0073_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.8156,
+      "genuine_probability": 0.0388
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0074_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8698,
+      "genuine_probability": 0.1586
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0075_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7181,
+      "genuine_probability": 0.0466
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0076_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8674,
+      "genuine_probability": 0.0563
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0077_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8501,
+      "genuine_probability": 0.3138
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0078_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8413,
+      "genuine_probability": 0.3254
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0079_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8898,
+      "genuine_probability": 0.0522
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0080_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8368,
+      "genuine_probability": 0.5474
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0081_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.609,
+      "genuine_probability": 0.0119
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0082_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8224,
+      "genuine_probability": 0.2239
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0083_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8747,
+      "genuine_probability": 0.0359
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0084_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8154,
+      "genuine_probability": 0.0098
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0085_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8883,
+      "genuine_probability": 0.0422
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0086_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.6967,
+      "genuine_probability": 0.0156
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0087_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9029,
+      "genuine_probability": 0.1427
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0088_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8506,
+      "genuine_probability": 0.0176
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0089_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8182,
+      "genuine_probability": 0.0875
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0090_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8091,
+      "genuine_probability": 0.2317
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0091_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8224,
+      "genuine_probability": 0.019
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0092_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8306,
+      "genuine_probability": 0.0584
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0093_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8817,
+      "genuine_probability": 0.2813
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0094_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8664,
+      "genuine_probability": 0.1147
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0095_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7187,
+      "genuine_probability": 0.0329
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0096_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7628,
+      "genuine_probability": 0.3039
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0097_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8189,
+      "genuine_probability": 0.2308
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0098_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8233,
+      "genuine_probability": 0.0632
+    },
+    {
+      "doc": "balance",
+      "name": "balance_0099_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.897,
+      "genuine_probability": 0.002
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0000_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9754,
+      "genuine_probability": 0.0193
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0001_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9616,
+      "genuine_probability": 0.0034
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0002_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9215,
+      "genuine_probability": 0.0635
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0003_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8961,
+      "genuine_probability": 0.1758
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0004_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9381,
+      "genuine_probability": 0.0325
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0005_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9674,
+      "genuine_probability": 0.0041
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0006_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9341,
+      "genuine_probability": 0.0231
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0007_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9311,
+      "genuine_probability": 0.0503
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0008_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.923,
+      "genuine_probability": 0.0061
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0009_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8108,
+      "genuine_probability": 0.0164
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0010_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9484,
+      "genuine_probability": 0.0078
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0011_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.929,
+      "genuine_probability": 0.0068
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0012_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9677,
+      "genuine_probability": 0.0076
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0013_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9599,
+      "genuine_probability": 0.0135
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0014_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9648,
+      "genuine_probability": 0.012
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0015_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.944,
+      "genuine_probability": 0.1272
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0016_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9167,
+      "genuine_probability": 0.0815
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0017_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9429,
+      "genuine_probability": 0.013
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0018_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9514,
+      "genuine_probability": 0.4328
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0019_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.5264,
+      "genuine_probability": 0.0029
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0020_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.654,
+      "genuine_probability": 0.113
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0021_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9694,
+      "genuine_probability": 0.0142
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0022_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9319,
+      "genuine_probability": 0.0248
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0023_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.2331,
+      "genuine_probability": 0.0012
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0024_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9626,
+      "genuine_probability": 0.0089
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0025_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9662,
+      "genuine_probability": 0.0064
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0026_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9497,
+      "genuine_probability": 0.0678
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0027_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9448,
+      "genuine_probability": 0.0478
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0028_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9325,
+      "genuine_probability": 0.0635
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0029_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9279,
+      "genuine_probability": 0.0031
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0030_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9189,
+      "genuine_probability": 0.0175
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0031_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9277,
+      "genuine_probability": 0.1721
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0032_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9471,
+      "genuine_probability": 0.0235
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0033_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9084,
+      "genuine_probability": 0.012
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0034_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8672,
+      "genuine_probability": 0.0514
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0035_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9424,
+      "genuine_probability": 0.0967
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0036_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.779,
+      "genuine_probability": 0.0204
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0037_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9361,
+      "genuine_probability": 0.0571
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0038_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.3964,
+      "genuine_probability": 0.0004
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0039_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9403,
+      "genuine_probability": 0.0052
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0040_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7025,
+      "genuine_probability": 0.0079
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0041_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.927,
+      "genuine_probability": 0.0061
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0042_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9238,
+      "genuine_probability": 0.1313
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0043_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9335,
+      "genuine_probability": 0.0135
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0044_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8591,
+      "genuine_probability": 0.0646
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0045_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9233,
+      "genuine_probability": 0.0476
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0046_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8469,
+      "genuine_probability": 0.0431
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0047_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9148,
+      "genuine_probability": 0.0125
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0048_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9619,
+      "genuine_probability": 0.0823
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0049_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9402,
+      "genuine_probability": 0.1137
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0050_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9222,
+      "genuine_probability": 0.0467
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0051_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9581,
+      "genuine_probability": 0.0186
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0052_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9483,
+      "genuine_probability": 0.0044
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0053_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9152,
+      "genuine_probability": 0.1541
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0054_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9209,
+      "genuine_probability": 0.0631
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0055_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9433,
+      "genuine_probability": 0.0036
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0056_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8951,
+      "genuine_probability": 0.0044
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0057_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9544,
+      "genuine_probability": 0.049
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0058_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.948,
+      "genuine_probability": 0.0098
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0059_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8323,
+      "genuine_probability": 0.0185
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0060_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8944,
+      "genuine_probability": 0.1073
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0061_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.925,
+      "genuine_probability": 0.0482
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0062_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9433,
+      "genuine_probability": 0.0055
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0063_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.864,
+      "genuine_probability": 0.009
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0064_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8401,
+      "genuine_probability": 0.0139
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0065_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.4413,
+      "genuine_probability": 0.0057
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0066_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9559,
+      "genuine_probability": 0.0131
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0067_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9435,
+      "genuine_probability": 0.32
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0068_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9598,
+      "genuine_probability": 0.0044
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0069_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.941,
+      "genuine_probability": 0.1318
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0070_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9092,
+      "genuine_probability": 0.0193
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0071_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9507,
+      "genuine_probability": 0.007
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0072_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9545,
+      "genuine_probability": 0.0568
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0073_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9268,
+      "genuine_probability": 0.0322
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0074_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8791,
+      "genuine_probability": 0.058
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0075_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9252,
+      "genuine_probability": 0.0102
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0076_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9503,
+      "genuine_probability": 0.0162
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0077_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9395,
+      "genuine_probability": 0.0126
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0078_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9204,
+      "genuine_probability": 0.3088
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0079_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.585,
+      "genuine_probability": 0.0173
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0080_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9417,
+      "genuine_probability": 0.0167
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0081_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9484,
+      "genuine_probability": 0.0511
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0082_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8587,
+      "genuine_probability": 0.0426
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0083_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8638,
+      "genuine_probability": 0.0098
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0084_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9537,
+      "genuine_probability": 0.001
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0085_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9163,
+      "genuine_probability": 0.0358
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0086_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.755,
+      "genuine_probability": 0.0131
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0087_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9216,
+      "genuine_probability": 0.1867
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0088_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.932,
+      "genuine_probability": 0.2288
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0089_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.945,
+      "genuine_probability": 0.0101
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0090_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9356,
+      "genuine_probability": 0.0176
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0091_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "alignment_ncc": 0.4425,
+      "genuine_probability": 0.0033
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0092_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9187,
+      "genuine_probability": 0.044
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0093_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9462,
+      "genuine_probability": 0.0125
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0094_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9349,
+      "genuine_probability": 0.0989
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0095_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9352,
+      "genuine_probability": 0.0127
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0096_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9324,
+      "genuine_probability": 0.0784
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0097_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5876,
+      "genuine_probability": 0.0985
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0098_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9531,
+      "genuine_probability": 0.0022
+    },
+    {
+      "doc": "capital",
+      "name": "capital_0099_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9316,
+      "genuine_probability": 0.0583
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0000_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8164,
+      "genuine_probability": 0.0007
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0001_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7047,
+      "genuine_probability": 0.0061
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0002_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7707,
+      "genuine_probability": 0.002
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0003_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7769,
+      "genuine_probability": 0.0034
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0004_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.769,
+      "genuine_probability": 0.0013
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0005_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7751,
+      "genuine_probability": 0.0009
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0006_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6883,
+      "genuine_probability": 0.0079
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0007_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7623,
+      "genuine_probability": 0.0018
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0008_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6882,
+      "genuine_probability": 0.0297
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0009_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7593,
+      "genuine_probability": 0.0054
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0010_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7555,
+      "genuine_probability": 0.0155
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0011_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7437,
+      "genuine_probability": 0.0051
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0012_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7851,
+      "genuine_probability": 0.0011
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0013_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7631,
+      "genuine_probability": 0.032
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0014_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7736,
+      "genuine_probability": 0.0196
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0015_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7691,
+      "genuine_probability": 0.0026
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0016_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7721,
+      "genuine_probability": 0.0013
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0017_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.764,
+      "genuine_probability": 0.004
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0018_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7593,
+      "genuine_probability": 0.0083
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0019_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7591,
+      "genuine_probability": 0.0066
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0020_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6693,
+      "genuine_probability": 0.0053
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0021_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7874,
+      "genuine_probability": 0.0019
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0022_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.74,
+      "genuine_probability": 0.0017
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0023_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.681,
+      "genuine_probability": 0.004
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0024_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7216,
+      "genuine_probability": 0.0343
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0025_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.776,
+      "genuine_probability": 0.0038
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0026_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7547,
+      "genuine_probability": 0.0028
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0027_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7468,
+      "genuine_probability": 0.004
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0028_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7009,
+      "genuine_probability": 0.0056
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0029_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.791,
+      "genuine_probability": 0.0083
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0030_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7844,
+      "genuine_probability": 0.0036
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0031_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7586,
+      "genuine_probability": 0.0271
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0032_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7816,
+      "genuine_probability": 0.023
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0033_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6977,
+      "genuine_probability": 0.0112
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0034_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8062,
+      "genuine_probability": 0.0014
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0035_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7709,
+      "genuine_probability": 0.004
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0036_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7592,
+      "genuine_probability": 0.0023
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0037_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6905,
+      "genuine_probability": 0.0008
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0038_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6951,
+      "genuine_probability": 0.0166
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0039_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6984,
+      "genuine_probability": 0.0005
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0040_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.703,
+      "genuine_probability": 0.0097
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0041_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7713,
+      "genuine_probability": 0.036
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0042_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7646,
+      "genuine_probability": 0.0123
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0043_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6863,
+      "genuine_probability": 0.0966
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0044_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6544,
+      "genuine_probability": 0.0026
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0045_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7726,
+      "genuine_probability": 0.02
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0046_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7092,
+      "genuine_probability": 0.0008
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0047_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7843,
+      "genuine_probability": 0.0424
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0048_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7609,
+      "genuine_probability": 0.0005
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0049_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7338,
+      "genuine_probability": 0.0037
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0050_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6973,
+      "genuine_probability": 0.0023
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0051_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7663,
+      "genuine_probability": 0.0035
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0052_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7091,
+      "genuine_probability": 0.0095
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0053_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7757,
+      "genuine_probability": 0.0009
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0054_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7676,
+      "genuine_probability": 0.0043
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0055_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6959,
+      "genuine_probability": 0.0022
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0056_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7782,
+      "genuine_probability": 0.0067
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0057_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7347,
+      "genuine_probability": 0.0048
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0058_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6974,
+      "genuine_probability": 0.0049
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0059_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7253,
+      "genuine_probability": 0.0044
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0060_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7761,
+      "genuine_probability": 0.0059
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0061_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7688,
+      "genuine_probability": 0.0172
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0062_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7611,
+      "genuine_probability": 0.0098
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0063_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7706,
+      "genuine_probability": 0.0071
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0064_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.767,
+      "genuine_probability": 0.002
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0065_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7662,
+      "genuine_probability": 0.0009
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0066_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.576,
+      "genuine_probability": 0.0007
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0067_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7731,
+      "genuine_probability": 0.0026
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0068_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.774,
+      "genuine_probability": 0.0012
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0069_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7817,
+      "genuine_probability": 0.0032
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0070_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6957,
+      "genuine_probability": 0.0294
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0071_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7776,
+      "genuine_probability": 0.008
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0072_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.641,
+      "genuine_probability": 0.0017
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0073_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7531,
+      "genuine_probability": 0.0108
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0074_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7818,
+      "genuine_probability": 0.092
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0075_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.767,
+      "genuine_probability": 0.0047
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0076_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7173,
+      "genuine_probability": 0.0013
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0077_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7707,
+      "genuine_probability": 0.0058
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0078_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.4505,
+      "genuine_probability": 0.0049
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0079_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5801,
+      "genuine_probability": 0.0018
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0080_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7479,
+      "genuine_probability": 0.0038
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0081_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5436,
+      "genuine_probability": 0.239
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0082_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7255,
+      "genuine_probability": 0.005
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0083_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9016,
+      "genuine_probability": 0.0293
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0084_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7641,
+      "genuine_probability": 0.0042
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0085_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7689,
+      "genuine_probability": 0.0126
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0086_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7862,
+      "genuine_probability": 0.0633
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0087_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6744,
+      "genuine_probability": 0.0011
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0088_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.765,
+      "genuine_probability": 0.0306
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0089_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5202,
+      "genuine_probability": 0.0027
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0090_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8034,
+      "genuine_probability": 0.0037
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0091_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.775,
+      "genuine_probability": 0.0037
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0092_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7365,
+      "genuine_probability": 0.0097
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0093_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7779,
+      "genuine_probability": 0.0101
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0094_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7028,
+      "genuine_probability": 0.0021
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0095_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.766,
+      "genuine_probability": 0.0185
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0096_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8066,
+      "genuine_probability": 0.0009
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0097_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7587,
+      "genuine_probability": 0.0003
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0098_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.719,
+      "genuine_probability": 0.0081
+    },
+    {
+      "doc": "labellisation",
+      "name": "labellisation_0099_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7775,
+      "genuine_probability": 0.0271
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0000_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8171,
+      "genuine_probability": 0.0048
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0001_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8906,
+      "genuine_probability": 0.0176
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0002_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8302,
+      "genuine_probability": 0.0055
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0003_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.5718,
+      "genuine_probability": 0.005
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0004_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8165,
+      "genuine_probability": 0.0358
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0005_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8968,
+      "genuine_probability": 0.0097
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0006_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8926,
+      "genuine_probability": 0.0034
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0007_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9367,
+      "genuine_probability": 0.1665
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0008_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9266,
+      "genuine_probability": 0.0182
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0009_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.868,
+      "genuine_probability": 0.0249
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0010_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.903,
+      "genuine_probability": 0.0952
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0011_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8826,
+      "genuine_probability": 0.0064
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0012_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9409,
+      "genuine_probability": 0.0136
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0013_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8828,
+      "genuine_probability": 0.0805
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0014_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8588,
+      "genuine_probability": 0.0162
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0015_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8982,
+      "genuine_probability": 0.1478
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0016_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9145,
+      "genuine_probability": 0.0064
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0017_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9694,
+      "genuine_probability": 0.0071
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0018_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8709,
+      "genuine_probability": 0.0409
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0019_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9165,
+      "genuine_probability": 0.0167
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0020_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9147,
+      "genuine_probability": 0.1093
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0021_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7873,
+      "genuine_probability": 0.0861
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0022_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9667,
+      "genuine_probability": 0.0222
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0023_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6901,
+      "genuine_probability": 0.0085
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0024_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9648,
+      "genuine_probability": 0.1125
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0025_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8789,
+      "genuine_probability": 0.0215
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0026_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9069,
+      "genuine_probability": 0.0422
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0027_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9475,
+      "genuine_probability": 0.2155
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0028_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7924,
+      "genuine_probability": 0.0025
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0029_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.924,
+      "genuine_probability": 0.0688
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0030_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7942,
+      "genuine_probability": 0.0221
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0031_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8918,
+      "genuine_probability": 0.006
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0032_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6906,
+      "genuine_probability": 0.0009
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0033_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8805,
+      "genuine_probability": 0.0137
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0034_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8704,
+      "genuine_probability": 0.0114
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0035_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8293,
+      "genuine_probability": 0.0385
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0036_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9512,
+      "genuine_probability": 0.0319
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0037_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8302,
+      "genuine_probability": 0.0169
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0038_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9668,
+      "genuine_probability": 0.0681
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0039_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8852,
+      "genuine_probability": 0.0078
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0040_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8411,
+      "genuine_probability": 0.0654
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0041_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8706,
+      "genuine_probability": 0.0154
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0042_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9089,
+      "genuine_probability": 0.001
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0043_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9218,
+      "genuine_probability": 0.1174
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0044_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9522,
+      "genuine_probability": 0.0839
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0045_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9172,
+      "genuine_probability": 0.0167
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0046_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8819,
+      "genuine_probability": 0.1039
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0047_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9453,
+      "genuine_probability": 0.0273
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0048_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9125,
+      "genuine_probability": 0.008
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0049_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8255,
+      "genuine_probability": 0.0117
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0050_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9114,
+      "genuine_probability": 0.0069
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0051_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8677,
+      "genuine_probability": 0.0359
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0052_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8824,
+      "genuine_probability": 0.0006
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0053_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9002,
+      "genuine_probability": 0.0755
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0054_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8372,
+      "genuine_probability": 0.0125
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0055_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7319,
+      "genuine_probability": 0.0006
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0056_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9233,
+      "genuine_probability": 0.0854
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0057_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8739,
+      "genuine_probability": 0.002
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0058_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8777,
+      "genuine_probability": 0.0062
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0059_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8604,
+      "genuine_probability": 0.3219
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0060_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8622,
+      "genuine_probability": 0.0083
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0061_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9104,
+      "genuine_probability": 0.0395
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0062_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9406,
+      "genuine_probability": 0.0997
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0063_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.6331,
+      "genuine_probability": 0.0056
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0064_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9538,
+      "genuine_probability": 0.127
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0065_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9319,
+      "genuine_probability": 0.0414
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0066_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9104,
+      "genuine_probability": 0.0065
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0067_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.3872,
+      "genuine_probability": 0.0004
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0068_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9026,
+      "genuine_probability": 0.2351
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0069_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.878,
+      "genuine_probability": 0.0026
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0070_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8902,
+      "genuine_probability": 0.1259
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0071_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9457,
+      "genuine_probability": 0.0171
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0072_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9441,
+      "genuine_probability": 0.011
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0073_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8323,
+      "genuine_probability": 0.008
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0074_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9103,
+      "genuine_probability": 0.1054
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0075_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9463,
+      "genuine_probability": 0.0156
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0076_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8839,
+      "genuine_probability": 0.0454
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0077_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.94,
+      "genuine_probability": 0.1039
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0078_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9316,
+      "genuine_probability": 0.0226
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0079_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8167,
+      "genuine_probability": 0.0036
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0080_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9354,
+      "genuine_probability": 0.046
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0081_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9366,
+      "genuine_probability": 0.0112
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0082_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8842,
+      "genuine_probability": 0.013
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0083_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9065,
+      "genuine_probability": 0.0214
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0084_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7947,
+      "genuine_probability": 0.0016
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0085_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "genuine",
+      "status": "match",
+      "alignment_ncc": 0.9693,
+      "genuine_probability": 0.1306
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0086_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.919,
+      "genuine_probability": 0.0084
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0087_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8706,
+      "genuine_probability": 0.0169
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0088_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9017,
+      "genuine_probability": 0.0428
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0089_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8665,
+      "genuine_probability": 0.0141
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0090_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8744,
+      "genuine_probability": 0.0724
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0091_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8676,
+      "genuine_probability": 0.0349
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0092_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9086,
+      "genuine_probability": 0.0028
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0093_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.815,
+      "genuine_probability": 0.0338
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0094_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.8454,
+      "genuine_probability": 0.0073
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0095_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9315,
+      "genuine_probability": 0.068
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0096_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7312,
+      "genuine_probability": 0.0024
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0097_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.877,
+      "genuine_probability": 0.0032
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0098_reference.jpg",
+      "ground_truth": "reference",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.9124,
+      "genuine_probability": 0.0177
+    },
+    {
+      "doc": "subvention",
+      "name": "subvention_0099_counterfeit.jpg",
+      "ground_truth": "counterfeit",
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "alignment_ncc": 0.7721,
+      "genuine_probability": 0.0016
+    }
+  ]
+}

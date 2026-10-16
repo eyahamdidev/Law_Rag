@@ -31,3 +31,13 @@ Pillow>=10.0
 
 # --- Experiment tracking (optional) ---
 mlflow>=2.20.0
+
+# --- Fraud detection service (fraud_detection/, run separately on port 8100) ---
+scikit-learn>=1.5
+lightgbm>=4.5
+pandas>=2.2
+scipy>=1.11
+joblib>=1.4
+pytesseract>=0.3.10     # reads stamp wording; also needs the Tesseract program with French and English packs
+# Only to retrain the fraud models (not needed to run the service):
+#   torch>=2.2  torchvision>=0.17  networkx>=3.2

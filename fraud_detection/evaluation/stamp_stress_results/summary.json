@@ -1,0 +1,472 @@
+{
+  "output_dir": "/workspace/fraud_detection/evaluation/stamp_stress_results",
+  "n_cases": 680,
+  "seed": 11,
+  "labels_csv_present": false,
+  "inventory_note": "Four fictitious stamp identities, 50 reference pages and 50 counterfeit pages each (400 labeled pages), plus four genuine PDFs. Filename suffix is the only label in this checkout. `labels.csv` (difficulty, mutations) described in the dataset README is absent. Reference pages are scan-style copies of one stamp per document. Counterfeit pages are generated mutations of that stamp, not photographed forgeries.",
+  "limitation": "Do not read these rates as performance on unseen printed forgeries. The supervised stamp model was trained on crops from these same four documents. Generated variations and single-feature edits are stress tests. They are counted separately and are not extra real counterfeits.",
+  "baseline_same_family": {
+    "n_reference": 200,
+    "n_counterfeit": 200,
+    "genuine_acceptance_rate": 0.045,
+    "genuine_accepted": 9,
+    "false_rejection_rate": 0.0,
+    "genuine_called_fraudulent": 0,
+    "genuine_uncertain": 191,
+    "genuine_unrecognized": 0,
+    "genuine_not_scored": 0,
+    "counterfeit_false_accept_rate": 0.0,
+    "counterfeit_false_accepts": 0,
+    "counterfeit_detection_rate": 0.065,
+    "counterfeit_detected_fraudulent": 13,
+    "counterfeit_uncertain": 187,
+    "counterfeit_unrecognized": 0,
+    "precision_fraudulent": 1.0,
+    "recall_fraudulent": 0.065,
+    "f1_fraudulent": 0.1221,
+    "confusion": {
+      "reference": {
+        "genuine": 9,
+        "fraudulent": 0,
+        "uncertain": 191,
+        "unrecognized": 0,
+        "other": 0
+      },
+      "counterfeit": {
+        "genuine": 0,
+        "fraudulent": 13,
+        "uncertain": 187,
+        "unrecognized": 0,
+        "other": 0
+      }
+    },
+    "stamp_detected": 400,
+    "stamp_detected_rate": 1.0,
+    "ocr_empty_when_detected": 0,
+    "review_recommended_reference": 191,
+    "review_rate_reference": 0.955,
+    "high_risk_reference": 0,
+    "review_recommended_counterfeit": 200,
+    "review_rate_counterfeit": 1.0,
+    "high_risk_counterfeit": 13
+  },
+  "baseline_by_doc": {
+    "balance": {
+      "n_reference": 50,
+      "n_counterfeit": 50,
+      "genuine_acceptance_rate": 0.0,
+      "genuine_accepted": 0,
+      "false_rejection_rate": 0.0,
+      "genuine_called_fraudulent": 0,
+      "genuine_uncertain": 50,
+      "genuine_unrecognized": 0,
+      "genuine_not_scored": 0,
+      "counterfeit_false_accept_rate": 0.0,
+      "counterfeit_false_accepts": 0,
+      "counterfeit_detection_rate": 0.14,
+      "counterfeit_detected_fraudulent": 7,
+      "counterfeit_uncertain": 43,
+      "counterfeit_unrecognized": 0,
+      "precision_fraudulent": 1.0,
+      "recall_fraudulent": 0.14,
+      "f1_fraudulent": 0.2456,
+      "confusion": {
+        "reference": {
+          "genuine": 0,
+          "fraudulent": 0,
+          "uncertain": 50,
+          "unrecognized": 0,
+          "other": 0
+        },
+        "counterfeit": {
+          "genuine": 0,
+          "fraudulent": 7,
+          "uncertain": 43,
+          "unrecognized": 0,
+          "other": 0
+        }
+      },
+      "stamp_detected": 100,
+      "stamp_detected_rate": 1.0,
+      "ocr_empty_when_detected": 0,
+      "review_recommended_reference": 50,
+      "review_rate_reference": 1.0,
+      "high_risk_reference": 0,
+      "review_recommended_counterfeit": 50,
+      "review_rate_counterfeit": 1.0,
+      "high_risk_counterfeit": 7
+    },
+    "capital": {
+      "n_reference": 50,
+      "n_counterfeit": 50,
+      "genuine_acceptance_rate": 0.1,
+      "genuine_accepted": 5,
+      "false_rejection_rate": 0.0,
+      "genuine_called_fraudulent": 0,
+      "genuine_uncertain": 45,
+      "genuine_unrecognized": 0,
+      "genuine_not_scored": 0,
+      "counterfeit_false_accept_rate": 0.0,
+      "counterfeit_false_accepts": 0,
+      "counterfeit_detection_rate": 0.12,
+      "counterfeit_detected_fraudulent": 6,
+      "counterfeit_uncertain": 44,
+      "counterfeit_unrecognized": 0,
+      "precision_fraudulent": 1.0,
+      "recall_fraudulent": 0.12,
+      "f1_fraudulent": 0.2143,
+      "confusion": {
+        "reference": {
+          "genuine": 5,
+          "fraudulent": 0,
+          "uncertain": 45,
+          "unrecognized": 0,
+          "other": 0
+        },
+        "counterfeit": {
+          "genuine": 0,
+          "fraudulent": 6,
+          "uncertain": 44,
+          "unrecognized": 0,
+          "other": 0
+        }
+      },
+      "stamp_detected": 100,
+      "stamp_detected_rate": 1.0,
+      "ocr_empty_when_detected": 0,
+      "review_recommended_reference": 45,
+      "review_rate_reference": 0.9,
+      "high_risk_reference": 0,
+      "review_recommended_counterfeit": 50,
+      "review_rate_counterfeit": 1.0,
+      "high_risk_counterfeit": 6
+    },
+    "labellisation": {
+      "n_reference": 50,
+      "n_counterfeit": 50,
+      "genuine_acceptance_rate": 0.0,
+      "genuine_accepted": 0,
+      "false_rejection_rate": 0.0,
+      "genuine_called_fraudulent": 0,
+      "genuine_uncertain": 50,
+      "genuine_unrecognized": 0,
+      "genuine_not_scored": 0,
+      "counterfeit_false_accept_rate": 0.0,
+      "counterfeit_false_accepts": 0,
+      "counterfeit_detection_rate": 0.0,
+      "counterfeit_detected_fraudulent": 0,
+      "counterfeit_uncertain": 50,
+      "counterfeit_unrecognized": 0,
+      "precision_fraudulent": null,
+      "recall_fraudulent": 0.0,
+      "f1_fraudulent": null,
+      "confusion": {
+        "reference": {
+          "genuine": 0,
+          "fraudulent": 0,
+          "uncertain": 50,
+          "unrecognized": 0,
+          "other": 0
+        },
+        "counterfeit": {
+          "genuine": 0,
+          "fraudulent": 0,
+          "uncertain": 50,
+          "unrecognized": 0,
+          "other": 0
+        }
+      },
+      "stamp_detected": 100,
+      "stamp_detected_rate": 1.0,
+      "ocr_empty_when_detected": 0,
+      "review_recommended_reference": 50,
+      "review_rate_reference": 1.0,
+      "high_risk_reference": 0,
+      "review_recommended_counterfeit": 50,
+      "review_rate_counterfeit": 1.0,
+      "high_risk_counterfeit": 0
+    },
+    "subvention": {
+      "n_reference": 50,
+      "n_counterfeit": 50,
+      "genuine_acceptance_rate": 0.08,
+      "genuine_accepted": 4,
+      "false_rejection_rate": 0.0,
+      "genuine_called_fraudulent": 0,
+      "genuine_uncertain": 46,
+      "genuine_unrecognized": 0,
+      "genuine_not_scored": 0,
+      "counterfeit_false_accept_rate": 0.0,
+      "counterfeit_false_accepts": 0,
+      "counterfeit_detection_rate": 0.0,
+      "counterfeit_detected_fraudulent": 0,
+      "counterfeit_uncertain": 50,
+      "counterfeit_unrecognized": 0,
+      "precision_fraudulent": null,
+      "recall_fraudulent": 0.0,
+      "f1_fraudulent": null,
+      "confusion": {
+        "reference": {
+          "genuine": 4,
+          "fraudulent": 0,
+          "uncertain": 46,
+          "unrecognized": 0,
+          "other": 0
+        },
+        "counterfeit": {
+          "genuine": 0,
+          "fraudulent": 0,
+          "uncertain": 50,
+          "unrecognized": 0,
+          "other": 0
+        }
+      },
+      "stamp_detected": 100,
+      "stamp_detected_rate": 1.0,
+      "ocr_empty_when_detected": 0,
+      "review_recommended_reference": 46,
+      "review_rate_reference": 0.92,
+      "high_risk_reference": 0,
+      "review_recommended_counterfeit": 50,
+      "review_rate_counterfeit": 1.0,
+      "high_risk_counterfeit": 0
+    }
+  },
+  "baseline_filename_holdout": {
+    "n_reference": 43,
+    "n_counterfeit": 42,
+    "genuine_acceptance_rate": 0.0233,
+    "genuine_accepted": 1,
+    "false_rejection_rate": 0.0,
+    "genuine_called_fraudulent": 0,
+    "genuine_uncertain": 42,
+    "genuine_unrecognized": 0,
+    "genuine_not_scored": 0,
+    "counterfeit_false_accept_rate": 0.0,
+    "counterfeit_false_accepts": 0,
+    "counterfeit_detection_rate": 0.1429,
+    "counterfeit_detected_fraudulent": 6,
+    "counterfeit_uncertain": 36,
+    "counterfeit_unrecognized": 0,
+    "precision_fraudulent": 1.0,
+    "recall_fraudulent": 0.1429,
+    "f1_fraudulent": 0.2501,
+    "confusion": {
+      "reference": {
+        "genuine": 1,
+        "fraudulent": 0,
+        "uncertain": 42,
+        "unrecognized": 0,
+        "other": 0
+      },
+      "counterfeit": {
+        "genuine": 0,
+        "fraudulent": 6,
+        "uncertain": 36,
+        "unrecognized": 0,
+        "other": 0
+      }
+    },
+    "stamp_detected": 85,
+    "stamp_detected_rate": 1.0,
+    "ocr_empty_when_detected": 0,
+    "review_recommended_reference": 42,
+    "review_rate_reference": 0.9767,
+    "high_risk_reference": 0,
+    "review_recommended_counterfeit": 42,
+    "review_rate_counterfeit": 1.0,
+    "high_risk_counterfeit": 6
+  },
+  "variations": {
+    "mild": {
+      "n": 48,
+      "genuine": 22,
+      "uncertain": 26,
+      "fraudulent": 0,
+      "unrecognized": 0,
+      "other": 0
+    },
+    "medium": {
+      "n": 28,
+      "genuine": 3,
+      "uncertain": 25,
+      "fraudulent": 0,
+      "unrecognized": 0,
+      "other": 0
+    },
+    "hard": {
+      "n": 20,
+      "genuine": 1,
+      "uncertain": 19,
+      "fraudulent": 0,
+      "unrecognized": 0,
+      "other": 0
+    }
+  },
+  "edits": {
+    "n": 28,
+    "genuine": 4,
+    "fraudulent": 2,
+    "uncertain": 22,
+    "unrecognized": 0
+  },
+  "foreign": {
+    "n": 141,
+    "unrecognized": 129,
+    "uncertain": 12,
+    "genuine": 0,
+    "fraudulent": 0
+  },
+  "api": [
+    {
+      "name": "enroll_proposal",
+      "passed": true,
+      "detail": "awaiting_approval"
+    },
+    {
+      "name": "decline_saves_nothing",
+      "passed": true,
+      "detail": "{'proposal_id': 'bf1ac1d9ba4343ea85af9be7e5bad908', 'decision': 'declined', 'enrolled': False, 'reason': 'declined', 'specimen_id': None, 'kind': 'stamp', 'entity_id': 'company-a', 'comment': None}"
+    },
+    {
+      "name": "approve_enrolls",
+      "passed": true,
+      "detail": "saved"
+    },
+    {
+      "name": "exact_resubmit_stable",
+      "passed": true,
+      "detail": "genuine then genuine, specimens=1"
+    },
+    {
+      "name": "darker_scan",
+      "passed": true,
+      "detail": "genuine"
+    },
+    {
+      "name": "other_organization",
+      "passed": true,
+      "detail": "unrecognized"
+    },
+    {
+      "name": "company_isolation",
+      "passed": true,
+      "detail": "awaiting_approval"
+    },
+    {
+      "name": "restart_keeps_reference",
+      "passed": true,
+      "detail": "genuine"
+    },
+    {
+      "name": "unknown_proposal",
+      "passed": true,
+      "detail": "unknown_proposal"
+    },
+    {
+      "name": "invalid_kind",
+      "passed": true,
+      "detail": "kind must be stamp or signature"
+    },
+    {
+      "name": "malformed_image",
+      "passed": true,
+      "detail": "['document_unreadable']"
+    },
+    {
+      "name": "malformed_pdf",
+      "passed": true,
+      "detail": "['document_unreadable']"
+    },
+    {
+      "name": "blank_page",
+      "passed": true,
+      "detail": "missing"
+    }
+  ],
+  "false_accept_ids": [],
+  "false_reject_ids": [],
+  "edge": [
+    {
+      "sample_id": "capital:blank",
+      "predicted": null,
+      "status": "missing",
+      "stamp_detected": false,
+      "error": "",
+      "note": "missing stamp"
+    },
+    {
+      "sample_id": "capital:faint",
+      "predicted": "genuine",
+      "status": "match",
+      "stamp_detected": true,
+      "error": "",
+      "note": "faint genuine crop"
+    },
+    {
+      "sample_id": "capital:cutoff",
+      "predicted": "uncertain",
+      "status": "uncertain",
+      "stamp_detected": true,
+      "error": "",
+      "note": "crop hanging off the left edge"
+    },
+    {
+      "sample_id": "capital:tiny",
+      "predicted": null,
+      "status": "missing",
+      "stamp_detected": false,
+      "error": "",
+      "note": "stamp reduced to one fifth"
+    },
+    {
+      "sample_id": "capital:near_edge",
+      "predicted": "unrecognized",
+      "status": "unrecognized",
+      "stamp_detected": true,
+      "error": "",
+      "note": "stamp against the top-right edge"
+    },
+    {
+      "sample_id": "capital:blue_square",
+      "predicted": "unrecognized",
+      "status": "unrecognized",
+      "stamp_detected": true,
+      "error": "",
+      "note": "colored block with no stamp text"
+    },
+    {
+      "sample_id": "capital:two_stamps",
+      "predicted": "genuine",
+      "status": "match",
+      "stamp_detected": true,
+      "error": "",
+      "note": "capital crop and subvention crop; capital is enrolled"
+    },
+    {
+      "sample_id": "capital:gray_pdf_page",
+      "predicted": "uncertain",
+      "status": "uncertain",
+      "stamp_detected": true,
+      "error": "",
+      "note": "grayscale copy of the enrolled capital page"
+    },
+    {
+      "sample_id": "capital:low_resolution",
+      "predicted": "uncertain",
+      "status": "uncertain",
+      "stamp_detected": true,
+      "error": "",
+      "note": "downscaled and restored"
+    },
+    {
+      "sample_id": "capital_pdf",
+      "predicted": null,
+      "status": "no_specimen",
+      "stamp_detected": true,
+      "error": "",
+      "note": "company with no saved stamp"
+    }
+  ],
+  "assessment": "The four enrolled genuine PDFs can be recognized, and a different organization's stamp is not automatically called fraudulent. The system is a stamp similarity and anomaly screening prototype, not a guaranteed forgery detector. On the labeled pages, 0 counterfeit pages were accepted as genuine. Most counterfeits are uncertain or unrecognized, which asks for a person rather than declaring fraud. There are only four stamp identities. The 400 pages are scan and mutation variants of those four, and the LightGBM model was trained on this same set. That is not an independent live-counterfeit trial."
+}

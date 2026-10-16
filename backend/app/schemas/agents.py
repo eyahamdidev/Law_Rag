@@ -72,6 +72,9 @@ class Attachment(BaseModel):
     text: str = ""
     pages: int | None = None
     extraction: str = Field(default="text", description="text, ocr, vision or none")
+    # The original file, for agents that need the image itself (fraud stamp check).
+    # Never serialised into responses or prompts.
+    data_base64: str | None = Field(default=None, exclude=True, repr=False)
 
 
 class Turn(BaseModel):
@@ -116,6 +119,7 @@ class AgentRequest(BaseModel):
     attachments: list[Attachment] = Field(default_factory=list)
     history: list[Turn] = Field(default_factory=list)
     legal_contract: dict | None = None
+    session_id: str | None = Field(default=None, description="Lets an agent keep per-founder state, e.g. past payments")
 
 
 class AgentResult(BaseModel):

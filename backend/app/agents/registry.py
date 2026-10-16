@@ -8,6 +8,7 @@ should get: the planner reads only the cards.
 """
 
 from app.agents.base import Agent, PlaceholderAgent
+from app.agents.fraud_agent import FraudAgent
 from app.agents.legal_guidance import LegalGuidanceAgent
 from app.agents.rag_agent import RagAgent
 from app.schemas.agents import AgentCard
@@ -57,14 +58,19 @@ MARKETING = AgentCard(
 )
 FRAUD = AgentCard(
     id="fraud",
-    name="Contract and fraud review",
-    description="Reviews an uploaded contract, invoice or statement for unfair terms and fraud signals.",
+    name="Payment and invoice fraud check",
+    description=(
+        "Scores a payment, an invoice or an investor's money request for fraud signals "
+        "(duplicate invoice, unusual amount or beneficiary, sanctions match, advance-fee "
+        "pattern) and checks the stamp and signature on an uploaded invoice. Uses the "
+        "fraud detection service; does not review whether contract clauses are fair."
+    ),
     use_when=(
         "The founder asks whether a contract, invoice, offer or agreement is suspicious, fair or safe "
         "to sign, with or without the file attached (the agent asks for it if needed)."
     ),
     owner="fraud teammate",
-    status="placeholder",
+    status="ready",
 )
 
 AGENTS: dict[str, Agent] = {
@@ -72,7 +78,7 @@ AGENTS: dict[str, Agent] = {
     "grants": RagAgent(GRANTS, corpora=["grants"], domain_label="funding and support programmes"),
     "business_plan": PlaceholderAgent(BUSINESS_PLAN),
     "marketing": PlaceholderAgent(MARKETING),
-    "fraud": PlaceholderAgent(FRAUD),
+    "fraud": FraudAgent(FRAUD),
 }
 
 

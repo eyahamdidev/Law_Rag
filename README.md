@@ -124,6 +124,22 @@ The `legal` agent (Meher's work, `backend/app/agents/legal_guidance/` and `contr
 - Docs: [docs/LEGAL_WORKSPACE.md](docs/LEGAL_WORKSPACE.md), [docs/LEGAL_ARCHITECTURE.md](docs/LEGAL_ARCHITECTURE.md), [docs/LEGAL_DEMO.md](docs/LEGAL_DEMO.md), [docs/LEGAL_VALIDATION.md](docs/LEGAL_VALIDATION.md), [LOCAL_SETUP.md](LOCAL_SETUP.md)
 - A local model is supported but off by default (`LOCAL_LLM_ENABLED=false`); the app uses Groq, then Gemini.
 
+## Fraud detection service
+
+The `fraud` agent calls a separate service (`fraud_detection/`), which scores payments and invoices with rules, LightGBM, anomaly detection, graph patterns and sanctions screening, and checks the stamp and signature on an uploaded invoice. Its `risk_score` (0 to 100) is an evidence score, not a probability of fraud. Contract-fairness review is not part of it.
+
+Run it in a second terminal, before asking fraud questions:
+
+```powershell
+cd D:\Law_Rag
+.venv\Scripts\activate
+python -m fraud_detection serve --port 8100
+```
+
+Check it at http://127.0.0.1:8100/health. Port 8100 is used because the main app is on 8000. Without the service, fraud questions answer that it is not running. Reading the words on a stamp also needs the Tesseract program (French and English packs).
+
+Docs: [fraud_detection/README.md](fraud_detection/README.md), [docs/FRAUD_AGENT_API.md](docs/FRAUD_AGENT_API.md), [docs/FRAUD_AGENT_HANDOFF.md](docs/FRAUD_AGENT_HANDOFF.md).
+
 ## Evaluations
 
 From `backend/`, with the server stopped:

@@ -32,6 +32,7 @@ from app.schemas.common import ModuleStatus, TraceStep
 
 class TurnState(TypedDict, total=False):
     question: str
+    session_id: str
     history: list[Turn]
     profile: FounderProfile
     attachments: list[Attachment]
@@ -90,6 +91,7 @@ def _run_agent(state: TurnState) -> dict:
         attachments=state.get("attachments", []),
         history=state.get("history", []),
         legal_contract=state.get("legal_contract") if step.agent == "legal" else None,
+        session_id=state.get("session_id"),
     )
     started = time.perf_counter()
     try:
@@ -160,6 +162,7 @@ def run_turn(question: str, session_id: str | None = None, attachments: list[Att
     state = _graph.invoke(
         {
             "question": question,
+            "session_id": session.session_id,
             "history": list(session.history),
             "profile": session.profile,
             "attachments": attachments or [],

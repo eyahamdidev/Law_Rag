@@ -1,0 +1,54 @@
+{
+  "risk_score": 75,
+  "decision": "HIGH_RISK",
+  "fraud_types": [
+    "supervised_type_match"
+  ],
+  "label_types": [
+    "ACCOUNT_TAKEOVER"
+  ],
+  "signals": [],
+  "model_scores": {
+    "supervised": 1.0,
+    "anomaly": 0.1996,
+    "graph": 0.0,
+    "supervised_by_type": {
+      "ACCOUNT_TAKEOVER": 1.0
+    },
+    "anomaly_source": "population_isolation_forest",
+    "general_behavior": 0.1328,
+    "specialist_sources": {
+      "ACCOUNT_TAKEOVER": "behavioral"
+    }
+  },
+  "external_checks": {
+    "sanctions": false,
+    "entity_verified": false,
+    "sanctions_lists": [],
+    "sanctions_status": "no_name_supplied",
+    "matched_list": null,
+    "matched_entity": null,
+    "match_score": null
+  },
+  "confidence": 0.35,
+  "requires_human_review": true,
+  "explanation": "No rule, graph pattern, sanctions hit, or entity alert fired for paysim-C803411135-C1325722809-185.",
+  "risk_level": "HIGH_RISK",
+  "evidence": [
+    "Supervised ACCOUNT_TAKEOVER calibrated score 1.000 from behavioral.",
+    "General behavior score 0.133.",
+    "Anomaly score 0.200 from population_isolation_forest.",
+    "Data coverage HIGH. Portable features outside training bounds: 0."
+  ],
+  "entity_checks": {
+    "sanctions_status": "no_name_supplied",
+    "sanctions_match": false,
+    "matched_list": null,
+    "matched_entity": null,
+    "match_score": null,
+    "entity_verified": false
+  },
+  "data_coverage": "HIGH",
+  "model_confidence": 0.8,
+  "graph_status": "scored"
+}

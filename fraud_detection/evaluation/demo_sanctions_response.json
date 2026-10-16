@@ -1,0 +1,62 @@
+{
+  "risk_score": 80,
+  "decision": "HIGH_RISK",
+  "fraud_types": [
+    "sanctions_match"
+  ],
+  "label_types": [],
+  "signals": [
+    {
+      "signal": "sanctions_match",
+      "severity": "high",
+      "detail": "The receiver name matches AEROCARIBBEAN AIRLINES on the OFAC_SDN list."
+    }
+  ],
+  "model_scores": {
+    "supervised": 0.0423,
+    "anomaly": 0.1445,
+    "graph": 0.0,
+    "supervised_by_type": {
+      "AML_LAUNDERING": 0.0423
+    },
+    "anomaly_source": "population_isolation_forest",
+    "general_behavior": 0.1167,
+    "specialist_sources": {
+      "AML_LAUNDERING": "behavioral"
+    }
+  },
+  "external_checks": {
+    "sanctions": true,
+    "entity_verified": false,
+    "sanctions_lists": [
+      "OFAC_SDN"
+    ],
+    "sanctions_status": "match",
+    "matched_list": "OFAC_SDN",
+    "matched_entity": "AEROCARIBBEAN AIRLINES",
+    "match_score": 1.0
+  },
+  "confidence": 0.86,
+  "requires_human_review": true,
+  "explanation": "The receiver name matches AEROCARIBBEAN AIRLINES on the OFAC_SDN list.",
+  "risk_level": "HIGH_RISK",
+  "evidence": [
+    "The receiver name matches AEROCARIBBEAN AIRLINES on the OFAC_SDN list.",
+    "Supervised AML_LAUNDERING calibrated score 0.042 from behavioral.",
+    "General behavior score 0.117.",
+    "Anomaly score 0.144 from population_isolation_forest.",
+    "Data coverage HIGH. Portable features outside training bounds: 0.",
+    "Graph status insufficient_history."
+  ],
+  "entity_checks": {
+    "sanctions_status": "match",
+    "sanctions_match": true,
+    "matched_list": "OFAC_SDN",
+    "matched_entity": "AEROCARIBBEAN AIRLINES",
+    "match_score": 1.0,
+    "entity_verified": false
+  },
+  "data_coverage": "HIGH",
+  "model_confidence": 0.86,
+  "graph_status": "insufficient_history"
+}

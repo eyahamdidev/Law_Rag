@@ -66,17 +66,37 @@ def compose(question: str, plan: Plan, results: list[AgentResult]) -> tuple[str,
     unsupported = [c.text for r in results for c in r.claims if c.verdict == "unsupported"]
     partial = [c.text for r in results for c in r.claims if c.verdict == "partial"]
     if not useful:
-        notes = [text for r, text in answers if r.status == "placeholder"]
-        searched = any(r.status in {"abstained", "error"} for r in results)
-        # "Nothing found" only when an agent actually searched; a placeholder did not.
+        # An agent that explains why it cannot help ("contract review is not available",
+        # "the fraud service is not running") is shown as written. The generic
+        # "nothing found" line is for agents that searched the corpus and found nothing.
+        notes = [text for r, text in answers if r.status in {"placeholder", "abstained", "error"} and not r.passages and text.strip()]
+        searched = any(r.status in {"abstained", "error"} and r.passages for r in results)
         head = [NOTHING_FOUND.get(language, NOTHING_FOUND["en"])] if searched or not notes else []
         return "\n\n".join(head + notes), [], True, "nothing usable"
 
+    # Tool agents (fraud scoring) return computed results, not passages. Their text is
+    # shown as written: the LLM must not paraphrase a risk score, and the citation
+    # guardrail would delete every line of it because a score has no [n] to cite.
+    tools = [(r, text) for r, text in useful if not r.passages]
+    tool_ids = {id(r) for r, _ in tools}
+    answers = [(r, text) for r, text in answers if id(r) not in tool_ids]
+    names = {agent_id: agent.card.name for agent_id, agent in AGENTS.items()}
+    several = len(useful) > 1
+    tool_text = "\n\n".join((f"**{names.get(r.agent, r.agent)}**\n" if several else "") + text for r, text in tools)
+    if len(tools) == len(useful):
+        text = tool_text + ("\n\n" + "\n".join(f"- {m}" for m in missing) if missing else "")
+        return text, [], False, "tool output, verbatim"
+
+    def with_tools(text: str) -> str:
+        return text + ("\n\n" + tool_text if tool_text else "")
+
     if len(answers) == 1 and not unsupported and not partial:
-        text, removed = drop_uncited(useful[0][1])
+        text, removed = drop_uncited(answers[0][1])
+        if several:
+            text = f"**{names.get(answers[0][0].agent, answers[0][0].agent)}**\n{text}"
         if missing:
             text += "\n\n" + "\n".join(f"- {m}" for m in missing)
-        return text, citations, False, _how("single agent, passthrough", removed)
+        return with_tools(text), citations, False, _how("single agent, passthrough" + (" + tool output" if tools else ""), removed)
 
     blocks = "\n\n".join(f"### {r.agent} ({r.status})\n{text}" for r, text in answers)
     prompt = get_prompt("orchestrator.composer")
@@ -96,13 +116,12 @@ def compose(question: str, plan: Plan, results: list[AgentResult]) -> tuple[str,
         text = result.text.strip()
         how = f"{prompt.ref} via {result.provider}/{result.model}"
     except LLMUnavailable:
-        names = {agent_id: agent.card.name for agent_id, agent in AGENTS.items()}
         text = "\n\n".join(f"**{names.get(r.agent, r.agent)}**\n{t}" for r, t in answers)
         how = "concatenated (no LLM)"
     text, removed = drop_uncited(text)
-    how = _how(how, removed)
+    how = _how(how + (" + tool output" if tools else ""), removed)
     used = set()
     for group in _MARKER.findall(text):
         used.update(int(n) for n in re.split(r"\s*[,;]\s*", group))
     citations = [c for c in citations if c.ref in used] or citations
-    return text, citations, False, how
+    return with_tools(text), citations, False, how
