@@ -119,7 +119,7 @@ def test_arabic_patent_answer_cannot_change_invention_into_choice(monkeypatch):
     class Model:
         available = True
         def chat_json(self,*a,**k):
-            return {"claims":[{"text":"يجب أن يكون الاختيار جديدا.","quote":quote,"refs":[1]}]},SimpleNamespace(provider="fake",model="fake")
+            return {"claims":[{"text":"لحماية الاختراع يجب أن يكون الاختيار جديدا.","quote":quote,"refs":[1]}]},SimpleNamespace(provider="fake",model="fake")
     monkeypatch.setattr(engine,"get_llm",lambda:Model())
     result = engine._guidance(GuidanceRequest(question="ما هي شروط حماية الاختراع ببراءة؟",language="ar"))
     assert result.mode == "evidence_only"
