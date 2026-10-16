@@ -42,7 +42,7 @@ def test_every_prompt_renders():
 
     values = {k: "x" for k in (
         "agent_cards", "profile", "history", "attachments", "question", "domain", "language", "language_name",
-        "task", "passages", "claims", "agent_answers", "missing_info", "unsupported", "partial",
+        "task", "passages", "claims", "agent_answers", "missing_info", "unsupported", "partial", "payload", "instruction",
     )}
     for spec in all_prompts():
         for version in spec["versions"]:

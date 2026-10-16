@@ -36,6 +36,7 @@ from app.config import REPO_ROOT
 
 LIBRARY_DIR = Path(__file__).parent / "library"
 _PLACEHOLDER = re.compile(r"\{\{\s*(\w+)\s*\}\}")
+_VERSION_KEYS = {"version", "date", "changes", "techniques", "system", "user", "observed_failures"}
 
 
 @dataclass
@@ -45,6 +46,8 @@ class PromptVersion:
     system: str
     user: str
     techniques: list[str] = field(default_factory=list)
+    # Other keys of the version (e.g. per-language instructions), read by the caller.
+    extras: dict = field(default_factory=dict)
 
     @property
     def ref(self) -> str:
@@ -86,6 +89,7 @@ def get_prompt(prompt_id: str, version: str | None = None) -> PromptVersion:
                 system=item.get("system", ""),
                 user=item["user"],
                 techniques=item.get("techniques", []),
+                extras={k: v for k, v in item.items() if k not in _VERSION_KEYS},
             )
     raise KeyError(f"{prompt_id} has no version {wanted}")
 
