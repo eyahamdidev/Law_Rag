@@ -1,0 +1,22 @@
+{
+ "id": "S076",
+ "dataset": "business_plan",
+ "section": "Business model templates and frameworks",
+ "name": "US Small Business Administration - write your business plan - Guide",
+ "url": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+ "parent": "",
+ "flag": "M",
+ "final_url": "https://www.sba.gov/counseling/plan-your-business/#business-plan",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "ba24bed0db6b310b8d17a7469066d51cce213c5db783431f8ca9fdef01f8992d",
+ "bytes": 292621,
+ "path": "business_plan\\Business_model_templates_and_frameworks\\S076_US_Small_Business_Administration_write_your_business_plan_Gu.pdf",
+ "status": "ok",
+ "pages": 7,
+ "text_chars": 40958,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Plan your business - Small Business Administration",
+ "note": "",
+ "last_modified": ""
+}

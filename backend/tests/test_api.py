@@ -303,3 +303,60 @@ def test_fraud_ids_fold_accents():
     from app.agents.fraud_agent import _slug
 
     assert _slug("Fournisseur Médina Services", "x") == "fournisseur-medina-services"
+
+
+def _bp_request(attachments=(), **kw):
+    from app.schemas.agents import AgentRequest, FounderProfile
+
+    return AgentRequest(task="review", question="Relis mon plan", language="fr", attachments=list(attachments),
+                        profile=FounderProfile(employees=4, funding_need_tnd=80000, legal_form="SARL"), **kw)
+
+
+def _plan_attachment():
+    import base64
+    from app.schemas.agents import Attachment
+
+    return Attachment(filename="plan.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                      data_base64=base64.b64encode(b"fake docx").decode())
+
+
+def test_business_plan_agent_asks_for_a_plan_instead_of_reviewing_the_question():
+    from app.agents.business_plan_agent import BusinessPlanAgent
+    from app.agents.registry import BUSINESS_PLAN
+
+    result = BusinessPlanAgent(BUSINESS_PLAN).run(_bp_request())
+    assert result.status == "needs_info" and "joignez" in result.answer
+
+
+def test_business_plan_agent_shows_the_service_findings_and_report(monkeypatch, tmp_path):
+    from app.agents import business_plan_agent as bpa
+    from app.agents.registry import BUSINESS_PLAN
+
+    monkeypatch.setattr(settings, "uploads_dir", tmp_path)
+    sent = {}
+
+    def fake_run(**kw):
+        sent.update(kw)
+        return 200, {"status": "ok", "answer": "Complétude du plan : 18/100.",
+                     "signals": [{"severity": "high", "message": "Review this: Pressure to commit quickly."},
+                                 {"severity": "info", "message": "minor"}],
+                     "artifacts": [{"kind": "docx", "file_ref": "ab" * 32, "label": "bp_review"}], "trace": [],
+                     "handoff": {"to": "aid", "question": "q"}}
+
+    monkeypatch.setattr(bpa.client, "run", fake_run)
+    result = bpa.BusinessPlanAgent(BUSINESS_PLAN).run(_bp_request([_plan_attachment()]))
+    assert result.status == "ok" and "18/100" in result.answer and "Pressure to commit" in result.answer
+    assert "minor" not in result.answer and f"/api/files/{'ab' * 32}?kind=docx" in result.answer
+    assert sent["profile"]["headcount"] == 4 and sent["profile"]["funding_amount"] == 80000
+    assert "le financement et les aides" in result.answer and ": aid" not in result.answer
+    assert (tmp_path / sent["file_ref"]).read_bytes() == b"fake docx"
+
+
+def test_business_plan_agent_reports_a_stopped_service(monkeypatch, tmp_path):
+    from app.agents.business_plan_agent import BusinessPlanAgent
+    from app.agents.registry import BUSINESS_PLAN
+
+    monkeypatch.setattr(settings, "uploads_dir", tmp_path)
+    monkeypatch.setattr(settings, "bp_service_url", "http://127.0.0.1:9")
+    result = BusinessPlanAgent(BUSINESS_PLAN).run(_bp_request([_plan_attachment()]))
+    assert result.status == "error" and "8104" in result.answer

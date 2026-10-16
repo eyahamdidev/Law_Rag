@@ -1,0 +1,16 @@
+{
+ "id": "S067",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - margins and return on capital by sector - Excel",
+ "url": "https://www.stern.nyu.edu/~adamodar/pc/datasets/mgnroc.xls",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/mgnroc.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "b98346b80e71d81bc93b2fd04cf153b3051b4a52e40ae7ab6deea9199ca4e1c0",
+ "bytes": 49152,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\S067_Damodaran_margins_and_return_on_capital_by_sector_Excel.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:22:50 GMT"
+}

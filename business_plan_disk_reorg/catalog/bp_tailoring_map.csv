@@ -1,0 +1,12 @@
+﻿profile_field,example_values,what_it_drives_in_the_plan,dataset_keys,dataset_ranks
+sector / activity,text + NAT code,"benchmark margins, cost of capital, working capital, competitor count, firm-level reality check",nat; isic_nace; damodaran_core; damodaran_extra; wbes; eurostat_sbs; insee_ratios; rne; bvmt,17; 18; 19; 20; 16; 34; 35; 30; 31
+legal form,"SARL, SUARL, SA, SAS","capital and reserve rules, governance section, statement presentation",csc; cirppis; sce_nct,23; 4; 8
+startup label,yes / no / pre-label,"tax and payroll benefits, label criteria, startup benchmarks",startup_act; startup_reports; lf2026; cnss,7; 15; 5; 10
+stage,"idea, creation, extension","which template (BFPME creation or extension, lean or traditional), funding route",bfpme_models; giz_model; sba_bmc_lean; fund_of_funds,1; 2; 3; 28
+headcount and wage level,"number, average gross salary","payroll cost: wage floor, social charges, escalation, hiring support",smig; cnss; ilostat; labour_code; lf2026,9; 10; 25; 24; 5
+export status,"none, partial, totally exporting","social-charge regime, tax regime, FX exposure, customs",cnss; cirppis; invest_law; fx; customs; comtrade; ins_trade,10; 4; 22; 12; 37; 40; 33
+location (governorate),governorate name,"regional incentives, local market size, labour pool",ins_macro; invest_law; wb_api,13; 22; 14
+funding need and instrument,"amount, loan / equity / grant","interest assumption, loan schedule, program fit",bct_rates; tunibor; bfpme_models; fund_of_funds; bts_foprodi,11; 26; 1; 28; 29
+imported inputs / foreign-currency costs,share of costs,"FX scenario, inflation pass-through",fx; ins_macro; imf,12; 13; 27
+time horizon and scenarios,3 or 5 years; base / stress,"inflation, growth and rate paths",imf; wb_api; ins_macro; bct_rates,27; 14; 13; 11
+tax computation,"IS, VAT, e-invoicing",tax lines and cash-flow timing,cirppis; vat; lf2026,4; 6; 5

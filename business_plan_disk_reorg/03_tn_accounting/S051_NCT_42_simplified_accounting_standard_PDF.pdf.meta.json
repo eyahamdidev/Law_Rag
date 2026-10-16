@@ -1,0 +1,20 @@
+{
+ "id": "S051",
+ "dataset": "business_plan",
+ "section": "Accounting rules",
+ "name": "NCT 42 - simplified accounting standard - PDF",
+ "url": "https://www.finances.gov.tn/sites/default/files/nc42.pdf",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.finances.gov.tn/sites/default/files/nc42.pdf",
+ "content_type": "application/pdf",
+ "sha256": "a640ca3e7029df9750a288ae76395f85f426198da47e2efc32a497c63abb1330",
+ "bytes": 442660,
+ "status": "ok",
+ "path": "business_plan\\Accounting_rules\\S051_NCT_42_simplified_accounting_standard_PDF.pdf",
+ "pages": 12,
+ "text_chars": 29082,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 07 May 2024 14:58:31 GMT"
+}

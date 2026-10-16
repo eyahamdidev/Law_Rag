@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tunisian Legal & Financial Assistant</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=4" />
   </head>
   <body>
     <header class="top">
@@ -40,6 +40,9 @@
       </button>
       <button type="button" class="tab" data-panel="aid" role="tab" aria-selected="false">
         Aid and financing
+      </button>
+      <button type="button" class="tab" data-panel="bp" role="tab" aria-selected="false">
+        Business plan
       </button>
     </nav>
 
@@ -102,6 +105,54 @@
         </form>
         <div id="aid-result" class="result" hidden></div>
       </section>
+
+      <section id="bp" class="panel" role="tabpanel" hidden>
+        <div class="bp-row bp-top">
+          <div>
+            <label for="bp-lang" data-i18n="lang">Language</label>
+            <select id="bp-lang">
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+              <option value="ar">العربية</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="bp-choose" class="bp-choose">
+          <p class="note" data-i18n="pick">How do you want to give me your plan? Pick one. You can switch later.</p>
+          <div class="bp-cards">
+            <button type="button" class="bp-card" data-mode="upload"><strong data-i18n="upload_t">Upload a plan</strong><span data-i18n="upload_d">I already have a document (.docx, .pdf, .xlsx, .txt).</span></button>
+            <button type="button" class="bp-card" data-mode="chat"><strong data-i18n="chat_t">Chat with me</strong><span data-i18n="chat_d">I'll ask a few questions, one at a time.</span></button>
+          </div>
+        </div>
+
+        <div id="bp-upload" class="bp-view" hidden>
+          <button type="button" class="link" data-back><span data-i18n="back">&larr; Change how I give my plan</span></button>
+          <form id="bp-form">
+            <label for="bp-file" data-i18n="file_l">Your plan</label>
+            <input id="bp-file" type="file" accept=".docx,.pdf,.xlsx,.txt,.md" required />
+            <p class="note">Older .doc and .xls files are not read. Save them as .docx or .xlsx first.</p>
+            <label for="bp-action">What do you want</label>
+            <select id="bp-action">
+              <option value="review" data-i18n="act_review">Review my plan</option>
+              <option value="draft_section" data-i18n="act_draft">Draft missing or weak sections</option>
+            </select>
+            <button type="submit" data-i18n="run">Run</button>
+          </form>
+        </div>
+
+        <div id="bp-chat" class="bp-view" hidden>
+          <button type="button" class="link" data-back>&larr; Change how I give my plan</button>
+          <div id="bp-log" class="chat-log" aria-live="polite"></div>
+          <div id="bp-chips" class="chips"></div>
+          <form id="bp-say" class="chat-input">
+            <input id="bp-input" type="text" autocomplete="off" placeholder="Type your answer…" data-i18n-ph="ph" />
+            <button type="submit" data-i18n="send">Send</button>
+          </form>
+        </div>
+
+        <div id="bp-result" class="result" hidden></div>
+      </section>
     </main>
 
     <footer>
@@ -110,6 +161,19 @@
         A similarity score, once it exists, measures retrieval — not legal correctness.
       </p>
     </footer>
-    <script src="/app.js"></script>
+    <script src="/app.js?v=4"></script>
+    <script src="/bp.js?v=5"></script>
+    <script>
+      // If the business-plan script or styles are an old cached copy, say so instead of showing dead buttons.
+      window.addEventListener("load", () => {
+        const stale = window.BP_UI_VERSION !== 5 || getComputedStyle(document.querySelector(".bp-card") || document.body).display !== "flex";
+        if (stale) {
+          const n = document.createElement("p");
+          n.className = "note";
+          n.textContent = "The business-plan page files are out of date (old bp.js or styles.css). Copy the whole frontend folder from the latest zip, then press Ctrl+F5.";
+          document.querySelector("#bp").prepend(n);
+        }
+      });
+    </script>
   </body>
 </html>

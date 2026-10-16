@@ -1,0 +1,585 @@
+http://www.procomptable.com/ 
+Cadre conceptuel 
+  
+Décret n° 96-2459 du 30 décembre 1996, portant approbation du cadre conceptuel de la 
+comptabilité. 
+Le Président de la République, 
+Sur proposition du ministre des finances, 
+Vu la loi n° 96-112 du 30 décembre 1996, relative au système comptable des entreprises et 
+notamment ses articles 5 et 6, 
+Vu le décret n° 75-846 du 3 décembre 1975, portant création du conseil supérieur de la comptabilité 
+tel que modifié par le décret n° 91-1017 du 1er juillet 1991, 
+Vu l'avis du tribunal administratif, 
+Décrète : 
+Article premier - Est approuvé le cadre conceptuel de la comptabilité ci-annexé et prévu par la loi n° 
+96-112 du 30 décembre 1996 susvisée. 
+Art. 2- L'expression "conseil supérieur de la comptabilité" prévue au décret susvisé est remplacée par 
+l'expression "conseil national de la comptabilité". 
+Art. 3- Le ministre des finances est chargé de l'exécution du présent décret qui sera publié au Journal 
+Officiel de la République Tunisienne. 
+Tunis, le 30 décembre 1996. 
+Zine El Abidine Ben Ali  
+   
+Cadre conceptuel 
+de la comptabilité financière 
+  
+OBJECTIFS DU CADRE CONCEPTUEL 
+01. Le cadre conceptuel de la comptabilité financière constitue la structure de référence théorique qui 
+sert de support et de guide à l'élaboration des normes comptables. Le cadre conceptuel est un 
+ensemble d'objectifs, de concepts fondamentaux et d'éléments qui entretiennent entre eux, des liens 
+de cohérence et de complémentarité. 
+02. Il a pour objectifs d'aider à : 
+• l'élaboration de normes cohérentes pouvant faciliter la production de données et d'états  
+financiers ; 
+• l'arbitrage en cas de divergences d'appréhension ou d'oppositions d'intérêts et la recherche de 
+solutions appropriées ; 
+• l'interprétation des états financiers ; 
+• la résolution des questions comptables n'ayant pas été traitées par les normes. 
+http://www.procomptable.com/ 
+ 
+03. Le cadre conceptuel permet essentiellement de : 
+• expliquer les situations comptables, 
+• standardiser les concepts comptables, 
+• comprendre la logique comptable dans le but de la diffuser. 
+Champ d'application du cadre conceptuel 
+04. Le cadre conceptuel de la comptabilité concerne l'élaboration d'états financiers à caractère 
+général des entreprises économiques. Il peut également servir de référence aux autres institutions. 
+Structure du cadre conceptuel 
+05. Le cadre conceptuel est structuré selon la hiérarchie suivante : 
+• Au premier niveau, sont énoncés les utilisateurs, leurs besoins et les objectifs des états 
+financiers. 
+• Au deuxième niveau, les concepts fondamentaux qui comprennent : 
+- les caractéristiques qualitatives de l'information  contenue dans les états financiers, 
+- les hypothèses sous-jacentes et les conventions comptables, 
+- la terminologie comptable et la prise en compte des éléments des états financiers. 
+• Au troisième niveau, les guides opérationnels qui traitent des procédés de mesure (attributs ou 
+caractéristiques à mesurer, échelle ou unité de mesure). 
+• Au quatrième niveau, les mécanismes de communication de l'information qui dérivent des 
+objectifs des états financiers. 
+LES UTILISATEURS DES ÉTATS FINANCIERS, LEURS BESOINS ET                                         
+LES OBJECTIFS DE CES ÉTATS 
+06. Les états financiers constituent le principal moyen de communication de l'information financière 
+aux différents utilisateurs qui sont les utilisateurs internes et externes à l'entreprise. 
+Utilisateurs internes : 
+07. Ce sont les dirigeants, les organes d'administration et les différentes structures internes de 
+l'entreprise. 
+Les dirigeants sont responsables de la préparation et de la présentation des états financiers. Ils sont 
+naturellement intéressés par l'information contenue dans ces états. 
+Ils ont également besoin d'informations de gestion pour leur permettre d'assurer convenablement leur 
+responsabilité de planification, de conduite et de contrôle des activités de l'entreprise. Dans la mesure 
+où ce type d'informations répond à des besoins spécifiques des dirigeants, qui ont le moyen d'en 
+déterminer la forme et le contenu, sa production et sa divulgation se situent en dehors de ce cadre 
+conceptuel. 
+Bien que destinés, principalement, à fournir des informations qui répondent aux utilisateurs externes, 
+les états financiers peuvent, dans une certaine mesure, se révéler utiles aux dirigeants et ce, 
+notamment dans le cas des petites et moyennes entreprises qui ne disposent, souvent, que de 
+moyens limités pour pouvoir produire des informations répondant à leurs besoins spécifiques de 
+gestion. 
+ 
+http://www.procomptable.com/ 
+ 
+ 
+Utilisateurs externes :
+ 
+08. Ce sont principalement les fournisseurs de capitaux ainsi que l'administration et autres institutions 
+dotées de pouvoirs de réglementation et de contrôle, les autres partenaires de l'entreprise et les 
+autres groupes d'intérêt. 
+Les fournisseurs de capitaux 
+09. Ce sont les investisseurs, les prêteurs et les subventionneurs. 
+Les investisseurs qui fournissent les capitaux à risque ainsi que les prêteurs sont concernés par le 
+risque inhérent à leurs placements et crédits, alors que les subventionneurs sont intéressés de savoir 
+si l'entreprise a atteint les objectifs qui lui ont été assignés justifiant ainsi, les ressources et autres 
+avantages qu'ils ont mis à sa disposition. 
+En général, ces différents utilisateurs veulent savoir si l'entreprise est rentable, si elle génère des flux 
+de trésorerie positifs, si ses actifs sont sauvegardés, si elle est en mesure de continuer son activité, 
+dans le cadre qui est censé être le sien, et d'honorer ses engagements dans un avenir prévisible. 
+L'administration et autres institutions dotées de pouvoirs de réglementation et de contrôle 
+10. Ce groupe inclut particulièrement les autorités fiscales, monétaires et financières ainsi que les 
+organes chargés de la comptabilité et des statistiques nationales et tout autre organisme ayant un 
+pouvoir de planification, de réglementation et de contrôle. 
+Ils sont intéressés par la répartition des revenus et des ressources. Ils utilisent l'information financière 
+pour réglementer les activités des entreprises, éclairer leur politique fiscale, sociale et économique. Ils 
+utilisent aussi l'information comme base de calcul du revenu national et des statistiques similaires et 
+pour évaluer la contribution de l'entreprise à la création d'emplois, à l'exportation, au revenu national 
+ou encore pour le calcul des impôts et taxes. Ces organismes peuvent, à travers les états financiers, 
+évaluer la portée de leur politique et éventuellement exiger la production d'informations 
+supplémentaires spécifiques. 
+Les autres partenaires de l'entreprise 
+11. Ce sont les salariés et leurs syndicats, les fournisseurs et autres créanciers ainsi que les clients et 
+autres bénéficiaires des biens et services produits par l'entreprise. 
+Ils sont intéressés notamment par la capacité de l'entreprise à générer des flux de trésorerie lui 
+permettant d'honorer ses engagements et par sa capacité à continuer son activité. 
+Les autres groupes d'intérêt 
+12. Ce sont notamment les organismes professionnels et de défense d'intérêts, la presse spécialisée 
+et les médias, les chercheurs, les divers organes et associations et le public en général. 
+Ces groupes veulent savoir si l'entreprise travaille pour l'intérêt des membres de la communauté qu'ils 
+représentent ou dont ils défendent les intérêts. Ils sont notamment intéressés par les tendances et les 
+évolutions récentes du développement de l'entreprise et des conséquences de ses activités sur le 
+développement économique et social et sur l'environnement en général. 
+Besoins particuliers de certains utilisateurs 
+13. Certains utilisateurs des états financiers pourraient avoir des besoins particuliers et disposent 
+généralement du pouvoir et des ressources nécessaires pour déterminer la nature des informations 
+dont ils ont besoin. Cependant, la plupart des utilisateurs n'ont pas suffisamment de pouvoir et de 
+moyens pour dicter la nature de l'information qui leur est communiquée et sont, par conséquent, 
+contraints de s'appuyer sur les renseignements fournis dans les états financiers. 
+http://www.procomptable.com/ 
+Importance des besoins des investisseurs et des bailleurs de fonds 
+14. L'analyse des préoccupations des différents utilisateurs montre que plusieurs besoins sont 
+communs ou même, en étant différents, peuvent être satisfaits par les mêmes informations. 
+Les investisseurs et bailleurs de fonds font des investissements à risque dans l'entreprise et leurs 
+besoins d'information sont naturellement plus larges. Normalement, l'élaboration d'états financiers 
+répondant à leurs besoins peut également répondre aux besoins des autres utilisateurs. Ce sont les 
+utilisateurs privilégiés des états financiers. 
+15. Pour satisfaire les besoins des utilisateurs, l'information contenue dans les états financiers doit 
+permettre, dans un contexte de prise de décisions économiques (décisions relatives à l'investissement 
+"achat, conservation ou vente de titres" ou au  crédit) : 
+• l'appréciation des ressources économiques et les droits y afférents des performances et 
+l'évaluation de la solvabilité et la liquidité de l'entreprise, 
+• l'appréciation de la manière avec laquelle les dirigeants se sont acquittés de leur mandat social. 
+L'information doit permettre aussi : 
+• de déterminer les bases d'imposition fiscale, 
+• d'aider à la préparation des statistiques nationales, des plans et budgets et de manière générale 
+à la définition des politiques économiques, 
+• de justifier l'action et de suivre les avantages concédés et les subventions accordées. 
+LES OBJECTIFS DES ÉTATS FINANCIERS 
+16. Les objectifs des états financiers découlent des besoins des utilisateurs. Compte tenu de ces 
+besoins, les états financiers ont pour objectifs essentiels de : 
+• fournir des informations utiles à la prise de décisions relatives à l'investissement, au crédit et 
+autres décisions similaires ; 
+• présenter des informations utiles pour estimer la probabilité de réalisation des flux futurs de 
+trésorerie ainsi que l'importance de ces flux et les moments auxquels ces derniers peuvent avoir 
+lieu ; 
+• renseigner sur : 
+- la situation financière de l'entreprise et particulièrement sur les ressources économiques 
+qu'elle contrôle ainsi que sur les obligations et les effets des transactions, événements et 
+circonstances susceptibles de modifier les ressources et les obligations ; 
+- la performance financière de l'entreprise ; 
+- la manière dont l'entreprise a obtenu et dépensé des liquidités à travers ses activités 
+d'exploitation, de financement et d'investissement et à travers d'autres facteurs qui affectent la 
+liquidité et la solvabilité ; 
+- le degré et la manière dont les dirigeants ont réalisé les objectifs qui leur ont été assignés 
+dans le cadre du mandat social ; 
+- le degré de conformité de l'entreprise aux lois, règlements et autres dispositions  
+contractuelles ; 
+17. L'information sur la situation financière est essentiellement fournie par le bilan. L'information sur la 
+performance est essentiellement fournie par l'état de résultat et l'information sur les flux de trésorerie 
+est essentiellement fournie par l'état des flux de trésorerie. 
+http://www.procomptable.com/ 
+18. D'autres informations sont utiles à la prise de décision économique. Ces informations traduisent le 
+besoin d'affiner ou de compléter la gamme d'informations destinée aux utilisateurs et portent 
+notamment sur : 
+• les perspectives financières des activités de l'entreprise, 
+• les activités ayant trait à la gestion des ressources humaines, 
+• l'impact des activités de l'entreprise sur son environnement écologique ainsi que sur les actions 
+que celle-ci a engagées pour garantir la sauvegarde et la protection de l'environnement. 
+• la technologie utilisée et le degré d'adoption des innovations technologiques dans le domaine de 
+la production et de la gestion. 
+CONCEPTS FONDAMENTAUX 
+CARACTÉRISTIQUES QUALITATIVES DE L'INFORMATION FINANCIÈRE 
+19. Les caractéristiques qualitatives sont les attributs que doit revêtir l'information financière véhiculée 
+dans les états financiers et qui sont indispensables pour garantir la production et la divulgation 
+d'informations financières utiles à la prise de décision. 
+Les quatre principales caractéristiques qualitatives sont l'intelligibilité, la pertinence, la fiabilité et la 
+comparabilité. 
+INTELLIGIBILITE 
+20. Pour être utile, l'information fournie par les états financiers doit être compréhensible par les 
+utilisateurs. Cela signifie que l'information soit explicite, claire et concise et à la portée des utilisateurs. 
+Ceux-ci sont présumés avoir une connaissance raisonnable des affaires et de la comptabilité et sont 
+soucieux d'étudier et de traiter l'information avec diligence. 
+PERTINENCE 
+21. La qualité de pertinence de l'information s'apprécie par le rapport entre l'information et l'usage qui 
+en est fait. L'information est pertinente lorsqu'elle est de nature à favoriser une prise de décision 
+adéquate par les utilisateurs des états financiers en les aidant à évaluer les événements passés, 
+présents ou futurs ou en leur permettant de confirmer ou de corriger des évaluations antérieures. 
+La pertinence de l'information englobe, donc, deux qualités sous-jacentes : valeur prédictive et valeur 
+rétrospective. Elle implique également que l'information soit établie et divulguée en temps utile. 
+Valeur prédictive 
+22. L'information financière a une valeur prédictive lorsqu'elle aide les utilisateurs à faire des 
+prédictions ou des confirmations portant sur les résultats et les événements économiques futurs qui 
+sont susceptibles d'affecter les affaires de l'entreprise. 
+Valeur rétrospective ou de confirmation 
+23. La valeur rétrospective est intimement liée à la valeur prédictive. L'information financière est 
+rétrospective dans la mesure où elle peut être utilisée pour comprendre ou corriger des résultats, des 
+événements et des prédictions antérieures. 
+Rapidité de divulgation 
+24. Pour être pertinente, l'information doit être établie et divulguée à un moment où elle est 
+susceptible d'être utile aux prises de décisions des utilisateurs. L'information perd de sa pertinence 
+lorsqu'elle est fournie avec retard. 
+ 
+http://www.procomptable.com/ 
+FIABILITE 
+25. L'information comptable est fiable lorsqu'elle permet aux utilisateurs de s'y fier comme une 
+information fidèle, neutre et vérifiable et qu'elle n'inclut pas d'erreur ou de biais. Les critères 
+constituant les composantes du concept de fiabilité sont essentiellement la représentation fidèle, la 
+neutralité et la vérifiabilité. 
+La représentation fidèle 
+26. La représentation fidèle est la correspondance ou la concordance entre la mesure ou la 
+description et les phénomènes qu'elles sont censées représenter en comptabilité. Ces phénomènes 
+sont les ressources et les obligations économiques de l'entreprise ainsi que les transactions et 
+événements qui modifient ces ressources et obligations. 
+La neutralité 
+27. L'information comptable est neutre, quand elle ne fait pas l'objet de parti pris et, par conséquent, 
+n'aboutit pas à des données tendancieuses et des résultats prédéterminés. 
+La vérifiabilité 
+28. L'information comptable est vérifiable dans la mesure où elle est le résultat de l'application 
+correcte d'un mode de mesure et où elle repose sur des données probantes et sur des évaluations 
+dont les méthodes sont divulguées avec l'information elle-même. 
+COMPARABILITE 
+29. L'information doit permettre à l'utilisateur de faire des comparaisons dans le temps, pour 
+déterminer les tendances de la situation financière et des performances de l'entreprise. Les 
+utilisateurs doivent être également en mesure de comparer les informations financières issues 
+d'entreprises semblables pour évaluer de façon relative, les situations financières, les performances et 
+leurs évolutions. 
+Contraintes à prendre en considération 
+30. Ces caractéristiques doivent être considérées en tenant compte de deux limites ou contraintes de 
+l'information financière : l'équilibre avantages-coûts et l'importance relative. 
+Equilibre avantages-coûts 
+31. L'équilibre entre les avantages et les coûts est une contrainte générale. Les informations 
+contenues dans les états financiers doivent procurer un intérêt supérieur au coût de leur production. 
+L'évaluation de cette contrainte est une affaire de jugement. Elle doit être la préoccupation des 
+normalisateurs, en particulier, ainsi que des préparateurs et des utilisateurs des états financiers. 
+Il convient, cependant de considérer que les avantages de l'information financière ne reviennent pas 
+nécessairement à ceux qui en ont supporté les coûts. 
+Importance relative 
+32. Cette deuxième contrainte porte sur l'opportunité de fournir aux utilisateurs des états financiers 
+des informations n'ayant pas d'impact significatif sur les décisions économiques qu'ils sont 
+susceptibles de prendre. 
+Est considérée importante, toute information comptable dont l'omission ou l'inexactitude risque 
+d'influencer les décisions prises par les utilisateurs. Le concept d'importance relative dépend 
+généralement de la taille de l'élément ou de l'erreur, jugée dans les circonstances particulières de 
+l'omission ou de l'inexactitude. 
+ 
+ 
+http://www.procomptable.com/ 
+Arbitrage entre les caractéristiques qualitatives 
+33. Plusieurs caractéristiques qualitatives sont interdépendantes et complémentaires et d'autres sont 
+visiblement antinomiques. Un équilibre entre elles, s'avère indispensable et ce, afin de favoriser l'utilité 
+de l'information diffusée à travers les états financiers. 
+Bien qu'il soit communément admis que la pertinence et la fiabilité constituent les qualités 
+fondamentales sur lesquelles s'appuie le processus de décision, il n'est pas aisé de déterminer, d'une 
+manière définitive, l'importance à accorder à chaque qualité. L'arbitrage est, en définitive, une 
+question de jugement professionnel en considérant l'objectif fondamental recherché à travers les états 
+financiers à savoir la satisfaction des besoins des utilisateurs en matière de prise de décision 
+économique. 
+HYPOTHESES SOUS-JACENTES ET CONVENTIONS COMPTABLES 
+34. Les hypothèses sous-jacentes et les conventions comptables découlent d'un environnement 
+économique, social et légal particulier et elles constituent une base pour l'élaboration des normes 
+comptables et la recherche de solutions appropriées aux problèmes comptables posés. 
+HYPOTHESES SOUS-JACENTES 
+La continuité de l'exploitation 
+35. La continuité de l'exploitation suppose que l'entreprise poursuit normalement ses activités dans un 
+avenir prévisible et qu'elle n'a ni l'intention, ni l'obligation de mettre fin à ses activités ou de réduire 
+sensiblement leur étendue. Elle établit que l'entreprise est en mesure de réaliser les opérations 
+envisagées et d'honorer ses engagements dans un avenir prévisible. Dans le cas contraire, les états 
+financiers doivent être préparés sur une base différente. 
+La comptabilité d'engagements 
+36. Les effets des transactions et autres événements sont pris en compte dès que ces transactions ou 
+événements se produisent et non pas au moment des encaissements ou paiements. L'information 
+financière, à l'exception de l'information contenue dans l'état des flux de trésorerie, ainsi établie, 
+renseigne les utilisateurs, non seulement sur les transactions passées ayant entraîné des flux de 
+liquidité, mais également sur des obligations et autres événements entraînant des encaissements et 
+des paiements futurs. 
+CONVENTIONS COMPTABLES 
+37. Les conventions comptables sont des règles concrètes qui guident la pratique comptable. 
+Elles sont développées par les pratiques en conformité avec les objectifs et les caractéristiques 
+qualitatives. 
+Convention de l'entité 
+38. L'entreprise est considérée comme étant une entité comptable autonome et distincte de ses 
+propriétaires. La comptabilité financière suppose une nette séparation entre le patrimoine de 
+l'entreprise et celui de ses propriétaires ou actionnaires. Ce sont les transactions de l'entreprise et non 
+celles des propriétaires qui sont prises en compte dans les états financiers de l'entité. Une entité 
+comptable ne représente pas uniquement une entreprise jouissant de par la loi d'un statut légal. Elle 
+s'étend à tout ensemble s'acquittant d'une activité économique et qui contrôle et utilise des ressources 
+économiques. 
+Convention de l'unité monétaire 
+39. La nécessité d'une unité de mesure unique pour enregistrer les transactions d'une entreprise a été 
+à l'origine du choix de la monnaie comme unité de mesure (le Dinar) de l'information véhiculée par les 
+états financiers. 
+Seules les transactions et événements susceptibles d'être quantifiés monétairement sont 
+comptabilisés. Certaines autres informations non quantifiables monétairement et exprimées dans 
+http://www.procomptable.com/ 
+d'autres unités de mesure peuvent être divulguées principalement dans des notes aux états 
+financiers. 
+Convention de la périodicité 
+40. L'information financière doit refléter l'évolution périodique des performances de l'entreprise pour 
+servir de base à la prise des décisions économiques. Elle doit être en conséquence, produite et 
+fournie à des intervalles périodiques et réguliers, la période étant désignée "exercice comptable". 
+Pour des considérations pratiques, il est admis que l'exercice comptable couvre une période de douze 
+mois. Généralement, celui-ci coïncide avec l'année civile. Dans certains cas, l'exercice comptable 
+s'étend jusqu'au moment où l'exploitation atteint son niveau le plus bas. 
+Convention du coût historique 
+41. Selon cette convention, le coût historique (ou valeur d'origine) sert de base adéquate pour la 
+comptabilisation des postes d'actif et de passif de l'entreprise. 
+Les biens et services acquis par l'entité sont en règle générale comptabilisés à leur coût de 
+transaction soit le montant effectivement payé ou dû. Quand des transactions sont effectuées sans 
+paiement (dons ou échange standard, ...), leur coût est défini comme étant la somme d'argent qu'il 
+aurait fallu dépenser si la transaction avait été conclue autrement. Par ailleurs, quand il s'agit d'un 
+poste de Passif, la valeur d'origine s'applique de la même façon que dans le cas d'un actif. 
+Le choix du coût historique se justifie par le fait que la valeur d'origine constitue une information 
+vérifiable reposant sur une évidence et est, par conséquent, objective. 
+Convention de réalisation du revenu 
+42. Cette convention sert de base pour l'identification, la reconnaissance et la mesure de revenu en 
+comptabilité. 
+Le revenu résulte de la création de biens et de services par une entreprise durant une période 
+spécifique de temps. 
+Il ne peut être comptabilisé qu'au moment où il est réalisé. La réalisation est soumise au test du fait 
+générateur, en d'autres termes, sa prise en compte n'est effectuée que dans l'un des cas suivants : 
+a. une réalisation du revenu au moment de la vente, 
+b. une réalisation du revenu lors de l'exécution du contrat, 
+c. une réalisation du revenu à la fin du processus de fabrication, ou 
+d. une réalisation du revenu lors du recouvrement des ventes. 
+La mesure du revenu, correspond au montant, exprimé en espèces, du déboursé reçu en échange du 
+bien cédé, des actions émises, des services rendus ou des engagements contractés. Quand il s'agit 
+de ventes non réglées en espèces, le revenu est égal à la juste valeur marchande de l'objet de 
+transaction qui peut être les biens et services vendus ou les biens et services reçus en contrepartie, 
+selon ceux qui sont les plus faciles à déterminer. 
+Convention de rattachement des charges aux produits 
+43. Cette convention consiste à établir une correspondance, directe ou indirecte, entre les produits et 
+les charges de l'entreprise. Lorsque des revenus sont comptabilisés au cours d'un exercice, toutes les 
+charges ayant concouru à la réalisation de ces revenus doivent être déterminées et rattachées à ce 
+même exercice. Cette convention est le corollaire de l'autonomie des exercices. 
+Convention de l'objectivité 
+44. Les transactions et événements pris en compte en comptabilité et divulgués dans les états 
+financiers doivent être justifiées par des preuves. Quand des documents probants concernant ces 
+http://www.procomptable.com/ 
+transactions n'existent pas, ou ne peuvent pas exister, les bases d'estimations retenues doivent être 
+fournies pour permettre la vérification et l'appréciation des méthodes préconisées. Dans ce cas, il 
+convient de produire les éléments facilitant la conviction et par conséquent l'évaluation objective des 
+faits. 
+Convention de la permanence des méthodes 
+45. La convention de la permanence des méthodes exige que les mêmes méthodes de prise en 
+compte, de mesure et de présentation soient utilisées par l'entreprise d'une période à l'autre. 
+L'application de cette convention permet la comparaison dans le temps de l'information comptable et 
+favorise les prédictions financières. La permanence des méthodes ne justifie pas, cependant, une 
+rigidité nuisible à l'image fidèle que doivent refléter les états financiers. Tout changement significatif 
+devra faire l'objet d'une information appropriée. 
+Convention de l'information complète 
+46. Cette convention établit que les états financiers doivent fournir toutes les informations nécessaires 
+pour ne pas induire en erreur les lecteurs. Elle exige, pour éviter toute ambiguïté dans l'interprétation 
+de l'information financière, que les états financiers comportent des notes et des tableaux explicatifs 
+révélant toute information pertinente et attirant l'attention sur les événements ou les traitements de 
+l'information qui ont un impact significatif sur l'évolution des résultats futurs et la situation de 
+l'entreprise. 
+Convention de prudence 
+47. Des incertitudes entourent inévitablement un grand nombre d'événements et de circonstances. 
+Ces incertitudes sont prises en considération par l'exercice de la prudence dans la préparation des 
+états financiers. La prudence est la prise en compte d'un certain degré de précaution dans l'exercice 
+des jugements nécessaires pour préparer les estimations dans des conditions d'incertitudes, pour 
+faire en sorte que les actifs ou les revenus ne soient pas surévalués et que les passifs ou les charges 
+ne soient pas sous-évalués. Cependant, l'application de cette convention ne doit pas engendrer la 
+création de réserves occultes ou de provisions excessives, la sous évaluation délibérée des actifs ou 
+des revenus ou la surévaluation délibérée des passifs ou des charges. 
+Convention de l'importance relative 
+48. Les états financiers doivent révéler tous les éléments dont l'importance peut affecter les 
+appréciations ou les décisions. 
+La production de l'information financière doit être guidée par la convention de l'importance relative 
+pour le classement et la présentation des éléments traités par la comptabilité financière. 
+Un fait ou un élément est significatif, si en tenant compte des circonstances, sa nature ou son montant 
+sont tels que le fait de le mentionner dans les états financiers, ou la manière de le traiter dans les 
+comptes est susceptible d'influencer le jugement ou les décisions prises sur la base des données 
+comptables. 
+Convention de la prééminence du fond sur la forme 
+49. La substance des opérations et autres événements n'est pas toujours cohérente avec ce qui 
+ressort du montage juridique apparent. 
+Pour que l'information représente d'une manière fiable les transactions et autres événements qu'elle 
+vise à représenter, il est nécessaire qu'ils soient enregistrés et présentés en accord avec leur 
+substance et la réalité économique et non pas seulement selon leur forme juridique. 
+ELEMENTS DES ETATS FINANCIERS 
+50. Les éléments des états financiers sont directement reliés à la détermination de la structure, la 
+performance et la conduite financière de l'entreprise. Leur définition, leur groupement en catégories et 
+leur prise en compte ou constatation, sont des éléments importants du cadre conceptuel. 
+http://www.procomptable.com/ 
+Un événement économique qui satisfait à la définition d'un élément des états financiers doit être pris 
+en compte au cas où il est probable qu'un avantage économique futur qui lui est rattaché sera obtenu 
+ou "abandonné" et qu'il y a une base de mesure adéquate pour l'évaluer avec fiabilité. 
+Définition et prise en compte de l'actif 
+51. L'actif est constitué par les ressources économiques obtenues ou contrôlées par l'entreprise, à la 
+suite d'événements ou de transactions passés, à même d'engendrer des avantages économiques 
+futurs au bénéfice de l'entreprise ayant un potentiel de générer directement ou indirectement des flux 
+positifs de liquidité ou d'équivalent de liquidité ou de réduire la sortie de fonds. 
+52. Un actif est pris en compte dans le bilan lorsqu'il est probable que des avantages économiques 
+futurs bénéficieront à l'entreprise et que l'actif a un coût ou une valeur qui peut être mesuré(e) d'une 
+façon fiable. 
+Définition et prise en compte du passif 
+53. Le passif est constitué par les obligations actuelles de l'entreprise, résultant de transactions ou 
+d'événements passés, nécessitant probablement le sacrifice ou le transfert futur à d'autres entités de 
+ressources représentatives d'avantages économiques. 
+54. Un passif est pris en compte dans le bilan lorsqu'il est probable qu'un transfert de ressources 
+économiques résultera du règlement de l'obligation à la charge de l'entreprise, et que le montant de ce 
+règlement peut être mesuré d'une façon fiable. 
+Définition des capitaux propres 
+55. Les capitaux propres représentent l'intérêt résiduel dans les actifs de l'entité, après déduction de 
+tous ses passifs. Ils comportent les diverses catégories de capital, les surplus d'apport, les réserves et 
+équivalents et les résultats non répartis. 
+Définition et prise en compte des revenus 
+56. Les revenus sont soit les rentrées de fonds ou autres augmentations de l'actif d'une entreprise, 
+soit le règlement des dettes de l'entreprise (soit les deux) résultant de la livraison ou de la fabrication 
+de marchandises, de la prestation de services ou de la réalisation d'autres opérations qui s'inscrivent 
+dans le cadre des activités principales ou centrales de l'entreprise. 
+57. Les revenus sont généralement pris en compte lorsqu'une augmentation d'avantages 
+économiques futurs, liée à une augmentation d'actif ou à une diminution de passif, s'est produite et 
+qu'elle peut être mesurée de façon raisonnable. 
+Définition et prise en compte des gains 
+58. Les gains sont les accroissements des capitaux propres résultant de transactions périphériques ou 
+incidentes ainsi que de toutes autres transactions, événements et circonstances affectant l'entreprise 
+à l'exception de ceux résultant des revenus ou des apports des propriétaires sur capital. 
+59. Les gains sont pris en compte en général lors de leur réalisation et lorsque leur montant peut être 
+déterminé avec un degré suffisant de certitude. 
+Définition et prise en compte des charges 
+60. Les charges sont soit les sorties de fonds ou autres formes d'utilisation des éléments d'actif, soit la 
+constitution de passifs (soit les deux), résultant de la livraison ou de la fabrication de marchandises, 
+de la prestation de services ou de la réalisation d'autres opérations qui s'inscrivent dans le cadre des 
+activités principales ou centrales de l'entreprise. 
+61. Les charges sont prises en compte lorsqu'une diminution d'avantages économiques futurs, liée à 
+la diminution d'un actif ou à l'augmentation d'un passif, s'est produite et qu'elle peut être mesurée de 
+façon fiable. 
+ 
+http://www.procomptable.com/ 
+Définition et prise en compte des pertes 
+62. Les pertes sont des diminutions de capitaux propres résultant des transactions périphériques ou 
+incidentes ainsi que de toutes autres transactions et autres événements et circonstances affectant 
+l'entreprise à l'exception de ceux résultant des charges ou des distributions aux propriétaires du 
+capital. 
+63. Les pertes sont prises en compte dès qu'une diminution d'actif ou augmentation de passif est 
+probable et que leur montant peut être déterminé avec un certain degré de précision. 
+PRESENTATION DES ELEMENTS DES ETATS FINANCIERS 
+64. L'actif, le passif et les capitaux propres constituent les éléments du bilan. 
+Les revenus et les gains forment les produits. Ils constituent avec les charges et les pertes les 
+éléments de l'état de résultat. 
+PROCEDES DE MESURE 
+65. La mesure est l'opération qui consiste à déterminer la valeur à laquelle un élément sera constaté 
+en comptabilité. 
+La mesure des éléments des états financiers : 
+66. Il existe plusieurs bases pour déterminer la valeur à laquelle les éléments seront rapportés dans 
+les états financiers. 
+i. Le coût historique : Le montant de liquidité versé ou reçu pour acquérir un élément, 
+ii. Le coût de remplacement : Le montant qui serait nécessaire aujourd'hui pour acquérir un 
+élément, 
+iii. Valeur de réalisation : Le montant correspondant au prix qui pourrait être tiré de la cession d'un 
+élément, 
+iv. Valeur actualisée : La valeur actualisée des rentrées de fonds futurs que procurera 
+vraisemblablement un élément. 
+Le coût historique demeure la base de mesure la plus communément utilisée pour préparer les états 
+financiers. Il est habituellement combiné avec d'autres bases de mesure. 
+Concepts de capital de l'entreprise 
+67. Le capital de l'entreprise se définit selon les deux concepts majeurs ci-après : 
+a. le capital financier, 
+b. le capital physique. 
+Le concept de capital financier est adopté par la plupart des entreprises pour préparer leurs états 
+financiers. 
+Selon ce concept, le capital de l'entreprise est mesuré en terme d'argent nominal investi dans 
+l'entreprise ou de pouvoir d'achat de cet argent. 
+Le concept de capital physique se réfère à la capacité opérationnelle ou capacité productive de 
+l'entreprise. 
+Le choix du concept approprié de capital dépend de plusieurs facteurs dont : 
+a. l'importance du niveau de l'inflation et des variations spécifiques des prix ; 
+b. les caractéristiques de l'entreprise et de son environnement technologique et autre ; 
+http://www.procomptable.com/ 
+c. les besoins des utilisateurs des états financiers et leur souci de maintenir un type de capital ou 
+un autre. 
+Maintien du capital et mesure du profit 
+68. En principe, un profit n'est obtenu qu'après avoir préservé le capital. 
+Maintien du capital financier 
+69. Selon ce concept, un profit est obtenu uniquement lorsque le montant financier des actifs nets à la 
+fin de la période dépasse ce même montant financier du début de la période, après avoir exclu tout 
+apport ou retrait de capital par les propriétaires au cours de la période. 
+Le maintien du capital financier peut être mesuré soit en unités monétaires nominales, soit en unités 
+de pouvoir d'achat c'est-à-dire des unités monétaires constantes. 
+Maintien du capital physique 
+70. Selon le concept de maintien du capital physique, un profit n'est obtenu que si la capacité de 
+production de l'entreprise à la fin de la période dépasse sa capacité de production au début de la 
+période, après exclusion des transactions de capital exercées par les propriétaires au cours de la 
+période. 
+Maintien du capital et évaluation des éléments des états financiers 
+71. Les flux d'actifs qui dépassent les montants nécessaires pour maintenir le capital sont considérés 
+comme du profit, d'où le lien entre le maintien du capital et l'évaluation des éléments dans les états 
+financiers. 
+72. Le concept de maintien du capital physique exige l'adoption d'une valeur actuelle comme base 
+d'évaluation. Les changements dans la valeur des actifs sont considérés comme des ajustements au 
+maintien du capital et ne font pas partie du profit. 
+73. Le concept de maintien du capital financier ne nécessite pas l'adoption d'une base particulière 
+d'évaluation. 
+Lorsque le capital est défini en termes d'unités monétaires nominales, les changements dans la valeur 
+des actifs peuvent s'additionner au profit de la période dans laquelle ils ont eu lieu ou celle dans 
+laquelle ils sont réalisés. 
+Dans le cas où le capital est défini en termes de pouvoir d'achat ou d'unités monétaires constantes, 
+seule la portion des changements dans la valeur des actifs nets d'inflation peut être additionnée au 
+profit. 
+Les principaux modèles comptables 
+74. La combinaison des différents concepts de capital avec les différentes bases d'évaluation donne 
+lieu à la variété de modèles comptables suivants : 
+i - le modèle comptable basé sur les coûts d'origine et les unités monétaires en numéraire ; ce 
+modèle permet de protéger le capital financier exprimé en numéraire. 
+ii - le modèle comptable basé sur les coûts d'origine et les unités monétaires    constantes ; ce 
+modèle permet de protéger le capital financier exprimé en termes de pouvoir d'achat. 
+iii - le modèle comptable basé sur les coûts de remplacement et les unités monétaires en 
+numéraire ; ce modèle permet de protéger le capital physique et le numéraire de l'entreprise. 
+iv- le modèle comptable basé sur les coûts de remplacement et les unités monétaires constantes ; 
+ce modèle permet de protéger le capital physique de l'entreprise et son pouvoir d'achat. 
+ 
+http://www.procomptable.com/ 
+Le choix du modèle comptable 
+75. En raison de la grande variété des utilisateurs et de leur décision, aucun modèle ne possède 
+toutes les qualités pour satisfaire tous les besoins. Chaque modèle possède des caractéristiques qui 
+lui confèrent des degrés différents de fiabilité et de pertinence. 
+76. Pour le normalisateur, le choix d'un modèle ou d'un autre dépend des caractéristiques de 
+l'environnement où s'effectue la mesure comptable, de la nature de l'élément à évaluer, de la nature 
+des décideurs et des décisions et finalement des coûts et avantages de chaque modèle. A titre 
+d'exemple, si le choix de modèle est basé sur la seule caractéristique de l'environnement relative aux 
+variations dans les prix, les recommandations suivantes pourraient être faites : 
+a. Lorsque les prix généraux et les prix spécifiques sont relativement stables, le modèle (i) basé 
+sur les coûts d'origine et les unités monétaires en numéraire sera approprié ; 
+b. Lorsque l'environnement est caractérisé par des variations générales dans le prix (Inflation) il y a 
+lieu de recommander le deuxième modèle (ii) basé sur les coûts d'origine et les unités de pouvoir 
+d'achat. 
+c. Lorsque l'environnement est caractérisé par des variations spécifiques dans les prix c'est le 
+modèle (iii) basé sur les coûts de remplacement qui sera le plus approprié. 
+d. Finalement lorsque l'environnement de l'entreprise est caractérisé par des variations générales 
+des prix et des variations spécifiques, il est recommandé d'adopter le modèle (iv) basé sur les 
+coûts de remplacement et les unités de pouvoir d'achat. 
+Parmi les facteurs spécifiques qui peuvent intervenir dans la sélection d'un modèle ou d'un autre, il y a 
+lieu de rappeler : les erreurs d'appariement dans le temps, les erreurs d'unité de mesure, 
+l'interprétation des données et leur pertinence. 
+MECANISMES DE COMMUNICATION 
+LES ETATS FINANCIERS 
+77. Les mécanismes de communication sont des états financiers dont la publication périodique est 
+utile pour les utilisateurs afin d'évaluer, comparer et prédire la rentabilité de l'entreprise, sa solvabilité 
+et sa liquidité. Ils dérivent des objectifs des états financiers. 
+Les états financiers sont le bilan, l'état de résultat, l'état des flux de trésorerie et les notes aux états 
+financiers. 
+78. Les standards relatifs aux modèles et à la présentation de ces états et notes seront développés 
+dans les normes qui pourraient prévoir des simplifications pour les entreprises de petite taille. 
+Le bilan 
+79. Le bilan constitue une représentation, à une date donnée, de la situation financière de l'entreprise 
+sous forme d'actif et de passif et de capitaux propres. L'actif et le passif sont regroupés ou divisés 
+d'après le degré d'incertitude relatif au montant et au moment de la réalisation ou de la liquidation 
+éventuelle. 
+L'état de résultat 
+80. L'état de résultat retrace les revenus et gains et les charges et pertes découlant d'un exercice 
+comptable complet engendrant le résultat net de l'exercice et reflétant ainsi la performance financière 
+et la rentabilité de l'entreprise. 
+L'état des flux de trésorerie 
+81. L'état des flux de trésorerie retrace l'évolution de la situation financière au cours d'un exercice 
+comptable. Il fournit des informations sur les activités d'exploitation, de financement et 
+d'investissement de l'entreprise, ainsi que sur les effets de ces activités sur sa trésorerie. 
+http://www.procomptable.com/ 
+Notes aux états financiers 
+82. Ces états doivent être étayés par des informations explicatives et supplémentaires présentées 
+sous forme de notes permettant une meilleure intelligibilité des états financiers. Ces notes font partie 
+intégrante des états financiers. 
+AUTRES INFORMATIONS 
+83. D'autres informations financières et non financières, dont la publication est de nature à rendre plus 
+utile l'information pourraient être communiquées sous forme de rapports ou d'états séparés 
+complétant les états financiers et concernent notamment : 
+• Les comptes prévisionnels renseignant sur les perspectives d'activité de l'entreprise, les 
+ressources et moyens qu'elle compte mettre en œuvre, les performances attendues et les 
+équilibres financiers et de trésorerie futurs. 
+Ces comptes favorisent la valeur prédictive de l'information contenue dans les états financiers. 
+• L'état sur les ressources humaines fournissant les données qualitatives et quantitatives les plus 
+pertinentes sur le capital humain de l'entreprise et les activités et actions qui sont de nature à le 
+développer. 
+• Le rapport sur les performances environnementales reflétant les avantages et les coûts de 
+l'entreprise découlant des activités ayant trait à la conservation de l'environnement. 
+• L'état sur la technologie portant sur les données relatives aux choix technologiques et à l'effort 
+d'innovation déployé par l'entreprise. 
+ 

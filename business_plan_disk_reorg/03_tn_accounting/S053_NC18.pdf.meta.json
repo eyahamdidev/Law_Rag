@@ -1,0 +1,20 @@
+{
+ "id": "S053",
+ "dataset": "business_plan",
+ "section": "Accounting rules",
+ "name": "National Accounting Council and standards index - Standards index (third party)",
+ "url": "http://www.procomptable.com/normes/NC18.pdf",
+ "parent": "http://www.procomptable.com/normes/indexp.htm",
+ "flag": "S",
+ "final_url": "http://www.procomptable.com/normes/NC18.pdf",
+ "content_type": "application/pdf",
+ "sha256": "89248b220bcf6e2a709de77033a07a9ecd3c4cea2e873c9a0393eaa0e5fba06f",
+ "bytes": 134976,
+ "status": "ok",
+ "path": "business_plan\\Accounting_rules\\linked\\S053_NC18.pdf",
+ "pages": 20,
+ "text_chars": 54804,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Mon, 08 Jul 2002 11:22:16 GMT"
+}

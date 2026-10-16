@@ -1,0 +1,22 @@
+{
+ "id": "S069",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - cost of capital, betas, total beta for private firms - Total beta",
+ "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/totalbeta.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/totalbeta.html",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "669f0c0cd9cc3e80b297d779a76220ed99a0b46c8bf55094142cd91d6e537266",
+ "bytes": 132706,
+ "path": "business_plan\\Sector_benchmarks\\S069_Damodaran_cost_of_capital_betas_total_beta_for_private_firms.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 6539,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Total Beta",
+ "note": "",
+ "last_modified": ""
+}

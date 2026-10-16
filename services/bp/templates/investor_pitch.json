@@ -1,0 +1,465 @@
+{
+  "id": "investor_pitch",
+  "title": "Investor pitch plan",
+  "stage": "any",
+  "version": "0.1.0",
+  "verified_against_official_model": false,
+  "official_model_file": "n/a (generic pitch structure)",
+  "source_page": null,
+  "note": "Derived skeleton. Not yet checked heading by heading against the official model.",
+  "sections": [
+    {
+      "id": "executive_summary",
+      "title": {
+        "en": "Executive summary",
+        "fr": "Résumé",
+        "ar": "ملخص"
+      },
+      "title_keywords": {
+        "fr": [
+          "executive summary",
+          "summary",
+          "résumé",
+          "synthèse"
+        ],
+        "en": [
+          "executive summary",
+          "summary",
+          "overview"
+        ],
+        "ar": [
+          "ملخص"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_what",
+          "text": {
+            "en": "States what the company does",
+            "fr": "Dit ce que fait l'entreprise"
+          },
+          "keywords": {
+            "fr": [
+              "activité",
+              "produit"
+            ],
+            "en": [
+              "we ",
+              "our ",
+              "company",
+              "platform",
+              "product",
+              "service",
+              "provide",
+              "offer",
+              "retrofit",
+              "build"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        },
+        {
+          "id": "c_traction",
+          "text": {
+            "en": "Gives a headline figure",
+            "fr": "Donne un chiffre clé"
+          },
+          "keywords": {
+            "fr": [
+              "chiffre",
+              "clients"
+            ],
+            "en": [
+              "revenue",
+              "customers",
+              "users",
+              "mrr",
+              "arr",
+              "pilot",
+              "percent",
+              "%",
+              "clients",
+              "projects",
+              "buildings"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "project_name",
+        "solution"
+      ]
+    },
+    {
+      "id": "problem",
+      "title": {
+        "en": "Problem",
+        "fr": "Problème",
+        "ar": "المشكل"
+      },
+      "title_keywords": {
+        "fr": [
+          "problème",
+          "besoin"
+        ],
+        "en": [
+          "problem",
+          "pain point"
+        ],
+        "ar": [
+          "مشكل"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_problem",
+          "text": {
+            "en": "Names a concrete customer problem",
+            "fr": "Nomme un problème client concret"
+          },
+          "keywords": {
+            "fr": [
+              "problème",
+              "difficulté"
+            ],
+            "en": [
+              "problem",
+              "pain",
+              "struggle",
+              "gap",
+              "wait",
+              "face",
+              "lack",
+              "difficult",
+              "challenge",
+              "cost",
+              "cannot",
+              "slow",
+              "expensive",
+              "need"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "problem"
+      ]
+    },
+    {
+      "id": "market",
+      "title": {
+        "en": "Market",
+        "fr": "Marché",
+        "ar": "السوق"
+      },
+      "title_keywords": {
+        "fr": [
+          "marché",
+          "concurren"
+        ],
+        "en": [
+          "market",
+          "competitor",
+          "competition"
+        ],
+        "ar": [
+          "السوق"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_size",
+          "text": {
+            "en": "Sizes the market",
+            "fr": "Chiffre le marché"
+          },
+          "keywords": {
+            "fr": [
+              "marché",
+              "milliard"
+            ],
+            "en": [
+              "market",
+              "billion",
+              "million",
+              "tam",
+              "sam"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_comp",
+          "text": {
+            "en": "Names competitors",
+            "fr": "Nomme les concurrents"
+          },
+          "keywords": {
+            "fr": [
+              "concurrent"
+            ],
+            "en": [
+              "competitor",
+              "competitors",
+              "alternative",
+              "incumbent"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "market_size_note",
+        "competitors"
+      ]
+    },
+    {
+      "id": "business_model",
+      "title": {
+        "en": "Business model",
+        "fr": "Modèle économique",
+        "ar": "نموذج العمل"
+      },
+      "title_keywords": {
+        "fr": [
+          "modèle économique",
+          "business model",
+          "revenus"
+        ],
+        "en": [
+          "business model",
+          "revenue model",
+          "pricing",
+          "how we make money"
+        ],
+        "ar": [
+          "نموذج"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_price",
+          "text": {
+            "en": "Explains how money is made",
+            "fr": "Explique comment l'entreprise gagne de l'argent"
+          },
+          "keywords": {
+            "fr": [
+              "prix",
+              "tarif",
+              "abonnement"
+            ],
+            "en": [
+              "price",
+              "pricing",
+              "subscription",
+              "fee",
+              "charge",
+              "margin"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "revenue_streams",
+        "pricing"
+      ]
+    },
+    {
+      "id": "financials_ask",
+      "title": {
+        "en": "Financials and funding ask",
+        "fr": "Finances et besoin de financement",
+        "ar": "الماليات وطلب التمويل"
+      },
+      "title_keywords": {
+        "fr": [
+          "financ",
+          "levée",
+          "besoin"
+        ],
+        "en": [
+          "financials",
+          "funding ask",
+          "funding",
+          "use of funds",
+          "ask"
+        ],
+        "ar": [
+          "تمويل"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_fin",
+          "text": {
+            "en": "Gives revenue, costs or burn",
+            "fr": "Donne CA, charges ou burn"
+          },
+          "keywords": {
+            "fr": [
+              "chiffre d'affaires",
+              "charges"
+            ],
+            "en": [
+              "revenue",
+              "cost",
+              "burn",
+              "runway",
+              "margin"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        },
+        {
+          "id": "c_ask",
+          "text": {
+            "en": "States the ask and use of funds",
+            "fr": "Indique le montant et l'usage"
+          },
+          "keywords": {
+            "fr": [
+              "montant",
+              "usage"
+            ],
+            "en": [
+              "raise",
+              "ask",
+              "seeking",
+              "use of funds"
+            ],
+            "ar": []
+          },
+          "needs_number": true
+        }
+      ],
+      "questions": [
+        "total_investment",
+        "funding_sources"
+      ]
+    },
+    {
+      "id": "team",
+      "title": {
+        "en": "Team",
+        "fr": "Équipe",
+        "ar": "الفريق"
+      },
+      "title_keywords": {
+        "fr": [
+          "équipe",
+          "fondateur"
+        ],
+        "en": [
+          "team",
+          "founders",
+          "management"
+        ],
+        "ar": [
+          "فريق"
+        ]
+      },
+      "required": true,
+      "weight": 1.0,
+      "criteria": [
+        {
+          "id": "c_team",
+          "text": {
+            "en": "Names people and relevant experience",
+            "fr": "Nomme les personnes et leur expérience"
+          },
+          "keywords": {
+            "fr": [
+              "expérience",
+              "ancien"
+            ],
+            "en": [
+              "ceo",
+              "cto",
+              "cofounder",
+              "former",
+              "experience",
+              "years"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "founders",
+        "key_skills"
+      ]
+    },
+    {
+      "id": "risks",
+      "title": {
+        "en": "Risks",
+        "fr": "Risques",
+        "ar": "المخاطر"
+      },
+      "title_keywords": {
+        "fr": [
+          "risque"
+        ],
+        "en": [
+          "risks",
+          "risk",
+          "challenges"
+        ],
+        "ar": [
+          "مخاطر"
+        ]
+      },
+      "required": false,
+      "weight": 0.8,
+      "criteria": [
+        {
+          "id": "c_risk",
+          "text": {
+            "en": "Names specific risks and mitigations",
+            "fr": "Nomme les risques et leurs parades"
+          },
+          "keywords": {
+            "fr": [
+              "risque",
+              "parade"
+            ],
+            "en": [
+              "risk",
+              "mitigation",
+              "mitigate",
+              "plan b",
+              "contingency"
+            ],
+            "ar": []
+          },
+          "needs_number": false
+        }
+      ],
+      "questions": [
+        "risks"
+      ]
+    }
+  ]
+}

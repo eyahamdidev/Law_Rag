@@ -7,12 +7,30 @@ services:
       - .env
     environment:
       QDRANT_URL: ""            # embedded Qdrant in ./data; set to http://qdrant:6333 with the ml profile
+      BP_SERVICE_URL: http://bp:8104
+      UPLOADS_DIR: /app/data/uploads
     volumes:
       - ./law:/app/law:ro
       - ./grants_and_financial_aids:/app/grants_and_financial_aids:ro
       - ./business_plan:/app/business_plan:ro
       - ./fraud_detection:/app/fraud_detection
-      - ./data:/app/data        # chunks, embedding cache, vectors, OCR text, sessions
+      - ./data:/app/data        # chunks, embedding cache, vectors, OCR text, sessions, uploads
+    depends_on:
+      - bp
+
+  # Business plan service (services/bp/), its own image and lockfile. Model access comes
+  # from .env (LLM_BASE_URL / LLM_API_KEY / LLM_MODEL_*): Groq by default. The branch's
+  # bundled Ollama containers are not used.
+  bp:
+    build: ./services/bp
+    ports:
+      - "8104:8104"
+    env_file:
+      - .env
+    environment:
+      UPLOADS_DIR: /data/uploads
+    volumes:
+      - ./data/uploads:/data/uploads
 
   # Automation backbone: chat channels, uploads, scheduled jobs. Workflows in n8n/.
   n8n:

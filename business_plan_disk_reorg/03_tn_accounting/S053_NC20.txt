@@ -1,0 +1,263 @@
+http://www.procomptable.com/ 1
+NC 20 
+Norme comptable relative aux dépenses de recherche et de développement 
+ 
+Objectif 
+01. De plus en plus d’entreprises dépensent des sommes importantes en vue d’améliorer leurs 
+produits actuels et de faire des recherches pour développer de nouveaux produits. Dans bien des cas 
+les montants engagés dans les activités de recherche et développement représentent une proportion 
+importante du chiffre d’affaires et du bénéfice de l’entreprise. 
+02. La question fondamentale se rapportant à la comptabilisation de ces dépenses est de déterminer 
+la nature de leurs avantages futurs afin de décider si elles doivent être comptabilisées comme charge 
+de l’exercice ou s’il y a lieu de les rapporter comme actif. 
+03. Pour les utilisateurs externes des états financiers, l’information sur les dépenses de recherche et 
+développement est un facteur important dans leur processus de décision notamment en ce qui 
+concerne l’évaluation des performances actuelles et futures, l’évaluation de la compétitivité de 
+l’entreprise et de son potentiel de survie et de croissance. Du point de vue des utilisateurs, il est 
+important d’assurer la comparabilité de l’information divulguée dans les états financiers sur ces 
+activités. 
+04. L’objectif de la présente norme est de prescrire les règles relatives à la comptabilisation et la 
+présentation des dépenses de recherche et de développement engagées par l’entreprise. 
+Champ d'application 
+05. La présente norme ne s’applique pas aux activités particulières suivantes : 
+a. Les travaux de recherche et de développement effectués, sous contrats, pour le compte 
+de tiers avec des arrangements tels que les risques et avantages associés aux activités de 
+recherche et développement sont ou seront transférés à l’entreprise tierce. Cette dernière, 
+en assumant les risques et bénéficiant des avantages, comptabilise ces dépenses 
+conformé-ment à la présente norme. 
+Dans le cas où les risques et avantages découlant du contrat ne sont, ni ne seront 
+transférés à des tiers, l’entreprise menant les activités de recherche et de développement 
+en comptabilisera les frais correspondants conformément à la présente norme. 
+b. Les dépenses de prospection et de développement des gisements de pétrole, de gaz et 
+de minerais dans les industries extractives. Toutefois la norme s’applique aux dépenses de 
+recherche et développement engagées par les entreprises opérant dans ces secteurs, et 
+dont la nature est comparable aux activités de recherche et développement des autres 
+entreprises. 
+Définitions 
+06. Dans la présente norme, les termes ci-dessous ont le sens suivant : 
+La recherche est une investigation originale, conduite systématiquement, dans la perspective 
+d’acquérir une compréhension et des connaissances scientifiques ou techniques nouvelles. 
+Le développement est la mise en application de résultats de recherche ou d’autres 
+connaissances acquises, à des projets ou à la conception en vue de la production de 
+matériaux, d’appareils, de produits, de procédés, de systèmes ou de services nouveaux ou 
+fortement améliorés, avant le commencement d’une production ou d’une utilisation 
+commercialisable. 
+07. A titre d’exemple les activités qui, normalement, font partie de la catégorie «recherche» 
+sont : 
+a. les activités visant à acquérir des connaissances nouvelles ; 
+http://www.procomptable.com/ 2
+b. la recherche d’applications pour les résultats de recherche ou d’autres connaissances ; 
+c. la recherche d’autres produits ou procédés possibles ; et 
+d. la formulation et la conception d’éventuels autres produits ou procédés nouveaux ou 
+améliorés. 
+08. A titre d’exemple les activités qui, normalement, font partie de la catégorie 
+«développement» sont : 
+a. essais visant à la découverte ou à la mise à l’épreuve de nouveaux produits ou procédés ; 
+b. la conception, la construction et la mise à l’essai de prototypes et de modèles de 
+démarrage ; 
+c. la conception d’outils, de modèles, de moules et de matrices faisant intervenir de 
+nouvelles technologies ; 
+d. la conception, la construction et l’exploitation d’une usine pilote d’une taille non 
+économiquement suffisante pour la production commerciale. 
+09. Il est possible de rencontrer des activités qui peuvent être en étroite relation avec les 
+activités de recherche et de développement mais qui ne sont ni des recherches ni du 
+développement ; parmi ces activités figurent par exemple les suivantes : 
+a. suivi technique au cours de la toute première phase de production commerciale ; 
+b. contrôle qualité au cours de la production commerciale, y compris les tests de routine 
+sur les produits ; 
+c. interventions liées à des pannes survenant au cours de la production commerciale ; 
+d. efforts de routine pour affiner, enrichir ou améliorer d’une manière quelconque les 
+qualités d’un produit existant ; 
+e. adaptation d’une capacité existante à une exigence particulière ou au besoin d’un client 
+dans le cadre d’une activité commerciale continue ; 
+f. modifications de conception saisonnières ou périodiques des produits existants ; 
+g. conception de routine d’outillage, moules, matrices et coquille de moulage ; 
+h. activités relatives à la conception, à la construction, au déménagement, au réajustement 
+ou à la mise en service des installations et équipements autres que ceux utilisés 
+exclusivement pour un projet particulier de recherche et de développement. 
+10. La définition des mots recherche et développement n’englobe pas les travaux de nature 
+courante ou publicitaire effectués dans le cadre d’études de marché. 
+Eléments constitutifs des dépenses de recherche et de développement 
+11. Les dépenses de recherche et de développement doivent comprendre tous les coûts qui 
+sont directement imputables aux activités de recherche et de développement ou qui peuvent 
+être affectés de façon raisonnable à de telles activités. 
+12. Les dépenses de recherche et de développement comprennent le cas   échéant : 
+a. le coût des matières et services consommés dans la recherche et le développement ; 
+b. la rémunération du personnel prenant part directement aux travaux de recherche et de 
+développement et les frais connexes ; 
+c. l’amortissement du matériel et des installations, dans la mesure où ils sont utilisés pour la 
+recherche et le développement ; 
+http://www.procomptable.com/ 3
+d. une imputation raisonnable des frais généraux ; cette imputation se fait selon des formules 
+semblables à celles qui sont utilisées pour l’imputation des frais généraux aux coûts de production 
+des produits finis ; 
+e. l’amortissement d’éléments d’actif incorporels, dans la mesure où ces derniers sont reliés à la 
+recherche et au développement. C’est le cas des brevets ou des licences acquis auprès des tiers 
+pour les besoins de la recherche et du développement. 
+Sont exclus des coûts : 
+i. les frais généraux administratifs ou commerciaux à moins qu’ils pourraient être attribués 
+directement à la préparation du procédé avant d’être utilisé ; 
+ii. les déficiences et les pertes d’exploitation initiales clairement identifiées avant que le procédé ne 
+réalise les performances prévues ; 
+iii. les frais de formation des employés à l’utilisation du procédé. 
+Prise en compte des dépenses de recherche et de développement 
+13. L’affectation aux différents exercices des dépenses de recherche et de développement est 
+réalisée en fonction de la relation entre ces dépenses et les avantages économiques attendus par 
+l’entreprise de ces activités de recherche et de développement. Lorsqu’il est probable que ces 
+dépenses donneront lieu à des avantages futurs et si elles peuvent être mesurées de façon fiable, 
+elles ont qualité pour être inscrites à l’actif. 
+14. De par sa nature, la recherche ne donne pas lieu à une certitude suffisante que des avantages 
+futurs seront réalisés à la suite de dépenses spécifiques. En conséquence, les dépenses de 
+recherche sont comptabilisés dans les charges de l’exercice au cours duquel elles sont encourues. 
+15. La nature des activités de développement est telle que, le projet étant plus avancé que dans la 
+phase de recherche, l’entreprise peut dans certains cas déterminer la probabilité de recevoir des 
+avantages futurs. En conséquence, les dépenses de développe-ment sont inscrites à l’actif 
+lorsqu’elles répondent à certains critères indiquant qu’il est probable que ces dépenses donneront lieu 
+à des avantages futurs. 
+Les dépenses de recherche 
+16. Les dépenses de recherche doivent être comptabilisées dans les charges de l’exercice au 
+cours duquel elles sont encourues et ne doivent pas être inscrites à l’actif rétroactivement. 
+17. La recherche peut être considérée comme faisant partie d’une fonction continue que l’entreprise 
+doit exercer pour maintenir ses activités et demeurer concurrentielle. Dans la plupart des cas, les 
+avantages qui découleront de la recherche dans les exercices futurs seront diffus et, habituelle-ment, 
+on ne peut prévoir ni l’importance de ces avantages ni la période au cours de laquelle ils se 
+matérialiseront. Comme, en général on ne peut déterminer que tel exercice plutôt que tel autre 
+recueillera le fruit d’un montant investi dans la recherche, il convient d’imputer aux résultats de 
+l’exercice au cours duquel elles sont engagées, les sommes consacrées à la recherche. 
+Les dépenses de développement 
+18. Normalement lorsqu’on entreprend des travaux de développement, c’est que l’on estime avoir 
+d’assez bonnes chances d’aboutir à un succès commercial et à des avantages futurs découlant soit 
+d’une augmentation du chiffre d’affaires soit d’une réduction des coûts. De là, on peut avancer qu’il y a 
+lieu de capitaliser les dépenses de développement afin de les amortir au fur et à mesure de la 
+matérialisation des avantages escomptés. 
+19. Les avantages futurs sont plus ou moins incertains selon les projets de développe-ment et, dans 
+bien des cas, ils sont trop hypothétiques pour que la prise en compte à l’actif des dépenses de 
+développement soit justifiée. 
+20. Les dépenses de développement d’un projet doivent être comptabilisées dans les charges 
+de l’exercice au cours duquel elles sont encourues, à moins que les critères d’inscription à 
+l’actif identifiés au paragraphe suivant soient satisfaits. 
+http://www.procomptable.com/ 4
+Les dépenses de développement comptabilisées à l’origine en charges ne peuvent pas être 
+rétroactivement inscrites à l’actif. 
+21. Les dépenses de développement d’un projet doivent être inscrites à l’actif lorsque 
+l’ensemble des critères suivants sont satisfaits : 
+a. le produit ou le processus est clairement identifié et les coûts imputables à ce produit ou 
+à ce procédé peuvent être individualisés et mesurés de façon fiable ; 
+b. la possibilité technique de fabrication du produit ou du procédé peut être démontrée ; 
+c. l’entreprise a l’intention de produire et de commercialiser, ou d’utiliser le nouveau produit 
+ou procédé ; 
+d. l’existence d’un marché potentiel pour ce produit ou ce procédé ou, s’il doit être utilisé au 
+niveau interne et non pas vendu, son utilité pour l’entreprise peut être démontrée ; 
+e. des ressources suffisantes existent, et leur disponibilité peut être démontrée, pour 
+compléter le projet et commercialiser ou utiliser le produit ou le procédé. 
+22. Les dépenses de développement d’un projet inscrites à l’actif ne doivent pas être 
+supérieures au montant qu’il est probable de récupérer sur des avantages futurs, déduction 
+faite des dépenses de développement ultérieurs, des charges de production correspondantes 
+et des frais administratifs et de ventes directement encourus pour commercialiser le produit. 
+23. Les dépenses de développement imputées aux résultats d’exercices précédents ne doivent pas 
+être capitalisées même si les circonstances qui justifiaient leur inscription en charges n’ont plus cours. 
+24. L’application des critères d’inscription à l’actif au paragraphe 21 implique une appréciation des 
+incertitudes entourant inévitablement les activités de développement. 
+De telles incertitudes sont prises en compte par une attitude de prudence lors de l’élaboration des 
+jugements nécessaires pour déterminer le montant des dépenses de développement devant être 
+inscrites à l’actif. Ce comportement prudent n’autorise pas la sous-évaluation délibérée des actifs. 
+25. On ne doit commencer à capitaliser les dépenses de développement afférentes à un projet donné 
+qu’à partir du moment où les conditions nécessaires à la capitalisation sont simultanément remplies. 
+Amortissement des dépenses de développement 
+26. Les dépenses de développement inscrites à l'actif doivent être amorties sur les exercices 
+futurs. L'amortissement doit avoir pour objectif de réaliser le rapprochement systématique 
+entre ces dépenses et les avantages auxquels elles sont reliées. Afin de réaliser cet objectif, il 
+faut commencer à amortir ces dépenses au moment où l'on commence à commercialiser ou à 
+utiliser le produit ou le procédé, et la méthode d'amortissement devrait être établie en fonction 
+des avantages que l'on compte tirer de la vente ou de l'utilisation du produit ou du procédé. 
+27. La relation entre les dépenses de développement et les avantages économiques que l’entreprise 
+espère en retirer ne peut en général être déterminée que de façon globale et indirecte en raison de la 
+nature des activités de développement. Lors de l’amortissement systématique des dépenses de 
+développement de façon à refléter le modèle de prise en compte des avantages correspondants, 
+l’entreprise fait référence aux points suivants : 
+a. les produits ou autres avantages provenant de la vente ou de l’utilisation du produit ou du 
+procédé ; 
+b. la période au cours de laquelle ce produit ou procédé est censé être vendu ou utilisé. 
+28. La date de départ de l’amortissement se situe lors de la mise en vente ou du début d’utilisation du 
+produit ou du procédé. 
+29. Les modalités d'amortissement des dépenses de développement capitalisées peuvent souvent 
+être déterminées en fonction des prévisions de vente ou d'utilisation sur lesquelles on s'est fondé pour 
+justifier la capitalisation. 
+http://www.procomptable.com/ 5
+30. L’obsolescence technique ou économique crée des incertitudes qui limitent le nombre d’utilité ou 
+d'exercices à retenir comme base d’amortissement des frais de développement. De plus, il est en 
+général difficile d'estimer les coûts supplémentaires et les produits futurs correspondant à un nouveau 
+produit ou procédé au-delà d’une courte période. Pour ces raisons, les dépenses de développement 
+sont normalement amorties sur une période relativement brève avec un délai maximal de cinq ans.  
+31. Dans certaines circonstances, les avantages économiques résultant des dépenses de 
+développement engagés sont utilisés par l’entreprise à produire d'autres actifs plutôt que de donner 
+naissance à une charge. Dans ce cas, l’amortissement des dépenses de développement comprend 
+une partie du coût de ces autres actifs et figure dans la valeur comptable de ces autres actifs. A titre 
+d’exemple, les dépenses de développement précédemment inscrites à l’actif peuvent figurer dans le 
+coût des stocks produits. Les dépenses de développement incluses de la sorte dans la valeur 
+comptable des autres actifs sont constatés en charges en même temps que les autres coûts de ces 
+actifs. 
+Réduction de valeur 
+32. A la fin de chaque exercice, on procède normalement à un examen du solde non amorti des 
+dépenses de développement que l’on a capitalisées. Cet examen se fait à la lumière de l’évaluation 
+des projets auxquels ces dépenses se rapportent et il devrait avoir pour but de déterminer si, pour 
+chaque projet, les conditions qui ont justifié la capitalisation des dépenses prévalent toujours. S’il 
+existe un doute à cet égard, on ne devrait pas reporter le solde non amorti sur des exercices ultérieurs 
+mais le passer en perte immédiatement. Si la prise en compte à l’actif des dépenses demeure 
+justifiée, il y a lieu de comparer le solde non amorti des dépenses capitalisées à l’égard de chaque 
+projet au montant que l’on espère récupérer (revenu attendu moins frais afférents au projet). Tout 
+excédent de dépenses non amorties devrait être radié et imputé aux résultats de l’exercice. 
+33. La décision de capitaliser les dépenses de développement et le choix des modalités 
+d’amortissement sont basés sur le genre d’hypothèses et d’estimations comptables qu’il est normal 
+d’avancer, même si des événements ultérieurs risquent de montrer la nécessité de les modifier. 
+Les modifications d’estimations comptables ne sont donc pas considérées comme des corrections 
+d’erreurs, et c’est à juste titre que l’on comptabilise les effets de ces modifications dans les exercices 
+au cours desquels de nouvelles informations viennent infirmer les estimations antérieures et dans les 
+exercices futurs concernés. 
+34. Si l’examen de fin d’exercice indique que la capitalisation des dépenses demeure justifiée, il 
+faudrait également examiner la méthode d’amortissement afin de déterminer si, compte tenu des 
+nouvelles données dont on dispose, il y a lieu de réviser les prévisions en matière d’avantages futurs, 
+ce qui nécessiterait la modification de l'amortissement futur. 
+35. Lorsque l'examen du solde non amorti des dépenses capitalisées d'un projet donné indique qu'il y 
+a lieu de modifier la méthode d'amortissement, cette modification ne doit pas être rétroactive. 
+36. Les dépenses de développement relatives à un projet doivent faire l’objet d’une 
+dépréciation dans la mesure où le solde non amorti, ajouté aux dépenses de développement 
+restant à engager, aux coûts de production correspondants et aux frais administratifs et 
+commerciaux directement liés à la commercialisation du produit, ne pourront probablement 
+plus être couvertes par les produits futurs attendus de ce projet. Le montant non amorti des 
+dépenses de développement d’un projet doit être passé en perte dès que l’un des critères 
+décrits au paragraphe 21 pour l’inscription des dépenses de développement à l’actif cesse 
+d’être respecté. 
+37. La réduction de la valeur comptable nette des dépenses de développement relatives à un projet, 
+destinée à les ramener à leur valeur récupérable, est constatée en charges en réduisant la valeur 
+brute de ces dépenses, ou par la constitution de provisions s’il est jugé que la réduction n’est pas 
+irréversible. 
+Informations à fournir 
+38. S’ils vérifient les conditions de pertinence, les renseignements suivants doivent être 
+fournis dans les états financiers : 
+http://www.procomptable.com/ 6
+a. les méthodes comptables adoptées pour les dépenses de recherche et de  
+développement ; 
+b. le montant des dépenses de recherche et de développement portées en charges de 
+l’exercice ; 
+c. les méthodes d’amortissement retenues ; 
+d. les durées de vie et les taux d’amortissement utilisés ; 
+e. un rapprochement du solde des dépenses de développement non amorties en début et en 
+fin d’exercice montrant : 
+• les dépenses de développement inscrites à l’actif conformément aux conditions 
+prescrites dans le paragraphe 21 ; 
+• les dépenses de développement constatées en charges conformément aux 
+paragraphes 26 et 36 ; 
+• les dépenses de développement affectées à d’autres comptes d’actifs ; 
+39. Les entreprises sont encouragées à inclure dans leurs états financiers ou dans un autre 
+endroit de leur rapport annuel une description de leurs activités de recherche et de 
+développement. Elles sont également encouragées à décrire la base d’évaluation des 
+dépenses de développement capitalisées et mentionner les circonstances ou événements 
+ayant conduit à la constatation d’une charge pour tenir compte de la dépréciation des 
+dépenses de développement conformément au paragraphe 36 et de la reprise éventuelle des 
+provisions déjà constatées. 
+Date d'application 
+40. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+comptables ouverts à partir du 1er Janvier 1999. 
+ 
+ 

@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/totalbetaIndia.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/totalbetaIndia.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "f56ab259ff062735abcdc7f1a3c36f8cb575c192c0c7f2778c4b226b6268f6c7",
+ "bytes": 55808,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_totalbetaIndia.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:22:00 GMT"
+}

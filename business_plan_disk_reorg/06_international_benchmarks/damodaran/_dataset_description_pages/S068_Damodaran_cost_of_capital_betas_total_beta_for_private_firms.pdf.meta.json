@@ -1,0 +1,22 @@
+{
+ "id": "S068",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - cost of capital, betas, total beta for private firms - Cost of capital by sector",
+ "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wacc.html",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "5828418703ef92ce4bde98815fefca6a486a02254fd11cec0b352aad402dca7d",
+ "bytes": 139481,
+ "path": "business_plan\\Sector_benchmarks\\S068_Damodaran_cost_of_capital_betas_total_beta_for_private_firms.pdf",
+ "status": "ok",
+ "pages": 2,
+ "text_chars": 10133,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Cost of Capital",
+ "note": "",
+ "last_modified": ""
+}

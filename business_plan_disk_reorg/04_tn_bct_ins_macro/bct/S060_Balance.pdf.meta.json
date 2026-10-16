@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/Balance.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/Balance.pdf",
+ "content_type": "application/pdf",
+ "sha256": "43140e45723eeef55027d70a2cb07d040ce925e4cf6f4caf4804f3d9be17f73b",
+ "bytes": 2590223,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_Balance.pdf",
+ "pages": 108,
+ "text_chars": 218259,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Thu, 04 Dec 2025 14:08:40 GMT"
+}

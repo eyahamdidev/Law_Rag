@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/2024_Reglementation_Bancaire.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/2024_Reglementation_Bancaire.pdf",
+ "content_type": "application/pdf",
+ "sha256": "1020d9634d890e494b6db4bf5a709d7424310d197a09122fbd89db4c9f99f1b4",
+ "bytes": 11739087,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_2024_Reglementation_Bancaire.pdf",
+ "pages": 863,
+ "text_chars": 2289457,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 01 Oct 2024 16:42:51 GMT"
+}

@@ -1,0 +1,507 @@
+1 
+http://www.procomptable.com/ 
+NC 27 
+Le contrôle interne et l’organisation comptable dans les entreprises 
+d’assurance et / ou de réassurance 
+  
+  
+Objectif de la norme  
+01. La norme comptable générale NC 01 définit les règl es générales relatives au contrôle interne et à 
+l'organisation comptable des entreprises. Ces règles s'appliquent à l'ensemble des entreprises compte 
+non tenu de la nature particulière de leurs activités.  
+Les activités d'assurance et de réassurance et leur  environnement sont caractérisés par la nature 
+particulière :  
+• du cycle d'exploitation,  
+• de la complexité croissante des activités et des risques spécifiques liés aux opérations 
+réalisées,  
+• de la délégation et du partenariat en ce qui concerne la réalisation des produits et 
+l'engagement des charges,  
+• du recours généralisé à des moyens informatiques pour le traitement des opérations,  
+• de l'incidence de la législation et des r ègles édictées par les autorités de contrôle,  
+• du développement permanent des nouveaux prod uits et des nouvelles pratiques dans le 
+secteur.  
+L'ensemble de ces particularités nécessite une adéquate adaptation du système de contrôle interne et 
+de l'organisation comptable des entreprises d'assurance et/ou de réassurance.  
+02. L'objectif de la présente norme est de prescrire les règles spécifiques relatives au contrôle interne 
+et à l'organisation comptable des entreprises d'assurance et/ou de réassurance.  
+Ces règles spécifiques, combinées avec les disp ositions de la norme comptable générale NC 01 
+relatives au contrôle interne et à l'organisation comptable, sont prévues pour permettre aux 
+entreprises d'assurance et/ou de réassurance de maîtri ser leurs activités, de préparer et de présenter 
+des informations qui répondent aux caractéristiques qualitatives définies dans le cadre conceptuel de 
+la comptabilité financière.  
+03. La présente norme comporte également une nomenclature comptable ainsi que certaines 
+définitions et règles de fonctionnement des comptes.  
+Champ d'application 
+04. La présente norme s'applique à toutes les entreprises d'assurance et/ou de réassurance 
+soumises à la tenue et à la publication de leurs états financiers en TUNISIE. 
+Définitions  
+05. Dans la présente norme, les termes ci-dessous ont la signification suivante :  
+a) L'exercice comptable:  correspond à l'année civile. Toutefoi s, l'entreprise d'assurance et/ou de 
+réassurance peut être tenue, en vertu des disposit ions légales ou réglementaires, de présenter des 
+situations comptables ou des états financiers intermédiaires couvrant une période autre que l'année 
+civile.  
+b) Etats financiers publiables:  Le bilan, les états de résultat, le tableau des engagements reçus et 
+donnés, l'état des flux de trésorerie et les notes aux états financiers.  
+Le contrôle interne 
+Objectifs du contrôle interne  
+06. Les objectifs du système de contrôle interne sont prévus par la norme comptable générale 
+NC 01. Ce système doit viser dans les entreprises d'assurance et/ou de réassurance, en 
+particulier, les objectifs suivants : 
+2 
+http://www.procomptable.com/ 
+a) assurer la réalisation et l'optimisation des opérations et la protection des ressources de 
+l'entreprise,  
+b) assurer la conformité aux lois et aux règlements,  
+c) garantir la fiabilité des informations produites.  
+Les entreprises d'assurance et/ou de réassurance doivent disposer d'un système de contrôle 
+interne efficace. Ce système doit se confor mer aux stipulations de la Norme Comptable 
+Générale NC 01 tout en étant étayé par des sous-systèmes et la mise en place de procédures 
+permettant la surveillance et le contrôle des risques spécifiques liés à la réalisation et au 
+traitement des opérations d'assurance et de réassurance, et ce en s'assurant notamment de : 
+• la surveillance des risques techniques  
+• la surveillance des risques de contrepartie  
+• la surveillance des risques de liquidité  
+• la surveillance des risques de taux  
+• la surveillance des risques de change  
+• la surveillance des risques liés aux traitements informatisés  
+Eléments essentiels du contrôle interne  
+07. Un système efficace de contrôle interne repose essentiellement sur les impératifs suivants 
+:  
+• une organisation interne adaptée  
+• des méthodes et des procédures appropriées  
+• un personnel de qualité  
+• des moyens matériels et sûrs de protection  
+• une maîtrise parfaite des risques  
+08. Une organisation interne adaptée suppose la mise en place :  
+• d'un organigramme détaillé de toutes les fonctions de l'entreprise (fonctions 
+opérationnelles, fonctions de détention des actifs, fonctions d ' enregistrement ou comptables, 
+fonctions de contrôle...) avec une définition précise des tâch es et des responsabilités de 
+chacun ; 
+• d'un système de délégation de pouvoirs au niveau des services centraux, des agences et des 
+succursales ;  
+• de procédures simples et fiables pour la saisie, le contrôle et l'exploitation des informations ;  
+• de procédures simples et fiables qui régissent et organisent les relations avec les tiers et 
+notamment les autres assureurs, réassureurs et coassureurs ainsi que les agents et courtiers;  
+• d'une structure d'audit interne.  
+Il sera ainsi essentiel dans les entreprises d'assu rance et de réassurance de  prévoir des définitions 
+très précises des pouvoirs qui sont accordés notamment dans :  
+• les dérogations tarifaires qui peuvent êt re accordées aux commerciaux et/ou aux 
+intermédiaires qui distribuent les produits d'assurance,  
+• les limites de délégations qui peuvent être données à un intermédiaire dans le cadre du 
+règlement direct des sinistres,  
+• le montant et la nature des placements qui so nt réalisés par le pe rsonnel des services 
+financiers dans le cadre de la stratégie de placements définie par la direction,  
+09. Les entreprises d'assurance et/ou de réassurance doivent ve iller au respect du principe de 
+séparation des tâches et d'incompatibilité des fonctions, d'autorisation d'engagements, de règlement 
+et d'enregistrement en distinguant les principales fonctions suivantes :  
+• comptabilité générale,  
+• ressources humaines,  
+• trésorerie,  
+3 
+http://www.procomptable.com/ 
+• services généraux,  
+• gestion des primes,  
+• gestion des sinistres,  
+• gestion des placements,  
+• gestion et comptabilité des intermédiaires,  
+• recouvrement,  
+• gestion et comptabilité de la réassurance.  
+Des méthodes et des procédures appropriée s consignées dans des manuels de procédures 
+permettant de préciser :  
+• les consignes d'exécution des tâches (identificat ion des risques à assurer, tarifs à appliquer, 
+informations à recueillir, etc...) ; des documents utilisés et leur contenu (questionnaire, contrat, 
+avenant, attestation, etc ) ;  
+• le classement des dossiers (contrats d'ass urance, avenants, déclaration de sinistres,   
+recours) ;  
+• les autorisations et les approbations ;  
+• la saisie et le traitement des informations.  
+et de mettre en place :  
+• un système de comptabilité de gestion permettant  d'une part, de répartir les frais par nature 
+dans les différentes destinations prévues par la nomenclature comptable et d'autre part, 
+d'éclater les différents éléments de l'état de résult at technique dans les différentes catégories 
+d'assurance, 
+ 
+• un service spécialisé dans le traitement des opérations de réassurance dont l'objet sera 
+principalement de fournir les informations nécessaires à la comptabilisation de ces opérations 
+et à l'appréciation des risques. Ce service sera également chargé de relancer les cédants 
+pour que ces derniers fournissent des inform ations fiables dans les délais prévus 
+contractuellement.  
+10. Les techniques de l'assurance et de la réassurance exigent une qualification importante du 
+personnel. Un soin devant être apporté à sa séle ction, sa formation et à l'actualisation de ses 
+connaissances.  
+La mise en place de règles strictes lors de l'em bauche et d'un système d'évaluation des compétences 
+du personnel est de nature à éviter les négligences ou les fraudes.  
+La fonction de protection des actifs et de l'in formation revêt une importance capitale dans les 
+entreprises d'assurance et/ou de réassurance. To ut doit être mis en oeuvre pour une protection 
+matérielle et sûre des valeurs (espèces, chéquier s, attestations d'assuranc e, etc ) et des dossiers 
+(expertises, jugements, quittances de règlements, etc...).  
+11. Un système de preuves et de recoupements doit  être généralisé s'exerçant principalement par 
+rapprochement d'informations figurant sur des documents de sources différentes (proposition 
+d'assurance, contrat, prime d'assurance, déclarat ion de sinistre, dossier de sinistre ou 
+d'indemnisation, jugement, quittances de règlements, etc ) de nature à empêcher les pertes, vols ou le 
+détournement d'actifs et de documents officiels ainsi que les enregistrements erronés.  
+Une maîtrise parfaite des risques doit inclure une évaluation objective des différents cycles de l'activité 
+de l'entreprise :  
+Souscription 
+12. Les procédures permettant le su ivi et le contrôle des risques spécifiques liés aux opérations de 
+souscription des entreprises d'assurance doivent inclure entre autres :  
+- l'organisation du service chargé de la gestion des opérations de souscription incluant les 
+politiques et procédures concernant les fonctions de contrôle et la séparation des fonctions 
+incompatibles, 
+- des procédures qui permettent de garantir que to utes les propositions d'assurance en cours sont 
+connues et suivies, et qu'elles donnent lieu à une ét ude technique et une étude de tarification par le 
+service production,  
+4 
+http://www.procomptable.com/ 
+- des procédures qui garantissent que les propositio ns et affaires nouvelles font l'objet d'une revue 
+en vue de s'assurer que la tarification proposée ou  appliquée aux nouveaux contrats correspond aux 
+tarifs en vigueur au sein de l'entreprise,  
+- des procédures qui garantissent que les tarifs spéciaux font l'objet d'une approbation hiérarchique 
+systématique,  
+- des procédures qui garantissent que l'émission d'un contrat engendre automatiquement la mise à 
+jour de la base informatique production,  
+- des procédures qui garantissent des revues périodiques des différents services pour s'assurer de 
+la correcte documentation des dossiers (affair es nouvelles, nature du risque, tarif, période de 
+couverture, identification de l'assuré),  
+- des contrôles des taux de commissions par agent et courtier réalisés périodiquement.  
+Production / émission / annulation / recouvrement / provisions de primes 
+13. Les procédures permettant le su ivi et le contrôle des risques spécifiques liés aux opérations de 
+production des entreprises d'assurance doivent inclure entre autres :  
+- l'organisation du service chargé de la gestion des opérations de production incluant les politiques 
+et procédures concernant les fonctions de contrôle et la séparation des fonctions incompatibles, 
+- un rapprochement périodique des primes émises avec la base de production réalisé sous le 
+contrôle de la direction,  
+- un contrôle de la mise à jour des fichiers tarifs et de la bonne application des clauses de 
+revalorisation éventuelles,  
+- la relance systématique des assurés pour garantir la réception des déclarations qui permettent de 
+déterminer les primes,  
+- des procédures d'analyse des annulations de prim es par service, catégorie d'assurance, causes 
+d'annulation et réseau d'intermédiaires,  
+- des procédures qui garantiss ent que la centralisation comptable des primes émises et des 
+annulations de primes par catégorie d'assurance es t réalisée de manière satisfaisante, que les 
+données comptables sont rapprochées périodiquement des données de production, que les taxes sur 
+les contrats d'assurance sont correctement calculées,  
+- des procédures qui garantissent que les comptes courants des intermédiaires sont analysés et 
+suivis régulièrement, que les arriérés sont sy stématiquement relancés et que les provisions 
+éventuelles sont correctement évaluées, des procé dures qui garantissent que les rémunérations des 
+intermédiaires sont contractuelles et dûment approuvées par la direction,  
+- des procédures qui garantissent que le calcul , la centralisation comptable et le suivi des 
+provisions de primes sont satisfaisants et que ces provisions sont revues par la direction de 
+l'entreprise.  
+Sinistres I règlements  
+14. Les procédures permettant le suiv i et le contrôle des risques spécifiques liés à la gestion des 
+sinistres des entreprises d'assurance doivent inclure entre autres :  
+- l'organisation du service chargé de la gestion des sinistres respectant les politiques et procédures 
+relatives aux fonctions de contrôle et la séparation des fonctions incompatibles, 
+- un contrôle de la tenue du registre des sinistres,  de la transmission correcte des informations de 
+la part des intermédiaires, du recensement et de la mise en oeuvre des recours, de l'existence du 
+contrat et des garanties couvertes, du correct classement et de la documentation des dossiers 
+sinistres,  
+- des procédures formalisées et précises relati ves à la délégation des règlements, au contrôle de 
+ces délégations et au contrôle des pièces justificatives prévues dans les dossiers sinistres ( expertise, 
+factures. ..),  
+- des procédures de mise à jour de l'inventaire permanent suite aux paiements réalisés,  
+- des procédures de délégation en matière d'évaluati on des sinistres, de mise à jour des barèmes 
+utilisés, de revue des évaluations, de suivi des contentieux.  
+Il est essentiel que des personnes qualifiées soient affectées à la surveillance du portefeuille sinistres 
+a fin de réaliser les travaux suivants :  
+5 
+http://www.procomptable.com/ 
+- valider les évaluations des sinistres qui ont été r éalisées par les rédacteurs sinistres et contrôler 
+la qualité des travaux des rédacteurs en analysant notamment les écarts entre les paiements effectifs 
+et les évaluations, les modifications dans les évaluations, les dossiers réouverts..., 
+- analyser la sinistralité par nature de risque, intermédiaire, assuré à fin d'évaluer la fiabilité des 
+tarifs et d'identifier les risques éventuels.  
+Cette fonction pourrait être dévolue, dans une certaine mesure au service d'audit interne dans le 
+cadre d'une mission permanente.  
+Placements I produits financiers  
+15. Les procédures permettant le suiv i et le contrôle des risques spécifiques liés aux placements des 
+entreprises d'assurance et/ou de réassurance doivent inclure entre autres :  
+- l'organisation du service chargé de la gest ion des placements incluant les politiques et 
+procédures concernant les fonctions de contrôle et la séparation des fonctions incompatibles, 
+- des procédures qui précisent la politique financièr e de l'entreprise, les habilitations des différents 
+intervenants compte tenu du montant et de la natur e des transactions, la liste des intermédiaires 
+autorisés eu égard à leur qualité et réputation, les règles déontologiques de l'entreprise,  
+- des procédures qui définissent les principes co mptables applicables à chaque type d'instrument 
+financier utilisé et garantissent le suivi des ordres de transaction et le rapprochement de ceux-ci avec 
+les avis d'opérer,  
+- des procédures qui garantissent que la structure et l'évaluation des  placements font l'objet d'un 
+suivi régulier, que le portefeuille respecte les contraintes réglementaires et que la solvabilité des 
+contreparties fait l'objet d'un suivi périodique.  
+Acceptations / cessions / rétrocessions 
+16. Les procédures permettant le su ivi et le contrôle des risques spécifiques liés aux opérations de 
+réassurance des entreprises d'assurance et/ou de réassurance doivent inclure entre autres:  
+- l'organisation du service chargé de la gestion des opérations de réassurance incluant les 
+politiques et procédures concernant les fonctions de contrôle et la séparation des fonctions 
+incompatibles,  
+- des procédures qui précisent la politique de ré assurance de l'entreprise, les habilitations des 
+différents intervenants compte tenu du montant et  de la nature des transactions, la liste des 
+contreparties autorisées selon des critères fixés par  l'entreprise notamment leurs qualité et réputation 
+et les règles déontologiques,  
+- des procédures qui garantissent que les affaires  acceptées sont correctement suivies, que les 
+traités y relatifs font l'objet d'un enregistrement exhaustif, que les décomptes reçus des cédantes font 
+l'objet d'une vérification sur la base du traité et que les sinistres importants font l'objet d'un suivi 
+spécifique, 
+- des procédures qui garantissent le suivi de la politique de souscription et de provisionnement des 
+entreprises cédantes,  
+- des procédures qui permettent de s'assurer que la solvabilité des  entreprises cessionnaires est 
+analysée,  
+- des procédures qui garantissent régulièrement  l'établissement des balances nominatives des 
+cédantes et cessionnaires, l'analys e de l'arriéré et le rapprochement de la balance générale aux 
+comptes auxiliaires,  
+- des outils qui permettent d'apprécier la rentabilité des différents traités souscrits par l'entreprise.  
+Traitement informatisé de l'information 
+17. Les procédures permettant le suivi et le contrô le des risques liés aux traitements informatisés des 
+opérations d'assurance et/ou de réassurance doivent inclure ;  
+- l'organisation de la fonction informatique incluant  les politiques et procédures concernant les 
+fonctions de contrôle et la séparation des fonctions incompatibles, 
+- les contrôles portant sur le développement et la maintenance des programmes informatiques 
+incluant la documentation des programmes nouveaux  ou révisés et l'accès à la documentation des 
+programmes,  
+- des procédures de sécurité physique des installations informatiques et des données produites par 
+le système de traitement des informations, notam ment des procédures d'accès aux salles machines, 
+6 
+http://www.procomptable.com/ 
+des procédures de sauvegarde des fichiers et de s procédures de secours informatiques en cas de 
+détérioration ou de perte des données,  
+- des procédures de sécurité logique d 'utilisation et de manipulation de s systèmes de traitement 
+des informations, notamment des procédures d'hab ilitation aux différents niveaux de consultation, 
+d'utilisation et de modification des données stockées dans les fichiers; des procédures de saisie, de 
+validation et de redressement des opérations ; 
+ 
+18. Les entreprises d'assurance et/ou de réassurance doivent, en outre, accorder une attention 
+particulière aux risques de fraudes tels que : 
+• les fausses déclarations à la souscription ou lors de la survenance d'un sinistre,  
+• les faux et usages de faux (vente ou usage de fausses attestations).  
+Audit interne et Comité d'audit  
+19. Les entreprises d'assurance et/ou de réassurance doivent mettre en place une structure 
+d'audit interne ayant pour mission de procéder à l'examen et l'évaluation du caractère suffisant 
+et de l'efficacité du système de contrôle interne ainsi qu'à la proposition de recommandations 
+pour son amélioration. 
+ 
+La structure d'audit interne est normalement chargée d'examiner :  
+• la fiabilité et l'intégrité des informations financières et d'exploitation,  
+• les systèmes mis en place afin de vérifier le respect des normes, plans, procédures, 
+lois et réglementations,  
+• les moyens utilisés pour assurer la protection des actifs et de vérifier leur existence,  
+• la façon dont les ressources sont utilisées afin de s'assurer de leur utilisation efficace 
+et sans gaspillage  
+• les programmes de l'entreprise afin de s'assu rer que les réalisations et les résultats 
+sont conformes aux objectifs et prévisions fixés.  
+20. Les entreprises d'assurance qui distribuent leurs contrats par un réseau d'intermédiaires doivent 
+charger la structure d'audit interne, ou un service d'inspection, du suivi de la gestion des risques y 
+afférents à fin de s'assurer que les intermédiaires :  
+• respectent leurs engagements contractuel s quant au paiement des primes et des 
+sinistres, 
+• fassent remonter rapidement à l'entreprise les informations sur les nouveaux contrats 
+et les sinistres survenus, 
+• soient de qualité suffisante pour permettre à l'entreprise de disposer d'une information 
+fiable.  
+Le Service d'inspection peut assurer, quand la taille et  l'activité de l'entreprise le justifient et quant il 
+répond aux critères appropriés, notamment d'ind épendance et de compétence, la mission d'examen 
+des systèmes de contrôle interne à même d'améliorer leur efficacité.  
+Afin d'assurer à la structure d'audit et éventuellement à la structure d'inspection l'efficacité requise, les 
+entreprises d'assurance et/ou de réassurances doi vent conférer à cette structure les conditions 
+appropriées d'indépendance et la doter des comp étences requises pour mener convenablement sa 
+mission.  
+Conformément aux bonnes pratiques d'usage, il est recommandé d'instituer un Comité d'Audit, 
+rattaché au Conseil d'Administration, agissant en collaboration ou en complément de la fonction 
+d'audit interne à l'effet particulièrement :  
+• de définir, de superviser et de veiller à la coordination entr e les différentes activités de 
+contrôle et des structures qui en ont la charge au sein de l'entreprise ;  
+• d'adopter les orientations permettant la correcti on et le suivi des insuffisances des procédures 
+de contrôle interne ;  
+• de s'assurer du suivi des recommandations et  de parer aux risques de dysfonctionnement du 
+système de contrôle interne ou des tentatives visant à outrepasser les procédures de contrôle.  
+L'organisation comptable 
+7 
+http://www.procomptable.com/ 
+21. Le système comptable des entreprises d'assuranc e et/ou de réassurance doit être organisé de 
+manière efficace pour être à même de produire l'information financière requise par les différents 
+utilisateurs.  
+22. Cette partie de la norme vise à guider l'entreprise pour la mise en place d'une organisation 
+adéquate couvrant toutes ses fonctions et pour qu e ses états financiers rép ondent aux objectifs et 
+caractéristiques qui leur sont assignés.  
+L'organisation comptable est une composante de base de l'organisation générale de l'entreprise dans 
+la mesure où elle va permettre de saisir et de mesurer l'ensemble de ses éléments en vue de les 
+refléter et de les maîtriser. 
+ 
+L'organisation générale suppose l'exis tence de systèmes de contrôle interne efficaces dont l'une des 
+composantes est constituée par l'organisation et la tenue de la comptabilité financière.  
+La responsabilité de l'organisation et de la tenue de la comptabilité incombent à la direction générale 
+de l'entreprise. 
+ 
+Nomenclature comptable  
+23. Le plan des comptes utilisé par chaque entreprise doit comporter les comptes principaux (2 
+chiffres), comptes divisionnaires (3 chiffres) et s ous-comptes (4 chiffres et plus) prévus par la 
+nomenclature de la norme sectorielle ainsi que  les comptes divisionnaires et sous- comptes 
+non prévus mais qui, compte tenu de l'organisation comptable retenue par l'entreprise sont 
+nécessaires à l'enregistrement des opérations, à la passation des écritures d'inventaire, à 
+l'établissement et à la justification des éléments du bilan, des états de résultat, du tableau des 
+engagements reçus et donnés, de l'état des flux de trésorerie et des notes aux états financiers. 
+ 
+Au cas où des fonds à affectation spécifique, d'origine budgétaire ou extérieure, sont confiés à 
+une entreprise d'assurance et/ou de réassurance, celle ci doit instituer une procédure 
+spécifique permettant de s'assurer de la conformité de la gestion de ces fonds à la 
+réglementation et/ou aux clauses contract uelles les régissant et ouvrir des comptes 
+spécifiques appropriés dans sa nomenclature. 
+ 
+A défaut de mention ou de principe spécifique définis dans la norme sectorielle, les règles du 
+Système Comptable des entreprises sont applicables. 
+ 
+24. Les comptes comportant dans leur intitulé la  mention « assurance vie » sont utilisés par les 
+entreprises pratiquant les opérations d'assurance vi e. Les comptes comportant dans leur intitulé la 
+mention « assurance non vie » sont utilisés par les entreprises pratiquant les opérations d'assurance 
+non vie. Les entreprises qui pratiquent à la fois des opérations d'assurance vie et des opérations 
+d'assurance non vie doivent tenir une comptabilit é propre à chacune de ces deux catégories de 
+risques, elles utilisent à cet effet l'ensemble des comptes prévus par la nomenclature.  
+Documents obligatoires  
+25. Outre les documents obligatoires prévus par le droit commun, les entreprises d'assurance et/ou de 
+réassurance doivent respecter les obligations suivantes :  
+a) Inventaire permanent des placements  
+Un inventaire permanent des placements doit être tenu dans les conditions suivantes :  
+• L'enregistrement des entrées et des sorties des placements  indépendamment de leur 
+constatation comptable, au plus tard le lendemain de la naissance de l'engagement (pour les 
+prêts et les immeubles) ou de la réception de l'avis d'achat ou de vente  (pour les valeurs 
+mobilières).  
+• Le suivi individuel de chaque valeur qui doit comporter la désignation de son montant et de 
+son imputation comptable, la désignation précis e du dépositaire et du lieu de dépôt, le détail 
+de chaque mouvement (nature, quantité, date et prix unitaire ), la date,  la nature et le montant 
+des encaissements et décaissements afférents à l'achat, à la cession ou à l'amortissement du 
+placement, et pour les prêts, le taux d'intérê t, l'échéancier d'amortissement et la nature des 
+garanties reçues.  
+• Permettre la consultation, à tout moment, des informations définies aux points précédents 
+pour chaque intitulé de valeur.  
+• L'établissement mensuel, au moins, d'une liste chronologique des mouvements du mois par 
+compte divisionnaire du plan comptable, comportant pour chaque mouvement l'intitulé de la 
+valeur, la quantité ainsi que la nature et la date du mouvement et le montant enregistré en 
+8 
+http://www.procomptable.com/ 
+comptabilité, ainsi que le solde en valeur du compte divisionnaire en début et en fin de mois et 
+le solde général en valeur en début et en fin de mois. Pour les opérations non encore 
+enregistrées en comptabilité (promesses d'achat ou de vente par exemple), les montants sont 
+indiqués et récapitulés pour mémoire dans des soldes rattachés aux soldes en valeurs.  
+b) Registre des contrats  
+Les entreprises d'assurance doivent obligatoirement  tenir un registre des contrats comportant les 
+caractéristiques de ces derniers.  
+Les entreprises doivent soit dé livrer les contrats sous un numér otage continu pouvant comprendre 
+plusieurs séries, sans omission ni altération, le s avenants successifs étant rattachés au contrat 
+d'origine, soit affecter aux assurés ou sociét aires des numéros continus répondant aux mêmes 
+exigences.  
+Les informations relatives à ces documents doivent êt re à tout moment d'un accès facile et comporter 
+au moins les éléments suivants :  
+• soit le numéro du contrat ou de l'avenant, soit le numéro de l'assuré ou du sociétaire avec 
+tous les contrats ou avenants le concernant ;  
+• la date de souscription, la durée du contrat ;  
+• le nom du souscripteur et/ou de l'assuré ;  
+• éventuellement le nom ou le code de l'intermédiaire ;  
+• la date et l'heure de la prise d'effet stipulée au contrat ;  
+• la date et le motif de la sortie éventuelle ;  
+• la monnaie dans laquelle le contrat est libellé ;  
+• le type de garantie par référence aux catégories d'assurance ;  
+• le montant des limites de garantie, du capital ou de la rente assurée.  
+c) Registre des sinistres  
+Les entreprises d'assurance doivent obligatoireme nt tenir un registre des sinistres qui répond aux 
+caractéristiques ci-dessous exposées.  
+Les événements et/ou les sinistres faisant jouer ou susceptibles de faire jouer au moins une garantie 
+prévue au contrat, sous un numérotage contin u pouvant comprendre plusieurs séries. Cet 
+enregistrement est effectué par exercice de surven ance. Il comporte les renseignements suivants : 
+date et numéro de l'enregistrement, numéro de contrat et, en tant que de besoin date de la 
+souscription, nom de l'assuré, date de l'événement. Il en est établi au moins une fois par mois une 
+liste à lecture directe. 
+ 
+Par ailleurs, pour chaque sinistre, un document facileme nt accessible à partir du numéro 
+d'enregistrement doit donner notamment la descrip tion des principaux éléments du sinistre et des 
+réclamations et contentieux, le détail des décaissem ents et encaissements et, sauf si l'entreprise est 
+dispensée de la méthode dossier par dossier, les évaluations successives des sommes à payer ou à 
+recouvrer. 
+ 
+A la clôture de l'exercice, il est établi pour chaque catégorie d'assurance une liste à lecture directe 
+comportant pour chaque sinistre survenu dans l'exercice, outre le numéro d'enregistrement, les 
+sommes payées au cours de l'exercice, l'évaluation des sommes restant à payer (sauf si l'entreprise 
+est dispensée de la méthode dossier par dossier) et le total de ces éléments; les sinistres survenus au 
+cours des exercices antérieurs et qui  n'étaient pas réglés à l'ouvert ure de l'exercice font l'objet de 
+listes analogues comportant en outre les évaluations à la fin de l'exercice précédent. Ces listes 
+fournissent, s'il y a lieu, en outre, les indications analogues concernant les recours ou sauvetages.  
+d) Liste des traités de réassurance  
+Les traités de réassurance et leurs avenants, acce ptations, d'une part, cessions et rétrocessions, 
+d'autre part, sont enregistrés par ordre chronologique sous un numéro tage continu. Les informations 
+suivantes doivent être portées sur un document pouvant être facilement consulté :  
+• le numéro d'ordre du traité et/ou de l'avenant,  
+• la date de signature,  
+• la date d'effet,  
+9 
+http://www.procomptable.com/ 
+• la durée,  
+• le nom du cédant, du cessionnaire ou du rétrocessionnaire,  
+• la nature des risques objets du traité,  
+• la nature du traité,  
+• la date à laquelle l'effet prend fin.  
+e) Groupement de coassurance ou de co-réassurance  
+La notion de groupement de coassurance ou de co - réassurance concerne les risques gérés en 
+association ou relevant d'un consortium tels que pa r exemple l'aviation, les bris de machines, la 
+responsabilité civile décennale. ..  
+Les entreprises qui participent à des groupement s de coassurance et de co-réassurance doivent 
+établir, pour chacun de ces groupements, un docum ent facilement accessible indiquant de manière 
+détaillée le fonctionnement du groupement et le  mode de traitement comptable des opérations 
+effectuées par l'entreprise dans le cadre du groupement.  
+L'entreprise doit être en mesure de justifier de toutes les écritures comptables relatives aux opérations 
+effectuées dans le cadre du groupement, notamment du calcul des provisions.  
+Enregistrement des opérations-piste d'audit  
+26. En ce qui concerne l'information comprise dans les états financiers et dans les états, 
+tableaux et documents prévus, un ensemble de procédures de contrôle interne, appelé piste 
+d'audit ou chemin de révision, doit permettre : 
+• de reconstituer dans un ordre chronologique les opérations,  
+• de justifier toute information par une pièce d'origine à partir de laquelle il doit être 
+possible de remonter par un cheminement ininterrompu au document de synthèse et 
+réciproquement, 
+ 
+• d'expliquer l'évolution des soldes d'un arrêté à l'autre en faisant apparaître des 
+mouvements ayant affecté les postes comptables.  
+L'enregistrement comptable doit mentionner :  
+• la date exacte de l'écriture ;  
+• la codification comptable ou imputation ;  
+• le libellé complet de la nature de l'opération avec la référence de la pièce justificative ;  
+• les autres références: Types de journaux, types de mouvements, types de règlement, 
+exercice, devise, catégories, la contrepartie.  
+Par ailleurs, un système d'archivage des pièces justificatives doit être mis en place.  
+Inventaire physique  
+27. La constitution de la provision pour sinistres à payer peut être réalisée selon deux méthodes. La 
+méthode de l'inventaire permanent et la méthode de l'inventaire intermittent.  
+La méthode de l'inventaire permanent suppose que les sinistres soient enregistrés et valorisés au " fil 
+de l'eau " et que les provisions pour sinistres à paye r soient donc elles-mêmes valorisées au fur et à 
+mesure.  
+La méthode de l'inventaire intermittent consiste à va loriser les provisions p our sinistres à payer aux 
+seules dates d'arrêtés comptables.  
+Il est opportun que les sinistres fassent l'objet d'un enregistrement immédiat dans les bases de 
+gestion et qu'une évaluation de ceux-ci soit effectuée  dès l'ouverture du dossier sur la base d'un coût 
+moyen ou sur la base de forfaits (assurance non-vie) ou en fonction du capital garanti (assurance vie). 
+Cette évaluation devant être revue périodiquement  eu égard aux éléments nouveaux du dossier. Il 
+semble important, dans le cadre d'une entreprise d'ass urance non-vie, du fait de la durée importante 
+du cycle sinistre (contrairement à l'activité vie qui a un cycle sinistres très court) de pouvoir connaître 
+très rapidement le montant total des engagements . Le système de l'inventaire permanent apparaît 
+ainsi comme un outil de fiabilisation de l'information financière et de contrôle interne fondamental.  
+Tenue des comptes en devises  
+28. Le principe d'une comptabilité pluri- mo nétaire doit être retenu par les entreprises 
+d'assurance et de réassurance. Les conditions de forme de tenue de cette comptabilité sont 
+10 
+http://www.procomptable.com/ 
+celles prévues par la Norme Comptable Générale NC 01. Toutefois, les règles de 
+comptabilisation des opérations conclues en une monnaie autre que le Dinar Tunisien doivent 
+être celles prévues par la norme comptable relative aux opérations en monnaies étrangères.  
+Documentation de l'organisation et procédures comptables  
+29. Outre les livres, registres et fichiers devant  être tenus obligatoirement par les entreprises 
+d'assurance et/ou de réassurance dont la liste est fixée conformément à la réglementation en vigueur, 
+les entreprises doivent mettre en place un manuel détaillant l'organisation et les procédures 
+comptables. Ce manuel, appuyé des modèles des documents utilisés, doit comporter notamment les 
+rubriques suivantes :  
+• principes comptables généraux codification du Plan Comptable de l'entreprise  
+• règles de fonctionnement des comptes politique d'amortissement des immobilisations  
+• règles d'évaluation des placements  
+• l'évaluation des sinistres et les métho des de calcul des provisions techniques  
+• description du système comptable appliqué mo de et planning de préparation des états 
+financiers.  
+Date d'application 
+30. La présente norme est applicable aux états financier s relatifs aux exercices ouverts à partir du 1 er 
+janvier 2001.  
+ 

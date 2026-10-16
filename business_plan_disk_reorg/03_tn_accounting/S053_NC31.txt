@@ -1,0 +1,321 @@
+NC 31 
+Les placements dans les entreprises d'assurance et / ou de réassurance 
+  
+Objectif  
+01. L'entreprise d'assurance et/ou de réassurance doit disposer à son actif, en couverture des 
+engagements du passif réglementé, des placements permettant éventuellement de réaliser la 
+trésorerie nécessaire pour faire face à l'objet des provisions constituées.  
+02. Les aspects non abordés spécifiquement dans le cadre de cette norme sont régis par la norme NC 
+07 du système comptable des entreprises  qui traite de la prise en compte, de l'évaluation et de la 
+présentation, par une entreprise, de .ses placements dans les états financiers.  
+03. L'objectif de la présente norme est de prescrire les règles de prise en compte, d'évaluation et de 
+présentation applicables aux opérations de placements dans les entreprises d'assurance et/ou de 
+réassurance. Cette norme couvrira les méthodes de prise en compte ainsi que la comptabilisation à 
+l'inventaire.  
+Champ d'application  
+04. La présente norme est applicable à  toutes les entreprises d'assurances et/ou de 
+réassurances soumises à la tenue et la publication de leurs états financiers en Tunisie. Elle 
+concerne les opérations de placements des entreprises d'assurance et/ou de réassurance.  
+05. Le traitement, dans le cadre de l'établissement des comptes consolidés, des titres de participation 
+détenus dans les filiales, entreprises associées et co -entreprises est exclu du champ d'application de 
+la présente norme.  
+Définitions  
+06. Dans la présente norme, les termes ci-après sont utilisés avec les significations suivantes :  
+a) Un Placement  
+Un placement est un actif détenu par une entreprise dans l'objectif d'en tirer des bénéfices sous forme 
+d'intérêts, de loyers, de dividendes ou de revenus assimilés, des gains en capi tal ou d'autres gains 
+tels que ceux obtenus au moyen de relations commerciales. Le bénéfice tiré de l'actif détenu peut se 
+traduire par une économie de charges d'exploitation dans le cas des immeubles d'exploitation.  
+b) Titre coté  
+Un titre est coté lorsq u'il est inscrit à la cote de la Bourse des Valeurs Mobilières de Tunis ou d'un 
+autre marché financier étranger.  
+c) Titres à revenus variables  
+Sont considérés comme titres à revenus variables les titres dont le revenu dépend, directement ou 
+indirectement, du résultat ou d'un élément du résultat de l'émetteur.  
+d) Obligations et autres titres à revenus fixes  
+Sont considérés comme titres à revenus fixes les titres autres que les titres à revenus variables, et 
+notamment: les obligations à taux fixe ou varia ble, les obligations indexées, les titres participatifs, les 
+titres de créances négociables, ...  
+e) La juste valeur  
+La juste valeur d'un placement est le prix auquel celui - ci pourrait être échangé entre un acheteur et 
+un vendeur normalement informés et consentants, dans une transaction équilibrée.  
+f) La valeur de marché  
+Il s'agit de sa valeur probable de négociation sur un marché actif et liquide, soit le montant de 
+liquidités qui peut être obtenu de sa vente.  
+g) La valeur d'usage  
+La valeur d'usage d'un placement est le prix qu'une personne prudente et avisée, informée de la 
+situation de l'entreprise, accepterait de payer si elle avait à l'acquérir.  
+h) Risque d'exigibilité des engagements techniques  
+Il s'agit du risque que l'entre prise d'assurance et/ou de réassurance ne soit plus en mesure d'honorer 
+ses engagements, en cas d'augmentation rapide du rythme de règlement des sinistres et/ou des 
+rachats, du fait de l'Evaluation de ses placements à la valeur d'usage et non à la valeur d e marché.  
+i) Provision pour risque d'exigibilité des engagements techniques  
+La provision pour risque d'exigibilité des engagements techniques correspond à la différence calculée 
+pour les placements entre le montant global de la valeur de marché et la val eur comptable nette des 
+titres concernés quand cette différence est négative.  
+j) Titres de même nature  
+Des titres sont réputés de même nature lorsqu'ils sont émis par un même émetteur et confèrent les 
+mêmes droits.  
+k) Parts dans les entreprises liées  
+Ce sont des actions ou des parts détenues par l'entreprise d'assurance et/ou de réassurance dans le 
+capital d'une société mère et de ses filiales.  
+I) Parts dans les entreprises avec liens de participation  
+Ce sont des actions ou des parts de capital détenu es dans des sociétés sur lesquelles l'entreprise 
+d'assurance et/ou de réassurance exerce une influence notable.  
+m) Influence notable  
+L'influence notable consiste à pouvoir participer aux décisions de la politique financière et 
+opérationnelle d'une entreprise sans avoir le contrôle de celle-ci.  
+n) Le contrôle  
+Le contrôle s'exerce à travers la détention directe ou indirecte (par l'intermédiaire d'une filiale) de la 
+majorité des droits de vote d'une entreprise, ou intérêt important dans les droits de vote et à travers le 
+pouvoir de direction, en vertu des statuts ou d'accords, la politique financière et managériale de 
+l'entreprise.  
+o) Placements représentatifs de contrats en unités de comptes  
+Les placements représentatifs de contrats en unités de compte s ont les actifs sous -jacents des 
+contrats d'assurance vie pour lesquels le risque lié aux placements est assumé par les assurés. C'est 
+à dire, les contrats d'assurance vie pour lesquels la garantie n'est pas exprimée dans une monnaie 
+mais par référence à la  valeur de ou des actifs sous -jacents (actions, Sociétés d'Investissement à 
+Capital Variable, Fonds Communs de Placements, Sociétés Civiles Immobilières, Sociétés 
+Commerciales de Placements Immobiliers ...).  
+Règles de prise en compte et d'évaluation des placements  
+Coût d'entrée des placements  
+Placements immobiliers  
+07. Les placements immobiliers sont inscrits à l'actif du bilan pour le prix d'acquisition pour 
+les acquisitions à titre onéreux, à la juste valeur pour les acquisitions à titre gratuit et au coût 
+de production pour celles produites par l'entreprise.  
+08. Les frais d'acquisition tels que droits de mutation, frais d'actes, commissions aux intermédiaires 
+immobiliers sont des charges qui peuvent faire l'objet d'une répartition sur plusieurs exercices avec un 
+délai maximum de 5 années. Toutefois, les honoraires d'étude et de conseil engagés à l'occasion de 
+l'acquisition peuvent être inclus dans le coût d'acquisition.  
+Placements immobiliers en cours  
+09. La prise en compte des im mobilisations en cours à l'actif du bilan se fait, conformément à la 
+Norme Comptable relative aux immobilisations incorporelles du système comptable des entreprises, 
+dès lors que l'entreprise est en mesure d'identifier la fraction de la contrepartie cédée en vue 
+d'acquérir et de mettre en service l'immobilisation représentative de l'avancement du projet. Pour ce 
+faire, on se réfère à la contrepartie, en liquidité ou autrement, de l'échange qui constitue une mesure 
+de la valeur objective de la valeur liée à l'avancement de l'immeuble en cours.  
+Obligations et titres à revenus fixes  
+10. Les bons, obligations et autres titres à revenus fixes sont portés à l'actif pour leur prix d'acquisition 
+hors frais accessoires sur achats et hors coupon couru à l'achat.  
+11. Les frais accessoires d'achat sont enregistrés en charges de l'exercice. Le montant du coupon 
+couru à l'achat est enregistré en produits en tant que revenu des placements.  
+12. Lorsque le prix d'acquisition d'un titre dépasse son prix de remboursement,  la différence doit être 
+prise en charge par le biais du compte "dotations des différences sur prix de remboursement" avec 
+pour contrepartie un compte de régularisation passif. Cette différence doit être échelonnée sur la 
+durée de vie résiduelle du titre de façon linéaire ou actuarielle.  
+13. Lorsque le prix d'acquisition d'un titre est inférieur à son prix de remboursement, la différence doit 
+être prise en produits par le biais du compte "différence sur prix de remboursement à percevoir" avec 
+pour contrepa rtie un compte de régularisation actif. Cette différence doit être portée en résultat de 
+manière échelonnée sur la durée de vie résiduelle du titre.  
+Titres à revenus variables  
+14. Ces titres sont évalués au prix d'acquisition hors frais accessoires sur a chats. Ces frais 
+sont constatés en charges de l'exercice.  
+15. Le prix d'acquisition est réduit de la part de dividendes dont la décision de distribution est 
+antérieure à la date d'acquisition et qui sont liés à des résultats réalisés au cours de la périod e 
+antérieure à celle de l'acquisition s'il est clairement démontré que les dividendes représentent une 
+distribution sur des bénéfices définitivement réalisés à la date de l'acquisition.  
+Evaluation des placements en date d'arrête  
+Considérations de base  
+16. Les placements réalisés par une entreprise d'assurance et/ou de réassurance sont réputés être 
+des placements à long terme. Le classement d'une partie de ceux -ci en placements à court terme doit 
+être dûment justifié dans les notes aux états financiers.  
+17. Le principe général du coût historique doit être respecté, sauf pour le cas particulier des 
+placements représentatifs des contrats en unités de compte qui doivent être présentés en valeur de 
+marché.  
+Placements immobiliers  
+18. A la date de clôture, il  est procédé à l'évaluation de ces placements à leur valeur d'usage. 
+Les moins-values par rapport à leur valeur comptable font l'objet de provision. Les plus -values 
+par rapport à cette valeur ne sont pas constatées. La valeur d'usage est déterminée sur la base 
+des mêmes critères que ceux définis dans la norme comptable relative aux placements du 
+système comptable des entreprises. La dotation aux provisions de chaque exercice doit être 
+constatée en charges.  
+19. Les placements immobiliers font l'objet d'un amortissement selon les règles définies dans la NC05. 
+La dotation aux amortissements de chaque exercice doit être constatée en charges.  
+20. La valeur des placements immobiliers est déterminée séparément pour chaque immeuble et/ou 
+terrain. Une moins value d égagée sur un immeuble et/ou terrain ne peut pas être compensée par une 
+plus value dégagée sur un autre immeuble et/ou terrain.  
+Obligations et titres à revenus fixes  
+21. La différence entre le prix d'acquisition d'un titre et son prix de remboursement do it  être :  
+ Portée en charge, au cas où le prix d'acquisition dépasse le prix de remboursement.  
+ Portée en produits, au cas où le prix d'acquisition est inférieur au prix de 
+remboursement.  
+Pour le rattachement des charge s et des produits, la différence est prise en compte dans les 
+résultats de manière étalée sur la durée de vie résiduelle des titres.  
+22. Dès lors qu'un risque de recouvrement de la valeur de remboursement et/ou des intérêts est 
+constaté sur ces actifs (dé faillance d'un émetteur par exemple), ils doivent faire l'objet d'une provision 
+pour dépréciation à due concurrence.  
+Titres à revenus variables  
+23 A la date de clôture, il est procédé à l'évaluation de ces placements à leur valeur d'usage. 
+Les moins -values par rapport au coût d'entrée font l'objet de provision. Les plus -values par 
+rapport à ce coût ne sont pas constatées. La valeur d'usage est déterminée sur la base des 
+mêmes critères que ceux définis dans la norme comptable relative aux placements du sys tème 
+comptable des entreprises. La dotation aux provisions de chaque exercice doit être constatée 
+en charges.  
+La valeur des placements à revenus variables est déterminée séparément pour chaque 
+catégorie de titres de même nature. Une moins -value dégagée sur une catégorie ne peut pas 
+être compensée par une plus-value dégagée sur une autre catégorie.  
+Autres types de placements (Prêts, dépôts et autres)  
+24. A la date de clôture, il est procédé à l'évaluation de ces placements à leur valeur d'usage.  Les 
+moins-values par rapport au coût d'entrée font l'objet de provision. Les plus -values par rapport à ce 
+coût ne sont pas constatées. La valeur d'usage est déterminée sur la base des mêmes critères que 
+ceux définis dans la norme comptable relative aux pl acements du système comptable des entreprises. 
+La dotation aux provisions de chaque exercice doit être constatée en charges.  
+La valeur des autres placements est déterminée séparément pour chaque nature. Une moins -value 
+dégagée sur une catégorie ne peut pa s être compensée par une plus -value dégagée sur une autre 
+catégorie.  
+Placements représentatifs de contrats en unités de compte  
+25. Ces placements, à titre dérogatoire, doivent être évalués à leur valeur de marché. La différence 
+entre la valeur comptable et la valeur de marché doit être prise en compte dans le résultat.  
+Provisions pour risques d'exigibilité  
+26. A la date de clôture et outre les provisions, amortissements et résorptions, il est procédé à 
+la constitution d'une pro vision pour risques d'exigibilité, correspondant à la différence entre le 
+montant global de la valeur de marché et la valeur comptable nette des titres concernés quand 
+cette différence est négative.  
+27. La valeur de marché est déterminée séparément pour chaque catégorie de titres de même nature.  
+28. La valeur de marché des placements concernés se détermine à la clôture de chaque exercice 
+comptable de la manière suivante :  
+Placements immobiliers  
+29. Par valeur de marché, on entend le prix auquel les terr ains et constructions pourraient être 
+vendus, à la date de l'évaluation, sous contrat privé, entre un vendeur consentant et un acheteur non 
+lié, étant entendu que le bien a fait l'objet d'une offre publique sur le marché, que les conditions de 
+celui-ci permettent une vente régulière et que le délai disponible pour la négociation de la vente est 
+normal compte tenu de la nature du bien.  
+30. Lorsque, à la date d'établissement des comptes, les terrains et constructions ont été vendus ou 
+doivent être vendus à c ourt terme, la valeur déterminée doit être diminuée des frais de réalisation 
+effectifs ou estimés.  
+31. Lorsqu'il n'est pas possible de déterminer la valeur de marché d'un terrain ou d'une construction, 
+la valeur déterminée sur la base du principe du prix d'acquisition ou du coût de revient est réputée être 
+la valeur de marché.  
+32. La méthode utilisée pour la détermination de la valeur de marché des terrains et constructions est 
+précisée dans les notes aux états financiers.  
+Obligations et titres à revenus fixes  
+33. Lorsque les placements sont admis à la cote d'une bourse de valeurs mobilières, on entend par 
+valeur de marché la valeur qui est déterminée à la date de clôture du bilan sur la base du cours 
+moyen pondéré des transactions qui ont eu lieu au cou rs du mois qui précède la date de clôture du 
+bilan.  
+34. Lorsqu'il existe un marché pour des placements autres que les précédents, on entend par valeur 
+de marché le prix moyen pondéré des transactions qui ont eu lieu au cours du mois qui précède la 
+date de clôture du bilan.  
+35. Lorsque, à la date d'établissement des comptes, les placements ont été vendus ou doivent être 
+vendus à court terme, la valeur déterminée doit être diminuée des frais de réalisation effectifs ou 
+estimés.  
+Titres à revenus variables  
+36. L'évaluation de la valeur de marché des titres à revenus variables doit être réalisée selon les 
+mêmes modalités que pour les bons, obligations et autres titres à revenus fixes exposées ci -dessus.  
+Autres types de placements (Prêts, dépôts et autres)  
+37. La valeur de marché des autres types de placements doit être déterminée par référence à la 
+valeur de remboursement de ces actifs.  
+Comptabilisation des revenus et charges liés aux placements  
+38. Les revenus de placements englobent généralement, les dividendes, les loyers, les parts de 
+résultat et les intérêts. Ils sont constatés en produits dès qu'ils sont acquis même s'ils ne sont 
+pas encore encaissés.  
+39. Les dividendes sont comptabilisés en produits dès le moment où le droit au dividende est établi.  
+40. Les revenus de certaines valeurs mobilières, telles que les obligations ou les bons, courus à la 
+date de clôture de l'exercice constituent des produits à recevoir à enregistrer en produits.  
+41. Les revenus de certains placements  tels que les immeubles loués perçus à la date de clôture de 
+l'exercice par anticipation constituent des produits constatés d'avance qui viennent minorer le compte 
+de produit intéressé.  
+Comptabilisation des opérations relatives à la réalisation des placements.  
+Placements immobiliers  
+42. Les placements immobiliers doivent être retirés de l'actif du bilan lors de leur cession. La 
+différence entre le produit de cession et la valeur comptable nette à la date du retrait est incluse dans 
+le résultat de l'exercice en cours.  
+Obligations et titres à revenus fixes  
+43. La règle du coût moyen pondéré (CMP) doit être utilisée en cas de cession de titres. A défaut, les 
+entreprises pourront utiliser la règle du FIFO (premier entré premier sorti). La méthode utilisée d oit 
+être indiquée dans les notes aux états financiers.  
+44. La fraction des revenus courus à la date de la cession de l'actif est constatée dans les revenus 
+des placements financiers.  
+45. La différence entre le produit de cession, et la valeur comptable n ette à la date du retrait est 
+incluse dans le résultat de l'exercice en cours.  
+Titres à revenus variables  
+46. La règle du coût moyen pondéré (CMP) doit être utilisée en cas de cession de titres. A défaut, les 
+entreprises pourront utiliser la règle du FIF O (premier entré premier sorti). La méthode utilisée doit 
+être indiquée dans les notes aux états financiers.  
+Informations a fournir  
+Présentation dans les états financiers: aspects généraux  
+Présentation au bilan  
+47. Les placements des entreprises d'assurance sont présentés au bilan en faisant ressortir :  
+ les placements en terrains et constructions en distinguant ceux relatifs à l'exploitation et ceux 
+hors exploitation, 
+ les placements dans les entreprises liées et participations,  
+ les autres placements financiers,  
+ les créances pour espèces déposées auprès des entreprises cédantes,  
+ les placements relatifs aux contrats en unités de compte.  
+Les placements relatifs aux contrats en unité de compte doivent être évalués et présentés au bilan en 
+valeur de marché alors que les autres catégories sont présentées au coût historique éventuellement 
+déprécié selon les règles exposées ci-après.  
+48. La totalité des placements -même ceux non admis en représentation des prov isions techniques -
+est inscrite en classe 2. Cependant, la répartition entre les placements admis et les placements non 
+admis doit être mentionnée dans les notes aux états financiers pour chaque catégorie de placement.  
+49. Les liquidités sont inscrites en  classe 5 dès lors qu'elles sont à vue. Les dépôts à terme sont 
+inscrits en classe 2. Les équivalents de liquidités au sens de la norme comptable générale -sont admis 
+comme placements et inscrits en classe 2. Les opérations de régularisation liées aux plac ements sont 
+enregistrées en classe 4.  
+50. Le poste placements représentatifs des contrats en unités de compte reprend globalement les 
+placements de toutes natures (immeubles, actions, obligations, SICAV...) relatifs aux contrats 
+d'assurance de ce type.  
+51. Les terrains et constructions d'exploitation doivent être comptabilisés dans des comptes différents 
+des terrains et constructions de placement afin de pouvoir fournir l'indication dans les notes aux états 
+financiers. 
+52. Les terrains et constructions ho rs exploitation comprennent les immeubles de placement. Il est 
+cependant à noter que :  
+-     les parts de sociétés immobilières cotées sont des placements financiers, les parts de 
+sociétés immobilières non cotées sont des placements immobiliers,  
+-     les placements immobiliers représentatifs de contrats en unités de compte sont portés au 
+compte 24 et non aux comptes 21 ou 22,  
+-     les acomptes versés sur placements immobiliers sont portés en comptabilité à des comptes 
+rattachés aux comptes concernés. S ont considérés comme acomptes versés toutes avances 
+non capitalisées à des sociétés immobilières non cotées. Le montant des acomptes doit être 
+comptabilisé dans des comptes différents afin de pouvoir fournir l'indication dans les notes 
+aux états financiers.  
+53. Les placements dans les entreprises liées doivent être présentés au bilan comme suit :  
+-     parts dans les entreprises liées,  
+-     bons et obligations émis par les entreprises liées et créances sur ces entreprises,  
+-       participations,  
+-       bons et obligations émis par les entreprises avec lesquelles l'entreprise à un lien de 
+participation et créances sur ces entreprises.  
+54. Les autres placements financiers doivent être présentés au bilan comme suit :  
+-       actions et autres titres à  revenus variables et parts dans des Fonds Communs des 
+Placements,  
+-       obligations et autres titres à revenus fixes, prêts hypothécaires, autres prêts,  
+-       dépôts auprès des établissements bancaires et financiers, autres.  
+Les autres prêts concer nent les prêts de toutes natures (hors prêts hypothécaires) accordés par 
+l'entreprise et, dans le cas des entreprises qui pratiquent l'assurance vie, les avances sur polices 
+accordées aux assurés.  
+Les dépôts auprès des établissements bancaires et financie rs concernent les dépôts de toutes 
+natures auprès des établissements bancaires et financiers autres que les dépôts à vue, c'est à dire 
+toutes les sommes qui ne peuvent être retirées qu'après une certaine période. Les sommes déposées 
+sans restriction quant au retrait doivent figurer dans le poste avoirs en banque même si elles portent 
+intérêt.  
+55. Les créances pour espèces déposées chez les cédantes concernent les montants en espèces 
+versés aux entreprises cédantes en garantie de leurs provisions techniques . Il doit exister autant de 
+sous comptes qu'il existe de cédantes sauf s'il existe une comptabilité auxiliaire.  
+56. La provision pour risque d'exigibilité est inscrite au passif du bilan dans les provisions 
+techniques.  
+Si la provision qui figure au bilan de l'exercice précédent devient sans objet, il convient de la 
+reprendre dans le résultat de l'exercice en cours. La valeur de marché des obligations et autres 
+titres à revenus fixes, comme celle des autres placements, do it être fournie dans les notes aux 
+états financiers.  
+Présentation au niveau de l'état de résultat  
+57. Les produits et charges liés aux placements sont présentés dans l'état de résultat 
+technique pour les entreprises qui pratiquent l'assurance vie.  
+58. Les produits et charges liés aux placements sont présentés dans l'état de résultat pour les 
+entreprises qui pratiquent l'assurance non vie.  
+59. Une fraction des produits des placements nets est transférée de l'état de résultat technique à l'état 
+de ré sultat ( cas de l'assurance vie) et de l' état de résultat à l'état de résultat technique (cas de 
+l'assurance non -vie) par le biais des postes produits de placements transférés et produits de 
+placement alloués (compte 79). Les modalités de transfert sont e xposées en détail dans la Norme sur 
+le contrôle interne et l'organisation comptable Annexe 3 chapitre Fonctionnement des comptes: « 
+compte 79 Transferts ».  
+Autres informations  
+60. Les principes et méthodes d'évaluation des placements sont mentionnés dans  les notes aux états 
+financiers conformément au § 70 de la Norme de présentation des états financiers.  
+61. L'analyse détaillée des placements est donnée dans les notes aux états financiers conformément 
+aux § 75 et 76 de la Norme de présentation des états financiers.  
+62. L'analyse détaillée des produits et charges de placements est donnée dans les notes aux états 
+financiers conformément au § 85 de la Norme de présentation des états financiers.  
+Date d'application  
+63. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+janvier 2001.  
+ 

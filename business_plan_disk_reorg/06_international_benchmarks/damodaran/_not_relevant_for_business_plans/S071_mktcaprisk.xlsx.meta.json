@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/mktcaprisk.xlsx",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/mktcaprisk.xlsx",
+ "content_type": "application/vnd.openxmlformats",
+ "sha256": "a3da0c631fe2225327b2b3b9de68d7b70a2784c98ee64c1791850e685b470ffa",
+ "bytes": 13492,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_mktcaprisk.xlsx",
+ "last_modified": "Thu, 08 Jan 2026 19:21:56 GMT"
+}

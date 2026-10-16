@@ -128,15 +128,48 @@ The `legal` agent (Meher's work, `backend/app/agents/legal_guidance/` and `contr
 
 The `fraud` agent calls a separate service (`fraud_detection/`), which scores payments and invoices with rules, LightGBM, anomaly detection, graph patterns and sanctions screening, and checks the stamp and signature on an uploaded invoice. Its `risk_score` (0 to 100) is an evidence score, not a probability of fraud. Contract-fairness review is not part of it.
 
-Run it in a second terminal, before asking fraud questions:
+It needs **Python 3.11 or newer in its own environment**: its models were saved with scikit-learn 1.9.1, which does not install on the main app's Python 3.10. Once:
 
 ```powershell
 cd D:\Law_Rag
-.venv\Scripts\activate
-python -m fraud_detection serve --port 8100
+py -3.11 -m venv .venv-fraud
+.venv-fraud\Scripts\python -m pip install "scikit-learn==1.9.1" lightgbm numpy pandas scipy joblib fastapi uvicorn pydantic httpx pillow pymupdf pytesseract
+```
+
+Then, in a second terminal, before asking fraud questions:
+
+```powershell
+cd D:\Law_Rag
+.venv-fraud\Scripts\python -m fraud_detection serve --port 8100
 ```
 
 Check it at http://127.0.0.1:8100/health. Port 8100 is used because the main app is on 8000. Without the service, fraud questions answer that it is not running. Reading the words on a stamp also needs the Tesseract program (French and English packs).
+
+## Business plan service
+
+The `business_plan` agent sends an uploaded plan (PDF, Word, Excel) to a separate service (`services/bp/`): section completeness, financial checks against Tunisian parameters and sector benchmarks, credibility flags and a Word review report. The **Business plan** tab of the web page also builds a plan step by step with its guided questionnaire.
+
+It needs **Python 3.12 or newer in its own environment** (`services/bp/requirements.lock` pins numpy 2.5.3). Once:
+
+```powershell
+cd D:\Law_Rag
+py -3.13 -m venv .venv-bp
+.venv-bp\Scripts\python -m pip install -r services\bp\requirements-dev.txt
+```
+
+Then, in a third terminal (PowerShell), with your Groq key:
+
+```powershell
+cd D:\Law_Rag\services\bp
+$env:LLM_BASE_URL = "https://api.groq.com/openai/v1"
+$env:LLM_API_KEY = "<your GROQ_API_KEY>"
+$env:LLM_MODEL_MAIN = "qwen/qwen3.8-27b"; $env:LLM_MODEL_FAST = "qwen/qwen3.8-27b"
+$env:BP_LLM_STEPS = "parser,reviewer,assessment,critic,drafts,plan_writer,final_writer"
+$env:UPLOADS_DIR = "D:\Law_Rag\data\uploads"
+..\..\.venv-bp\Scripts\python -m uvicorn app.main:app --port 8104
+```
+
+Check it at http://127.0.0.1:8104/health (`llm_reachable` should be `true`). Vision (reading charts in uploaded plans) is left out of `BP_LLM_STEPS` because Groq's free tier has no vision model. The service's own `.env.example` model names (Llama 3.x) and `start.bat` (Ollama) do not work with a new free Groq key; use the values above. With `BP_LLM=off` it runs with rules only. Docs: [services/bp/README.md](services/bp/README.md), [CHANGES_BP.md](CHANGES_BP.md).
 
 Docs: [fraud_detection/README.md](fraud_detection/README.md), [docs/FRAUD_AGENT_API.md](docs/FRAUD_AGENT_API.md), [docs/FRAUD_AGENT_HANDOFF.md](docs/FRAUD_AGENT_HANDOFF.md).
 

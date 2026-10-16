@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/totalbetaJapan.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/totalbetaJapan.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "0eae10a099ea47cdf797fdc1c8dae23661a5d0ac73de3fa0f52542a179625b44",
+ "bytes": 55808,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_totalbetaJapan.xls",
+ "last_modified": "Thu, 08 Jan 2026 19:22:24 GMT"
+}

@@ -58,3 +58,6 @@
 {"id": "r058", "question": "Écris-moi un poème sur la mer.", "language": "fr", "agents": []}
 {"id": "r059", "question": "مرحبا", "language": "ar", "agents": []}
 {"id": "r060", "question": "Qui a gagné le match de l'Espérance hier ?", "language": "fr", "agents": []}
+{"id": "r090", "question": "Peux-tu relire mon business plan ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r091", "question": "Mon prévisionnel est-il cohérent ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "r092", "question": "Review my plan: is the break-even realistic?", "language": "en", "agents": ["business_plan"]}

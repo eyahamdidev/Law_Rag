@@ -86,6 +86,10 @@ Known corpus problems (see `data/index/report.json` after a build):
 
 Add a new version when an evaluation or a trace shows a failure. Record the failure on the old version and the change on the new one. That is the before/after the grading asks for.
 
+## Business plan
+
+Separate service in `services/bp/` (port 8104, own Python 3.11 environment). The gateway (`backend/app/api/routes/bp.py`, `modules/bp/client.py`) talks to it over HTTP and shares uploads by reference (`data/uploads/<sha256>`), never by import. Its prompts live in `services/bp/prompts/`. See `CHANGES_BP.md`.
+
 ## Evaluation
 
 | What | Command | Output |

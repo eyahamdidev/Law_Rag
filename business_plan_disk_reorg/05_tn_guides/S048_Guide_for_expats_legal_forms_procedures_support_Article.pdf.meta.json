@@ -1,0 +1,22 @@
+{
+ "id": "S048",
+ "dataset": "business_plan",
+ "section": "Tunisian business plan and business model guides",
+ "name": "Guide for expats - legal forms, procedures, support - Article",
+ "url": "https://www.jarniascyril.com/expatriation/guide-moving-to-tunisia-expat/start-business-abroad-guide-entrepreneur-expats-tunisia/",
+ "parent": "",
+ "flag": "S",
+ "final_url": "https://www.jarniascyril.com/expatriation/guide-moving-to-tunisia-expat/start-business-abroad-guide-entrepreneur-expats-tunisia/",
+ "content_type": "text/html; charset=UTF-8",
+ "sha256": "c383552a305b7c040d5c40484044841cd89109a8b9ad0f8f121cf9aa54d5d95b",
+ "bytes": 2214506,
+ "path": "business_plan\\Tunisian_business_plan_and_business_model_guides\\S048_Guide_for_expats_legal_forms_procedures_support_Article.pdf",
+ "status": "ok",
+ "pages": 25,
+ "text_chars": 22874,
+ "needs_ocr": false,
+ "lang": "en",
+ "title": "Start a Business in Tunisia: A Guide for Expats",
+ "note": "",
+ "last_modified": ""
+}

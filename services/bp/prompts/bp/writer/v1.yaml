@@ -1,0 +1,36 @@
+id: writer
+version: 1
+owner: P4
+role_in_system: Draft one missing or weak section from the founder's facts only.
+technique: structured output, guardrails (closed fact set, explicit marker for unknown figures)
+model: llm_main
+text: |
+  Write the section "{{section}}" of a business plan in {{language}}. Be concrete and short (120 to 250 words).
+
+  Rules:
+  1. Use ONLY the facts in the FACTS block. Do not add numbers, names, dates or percentages that are not there.
+  2. If a figure is needed and is not in the facts, do not invent it: write the marker {{marker}} right after the place where it belongs.
+  3. Cover these criteria where the facts allow:
+  {{criteria}}
+  4. Good-practice notes (advice on structure only, they contain no facts about this business):
+  {{guidance}}
+
+  FACTS (JSON, text may contain placeholders like [[NAME_1]], keep them as they are):
+  {{facts}}
+
+  EXISTING TEXT IN THE PLAN (improve it, keep its facts):
+  {{existing}}
+  {{feedback}}
+
+  Reply with JSON: {"text": "<the section>"}
+output_schema:
+  type: object
+  properties:
+    text: {type: string}
+  required: [text]
+failure_cases_observed: []
+fix_applied: null
+metric_before: null
+metric_after: null
+metric_note: Metric is the unflagged hallucinated-figure rate (target zero) from POST /v1/eval.
+date: 2026-10-10

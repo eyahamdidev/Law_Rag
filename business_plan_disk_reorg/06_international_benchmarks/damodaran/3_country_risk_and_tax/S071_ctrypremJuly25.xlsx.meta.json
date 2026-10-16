@@ -1,0 +1,16 @@
+{
+ "id": "S071",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Current data",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctrypremJuly25.xlsx",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/datasets/ctrypremJuly25.xlsx",
+ "content_type": "application/vnd.openxmlformats",
+ "sha256": "4372b04bcb8917f6f891879f6aa2f83094c449e31e0f1886a25d0ea35989a481",
+ "bytes": 375317,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S071_ctrypremJuly25.xlsx",
+ "last_modified": "Thu, 10 Jul 2025 23:22:04 GMT"
+}

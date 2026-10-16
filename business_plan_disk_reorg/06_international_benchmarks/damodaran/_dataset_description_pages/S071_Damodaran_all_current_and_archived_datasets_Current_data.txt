@@ -1,0 +1,84 @@
+Data for current year
+https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html
+
+History
+Timing
+Sources
+Usage rules
+Data Variables
+Industry
+Region
+Company lookup
+Corporate Governance
+Risk/ Discount Rate
+Investment Returns
+Capital Structure
+Dividend Policy
+Profit Margins
+Effective tax rates
+Capital Expenditures
+Working Capital
+Free Cash Flow to Firm
+Historical Growth Rates
+Fundamental Growth
+Multiples
+Option
+Corporate Governance
+Risk/ Discount Rate
+Investment Returns
+Capital Structure
+Dividend Policy
+Cash Flows
+Growth/ Reinvestment
+Multiples
+Option
+Webcasts
+Tools
+Blog Posts
+Writings
+Data of last full update: January 9, 2026 ; Country risk premiums last updates: January 5, 2026
+The data, with a couple of exceptions, gets updated once a year, at the start of the year (some time in the first two weeks of each year). In computing the statistics, the data used will reflect the most updated numbers I can find for each company, which at the start of each year, will reflect trailing 12-month data through the third quarter of the prior year. While most of the statistics are ratios or percentages, if there are absolute values, they are in millions of US dollars.
+Browser warning: Starting in August 2021, Google Chrome seems to be having trouble downloading files (spreadsheets, data etc.) from my site. I have no idea why, and have little interest in investing more time finding out. If you have download problems, please try a different browser.
+Topic | Current data set as html (just US) | Regional datasets (downloadable Excel) | Description | Explanatory Webcast
+Corporate Governance | Insider and Institutional Holdings by Industry Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkts Only China Only India Global | Insider holdings and institutional holdings as a percent of outstanding stock, classified by industry.
+Discount Rate Estimation | Historical Returns on Stocks, Bonds, Bills & Real Estate- United States | Download | Historical annual returns on stocks, bonds, bills & real estate for the United States from 1928 to the most recent year. It is a useful starting point for estimating historical equity premiums.
+Implied Equity Risk Premiums - United States | Download | These risk premiums are estimated based upon a simple 2-stage Augmented Dividend discount model and reflect the risk premium which would justify they current level of the index, given the cash yield, expected growth in earnings and the level of the long term bond rate.
+Risk Premiums for Other Markets (reflects Jan 2026 numbers) | July 1, 2026 update April 1, 2026 update January 1, 2026 update July 1, 2025 update | These are risk premiums estimates for other markets based upon the country ratings assigned by Moodys. Starting in June 2012, I also report equity risk premiums based upon CDS spreads, where those are available.
+Levered and Unlevered Betas by Industry | U.S. Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Levered, unlevered and pure play betas by industry. Also includes other risk measures including operating earnings variability and price-based risk measures. | Video Guide
+Marginal tax rate by country | Download | From the KPMG survey of corporate tax rates by country (until 2021). Please give them full credit when you use any of the information from this file.
+Total Beta By Industry Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Betas adjusted to reflect a firm's total exposure to risk rather than just the market risk component. It is a function of the market beta and the portion of the total risk that is market risk. These betas might provide better estimates of costs of equity for undiversified owners of private businesses.
+Risk Measures by Market Cap Class | Download (US) | Risk measures - standard deviations, betas, total betas and earnings variability- broken down for U.S. firms into ten market cap classes. Make of it what you will.
+Costs of Capital by Industry Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Costs of equity, costs of debt, market debt ratios and costs of capital by industrial grouping. | Video Guide
+Tax rate by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Average efective tax rate for all firms in each sector ,as well as for only money making firms.
+Dollar Value Measures | Dollar Value Meaures by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Aggregated dollar values in millions of US$ of market capitalization in recent periods, with percentage changes in aggregate capitalziation, by industry.
+Market Capitalization Changes | Market Capitalization by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Aggregated dollar values in millions of US $ for market capitalization/enterprise value, as well as operating and profitability measures - revenues, gross profit, EBITDA, operating and net income in 2020 (the COVID damage year) and 2021 (the recovery year).
+Employee Statistics | Employee Statistics by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | For companies that report employee count, revenues and market cap, by employee; for all firms, stock-based compensation in dollar terms and as percent of revenues.
+Return Measures | EVA and Equity EVA by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Average excess returns (return on invested capital minus cost of capital, return on equity minus cost of equity), economic value added and equity economic value added by industry sector.
+Capital Structure | Debt Details (Type of debt, short or long term) | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | Breaks down debt into lease debt and regular debt, short term and long term and interest expenses.
+Debt Ratio Trade Off Variables by Industry | US Europe Japan Aus, NZ & Canada Alll Emerging Mkt s Just China Just India Global | Market debt ratio, the effective tax rate (tax benefit), insider holdings (discipline), variance in operating income (bankruptcy risk) and fixed assets to total assets (agency costs).
+Ratings, Spreads and Interest Coverage Ratios | Download | S&P bond ratings classes, with default spreads over the treasury bond rate and typical interest coverage ratios.
+Operating Lease adjusted values for debt, returns and earnings | US Europe Japan Aus, NZ & Canada Alll Emerging Mkt s Just China Just India Global | Summarizes the impact of converting operating lease commitments into debt on market debt to capital ratios, operating income, margins and return on capital, categorized by industry.
+Cross Sectional Regression of Debt Ratio | US Global | Summarizes the results of the latest cross sectional regression of the market debt ratio (total debt to capital) against financial variables.
+Duration, Cyclicality and Inflation Measures by Sector | Download | This lists the coefficients obtained when we regress sector market value changes (quarterly) against changes in long term interest rates, GNP growth and inflation.
+Macro Economic Data for Debt Design | Download | Annual data on interest rates, inflation rates, GNP growth and the weighted dollar from 1981 through most recent year.
+Dividend Policy | Dividends versus FCFE | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Dividends and Free Cash Flows to Equity, i.e., cash flows left over after taxes, reinvestment needs and debt payments (FCFE), by industry
+Dividend Policy Trade Off Variables by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | Dividend yield and payout ratios, as well as other variables that might be relevant in examining the trade off involved in paying dividends.
+Cross Sectional Regression of Dividend Ratios | US Global | The latest cross sectional regression s (US & Global) of the dividend yield and payout ratio against financial variables.
+Cash Flow Estimation | Capital Expenditures, Depreciation, Reinvestment Rate and Sales to Capital Ratios by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | Aggregated capital expenditures and depreciation by industry sector, as a percent of operating income (reinvestment rate) and scaled to revenues (sales to capital ratio). It is a useful resource on how much companies in a sector are reinvesting, in their attempt to keep growing.
+R&D Expenditures | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | Looks at current and past (last five years) R&D expenses as well as my estimate of capitalized R&D, with effects on earnings and invested capital.
+Goodwill and Impairment | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | Looks at the most useless and damaging of accounting items, goodwill, in magnitude, changes and impairment. If nothing else, it gives you a measure of both how active companies have been on the M&A front and how much they have paid on these acquisitions.
+Operating and Net Margins by Industry Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This reports gross, pre-tax operating and net profit margins by industry sector for the most recent time period.
+Financing Flows by Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | Looks at financing flows to & from equity (dividends, buybacks & issuances) and to and from debt (debt repaid and debt raised)
+Working Capital Requirements by Industry Sector | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | This lists out inventory, accounts receivable, accounts payable and non-cash working capital by industry sector, as a percent of revenues.
+Growth Rate Estimation | Return on Equity decomposition by Industry sector : | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | This data set reports return on equity (net income/book value of equity) by industry grouping and decomposes these returns into a pure return on capital and a leverage effect.
+Fundamental Growth Rate in EPS by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | This data set summarizes growth rates from fundamentals (ROE * Retention Ratio) by industry group, reflecting what these companies can grow earnings per share at in steady state, if margins don't change.
+Historical Growth Rate in Earnings by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | This data set summarizes historical growth in earnings and revenues, over the last 5 years, by industry.
+Fundamental Growth Rate in EBIT by Industry | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This data set summarizes growth rates from fundamentals (ROC*Reinvestment Rate) by industry group, reflecting what these companies can grow operating income at in steady state, if margins don't change
+Multiples | PE Ratios, PEG Ratios and Expected Growth Rates by Industry Sector | U.S. Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This lists out the PE ratio, expected growth (Value Line) and the PE/growth by industry group for the most recent time period.
+Price and Enterprise Value to Book Ratios and ROE by Industry Sector | U.S. Europe Japan Aus, NZ & Canada All Emerging Mkts Just China Just India Global | This lists outs Price/Book and EV/Invested Capital ratios and ROE/ROIC by industry group for the most recent time period.
+Price and Enterprise Value to Sales Ratios and Margins by Industry Sector | U.S. Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This lists out Price/Sales and EV/Sales ratios and margins by industry group for the most recent time period.
+Enterprise Value/EBIT &Enterprise Value/EBITDA Multiples by Industry Sector | U.S. Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This lists out Enterprise Value multiples (of EBIT nd EBITDA) by industry group for the most recent time period.
+Multiples by Market Cap Class (US) | Download | The averages for key equity and enterprise value multiples are reported for firms in different market cap classes in the U.S.
+Earnings. Book Value and Sales Multiple Averages by Country | Download | This lists out the average PE, Price to book, Price to Sales and Enterprise Value multiples by country. It also includes summary statistics on returns on equity and capital and margins (net and operating).
+Market Regressions of Multiples against fundame6ntals | This lists the output from the latest regressions across the entire market of multiples against fundamentals (PE, PBV, PS, EV Multiples).
+Option Pricing Models | Firm Value and EquityValue Standard Deviations (for use in real option pricing models) | US Europe Japan Aus, NZ & Canada All Emerging Mkt s Just China Just India Global | This lists out average annualized stock price variance (in daily stock prices) over the previous five years, and the average standard deviation in firm value over the same period.

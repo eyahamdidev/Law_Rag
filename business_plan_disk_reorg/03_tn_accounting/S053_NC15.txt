@@ -1,0 +1,160 @@
+http://www.procomptable.com/ 
+NC 15 
+Norme comptable relative aux opérations en monnaies étrangères 
+ 
+Objectif 
+01. Plusieurs développements récents dans l'environnement de l'entreprise ont conduit les dirigeants 
+à réaliser des opérations avec d'autres entreprises étrangères ; ce qui a donné lieu à des transactions, 
+libellées en monnaies étrangères de plus en plus importantes pour les quelles une conversion 
+s'impose pour l'élaboration des états financiers en monnaie de comptabilisation. Parmi les facteurs qui 
+ont significativement contribué à cette importance grandissante, on signale notamment : 
+a. l'internationalisation accrue des échanges commerciaux et des transactions financières ; 
+b. la globalisation de l'économie mondiale et la mondialisation rapide des marchés des  
+capitaux ; 
+c. la volatilité des taux de change et ses conséquences sur les opérations des entreprises et 
+leur performance. 
+02. Les entreprises peuvent exercer de deux façons des activités qui débordent le cadre du pays : 
+a. elles peuvent conclure des opérations en monnaies étrangères. Par exemple, elles peuvent 
+acheter ou vendre des biens pour lesquels le paiement est effectué dans une monnaie 
+étrangère ; ou encore, elles peuvent prêter ou emprunter des fonds en monnaies étrangères. Il 
+est nécessaire de convertir en monnaie de comptabilisation, les opérations en question, afin de 
+les inclure dans les états financiers de l'entreprise ; 
+b. elles peuvent avoir des établissements à l'étranger pour lesquels les états financiers, 
+présentés en monnaies étrangères, doivent être convertis en monnaie de comptabilisation afin 
+d'être inclus dans les états financiers de l'entreprise. 
+03. L'objectif de la présente norme est de définir les règles de prise en compte, d'évaluation et de 
+présentation dans les états financiers de l'incidence des variations des taux de change. 
+Champ d’application 
+04. La présente norme traite des seules opérations en monnaies étrangères. 
+Définitions 
+05. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+La monnaie de comptabilisation est la monnaie dans laquelle sont exprimés les états 
+financiers publiés par l'entreprise. 
+La monnaie étrangère est la monnaie autre que celle dans laquelle sont exprimés les états 
+financiers publiés par l'entreprise. 
+Le taux de change est le taux auquel sont échangées les monnaies de deux pays à un moment 
+donné. 
+La différence de change est la différence provenant de la traduction du même nombre d'unités 
+d'une monnaie étrangère dans la monnaie de comptabilisation de l'entreprise à des taux de 
+change différents. 
+Les éléments monétaires sont le numéraire et les éléments d'actif et de passif qui doivent être 
+encaissés ou payés pour des montants fixes ou déterminables. 
+La date du règlement est la date à laquelle les créances sont encaissées ou les dettes payées. 
+La juste valeur est le montant auquel un bien pourrait être échangé ou une dette acquittée 
+entre deux parties normalement informées et consentant dans une transaction équilibrée. 
+http://www.procomptable.com/ 
+Comptabilisation des opérations conclues en monnaies étrangères 
+ Conversion à la date de l'opération 
+06. Tout actif, passif, produit ou charge résultant d'une opération en monnaie étrangère 
+effectuée par l'entreprise doit être converti en monnaie de comptabilisation à la date de 
+l'opération, selon le taux de change en vigueur à cette date. 
+07. Pour des considérations pratiques, on utilise souvent un taux proche du taux réel en vigueur à la 
+date de l'opération ; par exemple, un taux moyen pour une semaine ou un mois pourrait être utilisé 
+pour l'ensemble des opérations conclues dans chaque monnaie étrangère au cours de cette période. 
+Toutefois, si les taux de change varient sensiblement, l'utilisation du taux moyen pour la période n'est 
+pas fiable. 
+08. Les fluctuations ultérieures du cours de la monnaie étrangère ont une incidence sur l'équivalent 
+dans la monnaie de comptabilisation des éléments monétaires, ce qui donne lieu à une différence de    
+change : un gain ou à une perte de change. 
+09. Le gain ou la perte de change est considéré comme étant le résultat d'un fait, la fluctuation du 
+cours, qui est distinct de l'opération d'origine. Toute fluctuation ultérieure du cours n'a pas d'incidence 
+sur le coût historique des produits et des charges comptabilisés, ou des stocks, immobilisations et 
+autres éléments non monétaires acquis dans le cadre d'opérations en monnaies étrangères, lorsqu'ils 
+ont été constatés dans la monnaie de comptabilisation. 
+10. Lorsque le règlement de l'opération survient pendant l'exercice au cours duquel l'opération 
+a été conclue, la différence de change entre le montant enregistré initialement et le montant 
+effectif du règlement constitue un gain ou une perte dans le résultat de l'exercice. 
+ Conversion à la date de clôture 
+11. A chaque date de clôture de l'exercice : 
+a. les éléments monétaires en monnaies étrangères doivent être évalués en utilisant le 
+taux de change en vigueur à la date de clôture ; 
+b. les éléments non monétaires qui sont comptabilisés au coût historique exprimé en 
+monnaies étrangères restent évalués au taux de change en vigueur à la date de 
+l'opération ; 
+c. les éléments non monétaires, qui sont comptabilisés à la juste valeur exprimée en 
+monnaies étrangères, doivent être présentés aux taux de change en vigueur à la date où 
+cette valeur a été déterminée. 
+12. La conversion des éléments monétaires au cours de clôture aboutit à une présentation plus utile 
+de la situation financière de l'entreprise à la date de clôture. En conséquence, toute différence entre le 
+montant présenté dans les états financiers de l'exercice et le montant comptabilisé au cours de 
+l'exercice, ou inscrit dans les états financiers antérieurs, est considérée comme une différence de 
+change : un gain ou une perte de change. 
+13. Dans certains cas, un élément d'actif non monétaire acquis au moyen d'une opération conclue en 
+monnaies étrangères peut figurer dans les états financiers à sa valeur marchande et non au coût 
+établi à la date de l'opération. A titre d'exemple on peut citer le cas des stocks dont la valeur a été 
+réduite parce que leur coût excédait leur valeur marchande. 
+Si le prix du marché est fixé en monnaies étrangères, il serait inapproprié d'appliquer le taux de 
+change à la date de l'opération - taux de change historique - au prix du marché fixé en monnaies 
+étrangères - prix actuel - pour calculer l'équivalent de ce prix en monnaie de comptabilisation. 
+14. En ce qui concerne les éléments d'actif non monétaires de l'entreprise, comptabilisés à leur valeur 
+marchande et dont le prix du marché est fixé en monnaies étrangères, on doit, à chaque date de 
+clôture, calculer l'équivalent en monnaie de comptabilisation en utilisant le taux de change en vigueur 
+à cette date. 
+http://www.procomptable.com/ 
+Prise en compte des gains et pertes de change 
+15. Un gain ou une perte de change se produit lorsqu'un élément monétaire exprimé en 
+monnaies étrangères ou un élément non monétaire comptabilisé à sa juste valeur en monnaies 
+étrangères, est réglé ou converti à un cours qui diffère de celui auquel il avait été 
+antérieurement comptabilisé. Le gain ou la perte de change est considéré comme étant le 
+résultat de la fluctuation du cours dans l'exercice considéré, et est pris en compte dans la 
+détermination du résultat net pour cet exercice. Les seules situations où un gain ou une perte 
+de change ne serait pas pris en compte dans la détermination du résultat net pour l'exercice 
+considéré sont les suivants : 
+a. une partie du gain ou de la perte a été passée dans les résultats de l'exercice 
+précédent ; 
+b. le gain ou la perte de change correspond à un élément monétaire libellé en monnaies 
+étrangères dont la durée de vie prédéterminée ou prévisible s'étend au-delà de la fin de 
+l'exercice subséquent. 
+16. Les gains ou pertes de change relatifs aux éléments monétaires de l'actif ou du passif à 
+long terme libellés en monnaies étrangères, dont la durée de vie est prédéterminée ou 
+prévisible, doivent être reportés et amortis sur la durée de vie restante de l'élément monétaire 
+correspondant. Le gain ou la perte fait partie du coût ou de l'avantage que comporte la 
+détention d'un élément monétaire libellé en monnaies étrangères, coût ou avantage qui a trait à 
+la totalité de la période précédant le règlement de l'élément monétaire. 
+17. Les gains ou les pertes de change de l'entreprise relatifs à la conversion d'éléments monétaires 
+d'actif ou de passif, dont la durée de vie prédéterminée ou prévisible s'étend au-delà de la fin de 
+l'exercice subséquent, doivent être amortis, sur une base systématique et logique, sur la durée de vie 
+restante de l'élément d'actif ou de passif. La méthode d'amortissement utilisée doit être indiquée. 
+18. Etant donné que le solde non amorti des gains ou pertes de change reportés comprend des 
+montants qui seront inclus dans le calcul du bénéfice net des exercices subséquents, ce solde doit 
+être comptabilisé au bilan. 
+19. A la clôture de chaque exercice, le montant de ce gain ou de cette perte est estimé en recalculant 
+l'élément monétaire au taux de change en vigueur à la date de clôture. Toute modification de 
+l'estimation par rapport à la clôture de l'exercice précédent est considérée comme un redressement du 
+coût ou de l'avantage qui résultera en définitive de la détention de l'élément monétaire libellé en 
+monnaies étrangères, et ce redressement est amorti sur la duré de vie restante de l'élément. 
+20. Les préconisations antérieures s'appliquent autant aux gains qu'aux pertes de change. 
+Cependant, en cas d'incertitudes liées à l'élément libellé en monnaie étrangère et par souci de 
+prudence, on peut différer les gains jusqu'au moment de leur réalisation et constater les pertes, sauf à 
+compenser ces dernières avec les gains précédemment différés. 
+21. Si la durée de vie de l'élément monétaire n'est pas prédéterminée ou prévisible, le gain ou la perte 
+de change est inclus dans le calcul du résultat net de l'exercice. 
+ Traitements particuliers 
+22. La différence de change qui résulte d'une grave dévaluation ou dépréciation de la monnaie, 
+contre laquelle il est pratiquement impossible de se couvrir et qui affecte les dettes ayant trait 
+à des biens récemment acquis, facturés en monnaies étrangères, peut être incorporée à la 
+valeur comptable de ces biens, pourvu que la valeur comptable ainsi redressée ne soit pas 
+supérieure au moins élevé des deux montants suivants : le coût de remplacement du bien en 
+cause et le montant récupérable par le biais de l'utilisation ou de la vente de ce bien. 
+23. Lorsqu'un contrat de change à terme est conclu afin de fixer en monnaies de 
+comptabilisation les montants qui seront payés ou encaissés à la date du règlement des 
+opérations conclues en monnaies étrangères, la différence entre le taux de change à terme et 
+le taux de change du jour à la date du contrat doit être rapportée aux résultats sur la durée du 
+contrat. 
+http://www.procomptable.com/ 
+Pour les opérations à court terme, les taux de change à terme, figurant dans les contrats de change 
+correspondants, peuvent être utilisés pour comptabiliser et présenter les opérations. 
+Informations à fournir 
+24. L'entreprise doit mentionner les éléments suivants lorsqu'ils sont significatifs :  
+a. le montant des différences de change figurant dans le résultat net de l'exercice ; 
+b. le montant des différences de change survenues au cours de l'exercice qui sont 
+incluses dans la valeur comptable d'un bien conformément au traitement prévu au 
+paragraphe 22 ; 
+c. la méthode d'amortissement des gains ou pertes de change inscrites en écart de 
+conversion conformément au traitement prévu au paragraphe 16 ; 
+d. les mouvements des gains et pertes de change inscrits en écart de conversion 
+conformément au traitement prévu au paragraphe 17.  
+Date d’application 
+25. La présente Norme est applicable, rétrospectivement, aux états financiers relatifs aux 
+exercices ouverts à partir du 1er Janvier 1997. 
+ 

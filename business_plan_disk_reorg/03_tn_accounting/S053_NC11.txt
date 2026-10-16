@@ -1,0 +1,207 @@
+http://www.procomptable.com/ 
+NC 11 
+Norme comptable relative aux Modifications comptables 
+ 
+Objectifs 
+01. La divulgation des informations financières repose sur les caractéristiques qualitatives prévues par 
+le cadre conceptuel, notamment, la comparabilité dont le corollaire principal est la convention de la 
+permanence des méthodes. 
+02. Le souci de favoriser l'image fidèle peut conduire, dans certaines situations, à opérer des 
+modifications comptables. Ces modifications pourraient être justifiées par de nouvelles circonstances 
+ou des révélations afférentes à un fait ancien. 
+03. L'objectif de la présente norme est de définir les différents types de modifications comptables et de 
+préciser les traitements appropriés pour chacun d'entre eux. 
+Champ d’application 
+04. La présente norme doit être appliquée pour le traitement :  
+a. des changements de méthodes comptables ; 
+b. des changements dans les estimations comptables ; et 
+c. de la correction d'erreurs fondamentales dans des états financiers antérieurs. 
+05. Sont exclus du champ d'application de la présente norme les changements dus à la constatation 
+de l'effet de variations des prix. 
+Définitions 
+06. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+Les méthodes comptables sont les principes, règles et pratiques comptables spécifiques 
+adoptées par une entreprise pour la préparation et la présentation de ses états financiers. 
+Une estimation comptable est toute évaluation d'un risque résultant de dépréciation d'un 
+élément d'actif de l'entreprise ou de la naissance ou de l'augmentation d'un élément de son 
+passif. 
+Les erreurs fondamentales dans les états financiers antérieurs sont les erreurs découvertes 
+durant l'exercice en cours et qui sont d'une importance telle que les états financiers d'un ou de 
+plusieurs exercices antérieurs ne peuvent plus être considérés comme ayant été fiables à la 
+date de leur publication. 
+Changements de méthodes comptables 
+07. Les utilisateurs de l'information financière doivent être en mesure de comparer les états financiers 
+d'une entreprise sur une certaine période afin d'identifier les tendances de sa situation financière, de 
+sa performance et de ses flux de trésorerie. Par conséquent, ce sont normalement les mêmes 
+méthodes comptables qui sont adoptées d'un exercice à l'autre. 
+08. Le changement d'une méthode comptable risque d'affecter, d'une manière significative, la 
+présentation de la situation financière de l'entreprise et/ou le résultat de son activité pendant un 
+exercice comptable, et peut fausser, en conséquence, toute analyse comparative des états financiers. 
+09. Un changement de méthodes comptables ne doit être effectué que s'il est rendu obligatoire 
+par une nouvelle norme comptable, ou encore, si ce changement conduit à une meilleure 
+présentation des opérations dans les états financiers de l'entreprise. 
+10. Une présentation plus appropriée des opérations dans les états financiers est donnée lorsque la 
+nouvelle méthode comptable donne lieu à des informations plus pertinentes et/ou plus fiables sur la 
+situation financière, la performance et les flux de trésorerie de l'entreprise. 
+http://www.procomptable.com/ 
+11. Un changement de méthode comptable résulte de l'adoption d'un principe, d'une règle ou d'une 
+pratique spécifique valable, différents de ceux utilisés pour préparer les états financiers antérieurs. Ne 
+sont pas, toutefois, considérées comme changements de méthodes : 
+a. l'adoption d'une nouvelle méthode comptable ou le remplacement d'une méthode existante 
+pour des opérations qui diffèrent sur le fond de celles survenues précédemment ; et 
+b. l'adoption d'une nouvelle méthode comptable pour des opérations qui ne s'étaient pas 
+produites, précédemment ou qui étaient jusqu'alors sans importance significative. 
+12. Les changements dus à l'application antérieure de méthodes inappropriées ou fausses, ne 
+constituent pas des changements de méthodes mais des corrections d'erreurs, examinées aux 
+paragraphes 29 à 34 ci-après. 
+13. Les changements de méthodes comptables sont nombreux et variés. Ils comprennent, à titre 
+d'exemple : 
+a. le changement de la méthode de valorisation des stocks ; 
+b. le changement dans la méthode de comptabilisation des revenus ; et 
+c. le changement dans la méthode de comptabilisation des dépenses de recherches et 
+développement. 
+ Adoption d’une nouvelle norme comptable 
+14. Un changement de méthode comptable intervenant à l'occasion de l'adoption d'une nouvelle 
+norme comptable doit être comptabilisé conformément aux dispositions transitoires spécifiques 
+formulées, le cas échéant, dans la norme concernée. En l'absence de toute disposition transitoire, le 
+changement de méthode comptable doit être appliqué conformément aux traitements présentés aux 
+paragraphes 15 à 20 de la présente norme. 
+ Traitement des changements de méthode comptable 
+15. Un changement de méthode comptable est appliqué de façon rétrospective ou de façon 
+prospective conformément aux dispositions de la présente norme. L'application rétrospective conduit à 
+appliquer la nouvelle méthode comptable à des opérations comme si cette nouvelle méthode avait 
+toujours été utilisée. En conséquence, la méthode comptable est appliquée aux opérations à compter 
+de la date d'origine de ces éléments. L'application prospective signifie que la nouvelle méthode 
+comptable est appliquée aux opérations survenant après la date du changement. 
+16. L'application rétrospective mène à un ajustement des situations antérieures, et permet une 
+meilleure comparaison des états financiers successifs d'une entreprise, alors que l'application 
+prospective limite la portée de la présentation dans les états financiers, de ces situations, à des fins de 
+comparaison. 
+17. Un changement de méthode comptable doit être appliqué rétrospectivement pour 
+déterminer son effet sur les exercices antérieurs, à moins que le montant de tout ajustement se 
+rapportant à ces exercices et résultant du changement, ne puisse être déterminé d'une façon 
+fiable. 
+Tout ajustement, résultant d'un changement de méthode, doit être présenté comme un 
+ajustement des capitaux propres d'ouverture. Les données comparatives doivent être 
+retraitées, à moins que cela ne soit impossible. 
+18. Les corrections résultant d'un changement de méthode comptable viennent donc, augmenter ou 
+diminuer les capitaux propres d'ouverture de l'exercice au cours duquel le changement de méthode a 
+eu lieu. Le calcul de l'effet du changement de méthode sera effectué en comparant les résultats 
+antérieurs constatés, avec les résultats qui auraient dû l'être, en appliquant la nouvelle méthode. 
+L'ajustement correspondant ne sera pas comptabilisé comme étant un élément d'exploitation de 
+l'exercice au cours duquel le changement a eu lieu, mais, plutôt, comme étant une modification de la 
+situation des capitaux propres constatés à l'ouverture de l'exercice. Ce traitement permettra une 
+analyse, plus simple et sans ajustement particulier, de l'activité de l'entreprise. De même, et pour 
+favoriser une plus grande cohérence dans les informations véhiculées par les états financiers de 
+l'entreprise, les données comparatives sont retraitées suivant la nouvelle méthode comptable. Le 
+http://www.procomptable.com/ 
+montant de l'ajustement afférent aux exercices antérieurs à celui ou à ceux qui figurent à titre 
+comparatif dans les états financiers, est inclus dans les capitaux propres d'ouverture du premier 
+exercice présenté. Toutes autres informations et notes relatives aux exercices antérieurs font 
+également l'objet d'un retraitement. Ces retraitements ne sont effectués que pour les besoins de 
+comparaison et ne doivent pas conduire à modifier les états financiers qui ont été publiés. 
+19. Le changement de méthode comptable doit être appliqué de façon prospective lorsque le 
+montant de la correction des capitaux propres d'ouverture, prescrit par le paragraphe 17, ne 
+peut être déterminé de façon fiable. 
+20. Lorsqu'un changement de méthode comptable a une incidence significative sur l'exercice 
+en cours ou sur tout autre exercice antérieur présenté, ou est susceptible d'avoir une 
+incidence significative lors des exercices ultérieurs, l'entreprise doit mentionner les éléments 
+suivants : 
+a. les raisons du changement, 
+b. le montant de la correction au titre de l'exercice en cours et de chaque exercice 
+présenté, 
+c. le montant de la correction afférent aux exercices antérieurs à celui ou à ceux qui sont 
+présentés à titre comparatif, et 
+d. le fait que les données comparatives ont été retraitées ou que leur retraitement est 
+impossible. 
+Changements dans les estimations comptables 
+21. En raison des incertitudes inhérentes aux activités commerciales, de nombreux éléments des 
+états financiers ne peuvent pas être évalués avec précision, ils ne peuvent faire l'objet que d'une 
+estimation. Le processus d'estimation entraîne des jugements fondés sur les dernières informations 
+disponibles. Il peut être nécessaire, par exemple, de procéder à l'estimation des créances douteuses, 
+de l'obsolescence du stock ou de la durée d'utilisation ou du plan attendu de consommation des 
+avantages économiques procurés par les immobilisations amortissables. Le recours à des estimations 
+raisonnables est une composante essentielle de la préparation des états financiers et ne met pas en 
+cause leur fiabilité. 
+22. Une estimation peut devoir être révisée si des changements se produisent concernant les 
+circonstances sur lesquelles elle était fondée par suite de nouvelles informations, d'une plus grande 
+expérience ou d'évolutions ultérieures. En raison de sa nature, le fait de réviser une estimation ne 
+confère pas à l'ajustement correspondant la qualité d'élément extraordinaire, ni d'erreur fondamentale. 
+23. Il est parfois difficile de faire la distinction entre un changement de méthode comptable et un 
+changement dans les estimations. Dans un tel cas, la modification est assimilée à un changement 
+dans les estimations comptables, avec une information appropriée. 
+24. L'incidence d'un changement dans les estimations comptables doit être prise en compte 
+dans la détermination du résultat net, au titre : 
+a. de l'exercice où le changement a eu lieu, si celui-ci n'affecte que cet exercice ; et 
+b. de l'exercice et des exercices ultérieurs, si ceux-ci sont concernés. 
+25. Un changement dans une estimation comptable peut affecter soit l'exercice en cours seulement, 
+soit l'exercice en cours et les exercices ultérieurs. A titre d'exemple, un changement dans l'évaluation 
+du montant des créances douteuses n'affecte que l'exercice en cours et est en conséquence 
+comptabilisé immédiatement. Toutefois, un changement dans la durée d'utilisation estimée et/ou dans 
+le plan attendu de consommation des avantages économiques, procurés par les actifs amortissables, 
+affecte la charge d'amortissement de l'exercice en cours et de chaque exercice suivant, pendant 
+l'utilisation restante des immobilisations. Dans les deux cas, l'incidence du changement correspondant 
+à l'exercice en cours est constatée en produit ou en charge de l'exercice en cours. L'incidence, le cas 
+échéant, sur les exercices ultérieurs est constatée au cours des exercices ultérieurs. 
+26. L'incidence d'un changement dans une estimation comptable doit figurer dans le même 
+poste de l'état de résultat que celui qui avait été utilisé précédemment pour cette estimation. 
+http://www.procomptable.com/ 
+27. Afin d'assurer la comparabilité des états financiers de différents exercices, l'incidence d'un 
+changement dans une estimation comptable, pour des estimations qui étaient précédemment incluses 
+dans le résultat provenant des activités ordinaires, est prise en compte dans le même élément du 
+résultat net. L'incidence d'un changement dans une estimation comptable qui était précédemment 
+incluse dans les éléments extraordinaires est prise en compte dans les éléments extraordinaires. 
+28. La nature et le montant découlant d'un changement, dans une estimation comptable, et 
+dont l'incidence est significative pour l'exercice en cours ou dont l'incidence risque d'être 
+significative lors des exercices ultérieurs, doivent être mentionnés. Lorsqu'il est impossible 
+d'en quantifier le montant, ce fait doit être mentionné au niveau des notes aux états financiers. 
+Erreurs fondamentales dans les états financiers antérieurs 
+29. Des erreurs commises dans la préparation des états financiers d'un ou de plusieurs exercices 
+antérieurs peuvent être découvertes lors de l'exercice en cours. Ces erreurs peuvent avoir pour cause 
+des erreurs de calcul, des erreurs dans l'application des méthodes comptables, une mauvaise 
+interprétation des faits, des fraudes ou des négligences. La correction de ces erreurs est normalement 
+incluse dans la détermination du résultat net de l'exercice en cours. 
+30. Dans de rares circonstances, une erreur revêt une incidence si importante sur les états financiers 
+d'un ou de plusieurs exercices antérieurs que ceux-ci ne peuvent plus être considérés comme ayant 
+été fiables à la date de leur publication. 
+A titre d'exemple, l'inclusion dans les états financiers d'un exercice antérieur d'un montant significatif 
+de travaux en cours et de créances clients concernant des contrats frauduleux qui ne peuvent être mis 
+en œuvre, constitue une erreur dans des états financie rs antérieurs. La correction d'erreurs ayant trait 
+à des exercices antérieurs exige le retraitement de l'information correspondante de l'exercice 
+précédent, présenté à titre comparatif. 
+31. La correction des erreurs fondamentales dans des états financiers antérieurs se différencie des 
+changements dans les estimations comptables. En raison de leur nature, les estimations comptables 
+sont des approximations qui peuvent devoir être révisées à mesure qu'apparaissent des informations 
+complémentaires. A titre d'exemple, le résultat dégagé à l'issue du dénouement d'une éventualité, qui 
+n'avait pu être évaluée de façon fiable précédemment, ne constitue pas la correction d'une erreur 
+fondamentale dans des états financiers antérieurs. 
+32. Le montant de la correction d'une erreur fondamentale dans des états financiers antérieurs, 
+doit être comptabilisé en ajustant les capitaux propres d'ouverture. Les données comparatives 
+doivent être retraitées, à moins que cela ne soit impossible. 
+33. Les corrections d'erreurs fondamentales dans les états financiers antérieurs augmentent ou 
+diminuent les capitaux propres d'ouverture de l'exercice au cours duquel ces corrections ont eu lieu. 
+Le calcul de l'effet de la correction sera effectué en comparant les résultats antérieurs constatés, avec 
+les résultats qui auraient dû l'être, si l'erreur fondamentale n'avait pas été commise. 
+L'ajustement correspondant, ne sera pas comptabilisé comme étant un élément d'exploitation de 
+l'exercice au cours duquel le changement a eu lieu, mais, plutôt, comme étant une modification de la 
+situation des capitaux propres constatés à l'ouverture de l'exercice. Ce traitement permettra une 
+analyse plus simple et sans rajustement particulier, de l'activité de l'entreprise. De même, et pour 
+permettre une comparabilité correcte des états financiers de l'entreprise, les données comparatives 
+sont retraitées comme si l'erreur fondamentale avait été corrigée dans l'exercice au cours duquel elle 
+a été commise. Le montant de l'ajustement afférent aux exercices antérieurs à celui ou à ceux qui 
+figurent à titre comparatif dans les états financiers, est inclus dans les capitaux propres d'ouverture du 
+premier exercice présenté. Toutes autres informations et notes relatives aux exercices antérieurs, font 
+également l'objet d'un retraitement. Ces retraitements ne sont effectués que pour les besoins de 
+comparaison et ne doivent pas conduire à modifier les états financiers qui ont été publiés. 
+34. Les entreprises doivent mentionner les éléments suivants : 
+a. la nature de l'erreur fondamentale dans les états financiers antérieurs ; 
+b. le montant de la correction au titre de l'exercice en cours et de chaque exercice 
+antérieur présenté ; 
+http://www.procomptable.com/ 
+c. le montant de la correction afférent aux exercices antérieurs à celui ou à ceux qui sont 
+présentés à titre comparatif ; et 
+d. le fait que les données comparatives ont été retraitées ou que leur retraitement est 
+impossible. 
+Date d’application 
+35. La présente norme comptable est applicable aux états financiers relatifs aux exercices 
+ouverts à partir du 1er Janvier 1997. 

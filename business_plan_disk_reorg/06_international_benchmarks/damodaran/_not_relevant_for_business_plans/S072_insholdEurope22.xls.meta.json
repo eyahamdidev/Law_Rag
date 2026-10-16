@@ -1,0 +1,16 @@
+{
+ "id": "S072",
+ "dataset": "business_plan",
+ "section": "Sector benchmarks",
+ "name": "Damodaran - all current and archived datasets - Archive",
+ "url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/insholdEurope22.xls",
+ "parent": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html",
+ "flag": "S",
+ "final_url": "https://pages.stern.nyu.edu/~adamodar/pc/archives/insholdEurope22.xls",
+ "content_type": "application/vnd.ms-excel",
+ "sha256": "4a3142fdf0cd89aa3fd96582697c8fd1f8587f9f52b30b4a0846bfc15144e7b4",
+ "bytes": 51200,
+ "status": "ok",
+ "path": "business_plan\\Sector_benchmarks\\linked\\S072_insholdEurope22.xls",
+ "last_modified": "Thu, 30 Nov 2023 21:29:10 GMT"
+}

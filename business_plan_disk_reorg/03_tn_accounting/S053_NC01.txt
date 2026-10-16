@@ -1,0 +1,3287 @@
+http://www.procomptable.com/ 1
+NC 01 
+Norme Comptable Générale  
+Objectifs    
+1. Les objectifs des états financiers ont été défin is par le cadre conceptuel de la comptabilité 
+financière. Ils consistent notamment à fournir des renseignements utiles à la prise de décisions 
+économiques sur la situation financière, la perform ance et la manière avec laquelle l'entreprise a 
+obtenu et dépensé des liquidités.  
+2. La présente norme traite de la manière selon laquelle les états financiers sont présentés et ce, afin 
+d'atteindre de tels objectifs.  
+Elle fournit des directives pour la présentation des  états financiers selon une structure qui maximise 
+leur intelligibilité et fixe les modèles des différents états financiers publiés par les entreprises.  
+La proposition de modèles a l'avantage d'accroître la possibilité pour l'utilisateur de comparer les états 
+financiers des différentes entreprises et d'améliorer par conséquent, leur intelligibilité.  
+Ces modèles offrent également des possibilités de fl exibilité en reconnaissant à l'entreprise le droit de 
+procéder aux ajouts et/ou combinaisons de postes si  elle juge que, compte tenu de ses spécificités, 
+de tels ajouts et/ou combinaisons augmentent la pertinence des informations pour les utilisateurs de 
+ses états financiers.  
+3. La norme générale ne se substitue pas aux autre s normes comptables en ce qui concerne les 
+informations à fournir par l'entreprise et que ces normes exigeront. Cependant, les informations à 
+publier exigées par la norme générale et qui n'auraient pas été prévues par les autres normes, sont de 
+nature à améliorer les qualités que doit revêtir l'in formation fournie par les états financiers. Leur 
+divulgation, avec les informations prévues par le s autres normes, est requise afin de rendre les états 
+financiers plus intelligibles, pertinents, fiables et comparables.  
+4. La norme comptable générale est constituée de 3 parties :  
+• La première partie comporte les dispositions relatives à la présentation des états 
+financiers.  
+• La deuxième partie  intitulée "Organisation comptable"  traite des règles et 
+principes d'organisation comptable de l'entreprise afin qu'elle puisse préparer et 
+présenter des informations comptables qui répondent aux caractéristiques qualitatives 
+définies dans le cadre conceptuel de la comptabilité financière. 
+ 
+• La troisième partie  de cette norme comporte une nomenclature comptable , 
+certaines définitions et règles de fonctionnement des comptes.  
+Champ d'application  
+5. La présente norme comptable s'applique pour la pr ésentation des états financiers et l'organisation 
+comptable des entreprises. Les entreprises régies par des normes comptables sectorielles appliquent 
+les dispositions de la présente norme dans la  mesure où il n'y est pas dérogé par les normes 
+sectorielles spécifiques.  
+Date d'application et dispositions transitoires  
+6. La présente norme est applicable aux états financiers  relatifs aux exercices ouverts à partir du 1er 
+Janvier 1997.  
+Pour les besoins de présentation des états financiers comparés du premier exercice clôturé à partir du 
+31 Décembre 1997, les états financiers relatifs à l'exercice précédent, doivent être présentés selon les 
+dispositions de la première partie de cette norme.  
+Une note, accompagnée de tableaux, déc rivant et justifiant le pa ssage de l'ancienne à la nouvelle 
+présentation des différents postes et rubriques, doit êt re jointe aux états financiers relatifs au premier 
+exercice clôturé à partir du 31 Décembre 1997.  
+Les parties intitulées "Organisation Comptable" et "Nomenclature Comptable et Fonctionnement des 
+Comptes" sont applicables pour les exercices ouver ts à partir du 1er Janvier 1997 avec obligation de 
+conserver les documents et supports, afférents aux anciens états financiers, selon les conditions de 
+délais et de forme exigées par les dispositions  légales en vigueur. Tout changement opéré doit être 
+explicité et motivé dans un document à conserve r dans les mêmes délais que ceux relatifs à la 
+conservation des documents comptables eux-mêmes.  
+ 
+http://www.procomptable.com/ 2
+PREMIÈRE PARTIE : 
+Dispositions relatives à la présentation des états financiers 
+  
+Considérations pour l'élaboration et la présentation des états financiers  
+7. Les états financiers sont une représentation fi nancière structurée des événements affectant une 
+entreprise et des transactions réalisées par elle.  
+L'objectif des états financiers est de fournir une inform ation sur la situation financière, la performance 
+et les flux de trésorerie d'une entreprise, inform ation utile à une gamme variée d'utilisateurs pour la 
+prise de décisions économiques.  
+8. Les considérations à prendre en compte pour l'él aboration et la présentat ion des états financiers 
+découlent du Cadre Conceptuel de la Comptabilité Financière. Les considérations développées ci-
+après ont particulièrement pour objectifs de renfor cer les caractéristiques qualitatives requises pour 
+que les informations publiées répondent au mieux aux besoins des utilisateurs des états financiers.  
+ L'agrégation  
+9. Les états financiers sont l'aboutissement d'un processus de traitement d'une masse importante 
+d'informations et requièrent la nécessité de simplification, de synthèse et de structuration.  
+Cette masse d'informations est collectée, analysée, interprétée, mesurée, résumée et structurée au 
+travers d'une agrégation en montants et totaux présentés dans les états financiers. L'étendue de cette 
+agrégation dépendra de l'importance significative et de l'équilibre entre :   
+ - les avantages procurés par la divulgati on d'une information détaillée afin d'atteindre les 
+objectifs des états financiers, et ;  
+ - les coûts supportés aussi bien pour élaborer et  divulguer cette information détaillée que pour 
+utiliser une telle information.  
+ La classification  
+10. La classification des éléments des états financie rs par nature ou destination facilite l'analyse. 
+Cette analyse est encore améliorée si les info rmations financières sont groupées en composants 
+homogènes ayant des caractéristiques communes telles que le même degré de permanence ou 
+récurrence, de stabilité, de risque et de précision. 
+ 
+ La structure  
+11. La dernière étape du processus d'agrégation et de cla ssification est la présentation des différents 
+composants dans les états financiers et les notes correspondantes.  
+La prééminence donnée à la divulgation d'un poste devra it être en rapport avec la pertinence de ce 
+poste à l'évaluation de la situation financière, la performance et la conduite financière de l'entreprise.  
+ L'articulation  
+12. Les états financiers sont en interrelation parce  qu'ils reflètent différents aspects des mêmes 
+transactions ou des mêmes événements affectant l 'entreprise. L'interrelation découle de la partie 
+double et du fait que les différents états financiers sont fondés sur les mêmes jugements et méthodes 
+de calcul pour les différents aspects des éléments qui les composent.  
+ Les principes comptables généralement admis  
+13. Les principes comptables généralement adm is englobent les concepts fondamentaux tels que 
+définis par le cadre conceptuel, les règles , méthodes et procédés énoncés dans les normes 
+comptables ainsi que la doctrine.  
+L'appréciation des résultats d'une période dépend de la compréhension des principes comptables 
+adoptés par une entreprise pour la prise en compte, la mesure et la présentation des transactions et 
+événements de la période. Ces prin cipes doivent être sélectionnés , en s'appuyant sur les principes 
+comptables admis, de façon à aboutir à des états financiers fiables, pertinents et comparables. 
+ 
+14. La divulgation des principes comptables pertinent s et essentiels adoptés par l'entreprise, des 
+changements de ces principes et des incidences  de tels changements permet aux utilisateurs de 
+comparer ces politiques comptables utilisées au ssi bien par une même entreprise d'un exercice à 
+l'autre que pour des entreprises différentes. Ces pr incipes sont divulgués dans les notes aux états 
+financiers.  
+  
+ 
+http://www.procomptable.com/ 3
+La bonne information  
+15. Pour être intelligibles et utiles à la prise de déc ision, les états financiers  incluent des notes aux 
+états financiers. Les notes analysent  et expliquent les éléments prés entés dans le corps des autres 
+états financiers et, dans certaines circonstances, f ournissent le traitement alternatif de certains 
+événements et transactions. Elles fournissent également des info rmations sur des éléments non 
+présentés dans le corps des autres états financiers.  
+16. Un traitement erroné d'un poste des états financ iers ne peut en aucun cas être rectifié par une 
+mention dans les notes. Une telle mention ne peut en elle même être suffisante pour rétablir la 
+pertinence et la fiabilité des états financiers dans leur ensemble.  
+17. Une information présentée dans les notes doit êt re impartiale, claire et exempte de toute 
+ambiguïté. Quand une information présentée dans le b ilan, l'état de résultat s ou l'état de flux de 
+trésorerie donne une image incomplète de la situati on financière, de la performance et de la conduite 
+financière de l'entreprise, l'information nécessaire pour compléter cette image, devrait être incluse 
+dans les notes.  
+A cet égard, il faut prendre en considération l 'équilibre entre les avantages que procurent les 
+informations ainsi divulguées et le coût de leur préparation.  
+Structure et contenu des états financiers publiés par les entreprises  
+18. Les états financiers forment un ensemble structuré dont les éléments sont in ter reliés. Ces états 
+financiers sont :    
+• Le bilan.  
+• L'état de résultat.  
+• L'état des flux de trésorerie.  
+• Les notes aux états financiers.  
+Dispositions communes à l'ensemble des états financiers  
+19. Les états financiers doivent êt re clairement identifiés et di stingués des autres informations 
+publiées par l'entreprise.  
+Les états financiers doivent comporter obligatoirement les mentions suivantes :  
+(a) Le nom de l'entreprise, et tout autre moyen d'identification de l'entreprise.  
+(b) La date d'arrêté et la période couverte par les états financiers.  
+(c) L'unité monétaire dans laquelle sont exprimés les états financiers et éventuellement l'indication de 
+l'arrondi. La présentation de chiffres arrondis est admise tant que l'importance relative est respectée.  
+(d) La mention "consolidés" si les états financiers se rapportent à un groupe d'entreprises.  
+Ces informations doivent être indiquées dans chacune des pages des états financiers publiés.  
+20. Pour chaque poste et rubrique, les chiffres correspondants de l'exercice précédent doivent être 
+mentionnés.  
+21. Les postes qui ne sont pas significatifs peuvent ne pas être présentés séparément et seront 
+groupés avec d'autres postes de même catégorie. Cependant, tous les postes significatifs sont 
+obligatoirement présentés d'une manière distincte dans les états financiers.  
+Les formats annexés à cette partie de la norme sont  fournis à titre de modèles. Des rubriques et 
+postes supplémentaires doivent y être ajoutés dès qu'une norme le requiert ou quand un tel ajout est 
+nécessaire pour présenter fidèlement l'aspect que l'état financier concerné est censé représenter.  
+Les postes avec solde zéro pour l'exercice en cour s et l'exercice précédent  ne sont pas présentés 
+dans les états financiers. Les éléments y afférent doi vent continuer à être présentés dans les notes 
+tant que leurs effets ne sont pas éteints.  
+La compensation entre les postes d'actif et de passi f ou entre des postes de charges et de produits 
+n'est pas admise à moins qu'elle ne soit autorisée par les normes comptables.  
+22. Les états financiers font habituelle ment l'objet de vérification externe. Il est important pour les 
+utilisateurs de distinguer entre les états financiers qui ont fait l'objet d'une vérification des autres.  
+Afin d'accroître leur utilité, la présentation et la publication des états financiers  vérifiés doivent être 
+accompagnés de l'opinion de vérification les concernant.  
+ 
+ 
+http://www.procomptable.com/ 4
+Le Bilan  
+23. Le bilan fournit l'information sur la situation fi nancière de l'entreprise et particulièrement sur les 
+ressources économiques qu'elle contrôle ainsi que sur les obligations et les effets des transactions, 
+événements et circonstances susceptibles de modifier les ressources et les obligations.  
+Les ressources économiques, obtenues ou contrôl ées, correspondent aux actifs alors que les 
+obligations correspondent aux passifs qui, avec les capitaux propres constituent la structure financière 
+de l'entreprise.  
+Les éléments inclus dans le bilan sont par conséquent les actifs, les passifs et les capitaux propres. 
+Ces différents éléments sont définis dans le cadre conceptuel.  
+24. La classification de ces différents éléments par nat ure, par destination ou eu égard à leur liquidité 
+et exigibilité facilite l'analyse. La classification la plus appropriée est celle qui aidera les utilisateurs à 
+évaluer la nature, les montants, la  liquidité et la destination (ou fonction) des ressources disponibles 
+d'une part et le montant et les échéances des obligations d'autre part.  
+25. La présente norme fait, dans le bilan, d'une part une distinction entre les actifs courants et les 
+actifs non courants et d'autre part, elle fait la dist inction entre les passifs non courants et les passifs 
+courants.  
+ Distinction courant / non courant  
+26. La présentation des actifs et des passifs dans le corps du bilan doit faire ressortir la distinction 
+entre éléments courants et élém ents non courants. La distincti on courant, non courant découle en 
+général de la destination ou de l'utilisation réelle de l'élément et rarement de sa nature.  
+Les développements qui suivent ont pour objet de guider les entreprises dans le classement des actifs 
+et des passifs.  
+ Dans les Actifs  
+27. Un actif doit être classé comme actif courant quand :  
+(a) il fait partie des activités d'exploitation de l'ent reprise et il est attendu qu'il soit réalisé ou 
+consommé dans le cours normal du cycle d'exploitation de l'entreprise ; ou  
+(b) il est détenu principalement, à des fins de placem ent ou pour une courte période, et il est attendu 
+qu'il soit réalisé dans les douze mois à compter de la date de clôture.  
+Tous les autres actifs doivent être classés en tant qu'actifs non courants.  
+28. Il existe deux catégories différentes d'actifs cour ants, traduisant les deux par ties de la définition. 
+La première représente une partie du fonds de r oulement de l'entreprise qui est réalisée ou 
+consommée dans le cycle normal d'exploitation. La seconde représente une catégorie des actifs 
+courants qui ne sont pas des actifs d'exploitati on mais sont détenus à des fins de placement ou 
+d'investissement et il est attendu qu'ils soient r éalisés dans les douze mois à compter de la date de 
+clôture.  
+Les actifs courants incluent les stocks et les compte s clients qui ne sont pas destinés à être réalisés 
+ou consommés dans les douze mois à compter de la date de clôture.  
+29. Le cycle d'exploitation d'une entreprise est le temps moyen entre l'acquisition des matières entrant 
+dans le processus et leur réalisation en trésor erie ou en un instrument aisément convertible en 
+trésorerie. Il est souvent diffic ile de définir avec précision le  cycle d'exploitation d'une entreprise 
+particulière.  
+30. Pour les besoins de distinction entre actifs c ourants et non courants, le  cycle d'exploitation est 
+supposé être d'une année sauf, si pour des secteurs ou des activités particuliers, une période plus 
+longue est clairement plus appropriée.  
+31. Les actifs non courants sont par conséquent :  
+(a) les actifs qui sont destinés à être utilisés d'une manière continue pour les besoins des activités de 
+l'entreprise tels que les immobilisations corporelles, les immobilisations incorporelles ; et  
+(b) les actifs détenus à des fins de placement à long te rme ou qui ne sont pas destinés à être réalisés 
+dans les douze mois à compter de la date de clôture.  
+ Dans les Passifs  
+32. Un passif doit être classé comme passif courant lorsque :  
+(a) il est attendu qu'il soit réglé par utilisation de la  trésorerie provenant des éléments classés comme 
+actifs courants ; ou  
+(b) qu'il doit être payé dans les douze mois qui suivent la date de clôture.  
+http://www.procomptable.com/ 5
+Tous les autres passifs doivent être classés en tant que passifs non courants.  
+33. Les passifs courants peuvent être distingués de la même manière que les actifs courants. Certains 
+passifs courants, tels que les sommes dues aux fournisseurs ou les sommes à payer aux employés et 
+d'autres coûts d'exploitation, sont r églés en dehors des actifs courants.  Ces passifs sont considérés 
+comme obligations pour des éléments formant le fonds de roulement utilisé dans le cycle 
+d'exploitation normal de l'entreprise.  
+De tels éléments d'exploitation sont classés comme passifs courants même s'ils doivent être réglés 
+dans un délai supérieur à douze mois à partir de la date de clôture.  
+34. D'autres passifs courants sont plus difficiles à définir, en termes de cycle d'exploitation courant, 
+bien qu'ils nécessitent d'être payés dans les douze mois  à partir de la date de clôture. Il en est ainsi 
+par exemple, de la partie à moins d'un an des empr unts à long terme, des découverts bancaires, des 
+dividendes à régler, impôts sur les bénéfices, et autres dettes non commerciales. Les emprunts qui 
+fournissent le financement du fonds de roulement sur une base à long terme et qui ne doivent pas être 
+réglés dans les douze mois (ou le cycle d'exploitati on courant, s'il est plus long), sont des passifs non 
+courants.  
+35. Le montant de toute obligation qui  a été exclu des passifs courants est présenté dans les passifs 
+non courants. Les informations justifiant cette présentation doivent être présentées dans les notes aux 
+états financiers.  
+ Cas du refinancement  
+36. Les passifs qui doivent être réglés dans les douze mois à compter de la date de clôture sont 
+classés parmi les passifs non courants s'ils remplissent le conditions cumulatives suivantes :  
+(a) le terme initial de l'obligation était à l'origine pour une période supérieure à douze mois ;  
+(b) l'entreprise a l'intention de refinancer l'obligation sur une base à long terme ; et  
+(c) cette intention est matérialisée par un accord de refinancement ou de rééchelonnement de 
+paiement intervenant avant l'approbation des états financiers.  
+37. Plusieurs emprunts sont, en raison de leur nature, refinancés ou renouvelés ; Si un tel passif fait 
+partie du financement à long terme de l'entreprise, il doit être classé en tant que passif non courant, 
+même si la forme de l'accord est qu'un tel passif doit être remboursé ou refinancé dans les douze 
+mois. Cependant, dans plusieurs circ onstances, le refinancement n'es t pas automatique, et il est 
+difficile de distinguer entre les passifs qui seraient refinancés "Ipso-Facto" et ceux qui nécessitent une 
+négociation avec le prêteur. Un passif qui ne peut pas être refinancé pourrait se traduire par une 
+utilisation significative de ressources courantes, et il serait inapproprié d'autoriser la classification en 
+éléments à long terme, en se basant sur la seule probabilité ou le jugement.  
+Pour cette raison, il est nécessaire que l'accord de financement soit en place, ce qui constitue une 
+preuve que le remboursement du passif en dehors des ressources existantes ne sera pas nécessaire. 
+L'existence d'un tel accord avant l'approbation des état s financiers fournit l'évidence que la substance 
+du passif à la date de clôture était à long terme.  
+ Informations à présenter dans le corps du bilan  
+38. Dans le respect de l'importance significative et  des prescriptions spécifiques édictées par les 
+normes comptables, les rubriques et postes suiv ants sont généralement présentés dans le corps du 
+bilan.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 6
+ 
+Aux Actifs    
+ Actifs non courants    
+  Actifs immobilisés (ainsi que les amortissements et 
+provisions y afférents)   
+  Immobilisations incorporelles    
+  Immobilisations corporelles    
+  Immobilisations financières    
+  Autres actifs non courants    
+ Actifs courants    
+  Stocks    
+  Clients et comptes rattachés    
+  Placement à court terme et autres actifs financiers    
+  Autres actifs courants    
+  Liquidités et équivalents de liquidités  
+Aux Capitaux propres  
+  
+  Capital social    
+  Réserves  
+  Autres capitaux propres    
+  Résultats reportés    
+  Résultat de l'exercice    
+Aux Passifs  
+  
+  Passifs non courants    
+  Emprunts    
+  Autres passifs financiers non courants  
+  Provisions  
+ Passifs courants    
+  Fournisseurs et comptes rattachés    
+  Autres passifs courants    
+  Autres passifs financiers    
+  Concours bancaires    
+  Provisions pour risques  et charges courants   
+ 
+39. Quand des informations plus détaillées sont pr ésentées dans les notes aux états financiers, elles 
+sont reliées au bilan au moyen d'un système de référenciation croisée. 
+ 
+40. Le modèle de présentation du bilan figure à l'annexe 1 de cette partie de la norme. Chaque 
+entreprise adapte ce modèle en fonction de ses activi tés et de ses opérations tout en tenant compte 
+des principes généralement admis.  
+ 
+http://www.procomptable.com/ 7
+L'état de résultat  
+41. L'état de résultat fournit des renseignements sur la performance de l'entreprise.  
+L'information sur la performance est utile pour évaluer  la rentabilité de l'entreprise et sa capacité à 
+générer des flux de trésorerie à partir des ressources qu'elle contrôle. Elle est aussi utile pour évaluer 
+l'efficacité avec laquelle l'entreprise a utilisé ses ressources et sa capacité à employer des ressources 
+supplémentaires.  
+42. Une bonne présentation requiert :  
+• Que les résultats d'exploitation, des activités de placement et de financement soient 
+divulgués.  
+• Que la destination ou la nature et le montant des éléments des revenus et des 
+charges, des gains et des pertes provenant des activités ordinaires dont l'importance 
+est telle que leur mention est utile pour éval uer la performance de l'entreprise, soient 
+mentionnés séparément.  
+• Que les éléments non récurrents soient présentés séparément.  
+• Que les éléments extraordinaires soient mentionnés séparément.  
+• Que les produits et les charges ayant des  caractéristiques spécifiques, tels que les 
+charges et produits financiers, ou les im pôts sur les bénéfices soient divulgués 
+séparément.  
+• Que le résultat provenant d'un secteur d'activité abandonné ainsi que les produits et 
+charges des activités abandonnées soient présentés séparément.  
+43. Les produits et les charges sont présentés dans l 'état de résultat par des tination (présentation de 
+référence). La présentation en fonction de la provenanc e et de la nature des produits et des charges 
+est autorisée (présentation autorisée).  
+Les effets des modifications comptables, non pris en compte dans l'état de résultat, doivent figurer, au 
+bas de l'état de résultat.  
+ Méthode de référence  
+44. Selon cette méthode, les revenus et les charges s ont présentés dans l'état de résultat selon leur 
+provenance ou destination.  
+45. Au cas où l'entreprise utilise la méthode de référence,  elle doit obligatoirement fournir l'information 
+sur la nature de ses charges dans les notes aux états financiers. Un modèle de présentation est fourni 
+à l'annexe 6.  
+46. La classification des charges se fait par rappor t à leur destination en tant que coûts de ventes, 
+coûts de distribution ou coûts administratifs.  
+Cette présentation fournit une information plus pertinente aux utilisateurs que la classification par 
+nature.  
+La répartition des coûts sur les différentes fonctions pourrait être arbitraire et nécessite un effort de 
+jugement considérable.  
+La nomenclature proposée dans la partie organisation comptable de la présente norme ainsi que les 
+développements figurant aux paragraphes 47 et suivants visent à aider les entreprises dans cette 
+répartition.  
+47. Dans une entreprise de distribution, cette répar tition peut se faire par application de l'équation 
+suivante :    
+Stocks de marchandises au début de l'exercice    
++ achats de marchandises pendant l'exercice  
+ 
+= total des marchandises disponibles à la vente    
+- stocks de marchandises en fin de l'exercice    
+ 
+= Coûts des marchandises vendues.    
+ 
+http://www.procomptable.com/ 8
+Les coûts de distribution et d'adminis tration sont déterminés par réfé rence aux charges se rattachant 
+directement à ces fonctions. Les autres charges sont classées dans les autres charges d'exploitation.  
+48. Dans une entreprise de production, il est nécessair e de disposer d'un système de calcul de coûts. 
+Généralement, ce genre d'entreprises disposent de tel système pour le besoin d'évaluation des stocks 
+des produits finis et des en cours de production.  
+49. Au cas où l'entreprise ne dispose pas de tel sy stème, celle-ci pourra déterminer le coût des 
+marchandises vendues comme suit :  
+ 1. Calcul du coût des matières premières consommées :    
+Stock initial des matières premières    
++ Achats de la période    
+- Stocks final des matières premières    
+ 
+= Matières premières consommées  
+ 2. Coût de la main-d’œuvre directe  
+Ce coût est aisément calculé dans les entreprises industrielles.  
+ 3. Les frais généraux de production sont affectés  selon les clefs de répartition les plus 
+pertinentes. Cette affectation est faite selon la méthode dite de "l'imputation rationnelle". Si l'entreprise 
+est en sous activité, la quote-par t de frais généraux non affectés aux coûts des ventes est présentée 
+dans les "autres charges d'exploitation". Une note expliquant le mode d'affectation des frais généraux 
+doit être présentée lorsqu'elle est utile à la compréhension des performances et que le montant de ces 
+frais est significatif.  
+ 4. La variation des stocks des travaux en cour s est ajoutée ou retranchée aux éléments ci-
+dessus pour obtenir le coût des marchandises produites.  
+ 5. Détermination du coût des marchandises vendues :  
+Coût des marchandises produites    
++ Stock initial des produits finis    
+- Stock final des produits finis    
+ 
+= Coût des marchandises vendues   
+Les coûts de distribution et d'adminis tration sont déterminés par réfé rence aux charges se rattachant 
+directement à ces fonctions. Les autres charges sont classées dans les autres charges d'exploitation.  
+50. Quand la méthode de référence est utilisée, une analys e détaillée doit être fournie dans l'état de 
+résultat sur les éléments suivants :  
+Produits d'exploitation  
+• Revenus (Ventes de marchandises et/ou ventes  des produits ou de services fabriqués par 
+l'entreprise dans le cadre de ses activités centrales ou principales).  
+• Autres produits d'exploitation.  
+Charges d'exploitation  
+• Coût des ventes (coûts rattachés aux revenus pris en compte).  
+• Coûts de distribution.  
+• Coûts administratifs.  
+• Autres charges d'exploitation.  
+Un modèle pour la présentation de l'état de Résultat figure à l'annexe 2 de la présente norme.  
+ Méthode autorisée  
+51. La méthode autorisée consiste essentiellement à classer les produits et les charges en fonction de 
+leur nature. La présentation selon cette méthode est autorisée pour tenir compte de la culture 
+comptable en vigueur, des spécificités sectorielles et organisationnelles et de la difficulté qu'auraient 
+les petites et moyennes entreprises à appliquer la méthode de référence.  
+http://www.procomptable.com/ 9
+52. Au cas où une entreprise utilise la méthode aut orisée, elle est encouragée à publier dans ses 
+notes une répartition de ses charges par destination. Pour  ce faire, elle peut utiliser le modèle figurant 
+à l'annexe 7. Cette opération vise à permettre aux entreprises de s'adapter à la présentation par 
+destination.  
+53. Quand la méthode autorisée est utilisée, une analys e détaillée doit être fournie dans l'état de 
+résultat sur les éléments suivants :  
+Produits d'exploitation  
+• Ventes de marchandises et/ou ventes des produits fabriqués par l'entreprise.  
+• Autres produits d'exploitation.  
+Charges d'exploitation  
+• Variation des stocks des produits finis et des encours.  
+• Matières premières et autres services et approvisionnements consommés.  
+• Charges de personnel.  
+• Dotations aux amortissements et provisions.  
+• Autres charges d'exploitation.  
+54. Un modèle de format pour la présentation de l'état  de résultat autorisé figure à l'annexe 3 de cette 
+partie de la norme.  
+55. Des informations plus détaillées sont présentées  dans les notes aux états financiers qui devraient 
+être reliées à l'état de résultat au moyen d'un système de référenciation croisée.  
+Soldes intermédiaires de gestion  
+56. Pour les besoins d'agrégation à l'échelle sectorie lle ou nationale, les entreprises publient leurs 
+soldes intermédiaires dans les notes aux états financiers conformément au modèle figurant à l'annexe 
+8 de la présente norme.  
+La publication de ces soldes est utile pour les utilis ateurs des états pour situer les données relatives à 
+l'entreprise et leur évolution par rapport aux  données agrégées du même secteur ou à l'échelle 
+nationale.  
+La détermination de ces soldes est requise pour les ent reprises qui présentent leurs résultats selon le 
+modèle de référence ainsi que celles qui utilisent le modèle autorisé.  
+L'état des flux de trésorerie  
+57. L'état des flux de trésorerie renseigne sur la  manière avec laquelle l'entreprise a obtenu et 
+dépensé des liquidités à travers ses activités d'exploi tation, de financement et d'investissement et à 
+travers d'autres facteurs affectant sa liquidité et sa solvabilité.  
+L'état des flux de trésorerie, lors qu'il est utilisé de concert avec le reste des états financiers, fournit 
+des informations qui permettent aux utilisateurs d'évaluer la capacité de l'entreprise à générer des flux 
+de trésorerie positifs, d'évaluer sa capacité à honorer ses engagements, sa capacité à distribuer des 
+dividendes et à couvrir ses besoins de financement inte rne. Il lui permet aussi d'évaluer les origines 
+des écarts entre le résultat net et les flux de trésorerie s'y rapportant ainsi que les effets des 
+transactions d'investissement et de financement de la période sur la position financière de l'entreprise.  
+Ces informations sont utiles pour estimer la probab ilité de réalisation de flux de trésorerie ainsi que 
+l'importance de ces flux et les moments auxquels ces derniers peuvent avoir lieu.  
+58. De manière générale, les opérations de l'entr eprise se traduisent, à plus ou moins brève 
+échéance, par des flux de trésorerie. Néanmoins, certaines opérations particulières peuvent être sans 
+incidence sur la trésorerie. Des exemples de ces opérations sont fournis au paragraphe 64.  
+59. Les flux de trésorerie liés aux activités d'exploitation sont présentés en utilisant :  
+• soit la méthode directe (méthode de référence) qui consiste à fournir des informations sur les 
+principales catégories de rentrées et de sorties de fonds,  
+• soit la méthode indirecte (méthode autorisée) qui consiste à présenter les flux de trésorerie liés à 
+l'exploitation en corrigeant le résultat net de l'exercice pour tenir compte des opérations n'ayant pas un 
+caractère monétaire, de tout report ou régularisation d'encaissements ou de décaissements passés ou 
+futurs et des éléments de produits ou de charges a ssociés aux flux de trésorerie concernant les 
+investissements ou le financement.  
+ 
+ 
+http://www.procomptable.com/ 10
+Présentation de l'état des flux de trésorerie  
+60. Cet état doit présenter les flux de trésorerie de l'exercice classés en fl ux provenant (ou utilisés) 
+des (ou dans) les activités d'exploitation, d'investissement et de financement.  
+flux de trésorerie liés à l'exploitation :  
+61. Les activités d'exploitation sont les principales activités génératrices de revenu et toutes activités 
+autres que celles qui sont définies comme étant des activités d'investissement ou de financement.  
+Les mouvements de trésorerie liés à l'exploitation sont par exemple :  
+a) Les rentrées de fonds provenant des clients et les paiements aux fournisseurs.  
+b) Les encaissements et les décaissements effectués avec l'état au titre de taxes indirectes.  
+c) Les payements aux membres de personnel et les payements des impôts et taxes directs à moins 
+qu'ils ne se rapportent aux activités d'investissement et de financement.  
+d) Les rentrées et sorties de fonds non définies comme se rapportant aux activités d'investissement et 
+de financement, telles que les rentrées ou sorties de fonds relatives aux primes d'assurance, et en 
+général les flux de trésorerie liés à des transacti ons et autres événements qui sont pris en compte 
+dans la détermination du résultat net.  
+e) Les flux de trésorerie liés aux placements acquis pour la revente.  
+f) Et tout autre encaissement et  autre décaissement non rattachés spécifiquement aux activités de 
+financement et d'investissement.  
+flux de trésorerie liés aux activités d'investissement :  
+62. Les activités d'investissement por tent sur l'acquisition et la cessi on d'actifs à long terme et de tout 
+autre investissement qui n'est pas inclus dans les équivalents de liquidités.  
+Les mouvements de trésorerie liés aux activités d'investissement comprennent par exemple :  
+a) les décaissements et les encaissements relatifs  à l'acquisition et à la vente des titres de 
+participation (les flux liés aux instruments considérés comme des équivalents de liquidités sont exclus 
+de cette catégorie de flux) ; et  
+b) les encaissements et décaisse ments découlant des ventes et  des achats d'immobilisations 
+corporelles et incorporelles et d'autres actifs immobilisés.  
+flux de trésorerie liés aux activités de financement :  
+63. Les activités de financement sont les activité s qui entraînent des c hangements quant à l'ampleur 
+et à la composition des  et des capitaux empruntés par l'entreprise. Les mouvements de trésorerie liés 
+aux activités de financement comprennent par exemple :  
+a) Les flux liés à l'émission d'actions ou autres inst ruments de capitaux propres et au rachat par 
+l'entreprise de ses propres actions.  
+b) les dividendes et les autres distributions aux actionnaires.  
+c) les flux liés à l'émission d'emprunts obligataires,  d'emprunts hypothécaires, de billets de trésorerie 
+ou d'autres emprunts à court terme et à long terme et au remboursement des montants empruntés (en 
+principal et intérêts).  
+ Opérations sans incidence sur la trésorerie :  
+64. Les activités d'investissement et de financement qui n'entraînent pas de flux de trésorerie sont 
+exclues de l'état des flux de trésorerie. Il en es t ainsi par exemple des conversions de créances en 
+capital. Il en est également des acquisitions d'ac tifs en leasing qui sont considérées comme 
+opérations de financement n'entraînant pas de flux  de trésorerie alors que les remboursements 
+subséquents du principal sont considérés comme des  sorties de trésorerie liés aux activités de 
+financement.  
+65. Effets de variation des taux de change :  
+L'effet de variation des taux de change sur les liquidités détenues ou dues en monnaies étrangères 
+est présenté dans l'état des flux de trésorerie d'une manière séparée.  
+66. Éléments extraordinaires et effets des modifications comptables :  
+Les flux de trésorerie liés à des éléments extraordinai res et à des effets des modifications comptables 
+doivent être classés comme flux d'activités d'expl oitation, d'investissement ou de financement, selon 
+le cas, et présentés séparément.  
+ 
+ 
+http://www.procomptable.com/ 11
+67. Liquidités et équivalents de liquidités :  
+Les liquidités comprennent les fonds disponibles, les dépôts à vue et les découverts bancaires sauf s'il 
+est établi qu'ils font l'objet d'un fi nancement structurel de l'entreprise et font l'objet d'un contrat ferme 
+garantissant leur stabilité, auquel cas,  ils sont classés parmi les flux de trésorerie liés aux activités de 
+financement. Les équivalents de liquidités sont des plac ements à court terme, très liquides facilement 
+convertibles en un montant connu de liquidités, et  non soumis à un risque significatif de changement 
+de valeur.  
+L'entreprise doit mentionner dans ses états financiers les informations suivantes :  
+• éléments composant les liquidités et équivalents de liquidités ;  
+• méthode adoptée pour déterminer la composition des liquidités et équivalents de liquidités et effet de 
+tout changement de méthode en la matière ;  
+• rapprochement des montants de liquidités et équiva lents de liquidités figurant dans le tableau des 
+flux de trésorerie, d'une part, et au bilan, d'autre part.  
+68. Les modèles de présentation de l'état de flux de trésorerie sont fournis à l'annexe 4 pour les 
+entreprises utilisant la méthode directe sur les flux  liés aux activités d'exploitation et à l'annexe 5 pour 
+celles qui utilisent la méthode indirecte.  
+Les notes aux états financiers  
+ Objectifs :  
+69. Les notes aux états financiers d'une entreprise doivent :  
+a) informer sur les bases retenues pour l'élaboration des états financiers et sur les choix particuliers 
+de principes comptables adoptés afférents aux transactions et événements les plus significatifs ;  
+b) divulguer et motiver les cas de non respect des  normes comptables tunisiennes dans l'élaboration 
+des états financiers ;  
+c) fournir des informations supplémentaires ne figur ant pas dans le corps des états financiers eux-
+mêmes et qui sont de nature à favoriser une présentation fidèle.  
+70. Les notes aux états financiers comprennent les in formations détaillant et  analysant les montants 
+figurant dans le corps du bilan, de l'état de résultat  et de l'état de flux de trésorerie ainsi que des 
+informations supplémentaires qui sont utiles aux  utilisateurs tels que les engagements et les passifs 
+éventuels. Elles comprennent les in formations dont les normes compt ables tunisiennes requièrent la 
+publication et d'autres informations qui sont de nature à favoriser la pertinence.  
+ Structure :  
+71. Les notes aux états financiers  doivent être présentées d'une m anière comparable d'un exercice à 
+l'autre. Chaque élément positionné dans le bilan, l'état de résultat et l'état de flux de trésorerie doit 
+faire l'objet d'une référenciation croisée avec les notes correspondantes.  
+72. Les notes aux états financiers sont, en règle génér ale, présentées dans l'ordre suivant qui permet 
+aux utilisateurs de comprendre les états financiers et de les comparer avec ceux d’autres entreprises :  
+a) note confirmant le respect des normes comptables tunisiennes ;  
+b) note sur les bases de mesure et les principes comptables pertinents appliqués ;  
+c) informations afférentes à des éléments figurant dans le corps des états financiers ; et  
+d) autres informations portant sur :  
+i. les éventualités, engagements et autres divulgations financières, et  
+ii. des divulgations à caractère non financier.  
+73. Une structure systématique doit être retenue, autant que possible, pour la présentation des notes.  
+Cette structure est destinée à présenter en premier lieu les éléments qui sont essentiels pour la 
+compréhension des états financiers dans leur ensembl e, tels que les principes adoptés et les bases 
+de mesure utilisées. Sont présentés par la suite, les éléments se rapportant aux différents postes et 
+rubriques des états financiers, dans l'ordre de leur pr ésentation dans les différent s états. Enfin, sont 
+présentées les autres informations exigées ou qui sont de nature à assurer une représentation fidèle.  
+Les informations se rapportant au référentiel comp table utilisé pour la préparation des états financiers 
+et aux principes comptables spécifiques retenus par l'entreprise peuvent être présentées au début des 
+notes aux états financiers.  
+Dans certains cas, il peut s'avérer utile et s ouhaitable de changer l'ordre de présentation de certains 
+éléments des états financiers dans les notes. A titre d'exemple, pour les placements, les informations 
+http://www.procomptable.com/ 12
+relatives aux produits perçus, aux ajustements conduisant à la juste valeur ainsi qu'aux dates 
+d'échéance gagnent à être présentées, dans la même  note, indépendamment du fait que certains 
+concernent le bilan et d'autres portent sur l'état de résultat.  
+Note sur le respect des Normes Comptables Tunisiennes :  
+74. Toute entreprise publiant des états financiers, doit déclarer l'utilisation des normes comptables 
+comme référentiel pour la préparation et la présentation de ses états.  
+75. Toute divergence significative entre les nor mes comptables tunisiennes et les principes 
+comptables retenus par l'entreprise doit faire l'objet d'une note d'information spécifique précisant :  
+a) la nature de chaque divergence ;  
+b) la justification du choix retenu ;  
+c) la quantification de l'impact de cette divergence su r le résultat et la situation financière de 
+l'entreprise.  
+76. L'intelligibilité et la fiabilité des états financiers  sont largement entachées si l'utilisateur est amené 
+à procéder à de multiples retraitements résultant  du non respect des règles de reconnaissance, de 
+mesure et de présentation édictées par une ou plusieurs normes.  
+Dans de telles situations, l'entreprise ne peut pas déc larer que ses états financiers ont été élaborés et 
+présentés conformément aux normes comptables.  
+Les notes aux états financiers et les traitements comptables erronés :  
+77. Un traitement comptable erroné d'un élément des états financiers ne peut, en aucun cas, être 
+considéré comme rectifié par une simple mention dans les notes. Une telle mention ne peut en elle-
+même être suffisante pour rétablir la pertinence et  la fiabilité des états financiers pris dans leur 
+ensemble.  
+78. Dans le but d'aboutir à une représentation fidèle, les éléments des états financiers sont pris en 
+compte, évalués et présentés conformément aux  normes comptables tunisiennes. Les divergences 
+éventuelles entre ces normes et les solutions compt ables retenues par l'entreprise, sont divulguées 
+dans la note sur la conformité avec les normes comptables prévue dans le paragraphe 74. Les notes 
+ont pour objet d'améliorer la lecture et la compr éhension des états financiers. Une telle mention dans 
+les notes n'est pas suffisante pour restaurer la perti nence et la fiabilité des états financiers pris dans 
+leur ensemble, dans la mesure où la pertinence et la fiabilité du bilan, de l'état  de résultat ou de l'état 
+de flux de trésorerie demeurent affectées. Pour cette raison, une réserve dans la note sur la 
+conformité avec les normes comptables tunisiennes ne justifie pas la non conformité en tant que telle. 
+Dans de telles situations, les états financiers ne peuvent pas traduire fidèlement la situation financière, 
+la performance et les liquidités de l'entreprise.  
+Présentation des principes comptables :  
+79. La note relative aux principes comptables adoptés par l'entreprise doit décrire :  
+a) les bases de mesure utilisées pour l'élaboration des états financiers ;  
+b) chaque principe comptable particulier significatif pour la représentation fidèle des états financiers ;  
+c) la mention, le cas échéant, de l'absence de changement de méthodes comptables au cours de 
+l'exercice.  
+80. En plus des principes comptables particuliers utilisés pour la préparation et la présentation des 
+états financiers, il est essentiel d'informer les utilis ateurs sur les règles de mesure utilisées dans les 
+états financiers (coût historique, valeur de remplacement, valeur de réalisation, ou valeur actualisée).  
+81. En décidant si un principe comptable particulie r devrait être divulgué,  les dirigeants doivent 
+prendre en considération si une telle divulgation es t de nature à aider, ou si la non divulgation est de 
+nature à affecter la capacité des utilisateurs à éval uer les risques, les opportunités et flux futurs de 
+trésorerie de l'entreprise.  
+82. Chaque entreprise doit considérer la nature de ses opér ations et les principes dont la divulgation 
+est généralement attendue par l'utilisateur pour des entreprises de même type.  
+Il est généralement attendu que les entreprises divulguent la méthode comptable appliquée pour 
+chaque poste significatif figurant dans le bilan et dans la plupart des cas, les règles de 
+reconnaissance des revenus. Lorsqu'une entreprise réalise, par exemple, des opérations significatives 
+en monnaies étrangères, une divulgation des règles de prise en compte des gains et des pertes de 
+change et de la couverture contre les risques de change est normalement attendue.  
+ 
+ 
+http://www.procomptable.com/ 13
+Note sur les mouvements des capitaux propres  
+83. Les notes doivent renseigner les utilisateurs des états financiers sur les mouvements des capitaux 
+propres et sur la détermination du résultat par action.  
+Les renseignements sur les mouvem ents des capitaux propres doiv ent permettre de réconcilier, pour 
+chaque poste, les montants du début de la période av ec les montants de fin de période en indiquant 
+l'origine de chaque mouvement.    
+ 
+Annexe 1  
+Modèle du Bilan 
+(Entreprise)  
+   
+   
+BILAN  
+(Exprimé en dinars)  
+   
+Notes Exercice clos 
+au 31 décembre 
+   N    N+1  
+Actifs           
+Actifs non courants           
+Actifs immobilisés 
+ 
+   
+ 
+Immobilisations incorporelles  X    X 
+Moins : amortissements  (X)    (X)  
+   X    X 
+Immobilisations corporelles  X    X 
+Moins : amortissements  (X)    (X)  
+   X    X 
+Immobilisations financières  X    X 
+Moins : provisions  (X)    (X)  
+   X    X 
+Total des actifs immobilisés X    X  
+Autres actifs non courants X    X  
+Total des actifs non courants X    X  
+Actifs courants           
+Stocks  X     X  
+Moins : provisions  (X)    (X)  
+   X    X 
+Clients et comptes rattachés  X    X 
+Moins : provisions  (X)    (X)  
+   X    X 
+Autres actifs courants  X    X  
+Placements et autres actifs financiers  X    X  
+Liquidités et équivalents de liquidités  X    X  
+Total des actifs courants  X    X  
+Total des actifs X    X  
+   
+http://www.procomptable.com/ 14
+Notes Exercice clos 
+au 31 décembre 
+   N     n+1 
+Capitaux Propres et Passifs           
+Capitaux propres            
+Capital social  X     X  
+Réserves  X     X  
+Autres capitaux propres  X     X  
+Résultats reportés  X     X  
+Total des capitaux propres avant résultat de l’exercice X     X  
+Résultat de l’exercice  X     X  
+Total des capitaux propres avant affectation  X     X  
+Passifs           
+Passifs non courants           
+Emprunts  X     X  
+Autres passifs financiers  X     X  
+Provisions  X     X  
+Total des passifs non courants  X     X  
+Passifs courants           
+Fournisseurs et comptes rattachés  X     X  
+Autres passifs courants  X     X  
+Concours bancaires et autres passifs financiers  X     X  
+Total des passifs courants  X     X  
+Total des passifs  X     X  
+Total des capitaux propres et des passifs  X     X  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 15
+Annexe 2  
+Modèle de l'état de résultat  
+(présentation de référence)  
+(Entreprise)    
+  
+   
+État de Résultat 
+(exprimé en dinars)  
+   
+Notes Exercice clos 
+le 31 décembre 
+   n     n+1  
+Revenus  X     X  
+Coût des ventes  (X)     (X)  
+Marge brute  X     X  
+Autres produits d'exploitation  X    X 
+Frais de distribution  (X)     (X)  
+Frais d’administration  (X)     (X)  
+Autres charges d’exploitation  (X)     (X)  
+Résultat d’exploitation  X     X  
+Charges financières nettes  (X)     (X)  
+Produits des placements  X     X  
+Autres gains ordinaires  X     X  
+Autres pertes ordinaires  (X)     (X)  
+Résultat des activités ordinaires avant impôt  X     X  
+Impôt sur les bénéfices  X     X  
+Résultat des activités ordinaires après impôt  X     X  
+Éléments extraordinaires  (Gains/Pertes)  X     X  
+Résultat net de l'exercice  X     X  
+Résultat net de l'exercice  X     X  
+Effet des modifications comptables (net d'impôt)  X     X  
+Résultat après modifications comptables  X     X  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 16
+Annexe 3  
+Modèle de l'état de résultat  
+(présentation autorisée)  
+(Entreprise)    
+  
+   
+État de Résultat 
+(exprimé en dinars)   
+ 
+Exercice clos 
+le 31 décembre
+   
+ 
+Notes n-1  n-1  
+Revenus   x  x  
+Produits d'exploitation   x  x  
+Production immobilisée     x  x  
+Total des produits d'exploitation   x  x  
+Charges d'exploitation   x  x  
+Variation des stocks des produits finis et des encours (en+ou-)  x  x  
+Achats de marchandises consommés   x  x  
+Achats d'approvisionnements consommés  x  x  
+Charges de personnel   x  x  
+Dotations aux amortissements et aux provisions  x  x  
+Autres charges d'exploitation   x  x  
+Total des charges d'exploitation   (x)  (x)  
+Résultat d'exploitation   x  x  
+Charges financières nettes   (x)  (x)  
+Produits des placements   x  x  
+Autres gains ordinaires   x  x  
+Autres pertes ordinaires   (x)  (x)  
+Résultat des activités ordinaires avant impôt  x  x  
+Impôt sur les bénéfices   (x)  (x)  
+Résultat des activités ordinaires après impôt   x  x  
+Eléments extraordinaires (Gains/Pertes)   x  x  
+Résultat net de l’exercice   x  x  
+ 
+Résultat net de l’exercice   x  x  
+Effet des modifications comptables (net d'impôt)   x  x  
+Résultat après modifications comptables   x  x  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 17
+Annexe 4  
+Modèle de l'état de flux de trésorerie  
+(présentation de référence)  
+(Entreprise)    
+  
+   
+État des flux de trésorerie 
+(exprimé en dinars)   
+ 
+ Notes
+Exercice clos 
+le 31 décembre 
+   n     n-1  
+Flux de trésorerie liés à l’exploitation           
+Encaissements reçus des clients  x     x  
+Sommes versées aux fournisseurs et au personnel  x     x  
+Intérêts payés  x     x  
+Impôts sur les bénéfices payés     x     x  
+Flux de trésorerie provenant de (affectés à) 
+l’exploitation  x     x  
+Flux de trésorerie liés aux activités d’investissement           
+Décaissements affectés à l’acquisition d’immobilisations 
+corporelles et incorporelles  x     x  
+Encaissements provenant de la cession d’immobilisations 
+corporelles et incorporelles  x     x  
+Décaissements affectés à l’acquisition 
+d’immobilisations financières     x     x  
+Encaissements provenant de la cession d’immobilisations 
+financières  x     x  
+Flux de trésorerie provenant des (affectés aux) activités 
+d’investissement  x     x  
+Flux de trésorerie liés aux activités de financement           
+Encaissements suite à l’émission d’actions  x     x  
+Dividendes et autres distributions     x     x  
+Encaissements provenant des emprunts  x     x  
+Remboursement d’emprunts     x     x  
+Flux de trésorerie provenant des (affectés aux) activités 
+de financement  x     x  
+Incidences des variations des taux de change sur les 
+liquidités et équivalents de liquidités  x     x  
+Variation de trésorerie     x     x  
+Trésorerie au début de l'exercice  x     x  
+Trésorerie à la fin de l'exercice  x     x  
+  
+  
+http://www.procomptable.com/ 18
+Annexe 5  
+Modèle de l'état de flux de trésorerie  
+(présentation autorisée)  
+(Entreprise)    
+  
+   
+État des flux de trésorerie 
+(exprimé en dinars)  
+ 
+  
+Exercice clos 
+au 31 décembre 
+    Notes n n-1 
+Flux de trésorerie liés à l’exploitation      
+Résultat net  x x 
+Ajustements pour :    
+• Amortissements et provisions   x  x 
+• Variation des :   x  x 
+- Stocks   x  x 
+- Créances   x  x 
+- Autres actifs   x  x 
+- Fournisseurs et autres dettes   x  x 
+• Plus ou moins-values de cession   x  x 
+• Transfert de charges   x x 
+Flux de trésorerie provenant de 
+(affectés à) l'exploitation   x x 
+Flux de trésorerie liés aux activités d'investissement     
+• Décaissements affectés à l'acquisition d'immobilisations 
+corporelles et incorporelles x x 
+• Encaissements provenant de la cession d'immobilisations 
+corporelles et incorporelles  x x 
+• Décaissements affectés à l'acquisition d'immobilisations 
+financières  x  x 
+• Encaissements provenant de la cession 
+d'immobilisations financières   x
+ x 
+Flux de trésorerie provenant des (affectés aux) 
+activités d'investissement  x x 
+Flux de trésorerie liés aux activités de financement      
+Encaissements suite à l'émission d'actions   x  x 
+Dividendes et autres distributions   x  x 
+Encaissements provenant des emprunts   x x 
+Remboursement d'emprunts   x x 
+Flux de trésorerie provenant des 
+(affectés aux) activités de financement   x x 
+Incidence des variations des taux de change sur les 
+liquidités et équivalents de liquidités  x x  
+Variation de trésorerie   x x  
+Trésorerie au début   x x 
+Trésorerie à la fin   x x 
+  
+ 
+ 
+http://www.procomptable.com/ 19
+Annexe 6  
+Tableau de passage des charges par destination aux charges par nature 
+  
+Ventilation Charges par 
+destination Montant Achats 
+consommés 
+Charges de 
+personnel 
+Amortissements 
+et provisions 
+Autres 
+charges Observation 
+Coût des ventes 
+Frais de 
+distribution 
+Frais 
+d'administration 
+Autres charges   
+           
+Total             
+  
+Annexe 7  
+Tableau de passage des charges par nature aux charges par destination 
+Ventilation Liste des 
+comptes de 
+charges par 
+nature 
+Montant Coût des 
+ventes 
+Frais de 
+distribution 
+Frais 
+d'administration 
+Autres 
+charges Observations 
+   
+  
+  
+  
+  
+  
+            
+Total             
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 20
+Annexe 8  
+Schéma des soldes intermédiaires de gestion 
+Produits     Charges     Soldes  N N+1 
+(1) Ventes de 
+marchandises et autres 
+produits d'exploitation   
+    
+Coût d'achat des 
+marchandises vendues    … 
+   
+• Marge 
+commerciale    
+ 
+.… 
+ 
+… 
+(2) Revenus et autres 
+produits d'exploitation    
+Production stockée    
+Production immobilisée  
+  
+Total 
+…  
+…  
+…  
+…  
+ou (Déstockage de 
+production)  
+   
+   
+ 
+Total  
+  
+… 
+  
+  
+  
+… 
+  
+ 
+   
+   
+   
+   
+• Production  
+ 
+ 
+… 
+ 
+ 
+… 
+• (2) Production  …  Achat consommés    … 
+• Marge sur coût 
+matières    … … 
+• (1) Marge 
+commerciale  • (2) 
+Marge sur coût matière  
+ 
+• Subvention 
+d'exploitation (*) 
+ 
+Total   
+…  
+…  
+   
+…  
+…  
+…  
+(1) et (2) Autres charges 
+externes   
+ 
+   
+  
+  
+ 
+Total 
+  
+… 
+  
+  
+  
+… 
+  
+ 
+   
+   
+   
+• Valeur Ajoutée 
+brute (1) et (2)    
+ 
+ 
+… 
+ 
+ 
+… 
+• Valeur Ajoutée Brute    …  
+Impôts et taxes  
+Charges de personnel    
+Total   
+… 
+… 
+… 
+• Excédent brut (ou 
+insuffisance) 
+d'exploitation    … 
+ 
+… 
+• Excédent brut 
+d'exploitation  
+Autres produits 
+ordinaires   
+ 
+Produits financiers    
+   
+Transfert et reprise de 
+charges 
+ 
+   
+Total  
+   
+…  
+…  
+   
+…  
+   
+…  
+   
+   
+…  
+ou Insuffisance brute 
+d'exploitation  Autres 
+charges ordinaires   
+ 
+Charges financières    
+Dotations aux 
+amortissements et aux 
+provisions ordinaires   
+ 
+Impôt sur le résultat 
+ordinaire    
+Total 
+  
+  
+… 
+… 
+  
+  
+… 
+  
+… 
+… 
+  
+ 
+   
+   
+   
+   
+   
+   
+• Résultat des 
+activités ordinaires 
+(positif ou négatif)    
+ 
+ 
+ 
+… 
+ 
+ 
+ 
+… 
+• Résultat positif des 
+activités ordinaires    
+Gains extraordinaires    
+Effet positif des 
+modifications 
+comptables 
+ 
+   
+   
+   
+Total   
+   
+…  
+…  
+   
+…  
+   
+   
+   
+…  
+• Résultat négatif des 
+activités ordinaires   
+ 
+Pertes extraordinaires    
+Effet négatif des 
+modifications comptables   
+Impôt sur éléments 
+extraordinaires et 
+modifications comptables   
+Total 
+  
+… 
+… 
+  
+… 
+  
+  
+… 
+… 
+  
+ 
+   
+   
+   
+   
+   
+• Résultat net après 
+modifications 
+comptables 
+ 
+ 
+ 
+ 
+… 
+ 
+ 
+ 
+… 
+(1) Activités de négoce  
+(2) Activité de production  
+(3) Ayant le caractère de complément de prix  
+  
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 21
+DEUXIÈME PARTIE : 
+Dispositions relatives à l'organisation comptable   
+  
+Considérations relatives à l'organisation comptable  
+1. Le système comptable de l'entreprise doit être or ganisé de manière efficace pour être à même de 
+produire l'information financière requise.  
+Cette partie de la norme vise à guider les entreprises pour la mise en place d'une organisation 
+adéquate couvrant toutes les foncti ons de leur entité et pour que l eurs états financiers répondent aux 
+objectifs et caractéristiques qui leur sont assignés.  
+2. L'organisation comptable est une composante de base de l'organisation générale de l'entreprise 
+dans la mesure où elle va permettre de saisir et de mesurer l'ensemble de ses éléments en vue de les 
+refléter et de les maîtriser.  
+3. L'organisation générale suppose l'existence de systèm es de contrôle interne efficaces dont l'une 
+des composantes est constituée par l'organisation et la tenue de la comptabilité financière.  
+La responsabilité de l'organisation et de la tenue de la comptabilité incombe à la direction générale de 
+l'entreprise.  
+4. Cette partie de la norme générale couvre deux aspects :  
+ - Le premier aspect traite des systèmes de contrôle interne ;  
+ - Le deuxième aspect fixe les conditions de forme de tenue de la comptabilité.  
+Contrôle interne  
+5. L'objectif de ce volet est de permettre aux entreprises  d'évaluer leurs dispositifs de contrôle interne 
+et de déterminer comment les améliorer.  
+Les petites et moyennes entrepr ises peuvent s'en inspirer, compte tenu de l'environnement de leur 
+contrôle.  
+6. Pour que l'information produite par la comptabilit é puisse vérifier les caractéristiques qualitatives 
+prévues par le cadre conceptuel, l'entreprise doit mettre en place des  systèmes de contrôle interne 
+efficaces.  
+ De tels systèmes ont pour objectifs de :  
+• promouvoir l'efficience et l'efficacité,  
+• protéger les actifs,  
+• garantir la fiabilité de l'information financière,  
+• assurer la conformité aux dispositions légales et réglementaires.  
+7. Le contrôle interne est défini, globalement, comme étant un processus mis en œuvre par la 
+direction, la hiérarchie, le personnel d'une entrepr ise, et destiné à fournir une assurance raisonnable 
+quant à la réalisation des objectifs ci-dessus énoncés.  
+8. Le contrôle interne comporte cinq composantes qui sont :  
+• l'environnement de contrôle,  
+• l'évaluation et la maîtrise des risques,  
+• les activités de contrôle,  
+• l'information et la communication,  
+• le pilotage.  
+Environnement de contrôle  
+9. L'environnement de contrôle est un élément très im portant de la culture d'une entreprise, dans la 
+mesure où il détermine le niveau de sensibilisation du personnel au besoin de contrôles. Il constitue le 
+fondement de tous les autres éléments du contrôle interne en imposant discipline et organisation. Les 
+facteurs ayant un impact sur l'environnement de c ontrôle comprennent, notamment, l'intégrité, 
+l'éthique et la compétence du personnel, la philos ophie et le style de management des dirigeants, la 
+politique de délégation des responsabilités, d'organisa tion et de formation du personnel et enfin, 
+l'intérêt manifesté par le Conseil d'Administrati on (ou autre organe d'administration) et sa capacité à 
+définir les objectifs.  
+ 
+ 
+http://www.procomptable.com/ 22
+Evaluation des risques  
+10. Toute entreprise est confrontée à un ensemble de ri sques externes et internes qui doivent être 
+évalués. Avant de procéder à cette évaluation, il est nécessaire de définir des objectifs compatibles et 
+cohérents. L'évaluation et la maîtrise des risques consistent en l'identification et l'analyse des facteurs 
+susceptibles d'affecter la réalisation de ces objectifs : il s'agit d'un processus qui permet de déterminer 
+comment ces risques devraient être gérés. Compte tenu de l'évolution permanente de l'environnement 
+micro et macro-économique, du contexte réglement aire et des conditions d'exploitation, il est 
+nécessaire de disposer de méthodes permettant d'identif ier et de maîtriser les risques spécifiques liés 
+au changement.  
+Activités de contrôle  
+11. Les activités de contrôle peuvent se définir co mme étant l'application des normes et procédures 
+qui contribuent à garantir la mise en œuvre des orientations émanant du management. Ces opérations 
+permettent de s'assurer que les mesures nécessaires  sont prises en vue de maîtriser les risques 
+susceptibles d'affecter la réalisation des objectifs  de l'entreprise. Les activités de contrôle, sont 
+menées à tous les niveaux hiérar chiques et fonctionnels de la stru cture et comprennent des actions 
+aussi variées qu'approuver et autoriser, vérifi er et rapprocher, apprécier les performances 
+opérationnelles, la protection des actifs ou la séparation des fonctions.  
+L'information et la communication  
+12. L'information pertinente doit être identifiée, recueillie et diffusée sous une forme et dans des délais 
+qui permettent à chacun d'assumer ses responsabilités . Les systèmes d'information produisent, entre 
+autres, des données opérationnelles, financières ou encore liées au respect des obligations légales et 
+réglementaires, qui permettent de gérer et de c ontrôler l'activité. Ces systèmes traitent, non 
+seulement, des données produites par l'entreprise,  mais également celles émanant de l'extérieur 
+(événements, marche de l'activité, contexte général..) et qui sont nécessaires à la prise de décisions 
+en matière de conduite des affaires et de communication externe.  
+Il existe également un besoin plus large de communication efficace, communication à la fois 
+ascendante, descendante et horizontale.  
+Le management doit transmettre un message clair à l'ensemble du personnel sur l'importance des 
+responsabilités en matière de contrôle. Les employés doivent comprendre le rôle qu'ils sont appelés à 
+jouer dans le système de contrôle interne ainsi que la relation existante entre leurs propres activités et 
+celles des autres membres du personnel. Ils doivent être en mesure de faire remonter les informations 
+importantes. Par ailleurs, une communication efficace avec les tiers, tels que clients, fournisseurs, 
+autorités de tutelle ou actionnaires, est également nécessaire.  
+Pilotage  
+13. Les systèmes de contrôle interne doivent, eux mêmes, être contrôlés afin qu'en soient évaluées, 
+dans le temps, les performances qualitatives. Pour  cela, il convient de mettre en place un système de 
+suivi permanent ou de procéder à des évaluations  périodiques, ou encore de combiner les deux 
+méthodes. Le suivi permanent s'inscrit dans le c adre des activités courantes et comprend des 
+contrôles réguliers effectués par le management  et le personnel d'encadrement, ainsi que d'autres 
+techniques appliquées par le personnel à l'occa sion de ses travaux. L'étendue et la fréquence des 
+évaluations périodiques dépendront essentiellement de l'évaluation des risques et de l'efficacité du 
+processus de surveillance permanente. Les faiblesse s de contrôle interne doivent être portées à 
+l'attention de la hiérarchie. Les lacunes les plus  graves devant être si gnalées aux dirigeants et au 
+Conseil d'Administration (ou autre organe d’administration).  
+14. Il incombe à la Direction Générale de l'ent reprise de mettre en place les systèmes adéquats de 
+contrôle interne.  
+Parmi les facteurs d'une importance particulière dans la mise en œuvre des systèmes de 
+contrôle interne on retient particulièrement :  
+• la protection physique des actifs et des enregistrements,  
+• le système de définition des pouvoirs,  
+• les plans financiers et les budgets, l'information et la documentation,  
+• l'examen indépendant et les contrôles de performance, et  
+• la séparation des tâches.  
+  
+ 
+http://www.procomptable.com/ 23
+Protection physique des actifs et des enregistrements  
+15. Il s'agit de la mise en place d'un système prévoyant des précautions pour empêcher les pertes, les 
+vols ou le détournement d'actifs et de documents officiels ainsi que les enregistrements erronés.  
+ Système de définition des pouvoirs  
+16. Il consiste généralement en la tenue d'un "manuel de définition des tâches" qui permet à la 
+Direction d'attribuer les pouvoirs ou de les rest reindre pour accomplir ou mener des actions ou 
+transactions.  
+La structure organisationnelle de l'entreprise fournit le cadre général pour la planification, la direction, 
+l'exécution et le contrôle des activités.  
+Un système satisfaisant de définition des pouvoirs doit :  
+• couvrir toutes les activités de l'entreprise,  
+• définir clairement les niveaux de pouvoir d'une personne donnée,  
+• correspondre au niveau de responsabilité professionnelle de la personne, et  
+• être mis à jour en tenant compte des changements pertinents.  
+ Plans financiers et budgets  
+17. Ils définissent les stratégies et objectifs en termes financiers et servent de point de départ pour 
+établir les priorités, attribuer les ressources et mesurer les performances. En raison de la rigueur de 
+son approche, le contrôle budgétaire facilite la détecti on, à temps, des écarts par rapport aux plans et 
+des erreurs ou des irrégularités.  
+ Informations et documentation  
+18. Pour remplir les objectifs assignés à l'inform ation financière, il convi ent d'entretenir un système 
+d’information adéquat capable d'identifier, de cla sser, d'enregistrer et de communiquer les données 
+conformément aux règles du système comptable tunisien et aux obligations légales.  
+Les opérations doivent être co rrectement enregistrées pour perme ttre au système d'information de 
+fournir des rapports fiables.  
+L'enregistrement des opérations doit se faire de manière correcte en répondant aux objectifs de 
+contrôle.  
+Un "enregistrement correct" suppose un certain nombre de caractéristiques clés (assertions) :  
+• Validité : Les transactions font l'objet des autorisations appropriées et sont reflétées avec sincérité 
+lors de l'enregistrement les concernant. Seules sont enregistrées les opérations qui se sont réellement 
+produites et susceptibles d'avoir un impact sur l'entrepr ise. Des pièces justificatives doivent permettre 
+de vérifier les opérations.  
+• Exhaustivité : Toutes les transactions et les effets des événements associés qui se sont produits 
+pendant la période concernée sont enregistrés.  
+• Exactitude : Les montants des opérations sont correctem ent énoncés ou calculés. Les soldes sont 
+correctement cumulés en termes de valeur, d'exercice comptable et de classement. Les actifs et les 
+passifs ont été correctement éval ués et les montants exacts imput és aux postes de charges et de 
+produits de l'exercice comptable correct.  
+• Enregistrement : Les enregistrements sont opérés en temp s voulu, rapidement après la survenance 
+de l'opération, sont rattachés à la bonne période et sont correctement reflét és dans les livres et 
+documents comptables.  
+ Examen indépendant et contrôle de performance  
+19. L'objectif est de vérifier si les contrôles internes fonctionnent correctement.  
+Les contrôles de performance visent à fournir des retours d'information indépendants en décelant les 
+erreurs ou les irrégularités. Normalement, ces contrô les font intervenir le rapprochement et l'examen 
+des enregistrements comptables internes avec des documents externes, ou la vérification de la 
+concordance des actifs enregistrés avec les existants réels. Ce type de contrôle peut prendre la forme 
+par exemple de rapprochements bancaires, de compt ages de caisse, d'examen par la direction des 
+rapprochements bancaires et des rapports de contrôle  de crédit, ou des prises d'inventaire physique. 
+L'audit interne peut être, quand la taille et le secteur  de l'entreprise le justifient et, quand il répond aux 
+critères appropriés, notamment, d'indépendance et de compétence, un moyen d'examen des 
+systèmes de contrôle interne à même d'améliorer leur efficacité.  
+  
+ 
+http://www.procomptable.com/ 24
+Séparation des tâches  
+20. Une séparation adéquate des tâches doit permettre de s'assurer que les erreurs sont décelées et 
+de limiter les risques de dissimulation d'irrégularités.  
+Il convient d'organiser les tâches de façon que, pour une même opération, une même personne ne 
+puisse pas être en mesure de commettre des omissions, des erreurs ou des fraudes et de les 
+dissimuler dans le cours normal des tâches qui lui sont confiées.  
+Cette organisation doit éviter l'attribution, à une mê me personne, de tâches incompatibles consistant, 
+à la fois, en :  
+• la conservation des actifs, l'autorisation des transactions liées à ces actifs,  
+• la tenue des enregistrements et comptes y afférents, l'exécution de la tâche, et  
+• le contrôle.  
+Conditions de forme de tenue de la comptabilité  
+21. La tenue de la comptabilité comporte la tenue des  livres comptables et l'élaboration et la 
+présentation des états financiers.  
+Cette tenue doit être organisée de telle sorte qu'elle permette :  
+• la saisie complète et l'enregistrement de toutes les opérations,  
+• la conservation des données de base,  
+• la disponibilité des informations élémentaires et  l'établissement, en temps opportun, d'états dont la 
+production est prévue ou requise,  
+• le contrôle de l'exactitude des données et des procédures de traitement.  
+22. Pour l'entreprise, la tenue de la comptabilité doit assurer l'existence du chemin de révision. Elle se 
+matérialise particulièrement par l'adoption :  
+• de méthodes, de règles et des supports de co mmunication appropriés conformément au système 
+comptable,  
+• d'un plan de comptes, des livres comptables,  
+• de procédés et moyens de traitement appropriés,  
+• d'une organisation comptable matérialisée, éventuellement, sous forme de manuel.  
+Plan des comptes  
+23. Le plan des comptes de l'entreprise est un document qui rassemble, dans un ordre logique, la 
+nomenclature des comptes à utiliser, définit leur c ontenu et précise les règles particulières de leur 
+fonctionnement par référence à la nomenclature et  aux règles générales de fonctionnement figurant 
+dans la 3è partie de la présente norme.  
+24. Toute unité retenue pour enregistrer une opération constitue un compte.  
+25. Le plan des comptes de chaque entreprise doit être suffisamment détaillé pour permettre 
+l'enregistrement adéquat et ordonné des opérations. Pour ce faire l'entreprise ouvre les subdivisions 
+nécessitées par ses activités ou, au cas où la nom enclature figurant à la 3è partie de la présente 
+norme, s'avère être trop détaillée, l'entreprise peut regrouper certains comptes à condition que le 
+regroupement opéré ne soit pas fait pour procéder à des compensations non autorisées et qu'il puisse 
+permettre l'établissement normal des états financiers et leur contrôle.  
+Les livres comptables  
+26. Les livres comptables ont été i dentifiés par la loi relative au sy stème comptable des entreprises 
+comme étant le journal général, le grand livre et le livre d'inventaire. La loi prévoit aussi, l'élaboration 
+d'une balance.  
+Un document identifiant les supports comptables et  définissant leur contenu ainsi que les procédures 
+de saisie et de traitement des données dans la comp tabilité et les liens entre pièces et livres 
+comptables doit être établi particulièrement pour les entreprises qui procèdent à la centralisation 
+mensuelle ou qui tiennent leur comptabilité au moy en de systèmes informatisés. Ce document peut 
+être contenu dans le manuel comptable de l'entreprise prévu au paragraphe 63 ci-dessous ou tenu de 
+manière séparée.  
+Le journal général  
+27. Toute transaction effectuée par l'entreprise et tout effet d'événement susceptible d'avoir des 
+répercussions sur sa situation financière et se s performances constitue une opération comptable 
+devant être enregistrée dans sa comptabilité.  
+http://www.procomptable.com/ 25
+28. Le journal général est tenu dans les conditions prescrites par la loi et dans lequel sont 
+enregistrées les opérations soit jour par jour, soit  sous forme de récapitulations au moins mensuelles 
+des totaux de ces opérations, à condition de conser ver, dans ce cas, tous documents permettant de 
+les reconstituer jour par jour.  
+29. Tout enregistrement comptable d'une opération pr écise l'indication de son origine et de son 
+imputation, le contenu de l'opération à laquelle il se  rapporte, ainsi que les références de la pièce 
+justificative qui l'appuie. L'enregistrement est opéré dans l'ordre de la date des opérations ou, si celle-
+ci n'est pas connue, dans l'ordre de la date de pièces justificatives ou de celle de la réception de ces 
+pièces.  
+30. Toute opération comptable de l'entreprise est traduite par une écriture passée selon le système dit 
+en "partie double". Dans ce système, chaque opération génère une écriture qui affecte deux comptes, 
+au moins, dont l'un est débité et l'autre est crédité d'une somme identique.  
+Lorsqu'une opération est enregistrée, le total des so mmes inscrites au débit des comptes et le total 
+des sommes inscrites au crédit des comptes doivent être égaux.  
+31. Les écritures comptables sont enregistrées su r le journal dans un ordre chronologique. Le journal 
+doit être tenu sans blanc ni altération d'aucune sorte.  
+32. Les écritures sont passées dans le journal opération par opération et jour par jour.  
+Toutefois, les opérations de même nature réalisées en un même lieu et au cours d'une même journée 
+peuvent être regroupées et enregistrées en une mê me écriture à condition de conserver les 
+justificatifs détaillés.  
+Le grand livre  
+33. Les enregistrements opérés au journal général sont reproduits ou reportés sur le grand livre.  
+Les opérations sont inscrites dans les comptes dont l'intitulé correspond à leur nature.  
+34. Le grand livre comporte les comptes ouverts par l'entreprise conformément à son plan de 
+comptes.  
+35. Le grand livre est formé de l'ensemble des comptes individuels et collectifs. Il permet le suivi de 
+ces comptes. Chaque compte fait apparaître distinct ement le solde au début de l'exercice, le cumul 
+des mouvements "débit" et celui des mouvements "crédit" depuis le début de l'exercice (non compris 
+le solde initial), ainsi que son solde en fin de période.  
+36. Le grand livre doit pouvoir isoler di stinctement les mouvements relatifs à l'exercice, exclusion faite 
+des soldes correspondant à la reprise des comptes du bilan de l'exercice précédent au début de 
+l'exercice en cours.  
+37. Le total des mouvements du journal doit être égal au total des mouvements du grand livre.  
+La Balance  
+38. La balance constitue un instrument indispensable pour le contrôle comptable.  
+39. Elle constitue un état récapitulatif faisant appar aître, pour chaque compte, le solde débiteur ou le 
+solde créditeur au début de la période, le cumu l des mouvements débiteurs et le cumul des 
+mouvements créditeurs depuis le début de la période ains i que le solde débiteur et le solde créditeur 
+constitués en fin de période.  
+40. Le total des soldes d'ouverture débiteurs et  des mouvements débiteurs de la période doit 
+correspondre au total des mouvements débiteurs du j ournal général. Le total des soldes d'ouverture 
+créditeurs et des mouvements cr éditeurs de la période doit correspondre au total des mouvements 
+créditeurs du journal général.  
+Le livre d'inventaire  
+41. Toute entité contrôle, au moins une fois tous les douze mois, les données d'inventaire. L'inventaire 
+est un relevé de tous les éléments d'actifs et de passifs, au regard desquels sont mentionnées la 
+quantité et la valeur de chacun d'eux à la date d'inv entaire. Les données d'inventaire sont conservées 
+et organisées de manière à justifier le contenu des états financiers.  
+42. Les données de l'inventaire sont distinguées selon la nature et le mode d'évaluation des éléments 
+qu'elles représentent.  
+43. L'entreprise transcrit sur le livre d'inventaire ses états financiers.  
+Journaux et livres auxiliaires  
+44. Le journal général et le grand-livre peuvent être  établis et détaillés en autant de journaux et de 
+livres auxiliaires ou supports en tenant lieu, que l’importance et les besoins de l'entreprise l'exigent.  
+http://www.procomptable.com/ 26
+45. Dans le cas où les données sont enregistrées dans des journaux et des livres auxiliaires, les 
+totaux de ces supports sont périodiquement et au moins une fois par mois respectivement 
+centralisées dans le journal général et reportées dans le grand livre.  
+Procédés et moyens de traitement de l'information  
+46. La comptabilité peut être tenue manuellement ou au moyen de systèmes informatisés.  
+47. L'organisation de la comptabilité tenue au moyen de systèmes informatisés doit permettre :  
+• de satisfaire les exigences de sécurités et de fiabilité requises en la matière ;  
+• de restituer sur papier sous une forme directem ent intelligible toute donnée entrée dans le système 
+de traitement.  
+48. L'identification des documents informatiques est obtenue par :  
+• une numérotation des pages,  
+• l'utilisation de la date du jour de traitement générée par le système et qui ne peut être modifiée par 
+l'entreprise, pour dater les documents,  
+• l'utilisation d'un programme interdisant l'annulation ou la modification des opérations validées.  
+49. La réalisation de tout contrôle du système de traitement automatisé suppose l'accès à la 
+documentation relative aux analyses, à la programma tion et à l'exécution des traitements en vue, 
+notamment, de procéder aux tests nécessaires.  
+50. Dans le cas d'acquisition de logiciel standard, la  documentation fournie avec le logiciel peut 
+constituer la documentation requise.  
+Liens entre pièces justificatives, livres, procé dures, moyens et supports comptables : Chemin 
+de révision  
+51. Une documentation décrivant le s procédures et l'organisation comptables est établie en vue de 
+permettre la compréhension et le contrôle du sy stème de traitement ; cette documentation est 
+conservée aussi longtemps qu'est exigée la conservation des documents comptables auxquels elle se 
+rapporte.  
+52. L'organisation du système de traitement assure l'ex istence du chemin de révision. A tout moment, 
+il est possible de reconstituer à partir des pièc es justificatives appuyant  les données entrées, les 
+éléments des comptes, état et r enseignements soumis à la vérification, ou, à partir de ces comptes, 
+états et renseignements, de retrouver ces données et les pièces justificatives.  
+53. La pièce justificative est établie sur papier ou sur un support assurant la fiabilité, la conservation et 
+la restitution en clair de son contenu pendant les délais requis et comporte la mention de la date.  
+Les opérations de même nature, réalisées, en un même lieu et au cours d'une même journée, peuvent 
+être récapitulés sur une pièce justificative unique.  
+Les pièces justificatives sont classées dans un ordre défini dans la documentation décrivant les 
+procédures et l'organisation comptables.  
+54. L'enregistrement des données en comptabilité est censé être définitif.  
+55. Le caractère définitif des enregistrements est assuré pour les comptabilités, tenues manuellement, 
+par l'absence de tout blanc ou altération.  
+56. Le caractère définitif des enregistrements est a ssuré, pour les comptabilités tenues au moyen de 
+systèmes informatisés, par la validation. Cette  procédure, qui interdit toute modification ou 
+suppression de l'enregistrement, est mise en œuvre au plus tard au terme de chaque mois.  
+57. Une procédure de clôture destinée à figer la chronologie et à garantir l'intangibilité des 
+enregistrements est mise en œuvre et ce au plus ta rd avant l'expiration de la  période suivante, sous 
+réserve de délais différents fixés par des dispositions légales ou réglementaires.  
+58. La procédure de clôture est appliquée au total des  mouvements enregistrés dans chaque journal 
+et livres auxiliaires.  
+59. La procédure de clôture consiste, pour les compt abilités tenues manuellement, en la transcription 
+des totaux des mouvements sur le journal coté et paraphé et le report des opérations dans le grand 
+livre et son arrêté.  
+60. La procédure de clôture consiste, pour les co mptabilités tenues au moyen de systèmes 
+informatisés, en la transcription des totaux de chaque journal et livre auxiliaires sur le journal général 
+coté et paraphé.  
+http://www.procomptable.com/ 27
+61. Lorsque la date d'une opération correspond à une pér iode déjà figée par la clôture, l'opération 
+concernée est enregistrée au premier jour de la pér iode non encore clôturée, av ec mention expresse 
+de sa date.  
+62. La comptabilité est tenue en dinars tunisiens. L'arr ondi n'est pas admis dans l'enregistrement des 
+opérations. Il n'est admis que pour la présentation.  
+Une opération libellée en une monnaie, autre que le dinar , peut être enregistrée sans être convertie si 
+la nature de l'opération et l'activité de l'entité le justifient.  
+Dans ce cas, seul le solde du compte enregistrant  ces opérations est converti en dinars à la date de 
+clôture de l'exercice avec l'obligation de renseigner sur les bases de conversion et de décrire, dans un 
+document, les procédures utilisées pour le traitement de ces opérations. Ce document peut être inclus 
+dans le manuel comptable ou tenu séparément.  
+Manuel comptable de l'entreprise  
+63. Le manuel comptable de l'entreprise décrit particulièrement l'organisation comptable de 
+l'entreprise, les méthodes de saisie et de traitement des informations, les politiques comptables et les 
+supports utilisés. Il comprend notamment les informations ayant trait :  
+• à l'organisation générale de l'entreprise,  
+• à l'organisation comptable de l'entreprise,  
+• au plan des comptes et à la description du c ontenu des comptes et un guide des imputations 
+comptables,  
+• à la description des procédures de collecte, de saisie, de traitement et de contrôle des informations,  
+• au système de classement et d'archivage,  
+• aux livres comptables obligatoi res et aux liens entre ces livre s et autres documents et pièces 
+comptables,  
+• au modèle retenu de présentation des états financiers,  
+• au guide de justification des comptes et des  travaux d'inventaire avec des modèles de 
+rapprochement et d'états de justification pour les travaux récurrents,  
+• au modèle d'instructions d'inventaire,  
+• à l'organisation des travaux d'élaboration et de présentation des états financiers.  
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 28
+TROISIÈME PARTIE  
+Nomenclature des comptes et fonctionnement général des comptes  
+ 
+Présentation  
+1. Cette partie de la norme comporte une nomenclature des comptes ainsi qu'une indication de leur 
+fonctionnement général.  
+2. Chaque entreprise adaptera la nomenclature proposée selon son statut et ses activités. Cette 
+adaptation peut être faite en procédant aux regroupements appropriés ou en créant des comptes ou 
+les subdivisions de comptes nécessaires pour imputer ses opérations.  
+3. L'adaptation de la nomenclature doit être accompagnée des explications appropriées ainsi que des 
+définitions et des règles de fonctionnement afférentes aux ajouts ou regroupements opérés.  
+4. "Le fonctionnement général des comptes", figurant dans cette norme accompagne la nomenclature 
+à titre de règles générales que l'entreprise devra développer, pour les comptes qu'elle ouvre, dans son 
+plan des comptes.  
+5. La partie fonctionnement ne se substitue pas aux règles édictées par les autres normes 
+comptables. Elle en tient compte au stade de sa publication et doit être mise à jour compte tenu de la 
+parution de nouvelles normes comptables.  
+Comptes ouverts pour enregistrer les effets des mesures transitoires  
+6. Pour enregistrer les effets des modifications comptables, dues à l'entrée en vigueur du système 
+comptable, dont l'étalement est autorisé par les normes comptables, les entreprises pourront utiliser 
+des subdivisions des comptes 18 (dans les passifs) et 27 (dans les actifs). Ces subdivisions doivent 
+être clairement identifiées et les comptes créés doivent être soldés pour les exercices ouverts à partir 
+du 1er janvier de l'an 2000. 
+Nomenclature des comptes  
+Liste des comptes 
+Classe 1  
+Comptes de capitaux propres et passifs non courants  
+ 10. Capital.  
+ 11. Réserves et primes liées au capital.  
+ 12. Résultats reportés.  
+ 13. Résultat de l'exercice.  
+ 14. Autres capitaux propres.  
+ 15. Provisions pour risques & charges.  
+ 16. Emprunts & dettes assimilées.  
+ 17. Comptes de liaison des établissements & succursales.  
+ 18. Autres Passifs non courants.    
+  
+Classe 1 : Comptes de capitaux propres et passifs non courants 
+ 
+10. Capital.   
+ 101. Capital social.   
+  1011. Capital souscrit - non appelé.   
+  1012. Capital souscrit - appelé, non versé.   
+  1013. Capital souscrit - appelé, versé.  
+   10131. Capital non amorti.  
+   10132. Capital amorti.   
+  1018. Capital souscrit soumis à une réglementation particulière.   
+ 105. Fonds de dotation.   
+ 108. Compte de l'exploitant.   
+ 109. Actionnaires, capital souscrit - non appelé.   
+11. Réserves et primes liées au capital.   
+ 111. Réserve légale.   
+ 112. Réserves statutaires.   
+http://www.procomptable.com/ 29
+ 117. Primes liées au capital.   
+  1171. Primes d'émission.   
+  1172. Primes de fusion.   
+  1173. Primes d'apport.   
+  1174. Primes de conversion d'obligation.   
+  1178. Autres compléments d'apport.   
+ 118. Autres réserves.   
+  1181. Réserves pour fonds social.   
+ 119. Avoirs des actionnaires. 1 
+12. Résultats reportés.   
+ 121. Résultats reportés.  
+ 128. Modifications comptables affe ctant les résultats reportés.   
+13. Résultat de l'exercice.   
+ 131. Résultat bénéficiaire.   
+ 135. Résultat déficitaire.   
+14. Autres capitaux propres.   
+ 141. Titres soumis à des régl ementations particulières.   
+ 142. Réserves réglementées & réserves s oumises à un régime fiscal particulier.   
+  1421. Réserves indisponibles.   
+ 143. Amortissements dérogatoires.   
+ 144. Réserve spéciale de réévaluation.   
+ 145. Subventions d'investissement.   
+  1451. Subventions d'investissement. 
+  1458. Autres subventions d'investissement.   
+  1459. Subventions d'investissement  inscrites aux comptes de résultat. 
+ 147. Compte du concédant.   
+15. Provisions pour risques & charges.   
+ 151. Provisions pour risques.   
+  1511. Provisions pour litiges.   
+  1512. Provisions pour garant ies données aux clients.   
+  1513. Provisions pour pertes sur  marchés à achèvement futur.   
+   1514. Provisions pour amendes & pénalités.   
+   1515. Provisions pour pertes de change. 
+2 
+   1518. Autres provisions pour risques.   
+ 152. Provisions pour charges à répar tir sur plusieurs exercices.   
+  1522. Provisions pour grosses réparations.   
+ 153. Provisions pour retraites et obligations similaires.   
+ 154. Provisions d'origine réglementaire.   
+ 155. Provisions pour impôts.   
+ 156. Provisions pour renouvelle ment des immobilisations.   
+ 157. Provisions pour amortissement.   
+ 158. Autres provisions pour charges.   
+16. Emprunts & dettes assimilées.   
+ 161. Emprunts obligataires (assorties de sûretés).   
+  1611. Emprunts obligataires convertibles en actions.   
+  1618. Autres emprunts obligataires.   
+ 162. Emprunts auprès des établissements financiers (assorties de sûretés).   
+  1621. Emprunts bancaires.   
+  1626. Refinancements acquis.   
+ 163. Emprunts auprès d'autre s établissements financiers (assorties de sûretés).   
+ 164. Emprunts et dettes assortie s de conditions particulières.   
+  1641. Avances bloquées pour augmentation du capital.   
+  1642. Avances reçues et comptes courants des associés bloqués.   
+  1644. Avances conditionnées de l'Etat  & organismes internationaux.   
+ 165. Emprunts non assorties de sûretés (à subdivise r selon l'ordre des comptes des emprunts).   
+                                                 
+1 L'intitulé du compte doit être remplacé par «119 Actions propres», l'avoir des actionnaires désignant le total des 
+capitaux propres. 
+2 Ce compte n'est pas en harmonie avec les dispositions de la NC 15 "Opérations en monnaies étrangères" 
+http://www.procomptable.com/ 30
+ 166. Dettes rattachées à des participations.   
+  1661. Dettes rattachées à des participations (groupe).   
+  1662. Dettes rattachées à des participations (hors groupe).   
+  1663. Dettes rattachées à des sociétés en participation.   
+ 167. Dépôts & cautionnements reçus.   
+ 168. Autres emprunts et dettes.   
+  1681. Autres emprunts.   
+  1685. Crédit fournisseur s d'immobilisations.   
+  1688. Autres dettes non courantes.   
+17. Comptes de liaison des établissements & succursales.   
+ 171. Comptes des liaison des établissements.   
+ 176. Biens & prestations de services éc hangés entre établissements (charges).   
+ 177. Biens & prestations de services éc hangés entre établissements (produits).   
+18. Autres passifs non courants.   
+ 185. Écarts de conversion.   
+ 188. Autres.   
+ 
+ 
+ 
+Liste des comptes 
+Classe 2 
+Comptes d'actifs non courants   
+21. Immobilisations incorporelles.  
+22. Immobilisations corporelles.  
+23. Immobilisations en cours.  
+24. Immobilisations à statut juridique particulier.  
+25. Participations & créances liées à des participations.  
+26. Autres immobilisations financières.  
+27. Autres actifs non courants.  
+28. Amortissements des immobilisations.  
+29. Provisions pour dépréciation des actifs immobilisés.   
+  
+Classe 2 . Comptes d'actifs non courants  
+ 
+21. Immobilisations incorporelles.   
+ 211. Investissements de recherche & de développement.   
+ 212. Concessions de marques, brevets, licences , marques, procédés & valeurs similaires.   
+ 213. Logiciels.   
+ 214. Fonds commercial.   
+ 216. Droit au bail.   
+ 218. Autres immobilisations incorporelles.   
+22. Immobilisations corporelles.   
+ 221. Terrains.  
+  2213. Terrains nus.   
+  2214. Terrains aménagés.   
+  2215. Terrains bâtis.   
+  2216. Agencements & aménagements des terrains.   
+ 222. Constructions.   
+  2221. Bâtiments.   
+  2225. Installations générales, agencement s & aménagements des constructions.   
+  2226. Ouvrages d'infrastructure.   
+  2227. Constructions sur sol d'autrui.   
+ 223. Installations techniques, matériel et outillage industriels.   
+  2231. Installations techniques.  
+  2234. Matériel industriel.   
+  2235. Outillage industriel.   
+http://www.procomptable.com/ 31
+  2237. Agencements & aménagements du matériel & outillage industriels. 
+ 224. Matériel de transport   
+  2241. Matériel de transport de biens.   
+  2244. Matériel de transport de personnes.   
+ 228. Autres immobilisations corporelles.   
+  2281. Installations générales, agenc ements et aménagements divers.   
+  2282. Équipement de bureau.   
+  2286. Emballages récupérables identifiables.   
+23. Immobilisations en cours.   
+ 231. Immobilisations inco rporelles en cours.   
+ 232. Immobilisations co rporelles en cours.   
+ 237. Avances & acomptes versés sur immobilisations incorporelles.   
+ 238. Avances & acomptes versés sur comm andes d'immobilisations corporelles.   
+24. Immobilisations à statut juridique particulier.   
+25. Participations & créances liées à des participations.   
+ 251. Titres de participation.   
+  2511. Actions.   
+  2518. Autres titres.   
+ 256. Autres formes de participation.   
+ 257. Créances rattachées à des participations.   
+  2571. Créances rattachées à des participations (groupe).   
+  2574. Créances rattachées à des participations (hors groupe).   
+  2575. Versements représent atifs d'apports non capitalisés (appel de fonds).   
+  2576. Avances consolidables.   
+  2577. Autres créances rattachées à des participations.   
+ 258. Créances rattachées à des sociétés en participation.   
+ 259. Versements restant à effectuer su r titres de participation non libérés.   
+26. Autres immobilisations financières.   
+ 261. Titres immobilisés (droit de propriété).   
+  2611. Actions.   
+  2618. Autres titres.   
+ 262. Titres immobilisés (droit de créance).   
+   2621. Obligations. 
+  2622. Bons.   
+ 264. Prêts.   
+  2641. Prêts participatifs.   
+  2642. Prêts aux associés.  
+  2643. Prêts au personnel.   
+  2645. Prêts assortis de sûretés (à subdiviser).   
+  2648. Autres prêts.   
+ 265. Dépôts et cautionnements versés.   
+  2651. Dépôts.  
+  2655. Cautionnements.   
+  2656. Dépôts bancaires non courants.   
+  2658. Autres.   
+ 266. Autres créances immobilisées.   
+  2661. Créances immobilisées.   
+  2667. Créances diverses.   
+  2668. Autres créances non courantes.   
+ 269. Versements restant à effectuer sur titres immobilisés non libérés.  
+27. Autres actifs non courants.   
+ 271. Frais préliminaires.  
+ 272. Charges à répartir.   
+ 273. Frais d'émission et primes de remboursement des emprunts.  
+ 275. Écarts de conversion.  
+ 278. Autres.  
+http://www.procomptable.com/ 32
+28. Amortissements des immobilisations.   
+ 281. Amortissements des immobilis ations incorporelles (même ventilation que celle du compte 21).   
+ 282. Amortissements des immobilisations corpor elles (même ventilation que celle du compte 22).  
+ 284. Amortissements des immobilisati ons à statut juridique particulier.  
+29. Provisions pour dépréciation des immobilisations.   
+ 291. Provisions pour dépréciation des immobilisations incorporelles (même ventilation que celle du compte 21). 
+ 292. Provisions pour dépréciation des immobilisations corporelles (même ventilation que celle du compte 22).  
+ 293. Provisions pour dépréciation des  immobilisations en cours (même ventilation que celle du compte 23).  
+ 294. Provisions pour dépréciation des immobilis ations à statut juridique particulier.   
+ 295. Provisions pour dépréciation des participations et des créances liées à des participations (même ventilation 
+que celle du compte 25).  
+ 296. Provisions pour dépréciation des autres immobilisations financières (même ventilation que celle du compte 
+26).  
+ 
+ 
+ 
+Liste des comptes 
+Classe 3 
+Comptes de stocks  
+31. Matières premières & fournitures liées.  
+32. Autres approvisionnements.  
+33. En-cours de production de biens.  
+34. En-cours de production de services.  
+35. Stocks de produits.  
+37. Stocks de marchandises.  
+39. Provisions pour dépréciation des stocks.   
+  
+Classe 3 : Comptes de stocks  
+  
+31. Matières premières & fournitures liées.  
+ 311. Matières premières.  
+ 313. Fournitures.  
+ 317. Autres.  
+32. Autres approvisionnements.  
+ 321. Matières consommables.  
+ 322. Fournitures consommables.  
+ 326. Emballages.  
+ 327. Autres.  
+33. En-cours de production de biens.  
+ 331. Produits en cours.  
+ 335. Travaux en cours.  
+34. En-cours de production de services.  
+ 341. Études en cours.  
+ 345. Prestations de services en cours.  
+35. Stocks de produits.  
+ 351. Produits intermédiaires.  
+ 355. Produits finis.  
+ 357. Produits résiduels.  
+37. Stocks de marchandises.  
+39. Provisions pour dépréciation des stocks (à ventiler selon la nomenclature de cette classe).  
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 33
+Liste des comptes  
+Classe 4  
+Comptes de tiers  
+40. Fournisseurs & comptes rattachés.  
+41. Clients & comptes rattachés.  
+42. Personnel & comptes rattachés.  
+43. Etat & collectivités publiques.  
+44. Sociétés du groupe & associés.  
+45. Débiteurs divers & créditeurs divers.  
+46. Comptes transitoires ou d'attente.  
+47. Comptes de régularisation.  
+48. Provisions courantes pour risques et charges.  
+49. Provisions pour dépréciation des comptes de tiers.   
+   
+Classe 4 : Comptes de tiers  
+ 
+40. Fournisseurs & comptes rattachés.   
+ 401. Fournisseurs d'exploitation.   
+  4011. Fournisseurs - achats de biens  ou de prestations de services.  
+  4017. Fournisseurs - retenues de garantie.   
+ 403. Fournisseurs d'exploitation - effets à payer.   
+ 404. Fournisseurs d'immobilisations.   
+  4041. Fournisseurs - ac hats d'immobilisations.  
+  4047. Fournisseurs d'immobilisat ions - retenues de garantie.   
+ 405. Fournisseurs d'immobilisat ions - effets à payer.   
+ 408. Fournisseurs - factures non parvenues.   
+  4081. Fournisseurs d'exploitation.  
+  4084. Fournisseurs d'immobilisations.  
+  4088. Fournisseurs - intérêts courus.   
+ 409. Fournisseurs débiteurs.   
+  4091. Fournisseurs - avances et acomptes versés sur commandes.  
+  4096. Fournisseurs - créances pour em ballages et matériel à rendre.  
+  4097. Fournisseurs - autres avoirs.   
+   40971. Fournisseurs d'exploitation.   
+   40974. Fournisseurs d'immobilisations.   
+  4098. Rabais, remises, ristournes à obteni r et autres avoirs non encore reçus.   
+41. Clients & comptes rattachés.   
+ 411. Clients.   
+  4111. Clients - ventes de biens ou de prestations de services.  
+  4117. Clients - retenues de garantie.  
+ 413. Clients - effets à recevoir.   
+ 416. Clients douteux ou litigieux.   
+ 417. Créances sur travaux non encore facturables.   
+ 418. Clients - produits non encore fact urés (produits à recevoir).   
+  4181. Factures à établir.   
+  4188. Intérêts courus.   
+ 419. Clients créditeurs.   
+  4191. Clients - avances et acomptes reçus sur commandes.  
+  4196. Clients - dettes pour emballages et matériel consignés.  
+  4197. Clients - autres avoirs.  
+  4198. Rabais, remises, ristournes à a ccorder et autres avoirs à établir.   
+42. Personnel et comptes rattachés.   
+ 421. Personnel - avances et acomptes.   
+ 422. Comités d'entreprises et autre s organes représentatifs du personnel.   
+ 423. Personnel, œuvres sociales.   
+ 425. Personnel - rémunérations dues.   
+ 426. Personnel - dépôts.   
+http://www.procomptable.com/ 34
+ 427. Personnel - oppositions.  
+ 428. Personnel - charges à payer & produits à recevoir.   
+  4282. Dettes provisionnées pour congés à payer.  
+  4286. Autres charges à payer.   
+  4287. Produits à recevoir.   
+43. Etat et collectivités publiques.   
+ 431. Etat - subventions à recevoir.   
+ 432. Etat, impôts et taxes retenus à la source.   
+ 433. Opérations particulières avec l'Etat, les colle ctivités publiques, les organismes internationaux.   
+ 434. Etat - impôts sur les bénéfices.   
+  4341. Retenue à la source.   
+  4342. Acomptes provisionnels.   
+  4343. Impôt à liquider.   
+  4349. Impôts différés.   
+ 435. Obligations cautionnées.   
+ 436. Etat - taxes sur le chiffre d'affaires.   
+  4365. Taxes sur le chiffre d'affaires à décaisser.   
+   43651. TVA à payer.   
+   43658. Autres taxes sur le chiffre d'affaires.   
+  4366. Taxes sur le chiffre d'affaires déductibles.   
+   43662. TVA sur immobilisations.   
+   43663. TVA transférée par d'autres entreprises.   
+   43666. TVA sur autres biens et services.   
+   43667. Crédit de TVA à reporter.   
+   43668. Autres taxes sur le chiffre d'affaires.   
+  4367. Taxes sur le chiffre d'affair es collectées par l'entreprise.   
+   43671. TVA collectée.   
+    436711. TVA collectée sur les débits.   
+    436712. TVA collectée sur les encaissements.   
+   43678. Autres taxes sur le chiffre d'affaires.   
+  4368. Taxes sur le chiffre d'affair es à régulariser ou en attente.   
+ 437. Autres impôts, taxes et  versements assimilés.   
+ 438. Etat - charges à payer et produits à recevoir.   
+  4382. Charges fiscales sur congés à payer.   
+  4386. Autres charges à payer.   
+  4387. Produits à recevoir.   
+44. Sociétés du groupe & associés.   
+ 441. Groupe.   
+  4411. Créances et intérêts courus. 
+  4412. Dettes et intérêts à payer.   
+ 442. Associés - comptes courants.   
+  4421. Principal.   
+  4428. Intérêts courus.   
+ 446. Associés - opérations sur le capital.   
+ 447. Associés - dividendes à payer.   
+ 448. Associés - opérations faites en commun.   
+  4481. Opérations courantes.   
+  4488. Intérêts courus.   
+45. Débiteurs divers et Créditeurs divers.   
+ 452. Créances sur cessions d'immobilisations.   
+ 453. Sécurité sociale et autres organismes sociaux.  
+  4531. Organismes sociaux.   
+   45311. CNSS.   
+   45318. Autres.   
+  4538. Organismes sociaux - charges à payer et produits à recevoir.   
+   45382. Charges sociales sur congés à payer.   
+   45386. Autres charges à payer.   
+   45387. Produits à recevoir.   
+ 454. Dettes sur acquisitions de valeurs mobilières de placement.   
+http://www.procomptable.com/ 35
+ 455. Créances sur cessions de valeurs mobilières de placement.   
+ 457. Autres comptes débiteurs ou créditeurs.   
+ 458. Diverses charges à payer et produits à recevoir.   
+  4586. Charges à payer.   
+  4587. Produits à recevoir.   
+46. Comptes transitoires ou d'attente.   
+ 461. Compte d'attente.   
+ 465. Différence de conversion sur éléments courants.   
+  4651. Différences de conversion actif.   
+  4652. Différences de conversion passif.   
+ 468. Autres comptes transitoires.   
+47. Comptes de régularisation.   
+ 471. Charges constatées d'avance.   
+ 472. Produits constatés d'avance.   
+ 478. Comptes de répartition périodique de charges et produits.   
+  4786. Charges.   
+  4787. Produits.   
+48. Provisions courantes pour risques et charges.   
+49. Provisions pour dépréciation des comptes de tiers.   
+ 491. Provisions pour dépréciation des comptes clients.   
+ 494. Provisions pour dépréciation des comptes de groupe et associés.   
+  4941. Comptes du groupe.   
+  4942. Comptes courants des associés.   
+  4948. Opérations faites en commun.   
+ 495. Provisions pour dépréciation des comptes de débiteurs divers.   
+  4952. Créances sur cession d'immobilisation.   
+  4955. Créances sur cession des valeurs mobilières de placement.   
+  4957. Autres comptes débiteurs.   
+ 
+ 
+ 
+Liste des comptes 
+Classe 5 
+Comptes financiers  
+50. Emprunts et autres dettes financières courants.  
+51. Prêts et autres créances financières courants.  
+52. Placements courants.  
+53. Banques, établissements financiers et assimilés.  
+54. Caisse.  
+55. Régies d'avances & accréditifs.  
+58. Virements internes.  
+59. Provisions pour dépréciation des comptes financiers.   
+  
+Classe 5 : Comptes financiers  
+  
+50. Emprunts et autres dettes financières courants.   
+ 501. Emprunts courants liés au cycle d'exploitation.   
+ 505. Échéances à moins d'un an sur emprunts non courants.   
+ 506. Concours bancaires courants.   
+  5061. Crédit de mobilisation de créances commerciales.   
+  5063. Mobilisation de créanc es nées à l'étranger.   
+  5067. Autres concours bancaires.   
+ 507. Emprunts échus et impayés.   
+ 508. Intérêts courus (à subdiviser selon la même ventilation que le compte 50).   
+51. Prêts et autres créances financières courants.   
+ 511. Prêts courants liés au cycle d'exploitation.   
+ 516. Échéances à moins d'un an sur prêts non courants.   
+http://www.procomptable.com/ 36
+ 517. Échéances à moins d'un an sur autres créances financières.   
+ 518. Intérêts courus.   
+52. Placements courants.   
+ 523. Actions.   
+  5231. Titres cotés.   
+  5235. Titres non cotés.  
+ 524. Autres titres conférant un droit de propriété.  
+ 525. Obligations et bons émis par la  société et rachetés par elle.  
+ 526. Obligations.   
+  5261. Titres cotés.  
+  5265. Titres non cotés.   
+  5266. Échéances à moins d'un an sur les obligations immobilisées.   
+ 527. Bons du trésor et bons de caisse à court terme.   
+ 528. Autres placements courant s et créances assimilées.   
+  5281. Autres valeurs mobilières.  
+  5288. Intérêts courus sur obligati ons, bons et valeurs assimilées.   
+ 529. Versements restant à effectuer sur va leurs mobilières de placement non libérées.   
+53. Banques, établissements financiers et assimilés.   
+ 531. Valeurs à l'encaissement.   
+  5311. Coupons échus à l'encaissement.   
+  5312. Chèques à encaisser.  
+  5313. Effets à l'encaissement.  
+  5314. Effets à l'escompte.   
+ 532. Banques.   
+  5321. Comptes en dinars.  
+  5324. Comptes en devises. 
+ 534. C.C.P.   
+ 535. Comptes au trésor.  
+ 537. Autres organismes financiers.  
+54. Caisse.   
+ 541. Caisse siège social.   
+  5411. Caisse en dinars.  
+  5414. Caisse en devises.   
+ 542. Caisses succursales.  
+55. Régies d'avances et accréditifs.   
+58. Virements internes.   
+59. Provisions pour dépréciation des comptes financiers.   
+(Même ventilation que les comptes de la classe 5). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+http://www.procomptable.com/ 37
+Liste des comptes 
+Classe 6 
+Comptes de charges  
+60. Achats (sauf 603) 3.  
+603. Variation des stocks (approvisionnements et marchandises).  
+61. Services extérieurs.  
+62. Autres services extérieurs.  
+63. Charges diverses ordinaires.   
+64. Charges de personnel.  
+65. Charges financières.  
+66. Impôts, taxes et versements assimilés.  
+67. Pertes extraordinaires.  
+68. Dotations aux amortissements et aux provisions.  
+69. Impôts sur les bénéfices.   
+  
+Classe 6 : Comptes de charges   
+  
+60. Achats (sauf 603).   
+ 601. Achats stockés - Matières premières et fournitures liées.   
+ 602. Achats stockés - Autres approvisionnements.   
+  6021. Matières consommables.   
+  6022. Fournitures consommables.   
+  6026. Emballages.   
+ 604. Achats d’études et de prestations de services (y compris achat de sous-traitance de production).   
+ 605. Achats de matériel, équipements et travaux.   
+ 606. Achats non stockés de matières et fournitures.   
+ 607. Achats de marchandises.   
+ 
+608. Achats liés à une modification comptable à prendre en compte dans le résultat de l'exercice ou à 
+une activité abandonnée.   
+ 609. Rabais, remises et ristournes obtenus sur achats.   
+  
+6098. Liés à une modification comptable à prendre en compte dans le résultat de l'exercice ou 
+à une activité abandonnée.   
+61. Services extérieurs.   
+ 611. Sous-traitance générale.   
+ 612. Redevances pour utilisation d'immobilisations concédées.   
+ 613. Locations (y compris malis sur emballages).   
+ 614. Charges locatives et de copropriété.   
+ 615. Entretien et réparations.   
+ 616. Primes d'assurances.   
+ 617. Études, recherches et divers services extérieurs.  
+ 
+618. Autres charges liées à une modification comptable à prendre en compte dans le résultat de 
+l'exercice ou à une activité abandonnée.  
+ 619. Rabais, remises et ristournes obtenus sur services extérieurs.  
+62. Autres services extérieurs.  
+ 621. Personnel extérieur à l'entreprise.  
+ 622. Rémunération d'intermédiaires et honoraires.  
+ 623. Publicité, publications, relations publiques.  
+ 624. Transports de biens et transports collectifs du personnel.  
+  6241. Transports sur achats.  
+  6242. Transports sur ventes.  
+                                                 
+3  603. Variation des stocks (approvisionnements et marchandises) 
+ 36031. Variation des stocks de mati ère première et fournitures. 
+ 36032. 3Variation des stocks des autres 3approvisionnements. 
+ 36032. 3Variation des stocks de 3marchandises 
+Pour les entreprises qui comptabilisent leurs stocks selon la méthode d'inventaire permanent, l'intitulé de ce compte 
+devient "Achats consommés" 3(approvisionnements et marchandises) 
+ 
+http://www.procomptable.com/ 38
+  6244. Transports administratifs.  
+  6247. Transports collectifs du personnel.  
+  6248. Divers.  
+ 625. Déplacements, missions et réceptions.  
+  6251. Voyages et déplacements.  
+  6255. Frais de déménagement.  
+  6256. Missions.  
+  6257. Réceptions.  
+ 626. Frais postaux et frais de télécommunications.  
+ 627. Services bancaires et assimilés.  
+  6271. Frais sur titres (achats, vente, garde).  
+  6272. Commissions et frais sur émission d'emprunts.  
+  6275. Frais sur effets.  
+  6276. Location de coffres.  
+  6278. Autres frais et commissions sur prestations de services.  
+  
+628. Autres services extérieurs liés à une modification comptable à prendre en compte dans le 
+résultat de l'exercice ou à une activité abandonnée.  
+ 629. Rabais, remises et ristournes obtenus sur autres services extérieurs.  
+63. Charges diverses ordinaires.  
+ 
+631. Redevances pour concessions de marques, brevets, licences, procédés, droits et valeurs 
+similaires.  
+ 633. Jetons de présence.  
+ 634. Pertes sur créances irrécouvrables.  
+  6341. Créances de l'exercice.  
+  6344. Créances des exercices antérieurs.  
+ 635. Quotes-parts de résultat sur opérations faites en commun.  
+  6351. Quote-part de bénéfice transférée (comptabilité du gérant).  
+  6355. Quote-part de perte supportée (comptabilité des associés non gérants).  
+ 
+636. Charges nettes sur cessions d'immobilisations et autres pertes sur éléments non récurrents ou 
+exceptionnels.  
+ 637. Réduction de valeur.  
+ 
+638. Charges diverses ordinaires liées à une modification comptable à prendre en compte dans le 
+résultat de l'exercice ou à une activité abandonnée.  
+64. Charges de personnel.  
+ 640. Salaires et compléments de salaires.  
+  6400. Salaires.  
+  6401. Heures supplémentaires.  
+  6402. Primes.  
+  6403. Gratifications.  
+  6404. Avantages en nature.  
+  6409. Autres compléments de salaires.  
+ 642. Appointements et compléments d'appointements.  
+  6420. Appointements.  
+  6421. Heures supplémentaires.  
+  6422. Primes.  
+  6423. Gratifications.  
+  6424. Avantages en nature.  
+  6429. Autres compléments d'appointements.  
+ 643. Indemnités représentatives de frais.  
+  644. Commissions au personnel.  
+  6440. Commissions sur achats.  
+  6441. Commissions sur ventes.  
+ 645. Rémunérations des administrateurs, gérants et associés.  
+ 646. Charges connexes aux salaires, appointements, commissions et rémunérations. 
+  6460. Charges connexes aux salaires.  
+   64600. Congés payés.  
+   64602. Indemnités de préavis et de licenciements (gratification de fin de service).  
+   64604. Supplément familial.  
+  6462. Charges connexes aux appointements.  
+http://www.procomptable.com/ 39
+   64620. Congés payés.  
+   64622. Indemnités de préavis et de licenciement (gratification de fin de service).  
+   64624. Supplément familial.  
+  6464. Charges connexes aux commissions.  
+   64640. Congés payés.  
+   64642. Indemnités de préavis et de licenciement (gratification de fin de service). 
+   64644. Supplément familial.  
+  6465. Charges connexes aux rémunérations des administrateurs et gérants.  
+   64650. Congés payés.  
+   64652. Indemnités de préavis et de licenciement.  
+   64654. Supplément familial.  
+ 647. Charges sociales légales.  
+  6470. Cotisations de sécurité sociale sur salaires.  
+  6472. Cotisations de sécurité sociale sur appointements.  
+  6474. Cotisations de sécurité sociale sur commissions.  
+  6475. Cotisations de sécurité sociale sur rémunérations des administrateurs et gérants.  
+  6476. Prestations directes.  
+ 
+648. Charges de personnel liées à une modification comptable à imputer au résultat de l'exercice ou à 
+une activité abandonnée.  
+ 649. Autres charges de personnel et autres charges sociales.  
+  6490. Autres charges de personnel.  
+  6495. Au tres charges sociales.  
+65. Charges financières.  
+ 651. Charges d'intérêts.  
+  6511. Intérêts des emprunts et dettes.  
+   65116. Des emprunts et dettes assimilées.  
+   65117. Des dettes rattachées à des participations.  
+  6515. Intérêts des comptes courants et des dépôts créditeurs.  
+  6516. Intérêts bancaires et sur opérations de financement.  
+  6517. Intérêts des obligations cautionnées.  
+  6518. Intérêts des autres dettes (y compris les pénalités et intérêts de retard sur emprunts).  
+ 653. Pertes sur créances liées à des participations.  
+ 654. Escomptes accordés.  
+ 655. Pertes de change.  
+ 656. Charges nettes sur cessions de valeurs mobilières.  
+ 657. Autres charges financières.  
+ 
+658. Charges financières liées à une modification comptable à imputer au résultat de l'exercice ou à une 
+activité abandonnée.  
+66. Impôts, taxes et versements assimilés.  
+ 661. Impôts, taxes et versements assimilés sur rémunérations.  
+  6611. TFP.  
+  6612. FOPROLOS.  
+  6618. Autres. 
+ 665. Autres impôts, taxes et versements assimilés.  
+  6651. Impôts et taxes divers (sauf impôts sur les bénéfices).  
+  6652. Taxes sur le chiffre d'affaires non récupérables.  
+  6654. Droits d'enregistrement et de timbre.  
+  6655. Taxes sur les véhicules.  
+  6658. Autres droits.  
+ 
+668. Impôts et taxes liés à une modification comptable à imputer au résultat de l'exercice ou à une 
+activité abandonnée.  
+67. Pertes extraordinaires.  
+68. Dotations aux amortissements et aux provisions.  
+ 681. Dotations aux amortissements et aux provisions - charges ordinaires (autres que financières).  
+  6811. Dotations aux amortissements des immobilisations incorporelles et corporelles.  
+   68111. Immobilisations incorporelles.  
+   68112. Immobilisations corporelles.  
+  6812. Dotations aux résorptions des charges reportées.  
+  6815. Dotations aux provisions pour risques et charges d'exploitation.  
+http://www.procomptable.com/ 40
+  
+6816. Dotations aux provisions pour dépréciation des immobilisations incorporelles et 
+corporelles.  
+   68161. Immobilisations incorporelles.  
+   68162. Immobilisations corporelles.  
+  
+6817. Dotations aux provisions pour dépréciation des actifs courants (autres que les 
+valeurs mobilières de placement et les équivalents de liquidités).  
+   68173. Stocks et en-cours.  
+   68174. Créances.  
+  
+6818. Dotations aux amortissements et aux provisions liées à une modification comptable à 
+imputer au résultat de l'exercice ou à une activité abandonnée.  
+ 686. Dotations aux amortissements et aux provisions - charges financières.  
+  6861. Dotations aux amortissements des primes de remboursement des obligations.  
+  6865. Dotations aux provisions pour risques et charges financières.  
+  6866. Dotations aux provisions pour dépréciation des éléments financiers.  
+   68662. Immobilisations financières.  
+   68665. Placements et prêts courants.  
+  
+6868. Dotations aux amortissements et aux provisions liées à une modification comptable 
+inscrite dans le résultat de l'exercice ou à une activité abandonnée. (charges financières).  
+69. Impôts sur les bénéfices.  
+ 691. Impôts sur les bénéfices calculés sur le résultat des activités ordinaires.  
+ 695. Autres impôts sur les bénéfices (régimes particuliers).  
+ 697. Impôts sur les bénéfices calculés sur les éléments extraordinaires. 
+ 
+ 
+ 
+Liste des comptes 
+Classe 7 
+Comptes de produits  
+70. Ventes de produits fabriqués, prestations de services, 
+marchandises.  
+71. Production stockée (ou destockage).  
+72. Production immobilisée.  
+73. Produits divers ordinaires.  
+74. Subventions d'exploitation et d'équilibre.  
+75. Produits financiers.  
+77. Gains extraordinaires.  
+78. Reprises sur amortissements et provisions.  
+79. Transferts de charges.  
+  
+Classe 7 : Comptes de produits  
+ 
+70. Ventes de produits fabriqués, prestations de services, marchandises  
+ (A ventiler en ventes aux tiers et ventes aux filiales et entreprises associées, en ventes en dinars et ventes en 
+devises).    
+ 701. Ventes de produits finis.    
+  7011. Produits finis achevés.    
+  7012. Produits finis non achevés (contrat de longue durée).    
+ 702. Ventes de produits intermédiaires.    
+ 703. Ventes de produits résiduels.    
+ 704. Travaux.     
+ 705. Études et prestations de services.    
+ 706. Produits des activités annexes.    
+ 707. Ventes de marchandises.    
+ 
+708. Ventes liées à une modification comptable à imputer au résultat de l'exercice ou à une activité 
+abandonnée.    
+ 709. Rabais, remises et ristournes accordés par l'entreprise.    
+  7091. Sur ventes de produits finis.    
+  7092. Sur ventes de produits intermédiaires.    
+http://www.procomptable.com/ 41
+  7094. Sur travaux.  
+  7095. Sur études et prestations de services.    
+  7096. Sur activités annexes.    
+  7097. Sur ventes de marchandises.  
+  
+7098. Sur ventes liées à une modification comptable à imputer au résultat de l'exercice ou à 
+une activité abandonnée.    
+71. Production stockée (ou destockage).    
+ 713. Variation des stocks (en-cours de production, produits).    
+  7133. Variations des en-cours de production de biens.    
+  7134. Variation des en-cours de production de services.  
+  7135. Variation des stocks de produits.    
+72. Production immobilisée.    
+ 721. Immobilisations incorporelles.    
+ 722. Immobilisations corporelles.    
+ 
+728. Production immobilisée liée à une modification comptable à imputer au résultat de l'exercice ou à 
+une activité abandonnée.    
+73. Produits divers ordinaires.    
+ 731. Redevances pour concessions, brevets, licences, marques, procédés, droits et valeurs similaires. 
+ 732. Revenus des immeubles non affectés aux activités professionnelles.    
+ 733. Jetons de présence et rémunérations d'administrateurs, gérants.    
+ 734. Ristournes perçues des coopératives (provenant des excédents).    
+ 735. Quotes-parts de résultat sur opérations faites en commun.    
+ 
+736. Produits nets sur cessions d'immobilisations et autres gains sur éléments non récurrents ou 
+exceptionnels.    
+ 
+738. Produits divers ordinaires liés à une modification comptable à imputer au résultat de l'exercice ou 
+à une activité abandonnée.    
+ 739. Quotes-parts des subventions d'investissement inscrites au résultat de l'exercice.    
+74. Subventions d'exploitation et d'équilibre.    
+ 741. Subventions d'exploitation.    
+ 745. Subventions d'équilibre.    
+ 
+748. Subventions liées à une modification comptable à imputer au résultat de l'exercice ou à une 
+activité abandonnée.    
+75. Produits financiers. 
+ 751. Produits des participations.    
+ 752. Produits des autres immobilisations financières.    
+ 753. Revenus des autres créances.    
+ 754. Revenus des valeurs mobilières de placement.    
+ 755. Escomptes obtenus.    
+ 756. Gains de change.    
+ 757. Produits nets sur cessions de valeurs mobilières.    
+ 
+758. Produits financiers liés à une modification comptable à imputer au résultat de l'exercice ou à une 
+activité abandonnée.    
+77. Gains extraordinaires.  
+78. Reprises sur amortissements et provisions.    
+ 781. Reprises sur amortissements et provisions (à inscrire dans les produits ordinaires).    
+  7811. Reprises sur amortissements des immobilisations incorporelles et corporelles.    
+   78111. Immobilisations incorporelles.  
+   78112. Immobilisations corporelles.    
+  7815. Reprises sur provisions pour risques et charges d'exploitation.    
+  
+7816. Reprises sur provisions pour dépréciation des immobilisations incorporelles et 
+corporelles.    
+   78161. Immobilisations incorporelles.    
+   78162. Immobilisations corporelles.    
+  
+7817. Reprises sur provisions pour dépréciation des actifs courants (autres que les valeurs 
+mobilières de placement et les équivalents de liquidités).    
+   78173. Stocks et en-cours.    
+   78174. Créances.    
+  
+7818. Reprises sur provisions liées à une modification comptable inscrite aux résultats ou à 
+une activité abandonnée.    
+ 786. Reprises sur provisions (à inscrire dans les produits financiers).    
+http://www.procomptable.com/ 42
+  7865. Reprises sur provisions pour risque et charges financières.    
+  7866. Reprises sur provisions pour dépréciation des éléments financiers.    
+  
+7868. Reprises sur provisions (à inscrire dans les produits financiers) liées à une modification 
+comptable inscrite aux résultats de ou à une activité abandonnée.    
+79. Transferts de charges.    
+(A ventiler en fonction des comptes où ont été imputées les charges à transférer).    
+  
+    
+Fonctionnement général des comptes  
+ 
+Classe 1  
+Comptes de capitaux propres et passifs non courants  
+Les comptes de la classe 1 regroupent les capitaux propres et les passifs non courants :  
+1. Les capitaux propres qui représentent les comptes 10 à 14 correspondent à la somme :  
+- des apports (capital, fonds de dotation, compte de l'exploitant),  
+- des réserves et primes liées au capital,  
+- des résultats reportés et du résultat de l'exercice, et  
+- des autres capitaux propres (titres de capital soumis à des réglementations particulières, subventions 
+d'investissement, compte du concédant).  
+Les éléments portés dans les capitaux propres, tels que les subventions, sont imputés nets des impôts différés 
+correspondants qui constituent des passifs.  
+2. Les passifs non courants qui comportent les comptes 15 à 18 correspondent à la somme des :  
+- provisions pour risques et charges (compte 15) ;  
+- emprunts et dettes assimilées (compte 16) ;  
+- comptes de liaison des établissements et succursales (compte 17) ;  
+- autres passifs non courants (compte 18).   
+   
+10 Capital  
+ 101 Compte capital social  
+Ce compte est exclusif aux entreprises dotées d'un capital social. Le capital social représente la 
+valeur nominale des actions ou des parts sociales.  
+Le compte 101 "Capital social" enregistre à son crédi t le montant du capital figurant dans l'acte de 
+société. Il retrace l'évolution de ce montant au cours de la vie de la société suivant les décisions des 
+organes de délibération.  
+Il est crédité lors des augmentations de capital :  
+- du montant des apports en numéraires ou en nature effectués par les associés (sous déduction des 
+primes liées au capital social) ;  
+- du montant des incorporations de réserves.  
+Il est débité des réductions de capital quelle qu'en soit la cause (absorption des pertes, 
+amortissement du capital 4 etc...).  
+Des subdivisions peuvent être ouvertes pour autant  que de besoins. Par exemple, le montant du 
+capital provenant d'opérations particulières, telle que l'incorporation des bénéfices réinvestis en 
+application des dispositions du code des investi ssements, peut être enregi stré dans une subdivision 
+du compte 1018.  
+ 105 Compte fonds de dotation  
+Exclusivement utilisé dans les entr eprises ou établissements publics, ce compte enregistre le fonds 
+de dotation de l'Etat, des collectivités publiques ou aut res organes assimilés. Il enregistre la contre-
+valeur d'actifs affectés, à titre de dotation, à ces entreprises et établissements.  
+  
+ 
+                                                 
+4 Néanmoins, l'amortissement du capital ne se traduit pas, en définitive, par une réduction du capital puisque le capital 
+remboursé est simultanément remplacé par une incorporation de réserves. 
+http://www.procomptable.com/ 43
+108 Compte de l'exploitant  
+Le compte 108 "Compte de l'exploitant" enregistre à son crédit :  
+- la valeur des apports de l'entrepreneur au début ou en cours d'activité ;  
+- le bénéfice de l'exercice précédent (par le débit du compte 13 "résultat de l'exercice").  
+Il enregistre à son débit :  
+- les prélèvements de toutes natures ;  
+- la perte de l'exercice précédent (par le crédit du compte 13).  
+Les apports ou les retraits personnels de l'exploitant  sont enregistrés, en cours d'exercice, dans ce 
+compte.  
+ 109 Compte actionnaires – capital souscrit non appelé  
+Le compte 109 est débité en contrepartie de la subdivi sion du compte 101 intitulée "Capital souscrit - 
+non appelé".  
+11 Réserves et primes liées au capital  
+Le compte 11 enregistre les compléments d'apports cons titués par les primes liées au capital ainsi 
+que les réserves provenant des bénéfices affect és durablement à l'entreprise jusqu'à décision 
+contraire des organes de délibération. Ce compte est crédité, pour ce qui concerne les réserves, 
+dans les subdivisions concernées, lors de l'affectation des bénéfices des montants destinés :  
+- à la réserve légale ;  
+- aux réserves statutaires ou contractuelles.  
+Le compte 11 est débité, pour ce qui concerne les réserves, par prélèvement sur les réserves 
+concernées, des incorporations au capital des dist ributions aux associés, des prélèvements pour la 
+résorption de pertes...  
+ 117 Primes liées au capital  
+Le compte 117 enregistre les primes liées au capita l social (telles que primes d'émission, de fusion, 
+d'apport, de conversion d'obligations en actions). Ces pr imes sont la représentation de la partie des 
+apports purs et simples et autres compléments d’appor ts non compris dans le capital social : c'est 
+ainsi que la prime d'émission est constituée par l'ex cédent du prix d'émission sur la valeur nominale 
+des actions ou des parts sociales attribuées à l'apporteur.  
+12 Résultats reportés  
+Les résultats reportés sont les résultats ou la parti e du résultat dont l'affect ation a été renvoyée par 
+l'assemblée générale, qui a statué sur les comptes de l'exercice précédent.  
+Ce compte est constitué par la somme des résultats des exercices antérieurs non encore affectés.  
+Il est débité ou crédité des montants des effets des modifications comptables non imputées sur le 
+résultat de l'exercice.  
+13 Résultat de l'exercice  
+Le compte 13 enregistre pour solde les comptes de charges et les comptes de produits de l'exercice.  
+Le solde du compte 13 représente un résultat bénéficiaire si les produits sont supérieurs aux charges 
+(solde créditeur) ou un résultat déficitaire si le s charges sont supérieures aux produits (solde 
+débiteur).  
+Le compte 13 est soldé après décision d'affectation du résultat. Dans les sociétés, les montants non 
+distribués et non affectés à un compte de réserves  sont virés au compte 12 "Résultats reportés". 
+Dans les entreprises individuelles, le solde du compte 13 est viré au compte 108 "compte de 
+l'exploitant".  
+14 Autres capitaux propres  
+ 141 Titres soumis à des réglementations particulières  
+Ce compte est destiné à faire apparaître les émissi ons d'instruments financiers ayant le caractère de 
+capitaux propres tels que les titres participatifs et les certificats d'investissement. 5 
+  
+ 
+                                                 
+5 Les certificats d'investissement doiv ent être classés en «Capital souscrit s oumis à une réglementation particulière - 
+compte 1018». 
+http://www.procomptable.com/ 44
+143 Amortissements dérogatoires  
+Ils représentent la contrepartie de l'avantage ac quis, évalué en net d'impôt, et provenant des 
+amortissements dérogatoires pratiqués uniquement  pour bénéficier d'avantages accordés par les 
+textes particuliers.  
+ 144 Compte réserve spéciale de réévaluation  
+Ce compte enregistre les écarts de réévaluation quand une norme comptable le permet.  
+ 145 Subventions d'investissement  
+Le compte 145 est destiné à la fois à faire appar aître au bilan le montant des subventions 
+d'investissement jusqu'à ce qu'elles aient rempli leur objet, et à permettre aux entreprises 
+subventionnées d'échelonner sur plusieurs exercices la constatation de l'enrichissement provenant 
+de ces subventions.  
+Le compte 1451 (ou 1458) est crédité de la subvention par le débit du compte d'actif intéressé.  
+Afin de rapporter les subventions aux résultats, le compte 1459 est débité par le crédit du compte 739 
+"Quotes-parts des subventions d'investissement inscrites au résultat de l'exercice".  
+Seul figure au bilan le montant net de la subvention d'investissement non encore inscrit au compte de 
+résultat. Les comptes 1451 (ou 1458) et 1459 sont sol dés l'un par l'autre, à l'ouverture de l'exercice 
+suivant, lorsque le crédit du premier est égal au débit du deuxième.  
+15 Provisions pour risques et charges  
+ 151 Provisions pour risques  
+Sont inscrites au compte 151 toutes les provisions  destinées à couvrir les risques identifiés inhérents 
+à l'activité de l'entreprise (résultant de litiges, garanties données aux clients, pertes sur marchés à 
+achèvement futur, pénalités, pertes de change, etc.).  
+ 152 Provisions pour charges à répartir sur plusieurs exercices  
+Les provisions pour charges à répartir sur plus ieurs exercices (compte 152) correspondent à des 
+charges prévisibles, tels que les frais de grosses réparations, qui ne sauraient être rattachées au seul 
+exercice au cours duquel elles sont engagées.  
+ 153 Provisions pour retraites et  obligations similaires  
+Les provisions pour pensions et obligations simila ires (compte 153) sont relatives aux charges que 
+peuvent engendrer des obligations contractuelles conf érant au personnel de l'entreprise des droits à 
+un régime de retraite complémentaire et/ou à d'autres avantages similaires.  
+ 155 Provisions pour impôts  
+Les provisions pour impôt (compte 155) enregistr ent la charge probable d'impôt dont la prise en 
+compte définitive dépend des résultats et d'événements futurs.  
+Lors de la constitution d'une provision pour risques et  charges, le compte de provisions est crédité 
+par le débit :  
+- des comptes 6811 à 6817 "Dotations aux amortissem ents et aux provisions - charges ordinaires", 
+lorsqu'elle concerne les activités ou opérations ordinaires de l'entreprise, autres que financières ;  
+- des comptes 6861 à 6866 "Dotations aux amortissem ents et aux provisions - charges financières" 
+lorsqu'elle affecte les activités de placement et de financement de l'entreprise.  
+Les "Dotations aux amortissements et aux provisions liées à une modification comptable à imputer au 
+résultat de l'exercice ou à une activité abandonnée" s ont, selon qu'elles se rapportent aux activités 
+d'exploitation ou de financement, débitées aux comptes 6818 ou 6868.  
+Le compte est réajusté à la fin de chaque exercice par :  
+- le débit des comptes de dotations correspondants, lorsque le montant de la provision doit être 
+augmenté ;  
+- le crédit du compte 781, ou du compte 786, lorsque le montant de la provision doit être diminué ou 
+annulé.  
+Lors de la réalisation du risque ou de la survenanc e de la charge, la provision antérieurement 
+constituée est soldée par le crédit des comptes 781,  ou 786. Corrélativement, la charge ou la perte 
+intervenue est inscrite au compte intéressé de la classe 6.  
+ 
+ 
+ 
+http://www.procomptable.com/ 45
+16 Emprunts et dettes assimilées  
+Le compte 16 enregistre d'une part les emprunts, d'autre  part les dettes financières assimilées à des 
+emprunts, y compris celles se rattachant à des "D ettes rattachées à des participations" enregistrées 
+dans le compte 166.  
+17 Comptes de liaison des établissements et succursales  
+Les comptes de liaison servent de contrepartie lors de la comptabilisation des opérations réalisées 
+entre le siège et l'établissement ou la succursale et entre deux établissements ou deux succursales.  
+Le compte 17 est subdivisé en autant de comptes de liaison que d'établissements ou succursales.  
+Ce compte doit être à tout moment soldé par le jeu des écritures réciproques constatant les 
+opérations internes à l'entité comptable.  
+18 Autres passifs non courants  
+Il enregistre particulièrement les écarts de c onversion sur créances et dettes de financement non 
+courantes.  
+   
+Classe 2  
+Comptes d'actifs non courants  
+Les comptes de la classe 2 regroupent les comptes d'actifs non courants et sont subdivisés en :  
+• Immobilisations incorporelles.  
+• Immobilisations corporelles.  
+• Immobilisations financières.  
+• Immobilisations à statut juridique particulier.  
+• Autres actifs non courants.  
+• Comptes d'amortissements et de provisions correspondants.   
+  
+21 Immobilisations incorporelles  
+Le compte 21 enregistre les acquisitions ou la création par l'entreprise d'actifs incorporels 
+(investissements de recherche et de développement, brevets, concessions de marques, logiciels, 
+droit au bail, fonds commercial, etc. ). Pour les réductions des valeurs,  à titre irréversible, prévus par 
+la norme relative aux actifs incorporels, il convient de créer des sous-comptes par nature 
+d'immobilisations avec la racine 9 qui viennent en déduction des valeurs brutes des immobilisations 
+concernées. 6 
+22 Immobilisations corporelles  
+Les comptes d'immobilisations corporelles enregistrent  le coût d'entrée des biens immobilisés par le 
+crédit, suivant le cas :  
+- du compte 101 "Capital", ou du compte 446 "Associés - Opérations sur le capital" (comptes d'apport 
+en société) ;  
+- du compte 1685 "Crédit fournisseurs d'immobilisations" ;  
+- du compte 23 "Immobilisations en cours" ;  
+- du compte 404 "Fournisseurs d'immobilisations" ou autres comptes concernés ;  
+- du compte 72 "Production immobilisée" ;  
+- du compte 79 "Transfert de charges" pour le montant des charges incorporables au coût de 
+l'immobilisation.  
+Les immobilisations sont regroupées en catégories homogènes selon leur nature et leur usage.  
+Les éléments suivants sont distingués, à titre d'exemple :  
+- Terrains,  
+- Constructions,  
+- Installations techniques, matériel et outillage industriels,  
+- Matériels de transport,  
+- Autres immobilisations corporelles.  
+                                                 
+6 Cette solution technique n'est pas conforme avec les di spositions du § 29 de la norme comptable 6 relative aux 
+immobilisations incorporelles. 
+http://www.procomptable.com/ 46
+Lors des cessions d'immobilisations, la différence entre le prix de cession et la valeur nette comptable 
+représente la plus ou moins value de cession et c onstitue le résultat de cession. L'enregistrement de 
+ce résultat est effectué selon le cas au débit du compte 636 ou au crédit du compte 736. Au préalable 
+la valeur nette comptable est mise en évidence en débitant le compte d'amortissement concerné, par 
+le compte d'immobilisation correspondant. 
+ 
+23 Immobilisations en cours  
+Le compte 23 "Immobilisations en cours" a pour  objet de faire apparaître la valeur des 
+immobilisations non encore achevées à la fin de c haque exercice ainsi que les avances et acomptes 
+versés.  
+Les immobilisations inscrites au compte 232 sont :  
+- soit créées par les moyens propres de l'entreprise ;  
+- soit résultant des travaux de plus ou moins l ongue durée confiés à des tiers sous la responsabilité 
+de l'entreprise.  
+Dans le premier cas, le coût de ces immobilisations est porté au débit du compte 232 
+"Immobilisations corporelles en cours" par le crédit du compte 72 "Production immobilisée". 
+ 
+Dans le second cas, le compte 238 (ou le compte 237) est débité des avances à la commande et des 
+acomptes représentant les règlem ents partiels effectués par l'entreprise au fur et à mesure de 
+l'avancement des travaux.  
+Le coût d'une immobilisation est viré, selon le cas, du compte 23 au compte 21 ou 22 lorsque cette 
+immobilisation est terminée.  
+Les avances et acomptes versés par l'entreprise à des tiers pour des opérations en cours sont portés :  
+- au compte 237 lorsqu'ils ont pour objet l'acquisition d'une immobilisation incorporelle ;  
+- au compte 238 lorsqu'ils ont pour objet l'acquisition d'une immobilisation corporelle.  
+24 Immobilisations à statut juridique particulier  
+Ce compte est destiné à enregistrer les immobilisat ions obtenues ou contrôlées par l'entreprise sous 
+un régime juridique particulier.  
+Ce compte est ventilé dans les mêmes conditions que le compte 22.  
+Il implique, pour les entreprises concernées, la  constatation dans les passifs des obligations 
+correspondantes.  
+25 Participations et créances liées à des participations  
+Le compte 251 "Titres de participation" est débité de la valeur d'apport ou du coût d'acquisition, des 
+titres de participation.  
+En cas de cession de titres, la différence entre le prix de cession et la valeur nette comptable 
+représente la plus ou moins value de cession et c onstitue le résultat de cession. L'enregistrement de 
+ce résultat est effectué, selon le cas, au débit du compte 656 ou au crédit du compte 757. Au 
+préalable la valeur nette comptable est mise en évidence en débitant le compte de provision 
+concerné   par la subdivision correspondante du   compte 251.  
+Le compte 257 "Créances rattachées à des partici pations" regroupe les créances nées à l'occasion 
+de prêts octroyés à des entités dans lesquelles l'entreprise détient une participation.  
+Le compte 259 qui enregistre la contrepartie non libérée des titres souscrits est soustractif des titres 
+de participation.  
+26 Autres immobilisations financières  
+Les "Autres immobilisations financières" comprennent :  
+- les placements, autres que les titres de partici pation, que l'entreprise n'a pas l'intention ou la 
+possibilité de revendre dans un avenir prévisible ;  
+- les prêts non courants, c'est-à-dire des fonds  versés à des tiers en vertu de dispositions 
+contractuelles, par lesquelles l'entreprise s'engage à transmettre à des personnes physiques ou 
+morales l'usage de moyens de payement pendant un certain temps ;  
+- les créances assimilables à des prêts (dépôts et cautionnements notamment).  
+Les remboursements en capital de ces créances s ont enregistrés au crédit de chacun des comptes 
+concernés.  
+Le compte 269 est un compte soustractif des titres immobilisés.  
+http://www.procomptable.com/ 47
+27 Autres actifs non courants  
+Ce compte est utilisé pour enregistrer les frais pr éliminaires, les charges à répartir, les frais 
+d'émission et de remboursement des emprunts ainsi que les écarts de conversion à porter à l'actif.  
+Le compte 27 est crédité à la fin de chaque exercice, par le débit du compte "6812 Dotations aux 
+résorptions des charges reportées".  
+28 Amortissements des immobilisations  
+Les comptes d'amortissement des immobilisations sont crédités par le débit du compte 681 
+"Dotations aux amortissements et aux provisions - charges ordinai res", ou du compte 686 "Dotations 
+aux amortissements et aux provisions - Charges financières".  
+Les dotations liées à une modification comptable pris e en compte dans le résultat de l'exercice ou à 
+une activité abandonnée sont portées au crédit du compte amortissement concerné par le débit d'une 
+subdivision des comptes 681 (6818) ou 686 (6868).  
+29 Provisions pour dépréciation des immobilisations  
+Lors de la constitution d'une provision pour dépr éciation ou de l'augmentation d'une provision déjà 
+constituée, le compte de provision concerné est crédité par le débit du compte 681 "Dotations aux 
+amortissements et aux provisions -  Charges  ordinaires", ou du compte 686 "Dotations aux 
+amortissements et aux provisions - Charges financières".  
+Les dotations liées à une modification comptable pris e en compte dans le résultat de l'exercice ou à 
+une activité abandonnée sont portées au crédit du co mpte provision concerné par le débit d'une 
+subdivision des comptes 681 (6818) ou 686 (6868).  
+A la date de cession de l'immobilisation, la provision 7est virée tout comme l'amortissement au 
+compte d'immobilisation approprié afin de mettre en évidence la valeur comptable nette de l'actif 
+cédé.  
+Remarque :  
+Les immobilisations retirées de l'exploitation sont à loger dans une subdivision séparée du compte 
+d'immobilisations concerné.  
+ 
+Classe 3  
+Comptes de stocks  
+Traitement de référence :  
+Les stocks sont tenus selon le système de l'inventaire permanent. Les achats sont débités aux comptes 601/602 
+et 607.  
+Les entrées en stock sont débitées dans les comptes de stock concerné par le crédit des comptes Achats 601, 
+602 et 607. Ils sont crédités des sorties par le débit des comptes 6031, 6032 et 6037 dont l'intitulé deviendra 
+Achats consommés" (Approvisionnement et marchandises).  
+Quant aux stocks des encours et des produits (comptes 33, 34 et 35) ils sont débités des entrées par le crédit 
+des comptes 7133, 7134 et 7135. Ils sont crédités des sorties par le débit de ces mêmes comptes.  
+Traitement autorisé :  
+Les comptes 31, 32 et 37 sont crédités du montant du stock initial par le débit des comptes 6031 "Variation des 
+stocks de matières premières (et fournitures)", 6032 "Variation des stocks des autres approvisionnements", 6037 
+"Variation des stocks de marchandises".  
+Les comptes 33, 34 et 35 sont crédités du montant du stock initial par le débit des comptes 7133 "Variation des 
+en-cours de production de biens", 7134 "Variation des en-cours de production de services", 7135 "Variation des 
+stocks de produits".  
+Après avoir procédé au recensement et à l'évaluation des existants en stocks :  
+- les comptes 31, 32 et 37 sont débités du montant du stock final par le crédit des comptes 6031, 6032 et 6037 ;  
+- les comptes 33, 34 et 35 sont débités du montant du stock final par le crédit des comptes 7133, 7134 et 7135.   
+  
+                                                 
+7 L'assimilation de la provision à l'amortissement est inappr opriée. En effet, la  provision est destinée à constater une 
+perte jugée non irréversible alors que l'amortissement consta te une perte irréversible. A la date de la cession, toute 
+provision pour dépréciation sur immobilisation doit, par conséquent, à l'instar du traitement préconisé pour les provisions 
+pour dépréciation des clients, être systématiquement reprise par le biais du compte «78 Reprise sur provisions». 
+Deux autres arguments militent pour la technique de la reprise systématique des provisions : 
+- elle préserve l'intérêt fiscal de l'entreprise, 
+- elle facilite l'élaboration de l'état de flux de trésorerie. 
+http://www.procomptable.com/ 48
+39 Provisions pour dépréciation des stocks  
+Les subdivisions du compte 39 sont créditées par les subdivisions concernées du compte 68 
+"Dotations aux amortissements et aux provisions" du montant des dépréciations (ou de leur 
+augmentation) affectant les stocks.  
+Elles sont débitées par le crédit des subdivi sions concernées du compte 78 "Reprises sur 
+amortissements et provisions" du montant des pr ovisions (ou de leur quote-part) devenues sans 
+objet.    
+ 
+Classe 4  
+Comptes de tiers  
+Sont regroupés dans la classe 4, les comptes rattachés aux comptes de tiers et destinés à enregistrer les dettes 
+et créances courantes, autres que financières.  
+Les comptes de régularisation enregistrent les charges et produits constatés d'avance ainsi que les charges et 
+produits à répartir sur les périodes comptables de l'exercice 8.  
+Les comptes de tiers, en particulier "Fournisseurs" (compte 40) et "Clients" (compte 41) peuvent être subdivisés 
+pour identifier notamment :  
+- les dettes et créances en Tunisie ou à l'étranger ;  
+- les dettes et créances se rapportant à des parties liées.   
+  
+40 Fournisseurs et comptes rattachés  
+Figurent sous le compte 40 les dettes et avances de fonds liés à l’acquisition de biens ou de services.  
+Le compte 401 "Fournisseurs" est crédité du montant des factures d'achats de biens ou de 
+prestations de services par le débit :  
+- des comptes concernés de la classe 6 (montant hors taxes récupérables) ;  
+- du compte 4096 "Fournisseurs - Créances pour emballages et matériel à rendre" ;  
+- du compte 4366 "Taxes sur le chiffre d'affaires déductibles" pour le montant des taxes récupérables.  
+Le compte 401 est débité par le crédit :  
+- d'un compte de trésorerie lors des règlements effectués par l'entreprise à ses fournisseurs ;  
+- d'un compte de la classe 6 pour le montant des factures d'avoir reçues à l'occasion de retour de 
+marchandises au fournisseur ;  
+- d'un compte 403 "Fournisseurs - Effets à payer" lors de l'acceptation d'une lettre de change ou de la 
+remise d'un billet à ordre ;  
+- du compte 609 "Rabais, remises et ristournes obt enus sur achats" pour le montant des rabais, 
+remises et ristournes obtenus hors factures ;  
+- du compte 409 "Fournisseurs débiteurs" pour le m ontant des avances et acomptes versés sur 
+commandes d'exploitation, pour solde de ce dernier.  
+Le compte 404 "Fournisseurs d'immobilisations" est crédité par le débit :  
+- des comptes d'immobilisations concernés pour leur montant hors taxes récupérables ;  
+- du compte 4366 pour le montant des taxes récupérables ;  
+- du compte 1685 pour le montant des échéances à moins d'un an des crédits fournisseurs.  
+Le compte 404 est débité par le crédit, notamment :  
+- d'un compte de trésorerie lors des règlements effectués par l'entreprise à ses fournisseurs ;   
+- du compte 405 "Fournisseurs d'immobilisations - E ffets à payer" lors de l'acceptation d'une lettre de 
+change ou de remise d'un billet à ordre.  
+Le compte 408 "Fournisseurs - Factures non parvenues " est crédité dans le cas de l'inventaire 
+permanent en cours d'exercice momentanément à c haque entrée en stock avant la réception des 
+factures correspondantes. Il est crédité, dans le cas de l'inventaire intermittent, à la clôture de la 
+période comptable, du montant, taxes comprises, des  factures imputables à la période close mais 
+non encore parvenues, dont le montant est suffisa mment connu et évaluable, par le débit des 
+comptes concernés des classes 4 et 6 (par exemple 4368 et 607). A l'ouverture de la période 
+                                                 
+8 Corrigé par nos soins. 
+http://www.procomptable.com/ 49
+suivante, ces écritures sont contre-passées. Les  entreprises peuvent égalem ent débiter directement 
+le compte 408 par le crédit du compte 401 à réception de la facture, les ajustements nécessaires 
+étant enregistrés aux comptes intéressés.  
+Le compte 4091 "Fournisseurs - Avances et acompt es versés sur commandes" est débité, lors du 
+paiement par l'entreprise d'avances sur commandes pa ssées auprès des fournisseurs, par le crédit 
+d'un compte de trésorerie. Il est crédité par le débit selon le cas du compte 401 ou du compte 404 9 
+après réception de la facture par l'entreprise.  
+Le compte 4096 est débité par le crédit du compte 401 lors de la consignation par les fournisseurs à 
+l'entreprise d'emballages ou de matériel pour le montant de la consignation.  
+Il est crédité :  
+- par le débit du compte 401 lorsque l'entreprise rend les emballages ou le matériel au prix de la 
+consignation ;  
+- par le débit du compte 401 et d'une subdivision du compte 613 intitulée "Malis sur emballages" si la 
+reprise se fait pour un montant inférieur à celui de la consignation ;  
+- au cas où l'entreprise décide de ne pas restituer les emballages ou le matériel par le débit du 
+compte 602 Achats stockés - Autres approvisionnem ents" ou 606 Achats non stockés de matières et 
+fournitures" selon que les emballages soient suivis ou non en stock ;  
+- par le débit de la subdivision du compte 613 "Malis sur emballages" si les emballages ont été 
+perdus.  
+41 Clients et comptes rattachés  
+Figurent au compte 41 les créances liées à la vente de biens ou services rattachés au cycle 
+d'exploitation de l'entreprise.  
+Le compte 411 "Clients" est débité du montant des factures de ventes de biens ou de prestations de 
+services par le crédit :  
+- de l'une des subdivisions du compte 70 "Ventes de produits fabriqués, pr estations de services, 
+marchandises" (montant hors taxes collectées) ;  
+- du compte 413 "Clients - Effets à recevoir" lors de l'acceptation par les clients d'une lettre de change 
+ou de la réception d'un billet à ordre ;  
+Il est crédité par le débit 10 :  
+- du compte 709 "Rabais, remises et ristournes a ccordés par l'entreprise" pour le montant des 
+réductions sur ventes accordées aux clients hors factures ;  
+- du compte 4191 "Clients - Avances et acomptes reçus sur commandes" pour solde de ce dernier.  
+Le compte 4117 "Clients - retenues de garantie" est débité, le cas échéant, du montant des retenues 
+de garantie effectuées par les clients, jusqu'à l'échéance du terme par le crédit du compte du client.  
+Le compte 416 "Clients douteux ou litigieux" est débité  par le crédit du compte 411 pour le montant 
+total des créances que l'entreprise possède à l 'encontre de clients dont la solvabilité apparaît 
+douteuse.  
+Le compte 413 est débité par le crédit du compte 411 au moment de l'entrée des effets en 
+portefeuille. Ce compte est crédité, à l'échéance de l'effet ou à la date de l'escompte, par le débit :  
+- d'un compte de trésorerie ;  
+- du compte 6516 intitulé "Intérêts bancaires et sur opérations de financement".  
+En cas de renvoi de l'effet par l'établissement de crédit, pour non-paiement ou toute autre cause, le 
+remboursement du crédit d'escompte entraîne :  
+- une inscription au crédit du compte de l'établissement prêteur ;  
+- le rétablissement à l'actif de la créance initiale et, le cas échéant, un transfert dans le compte clients 
+douteux et litigieux et la constitution d'une prov ision pour dépréciation à concurrence du montant de 
+la perte probable.  
+Le compte 418 "Clients - Produits non encore fact urés" est débité à la clôture de la période 
+comptable, du montant, taxes comprises, des créanc es imputables à cette période et pour lesquelles 
+des factures n'ont pas encore été établies, par le crédit des comptes concernés des classes 4 et 7.  
+                                                 
+9 Les avances aux fournisseurs d'immobilisations sont  portées aux comptes 237 ou 238 «Avances sur commandes 
+d'immobilisations» et non au débit du compte 4091.Corrigé par nos soins. 
+10 Ajouté par nos soin. 
+http://www.procomptable.com/ 50
+A la date de l'établissement de la facture, ces écritures sont contre-passées.  
+Les entreprises peuvent également créditer direct ement le compte 418 par le débit du compte 411 
+lors de l'établissement de la facture, les ajus tements nécessaires étant  enregistrés aux comptes 
+intéressés.  
+Le compte 4191 enregistre les avances et acompt es reçus par l'entreprise sur les commandes à 
+livrer, les travaux à exécuter ou les services à rendre. Il est crédité par le débit d'un compte de 
+trésorerie du montant des avances et acomptes reçu s des clients. Il est débité, après l'établissement 
+de la facture, du montant de ces avances et acomptes par le crédit du compte 411.  
+Le compte 4196 "Clients - Dettes pour emballages et  matériel consignés" est crédité des sommes 
+facturées par l'entreprise à ses clients au titre des  consignations d'emballages ou de matériel par le 
+débit du compte 411.  
+Il est débité du même montant :  
+- par le crédit du compte 411 en cas de restitution de l'emballage ;  
+- par le crédit du compte 411 et une subdivision du compte 706 (dont l'intitulé sera par exemple 
+"Bonis sur reprises d'emballages consignés", lorsque la reprise est effectuée pour un prix inférieur à 
+celui de la consignation ;  
+- par le crédit des comptes intéressés de la classe 7 dans le cas où l'emballage est conservé par le 
+client (subdivision du compte 706 dans le cas où les emballages sont considérés comme des 
+approvisionnements et selon le trai tement réservé aux cessions d'imm obilisations dans le cas où les 
+emballages sont considérés comme actifs immobilisés).  
+42 Personnel et comptes rattachés  
+Des subdivisions de comptes sont à créer pour constater les opérations relatives au personnel 
+notamment celles se rattachant aux rémunérations , avances et retenues telles que présentées ci-
+dessous :  
+Le compte 421 est débité du montant des avances et acomptes versés au personnel par le crédit d'un 
+compte de trésorerie. Il est crédité, pour solde, par le débit du compte 425.  
+Le compte 422 est crédité du montant des sommes mi ses à la disposition des comités d'entreprise, 
+d'établissement..., par le débit d'une subdivision du compte 649. Il est débité du montant des 
+versements effectués à ces comités par le crédit d'un compte de trésorerie.  
+Le compte 425 "Personnel - Rémunérations dues" est crédité des rémunérations brutes à payer au 
+personnel par le débit des comptes de charges intéressés.  
+Il est débité :  
+- du montant des avances et acomptes versés au personnel par le crédit du compte 421 ;  
+- du montant des oppositions notifi ées à l'entreprise à l'encontre des membres de son personnel par 
+le crédit du compte 427 ;  
+- du montant des retenues sur salaires au titre des impôts sur salaires et appointements par le crédit 
+du compte 432.  
+- de la quote-part des charges sociales incombant au personnel par le crédit du compte 453 "Sécurité 
+sociale et autres organismes sociaux" ;  
+- du montant des règlements effectués au personnel par le crédit d'un compte de trésorerie.  
+Le compte 426 est crédité du montant des sommes confiées en dépôt à l'entreprise par des membres 
+de son personnel par le débit d'un compte de trésor erie. Il est débité, lors du remboursement au 
+personnel des sommes ainsi déposées, par le crédit d'un compte de trésorerie.  
+Le compte 427 est crédité du montant des somme s faisant l'objet d'oppositions obtenues par des 
+tiers à l'encontre de membres du personnel de l'entrepr ise, par le débit du compte 421. Il est débité 
+du montant desdites sommes, lors de leur versement  aux tiers bénéficiaires de l'opposition, par le 
+crédit d'un compte de trésorerie.  
+A la fin de l'exercice, au moment des écritures d'inventaire, l'entreprise :  
+• crédite les subdivisions du compte 428 correspondant notamment au montant de dettes potentielles 
+relatives aux congés à payer et autres charges à payer par le débit des subdivisions du compte 646 ;  
+• débite, le cas échéant, les subdivisions éventuelles du compte 428 par le crédit des comptes de 
+produits intéressés.  
+Les charges sociales sur congés à payer sont portées au crédit du compte 45382 par le débit des 
+subdivisions correspondantes du compte 646.  
+http://www.procomptable.com/ 51
+43 Etat et collectivités publiques  
+Les opérations d'achats et de ventes réalisées avec l'Etat et les collectivités publiques s'inscrivent au 
+compte 40 "Fournisseurs et comptes rattachés" et 41 "Clients et comptes rattachés" au même titre 
+que les opérations faites avec les autres fournisseurs et les autres clients.  
+En fin d'exercice, lorsque des subventions acquise s à l'entreprise n'ont pas encore été perçues, le 
+compte 431 "Etat - Subventions à recevoir" est débité :  
+- du montant des subventions d'inv estissement à recevoir par le crédit du compte 145 "Subventions 
+d'investissement" ;  
+- du montant des subventions d'ex ploitation à recevoir par le crédit du compte 74 "Subventions 
+d'exploitation" ;  
+Le compte 431 est crédité par le débit d'un compte de tr ésorerie lors de la réception des subventions 
+susvisées.  
+Le compte 432 "Etat - Impôts et taxes retenus à la  source" est crédité des retenues effectuées par 
+l'entreprise pour le compte de l'Etat sur des sommes dues à des tiers par le débit de leurs comptes.  
+Le compte 433 "Opérations particulières avec l'Etat,..." enregistre notamment les produits ou charges 
+résultant d'avantages accordés ou d'obligations imposées  par l'Etat et les collectivités publiques à 
+l'entreprise.  
+Le compte 434 enregistre les opérations relatives à la constatation et à la liquidation de l'impôt sur les 
+sociétés et l'impôt sur le revenu des personnes physiques.  
+Le compte 435 est crédité du montant des obligati ons cautionnées souscrites en règlement de taxes 
+sur le chiffre d'affaires, droits indirects,... par le débit :  
+- des comptes 436, 437,... ;  
+- du compte 6517 "Intérêts des obligations cautionnées " (pour la quote-part des intérêts rattachables 
+à l'exercice).  
+Le compte 436 "Etat - Taxes sur le chiffre d'affaires" reçoit d'une part le montant des taxes collectées 
+pour le compte de l'Etat et, d'autre part, le montant des taxes à récupérer.  
+Le compte 437 "Autres impôts, taxes et versements assimilés" est crédité du montant de tous les 
+autres impôts et taxes dus par l'entreprise par le débit des comptes de charges intéressés.  
+44 Sociétés du groupe et associés  
+Le compte 441 est débité du montant des fonds avancés  par l'entreprise aux sociétés du groupe, et il 
+est crédité du montant des fonds mis à disposition de l'entreprise par les sociétés du groupe.  
+Le compte 442 est crédité du montant des fonds mis à la disposition de l'entreprise par les associés.  
+Le compte 446 "Associés - Opérations sur le capital" est subdivisé afin d'enregistrer distinctement les 
+opérations liées à la création de la société ou à la modification de son capital.  
+Le compte 447 "Associés - Dividendes à payer" es t crédité du montant des dividendes dont la 
+distribution a été décidée par les organes de délibération.  
+45 Débiteurs divers et créditeurs divers  
+Les comptes 452 et 455 sont respectivement débi tés, lors de la cession d'immobilisations ou de 
+valeurs mobilières de placement, du prix de cessi on des éléments d'actif cédés, par le crédit du 
+compte d'actif concerné, le gain ou la perte étant constaté dans les comptes 736/757 ou 636/656.  
+Le compte 4531 est crédité du montant des sommes dues par l'entreprise aux différents organismes 
+sociaux au titre des cotisations de sécurité social e, par le débit des comptes de charges par nature 
+intéressés.  
+Il est débité des règlements effectués à ces organismes par le crédit d'un compte de trésorerie.  
+Les charges sociales sur congés à payer sont portées au crédit du compte 45382 par le débit des 
+subdivisions correspondantes du comptes 646.  
+Le compte 454 enregistre à son crédit le montant des dettes relatives à l'acquisition de valeurs 
+mobilières de placement ; le compte 52 "Valeurs mobilières de placement" est débité en contrepartie.  
+Les opérations dont le solde peut être indifféremment soit débiteur, soit créditeur sont comptabilisées 
+à des subdivisions ouvertes sous le compte 457.  
+Le compte 4587 "Produits à recevoir" est débité, nota mment, des indemnités à recevoir consécutives 
+à des sinistres, litiges..., par le crédit des comptes de produits intéressés.  
+ 
+http://www.procomptable.com/ 52
+46 Comptes transitoires ou d'attente  
+Les opérations qui ne peuvent pas être imputées  de façon certaine à un compte  déterminé au 
+moment où elles doivent être enregistrées ou qui  exigent une information complémentaire, sont 
+inscrites provisoirement au compte 46.  
+Ce procédé de comptabilisation ne doit être utilis é qu'à titre exceptionnel. Toute opération portée au 
+compte 46 sera imputée au compte définitif dans les délais les plus brefs.  
+47 Comptes de régularisation  
+Le compte 471 "Charges constatées d'avance" est débité, en fin d'exercice, par le crédit des comptes 
+de charges intéressés. Il est crédité, à l'ouverture de l'exercice suivant, par le débit de ces mêmes 
+comptes.  
+Le compte 472 "Produits constatés d'avance" est cr édité, en fin d'exercice, par le débit des comptes 
+de produits intéressés. Il est débité, à l'ouverture de l'exercice suivant, par le crédit de ces mêmes 
+comptes.  
+Les comptes 471 et 472 peuvent être subdivisés conformément à la nomenclature des classes 6 et 7.  
+Le compte 478 "Comptes de répartition périodique des charges et des produits" enregistre les 
+charges et les produits que l'entreprise décide de répartir par fractions égales entre les périodes 
+comptables de l'exercice. Il doit être soldé à la fin de l'exercice.  
+48 Provisions courantes pour risques et charges  
+Ce compte est destiné à enregistrer les provisions  pour risques et charges dont la survenance est 
+probable dans les douze mois à partir de la date de clôture.  
+49 Provisions pour dépréciation des comptes de tiers  
+Ces comptes sont crédités, en fin d'exercice :  
+- par le débit du compte 6817 "Dotations aux provisions pour dépréciation des actifs courants" (autres 
+que valeurs mobilières de placement et équivalents de liquidités) ;  
+- ou par le débit du compte 6818 "Dotations aux amortissements et aux provisions liées à une 
+modification comptable à imputer au résultat de l'exercice ou à une activité abandonnée".  
+Lorsque la provision est devenue, en tout ou partie, sans objet, ou se révèle exagérée, ou lorsque se 
+réalise le risque de non-recouvrement couvert par la provision, ces comptes sont débités :  
+- par le crédit du compte 7817 "Reprises sur provisi ons pour dépréciation des actifs courants" (autres 
+que valeurs mobilières de placement et équivalents de liquidités) ;  
+- ou par le crédit du compte 7818 "Reprises sur provisions liées à une modification comptable inscrite 
+aux résultats ou à une activité abandonnée".  
+  
+Classe 5  
+Comptes financiers  
+Les comptes financiers enregistrent les mouvements se rapportant aux liquidités et équivalents de liquidités y 
+compris les placements courants ainsi que les autres actifs et passifs financiers courants.   
+  
+50 Emprunts et autres dettes financières courants  
+Le compte 501 enregistre les emprunts courants liés au cycle d'exploitation.  
+Les comptes 505 et 508 enregistrent, respectivement, la partie à moins d'un an des emprunts non 
+courants et les intérêts courus non échus à la clôture de l'exercice.  
+51 Prêts et autres créances financières courants  
+Le compte 511 enregistre les prêts courants liés au cycle d'exploitation.  
+Le compte 516 enregistre les échéances à moins d'un an sur prêts non courants.  
+Le compte 517 enregistre les échéances à moins d'un an sur "autres créances financières" non 
+courantes.  
+Le compte 518 enregistre les intérêts courus non échus à la date de clôture.  
+52 Placements courants  
+Les comptes 523 et 524 sont débités de la valeur d'ac quisition des actions et autres titres conférant 
+un droit de propriété, par le crédit d'un compte de tiers ou de trésorerie. Lors de la revente de ces 
+actions, ou titres, ces comptes sont crédités du mont ant de la valeur brute comptable de ces actions 
+http://www.procomptable.com/ 53
+ou titres, par le débit du compte de trésorerie conc ernée, la plus ou moins value étant portées selon 
+le cas au compte 757 ou au compte 656.  
+La valeur d'acquisition des titres conférant un dr oit de créance (obligations, bons de trésor) est 
+inscrite dans les comptes 525 à 527.  
+Les écritures comptables relatives aux opérat ions d'acquisition, d'annulation ou de cession d'actions 
+sont applicables aux opérations similaires effectuées sur des obligations.  
+Les échéances à moins d'un an des obligations immobilisées sont constatées dans le compte 5266.  
+53 Banques, établissements financiers et assimilés  
+Le compte 531 "Valeurs à l'encaissement" est débité du montant des coupons échus à encaisser, des 
+chèques et des effets remis à l'encaissement, des effets remis à l'escompte, par le crédit des 
+comptes intéressés.  
+Pour chaque compte bancaire dont elle est titulair e, l'entreprise utilise une subdivision distincte du 
+compte 532.  
+Les effets financiers créés en représentation des crédits consentis à l'ent reprise dans le cadre 
+d'opérations de mobilisation de créances commerc iales ou de mobilisation de créances nées à 
+l'étranger, sont comptabilisés à des subdivisions  du compte 506 "Concours bancaires courants". Les 
+intérêts courus liés à ces moyens de financement  sont inscrits dans une subdivision du compte 508 
+"Intérêts courus" qui pourrait s'intituler "Intérêts courus sur concours bancaires courants".  
+54 Caisse  
+Ce compte est débité du montant des espèces encaiss ées par l'entreprise. Il est crédité du montant 
+des espèces décaissées. Son solde est toujours débiteur ou nul.  
+55 Régies d'avances et accréditifs  
+Ce compte enregistre, le cas échéant, les écritures relatives aux fonds gérés par les régisseurs ou les 
+comptables subordonnés et aux accréditifs ouverts dans les banques au nom d'un tiers ou d'un agent 
+de l'entreprise.  
+Ce compte est débité du montant des fonds remis aux régisseurs et aux titulaires d'accréditifs par le 
+crédit d'un compte de trésorerie. Il est crédité :  
+- du montant des dépenses effectuées pour le compte de l'entreprise par le débit d'un compte de tiers 
+ou de charges ;  
+- du montant des reversements de fonds avancés, par le débit d'un compte de trésorerie.  
+58 Virements internes  
+Les comptes de virements internes sont des co mptes de passage utilisés pour la comptabilisation 
+pratique d'opérations aux termes desquelles ils doivent se trouver soldés.  
+Ces comptes sont notamment destinés à permettre la centralisation, sans risque de double emploi :  
+- des virements de fonds d'un compte de trésorerie, (caisse ou banque) à un autre compte de 
+trésorerie (banque ou caisse) ;  
+- et, plus généralement, de toute opération devant faire l'objet d'un enregistrement dans plusieurs 
+journaux auxiliaires.  
+59 Provisions pour dépréciation des comptes financiers  
+Ce compte est crédité du montant des déprécia tions financières des placements ou des prêts 
+courants par le débit du compte 6866 "Dotations aux provisions pour dépréciation des éléments 
+financiers".  
+Ce compte est débité par le crédit du compte 7866 "Reprises sur provisions pour dépréciation des 
+éléments financiers", lorsque la provision s'avère, en tout ou partie, sans objet.  
+ 
+Classes 6 & 7  
+ 
+Note préliminaire  
+Les charges et les revenus, les pertes et les gains ont été définis par le cadre conceptuel. Leur 
+distinction au niveau de la nomenclature ne peut être envisagée que dans le cas d'une entité 
+particulière. A cet effet la norme "Résultat ne t de l'exercice et éléments extraordinaires" a 
+affiné et développé les définitions de ces él éments et l'utilité de les distinguer. Les 
+développements y afférents sont rappelés ci-après : les revenus et les gains sont, en raison de 
+http://www.procomptable.com/ 54
+leur nature, similaires, tout comme les ch arges et les pertes qui sont sensiblement 
+semblables. Toutefois, ces concepts peuvent dé gager certaines différences significatives lors 
+de la communication de l'information sur la pe rformance de l'entreprise. Les revenus et les 
+charges proviennent des opérations s'inscrivant dans le cadre des activités centrales ou 
+principales de l'entreprise, telles que la produc tion ou la vente de marchandises, la prestation 
+des services, le crédit, l'assurance, l'investissement et le financement.  
+Par contre les gains et les pertes résultent des transactions fortuites ou périphériques de 
+l'entreprise avec d'autres entités et découlent d'événements et circonstances qui l'affectent.  
+Certains produits et charges considérés, en raison de leur nature, comme des gains et des 
+pertes d'exploitation pour certaines entreprises, peuvent se rattacher directement aux revenus 
+et charges s'ils s'inscrivent dans le cadre des activités centrales ou permanentes d'autres 
+entreprises.  
+La distinction entre revenus, charges, gains et  pertes se fait, normalement, selon la nature de 
+l'entreprise, ses opérations et ses activités.  
+Les éléments qui sont des revenus pour une entreprise peuvent constituer des gains pour une 
+autre et les éléments qui sont des charges pour une catégorie d'entité peuvent être des pertes 
+pour une autre.  
+Par exemple, l'investissement en portefeuille titr es qui peut être une source de revenus et de 
+charges pour des entreprises appartenant au secteur financier, peut être une source de gain 
+ou de perte pour les entreprises industrielles et  commerciales. Les mutations technologiques 
+peuvent être une source de gains et de pertes pour la plupart des entreprises mais sont 
+caractéristiques des opérations des entreprises de recherche ou de technologie de pointe.  
+Les événements tels que les variations des taux de change, qui peuvent intervenir quand les 
+actifs sont utilisés ou les passifs sont engagés, peuvent directement ou indirectement affecter 
+les montants des gains ou des pertes de la plupart des entreprises, mais elles sont source de 
+revenus et de charges uniquement pour les entreprises pour lesquelles le négoce en 
+monnaies étrangères est l'activité principale. 
+ 
+L'objectif de la distinction entre gains et pe rtes et revenus et charges est de présenter une 
+information pertinente sur les sources de revenus  de l'entreprise. Une nette distinction entre 
+revenus et gains et charges et pertes est une affaire de jugement sur la manière la plus 
+appropriée pour favoriser une bonne divulgation de l'image fidèle à travers les états financiers 
+de l'entreprise et plus précisément une présentation utile du résultat net de l'exercice.  
+   
+Classe 6  
+Comptes de charges  
+La classe 6 groupe les comptes destinés à enregistrer, dans l'exercice, les charges par nature qui se rapportent : 
+- aux activités ordinaires de l'entreprise ;  
+- aux éléments extraordinaires.  
+L'organisation comptable de l'entreprise, et particulièrement son plan de comptes et les instructions afférentes à 
+l'élaboration et la présentation des états financiers, doivent prévoir, pour les activités et éléments ordinaires une 
+distinction entre :  
+- les charges qui doivent être rattachées aux revenus et prises en compte dans la détermination de la marge 
+brute,  
+- les charges considérées comme pertes sur éléments et activités connexes ou périphériques,  
+- les charges considérées comme pertes sur activités financières,  
+- les autres charges ordinaires considérées comme pertes sur éléments non récurrents ou exceptionnels.  
+Pour les besoins de l'affectation de ces charges par fonction, les racines suivantes pourraient être créées pour 
+l'entreprise :  
+01. Production,  
+02. Distribution,  
+03. Administration,  
+04. Autres.  
+Ne sont pas concernées par l'application de ces racines, les charges qui, en raison de leur nature, sont 
+rattachées à une destination et que la nomenclature a déjà classé en fonction de cette destination.  
+Les charges de la classe 6 sont enregistrées hors taxes récupérables.   
+  
+http://www.procomptable.com/ 55
+60 Achats (sauf 603)  
+ 603 Variation des stocks (approvisionnements et marchandises)  
+I. Achats (approvisionnements et sous-traitances, marchandises)  
+Les achats sont inscrits au débit des comptes 601 à 607.  
+Des subdivisions des comptes d'achat peuvent être ouvertes pour identifier :  
+- les achats en Tunisie et à l'étranger ;  
+- les achats faits par l'entreprise auprès des parties liées.  
+Les biens et services sous-traités qui s'in tègrent directement dans le cycle de production de 
+l'entreprise, sont inscrits dans les achats au débit des comptes :  
+- 604 "Achats d'études et de prestations de services" ;  
+- 605 "Achats de matériels, équipements et travaux".  
+Le compte 606 regroupe tous les achats non sto ckables (eau, énergie) ou non stockés par 
+l'entreprise, tels que ceux afférents à des fourni tures qui ne passent pas par un compte de magasin, 
+et dont les existants neufs, en fin d'exercice, sont inscrits en tant que charges constatées d'avance au 
+débit du compte 471.  
+Le compte 609 enregistre à son crédit les rabais,  remises et ristournes sur achats obtenus des 
+fournisseurs et dont le montant, non déduit des fa ctures d'achats, n'est connu que postérieurement à 
+la comptabilisation de ces factures.  
+II. Variation des stocks  
+ Traitement de référence :  
+Les stocks sont tenus selon le système de l'in ventaire permanent. Les achats sont débités aux 
+comptes 601/602 et 607.  
+Les entrées en stock sont débitées dans les comp tes de stock concerné par le crédit des comptes 
+Achats 601, 602 et 607. Ils sont crédités des so rties par le débit des comptes 6031, 6032 et 6037 
+dont l'intitulé deviendra "Achats consommés" (Approvisionnement et marchandises).  
+ Traitement autorisé :  
+Le compte 603 est réservé à l'enregistrement des  variations de stocks d'approvisionnements et de 
+marchandises.  
+Ces comptes de variation des stocks sont débités, pour les éléments qui les concernent, de la valeur 
+du stock initial et crédités de la valeur du stock final. En conséquence, le solde du compte 603 
+représente la variation globale de la valeur du stock entre le début et la fin de l'exercice. Ce solde 
+peut être créditeur ou débiteur.  
+61/62/63 Autres charges ordinaires  
+Sont comptabilisées dans les comptes 61/62/63 le s charges ordinaires autres que les achats, en 
+provenance des tiers.  
+61. Services extérieurs.  
+62. Autres services extérieurs.  
+63. Charges diverses ordinaires.  
+Le compte 636 enregistre les charges nettes résu ltant des cessions d'immobilisation (perte sur 
+cession) ainsi que les autres pertes sur éléments non récurrents ou excepti onnels qui interviennent 
+dans les activités et opérations ordinaires de l'entreprise.  
+64 Charges de personnel  
+Sont inscrites au compte 64 toutes les rémunér ations, commissions,  et charges sociales du 
+personnel y compris les rémunérations allouées aux administrateurs, gérants et associés.  
+65 Charges financières  
+Toutes les charges financières sont comptabilisées dans ce compte.  
+Les subdivisions du compte 651 "Charges d'intérêts"  permettent d'identifier notamment les intérêts 
+des emprunts et dettes assimilées (y compris ceux  concernant les parties liées), les intérêts des 
+comptes courants, les intérêts bancaires, etc.  
+Le compte 654 est débité du montant des escomptes accordés par l'entreprise à ses clients par le 
+crédit du compte 411 "Clients" ou d'un compte de trésorerie.  
+http://www.procomptable.com/ 56
+Le compte 655 enregistre à son débit les pertes de change supportées par l'entreprise au cours de 
+l'exercice.  
+Le compte 656 enregistre les charges nettes résultant des cessions de valeurs mobilières (perte sur 
+cession).  
+66 Impôts, taxes et versements assimilés  
+Les impôts, taxes et versements assimilés sont des charges corre spondant aux impôts et taxes sur 
+rémunérations (TFP, FOPROLOS) et aux autres impôts et taxes (impôts et taxes divers, taxes sur le 
+chiffre d'affaires non récupérables, droits d'enregistrement, etc.).  
+Les impôts sur les bénéfices ne sont pas comptabilisés sous ce poste. Ils sont inscrits au compte 69.  
+67 Pertes extraordinaires  
+Ne sont comptabilisées dans ce compte que le s charges ayant un caractère extraordinaire. 
+L'enregistrement de telles charges nécessite l’analyse des caractéristiques de l'opération concernée 
+e manière à traduire correctement l'approche retenue par les normes comptables.  
+68 Dotations aux amortissements et aux provisions  
+Les comptes 681 et 686 sont débités du montant respectif des dotations de l'exercice aux 
+amortissements et aux provisions par le crédit des subdivisions, des comptes d'amortissements et de 
+provisions concernés.  
+69 Impôts sur les bénéfices  
+Le compte 69 enregistre à son débit le montant dû au titre des bénéfices imposables.  
+Des subdivisions permettent d'identif ier les impôts sur les bénéfices ca lculés sur le résultat des 
+activités ordinaires et les impôts sur les bénéfices calculés sur les éléments extraordinaires.  
+D'autres subdivisions peuvent être crées pour enregi strer les impôts dus sur les bénéfices dans le 
+cadre de conventions ou réglementations particulières.  
+   
+Classe 7  
+Comptes de produits  
+La classe 7 groupe les comptes destinés à enregistrer, dans l'exercice, les produits par nature qui se rapportent : 
+- aux activités ordinaires de l'entreprise ;  
+- aux éléments extraordinaires.  
+L'organisation comptable de l'entreprise, et particulièrement son plan de comptes et les instructions afférentes à 
+l'élaboration et la présentation des états financiers, doivent prévoir, pour les activités et éléments ordinaires une 
+distinction entre :  
+- les produits qui doivent être considérés comme revenus et pris en compte dans la détermination de la marge 
+brute,  
+- les produits considérés comme gains sur éléments et activités connexes ou périphériques,  
+- les produits considérés comme gains sur activités financières,  
+- les autres produits ordinaires considérés comme gains sur éléments non récurrents ou exceptionnels.  
+Les produits de la classe 7 sont enregistrés hors taxes collectées.   
+  
+70 Ventes de produits fabriqués, prestations de services, marchandises  
+Des subdivisions des comptes de ventes peuvent être ouvertes pour identifier :  
+- les ventes en Tunisie et à l'étranger,  
+- les ventes faites par l'entreprise à des parties liées,  
+- les cessions à prix coûtant.  
+Les montants des ventes, des prestations de servic es, des produits afférents aux activités annexes 
+sont enregistrés au crédit des comptes 701 à 708.  
+Les rabais, remises et ristournes accordés hors facture ou qui ne sont pas rattachables à une vente 
+déterminée sont portés au débit du compte 709.  
+Les escomptes de règlement sont comptabilisés au débit du compte 654 "Escomptes accordés", 
+même lorsqu'ils sont déduits sur la facture de vente. 
+ 
+ 
+ 
+http://www.procomptable.com/ 57
+71 Production stockée (ou déstockage)  
+ Traitement de référence :  Les stocks sont tenus selon la  méthode de l'inventaire permanent. 
+Les comptes 7133, 7134 et 7135 sont crédités des entr ées en stocks des        en-cours et des 
+produits par le débit des comptes 33, 34 et 35. Il s sont débités des sorties, par le crédit de ces 
+mêmes comptes.  
+ Traitement autorisé : Le compte 713 est réservé à l'enregist rement des variations des stocks 
+des produits finis et des en-cours de production (y compris la production des services). Les comptes 
+de variation de stocks sont débités, pour les él éments qui les concernent, de la valeur de la 
+production stockée initiale et crédités de la valeur de la production stockée finale.  
+En conséquence, le solde du compte 71 représente la  variation globale de la valeur de la production 
+stockée entre le début et la fin de l'exercice. Ce solde peut être créditeur ou débiteur.  
+72 Production immobilisée  
+Ce compte enregistre le coût des travaux faits par l'entreprise pour elle-même. Il est crédité soit par le 
+débit du compte 23 "Immobilisations en cours" du c oût réel de production des immobilisations créées 
+par les moyens propres de l'entreprise, au fur et  à mesure de la progression des travaux, soit 
+directement par le débit des comptes d'immobilisations intéressés si le transit par le compte 23 ne 
+s'avère pas nécessaire.  
+73 Produits divers ordinaires  
+Les redevances acquises pour concessions, brevets,  licences, marques, procédés , droits et valeurs 
+similaires, sont inscrites au crédit de ce compte . Il en est de même des revenus des immeubles non 
+affectés aux activités professionnelles, des jetons de présence, etc.  
+Le compte 736 enregistre le produit net résultant de cession d'immobilisation (gain sur cession) ainsi 
+que les autres gains sur éléments non récurrents ou exceptionnels qui interviennent dans les activités 
+ordinaires de l'entreprise.  
+74 Subventions d'exploitation et d'équilibre  
+Ce compte est crédité du montant des subventions  d'exploitation et d'équilibre acquises à l'entreprise 
+par le débit du compte de tiers ou de trésorerie intéressé.  
+75 Produits financiers  
+Tous les produits financiers sont comptabilisés dans ce compte.  
+Les subdivisions des comptes 751 "Produits de participations" et 752 "Produits des autres 
+immobilisations financières" permettent d'identifier les produits provenant de participations ou d'autres 
+immobilisations financières (y compris ceux concernant les parties liées).  
+Le compte 755 est crédité du montant des escomp tes obtenus par l'entreprise de ses fournisseurs 
+par le débit du compte de tiers intéressé ou d'un compte de trésorerie.  
+Le compte 756 est crédité des gains de change réalisés par l'entreprise au cours de l'exercice.  
+Le compte 757 enregistre les produits nets résultant  des cessions de valeurs mobilières (Gain sur 
+cession).  
+77 Gains extraordinaires  
+Ne sont comptabilisés dans ce compte que les gains ayant un caractère extraordinaire. 
+L'enregistrement de tels gains nécessite l'analys e des caractéristiques de l'opération concernée de 
+manière à traduire correctement l'approche retenue par les normes comptables.  
+78 Reprises sur amortissements et provisions  
+Les comptes 781 et 786 sont crédités du montant res pectif des reprises sur amortissements et aux 
+provisions par le débit des subdivisions des comptes d'amortissements et de provisions concernés.  
+79 Transferts de charges  
+Le compte 79 enregistre les charges liées aux activi tés ordinaires et aux activités de placement et de 
+financement à transférer soit à un compte de bilan, soit à un autre compte de charges.  

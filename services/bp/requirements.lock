@@ -1,0 +1,14 @@
+# bp service lockfile (Python 3.11). Direct dependencies pinned to the versions the tests ran with.
+# Regenerate the full transitive lock in CI with: pip-compile --generate-hashes requirements.in
+# No torch, paddle or whisper here (rule 1). Embeddings and the LLM are reached over HTTP.
+fastapi==0.143.0
+uvicorn==0.53.0
+pydantic==2.13.5
+httpx==0.28.1
+python-multipart==0.0.32
+pymupdf==1.28.2
+python-docx==1.2.0
+openpyxl==3.1.5
+matplotlib==3.11.2
+numpy==2.5.3
+pyyaml==6.0.3

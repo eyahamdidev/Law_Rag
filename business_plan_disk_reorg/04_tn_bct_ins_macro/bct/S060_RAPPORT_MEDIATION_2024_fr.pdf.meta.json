@@ -1,0 +1,20 @@
+{
+ "id": "S060",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Publications",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/RAPPORT_MEDIATION__2024_fr.pdf",
+ "parent": "https://www.bct.gov.tn/bct/siteprod/page.jsp?id=76",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/RAPPORT_MEDIATION__2024_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "2cddada93c0757dc1955dc268da31c26f527848100fd3e30c99ff954d48c1cdc",
+ "bytes": 1186329,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\linked\\S060_RAPPORT_MEDIATION_2024_fr.pdf",
+ "pages": 31,
+ "text_chars": 34177,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 13 Jan 2026 06:57:14 GMT"
+}

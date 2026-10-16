@@ -56,6 +56,10 @@ class Settings(BaseSettings):
     # Fraud detection service (fraud_detection/), run separately: python -m fraud_detection serve --port 8100
     fraud_service_url: str = "http://127.0.0.1:8100"
     fraud_timeout_s: float = 60.0
+    # Business plan service (services/bp/), run separately on port 8104. Uploads are shared by reference.
+    uploads_dir: Path = REPO_ROOT / "data" / "uploads"
+    bp_service_url: str = "http://localhost:8104"
+    bp_timeout_s: float = 180.0
     # gpt-oss only: hidden reasoning tokens count toward max_tokens. low | medium | high
     llm_reasoning_effort: str = "low"
 
@@ -74,3 +78,4 @@ settings.aid_corpus_dir = settings.resolve(settings.aid_corpus_dir)
 settings.fraud_data_dir = settings.resolve(settings.fraud_data_dir)
 settings.business_plan_dir = settings.resolve(settings.business_plan_dir)
 settings.data_dir = settings.resolve(settings.data_dir)
+settings.uploads_dir = settings.resolve(settings.uploads_dir)

@@ -1,0 +1,20 @@
+{
+ "id": "S059",
+ "dataset": "business_plan",
+ "section": "Tunisian macro and financial inputs for projections",
+ "name": "BCT - statistics index, annual report, publications - Annual report",
+ "url": "https://www.bct.gov.tn/bct/siteprod/documents/RA_fr.pdf",
+ "parent": "",
+ "flag": "S / E",
+ "final_url": "https://www.bct.gov.tn/bct/siteprod/documents/RA_fr.pdf",
+ "content_type": "application/pdf",
+ "sha256": "209d9c6b7a6c985a5563434796ed7ee2a42186b25e64f26f8b43f3c29c72c561",
+ "bytes": 6766673,
+ "status": "ok",
+ "path": "business_plan\\Tunisian_macro_and_financial_inputs_for_projection\\S059_BCT_statistics_index_annual_report_publications_Annual_repor.pdf",
+ "pages": 253,
+ "text_chars": 592274,
+ "needs_ocr": false,
+ "lang": "fr",
+ "last_modified": "Tue, 07 Jul 2026 12:08:17 GMT"
+}

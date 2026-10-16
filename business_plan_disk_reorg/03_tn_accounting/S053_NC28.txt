@@ -1,0 +1,318 @@
+http://www.procomptable.com/ 1
+NC 28 
+Les revenus dans les entreprises  
+d’assurances et / ou de réassurance 
+ 
+ 
+Objectif  
+01. L'activité d'assurance et/ou de réassurance se caractérise par :  
+• une inversion du cycle de la production : La prime est encaissée immédiatement, alors que la 
+prestation et le règlement de l'indemnité interviennent ultérieurement;  
+• une promesse de prestation qui peut se réaliser comme elle peut ne pas se réaliser.  
+02. Les produits des entreprises d'assurance et/ou de réassurance regroupent à la fois les revenus et 
+les gains. Les revenus sont les produits provenant des activités techniques et financières qui 
+s'inscrivent dans le cadre de l'exploitation centrale et permanente. Ils sont généralement pris en 
+compte lorsqu'une augmentation d'avantages économiques futurs, liée à une augmentation d'actif ou 
+à une diminution de passif, s'est produite et qu'elle peut être mesurée de façon fiable.  
+03. L'objectif de la présente norme est de définir la façon selon laquelle ces revenus sont mesurés, le 
+moment de leur constatation dans les états financiers de l'entreprise et de déterminer la nature des 
+informations à fournir à leur sujet. Cette norme couvrira les opérations relatives aux primes 
+d'assurance et de réassurance.  
+Champ d'application  
+04. La présente norme est applicable à toutes les entreprises d'assurance et/ou de réassurance 
+soumises à la tenue et la publication de leurs états financiers en Tunisie. Elle concerne la 
+comptabilisation des produits générés par le cours des activités techniques s'inscrivant dans 
+le cadre de l'exploitation centrale ou permanente de l'entreprise.  
+05. Les produits des activités financières provenant des placements mobiliers et immobiliers qui 
+constituent des revenus pour les entreprises d'assurance et/ou de réassurance sont développés dans 
+une norme spécifique relative aux placements et ne sont donc pas traités dans le cadre de cette 
+norme.  
+06. La présente norme ne traite pas des commissions reçues des réassureurs et des coassureurs 
+dans la mesure où les produits reçus sont censés couvrir les frais de gestion engagés par l'entreprise 
+d'assurance et/ou de réassurance et ne constituent donc pas des revenus au sens de la présente 
+norme.  
+Définitions  
+07. Dans la présente norme, les termes ci-après sont utilisés avec les significations suivantes :  
+a) La prime ou cotisation  
+La prime ou cotisation est la rémunération que perçoit l'assureur et/ou le réassureur en contrepartie 
+du risque assuré conformément aux termes du contrat.  
+Le montant de la prime ou de la cotisation intègre les différents éléments suivants :  
+• la prime pure qui correspond à la valeur probable des prestations pécuniaires qui seront 
+versées aux assurés. Elle intègre notamment la probabilité de survenance du sinistre et 
+l'intensité du sinistre probable (son coût moyen) et la valeur actuelle probable,  
+• les chargements qui visent à couvrir les frais de gestion et d'acquisition engagés par 
+l'entreprise d'assurance et/ou de réassurance,  
+• les taxes d'assurance et les diverses contributions qui sont collectées par l'assureur et 
+reversées au profit de l'Etat.  
+http://www.procomptable.com/ 2
+L'ensemble constitué par la prime pure et les chargements de gestion des risques est dénommé prime 
+de risque. La prime de risque majorée des autres chargements est appelée prime commerciale, et 
+lorsqu'elle est augmentée des taxes, prime totale.  
+Les affaires directes correspondent aux primes ou cotisations relatives à des contrats distribués 
+directement ou par le biais d'un intermédiaire pour lequel l'assureur reste seul responsable du 
+paiement des prestations vis à vis de l'assuré.  
+Les acceptations correspondent aux primes ou cotisations reçues d'un assureur ou d'un réassureur (le 
+cédant) relatives à des contrats qui ont été distribués par lui-même ou par un autre assureur ( cas des 
+rétrocessions) selon des modalités variables prévues dans le traité de réassurance. L'assureur ou le 
+réassureur qui accepte les primes ou cotisations (le cessionnaire) est lié au cédant par le traité qui 
+n'est cependant pas opposable à l'assuré. L'assureur direct est seul engagé vis à vis de l'assuré et 
+doit donc constituer la totalité des provisions techniques brutes.  
+La coassurance consiste à diviser la garantie d'un risque important entre plusieurs assureurs 
+responsables vis-à-vis de l'assuré de la seule part acceptée. Les primes ou cotisations de contrats en 
+coassurance sont considérées à ce titre comme des affaires directes.  
+b) Les ristournes de primes ou de cotisations  
+Il s'agit du remboursement à l'assuré d'une partie de la cotisation ou de la prime qu'il a versée. Il peut 
+s'agir notamment des remboursements effectués pour la modification ou la suspension volontaire des 
+garanties du contrat.  
+c) Les compléments de primes ou de cotisations  
+Il s'agit des compléments de primes ou de cotisations demandées à l'assuré notamment dans le cas 
+où le montant de celles-ci dépend d'une déclaration de l'assuré et pour lesquelles un appel de primes 
+a été effectué sur des bases estimatives.  
+d) Les primes émises  
+Ce sont les primes ayant fait l'objet d'une émission. On distingue généralement en assurance non-vie 
+les primes comptant, relatives aux affaires nouvelles et les primes terme, pour les affaires en tacite 
+reconduction ou pour celles dont les primes sont fractionnées c'est à dire dont le paiement est 
+effectué selon un échéancier prédéterminé indépendant de la période de garantie contractuelle. En 
+assurance vie, on distingue les primes uniques, les primes périodiques et les versements libres.  
+e) Les annulations de primes  
+Les annulations de primes sont les quittances qui ont été annulées par l'entreprise d'assurance et/ou 
+de réassurance du fait notamment du non-paiement des primes, de primes émises à tort par 
+l'entreprise ou d'avenants avant l'échéance modifiant les conditions du contrat.  
+f) Les primes acquises et non émises (PANE)  
+Les primes acquises et non émises sont des primes afférentes à l'exercice courant mais n'ayant pu 
+être émises; elles peuvent être assimilées à des produits non encore facturés. Les motifs de 
+constitution des primes acquises et non émises sont les suivants :  
+• les contrats dits à déclaration pour lesquels l'émission des primes s'effectue au moment de la 
+réception de la déclaration. Le cas le plus fréquent concerne les assurances basées sur la 
+masse salariale ou le chiffre d'affaires d'une entreprise pour lesquels l'assureur ne dispose 
+des informations qu'au cours de l'exercice suivant. 
+• les contrats pour lesquels l'émission n'a pu être effectuée en raison de retard dans les 
+services émission ou dans les traitements informatiques,  
+• lorsque les primes mises en recouvrement ont fait l'objet d'une annulation comptable et que la 
+fraction des primes non contestée n'a pas encore fait l'objet d'une nouvelle émission,  
+• dans le cas de coassurance passive, l'émission des primes est généralement constatée à la 
+réception des documents contractuels relatifs à l'opération de coassurance et nécessite la 
+constitution de primes acquises et non émises.  
+ 
+ 
+http://www.procomptable.com/ 3
+g) Les primes non acquises (PNA)  
+Les primes non acquises correspondent à la fraction des primes émises ou des primes acquises et 
+non émises qui concerne l'exercice suivant ou les exercices ultérieurs.  
+h) Les primes à annuler  
+Les primes à annuler, appelées également provision pour annulation de primes, sont comptabilisées 
+lors de chaque inventaire. Elles sont destinées à faire face aux annulations futures pouvant intervenir 
+après la clôture de l'exercice sur les primes émises et les primes acquises et non émises. Les primes 
+à annuler ne sont pas affectées précisément à un ou plusieurs assurés déterminés mais sont 
+évaluées sur la base de méthodes statistiques reconnues.  
+i) Les frais d'acquisition reportés  
+Les frais d'acquisition reportés comprennent la fraction imputable aux exercices ultérieurs des 
+commissions versées aux intermédiaires ainsi que les coûts internes d'acquisition, tels qu'ils 
+ressortent de la répartition des charges par destination, qui ont été comptabilisés en charge de 
+l'exercice en cours ou des exercices antérieurs.  
+j) Les primes cédées  
+Les primes cédées correspondent aux primes qui sont reversées par la cédante au cessionnaire 
+(assureur ou réassureur) en contrepartie des risques qu'il a accepté de garantir.  
+k) Les primes acceptées  
+Les primes acceptées correspondent aux primes reçues par le cessionnaire en contrepartie des 
+risques qu'il a accepté de garantir.  
+I) Les primes rétrocédées  
+Les primes rétrocédées correspondent à la partie des primes acceptées qui est cédée à un réassureur 
+appelé rétrocessionnaire.  
+m) Les entrées en portefeuille  
+L’entrée en portefeuille correspond à la prise en charge par le réassureur moyennant rémunération 
+des risques déjà en cours et de la sinistralité rattachée, au moment de l'entrée en vigueur du traité.  
+n) Les sorties de portefeuille  
+La sortie de portefeuille correspond à la libération du réassureur de ses engagements sur les risques 
+en cours et la sinistralité rattachée, à l'expiration du traité.  
+o) La réassurance facultative  
+La réassurance est dite facultative lorsque l'assureur ou le réassureur doit informer le réassureur ou le 
+rétrocessionnaire sur la nature du risque concerné et que celui ci a la possibilité d'accepter ou de 
+refuser d'accorder sa garantie.  
+p) La réassurance proportionnelle  
+L'échange des consentements entre l'assureur (ou le réassureur) et le réassureur cessionnaire (ou 
+rétrocessionnaire) est formalisé par un traité qui matérialise les engagements réciproques de chacune 
+des parties.  
+q) La réassurance non proportionnelle  
+L'échange des consentements entre l'assureur (ou le réassureur) et le réassureur cessionnaire (ou le 
+rétrocessionnaire) est formalisé par un traité qui matérialise les engagements réciproques de chacune 
+des parties.  
+La réassurance est dite non proportionnelle lorsque les sinistres ne sont pas cédés dans la même 
+proportion que les primes. Il existe deux types de réassurance non proportionnelle, le traité en 
+excédent de sinistres (XL) et le traité en excédent de taux de sinistre (SL).  
+http://www.procomptable.com/ 4
+Règles de prise en compte et d'évaluation  
+Mesure des revenus  
+08. Les revenus doivent être mesurés à la juste valeur des contreparties reçues ou à recevoir 
+au titre de la vente du contrat d'assurance ou de l'acceptation d'un risque.  
+09. Cette juste valeur est généralement déterminée par les tarifs pratiqués par l'entreprise d'assurance 
+et/ou de réassurance et éventuellement une entente entre l'entreprise d'assurance et l'assuré dans le 
+cadre des dérogations tarifaires qui peuvent être pratiquées. Dans le cas des acceptations, la juste 
+valeur est déterminée par la valeur des primes qui seront versées par l'assureur direct au titre des 
+risques couverts telles qu'elles sont définies dans le traité de réassurance. Les taxes sur les contrats 
+d'assurances collectées pour le compte de l'Etat ne font pas partie des revenus.  
+Constatation des revenus  
+Assurance non-vie  
+Primes émises  
+10. Les revenus provenant de la distribution des contrats d'assurance et des acceptations en 
+réassurance doivent être comptabilisés dès la prise d'effet des garanties prévues au contrat 
+d'assurance c'est à dire à la signature de celui-ci même si le montant de la prime n'a pas 
+encore fait l'objet d'un encaissement par l'entreprise d'assurance et /ou de réassurance.  
+11. Pour les contrats d'assurance qui peuvent être reconduits par tacite reconduction, la prise d'effet 
+des garanties est considérée, en l'absence d'éléments infirmant cette position, comme étant la date 
+anniversaire de l'échéance du contrat de telle sorte qu'il n'y ait pas rupture de la période de 
+couverture.  
+12. Le fractionnement des primes d'assurance doit être considéré comme une modalité de 
+paiement des primes et non comme un fractionnement de la couverture d'assurance.  
+13. Ainsi, dans le cas d'un contrat annuel avec paiement fractionné, l'émission doit être réalisée pour 
+la totalité de l’année et chaque paiement vient amortir la créance qui a été constatée par l'assureur.  
+14. Toutefois, et au cas où le contrat stipule une possibilité de résiliation en cours de période, les 
+entreprises d'assurance et/ou de réassurance peuvent ne comptabiliser que les quittances émises et 
+procéder aux régularisations à chaque arrêté publiable.  
+Primes en coassurance  
+15. Les primes en coassurance doivent être comptabilisées dès lors que l'entreprise dispose 
+d'une information suffisamment précise et fiable de l'apériteur pour permettre la mesure du 
+revenu.  
+Ristourne de prime ou de cotisation  
+16. Les ristournes de primes doivent être comptabilisées par l'entreprise d'assurance dès lors 
+du remboursement effectif à l'assuré sous la forme d'une sortie de liquidité ou d'un avoir sur la 
+prime suivante.  
+Ces ristournes accordées au cours de l'année d'émission de la prime sont comptabilisées en 
+déduction de la prime émise.  
+Annulations de primes  
+17. Dans le cas où une annulation de prime interviendrait ultérieurement à son émission, le montant 
+de cette annulation est individualisé et porté en déduction des primes dans les états financiers.  
+Primes acquises et non émises  
+18. Lors de chaque inventaire dans le cas où, pour des raisons techniques, la prime telle que 
+définie ci-dessus n'a pas fait l'objet d'une émission elle doit être inscrite dans les revenus en 
+utilisant les primes acquises et non émises.  
+Primes non acquises  
+19. Dans le cas où la garantie accordée porte sur plusieurs exercices comptables, seule la part 
+de la prime qui correspond à la période de garantie de l'exercice en cours doit être intégrée 
+dans les revenus de la période.  
+http://www.procomptable.com/ 5
+Ainsi, lors de chaque inventaire, la part des primes qui correspond à l'exercice suivant ou des 
+exercices ultérieurs doit faire l'objet d'un rattachement. Ce rattachement est fait par le biais de 
+provisions calculées sur la base de la méthode du prorata temporis et porte sur la prime 
+commerciale, c'est-à-dire la prime de risque majorée des différents chargements.  
+20. La variation d'un exercice sur l'autre du poste des provisions pour primes non acquises est inscrite 
+sur une ligne spécifique de l'état de résultat technique sous la ligne des primes émises.  
+L'ensemble constitué par les primes émises (compte tenu des annulations, des ristournes sur primes, 
+des variations des primes acquises et non émises et des primes à annuler) et la variation des primes 
+non acquises constituent les primes acquises.  
+Primes à annuler  
+21. Lors de chaque inventaire, les entreprises doivent évaluer, selon des méthodes statistiques 
+reconnues, les annulations de primes qui interviendront sur les primes émises et les primes acquises 
+et non émises.  
+Provision pour ristournes 
+22. Lors de chaque inventaire, les entreprises doivent évaluer les ristournes de primes qui 
+interviendront sur les primes émises et les primes acquises et non émises.  
+Frais d'acquisition reportés  
+23. Lors de chaque inventaire, les entreprises doivent inscrire à l'actif du bilan les frais d'acquisition 
+des contrats pour la fraction non imputable à l'exercice. La période d'imputation des frais d'acquisition 
+ne peut s'étendre au-delà de la date à laquelle le souscripteur peut exercer son droit de résiliation. 
+Lorsque les frais reportés sont des commissions payables à chaque échéance de prime, cette période 
+d'imputation ne peut courir au-delà de la prochaine échéance de prime.  
+Ainsi, les frais d'acquisition reportés sont évalués en appliquant au montant des primes non acquises 
+le coefficient de frais d'acquisition qui est déterminé par le rapport des frais d'acquisitions enregistrés 
+en comptabilité (ligne spécifique de l'état de résultat technique) aux primes émises.  
+Assurance vie  
+Primes émises  
+24. Les primes liées à la distribution des contrats doivent être comptabilisées lorsque l'ensemble des 
+conditions suivantes est satisfait :  
+• Il y a eu échange des consentements entre l'assureur et l'assuré ce qui entraîne la naissance 
+d'une créance certaine qui doit être enregistrée en comptabilité.  
+• Ce produit doit trouver sa contrepartie dans la naissance d'un engagement de l'assureur qui 
+se trouve en principe matérialisé dans les provisions mathématiques.  
+Primes en coassurance  
+25. Les primes en coassurance doivent être comptabilisées dès lors que l'entreprise dispose d'une 
+information suffisamment précise et fiable de l'apériteur pour permettre la mesure du revenu.  
+Primes acquises et non émises  
+26. A la clôture de l'exercice il doit être tenu compte des garanties ayant pris effet avant la date de 
+clôture mais pour lesquelles la prime correspondante n'a pu être émise. L'enregistrement comptable 
+est effectué à l'aide des comptes de primes acquises et non émises. Conjointement à la constatation 
+de ce revenu, une provision mathématique doit être évaluée et comptabilisée.  
+Annulation de primes  
+27. Dans le cas où des primes émises ont fait l'objet d'une annulation ultérieure, le montant de ces 
+annulations est inscrit dans un compte spécifique de la nomenclature comptable qui vient en 
+déduction des primes émises dans les états financiers.  
+Primes non acquises  
+28. La notion de primes non acquises, telle que définie infra, concerne principalement les activités 
+non-vie qui reposent le principe de la mutualisation des risques. Cette provision ne peut donc être 
+http://www.procomptable.com/ 6
+constituée dans le cadre des catégories d'assurance vie que pour les opérations de prévoyance 
+individuelles ou collectives ne donnant pas lieu à la constitution de provisions mathématiques.  
+Primes à annuler  
+29. Lors de chaque inventaire, les entreprises doivent évaluer, selon des méthodes statistiques 
+reconnues, les annulations de prime qui interviendront sur les primes émises et les primes acquises et 
+non émises.  
+Frais d'acquisition reportés  
+30. Les entreprises doivent inscrire à l'actif du bilan les frais d'acquisition des contrats et les amortir 
+sur la durée de vie moyenne des contrats selon la méthode de l'amortissement linéaire. L'analyse doit 
+être effectuée par catégories homogènes de contrats.  
+Réassurance  
+Réassurance facultative  
+31. Dans le cadre de cette forme de réassurance, le réassureur ne s'engage que sur une 
+connaissance précise du risque et du revenu associé. La comptabilisation de ces opérations 
+doit donc être réalisée lors de l'obtention du bordereau d'engagement qui matérialise 
+l'acceptation.  
+32. Par commodité, les affaires cédées par le biais de la réassurance facultative peuvent n'être 
+comptabilisées que de manière intermittente si la périodicité est au moins trimestrielle.  
+Réassurance proportionnelle  
+33. Dans les traités proportionnels, les primes et les sinistres sont cédés dans la même proportion. Le 
+fait générateur de la comptabilisation des primes cédées est donc la comptabilisation des primes 
+elles-mêmes.  
+34. Cependant, par commodité, la pratique consiste à ne recenser les primes cédées que 
+périodiquement. La comptabilisation des primes cédées n'est donc réalisée que lors des arrêtés des 
+opérations de réassurance qui devraient être réalisés au moins trimestriellement.  
+Réassurance non proportionnelle  
+35. Le fait générateur de la comptabilisation des primes cédées est donc la comptabilisation des 
+primes elles-mêmes.  
+Lorsque les traités prévoient des taux de prime variables et des minimums de primes, la 
+comptabilisation de la cession doit être réalisée lorsque le montant peut être mesuré de façon fiable.  
+Primes cédées ou rétrocédées  
+36. La comptabilisation des cessions doit être réalisée dans l'exercice sans décalage. 
+L'enregistrement sur l'exercice suivant d'opérations relatives à l'exercice précédent doit donc 
+rester exceptionnel.  
+37. Les primes cédées ou rétrocédées doivent être comptabilisées dès lors que l'entreprise dispose 
+d'une information suffisamment précise et fiable pour permettre la mesure du revenu cédé.  
+38. Selon la nature des traités, la mesure du revenu cédé et/ou rétrocédé et par conséquent 
+l'enregistrement de ces opérations peuvent être réalisés lors de l'émission des primes ou à l'issue 
+d'une période déterminée.  
+Ainsi, par commodité un inventaire intermittent de ces opérations peut être réalisé mais la 
+comptabilisation doit être cependant opérée régulièrement avec une périodicité au moins trimestrielle.  
+Les cédantes doivent fournir trimestriellement ces informations aux cessionnaires (réassureurs ou 
+rétrocessionnaires).  
+Primes acceptées  
+39. Les primes acceptées doivent être comptabilisées dès lors que l'entreprise dispose d'une 
+information suffisamment précise et fiable du cédant pour permettre la mesure du revenu.  
+http://www.procomptable.com/ 7
+40. La comptabilisation des acceptations doit être réalisée dans l'exercice sans décalage. 
+L'enregistrement sur l'exercice suivant d'opérations relatives à l'exercice précédent doit donc rester 
+exceptionnel.  
+A ce titre, les entreprises doivent mettre en place des procédures adéquates pour assurer la 
+bonne information des contractants dans les délais requis.  
+41. En cas de retard dans la comptabilisation des opérations d'acceptation, le résultat de la période 
+sur le traité concerné ne pourra pas être reconnu en comptabilité sauf dans le cas où l'on estime qu'il 
+sera déficitaire. Lors de l'inventaire, les primes manquantes doivent être :  
+• estimées si l'entreprise possède des informations suffisamment fiables pour réaliser ces 
+estimations. Dans ce cas, le compte de provision pour sinistres à payer doit être utilisé pour 
+neutraliser le résultat éventuel. Cependant, si une perte est attendue, elle doit faire l'objet 
+d'une provision complémentaire,  
+• ignorées dans le cas où l'entreprise ne possède pas d'éléments suffisamment fiables pour 
+estimer les éléments manquants. Les éléments disponibles sont alors neutralisés.  
+Informations à fournir  
+42. Les entreprises d'assurance et/ou de réassurance doivent fournir dans les notes aux états 
+financiers un tableau de résultat technique ventilé par catégorie d'assurance et sous catégorie 
+d'assurance (cf. §.87 et 88 de la Norme de présentation des états financiers : Résultat technique par 
+catégorie).  
+43. Les entreprises d'assurance et/ou de réassurance doivent également ventiler les primes brutes 
+émises par zone géographique (cf. §.94 de la Norme de présentation des états financiers : Ventilation 
+des primes par zone géographique et ventilation des primes par secteur).  
+44. Les notes aux états financiers doivent renseigner sur les primes émises par nature de risque 
+(commercial ou non commercial pour l’assurance des risques à l'exportation).  
+Date d'application  
+45. La présente norme est applicable aux états financiers relatifs aux exercices ouverts à partir du 1er 
+janvier 2001.  
+ 
+ 

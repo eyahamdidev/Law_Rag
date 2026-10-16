@@ -1,0 +1,256 @@
+http://www.procomptable.com/ 1
+NC 04  
+Norme comptable relative aux Stocks 
+ 
+Objectif 
+01. Lorsque l'activité de l'entreprise implique la dét ention de stocks, ceux-ci constituent généralement 
+une part importante de ses actifs. Il est nécessaire qu'ils soient correctement traduits dans les états 
+financiers en raison de leur impact significatif sur la si tuation financière et sur la mesure des résultats 
+d'une période donnée. 
+02. Le cadre conceptuel de la comptabilité définit, comme suit, la convention de rattachement des 
+charges aux produits : "lorsque des  produits sont comptabilisés au cours d'un exercice, toutes les 
+charges correspondantes ayant concouru à la réalisat ion de ces produits doivent être déterminées et 
+rattachées à ce même exercice". 
+03. Par référence à cette convention, la détermi nation du montant des coûts des stocks conduit à 
+identifier les éléments de charges se rattachant à ces stocks, et ce, dans le but d'aboutir à une 
+mesure appropriée du résultat de l'exercice. 
+Champ d'application 
+04. La présente norme doit être appliquée pour l'évaluation, la comptabilisation et la 
+présentation dans les états financiers des stocks autres que : 
+a. les stocks de travaux en cours liés à des contrats de construction y compris les 
+contrats de prestation de services qui leur sont directement rattachés ; 
+b. les instruments financiers ; et 
+c. les stocks de minerais dans les industries extractives et les stocks de cheptel, de 
+produits agricoles et forestiers dans les états financiers des producteurs régis par des 
+normes comptables spécifiques. 
+Définitions 
+05. Dans la présente norme, les termes ci-dessous ont la signification suivante : 
+Les stocks sont les éléments d'actif : 
+a. détenus pour être vendus dans le cours normal de l'exploitation ; ou bien 
+b. en cours de production pour une telle vente ; ou bien 
+c. sous forme de matières ou de fournitures devant être consommées au cours du 
+processus de production ou de la prestation de services. 
+Le coût historique
+ est le montant de liquidités versé ou d'équivalent de liquidités ou la juste 
+valeur de toute autre contrepartie donnée ou qu' il aurait fallu donner pour s'approprier un bien 
+au moment de son acquisition ou de sa production. 
+La valeur de réalisation nette  est le prix de vente estimé réalisable dans des conditions 
+normales de vente, diminué des coûts estimés n écessaires pour achever le bien et réaliser la 
+vente. 
+Le coût de remplacement
+ est le montant qu'il serait nécessaire de donner pour acquérir ou 
+reproduire un bien. 
+Éléments constitutifs des stocks 
+06. Le critère distinctif fondamental pour reconnaîtr e un élément de stock est sa destination et son 
+utilisation par rapport à l'activité courante de l'entreprise plutôt que sa nature. Ainsi, un même élément 
+de stock reconnu comme tel dans une entreprise peut  être traité différemment dans une autre 
+entreprise. Par exemple, un immeuble construit par une entreprise de promotion immobilière et 
+destiné à la vente est traité comme élément de st ocks alors qu'il est traité en tant qu'immobilisation 
+par l'entreprise qui l'a acheté pour y abriter ses services. 
+http://www.procomptable.com/ 2
+07. Le fait qu'un élément d'actif immobilisé, amortissabl e ou non, est retiré du service actif pour être 
+vendu n'implique pas nécessairement qu'il soit classé dans les stocks, dans la mesure où le but de sa 
+détention initiale par l'entreprise est de l'utiliser de façon durable. 
+08. Des matières premières et consommables ac hetées pour être utilisées dans le processus de 
+production, peuvent être également utilisées ou cons ommées pour la réalisation d'un élément d'actif 
+ou dans d'autres activités non liées directement à la production. Le fait que ces matières représentent 
+une proportion non significative par   rapport à ce lles utilisées dans le processus de production ne 
+justifie pas qu'elles soient    traitées ou classées séparément. 
+09. Les pièces de rechange pouvant être utilisées de m anière diversifiée constituent des stocks. En 
+revanche, les pièces de rechange spécifiques utilis ées exclusivement pour des immobilisations non 
+interchangeables sont traitées en tant qu'immobilis ation (Cf. Norme Comptable "Immobilisations 
+corporelles"). 
+Évaluation des stocks 
+10. Les stocks doivent être évalués au coût histori que ou à la valeur de réalisation nette si elle 
+est inférieure. 
+Éléments du coût des stocks 
+11. Le coût historique des stocks correspond au  coût d'acquisition pour les éléments achetés 
+et au coût de production pour les éléments pr oduits. Il inclut l'ensemble des coûts encourus 
+pour mettre les stocks à l'endroit et dans l'état où ils se trouvent. 
+ Coût d'acquisition 
+12. Le coût d'acquisition des stocks comprend le prix d'achat, les droits de douane à 
+l'importation et taxes non récupérables par l'entr eprise, ainsi que les frais de transport, 
+d'assurances liés au transport de réception et au tres coûts directement liés à l'acquisition des 
+éléments achetés. 
+13. Toutes les réductions commerciales et autres éléments analogues, sont déduits du coût 
+d'acquisition, et ce, à l'exception des subventi ons se rapportant aux biens stockés (Cf. Norme 
+Comptable "Subventions publiques"). 1 
+                                            
+1 Le fait que la norme exclut les subventions des éléments à déduire des coûts des stocks es t en contradiction avec la 
+convention de rattachement des charges aux produits : 
+Exemple : Soit une entreprise qui n'a réalisé qu'une seule opération : 
+Achat 1000 unités x 100 = 100.000 - (moins) subvention reçue 10 par unité soit 10.000. 
+La subvention est portée en produits de l'exercice au compte «741 Subventions d'exploitation». 
+Si aucune vente n'est réalisée, l'application du § 13 de la NC 4 donne la situation ci-dessous : 
+Etat de résultat 
+Charges 
+Achats 100.000
+Stocks finals -100.000
+Achats consommés 0
+Produits 
+Subvention d'exploitation 10.000
+Bénéfice brut 10.000
+Bilan 
+Stocks 100.000   Capital 100.000
+Trésorerie 10.000   Bénéfice brut 10.000
+Total 110.000   Total 110.000
+Ainsi, la règle qui consiste à ne pas déduire la subvention du coût des stocks qu' elle a financés se trouve à l'origine de 
+l'anomalie qui consiste à dégager un bénéfice avant qu'aucune vente ne soit réalisée. 
+Pour que la disposition de la norme puisse s'appliquer sans fausser le résultat, il f aut constater la subv ention d'exploitation 
+correspondant aux éléments en stocks à la date de clôture en régularisation actif «472 Produits constatés d'avance». 
+Cette solution qui rétablit la logique comptable est pénalisante fi scalement car dans ce cas, la régularisation comptable n'est 
+pas fiscalement opérante. En effet, fiscalement les subventions d'exploitation sont soumises à l'impôt sur les bénéfices au tit re 
+de l'année au cours de laquelle elles sont encaissées. 
+http://www.procomptable.com/ 3
+14. Les coûts d'acquisition peuvent inclure les différences de change provenant directement de 
+l'acquisition récente des stocks facturés dans une monnaie étrangère et ce, dans les limites prévues 
+par la Norme Comptable "Opérations en monnaies étrangères" et à l'occasion d'une grave dévaluation 
+ou d'une dépréciation. 
+ Coût de production 
+15. Le coût de production des stocks comprend le coût d'acquisition des matières 
+consommées dans la production, et une juste part  des coûts directs et indirects de production 
+pouvant être raisonnablement rattachée à la production. 
+16. Les coûts directs et indirect s de production comprennent les coût s de main-d'œuvre directe, de 
+main-d'œuvre indirecte, des am ortissements et d'entretien des bâtiments et équipements industriels et 
+les frais de gestion et d'administration de la pr oduction. Ces coûts doivent être analysés pour 
+déterminer la juste part qui peut être consi dérée comme ayant contribué à amener les stocks à 
+l'endroit et dans l'état où ils se trouvent. 
+17. Lorsque le niveau réel de production est inférieur  à la capacité normale de production, les frais 
+généraux fixes de production, tels que les charges  d'amortissement des bâtiments et équipements 
+industriels et les frais de gestion et d'administr ation de la production, sont imputés au coût de 
+production à hauteur du niveau réel de production à la capacité normale de production. Les frais 
+généraux fixes de production non imputés au coût de production sont constatés en charges de la 
+période au cours de laquelle ils sont encourus . La capacité normale de production correspond au 
+niveau de production nominale, diminuée de la perte de capacité résultant des périodes normales de 
+congés et arrêts de travail et des activités d'entretien planifié. 
+18. Le montant des frais généraux fixes imputés à chaque unité produite n'est pas augmenté par suite 
+d'une baisse de production ou d'une capacité inutilisée.  Les frais généraux non affectés sont 
+constatés en charge de la période au cours de laque lle ils sont encourus. Dans des périodes de 
+production anormalement élevée, le montant des frais généraux fixes imputés à chaque unité produite 
+est diminué de façon que les stocks ne soient pas mesurés au dessus de leur coût. 
+19. La valeur de matières premières anormalement gaspillées, de main-d'œuvre ou d'autres dépenses 
+perdues, qui ne sont pas encourues pour amener les sto cks à l'endroit et dans l'état où ils se trouvent 
+ne sont pas inclus dans le coût de production. 
+20. Un processus de production peut donner lieu à la production simultanée de plus d'un produit. A 
+titre d'exemple, on peut citer le cas de production de produits liés ou lorsqu'il y a un produit principal et 
+un sous-produit. Lorsque les coûts de transformat ion de chaque produit ne sont pas identifiables 
+séparément, ils sont répartis entre les produits su r une base rationnelle et cohérente. Cette répartition 
+peut être basée par exemple sur la valeur de vente relative de chaque produit, soit au stade du 
+processus de production où les produits deviennent i dentifiables séparément, soit à l'achèvement de 
+la production. La plupart des sous-produits, de par leur nature, sont non significatifs. Lorsque tel est le 
+cas, ils sont souvent mesurés à la valeur réalisable nette et cette valeur est déduite du coût du produit 
+principal. Par suite, la valeur comptable du produit principal n'est pas différente de façon significative 
+de son coût. 
+21. Les frais commerciaux ne sont pas inclus dans le coût de production. Toutefois, les dépenses de 
+recherche et de développement se rapportant à des  commandes spécifiques peuvent être incluses 
+dans le coût de production. 
+22. Les frais généraux administratifs sont exclus du coût de production parce qu'ils ne contribuent pas 
+directement à mettre les stocks à l'endroit et dans l'état où ils se trouvent. 
+23. La prise en compte des frais financiers dans le  coût d'acquisition ou dans le coût de production 
+des stocks lorsque ces frais sont liés à des em prunts ayant financé des cycles d'approvisionnement, 
+de stockage ou de production supérieurs à 12 mois, est à considérer conformément aux dispositions 
+de la Norme Comptable "Charges d'emprunt". 
+ Coût des stocks dans les activités de prestation de services 
+24. Le coût des stocks d'un prestataire de services comprend la main-d'œuvre et les autres 
+frais de personnel directement engagés pour la réalisation du service y compris le personnel 
+d'encadrement et les frais généraux s'y rapportant. Les coûts relatifs aux ventes et au 
+personnel administratif général n'y sont pas inclus. 
+http://www.procomptable.com/ 4
+ 
+Formules de valorisation des stocks 
+25. Les éléments de stocks identifiables sont évalués à leur coût individuel. 
+Le coût des éléments de stocks interchangeables doit être déterminé en utilisant la méthode 
+du coût moyen pondéré ou la méthode du premier entré, premier sorti, selon celle qui permet 
+le meilleur rattachement des charges aux produits. 
+26. Les éléments de stocks qui ne sont pas ordinaire ment fongibles et les produits fabriqués et 
+services affectés à des projets spécifiques font  l'objet d'une identification spécifique de leurs coûts 
+individuels déterminés article par article ou catégorie  par catégorie. Dans ce cas, c'est la méthode du 
+coût individuel qui est pratiquée et qui conduit à déterminer les coûts spéc ifiques imputables aux 
+éléments ou catégories d'éléments existants en stock. 
+27. La méthode du coût moyen pondéré conduit à détermi ner le coût des stocks comme étant la 
+moyenne pondérée du coût des élém ents existants en début de péri ode et du coût des éléments 
+achetés ou produits au cours de la période. Le coût moyen pondéré est normalement calculé à 
+chaque nouvelle réception. Il peut être calculé une seule fois en fin d'exercice ou périodiquement en 
+cours d'année, selon les conditions particulières de l'entreprise. 
+28. La méthode du premier entré, premier sorti, c onduit à affecter aux éléments de stock vendus ou 
+consommés le coût des plus anciens éléments en stock. Par conséquent, le coût des stocks à la 
+clôture de l'exercice correspond à celui des plus récents articles achetés ou produits. 
+Comptabilisation des stocks 
+29. Il existe deux méthodes pour comptabiliser le flux d'entrée et de sortie des stocks : la méthode 
+d'inventaire permanent et la méthode d'inventaire intermittent. 
+30. Dans la méthode d'inventaire permanent, les produi ts achetés ou fabriqués sont portés dans le 
+compte de stock au moment de leur acquisition ou pr oduction. Leurs sorties pour être utilisés dans la 
+production ou pour être vendus constit uent des charges de l'exercice et  sont portées, de ce fait, dans 
+l'état de résultat. 
+31. Dans la méthode d'inventaire intermittent, tous les achats sont considérés provisoirement comme 
+des charges de l'exercice et les stocks sont déterminés de manière extra-comptable à la date de 
+l'arrêté de la situation comptable et portés dans les comptes de situation et de résultat. Les stocks 
+correspondent ainsi aux charges préalablement compt abilisées et non consommées à la date d'arrêté 
+de la situation comptable. 
+32. La comptabilisation des flux d'entrée et de sortie des stocks par la méthode d'inventaire 
+permanent est plus appropriée dans la mesure où elle permet d'établir une correspondance 
+directe entre les coûts des stocks vendus et les revenus y afférents. Elle permet également un 
+suivi comptable des stocks et favorise l'arrêté rapide des situations comptables périodiques. 
+33. Quelle que soit la méthode de comptabilisation retenue, les stocks doivent faire l'objet d'un 
+inventaire physique au moins une fois par an. 
+Lorsque la méthode d'inventaire permanent est utilisée,  l'inventaire physique est substitué au stock 
+comptable et la différence est portée dans l'état de résultat. 
+Détermination de la valeur de réalisation nette 
+34. La valeur de réalisation nette des stocks doit être déterminée sur la base de l'hypothèse la 
+plus vraisemblable de la valeur probable de  réalisation des stocks dans des conditions 
+normales de vente. Il est également tenu compte des données connues après la clôture de 
+l'exercice dans la mesure où ces données confirment les conditions existantes à la clôture de 
+l'exercice. 
+35. La valeur du marché, connue à la clôture de l'exercice, constitue généralement une mesure 
+appropriée de la valeur probable de réalisation des éléments de stocks destinés à être vendus 
+(marchandises, produits finis et produits en cours). Toutefois, pour les sto cks détenus pour satisfaire 
+des contrats de vente fermes, le prix spécifié dans le contrat est plus approprié. 
+36. L'évaluation des matières premières et cons ommables destinées à être utilisées dans la 
+production à la valeur de réalisation nette es t envisagée lorsqu'une baisse des prix des matières 
+http://www.procomptable.com/ 5
+premières ou consommables est telle que le coût des  produits finis atteint un niveau supérieur à leur 
+valeur de réalisation nette. Le coût de remplace ment constitue généralement une mesure appropriée 
+de la valeur de réalisation nette des matières premières et consommables. 
+37. L'estimation de la valeur de réalisation nette  est faite pour chaque type d'éléments en stocks, ou 
+par éléments autrement regroupés dans la mesure  où leur traitement regroupé permet de mieux 
+refléter le résultat de la période, par exemple lorsque la vente des éléments regroupés se fait de 
+manière simultanée. 
+38. Lorsque les produits sont subventionnés ou bénéfici ent d'une compensation à la vente, la valeur 
+de réalisation nette inclut la valeur de la subvention ou de la compensation dans la mesure où : 
+a. une certitude raisonnable de recevoir la subvention ou la compensation est établie, et 
+b. l'entreprise pourra se conformer aux c onditions afférentes à cette subvention ou 
+compensation. 
+39. L'évaluation des stocks à leur valeur de réalisation nette doit aboutir à la constatation de 
+toute dépréciation et perte éventuelle sur les stocks détenus par l'entreprise en charges de 
+l'exercice au cours duquel la dépréciation ou la perte s'est produite. 
+40. Les pertes éventuelles sur les engagements fermes  d'achat d'éléments stock ables doivent être 
+également déterminées et constatées en charges de l'exercice, dans la mesure où les contrats de 
+vente conclus ou d'autres circonst ances indiquent que la vente de ces éléments se fera à des 
+conditions ne permettant pas de couvrir ces pertes. 
+Considérations particulières 
+41. Pour les activités commerciales, il peut être  approprié d'évaluer les stocks à la valeur de 
+réalisation nette, réduite de la marge bénéficiaire normale. 
+Pour les autres activités et lorsqu'il n'est pas possi ble de déterminer le coût des stocks conformément 
+au paragraphe 11, les stocks sont évalués : 
+a. soit au coût d'acquisition ou de production de bi ens équivalents constaté ou estimé à la date 
+la plus proche de l'acquisition ou de la production, 
+b. soit à la valeur de réalisation nette, réduite de la marge bénéficiaire normale. 
+42. Les produits résiduels, notamment les déchets et sous produits, sont évalués à leur valeur de 
+réalisation nette, cette valeur est déduite du coût de production du produit principal. 
+43. Les coûts d'acquisition ou de production peuvent êt re déterminés sur la base de coût standard 
+dans la mesure où le coût global standard des stocks ne s'écarte pas de manière significative du coût 
+global réel des stocks pendant la période considérée. 
+Informations à fournir 
+44. Les états financiers doivent faire apparaître : 
+a. le coût d'origine, la provision pour dépréciation et la valeur comptable nette pour la 
+totalité des stocks et par catégories de stocks si l'information est significative. 
+b. le coût des stocks constatés en charge de l'exercice. 
+c. les méthodes utilisées en matière de traite ment des stocks incluant l'évaluation, les 
+éléments de coût, la valorisation et la comptabilisation des stocks. 
+45. Les changements dans les méthodes de traitement des  stocks qui ont un effet significatif sur le 
+résultat de l'exercice en cours, ou sur les résultats des périodes su ivantes doivent être indiqués (Cf. 
+Norme Comptable "Modifications comptables"). 
+Date d'application 
+46. La présente Norme est applicable, prospect ivement, aux états financiers relatifs aux 
+exercices ouverts à partir du 1er Janvier 1997. 
+ 

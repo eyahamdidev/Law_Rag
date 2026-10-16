@@ -1,0 +1,1470 @@
+http://www.procomptable.com/ 1
+NC 33 
+Norme comptable relative au contrôle interne et a l'organisation comptable 
+dans les associations autorisées a accorder des micro-crédits  
+Objectif  
+01. La norme comptable NC 01 -Norme comptable générale définit les règles de contrôle interne et 
+d'organisation comptable et propose une nomenclatu re des comptes et un guide de fonctionnement 
+général des comptes.  
+Les dispositions de cette norme sont de portée génér ale et devraient s'appli quer aux associations 
+autorisées à accorder des micro-crédits.  
+02. La norme comptable NC 02- Norme comptable relati ve aux capitaux propres  définit les éléments 
+des capitaux propres et étudie le traitement de certaines opérations particulières ainsi que les 
+informations à fournir sur ces él éments. Les dispositions de cette norme ne sont pas applicables aux 
+associations autorisées à accorder des micro-crédits.  
+03. Au regard du cadre réglementaire spécifique des associations autorisées à accorder des micro-
+crédits et de la nature de leur activité, des règles particulières doivent leur être définies afin de mettre 
+en place un système de contrôle interne efficace et un cadre d'organisation comptable approprié ainsi 
+que les règles de prise en compte et d'évaluation des apports.  
+04. L'objectif de la présente norme est de définir le s règles de contrôle interne et d'organisation 
+comptable applicables aux associations autorisées à accorder des micro-crédits y compris les règles 
+de prise en compte et d'évaluation des apports.  
+Champ d'application  
+05. La présente norme s'applique aux associations autorisées à accorder des micro-crédits 
+telles que définies par la législation en vigueur.  
+Définition  
+06. Pour l'application de la présente norme, les termes ci-après ont la signification suivante :  
+(a) Apports :  Correspondent à un transfert au profit de l’association de liquidités ou équivalents de 
+liquidités ou d'autres actifs ou au règlement ou di minution d'un élément de passif, sans contrepartie 
+donnée à rapporteur. Les apports peuvent être sous forme d'apports affectés, d'apports non affectés 
+et de dotations.  
+(b) Apports affectés : sont des apports grevés d'une affectation d'origine externe en vertu de laquelle 
+l'association est tenue de les utiliser à une fin déterminée. On distingue notamment les apports 
+affectés aux charges de l'exercice, aux charges d'un exercice futur, à l'achat d'immobilisations, au 
+remboursement d'une dette. ..  
+(c) Dotations :  constituent un type particulier d'apport gr evé d'une affectation d'origine externe en 
+vertu de laquelle l'association est tenue de maintenir en permanence les ressources attribuées.  
+(d) Apports non affectés :  ne sont liés à aucune charge et ne répondent pas à la définition d'un 
+apport affecté ou d'une dotation.  
+(e) Revenus : les revenus des associations autorisées à accorder des micro-crédits ne résultent pas 
+seulement de l'activité de micro-crédits mais peuv ent également se présenter sous la forme de dons, 
+subventions, cotisations et d'autres apports. En effe t, pour réaliser leurs activités centrales, les 
+associations autorisées à accorder des micro- crédits utilisent les apports sous forme de dons, 
+subventions et autres dons.  
+(f) La juste valeur :  est le prix auquel un bien pourrait êt re échangé entre un acheteur et un vendeur 
+normalement informés et consentants, dans une transaction équilibrée.  
+Contrôle interne  
+Objectifs du contrôle interne  
+07. Les associations autorisées à accorder des mi cro- crédits doivent disposer d'un système 
+de contrôle interne efficace, conçu conformément aux règles prévues par la norme comptable 
+NC 01 -Norme Comptable générale et les dispositions de la présente norme pour tenir compte 
+des spécificités liées à leur cadre légale et à la nature de leurs activités.  
+08. Le système de contrôle interne dans les associations autorisées à accorder des micro-
+crédits doit particulièrement viser les objectifs suivants :  
+http://www.procomptable.com/ 2
+(a) s'assurer que les opérations réalisées sont conduites conformément aux dispositions 
+législatives et réglementaires et en respect av ec les statuts et les décisions des organes de 
+direction,  
+(b) s'assurer que les opérations réalisées sur chaque fonds sont conduites de façon à 
+respecter les accords conclus avec les différents financeurs, subventionneurs et donateurs,  
+(c) s'assurer que les opérations réalisées sur les micro- crédits sont conformes aux 
+dispositions législatives et réglementaires en vigueur,  
+(d) assurer une gestion efficace des ressources ainsi que la protection et la sauvegarde des 
+actifs contre les risques liés aux irrégularités et aux fraudes qui pourraient survenir,  
+(e) garantir l'obtention d'une information financière fiable et pertinente.  
+Facteurs essentiels de contrôle interne  
+09. Il appartient aux organes de direction de détermi ner les procédures et les moyens adéquats pour 
+atteindre les objectifs de contrôle interne et de s'assurer qu'ils fonctionnent correctement. 
+L'intervention de personnel bénévole dans la réalis ation des opérations ne devrait pas écarter ou 
+limiter l'application de ces procédures et moyens.  
+10. Un système de contrôle interne efficace devrait s'appuyer sur les facteurs suivants :  
+a) une organisation et des procédures appropriées permettant notamment la surveillance et le contrôle 
+des opérations liées à l'activité de micro-crédit,  
+b) une délégation de pouvoir claire et appropriée,  
+c) une tenue claire des comptes financiers permettant leur suivi et leur justification,  
+d) un contrôle budgétaire efficace et opérationnel,  
+e) des procédures permettant le respect de la piste d'audit,  
+f) des procédures formelles de collecte des cotisations, dons, subventions et autres apports reçus,  
+g) une procédure claire de traitement du courrier,  
+h) des procédures de gestion des archives incluant des règles de classement et de conservation des 
+documents et des pièces justificatives.  
+11. Une organisation et des procédures appropriées permett ant le suivi et le contrôle des opérations 
+liées à l'activité de micro-crédits supposent :  
+a) l'existence d'un organigramme de la fonction micr o-crédits et une définition des tâches et des 
+responsabilités des personnes intervenantes dans les procédures d'octroi, de décaissement et de 
+recouvrement des micro-crédits,  
+b) l'existence de procédures de suivi et de contrôle permettant :  
+- le respect des taux d'affectation des ressources tels que définis par la réglementation en vigueur,  
+- le respect des limites des montants accordés aux bénéficiaires pour chaque type de micro-crédit, tel 
+que définis par la réglementation en vigueur,  
+- de s'assurer du non-dépassement du taux d'intérêt, dont la limite est définie par la réglementation en 
+vigueur, la surveillance du risque de contre partie.  
+12. Une délégation des pouvoirs claire et appropriée suppose l'existence :  
+a) d'une délégation de pouvoir en ce qui concerne l'autorisation et l'engagement des dépenses par 
+fonds et / ou par projet,  
+b) d'une délégation de pouvoir pour la collecte des dons, subventions cotisations et autres apports,  
+c) d'un processus formel de délégation de signature bien défini,  
+d) une séparation des tâches incompatibles,  
+e) d'un système de rémunération du personnel clair et précis.  
+13. Une tenue claire des comptes financiers permett ant leur suivi et leur justification suppose 
+l'existence :  
+a) d'une séparation entre les dépenses importantes qui couvrent le long terme et les dépenses 
+courantes à court terme,  
+b) d'une séparation claire entre les comptes qui aliment ent la trésorerie propre de l'association et les 
+comptes spécifiques à des fonds affectés,  
+c) d'un document qui mentionne les personnes habilit ées à gérer les comptes financiers en tenant 
+compte de la nature et l'importance du compte,  
+d) d'un rapprochement bancaire périodique entre les comptes financiers et les comptes comptables.  
+http://www.procomptable.com/ 3
+14. Un contrôle budgétaire efficace et opérationnel suppose :  
+a) l'établissement du budget global de l'associati on et des budgets par fonds et/ou par projet en 
+distinguant les dépenses d'investissement et les dépenses de fonctionnement,  
+b) l'existence d'un personnel compétent chargé de l'élaboration des budgets conformément aux 
+décisions des organes de direction et aux affectations des financeurs,  
+c) la comparaison périodique des budgets avec les réalisations,  
+d) une définition des responsabilités et des actions à prendre en cas d'écart significatif.  
+15. Des procédures formelles de collecte des co tisations, dons, subventions et autres apports 
+supposent :  
+• Pour les cotisations :  
+l'existence de procédures de rapprochement régulier entre la liste des adhérents de l'association et les 
+encaissements de cotisations par période couverte, l'existence de procédures d'appel des cotisations 
+et de procédures de relance en cas de non-paiement, l'existence de procédures d'émission des cartes 
+d'adhérents selon une séquence numérique continue et contrôlée.  
+• Pour les dons et subventions : 
+- l'existence systémat iquement d'une procédure d'acceptation des dons et subventions et d'émission 
+de reçus et/ou de coupons selon une séquence numéri que continue et contrôlée et une délégation de 
+signature appropriée,  
+- l'existence d'une séparation de tâches entre les fonctions d'émission des reçus et d'encaissement 
+des dons,  
+- l'existence d'une procédure d'ex amen systématique des docum ents à l'appui des dons, et 
+subventions par des personnes habilitées, pour assure r le respect des obligations imposées par les 
+donateurs et subventionneurs,  
+- l'existence de procédures de recensement imm édiat des dons en nature, d'entrée en stock et de 
+valorisation en respectant le principe de séparation des fonctions.  
+• Pour les apports avec droit de reprise (tel que les fonds pour micro-crédits).  
+- l'existence de procédures d'examen systématique des documents à l'appui des apports avec droit de 
+reprise pour s'assurer de la compréhension et de la portée des conditions et obligations mises à la 
+charge de l'association,  
+- l'existence de procédures de délégation de signature des documents à l'appui des apports avec droit 
+de reprise par des personnes habilitées.  
+16. Une procédure claire de traitement du courrier doit inclure :  
+a) des règles pour l'ouverture du courrier, ainsi que les personnes habilitées à le faire,  
+b) des règles d'enregistrement chronologique du courrier sur des registres,  
+c) des règles de séparation entre le courrier d'arrivé et de départ.  
+Structure d'audit interne 
+ 
+17. Dans les associations autorisées à accorder des micro-crédits de grande taille ou à activité 
+importante, une structure d'audit interne devrai t être mise en place et rattachée directement à 
+la direction de l'association. Elle a pour mission de veiller au bon fonctionnement, l'efficacité et 
+l'efficience du système de contrôle interne.  
+Cette structure a principalement pour rôle :  
+- d'examiner les procédures de collecte des cotisations, dons et subventions et autres apports,  
+- de s'assurer de l'utilisation des ressources conformément aux délibérations des organes de 
+directions et la volonté des financeurs, donateurs et subventionneurs,  
+- de vérifier la fiabilité des informations financières, vérifier le respect des limites législatives et 
+réglementaires concernant l'activité de micro-crédit.  
+18. La structure d'audit interne rend compte par écri t des missions qu'elle accomplit dans le cadre de 
+ses programmes de contrôle régulier. En outre, la structure d'audit interne élabore une fois par an un 
+rapport sur le fonctionnement général du système de contrôle interne qu'elle présente à la direction de 
+l'association pour examen.  
+19. La piste d'audit est un ensemble de procédures permettant d'améliorer les caractéristiques 
+qualitatives et de faciliter le contrôle de l'informat ion financière au sein des associations autorisées à 
+accorder les micro- crédits. Elle doit permettre :  
+http://www.procomptable.com/ 4
+a) de justifier toute information par une pièce d'or igine à partir de laquelle il doit être possible de 
+remonter par un cheminement ininterrompu aux états financiers et réciproquement;  
+b) d'expliquer l'évolution des soldes d'un arrêté  comptable à l'autre par la conservation des 
+mouvements ayant affecté les soldes comptables des postes des états financiers.  
+L'organisation comptable  
+20. L'organisation comptable des associations  autorisées à accorder des micro-crédits doit 
+être aménagée conformément aux règles prévues par la norme comptable NC 01-Norme 
+Comptable Générale ainsi qu'aux dispositions de la présente norme. Cette organisation doit 
+permettre la production de l'information financière répondant aux besoins des utilisateurs des 
+états financiers ainsi qu'aux besoins de contrôle que peut exercer les autorités réglementaires 
+ou encore les financeurs, les donateurs de fonds et les subventionneurs.  
+Nomenclature comptable 
+ 
+21. Les spécificités des associations  autorisées à accorder des micro- crédits ont essentiellement trait 
+à la classification des apports entre les comptes de bilan et les comptes de résultat et à l'absence de 
+la notion de capitaux propres. Pour cela une nomenc lature comptable particulière doit leur être 
+aménagée pour tenir compte de ces spécificités.  
+En substance, cette nomenclature ne s'écarte pas d'une manière significative de la nomenclature 
+comptable prévue par la norme comptable NC 01- Norme Comptable Générale, sous réserves de 
+certaines adaptations ayant trait principalement à l'activité de micro-crédit, des comptes de la classe 1 
+et des comptes de charges et de produits.  
+22. Les associations autorisées à accorder des mi cro-crédits doivent adopter la nomenclature 
+comptable figurant en annexe 1 à la présente norme.  
+Les associations autorisées à accorder des micro- crédits peuvent ouvrir les subdivisions nécessaires 
+ou encore effectuer des regroupements lorsque cette  nomenclature s'avère détaillée par rapport au 
+volume et la nature de leurs activités.  
+Toutefois, le plan des comptes doit être défi ni de façon telle que les soldes des comptes 
+figurant dans le plan des comptes puissent, au  minimum, alimenter par voie directe ou par 
+regroupement les postes et sous postes du bilan, et de l'état de résultat tels que définis par la 
+norme comptable relative à la présentation des états financiers des associations autorisées à 
+accorder des micro-crédits.  
+Forme de tenue de la comptabilité  
+23. Les associations autorisées à accorder des micro-crédits doivent tenir une comptabilité 
+conforme aux règles prévues par la norme comptable NC 01 - Norme Comptable Générale. Ces 
+règles prévoient la tenue d'une comptabilité selon le système dit en partie double et par 
+application de l'hypothèse sous- jacente de la comptabilité d'engagements.  
+24. La comptabilité des associations autorisées à accorder des micro-crédits doit être tenue 
+par fonds en distinguant au minimum les fonds investis en immobilisations, les fonds affectés 
+sous forme de dotations, les fonds pour micro-cr édits, les autres fonds affectés et le fonds 
+d'administration générale.  
+Le fonds d'administration générale regroupe tous les fonds non affectés spécifiquement.  
+25. La tenue d'une comptabilité par fonds est nécessaire pour servir l'alimentation des états financiers. 
+Elle est également adaptée pour soumettre les activité s des associations autorisées à accorder des 
+micro-crédits au contrôle des autorités réglementaires et aux donateurs et subventionneurs de fonds.  
+La constatation des apports dans ces différents f onds est effectuée conformément aux paragraphes 
+26 à 33 de la présente norme.  
+Constatation des apports  
+Distinction entre apports et autres revenus  
+26. Les revenus des associations autorisées à accorder des micro-crédits proviennent essentiellement 
+des apports de différentes natures provenant de nombr euses sources, mais aussi de la contrepartie 
+de la livraison ou de la fabrication de marchandise s, de la prestation de services ou encore de 
+l'utilisation par les tiers de leurs ressources ( oc troi de micro- crédits). Les apports incluent les 
+subventions, les dons en numéraire ou en nature, les cotisations et les autres apports qui ne 
+constituent pas la contrepartie de la livraison ou de la fabrication de marchandises ou de la prestation 
+de services ou encore de l'utilisation par les tiers de leurs ressources.  
+http://www.procomptable.com/ 5
+Les associations autorisées à accorder des micro- crédits doivent établir une distinction entre les 
+différents types de leurs revenus qui sont cons titués des apports et des autres revenus. Cette 
+distinction est nécessaire car les principes et mé thodes comptables applicables aux apports diffèrent 
+de ceux applicables aux autres revenus.  
+27. Lorsque l'apporteur ne reçoit aucune contre partie en échange de l'apport ou s'il reçoit une 
+contrepartie d'une valeur considérablement infé rieure à l'apport, alors celui-ci est considéré 
+comme un apport par les associations autorisées à accorder des micro-crédits.  
+Selon ce critère, il est souvent très simple de déterminer si une augmentation de ressources 
+économiques constitue un apport ou un autre type de revenus. Cependant, dans certains cas, 
+il peut être nécessaire pour la direction de l'associ ation de faire preuve de jugement afin de 
+distinguer les apports des autres types de revenus.  
+Les apports sont constatés conformément aux paragraphes 26 à 33 de la présente norme. Les 
+autres types de revenus sont constatés conformément à la norme comptable NCO3 -Norme 
+Comptable relative aux revenus.  
+Classification des apports
+ 
+28. Les apports peuvent être classés en 3 types: les apports affectés, les apports non affectés et les 
+dotations.  
+29. La volonté du donateur constitue le seul critère de distinction entre les apports affectés, les 
+dotations et les apports non affectés. En effet, la principale caractéristique des apports 
+affectés repose sur le fait que l'association autorisée à accorder des micro-crédits a la 
+responsabilité envers l'apporteur externe d'utiliser d'une manière précise les ressources 
+apportées.  
+Cela peut résulter d'obligations explicites en  vertu de conventions ou d'écrits ou encore 
+d'obligations implicites à travers des documents décrivant la finalité des apports ou encore 
+lorsque l'apporteur dispose d'un droit de recours si l'apport n'est pas utilisé à cette fin.  
+30. Lorsque l'association autorisée à accorder des mi cro- crédits n'a pas respecté les affectations 
+grevant un apport affecté et lorsque les conséquences liées au non- respect des affectations sont 
+inconnues, cette situation est traitée conformément  à la norme comptable NC 14 - Norme Comptable 
+relative aux éventualités et événements postérieurs à la date de clôture.  
+Constatation des apports  
+31. Les apports sont constatés à leur juste valeur à la date de réception lorsque :  
+- leur juste valeur peut être estimée d'une façon fiable ; et  
+- la réception des apports est raisonnablement assurée Lorsque la juste valeur des apports ne 
+peut être estimée de façon fiable une in formation est donnée dans les notes aux états 
+financiers sur leur nature.  
+Comptabilisation des apports 
+ 
+32. Les apports sont constatés de façon à les rattacher aux charges correspondantes 
+occasionnées par les activités qu'ils financent, conformément à la convention de rattachement 
+des charges aux produits. Ils sont constatés comme suit :  
+- les apports sous forme de dotations n'étant pas liés à aucune charge sont par conséquent 
+constatés à titre d'augmentation des actifs nets.  
+- les apports affectés sont constatés au passif à titre d'apports reportés puis transférés en 
+résultat au moment de la constatation des charges correspondantes  
+- les apports non affectés sont constatés en résultat au cours de l'exercice où ils sont reçus.  
+33. Les apports affectés sont constatés comme suit :  
+• les dotations sont constatées à titre d'augmentation directe des actifs nets-  
+• les apports grevés d'une affectation d'origine ex terne aux charges d'exercices futurs sont 
+constatés à titre de produits au cours des ex ercices où les charges correspondantes seront 
+constatées.  
+• les apports grevés d'une affectation d'origine exte rne à l'achat d'immobilisations qui seront 
+amorties sont constatés à titre de produits selon la même méthode que celle suivie pour 
+l'amortissement des immobilisations acquIses.  
+• les apports grevés d'une affectation d'origine exte rne à l'achat d'immobilisations qui ne seront 
+pas amorties (par exemple un terrain) sont c onstatés à titre d'augmentation directe des actifs 
+nets.  
+http://www.procomptable.com/ 6
+• les apport grevés d'une affectation d'origine externe au remboursement d'une dette contractée 
+pour financer les charges d'un ou de plusieurs ex ercices futurs sont constatés à titre de 
+produits de l'exercice ou des exercices au cours desquels les charges correspondantes seront 
+constatées (c'est-à-dire traiter l'apport comme s'il était affecté à la même fin que celle à 
+laquelle la dette a été utilisée).  
+• les apport grevés d'une affectation d'origine externe au remboursement d'une dette contractée 
+pour financer l'achat d'une immobilisation qui ne sera pas amortie (par exemple un terrain) 
+sont constatés à titre d'augmentation directe des actifs nets (c'est-à-dire traiter l'apport comme 
+s'il était affecté à l'achat de l'immobilisation).  
+• les apport grevés d'une affectation d'origine externe au remboursement d'une dette contractée 
+à d'autres fins, autres que pour les cas cités ci- dessus, sont constatés à titre de produits de 
+l'exercice en cours.  
+• les apports grevés d'une affectation d'origine externe aux charges de l'exercice sont constatés 
+à titre de produits de l'exercice en cours.  
+Livres comptables  
+34. Outre les livres comptables obligatoires prévus par la norme comptable NC 01- Norme 
+Comptable Générale, les associations autorisées à accorder des micro-crédits doivent tenir un 
+livre des cotisations, dons et subventions donnés et reçus et un livre des actions bénévoles 
+données et reçues sous forme de services.  
+Ces livres doivent suivre une séquence numérique ininterrompue et indiquer pour chaque 
+enregistrement :  
+- l'identité complète de l'adhérent, du donateur ou du receveur ou bénéficiaires.  
+- le montant ou la nature des fonds ou des prestations reçues ou données.  
+- l'objet des fonds ou prestations reçues ou données.  
+Opérations d'inventaire  
+35. Les opérations d'inventaires pour l'arrêté d es situations comptables incluent notamment la 
+justification des comptes et l'inventaire physique des éléments actifs et passifs.  
+Les opérations d'inventaire physique dans l es associations autorisées à accorder des micro-
+crédits doivent couvrir tous les éléments d'actifs et de passifs et en particulier :  
+- les stocks  
+- les immobilisations les espèces  
+- les comptes en banques et les placements  
+- les effets en portefeuilles et notamment les effets matérialisant les micro-crédits  
+L'abonnement des produits et charges  
+36. L'organisation comptable des associations  autorisées à accorder des micro-crédits doit 
+permettre la détermination des produits reçus de  la période comptable ainsi que les charges y 
+afférentes et leur prise en compte dans la période comptable considérée.  
+Documentation de l'organisation et des procédures comptables  
+37. Un document décrivant l'organisation et les procédures comptables doit être tenu par 
+l'association autorisée à accorder des micro-crédits pour faciliter la compréhension du 
+système de traitement comptable. Ce document doit comporter notamment :  
+- l'organisation et l'architecture du système co mptable ; la nomenclature comptable et les 
+règles de fonctionnement des comptes ;  
+- les principes et méthodes comptables retenues pour la comptabilisation des apports et les 
+schémas comptables correspondants ;  
+- les règles de classement et d'archivage des pièces justificatives et des documents 
+comptables.  
+Date d'application  
+38. La présente norme est applicable aux exercices ouverts à partir du 01 janvier 2002.  
+ 
+http://www.procomptable.com/ 7
+Annexe 1 
+Plan de comptes pour les associations autorisées 
+à accorder des micro-crédits 
+ 
+ Poste/sous poste 
+des EF 
+Classe 1 : Comptes de capitaux permanents  
+10 Comptes d'actifs nets   
+101 Actifs nets non affectés ( ressources propres) ANS 
+102 Actifs nets investis en immobilisations AN1 
+103 Actifs nets affectés aux micro-crédits AN3 
+104 Autres actifs nets affectés  AN4 
+105 Actifs nets affectés sous forme de dotations  AN2 
+11 Réserves   
+112 Réserves statutaires AN5 
+118 Autres réserves  AN5 
+1181 Réserves pour fonds social   
+13 Excédent ou déficit des produits sur les charges   
+131 Excédent des produits sur les charges   
+1311 Excédent des produits sur les charges, non affecté  AN5 
+1312 Excédent des produits sur les charges affectés aux 
+actifs nets investis en immobilisations.  
+AN1 
+1313 Excédent des produits sur les charges affectés aux 
+micro -crédits  
+AN3 
+1314 Excédent des produits sur les charges pour les autres 
+actifs nets affectés 
+AN4 
+1315 Excédent des produits sur les charges pour les actifs 
+nets affectés, sous forme de dotations  
+AN2  
+  
+132 Déficit des produits sur les charges   
+1321 Déficit des produits sur les charges, non affecté  AN5  
+1322 Déficit des produits sur les charges affectés aux actifs 
+nets investis en immobilisations.  
+AN1  
+ 
+1323 Déficit des produits sur les charges affectés aux micro -
+crédits 
+AN3  
+1324 Déficit des produits sur les charges pour les autres 
+actifs nets affectés  
+AN4 
+1325 Déficit des produits sur les charges pour les actifs nets 
+affectés, sous forme de dotations  
+AN2  
+ 
+14 Autres fonds et biens mis à disposition   
+141 Fonds pour micro-crédits avec droit de reprise  PM  
+149 Autres fonds et biens mis à disposition avec droit de 
+reprise  
+PAS-c 
+15 Provisions pour risques & charges   
+151 Provisions pour risques  PA 5 -b  
+1511 Provisions pour litiges   
+1514 Provisions pour amendes & pénalités  
+1518 Autres provisions pour risques   
+152 Provisions pour charges à répartir sur plusieurs exercices PA 5 -b  
+1522 Provisions pour grosses réparations  
+http://www.procomptable.com/ 8
+153 Provisions pour retraites & obligations similaires  PA 5 -b  
+156 Provisions pour renouvellement des immobilisations PA 5 -b  
+157 Provisions pour amortissement PA 5 -b  
+158 Autres provisions pour charges  PA 5 -b  
+16 Emprunts & dettes assimilées   
+162 Emprunts auprès des établissements financiers assortis de 
+sûretés 
+PA 4 
+1621 Emprunts bancaires   
+1626 Refinancements acquis   
+163 Emprunts auprès d'autres établissements financiers assortis de 
+sûretés 
+PA 4 
+164 Emprunts et dettes assorties de conditions particulières PA 4  
+165 Emprunts non assortis de sûretés  
+(à subdiviser selon l'ordre des comptes des emprunts) 
+PA 4 
+167 Dépôts & cautionnements reçus  PA 4  
+168 Autres emprunts et dettes PA 4 
+1681 Autres emprunts   
+1685 Crédit fournisseurs d'immobilisations  
+1686 Autres dettes non courantes   
+17 Comptes de liaison entre siège et comités régionaux  (soldé) 
+171 Comptes de liaison entre siège et comités régionaux  
+176 Biens & prestations de services échangés entre siège et 
+comités (charges) 
+ 
+177 Biens & prestations de services échangés entre siège et 
+comités (produits)  
+ 
+18 Autres passifs non courants   
+185 Ecarts de conversion PA5-b 
+188 Autres  PA5-b  
+19 Apports reportés   
+191 Apports reportés pour acquisition d'immobilisations PA2 
+192 Apports reportés aux charges d'exercices futurs  PA2 
+193 Apports reportés aux charges de l'exercice en cours PA2 
+199 Autres apports reportés  PA2 
+Classe 2 : Comptes d'actifs immobilisés et de micro-crédits   
+21 Immobilisations incorporelles AC6-b 
+22 Immobilisations corporelles AC6-a  
+23 Immobilisations en cours   
+231 immobilisations incorporelles en cours AC6-b  
+232 immobilisations corporelles en cours  AC6-a  
+237 avances et acomptes versés sur immobilisations incorporelles AC6-b  
+238 avances et acomptes versés sur immobilisations corporelles AC6-a  
+24 Immobilisations à statut juridique particulier  AC6-a ou AC6-b  
+25 Participations & créances liées à des participations  AC6-b  
+26 Autres immobilisations financières   
+261 Titres immobilisés (droit de propriété) AC 6-b  
+262 Titres immobilisés (droit de créance) AC 6-b  
+263 Micro-crédits à plus d'un an  AC4  
+2631 Micro-crédits accordés à plus d'un an pour  
+http://www.procomptable.com/ 9
+l'amélioration des conditions de vie  
+2632 Micro-crédits accordés à plus d'un an pour l'acquisition 
+de petits matériels  
+ 
+2633 Micro-crédits à plus d'un an accordés pour fonds de 
+roulement 
+ 
+2635 Micro-crédits à plus d'un an douteux   
+264 Autres prêts  AC 6-b  
+265 Dépôts et cautionnements versés AC 6-b  
+266 Autres créances immobilisées  AC 6-b  
+269 Versements restant à effectuer sur titres immobilisés non 
+libérés  
+AC 6-b  
+27 Autres actifs non courants  AC 6-b  
+28 Amortissements des immobilisations   
+281 Amortissements des immobilisations incorporelles (même 
+ventilation que celle du compte 21)  
+AC 6b (soustractif)  
+282 Amortissements des immobilisations corporelles (même 
+ventilation que celle du compte 22)  
+AC 6-a (soustractif)  
+284 Amortissements des immobilisations à statut juridique particulier AC 6-a ou AC 6-b 
+(soustractif)  
+29 Provisions pour dépréciation des actifs immobilisés   
+291 Provisions pour dépréciations des immobilisations incorporelles 
+(même ventilation que celle du compte 21)  
+AC 6-b (soustractif)  
+292 Provisions pour dépréciation des immobilisations corporelles 
+(même ventilation que celle du compte 22)  
+AC 6-a (soustractif)  
+293 Provisions pour dépréciation des immobilisations en cours 
+(même ventilation que celle du compte 23)  
+AC 6-a ou AC 6-b 
+(soustractif)  
+294 Provisions pour dépréciation des immobilisations à statut 
+juridique particulier  
+AC 6-a ou AC 6-b 
+(soustractif)  
+295 Provisions pour dépréciation des participations et des créances 
+liées à des participations (même ventilation que le compte 25)  
+AC 6-b (soustractif)  
+ 
+297 Provision pour dépréciation des autres immobilisations 
+financières (même ventilation que celle du compte 26)  
+ 
+2971 Provision pour dépréciation des Titres immobilisés (droit de 
+propriété) 
+AC 6-b(soustractif)  
+2972 Provision pour dépréciation des Titres immobilisés (droit de 
+créance) 
+AC 6-b(soustractif)  
+2973 Provision pour dépréciation des micro-crédits à plus 
+d'un an 
+AC 4 (soustractif)  
+2974 Provision pour dépréciation des prêts  AC 6-b(soustractif)  
+2975 Provision pour dépréciation des dépôts et cautionnements 
+versés 
+AC 6-b(soustractif)  
+2976 Provision pour dépréciation des autres créances 
+immobilisées  
+AC 6-b(soustractif)  
+ 
+298 Provision pour dépréciation des versements restant à effectuer 
+sur titres immobilisés non libérés  
+AC 6-b(soustractif)  
+ 
+Classe 3 : Comptes de Stocks   
+31 Matières premières & fournitures liées AC5  
+32 Autres approvisionnements  AC5  
+33 Biens en cours de production  AC5  
+34 Services en cours de production AC5  
+35 Stocks de produits  AC5  
+37 Stocks de marchandises  AC5  
+http://www.procomptable.com/ 10
+39 Provisions pour dépréciation des stocks AC5 (soustractIf) 
+Classe 4 : Comptes de Tiers   
+40 Fournisseurs & comptes rattachés   
+401 Fournisseurs d'exploitation  PA 5 -a 
+4011 Fournisseurs- achats de biens ou de prestations de services  
+4017 Fournisseurs -retenues de garantie   
+403 Fournisseurs d'exploitation -effets à payer PA 5 -a  
+404 Fournisseurs d'immobilisations  PA 5 -a  
+4041 Fournisseurs -achats d'immobilisations   
+4047 Fournisseurs d'immobilisations -retenues de garantie   
+405 Fournisseurs d'immobilisations -effets à payer PA 5 -a  
+408 Fournisseurs -factures non parvenues PA 5 -a  
+4081 Fournisseurs d'exploitation   
+4084 Fournisseurs d'immobilisations  
+4088 Fournisseurs -intérêts courus   
+409 Fournisseurs débiteurs  PA 5 -a 
+(soustractif)  
+41 Clients, apporteurs & comptes rattachés   
+411 Clients  AC7-a  
+4111 Clients -ventes de biens ou de prestations de services  
+4117 Clients -retenues de garantie   
+412 Apporteurs   
+4121 Apports à recevoir  AC3  
+4122 Apports reçus en instance d'affectation  AC1 ou AC2 ou 
+AC5 ou AC 6  
+413 Clients -effets à recevoir  AC7-a  
+416 Clients douteux ou litigieux  AC7-a  
+417 Créances sur travaux non encore facturables  AC7-a  
+418 Clients produits non encore facturés (produits à recevoir) AC7-a  
+419 Clients créditeurs  AC7-a (soustractif)  
+42 Personnel et comptes rattachés   
+421 Personnel- avances & acomptes AC 7 -a  
+423 Personnel, oeuvres sociales  AC7-a  
+425 Personnel -Rémunérations dues PA 5 -a  
+426 Personnel -dépôts  PA 5 -a  
+427 Personnel -oppositions  PA 5 -a  
+428 Personnel -charges à payer & produits à recevoir  
+4282 Dettes provisionnées pour congés à payer PA 5 -a 
+4286 Autres charges à payer PA 5 -a 
+4287 Produits à recevoir  AC7-a 
+43 Etat & collectivités publiques   
+431 Etat -subventions à recevoir  AC3  
+432 Etat, impôts et taxes retenues à la source  PA 5 -a  
+433 Opérations particulières avec l'Etat, les collectivités publiques et 
+les organismes internationaux  
+AC 7 -a ou PA 5 -a  
+437 Autres impôts, taxes & versements assimilés PA 5 -a  
+438 Etat -charges à payer & produits à recevoir  AC 7 -a ou PA 5 -a  
+44 Confédérations, fédérations, associations affiliées et  
+http://www.procomptable.com/ 11
+adhérents  
+442 Confédérations, fédérations et associations affiliées -
+comptes courants 
+ 
+4421 Créances et intérêts courus AC7-b  
+4422 Dettes et intérêts à payer PA 5 -b  
+443 Adhérents débiteurs  AC 3 ou AC7-a  
+45 Débiteurs divers & Créditeurs divers   
+452 Créances sur cessions d'immobilisations  AC7-a  
+453 Sécurité sociale & autres organismes sociaux  AC 7 -a ou PA5 -b  
+454 Dettes sur acquisitions de valeurs mobilières de placement PA5 -a  
+455 Créances sur cessions de valeurs mobilières de placement AC7-a  
+457 Autres comptes débiteurs ou créditeurs AC 7 -a ou PA5 -a  
+458 Divers charges à payer & produits à recevoir  AC 7 -a ou PA5 -b  
+46 Comptes transitoires ou d'attente   
+461 Compte d'attente  AC 7 -b ou PA 5-b  
+465 Différence de conversion sur éléments courants  
+4651 Différences de conversion actif  AC7-b 
+4652 Différences de conversion passif PA 5 -b  
+468 Autres comptes transitoires  AC 7 -b ou PA 5-b  
+469 Legs et donations en cours de réalisation ou de cession  AC7-b  
+47 Comptes de régularisation   
+471 Charges constatées d'avance AC 7 -b  
+472 Produits constatés d'avance  PA 5 -b  
+478 Comptes de répartition périodique de charges & produits  
+4786 Charges  AC7-b  
+4787 Produits PA 5-b  
+48 Provisions courantes pour risques et charges  PA 5 -b  
+49 Provisions pour dépréciation des comptes de tiers   
+491 Provisions pour dépréciation des comptes clients  AC 7-a(soustractif)  
+495 Provisions pour dépréciation des comptes des associations et 
+comités régionaux  
+AC 7-b(soustractif)  
+ 
+496 Provisions pour dépréciation des comptes de débiteurs divers  AC 7-a (soustractif) 
+Classe 5 : Comptes Financiers   
+50 Emprunts et autres dettes financières courants   
+501 Emprunts courants liés au cycle d'exploitation   
+5011 Emprunts pour micro-crédits reçus des établissements 
+financiers 
+PA4  
+5018 Emprunts pour micro-crédits reçus d'autres organismes PA4  
+5019 autres emprunts courants  PA4  
+505 Echéances à moins d'un an sur emprunts non courants PA4  
+506 Concours bancaires courants PA 1  
+507 Emprunts échus et impayés PA4  
+508 Intérêts courus  PA4  
+5081 Intérêts courus sur emprunts courants liés au cycle 
+d'exploitation  
+PA4  
+5085 Intérêts courus sur échéances à moins d'un an sur 
+emprunts non courants  
+PA4  
+ 
+5086 Intérêts courus sur concours bancaires courants PA1  
+http://www.procomptable.com/ 12
+5087 Intérêts courus sur emprunts échus et impayés  PA4  
+51 Prêts et autres créances financières courants   
+511 Micro-crédits à moins d'un an   
+5111 Micro-crédits à moins d'un an accordés pour 
+l'amélioration des conditions de vie  
+AC4  
+5112 Micro-crédits à moins d'un an accordés pour 
+l'acquisition de petits matériels  
+AC4  
+5113 Micro-crédits à moins d'un an accordés pour fonds de 
+roulement  
+AC4  
+513 Micro-crédits à moins d'un an douteux  AC4  
+516 Echéances à moins d'un an sur prêts non courants  AC2  
+517 Echéances à moins d'un an sur autres créances financières AC2  
+518 Intérêts courus sur micro-crédits   
+5181 Intérêts courus sur micro-crédits constatés en résultat AC4  
+5185 Intérêts courus sur micro-crédits constatés en intérêts 
+réservés  
+AC 4  
+5186 Intérêts courus sur prêts non courants  AC2  
+5187 Intérêts courus sur autres créances financières AC2  
+519 Intérêts réservés   
+5191 Intérêts réservés sur micro-crédits accordés pour 
+l'amélioration des conditions de vie  
+AC 4 (soustractit)  
+5192 Intérêts réservés sur micro-crédits accordés pour 
+l'acquisition de petits matériels  
+AC 4 (soustractit)  
+5193 Intérêts réservés sur micro-crédits accordés pour fonds 
+de roulement  
+AC 4 (soustractit)  
+ 
+52 Placements courants   
+523 Actions  AC2  
+5231 Titres cotés   
+5235 Titres non cotés   
+524 Autres titres conférant un droit de propriété AC2  
+526 Obligations  AC2  
+527 Bons du trésor et bons de caisse à court terme  AC2  
+528 Autres placements courants et créances assimilées  AC2  
+5281 Autres valeurs mobilières   
+5288 Intérêts courus sur obligations, bons et valeurs assimilées   
+529 Versements restant à effectuer sur valeurs mobilières de 
+placement non libérées  
+AC2 
+53 Banques, établissements financiers et assimilés  
+531 Valeurs à l'encaissement  AC1  
+5311 Coupons échus à l'encaissement   
+5312 Chèques à encaisser   
+5313 Effets à l'encaissement 5314 Effets à l'escompte   
+532 Banques  AC1  
+5321 Comptes en dinars   
+5324 Comptes en devises   
+534 Comptes courants postaux AC1 
+535 Comptes au trésor  AC1 
+537 Autres organismes financiers  AC1  
+54 Caisse   
+http://www.procomptable.com/ 13
+541 Caisse de l'association  AC1  
+542 Caisses des comités régionaux  AC1  
+55 Régies d'avances et accréditifs AC1  
+(soldé)  
+58 Virements internes   
+59 Provisions pour dépréciation des comptes financiers   
+591 Provisions pour dépréciation des Prêts et autres créances 
+financières courants 
+ 
+5911 Provisions pour dépréciation des micro-crédits à moins d'un 
+an 
+AC 4 (soustractif)  
+5918 Provisions pour dépréciation des intérêts sur micro-crédits  AC 4 (soustractif)  
+Classe 6 : Comptes de Charges  
+60 Achats (sauf 603) (1)   
+(1) 603 Variation des stocks (approvisionnements et marchandises)  
+6031 Variation des stocks de matières premières et fournitures 6032 Variation des stocks des au~es 
+approvisionnements 6037 Variation des stocks de marchandises  
+Pour les associations qui comptabilisent leurs stocks selon la méthode d'inventaire permanent, l'intitulé 
+de ce compte devient" Achats consommés" (approvisionnements et marchandises).  
+601 Achats stockés -Matières premières et fournitures liées  CH6  
+602 Achats stockés -Autres approvisionnements  CH6  
+604 Achats d'études et de prestations de services (y compris achat 
+de sous-traitance de production)  
+CH6  
+ 
+605 Achats de matériel, équipements et travaux  CH6  
+606 Achats non stockés de matières et fournitures CH6  
+607 Achats de marchandises  CH6  
+608 Achats liés à une modification comptable à prendre en compte 
+dans le résultat de l'exercice ou à une activité abandonnée.  
+CH6  
+ 
+609 Rabais, remises et ristournes obtenus sur achats  CH6 
+6098 Rabais, remises et ristournes liés à une modification 
+comptable à prendre en compte dans le résultat de l'exercice ou à 
+une activité abandonnée.  
+ 
+61 Services extérieurs   
+611 Sous-traitance générale  CH6  
+612 Redevances pour utilisation d'immobilisations concédées CH6  
+613 Locations (y compris malis sur emballages) CH6  
+614 Charges locatives et de copropriété CH6  
+615 Entretien et réparations CH6  
+616 Primes d'assurances  CH6  
+617 Etudes, recherches et divers services extérieurs   
+6171 Encadrement et formation! micro-crédits  CH3  
+6172 Autres frais d'encadrement et de formation  CH6  
+6175 Autres études, recherches et divers services extérieurs  CH6  
+618 Autres charges liées à une modification comptable à prendre en 
+compte dans le résultat de l'exercice ou à une activité abandonnée.  
+CH6  
+ 
+619 Rabais, remises et ristournes obtenues sur services extérieurs  CH6  
+62 Autres services extérieurs   
+621 Personnel extérieur à l'association  CH6  
+622 Rémunération d'intermédiaires et honoraires CH6  
+623 Publicité, publications, relations publiques  CH6  
+624 Transports de biens et transports collectifs du personnel  CH6  
+http://www.procomptable.com/ 14
+6241 Transports sur achats 6242 Transports sur ventes   
+6244 Transports administratifs   
+6247 Transports collectifs du personnel  
+6248 Divers   
+625 Déplacements, missions, réceptions  CH6  
+6251 Voyages et déplacements CH6  
+6255 Frais de déménagement CH6  
+6256 Missions  CH6  
+6257 Réceptions  CH6  
+6258 Charges d'encadrement et de formation (pour le personnel 
+de l'association)  
+CH6  
+ 
+626 Frais postaux et frais de télécommunications CH6  
+627 Services bancaires et assimilés  CH6  
+6271 Frais sur titres (achats, vente, garde)   
+6272 Commissions et frais sur émission d'emprunts  
+6275 Frais sur effets   
+6276 Location de coffres   
+6278 Autres frais et commissions sur prestations de services   
+628 Autres services extérieurs liés à une modification comptable à 
+prendre en compte dans le résultat de l'exercice ou à une activité 
+abandonnée.  
+CH6  
+629 Rabais, remises et ristournes obtenus sur autres services 
+extérieurs  
+CH6 
+63 Charges diverses ordinaires   
+631 Redevances pour concessions de marques, brevets, licences, 
+procédés, droits et valeurs similaires  
+CH6  
+  
+633 Dons et subventions accordés   
+6331 dons et subventions accordés  CH 1-a  
+6335 prestations de services fournis CH 1-b 
+634 Pertes sur micro-crédits  CH4  
+6341 Pertes sur micro-crédits couvertes par des provisions   
+6344 Pertes sur micro-crédits non couvertes par des 
+provisions 
+ 
+636 Charges nettes sur cession d'immobilisations et autres pertes 
+sur éléments non récurrents ou exceptionnels 
+CH9  
+ 
+637 Réduction de valeur  CH9  
+638 Charges diverses ordinaires liées à une modification comptable 
+à prendre en compte dans le résultat de l'exercice ou à une activité 
+abandonnée.  
+CH9  
+ 
+64 Charges de personnel   
+640 Salaires et compléments de salaires CH5  
+6400 Salaires   
+6401 Heures supplémentaires  
+6402 Primes   
+6403 Gratifications   
+6404 Avantages en nature   
+6409 Autres compléments de salaires   
+642 Appointements et compléments d'appointements  CH5  
+6420 Appointements   
+http://www.procomptable.com/ 15
+6421 Heures supplémentaires  
+6422 Primes   
+6423 Gratifications   
+6424 Avantages en nature   
+6429 Autres compléments d'appointements   
+643 Indemnités représentatives de frais CH5  
+644 Commissions au personnel  CH5  
+6440 Commissions sur achats  
+6441 Commissions sur ventes   
+646 Charges connexes aux salaires, appointements, commissions 
+et rémunérations  
+CH5  
+ 
+647 Charges sociales légales  CH5  
+648 Charges de personnel liées à une modification comptable à 
+imputer au résultat de l'exercice ou à une activité abandonnée  
+CH5  
+ 
+649 Autres charges de personnel et autres charges sociales  CH5 
+65 Charges financières   
+651 Charges d'intérêts  CH2  
+6511 Intérêts des emprunts et dettes   
+6515 Intérêts des comptes courants et des dépôts créditeurs  
+6516 Intérêts bancaires et sur opérations de financement  
+6517 Intérêts des obligations cautionnées   
+6518 Intérêts des autres dettes (y compris les pénalités et intérêts 
+de retard sur emprunts et cotisations sociales)  
+ 
+653 Pertes sur créances liées à des participations CH9  
+654 Escomptes accordés CH2  
+655 Pertes de change  CH2  
+656 Charges nettes sur cessions de valeurs mobilières CH2  
+657 Autres charges financières  CH2  
+658 Charges financières liées à une modification comptable à 
+imputer au résultat de l'exercice ou à une activité abandonnée  
+CH2  
+ 
+66 Impôts, taxes et versements assimilés   
+661 Impôts, taxes et versements assimilés sur rémunérations CH7  
+6611 Taxe à la Formation Professionnelle- TFP   
+6612 Fond de promotion des logements sociaux -FOPROLOS  
+6618 Autres taxes   
+665 Autres impôts, taxes et versements assimilés CH7  
+6651 Impôts et taxes divers   
+6652 Taxes sur le chiffre d'affaires non récupérables  
+6654 Droits d'enregistrement et de timbre  
+6655 Taxes sur les véhicules  
+6658 Autres droits   
+668 Impôts et taxes liés à une modification comptable à imputer au 
+résultat de l'exercice ou à une activité abandonnée  
+CH7  
+67 Pertes extraordinaires  CH9  
+68 Dotations aux amortissements et aux provisions   
+681 Dotations aux amortissements et aux provisions -charges 
+ordinaires (autres que financières) 
+CH8  
+ 
+686 Dotations aux amortissements et aux provisions -charges  
+http://www.procomptable.com/ 16
+financières  
+6861 Dotations aux amortissements des primes de 
+remboursement des obligations  
+ 
+CH8 
+6862 Dotations aux provisions pour dépréciation des micro-
+crédits 
+CH4 
+68621 Dotations aux provisions pour dépréciation des micro-
+crédits accordés pour l'amélioration des conditions de vie  
+ 
+68622 Dotations aux provisions pour dépréciation des micro-
+crédits accordés pour l'acquisition de petits matériels  
+ 
+68623 Dotations aux provisions pour dépréciation des micro-
+crédits accordés pour fonds de roulement  
+ 
+6865 Dotations aux provisions pour risques et charges financières CH8  
+6866 Dotations aux provisions pour dépréciation des éléments 
+financiers  
+CH8  
+68662 Immobilisations financières   
+68665 Placements et autres prêts courants   
+6868 Dotations aux amortissements et aux provisions liées à une 
+modification comptable inscrite dans le résultat de l'exercice ou à 
+une activité abandonnée (charges financières)  
+CH8 
+Classe 7 : Compte de produits   
+70 ventes de produits fabriqués, prestations de services, 
+marchandises 
+ 
+701 Ventes de produits finis  PR5  
+702 Ventes de produits intermédiaires PR5  
+703 ventes de produits résiduels PR5  
+704 Travaux  PR5  
+705 Etudes et prestations de services PR5  
+706 Produits des activités annexes PR5  
+707 Ventes de marchandises  PR5  
+708 Ventes liées à une modification comptable à imputer au résultat 
+de l'exercice ou à une activité abandonnée  
+PR5  
+ 
+709 Rabais, remises et ristournes accordés par l'association  PR5  
+71 Production stockée (ou déstockage)  PR5  
+713 Variation des stocks (en-cours de production, produits)  
+7133 Variations des en-cours de production de biens   
+7134 Variation des en-cours de production de services  
+7135 Variation des stocks de produits   
+72 Production immobilisée  PR5  
+721 Immobilisations incorporelles  
+722 Immobilisations corporelles   
+728 Production immobilisée liée à une modification comptable à 
+imputer au résultat de l'exercice ou à une modification comptable  
+ 
+73 Produits divers ordinaires   
+731 Redevances, brevets, licences, marques, procédés, droits et 
+valeurs similaires  
+PR5  
+ 
+732 Revenus des immeubles non affectés aux activités 
+professionnelles 
+PR5  
+ 
+733 Cotisations, dons, subventions et autres apports reçus   
+7331 Cotisations  PR 1-c  
+7332 Collectes et dons  PR 1-a  
+http://www.procomptable.com/ 17
+7333 Legs et donations (à caractère non durable) PR 1-a  
+7334 Subventions  PR 1-b  
+7335 Quote-part des apports reportés, imputés au résultat de 
+l'exercice  
+PR 1-e  
+7338 Contributions volontaires en nature PR 1-d  
+73381 Bénévolat   
+73382 Prestation de services PR 1-d  
+7339 Autres apports   
+734 Ristournes perçues des coopératives (provenant des 
+excédents)  
+PR6  
+736 Produits nets sur cessions d'immobilisations et autres gains sur 
+éléments non récurrents ou exceptionnels  
+PR6  
+ 
+738 Produits divers ordinaires liés à une modification comptable à 
+imputer au résultat de l'exercice ou à une activité abandonnée  
+PR5 
+75 Produits financiers   
+751 Produits de participations  PR2  
+752 Produits des autres immobilisations financières PR2  
+753 Revenus des micro-crédits   
+7531 intérêts sur micro-crédits pour amélioration des 
+conditions de vie  
+PR 3-a  
+7532 intérêts sur micro-crédits pour acquisitions de petits 
+matériels  
+PR 3-a  
+7533 intérêts sur micro-crédits pour fonds de roulement PR 3-a  
+7539 autres revenus sur micro-crédits  PR 3-b  
+754 Revenus des valeurs mobilières de placement PR2  
+755 Escomptes obtenus PR5  
+756 Gains de change  PR5  
+757 Produits nets sur cessions de valeurs mobilières  PR5  
+758 Produits financiers liés à une modification comptable à imputer 
+au résultat de l'exercice ou à une activité abandonnée  
+PR5  
+ 
+77 Gains extraordinaires  PR6  
+78 Reprises sur amortissements et provisions   
+781 Reprises sur amortissements et provisions (à inscrire dans les 
+produits ordinaires)  
+PR5  
+786 Reprises sur provisions (à inscrire dans les produits financiers)  
+7861 Rprise de provisions et récupération de créances passées 
+en pertes sur micro-crédits.  
+PR4 
+79 Transferts de charges   
+  
+- Constatation des intérêts courus sur les échéances futures du micro-crédit douteux :  
+Au débit : 518 intérêts courus sur micro-crédits 
+Au crédit : 519 intérêts réservés  
+Paiement d'une échéance impayée de micro-crédit : 
+- Pour les intérêts réservés  
+Au débit : 519 intérêts réservés  
+Au crédit : 518 intérêts courus sur micro-crédits 
+Au débit: 5x trésorerie  
+Au crédit : 753x Revenus des micro-crédits 
+- Pour le principal  
+http://www.procomptable.com/ 18
+Au débit : 5x trésorerie  
+Au crédit : 513 Micro-crédits à moins d'un an impayés 
+A la date d'arrêté comptable : 
+- reclassement des micro-crédits à plus d'un an devenus douteux  
+débit : 2635 micro-crédits à plus dun an douteux  
+crédit : 2631 ou 2632 ou 2633 micro-crédits à plus d'un  
+- constatation des provisions sur le principal à concurrence du risque supporté par l'association 
+Au débit : 68x Dotations aux provisions  
+Au crédit : 2973 provisions pour dépréciation des mi cro-crédits à plus d'un an (principal non encore 
+échu) 
+Au crédit : 5911 provisions pour dépréciation des mi cro-crédits à moins d'un an (principal échu et 
+impayé) 
+- constatation des provisions sur les intérêts impayés déjà constatés en résultat  
+Au débit : 68x Dotations aux provisions  
+Au crédit: 5918 provisions pour dépréciation des intérêts sur micro-crédits  
+Lorsque le micro-crédit est définitivement perdu : 
+Au début : 634 x Pertes sur micro-crédits 
+               : 519 intérêts réservés 
+ 
+Au crédit : 2635 Micro.crédits à plus d'un an douteux  
+                 513 Micro-crédits à moins d'un an impayés 
+                 518 intérêts courus sur micro.crédits  
+et  
+Au débit : 5918 provisions pour dépréciation des intérêts sur micro-crédits  
+              : 5911 provisions pour dépréciation des micro-crédits à moins d'un !11  
+              : 2973 provisions pour dépréciation des micro-crédits à plus d'un an  
+Au crédit : 7861 reprise de provisions et réc upération de créances passées en pertes sur micro-
+crédits.  
+3- Micro-crédit consolidé 
+ 
+A la date de consolidation :  
+Au débit : 263 ou 511 Micro-crédits (nouveau micro. crédit)  
+Au crédit : 2635 Micro.crédits à plus d'un an douteux (ancien micro-crédit)  
+                 513 Micro-crédits à moins d'un an impayés (ancien micro-crédit)  
+                 518 intérêts courus sur micro.crédits (ancien micro-crédit)  
+A la date de remboursement des échéances du micro-crédit consolidé :  
+Au débit : 5x trésorerie  
+Au crédit : 753x Revenus des micro-crédits (pour les nouveaux intérêts)  
+Au crédit : 511 Micro.crédits à moins d'un an et  
+Au débit : 519 intérêts réservés  
+Au crédit : 753x Revenus des micro-crédits (pour les anciens intérêts = échéance * total intérêts 
+réservés / crédits consolidés)  
+ 
+ 
+http://www.procomptable.com/ 19
+Annexe 2 
+Règles de fonctionnement des comptes  
+Le plan comptable des associations autorisées à acco rder des micro-crédits se subdivise en classes 
+comme suit :  
+Classe 1 : comptes de capitaux permanents  
+Classe 2 : comptes d'actifs immobilisés et de micrecrédits  
+Classe 3 : comptes de stocks  
+Classe 4 : comptes de tiers  
+Classe 5 : comptes financiers  
+Classe 6 : comptes de charges  
+Classe 7 : comptes de produits  
+La nomenclature comptable est celle prévue par la NC 01- Norme Comptable Générale, sous 
+réserves des adaptations ayant trai t aux activités des associations autorisées à accorder des micro-
+crédits. Lorsque l'association autorisée à accorder  des micro-crédits exerce d'autres activités 
+centrales, en plus de l'activité de micro-crédits, elle utilise le critère de classification en éléments 
+courants et éléments non courants pour classer ces opérations dans les comptes comptables. 
+Toutefois, ce critère n'est pas retenu pour classe r ces éléments dans les postes et sous-postes des 
+états financiers.  
+Pour cela, ne sont pas présentés ci-dessous, les comptes dont le fonctionnement est prévu par la NC  
+01 - Norme Comptable Générale et qui ne nécessi tent pas des adaptations aux activités des 
+associations autorisées à accorder des micro-crédi ts. Dans ce cas, les règles de fonctionnement des 
+comptes prévues par la dite norme comptable,  sont applicables, notamment celles relatives à 
+l'ouverture ou aux subdivisions de comptes néce ssaires pour l'imputation des opérations des 
+associations autorisées à accorder les micro-crédits.  
+Classe 1 : Comptes de capitaux permanents  
+Les comptes de capitaux permanent regroupe les comptes des capitaux qui entrent dans le 
+financement permanent des activités de l'association ainsi que les provisions pour risques et charges. 
+Ils englobent notamment les actifs nets et les appor ts reportés destinés à financer les opérations de 
+l'association et notamment l'activité de micro-crédits.  
+10 Comptes d'actifs nets  
+101 Actifs nets non affectés (ressources propres)  
+Ce compte est exclusif aux associations, c'est le patrimoine constituant un bien collectif sur lequel nul 
+n'a de droits individuels, même lors de la liquidation.  
+102 Actifs nets investis en immobilisations  
+Ce compte enregistre tous les apports affectés à l'acquisition d'immobilisations non amortissables, 
+ainsi que les affectations d'origine interne d'apports pour l'acquisition d'immobilisation.  
+Le compte 102 «Actifs nets investis en immobilisations» est crédité du montant de l'immobilisation par 
+le débit du compte immobilisation concerné.  
+103 Actifs nets affectés aux micro-crédits  
+Ce compte enregistre les apports affectés sans droit de reprise par les différents financeurs et 
+donateurs à l'octroi de micro-crédit, ainsi que les affe ctations d'origine interne pour l'octroi de micro-
+crédit.  
+104 Autres actifs nets affectés  
+Ce compte enregistre les autres apports affectés dont  bénéficie l'association autres que ceux investis 
+en immobilisations et affectés aux micro-crédits, ainsi que les apports affectés d'origine interne.  
+105 Actifs nets affectés sous forme de dotations  
+http://www.procomptable.com/ 20
+Ce compte enregistre le fonds de dotation de l' Etat, des collectivités publiques ou autres organes 
+assimilés dont l'association est tenu de maintenir en permanence.  
+11 Réserves  
+Le compte 11 enregistre toutes les réserves consti tuées par l'association provenant de l'excédent des 
+produits sur les charges de l'exercice.  
+Ce compte est crédité, pour ce qui concerne les réserves, dans les subdivisions concernées, lors de 
+l'affectation de l'excédent des produits sur les charges des montants destinés aux comptes :  
+- de réserves statutaires ; 
+- des autres réserves  
+Le compte 11 est débité, par prélèvement sur les réserves concernées, pour la résorption de déficit de 
+l'exercice.  
+13 Excédent ou déficit des produits sur les charges  
+Le compte 13 enregistre l'excédent ou le déficit des produits sur les charges de l'exercice.  
+Le solde du compte 13 représente un excédent si le s produits sont supérieurs aux charges (solde 
+créditeur) ou un déficit si les charges sont supérieures aux produits (solde débiteur).  
+14 Autres fonds et biens mis à disposition  
+Le compte 14 «autres fonds et biens mis à disposit ion» inscrit tous les fonds qui seront repris 
+conformément aux conventions conc lues entre l'association et les financeurs (tel que les fonds reçus 
+pour l'octroi de micro-crédits). Ces biens doivent correspondre à des apports avec droit de reprise. Ce 
+compte est subdivisé en :  
+- 141 Fonds pour micro-crédits avec droit de reprise  
+- 149 Autres fonds et biens mis à disposition avec droit de reprise  
+141 Fonds pour micro-crédits avec droit de reprise Ce compte enregistre tous les fonds pour micro-
+crédits avec droit de reprise, qui implique une mise à disposition provisoire au profit de l'association.  
+Le compte 141 «micro-crédit avec droit de reprise» est crédité du montant des micro-crédits mis à 
+disposition de l'association pour la réalisation de son objet social. Le compte trésorerie correspondant 
+est débité du même montant.  
+17 Comptes de liaison entre siége et comités régionaux  
+Les comptes de liaison servent de contrepartie lors de la comptabilisation des opérations réalisées 
+entre le siège et les comités régionaux.  
+Le compte 17 est subdivisé en autant de comptes de liaison que de comités régionaux.  
+Ce compte doit être à tout moment soldé par le jeu des écritures réciproques constatant les opérations 
+internes à l'entité comptable.  
+19 Apports reportés  
+Ce compte enregistre les apports grevés d'affectat ions d'origine externe, et qui sont affectés, 
+conformément à l'engagement pris à leur égard, à l'acquisition d'immobilisations, aux charges 
+d'exercices futurs ou à d'autres fins. Ce compte est subdivisé en :  
+- 191 «Apports reportés pour acquisition d'immobilisations»  
+- 192 «Apports reportés aux charges d'exercices futurs»  
+- 193 «Apports reportés aux charges de l'exercice en cours» 
+- 199 «autres apports reportés» 
+Classe 2 : Comptes d'actifs immobilisés et de micro-crédits  
+Les comptes de la classe 2 regroupent les comptes d'actifs non courants et sont subdivisés en :  
+• Immobilisations incorporelles 
+• Immobilisations corporelles 
+http://www.procomptable.com/ 21
+• Immobilisations financières  
+Le compte 263 «Micro-crédits à plus d'un an», enregi stre tous les micro-crédits dont la durée de 
+détention par l'association est supérieur à une année, ce compte peut être subdivisé selon le type du 
+micro-crédit. Les échéances à moins d'un an sont constatées au compte 511.  
+Le compte 2973 enregistre les provisions sur ce compte.  
+Classe 4 : Comptes de Tiers  
+Sont regroupés dans la classe 4, les comptes rattachés aux comptes de tiers et destinés à enregistrer 
+les dettes et créances courantes, autres que financières.  
+Les comptes de régularisation enregistrent les charges  reportées ou à étaler, les charges et produits 
+constatés d'avance ainsi que les charges et produi ts à répartir sur les périodes comptables de 
+l'exercice en cours.  
+Les comptes de tiers et en particulier ceux qui s ont relatifs aux fourni sseurs ou aux clients et 
+apporteurs peuvent être subdivisés pour identifier notamment les dettes et les créances qui leurs sont 
+rattachées.  
+41 Clients, apporteurs et comptes rattachés Figurent au compte 411 «clients», les créances liées à la 
+vente de biens ou services rattachés à l'activité de l'association.  
+Figurent au compte 412 «apporteurs», tous les dons à recevoir auprès des donateurs ou reçus en 
+instance d'affectation, à l'exception des subventions à recevoir de l'état et des collectivités publiques.  
+43 Etat et collectivités publiques Les opérations d'achats et de ventes réalisées avec l'état et les 
+collectivités publiques s'inscrivent au compte 40 «F ournisseurs et comptes rattachés» au même titre 
+que les opérations faites avec les autres fournisseurs et les autres clients.  
+En fin d'exercice, lorsque des subventions acquises par l'association n'ont pas encore été perçues, le 
+compte 431 «Etat -Subventions à recevoir» est débi té du montant des subvent ions d'investissement 
+ou d'exploitation à recevoIr.  
+Le compte 431 est crédité par le débit d'un compte de tr ésorerie lors de la réception des subventions 
+susvisées.  
+44 Confédérations, fédérations, associations affiliées et adhérents  
+Le compte 44 est subdivisé comme suit :  
+442 Confédérations, fédérations et associations affiliées - comptes courants  
+443 Adhérents débiteurs  
+Le compte 442 est débité du montant des fonds av ancés par l'association aux confédérations, 
+fédérations et associations affiliées, et il est crédité du montant des fonds mis à disposition de 
+l'association par les confédérations, fédérations et associations affiliées.  
+Le compte 443 constate le montant des cotisations non encore encaissé des adhérents de 
+l'association.  
+46 Comptes transitoires ou d'attente  
+Le compte 469 «legs et donations en cours de réalisation ou de cession» est crédité ou débité au fur 
+et à mesure des encaissements ou décaissements lié s à la cession des biens objet des legs et 
+donations.  
+Classe 5 : Comptes Financiers  
+Les comptes financiers enregistrent les mouvement s se rapportant aux liquidités et équivalents de 
+liquidités y compris les placements courants ainsi que les autres actifs et passifs financiers courants.  
+50 Emprunt et autres dettes financières courants  
+Le compte 50 enregistre les emprunts courants liés au cycle d'exploitation ou les emprunts reçus pour 
+l'activité de micro-crédit, ils sont subdivisés selon l'organisme prêteur. Les comptes 505 et 508 
+enregistrent, respectivement, la partie à moins d'un an des emprunts non courants et les intérêts 
+courus non échus à la clôture de l'exercice et notamment les intérêts courus sur les micro-crédits.  
+ 
+http://www.procomptable.com/ 22
+51 Prêts et autres créances financières courants  
+Le compte 511 «Micro-crédits à moins d'un an» enregist re les micro-crédits accordés au bénéficiaire, 
+il est subdivisé en fonction du type de financement.  
+Le compte 513 «micro-crédits à moins d'un an douteux» enregistre les micro-crédits devenus douteux.  
+Le compte 516 enregistre les échéances à moins d'un an sur prêts non courants.  
+Le compte 517 enregistre les créances à moins d'un an sur autres créances financières non 
+courantes.  
+Le compte 518 enregistre les intérêts courus sur les micro-crédits ainsi, que sur les prêts non courants 
+et les autres créances financières.  
+Le compte 519 «intérêts réservés» enregistre les intérêts sur les micro-crédits non constatés en 
+résultat.  
+Classe 6 : Comptes de Charges  
+Le compte 6258 enregistre le montant de la c harge d'encadrement et de formation du personnel de 
+l'association.  
+Le compte 633 enregistre le montant des dons et subventions versés.  
+Le compte 634 enregistre les pertes sur les micro-crédits, il est subdivisé selon le type de financement 
+accordé.  
+Les comptes 681 et 686 sont débités du montant respectif des dotations de l'exercice aux 
+amortissements et aux provisions par le crédit des subdivisions, des comptes d'amortissements et de 
+provisions concernés.  
+Le compte 6862 enregistre, les dotations aux prov isions pour dépréciation des micro-crédits. Ce 
+compte est subdivisé selon le type des micro-crédits accordés.  
+Classe 7 : Comptes de Produits  
+Le compte 733 «Cotisations, dons, subventions et autres apports reçus» enregistre les cotisations 
+reçus des adhérents, ainsi que les dons, subventions et autres apports reçus par l'association.  
+Le compte 753 «revenus des micro-crédits» enregistre les produits financiers des  micro-crédits, il est 
+subdivisé en sous compte selon le type de financement.  
+ 
+http://www.procomptable.com/ 23
+Annexe 3 
+Schémas comptables relatifs à la constatation des apports et des micro-crédits 
+par les associations autorisées à accorder des micro-crédits  
+I - Apports affectés  
+1 - Apports investis en immobilisations non amortissables (un terrain par exemple)  
+1.1 - Apports sous forme d'immobilisation non amortissable  
+Au débit : 2 x Compte de l'immobilisation non amortissable concernée  
+Au crédit : 102 actifs nets investis en immobilisations  
+1.2 - Apports en numéraires affectés à une immobilisation non amortissable  
+• A la date de réception des apports en numéraires 
+Au débit : 5x Compte de trésorerie  
+Au crédit : 102 actifs nets investis en immobilisations  
+• A la date d'acquisition de l'immobilisation  
+Au débit : 2 x Compte de l'immobilisation concernée  
+Au crédit : 5 x Compte de trésorerie  
+Les mêmes schémas comptables sont applic ables pour la constatation d'un apport grevé d'une 
+affectation d'origine externe au remboursement  d'une dette contractée pour financer l'achat d'une 
+immobilisation qui ne sera pas amortie.  
+2 - Apports investis en immobilisations amortissables  
+2.1 - Apports sous forme d'immobilisations  
+• A la date d'acquisition de l'immobilisation 
+ 
+Au débit : 2 x Compte de l'immobilisation concernée  
+Au crédit : 19lx Apports reportés pour acquisition d'immobilisations  
+• A la clôture de l'exercice 
+ 
+Au débit : 68 x Dotations aux amortissements  
+Au crédit : 28 x Amortissement d'immobilisations  
+Au débit : 191 x Apports reportés pour acquisition d'immobilisations  
+Au crédit : 7335 Quot6-part des apports imputés au résultat de l'exercice  
+2.2 - Apports en numéraire affectés à l'acquisition d'une immobilisation  
+• A la date de réception de l'apport en numéraire affecté à l'acquisition d'une immobilisation 
+ 
+Au débit : 5 x Trésorerie  
+Au crédit : 191x Apports reportés pour acquisition d'immobilisations  
+• A la date d'acquisition de l'immobilisation  
+Au débit : 2 x Compte de l'immobilisation concernée  
+Au crédit : 5 x Trésorerie  
+• A la clôture de l'exercice  
+Au débit : 68 x Dotations aux amortissements  
+Au crédit : 28 x Amortissement d'immobilisation  
+Au débit : 191x Apports reportés pour acquisition d'immobilisations  
+Au crédit : 7335 Quotes parts des apports imputés au résultat de l'exercice.  
+3 - Apports affectés aux micro-crédits  
+3.1 - Apports affectés aux micro-crédits sans droit de reprise (apportés définitivement à 
+l'association)  
+• A la date de réception des fonds pour micro-crédits par l'association 
+ 
+Au débit : 5 x Trésorerie  
+Au crédit : 103 actifs nets affectés aux micro-crédits  
+3.2 - Apports affectés aux micro-crédits avec droi t de reprise (repris par l'apporteur selon des 
+conditions fixées)  
+• A la date de réception des fonds pour micro-crédits par l'association  
+Au débit : 5 x Trésorerie  
+Au crédit : 141 Fonds pour micro-crédits avec droit de repense  
+http://www.procomptable.com/ 24
+• A la date de remboursement du montant des fonds pour micro-crédits à l'apporteur  
+Au débit : 141 Fonds pour micro-crédits avec droit de reprise  
+Au débit : 634 Pertes sur micro-crédits (pour la partie supportée par l'association)  
+Au crédit : 5x Trésorerie  
+Au crédit : 263 ou 511 Micro-crédits (pour la parti e des fonds définitivement  perdue et supportée par 
+l'apporteur)  
+4 - Apports affectés aux charges d'exercices futurs  
+• A la date de réception de l'apport affecté 
+ 
+Au débit : 5 x Trésorerie, ou 3 x Stock  
+Au crédit : 192 Apports reportés aux charges d'exercices futurs  
+• Au fur et à mesure de la constatation des charges  
+Au débit : 6 x charge  
+Au crédit : 5 x Trésorerie ou 3 x Stock  
+et  
+Au débit : 192 Apports reportés aux charges d'exercices futurs  
+Au crédit : 7335 Quotes parts des apports imputés au résultat de l'exercice  
+Le même traitement est effectué pour les apports  grevés d'une affectation d'origine externe au 
+remboursement d'une dette contractée pour financer le s charges de plusieurs exercices futurs sauf 
+qu'à la date de réception de l'apport affecté on constate :  
+5 - Apports affectés aux charges de l'exercice  
+• A la date de réception de l'apport affecté 
+ 
+Au débit : 5 x Trésorerie ou 3x Stock  
+Au crédit : 193 x Apports reportés aux charges de l'exercice  
+• Lors de la constatation des charges  
+Au débit : 6 x charges  
+Au crédit : 5 x Trésorerie ou 3 x Stock  
+Au débit : 193 Apports reportés aux charges de l'exercice  
+Au crédit : 7335 Quotes parts des apports imputés au résultat de l'exercice  
+Il - Apports non affectés  
+• A la date de réception de l'apport non affecté :
+ 
+Au débit : 5 x Trésorerie ou 3 x Stock  
+Au crédit : produit selon la nature de l'apport (cotisations, dons, subventions...)  
+III - Apports affectés sous forme de dotations  
+• A la date de réception de l'apport sous forme de dotations :  
+Au débit : Compte d'actif concerné (par nature : trésorerie, placement, immobilisation…)  
+Au crédit : 105 actifs nets affectés sous forme de dotations  
+IV- Apports à recevoir  
+Les apports à recevoir sont constatés à leur juste valeur lorsque :  
+Leur juste valeur peut être estimée d'une faç on fiable; et La réception des apports est 
+raisonnablement assurée  
+1- Apports à recevoir affectés  
+1.1 - Apports à recevoir à investir en imm obilisations non amortissables (un terrain par 
+exemple)  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 102 actifs nets investis en immobilisations  
+• Lorsque les apports sont effectivement reçus 
+Au débit : 5 x Compte de trésorerie ou 2 x compte d'immobilisation non amortissable concernée  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.2 - Apports à recevoir à investir en immobilisations amortissables  
+1.2.1. Apports à recevoir sous forme d'immobilisations amortissables  
+• Lorsque les deux conditions sont vérifiées  
+http://www.procomptable.com/ 25
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 191x Apports reportés pour acquisition d'immobilisations  
+• Lorsque les apports sont effectivement reçus  
+Au débit : 2 x Compte de l'immobilisation concernée  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.2.2. Apports à recevoir en numéraire affectés à l'acquisition d'une immobilisation  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 191x Apports reportés pour acquisition d'immobilisations  
+• A la date de réception de l'apport en numéraire affecté à l'acquisition d'une immobilisation  
+Au débit : 5 x Trésorerie  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.3 - Apports à recevoir affectés aux micro-crédits  
+1.3.1. Apports à recevoir sans droit de repr ise affectés aux micro-crédits (à apporter 
+définitivement à l'association)  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 103 actifs nets affectés aux micro-crédits  
+• A la date de réception des fonds pour micro-crédits par l'association  
+Au débit : 5 x Trésorerie  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.3.2. Apports à recevoir avec droit de reprise a ffectés aux micro-crédits (repris par l'apporteur 
+selon des conditions fixées)  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 141 Fonds pour micro-crédits avec droit de reprise  
+• A la date de réception des fonds pour micro-crédits par l'association  
+Au débit : 5 x Trésorerie  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.4 - Apports à recevoir affectés aux charges d'exercices futurs  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 192 Apports reportés aux charges d'exercices futurs  
+• A la date de réception de l'apport affecté 
+ 
+Au débit : 5 x Trésorerie, ou 3 x Stock  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+1.5 - Apports à recevoir affectés aux charges de l'exercice en cours  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir 
+Au crédit : 193 Apports reportés aux charges de l'exercice en cours  
+• A la date de réception de l'apport affecté  
+Au débit : 5 x Trésorerie ou 3x stock  
+Au crédit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+2 - Apports à recevoir non affectés  
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : produit selon la nature de l'apport (cotisations, dons, subventions...)  
+• A la date de réception de l'apport non affecté  
+Au débit : 5 x Trésorerie ou 3x stock  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+3 - Apports à recevoir affectés sous forme de dotations  
+http://www.procomptable.com/ 26
+• Lorsque les deux conditions sont vérifiées  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+Au crédit : 105 actifs nets affectés sous forme de dotations  
+• A la date de réception de l'apport non affecté  
+Au débit : 5 x Trésorerie ou 3x Stock  
+Au débit : 4121 apports à recevoir ou 431 Etat - subventions à recevoir  
+V- micro-credits  
+1 - Micro-crédit  
+• A la date de déblocage du micro-crédit  
+Au débit : 263 ou 511 Micro-crédits (selon la durée du micro-crédit)  
+Au crédit : 532 Banques  
+• A la date d'arrêté comptable  
+- Reclassement des échéances à moins d'un an : 
+Au débit : 511 Micro-crédits à moins d’un an  
+Au crédit : 263 Micro-crédits à plus d'un an  
+- Constatation des intérêts à la date d'arrêté comptable :  
+Au débit : 518 intérêts courus sur micro-crédits  
+Au crédit : 753 x Revenus des micro-crédits  
+• A la date de remboursement d'une échéance de micro-crédit : 
+ 
+Au débit : 5 x trésorerie  
+Au crédit : 518 intérêts courus sur micro-crédits (pour la période comptable précédente clôturée)  
+Au crédit : 753 x Revenus des micro-crédits (pour le reliquat des intérêts courus de la période en 
+cours)  
+Au crédit : 511 Micro-crédits à moins d'un an  
+2 - Micro-crédit douteux  
+• A la date de déblocage du micro-crédit  
+Au débit : 263 ou 511 Micro-crédits (selon la durée du micro-crédit)  
+Au crédit : 532 Banques  
+• A la date d'arrêté comptable  
+- reclassement des échéances à moins d'un an : 
+Au débit : 511 Micro-crédits à moins d'un an  
+Au crédit : 263 Micro-crédits à plus d'un an  
+- Constatation des intérêts à la date d'arrêté comptable lorsque le micro-crédit n'est pas encore 
+douteux :  
+Au débit : 518 intérêts courus sur micro-crédits  
+Au crédit : 753 x Revenus des micro-crédits  
+• A la date de la tombée d'une échéance impayée de micro-crédit : 
+ 
+Au débit : 513 Micro-crédits à moins d'un an impayés : 
+Au crédit : 518 Intérêts courus sur micro-crédits (pour la période comptable précédente clôturée)  
+Au crédit : 519 intérêts réservés (pour le reliquat des intérêts courus de la période en cours)  
+Au crédit : 511 Micro-crédits à moins d'un an  
+- Constatation des intérêts courus sur les échéances futures du micro-crédit douteux :  
+Au débit : 518 intérêts courus sur micro-crédits  
+Au crédit : 519 intérêts réservés  
+• Paiement d'une échéance impayée de micro-crédit :
+ 
+- Pour les intérêts réservés : 
+Au débit : 519 intérêts réservés  
+Au crédit : 518 intérêts courus sur micro-crédits  
+Au débit : 5 x trésorerie  
+Au crédit : 753 x  Revenus des micro-crédits  
+- Pour le principal  
+http://www.procomptable.com/ 27
+Au débit : 5 x trésorerie  
+Au crédit : 513 Micro-crédits à moins d'un an impayés  
+• à la date d'arrêté comptable  
+- Reclassement des micro-crédits à plus d'un an devenus douteux : 
+Au débit : 2635 micro-crédits à plus d'un an douteux  
+Au crédit : 2631 ou 2632 ou 2633 micro-crédits à plus d'un an 
+- Constatation des provisions sur le principal à concurrence du risque supporté par l'association  
+Au débit : 68 x Dotations aux provisions  
+Au crédit : 2973 provisions pour dépréciation des mi cro-crédits à plus d'un an (principal non encore 
+échu)  
+Au crédit : 5911 provisions pour dépréciation des mi cro-crédits à moins d'un an (principal échu et 
+impayé)  
+- constatation des provisions sur les intérêts impayés déjà constatés en résultat : 
+Au débit : 68 x Dotations aux provisions  
+Au crédit : 5918 provisions pour dépréciation des intérêts sur micro-crédits  
+• Lorsque le micro-crédit est définitivement perdu : 
+ 
+Au débit : 634 x Pertes sur micro-crédits  
+              : 519 intérêts réservés  
+Au crédit : 2635 Micro-crédits à plus d'un an dout eux 513 Micro-crédits à moins d'un an impayés 518  
+intérêts courus sur micro-crédits  
+et  
+Au débit : 5918 provisions pour dépréciation des intérêts sur micro-crédits  
+              : 5911 provisions pour dépréciation des micro-crédits à moins d'un 111  
+              : 2973 provisions pour dépréciation des micro-crédits à plus d'un an  
+Au crédit : 7861 reprise de provisions et réc upération de créances passées en pertes sur micro-
+crédits.  
+3 - Micro-crédit consolidé  
+• A la date de consolidation: 
+ 
+Au débit : 263 ou 511 Micro-crédits (nouveau micro. crédit)  
+Au crédit : 2635 Micro-crédits à plus d'un an douteux (ancien micro-crédit)  
+               : 513 Micro-crédits à moins d'un an impayés (ancien micro-crédit)  
+               : 518 intérêts courus sur micro-crédits (ancien micro-crédit)  
+• A la date de remboursement des échéances du micro- crédit consolidé:  
+Au débit : 5 x trésorerie  
+Au crédit : 753 x Revenus des micro-crédits (pour les nouveaux intérêts)  
+Au crédit : 511 Micro-crédits à moins d'un an  
+et  
+Au débit : 519 intérêts réservés  
+Au crédit : 753 x Revenus des micro-crédits (pour les anciens intérêts = échéance x total intérêts 
+réservés / crédits consolidés) 
