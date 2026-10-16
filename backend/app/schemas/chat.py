@@ -4,12 +4,14 @@ from pydantic import BaseModel, Field
 
 from app.schemas.agents import AgentStatus, Citation, FounderProfile
 from app.schemas.common import ModuleStatus, TraceStep
+from app.schemas.legal import DraftRequest
 
 
 class ChatRequest(BaseModel):
     question: str = Field(min_length=1, max_length=4000)
     session_id: str | None = Field(default=None, description="Same id for every message of one founder")
     channel: str = Field(default="web", description="web, telegram, email... set by n8n")
+    legal_contract: DraftRequest | None = None
 
 
 class PlanStepOut(BaseModel):
@@ -50,3 +52,4 @@ class ChatResponse(BaseModel):
     composed_by: str
     latency_ms: float
     trace: list[TraceStep]
+    artifacts: list[dict] = Field(default_factory=list)

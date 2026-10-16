@@ -1,0 +1,4 @@
+{
+  "folders": [{"name": "Law — legal guidance & contract drafting", "path": "."}],
+  "settings": {"python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"}
+}

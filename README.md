@@ -115,6 +115,15 @@ pytest
 - **In Git Bash**, accented text sent with `curl` can arrive mis-encoded (HTTP 400). Use the web page, `/docs` or PowerShell.
 - **Agents not built yet** (business plan, marketing, fraud) answer "not connected yet". To plug yours in, follow "The agent contract" in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
+## Legal guidance and contract drafting
+
+The `legal` agent (Meher's work, `backend/app/agents/legal_guidance/` and `contract_drafting/`) answers Tunisian business-law and intellectual-property questions with quote checks, and drafts ten kinds of agreements (NDA, founders, shareholders, investment, services, IP licence…) as editable DOCX after collecting and validating the required terms.
+
+- Dedicated workspace: http://127.0.0.1:8000/legal.html (the shared chat stays at `/`)
+- API: `/api/legal/...` (see http://127.0.0.1:8000/docs)
+- Docs: [docs/LEGAL_WORKSPACE.md](docs/LEGAL_WORKSPACE.md), [docs/LEGAL_ARCHITECTURE.md](docs/LEGAL_ARCHITECTURE.md), [docs/LEGAL_DEMO.md](docs/LEGAL_DEMO.md), [docs/LEGAL_VALIDATION.md](docs/LEGAL_VALIDATION.md), [LOCAL_SETUP.md](LOCAL_SETUP.md)
+- A local model is supported but off by default (`LOCAL_LLM_ENABLED=false`); the app uses Groq, then Gemini.
+
 ## Evaluations
 
 From `backend/`, with the server stopped:

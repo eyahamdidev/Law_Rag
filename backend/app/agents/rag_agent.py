@@ -37,6 +37,7 @@ def format_passages(passages: list[Passage]) -> str:
     blocks = []
     for n, p in enumerate(passages, start=1):
         meta = [p.title]
+        meta.append(f"source kind: {p.source_kind}; current consolidation verified: {p.current_version_verified}; extraction: {p.extraction_method}")
         if p.act:
             meta.append(p.act)
         if p.article:
@@ -52,6 +53,7 @@ def format_passages(passages: list[Passage]) -> str:
 def citation_from(n: int, p: Passage) -> Citation:
     return Citation(
         ref=n,
+        retrieved_at=p.retrieved_at,
         doc_id=p.doc_id,
         title=p.title,
         path=p.path,
@@ -63,6 +65,9 @@ def citation_from(n: int, p: Passage) -> Citation:
         publisher_url=p.publisher_url,
         quote=p.text[:320],
         score=p.score,
+        source_kind=p.source_kind,
+        current_version_verified=p.current_version_verified,
+        extraction_method=p.extraction_method,
     )
 
 

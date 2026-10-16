@@ -34,6 +34,13 @@ from dataclasses import dataclass
 from app.config import settings
 
 PROVIDERS = {
+    "local": {
+        "base_url": "http://127.0.0.1:11434/v1",
+        "key": lambda: "local-runtime" if settings.local_llm_enabled and settings.app_env != "test" else "",
+        "main": lambda: settings.local_llm_model,
+        "fast": lambda: settings.local_llm_model,
+        "compose": lambda: settings.local_llm_model,
+    },
     "groq": {
         "base_url": "https://api.groq.com/openai/v1",
         "key": lambda: settings.groq_api_key,
@@ -85,12 +92,16 @@ def parse_json(text: str) -> dict:
     """Parse a JSON object, tolerating code fences and leading prose."""
     cleaned = re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip())
     try:
-        return json.loads(cleaned)
+        value = json.loads(cleaned)
     except json.JSONDecodeError:
         match = re.search(r"\{.*\}", cleaned, re.DOTALL)
         if match:
-            return json.loads(match.group(0))
-        raise
+            value = json.loads(match.group(0))
+        else:
+            raise
+    if not isinstance(value, dict):
+        raise ValueError("Expected a JSON object")
+    return value
 
 
 class LLMClient:
@@ -98,7 +109,7 @@ class LLMClient:
         self._clients: dict[str, object] = {}
 
     def configured(self) -> list[str]:
-        order = [settings.llm_provider, settings.llm_fallback_provider]
+        order = [settings.llm_provider, settings.llm_fallback_provider, "local"]
         seen = []
         for name in order:
             if name in PROVIDERS and name not in seen and PROVIDERS[name]["key"]():
@@ -116,8 +127,8 @@ class LLMClient:
             spec = PROVIDERS[provider]
             self._clients[provider] = OpenAI(
                 api_key=spec["key"](),
-                base_url=spec["base_url"],
-                timeout=settings.llm_timeout_s,
+                base_url=settings.local_llm_base_url if provider == "local" else spec["base_url"],
+                timeout=180.0 if provider == "local" else settings.llm_timeout_s,
                 max_retries=0,  # retries and fallback are handled here
             )
         return self._clients[provider]
@@ -130,6 +141,7 @@ class LLMClient:
         json_mode: bool = False,
         temperature: float = 0.1,
         max_tokens: int = 1200,
+        output_schema: dict | None = None,
     ) -> LLMResult:
         providers = self.configured()
         if not providers:
@@ -143,6 +155,10 @@ class LLMClient:
                     kwargs = {}
                     if json_mode:
                         kwargs["response_format"] = {"type": "json_object"}
+                        if provider == "local" and output_schema:
+                            kwargs["response_format"]["schema"] = output_schema
+                    if provider == "local":
+                        kwargs["extra_body"] = {"chat_template_kwargs": {"enable_thinking": False}}
                     if "gpt-oss" in model:
                         kwargs["extra_body"] = {"reasoning_effort": settings.llm_reasoning_effort}
                     response = self._client(provider).chat.completions.create(

@@ -7,6 +7,7 @@ embedding model), so the retrieval evaluation can compare them on the same
 questions.
 """
 
+import atexit
 import threading
 
 from qdrant_client import QdrantClient, models
@@ -32,6 +33,7 @@ class VectorStore:
             path = settings.data_dir / "qdrant"
             path.mkdir(parents=True, exist_ok=True)
             self.client = QdrantClient(path=str(path))
+        atexit.register(self.client.close)
 
     def recreate(self, strategy: str, dimension: int, model: str | None = None) -> None:
         name = collection_name(strategy, model)
@@ -86,10 +88,12 @@ class VectorStore:
 
 
 _store: VectorStore | None = None
+_store_lock = threading.Lock()
 
 
 def get_store() -> VectorStore:
     global _store
-    if _store is None:
-        _store = VectorStore()
+    with _store_lock:
+        if _store is None:
+            _store = VectorStore()
     return _store

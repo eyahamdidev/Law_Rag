@@ -24,6 +24,9 @@ LAW_DOMAINS = {
     "05_FOREIGN_EXCHANGE": "foreign_exchange",
     "06_FINANCING": "financing",
     "07_INSOLVENCY": "insolvency",
+    "08_INTELLECTUAL_PROPERTY": "intellectual_property",
+    "09_CONTRACTS": "contracts",
+    "10_WIPO_GUIDES": "ip_guidance",
     "99_SOURCE_DOCUMENTS": "jort",
 }
 GRANT_DOMAINS = {
@@ -145,8 +148,11 @@ def discover(corpora: tuple[str, ...] = ("law", "grants")) -> list[SourceDocumen
                 sha256=sha,
                 language=(jort.group(3).lower() if jort else meta.get("lang")),
                 publisher_url=meta.get("final_url") or meta.get("url"),
-                publication_date=jort.group(1) if jort else None,
+                publication_date=jort.group(1) if jort else meta.get("publication_date"),
                 jort_issue=jort.group(2) if jort else None,
-                extra={"source_id": meta.get("id"), "section": meta.get("section")},
+                extra={"source_id": meta.get("id"), "section": meta.get("section"),
+                       "article_numbering":meta.get("article_numbering"),"act":meta.get("act"),
+                       "source_kind": meta.get("source_kind", "unknown"),
+                       "current_version_verified": meta.get("current_version_verified", False)},
             )
     return list(by_hash.values())

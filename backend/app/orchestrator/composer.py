@@ -42,6 +42,9 @@ def _how(how: str, removed: list[str]) -> str:
 def compose(question: str, plan: Plan, results: list[AgentResult]) -> tuple[str, list[Citation], bool, str]:
     """Returns (answer, citations, abstained, how)."""
     language = plan.language
+    if len(results) == 1 and results[0].agent == "legal" and results[0].artifacts:
+        # Draft text is an artifact, not a factual legal answer to strip or paraphrase.
+        return results[0].answer, [], results[0].status != "ok", "structured legal artifact"
     if plan.out_of_scope:
         return NOT_SCOPE.get(language, NOT_SCOPE["en"]), [], True, "out of scope"
     if plan.clarification and not results:

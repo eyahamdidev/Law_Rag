@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestArgs": ["backend"],
+  "python.analysis.extraPaths": ["${workspaceFolder}/backend"],
+  "files.exclude": {"**/__pycache__": true, "**/.pytest_cache": true},
+  "files.watcherExclude": {"**/.venv/**": true, "**/data/**": true}
+}

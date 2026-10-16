@@ -24,6 +24,10 @@ class Passage(BaseModel):
     publication_date: str | None = None
     publisher_url: str | None = None
     text: str
+    source_kind: str = "unknown"
+    current_version_verified: bool = False
+    extraction_method: str = "unknown"
+    retrieved_at: str | None = None
     score: float
     score_kind: str = Field(
         description="rrf, cosine, bm25 or rerank. Relevance to the query, not legal correctness."

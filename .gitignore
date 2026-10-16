@@ -10,7 +10,11 @@ mlruns/
 qdrant_storage/
 *.egg-info/
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 _deck_extract.txt
 
 # Generated retrieval artefacts (chunks, embeddings, local Qdrant, OCR)

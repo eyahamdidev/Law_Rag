@@ -30,6 +30,9 @@ AGENT_TERMS: dict[str, tuple[str, ...]] = {
         "go-to-market", "concurrent", "competitor", "تسويق", "حرفاء",
     ),
     "legal": (
+        "patent", "brevet", "trademark", "copyright", "intellectual property", "propriété intellectuelle",
+        "contract", "contrat", "agreement", "nda", "pacte", "founder", "shareholder", "licence",
+        "براءة", "اختراع", "حق المؤلف", "عقد", "اتفاقية", "ملكية فكرية",
         "loi", "law", "legal", "juridique", "article", "décret", "decret", "code",
         "sarl", "suarl", "société", "societe", "company", "statuts", "capital",
         "associé", "registre", "label", "startup act", "bct", "devise", "change",

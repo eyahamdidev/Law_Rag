@@ -26,6 +26,8 @@ numpy>=1.26
 # --- Orchestration and LLM providers (Groq, Gemini via OpenAI-compatible APIs) ---
 langgraph>=0.2.60
 openai>=1.60.0
+python-docx>=1.2.0
+Pillow>=10.0
 
 # --- Experiment tracking (optional) ---
 mlflow>=2.20.0

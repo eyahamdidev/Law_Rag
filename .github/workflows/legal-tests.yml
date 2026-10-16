@@ -1,0 +1,35 @@
+name: Legal component tests
+
+on:
+  push:
+    branches: [legal-guidance]
+  pull_request:
+    branches: [law, feat/orchestrator-rag]
+
+permissions:
+  contents: read
+
+jobs:
+  legal-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      APP_ENV: test
+      RETRIEVAL_MODE: bm25
+      USE_RERANKER: "false"
+      LOCAL_LLM_ENABLED: "false"
+      LEGAL_WEB_FALLBACK_ENABLED: "false"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          lfs: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-legal.lock.txt
+      - run: python -m pip install -r requirements-legal.lock.txt
+      - run: python -m pip check
+      - run: python -m pytest backend -q
+      - run: node --check frontend/legal.js

@@ -35,6 +35,7 @@ class TurnState(TypedDict, total=False):
     history: list[Turn]
     profile: FounderProfile
     attachments: list[Attachment]
+    legal_contract: dict | None
     plan: Plan
     step: PlanStep  # set only inside a run_agent branch
     results: Annotated[list[AgentResult], operator.add]
@@ -48,7 +49,12 @@ class TurnState(TypedDict, total=False):
 
 def _plan(state: TurnState) -> dict:
     started = time.perf_counter()
-    plan = make_plan(state["question"], state.get("history", []), state["profile"], state.get("attachments", []))
+    if state.get("legal_contract") is not None:
+        plan = Plan(language=state["legal_contract"].get("language", "fr"),
+                    steps=[PlanStep(agent="legal", task="Draft the requested agreement from confirmed structured terms", search_query=state["question"])],
+                    reason="Explicit structured legal contract intake", source="structured_legal_intake")
+    else:
+        plan = make_plan(state["question"], state.get("history", []), state["profile"], state.get("attachments", []))
     profile, rejected = state["profile"].merge(plan.profile_updates)
     detail = f"{plan.source}: " + (
         ", ".join(s.agent for s in plan.steps) if plan.steps else ("clarify" if plan.clarification else "no agent")
@@ -83,6 +89,7 @@ def _run_agent(state: TurnState) -> dict:
         profile=state["profile"],
         attachments=state.get("attachments", []),
         history=state.get("history", []),
+        legal_contract=state.get("legal_contract") if step.agent == "legal" else None,
     )
     started = time.perf_counter()
     try:
@@ -144,7 +151,7 @@ def build_graph():
 _graph = None
 
 
-def run_turn(question: str, session_id: str | None = None, attachments: list[Attachment] | None = None) -> ChatResponse:
+def run_turn(question: str, session_id: str | None = None, attachments: list[Attachment] | None = None, legal_contract: dict | None = None) -> ChatResponse:
     global _graph
     if _graph is None:
         _graph = build_graph()
@@ -156,6 +163,7 @@ def run_turn(question: str, session_id: str | None = None, attachments: list[Att
             "history": list(session.history),
             "profile": session.profile,
             "attachments": attachments or [],
+            "legal_contract": legal_contract,
             "results": [],
             "trace": [],
         }
@@ -182,7 +190,7 @@ def run_turn(question: str, session_id: str | None = None, attachments: list[Att
         ),
         answer=state["answer"],
         abstained=state["abstained"],
-        needs_clarification=bool(plan.clarification and not plan.steps),
+        needs_clarification=bool(plan.clarification and not plan.steps) or any(r.status == "needs_info" for r in results),
         citations=state["citations"],
         agents=[AgentSummary(agent=r.agent, status=r.status, answer=r.answer, missing_info=r.missing_info) for r in results],
         missing_info=list(dict.fromkeys(m for r in results for m in r.missing_info)),
@@ -191,4 +199,5 @@ def run_turn(question: str, session_id: str | None = None, attachments: list[Att
         composed_by=state.get("composed_by", ""),
         latency_ms=round((time.perf_counter() - started) * 1000, 1),
         trace=state["trace"],
+        artifacts=[artifact for result in results for artifact in result.artifacts],
     )

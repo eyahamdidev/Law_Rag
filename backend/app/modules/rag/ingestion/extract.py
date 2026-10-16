@@ -63,7 +63,7 @@ def _decode_broken(text: str) -> str:
 def _broken_fonts(doc: pymupdf.Document, sample_pages: int = 6) -> set[str]:
     fonts: dict[str, list[int]] = {}
     for page in doc.pages(0, min(sample_pages, doc.page_count)):
-        for block in page.get_text("dict")["blocks"]:
+        for block in page.get_text("dict", flags=pymupdf.TEXTFLAGS_DICT & ~pymupdf.TEXT_PRESERVE_IMAGES)["blocks"]:
             for line in block.get("lines", []):
                 for span in line["spans"]:
                     text = span["text"]
@@ -92,7 +92,7 @@ def _page_text(page: pymupdf.Page, broken: set[str]) -> tuple[str, bool]:
         return page.get_text("text", sort=False), False
     blocks = []
     decoded_any = False
-    for block in page.get_text("dict")["blocks"]:
+    for block in page.get_text("dict", flags=pymupdf.TEXTFLAGS_DICT & ~pymupdf.TEXT_PRESERVE_IMAGES)["blocks"]:
         lines = []
         for line in block.get("lines", []):
             parts = []
@@ -153,12 +153,25 @@ def extract_pages(path: Path, sha256: str) -> list[PageText]:
             raw, decoded = _page_text(page, broken)
             text = normalize(raw)
             sparse = len(re.sub(r"\s", "", text)) < SPARSE_PAGE_CHARS
+            # Arabic legacy fonts can yield hundreds of Latin/control glyphs.
+            # Length alone must not make that corrupted layer searchable.
+            controls = sum(ord(c) < 32 and c not in "\n\r\t" for c in text)
+            replacements = text.count("\ufffd")
+            arabic_expected = bool(re.search(r"(?:_|\d)ar(?:_|\.|$)", path.name.lower()))
+            arabic_letters = sum("\u0600" <= c <= "\u06ff" for c in text)
+            letters = sum(c.isalpha() for c in text)
+            corrupted = (controls + replacements) / max(len(text), 1) > 0.01
+            if arabic_expected and letters > 80 and arabic_letters / letters < 0.1:
+                corrupted = True
+            sparse = sparse or corrupted
             source = "decoded_font" if decoded else "text"
             if sparse:
                 cached = ocr_cache_path(sha256, index)
                 if cached.exists():
                     text = normalize(cached.read_text(encoding="utf-8"))
-                    sparse = False
+                    sparse = len(re.sub(r"\s", "", text)) < 40
                     source = "ocr"
+                if sparse:
+                    text = ""  # sparse/broken text is not legal evidence
             pages.append(PageText(page=index, text=text, needs_ocr=sparse, source=source))
     return strip_running_headers(pages)

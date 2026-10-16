@@ -13,7 +13,8 @@ MAX_UPLOAD_BYTES = 15 * 1024 * 1024
 
 @router.post("/chat", response_model=ChatResponse)
 def chat(body: ChatRequest) -> ChatResponse:
-    return run_turn(body.question.strip(), session_id=body.session_id)
+    return run_turn(body.question.strip(), session_id=body.session_id,
+                    legal_contract=body.legal_contract.model_dump(mode="json") if body.legal_contract else None)
 
 
 @router.post("/chat/upload", response_model=ChatResponse)

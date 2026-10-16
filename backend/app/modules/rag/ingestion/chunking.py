@@ -39,6 +39,7 @@ _ARTICLE_FR = re.compile(
     re.MULTILINE,
 )
 _ARTICLE_AR = re.compile(r"^\s*(?:الفصل|فصل)\s*(الأول|الوحيد|\d+)", re.MULTILINE)
+_ARTICLE_NUMBERED = re.compile(r"^[ \t]*(1er|\d{1,3})\.[ \t]+", re.MULTILINE)
 # A heading, not a reference: capitalised, numbered, and followed by its date.
 # "Vu le décret n° 2008-733 du ..." wraps onto lines that start lowercase.
 # Ministerial orders carry no number: "Arrêté du ministre des finances du 21 mai 2018".
@@ -72,6 +73,9 @@ class Chunk:
     parts: int
     text: str
     embed_text: str
+    source_kind: str = "unknown"
+    current_version_verified: bool = False
+    extraction_method: str = "unknown"
 
     def payload(self) -> dict:
         data = asdict(self)
@@ -92,6 +96,7 @@ class _Joined:
     """Pages joined into one string, with offsets mapped back to page numbers."""
 
     def __init__(self, pages: list[PageText]) -> None:
+        self.page_sources = {p.page: p.source for p in pages}
         parts, self.starts, self.numbers = [], [], []
         offset = 0
         for page in pages:
@@ -176,9 +181,11 @@ def _with_overlap(spans: list[tuple[int, int]], text: str, overlap: int) -> list
     return out
 
 
-def _article_spans(text: str) -> list[_Span]:
+def _article_spans(text: str, numbered: bool = False) -> list[_Span]:
     heads = [(m.start(), m.group(1)) for m in _ARTICLE_FR.finditer(text)]
     heads += [(m.start(), m.group(1)) for m in _ARTICLE_AR.finditer(text)]
+    if not heads and numbered:
+        heads = [(m.start(),m.group(1)) for m in _ARTICLE_NUMBERED.finditer(text)]
     heads.sort()
     if len(heads) < MIN_ARTICLES_FOR_LEGAL:
         return []
@@ -209,6 +216,11 @@ def _header(doc: SourceDocument, act: str | None, article: str | None, part: int
 
 
 def _make(doc, joined, strategy, n, start, end, act=None, article=None, part=1, parts=1) -> Chunk | None:
+    while start < end and joined.text[start].isspace():
+        start += 1
+    while end > start and joined.text[end-1].isspace():
+        end -= 1
+    act = act or doc.extra.get("act")
     body = joined.text[start:end].strip()
     if len(body) < 40:
         return None
@@ -238,6 +250,9 @@ def _make(doc, joined, strategy, n, start, end, act=None, article=None, part=1, 
         parts=parts,
         text=body,
         embed_text=f"{header}\n{body}" if strategy == "structural" else body,
+        source_kind=doc.extra.get("source_kind", "unknown"),
+        current_version_verified=bool(doc.extra.get("current_version_verified", False)),
+        extraction_method="ocr" if any(joined.page_sources.get(page) == "ocr" for page in range(joined.page_at(start), joined.page_at(max(start, end - 1)) + 1)) else "text",
     )
 
 
@@ -251,7 +266,7 @@ def chunk_fixed(doc: SourceDocument, pages: list[PageText]) -> list[Chunk]:
 def chunk_structural(doc: SourceDocument, pages: list[PageText]) -> list[Chunk]:
     joined = _Joined(pages)
     text = joined.text
-    articles = _article_spans(text)
+    articles = _article_spans(text,numbered=doc.extra.get("article_numbering") in {"bare_en","bare"})
     chunks: list[Chunk] = []
     if not articles:
         spans = _with_overlap(_recursive(text, 0, len(text), TARGET_CHARS), text, OVERLAP_CHARS)

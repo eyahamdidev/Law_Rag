@@ -5,7 +5,7 @@ Edit the YAML, not this file.
 
 ## `intake.ocr_page`
 
-**Agent:** intake  
+**Agent:** intake
 **Current:** v1
 
 Vision OCR for scanned PDF pages (the 1976 Foreign Exchange Code, the BCT 2022 exchange-regulation collection, the 2016 API procedures manual) and for scans or photos that founders upload. The page is rendered to PNG and sent to the vision model. Output is cached per document hash and page, then indexed like digital text.
@@ -31,7 +31,7 @@ Transcribe all the text on this scanned page exactly as printed.
 
 ## `orchestrator.composer`
 
-**Agent:** orchestrator  
+**Agent:** orchestrator
 **Current:** v2
 
 Last call of a turn that used two or more agents. Merges the verified agent answers into one reply in the founder's language, keeps the global citation numbers the orchestrator assigned, drops the statements the verifier found unsupported, softens the partial ones, and ends with the open questions agents raised. A single-agent turn whose claims all passed skips this call and shows the agent's answer directly, which saves one LLM call per turn.
@@ -132,7 +132,7 @@ Open questions raised by agents: {{missing_info}}
 
 ## `orchestrator.planner`
 
-**Agent:** orchestrator  
+**Agent:** orchestrator
 **Current:** v4
 
 First LLM call of every turn. Reads the founder's message, the conversation so far, the known founder profile and the agent cards, then decides which agents to call (at most three), what sub-task each gets, a French search query for agents that search the corpus (the corpus is mostly French, so this is query translation for English and Arabic questions), whether a clarifying question must be asked first, and which profile fields the message reveals. Runs on the fast model tier. A keyword router is the fallback when no LLM is reachable or the JSON is invalid.
@@ -436,7 +436,7 @@ Founder's message:
 
 ## `rag.answer`
 
-**Agent:** rag (legal and grants workers)  
+**Agent:** rag (legal and grants workers)
 **Current:** v3
 
 Drafts a domain worker's answer from retrieved passages only. Every factual sentence carries the number of the passage that supports it, which is what the deterministic citation check and the claim-support verifier later inspect. The worker may ask for one extra search by returning a follow-up query; the orchestrator allows it once.
@@ -617,7 +617,7 @@ Passages:
 
 ## `verifier.claims`
 
-**Agent:** verifier  
+**Agent:** verifier
 **Current:** v1
 
 Claim-support check. A citation can point at a real passage that still does not say what the sentence claims. For each claim, the verifier reads only the passages the claim cites and labels it supported, partial or unsupported. Unsupported claims are removed from the composed answer; partial ones are kept with a caution. Citation existence (document id, page, passage number) is checked in code before this call, never by the model.

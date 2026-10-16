@@ -8,6 +8,7 @@ should get: the planner reads only the cards.
 """
 
 from app.agents.base import Agent, PlaceholderAgent
+from app.agents.legal_guidance import LegalGuidanceAgent
 from app.agents.rag_agent import RagAgent
 from app.schemas.agents import AgentCard
 
@@ -18,7 +19,9 @@ LEGAL = AgentCard(
         "Tunisian business law from the official texts: company forms and creation "
         "(Code des sociétés commerciales: SARL, SUARL, SA), the Startup Act label, its "
         "benefits and the BCT startup circulars, the investment law and its decrees, "
-        "banking law, foreign-exchange rules, crowdfunding law, insolvency procedures."
+        "banking law, foreign-exchange rules, crowdfunding law, insolvency procedures. "
+        "Startup intellectual property: patents, trademarks, copyright, confidentiality, licensing and assignment. "
+        "For drafting an agreement, collect the contract type and required terms through the legal drafting interface."
     ),
     use_when="The founder asks what the law requires, allows or grants, or which legal form or procedure applies.",
     owner="law team",
@@ -65,7 +68,7 @@ FRAUD = AgentCard(
 )
 
 AGENTS: dict[str, Agent] = {
-    "legal": RagAgent(LEGAL, corpora=["law"], domain_label="Tunisian business law"),
+    "legal": LegalGuidanceAgent(LEGAL),
     "grants": RagAgent(GRANTS, corpora=["grants"], domain_label="funding and support programmes"),
     "business_plan": PlaceholderAgent(BUSINESS_PLAN),
     "marketing": PlaceholderAgent(MARKETING),

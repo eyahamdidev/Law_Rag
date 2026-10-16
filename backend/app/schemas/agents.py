@@ -36,6 +36,10 @@ class FounderProfile(BaseModel):
     has_startup_label: bool | None = None
     founder_age: int | None = None
     is_graduate: bool | None = None
+    founder_name: str | None = Field(default=None, max_length=200)
+    company_name: str | None = Field(default=None, max_length=200)
+    academic_background: str | None = Field(default=None, max_length=1500)
+    entrepreneurship_experience: str | None = Field(default=None, max_length=1500)
     notes: list[str] = Field(default_factory=list)
 
     def known(self) -> dict:
@@ -86,14 +90,19 @@ class Citation(BaseModel):
     article: str | None = None
     publication_date: str | None = None
     publisher_url: str | None = None
+    retrieved_at: str | None = None
     quote: str = Field(description="Start of the cited passage, shown as evidence")
     score: float | None = None
     score_meaning: str = "retrieval relevance, not legal correctness"
     supported: bool | None = Field(default=None, description="Verifier verdict on the claims citing it")
+    source_kind: str = "unknown"
+    current_version_verified: bool = False
+    extraction_method: str = "unknown"
 
 
 class Claim(BaseModel):
     text: str
+    quote: str | None = Field(default=None, max_length=1000)
     refs: list[int] = Field(default_factory=list)
     verdict: Literal["supported", "partial", "unsupported", "unchecked"] = "unchecked"
 
@@ -106,6 +115,7 @@ class AgentRequest(BaseModel):
     profile: FounderProfile = Field(default_factory=FounderProfile)
     attachments: list[Attachment] = Field(default_factory=list)
     history: list[Turn] = Field(default_factory=list)
+    legal_contract: dict | None = None
 
 
 class AgentResult(BaseModel):
@@ -119,6 +129,7 @@ class AgentResult(BaseModel):
     profile_updates: dict = Field(default_factory=dict)
     confidence: float | None = None
     trace: list[TraceStep] = Field(default_factory=list)
+    artifacts: list[dict] = Field(default_factory=list)
 
 
 class AgentCard(BaseModel):

@@ -49,6 +49,10 @@ class Settings(BaseSettings):
     gemini_model: str = "gemini-3.5-flash"
     gemini_fast_model: str = "gemini-3.5-flash-lite"
     llm_timeout_s: float = 60.0
+    local_llm_enabled: bool = False
+    local_llm_base_url: str = "http://127.0.0.1:11434/v1"
+    local_llm_model: str = "local-legal"
+    legal_web_fallback_enabled: bool = False
     # gpt-oss only: hidden reasoning tokens count toward max_tokens. low | medium | high
     llm_reasoning_effort: str = "low"
 

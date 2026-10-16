@@ -32,6 +32,7 @@ from app.config import settings
 _CUSTOM_MODELS = {
     "intfloat/multilingual-e5-small": 384,
     "intfloat/multilingual-e5-base": 768,
+    "local/multilingual-e5-small-int8": 384,
 }
 _registered: set[str] = set()
 
@@ -47,9 +48,9 @@ def _register(model_name: str) -> None:
             model=model_name,
             pooling=PoolingType.MEAN,
             normalization=True,
-            sources=ModelSource(hf=model_name),
+            sources=ModelSource(hf="intfloat/multilingual-e5-small" if model_name.startswith("local/") else model_name),
             dim=_CUSTOM_MODELS[model_name],
-            model_file="onnx/model.onnx",
+            model_file="onnx/model_qint8_avx512_vnni.onnx" if model_name.startswith("local/") else "onnx/model.onnx",
         )
     except ValueError:  # already registered in this process
         pass
@@ -76,6 +77,7 @@ class EmbeddingClient:
         self.model_name = model_name or settings.embedding_model
         self._model = None
         self._lock = threading.Lock()
+        self._db_lock = threading.RLock()
         cache_path = settings.data_dir / "embedding_cache.sqlite"
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         self._db = sqlite3.connect(cache_path, check_same_thread=False)
@@ -87,8 +89,10 @@ class EmbeddingClient:
             from fastembed import TextEmbedding
 
             _register(self.model_name)
+            local_path = settings.data_dir / "models" / model_slug(self.model_name)
+            options = {"specific_model_path": str(local_path)} if (local_path / "tokenizer.json").is_file() else {}
             self._model = TextEmbedding(
-                self.model_name, cache_dir=str(settings.data_dir / "models"), providers=onnx_providers()
+                self.model_name, cache_dir=str(settings.data_dir / "models"), providers=onnx_providers(), threads=4, **options
             )
         return self._model
 
@@ -100,6 +104,10 @@ class EmbeddingClient:
         return hashlib.sha1(f"{self.model_name}\0{text}".encode("utf-8")).hexdigest()
 
     def _embed(self, texts: list[str]) -> list[np.ndarray]:
+        with self._db_lock:
+            return self._embed_locked(texts)
+
+    def _embed_locked(self, texts: list[str]) -> list[np.ndarray]:
         batch_size = settings.embedding_batch_size
         keys = [self._key(text) for text in texts]
         found: dict[str, np.ndarray] = {}
@@ -135,10 +143,12 @@ class EmbeddingClient:
 
 
 _clients: dict[str, EmbeddingClient] = {}
+_clients_lock = threading.Lock()
 
 
 def get_embedder(model_name: str | None = None) -> EmbeddingClient:
     name = model_name or settings.embedding_model
-    if name not in _clients:
-        _clients[name] = EmbeddingClient(name)
+    with _clients_lock:
+        if name not in _clients:
+            _clients[name] = EmbeddingClient(name)
     return _clients[name]
