@@ -111,6 +111,20 @@ def test_fabricated_citations_are_not_exposed_as_generated_answers(monkeypatch):
     assert "Invented rule" not in result.result.answer
     assert not result.result.claims and result.result.citations[0].page == 3
 
+
+def test_arabic_patent_answer_cannot_change_invention_into_choice(monkeypatch):
+    quote = "الاختراعات الجديدة والناتجة عن نشاط ابتكاري والقابلة للتطبيق الصناعي"
+    source = passage().model_copy(update={"text":quote,"domain":"intellectual_property","language":"ar"})
+    monkeypatch.setattr(engine,"search_many",lambda *a,**k:[source])
+    class Model:
+        available = True
+        def chat_json(self,*a,**k):
+            return {"claims":[{"text":"لحماية الاختراع يجب أن يكون الاختيار جديدا.","quote":quote,"refs":[1]}]},SimpleNamespace(provider="fake",model="fake")
+    monkeypatch.setattr(engine,"get_llm",lambda:Model())
+    result = engine._guidance(GuidanceRequest(question="ما هي شروط حماية الاختراع ببراءة؟",language="ar"))
+    assert result.mode == "evidence_only"
+    assert "الاختيار" not in result.result.answer
+
 def test_verified_claim_retains_its_source_and_page(monkeypatch):
     monkeypatch.setattr(engine, "search_many", lambda *a, **k: [passage()])
     class Model:
@@ -283,6 +297,28 @@ def test_literal_quote_options_are_present_in_the_source():
     source = passage()
     for quote in engine.quote_options(source):
         assert engine._normalized(quote) in engine._normalized(source.text)
+
+
+def test_long_legal_list_retains_its_final_evidence():
+    source = passage().model_copy(update={"text": "Des dénominations " + "des mots " * 55 + "et des signes sonores."})
+    quotes = engine.quote_options(source)
+    assert any("signes sonores" in quote for quote in quotes)
+    assert all(engine._normalized(q) in engine._normalized(source.text) for q in quotes)
+
+
+def test_trademark_examples_prefer_definition_over_distinctiveness():
+    question = "Quels signes peuvent constituer une marque de fabrique ?"
+    _, expansion = engine.topic(question)
+    distinctive = passage().model_copy(update={"text":"Le caractère distinctif d’un signe de nature à constituer une marque s’apprécie à l’égard des produits ou services désignés."})
+    definition = passage().model_copy(update={"text":"Peuvent constituer un signe : les dénominations, les signes figuratifs et les signes sonores."})
+    assert engine.prioritize_intent([distinctive,definition],question,expansion)[0] == definition
+
+
+def test_legal_list_items_are_separate_complete_quote_options():
+    source = passage().model_copy(update={"text":"Peuvent constituer un signe : a) Les mots et les lettres, b) Les dessins et les couleurs, c) Les sons et les phrases musicales."})
+    quotes = engine.quote_options(source)
+    assert "a) Les mots et les lettres," in quotes
+    assert "c) Les sons et les phrases musicales." in quotes
 
 
 def test_english_source_prose_is_not_accepted_as_a_french_answer():

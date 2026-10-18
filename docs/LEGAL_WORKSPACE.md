@@ -43,3 +43,14 @@ Project-authored drafting structures retain identities, equity, dates and confir
 ## Git
 
 `law`, `legal-guidance` and `contract-drafting` are separate branch names; Git does not nest branches. Both cooperating modules are implemented together. The shared baseline was imported from `feat/orchestrator-rag` commit `b1af0e57b77359ad663d14dd4efbde92bb8c3e5d`, whose history differs from the original law root. Review against that baseline before integration. Do not blindly merge unrelated histories or overwrite the orchestrator branch.
+
+### Selective integration patch
+
+From the legal feature checkout, run:
+
+```powershell
+.\.venv\Scripts\python.exe scripts\export_integration_patch.py
+git apply --stat data/handoff/legal-component.patch
+```
+
+This exports committed legal additions and shared code changes against the pinned team baseline. It excludes deletions, other teams' datasets, the root README, CI configuration and Docker configuration. Generated local models, private examples, keys and runtime data are never included. Copy the generated patch to the integration checkout, then run `git apply --check <patch-path>` before `git apply <patch-path>`. Review shared config, retrieval, routing, profile and frontend changes; resolve conflicts with newer team work instead of forcing application. Run the backend tests after applying. The feature's local development setup does not replace the team's hosting/authentication setup.

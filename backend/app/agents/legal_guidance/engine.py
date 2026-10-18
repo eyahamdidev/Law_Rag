@@ -55,6 +55,8 @@ def topic(question):
         if any(term in folded for term in terms):
             if "brevet" in expansion and any(word in folded for word in ("condition", "requirement", "شروط", "brevetable", "patentable")):
                 expansion += " nouveauté activité inventive application industrielle novel inventive step industrial application الاختراعات الجديدة نشاط ابتكاري قابلة للتطبيق الصناعي"
+            if trademark_signs_question(question, expansion):
+                expansion += " Peuvent notamment constituer un tel signe dénominations mots noms patronymiques lettres chiffres signes figuratifs sonores signs words names letters numerals figurative sound"
             return domains, expansion
     return None, ""
 
@@ -72,9 +74,11 @@ def quote_options(passage):
     """Offer short literal excerpts so small local models select rather than paraphrase quotes."""
     text = " ".join(passage.text[:1000].split())
     options = []
-    for sentence in re.split(r"(?<=[.!?;])\s+", text):
-        if len(sentence) > 350:
-            sentence = sentence[:350].rsplit(" ", 1)[0]
+    for sentence in re.split(r"(?<=[.!?;])\s+|\s+(?=[a-z]\)\s)", text):
+        while len(sentence) > 350:
+            excerpt = sentence[:350].rsplit(" ", 1)[0]
+            options.append(excerpt)
+            sentence = sentence[len(excerpt):].lstrip()
         if len(sentence) >= 12:
             options.append(sentence)
     return list(dict.fromkeys(options)) or [text[:350]]
@@ -84,8 +88,22 @@ def patentability_question(question, expansion):
     return "brevet" in expansion and any(word in question.casefold() for word in ("condition","requirement","شروط","brevetable","patentable"))
 
 
+def trademark_signs_question(question, expansion):
+    folded = question.casefold()
+    return "trademarks" in expansion and any(word in folded for word in ("signe", "signs", "constituer", "définition", "definition", "علامات", "إشارات"))
+
+
+def trademark_definition_score(passage):
+    text = passage.text.casefold()
+    groups = [("dénominations", "denominations", "names", "تسميات"),
+              ("figurat", "figurative", "تصوير"), ("sonores", "sound", "صوت")]
+    return sum(any(term in text for term in group) for group in groups)
+
+
 def prioritize_intent(passages, question, expansion):
     """For patentability questions, prefer the actual criteria over filing boilerplate."""
+    if trademark_signs_question(question, expansion):
+        return sorted(passages, key=trademark_definition_score, reverse=True)
     if not patentability_question(question,expansion):
         return passages
     groups = [("novel", "nouve", "جديد"), ("inventive", "inventiv", "ابتكاري"), ("industrial", "industri", "الصناعي")]
@@ -153,7 +171,7 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
                                 mode="needs_info", jurisdiction=body.jurisdiction, limitations=limitations)
     domains, expansion = topic(body.question)
     primary_domains = [d for d in domains if d != "ip_guidance"] if domains else None
-    candidates = 20 if patentability_question(body.question,expansion) else 5
+    candidates = 20 if patentability_question(body.question,expansion) or trademark_signs_question(body.question,expansion) else 5
     passages = web_passages if web_passages is not None else search_many([body.question, expansion], rerank_query=body.question, corpora=["law"], domains=primary_domains, k=candidates)
     trace = list(prior_trace or []) + [TraceStep(module="legal.wipo_research" if web_passages is not None else "legal.retrieve", status=ModuleStatus.ok,
         detail=(f"Bounded WIPO lookup: {passages[0].publisher_url}; accessed {passages[0].retrieved_at}; no profile or uploads transmitted." if web_passages else f"{len(passages)} legal passages; domain filter={domains}; multilingual query expansion."))]
@@ -173,6 +191,10 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
         return GuidanceResponse(result=fallback, mode="evidence_only", jurisdiction=body.jurisdiction, limitations=limitations)
     try:
         options=[quote_options(p) for p in passages]
+        if trademark_signs_question(body.question,expansion):
+            best = max(map(trademark_definition_score, passages), default=0)
+            if best >= 2:
+                options = [quotes if trademark_definition_score(p)==best else [] for p,quotes in zip(passages,options)]
         if patentability_question(body.question,expansion):
             groups=[("novel","nouve","جديد"),("inventive","inventiv","ابتكاري"),("industrial","industri","الصناعي")]
             def criteria_score(quote):
@@ -187,9 +209,9 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
             payload=json.dumps({"language": language, "jurisdiction": body.jurisdiction, "question": body.question,
                 "profile": body.profile.known(), "user_documents": [{"filename": a.filename, "text": a.text[:1800]} for a in body.attachments],
                 "source_passages": [{"ref":i,"source_kind":p.source_kind,"current_version_verified":p.current_version_verified,"allowed_quotes":options[i-1]} for i,p in enumerate(passages,1) if options[i-1]]}, ensure_ascii=False),
-        ), max_tokens=800, output_schema={
+        ), max_tokens=1400, output_schema={
             "type":"object", "properties":{
-                "claims":{"type":"array","maxItems":2,"items":{"type":"object","properties":{
+                "claims":{"type":"array","maxItems":4,"items":{"type":"object","properties":{
                     "quote":{"type":"string","enum":literal_quotes},
                     "refs":{"type":"array","items":{"type":"integer","enum":list(range(1,len(passages)+1))},"minItems":1,"maxItems":2},
                     "text":{"type":"string","maxLength":600}},"required":["quote","refs","text"],"additionalProperties":False}},
@@ -211,6 +233,10 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
             refs = [r for r in refs if quote in _normalized(passages[r - 1].text[:1000])]
             if len(quote) < 12 or not refs:
                 continue
+            if language == "ar" and patentability_question(body.question,expansion):
+                claim_text = str(claim.get("text", ""))
+                if "اختيار" in claim_text:
+                    continue
             key=(quote,tuple(sorted(refs)))
             if key in seen_quotes:
                 continue
@@ -223,11 +249,13 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
         if not proposed:
             return GuidanceResponse(result=fallback, mode="evidence_only", jurisdiction=body.jurisdiction, limitations=limitations)
         proposed = localize_claims(client,proposed,language)
+        if language == "ar" and patentability_question(body.question,expansion) and any("اختيار" in c.text for c in proposed):
+            raise ValueError("Arabic patent terminology changed during translation")
         check_prompt = get_prompt("legal.claim_check")
         checked, _ = client.chat_json(check_prompt.messages(
             payload=json.dumps([{"claim": i, "text": c.text, "evidence": [{"source_kind":passages[r - 1].source_kind,"article":passages[r-1].article,"act":passages[r-1].act,"text":c.quote} for r in c.refs]} for i, c in enumerate(proposed)], ensure_ascii=False),
-        ), tier="fast", max_tokens=200, output_schema={"type":"object","properties":{
-            "verdicts":{"type":"array","maxItems":2,"items":{"type":"object","properties":{
+        ), tier="fast", max_tokens=400, output_schema={"type":"object","properties":{
+            "verdicts":{"type":"array","maxItems":4,"items":{"type":"object","properties":{
                 "claim":{"type":"integer","enum":list(range(len(proposed)))},
                 "verdict":{"type":"string","enum":["supported","unsupported"]}},"required":["claim","verdict"],"additionalProperties":False}}},
             "required":["verdicts"],"additionalProperties":False})
@@ -239,7 +267,7 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
         citations=[]
         for n in used:
             citation=citation_from(n,passages[n-1])
-            supporting=next((c.quote for c in claims if n in c.refs and c.quote),None)
+            supporting="\n\n".join(dict.fromkeys(c.quote for c in claims if n in c.refs and c.quote))
             if supporting:
                 citation=citation.model_copy(update={"quote":supporting})
             citations.append(citation)

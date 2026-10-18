@@ -21,14 +21,14 @@ CASES = [
 
 def main():
     from app.config import settings
-    from app.agents.legal_guidance.engine import topic, prioritize_intent, patentability_question
+    from app.agents.legal_guidance.engine import topic, prioritize_intent, patentability_question, trademark_signs_question
     from app.modules.rag.retrieval.hybrid import search_many
     results = []
     for name, question, expected in CASES:
         domains, expansion = topic(question)
         primary = [d for d in domains if d != "ip_guidance"] if domains else None
         started = time.perf_counter()
-        passages = search_many([question, expansion], rerank_query=question, corpora=["law"], domains=primary, k=20 if patentability_question(question,expansion) else 5)
+        passages = search_many([question, expansion], rerank_query=question, corpora=["law"], domains=primary, k=20 if patentability_question(question,expansion) or trademark_signs_question(question,expansion) else 5)
         passages=prioritize_intent(passages,question,expansion)[:5]
         results.append({"id": name, "question": question, "expected_document_fragment": expected,
             "hit_at_5": any(expected in p.path for p in passages),
