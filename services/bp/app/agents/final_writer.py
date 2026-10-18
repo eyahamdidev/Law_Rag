@@ -1,11 +1,18 @@
 """Final institutional rewrite: the six fixed sections.
 
-Default is one batched call (final_writer@v3) that writes all six sections in a
-single reply, so a slow model pays the context prefill once; any section the
-reply dropped is topped up individually with the per-section prompt
-(final_writer@v2). ``mode="sequential"`` writes every section one call at a
-time. After every section ``writer.guard`` marks each figure that is not
-traceable to the inputs with "[to be confirmed by the founder]".
+Default is one batched call (final_writer@v6, evidence-grounded and
+anti-fabrication specification: internal fact table, hard rule that missing
+information becomes a [NEEDED: ...] placeholder instead of an invented claim,
+bottom-up market sizing only, eight-point final validation collecting the open
+items plus a one-line verdict) that writes all six sections in a single reply,
+so a slow model pays the context prefill once; any section the reply dropped
+is topped up individually with the per-section prompt (final_writer@v2).
+``mode="sequential"`` writes every section one call at a time. After every
+section ``writer.guard`` marks each figure that is not traceable to the inputs
+with "[to be confirmed by the founder]".
+
+Temperature is always 0; ``seed`` selects the deterministic generation
+(default SEED, changed by the regenerate option to re-roll the same inputs).
 
 Degradation, same philosophy as the other agents: no key, a timeout, bad JSON
 or an exhausted time budget turns that section into an empty text with a status
@@ -36,7 +43,7 @@ SECTION_TITLES = {
 }
 
 SECTION_PROMPT_VERSION = 2  # one section per call, used for top-ups and sequential mode
-BATCH_PROMPT_VERSION = 3    # all six sections in one reply
+BATCH_PROMPT_VERSION = 6    # all six sections in one reply, anti-fabrication spec
 BATCH_MARKER = "ALL SIX"    # unique to the v3 text, used by tests to tell the two prompts apart
 MAX_FACTS_CHARS = 8000
 MAX_PLAN_CHARS = 12000
@@ -68,9 +75,9 @@ async def _post(client: httpx.AsyncClient, body: dict, remaining: float) -> tupl
 
 async def _chat_section(client: httpx.AsyncClient, *, model: str, system: str, user: str,
                         schema: dict | None, deadline: float | None, max_retries: int,
-                        max_tokens: int = MAX_TOKENS) -> tuple[dict, dict]:
+                        max_tokens: int = MAX_TOKENS, seed: int = SEED) -> tuple[dict, dict]:
     """One model call. Retries 429/5xx and network errors with backoff; JSON/shape failures raise at once."""
-    body: dict = {"model": model, "temperature": 0, "seed": SEED, "max_tokens": max_tokens,
+    body: dict = {"model": model, "temperature": 0, "seed": seed, "max_tokens": max_tokens,
                   "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
     if schema and settings.llm_json_mode == "json_schema":
         body["response_format"] = {"type": "json_schema", "json_schema": {"name": "section", "strict": False, "schema": schema}}
@@ -122,9 +129,11 @@ def _batch_sections(got: dict) -> dict[str, str]:
 
 async def run_final_writer_agent(prompts, facts: str, current_plan: str, critique_report: str, *,
                                  deadline: float | None = None, transport: httpx.AsyncBaseTransport | None = None,
-                                 max_retries: int = 2, mode: str = "batch") -> dict:
+                                 max_retries: int = 2, mode: str = "batch", seed: int = SEED) -> dict:
     """Write the six final sections. Batch mode: one call, then a per-section top-up for what is missing.
 
+    ``seed`` re-rolls the deterministic generation (the regenerate option).
+    The batch reply's ``open_items`` and ``verdict`` are passed through when present.
     Returns all six ids, each with a status; never raises.
     """
     if mode not in ("batch", "sequential"):
@@ -139,13 +148,15 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
               "critique": critique_report[:MAX_CRIT_CHARS], "marker": marker}
     texts: dict[str, str] = {}
     errors: dict[str, str] = {}
+    extra: dict[str, object] = {}
     usage = {"calls": 0, "prompt_tokens": 0, "completion_tokens": 0}
     configured = bool(settings.llm_api_key) or transport is not None
     try:
         async with httpx.AsyncClient(transport=transport) as client:
             async def call(user: str, schema: dict | None, max_tokens: int, retries: int) -> dict:
                 got, u = await _chat_section(client, model=model, system=system, user=user, schema=schema,
-                                             deadline=deadline, max_retries=retries, max_tokens=max_tokens)
+                                             deadline=deadline, max_retries=retries, max_tokens=max_tokens,
+                                             seed=seed)
                 usage["calls"] += 1
                 usage["prompt_tokens"] += int(u.get("prompt_tokens") or 0)
                 usage["completion_tokens"] += int(u.get("completion_tokens") or 0)
@@ -156,6 +167,12 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
                     got = await call(prompts.render(pb["text"], **common), pb.get("output_schema"),
                                      BATCH_MAX_TOKENS, max_retries)
                     texts.update(_batch_sections(got))
+                    items = got.get("open_items")
+                    if isinstance(items, list) and items:
+                        extra["open_items"] = [str(i).strip() for i in items if str(i).strip()]
+                    verdict = got.get("verdict")
+                    if isinstance(verdict, str) and verdict.strip():
+                        extra["verdict"] = verdict.strip()
                 except Exception as exc:  # noqa: BLE001  the per-section round below recovers what it can
                     errors["batch"] = f"{exc.__class__.__name__}: {exc}"[:200]
             if configured:
@@ -191,6 +208,8 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
                               or "section missing from the model reply.")
         sections.append(entry)
     ok = sum(1 for s in sections if s["status"] == "ok")
-    return {"method": "model" if ok == len(SECTION_IDS) else ("partial" if ok else "unavailable"),
-            "mode": mode, "model": model, "prompt_id": prompts.ref(pb if mode == "batch" else ps),
-            "sections": sections, "usage": usage}
+    result = {"method": "model" if ok == len(SECTION_IDS) else ("partial" if ok else "unavailable"),
+              "mode": mode, "model": model, "prompt_id": prompts.ref(pb if mode == "batch" else ps),
+              "sections": sections, "usage": usage}
+    result.update(extra)
+    return result

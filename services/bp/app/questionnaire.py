@@ -7,10 +7,12 @@ The bank is the module's own. The orchestrator may already know some answers
 
 from __future__ import annotations
 
+import html
 import re
 from dataclasses import dataclass, field
 from typing import Any
 
+from app.agents.common import fold
 from app.templates import label
 
 STAGES = ["idea", "creation", "extension"]
@@ -83,6 +85,7 @@ BANK: list[Q] = [
     Q("loan_years", "financing", "int", False, "Loan duration (years)", "Durée du crédit (années)", "مدة القرض (سنوات)"),
     Q("grace_years", "financing", "int", False, "Grace period (years)", "Différé (années)", "فترة الإمهال (سنوات)"),
     Q("grant_amount", "financing", "number", False, "Grants or subsidies (TND)", "Subventions (TND)", "المنح (دينار)"),
+    Q("currency", "financing", "choice", False, "Currency of all amounts", "Devise de tous les montants", "عملة المبالغ", ("TND", "EUR", "MAD", "USD")),
     # E. projections -------------------------------------------------------------
     Q("horizon_years", "projections", "choice", True, "Projection horizon (years)", "Horizon de projection (années)", "أفق التوقعات (سنوات)", ("3", "5")),
     Q("revenue_by_year", "projections", "year_series", True, "Revenue per year (TND)", "Chiffre d'affaires par année (TND)", "رقم المعاملات سنويا (دينار)",
@@ -101,6 +104,23 @@ BANK: list[Q] = [
     Q("jobs_created", "extension", "int", False, "Jobs created", "Emplois créés", "مواطن الشغل المحدثة"),
     Q("impact_note", "extension", "longtext", False, "Social or environmental impact", "Impact social ou environnemental", "الأثر الاجتماعي أو البيئي"),
     Q("risks", "risks", "longtext", False, "Main risks and how you handle them", "Principaux risques et mesures", "أهم المخاطر وسبل معالجتها"),
+    # G. evidence & compliance (optional; skippable in chat) ---------------------------------
+    Q("traction_note", "evidence", "longtext", False,
+      "Traction and validation (customers, revenue to date, pilots, waitlist, LOIs — with dates if known)",
+      "Traction et validation (clients, CA réalisé, pilotes, liste d'attente, lettres d'intention — avec dates si connues)",
+      "الإثبات والتحقق (حرفاء، معاملات محققة، تجارب، قائمة انتظار، رسائل نية — مع التواريخ إن وُجدت)"),
+    Q("ip_note", "evidence", "longtext", False,
+      "Intellectual property (patents, trademarks, software ownership, licences)",
+      "Propriété intellectuelle (brevets, marques, logiciels, licences)",
+      "الملكية الفكرية (براءات، علامات، ملكية البرمجيات، تراخيص)"),
+    Q("awards_note", "evidence", "longtext", False,
+      "Awards, labels, grants already received, or accelerator programmes",
+      "Prix, labels, subventions déjà obtenues ou programmes d'accompagnement",
+      "جوائز أو علامات أو منح حصلتم عليها أو برامج دعم"),
+    Q("permits_note", "compliance", "longtext", False,
+      "Permits, authorisations, and regulatory requirements (sector licences, hygiene, environment…)",
+      "Autorisations et exigences réglementaires (licences sectorielles, hygiène, environnement…)",
+      "التراخيص والمتطلبات التنظيمية (رخص قطاع، صحة، بيئة…)"),
 ]
 
 BANK_BY_ID: dict[str, Q] = {q.id: q for q in BANK}
@@ -124,6 +144,9 @@ PROFILE_ALIASES = {
 }
 STAGE_ALIASES = {"idea": "idea", "creation": "creation", "création": "creation", "extension": "extension", "growth": "extension"}
 NEED_TO_INSTRUMENT = {"financing": "loan", "loan": "loan", "grant": "grant", "equity": "equity", "mixed": "mixed"}
+CURRENCY_ALIASES = {"tnd": "TND", "dt": "TND", "dinar": "TND", "dinars": "TND", "دينار": "TND",
+                    "eur": "EUR", "euro": "EUR", "euros": "EUR", "€": "EUR",
+                    "mad": "MAD", "dirham": "MAD", "usd": "USD", "dollar": "USD", "$": "USD"}
 
 
 class ParseError(ValueError):
@@ -203,15 +226,28 @@ def parse_items(value: Any) -> list[dict]:
     return out
 
 
+_MD_IMAGE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+_MD_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+
+
+def _clean_text(s: str) -> str:
+    """Strip paste junk: markdown images go, links keep their text, HTML entities decode, trailing '+N' goes."""
+    s = _MD_IMAGE.sub(" ", s)
+    s = _MD_LINK.sub(r"\1", s)
+    s = html.unescape(s).replace("\xa0", " ")
+    s = re.sub(r"\s*\+\d+\s*$", "", s.strip())
+    return re.sub(r"[ \t]{2,}", " ", s).strip()
+
+
 def normalise(q: Q, value: Any) -> Any:
     """Return the cleaned value or raise ParseError. Empty input returns None."""
     if value is None or (isinstance(value, str) and not value.strip()) or (isinstance(value, (list, dict)) and not value):
         return None
     t = q.type
     if t in ("text", "longtext"):
-        return str(value).strip()
+        return _clean_text(str(value))
     if t == "choice":
-        s = str(value).strip()
+        s = _clean_text(str(value))
         for c in q.choices:
             if s.lower() == c.lower():
                 return c
@@ -224,8 +260,13 @@ def normalise(q: Q, value: Any) -> Any:
                 return "no"
         if q.id == "funding_instrument" and s.lower() in NEED_TO_INSTRUMENT:
             return NEED_TO_INSTRUMENT[s.lower()]
-        if q.id == "governorate":  # free spelling is common: accept and keep trimmed
-            return s
+        if q.id == "currency" and s.lower() in CURRENCY_ALIASES:
+            return CURRENCY_ALIASES[s.lower()]
+        if q.id == "governorate":
+            m = next((c for c in q.choices if fold(c) == fold(s)), None)
+            if m is None:  # unknown ("Tunisian", a typo): rejected and re-asked, never guessed
+                raise ParseError(f"'{s}' is not one of the 24 governorates")
+            return m
         raise ParseError(f"'{s}' is not one of: {', '.join(q.choices)}")
     if t == "bool":
         return str(value).strip().lower() in ("1", "true", "yes", "oui", "نعم")

@@ -12,6 +12,7 @@ current finance law before anyone relies on them.
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any
 
@@ -58,6 +59,8 @@ class FinancialModel:
     sources_total_stated: float | None = None
     loan_principal: float | None = None
     loan_rate_pct: float | None = None
+    price_monthly: float | None = None  # price read from the answers when its period is stated
+    price_period: str | None = None  # "month" | "year" | None (unknown periods never imply customers)
     loan_years: int | None = None
     grace_years: int = 0
     own_funds: float | None = None
@@ -108,6 +111,11 @@ def from_answers(ctx_values: dict[str, Any]) -> FinancialModel:
     m.loan_principal = _f(v.get("loan_amount"))
     m.loan_rate_pct = _f(v.get("loan_rate_pct"))
     m.loan_years = v.get("loan_years")
+    pm = re.search(r"(\d+(?:[.,]\d+)?)", str(v.get("pricing") or ""))
+    if pm:
+        m.price_monthly = float(pm.group(1).replace(",", "."))
+        low = str(v.get("pricing") or "").lower()
+        m.price_period = "month" if re.search(r"month|mensu|mois|شهري|شهرة", low) else ("year" if re.search(r"year|annual|an\b|par an|سنوي", low) else None)
     m.grace_years = int(v.get("grace_years") or 0)
     m.own_funds = _f(v.get("own_funds"))
     m.grant = _f(v.get("grant_amount"))
@@ -246,7 +254,7 @@ def derive(m: FinancialModel) -> dict:
     be_year = next((m.years[t] for t in range(n) if be_rev[t] is not None and rev[t] >= be_rev[t]), None)
     gross_margin = [((rev[t] - cogs[t]) / rev[t]) if rev[t] > 0 else None for t in range(n)]
     net_margin = [(net[t] / rev[t]) if rev[t] > 0 else None for t in range(n)]
-    return {
+    out = {
         "years": m.years, "revenue": rev, "cogs": cogs, "payroll": pay, "opex": opex, "capex": capex,
         "depreciation": dep, "interest": interest, "principal_paid": principal_paid, "tax": tax,
         "ebitda": ebitda, "ebit": ebit, "net_income": net, "cash_end": cash, "debt_service": debt_service,
@@ -254,6 +262,29 @@ def derive(m: FinancialModel) -> dict:
         "break_even_year": be_year, "gross_margin": gross_margin, "net_margin": net_margin,
         "loan_schedule": sched, "tax_rate_pct": rate, "assumptions": list(m.assumptions),
     }
+    # missing salaries or other costs: the profit, cash and break-even figures would silently count
+    # those costs as zero, so they are withheld and the projection is marked incomplete.
+    missing_costs = [name for name, lst in (("salaries", _pad(m.payroll, n)), ("other costs", _pad(m.opex, n)))
+                     if all(x is None for x in lst)]
+    if missing_costs and any(rev):
+        note = ("Projection incomplete: " + " and ".join(missing_costs) + " not provided, so no profit or cash figure "
+                "is computed; only revenue and direct margin are shown.")
+        if note not in m.assumptions:
+            m.assumptions.append(note)
+        out["incomplete"], out["missing_costs"] = True, missing_costs
+        out["assumptions"] = list(m.assumptions)
+        for k in ("payroll", "opex", "tax", "ebitda", "ebit", "net_income", "cash_end", "debt_service",
+                  "dscr", "fixed_costs", "break_even_revenue", "break_even_year", "net_margin"):
+            out[k] = [None] * n if isinstance(out[k], list) else None
+    if m.price_monthly is not None and m.price_period and any(rev):
+        per = m.price_monthly * (12 if m.price_period == "month" else 1)
+        out["implied_customers"] = [round(r / per, 1) if r and r > 0 else None for r in rev]
+        unit = "month" if m.price_period == "month" else "year"
+        note = f"Implied customers: revenue divided by a price of {m.price_monthly:g} per {unit} (read from your pricing answer)."
+        if note not in m.assumptions:
+            m.assumptions.append(note)
+        out["assumptions"] = list(m.assumptions)
+    return out
 
 
 # --------------------------------------------------------------------------------------
@@ -361,7 +392,7 @@ def check(m: FinancialModel, d: dict | None = None, early_stage: bool = False) -
                 out.append(_sig("growth_implausible", "review", f"Review this: revenue grows {g:.0%} from {m.years[t-1]} to {m.years[t]}. Say what drives it.", _ev(m, "revenue", b, t), m.years[t]))
 
     # 5. cash
-    if m.has_projection() and d["cash_end"]:
+    if m.has_projection() and d.get("cash_end") and d["cash_end"][0] is not None:
         first_neg = next((t for t, c in enumerate(d["cash_end"]) if c < -TOL_ABS), None)
         if first_neg is not None:
             out.append(_sig("negative_cash", "high",
@@ -392,7 +423,7 @@ def check(m: FinancialModel, d: dict | None = None, early_stage: bool = False) -
                                 _ev(m, "debt_service", ds[t], t), m.years[t]))
 
     # 8. tax
-    if m.tax_rate_pct is None:
+    if m.tax_rate_pct is None and not d.get("incomplete"):
         tx = _pad(m.tax, n)
         for t in range(n):
             ebt = d["ebit"][t] - d["interest"][t]
@@ -412,7 +443,7 @@ def check(m: FinancialModel, d: dict | None = None, early_stage: bool = False) -
                                     f"Review this: payroll in {m.years[t]} is {pay[t]:,.0f}. {m.headcount} people at {m.avg_gross_salary:,.0f} gross a month is {base:,.0f} before social charges, a ratio of {ratio:.2f}.",
                                     _ev(m, "payroll", pay[t], t), m.years[t]))
     # 10. break-even
-    if m.has_projection() and any(x for x in rev if x):
+    if m.has_projection() and any(x for x in rev if x) and not d.get("incomplete"):
         if d["break_even_year"] is None:
             out.append(_sig("no_break_even", "review", "Review this: revenue does not reach the break-even level within the projection horizon.",
                             _ev(m, "revenue", rev[-1] if rev else None, n - 1 if n else None), ""))

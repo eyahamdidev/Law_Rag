@@ -1,0 +1,13 @@
+{
+ "governorate": "Ben Arous",
+ "total_investment": 600000.0,
+ "own_funds": 150000.0,
+ "loan_amount": 300000.0,
+ "grant_amount": 150000.0,
+ "revenue_by_year": [
+  420000.0,
+  700000.0,
+  900000.0
+ ],
+ "project_name": "Valorisation des déchets plastiques (Ben Arous)"
+}

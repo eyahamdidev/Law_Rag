@@ -1,0 +1,15 @@
+{
+ "funding_need_amount": 250000.0,
+ "currency": "EUR",
+ "project_name": "Gamelle",
+ "sector": "Meal delivery",
+ "stage": "creation",
+ "pricing": "9.50 EUR per meal",
+ "own_funds": 100000,
+ "loan_amount": 75000,
+ "grant_amount": 75000,
+ "market_size_note": "Around 310 000 meals a year in the area, 38 000 office workers, 1 200 companies.",
+ "headcount": 3,
+ "competitors": "MiumMiam, Cantine Chez Nous",
+ "risks": "- clients cancel orders\n- food waste\n- the delivery van breaks down"
+}

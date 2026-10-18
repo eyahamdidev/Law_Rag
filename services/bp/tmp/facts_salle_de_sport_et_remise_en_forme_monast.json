@@ -1,0 +1,12 @@
+{
+ "governorate": "Monastir",
+ "total_investment": 200000.0,
+ "own_funds": 80000.0,
+ "loan_amount": 120000.0,
+ "revenue_by_year": [
+  235000.0,
+  320000.0,
+  380000.0
+ ],
+ "project_name": "Salle de sport et remise en forme (Monastir)"
+}

@@ -1,7 +1,7 @@
 // Business plan tab: the user first picks ONE way in (upload a plan, or chat), never both at once.
 // escapeHtml, readError, SESSION_ID and the fetch wrapper come from app.js.
 (() => {
-  window.BP_UI_VERSION = 5;
+  window.BP_UI_VERSION = 7;
   const choose = document.querySelector("#bp-choose");
   const views = { upload: document.querySelector("#bp-upload"), chat: document.querySelector("#bp-chat") };
   const form = document.querySelector("#bp-form");
@@ -31,6 +31,7 @@
   let chatState = null;
   let chatAnswers = {};
   let started = false;
+  let lastBuild = null;
 
   function show(mode) {
     choose.hidden = mode !== null;
@@ -64,7 +65,7 @@
     chips.innerHTML = "";
     (data.chips || []).forEach((c) => addChip(c.label, () => send(c.value)));
     (data.actions || []).forEach((a) => addChip(a.label, () => {
-      if (a.action === "finish") return review();
+      if (a.action === "finish") return runReview();
       bubble(a.label, "me");
       turn({ action: a.action });
     }, a.action === "finish" ? "primary" : ""));
@@ -87,17 +88,37 @@
   }
   say.addEventListener("submit", (e) => { e.preventDefault(); send(input.value); });
 
-  async function review() {
+  function buildChatFd() {
+    const fd = new FormData();
+    fd.append("mode", "review");
+    fd.append("lang", langSel.value);
+    fd.append("answers", JSON.stringify(chatAnswers));
+    fd.append("generate_plan", "true");
+    return fd;
+  }
+
+  async function runReview() {
     chips.innerHTML = "";
     bubble("…", "bot");
     result.hidden = false;
     result.textContent = "Reviewing your answers…";
     try {
-      const fd = new FormData();
-      fd.append("mode", "review");
-      fd.append("lang", langSel.value);
-      fd.append("answers", JSON.stringify(chatAnswers));
-      fd.append("generate_plan", "true");
+      lastBuild = buildChatFd;
+      const res = await fetch("/api/bp/run", { method: "POST", body: buildChatFd() });
+      if (!res.ok) throw new Error(await readError(res));
+      render(await res.json());
+    } catch (e) {
+      result.textContent = e.message;
+    }
+  }
+
+  async function regenerate() {
+    if (!lastBuild) return;
+    result.hidden = false;
+    result.textContent = "Regenerating the plan with a new variation…";
+    try {
+      const fd = lastBuild();
+      fd.append("seed", String(Math.floor(Math.random() * 1e9)));
       const res = await fetch("/api/bp/run", { method: "POST", body: fd });
       if (!res.ok) throw new Error(await readError(res));
       render(await res.json());
@@ -110,7 +131,9 @@
   const sevLabel = { high: "Look closely", review: "Review this", info: "Note" };
 
   function renderDraft(text) {
-    return escapeHtml(text).replace(/\[(to be confirmed by the founder|à confirmer par le fondateur|يؤكده الباعث)\]/gi, "<mark>[$1]</mark>");
+    return escapeHtml(text)
+      .replace(/\[(to be confirmed by the founder|à confirmer par le fondateur|يؤكده الباعث)\]/gi, "<mark>[$1]</mark>")
+      .replace(/\[NEEDED:[^\]]*\]/gi, (m) => `<mark class="needed">${m}</mark>`);
   }
 
   function render(data) {
@@ -132,6 +155,20 @@
       }
       html += `<h3>Sections</h3>` + rep.completeness.sections.map((s) =>
         `<div class="sec-row"><span>${escapeHtml(s.title)}</span><div class="bar ${s.status}"><i style="width:${s.score}%"></i></div><span>${s.score}</span></div>`).join("");
+      const fp = rep.final_plan;
+      if (fp && fp.sections) {
+        html += `<h3>Final plan (institutional rewrite)</h3>`;
+        if (fp.verdict) html += `<p class="note verdict-line"><strong>Verdict:</strong> ${escapeHtml(fp.verdict)}</p>`;
+        html += fp.sections.map((s) =>
+          `<h4>${escapeHtml(s.title)}${s.status === "ok" ? "" : ` <span class="pill hold">${escapeHtml(s.status)}</span>`}</h4>` +
+          `<div class="draft">${s.text ? renderDraft(s.text) : `<p class="note">${escapeHtml(s.error || "not generated")}</p>`}</div>`).join("");
+        if (fp.open_items && fp.open_items.length) {
+          html += `<h4>Open items to confirm</h4><ol class="open-items">` +
+            fp.open_items.map((i) => `<li>${escapeHtml(i)}</li>`).join("") + `</ol>`;
+        }
+        html += `<div class="regen-row"><button type="button" id="bp-regen" class="chip">Regenerate</button>` +
+          `<span class="note">same answers, new variation</span></div>`;
+      }
       const bn = rep.benchmarks;
       if (bn && (bn.sector || bn.notes.length || bn.country_risk)) {
         html += `<h3>Reference data</h3>`;
@@ -151,12 +188,32 @@
       const sigs = r.signals || [];
       html += `<h3>Points to review (${sigs.length})</h3>` + (sigs.length ? sigs.map((s) =>
         `<div class="sig ${s.severity}"><strong>${sevLabel[s.severity]}</strong> · ${escapeHtml(s.message.replace(/^Review this:\s*/i, ""))}</div>`).join("") : `<p class="note">Nothing flagged.</p>`);
+      const cr = rep.critique;
+      if (cr && cr.weaknesses && cr.weaknesses.length) {
+        html += `<h3>Plan critic (${cr.weaknesses.length} findings)</h3>` +
+          cr.weaknesses.map((w) => `<div class="sig ${w.severity === "high" ? "high" : "review"}">${escapeHtml(w.why)}` +
+            (w.quote ? `<br><em>“${escapeHtml(w.quote)}”</em>` : "") +
+            (w.fix ? `<br><span class="note">Fix: ${escapeHtml(w.fix)}</span>` : "") + `</div>`).join("");
+      }
+      const miss = rep.context.missing_required || [];
+      if (miss.length) {
+        html += `<h3>Still needed</h3><ul class="open-items">${miss.map((id) => `<li>${escapeHtml(id.replace(/_/g, " "))}</li>`).join("")}</ul>`;
+      }
       const f = rep.financials;
       if (f && f.years && f.years.length) {
-        const row = (k, lab) => `<tr><td>${lab}</td>${f[k].map((v) => `<td>${money(v)}</td>`).join("")}</tr>`;
-        html += `<h3>Financial check (recomputed in code)</h3><table class="fin"><tr><th></th>${f.years.map((y) => `<th>${escapeHtml(y)}</th>`).join("")}</tr>` +
-          row("revenue", "Revenue") + row("ebitda", "EBITDA") + row("net_income", "Net result") + row("cash_end", "Year-end cash") + `</table>`;
-        if (f.break_even_year) html += `<p class="note">Break-even reached in ${escapeHtml(f.break_even_year)}.</p>`;
+        const row = (k, lab) => `<tr><td>${lab}</td>${(f[k] || []).map((v) => `<td>${money(v)}</td>`).join("")}</tr>`;
+        const inc = f.incomplete;
+        html += `<h3>Financial check (recomputed in code)${inc ? " · incomplete projection" : ""}</h3>` +
+          `<table class="fin"><tr><th></th>${f.years.map((y) => `<th>${escapeHtml(y)}</th>`).join("")}</tr>` +
+          row("revenue", "Revenue");
+        if (inc && f.cogs) {
+          const margin = f.revenue.map((r, i) => (r != null && f.cogs[i] != null ? r - f.cogs[i] : null));
+          html += `<tr><td>Direct margin</td>${margin.map((v) => `<td>${money(v)}</td>`).join("")}</tr>`;
+        } else {
+          html += row("ebitda", "EBITDA") + row("net_income", "Net result") + row("cash_end", "Year-end cash");
+        }
+        html += `</table>`;
+        if (!inc && f.break_even_year) html += `<p class="note">Break-even reached in ${escapeHtml(f.break_even_year)}.</p>`;
         if (f.assumptions && f.assumptions.length) html += `<p class="note"><strong>Assumptions:</strong> ${f.assumptions.map(escapeHtml).join(" ")}</p>`;
       }
       const png = (r.artifacts || []).find((a) => a.kind === "png");
@@ -173,6 +230,8 @@
     if (r.handoff) html += `<div class="sig info">This looks like a question for the ${escapeHtml(r.handoff.to)} assistant: ${escapeHtml(r.handoff.question)}</div>`;
     html += `<ol class="trace">${(r.trace || []).map((t) => `<li><strong>${escapeHtml(t.step)}</strong> — ${t.ms} ms${t.model ? ` · ${escapeHtml(t.model)}` : ""}</li>`).join("")}</ol>`;
     result.innerHTML = html;
+    const regen = document.querySelector("#bp-regen");
+    if (regen) regen.addEventListener("click", regenerate);
   }
 
   form.addEventListener("submit", async (event) => {
@@ -187,7 +246,17 @@
       fd.append("mode", mode);
       fd.append("lang", langSel.value);
       if (mode === "draft_section") fd.append("section_id", "missing");
+      else fd.append("generate_plan", "true");
       fd.append("file", document.querySelector("#bp-file").files[0]);
+      lastBuild = () => {
+        const again = new FormData();
+        again.append("mode", mode);
+        again.append("lang", langSel.value);
+        if (mode === "draft_section") again.append("section_id", "missing");
+        else again.append("generate_plan", "true");
+        again.append("file", document.querySelector("#bp-file").files[0]);
+        return again;
+      };
       const res = await fetch("/api/bp/run", { method: "POST", body: fd });
       if (!res.ok) throw new Error(await readError(res));
       render(await res.json());

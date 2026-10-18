@@ -1,0 +1,10 @@
+{
+ "funding_need_amount": 2000.0,
+ "revenue_by_year": [
+  300000.0,
+  6000000.0,
+  30000000.0
+ ],
+ "currency": "USD",
+ "project_name": "NeuroChain: AI, blockchain and IoT for everything"
+}

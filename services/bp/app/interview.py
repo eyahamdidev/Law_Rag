@@ -7,6 +7,10 @@ choice synonyms, "skip" words). That keeps the chat fast and deterministic.
 
 Answers collected here go to ``/v1/run`` as ``options.answers``, exactly like the
 form did, so precedence (questionnaire > orchestrator > document) is unchanged.
+
+v14: the chat now asks for what a plan reader looks for first (who is on the team and what each did before, who the
+competitors are, how the product is made and sold, what must be bought), refuses a team answer that is only the
+project name, and no longer reads "sa" ("his/her" in French) as a legal form.
 """
 
 from __future__ import annotations
@@ -18,12 +22,15 @@ from app.agents.common import fold
 from app.profile import merge_context
 from app.questionnaire import BANK_BY_ID, GOVERNORATES, ParseError, normalise, parse_number
 
-CORE = ["project_name", "sector", "stage", "problem", "solution", "target_customers", "pricing", "founders", "headcount",
-        "total_investment", "funding_instrument", "funding_need_amount", "horizon_years", "revenue_by_year"]
-EXTRA = ["competitors", "differentiator", "market_size_note", "cogs_by_year", "payroll_by_year", "opex_by_year",
-         "own_funds", "loan_amount", "loan_rate_pct", "loan_years", "risks", "legal_form", "governorate"]
-NUDGE = {"problem", "solution", "differentiator", "risks"}
+CORE = ["project_name", "sector", "stage", "problem", "solution", "target_customers", "competitors", "pricing", "founders",
+        "key_skills", "headcount", "total_investment", "funding_instrument", "funding_need_amount", "horizon_years", "revenue_by_year"]
+EXTRA = ["differentiator", "channels", "production_means", "suppliers", "capex_items", "market_size_note", "cogs_by_year",
+         "payroll_by_year", "opex_by_year", "own_funds", "loan_amount", "loan_rate_pct", "loan_years", "risks", "legal_form", "governorate",
+         "traction_note", "ip_note", "awards_note", "permits_note"]
+NUDGE = {"problem", "solution", "differentiator", "risks", "competitors", "key_skills"}
 LOAN_ONLY = {"loan_amount", "loan_rate_pct", "loan_years"}
+# question types this chat knows how to read; anything else in the bank is skipped instead of crashing the chat
+READABLE = {"text", "longtext", "choice", "number", "pct", "int", "year_series"}
 
 ASK = {
     "project_name": {"en": "Let's start simple. What's your project or company called?",
@@ -47,9 +54,12 @@ ASK = {
     "pricing": {"en": "What do you charge? A price per unit or per month is fine.",
                 "fr": "Quel prix pratiquez-vous ? Un prix par unité ou par mois suffit.",
                 "ar": "بكم تبيعون؟ يكفي سعر الوحدة أو السعر الشهري."},
-    "founders": {"en": "Who is on the team, and what is each person's role?",
-                 "fr": "Qui compose l'équipe, et quel est le rôle de chacun ?",
-                 "ar": "من هم أعضاء الفريق وما دور كل واحد؟"},
+    "founders": {"en": "Who is on the team? Give each person's name and role, e.g. \"Aya Ben Salah - CEO\".",
+                 "fr": "Qui compose l'équipe ? Indiquez le nom et le rôle de chacun, par exemple « Aya Ben Salah - directrice générale ».",
+                 "ar": "من هم أعضاء الفريق؟ اذكروا اسم كل شخص ودوره، مثلا «آية بن صالح - مديرة عامة»."},
+    "key_skills": {"en": "What has each of them already done that makes them the right people for this: jobs, years in the sector, degrees, earlier projects? Only what is true: the plan will not claim more.",
+                   "fr": "Qu'a déjà fait chacun qui le rend légitime pour ce projet : postes, années dans le secteur, diplômes, projets précédents ? Seulement ce qui est vrai : le plan n'affirmera rien de plus.",
+                   "ar": "ماذا أنجز كل واحد منهم سابقا ليكون مناسبا لهذا المشروع: وظائف، سنوات في القطاع، شهادات، مشاريع سابقة؟ فقط ما هو صحيح: الخطة لن تدعي أكثر."},
     "headcount": {"en": "How many people will work in the company at the start?",
                   "fr": "Combien de personnes travailleront dans l'entreprise au démarrage ?",
                   "ar": "كم شخصا سيعمل في الشركة عند الانطلاق؟"},
@@ -68,10 +78,23 @@ ASK = {
     "revenue_by_year": {"en": "What revenue do you expect each year? Give {n} numbers separated by commas, in TND.",
                         "fr": "Quel chiffre d'affaires attendez-vous chaque année ? Donnez {n} nombres séparés par des virgules, en TND.",
                         "ar": "ما رقم المعاملات المتوقع كل سنة؟ أعطوا {n} أرقام مفصولة بفواصل بالدينار."},
-    "competitors": {"en": "Who else solves this problem today, even badly?", "fr": "Qui d'autre résout ce problème aujourd'hui, même mal ?",
-                    "ar": "من يحل هذا المشكل اليوم، ولو بشكل سيئ؟"},
+    "competitors": {"en": "Who else solves this problem today, even badly? Name them if you can.",
+                    "fr": "Qui d'autre résout ce problème aujourd'hui, même mal ? Citez-les si vous pouvez.",
+                    "ar": "من يحل هذا المشكل اليوم، ولو بشكل سيئ؟ اذكروهم إن أمكن."},
     "differentiator": {"en": "Why would a customer pick you over them?", "fr": "Pourquoi un client vous choisirait-il plutôt qu'eux ?",
                        "ar": "لماذا يختاركم الحريف بدل غيركم؟"},
+    "channels": {"en": "How will your first customers find you and buy: shop, website, marketplace, sales visits, word of mouth?",
+                 "fr": "Comment vos premiers clients vous trouveront-ils et achèteront-ils : boutique, site, place de marché, visites commerciales, bouche-à-oreille ?",
+                 "ar": "كيف سيجدكم أول الحرفاء ويشترون: محل، موقع، منصة، زيارات تجارية، أو بالتوصية؟"},
+    "production_means": {"en": "How is what you sell produced or delivered, and with what equipment or premises?",
+                         "fr": "Comment ce que vous vendez est-il produit ou livré, et avec quels équipements ou quels locaux ?",
+                         "ar": "كيف يُنتج أو يُسلَّم ما تبيعون وبأي معدات أو محلات؟"},
+    "suppliers": {"en": "Who will supply what you need to produce or deliver (materials, goods, services)? Do you depend on one supplier?",
+                  "fr": "Qui vous fournira ce qu'il faut pour produire ou livrer (matières, marchandises, services) ? Dépendez-vous d'un seul fournisseur ?",
+                  "ar": "من سيزودكم بما تحتاجون للإنتاج أو التسليم (مواد، بضائع، خدمات)؟ وهل تعتمدون على مزود واحد؟"},
+    "capex_items": {"en": "What must you buy before you start (equipment, fit-out, software, vehicle), and roughly how much does each cost (TND)?",
+                    "fr": "Que devez-vous acheter avant de démarrer (équipement, aménagement, logiciel, véhicule), et combien coûte chaque poste environ (TND) ?",
+                    "ar": "ماذا يجب أن تشتروا قبل الانطلاق (معدات، تهيئة، برمجيات، سيارة) وكم تكلفة كل بند تقريبا (دينار)؟"},
     "market_size_note": {"en": "Do you have a figure for the size of your market, and where it comes from?",
                          "fr": "Avez-vous un chiffre pour la taille du marché, et sa source ?", "ar": "هل لديكم رقم لحجم السوق ومصدره؟"},
     "cogs_by_year": {"en": "What will it cost you to produce what you sell each year (materials, purchases)? {n} numbers, in TND.",
@@ -105,9 +128,9 @@ SAY = {
     "known": {"en": "I already know a few things from earlier: {facts}. Tell me if any of it is wrong.",
               "fr": "Je sais déjà quelques éléments d'après nos échanges précédents : {facts}. Dites-moi si quelque chose est faux.",
               "ar": "أعرف بعض المعطيات من قبل: {facts}. أخبروني إن كان شيء خاطئا."},
-    "offer": {"en": "That's enough for a first review. Want me to run it now, or add detail on costs, competitors and risks first?",
-              "fr": "C'est suffisant pour une première revue. Je la lance maintenant, ou on ajoute d'abord des détails sur les coûts, la concurrence et les risques ?",
-              "ar": "هذا يكفي لمراجعة أولى. أشغلها الآن أم نضيف تفاصيل عن الكلفة والمنافسة والمخاطر أولا؟"},
+    "offer": {"en": "That's enough for a first review. Want me to run it now, or add detail on suppliers, equipment, costs and risks first? The more concrete you are, the more useful the plan.",
+              "fr": "C'est suffisant pour une première revue. Je la lance maintenant, ou on ajoute d'abord des détails sur les fournisseurs, les équipements, les coûts et les risques ? Plus vous êtes concret, plus le plan sera utile.",
+              "ar": "هذا يكفي لمراجعة أولى. أشغلها الآن أم نضيف تفاصيل عن المزودين والمعدات والكلفة والمخاطر أولا؟ كلما كنتم أدق كانت الخطة أنفع."},
     "done": {"en": "That's everything I wanted to ask. Ready for the review whenever you are.",
              "fr": "J'ai fini mes questions. La revue est prête quand vous voulez.",
              "ar": "انتهت أسئلتي. المراجعة جاهزة متى شئتم."},
@@ -117,6 +140,9 @@ SAY = {
     "bad": {"en": "I couldn't read that one: {why}. Try again, or say 'skip'.", "fr": "Je n'ai pas pu lire cette réponse : {why}. Réessayez, ou dites « passer ».",
             "ar": "لم أستطع قراءة الإجابة: {why}. أعيدوا المحاولة أو قولوا «تجاوز»."},
     "years": {"en": "I need {n} numbers, one per year.", "fr": "Il me faut {n} nombres, un par année.", "ar": "أحتاج {n} أرقام، رقم لكل سنة."},
+    "founder_is_project": {"en": "That is the name of the project. I need the people: each founder's own name and role, e.g. \"Aya Ben Salah - CEO\".",
+                           "fr": "C'est le nom du projet. Il me faut les personnes : le nom de chaque fondateur et son rôle, par exemple « Aya Ben Salah - directrice générale ».",
+                           "ar": "هذا اسم المشروع. أحتاج الأشخاص: اسم كل مؤسس ودوره، مثلا «آية بن صالح - مديرة عامة»."},
     "help_default": {"en": "Just answer in your own words. If you don't know, say 'skip'.", "fr": "Répondez simplement avec vos mots. Si vous ne savez pas, dites « passer ».",
                      "ar": "أجيبوا بكلماتكم. إن لم تعرفوا قولوا «تجاوز»."},
 }
@@ -144,6 +170,14 @@ CHOICE_LABEL = {"idea": {"en": "Just an idea", "fr": "Une idée", "ar": "فكر�
                 "grant": {"en": "A grant", "fr": "Une subvention", "ar": "منحة"}, "mixed": {"en": "A mix", "fr": "Un mélange", "ar": "مزيج"},
                 "none": {"en": "No outside funding", "fr": "Aucun financement externe", "ar": "بدون تمويل خارجي"}}
 
+# Volunteered in passing: only explicit phrases count, because "new", "start" or "sa" occur in ordinary sentences.
+_STAGE_PHRASES = {
+    "idea": re.compile(r"\b(just an idea|only an idea|still an idea|c'?est une idée|juste une idée|encore une idée)\b|مجرد فكرة", re.I),
+    "creation": re.compile(r"\b(being created|setting up|en cours de création|en création|en train de créer)\b|قيد الإنشاء", re.I),
+    "extension": re.compile(r"\b(existing business|already running|already operating|entreprise existante|déjà en activité|en développement)\b|مؤسسة قائمة", re.I),
+}
+_LEGAL_TOKEN = re.compile(r"(?<![A-Za-z])(SUARL|SARL|SAS|SA)(?![A-Za-z])")  # upper case only: French "sa" means "his/her"
+
 
 def _l(lang: str) -> str:
     return lang if lang in ("en", "fr", "ar") else "en"
@@ -157,15 +191,27 @@ def _text(table: dict, lang: str, **kw: Any) -> str:
     return table[_l(lang)].format(**kw) if kw else table[_l(lang)]
 
 
+def _tidy(text: str) -> str:
+    """Collapse runs of blanks and stray spaces before punctuation; never changes the words."""
+    t = re.sub(r"[ \t ]+", " ", text.strip())
+    t = re.sub(r"\s+([,.;:!?])", r"\1", t)
+    return t
+
+
 def new_state() -> dict:
     return {"answers": {}, "skipped": [], "current": None, "phase": "core", "nudged": [], "turn": 0, "greeted": False}
+
+
+def _askable(qid: str) -> bool:
+    q = BANK_BY_ID.get(qid)
+    return q is not None and q.type in READABLE
 
 
 def _order(state: dict, values: dict) -> list[str]:
     ids = CORE if state["phase"] == "core" else EXTRA
     out = []
     for q in ids:
-        if q in values or q in state["skipped"]:
+        if q in values or q in state["skipped"] or not _askable(q):
             continue
         if q in LOAN_ONLY and values.get("funding_instrument") not in ("loan", "mixed"):
             continue
@@ -193,7 +239,7 @@ def _match_choice(qid: str, text: str) -> str | None:
 
 def _numbers(text: str) -> list[float]:
     out = []
-    for tok in re.findall(r"\d[\d\s .,]*\s*[kKmM]?(?![a-zA-Z])", text):
+    for tok in re.findall(r"\d[\d\s .,]*\s*[kKmM]?(?![a-zA-Z])", text):
         try:
             out.append(parse_number(tok.strip().rstrip(".,")))
         except ParseError:
@@ -224,8 +270,9 @@ def parse_reply(qid: str, text: str, values: dict) -> tuple[Any, str | None]:
         m = _match_choice(qid, t)
         if m is None and qid == "governorate":
             for g in GOVERNORATES:
-                if fold(g) in fold(t):
+                if re.search(rf"\b{re.escape(fold(g))}\b", fold(t)):  # whole word only: "Tunisian" is not "Tunis"
                     m = g
+                    break
         if m is None:
             try:
                 return normalise(q, t), None
@@ -246,24 +293,34 @@ def parse_reply(qid: str, text: str, values: dict) -> tuple[Any, str | None]:
                 except ParseError as exc2:
                     return None, str(exc2)
             return None, str(exc)
-    return normalise(q, t), None
+    val = normalise(q, _tidy(t))
+    return (_tidy(val) if isinstance(val, str) else val), None
+
+
+def _is_project_name(answer: str, values: dict) -> bool:
+    """A team answer that is just the project name (or contains only it) names no person."""
+    project = fold(str(values.get("project_name") or "")).strip()
+    given = fold(re.split(r"\s+[-–—]\s+|\s*[(:]\s*", answer.strip(), maxsplit=1)[0]).strip(" .,;-")
+    return bool(project) and given == project
 
 
 def _extras(text: str, current: str, values: dict) -> dict:
-    """Facts volunteered in passing, for choice questions that are not the current one."""
+    """Facts volunteered in passing, for choice questions that are not the current one. Conservative on purpose:
+    a wrong guess is worse than asking the question later."""
     found: dict[str, Any] = {}
-    for qid in ("stage", "funding_instrument", "legal_form"):
-        if qid == current or qid in values:
-            continue
-        m = _match_choice(qid, text)
-        if m and qid != "legal_form":
-            # stage and instrument words are common in sentences; only keep the strong ones
-            if qid == "stage" and m == "extension" and not re.search(r"extension|existing|existante|توسع", text, re.I):
-                continue
-            if qid == "funding_instrument" and m in ("loan", "equity", "grant") and len(text.split()) > 12:
-                continue
+    if "stage" not in values and current != "stage":
+        for val, rx in _STAGE_PHRASES.items():
+            if rx.search(text):
+                found["stage"] = val
+                break
+    if "funding_instrument" not in values and current != "funding_instrument" and len(text.split()) <= 12:
+        m = _match_choice("funding_instrument", text)
         if m:
-            found[qid] = m
+            found["funding_instrument"] = m
+    if "legal_form" not in values and current != "legal_form":
+        m = _LEGAL_TOKEN.search(text)
+        if m:
+            found["legal_form"] = m.group(1)
     return found
 
 
@@ -337,6 +394,9 @@ def turn(*, lang: str, profile: dict | None, state: dict | None, message: str | 
             else:
                 say.append(_text(SAY["bad"], lang, why=err or "?"))
             return _out(st, say, lang, cur, values())
+        if cur == "founders" and isinstance(val, str) and _is_project_name(val, values()):
+            say.append(_text(SAY["founder_is_project"], lang))
+            return _out(st, say, lang, cur, values())
         if cur in NUDGE and len(msg.split()) < 4 and cur not in st["nudged"]:
             st["nudged"].append(cur)
             say.append(_text(SAY["nudge"], lang))
@@ -367,7 +427,7 @@ def turn(*, lang: str, profile: dict | None, state: dict | None, message: str | 
 
 def _out(st: dict, say: list[str], lang: str, qid: str | None, vals: dict) -> dict:
     st["current"] = qid
-    core_left = len([q for q in CORE if q not in vals and q not in st["skipped"]])
+    core_left = len([q for q in CORE if _askable(q) and q not in vals and q not in st["skipped"]])
     chips = _chips(qid, lang) if qid else []
     actions = []
     if qid:
@@ -380,5 +440,5 @@ def _out(st: dict, say: list[str], lang: str, qid: str | None, vals: dict) -> di
         "messages": say, "state": st, "answers": st["answers"], "asking": qid, "type": BANK_BY_ID[qid].type if qid else None,
         "chips": chips, "actions": actions, "phase": st["phase"],
         "ready_to_review": st["phase"] in ("offer", "extra", "done"),
-        "progress": {"core_total": len(CORE), "core_left": core_left},
+        "progress": {"core_total": len([q for q in CORE if _askable(q)]), "core_left": core_left},
     }

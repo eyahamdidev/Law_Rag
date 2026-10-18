@@ -20,20 +20,28 @@ LABELS = {
 }
 
 
-def projection_png(derived: dict, lang: str = "fr") -> bytes:
+def projection_png(derived: dict, lang: str = "fr", currency: str = "TND") -> bytes:
     import matplotlib
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
-    L = LABELS.get(lang, LABELS["en"])
+    L = dict(LABELS.get(lang, LABELS["en"]))
+    L["unit"] = currency or "TND"
     years = derived["years"]
     x = list(range(len(years)))
     fig, ax = plt.subplots(figsize=(7.5, 4.2), dpi=130)
     w = 0.38
-    ax.bar([i - w / 2 for i in x], derived["revenue"], w, label=L["rev"], color="#2f5d8a")
-    ax.bar([i + w / 2 for i in x], derived["net_income"], w, label=L["net"], color="#7aa95c")
-    ax.plot(x, derived["cash_end"], marker="o", color="#b5532a", label=L["cash"])
+    incomplete = bool(derived.get("incomplete"))
+    if incomplete:
+        margin = [(r - c) if r is not None and c is not None else None for r, c in zip(derived["revenue"], derived.get("cogs") or [])]
+        ax.bar([i - w / 2 for i in x], derived["revenue"], w, label=L["rev"], color="#2f5d8a")
+        if any(m is not None for m in margin):
+            ax.bar([i + w / 2 for i in x], margin, w, label={"en": "Direct margin", "fr": "Marge directe", "ar": "الهامش المباشر"}.get(lang, "Direct margin"), color="#7aa95c")
+    else:
+        ax.bar([i - w / 2 for i in x], derived["revenue"], w, label=L["rev"], color="#2f5d8a")
+        ax.bar([i + w / 2 for i in x], derived["net_income"], w, label=L["net"], color="#7aa95c")
+        ax.plot(x, derived["cash_end"], marker="o", color="#b5532a", label=L["cash"])
     ax.axhline(0, color="#444", lw=0.8)
     ax.set_xticks(x, years)
     ax.set_ylabel(L["unit"])

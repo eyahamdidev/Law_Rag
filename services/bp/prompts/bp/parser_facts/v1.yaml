@@ -1,0 +1,61 @@
+id: parser_facts
+version: 1
+owner: sprint2
+role_in_system: "Extract the founder's stated facts from an uploaded business plan into JSON. It never computes, converts or invents a value: a field absent from the text stays null."
+technique: structured output, closed field set, full-document input, temperature 0
+model: llm_fast
+text: |
+  Below is the full text of an uploaded business plan. Extract ONLY the facts the text actually states.
+  Copy numbers exactly as written (keep the currency in mind, do not convert anything). Copy names and proper
+  nouns verbatim. If a field is not stated in the text, return null for it — never guess, never use an example
+  value. Amounts are plain numbers without currency symbols. revenue_by_year, cogs_by_year, payroll_by_year and
+  opex_by_year are lists of yearly numbers in document order (oldest first), only the years actually stated.
+
+  Plan text:
+  {{plan_text}}
+
+  Reply with JSON only: {"project_name": str|null, "sector": str|null, "stage": str|null, "governorate": str|null,
+  "legal_form": str|null, "problem": str|null, "offer": str|null, "pricing": str|null, "customer_count": str|null,
+  "market_size": str|null, "competitors": [str]|null, "team": [str]|null, "risks": [str]|null,
+  "total_investment": number|null, "own_funds": number|null, "loan_amount": number|null, "grant_amount": number|null,
+  "funding_need_amount": number|null, "revenue_by_year": [number]|null, "cogs_by_year": [number]|null,
+  "payroll_by_year": [number]|null, "opex_by_year": [number]|null, "currency": "TND"|"EUR"|"MAD"|"USD"|null,
+  "traction_note": str|null, "ip_note": str|null, "awards_note": str|null, "permits_note": str|null}
+output_schema:
+  type: object
+  properties:
+    project_name: {type: [string, "null"]}
+    sector: {type: [string, "null"]}
+    stage: {type: [string, "null"]}
+    governorate: {type: [string, "null"]}
+    legal_form: {type: [string, "null"]}
+    problem: {type: [string, "null"]}
+    offer: {type: [string, "null"]}
+    pricing: {type: [string, "null"]}
+    customer_count: {type: [string, "null"]}
+    market_size: {type: [string, "null"]}
+    competitors: {type: [array, "null"], items: {type: string}}
+    team: {type: [array, "null"], items: {type: string}}
+    risks: {type: [array, "null"], items: {type: string}}
+    total_investment: {type: [number, "null"]}
+    own_funds: {type: [number, "null"]}
+    loan_amount: {type: [number, "null"]}
+    grant_amount: {type: [number, "null"]}
+    funding_need_amount: {type: [number, "null"]}
+    revenue_by_year: {type: [array, "null"], items: {type: number}}
+    cogs_by_year: {type: [array, "null"], items: {type: number}}
+    payroll_by_year: {type: [array, "null"], items: {type: number}}
+    opex_by_year: {type: [array, "null"], items: {type: number}}
+    currency: {type: [string, "null"], enum: ["TND", "EUR", "MAD", "USD", null]}
+    traction_note: {type: [string, "null"]}
+    ip_note: {type: [string, "null"]}
+    awards_note: {type: [string, "null"]}
+    permits_note: {type: [string, "null"]}
+  required: [project_name]
+failure_cases_observed:
+  - "Uploads returned almost no facts: the previous step only sent segment headings and 400-char excerpts to a section-mapping prompt, so numbers stated in the body never reached a model. v1 sends the full text with an extraction schema."
+fix_applied: "One extraction call over the full document text, temperature 0, JSON schema, copy-verbatim contract; mechanical regex facts keep priority and the model only fills what they missed."
+metric_before: null
+metric_after: null
+metric_note: "Fields filled per upload on the soilsense/facturepro/gamelle sample; tmp/facts_<name>.json dumps are the audit trail."
+date: 2026-10-18

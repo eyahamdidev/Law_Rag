@@ -83,6 +83,7 @@ Request body (frozen contract, spec section 2.2):
 | `draft_missing` | bool | false | In review mode: also draft missing/weak required sections |
 | `generate_plan` | bool | false | Produce a full plan docx (critic → composer → final writer) |
 | `final_writer_mode` | `batch`, `sequential` | `batch` | Six sections in one model call vs one call per section |
+| `seed` | integer | `7` | Final-writer seed; the frontend Regenerate button sends a fresh random one to re-roll the plan on the same inputs |
 | `parser_mode` | `keywords`, `llm`, `auto` | `auto` | How the uploaded plan is segmented |
 | `rubric_style` | `plain`, `cot` | `plain` | Section scoring prompt style |
 | `masking` | bool | true | Mask names/ids before any model call (see Privacy) |
@@ -121,15 +122,17 @@ The `bp_report` JSON contains: `mode`, `template`, `input.methods`, `context` (m
 ```json
 {
   "method": "model",                  // model | partial | unavailable
-  "mode": "batch", "model": "...", "prompt_id": "final_writer@v3",
+  "mode": "batch", "model": "...", "prompt_id": "final_writer@v6",
   "sections": [
     {"id": "executive_summary", "title": "Executive Summary", "text": "...", "flagged": [], "status": "ok"}
   ],
+  "open_items": ["What is the CEO's relevant experience?"],
+  "verdict": "Mid as it stands, because ...",
   "usage": {"calls": 1}
 }
 ```
 
-Sections have status `ok`, `skipped` (no model configured) or `error` (with the reason). `flagged` lists figures the guard marked. The six ids, in order: `executive_summary`, `market_opportunity`, `competitive_advantage`, `go_to_market`, `operational_roadmap`, `financial_strategy`.
+Sections have status `ok`, `skipped` (no model configured) or `error` (with the reason). `flagged` lists figures the guard marked. With the v6 batch prompt the reply can also carry `open_items` (every `[NEEDED: ...]` placeholder question from the sections, ordered) and a one-line honest `verdict`; both are absent when empty or on the per-section top-up path. The six ids, in order: `executive_summary`, `market_opportunity`, `competitive_advantage`, `go_to_market`, `operational_roadmap`, `financial_strategy`.
 
 ### `POST /v1/questionnaire` (additive, pending P5 approval)
 
@@ -182,7 +185,7 @@ intake → parser → [vision] → context merge → section combine → financi
 | benchmarks | Compares margins, loan rate, tax rate against reference-sector benchmarks; every signal names its source ("US reference data...") | no |
 | reviewer | Scores each template section against a rubric (0–100). Quotes must exist in the plan. Keyword rubric without a model. | optional |
 | assessment | Credibility verdict on the whole document (fraud-pattern flags, structure ratios) | optional |
-| drafts | `draft_section` mode / `draft_missing`: writes missing sections from the founder's answers; figures not in the inputs are marked | optional |
+| drafts | `draft_section` mode / `draft_missing`: writes missing sections from the founder's answers; figures not in the inputs are marked, and unsupported claims become `[NEEDED: ...]` placeholders instead of being invented (writer@v2, same no-fabrication contract as final_writer v6) | optional |
 | critic | With `generate_plan`: collects the weaknesses of the current plan → feeds the docx "critical weaknesses" page and the final writer | optional |
 | plan docx | Composes the full plan from questionnaire values, polishes it with guidance passages, adds advisor notes | optional |
 | **final writer** | The institutional six-section rewrite → `report.final_plan` (detailed below) | optional |
@@ -190,16 +193,19 @@ intake → parser → [vision] → context merge → section combine → financi
 
 ### The final writer
 
-The prompt library (`prompts/bp/final_writer/`) holds three versions:
+The prompt library (`prompts/bp/final_writer/`) holds six versions:
 
-- **v3 (batch, default)** — one call. The full persona (institutional consultant; corporate English only; unit economics and TAM/SAM/SOM, no marketing fluff; zero unflagged figures), the founder's facts, the current plan and the critic's weaknesses go in once; all six sections come back as one JSON array. A slow local model pays the context prefill **once** instead of six times: ~4 min → ~1.5–2 min on a 70B, ~20–30 s on an 8B (estimates from prefill arithmetic, not measured runs).
+- **v6 (batch, default)** — one call, same mechanics and evidence hierarchy as v5, upgraded with the **founder-writer hard rules**: an internal fact table (every value tagged `founder_said` / `derived` / `assumption` / `missing`) built before writing; a strict **no-fabrication contract** — when information is missing, the text carries a `[NEEDED: <exact question>]` placeholder and the claim is never written, not even with a caveat (v5's "state the claim, mark the number" pattern leaked invented claims like "our CEO has over 10 years of experience"); **bottom-up market sizing only**; **no professionalised claims** (founder experience, traction, LOIs, partnerships are written only if evidenced); realism over weak numbers; and a final self-check that deletes any sentence asserting a fact outside the fact table. The reply also carries **`open_items`** (every `[NEEDED]` question, ordered) and a one-line honest **`verdict`** ("Strong / Mid / Weak as it stands, because ...").
+- **v5 (batch)** — one call, same mechanics as v4, governed by the **evidence-grounded specification**: a six-level source hierarchy (confirmed founder info > verified uploads > verified external evidence > calculated outputs > founder estimates > labeled illustrative assumptions) with the earlier AI draft explicitly demoted to non-evidence; source conflicts are preserved and flagged, not silently resolved; a per-section six-step writing procedure (extract → review → draft → classify evidence → cross-validate → editorial QC); financial writing rules (use the calculation engine's outputs, never equate accounting profit with cash, state limitations when the model is incomplete); a verbatim banned-generic-claims list; and an **eight-point final validation** gate. The spec's six evidence classes map onto the existing marker instead of a new output field, per the spec's own "do not alter the output schema" rule. Kept for history and A/B against v6.
+- **v4 (batch)** — one call, same batch mechanics as v3, but the writer runs under the **master consultant specification**: the expert-consultant persona, ten non-negotiable rules (zero fabrication, marker instead of guessed numbers, financial integrity and cross-section consistency, defensible claims, honest presentation of unrealistic assumptions, professional objectivity, confidentiality) and a **seven-point final quality-control gate** the model must verify before returning. Kept for history and A/B against v5.
+- **v3 (batch)** — one call. The full persona (institutional consultant; corporate English only; unit economics and TAM/SAM/SOM, no marketing fluff; zero unflagged figures), the founder's facts, the current plan and the critic's weaknesses go in once; all six sections come back as one JSON array. A slow local model pays the context prefill **once** instead of six times: ~4 min → ~1.5–2 min on a 70B, ~20–30 s on an 8B (estimates from prefill arithmetic, not measured runs). Kept for history and A/B against v4.
 - **v2 (per-section)** — one call per section, "Write ONLY section X". Used as the **top-up** for sections the batch reply dropped, truncated or returned malformed, and for `final_writer_mode: "sequential"`.
 - v1 — original all-in-one variant, kept for history.
 
 Mechanics (`app/agents/final_writer.py`):
 
 1. Facts, plan text and critique are **masked** (names → `[[NAME_1]]`, fiscal ids, IBAN/RIB, e-mails, phones) before leaving the process; the result is unmasked afterwards.
-2. The call goes over plain `httpx.AsyncClient` (no SDK), `temperature: 0`, `seed: 7`, JSON schema (or JSON object) mode — deterministic per input.
+2. The call goes over plain `httpx.AsyncClient` (no SDK), `temperature: 0`, `seed` (default `7`; the **regenerate** option sends a fresh random seed to re-roll the same inputs — the frontend "Regenerate" button, `seed` form field on the gateway, `options.seed` here), JSON schema (or JSON object) mode — deterministic per input + seed.
 3. Whatever comes back passes through `writer.guard`: every number that cannot be traced to the facts, the plan, or the critique gets `[to be confirmed by the founder]` appended mechanically. The model cannot present an invented figure as fact, even if it tries.
 4. Sections missing from the batch reply are re-written one by one with v2 (no retries after a failed batch, so a dead endpoint is hit at most 7 times).
 5. Any total failure leaves `final_plan` absent or `method: "unavailable"` — the plan docx and the rest of the report are never lost.

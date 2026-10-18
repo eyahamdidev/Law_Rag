@@ -657,3 +657,73 @@ def test_pipeline_rejects_unknown_final_writer_mode():
 
     with pytest.raises(ModuleError):
         pl.run(Request(request_id="x", options={"answers": {"sector": "a"}, "final_writer_mode": "nope"}), None)
+
+
+def test_final_writer_agent_seed_is_threaded():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    seen = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        seen.append(json.loads(request.content.decode()))
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid], "text": "body."} for sid in fw.SECTION_IDS]})}}]})
+
+    asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler),
+                                          seed=42))
+    assert len(seen) == 1 and seen[0]["seed"] == 42
+    asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler)))
+    assert seen[1]["seed"] == fw.SEED
+
+
+def test_final_writer_agent_passes_open_items_and_verdict():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid], "text": "body."} for sid in fw.SECTION_IDS],
+             "open_items": ["What is the CEO's relevant experience?", "  ", "What price per unit?"],
+             "verdict": "Weak as it stands, because the founding team's track record is not evidenced."})}}]})
+
+    out = asyncio.run(fw.run_final_writer_agent(prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler)))
+    assert out["open_items"] == ["What is the CEO's relevant experience?", "What price per unit?"]
+    assert out["verdict"].startswith("Weak as it stands")
+
+
+def test_pipeline_rejects_non_integer_seed():
+    from app import pipeline as pl
+    from app.contract import ModuleError
+
+    with pytest.raises(ModuleError):
+        pl.run(Request(request_id="x", options={"answers": {"sector": "a"}, "seed": "abc"}), None)
+
+
+def test_pipeline_seed_reaches_final_writer(monkeypatch):
+    from app import pipeline as pl
+    from app.agents import final_writer as fw
+    from app.llm import LLMClient
+
+    monkeypatch.setenv("BP_LLM_STEPS", "critic,final_writer")
+    monkeypatch.setenv("LLM_API_KEY", "k")
+    seen = []
+
+    def sync_handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(
+            {"weaknesses": []})}}], "usage": {"prompt_tokens": 3, "completion_tokens": 2}})
+
+    async def fake_post(client, body, remaining):
+        seen.append(body)
+        return json.dumps({"sections": [{"id": sid, "title": fw.SECTION_TITLES[sid], "text": "body."}
+                                        for sid in fw.SECTION_IDS]}), {"prompt_tokens": 5, "completion_tokens": 4}
+
+    monkeypatch.setattr(fw, "_post", fake_post)
+    llm = LLMClient(api_key="k", transport=httpx.MockTransport(sync_handler), cache=False, max_retries=0)
+    r = pl.run(Request(request_id="fp", lang="en", options={"answers": ANSWERS, "generate_plan": True, "seed": 99}), llm)
+    assert r.status == "ok"
+    assert len(seen) == 1 and seen[0]["seed"] == 99

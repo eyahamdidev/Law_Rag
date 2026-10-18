@@ -230,6 +230,10 @@ table.fin th, table.fin td { border-bottom: 1px solid var(--line); padding: 0.25
 table.fin th:first-child, table.fin td:first-child { text-align: left; }
 .draft { white-space: pre-wrap; background: #fff; border: 1px solid var(--line); border-radius: 0.6rem; padding: 0.7rem 0.9rem; }
 .draft mark { background: #fff1a8; padding: 0 0.15rem; border-radius: 3px; }
+.draft mark.needed { background: #ffd6d6; }
+.regen-row { display: flex; align-items: center; gap: 0.6rem; margin: 0.6rem 0; }
+.open-items { margin: 0.4rem 0 0.8rem 1.4rem; }
+.open-items li { margin: 0.2rem 0; }
 .dl a { margin-right: 0.8rem; }
 .result img { max-width: 100%; border: 1px solid var(--line); border-radius: 0.6rem; }
 @media (max-width: 640px) { .bp-row { grid-template-columns: 1fr; } .sec-row { grid-template-columns: 1fr 5rem 2.5rem; } }

@@ -1,0 +1,10 @@
+# Live LLM audit (manual, not CI)
+{
+  "llm_base_url": "https://api.groq.com/openai/v1",
+  "llm_model_main": "llama-3.3-70b-versatile",
+  "llm_model_fast": "llama-3.1-8b-instant",
+  "prompt_final_writer": "final_writer@v6",
+  "prompt_plan_writer": "plan_writer@v2",
+  "llm_available": false
+}
+SKIP: LLM_API_KEY empty or endpoint unreachable.
