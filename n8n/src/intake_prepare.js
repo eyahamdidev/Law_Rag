@@ -19,10 +19,12 @@ const STAGE_TEXT = {
   ar: { "Idea": "فكرة", "Company creation": "تأسيس الشركة", "Expansion": "توسعة", "Growth": "نمو" },
 };
 const stageText = (STAGE_TEXT[lang] || STAGE_TEXT.en)[stageLabel] || stageLabel;
+// Asked as what the law states (partners, minimum capital per form), not "which form should I
+// choose": the legal agent only answers what it can quote, and the texts set rules, not advice.
 const QUESTION = {
-  en: `I am starting this project in Tunisia: ${description}. Stage: ${stageText}. Sector: ${sector || "not given"}. Which legal form should I choose, and what are the main steps to create the company?`,
-  fr: `Je lance ce projet en Tunisie : ${description}. Stade : ${stageText}. Secteur : ${sector || "non précisé"}. Quelle forme juridique choisir, et quelles sont les principales étapes pour créer la société ?`,
-  ar: `أطلق هذا المشروع في تونس: ${description}. المرحلة: ${stageText}. القطاع: ${sector || "غير محدد"}. ما الشكل القانوني الذي يجب اختياره، وما هي أهم مراحل تأسيس الشركة؟`,
+  en: `Under Tunisian law, how many partners and what minimum capital are required to create a SARL, a SUARL and a société anonyme (SA)?`,
+  fr: `Selon le droit tunisien, combien d'associés et quel capital minimum faut-il pour créer une SARL, une SUARL et une société anonyme (SA) ?`,
+  ar: `حسب القانون التونسي، كم عدد الشركاء وما هو الحد الأدنى لرأس المال المطلوب لتأسيس شركة ذات مسؤولية محدودة، وشركة الشخص الواحد ذات المسؤولية المحدودة، وشركة خفية الاسم؟`,
 };
 
 return [{ json: {
