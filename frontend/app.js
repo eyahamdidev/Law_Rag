@@ -80,38 +80,80 @@ function ruleTraceList(trace) {
 }
 
 // Catalogue figures not stated in their cited source: shown, never applied by the rules engine.
+const UNVERIFIED_LABELS = {
+  min_investment_tnd: "minimum project cost (TND)",
+  max_investment_tnd: "maximum project cost (TND)",
+  max_employees: "maximum number of employees",
+};
 function unverifiedNote(unverified) {
   const figures = Object.entries(unverified || {}).filter(([key]) => key !== "reason");
   if (!figures.length) return "";
-  const items = figures.map(([key, value]) => `${escapeHtml(key)} = ${escapeHtml(Number(value).toLocaleString())}`).join(", ");
-  return `<p class="unverified"><strong>To confirm with the provider (not sourced):</strong> ${items}</p>`;
+  const items = figures
+    .map(([key, value]) => `${escapeHtml(UNVERIFIED_LABELS[key] || key.replaceAll("_", " "))}: ${escapeHtml(Number(value).toLocaleString("en"))}`)
+    .join("; ");
+  return `<p class="unverified"><strong>To confirm with the provider</strong> (figure not found in our official sources): ${items}</p>`;
 }
 
-function checklistList(checklists) {
-  if (!checklists || !checklists.length) return "";
-  const items = checklists.map((checklist) => {
-    const docs = checklist.required_documents
-      .map((doc) => `<li>${escapeHtml(doc)}</li>`)
-      .join("");
-    return (
-      `<article class="checklist"><h3>${escapeHtml(checklist.program_name)}</h3>` +
-      `<ul class="files">${docs}</ul>` +
-      (checklist.official_form_link
-        ? `<p><strong>Official form:</strong> <code>${escapeHtml(checklist.official_form_link)}</code></p>`
-        : "") +
-      `</article>`
-    );
-  }).join("");
-  return `<h2>Required documents (indicative list)</h2>${items}`;
+// Words for the rules engine's internal values.
+const AID_WORDS = {
+  idea: "idea", creation: "company creation", early: "early stage", extension: "expansion", growth: "growth",
+  grant: "grant", loan: "loan", guarantee: "loan guarantee", tax_incentive: "tax advantage", mixed: "support package",
+  financing: "financing", guidance: "guidance",
+};
+const aidWord = (value) => AID_WORDS[value] || String(value).replaceAll("_", " ");
+const aidList = (text) => text.replace(/[[\]']/g, "").split(",").map((v) => aidWord(v.trim())).filter(Boolean).join(", ");
+
+// Turn a rules-engine reason ("Incompatible stage: requires ['extension', 'growth']") into a sentence.
+function plainReason(reason) {
+  const rules = [
+    [/^Incompatible stage: requires (\[.*\])$/, (m) => `Only for projects at these stages: ${aidList(m[1])}.`],
+    [/^Sector '(.+)' not in eligible sectors \((\[.*\])\)$/, (m) => `Your sector (${aidWord(m[1])}) is not covered. It funds: ${aidList(m[2])}.`],
+    [/^Sector '(.+)' (is explicitly excluded|is in excluded cluster).*$/, (m) => `Your sector (${aidWord(m[1])}) is excluded by this programme.`],
+    [/^Program type '(.+)' does not match requested need '(.+)'$/, (m) => `It offers a ${aidWord(m[1])}, not the ${aidWord(m[2])} you asked for.`],
+    [/^Headcount (\d+) exceeds max (\d+)$/, (m) => `For companies with at most ${m[2]} employees (you have ${m[1]}).`],
+    [/^Headcount (\d+) below min (\d+)$/, (m) => `For companies with at least ${m[2]} employees (you have ${m[1]}).`],
+    [/^Funding need (.+) TND exceeds cap (.+) TND$/, (m) => `Your need (${m[1]} TND) is above its limit of ${m[2]} TND.`],
+    [/^Funding need (.+) TND below min threshold (.+) TND$/, (m) => `Your need (${m[1]} TND) is below its minimum of ${m[2]} TND.`],
+    [/^Program strictly requires innovation.*$/, () => "Only for innovative projects."],
+    [/^Program requires an active Startup Label.*$/, () => "Only for companies with the Startup Label."],
+    [/^Program requires founder to hold a university degree.*$/, () => "Only for founders with a university degree or certified vocational training."],
+    [/^Program requires location in a designated regional development zone.*$/, () => "Only in regional development zones: give your governorate to check."],
+    [/^Governorate '(.+)' is not an eligible regional development zone$/, (m) => `${aidWord(m[1]).replace(/^./, (c) => c.toUpperCase())} is not a regional development zone.`],
+  ];
+  for (const [pattern, write] of rules) {
+    const match = reason.match(pattern);
+    if (match) return write(match);
+  }
+  return reason.replace(/[[\]']/g, "");
+}
+
+function programCard(program) {
+  const docs = program.required_documents.map((doc) => `<li>${escapeHtml(doc)}</li>`).join("");
+  const link = program.official_form_link || "";
+  const form = !link ? ""
+    : /^https?:\/\//.test(link)
+      ? `<p><strong>Where to apply:</strong> <a href="${escapeHtml(link)}" target="_blank" rel="noopener">${escapeHtml(link.replace(/^https?:\/\//, ""))}</a></p>`
+      : `<p><strong>Application form:</strong> ${escapeHtml(link.split("/").pop())} (in the project's grants folder)</p>`;
+  const source = program.source_file ? `${program.source_file.split("/").pop()}, page ${program.source_page}` : "";
+  return (
+    `<article class="program">` +
+    `<h2>${escapeHtml(program.name)}</h2>` +
+    `<p>${escapeHtml(program.provider)}. ${escapeHtml(program.summary)}</p>` +
+    unverifiedNote(program.unverified) +
+    (docs ? `<h3>Documents usually requested</h3><p class="note">Indicative list: confirm with the provider.</p><ul class="files">${docs}</ul>` : "") +
+    form +
+    (source ? `<p class="note">Source: ${escapeHtml(source)}</p>` : "") +
+    `</article>`
+  );
 }
 
 function excludedList(programs) {
   if (!programs || !programs.length) return "";
   const items = programs.map((program) => {
-    const reasons = (program.reasons || []).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("");
+    const reasons = (program.reasons || []).map((reason) => `<li>${escapeHtml(plainReason(reason))}</li>`).join("");
     return `<li><strong>${escapeHtml(program.name)}</strong><ul>${reasons}</ul></li>`;
   }).join("");
-  return `<details><summary>Excluded programs (${programs.length})</summary><ul class="excluded">${items}</ul></details>`;
+  return `<details><summary>Not a fit for you (${programs.length})</summary><ul class="excluded">${items}</ul></details>`;
 }
 
 function pills(pairs) {
@@ -279,43 +321,32 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
     });
     if (!response.ok) throw new Error(await readError(response));
     const body = await response.json();
-    const cards = body.programs
-      .map((program) => {
-        const files = program.required_documents
-          .map((file) => `<li>${escapeHtml(file)}</li>`)
-          .join("");
-        return (
-          `<article class="program">` +
-          `<h2>${escapeHtml(program.name)}</h2>` +
-          `<p>${escapeHtml(program.provider)}. ${escapeHtml(program.summary)}</p>` +
-          `<p><strong>Source:</strong> <code>${escapeHtml(program.source_file)} · page ${escapeHtml(program.source_page)}</code></p>` +
-          unverifiedNote(program.unverified) +
-          `<h3>Required documents (indicative list)</h3><ul class="files">${files}</ul>` +
-          (program.official_form_link
-            ? `<p><strong>Official form:</strong> <code>${escapeHtml(program.official_form_link)}</code></p>`
-            : "") +
-          `</article>`
-        );
-      })
-      .join("");
+    // Founders see the match itself: programme cards and plain reasons. The LLM-written
+    // explanation (body.answer) is not shown: it was raw markdown and could restate
+    // documents or reasons that are not in the catalogue. Rule checks go under "Technical details".
+    const cards = body.programs.map(programCard).join("");
+    const count = body.programs.length;
+    const headline = count
+      ? `${count} programme${count > 1 ? "s" : ""} may fit your profile. The provider makes the final decision.`
+      : "No programme in our catalogue matches these answers. Try leaving a field empty, or ask in the Chat tab.";
     const handoff = body.handoff
-      ? `<div class="handoff"><strong>Legal handoff:</strong> ${escapeHtml(body.handoff.question)}</div>`
+      ? `<div class="handoff">This looks like a question about the law itself. Ask it in the <strong>Chat</strong> or <strong>Legal workspace</strong> tab.</div>`
       : "";
     result.innerHTML =
-      `<p class="answer">${escapeHtml(body.summary)}</p>` +
-      (body.answer ? `<div class="aid-explanation">${escapeHtml(body.answer).replaceAll("\n", "<br>")}</div>` : "") +
-      citationList(body.citations) +
+      `<p class="answer">${escapeHtml(headline)}</p>` +
+      handoff +
+      cards +
+      excludedList(body.excluded_programs) +
+      `<details class="technical"><summary>Technical details (for reviewers)</summary>` +
       pills([
         [`eligible: ${body.programs.length}`, body.programs.length ? "ok" : "hold"],
         [`excluded: ${body.excluded_programs.length}`, ""],
         [`checks: ${body.rule_trace.length}`, ""],
       ]) +
-      handoff +
-      cards +
-      checklistList(body.document_checklists) +
-      excludedList(body.excluded_programs) +
+      `<p class="note">${escapeHtml(body.summary)}</p>` +
       ruleTraceList(body.rule_trace) +
-      traceList(body.trace);
+      traceList(body.trace) +
+      `</details>`;
   } catch (error) {
     result.textContent = error.message;
   } finally {
