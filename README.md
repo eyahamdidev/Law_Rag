@@ -33,7 +33,7 @@ Already cloned? `git fetch origin`, `git checkout integration/agents`, then `git
 
 ### 2. Install: double-click `install.cmd`
 
-Or type `install` in a terminal opened in the `Law_Rag` folder. It:
+Or, in a PowerShell terminal opened in the `Law_Rag` folder, type `.\install.cmd`. In PowerShell the `.\` is required: without it, PowerShell does not look in the current folder and may run a different program with the same name. It:
 
 1. checks the law PDFs were downloaded by Git LFS;
 2. creates three Python environments, because the services need different library versions: `.venv` (main app, `requirements.txt`), `.venv-fraud` (`requirements-fraud.txt`), `.venv-bp` (`services/bp/requirements-dev.txt`);
@@ -43,14 +43,14 @@ Or type `install` in a terminal opened in the `Law_Rag` folder. It:
 
 Run it again any time (after a `git pull`, for example): existing environments are updated and your `.env` is kept.
 
-With an NVIDIA (or other DirectX 12) GPU, `install.cmd -Gpu` makes search much faster. On laptops with Intel + NVIDIA graphics the NVIDIA card is usually device 1 (the default in `.env`); if nothing gets faster, set `EMBEDDING_DEVICE_ID=0` in `.env`.
+With an NVIDIA (or other DirectX 12) GPU, `.\install.cmd -Gpu` makes search much faster. On laptops with Intel + NVIDIA graphics the NVIDIA card is usually device 1 (the default in `.env`); if nothing gets faster, set `EMBEDDING_DEVICE_ID=0` in `.env`.
 
 ### 3. The search index (once)
 
 The index (`data/index/` and `data/qdrant/`) is generated from the PDFs and is not on GitHub. Either:
 
 - **copy it** (fastest): ask a teammate for a zip of their `data\index` and `data\qdrant` folders (about 270 MB) and unzip both into your `Law_Rag\data\` (copy the whole `qdrant` folder, not a collection inside it); or
-- **build it**: `install.cmd -BuildIndex`, or answer `y` when install asks. About **60 minutes on a CPU**, 10 on a GPU. Redo it only when the PDFs or the chunking change.
+- **build it**: `.\install.cmd -BuildIndex`, or answer `y` when install asks. About **60 minutes on a CPU**, 10 on a GPU. Redo it only when the PDFs or the chunking change.
 
 ### 4. Run: double-click `run.cmd`
 
@@ -64,7 +64,7 @@ It starts three services, each in its own window with its log, waits until they 
 
 The first question after a start takes about a minute longer: the search models load. **Stop everything with `stop.cmd`** (or close the three windows).
 
-`run.cmd -WithN8n` also starts n8n (Docker Desktop must be running), see [n8n](#n8n-automation).
+Options are typed in a terminal (`.un.cmd -WithN8n` also starts n8n; Docker Desktop must be running), see [n8n](#n8n-automation).
 
 ## Using the app
 
@@ -98,6 +98,7 @@ n8n (Docker) :5678 -- host.docker.internal --> the three services above
 | Answers are lists of passages instead of written answers | No Groq/Gemini key in `.env`, or the free limit is used up. Check http://127.0.0.1:8000/api/health/llm (each provider's status, never the key). |
 | Every answer is empty or "not found" | No search index: see step 3. |
 | A service window shows an error | Read its last lines; `run.cmd` again restarts only what is not running. |
+| PowerShell runs something else when you type `run.cmd` (an error mentioning a path that is not your `Law_Rag` folder) | Type `.un.cmd` (same for `.\install.cmd`, `.\stop.cmd`), or double-click the file. |
 | Questions sent back to back are slow or fall back to Gemini | Groq's free tier allows 8,000 tokens per minute per model: leave about a minute between complex questions. |
 | Search becomes keyword-only after an evaluation | Only one program can use `data/qdrant/` at a time: `stop.cmd` before rebuilding the index or running an evaluation. |
 | The business-plan service is slow | It must run with `BP_VECTOR_STORE=off` (run.cmd sets it). `start.bat` in the repo is the service author's local-Ollama launcher, not used here. |
@@ -172,7 +173,7 @@ python -m app.prompts.library                                                  #
 
 ## n8n (automation)
 
-n8n runs in Docker; the app and its two services stay on Windows (GPU, separate Python environments) and n8n reaches them through `host.docker.internal`. Start Docker Desktop, then `run.cmd -WithN8n` (stop with `stop.cmd -WithN8n`), or by hand once the app runs:
+n8n runs in Docker; the app and its two services stay on Windows (GPU, separate Python environments) and n8n reaches them through `host.docker.internal`. Start Docker Desktop, then `.un.cmd -WithN8n` (stop with `.\stop.cmd -WithN8n`), or by hand once the app runs:
 
 ```powershell
 docker compose -f docker-compose.n8n.yml up -d     # stop with: docker compose -f docker-compose.n8n.yml down
