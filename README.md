@@ -57,7 +57,7 @@ The installer does the following. Just answer its questions:
 1. It checks that the law PDFs were downloaded.
 2. It creates three Python environments, one per service, because they need different library versions.
 3. It asks for your **Groq** and **Gemini** keys and saves them in a local `.env` file. That file is never uploaded to GitHub.
-4. It offers to build the search index (see step 4).
+4. It offers to build the search index. Answer `n` if you are going to download the ready-made one (step 4).
 5. It runs the tests: 124 tests, about 30 seconds.
 
 You can run it again at any time. It updates what is there and keeps your keys.
@@ -68,7 +68,7 @@ If your PC has an NVIDIA graphics card, `.\install.cmd -Gpu` makes the search fa
 
 The app searches an index built from the PDFs. The index is too large for GitHub, so you need to get it one of two ways:
 
-- **Download it**, if a link to the ready-made index was given to you. Unzip it so that you get the folders `Law_Rag\data\index` and `Law_Rag\data\qdrant`.
+- **Download it** (fastest): get the ready-made index here: https://drive.google.com/file/d/1OsrJigybswy95YKz83rcdXMQZk_WVmGj/view?usp=sharing (107 MB). Right-click the zip, choose **Extract All…**, and pick your `Law_Rag` folder as the destination. You should then have the folders `Law_Rag\data\index` and `Law_Rag\data\qdrant`. If the installer offers to build the index, answer `n`.
 - **Or build it**: answer `y` when the installer asks, or run `.\install.cmd -BuildIndex`. It takes about **1 hour on a normal PC** (about 10 minutes with a GPU). You only do it once.
 
 ### Step 5. Start the app
@@ -133,7 +133,7 @@ To stop: `.\stop.cmd -WithN8n`.
 | The installer says a Python version is missing | Install Python 3.12 with **"Add python.exe to PATH"** ticked, open a **new** PowerShell window, and run `.\install.cmd` again. |
 | Typing `run.cmd` gives an error about a path that is not your `Law_Rag` folder | Type `.\run.cmd` (with `.\`), or double-click the file. |
 | Answers are lists of raw passages instead of real answers | The Groq/Gemini keys are missing or their free limit is used up. Open http://127.0.0.1:8000/api/health/llm to see the status of each provider. The page never shows the keys. To change a key, edit `.env` and restart with `.\stop.cmd` then `.\run.cmd`. |
-| Every answer says nothing was found | The search index is missing: see step 4. |
+| Every answer says nothing was found | The search index is missing or in the wrong place: see step 4. Check that `Law_Rag\data\qdrant\meta.json` exists (not `Law_Rag\data\data\qdrant\...`). |
 | One of the three windows shows an error | Read its last lines. Running `.\run.cmd` again restarts only what stopped. |
 | Questions asked quickly one after another are slow | Groq's free plan limits how many words per minute each model can process. Wait about a minute between long questions. |
 | The first question is slow | That is normal: the models are loading. The next ones are faster. |
