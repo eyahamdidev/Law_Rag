@@ -88,6 +88,13 @@ Wait for `Application startup complete`, then **about one more minute** while th
 - **http://127.0.0.1:8000**: the web interface. Ask for example `Quel est le capital minimum pour une SARL ?`, `ما هي شروط الحصول على علامة المؤسسة الناشئة؟` or `I'm launching a fintech: which legal form and what funding?`. Under each answer you see the sources (document, article, page) and the trace of every step.
 - **http://127.0.0.1:8000/docs**: call the API by hand (`/api/chat`, `/api/search`, `/api/agents`).
 
+The **Aid and financing** tab is also available in the main web interface. It
+calls `/api/aid/match` and displays eligible programmes, excluded programmes
+with reasons, source pages, required documents, legal handoffs, and the full
+deterministic rule trace. You can provide either structured profile fields or a
+founder description; missing stage, sector, and need fields are extracted from
+the description when possible.
+
 Stop with Ctrl+C.
 
 ### 6. Optional: use an NVIDIA GPU (Windows)
@@ -172,6 +179,15 @@ $env:UPLOADS_DIR = "D:\Law_Rag\data\uploads"
 Check it at http://127.0.0.1:8104/health (`llm_reachable` should be `true`). Vision (reading charts in uploaded plans) is left out of `BP_LLM_STEPS` because Groq's free tier has no vision model. The service's own `.env.example` model names (Llama 3.x) and `start.bat` (Ollama) do not work with a new free Groq key; use the values above. With `BP_LLM=off` it runs with rules only. Docs: [services/bp/README.md](services/bp/README.md), [CHANGES_BP.md](CHANGES_BP.md).
 
 Docs: [fraud_detection/README.md](fraud_detection/README.md), [docs/FRAUD_AGENT_API.md](docs/FRAUD_AGENT_API.md), [docs/FRAUD_AGENT_HANDOFF.md](docs/FRAUD_AGENT_HANDOFF.md).
+
+## Grants and financing
+
+The `grants` agent (majdi's rules engine, `backend/app/modules/aid/`, plus our RAG) has two paths:
+
+- **Eligibility** ("which programme fits me?", or a message giving stage, sector, amount, region…): the profile is extracted, a deterministic rules engine matches it against the catalogue (`catalog.yaml`, 10 programmes), and the answer lists matched programmes, excluded ones with reasons and indicative document lists. Each programme cites the indexed page its catalogue entry is based on. No LLM decides eligibility or writes a figure.
+- **General questions** ("what does SOTUGAR guarantee?"): answered by the RAG agent over the grants corpus, with verified citations.
+
+Catalogue figures that are not stated in their cited source (BFPME and SOTUGAR investment ranges, the BTS 150,000 TND cap, the AIR headcount) are kept under `unverified`: the rules engine ignores them and answers show them as "to confirm with the provider". The regional-premium zones follow Annexe 2 of décret 2017-389 (pages 16-19), where zones are delegations. Details: [docs/AID_REPORT.md](docs/AID_REPORT.md).
 
 ## Evaluations
 

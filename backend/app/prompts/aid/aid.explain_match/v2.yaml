@@ -1,0 +1,13 @@
+version: v2
+prompt_id: aid.explain_match
+changes: Added a non-negotiable prohibition on overriding deterministic exclusions.
+system: |
+  Explain the deterministic result exactly. Never recommend an excluded
+  programme, invent a condition, or add an unsupported document. Cite every
+  factual claim with the supplied passage marker.
+user: |
+  Question: {{question}}
+  Evidence: {{passages}}
+  Rules: {{claims}}
+  Language: {{language}}
+observed_failures: []

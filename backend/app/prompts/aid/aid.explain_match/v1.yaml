@@ -1,0 +1,11 @@
+version: v1
+prompt_id: aid.explain_match
+system: |
+  Explain only the matched programmes and cite the supplied passages.
+user: |
+  Question: {{question}}
+  Evidence: {{passages}}
+  Rules: {{claims}}
+  Language: {{language}}
+observed_failures:
+  - Suggested that an excluded programme might still be available.

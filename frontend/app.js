@@ -54,6 +54,55 @@ function traceList(trace) {
   return `<ol class="trace">${items}</ol>`;
 }
 
+function ruleTraceList(trace) {
+  if (!trace || !trace.length) return "";
+  const items = trace.map((entry) => {
+    const state = entry.passed ? "passed" : "failed";
+    return (
+      `<li class="rule-trace-entry ${state}">` +
+      `<strong>${escapeHtml(entry.program_id)}</strong> · ` +
+      `<span class="pill ${entry.passed ? "ok" : "hold"}">${escapeHtml(entry.step)}</span>` +
+      `<br><span>${escapeHtml(entry.details)}</span></li>`
+    );
+  }).join("");
+  return `<details><summary>Deterministic rule trace (${trace.length} checks)</summary><ol class="rule-trace">${items}</ol></details>`;
+}
+
+// Catalogue figures not stated in their cited source: shown, never applied by the rules engine.
+function unverifiedNote(unverified) {
+  const figures = Object.entries(unverified || {}).filter(([key]) => key !== "reason");
+  if (!figures.length) return "";
+  const items = figures.map(([key, value]) => `${escapeHtml(key)} = ${escapeHtml(Number(value).toLocaleString())}`).join(", ");
+  return `<p class="unverified"><strong>To confirm with the provider (not sourced):</strong> ${items}</p>`;
+}
+
+function checklistList(checklists) {
+  if (!checklists || !checklists.length) return "";
+  const items = checklists.map((checklist) => {
+    const docs = checklist.required_documents
+      .map((doc) => `<li>${escapeHtml(doc)}</li>`)
+      .join("");
+    return (
+      `<article class="checklist"><h3>${escapeHtml(checklist.program_name)}</h3>` +
+      `<ul class="files">${docs}</ul>` +
+      (checklist.official_form_link
+        ? `<p><strong>Official form:</strong> <code>${escapeHtml(checklist.official_form_link)}</code></p>`
+        : "") +
+      `</article>`
+    );
+  }).join("");
+  return `<h2>Required documents (indicative list)</h2>${items}`;
+}
+
+function excludedList(programs) {
+  if (!programs || !programs.length) return "";
+  const items = programs.map((program) => {
+    const reasons = (program.reasons || []).map((reason) => `<li>${escapeHtml(reason)}</li>`).join("");
+    return `<li><strong>${escapeHtml(program.name)}</strong><ul>${reasons}</ul></li>`;
+  }).join("");
+  return `<details><summary>Excluded programs (${programs.length})</summary><ul class="excluded">${items}</ul></details>`;
+}
+
 function pills(pairs) {
   return `<div class="meta">${pairs
     .map(([label, kind]) => `<span class="pill ${kind}">${escapeHtml(label)}</span>`)
@@ -103,6 +152,21 @@ function citationList(citations) {
     })
     .join("");
   return `<h2>Sources</h2><ol class="citations">${items}</ol>`;
+}
+
+const translations = {
+  en: { aid: "Aid and financing", evaluate: "Evaluate eligibility", interface: "Interface language" },
+  fr: { aid: "Aides et financement", evaluate: "Évaluer l'éligibilité", interface: "Langue de l'interface" },
+  ar: { aid: "المساعدات والتمويل", evaluate: "تقييم الأهلية", interface: "لغة الواجهة" },
+};
+
+function setInterfaceLanguage(language) {
+  const text = translations[language] || translations.en;
+  document.documentElement.lang = language;
+  document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+  document.querySelector('[data-panel="aid"]').textContent = text.aid;
+  document.querySelector('#aid-form button[type="submit"]').textContent = text.evaluate;
+  document.querySelector(".language-picker").childNodes[0].textContent = `${text.interface} `;
 }
 
 document.querySelector("#ask-form").addEventListener("submit", async (event) => {
@@ -181,6 +245,11 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
   result.hidden = false;
   result.textContent = "Matching the catalog…";
   try {
+    const numberOrNull = (value) => value === "" ? null : Number(value);
+    const checkedOrNull = (name) => {
+      const checkbox = form.querySelector(`[name="${name}"]`);
+      return checkbox.checked ? true : null;
+    };
     const response = await fetch("/api/aid/match", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -188,27 +257,53 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
         stage: form.stage.value,
         sector: form.sector.value,
         need: form.need.value,
+        funding_need_tnd: numberOrNull(form.funding_need_tnd.value),
+        employees: numberOrNull(form.employees.value),
+        governorate: form.governorate.value || null,
+        is_innovative: checkedOrNull("is_innovative"),
+        has_startup_label: checkedOrNull("has_startup_label"),
+        is_graduate: checkedOrNull("is_graduate"),
+        free_text: form.free_text.value || null,
       }),
     });
     if (!response.ok) throw new Error(await readError(response));
     const body = await response.json();
     const cards = body.programs
       .map((program) => {
-        const files = program.local_files
-          .map((file) => `<li><code>${escapeHtml(file)}</code></li>`)
+        const files = program.required_documents
+          .map((file) => `<li>${escapeHtml(file)}</li>`)
           .join("");
         return (
           `<article class="program">` +
           `<h2>${escapeHtml(program.name)}</h2>` +
           `<p>${escapeHtml(program.provider)}. ${escapeHtml(program.summary)}</p>` +
-          `<ul class="files">${files}</ul>` +
+          `<p><strong>Source:</strong> <code>${escapeHtml(program.source_file)} · page ${escapeHtml(program.source_page)}</code></p>` +
+          unverifiedNote(program.unverified) +
+          `<h3>Required documents (indicative list)</h3><ul class="files">${files}</ul>` +
+          (program.official_form_link
+            ? `<p><strong>Official form:</strong> <code>${escapeHtml(program.official_form_link)}</code></p>`
+            : "") +
           `</article>`
         );
       })
       .join("");
+    const handoff = body.handoff
+      ? `<div class="handoff"><strong>Legal handoff:</strong> ${escapeHtml(body.handoff.question)}</div>`
+      : "";
     result.innerHTML =
       `<p class="answer">${escapeHtml(body.summary)}</p>` +
+      (body.answer ? `<div class="aid-explanation">${escapeHtml(body.answer).replaceAll("\n", "<br>")}</div>` : "") +
+      citationList(body.citations) +
+      pills([
+        [`eligible: ${body.programs.length}`, body.programs.length ? "ok" : "hold"],
+        [`excluded: ${body.excluded_programs.length}`, ""],
+        [`checks: ${body.rule_trace.length}`, ""],
+      ]) +
+      handoff +
       cards +
+      checklistList(body.document_checklists) +
+      excludedList(body.excluded_programs) +
+      ruleTraceList(body.rule_trace) +
       traceList(body.trace);
   } catch (error) {
     result.textContent = error.message;
@@ -218,3 +313,7 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
 });
 
 loadCounts();
+document.querySelector("#ui-language").addEventListener("change", (event) => {
+  setInterfaceLanguage(event.target.value);
+});
+setInterfaceLanguage("en");

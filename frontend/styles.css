@@ -54,6 +54,18 @@ h1 {
   color: var(--muted);
 }
 
+.language-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.language-picker select {
+  width: auto;
+}
+
 .pipeline ol {
   display: flex;
   flex-wrap: wrap;
@@ -121,7 +133,7 @@ form {
 
 label { font-size: 0.92rem; }
 
-textarea, input[type="text"], select, input[type="file"] {
+textarea, input[type="text"], input[type="number"], select, input[type="file"] {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: 0.55rem;
@@ -142,6 +154,13 @@ button[type="submit"] {
 }
 
 button[type="submit"]:disabled { opacity: 0.6; cursor: wait; }
+
+.aid-explanation {
+  border-left: 3px solid var(--ok);
+  background: #f3faf6;
+  padding: 0.7rem;
+  margin: 0.8rem 0;
+}
 
 .note, footer p { color: var(--muted); font-size: 0.92rem; }
 
@@ -188,6 +207,76 @@ button[type="submit"]:disabled { opacity: 0.6; cursor: wait; }
 }
 
 .program p { margin: 0.3rem 0; }
+
+.program h3, .checklist h3 {
+  margin: 0.75rem 0 0.2rem;
+  font-size: 0.95rem;
+}
+
+.checklist {
+  border-top: 1px solid var(--line);
+  padding: 0.6rem 0;
+}
+
+.aid-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.2rem;
+  margin-top: 0.35rem;
+}
+
+.aid-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.aid-options input { accent-color: var(--accent); }
+
+details {
+  border-top: 1px solid var(--line);
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.rule-trace {
+  display: grid;
+  gap: 0.35rem;
+  padding-left: 1.2rem;
+}
+
+.rule-trace-entry {
+  border-left: 3px solid var(--line);
+  padding: 0.35rem 0.6rem;
+}
+
+.rule-trace-entry.passed { border-left-color: var(--ok); }
+.rule-trace-entry.failed { border-left-color: var(--hold); }
+
+.excluded {
+  display: grid;
+  gap: 0.55rem;
+  padding-left: 1.2rem;
+}
+
+.handoff {
+  background: #fff8ec;
+  border: 1px solid #ead7b4;
+  border-radius: 0.55rem;
+  color: var(--hold);
+  padding: 0.7rem;
+  margin: 0.7rem 0;
+}
+
+.unverified {
+  color: var(--hold);
+  font-size: 0.92rem;
+}
 
 footer { padding: 1.5rem 0 2.5rem; }
 

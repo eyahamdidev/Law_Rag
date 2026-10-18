@@ -7,6 +7,7 @@ planner prompt refer to it. Describe in `use_when` the messages your agent
 should get: the planner reads only the cards.
 """
 
+from app.agents.aid_agent import AidAgent
 from app.agents.base import Agent, PlaceholderAgent
 from app.agents.business_plan_agent import BusinessPlanAgent
 from app.agents.fraud_agent import FraudAgent
@@ -81,7 +82,7 @@ FRAUD = AgentCard(
 
 AGENTS: dict[str, Agent] = {
     "legal": LegalGuidanceAgent(LEGAL),
-    "grants": RagAgent(GRANTS, corpora=["grants"], domain_label="funding and support programmes"),
+    "grants": AidAgent(GRANTS),  # rules engine for eligibility, RAG over the grants corpus otherwise
     "business_plan": BusinessPlanAgent(BUSINESS_PLAN),
     "marketing": PlaceholderAgent(MARKETING),
     "fraud": FraudAgent(FRAUD),

@@ -32,6 +32,17 @@ services:
     volumes:
       - ./data/uploads:/data/uploads
 
+  aid:
+    build:
+      context: .
+      dockerfile: services/aid/Dockerfile
+    ports:
+      - "8103:8103"
+    volumes:
+      - ./grants_and_financial_aids:/app/grants_and_financial_aids:ro
+      - ./law:/app/law:ro
+      - ./backend/app/eval/datasets:/app/backend/app/eval/datasets:ro
+
   # Automation backbone: chat channels, uploads, scheduled jobs. Workflows in n8n/.
   n8n:
     image: n8nio/n8n:1.88.0

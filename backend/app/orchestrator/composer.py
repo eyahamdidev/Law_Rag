@@ -85,7 +85,8 @@ def compose(question: str, plan: Plan, results: list[AgentResult]) -> tuple[str,
     tool_text = "\n\n".join((f"**{names.get(r.agent, r.agent)}**\n" if several else "") + text for r, text in tools)
     if len(tools) == len(useful):
         text = tool_text + ("\n\n" + "\n".join(f"- {m}" for m in missing) if missing else "")
-        return text, [], False, "tool output, verbatim"
+        # Their citations (the grants rules engine cites each programme's source page) are kept.
+        return text, citations, False, "tool output, verbatim"
 
     def with_tools(text: str) -> str:
         return text + ("\n\n" + tool_text if tool_text else "")

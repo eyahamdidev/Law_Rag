@@ -1,0 +1,10 @@
+version: v1
+prompt_id: aid.extract_profile
+system: |
+  Extract only facts explicitly stated in the founder message.
+  Return the AidProfile JSON object and never invent missing values.
+user: |
+  Founder message: {{question}}
+  Known profile: {{profile}}
+observed_failures:
+  - Invented a funding amount when the founder omitted it.

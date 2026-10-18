@@ -16,6 +16,13 @@
         Cited answers from Tunisian legal and financial texts, a review pass for
         suspicious documents, and a map of financing files already in this project.
       </p>
+      <label class="language-picker" for="ui-language">Interface language
+        <select id="ui-language">
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="ar">العربية</option>
+        </select>
+      </label>
     </header>
 
     <section class="pipeline" aria-label="Workflow">
@@ -83,25 +90,66 @@
       </section>
 
       <section id="aid" class="panel" role="tabpanel" hidden>
+        <p class="note">
+          Eligibility is evaluated by deterministic rules. Use the structured
+          fields below, or add a founder description to preserve the intake
+          context and detect legal handoffs.
+        </p>
         <form id="aid-form">
+          <label for="aid-free-text">Founder description</label>
+          <textarea
+            id="aid-free-text"
+            name="free_text"
+            rows="3"
+            placeholder="Example: Je crée une startup logicielle innovante à Kasserine avec un besoin de 200 000 DT."
+          ></textarea>
           <label for="stage">Company stage</label>
           <select id="stage" name="stage">
+            <option value="unspecified">Not specified</option>
+            <option value="idea">Idea</option>
             <option value="creation">Creation</option>
             <option value="extension">Extension</option>
             <option value="growth">Growth</option>
-            <option value="unspecified">Not specified</option>
           </select>
           <label for="sector">Sector</label>
-          <input id="sector" name="sector" type="text" placeholder="Software, industry, services…" />
+          <select id="sector" name="sector">
+            <option value="">Not specified</option>
+            <option value="agriculture">Agriculture</option>
+            <option value="agroalimentaire">Agri-food</option>
+            <option value="artisanat">Crafts</option>
+            <option value="commerce_detail">Retail</option>
+            <option value="digital">Digital</option>
+            <option value="energies_renouvelables">Renewable energy</option>
+            <option value="greentech">Green technology</option>
+            <option value="industrie">Industry</option>
+            <option value="recyclage">Recycling</option>
+            <option value="sante">Healthcare</option>
+            <option value="services">Services</option>
+            <option value="software">Software</option>
+            <option value="technologie">Technology</option>
+            <option value="tic">ICT</option>
+            <option value="tourisme">Tourism</option>
+          </select>
           <label for="need">Need</label>
           <select id="need" name="need">
+            <option value="unspecified">Not specified</option>
             <option value="financing">Financing</option>
             <option value="grant">Grant</option>
             <option value="tax_incentive">Tax incentive</option>
             <option value="guidance">Guidance</option>
-            <option value="unspecified">Not specified</option>
           </select>
-          <button type="submit">List matching files</button>
+          <label for="funding-need">Funding need (TND)</label>
+          <input id="funding-need" name="funding_need_tnd" type="number" min="0" step="1" placeholder="200000" />
+          <label for="employees">Employees</label>
+          <input id="employees" name="employees" type="number" min="0" step="1" placeholder="5" />
+          <label for="governorate">Governorate</label>
+          <input id="governorate" name="governorate" type="text" placeholder="Kasserine, Tunis…" />
+          <div class="aid-options">
+            <label><input name="is_innovative" type="checkbox" /> Innovative project</label>
+            <label><input name="has_startup_label" type="checkbox" /> Startup label</label>
+            <label><input name="is_graduate" type="checkbox" /> Founder is a graduate</label>
+          </div>
+          <button type="submit">Evaluate eligibility</button>
         </form>
         <div id="aid-result" class="result" hidden></div>
       </section>
