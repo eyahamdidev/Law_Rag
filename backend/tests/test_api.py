@@ -386,3 +386,19 @@ def test_restore_markers_gives_back_citations_the_rewrite_lost():
     final, removed = drop_uncited(text)
     assert removed == ["- Un apport personnel de 30 % est exigé."]  # new content: no cited line restates it
     assert final.count("[2]") == 2 and "[1]" in final
+
+
+def test_guardrail_keeps_legal_evidence_only_excerpts():
+    """Raw excerpts (legal agent fallback) were reduced to "[1] Article 225 :" headers by the guardrail."""
+    from app.agents.legal_guidance.engine import _evidence_only
+    from app.orchestrator.guardrails import drop_uncited
+    from app.schemas.rag import Passage
+
+    passage = Passage(chunk_id="c", doc_id="law:x", title="Loi", path="p", corpora=["law"], domain="company_law", language="fr",
+                      page_start=19, page_end=19, article="161", text="Article 161 :\nLe capital social ne peut être\ninférieur à 50.000 dinars.",
+                      score=1.0, score_kind="rerank")
+    result = _evidence_only([passage], "fr", [])
+    text, removed = drop_uncited(result.answer)
+    assert removed == []
+    assert "[1] Article 161 : Le capital social ne peut être inférieur à 50.000 dinars." in text
+    assert text.startswith("Voici les passages dans leur langue originale")

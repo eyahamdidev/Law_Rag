@@ -354,3 +354,13 @@ def test_insufficient_local_evidence_can_use_one_bounded_wipo_lookup(monkeypatch
     assert len(calls) == 1
     assert result.mode == "evidence_only" and result.result.citations[0].retrieved_at
     assert any(t.module == "legal.wipo_research" for t in result.result.trace)
+
+
+def test_number_check_ignores_thousands_separators():
+    """Observed: a correct "50 000 dinars" claim was rejected against the law's "50.000 dinars"."""
+    from app.agents.legal_guidance.engine import numbers
+    law = "Article 161 : Le capital social ne peut être inférieur à 50.000 dinars ... 150.000 dinars."
+    assert not numbers("Le capital minimum est de 50 000 dinars, 150 000 avec appel public à l'épargne.") - numbers(law)
+    assert numbers("The minimum capital is 50,000 dinars.") == numbers("Le capital minimum est de 50 000 dinars.")
+    assert numbers("Le capital minimum est de 60 000 dinars.") - numbers(law)  # a changed figure is still caught
+    assert numbers("taux de 1,5 %") == {"1,5"}  # decimals are not thousands

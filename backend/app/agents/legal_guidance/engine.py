@@ -49,6 +49,18 @@ RESEARCH_LINKS = ["https://www.wipo.int/wipolex/en/", "https://www.innorpi.tn/",
 def _normalized(text):
     return " ".join(str(text).split()).casefold()
 
+# A thousands separator (space, no-break space, dot or comma before exactly three digits).
+_THOUSANDS = re.compile(r"(?<=\d)[   .,](?=\d{3}(?!\d))")
+
+def numbers(text):
+    """Numbers in a text, with thousands separators removed: "50.000", "50 000" and "50,000" are one number.
+
+    Used to reject a claim or a translation that adds or changes a figure. Without
+    the normalisation, a correct "50 000 dinars" against the law's "50.000 dinars"
+    was rejected and the answer fell back to raw excerpts.
+    """
+    return set(re.findall(r"\d+(?:[.,]\d+)?", _THOUSANDS.sub("", str(text))))
+
 def topic(question):
     folded = question.casefold()
     for terms, domains, expansion in TOPICS:
@@ -65,7 +77,8 @@ def is_drafting_request(question):
 
 def _evidence_only(passages, language, trace):
     text = MESSAGES[language]
-    answer = text["evidence"] + "\n\n" + "\n\n".join(f"[{n}] {p.text[:650]}" for n, p in enumerate(passages, 1))
+    # One line per excerpt, so its [n] covers all of it: the chat's citation guardrail removes lines without one.
+    answer = text["evidence"] + "\n\n" + "\n\n".join(f"[{n}] {' '.join(p.text[:650].split())}" for n, p in enumerate(passages, 1))
     return AgentResult(agent="legal", status="ok", answer=answer,
                        citations=[citation_from(n, p) for n, p in enumerate(passages, 1)], passages=passages, trace=trace)
 
@@ -142,7 +155,7 @@ def localize_claims(client, claims, language):
         value=translated.get(index)
         if not isinstance(value,str) or not 0<len(value)<=1600 or not language_matches(value,language):
             raise ValueError("Requested answer language was not produced")
-        if set(re.findall(r"\d+(?:[.,]\d+)?",value)) != set(re.findall(r"\d+(?:[.,]\d+)?",claim.text)):
+        if numbers(value) != numbers(claim.text):
             raise ValueError("Translation changed numeric facts")
         result.append(claim.model_copy(update={"text":value}))
     return result
@@ -242,7 +255,7 @@ def _guidance(body: GuidanceRequest, web_passages=None, prior_trace=None) -> Gui
                 continue
             seen_quotes.add(key)
             evidence_text = " ".join(passages[r - 1].text[:1000] for r in refs)
-            if set(re.findall(r"\d+(?:[.,]\d+)?", str(claim.get("text", "")))) - set(re.findall(r"\d+(?:[.,]\d+)?", evidence_text)):
+            if numbers(claim.get("text", "")) - numbers(evidence_text):
                 continue
             if isinstance(claim.get("text"), str) and 0 < len(claim["text"]) <= 1600:
                 proposed.append(Claim(text=claim["text"], refs=list(dict.fromkeys(refs)),quote=claim["quote"]))

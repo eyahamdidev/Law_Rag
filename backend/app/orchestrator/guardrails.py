@@ -19,7 +19,9 @@ from app.orchestrator.verifier import _MARKER
 _NOT_FOUND = re.compile(
     r"could not find|couldn.t find|not found|no passage|not connected|"
     r"n'ai pas trouvé|pas trouvé|aucun passage|pas encore connecté|"
-    r"لم أجد|لم يتم العثور|غير متوفر",
+    r"لم أجد|لم يتم العثور|غير متوفر|"
+    # the legal agent's notice above raw excerpts when no generated answer passed its checks
+    r"evidence is shown below|passages dans leur langue originale|مقتطفات بلغتها الأصلية",
     re.IGNORECASE,
 )
 _BULLET = re.compile(r"^\s*(?:[-*•]|\d+[.)])\s+")
