@@ -18,6 +18,7 @@ e5 expects "query: " and "passage: " prefixes. Vectors are cached in SQLite
 by (model, text) hash, so re-indexing unchanged chunks costs nothing.
 """
 
+import contextlib
 import hashlib
 import sqlite3
 import threading
@@ -68,6 +69,17 @@ def onnx_providers() -> list | None:
     return [("DmlExecutionProvider", {"device_id": settings.embedding_device_id}), "CPUExecutionProvider"]
 
 
+# DirectML runs one inference at a time. Two threads using the GPU models together (the startup
+# warm-up and a first question, or two agents searching in parallel) crashed the process inside
+# onnxruntime (access violation 0xc0000005). One lock covers creating and running every GPU model
+# (embedder and reranker). On CPU, onnxruntime is thread-safe and nothing is serialised.
+_GPU_LOCK = threading.RLock()
+
+
+def inference_lock():
+    return _GPU_LOCK if onnx_providers() else contextlib.nullcontext()
+
+
 def model_slug(model_name: str) -> str:
     return model_name.split("/")[-1].replace("multilingual-", "").replace("-", "_")
 
@@ -85,15 +97,16 @@ class EmbeddingClient:
 
     @property
     def model(self):
-        if self._model is None:
-            from fastembed import TextEmbedding
+        with inference_lock():
+            if self._model is None:
+                from fastembed import TextEmbedding
 
-            _register(self.model_name)
-            local_path = settings.data_dir / "models" / model_slug(self.model_name)
-            options = {"specific_model_path": str(local_path)} if (local_path / "tokenizer.json").is_file() else {}
-            self._model = TextEmbedding(
-                self.model_name, cache_dir=str(settings.data_dir / "models"), providers=onnx_providers(), threads=4, **options
-            )
+                _register(self.model_name)
+                local_path = settings.data_dir / "models" / model_slug(self.model_name)
+                options = {"specific_model_path": str(local_path)} if (local_path / "tokenizer.json").is_file() else {}
+                self._model = TextEmbedding(
+                    self.model_name, cache_dir=str(settings.data_dir / "models"), providers=onnx_providers(), threads=4, **options
+                )
         return self._model
 
     @property
@@ -118,7 +131,7 @@ class EmbeddingClient:
             found.update((key, np.frombuffer(blob, dtype=np.float32)) for key, blob in rows)
         missing = [i for i, key in enumerate(keys) if key not in found]
         if missing:
-            with self._lock:
+            with self._lock, inference_lock():
                 vectors = self.model.embed([texts[i] for i in missing], batch_size=batch_size)
                 for index, vector in zip(missing, vectors):
                     vector = np.asarray(vector, dtype=np.float32)
