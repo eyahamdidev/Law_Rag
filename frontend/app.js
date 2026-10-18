@@ -19,24 +19,35 @@ window.fetch = (url, opts = {}) => {
   return _fetch(url, opts);
 };
 
-const tabs = document.querySelectorAll(".tab");
-const panels = document.querySelectorAll(".panel");
+// Only the sidebar tabs and the top-level panels: the legal workspace has its own sub-tabs.
+const tabs = document.querySelectorAll(".sidebar .tab");
+const panels = document.querySelectorAll("main > .panel");
+// URL hash -> panel, so links like /#/legal or /#/contracts (from /legal.html) open the right one.
+// The "/" keeps hashes from matching element ids, which would make the browser jump down.
+const HASH_PANELS = { "/ask": "ask", "/legal": "legal", "/contracts": "legal", "/aid": "aid", "/bp": "bp", "/fraud": "fraud" };
+
+function showPanel(name) {
+  tabs.forEach((item) => {
+    const active = item.dataset.panel === name;
+    item.classList.toggle("is-active", active);
+    item.setAttribute("aria-selected", active ? "true" : "false");
+  });
+  panels.forEach((panel) => {
+    const active = panel.id === name;
+    panel.classList.toggle("is-active", active);
+    panel.hidden = !active;
+  });
+  window.scrollTo({ top: 0 });
+}
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
-    const name = tab.dataset.panel;
-    tabs.forEach((item) => {
-      const active = item === tab;
-      item.classList.toggle("is-active", active);
-      item.setAttribute("aria-selected", active ? "true" : "false");
-    });
-    panels.forEach((panel) => {
-      const active = panel.id === name;
-      panel.classList.toggle("is-active", active);
-      panel.hidden = !active;
-    });
+    history.replaceState(null, "", `#/${tab.dataset.panel}`);
+    showPanel(tab.dataset.panel);
   });
 });
+window.addEventListener("hashchange", () => showPanel(HASH_PANELS[location.hash.slice(1)] || "ask"));
+showPanel(HASH_PANELS[location.hash.slice(1)] || "ask");
 
 function escapeHtml(value) {
   return String(value)

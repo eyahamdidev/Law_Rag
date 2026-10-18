@@ -1,86 +1,11 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Assistant juridique des startups</title>
-  <link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/legal.css">
+  <meta charset="utf-8">
+  <title>Legal workspace</title>
+  <!-- The legal workspace is now a tab of the main app; keep old links (and #contracts) working. -->
+  <script>location.replace("/" + (location.hash === "#contracts" ? "#/contracts" : "#/legal"));</script>
+  <meta http-equiv="refresh" content="0; url=/#/legal">
 </head>
-<body>
-  <header class="top">
-    <p class="eyebrow">Espace juridique · Startups et propriété intellectuelle</p>
-    <h1>De la question au projet d'accord.</h1>
-    <p class="lede">Consultez les textes disponibles, précisez votre situation et préparez des documents à relire.</p>
-    <div class="toolbar"><label for="language">Langue de la réponse</label>
-      <select id="language"><option value="fr">Français</option><option value="ar">العربية</option><option value="en">English</option></select>
-      <a href="/docs" target="_blank" rel="noopener">Documentation API</a>
-    </div>
-    <p id="runtime-status" class="note" role="status">Vérification des capacités disponibles…</p>
-  </header>
-  <main>
-    <details class="panel profile"><summary>Votre profil de fondateur</summary>
-      <p class="note">Les informations restent dans cet onglet et sont utilisées pour vos demandes. Aucun compte n'est créé ici.</p>
-      <form id="profile-form" class="grid">
-        <label>Nom et prénom<input name="founder_name" type="text" maxlength="200"></label>
-        <label>Entreprise / projet<input name="company_name" type="text" maxlength="200"></label>
-        <label>Âge du fondateur (facultatif)<input name="founder_age" type="number" min="0" max="120"></label>
-        <label>Nombre de fondateurs<input name="founders_count" type="number" min="1" max="100"></label>
-        <label>Forme juridique actuelle<input name="legal_form" type="text" maxlength="200" placeholder="Non constituée, SARL, SUARL…"></label>
-        <label>Gouvernorat<input name="governorate" type="text" maxlength="200"></label>
-        <label>Secteur<input name="sector" type="text" maxlength="200"></label>
-        <label>Stade<select name="stage"><option value="">Non précisé</option><option value="idea">Idée</option><option value="creation">Création</option><option value="early">Démarrage</option><option value="growth">Croissance</option><option value="extension">Extension</option></select></label>
-        <label>Formation<textarea name="academic_background" maxlength="1500" rows="2"></textarea></label>
-        <label>Expérience entrepreneuriale<textarea name="entrepreneurship_experience" maxlength="1500" rows="2"></textarea></label>
-        <label class="wide">Description du projet<textarea name="project_summary" maxlength="1500" rows="2"></textarea></label>
-      </form>
-    </details>
-    <details class="panel documents"><summary>Documents pour cette demande</summary>
-      <p class="note">PDF, DOCX ou TXT UTF-8. Maximum 10 Mo par fichier, 3 fichiers. Pour un PDF long, choisissez jusqu'à 40 pages par lecture (600 pages maximum dans le fichier). Les originaux ne sont pas conservés.</p>
-      <form id="upload-form"><label for="upload">Document</label><input id="upload" type="file" accept=".pdf,.docx,.txt" required>
-        <div class="grid"><label>Première page PDF<input id="page-start" type="number" min="1" max="600" value="1"></label><label>Dernière page PDF (facultative)<input id="page-end" type="number" min="1" max="600" placeholder="40 pages maximum par lecture"></label></div>
-        <label class="checkbox"><input id="local-ocr" type="checkbox" checked> Lire localement les pages scannées (4 pages maximum par envoi)</label>
-        <button type="submit">Lire le document</button>
-      </form>
-      <div id="upload-status" role="status" aria-live="polite"></div><div id="document-list"></div>
-    </details>
-    <nav class="tabs" aria-label="Fonctions juridiques">
-      <button class="tab is-active" data-view="guidance" type="button" aria-pressed="true">Conseils juridiques</button>
-      <button class="tab" data-view="contracts" type="button" aria-pressed="false">Rédaction de contrats</button>
-    </nav>
-    <section id="guidance" class="panel">
-      <h2>Une réponse appuyée par les sources</h2>
-      <div class="toolbar"><label for="checklist-task">Liste d'actions sourcée</label><select id="checklist-task"><option value="startup_label">Label startup</option><option value="company_creation">Créer une entreprise</option><option value="patent">Brevet</option><option value="trademark">Marque</option><option value="copyright">Droit d'auteur / logiciel</option></select><button id="checklist" type="button" class="secondary">Préparer la liste</button></div>
-      <form id="guidance-form">
-        <label for="guidance-jurisdiction">Droit national concerné</label><input id="guidance-jurisdiction" type="text" value="Tunisia" maxlength="500" required>
-        <label for="legal-question">Votre question</label>
-        <textarea id="legal-question" rows="4" minlength="3" maxlength="4000" required placeholder="Quelles sont les conditions du label startup ? Comment protéger une marque ou un logiciel ?"></textarea>
-        <button type="submit">Rechercher et répondre</button>
-      </form>
-      <div id="guidance-result" class="result" role="status" aria-live="polite"></div>
-    </section>
-    <section id="contracts" class="panel" hidden>
-      <h2>Préparer un projet de contrat</h2>
-      <p class="note">Confirmez les parties et les modalités réellement convenues. Les modalités saisies restent dans leur langue d'origine. Les documents servent à proposer des informations ; ils ne remplacent pas votre confirmation.</p>
-      <form id="contract-form">
-        <label for="contract-type">Type d'accord</label><select id="contract-type"></select>
-        <div class="grid">
-          <label>Droit applicable proposé<input id="contract-jurisdiction" type="text" value="Tunisia" maxlength="500"></label>
-          <label>Date d'effet proposée<input id="effective-date" type="date"></label>
-        </div>
-        <label for="purpose">Objet et contexte</label><textarea id="purpose" rows="3" maxlength="4000"></textarea>
-        <div class="toolbar"><button id="profile-name" type="button" class="secondary">Utiliser mon nom pour la première partie</button><button id="profile-company" type="button" class="secondary">Utiliser mon entreprise pour la première partie</button><button id="profile-context" type="button" class="secondary">Reprendre la description du projet</button></div>
-        <p id="profile-copy-status" class="note" role="status"></p>
-        <fieldset><legend>Parties</legend><div id="parties"></div><button id="add-party" class="secondary" type="button">Ajouter une partie</button></fieldset>
-        <label id="equity-label" hidden>Répartition du capital (une ligne « nom : pourcentage » par partie)<textarea id="equity" rows="3" placeholder="Nom du premier fondateur : 50&#10;Nom du second fondateur : 50"></textarea></label>
-        <div id="contract-fields"></div>
-        <button id="suggest" class="secondary" type="button">Proposer des champs à partir des documents</button>
-        <div id="suggestions" aria-live="polite"></div>
-        <label class="checkbox"><input id="refine" type="checkbox" checked> Améliorer la rédaction avec le modèle disponible, en conservant les modalités saisies</label>
-        <button type="submit">Préparer le projet à relire</button>
-      </form>
-      <div id="contract-result" class="result" role="status" aria-live="polite"></div>
-    </section>
-  </main>
-  <footer><p>Les sources correspondent aux éditions disponibles. Un projet généré n'est ni signé, ni validé pour votre situation. Vérifiez le droit applicable et les clauses avant utilisation.</p><a href="/">Application commune de l'équipe</a></footer>
-  <script src="/legal.js"></script>
-</body>
+<body><p><a href="/#/legal">Open the legal workspace</a></p></body>
 </html>

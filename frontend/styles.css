@@ -347,3 +347,37 @@ table.fin th:first-child, table.fin td:first-child { text-align: left; }
 .verdict { display: flex; justify-content: space-between; padding: 0.8rem 1rem; border-radius: 0.7rem; border: 1px solid var(--line); margin: 0.6rem 0; }
 .verdict.good { border-color: #2e7d32; } .verdict.moderate { border-color: #b8860b; } .verdict.unfilled { border-color: #6b6b6b; } .verdict.bad, .verdict.high_risk { border-color: #b3261e; }
 @media (max-width: 640px) { .bp-cards { grid-template-columns: 1fr; } }
+
+/* App shell: sidebar with the section tabs, always visible; content on the right. */
+.shell { display: grid; grid-template-columns: 15.5rem minmax(0, 1fr); min-height: 100vh; }
+.sidebar {
+  position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 1rem;
+  padding: 1.5rem 1rem; background: var(--card); border-right: 1px solid var(--line);
+}
+.sidebar .brand { margin: -0.6rem 0 0.4rem; font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size: 1.15rem; font-weight: 600; line-height: 1.25; }
+.sidebar .tabs { width: auto; margin: 0; flex-direction: column; flex-wrap: nowrap; }
+.sidebar .tab { width: 100%; text-align: start; border-color: transparent; }
+.sidebar .tab:hover { border-color: var(--line); }
+.sidebar .tab.is-active { border-color: var(--ink); }
+.sidebar .tab small { display: block; font-size: 0.78rem; opacity: 0.75; }
+.sidebar .language-picker { flex-wrap: wrap; margin-top: auto; }
+.sidebar .counts { width: auto; margin: 0; font-size: 0.8rem; }
+.content .top, .content .pipeline, .content main, .content footer { width: min(980px, calc(100% - 3rem)); }
+.content .top { padding-top: 1.75rem; }
+.panel-title { margin: 0 0 0.3rem; font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size: 1.5rem; font-weight: 600; }
+[dir="rtl"] .sidebar { border-right: 0; border-left: 1px solid var(--line); }
+
+/* Narrow screens: the sidebar becomes a sticky top bar with scrollable tabs. */
+@media (max-width: 860px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .sidebar { position: sticky; z-index: 5; height: auto; flex-direction: row; flex-wrap: wrap; align-items: center; padding: 0.6rem 1rem; border-right: 0; border-bottom: 1px solid var(--line); }
+  .sidebar .eyebrow, .sidebar .counts { display: none; }
+  .sidebar .brand { margin: 0; font-size: 1rem; }
+  .sidebar .tabs { flex-direction: row; overflow-x: auto; width: 100%; order: 3; }
+  .sidebar .tab { width: auto; white-space: nowrap; }
+  .sidebar .tab small { display: none; }
+  .sidebar .language-picker { margin: 0 0 0 auto; font-size: 0.8rem; }
+  .sidebar .language-picker select { padding: 0.3rem; }
+  .content .top, .content .pipeline, .content main, .content footer { width: calc(100% - 2rem); }
+}

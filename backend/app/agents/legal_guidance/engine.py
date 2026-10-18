@@ -26,21 +26,21 @@ MESSAGES = {
         "evidence": "Original-language evidence is shown below. A supported generated answer is not available for this request.",
         "country": "Which jurisdiction should apply? The indexed legislation is Tunisian; I cannot apply it to another country.",
         "version": "Sources are supplied editions, not a confirmation of current consolidated law. Publication date is not necessarily the effective date.",
-        "draft": "Use the legal contract intake to select an agreement and confirm the parties and terms: /legal.html#contracts. The drafting API is /api/legal/contracts/draft.",
+        "draft": "Use the legal contract intake to select an agreement and confirm the parties and terms: /#/contracts. The drafting API is /api/legal/contracts/draft.",
     },
     "fr": {
         "none": "Le corpus juridique disponible ne fournit pas de preuve suffisante pour cette question. Je ne peux pas établir la règle demandée à partir de ces sources.",
         "evidence": "Voici les passages dans leur langue originale. Aucune réponse générée suffisamment étayée n'est disponible pour cette demande.",
         "country": "Quel droit national faut-il appliquer ? Les textes indexés sont tunisiens ; je ne peux pas les appliquer à un autre pays.",
         "version": "Les sources sont des éditions fournies, sans confirmation de consolidation actuelle. La date de publication n'est pas nécessairement la date d'entrée en vigueur.",
-        "draft": "Utilisez le formulaire de rédaction pour choisir un accord et confirmer les parties et modalités : /legal.html#contracts. API : /api/legal/contracts/draft.",
+        "draft": "Utilisez le formulaire de rédaction pour choisir un accord et confirmer les parties et modalités : /#/contracts. API : /api/legal/contracts/draft.",
     },
     "ar": {
         "none": "لا يوفر الرصيد القانوني المتاح أدلة كافية لهذا السؤال. لا يمكنني إثبات القاعدة المطلوبة اعتمادا على هذه المصادر.",
         "evidence": "فيما يلي مقتطفات بلغتها الأصلية. لا تتوفر إجابة مولدة ومدعومة بما يكفي لهذا الطلب.",
         "country": "ما القانون الوطني الواجب تطبيقه؟ النصوص المفهرسة تونسية ولا يمكن تطبيقها على بلد آخر.",
         "version": "المصادر نسخ مقدمة ولا تؤكد تحيين القانون المدمج. تاريخ النشر ليس بالضرورة تاريخ دخول النص حيز النفاذ.",
-        "draft": "استعمل استمارة العقود لاختيار الاتفاق وتأكيد الأطراف والشروط: /legal.html#contracts . واجهة البرمجة: /api/legal/contracts/draft .",
+        "draft": "استعمل استمارة العقود لاختيار الاتفاق وتأكيد الأطراف والشروط: /#/contracts . واجهة البرمجة: /api/legal/contracts/draft .",
     },
 }
 

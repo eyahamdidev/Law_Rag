@@ -1,12 +1,16 @@
-.toolbar{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap}.toolbar select{width:auto}.toolbar a{margin-left:auto}
-.profile,.documents{margin-bottom:1rem}summary{font-weight:600;cursor:pointer}details[open] summary{margin-bottom:1rem}
-.grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.grid label{display:grid;gap:.3rem}.wide{grid-column:1/-1}
-.tabs{width:100%;margin-bottom:1rem}.panel h2{margin-top:0;font-family:Georgia,serif;font-size:1.4rem}
-fieldset{border:1px solid var(--line);border-radius:.6rem;padding:1rem;margin:.5rem 0}.party{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:1rem}.party label{display:grid}.party .address{grid-column:1/-1}
-.checkbox{display:flex;align-items:flex-start;gap:.5rem;margin:.6rem 0}.checkbox input{margin-top:.3rem}
-.secondary{background:transparent;border:1px solid var(--line);border-radius:.5rem;padding:.6rem .8rem;cursor:pointer;width:fit-content;color:var(--ink)}
-#contract-fields{display:grid;gap:.8rem}#contract-fields label{display:grid;gap:.3rem}.result pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7}
-.notice{padding:.8rem;border-left:3px solid var(--hold);background:#fff8ec;margin:.8rem 0}.document{border-top:1px solid var(--line);padding:.7rem 0}.document pre{white-space:pre-wrap;max-height:16rem;overflow:auto;font-size:.85rem}
-.sources{display:grid;gap:.9rem;padding-left:1.2rem}.sources blockquote{margin:.4rem 0;padding-left:.6rem;border-left:2px solid var(--line);white-space:pre-wrap}
-a{color:var(--accent)}button:disabled{opacity:.5;cursor:wait}.download{display:inline-block;margin-top:1rem;padding:.7rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:.5rem;cursor:pointer}
-@media(max-width:640px){.grid,.party{grid-template-columns:1fr}.party .address,.wide{grid-column:auto}.toolbar a{margin-left:0}}
+/* Legal workspace panel (#legal). Scoped so it does not restyle the other tabs. */
+#legal .toolbar{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin:.6rem 0}#legal .toolbar select{width:auto}#legal .toolbar a{margin-left:auto}
+#legal .card{background:var(--bg);border:1px solid var(--line);border-radius:.8rem;padding:1rem;margin-bottom:1rem}
+#legal summary{font-weight:600;cursor:pointer}#legal details[open] summary{margin-bottom:1rem}
+#legal .grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}#legal .grid label{display:grid;gap:.3rem}#legal .wide{grid-column:1/-1}
+#legal .subtabs{display:flex;gap:.5rem;margin:0 0 1rem}#legal .subtab{background:transparent;border:1px solid var(--line);border-radius:.6rem;padding:.5rem .9rem;color:var(--ink);cursor:pointer}
+#legal .subtab.is-active{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#legal h3{margin-top:0;font-family:Georgia,serif;font-size:1.25rem}
+#legal fieldset{border:1px solid var(--line);border-radius:.6rem;padding:1rem;margin:.5rem 0}#legal .party{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:1rem}#legal .party label{display:grid}#legal .party .address{grid-column:1/-1}
+#legal .checkbox{display:flex;align-items:flex-start;gap:.5rem;margin:.6rem 0}#legal .checkbox input{margin-top:.3rem}
+#legal .secondary{background:transparent;border:1px solid var(--line);border-radius:.5rem;padding:.6rem .8rem;cursor:pointer;width:fit-content;color:var(--ink)}
+#legal #contract-fields{display:grid;gap:.8rem}#legal #contract-fields label{display:grid;gap:.3rem}#legal .result pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7}
+#legal .notice{padding:.8rem;border-left:3px solid var(--hold);background:#fff8ec;margin:.8rem 0}#legal .document{border-top:1px solid var(--line);padding:.7rem 0}#legal .document pre{white-space:pre-wrap;max-height:16rem;overflow:auto;font-size:.85rem}
+#legal .sources{display:grid;gap:.9rem;padding-left:1.2rem}#legal .sources blockquote{margin:.4rem 0;padding-left:.6rem;border-left:2px solid var(--line);white-space:pre-wrap}
+#legal a{color:var(--accent)}#legal button:disabled{opacity:.5;cursor:wait}#legal .download{display:inline-block;margin-top:1rem;padding:.7rem 1rem;background:var(--accent);color:#fff;border:0;border-radius:.5rem;cursor:pointer}
+@media(max-width:640px){#legal .grid,#legal .party{grid-template-columns:1fr}#legal .party .address,#legal .wide{grid-column:auto}#legal .toolbar a{margin-left:0}}

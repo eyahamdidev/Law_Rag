@@ -234,8 +234,11 @@ def test_structured_drafting_survives_orchestrator_without_paraphrasing():
 def test_catalog_and_dedicated_legal_ui_exist():
     assert len(client.get("/api/legal/contracts/types").json()["types"])==10
     assert client.get("/api/legal/contracts/types?language=invalid").status_code==422
-    html=client.get("/legal.html").text
+    # The legal workspace is a tab of the main page; /legal.html redirects to it.
+    html=client.get("/").text
     assert 'id="guidance-form"' in html and 'id="contract-form"' in html and 'id="profile-form"' in html
+    assert 'data-panel="legal"' in html and "/legal.js" in html
+    assert "#/legal" in client.get("/legal.html").text
 
 
 def test_invalid_word_package_is_a_client_error():
