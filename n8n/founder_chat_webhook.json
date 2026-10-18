@@ -22,7 +22,7 @@
         "sendBody": true,
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify({ question: $json.body.question, session_id: $json.body.session_id || null, channel: 'webhook' }) }}",
-        "options": { "timeout": 120000 }
+        "options": { "timeout": 180000 }
       },
       "id": "5f0c3c1e-1b1a-4c55-9d43-0a1f6b6f0002",
       "name": "Orchestrator /api/chat",

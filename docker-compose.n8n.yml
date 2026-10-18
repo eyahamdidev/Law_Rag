@@ -1,0 +1,32 @@
+# n8n only. The app and its two services run on the host (Windows): the GPU
+# (DirectML) is only available there and the fraud / business-plan services
+# need their own Python versions. n8n reaches them through host.docker.internal.
+#
+#   docker compose -f docker-compose.n8n.yml up -d      # start, then open http://localhost:5678
+#   docker compose -f docker-compose.n8n.yml down       # stop (workflows and runs are kept)
+#
+# docker-compose.yml is the all-in-containers alternative.
+services:
+  n8n:
+    image: n8nio/n8n:1.88.0
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      GENERIC_TIMEZONE: Africa/Tunis
+      TZ: Africa/Tunis
+      # Read in workflows as {{ $env.API_BASE_URL }}, so no address is hard-coded in them.
+      API_BASE_URL: http://host.docker.internal:8000
+      FRAUD_BASE_URL: http://host.docker.internal:8100
+      BP_BASE_URL: http://host.docker.internal:8104
+      N8N_DIAGNOSTICS_ENABLED: "false"
+      N8N_PERSONALIZATION_ENABLED: "false"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - n8n_data:/home/node/.n8n   # workflows, credentials, run history
+      - ./n8n:/workflows            # exported workflow JSON (import / export)
+      - ./data/n8n:/files           # records written by workflows (git-ignored, like all of data/)
+
+volumes:
+  n8n_data:
