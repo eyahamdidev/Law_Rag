@@ -172,6 +172,8 @@ $env:LLM_BASE_URL = "https://api.groq.com/openai/v1"
 $env:LLM_API_KEY = "<your GROQ_API_KEY>"
 $env:LLM_MODEL_MAIN = "qwen/qwen3.8-27b"; $env:LLM_MODEL_FAST = "qwen/qwen3.8-27b"
 $env:BP_LLM_STEPS = "parser,reviewer,assessment,critic,drafts,plan_writer,final_writer"
+$env:BP_TIMEOUT_S = "170"   # writing a plan chains several model calls; 60 s (the default) is too short
+$env:BP_VECTOR_STORE = "off"  # no Ollama here: skip its lookups (each one stalled ~7 s), use the built-in ranker
 $env:UPLOADS_DIR = "D:\Law_Rag\data\uploads"
 ..\..\.venv-bp\Scripts\python -m uvicorn app.main:app --port 8104
 ```

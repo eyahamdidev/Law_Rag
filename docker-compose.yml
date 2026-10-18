@@ -29,6 +29,8 @@ services:
       - .env
     environment:
       UPLOADS_DIR: /data/uploads
+      BP_TIMEOUT_S: "170"
+      BP_VECTOR_STORE: "off"  # no Ollama/Qdrant for it: use its built-in guidance ranker
     volumes:
       - ./data/uploads:/data/uploads
 
