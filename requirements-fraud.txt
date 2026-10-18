@@ -1,0 +1,19 @@
+# Fraud detection service (fraud_detection/, port 8100), in its own environment .venv-fraud.
+# Python 3.11 or newer: its models were saved with scikit-learn 1.9.1, which needs it.
+# Installed by install.cmd. Versions are the ones the service was tested with.
+scikit-learn==1.9.1
+lightgbm==4.7.0
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+joblib==1.6.0
+fastapi==0.143.2
+uvicorn==0.54.0
+pydantic==2.14.1
+httpx==0.28.1
+pillow==12.3.0
+pymupdf==1.28.2
+pytesseract==0.3.13   # reading stamp wording also needs the Tesseract program (French and English packs)
+
+# Only to regenerate datasets or retrain models (not needed to run the service):
+#   torch torchvision networkx reportlab svglib pdfplumber arabic-reshaper python-bidi

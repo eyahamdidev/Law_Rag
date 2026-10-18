@@ -1,126 +1,131 @@
 # Tunisian Legal & Financial Assistant
 
-Multi-agent assistant for Tunisian founders. A LangGraph orchestrator plans which agents to call (legal, grants, business plan, marketing, contract review), runs them in parallel over a cited RAG index of Tunisian official texts and funding programmes, verifies every citation and claim, and composes one answer in French, Arabic or English. Uploaded PDFs, scans and photos are read with text extraction and vision OCR. n8n automates around it: a chat webhook, a founder intake form and a daily health check.
+Multi-agent assistant for Tunisian founders. A LangGraph orchestrator plans which agents to call (legal, grants, business plan, fraud, marketing), runs them in parallel over a cited RAG index of Tunisian official texts and funding programmes, verifies every citation and claim, and composes one answer in French, Arabic or English. Uploaded PDFs, scans and photos are read with text extraction and vision OCR. n8n automates around it: a chat webhook, a founder intake form and a daily health check.
 
 - How it works, and how to plug in your agent: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
-- Results: [docs/RETRIEVAL_EVAL.md](docs/RETRIEVAL_EVAL.md), [docs/ROUTING_EVAL_HELDOUT.md](docs/ROUTING_EVAL_HELDOUT.md), [docs/ROUTING_EVAL.md](docs/ROUTING_EVAL.md), [docs/ROUTING_EVAL_PLANNER_V3.md](docs/ROUTING_EVAL_PLANNER_V3.md)
+- Results: [docs/RETRIEVAL_EVAL.md](docs/RETRIEVAL_EVAL.md), [docs/ROUTING_EVAL_HELDOUT.md](docs/ROUTING_EVAL_HELDOUT.md)
 - Prompts and their iterations: [docs/PROMPT_LIBRARY.md](docs/PROMPT_LIBRARY.md)
 
-## Setup for teammates (first time, about 1 hour on a CPU laptop)
+## Quick start (Windows)
 
-Some things are deliberately not on GitHub, so every new clone sets them up once:
+Four steps. The first time takes 15-20 minutes, plus the search index (step 3).
 
-| Not in the repository | Why | What you do |
+### 0. What you need
+
+| | Why | Where |
 | --- | --- | --- |
-| `.env` | holds API keys, which must never be pushed | create your own from `.env.example` (step 3) |
-| `.venv/` | installed packages, specific to each machine | `pip install` (step 2) |
-| `data/` | generated index, vectors and models, several GB | build it (step 4), or get a copy (step 4b) |
+| **Git** and **Git LFS** | one large law PDF is stored with LFS | https://git-scm.com, https://git-lfs.com |
+| **Python 3.12** (64-bit) | runs all three services (3.10, 3.11 and 3.13 also work for some of them; the installer picks) | https://www.python.org/downloads/ (tick **Add python.exe to PATH**) |
+| A free **Groq** key and a free **Gemini** key | the language models; use **your own** (limits are per account) | https://console.groq.com/keys, https://aistudio.google.com/apikey |
+| About **8 GB** free disk | Python packages, models (2.2 GB, downloaded once), index | |
+| Optional: **Docker Desktop** | only for n8n | https://www.docker.com/products/docker-desktop/ |
+| Optional: **Tesseract OCR** (French + English) | only to read the words on invoice stamps | https://github.com/UB-Mannheim/tesseract/wiki |
 
-### 0. Prerequisites
-
-- **Git** and **Git LFS** (https://git-lfs.com). One large law PDF is stored with LFS; without it that document is silently skipped.
-- **Python 3.10 or newer**: `python --version`
-- About **4 GB** of free disk space and an internet connection for the first model download.
-
-### 1. Clone the repository
+### 1. Get the code
 
 ```powershell
 git lfs install
-git clone https://github.com/eyahamdidev/Law_Rag.git
+git clone --branch integration/agents https://github.com/eyahamdidev/Law_Rag.git
 cd Law_Rag
-git checkout feat/orchestrator-rag
 ```
 
-### 2. Create the environment and install packages
+Already cloned? `git fetch origin`, `git checkout integration/agents`, then `git lfs pull`.
 
-Windows (PowerShell):
+### 2. Install: double-click `install.cmd`
 
-```powershell
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+Or type `install` in a terminal opened in the `Law_Rag` folder. It:
+
+1. checks the law PDFs were downloaded by Git LFS;
+2. creates three Python environments, because the services need different library versions: `.venv` (main app, `requirements.txt`), `.venv-fraud` (`requirements-fraud.txt`), `.venv-bp` (`services/bp/requirements-dev.txt`);
+3. creates `.env` from `.env.example` and asks for your Groq and Gemini keys (`.env` is git-ignored: keys never leave your PC);
+4. offers to build the search index (step 3);
+5. runs the tests (124, about 30 s, no key or index needed).
+
+Run it again any time (after a `git pull`, for example): existing environments are updated and your `.env` is kept.
+
+With an NVIDIA (or other DirectX 12) GPU, `install.cmd -Gpu` makes search much faster. On laptops with Intel + NVIDIA graphics the NVIDIA card is usually device 1 (the default in `.env`); if nothing gets faster, set `EMBEDDING_DEVICE_ID=0` in `.env`.
+
+### 3. The search index (once)
+
+The index (`data/index/` and `data/qdrant/`) is generated from the PDFs and is not on GitHub. Either:
+
+- **copy it** (fastest): ask a teammate for a zip of their `data\index` and `data\qdrant` folders (about 270 MB) and unzip both into your `Law_Rag\data\` (copy the whole `qdrant` folder, not a collection inside it); or
+- **build it**: `install.cmd -BuildIndex`, or answer `y` when install asks. About **60 minutes on a CPU**, 10 on a GPU. Redo it only when the PDFs or the chunking change.
+
+### 4. Run: double-click `run.cmd`
+
+It starts three services, each in its own window with its log, waits until they answer and opens **http://127.0.0.1:8000**:
+
+| Service | Port | Window title |
+| --- | --- | --- |
+| Main app (web interface, orchestrator, legal and grants agents) | 8000 | Main app |
+| Fraud detection service | 8100 | Fraud service |
+| Business-plan service | 8104 | Business-plan service |
+
+The first question after a start takes about a minute longer: the search models load. **Stop everything with `stop.cmd`** (or close the three windows).
+
+`run.cmd -WithN8n` also starts n8n (Docker Desktop must be running), see [n8n](#n8n-automation).
+
+## Using the app
+
+| Tab | What to do there | Try |
+| --- | --- | --- |
+| **Chat** (default) | Any question: the planner sends it to the right agents (legal, grants, business plan, fraud) and composes one cited answer. Sources (document, article, page) and the trace of every step are under the answer. | `Quel est le capital minimum d'une société anonyme ?` · `ما هي شروط الحصول على علامة المؤسسة الناشئة؟` · `Je crée une entreprise industrielle à Sfax, besoin de 300 000 DT. Quel programme me convient ?` |
+| **Legal workspace** | Legal guidance with your founder profile and documents, sourced action lists, and **contract drafting** (10 agreement types, Word download). | Contract drafting: NDA, two parties, mutual |
+| **Aid and financing** | Funding eligibility from a profile form: programmes that may fit, documents usually requested, figures to confirm, why others do not fit. | stage Creation, sector technology, 50 000 TND |
+| **Business plan** | Upload a plan for a review report, or build one through a guided chat. | |
+| **Fraud review** | Still the original placeholder form (file fingerprint only). **Fraud scoring works in the Chat tab**: describe the payment or attach the invoice. | `Un investisseur me demande 2 000 DT de frais avant de débloquer 500 000 DT, c'est suspect ?` |
+
+The API is documented at http://127.0.0.1:8000/docs.
+
+## What runs where
+
+```
+Browser -- http://127.0.0.1:8000 --> Main app (.venv, backend/)
+                                       |- planner -> agents in parallel -> verifier -> composer (LangGraph)
+                                       |- legal and grants agents, RAG over law/ and grants_and_financial_aids/
+                                       |- Groq (main models) / Gemini (fallback, vision OCR) -- internet
+                                       |-> Fraud service          :8100 (.venv-fraud, fraud_detection/)
+                                       '-> Business-plan service  :8104 (.venv-bp, services/bp/) -- Groq
+n8n (Docker) :5678 -- host.docker.internal --> the three services above
 ```
 
-Mac / Linux: `python3 -m venv .venv`, then `source .venv/bin/activate`, then the same `pip install`.
+## Troubleshooting
 
-Activate the environment again (`.venv\Scripts\activate`) each time you open a new terminal.
+| Problem | Fix |
+| --- | --- |
+| `install.cmd` says a Python version is missing | Install Python 3.12 (tick **Add python.exe to PATH**), open a new terminal, run `install.cmd` again. |
+| Answers are lists of passages instead of written answers | No Groq/Gemini key in `.env`, or the free limit is used up. Check http://127.0.0.1:8000/api/health/llm (each provider's status, never the key). |
+| Every answer is empty or "not found" | No search index: see step 3. |
+| A service window shows an error | Read its last lines; `run.cmd` again restarts only what is not running. |
+| Questions sent back to back are slow or fall back to Gemini | Groq's free tier allows 8,000 tokens per minute per model: leave about a minute between complex questions. |
+| Search becomes keyword-only after an evaluation | Only one program can use `data/qdrant/` at a time: `stop.cmd` before rebuilding the index or running an evaluation. |
+| The business-plan service is slow | It must run with `BP_VECTOR_STORE=off` (run.cmd sets it). `start.bat` in the repo is the service author's local-Ollama launcher, not used here. |
+| Accented text sent with `curl` in Git Bash gives HTTP 400 | Use the web page, `/docs` or PowerShell. |
 
-### 3. Add your own API keys
+## Manual setup (Mac / Linux, or without the scripts)
 
-```powershell
-copy .env.example .env
-notepad .env
+```bash
+python3.12 -m venv .venv        && .venv/bin/pip install -r requirements.txt
+python3.12 -m venv .venv-fraud  && .venv-fraud/bin/pip install -r requirements-fraud.txt
+python3.12 -m venv .venv-bp     && .venv-bp/bin/pip install -r services/bp/requirements-dev.txt
+cp .env.example .env            # then put your GROQ_API_KEY and GEMINI_API_KEY in it
+(cd backend && ../.venv/bin/python -m app.modules.rag.ingestion.pipeline --strategy structural)   # index, once
 ```
 
-Mac / Linux: `cp .env.example .env`, then edit it.
+Then one terminal per service (on Windows, `.venv\Scripts\python` instead of `.venv/bin/python`):
 
-Fill in two lines with **your own** free keys (do not share keys: the free limits are per account):
-
-```
-GROQ_API_KEY=gsk_...       # https://console.groq.com/keys
-GEMINI_API_KEY=...         # https://aistudio.google.com/apikey
-```
-
-Without keys the app still starts: the planner falls back to keywords and answers list the most relevant passages instead of a written answer.
-
-### 4. Build the search index (once)
-
-```powershell
-cd backend
-python -m app.modules.rag.ingestion.pipeline --strategy structural
+```bash
+(cd backend && ../.venv/bin/python -m uvicorn app.main:app --port 8000)
+.venv-fraud/bin/python -m fraud_detection serve --port 8100
+cd services/bp && LLM_BASE_URL=https://api.groq.com/openai/v1 LLM_API_KEY=<your GROQ_API_KEY> \
+  LLM_MODEL_MAIN=qwen/qwen3.8-27b LLM_MODEL_FAST=qwen/qwen3.8-27b \
+  BP_LLM_STEPS=parser,reviewer,assessment,critic,drafts,plan_writer,final_writer \
+  BP_TIMEOUT_S=170 BP_VECTOR_STORE=off UPLOADS_DIR=../../data/uploads \
+  ../../.venv-bp/bin/python -m uvicorn app.main:app --port 8104
 ```
 
-This reads the PDFs in `law/` and `grants_and_financial_aids/`, splits them into about 7,000 passages, downloads the embedding model (about 1.1 GB, first time only) and embeds every passage. It takes about **60 minutes on a CPU**, about 10 on an NVIDIA GPU (step 6). It is cached in `data/`; you only do it again when the corpus or the chunking changes.
-
-### 4b. Or skip the build with a copy
-
-Ask a teammate who has built it for a zip of their `data/index/` and `data/qdrant/` folders (about 270 MB) and unzip both into your `Law_Rag\data\`. Copy the whole `qdrant` folder, not a single collection inside it. Then skip step 4.
-
-### 5. Run the app
-
-```powershell
-cd backend          # if you are not there already
-uvicorn app.main:app --reload
-```
-
-Wait for `Application startup complete`, then **about one more minute** while the search models load (the first launch also downloads the reranker, about 1.1 GB). Open:
-
-- **http://127.0.0.1:8000**: the web interface. Ask for example `Quel est le capital minimum pour une SARL ?`, `ما هي شروط الحصول على علامة المؤسسة الناشئة؟` or `I'm launching a fintech: which legal form and what funding?`. Under each answer you see the sources (document, article, page) and the trace of every step.
-- **http://127.0.0.1:8000/docs**: call the API by hand (`/api/chat`, `/api/search`, `/api/agents`).
-
-The **Aid and financing** tab is also available in the main web interface. It
-calls `/api/aid/match` and displays eligible programmes, excluded programmes
-with reasons, source pages, required documents, legal handoffs, and the full
-deterministic rule trace. You can provide either structured profile fields or a
-founder description; missing stage, sector, and need fields are extracted from
-the description when possible.
-
-Stop with Ctrl+C.
-
-### 6. Optional: use an NVIDIA GPU (Windows)
-
-```powershell
-pip uninstall -y onnxruntime
-pip install --no-deps onnxruntime-directml
-```
-
-Then add `EMBEDDING_DEVICE=dml` to `.env`. On laptops with Intel + NVIDIA graphics the NVIDIA card is usually device 1 (the default); if nothing gets faster, try `EMBEDDING_DEVICE_ID=0`. Without a GPU everything still works on the CPU.
-
-### 7. Check that everything works
-
-```powershell
-cd backend
-pytest
-```
-
-17 tests, about 5 seconds. They need no API key, no GPU and no index.
-
-## Good to know
-
-- **Leave about a minute between complex questions.** Groq's free tier allows 8,000 tokens per minute per model; questions sent back to back can fall back to Gemini or come back empty.
-- **Only one program can use `data/qdrant/` at a time.** Stop the server before rebuilding the index or running an evaluation, or search falls back to keywords only.
-- **In Git Bash**, accented text sent with `curl` can arrive mis-encoded (HTTP 400). Use the web page, `/docs` or PowerShell.
-- **Agents not built yet** (business plan, marketing, fraud) answer "not connected yet". To plug yours in, follow "The agent contract" in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Tests: `cd backend && ../.venv/bin/python -m pytest` (124 tests, no key, GPU or index needed).
 
 ## Legal guidance and contract drafting
 
@@ -135,50 +140,13 @@ The `legal` agent (Meher's work, `backend/app/agents/legal_guidance/` and `contr
 
 The `fraud` agent calls a separate service (`fraud_detection/`), which scores payments and invoices with rules, LightGBM, anomaly detection, graph patterns and sanctions screening, and checks the stamp and signature on an uploaded invoice. Its `risk_score` (0 to 100) is an evidence score, not a probability of fraud. Contract-fairness review is not part of it.
 
-It needs **Python 3.11 or newer in its own environment**: its models were saved with scikit-learn 1.9.1, which does not install on the main app's Python 3.10. Once:
-
-```powershell
-cd D:\Law_Rag
-py -3.11 -m venv .venv-fraud
-.venv-fraud\Scripts\python -m pip install "scikit-learn==1.9.1" lightgbm numpy pandas scipy joblib fastapi uvicorn pydantic httpx pillow pymupdf pytesseract
-```
-
-Then, in a second terminal, before asking fraud questions:
-
-```powershell
-cd D:\Law_Rag
-.venv-fraud\Scripts\python -m fraud_detection serve --port 8100
-```
-
-Check it at http://127.0.0.1:8100/health. Port 8100 is used because the main app is on 8000. Without the service, fraud questions answer that it is not running. Reading the words on a stamp also needs the Tesseract program (French and English packs).
+It runs in its own environment (`.venv-fraud`, Python 3.11+: its models were saved with scikit-learn 1.9.1); `install.cmd` and `run.cmd` handle it. Check it at http://127.0.0.1:8100/health. Port 8100 is used because the main app is on 8000. Without the service, fraud questions answer that it is not running. Reading the words on a stamp also needs the Tesseract program (French and English packs).
 
 ## Business plan service
 
 The `business_plan` agent sends an uploaded plan (PDF, Word, Excel) to a separate service (`services/bp/`): section completeness, financial checks against Tunisian parameters and sector benchmarks, credibility flags and a Word review report. The **Business plan** tab of the web page also builds a plan step by step with its guided questionnaire.
 
-It needs **Python 3.12 or newer in its own environment** (`services/bp/requirements.lock` pins numpy 2.5.3). Once:
-
-```powershell
-cd D:\Law_Rag
-py -3.13 -m venv .venv-bp
-.venv-bp\Scripts\python -m pip install -r services\bp\requirements-dev.txt
-```
-
-Then, in a third terminal (PowerShell), with your Groq key:
-
-```powershell
-cd D:\Law_Rag\services\bp
-$env:LLM_BASE_URL = "https://api.groq.com/openai/v1"
-$env:LLM_API_KEY = "<your GROQ_API_KEY>"
-$env:LLM_MODEL_MAIN = "qwen/qwen3.8-27b"; $env:LLM_MODEL_FAST = "qwen/qwen3.8-27b"
-$env:BP_LLM_STEPS = "parser,reviewer,assessment,critic,drafts,plan_writer,final_writer"
-$env:BP_TIMEOUT_S = "170"   # writing a plan chains several model calls; 60 s (the default) is too short
-$env:BP_VECTOR_STORE = "off"  # no Ollama here: skip its lookups (each one stalled ~7 s), use the built-in ranker
-$env:UPLOADS_DIR = "D:\Law_Rag\data\uploads"
-..\..\.venv-bp\Scripts\python -m uvicorn app.main:app --port 8104
-```
-
-Check it at http://127.0.0.1:8104/health (`llm_reachable` should be `true`). Vision (reading charts in uploaded plans) is left out of `BP_LLM_STEPS` because Groq's free tier has no vision model. The service's own `.env.example` model names (Llama 3.x) and `start.bat` (Ollama) do not work with a new free Groq key; use the values above. With `BP_LLM=off` it runs with rules only. Docs: [services/bp/README.md](services/bp/README.md), [CHANGES_BP.md](CHANGES_BP.md).
+It runs in its own environment (`.venv-bp`, Python 3.12+); `run.cmd` starts it with Groq and the settings below (the manual setup lists the exact variables). Check it at http://127.0.0.1:8104/health (`llm_reachable` should be `true`). Vision (reading charts in uploaded plans) is left out of `BP_LLM_STEPS` because Groq's free tier has no vision model. The service's own `.env.example` model names (Llama 3.x) and `start.bat` (Ollama) do not work with a new free Groq key; `run.cmd` uses models a free Groq key allows, `BP_TIMEOUT_S=170` and `BP_VECTOR_STORE=off`. With `BP_LLM=off` it runs with rules only. Docs: [services/bp/README.md](services/bp/README.md), [CHANGES_BP.md](CHANGES_BP.md).
 
 Docs: [fraud_detection/README.md](fraud_detection/README.md), [docs/FRAUD_AGENT_API.md](docs/FRAUD_AGENT_API.md), [docs/FRAUD_AGENT_HANDOFF.md](docs/FRAUD_AGENT_HANDOFF.md).
 
@@ -204,7 +172,7 @@ python -m app.prompts.library                                                  #
 
 ## n8n (automation)
 
-n8n runs in Docker; the app and its two services stay on Windows (GPU, separate Python environments) and n8n reaches them through `host.docker.internal`. Start the app (and the fraud and business-plan services) first, then:
+n8n runs in Docker; the app and its two services stay on Windows (GPU, separate Python environments) and n8n reaches them through `host.docker.internal`. Start Docker Desktop, then `run.cmd -WithN8n` (stop with `stop.cmd -WithN8n`), or by hand once the app runs:
 
 ```powershell
 docker compose -f docker-compose.n8n.yml up -d     # stop with: docker compose -f docker-compose.n8n.yml down
@@ -232,7 +200,8 @@ backend/app/modules/rag/    ingestion (extract, chunk, index) and retrieval (BM2
 backend/app/modules/intake/ uploads to text, vision OCR
 backend/app/services/       LLM (Groq / Gemini), embeddings, Qdrant
 backend/app/eval/           retrieval and routing evaluations with their datasets
-backend/tests/              contract tests
+backend/tests/              tests (124)
+scripts/                    install.ps1, run.ps1, stop.ps1 (used by install.cmd, run.cmd, stop.cmd)
 frontend/                   web interface
 n8n/                        exported workflows
 docs/                       architecture, evaluations, prompt library
