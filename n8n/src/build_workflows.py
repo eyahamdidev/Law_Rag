@@ -109,7 +109,65 @@ def founder_intake() -> dict:
     }
 
 
+def daily_health_check() -> dict:
+    schedule = node("Every day at 08:00", "scheduleTrigger", 1.2, [0, 300], {
+        "rule": {"interval": [{"field": "cronExpression", "expression": "0 8 * * *"}]},
+    })
+    # Second entry point: another workflow, or the CLI (n8n execute --id=...), can run the check now.
+    on_demand = node("Run on demand", "executeWorkflowTrigger", 1, [0, 480], {})
+
+    def check(name, url_expr, x):
+        # Continue on error: a service that is down must reach the summary, not stop the run.
+        return node(name, "httpRequest", 4.2, [x, 300], {"url": url_expr, "options": {"timeout": 15000}},
+                    onError="continueRegularOutput", alwaysOutputData=True)
+
+    app = check("Main app", "={{ $env.API_BASE_URL }}/api/health", 220)
+    fraud = check("Fraud service", "={{ $env.FRAUD_BASE_URL }}/health", 440)
+    bp = check("Business-plan service", "={{ $env.BP_BASE_URL }}/health", 660)
+    llm = check("LLM keys", "={{ $env.API_BASE_URL }}/api/health/llm", 880)
+    summary = node("Summarize", "code", 2, [1100, 300], {"jsCode": code("health_summary.js")})
+    to_file = node("Status as JSON", "convertToFile", 1.1, [1320, 200], {
+        "operation": "toJson", "mode": "each", "options": {"format": True, "fileName": "={{ $json.file_name }}.json"},
+    })
+    save = node("Save status", "readWriteFile", 1, [1540, 200], {
+        "operation": "write",
+        "fileName": "=/files/health/{{ $('Summarize').item.json.file_name }}.json",
+        "dataPropertyName": "data", "options": {},
+    }, onError="continueRegularOutput")
+    is_down = node("Anything down?", "if", 2.2, [1320, 420], {
+        "conditions": {
+            "options": {"caseSensitive": True, "leftValue": "", "typeValidation": "strict", "version": 2},
+            "conditions": [{"id": "health-ok-is-false", "leftValue": "={{ $json.ok }}", "rightValue": "",
+                            "operator": {"type": "boolean", "operation": "false", "singleValue": True}}],
+            "combinator": "and",
+        },
+        "options": {},
+    })
+    # The alert: the run ends in error, shown in red in the executions list (no email credentials needed).
+    alert = node("Alert", "stopAndError", 1, [1540, 420], {
+        "errorType": "errorMessage", "errorMessage": "={{ 'Health check failed: ' + $json.summary }}",
+    })
+    return {
+        "name": "Daily health check",
+        "nodes": [schedule, on_demand, app, fraud, bp, llm, summary, to_file, save, is_down, alert],
+        "connections": {
+            schedule["name"]: link((app["name"], 0)),
+            on_demand["name"]: link((app["name"], 0)),
+            app["name"]: link((fraud["name"], 0)),
+            fraud["name"]: link((bp["name"], 0)),
+            bp["name"]: link((llm["name"], 0)),
+            llm["name"]: link((summary["name"], 0)),
+            summary["name"]: link((to_file["name"], 0), (is_down["name"], 0)),
+            to_file["name"]: link((save["name"], 0)),
+            is_down["name"]: link((alert["name"], 0)),  # output 0 = true: something is down
+        },
+        "settings": {"executionOrder": "v1", "timezone": "Africa/Tunis"},
+        "active": False,
+        "pinData": {},
+    }
+
+
 if __name__ == "__main__":
-    for filename, build in [("founder_intake_form.json", founder_intake)]:
+    for filename, build in [("founder_intake_form.json", founder_intake), ("daily_health_check.json", daily_health_check)]:
         (OUT / filename).write_text(json.dumps(build(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print("wrote", OUT / filename)

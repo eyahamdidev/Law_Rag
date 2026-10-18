@@ -1,6 +1,6 @@
 # Tunisian Legal & Financial Assistant
 
-Multi-agent assistant for Tunisian founders. A LangGraph orchestrator plans which agents to call (legal, grants, business plan, marketing, contract review), runs them in parallel over a cited RAG index of Tunisian official texts and funding programmes, verifies every citation and claim, and composes one answer in French, Arabic or English. Uploaded PDFs, scans and photos are read with text extraction and vision OCR. n8n connects it to a webhook or Telegram.
+Multi-agent assistant for Tunisian founders. A LangGraph orchestrator plans which agents to call (legal, grants, business plan, marketing, contract review), runs them in parallel over a cited RAG index of Tunisian official texts and funding programmes, verifies every citation and claim, and composes one answer in French, Arabic or English. Uploaded PDFs, scans and photos are read with text extraction and vision OCR. n8n automates around it: a chat webhook, a founder intake form and a daily health check.
 
 - How it works, and how to plug in your agent: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Results: [docs/RETRIEVAL_EVAL.md](docs/RETRIEVAL_EVAL.md), [docs/ROUTING_EVAL_HELDOUT.md](docs/ROUTING_EVAL_HELDOUT.md), [docs/ROUTING_EVAL.md](docs/ROUTING_EVAL.md), [docs/ROUTING_EVAL_PLANNER_V3.md](docs/ROUTING_EVAL_PLANNER_V3.md)
@@ -204,12 +204,23 @@ python -m app.prompts.library                                                  #
 
 ## n8n (automation)
 
-Needs Docker Desktop: `docker compose up --build api n8n`, open http://localhost:5678 and import a workflow from `n8n/`:
+n8n runs in Docker; the app and its two services stay on Windows (GPU, separate Python environments) and n8n reaches them through `host.docker.internal`. Start the app (and the fraud and business-plan services) first, then:
 
-- `founder_chat_webhook.json`: POST `{"question": "...", "session_id": "..."}` to `/webhook/founder-chat`.
-- `founder_chat_telegram.json`: Telegram bot; text goes to `/api/chat`, documents and photos to `/api/chat/upload`.
+```powershell
+docker compose -f docker-compose.n8n.yml up -d     # stop with: docker compose -f docker-compose.n8n.yml down
+```
 
-These workflows have not been run in n8n yet.
+Open http://localhost:5678 (first time: create a local owner account), then **Import from File** each workflow from `n8n/` and switch it to **Active**:
+
+| Workflow | Trigger | What it does |
+| --- | --- | --- |
+| `founder_chat_webhook.json` | POST `{"question": "...", "session_id": "..."}` to http://localhost:5678/webhook/founder-chat | Sends the question to `/api/chat`, returns the answer, sources, agents used and verification. |
+| `founder_intake_form.json` | Public form at http://localhost:5678/form/founder-intake | Founder describes the project (stage, sector, need, amount, governorate, language). Calls `/api/aid/match` and `/api/chat` in parallel and shows one report (legal requirements with sources, funding programmes that may fit). Saves a JSON record in `data/n8n/intake/`. |
+| `daily_health_check.json` | Every day at 08:00 (Africa/Tunis), or on demand | Checks the app, the fraud and business-plan services, and the Groq/Gemini keys and models (`/api/health/llm`, no tokens used). Saves a status in `data/n8n/health/`; if something is down the run ends in error (red in the executions list). |
+
+Run the health check now: `docker exec law_rag-n8n-1 n8n execute --id=<workflow id>` (ids: `docker exec law_rag-n8n-1 n8n list:workflow`).
+
+The JavaScript of the Code nodes is in `n8n/src/*.js`; after editing it, rebuild the JSON with `python n8n/src/build_workflows.py` and import again.
 
 ## Layout
 

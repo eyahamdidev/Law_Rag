@@ -402,3 +402,25 @@ def test_guardrail_keeps_legal_evidence_only_excerpts():
     assert removed == []
     assert "[1] Article 161 : Le capital social ne peut être inférieur à 50.000 dinars." in text
     assert text.startswith("Voici les passages dans leur langue originale")
+
+
+def test_llm_health_reports_rejected_key_and_missing_model(monkeypatch):
+    """The n8n daily check relies on this: a revoked key or a withdrawn model must show up, keys never."""
+    import httpx
+    from app.api.routes import health
+    from app.config import settings
+
+    monkeypatch.setattr(settings, "groq_api_key", "gsk_secret")
+    monkeypatch.setattr(settings, "gemini_api_key", "gem_secret")
+
+    def fake_get(url, headers, timeout):
+        if "groq" in url:
+            return httpx.Response(401, request=httpx.Request("GET", url))
+        return httpx.Response(200, json={"data": [{"id": "models/" + settings.gemini_model}]}, request=httpx.Request("GET", url))
+    monkeypatch.setattr(health.httpx, "get", fake_get)
+
+    report = health.llm_health()
+    assert report["providers"]["groq"]["status"] == "key_rejected"
+    gemini = report["providers"]["gemini"]
+    assert gemini["status"] == ("ok" if settings.gemini_fast_model == settings.gemini_model else "model_missing")
+    assert "secret" not in str(report)
