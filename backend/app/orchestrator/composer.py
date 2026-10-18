@@ -3,7 +3,7 @@
 import re
 
 from app.agents.registry import AGENTS
-from app.orchestrator.guardrails import drop_uncited
+from app.orchestrator.guardrails import drop_uncited, restore_markers
 from app.orchestrator.planner import Plan
 from app.orchestrator.verifier import _MARKER
 from app.prompts.library import get_prompt
@@ -119,6 +119,10 @@ def compose(question: str, plan: Plan, results: list[AgentResult]) -> tuple[str,
     except LLMUnavailable:
         text = "\n\n".join(f"**{names.get(r.agent, r.agent)}**\n{t}" for r, t in answers)
         how = "concatenated (no LLM)"
+    # The rewrite can lose markers the agents had; give them back before the guardrail.
+    text, restored = restore_markers(text, [t for _, t in answers])
+    if restored:
+        how += f"; restored [n] on {restored} line(s) that restate cited agent lines"
     text, removed = drop_uncited(text)
     how = _how(how + (" + tool output" if tools else ""), removed)
     used = set()

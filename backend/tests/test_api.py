@@ -360,3 +360,29 @@ def test_business_plan_agent_reports_a_stopped_service(monkeypatch, tmp_path):
     monkeypatch.setattr(settings, "bp_service_url", "http://127.0.0.1:9")
     result = BusinessPlanAgent(BUSINESS_PLAN).run(_bp_request([_plan_attachment()]))
     assert result.status == "error" and "8104" in result.answer
+
+
+def test_restore_markers_gives_back_citations_the_rewrite_lost():
+    """Observed: the composer rewrote a cited BFPME list without its [n]; the guardrail then deleted it."""
+    from app.orchestrator.guardrails import drop_uncited, restore_markers
+
+    agent = (
+        "Le dossier doit contenir :\n"
+        "- La demande de financement signée [2];\n"
+        "- Les photocopies de la CIN du promoteur et des associés [2];\n"
+        "- Les informations générales de l'entreprise [1]."
+    )
+    composed = (
+        "## Documents requis\n"
+        "- La **demande de financement signée** ;\n"
+        "- Les photocopies de la CIN du promoteur et des associés.\n"
+        "- Un apport personnel de 30 % est exigé.\n"
+        "- Les informations générales de l'entreprise [1]."
+    )
+    text, restored = restore_markers(composed, [agent])
+    assert restored == 2
+    assert "- La **demande de financement signée** [2];" in text
+    assert "- Les photocopies de la CIN du promoteur et des associés [2]." in text
+    final, removed = drop_uncited(text)
+    assert removed == ["- Un apport personnel de 30 % est exigé."]  # new content: no cited line restates it
+    assert final.count("[2]") == 2 and "[1]" in final

@@ -36,6 +36,44 @@ def _states_no_fact(line: str) -> bool:
     return bool(_NOT_FOUND.search(text))
 
 
+_WORD = re.compile(r"\w{3,}", re.UNICODE)
+RESTORE_MIN_WORDS = 2
+RESTORE_MIN_SHARE = 0.8
+
+
+def _words(line: str) -> set[str]:
+    return {w.lower() for w in _WORD.findall(_MARKER.sub("", line))}
+
+
+def restore_markers(text: str, sources: list[str]) -> tuple[str, int]:
+    """Give back a dropped [n] to a line that restates a cited line of an agent answer.
+
+    The composer rewrites agent answers and sometimes loses their markers
+    ("La demande signée [2];" comes back as "La **demande signée** ;"), so the
+    guardrail would delete sourced text. A line without a marker gets the
+    markers of the cited source line that contains at least 80% of its words.
+    New content matches no cited line and is still removed by drop_uncited.
+    `sources` must already use the reply's citation numbers. Returns (text, restored).
+    """
+    cited = [(_words(line), " ".join(f"[{group}]" for group in _MARKER.findall(line)))
+             for source in sources for line in source.splitlines() if _MARKER.search(line)]
+    out, restored = [], 0
+    for line in text.splitlines():
+        words = _words(line)
+        if _MARKER.search(line) or _states_no_fact(line) or len(words) < RESTORE_MIN_WORDS:
+            out.append(line)
+            continue
+        share, markers = max(((len(words & w) / len(words), m) for w, m in cited), default=(0.0, ""))
+        if share >= RESTORE_MIN_SHARE:
+            stripped = line.rstrip()
+            end = stripped[-1] if stripped and stripped[-1] in ".;,:" else ""
+            out.append(f"{(stripped[:-1] if end else stripped).rstrip()} {markers}{end}")
+            restored += 1
+        else:
+            out.append(line)
+    return "\n".join(out), restored
+
+
 def drop_uncited(text: str) -> tuple[str, list[str]]:
     """Remove factual paragraphs and bullets that cite nothing. Returns (text, removed)."""
     kept, removed = [], []
