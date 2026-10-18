@@ -6,7 +6,11 @@
 
 RRF uses ranks, not raw scores, so cosine similarities and BM25 scores never
 have to be put on one scale. Candidates can then go through the cross-encoder
-(rerank.py). The result is at most k distinct passages: one per document
+(rerank.py). Its pool alternates between the lists (rank 1 of each, then rank 2,
+...) rather than taking the RRF top: RRF halves the score of a chunk that only
+one retriever finds, so a dense 5th place with no keyword match fell to RRF
+rank 20-24 and never reached the reranker (measured on "capital minimum d'une
+SA": art. 161). Same pool size, so the same rerank cost. The result is at most k distinct passages: one per document
 article (or per page for documents without articles), filtered by corpus and
 domain when the caller knows them.
 """
@@ -91,10 +95,8 @@ def search(
     mode = mode or settings.retrieval_mode
     strategy = strategy or settings.chunk_strategy
     rerank = settings.use_reranker if rerank is None else rerank
-    ranked, kind = _candidates(query, mode, strategy, corpora, domains, embedding_model)
-    if rerank and ranked:
-        ranked, kind = cross_rerank(query, [row for row, _ in ranked[:RERANK_POOL]]), "rerank"
-    return _select(ranked, kind, k)
+    lists = _candidate_lists(query, mode, strategy, corpora, domains, embedding_model)
+    return _rank(query, lists, mode, rerank, k)
 
 
 def search_many(
@@ -116,25 +118,44 @@ def search_many(
     strategy = settings.chunk_strategy
     rerank = settings.use_reranker if rerank is None else rerank
     lists = [
-        _candidates(q, mode, strategy, corpora, domains, None)[0]
+        ranked
         for q in dict.fromkeys(q.strip() for q in queries if q and q.strip())
+        for ranked in _candidate_lists(q, mode, strategy, corpora, domains, None)
     ]
-    ranked, kind = _fuse(*lists), "rrf"
-    if rerank and ranked:
-        ranked, kind = cross_rerank(rerank_query, [row for row, _ in ranked[:RERANK_POOL]]), "rerank"
-    return _select(ranked, kind, k)
+    return _rank(rerank_query, lists, "hybrid", rerank, k)
 
 
-def _candidates(query, mode, strategy, corpora, domains, embedding_model) -> tuple[list[tuple[dict, float]], str]:
-    if mode == "dense":
-        return _dense(query, strategy, corpora, domains, CANDIDATES, embedding_model), "cosine"
-    if mode == "bm25":
-        return get_bm25(strategy).search(query, corpora=corpora, domains=domains, limit=CANDIDATES), "bm25"
-    fused = _fuse(
-        _dense(query, strategy, corpora, domains, CANDIDATES, embedding_model),
-        get_bm25(strategy).search(query, corpora=corpora, domains=domains, limit=CANDIDATES),
-    )
-    return fused, "rrf"
+def _candidate_lists(query, mode, strategy, corpora, domains, embedding_model) -> list[list[tuple[dict, float]]]:
+    """One ranked list per retriever used by `mode`."""
+    lists = []
+    if mode in ("dense", "hybrid"):
+        lists.append(_dense(query, strategy, corpora, domains, CANDIDATES, embedding_model))
+    if mode in ("bm25", "hybrid"):
+        lists.append(get_bm25(strategy).search(query, corpora=corpora, domains=domains, limit=CANDIDATES))
+    return lists
+
+
+def _rank(query: str, lists: list[list[tuple[dict, float]]], mode: str, rerank: bool, k: int) -> list[Passage]:
+    if rerank and any(lists):
+        return _select(cross_rerank(query, _interleave(lists, RERANK_POOL)), "rerank", k)
+    if mode == "dense" and len(lists) == 1:
+        return _select(lists[0], "cosine", k)
+    if mode == "bm25" and len(lists) == 1:
+        return _select(lists[0], "bm25", k)
+    return _select(_fuse(*lists), "rrf", k)
+
+
+def _interleave(lists: list[list[tuple[dict, float]]], size: int) -> list[dict]:
+    """Rank 1 of every list, then rank 2 of every list, ... until `size` distinct chunks."""
+    pool, seen = [], set()
+    for rank in range(max((len(ranked) for ranked in lists), default=0)):
+        for ranked in lists:
+            if rank < len(ranked) and ranked[rank][0]["chunk_id"] not in seen:
+                seen.add(ranked[rank][0]["chunk_id"])
+                pool.append(ranked[rank][0])
+                if len(pool) == size:
+                    return pool
+    return pool
 
 
 def _select(ranked: list[tuple[dict, float]], kind: str, k: int) -> list[Passage]:
