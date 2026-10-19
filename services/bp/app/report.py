@@ -97,7 +97,7 @@ def build_docx(report: dict, chart_png: bytes | None, lang: str) -> bytes:
     if fin and fin.get("years"):
         d.add_heading(L["fin"], 1)
         keys = [("revenue", "Revenue"), ("ebitda", "EBITDA"), ("net_income", "Net result"), ("cash_end", "Year-end cash")]
-        _table(d, [""] + fin["years"], [[lab] + [f"{v:,.0f}".replace(",", " ") for v in fin[k]] for k, lab in keys])
+        _table(d, [""] + fin["years"], [[lab] + ["-" if v is None else f"{v:,.0f}".replace(",", " ") for v in fin[k]] for k, lab in keys])
         if chart_png:
             d.add_picture(io.BytesIO(chart_png), width=Inches(6.2))
         if fin.get("assumptions"):

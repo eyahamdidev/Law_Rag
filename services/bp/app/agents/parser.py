@@ -11,18 +11,23 @@ invents a number here: it only chooses a section name for a piece of text.
 
 from __future__ import annotations
 
+import json
 import re
 from dataclasses import dataclass, field
 
 from app import prompts
 from app.agents.common import Trace
 from app.agents.common import fold as norm  # accent-insensitive matching on both sides
+from app.config import SERVICE_ROOT
 from app.financial import FinancialModel
 from app.intake import Block, Document, Table
 from app.llm import LLMClient, LLMUnavailable
 from app.masking import Masker
 from app.questionnaire import GOVERNORATES, ParseError, parse_number
 from app.templates import section_index
+
+CURRENCY_PATTERNS = [("EUR", r"\beuros?\b|€|\beur\b"), ("MAD", r"\bmad\b|dirham"), ("USD", r"\busd\b|\$|dollar")]
+TND_PATTERN = r"\btnd\b|\bdt\b|dinar|دينار"
 
 
 @dataclass
@@ -178,7 +183,7 @@ def _num(cell: str) -> float | None:
     neg = c.startswith("(") and c.endswith(")")
     if c.startswith("-") or c.startswith("\u2212"):
         neg, c = True, c[1:]
-    c = re.sub(r"(?i)\s*(?:tnd|dt|usd|eur|dinars?)\b|[$€£]", "", c).strip("() ")
+    c = re.sub(r"(?i)\s*(?:tnd|dt|usd|eur|mad|dinars?)\b|[$€£]", "", c).strip("() ")
     c = c.replace("%", "").strip()
     try:
         v = parse_number(c)
@@ -220,16 +225,23 @@ def prose_revenue(text: str) -> tuple[list[str], list[float]] | None:
         seg = flat[mk.end(): min(end, mk.end() + 140)]
         lead = flat[max(0, mk.start() - 40): mk.start()]
         km = REV_KEY.search(seg)
-        if km:
-            am = re.search(AMOUNT, seg[km.end():], re.I)
-        elif REV_KEY.search(lead) or best:  # 'Revenue: Year 1 50k, Year 2 400k' or a series already under way
-            am = re.match(r"\W{0,3}" + AMOUNT, seg, re.I)
-        else:
-            am = None
-        if am:
-            v = _amount(am.group(1), am.group(2))
-            if v:
-                best.setdefault(int(mk.group(1)), v)
+        v = None
+        if not km:  # 'Revenue: 50 000 TND in year 1' — the amount sits just before the year mark
+            tm = re.search(AMOUNT + r"\s*(?:tnd|dt|eur|usd|mad)?\s*(?:in|by|during|on|at|en|dans|sur|pour|de)?\s*$", lead, re.I)
+            if tm:
+                tv = _amount(tm.group(1), tm.group(2))
+                if tv and tv not in best.values():
+                    v = tv
+        if v is None:
+            if km:
+                am = re.search(AMOUNT, seg[km.end():], re.I)
+            elif REV_KEY.search(lead) or best:  # 'Revenue: Year 1 50k, Year 2 400k' or a series already under way
+                am = re.match(r"\W{0,3}" + AMOUNT, seg, re.I)
+            else:
+                am = None
+            v = _amount(am.group(1), am.group(2)) if am else None
+        if v:
+            best.setdefault(int(mk.group(1)), v)
     if len(best) < 2:
         return None
     yrs = sorted(best)
@@ -341,6 +353,15 @@ def extract_facts(doc: Document, model: FinancialModel) -> dict:
     ask = prose_funding_ask(text)
     if ask and "funding_need_amount" not in facts:
         facts["funding_need_amount"] = ask
+    if model.revenue and any(model.revenue) and "revenue_by_year" not in facts:
+        facts["revenue_by_year"] = [x for x in model.revenue if x is not None]
+    counts = {c: len(re.findall(pat, text or "", re.I)) for c, pat in CURRENCY_PATTERNS}
+    foreign = max(counts, key=lambda c: counts[c]) if counts else None
+    if foreign and counts[foreign] > len(re.findall(TND_PATTERN, text or "", re.I)):
+        facts["currency"] = foreign  # stated currency wins over the Tunisian default; never converted
+    first_block = next((re.sub(r"\s+", " ", b.text).strip() for b in doc.blocks if b.text.strip()), "")
+    if first_block and len(first_block) <= 200 and "project_name" not in facts:
+        facts["project_name"] = first_block  # the document title block is the project name
     return facts
 
 
@@ -353,6 +374,51 @@ FINANCE_TABLE = [
 
 def table_text(t: Table) -> str:
     return "\n".join(" | ".join(c for c in r if c) for r in t.rows)
+
+
+def extract_facts_llm(doc: Document, llm: LLMClient, masker: Masker, trace: Trace) -> dict:
+    """One extraction call over the FULL document text (the regex layer only sees tables and money patterns)."""
+    if not llm.available:
+        return {}
+    p = prompts.load("parser_facts")
+    from app.config import model_for
+
+    model = model_for("llm_fast")
+    text = re.sub(r"\s+", " ", masker.mask(doc.text)).strip()
+    if len(text) > 24000:
+        text = text[:24000]
+    with trace.step("parser.facts", model=model, prompt_id=prompts.ref(p)):
+        try:
+            out = llm.chat_json(model=model, system="You extract stated facts from a business plan. Reply with JSON only.",
+                                user=prompts.render(p["text"], plan_text=text), schema=p.get("output_schema"), max_tokens=2000)
+        except LLMUnavailable as exc:
+            trace.note(f"parser.facts skipped: {exc}")
+            return {}
+    clean: dict = {}
+    for k, v in (out or {}).items():
+        k = {"offer": "solution", "market_size": "market_size_note", "traction": "traction_note", "team": "founders",
+             "ip": "ip_note", "awards": "awards_note", "permits": "permits_note"}.get(k, k)  # bank ids
+        if v in (None, "", [], {}):
+            continue
+        if isinstance(v, list):
+            v = [str(x).strip() for x in v if str(x).strip()]
+            if not v:
+                continue
+            clean[k] = ("\n".join(f"- {x}" for x in v) if k in ("competitors", "risks") else v)
+        elif isinstance(v, (int, float, str)):
+            clean[k] = v
+    return clean
+
+
+def _dump_facts(facts: dict) -> None:
+    """Audit trail for 'extraction returns almost nothing' reports: services/bp/tmp/facts_<name>.json."""
+    try:
+        name = re.sub(r"[^a-z0-9]+", "_", norm(str(facts.get("project_name") or "plan")).strip("_"))[:40] or "plan"
+        folder = SERVICE_ROOT / "tmp"
+        folder.mkdir(exist_ok=True)
+        (folder / f"facts_{name}.json").write_text(json.dumps(facts, ensure_ascii=False, indent=1), encoding="utf-8")
+    except Exception:  # noqa: BLE001  a dump failure must never break the run
+        pass
 
 
 # ------------------------------------------------------------------ entry point
@@ -387,4 +453,9 @@ def parse(doc: Document, template: dict, *, llm: LLMClient, masker: Masker, lang
                     entry["text"] = (entry["text"] + "\n" + table_text(t)).strip()
                     entry["segments"].append({"heading": t.name or "table", "page": t.page, "bbox": t.bbox})
         plan.facts = extract_facts(doc, plan.model)
+        llm_facts = extract_facts_llm(doc, llm, masker, trace)
+        for k, v in llm_facts.items():  # mechanical facts (tables, governorate, currency) keep priority
+            if k not in plan.facts:
+                plan.facts[k] = v
+        _dump_facts(plan.facts)
     return plan

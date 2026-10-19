@@ -110,6 +110,89 @@ def run_rules(reviews) -> list[Weakness]:
     return out
 
 
+# --------------------------------------------------------------------------------------
+# deterministic plan rules: each hit quotes the plan's own text (max 12 words). Python only.
+# --------------------------------------------------------------------------------------
+_HYPE_RE = re.compile(
+    r"very positive|billions?|a good share|huge market|no competition|better because of our ai|motivated|promising|more modern",
+    re.I)
+_SOURCE_RE = re.compile(r"source|study|ministry|survey|statista|estimat|report|enqu[êe]te|[ée]tude|sondage", re.I)
+_MARKET_FIG_RE = re.compile(r"\d+(?:[.,]\d+)?\s*(?:billion|million|milliard|mrd|md)\b", re.I)
+_ASK_NUM_RE = re.compile(r"(?:seeking|raising|need|looking for|besoin|recherchons|levons)[^.!?]{0,80}?\d[\d\s.,]{3,}", re.I)
+_PRICE_LATER_RE = re.compile(r"^(later|tbd|to be (?:defined|decided)|plus tard|[àa] d[ée]finir|not set|n/a)\.?$", re.I)
+_USE_OF_FUNDS_RE = re.compile(r"use of funds|used to|will be used|servira|serviront|affectation|allocated to", re.I)
+_MOSTLY_SALARIES_RE = re.compile(r"mostly salar|essentially salar|essentiellement des salaires|principalement des salaires", re.I)
+_HARDWARE_RE = re.compile(r"hardware|device|mat[ée]riel|machine|[ée]quipement", re.I)
+_SUPPLIER_RE = re.compile(r"supplier|fournisseur|unit cost|co[ûu]t unitaire|per unit|piece price", re.I)
+_SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+
+def _short_quote(sentence: str) -> str:
+    words = sentence.strip().split()
+    q = " ".join(words[:12])
+    return q + ("…" if len(words) > 12 else "")
+
+
+def _sentence_with(text: str, *needles: str) -> str | None:
+    for s in _SENT_SPLIT.split(text):
+        if all(n.lower() in s.lower() for n in needles):
+            return s
+    return None
+
+
+def run_plan_rules(text: str, values: dict, derived: dict | None) -> list[Weakness]:
+    """Quote-backed deterministic critiques of the plan text and the answers. Max 6 items."""
+    out: list[Weakness] = []
+    sentences = _SENT_SPLIT.split(text or "")
+    for s in sentences:  # unsupported claims: one hit is enough, they read the same
+        if _HYPE_RE.search(s):
+            sid = "market_analysis" if _MARKET_FIG_RE.search(s) else "project_description"
+            out.append(Weakness("clarity_tone", "The plan states enthusiasm or scale with nothing behind it.",
+                                "Replace the claim with a fact (a number, a name, a date) or delete it.", "medium",
+                                _short_quote(s), sid, "rules"))
+            break
+    for s in sentences:  # a market figure with no source
+        if _MARKET_FIG_RE.search(s) and not _SOURCE_RE.search(s):
+            out.append(Weakness("market_realism", "A market size is given without any source.",
+                                "Name where the figure comes from (study, ministry, survey) or mark it as an estimate.", "high",
+                                _short_quote(s), "market_analysis", "rules"))
+    if derived and derived.get("revenue"):  # every year pair above 3x, each quoted
+        rev = derived["revenue"]
+        for t in range(1, len(rev)):
+            a, b = rev[t - 1], rev[t]
+            if a and b is not None and a > 0 and b / a >= 4.0:
+                s = next((s_ for s_ in sentences if str(int(a)) in re.sub(r"\D", "", s_) and str(int(b)) in re.sub(r"\D", "", s_)), None)
+                out.append(Weakness("financial_flaws", f"Revenue grows {b / a:.1f}x from {derived['years'][t - 1]} to {derived['years'][t]} with no stated driver.",
+                                    "State what makes that growth happen (customers, price, channels) or lower the figure.", "medium",
+                                    _short_quote(s) if s else None, None if s else "financial_projections", "rules"))
+    ask = values.get("funding_need_amount")
+    if ask and not values.get("capex_items") and not _USE_OF_FUNDS_RE.search(text or ""):
+        s = _sentence_with(text, str(int(ask))) if ask == int(ask) else _ASK_NUM_RE.search(text)
+        out.append(Weakness("financial_flaws", "The plan asks for money but never says what it will be spent on.",
+                            "Break the ask down by use (equipment, working capital, hiring).", "high",
+                            _short_quote(s) if isinstance(s, str) else (_short_quote(s.group(0)) if s else None),
+                            "financing_plan", "rules"))
+    pricing = values.get("pricing")
+    if not pricing or _PRICE_LATER_RE.match(str(pricing).strip()):
+        s = _sentence_with(text, "price") or _sentence_with(text, "prix")
+        out.append(Weakness("market_realism", "No price is stated, so revenue is an unsupported guess.",
+                            "State the price per unit or per plan, and how it was set.", "high",
+                            _short_quote(s) if s else None, "market_analysis", "rules"))
+    for s in sentences:  # "mostly salaries" with no numbers
+        if _MOSTLY_SALARIES_RE.search(s) and not re.search(r"\d", s):
+            out.append(Weakness("financial_flaws", "A cost is called 'mostly salaries' with no figure attached.",
+                                "Give the payroll number (headcount x gross salary) or the share of costs.", "medium",
+                                _short_quote(s), "financial_projections", "rules"))
+    hw = next((s for s in sentences if _HARDWARE_RE.search(s)), None)
+    all_text = " ".join(str(v) for v in values.values() if isinstance(v, str)) + " " + (text or "")
+    if hw and not _SUPPLIER_RE.search(all_text):
+        out.append(Weakness("execution_risk", "A physical product with no supplier or unit cost anywhere in the plan.",
+                            "Name the supplier and the unit cost of what you build or resell.", "medium",
+                            _short_quote(hw), "operations", "rules"))
+    out.sort(key=lambda w: SEV_ORDER.get(w.severity, 1))
+    return out[:6]
+
+
 def _quote_ok(quote: str, text: str) -> bool:
     q = re.sub(r"\s+", " ", fold(quote)).strip(" .…")
     t = re.sub(r"\s+", " ", fold(text))
@@ -117,8 +200,9 @@ def _quote_ok(quote: str, text: str) -> bool:
 
 
 def critique(text: str, sections: dict[str, dict], reviews, *, lang: str, llm: LLMClient, masker: Masker,
-             trace: Trace, use_llm: bool = True) -> Critique:
-    base = run_rules(reviews)
+             trace: Trace, use_llm: bool = True, values: dict | None = None, derived: dict | None = None) -> Critique:
+    # generic absence/thin items removed: every finding must quote the plan's own words
+    base = run_plan_rules(text, values or {}, derived)
     out = Critique(weaknesses=base, method="rules")
     if not (use_llm and llm.available) or not text.strip():
         return out

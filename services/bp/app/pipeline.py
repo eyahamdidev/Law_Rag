@@ -21,7 +21,7 @@ from typing import Any
 
 from app import financial as fin
 from app import storage
-from app.agents import chart_maker, guidance, reviewer, writer
+from app.agents import chart_maker, claim_guard, guidance, reviewer, writer
 from app.agents import critic as critic_agent
 from app.agents import final_writer as final_writer_agent
 from app.agents.common import Trace, fold
@@ -30,6 +30,7 @@ from app.contract import Artifact, Citation, Evidence, Handoff, ModuleError, Req
 from app.intake import Document, read_document
 from app.llm import LLMClient
 from app.masking import Masker, NoMasker
+from app import plan_facts
 from app.profile import Context, merge_context, missing_required
 from app.questionnaire import BANK_BY_ID
 from app.report import build_docx
@@ -53,6 +54,11 @@ MISSING_TXT = {
     "fr": "Sections manquantes ou faibles : {names}.",
     "ar": "أقسام ناقصة أو ضعيفة: {names}.",
 }
+SETTLE_TITLE = {"en": "Points to settle in your own answers", "fr": "Points à trancher dans vos propres réponses",
+                "ar": "نقاط للحسم في إجاباتكم"}
+
+# a role written after a name: "Aya - CEO", "Aya (CTO)", "Aya: finance"
+_ROLE_SPLIT = re.compile(r"\s+[-–—]\s+|\s*[(:]\s*")
 
 
 def _opt(req: Request) -> dict:
@@ -137,6 +143,10 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     fw_mode = opt.get("final_writer_mode", "batch")
     if fw_mode not in ("batch", "sequential"):
         raise ModuleError("BAD_INPUT", "options.final_writer_mode must be 'batch' or 'sequential'.")
+    try:
+        fw_seed = int(opt.get("seed", final_writer_agent.SEED))
+    except (TypeError, ValueError):
+        raise ModuleError("BAD_INPUT", "options.seed must be an integer.")
     lang = req.lang if req.lang in ("fr", "ar", "en") else "fr"
     deadline = time.monotonic() + settings.timeout_budget_s
     llm = llm or LLMClient(deadline=deadline)
@@ -166,7 +176,8 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     template = load_template(template_id)
     idx = section_index(template)
 
-    masker: Masker = Masker(names=_names(ctx0)) if opt.get("masking", True) else NoMasker()
+    masking_on = bool(opt.get("masking", True))
+    masker: Masker = Masker(names=_names(ctx0)) if masking_on else NoMasker()
     from app.agents import parser as parser_agent
 
     plan = parser_agent.ParsedPlan()
@@ -178,6 +189,12 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
             if rows:
                 plan.warnings.append(f"A vision model read {len(rows)} table rows from scanned pages. They were NOT used in checks. Check them by hand.")
     ctx = merge_context(req.profile, answers, plan.facts)
+    _pf, _pf_extra = plan_facts.validate_context(ctx)
+    ctx.errors.update(_pf_extra)
+    if masking_on and doc is not None:
+        # Names that only appear inside the uploaded plan were unknown when the first masker was built, so they would
+        # have gone to the model in clear text. Rebuild it from the merged context for every later step.
+        masker = Masker(names=_names(ctx))
 
     # ---- merge sections from both input methods ---------------------------------------
     q_sections = answers_to_sections(template, ctx.values, ctx.provenance, lang)
@@ -308,7 +325,9 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
             "methods": [m for m, on in (("upload", bool(req.file_ref)), ("questionnaire", bool(answers)), ("orchestrator_profile", bool(req.profile))) if on],
             "document": None if doc is None else {"kind": doc.kind, "pages": doc.page_count, "warnings": plan.warnings, "scanned_pages": doc.scanned_pages},
         },
-        "context": {"values": ctx.values, "provenance": ctx.provenance, "conflicts": ctx.conflicts,
+        "context": {"values": ctx.values, "provenance": ctx.provenance,
+                    "provenance_labels": plan_facts.PlanFacts.from_context(ctx).labelled_provenance(),
+                    "conflicts": ctx.conflicts,
                     "missing_required": miss_req, "answer_errors": ctx.errors, "ignored_keys": ctx.ignored_keys, "sources_used": ctx.sources_used},
         "assessment": None if assess is None else {**assess.to_dict(), "label": assessment.LABEL_TEXT[assess.verdict]},
         "benchmarks": bench_report,
@@ -326,7 +345,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     if derived is not None and any(derived["revenue"]):
         with trace.step("chart_maker"):
             try:
-                chart_png = chart_maker.projection_png(derived, lang)
+                chart_png = chart_maker.projection_png(derived, lang, currency=str(ctx.values.get("currency") or "TND"))
             except Exception as exc:  # noqa: BLE001  a broken plotting install must not lose the review
                 chart_png = None
                 trace.note(f"chart skipped: {exc.__class__.__name__}: {exc}")
@@ -335,31 +354,50 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     if opt.get("generate_plan") and mode == "review":
         with trace.step("critic"):
             crit = critic_agent.critique(full_text, sections, reviews, lang=lang, llm=llm, masker=masker, trace=trace,
-                                         use_llm=use_llm and settings.llm_step("critic"))
+                                         use_llm=use_llm and settings.llm_step("critic"), values=ctx.values, derived=derived)
+        # The anti-fabrication writer (final_writer v6) runs BEFORE the plan document is built, so that its six sections
+        # open the founder's plan instead of only landing in the review report.
+        final_plan = None
+        if use_llm and settings.llm_step("final_writer"):
+            with trace.step("final_writer"):
+                final_plan = _final_plan(masker, ctx.values, derived, full_text, crit, deadline, mode=fw_mode, seed=fw_seed)
+            if final_plan is not None:
+                report["final_plan"] = final_plan
         with trace.step("plan_document"):
-            secs = []
             rv_by = {r.section_id: r for r in reviews}
+            exec_id = "executive_summary"
+            comps: dict[str, dict] = {}
             for sec in template["sections"]:
+                if sec["id"] == exec_id:
+                    continue
                 comp = plan_doc.compose_section(sec, ctx.values, derived, lang)
                 hits = guidance.retrieve(sec["id"], label(sec["title"], "en"), k=2)
                 if use_llm and settings.llm_step("plan_writer"):
                     plan_doc.polish(comp, sec, ctx.values, derived, hits, lang, llm, masker, trace)
-                plan_doc.advise(comp, rv_by.get(sec["id"]), hits, lang)
-                secs.append(comp)
-            summ = plan_doc.compose_summary(ctx.values, derived, lang)
-            if summ and secs:
-                secs[0]["blocks"] = list(summ) + secs[0]["blocks"] if secs[0]["id"] in ("executive_summary", "summary") else secs[0]["blocks"]
+                ctx_text = plan_doc.critic_context(sec["id"], sections, comp, full_text)
+                plan_doc.advise(comp, rv_by.get(sec["id"]), hits, lang, critic_notes=crit.notes_for(sec["id"], ctx_text))
+                comps[sec["id"]] = comp
+            exec_sec = idx[exec_id]
+            exec_comp = plan_doc.compose_section(exec_sec, ctx.values, derived, lang)
+            plan_doc.build_executive_summary(exec_comp, exec_sec, ctx.values, derived, lang)
+            hits = guidance.retrieve(exec_id, label(exec_sec["title"], "en"), k=2)
+            if use_llm and settings.llm_step("plan_writer"):
+                plan_doc.polish(exec_comp, exec_sec, ctx.values, derived, hits, lang, llm, masker, trace)
+            exec_ctx = plan_doc.critic_context(exec_id, sections, exec_comp, full_text)
+            plan_doc.advise(exec_comp, rv_by.get(exec_id), hits, lang, critic_notes=crit.notes_for(exec_id, exec_ctx))
+            comps[exec_id] = exec_comp
+            secs = [comps[s["id"]] for s in template["sections"]]
             open_items = [(s_["title"], s_["missing"]) for s_ in secs if s_["missing"]]
+            settle = plan_doc.consistency_notes(ctx.values, lang)
+            if settle:
+                open_items.append((SETTLE_TITLE.get(lang, SETTLE_TITLE["en"]), settle))
             plan_bytes = plan_doc.build_plan_docx(str(ctx.get("project_name") or ""), secs, chart_png, lang, open_items,
-                                                  critique=crit.to_dict())
+                                                  critique=crit.to_dict(), final_plan=final_plan)
         artifacts.append(Artifact(kind="docx", file_ref=storage.put(plan_bytes), label="business_plan"))
-        report["generated_plan"] = {"sections": [{"id": s_["id"], "title": s_["title"], "missing": s_["missing"], "polished": bool(s_.get("polished")), "advice": s_.get("advice", [])} for s_ in secs],
-                                    "open_items": sum(len(s_["missing"]) for s_ in secs)}
-        if use_llm and settings.llm_step("final_writer"):
-            with trace.step("final_writer"):
-                final_plan = _final_plan(masker, ctx.values, derived, full_text, crit, deadline, mode=fw_mode)
-                if final_plan is not None:
-                    report["final_plan"] = final_plan
+        report["critique"] = crit.to_dict()
+        report["generated_plan"] = {"sections": [{"id": s_["id"], "title": s_["title"], "missing": s_["missing"], "polished": bool(s_.get("polished")),
+                                                  "claims_removed": s_.get("claims_removed", []), "advice": s_.get("advice", [])} for s_ in secs],
+                                    "open_items": sum(len(s_["missing"]) for s_ in secs), "consistency_notes": settle}
     with trace.step("report.docx"):
         artifacts.append(Artifact(kind="docx", file_ref=storage.put(build_docx(report, chart_png, lang)), label="bp_review" if mode == "review" else "bp_draft"))
     artifacts.append(Artifact(kind="json", file_ref=storage.put(json.dumps(report, ensure_ascii=False, default=str).encode()), label="bp_report"))
@@ -376,30 +414,67 @@ def _plan_numbers(plan) -> set[float]:
 
 
 def _final_plan(masker: Masker, values: dict, derived: dict | None, plan_text: str, crit, deadline: float,
-                mode: str = "batch") -> dict | None:
+                mode: str = "batch", seed: int = final_writer_agent.SEED) -> dict | None:
     """The institutional six-section rewrite. Names stay local: inputs are masked, the result is unmasked.
 
-    Degrades to None on any failure, so the plan document and the rest of the report are never lost.
+    The founders' answer is part of the facts (masked, so the model never sees a real name): without it the model
+    invents a team. Every section then goes through the claim guard, which replaces what the inputs do not support
+    by [NEEDED: ...] placeholders. Degrades to None on any failure, so the plan document and the rest of the report
+    are never lost.
     """
-    facts = json.dumps({"answers": {k: v for k, v in values.items() if k != "founders"},
-                        "derived": writer._slim(derived)}, ensure_ascii=False, default=str)
+    facts = json.dumps({"answers": dict(values), "derived": writer._slim(derived)}, ensure_ascii=False, default=str)
     try:
         out = asyncio.run(final_writer_agent.run_final_writer_agent(
             prompts, masker.mask(facts), masker.mask(plan_text),
-            masker.mask(json.dumps(crit.to_dict()["weaknesses"], ensure_ascii=False)), deadline=deadline, mode=mode))
-        return masker.unmask_obj(out)
-    except Exception as exc:  # noqa: BLE001  a broken final writer must not lose the plan document
+            masker.mask(json.dumps(crit.to_dict()["weaknesses"], ensure_ascii=False)), deadline=deadline, mode=mode,
+            seed=seed))
+        out = masker.unmask_obj(out)
+    except Exception:  # noqa: BLE001  a broken final writer must not lose the plan document
         return None
+    try:
+        return _guard_final_plan(out, values, plan_text)
+    except Exception:  # noqa: BLE001  the guard must never lose the plan either; an unguarded plan is flagged as such
+        out["guard"] = "failed"
+        return out
+
+
+def _guard_final_plan(out: dict, values: dict, plan_text: str) -> dict:
+    evidence = claim_guard.build_evidence(values, extra_text=plan_text)
+    marker = writer.MARKERS["en"]
+    needed: list[str] = []
+    removed_total = 0
+    for s in out.get("sections", []):
+        text = s.get("text") or ""
+        if not text:
+            continue
+        clean, issues = claim_guard.sanitize(text, evidence, currency=str(values.get("currency") or "TND"), marker=marker, lang="en")
+        s["text"] = clean
+        s["claims_removed"] = issues
+        removed_total += len(issues)
+        for item in claim_guard.needed_items(clean):
+            if item not in needed:
+                needed.append(item)
+    for item in out.get("open_items") or []:
+        item = str(item).strip()
+        if item and item not in needed:
+            needed.append(item)
+    out["open_items"] = needed
+    out["guard"] = {"claims_replaced": removed_total}
+    return out
 
 
 def _names(ctx: Context) -> list[str]:
-    names = []
-    for key in ("project_name",):
-        if ctx.get(key):
-            names.append(str(ctx.get(key)))
+    """Names to hide from the model: the project, and each founder's NAME (not the role written after it)."""
+    names: list[str] = []
+    project = str(ctx.get("project_name") or "").strip()
+    if project:
+        names.append(project)
     founders = ctx.get("founders")
     if founders:
-        names += [n.strip() for n in re.split(r"[,;\n]", founders) if len(n.strip()) >= 3]
+        for chunk in re.split(r"[,;\n]", str(founders)):
+            who = _ROLE_SPLIT.split(chunk.strip(), maxsplit=1)[0].strip(" .")
+            if len(who) >= 3 and who.lower() != project.lower() and who not in names:
+                names.append(who)
     return names
 
 

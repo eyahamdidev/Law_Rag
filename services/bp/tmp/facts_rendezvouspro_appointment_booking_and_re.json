@@ -1,0 +1,13 @@
+{
+ "governorate": "Tunis",
+ "total_investment": 80000.0,
+ "own_funds": 75000.0,
+ "grant_amount": 50000.0,
+ "funding_need_amount": 80000.0,
+ "revenue_by_year": [
+  54000.0,
+  172800.0,
+  367200.0
+ ],
+ "project_name": "RendezVousPro: appointment booking and reminders for private clinics"
+}

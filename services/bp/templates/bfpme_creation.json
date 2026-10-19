@@ -169,7 +169,8 @@
       ],
       "questions": [
         "founders",
-        "key_skills"
+        "key_skills",
+        "awards_note"
       ]
     },
     {
@@ -379,7 +380,8 @@
       "questions": [
         "target_customers",
         "market_size_note",
-        "competitors"
+        "competitors",
+        "traction_note"
       ]
     },
     {
@@ -550,7 +552,8 @@
         "production_means",
         "suppliers",
         "imported_share_pct",
-        "governorate"
+        "governorate",
+        "permits_note"
       ]
     },
     {
@@ -720,7 +723,8 @@
       "questions": [
         "legal_form",
         "startup_label",
-        "share_capital"
+        "share_capital",
+        "ip_note"
       ]
     },
     {

@@ -1,0 +1,13 @@
+{
+ "governorate": "Nabeul",
+ "total_investment": 270000.0,
+ "own_funds": 90000.0,
+ "loan_amount": 130000.0,
+ "grant_amount": 50000.0,
+ "revenue_by_year": [
+  718000.0,
+  718000.0,
+  718000.0
+ ],
+ "project_name": "Élevage de poulets de chair à Nabeul"
+}

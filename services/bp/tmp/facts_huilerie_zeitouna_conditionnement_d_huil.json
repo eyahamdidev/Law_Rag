@@ -1,0 +1,14 @@
+{
+ "legal_form": "SARL",
+ "governorate": "Sfax",
+ "total_investment": 220000.0,
+ "own_funds": 70000.0,
+ "loan_amount": 110000.0,
+ "grant_amount": 40000.0,
+ "revenue_by_year": [
+  180000.0,
+  290000.0,
+  380000.0
+ ],
+ "project_name": "Huilerie Zeitouna : conditionnement d'huile d'olive extra vierge (Sfax)"
+}

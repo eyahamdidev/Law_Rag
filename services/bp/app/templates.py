@@ -26,10 +26,14 @@ PITCH_HEADS = ("executive summary", "problem", "market", "business model", "fina
 
 
 def looks_like_pitch(headings: list[str]) -> bool:
-    """True when the document headings follow the short investor-pitch layout."""
+    """True when the document headings follow the short investor-pitch layout.
+
+    Pitch headings must dominate the document: a 13-section plan whose subsections merely start with
+    words like "market" or "team" stays on the full plan template.
+    """
     folded = [h.lower() for h in headings]
     hits = sum(any(h.startswith(p) for h in folded) for p in PITCH_HEADS)
-    return hits >= 4
+    return hits >= 4 and hits * 2 >= len(headings)
 
 
 def choose_template(requested: str | None, stage: str | None, headings: list[str] | None = None) -> str:

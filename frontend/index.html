@@ -281,11 +281,11 @@
     </div>
     <script src="/app.js?v=7"></script>
     <script src="/legal.js?v=3"></script>
-    <script src="/bp.js?v=5"></script>
+    <script src="/bp.js?v=7"></script>
     <script>
       // If the business-plan script or styles are an old cached copy, say so instead of showing dead buttons.
       window.addEventListener("load", () => {
-        const stale = window.BP_UI_VERSION !== 5 || getComputedStyle(document.querySelector(".bp-card") || document.body).display !== "flex";
+        const stale = window.BP_UI_VERSION !== 7 || getComputedStyle(document.querySelector(".bp-card") || document.body).display !== "flex";
         if (stale) {
           const n = document.createElement("p");
           n.className = "note";

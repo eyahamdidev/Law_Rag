@@ -165,22 +165,23 @@ def _fmt(v) -> str:
     return str(v)
 
 
-def _render_value(qid: str, v, derived: dict | None) -> str:
+def _render_value(qid: str, v, derived: dict | None, cur: str = "TND") -> str:
     if isinstance(v, list) and v and isinstance(v[0], dict):
-        return "; ".join(f"{i['label']}: {_fmt(i['amount'])} TND" for i in v)
+        return "; ".join(f"{i['label']}: {_fmt(i['amount'])} {cur}" for i in v)
     if isinstance(v, list):
         return ", ".join(_fmt(x) for x in v)
     q = BANK_BY_ID.get(qid)
     if q and q.type == "pct":
         return f"{_fmt(v)} %"
     if q and q.type == "number":
-        return f"{_fmt(v)} TND" if "TND" in q.en else _fmt(v)
+        return f"{_fmt(v)} {cur}" if ("TND" in q.en or cur != "TND") else _fmt(v)
     return str(v)
 
 
 def template_draft(sec: dict, values: dict, derived: dict | None, lang: str) -> str:
     """Assemble the section from the founder's own answers. Missing items become placeholders."""
     marker = MARKERS.get(lang, MARKERS["en"])
+    cur = str(values.get("currency") or "TND")
     lines: list[str] = []
     for qid in sec["questions"]:
         q = BANK_BY_ID.get(qid)
@@ -188,15 +189,23 @@ def template_draft(sec: dict, values: dict, derived: dict | None, lang: str) -> 
             continue
         lab = {"en": q.en, "fr": q.fr, "ar": q.ar}.get(lang, q.en)
         if qid in values:
-            lines.append(f"{lab}: {_render_value(qid, values[qid], derived)}.")
+            lines.append(f"{lab}: {_render_value(qid, values[qid], derived, cur)}.")
         else:
             lines.append(f"{lab}: {marker}")
     if sec["id"] == "financial_projections" and derived and derived.get("revenue") and any(derived["revenue"]):
         yrs = derived["years"]
-        lines.append("Revenue: " + ", ".join(f"{y} {_fmt(v)} TND" for y, v in zip(yrs, derived["revenue"])) + ".")
-        lines.append("Net result: " + ", ".join(f"{y} {_fmt(v)} TND" for y, v in zip(yrs, derived["net_income"])) + ".")
-        be = derived.get("break_even_year")
-        lines.append(f"Break-even reached in {be}." if be else "Break-even is not reached within the horizon.")
+        lines.append("Revenue: " + ", ".join(f"{y} {_fmt(v)} {cur}" for y, v in zip(yrs, derived["revenue"])) + ".")
+        if derived.get("incomplete"):
+            if any(derived.get("cogs") or []):
+                margin = [(r - c) if r is not None and c is not None else None for r, c in zip(derived["revenue"], derived["cogs"])]
+                lines.append("Direct margin: " + ", ".join(f"{y} {_fmt(v)} {cur}" for y, v in zip(yrs, margin)) + ".")
+            lines.append("Projection incomplete: salaries or other operating costs were not provided, so no profit or cash figure is computed.")
+        else:
+            lines.append("Net result: " + ", ".join(f"{y} {_fmt(v)} {cur}" for y, v in zip(yrs, derived["net_income"])) + ".")
+            be = derived.get("break_even_year")
+            lines.append(f"Break-even reached in {be}." if be else "Break-even is not reached within the horizon.")
+        for a in derived.get("assumptions") or []:
+            lines.append(str(a))
     return "\n".join(lines)
 
 
@@ -219,7 +228,9 @@ def draft_section(
     allowed = allowed_numbers(values, derived or {}, existing, extra_numbers or set())
     base = template_draft(sec, values, derived, lang)
     d = Draft(section_id=sec["id"], title=title, text=base, guidance=[{k: g[k] for k in ("id", "title", "score", "score_kind")} for g in guidance])
-    if not llm.available:
+    # no facts for this section and nothing from the upload: the model can only invent a generic plan — keep the placeholder
+    has_facts = any(values.get(q) not in (None, "", [], {}) for q in sec["questions"]) or bool((existing or "").strip())
+    if not llm.available or not has_facts:
         d.text, d.flagged = guard(base, allowed, lang)
         return d
     p = prompts.load("writer")
@@ -261,7 +272,8 @@ def draft_section(
 def _slim(derived: dict | None) -> dict:
     if not derived:
         return {}
-    keep = ("years", "revenue", "ebitda", "net_income", "cash_end", "break_even_year", "tax_rate_pct")
+    keep = ("years", "revenue", "ebitda", "net_income", "cash_end", "break_even_year", "tax_rate_pct",
+            "incomplete", "missing_costs", "gross_margin", "implied_customers", "assumptions")
     return {k: derived[k] for k in keep if k in derived}
 
 
