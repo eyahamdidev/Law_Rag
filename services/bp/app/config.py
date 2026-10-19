@@ -41,6 +41,15 @@ class Settings:
         # Local models on a laptop are slow. Raise this together with BP_TIMEOUT_S.
         return float(_env("LLM_TIMEOUT_S", "45"))
 
+    @property
+    def llm_max_retries(self) -> int:
+        return max(0, int(_env("LLM_MAX_RETRIES", "6")))
+
+    @property
+    def final_writer_section_pace_s(self) -> float:
+        """Pause between per-section top-up calls to stay under Groq TPM limits."""
+        return max(0.0, float(_env("BP_FINAL_WRITER_PACE_S", "3")))
+
     def llm_step(self, name: str) -> bool:
         """BP_LLM_STEPS=plan_writer,drafts limits the model to those steps (parser, reviewer, assessment, vision,
         drafts, plan_writer). Default: all. Useful on a slow local model: reading and judging plans stays rule-based and fast."""

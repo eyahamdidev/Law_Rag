@@ -270,6 +270,26 @@ def test_xlsx_upload():
     assert rep["financials"]["revenue"] == [100000.0, 180000.0, 260000.0]
 
 
+def test_french_presentation_maps_project_and_executive():
+    from pathlib import Path
+
+    from app.agents.common import Trace
+    from app.agents import parser as parser_agent
+    from app.intake import read_document
+    from app.llm import LLMClient
+    from app.masking import Masker
+    from app.templates import load_template
+
+    root = Path(__file__).resolve().parents[3] / "plan_dataset" / "raw" / "invented_tn" / "g1_huilerie_zeitouna.docx"
+    if not root.exists():
+        return
+    doc = read_document(root.read_bytes())
+    tpl = load_template("bfpme_creation")
+    plan = parser_agent.parse(doc, tpl, llm=LLMClient(api_key="", cache=False), masker=Masker(), lang="fr", trace=Trace(), mode="keywords")
+    assert plan.sections.get("project_description", {}).get("text", "").strip()
+    assert plan.sections.get("executive_summary", {}).get("text", "").strip()
+
+
 def test_pdf_upload_and_scan_flag():
     import pymupdf
     pdf = pymupdf.open(); pg = pdf.new_page(); pg.insert_text((72, 72), "Etude de marche", fontsize=18)
@@ -568,6 +588,29 @@ def test_final_writer_agent_batch_tops_up_missing_sections():
     assert out["method"] == "model" and out["usage"]["calls"] == 4 and len(users) == 4
     assert all(s["status"] == "ok" for s in out["sections"])
     assert out["sections"][0]["text"] == "batch body." and out["sections"][3]["text"] == "topped-up body."
+
+
+def test_final_writer_agent_retries_429():
+    import asyncio
+
+    from app import prompts
+    from app.agents import final_writer as fw
+    calls = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls["n"] += 1
+        if calls["n"] == 1:
+            return httpx.Response(429, headers={"Retry-After": "0"})
+        payload = {"sections": [{"id": sid, "text": f"body {sid}."} for sid in fw.SECTION_IDS]}
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(payload)}}], "usage": {}})
+
+    out = asyncio.run(
+        fw.run_final_writer_agent(
+            prompts, "{}", "plan", "[]", transport=httpx.MockTransport(handler), max_retries=2,
+        )
+    )
+    assert out["method"] == "model" and calls["n"] == 2
+    assert all(s["status"] == "ok" for s in out["sections"])
 
 
 def test_final_writer_agent_degrades_not_crashes():

@@ -11,10 +11,33 @@ const SESSION_ID = (() => {
     return "anonymous-" + Date.now();
   }
 })();
+
+const FRAUD_SECRET_KEY = "fraud_tenant_secret";
+
+function fraudTenantSecret() {
+  try {
+    return localStorage.getItem(FRAUD_SECRET_KEY) || "";
+  } catch {
+    return "";
+  }
+}
+
+function storeFraudTenantSecret(secret) {
+  if (!secret) return;
+  try {
+    localStorage.setItem(FRAUD_SECRET_KEY, secret);
+  } catch {
+    /* ignore */
+  }
+}
+
 const _fetch = window.fetch.bind(window);
 window.fetch = (url, opts = {}) => {
   if (typeof url === "string" && url.startsWith("/api/")) {
-    opts = { ...opts, headers: { ...(opts.headers || {}), "X-Session-Id": SESSION_ID } };
+    const headers = { ...(opts.headers || {}), "X-Session-Id": SESSION_ID };
+    const secret = fraudTenantSecret();
+    if (secret) headers["X-Fraud-Tenant-Secret"] = secret;
+    opts = { ...opts, headers };
   }
   return _fetch(url, opts);
 };
@@ -34,10 +57,16 @@ function showPanel(name) {
   });
   panels.forEach((panel) => {
     const active = panel.id === name;
-    panel.classList.toggle("is-active", active);
-    panel.hidden = !active;
+    if (active && panel.hidden) {
+      panel.hidden = false;
+      panel.classList.remove("is-active");
+      requestAnimationFrame(() => panel.classList.add("is-active"));
+    } else {
+      panel.classList.toggle("is-active", active);
+      panel.hidden = !active;
+    }
   });
-  window.scrollTo({ top: 0 });
+  window.scrollTo({ top: 0, behavior: window.UI?.reduced ? "auto" : "smooth" });
 }
 
 tabs.forEach((tab) => {
@@ -60,9 +89,263 @@ function escapeHtml(value) {
 function traceList(trace) {
   if (!trace || !trace.length) return "";
   const items = trace
-    .map((step) => `<li><strong>${escapeHtml(step.module)}</strong> — ${escapeHtml(step.detail)}</li>`)
+    .map((step) => `<li><strong>${escapeHtml(step.module)}</strong> · ${escapeHtml(step.detail)}</li>`)
     .join("");
   return `<ol class="trace">${items}</ol>`;
+}
+
+const FRAUD_SIGNAL_TITLES = {
+  document_stamp_uncertain: "Stamp unclear",
+  document_stamp_fraudulent: "Stamp mismatch",
+  document_stamp_missing: "Stamp missing",
+  document_stamp_unrecognized: "Different stamp",
+};
+
+function fraudSignalTitle(code) {
+  return FRAUD_SIGNAL_TITLES[code] || String(code || "signal").replaceAll("_", " ");
+}
+
+function fraudRiskLabel(level) {
+  if (!level || level === "unknown") return "Unknown";
+  return level.charAt(0).toUpperCase() + level.slice(1);
+}
+
+function fraudStampVerdictLabel(verdict) {
+  const map = {
+    genuine: "Matches saved",
+    fraudulent: "Does not match",
+    uncertain: "Unclear scan",
+    unrecognized: "New stamp",
+    awaiting_approval: "Needs save",
+  };
+  return map[verdict] || verdict || "—";
+}
+
+function fraudSignalsForDisplay(body) {
+  const signals = body.signals || [];
+  if (body.document_type === "payment") {
+    return signals.filter((s) => !String(s.code || "").startsWith("document_stamp"));
+  }
+  return signals;
+}
+
+function fraudSignalCards(signals) {
+  if (!signals?.length) return "";
+  const cards = signals
+    .map((signal) => {
+      const severity = (signal.severity || "medium").toLowerCase();
+      return (
+        `<article class="fraud-signal-card severity-${escapeHtml(severity)}">` +
+        `<p class="fraud-signal-kicker">${escapeHtml(severity)}</p>` +
+        `<h3 class="fraud-signal-title">${escapeHtml(fraudSignalTitle(signal.code))}</h3>` +
+        `<p class="fraud-signal-body">${escapeHtml(signal.description)}</p>` +
+        `</article>`
+      );
+    })
+    .join("");
+  return `<section class="fraud-signals"><h3 class="fraud-section-title">Signals</h3><div class="fraud-signal-grid">${cards}</div></section>`;
+}
+
+function renderFraudResult(body) {
+  const isPayment = body.document_type === "payment";
+  const risk = body.risk_level || "unknown";
+  const riskClass = risk === "low" ? "low" : risk === "medium" ? "medium" : risk === "high" ? "high" : "unknown";
+  const score = body.risk_score != null ? `${body.risk_score}<span class="fraud-stat-unit">/100</span>` : "—";
+  let headline = body.headline || body.summary || "";
+  if (isPayment && headline.toLowerCase().includes("stamp")) {
+    headline = "Payment scored. See risk and signals below.";
+  }
+  const displaySignals = fraudSignalsForDisplay(body);
+  const traceBlock = body.trace?.length
+    ? `<details class="note fraud-trace-details"><summary>Technical details</summary>${traceList(body.trace)}</details>`
+    : "";
+  return (
+    `<p class="fraud-headline">${escapeHtml(headline)}</p>` +
+    `<div class="fraud-stats">` +
+    `<div class="fraud-stat fraud-stat-risk ${riskClass}"><span class="fraud-stat-label">Risk</span><span class="fraud-stat-value">${escapeHtml(fraudRiskLabel(risk))}</span></div>` +
+    `<div class="fraud-stat fraud-stat-score"><span class="fraud-stat-label">Score</span><span class="fraud-stat-value">${score}</span></div>` +
+    `</div>` +
+    fraudSignalCards(displaySignals) +
+    traceBlock
+  );
+}
+
+let fraudEnrollmentQueue = [];
+let fraudEnrollmentIndex = 0;
+
+function closeFraudModal() {
+  const modal = document.querySelector("#fraud-modal");
+  modal.hidden = true;
+  fraudEnrollmentQueue = [];
+  fraudEnrollmentIndex = 0;
+}
+
+function showCurrentFraudEnrollment() {
+  const item = fraudEnrollmentQueue[fraudEnrollmentIndex];
+  if (!item) {
+    closeFraudModal();
+    return;
+  }
+  document.querySelector("#fraud-modal-title").textContent = item.title;
+  document.querySelector("#fraud-modal-sub").textContent = item.subtitle || "Future uploads will be compared to what you save.";
+  const preview = document.querySelector("#fraud-modal-preview");
+  if (item.preview_base64) {
+    preview.innerHTML = `<img src="data:image/png;base64,${item.preview_base64}" alt="${escapeHtml(item.kind)} preview">`;
+    preview.classList.add("is-loaded");
+  } else {
+    preview.innerHTML = `<span class="note">Preview not available — you can still save the crop.</span>`;
+    preview.classList.remove("is-loaded");
+  }
+  const step = document.querySelector("#fraud-modal-step");
+  step.textContent =
+    fraudEnrollmentQueue.length > 1 ? `Step ${fraudEnrollmentIndex + 1} of ${fraudEnrollmentQueue.length}` : "";
+  const status = document.querySelector("#fraud-modal-status");
+  status.textContent = "";
+  status.className = "fraud-modal-status";
+}
+
+function openFraudEnrollments(enrollments) {
+  const stamps = (enrollments || []).filter((item) => item.kind === "stamp");
+  if (!stamps.length) return;
+  fraudEnrollmentQueue = stamps;
+  fraudEnrollmentIndex = 0;
+  document.querySelector("#fraud-modal").hidden = false;
+  showCurrentFraudEnrollment();
+}
+
+async function submitFraudEnrollment(approve) {
+  const item = fraudEnrollmentQueue[fraudEnrollmentIndex];
+  if (!item) return;
+  const saveBtn = document.querySelector("#fraud-modal-save");
+  const skipBtn = document.querySelector("#fraud-modal-skip");
+  const status = document.querySelector("#fraud-modal-status");
+  saveBtn.disabled = true;
+  skipBtn.disabled = true;
+  status.textContent = approve ? "Saving…" : "Skipping…";
+  try {
+    const response = await fetch("/api/fraud/decide", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        proposal_id: item.proposal_id,
+        approve,
+        tenant_secret: fraudTenantSecret() || null,
+      }),
+    });
+    if (!response.ok) throw new Error(await readError(response));
+    const body = await response.json();
+    storeFraudTenantSecret(body.tenant_secret);
+    status.textContent = body.message;
+    status.className = "fraud-modal-status ok";
+    await new Promise((r) => setTimeout(r, approve && body.enrolled ? 900 : 400));
+    fraudEnrollmentIndex += 1;
+    if (fraudEnrollmentIndex >= fraudEnrollmentQueue.length) {
+      closeFraudModal();
+    } else {
+      showCurrentFraudEnrollment();
+    }
+  } catch (error) {
+    status.textContent = error.message;
+    status.className = "fraud-modal-status";
+  } finally {
+    saveBtn.disabled = false;
+    skipBtn.disabled = false;
+  }
+}
+
+document.querySelector("#fraud-modal-save")?.addEventListener("click", () => submitFraudEnrollment(true));
+document.querySelector("#fraud-modal-skip")?.addEventListener("click", () => submitFraudEnrollment(false));
+document.querySelectorAll("[data-fraud-dismiss]").forEach((el) => {
+  el.addEventListener("click", () => {
+    if (fraudEnrollmentQueue.length) submitFraudEnrollment(false);
+    else closeFraudModal();
+  });
+});
+
+function formatStampDate(iso) {
+  if (!iso) return "";
+  try {
+    return new Date(iso).toLocaleString();
+  } catch {
+    return iso;
+  }
+}
+
+function closeFraudGallery() {
+  document.querySelector("#fraud-gallery").hidden = true;
+}
+
+async function openFraudGallery() {
+  const modal = document.querySelector("#fraud-gallery");
+  const grid = document.querySelector("#fraud-gallery-grid");
+  const status = document.querySelector("#fraud-gallery-status");
+  modal.hidden = false;
+  grid.innerHTML = "";
+  status.textContent = "Loading…";
+  try {
+    const response = await fetch("/api/fraud/stamps");
+    if (!response.ok) throw new Error(await readError(response));
+    const body = await response.json();
+    if (body.locked) {
+      status.textContent = body.message;
+      return;
+    }
+    if (!body.stamps?.length) {
+      status.textContent = body.message || "No saved stamps yet. Run a check and save a stamp from the popup.";
+      return;
+    }
+    status.textContent = `${body.stamps.length} saved stamp${body.stamps.length > 1 ? "s" : ""} for this browser`;
+    grid.innerHTML = body.stamps
+      .map((stamp) => {
+        const preview = stamp.preview_base64
+          ? `<img src="data:image/png;base64,${stamp.preview_base64}" alt="Saved stamp">`
+          : `<div class="fraud-gallery-placeholder">No preview</div>`;
+        const text = stamp.read_text ? `<p class="fraud-gallery-text"><strong>Text:</strong> ${escapeHtml(stamp.read_text)}</p>` : "";
+        return (
+          `<article class="fraud-gallery-card">` +
+          `<div class="fraud-gallery-preview">${preview}</div>` +
+          `<p class="fraud-gallery-id">${escapeHtml(stamp.specimen_id)}</p>` +
+          `<p class="fraud-gallery-meta">${escapeHtml(formatStampDate(stamp.created_at))}</p>` +
+          `<p class="fraud-gallery-comment">${escapeHtml(stamp.comment || "")}</p>` +
+          text +
+          `</article>`
+        );
+      })
+      .join("");
+  } catch (error) {
+    status.textContent = error.message;
+  }
+}
+
+document.querySelector("#fraud-gallery-open")?.addEventListener("click", () => openFraudGallery());
+document.querySelectorAll("[data-fraud-gallery-dismiss]").forEach((el) => {
+  el.addEventListener("click", () => closeFraudGallery());
+});
+
+function setFraudMode(mode) {
+  const stamp = mode === "stamp";
+  document.querySelector("#fraud-mode-input").value = mode;
+  for (const button of document.querySelectorAll("[data-fraud-mode]")) {
+    const active = button.dataset.fraudMode === mode;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  }
+  document.querySelector("#fraud-stamp-note").hidden = !stamp;
+  document.querySelector("#fraud-payment-fields").hidden = stamp;
+  const galleryBtn = document.querySelector("#fraud-gallery-open");
+  if (galleryBtn) galleryBtn.hidden = !stamp;
+  const result = document.querySelector("#fraud-result");
+  if (result) {
+    result.hidden = true;
+    result.innerHTML = "";
+  }
+  const file = document.querySelector("#fraud-file");
+  file.value = "";
+  file.accept = stamp ? ".pdf,.png,.jpg,.jpeg,.webp" : ".json,.pdf,.txt,.md";
+}
+
+for (const button of document.querySelectorAll("[data-fraud-mode]")) {
+  button.addEventListener("click", () => setFraudMode(button.dataset.fraudMode));
 }
 
 function ruleTraceList(trace) {
@@ -227,7 +510,7 @@ document.querySelector("#ask-form").addEventListener("submit", async (event) => 
   const form = event.currentTarget;
   const button = form.querySelector("button");
   const result = document.querySelector("#ask-result");
-  button.disabled = true;
+  window.UI?.busy(button, true, "Searching…");
   result.hidden = false;
   result.textContent = "Planning, searching and checking sources…";
   try {
@@ -257,7 +540,9 @@ document.querySelector("#ask-form").addEventListener("submit", async (event) => 
   } catch (error) {
     result.textContent = error.message;
   } finally {
-    button.disabled = false;
+    window.UI?.busy(button, false);
+    result.classList.add("ui-reveal-active");
+    window.UI?.reveal(result);
   }
 });
 
@@ -266,26 +551,27 @@ document.querySelector("#fraud-form").addEventListener("submit", async (event) =
   const form = event.currentTarget;
   const button = form.querySelector("button");
   const result = document.querySelector("#fraud-result");
-  button.disabled = true;
+  window.UI?.busy(button, true, "Checking…");
   result.hidden = false;
   result.textContent = "Reading the file…";
   try {
     const data = new FormData(form);
+    if (data.get("mode") === "stamp") {
+      data.delete("entity_id");
+      const secret = fraudTenantSecret();
+      if (secret) data.set("tenant_secret", secret);
+    }
     const response = await fetch("/api/fraud/analyze", { method: "POST", body: data });
     if (!response.ok) throw new Error(await readError(response));
     const body = await response.json();
-    result.innerHTML =
-      `<p class="answer">${escapeHtml(body.summary)}</p>` +
-      pills([
-        [`type: ${body.document_type}`, ""],
-        [`risk: ${body.risk_level}`, "hold"],
-        [`sha256: ${body.document_hash.slice(0, 12)}…`, ""],
-      ]) +
-      traceList(body.trace);
+    result.innerHTML = renderFraudResult(body);
+    openFraudEnrollments(body.enrollments);
   } catch (error) {
     result.textContent = error.message;
   } finally {
-    button.disabled = false;
+    window.UI?.busy(button, false);
+    result.classList.add("ui-reveal-active");
+    window.UI?.reveal(result);
   }
 });
 
@@ -294,7 +580,7 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
   const form = event.currentTarget;
   const button = form.querySelector("button");
   const result = document.querySelector("#aid-result");
-  button.disabled = true;
+  window.UI?.busy(button, true, "Matching…");
   result.hidden = false;
   result.textContent = "Matching the catalog…";
   try {
@@ -350,7 +636,9 @@ document.querySelector("#aid-form").addEventListener("submit", async (event) => 
   } catch (error) {
     result.textContent = error.message;
   } finally {
-    button.disabled = false;
+    window.UI?.busy(button, false);
+    result.classList.add("ui-reveal-active");
+    window.UI?.reveal(result);
   }
 });
 

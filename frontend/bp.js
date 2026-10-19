@@ -1,7 +1,7 @@
 // Business plan tab: the user first picks ONE way in (upload a plan, or chat), never both at once.
 // escapeHtml, readError, SESSION_ID and the fetch wrapper come from app.js.
 (() => {
-  window.BP_UI_VERSION = 7;
+  window.BP_UI_VERSION = 8;
   const choose = document.querySelector("#bp-choose");
   const views = { upload: document.querySelector("#bp-upload"), chat: document.querySelector("#bp-chat") };
   const form = document.querySelector("#bp-form");
@@ -12,15 +12,15 @@
   const say = document.querySelector("#bp-say");
   const input = document.querySelector("#bp-input");
   const UI = {
-    en: { pick: "How do you want to give me your plan? Pick one. You can switch later.", upload_t: "Upload a plan", upload_d: "I already have a document (.docx, .pdf, .xlsx, .txt).",
-      chat_t: "Chat with me", chat_d: "I'll ask a few questions, one at a time.", back: "← Change how I give my plan", file_l: "Your plan", act_review: "Review my plan",
-      act_draft: "Draft missing or weak sections", run: "Run", send: "Send", lang: "Language", ph: "Type your answer…" },
-    fr: { pick: "Comment voulez-vous me donner votre plan ? Choisissez une option, vous pourrez changer.", upload_t: "Téléverser un plan", upload_d: "J'ai déjà un document (.docx, .pdf, .xlsx, .txt).",
-      chat_t: "Discuter avec moi", chat_d: "Je pose quelques questions, une à la fois.", back: "← Changer de méthode", file_l: "Votre plan", act_review: "Analyser mon plan",
-      act_draft: "Rédiger les sections manquantes ou faibles", run: "Lancer", send: "Envoyer", lang: "Langue", ph: "Écrivez votre réponse…" },
+    en: { pick: "Choose one path", upload_t: "Upload a plan", upload_d: "Docx, PDF, xlsx, or txt",
+      chat_t: "Chat with me", chat_d: "Answer questions, get a Word plan", back: "← Back", file_l: "Your plan", act_review: "Review my plan",
+      act_draft: "Draft missing or weak sections", act_full: "Review + institutional rewrite (slow)", run: "Run", send: "Send", lang: "Language", ph: "Type your answer…" },
+    fr: { pick: "Choisissez une option", upload_t: "Téléverser un plan", upload_d: "Docx, PDF, xlsx ou txt",
+      chat_t: "Discuter avec moi", chat_d: "Questions puis plan Word", back: "← Retour", file_l: "Votre plan", act_review: "Analyser mon plan",
+      act_draft: "Rédiger les sections manquantes ou faibles", act_full: "Analyser + réécriture institutionnelle (long)", run: "Lancer", send: "Envoyer", lang: "Langue", ph: "Écrivez votre réponse…" },
     ar: { pick: "كيف تريدون تقديم خطتكم؟ اختاروا واحدة، ويمكنكم التغيير لاحقا.", upload_t: "رفع خطة", upload_d: "لدي وثيقة جاهزة (.docx, .pdf, .xlsx, .txt).",
       chat_t: "الدردشة معي", chat_d: "أطرح بعض الأسئلة واحدا تلو الآخر.", back: "← تغيير الطريقة", file_l: "خطتكم", act_review: "مراجعة خطتي",
-      act_draft: "صياغة الأقسام الناقصة أو الضعيفة", run: "تشغيل", send: "إرسال", lang: "اللغة", ph: "اكتبوا إجابتكم…" },
+      act_draft: "صياغة الأقسام الناقصة أو الضعيفة", act_full: "مراجعة + إعادة صياغة (بطيء)", run: "تشغيل", send: "إرسال", lang: "اللغة", ph: "اكتبوا إجابتكم…" },
   };
   function applyLang() {
     const t = UI[langSel.value] || UI.en;
@@ -32,16 +32,23 @@
   let chatAnswers = {};
   let started = false;
   let lastBuild = null;
+  let chatAutoBuild = false;
 
   function show(mode) {
     choose.hidden = mode !== null;
-    Object.entries(views).forEach(([k, el]) => (el.hidden = k !== mode));
+    choose.classList.toggle("bp-view-visible", mode === null);
+    Object.entries(views).forEach(([k, el]) => {
+      const on = k === mode;
+      el.hidden = !on;
+      el.classList.toggle("bp-view-visible", on);
+    });
     result.hidden = true;
     if (mode === "chat" && !started) { started = true; turn({}); }
   }
   document.querySelectorAll(".bp-card").forEach((b) => b.addEventListener("click", () => show(b.dataset.mode)));
   document.querySelectorAll("[data-back]").forEach((b) => b.addEventListener("click", () => show(null)));
   applyLang();
+  window.UI?.reveal(document.querySelector("#bp-choose"));
   langSel.addEventListener("change", () => { applyLang(); if (started) { started = false; chatState = null; chatAnswers = {}; log.innerHTML = ""; chips.innerHTML = ""; if (!views.chat.hidden) show("chat"); } });
 
   function bubble(text, who) {
@@ -50,6 +57,13 @@
     d.textContent = text;
     log.appendChild(d);
     log.scrollTop = log.scrollHeight;
+  }
+
+  function formatBpError(msg) {
+    if (/429/.test(msg)) {
+      return "Groq rate limit (too many tokens per minute). Wait 1–2 minutes and run again, or use a smaller LLM_MODEL_MAIN in .env.";
+    }
+    return msg;
   }
 
   async function turn(payload) {
@@ -65,10 +79,14 @@
     chips.innerHTML = "";
     (data.chips || []).forEach((c) => addChip(c.label, () => send(c.value)));
     (data.actions || []).forEach((a) => addChip(a.label, () => {
-      if (a.action === "finish") return runReview();
+      if (a.action === "finish") { chatAutoBuild = true; return runReview(); }
       bubble(a.label, "me");
       turn({ action: a.action });
     }, a.action === "finish" ? "primary" : ""));
+    if (data.phase === "done" && data.ready_to_review && !chatAutoBuild) {
+      chatAutoBuild = true;
+      runReview();
+    }
   }
 
   function addChip(label, fn, cls = "") {
@@ -94,14 +112,22 @@
     fd.append("lang", langSel.value);
     fd.append("answers", JSON.stringify(chatAnswers));
     fd.append("generate_plan", "true");
+    fd.append("chat_build", "true");
     return fd;
   }
 
   async function runReview() {
     chips.innerHTML = "";
-    bubble("…", "bot");
+    const building = {
+      en: "Building your business plan from your answers (this can take 2–3 minutes)…",
+      fr: "Construction de votre business plan à partir de vos réponses (comptez 2–3 minutes)…",
+      ar: "جاري بناء خطة العمل من إجاباتكم (قد يستغرق 2–3 دقائق)…",
+    };
+    bubble(building[langSel.value] || building.en, "bot");
     result.hidden = false;
-    result.textContent = "Reviewing your answers…";
+    result.textContent = building[langSel.value] || building.en;
+    const runBtn = document.querySelector("#bp-form button[type=submit], #bp-say button[type=submit], #bp-chips .chip.primary");
+    window.UI?.busy(runBtn, true, "Building…");
     try {
       lastBuild = buildChatFd;
       const res = await fetch("/api/bp/run", { method: "POST", body: buildChatFd() });
@@ -109,6 +135,8 @@
       render(await res.json());
     } catch (e) {
       result.textContent = e.message;
+    } finally {
+      window.UI?.busy(runBtn, false);
     }
   }
 
@@ -138,7 +166,18 @@
 
   function render(data) {
     const { response: r, report: rep } = data;
-    let html = `<p class="answer">${escapeHtml(r.status === "abstain" ? r.answer : rep ? rep.summary_text : r.answer)}</p>`;
+    const planDoc = (r.artifacts || []).find((a) => a.label === "business_plan");
+    const gp = rep && rep.generated_plan;
+    let html = "";
+    if (planDoc) {
+      const nPol = gp ? gp.sections.filter((s) => s.polished).length : 0;
+      const nSec = gp ? gp.sections.length : 0;
+      html += `<div class="bp-doc-hero"><a class="dl plan" href="/api/files/${planDoc.file_ref}?kind=docx&name=business-plan">Download your business plan (.docx)</a>` +
+        `<p class="note note--compact">${nPol ? `${nPol}/${nSec} sections drafted` : "Built from your answers"}. Open items are in the file.</p></div>`;
+    } else if (lastBuild === buildChatFd) {
+      html += `<p class="sig high">No Word file was produced (timeout or model error). Try again in a minute or raise BP_TIMEOUT_S in .env.</p>`;
+    }
+    html += `<p class="answer">${escapeHtml(r.status === "abstain" ? r.answer : rep ? rep.summary_text : r.answer)}</p>`;
     if (rep) {
       html += `<div class="meta">` + rep.input.methods.map((m) => `<span class="pill ok">${escapeHtml(m.replace("_", " "))}</span>`).join("") +
         `<span class="pill">${escapeHtml(rep.template.title)}</span>` +
@@ -147,21 +186,21 @@
       const a = rep.assessment;
       if (a) {
         const lab = a.label[langSel.value] || a.label.en;
-        html += `<div class="verdict ${a.verdict}"><strong>${escapeHtml(lab)}</strong><span>${a.verdict === "unfilled" ? "" : a.score + "/100"}</span></div>` +
-          `<p class="note">${escapeHtml(a.rationale)} This is a prompt to verify, not an accusation.</p>`;
+        html += `<div class="verdict ${a.verdict}"><strong>${escapeHtml(lab)}</strong></div>` +
+          `<p class="note note--compact">${escapeHtml(a.rationale)}</p>`;
         if (a.flags.length) html += `<h3>Red flags and weaknesses</h3>` + a.flags.map((f) =>
           `<div class="sig ${f.group === "fraud" ? "high" : "review"}">${escapeHtml(f.why)}${f.quote ? `<br><em>“${escapeHtml(f.quote)}”</em>` : ""}</div>`).join("");
         if (a.strengths.length) html += `<h3>Strengths</h3>` + a.strengths.map((f) => `<div class="sig info">${escapeHtml(f.why)}</div>`).join("");
       }
-      html += `<h3>Sections</h3>` + rep.completeness.sections.map((s) =>
-        `<div class="sec-row"><span>${escapeHtml(s.title)}</span><div class="bar ${s.status}"><i style="width:${s.score}%"></i></div><span>${s.score}</span></div>`).join("");
+      html += `<h3>Sections</h3><div class="ui-stagger">` + rep.completeness.sections.map((s) =>
+        `<div class="sec-row ui-in"><span>${escapeHtml(s.title)}</span><div class="bar ${s.status}"><i style="--bar-w:${s.score}%"></i></div><span>${s.score}</span></div>`).join("") + `</div>`;
       const fp = rep.final_plan;
       if (fp && fp.sections) {
         html += `<h3>Final plan (institutional rewrite)</h3>`;
         if (fp.verdict) html += `<p class="note verdict-line"><strong>Verdict:</strong> ${escapeHtml(fp.verdict)}</p>`;
         html += fp.sections.map((s) =>
           `<h4>${escapeHtml(s.title)}${s.status === "ok" ? "" : ` <span class="pill hold">${escapeHtml(s.status)}</span>`}</h4>` +
-          `<div class="draft">${s.text ? renderDraft(s.text) : `<p class="note">${escapeHtml(s.error || "not generated")}</p>`}</div>`).join("");
+          `<div class="draft">${s.text ? renderDraft(s.text) : `<p class="note">${escapeHtml(formatBpError(s.error || "not generated"))}</p>`}</div>`).join("");
         if (fp.open_items && fp.open_items.length) {
           html += `<h4>Open items to confirm</h4><ol class="open-items">` +
             fp.open_items.map((i) => `<li>${escapeHtml(i)}</li>`).join("") + `</ol>`;
@@ -224,12 +263,12 @@
       }
       const docx = (r.artifacts || []).find((a) => a.kind === "docx" && a.label !== "business_plan");
       if (docx) html += `<p class="dl"><a href="/api/files/${docx.file_ref}?kind=docx&name=business-plan-review">Download the review report (.docx)</a></p>`;
-      const planDoc = (r.artifacts || []).find((a) => a.label === "business_plan");
-      if (planDoc) html = `<p class="dl plan"><a href="/api/files/${planDoc.file_ref}?kind=docx&name=business-plan">Download your business plan (.docx)</a> <span class="note">built from your answers; items still missing are listed on its last page</span></p>` + html;
     }
     if (r.handoff) html += `<div class="sig info">This looks like a question for the ${escapeHtml(r.handoff.to)} assistant: ${escapeHtml(r.handoff.question)}</div>`;
-    html += `<ol class="trace">${(r.trace || []).map((t) => `<li><strong>${escapeHtml(t.step)}</strong> — ${t.ms} ms${t.model ? ` · ${escapeHtml(t.model)}` : ""}</li>`).join("")}</ol>`;
+    html += `<details class="trace-fold"><summary>Timing</summary><ol class="trace">${(r.trace || []).map((t) => `<li><strong>${escapeHtml(t.step)}</strong> · ${t.ms} ms${t.model ? ` · ${escapeHtml(t.model)}` : ""}</li>`).join("")}</ol></details>`;
     result.innerHTML = html;
+    result.classList.add("ui-reveal-active");
+    window.UI?.reveal(result);
     const regen = document.querySelector("#bp-regen");
     if (regen) regen.addEventListener("click", regenerate);
   }
@@ -237,23 +276,26 @@
   form.addEventListener("submit", async (event) => {
     event.preventDefault();
     const button = form.querySelector('button[type="submit"]');
-    button.disabled = true;
+    window.UI?.busy(button, true, "Running…");
     result.hidden = false;
     result.textContent = "Reading your plan…";
     try {
       const fd = new FormData();
-      const mode = document.querySelector("#bp-action").value;
+      const action = document.querySelector("#bp-action").value;
+      const mode = action === "review_full" ? "review" : action;
       fd.append("mode", mode);
       fd.append("lang", langSel.value);
       if (mode === "draft_section") fd.append("section_id", "missing");
-      else fd.append("generate_plan", "true");
+      if (action === "review_full") fd.append("generate_plan", "true");
       fd.append("file", document.querySelector("#bp-file").files[0]);
       lastBuild = () => {
         const again = new FormData();
-        again.append("mode", mode);
+        const act = document.querySelector("#bp-action").value;
+        const m = act === "review_full" ? "review" : act;
+        again.append("mode", m);
         again.append("lang", langSel.value);
-        if (mode === "draft_section") again.append("section_id", "missing");
-        else again.append("generate_plan", "true");
+        if (m === "draft_section") again.append("section_id", "missing");
+        if (act === "review_full") again.append("generate_plan", "true");
         again.append("file", document.querySelector("#bp-file").files[0]);
         return again;
       };
@@ -263,7 +305,7 @@
     } catch (e) {
       result.textContent = e.message;
     } finally {
-      button.disabled = false;
+      window.UI?.busy(button, false);
     }
   });
 })();

@@ -73,6 +73,7 @@ async def bp_run(
     question: str | None = Form(default=None),
     draft_missing: bool = Form(default=False),
     generate_plan: bool = Form(default=False),
+    chat_build: bool = Form(default=False),
     seed: int | None = Form(default=None),
     ignore_profile: bool = Form(default=False),
     file: UploadFile | None = File(default=None),
@@ -89,7 +90,8 @@ async def bp_run(
     ans = _json_field(answers, "answers")
     base_profile = {} if (ignore_profile or (file_ref and not ans)) else session_profile.get(x_session_id)  # an uploaded plan is judged on its own text
     merged_profile = {**base_profile, **_json_field(profile, "profile")}
-    options = {"mode": mode, "answers": ans or None, "section_id": section_id, "template": template, "draft_missing": draft_missing, "generate_plan": generate_plan or None, "seed": seed}
+    options = {"mode": mode, "answers": ans or None, "section_id": section_id, "template": template, "draft_missing": draft_missing,
+               "generate_plan": generate_plan or None, "chat_build": chat_build or None, "seed": seed}
     options = {k: v for k, v in options.items() if v not in (None, "")}
     try:
         status, resp = client.run(lang=_lang(lang), file_ref=file_ref, profile=merged_profile, options=options, question=question)

@@ -19,7 +19,7 @@
         "fr": [
           "résumé",
           "synthèse",
-          "présentation du projet",
+          "résumé du projet",
           "executive"
         ],
         "en": [
@@ -183,6 +183,10 @@
       "title_keywords": {
         "fr": [
           "description du projet",
+          "présentation du projet",
+          "présentation",
+          "modèle économique",
+          "modele economique",
           "offre",
           "produit",
           "service",
@@ -649,12 +653,17 @@
       "title_keywords": {
         "fr": [
           "forme juridique",
+          "structure juridique",
+          "forme de société",
           "capital",
+          "capital social",
           "statut",
+          "statuts",
           "sarl",
           "suarl",
           "actionnaire",
-          "associé"
+          "associé",
+          "associés"
         ],
         "en": [
           "legal form",

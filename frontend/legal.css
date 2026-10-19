@@ -8,7 +8,9 @@
 #legal h3{margin-top:0;font-family:Georgia,serif;font-size:1.25rem}
 #legal fieldset{border:1px solid var(--line);border-radius:.6rem;padding:1rem;margin:.5rem 0}#legal .party{display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:1rem}#legal .party label{display:grid}#legal .party .address{grid-column:1/-1}
 #legal .checkbox{display:flex;align-items:flex-start;gap:.5rem;margin:.6rem 0}#legal .checkbox input{margin-top:.3rem}
-#legal .secondary{background:transparent;border:1px solid var(--line);border-radius:.5rem;padding:.6rem .8rem;cursor:pointer;width:fit-content;color:var(--ink)}
+#legal .secondary{background:transparent;border:1px solid var(--line);border-radius:.5rem;padding:.6rem .8rem;cursor:pointer;width:fit-content;color:var(--ink);transition:background .18s ease,border-color .18s ease,transform .18s ease,box-shadow .18s ease}
+#legal .secondary:hover:not(:disabled){border-color:var(--muted);background:rgba(255,255,255,.55);box-shadow:0 2px 8px rgba(30,26,22,.06)}
+#legal .secondary:active:not(:disabled){transform:scale(.97)}
 #legal #contract-fields{display:grid;gap:.8rem}#legal #contract-fields label{display:grid;gap:.3rem}#legal .result pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;line-height:1.7}
 #legal .notice{padding:.8rem;border-left:3px solid var(--hold);background:#fff8ec;margin:.8rem 0}#legal .document{border-top:1px solid var(--line);padding:.7rem 0}#legal .document pre{white-space:pre-wrap;max-height:16rem;overflow:auto;font-size:.85rem}
 #legal .sources{display:grid;gap:.9rem;padding-left:1.2rem}#legal .sources blockquote{margin:.4rem 0;padding-left:.6rem;border-left:2px solid var(--line);white-space:pre-wrap}

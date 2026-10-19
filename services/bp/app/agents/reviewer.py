@@ -164,6 +164,7 @@ def _apply_llm(template, sections, reviews, *, lang, llm, masker, trace, style):
             continue
         text = sections[sec["id"]]["text"]
         verdicts = {c.get("id"): c for c in res.get("criteria", []) if isinstance(c, dict)}
+        old_crit, old_score, old_status = rv.criteria, rv.score, rv.status
         new: list[CriterionResult] = []
         for c in sec["criteria"]:
             v = verdicts.get(c["id"], {})
@@ -176,8 +177,11 @@ def _apply_llm(template, sections, reviews, *, lang, llm, masker, trace, style):
         rv.criteria = new
         rv.score = _score(new, text)
         rv.status = status_for(rv.score, text)
-        rv.critique = masker.unmask(str(res.get("critique", "")))[:600]
-        rv.method = "model"
+        if rv.score < old_score:
+            rv.criteria, rv.score, rv.status, rv.method = old_crit, old_score, old_status, "rules"
+        else:
+            rv.critique = masker.unmask(str(res.get("critique", "")))[:600]
+            rv.method = "model"
 
 
 def overall(reviews: list[SectionReview]) -> int:

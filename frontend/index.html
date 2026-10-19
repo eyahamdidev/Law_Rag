@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tunisian Legal & Financial Assistant</title>
-    <link rel="stylesheet" href="/styles.css?v=6" />
+    <link rel="stylesheet" href="/styles.css?v=10" />
     <link rel="stylesheet" href="/legal.css?v=3" />
   </head>
   <body>
@@ -13,11 +13,11 @@
         <p class="eyebrow">Tunisian founders</p>
         <p class="brand">Legal &amp; Financial Assistant</p>
         <nav class="tabs" role="tablist" aria-label="Sections">
-          <button type="button" class="tab is-active" data-panel="ask" role="tab" aria-selected="true">Chat <small>legal &amp; funding questions</small></button>
-          <button type="button" class="tab" data-panel="legal" role="tab" aria-selected="false">Legal workspace <small>guidance &amp; contracts</small></button>
-          <button type="button" class="tab" data-panel="aid" role="tab" aria-selected="false">Aid and financing</button>
-          <button type="button" class="tab" data-panel="bp" role="tab" aria-selected="false">Business plan</button>
-          <button type="button" class="tab" data-panel="fraud" role="tab" aria-selected="false">Fraud review</button>
+          <button type="button" class="tab is-active" data-panel="ask" role="tab" aria-selected="true" data-icon="chat">Chat</button>
+          <button type="button" class="tab" data-panel="legal" role="tab" aria-selected="false" data-icon="legal">Legal workspace</button>
+          <button type="button" class="tab" data-panel="aid" role="tab" aria-selected="false" data-icon="aid">Aid and financing</button>
+          <button type="button" class="tab" data-panel="bp" role="tab" aria-selected="false" data-icon="plan">Business plan</button>
+          <button type="button" class="tab" data-panel="fraud" role="tab" aria-selected="false" data-icon="fraud">Fraud review</button>
         </nav>
         <label class="language-picker" for="ui-language">Interface language
           <select id="ui-language">
@@ -32,21 +32,8 @@
       <div class="content">
     <header class="top">
       <h1>Tunisian Legal &amp; Financial Assistant</h1>
-      <p class="lede">
-        Cited answers from Tunisian legal and funding texts, contract drafts,
-        funding eligibility, business-plan review and fraud checks.
-      </p>
+      <p class="lede">Legal sources, funding checks, business plans, fraud review.</p>
     </header>
-
-    <section class="pipeline" aria-label="Workflow">
-      <ol>
-        <li>Intake</li>
-        <li>Router</li>
-        <li>Legal · Grants · Business plan · Fraud</li>
-        <li>Verifier</li>
-        <li>Answer</li>
-      </ol>
-    </section>
 
     <main>
       <section id="ask" class="panel is-active" role="tabpanel">
@@ -59,21 +46,19 @@
             required
             placeholder="Example: Quelles mentions sont obligatoires dans les statuts d'une SARL ?"
           ></textarea>
-          <button type="submit">Ask</button>
+          <button type="submit" data-icon="send">Ask</button>
         </form>
         <div id="ask-result" class="result" hidden></div>
       </section>
 
       <section id="legal" class="panel" role="tabpanel" hidden>
         <h2 class="panel-title">Legal guidance &amp; contract drafting</h2>
-        <p class="note">Business-law and intellectual-property answers checked against their quotes, and contract drafts to review.</p>
         <div class="toolbar"><label for="legal-language">Answer language</label>
           <select id="legal-language"><option value="en">English</option><option value="fr">Français</option><option value="ar">العربية</option></select>
           <a href="/docs" target="_blank" rel="noopener">API documentation</a>
         </div>
         <p id="runtime-status" class="note" role="status">Checking available capabilities…</p>
         <details class="card profile"><summary>Your founder profile</summary>
-          <p class="note">This information stays in this browser tab and is used for your requests. No account is created.</p>
           <form id="profile-form" class="grid">
             <label>Full name<input name="founder_name" type="text" maxlength="200"></label>
             <label>Company / project<input name="company_name" type="text" maxlength="200"></label>
@@ -89,32 +74,30 @@
           </form>
         </details>
         <details class="card documents"><summary>Documents for this request</summary>
-          <p class="note">PDF, DOCX or UTF-8 TXT. Up to 10 MB per file, 3 files. For a long PDF, choose up to 40 pages per reading (600 pages maximum in the file). Originals are not kept.</p>
           <form id="upload-form"><label for="upload">Document</label><input id="upload" type="file" accept=".pdf,.docx,.txt" required>
             <div class="grid"><label>First PDF page<input id="page-start" type="number" min="1" max="600" value="1"></label><label>Last PDF page (optional)<input id="page-end" type="number" min="1" max="600" placeholder="40 pages maximum per reading"></label></div>
             <label class="checkbox"><input id="local-ocr" type="checkbox" checked> Read scanned pages locally (4 pages maximum per upload)</label>
-            <button type="submit">Read the document</button>
+            <button type="submit" data-icon="upload">Read the document</button>
           </form>
           <div id="upload-status" role="status" aria-live="polite"></div><div id="document-list"></div>
         </details>
         <nav class="subtabs" aria-label="Legal functions">
-          <button class="subtab is-active" data-view="guidance" type="button" aria-pressed="true">Legal guidance</button>
-          <button class="subtab" data-view="contracts" type="button" aria-pressed="false">Contract drafting</button>
+          <button class="subtab is-active" data-view="guidance" type="button" aria-pressed="true" data-icon="search">Legal guidance</button>
+          <button class="subtab" data-view="contracts" type="button" aria-pressed="false" data-icon="legal">Contract drafting</button>
         </nav>
         <section id="guidance" class="card">
           <h3>An answer backed by the sources</h3>
-          <div class="toolbar"><label for="checklist-task">Sourced action list</label><select id="checklist-task"><option value="startup_label">Startup label</option><option value="company_creation">Create a company</option><option value="patent">Patent</option><option value="trademark">Trademark</option><option value="copyright">Copyright / software</option></select><button id="checklist" type="button" class="secondary">Prepare the list</button></div>
+          <div class="toolbar"><label for="checklist-task">Sourced action list</label><select id="checklist-task"><option value="startup_label">Startup label</option><option value="company_creation">Create a company</option><option value="patent">Patent</option><option value="trademark">Trademark</option><option value="copyright">Copyright / software</option></select><button id="checklist" type="button" class="secondary" data-icon="list">Prepare the list</button></div>
           <form id="guidance-form">
             <label for="guidance-jurisdiction">Jurisdiction</label><input id="guidance-jurisdiction" type="text" value="Tunisia" maxlength="500" required>
             <label for="legal-question">Your question</label>
             <textarea id="legal-question" rows="4" minlength="3" maxlength="4000" required placeholder="What are the conditions for the startup label? How do I protect a trademark or software?"></textarea>
-            <button type="submit">Search and answer</button>
+            <button type="submit" data-icon="search">Search and answer</button>
           </form>
           <div id="guidance-result" class="result" role="status" aria-live="polite"></div>
         </section>
         <section id="contracts" class="card" hidden>
           <h3>Prepare a draft contract</h3>
-          <p class="note">Confirm the parties and the terms actually agreed. Terms you enter stay in their original language. Documents are used to suggest information; they do not replace your confirmation.</p>
           <form id="contract-form">
             <label for="contract-type">Agreement type</label><select id="contract-type"></select>
             <div class="grid">
@@ -122,47 +105,85 @@
               <label>Proposed effective date<input id="effective-date" type="date"></label>
             </div>
             <label for="purpose">Purpose and context</label><textarea id="purpose" rows="3" maxlength="4000"></textarea>
-            <div class="toolbar"><button id="profile-name" type="button" class="secondary">Use my name for the first party</button><button id="profile-company" type="button" class="secondary">Use my company for the first party</button><button id="profile-context" type="button" class="secondary">Use the project description</button></div>
+            <div class="toolbar"><button id="profile-name" type="button" class="secondary" data-icon="user">Use my name for the first party</button><button id="profile-company" type="button" class="secondary" data-icon="building">Use my company for the first party</button><button id="profile-context" type="button" class="secondary" data-icon="plan">Use the project description</button></div>
             <p id="profile-copy-status" class="note" role="status"></p>
-            <fieldset><legend>Parties</legend><div id="parties"></div><button id="add-party" class="secondary" type="button">Add a party</button></fieldset>
+            <fieldset><legend>Parties</legend><div id="parties"></div><button id="add-party" class="secondary" type="button" data-icon="plus">Add a party</button></fieldset>
             <label id="equity-label" hidden>Equity split (one "name: percentage" line per party)<textarea id="equity" rows="3" placeholder="First founder name: 50&#10;Second founder name: 50"></textarea></label>
             <div id="contract-fields"></div>
-            <button id="suggest" class="secondary" type="button">Suggest fields from the documents</button>
+            <button id="suggest" class="secondary" type="button" data-icon="spark">Suggest fields from the documents</button>
             <div id="suggestions" aria-live="polite"></div>
             <label class="checkbox"><input id="refine" type="checkbox" checked> Improve the wording with the available model, keeping the terms you entered</label>
-            <button type="submit">Prepare the draft for review</button>
+            <button type="submit" data-icon="legal">Prepare the draft for review</button>
           </form>
           <div id="contract-result" class="result" role="status" aria-live="polite"></div>
         </section>
-        <p class="note">Sources match the editions available. A generated draft is neither signed nor validated for your situation. Check the applicable law and the clauses before use.</p>
       </section>
 
       <section id="fraud" class="panel" role="tabpanel" hidden>
+        <nav class="fraud-mode" aria-label="Fraud check type">
+          <div class="fraud-mode-tabs">
+            <button type="button" class="fraud-mode-btn is-active" data-fraud-mode="stamp" aria-pressed="true" data-icon="stamp">Stamp verification</button>
+            <button type="button" class="fraud-mode-btn" data-fraud-mode="payment" aria-pressed="false" data-icon="payment">Payment scoring</button>
+          </div>
+          <button type="button" id="fraud-gallery-open" class="fraud-gallery-btn" data-icon="gallery">Gallery</button>
+        </nav>
         <form id="fraud-form">
-          <label for="document-type">Document type</label>
-          <select id="document-type" name="document_type">
-            <option value="invoice">Invoice</option>
-            <option value="bank_statement">Bank statement</option>
-            <option value="financing_application">Financing application</option>
-            <option value="business_plan">Business plan</option>
-          </select>
-          <label for="file">File</label>
-          <input id="file" name="file" type="file" required />
-          <button type="submit">Hash and hold for review</button>
+          <input type="hidden" name="mode" id="fraud-mode-input" value="stamp" />
+          <p id="fraud-stamp-note" class="note note--compact">PDF or image. Stamp check only. Saves in this browser are reused next time.</p>
+          <div id="fraud-payment-fields" hidden>
+            <p class="note note--compact">JSON with <code>transaction</code>, or PDF/text invoice.</p>
+            <details class="note">
+              <summary>Example payment JSON</summary>
+              <pre>{
+  "transaction": {
+    "transaction_id": "pay-100",
+    "timestamp": "2024-11-18T11:00:00",
+    "amount": 125.0,
+    "currency": "TND",
+    "transaction_type": "transfer",
+    "sender_id": "founder-a",
+    "receiver_id": "supplier-9",
+    "country_from": "TN",
+    "country_to": "TN"
+  },
+  "history": []
+}</pre>
+            </details>
+          </div>
+          <label for="fraud-file">File</label>
+          <input id="fraud-file" name="file" type="file" accept=".pdf,.png,.jpg,.jpeg,.webp" required />
+          <button type="submit" data-icon="run">Run check</button>
         </form>
-        <p class="note">
-          Scoring is not connected. The file stays in the browser request and is
-          not saved into <code>fraud_detection/</code>.
-        </p>
         <div id="fraud-result" class="result" hidden></div>
+        <div id="fraud-gallery" class="fraud-modal fraud-gallery" hidden aria-modal="true" role="dialog" aria-labelledby="fraud-gallery-title">
+          <div class="fraud-modal-backdrop" data-fraud-gallery-dismiss></div>
+          <div class="fraud-modal-card fraud-gallery-card-wrap">
+            <h2 id="fraud-gallery-title" class="fraud-modal-title">Saved stamps</h2>
+            <p id="fraud-gallery-status" class="fraud-modal-sub" role="status"></p>
+            <div id="fraud-gallery-grid" class="fraud-gallery-grid"></div>
+            <div class="fraud-modal-actions">
+              <button type="button" class="fraud-modal-secondary" data-fraud-gallery-dismiss data-icon="close">Close</button>
+            </div>
+          </div>
+        </div>
+        <div id="fraud-modal" class="fraud-modal" hidden aria-modal="true" role="dialog" aria-labelledby="fraud-modal-title">
+          <div class="fraud-modal-backdrop" data-fraud-dismiss></div>
+          <div class="fraud-modal-card">
+            <p class="fraud-modal-eyebrow">Reference mark</p>
+            <h2 id="fraud-modal-title" class="fraud-modal-title"></h2>
+            <p id="fraud-modal-sub" class="fraud-modal-sub"></p>
+            <div id="fraud-modal-preview" class="fraud-modal-preview"></div>
+            <div class="fraud-modal-actions">
+              <button type="button" id="fraud-modal-save" class="fraud-modal-primary" data-icon="save">Save as genuine</button>
+              <button type="button" id="fraud-modal-skip" class="fraud-modal-secondary" data-icon="close">Not now</button>
+            </div>
+            <p id="fraud-modal-status" class="fraud-modal-status" role="status" aria-live="polite"></p>
+            <p id="fraud-modal-step" class="fraud-modal-step"></p>
+          </div>
+        </div>
       </section>
 
       <section id="aid" class="panel" role="tabpanel" hidden>
-        <p class="note">
-          Eligibility is evaluated by deterministic rules. Use the structured
-          fields below, or add a founder description to preserve the intake
-          context and detect legal handoffs.
-        </p>
         <form id="aid-form">
           <label for="aid-free-text">Founder description</label>
           <textarea
@@ -217,7 +238,7 @@
             <label><input name="has_startup_label" type="checkbox" /> Startup label</label>
             <label><input name="is_graduate" type="checkbox" /> Founder is a graduate</label>
           </div>
-          <button type="submit">Evaluate eligibility</button>
+          <button type="submit" data-icon="evaluate">Evaluate eligibility</button>
         </form>
         <div id="aid-result" class="result" hidden></div>
       </section>
@@ -234,11 +255,11 @@
           </div>
         </div>
 
-        <div id="bp-choose" class="bp-choose">
-          <p class="note" data-i18n="pick">How do you want to give me your plan? Pick one. You can switch later.</p>
-          <div class="bp-cards">
-            <button type="button" class="bp-card" data-mode="upload"><strong data-i18n="upload_t">Upload a plan</strong><span data-i18n="upload_d">I already have a document (.docx, .pdf, .xlsx, .txt).</span></button>
-            <button type="button" class="bp-card" data-mode="chat"><strong data-i18n="chat_t">Chat with me</strong><span data-i18n="chat_d">I'll ask a few questions, one at a time.</span></button>
+        <div id="bp-choose" class="bp-choose bp-view-visible">
+          <p class="note note--compact" data-i18n="pick">Choose one path</p>
+          <div class="bp-cards ui-stagger">
+            <button type="button" class="bp-card" data-mode="upload" data-icon="upload"><strong data-i18n="upload_t">Upload a plan</strong><span data-i18n="upload_d">I already have a document (.docx, .pdf, .xlsx, .txt).</span></button>
+            <button type="button" class="bp-card" data-mode="chat" data-icon="chatdots"><strong data-i18n="chat_t">Chat with me</strong><span data-i18n="chat_d">I'll ask a few questions, one at a time.</span></button>
           </div>
         </div>
 
@@ -247,13 +268,14 @@
           <form id="bp-form">
             <label for="bp-file" data-i18n="file_l">Your plan</label>
             <input id="bp-file" type="file" accept=".docx,.pdf,.xlsx,.txt,.md" required />
-            <p class="note">Older .doc and .xls files are not read. Save them as .docx or .xlsx first.</p>
+            <p class="note note--compact">Use .docx or .xlsx (not legacy .doc/.xls).</p>
             <label for="bp-action">What do you want</label>
             <select id="bp-action">
               <option value="review" data-i18n="act_review">Review my plan</option>
+              <option value="review_full" data-i18n="act_full">Review + institutional rewrite (slow)</option>
               <option value="draft_section" data-i18n="act_draft">Draft missing or weak sections</option>
             </select>
-            <button type="submit" data-i18n="run">Run</button>
+            <button type="submit" data-i18n="run" data-icon="run">Run</button>
           </form>
         </div>
 
@@ -263,7 +285,7 @@
           <div id="bp-chips" class="chips"></div>
           <form id="bp-say" class="chat-input">
             <input id="bp-input" type="text" autocomplete="off" placeholder="Type your answer…" data-i18n-ph="ph" />
-            <button type="submit" data-i18n="send">Send</button>
+            <button type="submit" data-i18n="send" data-icon="send">Send</button>
           </form>
         </div>
 
@@ -272,20 +294,19 @@
     </main>
 
     <footer>
-      <p class="note">
-        Answers cite official texts; a retrieval score measures relevance, not legal correctness.
-        Check important decisions with the official text or a professional.
-      </p>
+      <p class="note">Not legal advice. Confirm with official texts or a professional.</p>
     </footer>
       </div>
     </div>
-    <script src="/app.js?v=7"></script>
+    <script src="/icons.js?v=2"></script>
+    <script src="/ui.js?v=1"></script>
+    <script src="/app.js?v=12"></script>
     <script src="/legal.js?v=3"></script>
-    <script src="/bp.js?v=7"></script>
+    <script src="/bp.js?v=13"></script>
     <script>
       // If the business-plan script or styles are an old cached copy, say so instead of showing dead buttons.
       window.addEventListener("load", () => {
-        const stale = window.BP_UI_VERSION !== 7 || getComputedStyle(document.querySelector(".bp-card") || document.body).display !== "flex";
+        const stale = window.BP_UI_VERSION !== 8 || getComputedStyle(document.querySelector(".bp-card") || document.body).display !== "flex";
         if (stale) {
           const n = document.createElement("p");
           n.className = "note";

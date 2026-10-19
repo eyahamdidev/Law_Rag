@@ -1,0 +1,12 @@
+{
+ "governorate": "Sousse",
+ "total_investment": 95000.0,
+ "own_funds": 45000.0,
+ "loan_amount": 50000.0,
+ "revenue_by_year": [
+  140000.0,
+  175000.0,
+  200000.0
+ ],
+ "project_name": "Boulangerie-pâtisserie artisanale Dar El Khobz (Sousse)"
+}

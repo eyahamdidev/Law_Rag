@@ -57,15 +57,31 @@ def _remaining(deadline: float | None) -> float:
     return 1e9 if deadline is None else deadline - time.monotonic()
 
 
+def _http_error(resp: httpx.Response) -> LLMUnavailable:
+    retry_after = 0.0
+    if resp.status_code == 429:
+        try:
+            retry_after = float(resp.headers.get("Retry-After") or 0)
+        except ValueError:
+            retry_after = 0.0
+    exc = LLMUnavailable(f"model endpoint returned HTTP {resp.status_code}.")
+    exc.status_code = resp.status_code  # type: ignore[attr-defined]
+    exc.retry_after = retry_after  # type: ignore[attr-defined]
+    return exc
+
+
 async def _post(client: httpx.AsyncClient, body: dict, remaining: float) -> tuple[str, dict]:
     try:
         resp = await client.post(f"{settings.llm_base_url}/chat/completions", json=body,
                                  headers={"Authorization": f"Bearer {settings.llm_api_key}"},
                                  timeout=min(remaining, settings.llm_request_timeout_s))
     except httpx.HTTPError as exc:
-        raise LLMUnavailable(f"model endpoint unreachable: {exc.__class__.__name__}") from exc
+        err = LLMUnavailable(f"model endpoint unreachable: {exc.__class__.__name__}")
+        err.status_code = None  # type: ignore[attr-defined]
+        err.retry_after = 0.0  # type: ignore[attr-defined]
+        raise err from exc
     if resp.status_code != 200:
-        raise LLMUnavailable(f"model endpoint returned HTTP {resp.status_code}.")
+        raise _http_error(resp)
     data = resp.json()
     try:
         return data["choices"][0]["message"]["content"], data.get("usage") or {}
@@ -91,13 +107,21 @@ async def _chat_section(client: httpx.AsyncClient, *, model: str, system: str, u
         try:
             text, usage = await _post(client, body, remaining)
         except LLMUnavailable as exc:
+            status = getattr(exc, "status_code", None)
             msg = str(exc)
-            transient = (msg.startswith("model endpoint unreachable") or "HTTP 429" in msg
-                         or msg.startswith("model endpoint returned HTTP 5"))
+            transient = (
+                msg.startswith("model endpoint unreachable")
+                or status in (429, 500, 502, 503)
+                or "HTTP 429" in msg
+                or msg.startswith("model endpoint returned HTTP 5")
+            )
             if not transient or attempt >= max_retries:
                 raise
-            await _sleep(min(delay, max(_remaining(deadline) - 1, 0)))
-            delay *= 2
+            wait = delay
+            if status == 429 or "HTTP 429" in msg:
+                wait = max(wait, float(getattr(exc, "retry_after", 0) or 0), 8.0)
+            await _sleep(min(wait, max(_remaining(deadline) - 1, 0)))
+            delay = min(delay * 2, 45.0)
             continue
         try:
             parsed = json.loads(text)
@@ -129,7 +153,7 @@ def _batch_sections(got: dict) -> dict[str, str]:
 
 async def run_final_writer_agent(prompts, facts: str, current_plan: str, critique_report: str, *,
                                  deadline: float | None = None, transport: httpx.AsyncBaseTransport | None = None,
-                                 max_retries: int = 2, mode: str = "batch", seed: int = SEED) -> dict:
+                                 max_retries: int | None = None, mode: str = "batch", seed: int = SEED) -> dict:
     """Write the six final sections. Batch mode: one call, then a per-section top-up for what is missing.
 
     ``seed`` re-rolls the deterministic generation (the regenerate option).
@@ -138,6 +162,9 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
     """
     if mode not in ("batch", "sequential"):
         mode = "batch"
+    if max_retries is None:
+        max_retries = settings.llm_max_retries
+    section_pace = settings.final_writer_section_pace_s
     ps = prompts.load("final_writer", SECTION_PROMPT_VERSION)
     pb = prompts.load("final_writer", BATCH_PROMPT_VERSION)
     model = model_for("llm_main")
@@ -153,10 +180,19 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
     configured = bool(settings.llm_api_key) or transport is not None
     try:
         async with httpx.AsyncClient(transport=transport) as client:
-            async def call(user: str, schema: dict | None, max_tokens: int, retries: int) -> dict:
-                got, u = await _chat_section(client, model=model, system=system, user=user, schema=schema,
-                                             deadline=deadline, max_retries=retries, max_tokens=max_tokens,
-                                             seed=seed)
+            async def call(user: str, schema: dict | None, max_tokens: int, retries: int,
+                           *, use_model: str | None = None) -> dict:
+                got, u = await _chat_section(
+                    client,
+                    model=use_model or model,
+                    system=system,
+                    user=user,
+                    schema=schema,
+                    deadline=deadline,
+                    max_retries=retries,
+                    max_tokens=max_tokens,
+                    seed=seed,
+                )
                 usage["calls"] += 1
                 usage["prompt_tokens"] += int(u.get("prompt_tokens") or 0)
                 usage["completion_tokens"] += int(u.get("completion_tokens") or 0)
@@ -176,15 +212,23 @@ async def run_final_writer_agent(prompts, facts: str, current_plan: str, critiqu
                 except Exception as exc:  # noqa: BLE001  the per-section round below recovers what it can
                     errors["batch"] = f"{exc.__class__.__name__}: {exc}"[:200]
             if configured:
+                section_model = model_for("llm_fast") if errors.get("batch") else model
                 for sid in SECTION_IDS:
                     if sid in texts:
                         continue
                     if _remaining(deadline) <= 1.0:
                         errors[sid] = "LLMUnavailable: time budget exhausted before the model answered."
                         continue
+                    if section_pace > 0 and (texts or errors.get("batch")):
+                        await _sleep(min(section_pace, max(_remaining(deadline) - 2, 0)))
                     try:
-                        got = await call(prompts.render(ps["text"], section=SECTION_TITLES[sid], **common),
-                                         ps.get("output_schema"), MAX_TOKENS, 0 if "batch" in errors else max_retries)
+                        got = await call(
+                            prompts.render(ps["text"], section=SECTION_TITLES[sid], **common),
+                            ps.get("output_schema"),
+                            MAX_TOKENS,
+                            max_retries,
+                            use_model=section_model,
+                        )
                         rid = str(got.get("id") or "").strip()
                         if rid and rid != sid:
                             raise ValueError(f"model wrote section '{rid}' instead of '{sid}'.")

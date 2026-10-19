@@ -131,9 +131,9 @@ SAY = {
     "offer": {"en": "That's enough for a first review. Want me to run it now, or add detail on suppliers, equipment, costs and risks first? The more concrete you are, the more useful the plan.",
               "fr": "C'est suffisant pour une première revue. Je la lance maintenant, ou on ajoute d'abord des détails sur les fournisseurs, les équipements, les coûts et les risques ? Plus vous êtes concret, plus le plan sera utile.",
               "ar": "هذا يكفي لمراجعة أولى. أشغلها الآن أم نضيف تفاصيل عن المزودين والمعدات والكلفة والمخاطر أولا؟ كلما كنتم أدق كانت الخطة أنفع."},
-    "done": {"en": "That's everything I wanted to ask. Ready for the review whenever you are.",
-             "fr": "J'ai fini mes questions. La revue est prête quand vous voulez.",
-             "ar": "انتهت أسئلتي. المراجعة جاهزة متى شئتم."},
+    "done": {"en": "That's everything I wanted to ask. I'll build your Word business plan now (one section per part of the template).",
+             "fr": "J'ai fini mes questions. Je génère maintenant votre business plan Word (une section par rubrique du modèle).",
+             "ar": "انتهت أسئلتي. سأبني الآن خطة العمل بصيغة Word (قسم لكل جزء من النموذج)."},
     "more": {"en": "Sure, a few more.", "fr": "Volontiers, quelques questions de plus.", "ar": "حسنا، بعض الأسئلة الإضافية."},
     "nudge": {"en": "Could you add a bit more? One or two sentences is perfect.", "fr": "Pouvez-vous en dire un peu plus ? Une ou deux phrases suffisent.",
               "ar": "هل يمكنكم الإضافة قليلا؟ جملة أو جملتان تكفي."},
@@ -146,7 +146,7 @@ SAY = {
     "help_default": {"en": "Just answer in your own words. If you don't know, say 'skip'.", "fr": "Répondez simplement avec vos mots. Si vous ne savez pas, dites « passer ».",
                      "ar": "أجيبوا بكلماتكم. إن لم تعرفوا قولوا «تجاوز»."},
 }
-BTN = {"skip": {"en": "Skip", "fr": "Passer", "ar": "تجاوز"}, "review": {"en": "Review my plan now", "fr": "Lancer la revue", "ar": "ابدأ المراجعة"},
+BTN = {"skip": {"en": "Skip", "fr": "Passer", "ar": "تجاوز"}, "review": {"en": "Build my business plan (.docx)", "fr": "Générer mon business plan (.docx)", "ar": "إنشاء خطة العمل (.docx)"},
        "more": {"en": "Add more detail", "fr": "Ajouter des détails", "ar": "إضافة تفاصيل"}}
 
 SKIP_RE = re.compile(r"^\s*(skip|pass|next|idk|i don'?t know|dunno|no idea|not sure|passer|suivant|je ne sais pas|je sais pas|aucune idée|"

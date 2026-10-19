@@ -9,5 +9,20 @@
   172800.0,
   367200.0
  ],
- "project_name": "RendezVousPro: appointment booking and reminders for private clinics"
+ "project_name": "RendezVousPro: appointment booking and reminders for private clinics",
+ "sector": "appointment booking and reminders for private clinics",
+ "stage": "beta",
+ "problem": "Private clinics lose between one in five and one in six booked slots to patients who do not show up, and receptionists spend about a third of their day on phone calls to rebook. Most clinics still use a paper diary or a shared WhatsApp number.",
+ "solution": "web service that lets private clinics in Tunisia take appointments online and send SMS and WhatsApp reminders to patients",
+ "pricing": "180 TND per month per site",
+ "customer_count": "Six clinics",
+ "market_size_note": "about 2,900 private practices and clinics",
+ "competitors": "- paper diary\n- general calendar tools\n- Doctolib",
+ "founders": [
+  "Nour A., CEO",
+  "Yassine M., CTO"
+ ],
+ "risks": "- Clinics may be slow to change habits\n- Messaging costs depend on mobile operators\n- A larger player could enter the market",
+ "currency": "TND",
+ "traction_note": "Six clinics in Tunis and Ariana have used the beta for four months. In a sample of 1,900 appointments, the no-show rate fell from 22% to 11%. Of the six beta clinics, five have asked to convert to a paid plan at the end of the trial."
 }

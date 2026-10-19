@@ -10,12 +10,75 @@
       "problemMatcher": []
     },
     {
+      "label": "Legal assistant: start fraud service",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv-fraud/Scripts/python.exe",
+      "args": ["-m", "fraud_detection", "serve", "--port", "8100"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "fraud-service",
+        "pattern": {"regexp": "^.*$"},
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "Application startup complete"
+        }
+      }
+    },
+    {
+      "label": "Legal assistant: start business-plan service",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv-bp/Scripts/python.exe",
+      "args": ["-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8104"],
+      "options": {
+        "cwd": "${workspaceFolder}/services/bp",
+        "envFile": "${workspaceFolder}/.env",
+        "env": {
+          "LLM_BASE_URL": "https://api.groq.com/openai/v1",
+          "LLM_API_KEY": "${env:GROQ_API_KEY}",
+          "BP_VECTOR_STORE": "off",
+          "BP_TIMEOUT_S": "170",
+          "UPLOADS_DIR": "${workspaceFolder}/data/uploads"
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "bp-service",
+        "pattern": {"regexp": "^.*$"},
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "Application startup complete"
+        }
+      }
+    },
+    {
       "label": "Legal assistant: run API",
       "dependsOn": "Legal assistant: start local model",
       "type": "process",
       "command": "${workspaceFolder}/.venv/Scripts/python.exe",
       "args": ["-m", "uvicorn", "app.main:app", "--app-dir", "backend", "--host", "127.0.0.1", "--port", "8000"],
       "options": {"cwd": "${workspaceFolder}"},
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "main-api",
+        "pattern": {"regexp": "^.*$"},
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "Application startup complete"
+        }
+      }
+    },
+    {
+      "label": "Legal assistant: run stack (like run.cmd)",
+      "dependsOn": [
+        "Legal assistant: start fraud service",
+        "Legal assistant: start business-plan service",
+        "Legal assistant: run API"
+      ],
+      "dependsOrder": "parallel",
       "problemMatcher": []
     },
     {

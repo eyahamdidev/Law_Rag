@@ -154,16 +154,30 @@ def test_aid_creation_lists_bfpme():
     assert "bfpme-creation" in ids
 
 
-def test_fraud_upload_hashes_without_a_risk_level():
+def test_fraud_upload_hashes_without_a_risk_level(monkeypatch):
+    monkeypatch.setattr(settings, "fraud_service_url", "http://127.0.0.1:9")
     response = client.post(
         "/api/fraud/analyze",
-        files={"file": ("facture.txt", b"total 1000", "text/plain")},
-        data={"document_type": "invoice"},
+        files={"file": ("scan.png", b"\x89PNG\r\n", "image/png")},
+        data={"mode": "stamp"},
+        headers={"X-Session-Id": "test-fraud-session"},
     )
     body = response.json()
     assert response.status_code == 200
     assert body["risk_level"] == "unknown"
     assert len(body["document_hash"]) == 64
+
+
+def test_fraud_payment_json_must_include_transaction():
+    response = client.post(
+        "/api/fraud/analyze",
+        files={"file": ("payload.json", b'{"history": []}', "application/json")},
+        data={"mode": "payment"},
+    )
+    body = response.json()
+    assert response.status_code == 200
+    assert body["document_type"] == "payment"
+    assert "transaction" in body["summary"]
 
 
 def test_guardrail_removes_uncited_facts_and_keeps_the_rest():

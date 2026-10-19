@@ -1,0 +1,12 @@
+{
+ "governorate": "Tunis",
+ "total_investment": 60000.0,
+ "own_funds": 15000.0,
+ "funding_need_amount": 60000.0,
+ "revenue_by_year": [
+  120000.0,
+  400000.0,
+  900000.0
+ ],
+ "project_name": "LocalBasket: a delivery app for local products"
+}

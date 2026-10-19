@@ -24,12 +24,50 @@ if (-not (Test-Path (Join-Path $Root "data\index\structural\chunks.jsonl"))) {
     Warn "no search index in data\ (run install.cmd -BuildIndex, or copy a teammate's data\index and data\qdrant). Answers will be empty."
 }
 
+function Get-EnvValue([string]$Name) {
+    $path = Join-Path $Root ".env"
+    foreach ($line in Get-Content $path -Encoding UTF8) {
+        if ($line -match "^$Name=(.*)$") { return $Matches[1].Trim() }
+    }
+    return ""
+}
+
+function Get-FraudBaseUrl {
+    $url = Get-EnvValue "FRAUD_SERVICE_URL"
+    if ($url) { return $url.Trim().TrimEnd("/") }
+    return "http://127.0.0.1:8100"
+}
+
+function Get-PortFromUrl([string]$Url) {
+    if ($Url -match ":(\d+)(/|$)") { return [int]$Matches[1] }
+    return 8100
+}
+
 function Test-Port([int]$Port) { return [bool](Get-NetTCPConnection -LocalPort $Port -State Listen -ErrorAction SilentlyContinue) }
+
+function Test-FraudHealth([string]$BaseUrl) {
+    try {
+        $body = Invoke-RestMethod "$BaseUrl/health" -TimeoutSec 4
+        return ($null -ne $body.status -and $null -ne $body.layers)
+    } catch {
+        return $false
+    }
+}
 
 # Opens a PowerShell window that runs $Command in $Dir. The command reads secrets from .env
 # itself, so no key ever appears on a command line.
-function Start-ServiceWindow([string]$Title, [int]$Port, [string]$Dir, [string]$Command) {
-    if (Test-Port $Port) { Ok "$Title already running on port $Port"; return }
+function Start-ServiceWindow([string]$Title, [int]$Port, [string]$Dir, [string]$Command, [scriptblock]$AlreadyRunning = $null) {
+    if (Test-Port $Port) {
+        if ($AlreadyRunning -and (& $AlreadyRunning)) {
+            Ok "$Title already running on port $Port"
+            return
+        }
+        if (-not $AlreadyRunning) {
+            Ok "$Title already running on port $Port"
+            return
+        }
+        Warn "${Title}: port $Port is already in use by another program (not this service). Change its port in .env or stop the other program."
+    }
     $script = "`$host.UI.RawUI.WindowTitle = '$Title (port $Port)'; Set-Location '$Dir'; $Command"
     Start-Process powershell -ArgumentList @("-NoExit", "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", $script) | Out-Null
     Ok "$Title starting on port $Port"
@@ -40,11 +78,15 @@ $readEnv = "function EnvValue(`$n) { foreach (`$l in Get-Content '$Root\.env' -E
 
 Write-Host "Starting the Tunisian Legal & Financial Assistant" -ForegroundColor White
 
+$fraudUrl = Get-FraudBaseUrl
+$fraudPort = Get-PortFromUrl $fraudUrl
+
 Start-ServiceWindow "Main app" 8000 "$Root\backend" `
     "& '$Root\.venv\Scripts\python.exe' -m uvicorn app.main:app --port 8000"
 
-Start-ServiceWindow "Fraud service" 8100 $Root `
-    "& '$Root\.venv-fraud\Scripts\python.exe' -m fraud_detection serve --port 8100"
+Start-ServiceWindow "Fraud service" $fraudPort $Root `
+    "& '$Root\.venv-fraud\Scripts\python.exe' -m fraud_detection serve --port $fraudPort" `
+    { Test-FraudHealth $fraudUrl }
 
 # The business-plan service uses Groq with the same key, the models a free key allows, and
 # BP_VECTOR_STORE=off (it would otherwise wait on an absent Ollama: ~7 s per plan section).
@@ -52,7 +94,7 @@ Start-ServiceWindow "Business-plan service" 8104 "$Root\services\bp" (
     "$readEnv; " +
     "`$env:LLM_BASE_URL = 'https://api.groq.com/openai/v1'; `$env:LLM_API_KEY = (EnvValue 'GROQ_API_KEY'); " +
     "`$env:LLM_MODEL_MAIN = (EnvValue 'LLM_MODEL_MAIN'); `$env:LLM_MODEL_FAST = (EnvValue 'LLM_MODEL_FAST'); " +
-    "`$env:BP_LLM_STEPS = (EnvValue 'BP_LLM_STEPS'); `$env:LLM_TIMEOUT_S = '45'; `$env:BP_TIMEOUT_S = '170'; " +
+    "`$env:BP_LLM_STEPS = (EnvValue 'BP_LLM_STEPS'); `$lt = (EnvValue 'LLM_TIMEOUT_S'); if (-not `$lt) { `$lt='45' }; `$env:LLM_TIMEOUT_S = `$lt; `$bt = (EnvValue 'BP_TIMEOUT_S'); if (-not `$bt) { `$bt='240' }; `$env:BP_TIMEOUT_S = `$bt; " +
     "`$env:BP_VECTOR_STORE = 'off'; `$env:UPLOADS_DIR = '$Root\data\uploads'; `$env:PYTHONIOENCODING = 'utf-8'; " +
     "& '$Root\.venv-bp\Scripts\python.exe' -m uvicorn app.main:app --port 8104")
 
@@ -68,12 +110,19 @@ if ($WithN8n) {
 # Wait until each service answers. The main app also loads the search models (about a minute).
 Write-Host ""
 Write-Host "Waiting for the services (the first start can take 1-2 minutes)..."
-$checks = @(@("Main app", "http://127.0.0.1:8000/api/health"), @("Fraud service", "http://127.0.0.1:8100/health"), @("Business-plan service", "http://127.0.0.1:8104/health"))
+$checks = @(
+    @("Main app", "http://127.0.0.1:8000/api/health", $false),
+    @("Fraud service", "$fraudUrl/health", $true),
+    @("Business-plan service", "http://127.0.0.1:8104/health", $false)
+)
 $deadline = (Get-Date).AddSeconds(240)
 foreach ($c in $checks) {
     $up = $false
     while (-not $up -and (Get-Date) -lt $deadline) {
-        try { $null = Invoke-WebRequest $c[1] -UseBasicParsing -TimeoutSec 3; $up = $true } catch { Start-Sleep -Seconds 2 }
+        try {
+            if ($c[2]) { $up = Test-FraudHealth ($c[1] -replace "/health$", "") }
+            else { $null = Invoke-WebRequest $c[1] -UseBasicParsing -TimeoutSec 3; $up = $true }
+        } catch { Start-Sleep -Seconds 2 }
     }
     if ($up) { Ok "$($c[0]) is up" } else { Warn "$($c[0]) did not answer: look at its window for the error" }
 }

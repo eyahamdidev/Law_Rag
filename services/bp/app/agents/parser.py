@@ -121,6 +121,64 @@ def map_keywords(segs: list[Segment], template: dict, threshold: float = 1.0) ->
             seg.section_id, seg.method, seg.confidence = None, "none", 0.0
 
 
+def map_unmapped_fallback(segs: list[Segment], template: dict, threshold: float = 0.45) -> None:
+    """Place segments the strict heading pass missed when body keywords still point clearly at one section."""
+    for seg in segs:
+        if seg.section_id is not None or not seg.text.strip():
+            continue
+        ranked = score_segment(seg, template)
+        best, score = ranked[0], ranked[0][1]
+        if score >= threshold:
+            seg.section_id, seg.method = best, "keywords_soft"
+            seg.confidence = round(min(0.72, score / 4.0), 2)
+
+
+_PRESENTATION_PROJECT = re.compile(r"presentation\s+du\s+projet", re.I)
+
+
+def apply_bfpme_heading_aliases(segs: list[Segment]) -> None:
+    """Many Tunisian BFPME plans use 'Présentation du projet' for the offer, not a separate executive summary."""
+    for seg in segs:
+        h = norm(seg.heading)
+        if _PRESENTATION_PROJECT.search(h) and seg.section_id in (None, "executive_summary"):
+            seg.section_id, seg.method = "project_description", "alias"
+            seg.confidence = max(seg.confidence, 0.88)
+
+
+LEGAL_SNIP = re.compile(
+    r"(?:forme\s+juridique|structure\s+juridique|capital\s+social|\bsarl\b|\bsuarl\b|\bsa\b).{0,500}",
+    re.I | re.S,
+)
+
+
+def inject_prose_hints(doc: Document, plan: ParsedPlan, template: dict) -> None:
+    """Copy short snippets into empty sections when the facts appear elsewhere in the document."""
+    idx = {s["id"] for s in template["sections"]}
+    if "legal_structure" in idx and not (plan.sections.get("legal_structure") or {}).get("text", "").strip():
+        m = LEGAL_SNIP.search(doc.text)
+        if m:
+            snippet = re.sub(r"\s+", " ", m.group(0)).strip()[:900]
+            plan.sections["legal_structure"] = {
+                "text": snippet,
+                "segments": [{"heading": "prose hint", "page": None, "bbox": None}],
+                "confidence": 0.55,
+                "method": "prose_hint",
+            }
+
+
+def sync_executive_and_project(plan: ParsedPlan) -> None:
+    """When only one of the two intro sections was mapped, mirror enough text for both rubrics."""
+    proj = (plan.sections.get("project_description") or {}).get("text", "").strip()
+    exe = (plan.sections.get("executive_summary") or {}).get("text", "").strip()
+    if proj and not exe:
+        plan.sections["executive_summary"] = {
+            "text": proj[:1400],
+            "segments": plan.sections["project_description"].get("segments", []),
+            "confidence": min(0.8, plan.sections["project_description"].get("confidence", 0.6)),
+            "method": "mirror",
+        }
+
+
 def map_llm(segs: list[Segment], template: dict, llm: LLMClient, masker: Masker, lang: str, trace: Trace) -> None:
     """Ask the model about unplaced or ambiguous segments only."""
     todo = [i for i, s in enumerate(segs) if s.section_id is None or s.confidence < 0.6]
@@ -427,6 +485,8 @@ def parse(doc: Document, template: dict, *, llm: LLMClient, masker: Masker, lang
     with trace.step("parser.keywords"):
         segs = segment(doc)
         map_keywords(segs, template)
+        apply_bfpme_heading_aliases(segs)
+        map_unmapped_fallback(segs, template)
     if mode in ("auto", "llm"):
         if mode == "llm":
             for s in segs:
@@ -457,5 +517,7 @@ def parse(doc: Document, template: dict, *, llm: LLMClient, masker: Masker, lang
         for k, v in llm_facts.items():  # mechanical facts (tables, governorate, currency) keep priority
             if k not in plan.facts:
                 plan.facts[k] = v
+        inject_prose_hints(doc, plan, template)
+        sync_executive_and_project(plan)
         _dump_facts(plan.facts)
     return plan

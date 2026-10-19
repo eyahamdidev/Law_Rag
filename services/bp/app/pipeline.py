@@ -45,9 +45,9 @@ STATUTE_HINT = re.compile(r"\b(article|art\.|loi|décret|decret|code des|jort|ci
 AID_HINT = re.compile(r"\b(bfpme|subvention|grant|prime|incitation|startup act|programme|programs?|éligib\w+|eligib\w+|bts|fonapram|sotugar)\b", re.I)
 
 SUMMARY = {
-    "en": "Plan completeness {score}/100 across {n} sections. {high} points need a close look, {review} are worth a second check. {missing}",
-    "fr": "Complétude du plan : {score}/100 sur {n} sections. {high} points demandent une vérification attentive, {review} méritent un second contrôle. {missing}",
-    "ar": "اكتمال الخطة: {score}/100 على {n} أقسام. {high} نقاط تستدعي مراجعة دقيقة و{review} تستحق تدقيقا ثانيا. {missing}",
+    "en": "Review across {n} sections. {high} points need a close look, {review} are worth a second check. {missing}",
+    "fr": "Revue sur {n} sections. {high} points demandent une vérification attentive, {review} méritent un second contrôle. {missing}",
+    "ar": "مراجعة على {n} أقسام. {high} نقاط تستدعي مراجعة دقيقة و{review} تستحق تدقيقا ثانيا. {missing}",
 }
 MISSING_TXT = {
     "en": "Missing or weak sections: {names}.",
@@ -130,7 +130,7 @@ def _profile_signals(ctx: Context, model: fin.FinancialModel) -> list[Signal]:
 def _summary(lang: str, score: int, n: int, signals: list[Signal], weak: list[str]) -> str:
     lang = lang if lang in SUMMARY else "en"
     miss = MISSING_TXT[lang].format(names=", ".join(weak[:6])) if weak else ""
-    return SUMMARY[lang].format(score=score, n=n, high=sum(s.severity == "high" for s in signals),
+    return SUMMARY[lang].format(n=n, high=sum(s.severity == "high" for s in signals),
                                 review=sum(s.severity == "review" for s in signals), missing=miss).strip()
 
 
@@ -148,6 +148,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     except (TypeError, ValueError):
         raise ModuleError("BAD_INPUT", "options.seed must be an integer.")
     lang = req.lang if req.lang in ("fr", "ar", "en") else "fr"
+    doc_lang: str | None = None
     deadline = time.monotonic() + settings.timeout_budget_s
     llm = llm or LLMClient(deadline=deadline)
     if llm.deadline is None:
@@ -170,6 +171,12 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
     with trace.step("intake"):
         if req.file_ref:
             doc = read_document(storage.read(req.file_ref))
+    if doc is not None and opt.get("detect_lang", True):
+        from app.lang_detect import detect_document_lang
+
+        doc_lang = detect_document_lang(doc.text, default=lang)
+        if doc_lang != lang:
+            trace.note(f"document language looks like {doc_lang}; UI lang stays {lang}")
     ctx0 = merge_context(req.profile, answers, None)
     heads = [b.text for b in doc.blocks if b.kind == "heading"] if doc is not None else None
     template_id = choose_template(opt.get("template"), ctx0.get("stage"), heads)
@@ -182,7 +189,8 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
 
     plan = parser_agent.ParsedPlan()
     if doc is not None:
-        plan = parser_agent.parse(doc, template, llm=llm if (use_llm and settings.llm_step("parser")) else LLMClient(api_key="", cache=False), masker=masker, lang=lang,
+        content_lang = doc_lang or lang
+        plan = parser_agent.parse(doc, template, llm=llm if (use_llm and settings.llm_step("parser")) else LLMClient(api_key="", cache=False), masker=masker, lang=content_lang,
                                   trace=trace, mode=opt.get("parser_mode", "auto"))
         if plan.model.origin == "none" and doc.scanned_pages and use_llm and settings.llm_step("vision"):
             rows = chart_maker.read_charts(doc, llm, trace)
@@ -355,24 +363,19 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
         with trace.step("critic"):
             crit = critic_agent.critique(full_text, sections, reviews, lang=lang, llm=llm, masker=masker, trace=trace,
                                          use_llm=use_llm and settings.llm_step("critic"), values=ctx.values, derived=derived)
-        # The anti-fabrication writer (final_writer v6) runs BEFORE the plan document is built, so that its six sections
-        # open the founder's plan instead of only landing in the review report.
         final_plan = None
-        if use_llm and settings.llm_step("final_writer"):
-            with trace.step("final_writer"):
-                final_plan = _final_plan(masker, ctx.values, derived, full_text, crit, deadline, mode=fw_mode, seed=fw_seed)
-            if final_plan is not None:
-                report["final_plan"] = final_plan
+        settle = ""
         with trace.step("plan_document"):
             rv_by = {r.section_id: r for r in reviews}
             exec_id = "executive_summary"
             comps: dict[str, dict] = {}
+            min_polish_s = 12.0
             for sec in template["sections"]:
                 if sec["id"] == exec_id:
                     continue
                 comp = plan_doc.compose_section(sec, ctx.values, derived, lang)
                 hits = guidance.retrieve(sec["id"], label(sec["title"], "en"), k=2)
-                if use_llm and settings.llm_step("plan_writer"):
+                if use_llm and settings.llm_step("plan_writer") and (deadline - time.monotonic()) > min_polish_s:
                     plan_doc.polish(comp, sec, ctx.values, derived, hits, lang, llm, masker, trace)
                 ctx_text = plan_doc.critic_context(sec["id"], sections, comp, full_text)
                 plan_doc.advise(comp, rv_by.get(sec["id"]), hits, lang, critic_notes=crit.notes_for(sec["id"], ctx_text))
@@ -381,7 +384,7 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
             exec_comp = plan_doc.compose_section(exec_sec, ctx.values, derived, lang)
             plan_doc.build_executive_summary(exec_comp, exec_sec, ctx.values, derived, lang)
             hits = guidance.retrieve(exec_id, label(exec_sec["title"], "en"), k=2)
-            if use_llm and settings.llm_step("plan_writer"):
+            if use_llm and settings.llm_step("plan_writer") and (deadline - time.monotonic()) > min_polish_s:
                 plan_doc.polish(exec_comp, exec_sec, ctx.values, derived, hits, lang, llm, masker, trace)
             exec_ctx = plan_doc.critic_context(exec_id, sections, exec_comp, full_text)
             plan_doc.advise(exec_comp, rv_by.get(exec_id), hits, lang, critic_notes=crit.notes_for(exec_id, exec_ctx))
@@ -392,8 +395,22 @@ def run(req: Request, llm: LLMClient | None = None) -> Response:
             if settle:
                 open_items.append((SETTLE_TITLE.get(lang, SETTLE_TITLE["en"]), settle))
             plan_bytes = plan_doc.build_plan_docx(str(ctx.get("project_name") or ""), secs, chart_png, lang, open_items,
-                                                  critique=crit.to_dict(), final_plan=final_plan)
+                                                  critique=crit.to_dict(), final_plan=None)
         artifacts.append(Artifact(kind="docx", file_ref=storage.put(plan_bytes), label="business_plan"))
+        # Chat builds prioritise the Word file (plan_writer sections). Institutional rewrite runs only if time remains.
+        chat_build = bool(opt.get("chat_build"))
+        run_final = use_llm and settings.llm_step("final_writer") and not chat_build
+        if chat_build and use_llm and settings.llm_step("final_writer") and (deadline - time.monotonic()) > 90:
+            run_final = True
+        if run_final:
+            with trace.step("final_writer"):
+                final_plan = _final_plan(masker, ctx.values, derived, full_text, crit, deadline, mode=fw_mode, seed=fw_seed)
+            if final_plan is not None:
+                report["final_plan"] = final_plan
+                if plan_doc._usable_narrative(final_plan):
+                    plan_bytes = plan_doc.build_plan_docx(str(ctx.get("project_name") or ""), secs, chart_png, lang, open_items,
+                                                          critique=crit.to_dict(), final_plan=final_plan)
+                    artifacts[-1] = Artifact(kind="docx", file_ref=storage.put(plan_bytes), label="business_plan")
         report["critique"] = crit.to_dict()
         report["generated_plan"] = {"sections": [{"id": s_["id"], "title": s_["title"], "missing": s_["missing"], "polished": bool(s_.get("polished")),
                                                   "claims_removed": s_.get("claims_removed", []), "advice": s_.get("advice", [])} for s_ in secs],

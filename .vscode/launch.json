@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "Legal assistant: API",
-      "preLaunchTask": "Legal assistant: start local model",
+      "preLaunchTask": "Legal assistant: run stack (like run.cmd)",
       "type": "debugpy",
       "request": "launch",
       "module": "uvicorn",

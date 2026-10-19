@@ -1,3 +1,12 @@
 {
- "project_name": "TuniCoin Invest : le placement qui travaille pour vous"
+ "project_name": "TuniCoin Invest : le placement qui travaille pour vous",
+ "sector": "placement collectif en actifs numériques et en immobilier",
+ "solution": "programme de placement collectif en actifs numériques et en immobilier",
+ "pricing": "3 % par mois, soit 36 % par an",
+ "customer_count": "300 membres",
+ "founders": [
+  "Mr Fortune"
+ ],
+ "currency": "TND",
+ "traction_note": "aucun mois négatif depuis le lancement"
 }

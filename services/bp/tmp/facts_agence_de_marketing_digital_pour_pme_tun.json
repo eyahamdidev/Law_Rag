@@ -1,0 +1,11 @@
+{
+ "governorate": "Tunis",
+ "total_investment": 40000.0,
+ "own_funds": 40000.0,
+ "revenue_by_year": [
+  78000.0,
+  195000.0,
+  390000.0
+ ],
+ "project_name": "Agence de marketing digital pour PME (Tunis)"
+}
