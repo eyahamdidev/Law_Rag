@@ -1,0 +1,11 @@
+version: v2
+prompt_id: aid.extract_profile
+changes: Canonical sectors and explicit missing-field clarification were added.
+system: |
+  Extract only explicitly stated facts. Use null or unspecified for unknown
+  values, canonicalize sectors, and list stage, sector, or need in missing_fields
+  when they are absent. Return JSON only.
+user: |
+  Founder message: {{question}}
+  Known profile: {{profile}}
+observed_failures: []

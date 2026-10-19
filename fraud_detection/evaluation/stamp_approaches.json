@@ -1,0 +1,510 @@
+{
+  "seed": 20261012,
+  "dataset": "generated scan copies and mutations of four fictitious stamps",
+  "labels_csv_present": false,
+  "real_world_counterfeits": false,
+  "limitation": "Four source documents. Filename holdout and this sample both reuse those identities. These rates are not a real-world false-acceptance rate.",
+  "same_identity_enrolled_pdf": {
+    "C_reference_rules": {
+      "reference": {
+        "genuine": 9,
+        "fraudulent": 0,
+        "uncertain": 191,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      },
+      "counterfeit": {
+        "genuine": 0,
+        "fraudulent": 13,
+        "uncertain": 187,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      }
+    },
+    "A_lightgbm_binary_0.30": {
+      "reference": {
+        "genuine": 12,
+        "fraudulent": 188,
+        "uncertain": 0,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      },
+      "counterfeit": {
+        "genuine": 1,
+        "fraudulent": 199,
+        "uncertain": 0,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      }
+    },
+    "A_lightgbm_abstain": {
+      "reference": {
+        "genuine": 2,
+        "fraudulent": 139,
+        "uncertain": 59,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      },
+      "counterfeit": {
+        "genuine": 0,
+        "fraudulent": 173,
+        "uncertain": 27,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      }
+    },
+    "B_alignment_ncc_only": {
+      "reference": {
+        "genuine": 14,
+        "fraudulent": 0,
+        "uncertain": 186,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      },
+      "counterfeit": {
+        "genuine": 4,
+        "fraudulent": 0,
+        "uncertain": 189,
+        "unrecognized": 7,
+        "missing": 0,
+        "n": 200
+      }
+    },
+    "B_low_ncc_called_fraud": {
+      "reference": {
+        "genuine": 14,
+        "fraudulent": 8,
+        "uncertain": 178,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      },
+      "counterfeit": {
+        "genuine": 4,
+        "fraudulent": 46,
+        "uncertain": 150,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 200
+      }
+    }
+  },
+  "preregistered": {
+    "procedure": "Seed 20261012. For each family, sorted filenames, two reference and two counterfeit names drawn with random.sample before scoring.",
+    "confusion": {
+      "reference": {
+        "genuine": 1,
+        "fraudulent": 0,
+        "uncertain": 7,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 8
+      },
+      "counterfeit": {
+        "genuine": 0,
+        "fraudulent": 0,
+        "uncertain": 8,
+        "unrecognized": 0,
+        "missing": 0,
+        "n": 8
+      }
+    },
+    "rows": [
+      {
+        "doc": "balance",
+        "name": "balance_0055_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.8362,
+        "genuine_probability": 0.0353,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.8362,
+          "local_min": 0.612,
+          "row_corr": 0.975,
+          "row_floor": 0.8762,
+          "mae": 14.083,
+          "low_block": 0.0,
+          "bright_peak": 62.4,
+          "dark_peak": 77.8,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0001_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.8762,
+        "genuine_probability": 0.043,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.8762,
+          "local_min": 0.7158,
+          "row_corr": 0.9925,
+          "row_floor": 0.8762,
+          "mae": 11.971,
+          "low_block": 0.0,
+          "bright_peak": 50.4,
+          "dark_peak": 69.0,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0009_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.8879,
+        "genuine_probability": 0.1228,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.8879,
+          "local_min": 0.0,
+          "row_corr": 0.9808,
+          "row_floor": 0.8762,
+          "mae": 15.159,
+          "low_block": 0.083,
+          "bright_peak": 38.4,
+          "dark_peak": 74.4,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "balance",
+        "name": "balance_0000_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.5168,
+        "genuine_probability": 0.0058,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.5168,
+          "local_min": 0.1366,
+          "row_corr": 0.9404,
+          "row_floor": 0.8762,
+          "mae": 24.935,
+          "low_block": 0.682,
+          "bright_peak": 157.3,
+          "dark_peak": 141.5,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0002_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.9215,
+        "genuine_probability": 0.0635,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9215,
+          "local_min": 0.7692,
+          "row_corr": 0.9404,
+          "row_floor": 0.8765,
+          "mae": 15.289,
+          "low_block": 0.0,
+          "bright_peak": 28.6,
+          "dark_peak": 46.4,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0069_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "text_mismatch"
+        ],
+        "alignment_ncc": 0.941,
+        "genuine_probability": 0.1318,
+        "evidence": {
+          "content": "different",
+          "quality": "ok",
+          "ncc": 0.941,
+          "local_min": 0.0,
+          "row_corr": 0.9508,
+          "row_floor": 0.8765,
+          "mae": 9.63,
+          "low_block": 0.172,
+          "bright_peak": 15.4,
+          "dark_peak": 43.7,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0098_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.9531,
+        "genuine_probability": 0.0022,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9531,
+          "local_min": 0.902,
+          "row_corr": 0.9911,
+          "row_floor": 0.8765,
+          "mae": 7.202,
+          "low_block": 0.0,
+          "bright_peak": 27.8,
+          "dark_peak": 29.6,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "capital",
+        "name": "capital_0068_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.9598,
+        "genuine_probability": 0.0044,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9598,
+          "local_min": 0.0,
+          "row_corr": 0.9551,
+          "row_floor": 0.8765,
+          "mae": 7.83,
+          "low_block": 0.172,
+          "bright_peak": 31.2,
+          "dark_peak": 36.8,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "labellisation",
+        "name": "labellisation_0077_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "text_mismatch"
+        ],
+        "alignment_ncc": 0.7707,
+        "genuine_probability": 0.0058,
+        "evidence": {
+          "content": "different",
+          "quality": "ok",
+          "ncc": 0.7707,
+          "local_min": 0.419,
+          "row_corr": 0.921,
+          "row_floor": 0.8558,
+          "mae": 28.559,
+          "low_block": 0.111,
+          "bright_peak": 97.0,
+          "dark_peak": 85.3,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "labellisation",
+        "name": "labellisation_0011_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "text_mismatch"
+        ],
+        "alignment_ncc": 0.7437,
+        "genuine_probability": 0.0051,
+        "evidence": {
+          "content": "different",
+          "quality": "ok",
+          "ncc": 0.7437,
+          "local_min": 0.4391,
+          "row_corr": 0.8783,
+          "row_floor": 0.8558,
+          "mae": 30.619,
+          "low_block": 0.139,
+          "bright_peak": 97.7,
+          "dark_peak": 71.0,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "labellisation",
+        "name": "labellisation_0028_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "text_mismatch"
+        ],
+        "alignment_ncc": 0.7009,
+        "genuine_probability": 0.0056,
+        "evidence": {
+          "content": "different",
+          "quality": "ok",
+          "ncc": 0.7009,
+          "local_min": 0.3273,
+          "row_corr": 0.8612,
+          "row_floor": 0.8558,
+          "mae": 34.309,
+          "low_block": 0.25,
+          "bright_peak": 102.4,
+          "dark_peak": 90.2,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "labellisation",
+        "name": "labellisation_0055_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "text_mismatch"
+        ],
+        "alignment_ncc": 0.6959,
+        "genuine_probability": 0.0022,
+        "evidence": {
+          "content": "different",
+          "quality": "ok",
+          "ncc": 0.6959,
+          "local_min": 0.3716,
+          "row_corr": 0.8662,
+          "row_floor": 0.8558,
+          "mae": 34.287,
+          "low_block": 0.306,
+          "bright_peak": 105.8,
+          "dark_peak": 84.8,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "subvention",
+        "name": "subvention_0007_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.9367,
+        "genuine_probability": 0.1665,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9367,
+          "local_min": 0.8322,
+          "row_corr": 0.9947,
+          "row_floor": 0.9043,
+          "mae": 9.484,
+          "low_block": 0.0,
+          "bright_peak": 28.0,
+          "dark_peak": 40.3,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "subvention",
+        "name": "subvention_0017_reference.jpg",
+        "ground_truth": "reference",
+        "verdict": "genuine",
+        "reason_codes": [
+          "reference_match"
+        ],
+        "alignment_ncc": 0.9694,
+        "genuine_probability": 0.0071,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9694,
+          "local_min": 0.9349,
+          "row_corr": 0.9973,
+          "row_floor": 0.9043,
+          "mae": 7.435,
+          "low_block": 0.0,
+          "bright_peak": 17.2,
+          "dark_peak": 28.5,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "subvention",
+        "name": "subvention_0034_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.8704,
+        "genuine_probability": 0.0114,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.8704,
+          "local_min": 0.3532,
+          "row_corr": 0.9694,
+          "row_floor": 0.9043,
+          "mae": 11.701,
+          "low_block": 0.087,
+          "bright_peak": 89.5,
+          "dark_peak": 100.1,
+          "model_score_used": false
+        }
+      },
+      {
+        "doc": "subvention",
+        "name": "subvention_0078_counterfeit.jpg",
+        "ground_truth": "counterfeit",
+        "verdict": "uncertain",
+        "reason_codes": [
+          "insufficient_evidence"
+        ],
+        "alignment_ncc": 0.9316,
+        "genuine_probability": 0.0226,
+        "evidence": {
+          "content": "same",
+          "quality": "ok",
+          "ncc": 0.9316,
+          "local_min": 0.8804,
+          "row_corr": 0.936,
+          "row_floor": 0.9043,
+          "mae": 14.412,
+          "low_block": 0.0,
+          "bright_peak": 16.6,
+          "dark_peak": 49.9,
+          "model_score_used": false
+        }
+      }
+    ]
+  },
+  "not_added": [
+    "YOLO and a learned embedding were not added. Four identities cannot support that evaluation.",
+    "LightGBM remains loaded so genuine_probability can be inspected. stamp_verdict ignores it."
+  ]
+}

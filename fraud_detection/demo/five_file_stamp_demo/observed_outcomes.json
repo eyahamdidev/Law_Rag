@@ -1,0 +1,162 @@
+{
+  "organization": "organization-a",
+  "counterfeit_jpeg_sha256": "c5387977e865fb9a435b89d68535d6e007968d920d30e3ef092d990327c4775a",
+  "counterfeit_pdf_embeds_that_jpeg": true,
+  "enrollment": {
+    "file": "attestation_liberation_capital.pdf",
+    "upload": "pdf",
+    "status_before_approval": "awaiting_approval",
+    "reason_codes_before_approval": [
+      "insufficient_reference"
+    ],
+    "decide_enrolled": true,
+    "decide_reason": "saved"
+  },
+  "genuine": {
+    "http_status": 200,
+    "file": "attestation_liberation_capital.pdf",
+    "upload": "pdf",
+    "checked": true,
+    "approval_required": true,
+    "warnings": [],
+    "verdict": "genuine",
+    "status": "match",
+    "reason_codes": [
+      "reference_match"
+    ],
+    "alignment_ncc": 1.0,
+    "question": null,
+    "proposal_id_present": false,
+    "proposal_id": null,
+    "review_recommended": false,
+    "risk_level": "low",
+    "signature_status": "awaiting_approval"
+  },
+  "fraudulent": {
+    "http_status": 200,
+    "file": "capital_0019_counterfeit.pdf",
+    "upload": "pdf",
+    "checked": true,
+    "approval_required": true,
+    "warnings": [
+      "stamp_fraudulent"
+    ],
+    "verdict": "fraudulent",
+    "status": "fraudulent",
+    "reason_codes": [
+      "local_ink_anomaly"
+    ],
+    "alignment_ncc": 0.5438,
+    "question": null,
+    "proposal_id_present": false,
+    "proposal_id": null,
+    "review_recommended": true,
+    "risk_level": "high",
+    "signature_status": "awaiting_approval"
+  },
+  "unrecognized": {
+    "http_status": 200,
+    "file": "decision_attribution_subvention.pdf",
+    "upload": "pdf",
+    "checked": true,
+    "approval_required": true,
+    "warnings": [
+      "stamp_unrecognized"
+    ],
+    "verdict": "unrecognized",
+    "status": "unrecognized",
+    "reason_codes": [
+      "no_matching_enrolled_identity"
+    ],
+    "alignment_ncc": 0.1324,
+    "question": "This stamp reads \"COMIT\u00c9 FICTIF D'ATTRIBUTION FONDS REGIONAL - EXEMPLE LE. : 1928374 A/M/000 Sfax - Tunis...\". The saved stamp reads \"POU td Da MEAS EA MON, PUBLIQUE sat QUE FICy > Vp LF. : 1745039 C/P/000 e 23 F\u00c9V 2024 S...\". The content is not the same. Save it as a new genuine stamp?",
+    "proposal_id_present": true,
+    "review_recommended": true,
+    "risk_level": "medium",
+    "signature_status": "awaiting_approval"
+  },
+  "additional": [
+    {
+      "http_status": 200,
+      "file": "capital_0000_reference.jpg",
+      "upload": "image",
+      "checked": true,
+      "approval_required": true,
+      "warnings": [],
+      "verdict": "genuine",
+      "status": "match",
+      "reason_codes": [
+        "reference_match"
+      ],
+      "alignment_ncc": 0.9754,
+      "question": null,
+      "proposal_id_present": false,
+      "review_recommended": false,
+      "risk_level": "low",
+      "signature_status": "awaiting_approval"
+    },
+    {
+      "http_status": 200,
+      "file": "capital_0019_counterfeit.jpg",
+      "upload": "image",
+      "checked": true,
+      "approval_required": true,
+      "warnings": [
+        "stamp_fraudulent"
+      ],
+      "verdict": "fraudulent",
+      "status": "fraudulent",
+      "reason_codes": [
+        "local_ink_anomaly"
+      ],
+      "alignment_ncc": 0.5264,
+      "question": null,
+      "proposal_id_present": false,
+      "review_recommended": true,
+      "risk_level": "high",
+      "signature_status": "awaiting_approval"
+    },
+    {
+      "http_status": 200,
+      "file": "capital_0008_counterfeit.jpg",
+      "upload": "image",
+      "checked": true,
+      "approval_required": true,
+      "warnings": [
+        "stamp_uncertain"
+      ],
+      "verdict": "uncertain",
+      "status": "uncertain",
+      "reason_codes": [
+        "insufficient_evidence"
+      ],
+      "alignment_ncc": 0.923,
+      "question": "This stamp is not clear enough to call genuine or fraudulent. Review it manually. It has not been enrolled.",
+      "proposal_id_present": false,
+      "review_recommended": true,
+      "risk_level": "medium",
+      "signature_status": "awaiting_approval"
+    },
+    {
+      "http_status": 200,
+      "file": "oval_02_har_000.jpg",
+      "upload": "image",
+      "checked": true,
+      "approval_required": false,
+      "warnings": [
+        "missing_stamp"
+      ],
+      "verdict": null,
+      "status": "missing",
+      "reason_codes": [
+        "missing_stamp"
+      ],
+      "alignment_ncc": null,
+      "question": null,
+      "proposal_id_present": false,
+      "review_recommended": true,
+      "risk_level": "medium",
+      "signature_status": null
+    }
+  ]
+}

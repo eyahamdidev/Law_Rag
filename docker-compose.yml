@@ -4,81 +4,61 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - .env.example
+      - .env
+    environment:
+      QDRANT_URL: ""            # embedded Qdrant in ./data; set to http://qdrant:6333 with the ml profile
+      BP_SERVICE_URL: http://bp:8104
+      UPLOADS_DIR: /app/data/uploads
     volumes:
       - ./law:/app/law:ro
       - ./grants_and_financial_aids:/app/grants_and_financial_aids:ro
+      - ./business_plan:/app/business_plan:ro
       - ./fraud_detection:/app/fraud_detection
-      - uploads:/data/uploads
-    environment:
-      BP_SERVICE_URL: http://bp:8104
-      UPLOADS_DIR: /data/uploads
-      # Local models are slow: let the gateway wait as long as bp itself may take.
-      BP_TIMEOUT_S: ${BP_TIMEOUT_S:-600}
+      - ./data:/app/data        # chunks, embedding cache, vectors, OCR text, sessions, uploads
     depends_on:
       - bp
 
-  # P4 business plan. Own image, own lockfile. Talks to the bundled Ollama below by default;
-  # set LLM_BASE_URL/LLM_API_KEY to use a hosted OpenAI-compatible API instead, or
-  # `docker compose up api bp --no-deps` to run fully deterministic (no model).
+  # Business plan service (services/bp/), its own image and lockfile. Model access comes
+  # from .env (LLM_BASE_URL / LLM_API_KEY / LLM_MODEL_*): Groq by default. The branch's
+  # bundled Ollama containers are not used.
   bp:
     build: ./services/bp
     ports:
       - "8104:8104"
+    env_file:
+      - .env
     environment:
       UPLOADS_DIR: /data/uploads
-      LLM_BASE_URL: ${LLM_BASE_URL:-http://ollama:11434/v1}
-      LLM_API_KEY: ${LLM_API_KEY:-ollama}
-      LLM_MODEL_MAIN: ${LLM_MODEL_MAIN:-qwen2.5:7b}
-      LLM_MODEL_FAST: ${LLM_MODEL_FAST:-qwen2.5:7b}
-      LLM_TIMEOUT_S: ${LLM_TIMEOUT_S:-180}
-      BP_TIMEOUT_S: ${BP_TIMEOUT_S:-600}
-      BP_LLM: ${BP_LLM:-auto}
-      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://ollama:11434}
-      QDRANT_URL: ${QDRANT_URL:-http://qdrant:6333}
-      MLFLOW_TRACKING_URI: ${MLFLOW_TRACKING_URI:-}
+      BP_TIMEOUT_S: "170"
+      BP_VECTOR_STORE: "off"  # no Ollama/Qdrant for it: use its built-in guidance ranker
     volumes:
-      - uploads:/data/uploads
-    depends_on:
-      ollama-init:
-        condition: service_completed_successfully
+      - ./data/uploads:/data/uploads
 
-  # Bundled language model server. The bp service reaches it at http://ollama:11434/v1.
-  ollama:
-    image: ollama/ollama:latest
+  aid:
+    build:
+      context: .
+      dockerfile: services/aid/Dockerfile
     ports:
-      - "11434:11434"
+      - "8103:8103"
     volumes:
-      - ollama_models:/root/.ollama
-    healthcheck:
-      test: ["CMD", "ollama", "list"]
-      interval: 5s
-      timeout: 3s
-      retries: 30
-      start_period: 10s
-    # NVIDIA GPU (much faster inference): install the NVIDIA Container Toolkit, then uncomment.
-    # deploy:
-    #   resources:
-    #     reservations:
-    #       devices:
-    #         - driver: nvidia
-    #           count: all
-    #           capabilities: [gpu]
+      - ./grants_and_financial_aids:/app/grants_and_financial_aids:ro
+      - ./law:/app/law:ro
+      - ./backend/app/eval/datasets:/app/backend/app/eval/datasets:ro
 
-  # One-shot: pull the model into the shared ollama_models volume on first boot.
-  # bp waits for this, so `docker compose up` is only "ready" once the model is usable.
-  # First boot downloads the model (~4.7 GB for qwen2.5:7b); afterwards it is cached in the volume.
-  ollama-init:
-    image: ollama/ollama:latest
-    depends_on:
-      ollama:
-        condition: service_healthy
+  # Automation backbone: chat channels, uploads, scheduled jobs. Workflows in n8n/.
+  n8n:
+    image: n8nio/n8n:1.88.0
+    ports:
+      - "5678:5678"
     environment:
-      OLLAMA_HOST: http://ollama:11434
-    entrypoint: ["/bin/sh", "-c", "ollama pull ${LLM_MODEL_MAIN:-qwen2.5:7b}"]
-    restart: "no"
+      GENERIC_TIMEZONE: Africa/Tunis
+      API_BASE_URL: http://api:8000
+    volumes:
+      - n8n_data:/home/node/.n8n
+      - ./n8n:/workflows:ro
+    depends_on:
+      - api
 
-  # Planned services from the architecture deck. They are not required to boot the scaffold.
   qdrant:
     image: qdrant/qdrant:v1.13.4
     profiles: ["ml"]
@@ -95,6 +75,5 @@ services:
     command: mlflow server --host 0.0.0.0 --port 5000
 
 volumes:
-  uploads:
   qdrant_storage:
-  ollama_models:
+  n8n_data:

@@ -1,0 +1,359 @@
+{
+  "note": "Crop-level check of the first reference in each family against synthetic copies of that same crop, and against the 50 counterfeit crops of that family. Counterfeits are scored as content=same because they keep the organization wording. These are generated edits, not printed forgeries. The LightGBM stamp model was not retrained. A different family's first reference is scored as content=different.",
+  "families": {
+    "balance": {
+      "anchor": "balance_0001_reference.jpg",
+      "variations": {
+        "same": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 1.0,
+          "probability": 0.9959,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "rot4": {
+          "verdict": "uncertain",
+          "ncc": 0.999,
+          "local_min": 0.9986,
+          "probability": 0.0187,
+          "angle": -4,
+          "quality": "ok"
+        },
+        "rot8": {
+          "verdict": "uncertain",
+          "ncc": 0.9371,
+          "local_min": 0.8374,
+          "probability": 0.0064,
+          "angle": -8,
+          "quality": "ok"
+        },
+        "scale80": {
+          "verdict": "uncertain",
+          "ncc": 0.9559,
+          "local_min": 0.9294,
+          "probability": 0.2366,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "jpeg55": {
+          "verdict": "uncertain",
+          "ncc": 0.7668,
+          "local_min": 0.2634,
+          "probability": 0.7183,
+          "angle": 1,
+          "quality": "ok"
+        },
+        "dark": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 1.0,
+          "probability": 0.1634,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "light": {
+          "verdict": "uncertain",
+          "ncc": 0.891,
+          "local_min": 0.7579,
+          "probability": 0.0784,
+          "angle": 0,
+          "quality": "ok"
+        }
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 6,
+        "fraudulent": 10,
+        "uncertain": 34,
+        "unrecognized": 0,
+        "false_accept_as_genuine": 6,
+        "false_accept_rate": 0.12,
+        "uncertain_rate": 0.68
+      }
+    },
+    "capital": {
+      "anchor": "capital_0000_reference.jpg",
+      "variations": {
+        "same": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 1.0,
+          "probability": 0.9988,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "rot4": {
+          "verdict": "genuine",
+          "ncc": 0.9992,
+          "local_min": 0.9987,
+          "probability": 0.485,
+          "angle": -4,
+          "quality": "ok"
+        },
+        "rot8": {
+          "verdict": "uncertain",
+          "ncc": 0.9355,
+          "local_min": 0.7915,
+          "probability": 0.0079,
+          "angle": -8,
+          "quality": "ok"
+        },
+        "scale80": {
+          "verdict": "genuine",
+          "ncc": 0.9358,
+          "local_min": 0.8663,
+          "probability": 0.5212,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "jpeg55": {
+          "verdict": "uncertain",
+          "ncc": 0.8989,
+          "local_min": 0.8123,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "dark": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 0.9999,
+          "probability": 0.2477,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "light": {
+          "verdict": "genuine",
+          "ncc": 0.9915,
+          "local_min": 0.9809,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        }
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 9,
+        "fraudulent": 9,
+        "uncertain": 32,
+        "unrecognized": 0,
+        "false_accept_as_genuine": 9,
+        "false_accept_rate": 0.18,
+        "uncertain_rate": 0.64
+      }
+    },
+    "labellisation": {
+      "anchor": "labellisation_0004_reference.jpg",
+      "variations": {
+        "same": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 1.0,
+          "probability": 0.9987,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "rot4": {
+          "verdict": "uncertain",
+          "ncc": 0.8945,
+          "local_min": 0.6681,
+          "probability": 0.99,
+          "angle": -4,
+          "quality": "ok"
+        },
+        "rot8": {
+          "verdict": "genuine",
+          "ncc": 0.9521,
+          "local_min": 0.808,
+          "probability": 0.99,
+          "angle": -8,
+          "quality": "ok"
+        },
+        "scale80": {
+          "verdict": "genuine",
+          "ncc": 0.9998,
+          "local_min": 0.9994,
+          "probability": 0.5989,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "jpeg55": {
+          "verdict": "genuine",
+          "ncc": 0.9995,
+          "local_min": 0.9989,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "dark": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 0.9997,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "light": {
+          "verdict": "genuine",
+          "ncc": 0.982,
+          "local_min": 0.9722,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        }
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 4,
+        "fraudulent": 9,
+        "uncertain": 37,
+        "unrecognized": 0,
+        "false_accept_as_genuine": 4,
+        "false_accept_rate": 0.08,
+        "uncertain_rate": 0.74
+      }
+    },
+    "subvention": {
+      "anchor": "subvention_0001_reference.jpg",
+      "variations": {
+        "same": {
+          "verdict": "genuine",
+          "ncc": 1.0,
+          "local_min": 1.0,
+          "probability": 0.9988,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "rot4": {
+          "verdict": "uncertain",
+          "ncc": 0.9992,
+          "local_min": 0.9986,
+          "probability": 0.0083,
+          "angle": -4,
+          "quality": "ok"
+        },
+        "rot8": {
+          "verdict": "uncertain",
+          "ncc": 0.9993,
+          "local_min": 0.9989,
+          "probability": 0.0099,
+          "angle": -8,
+          "quality": "ok"
+        },
+        "scale80": {
+          "verdict": "uncertain",
+          "ncc": 0.8971,
+          "local_min": 0.7053,
+          "probability": 0.8613,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "jpeg55": {
+          "verdict": "genuine",
+          "ncc": 0.9988,
+          "local_min": 0.9956,
+          "probability": 0.99,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "dark": {
+          "verdict": "genuine",
+          "ncc": 0.9999,
+          "local_min": 0.9996,
+          "probability": 0.2434,
+          "angle": 0,
+          "quality": "ok"
+        },
+        "light": {
+          "verdict": "uncertain",
+          "ncc": 0.9518,
+          "local_min": 0.8738,
+          "probability": 0.0628,
+          "angle": 0,
+          "quality": "ok"
+        }
+      },
+      "counterfeit": {
+        "n": 50,
+        "genuine": 4,
+        "fraudulent": 3,
+        "uncertain": 43,
+        "unrecognized": 0,
+        "false_accept_as_genuine": 4,
+        "false_accept_rate": 0.08,
+        "uncertain_rate": 0.86
+      }
+    }
+  },
+  "cross_organization": [
+    {
+      "enrolled": "balance",
+      "query": "capital",
+      "verdict": "unrecognized",
+      "ncc": 0.2287
+    },
+    {
+      "enrolled": "capital",
+      "query": "labellisation",
+      "verdict": "unrecognized",
+      "ncc": 0.167
+    },
+    {
+      "enrolled": "labellisation",
+      "query": "subvention",
+      "verdict": "unrecognized",
+      "ncc": 0.1061
+    },
+    {
+      "enrolled": "subvention",
+      "query": "balance",
+      "verdict": "unrecognized",
+      "ncc": 0.0955
+    }
+  ],
+  "totals": {
+    "variation_verdicts": {
+      "same": {
+        "genuine": 4,
+        "uncertain": 0,
+        "fraudulent": 0
+      },
+      "rot4": {
+        "genuine": 1,
+        "uncertain": 3,
+        "fraudulent": 0
+      },
+      "rot8": {
+        "genuine": 1,
+        "uncertain": 3,
+        "fraudulent": 0
+      },
+      "scale80": {
+        "genuine": 2,
+        "uncertain": 2,
+        "fraudulent": 0
+      },
+      "jpeg55": {
+        "genuine": 2,
+        "uncertain": 2,
+        "fraudulent": 0
+      },
+      "dark": {
+        "genuine": 4,
+        "uncertain": 0,
+        "fraudulent": 0
+      },
+      "light": {
+        "genuine": 2,
+        "uncertain": 2,
+        "fraudulent": 0
+      }
+    },
+    "counterfeit_n": 200,
+    "counterfeit_genuine": 23,
+    "counterfeit_fraudulent": 31,
+    "counterfeit_uncertain": 146,
+    "counterfeit_false_accept_rate": 0.115
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "download_date": "2026-10-06",
+  "note": "These sources were investigated. No file from them is treated as downloaded transaction, entity, or survey microdata.",
+  "items": [
+    {
+      "source": "National Open Data Portal company register",
+      "url": "https://catalog.data.gov.tn/api/3/action/package_search?q=registre&rows=1",
+      "result": "TLS certificate chain is incomplete. The leaf is a valid Sectigo certificate for *.data.gov.tn, but the server presents an intermediate that does not sign that leaf. The request was not completed with certificate verification disabled.",
+      "level": "ENTITY_LEVEL",
+      "obtained": false
+    },
+    {
+      "source": "Registre National des Entreprises public site",
+      "url": "https://www.registre-entreprises.tn/rne-public/",
+      "result": "The public page is a web application shell. No company extract was downloaded. KYC and beneficial-owner access described by the registry requires an account or an agreement. That gate was not bypassed.",
+      "level": "ENTITY_LEVEL",
+      "obtained": false
+    },
+    {
+      "source": "Global Findex Tunisia microdata 2021 and 2024/2025",
+      "urls": [
+        "https://microdata.worldbank.org/catalog/4718",
+        "https://microdata.worldbank.org/index.php/catalog/7989"
+      ],
+      "result": "Catalog search records were saved. The 2024 Tunisia study is direct-download access. The microdata files themselves were not retrieved. Only World Bank indicator API aggregates were saved.",
+      "level": "SURVEY",
+      "obtained": false
+    },
+    {
+      "source": "World Bank Enterprise Survey Tunisia 2024 microdata",
+      "url": "https://microdata.worldbank.org/catalog/6706",
+      "catalog_access": "remote",
+      "result": "The economy page returned an application shell without firm-level rows. Catalog id 6706 is remote access. Firm microdata was not downloaded.",
+      "level": "SURVEY",
+      "obtained": false
+    },
+    {
+      "source": "Monétique Tunisie / SMT public statistics",
+      "urls": ["https://www.smt.tn/", "https://www.monetique.tn/", "https://www.smt.com.tn/"],
+      "result": "www.smt.tn timed out, www.monetique.tn did not resolve, and www.smt.com.tn failed hostname verification. No Monétique file was saved. Payment totals used here are the BCT tables.",
+      "level": "AGGREGATE",
+      "obtained": false
+    },
+    {
+      "source": "BCT exchange-rate SDMX download",
+      "url": "https://gosdmx.bct.gov.tn/gosdmx/pnrd?lang=FR",
+      "result": "The catalog lists Taux de change with a data view and no Excel or SDMX download link. No exchange-rate file was saved. Monthly FX-market pages that were saved are turnover tables, not TND quotes.",
+      "level": "AGGREGATE",
+      "obtained": false
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "checkpoint": "/workspace/fraud_detection/models/artifacts/stamp_resnet18.pt",
+  "version": "stamp-cnn-v1",
+  "seed": 20261012,
+  "threshold_high": 0.8935847789049148,
+  "threshold_low": 0.5960011661052704,
+  "threshold_source": "validation identities, target false-fraud quantile 0.05",
+  "score_is_calibrated_probability": false,
+  "queries_exclude_clean_reference": true,
+  "classifier_queries": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 7,
+        "suspicious": 50,
+        "manual_review": 83,
+        "n": 140
+      },
+      "counterfeit": {
+        "likely_genuine": 10,
+        "suspicious": 50,
+        "manual_review": 200,
+        "n": 260
+      }
+    },
+    "counterfeit_recall": 0.19230769230769232,
+    "false_fraud_rate": 0.35714285714285715,
+    "false_accept_rate": 0.038461538461538464,
+    "precision": 0.5,
+    "unresolved_rate": 0.7075,
+    "suspicious_count": "50/100",
+    "recall_count": "50/260",
+    "false_fraud_count": "50/140",
+    "false_accept_count": "10/260",
+    "unresolved_count": "283/400",
+    "average_precision": 0.6099327477682521,
+    "n": 400
+  },
+  "classifier_all_test_images_including_clean_reference": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 7,
+        "suspicious": 50,
+        "manual_review": 87,
+        "n": 144
+      },
+      "counterfeit": {
+        "likely_genuine": 10,
+        "suspicious": 50,
+        "manual_review": 200,
+        "n": 260
+      }
+    },
+    "counterfeit_recall": 0.19230769230769232,
+    "false_fraud_rate": 0.3472222222222222,
+    "false_accept_rate": 0.038461538461538464,
+    "precision": 0.5,
+    "unresolved_rate": 0.7103960396039604,
+    "suspicious_count": "50/100",
+    "recall_count": "50/260",
+    "false_fraud_count": "50/144",
+    "false_accept_count": "10/260",
+    "unresolved_count": "287/404",
+    "average_precision": 0.606103754501824,
+    "n": 404
+  },
+  "new_synthetic_identities": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 0,
+        "suspicious": 0,
+        "manual_review": 40,
+        "n": 40
+      },
+      "counterfeit": {
+        "likely_genuine": 2,
+        "suspicious": 1,
+        "manual_review": 157,
+        "n": 160
+      }
+    },
+    "counterfeit_recall": 0.00625,
+    "false_fraud_rate": 0.0,
+    "false_accept_rate": 0.0125,
+    "precision": 1.0,
+    "unresolved_rate": 0.985,
+    "suspicious_count": "1/1",
+    "recall_count": "1/160",
+    "false_fraud_count": "0/40",
+    "false_accept_count": "2/160",
+    "unresolved_count": "197/200",
+    "average_precision": 0.8144640586665683,
+    "n": 200
+  },
+  "original_identities": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 7,
+        "suspicious": 50,
+        "manual_review": 43,
+        "n": 100
+      },
+      "counterfeit": {
+        "likely_genuine": 8,
+        "suspicious": 49,
+        "manual_review": 43,
+        "n": 100
+      }
+    },
+    "counterfeit_recall": 0.49,
+    "false_fraud_rate": 0.5,
+    "false_accept_rate": 0.08,
+    "precision": 0.494949494949495,
+    "unresolved_rate": 0.43,
+    "suspicious_count": "49/99",
+    "recall_count": "49/100",
+    "false_fraud_count": "50/100",
+    "false_accept_count": "8/100",
+    "unresolved_count": "86/200",
+    "average_precision": 0.48844122940318774,
+    "n": 200
+  },
+  "by_family": {
+    "circle": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 7,
+          "suspicious": 0,
+          "manual_review": 43,
+          "n": 50
+        },
+        "counterfeit": {
+          "likely_genuine": 8,
+          "suspicious": 0,
+          "manual_review": 42,
+          "n": 50
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.16,
+      "precision": null,
+      "unresolved_rate": 0.85,
+      "suspicious_count": "0/0",
+      "recall_count": "0/50",
+      "false_fraud_count": "0/50",
+      "false_accept_count": "8/50",
+      "unresolved_count": "85/100",
+      "average_precision": 0.5666059142017178,
+      "n": 100
+    },
+    "oval": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 20,
+          "n": 20
+        },
+        "counterfeit": {
+          "likely_genuine": 2,
+          "suspicious": 0,
+          "manual_review": 78,
+          "n": 80
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.025,
+      "precision": null,
+      "unresolved_rate": 0.98,
+      "suspicious_count": "0/0",
+      "recall_count": "0/80",
+      "false_fraud_count": "0/20",
+      "false_accept_count": "2/80",
+      "unresolved_count": "98/100",
+      "average_precision": 0.7943061487182428,
+      "n": 100
+    },
+    "rect": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 20,
+          "n": 20
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 1,
+          "manual_review": 79,
+          "n": 80
+        }
+      },
+      "counterfeit_recall": 0.0125,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.0,
+      "precision": 1.0,
+      "unresolved_rate": 0.99,
+      "suspicious_count": "1/1",
+      "recall_count": "1/80",
+      "false_fraud_count": "0/20",
+      "false_accept_count": "0/80",
+      "unresolved_count": "99/100",
+      "average_precision": 0.8312209440136529,
+      "n": 100
+    },
+    "text": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 50,
+          "manual_review": 0,
+          "n": 50
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 49,
+          "manual_review": 1,
+          "n": 50
+        }
+      },
+      "counterfeit_recall": 0.98,
+      "false_fraud_rate": 1.0,
+      "false_accept_rate": 0.0,
+      "precision": 0.494949494949495,
+      "unresolved_rate": 0.01,
+      "suspicious_count": "49/99",
+      "recall_count": "49/50",
+      "false_fraud_count": "50/50",
+      "false_accept_count": "0/50",
+      "unresolved_count": "1/100",
+      "average_precision": 0.4741711939138934,
+      "n": 100
+    }
+  },
+  "by_identity": {
+    "orig_balance": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 50,
+          "manual_review": 0,
+          "n": 50
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 49,
+          "manual_review": 1,
+          "n": 50
+        }
+      },
+      "counterfeit_recall": 0.98,
+      "false_fraud_rate": 1.0,
+      "false_accept_rate": 0.0,
+      "precision": 0.494949494949495,
+      "unresolved_rate": 0.01,
+      "suspicious_count": "49/99",
+      "recall_count": "49/50",
+      "false_fraud_count": "50/50",
+      "false_accept_count": "0/50",
+      "unresolved_count": "1/100",
+      "average_precision": 0.4741711939138934,
+      "n": 100
+    },
+    "orig_labellisation": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 7,
+          "suspicious": 0,
+          "manual_review": 43,
+          "n": 50
+        },
+        "counterfeit": {
+          "likely_genuine": 8,
+          "suspicious": 0,
+          "manual_review": 42,
+          "n": 50
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.16,
+      "precision": null,
+      "unresolved_rate": 0.85,
+      "suspicious_count": "0/0",
+      "recall_count": "0/50",
+      "false_fraud_count": "0/50",
+      "false_accept_count": "8/50",
+      "unresolved_count": "85/100",
+      "average_precision": 0.5666059142017178,
+      "n": 100
+    },
+    "oval_02": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 10,
+          "n": 10
+        },
+        "counterfeit": {
+          "likely_genuine": 2,
+          "suspicious": 0,
+          "manual_review": 38,
+          "n": 40
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.05,
+      "precision": null,
+      "unresolved_rate": 0.96,
+      "suspicious_count": "0/0",
+      "recall_count": "0/40",
+      "false_fraud_count": "0/10",
+      "false_accept_count": "2/40",
+      "unresolved_count": "48/50",
+      "average_precision": 0.871347426442148,
+      "n": 50
+    },
+    "oval_07": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 10,
+          "n": 10
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 40,
+          "n": 40
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.0,
+      "precision": null,
+      "unresolved_rate": 1.0,
+      "suspicious_count": "0/0",
+      "recall_count": "0/40",
+      "false_fraud_count": "0/10",
+      "false_accept_count": "0/40",
+      "unresolved_count": "50/50",
+      "average_precision": 0.7727093779838837,
+      "n": 50
+    },
+    "rect_02": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 10,
+          "n": 10
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 1,
+          "manual_review": 39,
+          "n": 40
+        }
+      },
+      "counterfeit_recall": 0.025,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.0,
+      "precision": 1.0,
+      "unresolved_rate": 0.98,
+      "suspicious_count": "1/1",
+      "recall_count": "1/40",
+      "false_fraud_count": "0/10",
+      "false_accept_count": "0/40",
+      "unresolved_count": "49/50",
+      "average_precision": 0.8739887996370709,
+      "n": 50
+    },
+    "rect_04": {
+      "matrix": {
+        "genuine": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 10,
+          "n": 10
+        },
+        "counterfeit": {
+          "likely_genuine": 0,
+          "suspicious": 0,
+          "manual_review": 40,
+          "n": 40
+        }
+      },
+      "counterfeit_recall": 0.0,
+      "false_fraud_rate": 0.0,
+      "false_accept_rate": 0.0,
+      "precision": null,
+      "unresolved_rate": 1.0,
+      "suspicious_count": "0/0",
+      "recall_count": "0/40",
+      "false_fraud_count": "0/10",
+      "false_accept_count": "0/40",
+      "unresolved_count": "50/50",
+      "average_precision": 0.7814401775282244,
+      "n": 50
+    }
+  },
+  "shortcut_probes": {
+    "queries_already_exclude_clean_reference": true,
+    "all_queries": {
+      "n": 400,
+      "counterfeit_prevalence": 0.65,
+      "model_average_precision": 0.6099327477682521,
+      "lower_jpeg_quality_average_precision": 0.7102613250868641,
+      "smaller_file_average_precision": 0.6357337613556121
+    },
+    "degraded_rows_only": {
+      "n": 400,
+      "counterfeit_prevalence": 0.65,
+      "model_average_precision": 0.6099327477682521,
+      "lower_jpeg_quality_average_precision": 0.7102613250868641,
+      "smaller_file_average_precision": 0.6357337613556121
+    },
+    "new_synthetic": {
+      "n": 200,
+      "counterfeit_prevalence": 0.8,
+      "model_average_precision": 0.8144640586665683,
+      "lower_jpeg_quality_average_precision": 0.8314857505609013,
+      "smaller_file_average_precision": 0.8352668265085431
+    },
+    "originals": {
+      "n": 200,
+      "counterfeit_prevalence": 0.5,
+      "model_average_precision": 0.48844122940318774,
+      "lower_jpeg_quality_average_precision": 0.48582460265973604,
+      "smaller_file_average_precision": 0.49637883396275606
+    }
+  },
+  "verifier_queries": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 0,
+        "suspicious": 1,
+        "manual_review": 139,
+        "n": 140
+      },
+      "counterfeit": {
+        "likely_genuine": 0,
+        "suspicious": 8,
+        "manual_review": 252,
+        "n": 260
+      }
+    },
+    "counterfeit_recall": 0.03076923076923077,
+    "false_fraud_rate": 0.007142857142857143,
+    "false_accept_rate": 0.0,
+    "precision": 0.8888888888888888,
+    "unresolved_rate": 0.9775,
+    "suspicious_count": "8/9",
+    "recall_count": "8/260",
+    "false_fraud_count": "1/140",
+    "false_accept_count": "0/260",
+    "unresolved_count": "391/400"
+  },
+  "integration": {
+    "integrate": false,
+    "checks": {
+      "test_recall_at_least_0.20": false,
+      "test_false_fraud_at_most_0.10": false,
+      "test_false_accept_at_most_0.05": true,
+      "new_synthetic_recall_at_least_0.10": false,
+      "original_recall_at_least_0.10": true
+    }
+  },
+  "val_average_precision": 0.711697839325763,
+  "val_counts": {
+    "matrix": {
+      "genuine": {
+        "likely_genuine": 4,
+        "suspicious": 8,
+        "manual_review": 132,
+        "n": 144
+      },
+      "counterfeit": {
+        "likely_genuine": 13,
+        "suspicious": 23,
+        "manual_review": 224,
+        "n": 260
+      }
+    },
+    "counterfeit_recall": 0.08846153846153847,
+    "false_fraud_rate": 0.05555555555555555,
+    "false_accept_rate": 0.05,
+    "precision": 0.7419354838709677,
+    "unresolved_rate": 0.8811881188118812,
+    "suspicious_count": "23/31",
+    "recall_count": "23/260",
+    "false_fraud_count": "8/144",
+    "false_accept_count": "13/260",
+    "unresolved_count": "356/404"
+  }
+}

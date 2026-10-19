@@ -1,0 +1,316 @@
+{
+  "name": "Daily health check",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "name": "Every day at 08:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        300
+      ],
+      "id": "every-day-at-08:00"
+    },
+    {
+      "parameters": {},
+      "name": "Run on demand",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        480
+      ],
+      "id": "run-on-demand"
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.API_BASE_URL }}/api/health",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "Main app",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        220,
+        300
+      ],
+      "id": "main-app",
+      "onError": "continueRegularOutput",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.FRAUD_BASE_URL }}/health",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "Fraud service",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ],
+      "id": "fraud-service",
+      "onError": "continueRegularOutput",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.BP_BASE_URL }}/health",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "Business-plan service",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        660,
+        300
+      ],
+      "id": "business-plan-service",
+      "onError": "continueRegularOutput",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "url": "={{ $env.API_BASE_URL }}/api/health/llm",
+        "options": {
+          "timeout": 15000
+        }
+      },
+      "name": "LLM keys",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        300
+      ],
+      "id": "llm-keys",
+      "onError": "continueRegularOutput",
+      "alwaysOutputData": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// One status line per check, from the four HTTP nodes (each continues on error,\n// so a service that is down arrives here as { error: ... } instead of stopping the run).\nconst read = (node) => { try { return $(node).first().json; } catch (e) { return { error: { message: \"node did not run\" } }; } };\nconst failed = (r) => Boolean(r.error) || (r.status && r.status !== \"ok\");\n\nconst app = read(\"Main app\");\nconst fraud = read(\"Fraud service\");\nconst bp = read(\"Business-plan service\");\nconst llm = read(\"LLM keys\");\n\nconst checks = [\n  { name: \"Main app (port 8000)\", ok: !failed(app), detail: app.error?.message || app.status || \"\" },\n  { name: \"Fraud service (port 8100)\", ok: !failed(fraud),\n    detail: fraud.error?.message || `models loaded: ${Boolean(fraud.supervised_loaded && fraud.anomaly_loaded)}` },\n  { name: \"Business-plan service (port 8104)\", ok: !failed(bp) && bp.llm_reachable !== false,\n    detail: bp.error?.message || `model reachable: ${bp.llm_reachable}` },\n];\n// One line per LLM provider: key accepted and configured models still listed.\nfor (const [provider, info] of Object.entries(llm.providers || {})) {\n  checks.push({ name: `LLM ${provider}`, ok: info.status === \"ok\",\n    detail: info.status + (info.missing?.length ? ` (missing: ${info.missing.join(\", \")})` : \"\") });\n}\nif (llm.error) checks.push({ name: \"LLM keys\", ok: false, detail: llm.error.message });\n\nconst now = new Date();\nconst down = checks.filter((c) => !c.ok).map((c) => c.name);\nreturn [{ json: {\n  checked_at: now.toISOString(),\n  ok: down.length === 0,\n  down,\n  summary: down.length ? `${down.length} problem(s): ${down.join(\"; \")}` : `All ${checks.length} checks passed`,\n  checks,\n  file_name: now.toISOString().slice(0, 16).replace(/[:T]/g, \"-\"),\n} }];\n"
+      },
+      "name": "Summarize",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        300
+      ],
+      "id": "summarize"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "each",
+        "options": {
+          "format": true,
+          "fileName": "={{ $json.file_name }}.json"
+        }
+      },
+      "name": "Status as JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1320,
+        200
+      ],
+      "id": "status-as-json"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/files/health/{{ $('Summarize').item.json.file_name }}.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "name": "Save status",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1540,
+        200
+      ],
+      "id": "save-status",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "health-ok-is-false",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "false",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Anything down?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1320,
+        420
+      ],
+      "id": "anything-down?"
+    },
+    {
+      "parameters": {
+        "errorType": "errorMessage",
+        "errorMessage": "={{ 'Health check failed: ' + $json.summary }}"
+      },
+      "name": "Alert",
+      "type": "n8n-nodes-base.stopAndError",
+      "typeVersion": 1,
+      "position": [
+        1540,
+        420
+      ],
+      "id": "alert"
+    }
+  ],
+  "connections": {
+    "Every day at 08:00": {
+      "main": [
+        [
+          {
+            "node": "Main app",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run on demand": {
+      "main": [
+        [
+          {
+            "node": "Main app",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Main app": {
+      "main": [
+        [
+          {
+            "node": "Fraud service",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fraud service": {
+      "main": [
+        [
+          {
+            "node": "Business-plan service",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Business-plan service": {
+      "main": [
+        [
+          {
+            "node": "LLM keys",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM keys": {
+      "main": [
+        [
+          {
+            "node": "Summarize",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Summarize": {
+      "main": [
+        [
+          {
+            "node": "Status as JSON",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Anything down?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Status as JSON": {
+      "main": [
+        [
+          {
+            "node": "Save status",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Anything down?": {
+      "main": [
+        [
+          {
+            "node": "Alert",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Africa/Tunis"
+  },
+  "active": false,
+  "pinData": {}
+}

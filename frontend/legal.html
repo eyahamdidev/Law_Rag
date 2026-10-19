@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Legal workspace</title>
+  <!-- The legal workspace is now a tab of the main app; keep old links (and #contracts) working. -->
+  <script>location.replace("/" + (location.hash === "#contracts" ? "#/contracts" : "#/legal"));</script>
+  <meta http-equiv="refresh" content="0; url=/#/legal">
+</head>
+<body><p><a href="/#/legal">Open the legal workspace</a></p></body>
+</html>

@@ -1,0 +1,800 @@
+[
+  {
+    "period": "2025-04",
+    "channel": "Cartes bancaires",
+    "transaction_count": 13774900.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2429200000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 176.35,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 13774.9,
+    "published_value_millions_tnd": 2429.2
+  },
+  {
+    "period": "2025-05",
+    "channel": "Cartes bancaires",
+    "transaction_count": 13881400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2501100000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 180.18,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 13881.4,
+    "published_value_millions_tnd": 2501.1
+  },
+  {
+    "period": "2025-06",
+    "channel": "Cartes bancaires",
+    "transaction_count": 13385700.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2418700000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 180.69,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 13385.7,
+    "published_value_millions_tnd": 2418.7
+  },
+  {
+    "period": "2025-07",
+    "channel": "Cartes bancaires",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-08",
+    "channel": "Cartes bancaires",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-09",
+    "channel": "Cartes bancaires",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-04",
+    "channel": "Chèques",
+    "transaction_count": 576400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4025200000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6983.34,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 576.4,
+    "published_value_millions_tnd": 4025.2
+  },
+  {
+    "period": "2025-05",
+    "channel": "Chèques",
+    "transaction_count": 634600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4212399999.9999995,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6637.88,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 634.6,
+    "published_value_millions_tnd": 4212.4
+  },
+  {
+    "period": "2025-06",
+    "channel": "Chèques",
+    "transaction_count": 558200.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 3751400000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6720.53,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 558.2,
+    "published_value_millions_tnd": 3751.4
+  },
+  {
+    "period": "2025-07",
+    "channel": "Chèques",
+    "transaction_count": 657500.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4428500000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6735.36,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 657.5,
+    "published_value_millions_tnd": 4428.5
+  },
+  {
+    "period": "2025-08",
+    "channel": "Chèques",
+    "transaction_count": 561700.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 3833400000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6824.64,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 561.7,
+    "published_value_millions_tnd": 3833.4
+  },
+  {
+    "period": "2025-09",
+    "channel": "Chèques",
+    "transaction_count": 672400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4383800000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 6519.63,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 672.4,
+    "published_value_millions_tnd": 4383.8
+  },
+  {
+    "period": "2025-04",
+    "channel": "Effets",
+    "transaction_count": 476500.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 5365700000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 11260.65,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 476.5,
+    "published_value_millions_tnd": 5365.7
+  },
+  {
+    "period": "2025-05",
+    "channel": "Effets",
+    "transaction_count": 376000.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4298100000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 11431.12,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 376.0,
+    "published_value_millions_tnd": 4298.1
+  },
+  {
+    "period": "2025-06",
+    "channel": "Effets",
+    "transaction_count": 416300.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4779800000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 11481.62,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 416.3,
+    "published_value_millions_tnd": 4779.8
+  },
+  {
+    "period": "2025-07",
+    "channel": "Effets",
+    "transaction_count": 407400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4725600000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 11599.41,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 407.4,
+    "published_value_millions_tnd": 4725.6
+  },
+  {
+    "period": "2025-08",
+    "channel": "Effets",
+    "transaction_count": 331600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 4036600000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 12173.1,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 331.6,
+    "published_value_millions_tnd": 4036.6
+  },
+  {
+    "period": "2025-09",
+    "channel": "Effets",
+    "transaction_count": 489900.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 5438400000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 11101.04,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 489.9,
+    "published_value_millions_tnd": 5438.4
+  },
+  {
+    "period": "2025-04",
+    "channel": "Paiements électroniques*",
+    "transaction_count": 1549800.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 114900000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 74.14,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 1549.8,
+    "published_value_millions_tnd": 114.9
+  },
+  {
+    "period": "2025-05",
+    "channel": "Paiements électroniques*",
+    "transaction_count": 1426500.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 104000000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 72.91,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 1426.5,
+    "published_value_millions_tnd": 104.0
+  },
+  {
+    "period": "2025-06",
+    "channel": "Paiements électroniques*",
+    "transaction_count": 1404400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 99300000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 70.71,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 1404.4,
+    "published_value_millions_tnd": 99.3
+  },
+  {
+    "period": "2025-07",
+    "channel": "Paiements électroniques*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-08",
+    "channel": "Paiements électroniques*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-09",
+    "channel": "Paiements électroniques*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-04",
+    "channel": "Prélèvements",
+    "transaction_count": 765600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2807300000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 3666.8,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 765.6,
+    "published_value_millions_tnd": 2807.3
+  },
+  {
+    "period": "2025-05",
+    "channel": "Prélèvements",
+    "transaction_count": 609300.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 1891700000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 3104.71,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 609.3,
+    "published_value_millions_tnd": 1891.7
+  },
+  {
+    "period": "2025-06",
+    "channel": "Prélèvements",
+    "transaction_count": 680900.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2367100000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 3476.43,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 680.9,
+    "published_value_millions_tnd": 2367.1
+  },
+  {
+    "period": "2025-07",
+    "channel": "Prélèvements",
+    "transaction_count": 770100.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 3581800000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 4651.08,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 770.1,
+    "published_value_millions_tnd": 3581.8
+  },
+  {
+    "period": "2025-08",
+    "channel": "Prélèvements",
+    "transaction_count": 608500.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 1939000000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 3186.52,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 608.5,
+    "published_value_millions_tnd": 1939.0
+  },
+  {
+    "period": "2025-09",
+    "channel": "Prélèvements",
+    "transaction_count": 807200.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 2618200000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 3243.56,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 807.2,
+    "published_value_millions_tnd": 2618.2
+  },
+  {
+    "period": "2025-04",
+    "channel": "Total*",
+    "transaction_count": 20224400.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 21175000000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 1047.0,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 20224.4,
+    "published_value_millions_tnd": 21175.0
+  },
+  {
+    "period": "2025-05",
+    "channel": "Total*",
+    "transaction_count": 20481800.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 20287000000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 990.49,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 20481.8,
+    "published_value_millions_tnd": 20287.0
+  },
+  {
+    "period": "2025-06",
+    "channel": "Total*",
+    "transaction_count": 19030000.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 19370300000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 1017.88,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 19030.0,
+    "published_value_millions_tnd": 19370.3
+  },
+  {
+    "period": "2025-07",
+    "channel": "Total*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-08",
+    "channel": "Total*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-09",
+    "channel": "Total*",
+    "transaction_count": null,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": null,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": null,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": null,
+    "published_value_millions_tnd": null
+  },
+  {
+    "period": "2025-04",
+    "channel": "Virements",
+    "transaction_count": 3081200.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 6432700000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2087.73,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 3081.2,
+    "published_value_millions_tnd": 6432.7
+  },
+  {
+    "period": "2025-05",
+    "channel": "Virements",
+    "transaction_count": 3553900.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 7279700000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2048.37,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 3553.9,
+    "published_value_millions_tnd": 7279.7
+  },
+  {
+    "period": "2025-06",
+    "channel": "Virements",
+    "transaction_count": 2584600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 5954000000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2303.64,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 2584.6,
+    "published_value_millions_tnd": 5954.0
+  },
+  {
+    "period": "2025-07",
+    "channel": "Virements",
+    "transaction_count": 3342600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 6952800000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2080.06,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 3342.6,
+    "published_value_millions_tnd": 6952.8
+  },
+  {
+    "period": "2025-08",
+    "channel": "Virements",
+    "transaction_count": 2932600.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 6392100000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2179.67,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 2932.6,
+    "published_value_millions_tnd": 6392.1
+  },
+  {
+    "period": "2025-09",
+    "channel": "Virements",
+    "transaction_count": 3267500.0,
+    "transaction_count_unit": "transactions; source figure is published in thousands",
+    "transaction_value": 6973500000.0,
+    "transaction_value_unit": "TND; source figure is published in millions of dinars",
+    "average_value": 2134.2,
+    "average_value_unit": "TND per transaction, derived from the two published aggregates",
+    "market_category": "bct_payment_instrument",
+    "source": "Banque Centrale de Tunisie, PL202020 and PL202010",
+    "source_urls": [
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202020",
+      "https://www.bct.gov.tn/bct/siteprod/tableau_statistique.jsp?params=PL202010"
+    ],
+    "level": "AGGREGATE",
+    "published_count_thousands": 3267.5,
+    "published_value_millions_tnd": 6973.5
+  }
+]

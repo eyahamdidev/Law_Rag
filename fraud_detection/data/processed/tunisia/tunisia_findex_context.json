@@ -1,0 +1,218 @@
+[
+  {
+    "indicator_id": "FX.OWN.TOTL.FE.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 26.6074987294777,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.FE.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 28.7473240351555,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.FE.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 28.3634358024227,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.FE.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, female (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 20.7014709907983,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.MA.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 49.5665996567354,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.MA.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 45.1395341580702,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.MA.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 45.7311275395814,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.MA.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, male (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 34.2493346890334,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.OL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 45.4756634966955,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.OL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 39.9747756392746,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.OL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 40.0200470951784,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.OL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, older adults (% of population ages 25+)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 30.4182866902472,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.SO.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 45.8258014849128,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.SO.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 43.4973055242673,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.SO.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 47.698003540977,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.SO.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, secondary education or more (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 33.392567046442,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.YG.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 11.6592580347266,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.YG.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 24.3423961492063,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.YG.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 23.3242041917553,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.YG.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider, young adults (% of population ages 15-24)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 18.7671340848818,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2024,
+    "value": 37.8444860328559,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2021,
+    "value": 36.853236511337,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2017,
+    "value": 36.9065671682783,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  },
+  {
+    "indicator_id": "FX.OWN.TOTL.ZS",
+    "indicator": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)",
+    "country": "TUN",
+    "year": 2014,
+    "value": 27.4323115412138,
+    "level": "AGGREGATE",
+    "source": "World Bank API, Global Findex indicator"
+  }
+]

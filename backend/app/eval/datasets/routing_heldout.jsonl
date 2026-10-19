@@ -1,0 +1,30 @@
+{"id": "h001", "question": "Mon associé veut quitter la SARL, comment se passe la cession de ses parts ?", "language": "fr", "agents": ["legal"]}
+{"id": "h002", "question": "Do I need a minimum capital to register a SUARL?", "language": "en", "agents": ["legal"]}
+{"id": "h003", "question": "هل يحق للمؤسسة الناشئة فتح حساب بالعملة الأجنبية؟", "language": "ar", "agents": ["legal"]}
+{"id": "h004", "question": "Est-ce légal de lever des fonds auprès du public sur une plateforme en ligne ?", "language": "fr", "agents": ["legal"]}
+{"id": "h005", "question": "chnowa el far9 bin SARL w SA ?", "language": "fr", "agents": ["legal"]}
+{"id": "h006", "question": "What happens to my company if it can no longer pay its suppliers?", "language": "en", "agents": ["legal"]}
+{"id": "h007", "question": "Quelles subventions pour un projet agricole à Béja ?", "language": "fr", "agents": ["grants"]}
+{"id": "h008", "question": "Is there a guarantee fund that covers part of my bank loan?", "language": "en", "agents": ["grants"]}
+{"id": "h009", "question": "هل توجد قروض بدون ضمانات لأصحاب الشهائد العليا؟", "language": "ar", "agents": ["grants"]}
+{"id": "h010", "question": "Je cherche un accélérateur ou un fonds d'amorçage pour mon application.", "language": "fr", "agents": ["grants"]}
+{"id": "h011", "question": "fama tamwil lel nisa el bach ya3mlou mashrou3 ?", "language": "fr", "agents": ["grants"]}
+{"id": "h012", "question": "Peux-tu m'aider à estimer mon chiffre d'affaires de la première année ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "h013", "question": "What should go in the value proposition box of my canvas?", "language": "en", "agents": ["business_plan"]}
+{"id": "h014", "question": "كيف أحسب نقطة التعادل لمشروعي؟", "language": "ar", "agents": ["business_plan"]}
+{"id": "h015", "question": "Quels coûts fixes prévoir pour ouvrir un café ?", "language": "fr", "agents": ["business_plan"]}
+{"id": "h016", "question": "Comment me faire connaître auprès des hôtels de Djerba ?", "language": "fr", "agents": ["marketing"]}
+{"id": "h017", "question": "Should I sell on Instagram or open my own website first?", "language": "en", "agents": ["marketing"]}
+{"id": "h018", "question": "ما هي أفضل طريقة لتحديد سعر خدماتي؟", "language": "ar", "agents": ["marketing"]}
+{"id": "h019", "question": "Je reçois des factures d'un fournisseur que je ne connais pas, c'est normal ?", "language": "fr", "agents": ["fraud"]}
+{"id": "h020", "question": "Can you read this NDA and tell me if anything is risky for me?", "language": "en", "agents": ["fraud"]}
+{"id": "h021", "question": "Un investisseur me demande de payer des frais avant de transférer les fonds.", "language": "fr", "agents": ["fraud"]}
+{"id": "h022", "question": "Quelle forme juridique pour une startup de e-santé, et peut-elle obtenir le label startup ?", "language": "fr", "agents": ["legal"]}
+{"id": "h023", "question": "I need a business plan for BFPME and want to know which loan I can get.", "language": "en", "agents": ["business_plan", "grants"]}
+{"id": "h024", "question": "Comment créer ma SUARL et la faire connaître sur les réseaux sociaux ?", "language": "fr", "agents": ["legal", "marketing"]}
+{"id": "h025", "question": "Ce contrat de prêt BFPME est-il équilibré, et quelles autres aides existent ?", "language": "fr", "agents": ["fraud", "grants"]}
+{"id": "h026", "question": "salut, ça va ?", "language": "fr", "agents": []}
+{"id": "h027", "question": "Peux-tu traduire ce texte en anglais ?", "language": "fr", "agents": []}
+{"id": "h028", "question": "Quelle est la capitale de l'Australie ?", "language": "fr", "agents": []}
+{"id": "h029", "question": "عندي مشكلة", "language": "ar", "agents": []}
+{"id": "h030", "question": "Help me", "language": "en", "agents": []}

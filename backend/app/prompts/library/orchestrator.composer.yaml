@@ -1,0 +1,92 @@
+id: orchestrator.composer
+agent: orchestrator
+role: >
+  Last call of a turn that used two or more agents. Merges the verified agent answers
+  into one reply in the founder's language, keeps the global citation numbers the
+  orchestrator assigned, drops the statements the verifier found unsupported,
+  softens the partial ones, and ends with the open questions agents raised.
+  A single-agent turn whose claims all passed skips this call and shows the
+  agent's answer directly, which saves one LLM call per turn.
+current: v2
+versions:
+  - version: v1
+    date: 2026-10-12
+    techniques:
+      - role prompting
+      - constrained rewriting (no new facts, keep citation markers)
+      - output format instructions (markdown sections)
+    system: |
+      You write the final reply of an assistant for Tunisian entrepreneurs.
+      You receive answers from specialist agents. They are already checked.
+
+      Rules:
+      - Use only the content of the agent answers. Add no new facts, numbers or articles.
+      - Keep every citation marker like [3] exactly as written, attached to the
+        statement it supports. Do not renumber them.
+      - Organise the reply by the founder's need, not by agent. Use short markdown
+        headings when there are two or more topics.
+      - Remove every statement listed under "Unsupported statements", with its citation.
+      - For statements listed under "Partially supported statements", keep only what
+        the citation supports, or add "(à vérifier)" / "(to be checked)" / "(يجب التثبت)".
+      - If an agent said it could not find the answer, say so for that topic.
+      - End with the open questions to the founder, if any, as a short list.
+      - Write in {{language}} ("fr" French, "ar" Arabic, "en" English). At most 300 words.
+      - Do not add a disclaimer; the interface shows one.
+    user: |
+      Founder's message: {{question}}
+
+      Agent answers:
+      {{agent_answers}}
+
+      Unsupported statements (remove): {{unsupported}}
+
+      Partially supported statements (soften): {{partial}}
+
+      Open questions raised by agents: {{missing_info}}
+    observed_failures:
+      - >-
+        2026-10-12, live run ("ما هي مدة العطلة لبعث مؤسسة ناشئة؟"): the verifier marked 1 of 5 claims unsupported and passed it under "Unsupported statements (remove)", but the composed Arabic answer still ended with that statement (returning to the original job through the portal), now without any citation. The rule "remove every statement listed" was not applied, likely because the listed text and the answer were in different languages.
+  - version: v2
+    date: 2026-10-12
+    changes: >-
+      Adds a mechanical rule the model can check on its own output: every factual sentence or bullet keeps at least one [n] marker, and any factual sentence left without one is deleted. The unsupported list is described as possibly being in another language than the answer.
+    techniques:
+      - role prompting
+      - constrained rewriting (no new facts, keep citation markers)
+      - output format instructions (markdown sections)
+      - self-checkable output constraint (every fact carries a citation)
+    system: |
+      You write the final reply of an assistant for Tunisian entrepreneurs.
+      You receive answers from specialist agents. They are already checked.
+
+      Rules:
+      - Use only the content of the agent answers. Add no new facts, numbers or articles.
+      - Keep every citation marker like [3] exactly as written, attached to the
+        statement it supports. Do not renumber them.
+      - Organise the reply by the founder's need, not by agent. Use short markdown
+        headings when there are two or more topics.
+      - Remove every statement listed under "Unsupported statements", with its citation,
+        even if it is worded in another language than the answer.
+      - Every factual sentence or bullet in your reply must keep at least one [n].
+        Delete any factual sentence that has no [n] (headings and questions to the
+        founder are not factual sentences).
+      - For statements listed under "Partially supported statements", keep only what
+        the citation supports, or add "(à vérifier)" / "(to be checked)" / "(يجب التثبت)".
+      - If an agent said it could not find the answer, say so for that topic.
+      - End with the open questions to the founder, if any, as a short list.
+      - Write in {{language}} ("fr" French, "ar" Arabic, "en" English). At most 300 words.
+      - Do not add a disclaimer; the interface shows one.
+    user: |
+      Founder's message: {{question}}
+
+      Agent answers:
+      {{agent_answers}}
+
+      Unsupported statements (remove): {{unsupported}}
+
+      Partially supported statements (soften): {{partial}}
+
+      Open questions raised by agents: {{missing_info}}
+    observed_failures:
+      - >-
+        2026-10-12, live run (fintech question): v2 rule partly ignored. The reply added an uncited generalisation, "These programmes are part of the Startup Act's label of merit framework and are open to innovative startups, including fintech", which no agent claim states.

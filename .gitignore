@@ -1,6 +1,8 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv-fraud/
+.venv-bp/
 venv/
 .env
 .pytest_cache/
@@ -10,14 +12,41 @@ mlruns/
 qdrant_storage/
 *.egg-info/
 .idea/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 _deck_extract.txt
-# runtime data
-data/uploads/
+
+# Generated retrieval artefacts (chunks, embeddings, local Qdrant, OCR)
+/data/
+
+# --- Fraud detection service (from the fraud_detection branch) ---
+*.pyc
+# Immutable raw drops and generated matrices stay on disk, not in git.
+fraud_detection/data/download.log
+fraud_detection/data/**/*.csv
+!fraud_detection/data/stamp_dataset_v3/**/*.csv
+fraud_detection/data/**/*.parquet
+fraud_detection/data/**/*.zip
+fraud_detection/data/**/*.jsonl
+fraud_detection/data/**/*.tsv
+fraud_detection/data/**/*.xml
+fraud_detection/data/**/*.pdf
+!fraud_detection/data/genuine/*.pdf
+fraud_detection/data/**/*.npz
+fraud_detection/data/**/*.npy
+fraud_detection/models/**/*.joblib
+fraud_detection/models/**/*.pkl
+# Saved scoring weights are small enough to share. Raw training files stay out.
+!fraud_detection/models/artifacts/*.joblib
+fraud_detection/data/specimens/*
+!fraud_detection/data/specimens/README.md
+model_store/**/*.joblib
+model_store/**/*.pkl
+
+# --- Business plan service (from the business_plan branch) ---
 services/bp/.cache/
-business_plan/
-repomix-output.xml
-data/uploads/
 services/bp/data/knowledge.sqlite
-__pycache__/
-.pytest_cache/
+repomix-output.xml

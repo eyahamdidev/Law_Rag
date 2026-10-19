@@ -1,0 +1,284 @@
+# Versioned catalog of Tunisian funding and aid programs.
+# Provenance is strictly tracked: each rule references source_file and source_page.
+# Do not guess rules: unknown constraints remain unconstrained.
+# `unverified` holds figures that are not stated in the cited source. The rules engine
+# ignores them (the criterion stays unconstrained) and answers show them as "to confirm".
+# Move a figure back to its active field only with a source_file/page that states it.
+
+programs:
+  - id: "bfpme-creation"
+    name: "BFPME — Crédit de Création PME"
+    provider: "BFPME (Banque de Financement des Petites et Moyennes Entreprises)"
+    program_type: "loan"
+    summary: "Financement à moyen et long terme des projets de création de PME dans l'industrie et les services liés."
+    stages: ["creation"]
+    sectors: ["industrie", "services", "tic", "technologie", "agroalimentaire", "sante", "energies_renouvelables", "software"]
+    excluded_sectors: ["commerce_pur", "commerce_detail", "immobilier", "activites_financieres", "commerce_traditionnel"]
+    unverified:
+      min_investment_tnd: 100000
+      max_investment_tnd: 15000000
+      reason: "not stated on the cited page or elsewhere in the cited document (checked 2026-10-18); source requested from the catalogue author"
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/BFPME/Checklist_Creation_Entreprise.pdf"
+    source_page: 1
+    official_form_link: "grants_and_financial_aids/BFPME/Demande_Financement_BFPME_2024.doc"
+    required_documents:
+      - "Copie de la CIN du promoteur et des associés"
+      - "CV détaillé et copies des diplômes universitaires / certificats"
+      - "Statuts de la société ou projet de statuts (SARL, SUARL, SA)"
+      - "Plan d'affaires complet (Business Plan) et étude technico-économique"
+      - "Factures proforma détaillées pour les équipements prévus"
+      - "Promesse de bail ou titre de propriété du local d'exploitation"
+      - "Schéma de financement projeté et justification des fonds propres (minimum 20%-30%)"
+    local_files:
+      - "grants_and_financial_aids/BFPME/Checklist_Creation_Entreprise.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Demande_Financement.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Notification_Financement.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Deblocage.pdf"
+      - "grants_and_financial_aids/BFPME/Demande_Financement_BFPME_2024.doc"
+      - "grants_and_financial_aids/Business_Plan_Models/Modele_Business_Plan_Creation.xls"
+
+  - id: "bfpme-extension"
+    name: "BFPME — Crédit d'Extension PME"
+    provider: "BFPME"
+    program_type: "loan"
+    summary: "Financement des programmes d'extension, modernisation technologique et renouvellement d'équipements pour PME en activité."
+    stages: ["extension", "growth"]
+    sectors: ["industrie", "services", "tic", "technologie", "agroalimentaire", "sante", "energies_renouvelables", "software"]
+    excluded_sectors: ["commerce_pur", "commerce_detail", "immobilier", "commerce_traditionnel"]
+    unverified:
+      min_investment_tnd: 100000
+      max_investment_tnd: 15000000
+      reason: "not stated on the cited page or elsewhere in the cited document (checked 2026-10-18); source requested from the catalogue author"
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/BFPME/Checklist_Extension_Entreprise.pdf"
+    source_page: 1
+    official_form_link: "grants_and_financial_aids/BFPME/Demande_Financement_BFPME_2024.doc"
+    required_documents:
+      - "Bilans certifiés et états financiers des 3 derniers exercices comptables"
+      - "Déclarations fiscales récentes et quittances d'impôt"
+      - "Étude technico-économique justifiant le projet d'extension et sa rentabilité"
+      - "Factures proforma des nouveaux investissements et devis travaux"
+      - "Situation d'endettement bancaire globale (Centrale des Risques BCT)"
+      - "Extrait du Registre National des Entreprises (RNE) récent"
+    local_files:
+      - "grants_and_financial_aids/BFPME/Checklist_Extension_Entreprise.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Demande_Financement.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Notification_Financement.pdf"
+      - "grants_and_financial_aids/BFPME/Checklist_Deblocage.pdf"
+      - "grants_and_financial_aids/Business_Plan_Models/Modele_Business_Plan_Extension.xls"
+
+  - id: "bts-jeunes-diplomes-fonapram"
+    name: "BTS / FONAPRAM — Crédit Jeunes Diplômés & Petits Métiers"
+    provider: "Banque Tunisienne de Solidarité (BTS)"
+    program_type: "loan"
+    summary: "Crédits à taux préférentiel et sans garanties réelles hypothécaires pour les jeunes diplômés et artisans."
+    stages: ["creation", "extension"]
+    sectors: [] # all sectors
+    excluded_sectors: []
+    unverified:
+      max_investment_tnd: 150000
+      reason: "not stated on the cited page or elsewhere in the cited document (checked 2026-10-18); source requested from the catalogue author"
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: true
+    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S025_FONAPRAM_national_fund_for_crafts_and_small_trades_BTS_2019.pdf"
+    source_page: 1
+    official_form_link: "https://www.bts.com.tn/fr/services-en-ligne/demande-de-credit/"
+    required_documents:
+      - "Copie de la CIN du demandeur"
+      - "Copie du diplôme universitaire ou certificat d'homologation de formation professionnelle"
+      - "Fiche descriptive du projet et étude simplifiée de rentabilité"
+      - "Factures proforma des équipements ou matériel roulant utilitaire"
+      - "Contrat de location ou attestation de domiciliation du local"
+    local_files:
+      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S025_FONAPRAM_national_fund_for_crafts_and_small_trades_BTS_2019.pdf"
+
+  - id: "sotugar-dhamen-express"
+    name: "SOTUGAR — Garantie Dhamen Express"
+    provider: "SOTUGAR (Société Tunisienne de Garantie)"
+    program_type: "guarantee"
+    summary: "Mécanisme de couverture du risque de crédit bancaire pour les PME et startups afin de remplacer les garanties réelles ou personnelles."
+    stages: ["creation", "extension", "growth"]
+    sectors: []
+    excluded_sectors: ["commerce_detail", "commerce_pur", "commerce_traditionnel"]
+    unverified:
+      min_investment_tnd: 100000
+      max_investment_tnd: 5000000
+      reason: "not stated on the cited page or elsewhere in the cited document (checked 2026-10-18); source requested from the catalogue author"
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S030_SOTUGAR_credit_guarantee_schemes_Dhamen_Express_launch_artic.pdf"
+    source_page: 1
+    official_form_link: "https://www.sotugar.com.tn"
+    required_documents:
+      - "Dossier de demande de crédit instruit par la banque partenaire"
+      - "Étude technico-économique et plan d'affaires"
+      - "Fiche de renseignements SOTUGAR signée"
+      - "Extrait RNE de l'entreprise"
+    local_files:
+      - "grants_and_financial_aids/Credit_lines_solidarity_finance_and_guarantees/S030_SOTUGAR_credit_guarantee_schemes_Dhamen_Express_launch_artic.pdf"
+
+  - id: "startup-act"
+    name: "Startup Act — Label Startup & Avantages Fiscaux/Sociaux"
+    provider: "Startup Tunisia / Ministère des Technologies de la Communication"
+    program_type: "tax_incentive"
+    summary: "Cadre légal accordant le Label Startup (Loi 2018-20 & Décret 2018-840): exonération d'IS, prise en charge des charges patronales CNSS, bourse de startup et compte devises."
+    stages: ["idea", "creation", "growth"]
+    sectors: ["technologie", "tic", "digital", "deeptech", "fintech", "edtech", "healthtech", "cleantech", "greentech", "software", "energies_renouvelables"]
+    excluded_sectors: ["commerce_traditionnel", "commerce_pur", "activites_non_innovantes", "commerce_detail"]
+    max_employees: 100
+    requires_innovation: true
+    requires_label: false
+    requires_graduate: false
+    conditions:
+      max_company_age_years: 8
+      innovation_scalability: true
+    # 100 employees: Décret 2018-840 art. 3 (this page); 8 years: Loi 2018-20 art. 3.
+    source_file: "law/TUNISIA_LEGAL_BUSINESS_CORPUS/01_STARTUPS/01_STARTUP_ACT/Decret_2018-840_Startup_Implementation/JORT_2018-10-19_N84_FR_Decret_2018-840.pdf"
+    source_page: 24
+    official_form_link: "https://startup.gov.tn"
+    required_documents:
+      - "Pitch Deck complet présentant l'innovation technologique ou d'usage et la scalabilité"
+      - "Extrait RNE récent (si la société est déjà immatriculée)"
+      - "CV des fondateurs et tableau de répartition du capital (Cap Table)"
+      - "Dépôt du dossier sur le portail national startup.gov.tn"
+    local_files:
+      - "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S005_Startup_Act_Law_2018_20_and_label_procedures_Startup_Act_pag.pdf"
+
+  - id: "startup-air-grant"
+    name: "Startup Flywheel — Bourse AIR (Avance Remboursable / Subvention POC)"
+    provider: "Smart Capital / Caisse des Dépôts et Consignations (CDC)"
+    program_type: "grant"
+    summary: "Subvention / instrument d'amorçage pour financer la preuve de concept (POC) et le prototypage de startups labellisées ou pré-labellisées."
+    stages: ["idea", "creation", "early"]
+    sectors: ["technologie", "tic", "digital", "innovation", "software"]
+    unverified:
+      max_employees: 10
+      reason: "not stated on the cited page or elsewhere in the cited document (checked 2026-10-18); source requested from the catalogue author"
+    requires_innovation: true
+    requires_label: true
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S001_Startup_Tunisia_programmes_page_Programmes.pdf"
+    source_page: 1
+    official_form_link: "https://startup.gov.tn/programmes/air"
+    required_documents:
+      - "Attestation de Label Startup ou Pré-label en cours de validité"
+      - "Budget prévisionnel d'utilisation de la subvention AIR (dépenses R&D/POC éligibles)"
+      - "Spécifications techniques du prototype / produit minimum viable (MVP)"
+      - "Relevé d'identité bancaire (RIB) de l'entreprise ou du porteur"
+    local_files:
+      - "grants_and_financial_aids/Startup_Act_and_national_startup_funding_programme/S001_Startup_Tunisia_programmes_page_Programmes.pdf"
+
+  - id: "investment-regional-premium"
+    name: "Prime de Développement Régional (Loi 2016-71 & Décret 2017-389)"
+    provider: "TIA (Tunisia Investment Authority) / APII"
+    program_type: "grant"
+    summary: "Subvention financière directe de 15% (Groupe 1) ou 30% (Groupe 2) du coût d'investissement approuvé plafonné à 1.5M ou 3M TND dans les zones de développement régional."
+    stages: ["creation", "extension"]
+    sectors: ["industrie", "services", "tic", "technologie", "agroalimentaire", "artisanat", "energies_renouvelables", "recyclage", "greentech"]
+    excluded_sectors: ["commerce_detail", "commerce_pur", "commerce_traditionnel"]
+    # Governorates with at least one zone in Annexe 2 of décret 2017-389 (pages 16-19).
+    # Zones are delegations: in a listed governorate only the listed delegations qualify.
+    allowed_governorates:
+      - "jendouba"
+      - "kasserine"
+      - "kairouan"
+      - "siliana"
+      - "sidi bouzid"
+      - "kef"
+      - "tataouine"
+      - "beja"
+      - "gafsa"
+      - "medenine"
+      - "mahdia"
+      - "gabes"
+      - "kebili"
+      - "zaghouan"
+      - "tozeur"
+      - "bizerte"
+      - "sfax"
+      - "sousse"
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/Investment_incentives/linked/S012_Decret2017_389_Fr.pdf"
+    source_page: 4
+    conditions:
+      zones_by_delegation: "Annexe 2, pages 16-19"
+    official_form_link: "https://myinvest.tia.gov.tn"
+    required_documents:
+      - "Attestation de dépôt de déclaration d'investissement (TIA ou APII)"
+      - "Étude technico-économique validée avec plan d'investissement détaillé"
+      - "Contrat de propriété ou de location du terrain / local dans la zone éligible"
+      - "Attestation de libération d'au moins 30% des fonds propres"
+    local_files:
+      - "grants_and_financial_aids/Investment_incentives/linked/S012_Decret2017_389_Fr.pdf"
+
+  - id: "investment-incentives"
+    name: "Exonérations Fiscales de l'Investissement (Loi 2016-71)"
+    provider: "Ministère des Finances / DGI"
+    program_type: "tax_incentive"
+    summary: "Déduction totale ou partielle des bénéfices réinvestis et exonération d'impôt sur les sociétés pour les projets exportateurs ou implantés en ZDR."
+    stages: ["creation", "extension", "growth"]
+    sectors: ["industrie", "services", "tic", "technologie", "agroalimentaire", "artisanat", "energies_renouvelables", "software"]
+    excluded_sectors: ["commerce_detail", "commerce_pur", "commerce_traditionnel"]
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/Investment_incentives/linked/S012_LOI71_2016_fr.pdf"
+    source_page: 6
+    official_form_link: "https://www.finances.gov.tn"
+    required_documents:
+      - "Attestation de déclaration d'investissement sous le régime incitatif"
+      - "Quitus fiscal délivré par la recette des finances"
+      - "Liasse fiscale annuelle et états financiers certifiés"
+    local_files:
+      - "grants_and_financial_aids/Investment_incentives/linked/S012_LOI71_2016_fr.pdf"
+
+  - id: "giz-business-plan"
+    name: "Modèle et Accompagnement Plan d'Affaires GIZ"
+    provider: "GIZ"
+    program_type: "mixed"
+    summary: "Modèle de plan d'affaires standardisé et structuré pour la recherche de financements et subventions auprès des bailleurs de fonds."
+    stages: ["creation", "extension", "growth"]
+    sectors: []
+    excluded_sectors: ["commerce_detail", "commerce_pur", "commerce_traditionnel"]
+    requires_innovation: false
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/Business_Plan_Models/Modele_Plan_Affaires_GIZ.doc"
+    source_page: 1
+    official_form_link: "grants_and_financial_aids/Business_Plan_Models/Modele_Plan_Affaires_GIZ.doc"
+    required_documents:
+      - "Dossier de candidature rempli selon le canevas GIZ"
+      - "Étude de marché et plan d'opérations"
+      - "Prévisionnel financier sur 3 ans"
+    local_files:
+      - "grants_and_financial_aids/Business_Plan_Models/Modele_Plan_Affaires_GIZ.doc"
+
+  - id: "greentech-call"
+    name: "Appel à Projets Greentech & Transition Écologique"
+    provider: "Ministère de l'Environnement / ANME"
+    program_type: "grant"
+    summary: "Subvention et assistance technique pour les projets et startups innovantes dans la transition écologique, l'énergie propre et l'économie circulaire."
+    stages: ["creation", "early", "growth"]
+    sectors: ["greentech", "cleantech", "environnement", "energies_renouvelables", "recyclage", "agriculture_durable"]
+    excluded_sectors: ["commerce_detail", "commerce_pur"]
+    requires_innovation: true
+    requires_label: false
+    requires_graduate: false
+    source_file: "grants_and_financial_aids/International_donors_accelerators_and_calls/S041_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Africarrieres.pdf"
+    source_page: 1
+    official_form_link: "https://anme.tn"
+    required_documents:
+      - "Extrait du registre de commerce de la société, datant de moins de 3 mois"
+      - "Dossier technique de la solution écologique et mesure de l'impact environnemental"
+      - "Factures proforma des équipements verts / certifications"
+    local_files:
+      - "grants_and_financial_aids/International_donors_accelerators_and_calls/S041_Ecosystem_guides_Africarrieres_Startup_Map_Hub_Africarrieres.pdf"

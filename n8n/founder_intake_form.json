@@ -1,0 +1,352 @@
+{
+  "name": "Founder intake form",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "founder-intake",
+        "formTitle": "Tunisian startup check-up",
+        "formDescription": "Describe your project. You get, on one page, the legal form and creation steps (from Tunisian official texts) and the funding programmes that may fit.",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Describe your project",
+              "fieldType": "textarea",
+              "requiredField": true,
+              "placeholder": "Example: a mobile app that connects farmers with restaurants"
+            },
+            {
+              "fieldLabel": "Stage",
+              "fieldType": "dropdown",
+              "requiredField": true,
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Idea"
+                  },
+                  {
+                    "option": "Company creation"
+                  },
+                  {
+                    "option": "Expansion"
+                  },
+                  {
+                    "option": "Growth"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Sector",
+              "placeholder": "technology, industry, agrifood, services…"
+            },
+            {
+              "fieldLabel": "What do you need?",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Any support"
+                  },
+                  {
+                    "option": "Loan"
+                  },
+                  {
+                    "option": "Grant"
+                  },
+                  {
+                    "option": "Loan guarantee"
+                  },
+                  {
+                    "option": "Tax advantage"
+                  },
+                  {
+                    "option": "Guidance"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "Funding need (TND)",
+              "fieldType": "number",
+              "placeholder": "50000"
+            },
+            {
+              "fieldLabel": "Governorate",
+              "placeholder": "Tunis, Sfax, Kasserine…"
+            },
+            {
+              "fieldLabel": "Answer language",
+              "fieldType": "dropdown",
+              "requiredField": true,
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "English"
+                  },
+                  {
+                    "option": "Français"
+                  },
+                  {
+                    "option": "العربية"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "name": "Founder intake form",
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        300
+      ],
+      "id": "founder-intake-form",
+      "webhookId": "6f0c2b1e-4d7a-4f3e-9a51-2c8e5d1f0a11"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Turn the form answers into the inputs of the two API calls.\nconst f = $input.first().json;\nconst LANG = { \"English\": \"en\", \"Français\": \"fr\", \"العربية\": \"ar\" };\nconst STAGE = { \"Idea\": \"idea\", \"Company creation\": \"creation\", \"Expansion\": \"extension\", \"Growth\": \"growth\" };\nconst NEED = { \"Any support\": \"unspecified\", \"Loan\": \"loan\", \"Grant\": \"grant\", \"Loan guarantee\": \"guarantee\",\n               \"Tax advantage\": \"tax_incentive\", \"Guidance\": \"guidance\" };\n\nconst lang = LANG[f[\"Answer language\"]] || \"en\";\nconst description = String(f[\"Describe your project\"] || \"\").trim();\nconst stageLabel = f[\"Stage\"] || \"\";\nconst sector = String(f[\"Sector\"] || \"\").trim();\nconst amount = Number(String(f[\"Funding need (TND)\"] ?? \"\").replace(/[^\\d.]/g, \"\")) || null;\nconst governorate = String(f[\"Governorate\"] || \"\").trim();\n\n// The legal question goes to the orchestrator in the founder's language.\nconst STAGE_TEXT = {\n  en: { \"Idea\": \"idea\", \"Company creation\": \"creating the company\", \"Expansion\": \"expanding\", \"Growth\": \"growth\" },\n  fr: { \"Idea\": \"idée\", \"Company creation\": \"création de la société\", \"Expansion\": \"extension\", \"Growth\": \"croissance\" },\n  ar: { \"Idea\": \"فكرة\", \"Company creation\": \"تأسيس الشركة\", \"Expansion\": \"توسعة\", \"Growth\": \"نمو\" },\n};\nconst stageText = (STAGE_TEXT[lang] || STAGE_TEXT.en)[stageLabel] || stageLabel;\n// Asked as what the law states (partners, minimum capital per form), not \"which form should I\n// choose\": the legal agent only answers what it can quote, and the texts set rules, not advice.\nconst QUESTION = {\n  en: `Under Tunisian law, how many partners and what minimum capital are required to create a SARL, a SUARL and a société anonyme (SA)?`,\n  fr: `Selon le droit tunisien, combien d'associés et quel capital minimum faut-il pour créer une SARL, une SUARL et une société anonyme (SA) ?`,\n  ar: `حسب القانون التونسي، كم عدد الشركاء وما هو الحد الأدنى لرأس المال المطلوب لتأسيس شركة ذات مسؤولية محدودة، وشركة الشخص الواحد ذات المسؤولية المحدودة، وشركة خفية الاسم؟`,\n};\n\nreturn [{ json: {\n  request_id: `intake-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,\n  submitted_at: f.submittedAt,\n  lang,\n  description,\n  stage_label: stageLabel,\n  stage_text: stageText,\n  aid: {\n    stage: STAGE[stageLabel] || \"unspecified\",\n    sector,\n    need: NEED[f[\"What do you need?\"]] || \"unspecified\",\n    funding_need_tnd: amount,\n    governorate: governorate || null,\n    free_text: description,\n  },\n  question: QUESTION[lang],\n} }];\n"
+      },
+      "name": "Prepare requests",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        300
+      ],
+      "id": "prepare-requests"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.API_BASE_URL }}/api/aid/match",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "X-Session-Id",
+              "value": "={{ $json.request_id }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.aid) }}",
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "name": "Funding eligibility",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        200
+      ],
+      "id": "funding-eligibility",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.API_BASE_URL }}/api/chat",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ question: $json.question, session_id: $json.request_id, channel: 'n8n-form' }) }}",
+        "options": {
+          "timeout": 180000
+        }
+      },
+      "name": "Legal question",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        460,
+        400
+      ],
+      "id": "legal-question",
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {},
+      "name": "Wait for both",
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.1,
+      "position": [
+        700,
+        300
+      ],
+      "id": "wait-for-both"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Build one readable HTML report from the two API answers.\n// Shown to the founder right after the form, and saved as a record.\nconst req = $('Prepare requests').first().json;\nconst aid = $('Funding eligibility').first().json;\nconst chat = $('Legal question').first().json;\nconst lang = req.lang;\n\nconst T = {\n  en: { title: \"Your startup report\", legal: \"Legal form and company creation\", funding: \"Funding programmes that may fit\",\n        none: \"No programme in our catalogue matches these answers.\", docs: \"Documents usually requested (indicative)\",\n        confirm: \"To confirm with the provider (figure not found in our official sources)\", apply: \"Where to apply\",\n        notfit: \"Not a fit\", sources: \"Sources\", down: \"This part is unavailable right now. Please try again later.\",\n        note: \"Answers come from Tunisian official texts. The provider makes the final eligibility decision; check important decisions with a professional.\" },\n  fr: { title: \"Votre rapport startup\", legal: \"Forme juridique et création de la société\", funding: \"Programmes de financement possibles\",\n        none: \"Aucun programme de notre catalogue ne correspond à ces réponses.\", docs: \"Documents généralement demandés (indicatif)\",\n        confirm: \"À confirmer auprès de l'organisme (chiffre absent de nos sources officielles)\", apply: \"Où postuler\",\n        notfit: \"Non adaptés\", sources: \"Sources\", down: \"Cette partie est indisponible pour le moment. Réessayez plus tard.\",\n        note: \"Les réponses proviennent des textes officiels tunisiens. L'organisme décide de l'éligibilité ; vérifiez les décisions importantes avec un professionnel.\" },\n  ar: { title: \"تقرير مشروعك\", legal: \"الشكل القانوني وتأسيس الشركة\", funding: \"برامج التمويل الممكنة\",\n        none: \"لا يتوافق أي برنامج في الكتالوج مع هذه الإجابات.\", docs: \"الوثائق المطلوبة عادة (قائمة تقريبية)\",\n        confirm: \"يجب التثبت لدى الجهة المانحة (رقم غير موجود في مصادرنا الرسمية)\", apply: \"مكان التقديم\",\n        notfit: \"برامج غير مناسبة\", sources: \"المصادر\", down: \"هذا الجزء غير متوفر حاليا. أعد المحاولة لاحقا.\",\n        note: \"الإجابات مستمدة من النصوص الرسمية التونسية. القرار النهائي للجهة المانحة؛ تثبت من القرارات المهمة مع مختص.\" },\n}[lang];\n\nconst esc = (s) => String(s ?? \"\").replace(/&/g, \"&amp;\").replace(/</g, \"&lt;\").replace(/>/g, \"&gt;\").replace(/\"/g, \"&quot;\");\n// The chat answer is light markdown: headings, bold, bullets, line breaks.\nconst md = (text) => esc(text)\n  .replace(/^#{1,6}\\s*(.+)$/gm, \"<h4>$1</h4>\")\n  .replace(/\\*\\*(.+?)\\*\\*/g, \"<strong>$1</strong>\")\n  .replace(/^\\s*[-*•]\\s+(.+)$/gm, \"<li>$1</li>\")\n  .replace(/(<li>.*<\\/li>\\n?)+/g, (m) => `<ul>${m}</ul>`)\n  .replace(/\\n{2,}/g, \"<br><br>\").replace(/\\n/g, \"<br>\");\n\nconst LABELS = { min_investment_tnd: { en: \"minimum project cost (TND)\", fr: \"coût minimum du projet (TND)\", ar: \"الحد الأدنى لكلفة المشروع (د.ت)\" },\n                 max_investment_tnd: { en: \"maximum project cost (TND)\", fr: \"coût maximum du projet (TND)\", ar: \"الحد الأقصى لكلفة المشروع (د.ت)\" },\n                 max_employees: { en: \"maximum employees\", fr: \"nombre maximum d'employés\", ar: \"الحد الأقصى لعدد العاملين\" } };\nconst STAGES = { idea: { en: \"idea\", fr: \"idée\", ar: \"فكرة\" }, creation: { en: \"company creation\", fr: \"création\", ar: \"تأسيس\" },\n                 extension: { en: \"expansion\", fr: \"extension\", ar: \"توسعة\" }, growth: { en: \"growth\", fr: \"croissance\", ar: \"نمو\" } };\nconst word = (v) => (STAGES[v] && STAGES[v][lang]) || String(v).replace(/_/g, \" \");\nconst list = (s) => s.replace(/[[\\]']/g, \"\").split(\",\").map((v) => word(v.trim())).join(\", \");\n// Rules-engine reasons -> one sentence; the four common ones are translated, others are cleaned up.\nfunction reason(r) {\n  let m;\n  if ((m = r.match(/^Incompatible stage: requires (\\[.*\\])$/)))\n    return { en: `Only for these stages: ${list(m[1])}.`, fr: `Uniquement pour ces stades : ${list(m[1])}.`, ar: `فقط لهذه المراحل: ${list(m[1])}.` }[lang];\n  if ((m = r.match(/^Sector '(.+)' not in eligible sectors/)))\n    return { en: `Your sector (${m[1]}) is not covered.`, fr: `Votre secteur (${m[1]}) n'est pas couvert.`, ar: `قطاعك (${m[1]}) غير مشمول.` }[lang];\n  if ((m = r.match(/^Program type '(.+)' does not match requested need '(.+)'$/)))\n    return { en: \"It does not offer the type of support you asked for.\", fr: \"Il n'offre pas le type d'aide demandé.\", ar: \"لا يقدم نوع الدعم المطلوب.\" }[lang];\n  if ((m = r.match(/^Governorate '(.+)' is not an eligible regional development zone$/)))\n    return { en: `${m[1]} is not a regional development zone.`, fr: `${m[1]} n'est pas une zone de développement régional.`, ar: `${m[1]} ليست منطقة تنمية جهوية.` }[lang];\n  return r.replace(/[[\\]']/g, \"\");\n}\n\n// Legal part (from the orchestrator)\nlet legal;\nif (chat.error || !chat.answer) {\n  legal = `<p class=\"warn\">${esc(T.down)}</p>`;\n} else {\n  const sources = (chat.citations || []).map((c) =>\n    `<li>[${c.ref}] ${esc(c.act || c.title)}${c.article ? \", art. \" + esc(c.article) : \"\"}, p. ${esc(c.page)}</li>`).join(\"\");\n  legal = `<div class=\"answer\">${md(chat.answer)}</div>` + (sources ? `<p class=\"small\"><strong>${T.sources}</strong></p><ol class=\"small\">${sources}</ol>` : \"\");\n}\n\n// Funding part (from the rules engine; the API's LLM explanation is not used)\nlet funding;\nif (aid.error || !Array.isArray(aid.programs)) {\n  funding = `<p class=\"warn\">${esc(T.down)}</p>`;\n} else if (!aid.programs.length) {\n  funding = `<p>${esc(T.none)}</p>`;\n} else {\n  funding = aid.programs.map((p) => {\n    const confirm = Object.entries(p.unverified || {}).filter(([k]) => k !== \"reason\")\n      .map(([k, v]) => `${esc((LABELS[k] && LABELS[k][lang]) || k)}: ${Number(v).toLocaleString(\"en\")}`).join(\"; \");\n    const docs = (p.required_documents || []).map((d) => `<li>${esc(d)}</li>`).join(\"\");\n    const link = p.official_form_link || \"\";\n    const apply = /^https?:\\/\\//.test(link) ? `<p><strong>${T.apply}:</strong> <a href=\"${esc(link)}\">${esc(link.replace(/^https?:\\/\\//, \"\"))}</a></p>` : \"\";\n    return `<div class=\"card\"><h3>${esc(p.name)}</h3><p>${esc(p.provider)}. ${esc(p.summary)}</p>` +\n      (confirm ? `<p class=\"warn\">${T.confirm}: ${confirm}</p>` : \"\") +\n      (docs ? `<p class=\"small\"><strong>${T.docs}</strong></p><ul class=\"small\">${docs}</ul>` : \"\") + apply + `</div>`;\n  }).join(\"\");\n}\nconst notfit = (aid.excluded_programs || []).map((e) =>\n  `<li><strong>${esc(e.name)}</strong>: ${esc((e.reasons || []).map(reason).join(\" \"))}</li>`).join(\"\");\nif (notfit) funding += `<details><summary>${T.notfit} (${aid.excluded_programs.length})</summary><ul class=\"small\">${notfit}</ul></details>`;\n\nconst dir = lang === \"ar\" ? \"rtl\" : \"ltr\";\nconst html = `<div dir=\"${dir}\" class=\"report\">\n<style>\n.report{font-family:\"Segoe UI\",Candara,sans-serif;max-width:860px;margin:2rem auto;padding:0 1rem;color:#1e1a16;line-height:1.55}\n.report h1{font-family:Georgia,serif;margin:0 0 .3rem}.report h2{font-family:Georgia,serif;border-bottom:1px solid #ddd4c4;padding-bottom:.3rem;margin-top:2rem}\n.report .card{border:1px solid #ddd4c4;border-radius:.8rem;padding:1rem;margin:.8rem 0;background:#fffdf8}.report .card h3{margin:0 0 .3rem}\n.report .small{font-size:.9rem;color:#5e564c}.report .warn{color:#8a5a12}.report .answer{background:#fffdf8;border:1px solid #ddd4c4;border-radius:.8rem;padding:1rem}\n.report .meta{color:#5e564c}.report .note{font-size:.85rem;color:#5e564c;margin-top:2rem}\n</style>\n<h1>${T.title}</h1>\n<p class=\"meta\">${esc(req.description)} · ${esc(req.stage_text || req.stage_label)}${req.aid.sector ? \" · \" + esc(req.aid.sector) : \"\"}${req.aid.governorate ? \" · \" + esc(req.aid.governorate) : \"\"}</p>\n<h2>${T.legal}</h2>${legal}\n<h2>${T.funding}</h2>${funding}\n<p class=\"note\">${esc(T.note)}</p>\n</div>`;\n\nreturn [{ json: {\n  html,\n  record: {\n    request_id: req.request_id, submitted_at: req.submitted_at, lang, description: req.description,\n    profile: req.aid, question: req.question,\n    legal: { answer: chat.answer || null, agents: (chat.plan?.steps || []).map((s) => s.agent), citations: (chat.citations || []).length,\n             verification: chat.verification || null, error: chat.error?.message || null },\n    funding: { eligible: (aid.programs || []).map((p) => p.id), excluded: (aid.excluded_programs || []).map((e) => e.program_id),\n               error: aid.error?.message || null },\n  },\n} }];\n"
+      },
+      "name": "Build report",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        920,
+        300
+      ],
+      "id": "build-report"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "={{ $json.html }}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "text/html; charset=utf-8"
+              }
+            ]
+          }
+        }
+      },
+      "name": "Show report",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1160,
+        200
+      ],
+      "id": "show-report"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "mode": "each",
+        "options": {
+          "format": true,
+          "fileName": "={{ $json.record.request_id }}.json"
+        }
+      },
+      "name": "Record as JSON",
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        1160,
+        400
+      ],
+      "id": "record-as-json"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/files/intake/{{ $('Build report').item.json.record.request_id }}.json",
+        "dataPropertyName": "data",
+        "options": {}
+      },
+      "name": "Save record",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1380,
+        400
+      ],
+      "id": "save-record",
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "connections": {
+    "Founder intake form": {
+      "main": [
+        [
+          {
+            "node": "Prepare requests",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare requests": {
+      "main": [
+        [
+          {
+            "node": "Funding eligibility",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Legal question",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Funding eligibility": {
+      "main": [
+        [
+          {
+            "node": "Wait for both",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Legal question": {
+      "main": [
+        [
+          {
+            "node": "Wait for both",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Wait for both": {
+      "main": [
+        [
+          {
+            "node": "Build report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build report": {
+      "main": [
+        [
+          {
+            "node": "Show report",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Record as JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Record as JSON": {
+      "main": [
+        [
+          {
+            "node": "Save record",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {}
+}

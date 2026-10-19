@@ -62,10 +62,11 @@ H = {"X-Session-Id": "test-session-1"}
 
 
 def test_router_sends_business_plan_questions_to_bp():
+    # Updated for the LangGraph orchestrator: routing now shows as the agents in the plan.
     body = _client().post("/api/chat", json={"question": "Peux-tu relire mon business plan ?"}).json()
-    assert body["intent"] == "bp"
+    assert "business_plan" in [s["agent"] for s in body["plan"]["steps"]]
     aid = _client().post("/api/chat", json={"question": "Quels documents BFPME pour une subvention ?"}).json()
-    assert aid["intent"] == "aid"
+    assert "grants" in [s["agent"] for s in aid["plan"]["steps"]]
 
 
 def test_chat_and_aid_feed_the_session_profile():

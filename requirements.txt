@@ -1,8 +1,9 @@
-# Tunisian Legal & Financial Assistant
-# Python 3.11+
-# Install: pip install -r requirements.txt
+# Tunisian Legal & Financial Assistant: main app (backend/, port 8000)
+# Python 3.10 to 3.12. Installed into .venv by install.cmd.
+# The fraud and business-plan services have their own environments:
+#   requirements-fraud.txt (.venv-fraud)   services/bp/requirements-dev.txt (.venv-bp)
 
-# --- Web application (used by this scaffold) ---
+# --- Web application ---
 fastapi>=0.115.6
 uvicorn[standard]>=0.34.0
 pydantic>=2.10.0
@@ -13,20 +14,18 @@ httpx>=0.28.0
 # --- Tests ---
 pytest>=8.3.0
 
-# --- Ingestion (wire up in modules/rag/ingestion) ---
-pypdf>=5.1.0
+# --- Ingestion: page text, font repair, page rendering for OCR ---
+pymupdf>=1.25.0
+pyyaml>=6.0
 
-# --- Retrieval (wire up in modules/rag/retrieval and services/vectorstore) ---
+# --- Retrieval: ONNX embeddings and reranker on CPU (no PyTorch), vectors, BM25 ---
+fastembed>=0.5.0
 qdrant-client>=1.13.0
 rank-bm25>=0.2.2
+numpy>=1.26
 
-# --- Workflow and local models (wire up in graph/ and services/) ---
+# --- Orchestration and LLM providers (Groq, Gemini via OpenAI-compatible APIs) ---
 langgraph>=0.2.60
-ollama>=0.4.7
-
-# --- Evaluation (wire up in eval/ and the MLflow service) ---
-mlflow>=2.20.0
-
-# bge-m3 embeddings are planned. Install when the embedding service is implemented.
-# Prefer Ollama's embedding endpoint first so this environment does not need PyTorch.
-# sentence-transformers>=3.4.0
+openai>=1.60.0
+python-docx>=1.2.0
+Pillow>=10.0
